@@ -1,0 +1,857 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Solve Quadratic Equations in Quadratic Form</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m63464</md:content-id>
+  <md:title>Solve Quadratic Equations in Quadratic Form</md:title>
+  <md:abstract>By the end of this section, you will be able to:
+<list>
+<item>Solve equations in quadratic form</item>
+</list></md:abstract>
+  <md:uuid>48820a47-b89e-428f-9534-a71207245a16</md:uuid>
+</metadata>
+
+<content>
+<note id="fs-id1167836387267" class="be-prepared">
+<para id="fs-id1167836611861">Before you get started, take this readiness quiz.</para>
+<list id="fs-id1167833066309" list-type="enumerated" number-style="arabic">
+<item>Factor by substitution: <m:math><m:mrow><m:msup><m:mi>y</m:mi><m:mn>4</m:mn></m:msup><m:mo>−</m:mo><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>20</m:mn><m:mo>.</m:mo></m:mrow></m:math><newline/>
+If you missed this problem, review <link target-id="fs-id1167829908071" document="m63358"/>.</item>
+<item>Factor by substitution: <m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>8</m:mn><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mn>15</m:mn><m:mo>.</m:mo></m:mrow></m:math><newline/>
+If you missed this problem, review <link target-id="fs-id1167836320647" document="m63358"/>.</item>
+<item>Simplify: <span class="token">ⓐ</span> <m:math><m:mrow><m:msup><m:mi>x</m:mi><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow></m:msup><m:mo>·</m:mo><m:msup><m:mi>x</m:mi><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>4</m:mn></m:mfrac></m:mrow></m:msup></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msup><m:mi>x</m:mi><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac></m:mrow></m:msup></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math> <span class="token">ⓒ</span> <m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msup><m:mi>x</m:mi><m:mrow><m:mn>−1</m:mn></m:mrow></m:msup></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math><newline/>
+If you missed this problem, review <link target-id="fs-id1169147740829" document="m63402"/>.</item>
+</list>
+</note>
+<section id="fs-id1167829717106">
+<title>Solve Equations in Quadratic Form</title>
+<para id="fs-id1167826131862">Sometimes when we factored trinomials, the trinomial did not appear to be in the <emphasis effect="italics">ax</emphasis><sup>2</sup> + <emphasis effect="italics">bx</emphasis> + <emphasis effect="italics">c</emphasis> form. So we factored by substitution allowing us to make it fit the <emphasis effect="italics">ax</emphasis><sup>2</sup> + <emphasis effect="italics">bx</emphasis> + <emphasis effect="italics">c</emphasis> form. We used the standard <m:math><m:mi>u</m:mi></m:math> for the substitution.</para>
+<para id="fs-id1167826130467">To factor the expression <emphasis effect="italics">x</emphasis><sup>4</sup> − 4<emphasis effect="italics">x</emphasis><sup>2</sup> − 5, we noticed the variable part of the middle term is <emphasis effect="italics">x</emphasis><sup>2</sup> and its square, <emphasis effect="italics">x</emphasis><sup>4</sup>, is the variable part of the first term. (We know <m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:msup><m:mi>x</m:mi><m:mn>4</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math>) So we let <emphasis effect="italics">u</emphasis> = <emphasis effect="italics">x</emphasis><sup>2</sup> and factored.</para>
+<table id="fs-id1167824774147" class="unnumbered unstyled" summary="Start with the expression x to the fourth power minus 4 x squared minus 5. Rewrite the expression as the square of x squared minus 4 times x squared minus 5. Let u equal x squared and substitute u into the expression to yield u squared minus 4 u minus 5. Factor the trinomial as the product of u plus 1 and u minus 5. Replace u with x squared to get the product of x squared plus 1 and x squared minus 5.">
+<label/>
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<tbody>
+<row>
+<entry/>
+<entry valign="top" align="center"><media id="fs-id1167836444997" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_09_04_001a_img.jpg"/>
+</media>
+</entry>
+</row>
+<row>
+<entry/>
+<entry valign="top" align="center"><media id="fs-id1167836294689" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_09_04_001b_img.jpg"/>
+</media>
+</entry>
+</row>
+<row>
+<entry valign="top" align="left">Let <m:math><m:mrow><m:mi>u</m:mi><m:mo>=</m:mo><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math> and substitute.</entry>
+<entry valign="top" align="center"><media id="fs-id1167836440485" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_09_04_001c_img.jpg"/>
+</media>
+</entry>
+</row>
+<row>
+<entry valign="top" align="left">Factor the trinomial.</entry>
+<entry valign="top" align="center"><media id="fs-id1167833096382" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_09_04_001d_img.jpg"/>
+</media>
+</entry>
+</row>
+<row>
+<entry valign="top" align="left">Replace <emphasis effect="italics">u</emphasis> with <m:math><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math>.</entry>
+<entry valign="top" align="center"><media id="fs-id1167829747325" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_09_04_001e_img.jpg"/>
+</media>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<para id="fs-id1167829694860">Similarly, sometimes an equation is not in the <emphasis effect="italics">ax</emphasis><sup>2</sup> + <emphasis effect="italics">bx</emphasis> + <emphasis effect="italics">c</emphasis> = 0 form but looks much like a quadratic equation. Then, we can often make a thoughtful substitution that will allow us to make it fit the <emphasis effect="italics">ax</emphasis><sup>2</sup> + <emphasis effect="italics">bx</emphasis> + <emphasis effect="italics">c</emphasis> = 0 form. If we can make it fit the form, we can then use all of our methods to solve quadratic equations.</para>
+<para id="fs-id1167833345138">Notice that in the quadratic equation <emphasis effect="italics">ax</emphasis><sup>2</sup> + <emphasis effect="italics">bx</emphasis> + <emphasis effect="italics">c</emphasis> = 0, the middle term has a variable, <emphasis effect="italics">x</emphasis>, and its square, <emphasis effect="italics">x</emphasis><sup>2</sup>, is the variable part of the first term. Look for this relationship as you try to find a substitution.</para>
+<para id="fs-id1167826169624">Again, we will use the standard <emphasis effect="italics">u</emphasis> to make a substitution that will put the equation in quadratic form. If the substitution gives us an equation of the form <emphasis effect="italics">ax</emphasis><sup>2</sup> + <emphasis effect="italics">bx</emphasis> + <emphasis effect="italics">c</emphasis> = 0, we say the original equation was of <term>quadratic form</term>.</para>
+<para id="fs-id1167824764495">The next example shows the steps for solving an equation in quadratic form.</para>
+<example id="fs-id1167836561327">
+<title>How to Solve Equations in Quadratic Form</title>
+<exercise id="fs-id1167836519219">
+<problem id="fs-id1167836690217">
+<para id="fs-id1167836495586">Solve: <m:math><m:mrow><m:mn>6</m:mn><m:msup><m:mi>x</m:mi><m:mn>4</m:mn></m:msup><m:mo>−</m:mo><m:mn>7</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>2</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167829850393">
+<media id="fs-id1167832971240" alt="Step 1 is to identify a substitution that will put the equation in quadratic form. Look at the equation 6 x to the fourth power minus 7 x squared plus 2 equals 0. Since the square of x squared equals x to the fourth, let u equals x squared.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_09_04_002a_img_new.jpg"/>
+</media>
+<media id="fs-id1167829620906" alt="Step 2 is to rewrite the equation with the substitution to put it in quadratic form. Rewrite the equation to prepare for the substitution to show 6 times the square of x squared minus 7 times x squared plus 2 equals 0. Substitute u equals x squared to get the new equation 6 times u squared minus 7 u plus 2 equals 0.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_09_04_002b_img_new.jpg"/>
+</media>
+<media id="fs-id1167836363445" alt="Step 3 is to solve the quadratic equation for u. We can solve by factoring, so rewrite the equation as the product of 2 u minus 1 and 3 u minus 2 equals 0. Use the Zero Product Property to create 2 equations. If 2 u minus 1 equals 0, then 2u equals one, so u equals one half. If 3 u minus 2 equals 0, then 3 u equals 2 and u equals two thirds.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_09_04_002c_img_new.jpg"/>
+</media>
+<media id="fs-id1167829578559" alt="In step 4, substitute the original variable back into the results. In this case replace u with x squared. So u equals one half becomes x squared equals one half and u equals two thirds becomes x squared equals two thirds.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_09_04_002d_img_new.jpg"/>
+</media>
+<media id="fs-id1167836512836" alt="Step 5 is to solve for the original variable, so use the Square Root Property to solve for x. If x squared equals one half, then x equals the positive or negative square root of one half. Rationalize the denominator to see that x equals the positive or negative square root of 2 divided by 2. If x squared equals two thirds, then x equals the positive or negative square root of two thirds. Rationalize the denominator to see that x equals the positive or negative square root of 6 divided by 3.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_09_04_002e_img_new.jpg"/>
+</media>
+<media id="fs-id1167832999026" alt="In step 6, check your solutions. We will show one check here, x equals square root 2 divided by 2. Substitute this value into the original equation. 6 times the fourth power of the quotient square root 2 divided by 2 minus 7 times the square of the quotient square root of 2 divided by 2 plus 2. Does this expression equal 0? Simplify the powers. 6 times four sixteenths minus 7 times two fourths plus 2. Simplify terms. Three halves minus seven halves plus four halves equals zero. Square root 2 divided by 2 is a solution. We leave the other checks to you!">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_09_04_002f_img_new.jpg"/>
+</media>
+</solution>
+</exercise>
+</example>
+<note id="fs-id1167826128131" class="try">
+<exercise id="fs-id1167829931396">
+<problem id="fs-id1167833381523">
+<para id="fs-id1167824652260">Solve: <m:math><m:mrow><m:msup><m:mi>x</m:mi><m:mn>4</m:mn></m:msup><m:mo>−</m:mo><m:mn>6</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>8</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>.</para>
+</problem>
+<solution id="fs-id1167833066687">
+<para id="fs-id1167829752238"><m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:msqrt><m:mn>2</m:mn></m:msqrt><m:mo>,</m:mo><m:mi>x</m:mi><m:mo>=</m:mo><m:mtext>−</m:mtext><m:msqrt><m:mn>2</m:mn></m:msqrt><m:mo>,</m:mo><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>−2</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1167832999129" class="try">
+<exercise id="fs-id1167824585372">
+<problem id="fs-id1167829745832">
+<para id="fs-id1167836495425">Solve: <m:math><m:mrow><m:msup><m:mi>x</m:mi><m:mn>4</m:mn></m:msup><m:mo>−</m:mo><m:mn>11</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>28</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>.</para>
+</problem>
+<solution id="fs-id1167833020666">
+<para id="fs-id1167824735327"><m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:msqrt><m:mn>7</m:mn></m:msqrt><m:mo>,</m:mo><m:mi>x</m:mi><m:mo>=</m:mo><m:mtext>−</m:mtext><m:msqrt><m:mn>7</m:mn></m:msqrt><m:mo>,</m:mo><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>−2</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<para id="fs-id1167829843991">We summarize the steps to solve an equation in quadratic form.</para>
+<note id="fs-id1167824755292" class="howto">
+<title>Solve equations in quadratic form.</title>
+<list id="fs-id1167836609968" list-type="enumerated" number-style="arabic" class="stepwise">
+<item>Identify a substitution that will put the equation in quadratic form.</item>
+<item>Rewrite the equation with the substitution to put it in quadratic form.</item>
+<item>Solve the quadratic equation for <emphasis effect="italics">u</emphasis>.</item>
+<item>Substitute the original variable back into the results, using the substitution.</item>
+<item>Solve for the original variable.</item>
+<item>Check the solutions.</item>
+</list>
+</note>
+<para id="fs-id1167836282817">In the next example, the binomial in the middle term, (<emphasis effect="italics">x</emphasis> − 2) is squared in the first term. If we let <emphasis effect="italics">u</emphasis> = <emphasis effect="italics">x</emphasis> − 2 and substitute, our trinomial will be in <emphasis effect="italics">ax</emphasis><sup>2</sup> + <emphasis effect="italics">bx</emphasis> + <emphasis effect="italics">c</emphasis> form.</para>
+<example id="fs-id1167836333710">
+<exercise id="fs-id1167825009206">
+<problem id="fs-id1167826131376">
+<para id="fs-id1167829747005">Solve: <m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>7</m:mn><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mn>12</m:mn><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836537015">
+<table id="fs-id1167824735246" class="unnumbered unstyled" summary="Write the equation. The square of x minus 2 plus 7 times the expression x minus 2 plus 12 equals zero. Prepare for the substitution by viewing x − 2 as a variable. Let u equal x minus 2 and substitute. The equation becomes u squared plus 7 u plus 12 equals 0. Factor the expression on the left side of the equation. The product of u plus 3 and u plus 4 equals 0. By the Zero Product Property, u plus 3 equals 0 or u plus 4 equals 0. So u equals negative 3 or u equals negative 4. Replace u with x minus 2 and solve for x. If u equals negative 3, then x minus 2 equals negative 3 and x equals negative 1. If u equals negative 4, then x minus 2 equals negative 4 and x equals negative 2. Check the solutions. Start with x equals negative one. Substitute negative one for x in the left-hand side of the original equation to get square of negative one minus two plus seven times the expression negative one minus two plus twelve. We need to show that this expression equals zero. Simplify to yield the square of negative three plus seven times negative three plus twelve, or nine minus twenty-one plus twelve which equals zero. X equals negative one is a solution. Next, check x equals negative two. Substitute negative two for x in the left-hand side of the original equation to get square of negative two minus two plus seven times the expression negative two minus two plus twelve. We need to show that this expression equals zero. Simplify to yield the square of negative four plus seven times negative four plus twelve, or sixteen minus twenty-eight plus twelve which equals zero. X equals negative two is a solution.">
+<label/>
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<tbody>
+<row>
+<entry/>
+<entry valign="top" align="left">
+<media id="fs-id1167829749329" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_09_04_003b_img.jpg"/>
+</media>
+</entry>
+</row>
+<row>
+<entry valign="top" align="left">Prepare for the substitution.</entry>
+<entry valign="top" align="left"><media id="fs-id1167824652294" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_09_04_003c_img.jpg"/>
+</media>
+</entry>
+</row>
+<row>
+<entry valign="top" align="left">Let <m:math><m:mrow><m:mi>u</m:mi><m:mo>=</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow></m:math> and substitute.</entry>
+<entry valign="top" align="left">
+<media id="fs-id1167836356562" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_09_04_003d_img.jpg"/>
+</media>
+</entry>
+</row>
+<row>
+<entry valign="top" align="left">Solve by factoring.</entry>
+<entry valign="top" align="left">
+<media id="fs-id1167836791325" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_09_04_003e_img.jpg"/>
+</media><newline/><media id="fs-id1167836527130" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_09_04_003f_img.jpg"/>
+</media><newline/><media id="fs-id1167832935517" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_09_04_003g_img.jpg"/>
+</media>
+</entry>
+</row>
+<row>
+<entry valign="top" align="left">Replace <m:math><m:mi>u</m:mi></m:math> with <m:math><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mo>.</m:mo></m:mrow></m:math></entry>
+<entry valign="top" align="left">
+<media id="fs-id1167829849398" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_09_04_003h_img.jpg"/>
+</media>
+</entry>
+</row>
+<row>
+<entry valign="top" align="left">Solve for <m:math><m:mi>x</m:mi><m:mo>.</m:mo></m:math></entry>
+<entry valign="top" align="left">
+<media id="fs-id1167824734382" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_09_04_003i_img.jpg"/>
+</media>
+</entry>
+</row>
+<row>
+<entry valign="top" align="left">Check:<newline/><newline/>
+<media id="fs-id1167833046823" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_09_04_003a_img.jpg"/>
+</media>
+</entry>
+<entry/>
+</row>
+</tbody>
+</tgroup>
+</table>
+</solution>
+</exercise>
+</example>
+<note id="fs-id1167836729121" class="try">
+<exercise id="fs-id1167829849616">
+<problem id="fs-id1167836686218">
+<para id="fs-id1167836792975">Solve: <m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>6</m:mn><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mn>8</m:mn><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836621274">
+<para id="fs-id1167829593750"><m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>3</m:mn><m:mo>,</m:mo><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1167833186416" class="try">
+<exercise id="fs-id1167833017969">
+<problem id="fs-id1167836504112">
+<para id="fs-id1167833024056">Solve: <m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>8</m:mn><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mn>15</m:mn><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836542459">
+<para id="fs-id1167829620974"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−1</m:mn><m:mo>,</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<para id="fs-id1167833369395">In the next example, we notice that <m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msqrt><m:mi>x</m:mi></m:msqrt></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mi>x</m:mi><m:mo>.</m:mo></m:mrow></m:math> Also, remember that when we square both sides of an equation, we may introduce extraneous roots. Be sure to check your answers!</para>
+<example id="fs-id1167836791712">
+<exercise id="fs-id1167836705086">
+<problem id="fs-id1167836729261">
+<para id="fs-id1167836730404">Solve: <m:math><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:msqrt><m:mi>x</m:mi></m:msqrt><m:mo>+</m:mo><m:mn>2</m:mn><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167829907663">
+<para id="fs-id1167836573149">The <m:math><m:mrow><m:msqrt><m:mi>x</m:mi></m:msqrt></m:mrow></m:math> in the middle term, is squared in the first term <m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msqrt><m:mi>x</m:mi></m:msqrt></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mi>x</m:mi><m:mo>.</m:mo></m:mrow></m:math> If we let <m:math><m:mrow><m:mi>u</m:mi><m:mo>=</m:mo><m:msqrt><m:mi>x</m:mi></m:msqrt></m:mrow></m:math> and substitute, our trinomial will be in <emphasis effect="italics">ax</emphasis><sup>2</sup> + <emphasis effect="italics">bx</emphasis> + <emphasis effect="italics">c</emphasis> = 0 form.</para>
+<table id="fs-id1167829596626" class="unnumbered unstyled" summary="Write the equation. The x minus 3 times the square root of x plus 2 equals zero. Rewrite the x as the square of square root x to prepare for the substitution. Let u equal square root x and substitute. The equation becomes u squared minus 3 u plus 2 equals 0. Factor the expression on the left side of the equation. The product of u minus 3 and u minus 1 equals 0. By the Zero Product Property, u minus 2 equals 0 or u minus 1 equals 0. So u equals 1 or u equals 1. Replace u with square root x and solve for x by squaring both sides. If u equals 2, then square root x equals 2 and x equals 4. If u equals 1, then square root x equals 1 and x equals 1. Check the solutions. Start with x equals 4. Substitute 4 for x in the left-hand side of the original equation to get 4 minus 3 times square root 4 plus 2. We need to show that this expression equals zero. Simplify to yield 4 minus 6 plus 2 which equals zero. X equals 4 is a solution. Next, check x equals 1. Substitute 1 for x in the left-hand side of the original equation to get 1 minus 3 times square root 1 plus 2. We need to show that this expression equals zero. Simplify to yield 1 minus 3 plus 2 which equals zero. X equals 1 is a solution.">
+<label/>
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<tbody>
+<row>
+<entry/>
+<entry valign="top" align="left">
+<media id="fs-id1167829717048" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_09_04_004b_img.jpg"/>
+</media>
+</entry>
+</row>
+<row>
+<entry valign="top" align="left">Rewrite the trinomial to prepare for the substitution.</entry>
+<entry valign="top" align="left">
+<media id="fs-id1167833257740" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_09_04_004c_img.jpg"/>
+</media>
+</entry>
+</row>
+<row>
+<entry valign="top" align="left">Let <m:math><m:mrow><m:mi>u</m:mi><m:mo>=</m:mo><m:msqrt><m:mi>x</m:mi></m:msqrt></m:mrow></m:math> and substitute.</entry> <entry valign="top" align="left">
+<media id="fs-id1167836393210" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_09_04_004d_img.jpg"/>
+</media>
+</entry>
+</row>
+<row>
+<entry valign="top" align="left">Solve by factoring.</entry>
+<entry valign="top" align="left">
+<media id="fs-id1167829751580" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_09_04_004e_img.jpg"/>
+</media><newline/><media id="fs-id1167836666693" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_09_04_004f_img.jpg"/>
+</media><newline/><media id="fs-id1167824617277" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_09_04_004g_img.jpg"/>
+</media>
+</entry>
+</row>
+<row>
+<entry valign="top" align="left">Replace <emphasis effect="italics">u</emphasis> with <m:math><m:mrow><m:msqrt><m:mi>x</m:mi></m:msqrt><m:mo>.</m:mo></m:mrow></m:math></entry>
+<entry valign="top" align="left">
+<media id="fs-id1167829696931" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_09_04_004h_img.jpg"/>
+</media>
+</entry>
+</row>
+<row>
+<entry valign="top" align="left">Solve for <emphasis effect="italics">x</emphasis>, by squaring both sides.</entry>
+<entry valign="top" align="left">
+<media id="fs-id1167836356384" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_09_04_004i_img.jpg"/>
+</media>
+</entry>
+</row>
+<row>
+<entry valign="top" align="left">Check:<newline/><newline/>
+<media id="fs-id1167829732080" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_09_04_004a_img.jpg"/>
+</media>
+</entry>
+<entry/>
+</row>
+</tbody>
+</tgroup>
+</table>
+</solution>
+</exercise>
+</example>
+<note id="fs-id1167829738128" class="try">
+<exercise id="fs-id1167826152334">
+<problem id="fs-id1167833350833">
+<para id="fs-id1167836614269">Solve: <m:math><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>7</m:mn><m:msqrt><m:mi>x</m:mi></m:msqrt><m:mo>+</m:mo><m:mn>12</m:mn><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836534734">
+<para id="fs-id1167836362655"><m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>9</m:mn><m:mo>,</m:mo><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>16</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1167836448140" class="try">
+<exercise id="fs-id1167836775158">
+<problem id="fs-id1167829712846">
+<para id="fs-id1167836530489">Solve: <m:math><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>6</m:mn><m:msqrt><m:mi>x</m:mi></m:msqrt><m:mo>+</m:mo><m:mn>8</m:mn><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836497713">
+<para id="fs-id1167836538695"><m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>4</m:mn><m:mo>,</m:mo><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>16</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<para id="fs-id1167829809763">Substitutions for rational exponents can also help us solve an equation in quadratic form. Think of the properties of exponents as you begin the next example.</para>
+<example id="fs-id1167833397010">
+<exercise id="fs-id1167836515790">
+<problem id="fs-id1167829715551">
+<para id="fs-id1167829850601">Solve: <m:math><m:mrow><m:msup><m:mi>x</m:mi><m:mrow><m:mfrac><m:mn>2</m:mn><m:mn>3</m:mn></m:mfrac></m:mrow></m:msup><m:mo>−</m:mo><m:mn>2</m:mn><m:msup><m:mi>x</m:mi><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac></m:mrow></m:msup><m:mo>−</m:mo><m:mn>24</m:mn><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836326033">
+<para id="fs-id1167824584008">The <m:math><m:mrow><m:msup><m:mi>x</m:mi><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac></m:mrow></m:msup></m:mrow></m:math> in the middle term is squared in the first term <m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msup><m:mi>x</m:mi><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac></m:mrow></m:msup></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:msup><m:mi>x</m:mi><m:mrow><m:mfrac><m:mn>2</m:mn><m:mn>3</m:mn></m:mfrac></m:mrow></m:msup><m:mo>.</m:mo></m:mrow></m:math> If we let <m:math><m:mrow><m:mi>u</m:mi><m:mo>=</m:mo><m:msup><m:mi>x</m:mi><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac></m:mrow></m:msup></m:mrow></m:math> and substitute, our trinomial will be in <emphasis effect="italics">ax</emphasis><sup>2</sup> + <emphasis effect="italics">bx</emphasis> + <emphasis effect="italics">c</emphasis> = 0 form.</para>
+<table id="fs-id1167833007178" class="unnumbered unstyled can-break" summary="Write the equation. X to the two-thirds power minus 2 times x to the one-third power minus 24 equals zero. Rewrite x to the two-thirds power as the square of x to the one-third power to prepare for the substitution. Let u equal the one-third power of x and substitute. The equation becomes u squared minus 2 u minus 24 equals 0. Factor the expression on the left side of the equation. The product of u minus 6 and u plus 4 equals 0. By the Zero Product Property, u minus 6 equals 0 or u plus 4 equals 0. So u equals 6 or u equals negative 4. Replace u with x to the one-third power and solve for x by cubing both sides. If u equals 6, then x to the one-third power equals 6, so x equals 6 cubed, or 216. If u equals negative 4, then x to the one-third power equals negative 4, so x equals the cube of negative 4, or negative 64. Check the solutions. Start with x equals 216. Substitute 216 for x in the left-hand side of the original equation to get 216 to the two-thirds power minus 2 times 216 to the one-third power minus 24. We need to show that this expression equals zero. Simplify to yield 36 minus 12 minus 24 which equals zero. X equals 216 is a solution. Next, check x equals negative 64. Substitute negative 64 for x in the left-hand side of the original equation to get negative 4 to the two-thirds power minus 2 times negative 4 to the one-third power minus 24. We need to show that this expression equals zero. Simplify to yield 16 plus 8 minus 24 which equals zero. X equals negative 64 is a solution.">
+<label/>
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<tbody>
+<row>
+<entry/>
+<entry valign="top" align="left">
+<media id="fs-id1167836627734" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_09_04_005b_img.jpg"/>
+</media>
+</entry>
+</row>
+<row>
+<entry valign="top" align="left">Rewrite the trinomial to prepare for the substitution.</entry>
+<entry valign="top" align="left">
+<media id="fs-id1167829586684" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_09_04_005c_img.jpg"/>
+</media>
+</entry>
+</row>
+<row>
+<entry valign="top" align="left">Let <m:math><m:mrow><m:mi>u</m:mi><m:mo>=</m:mo><m:msup><m:mi>x</m:mi><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac></m:mrow></m:msup></m:mrow></m:math> and substitute.</entry>
+<entry valign="top" align="left">
+<media id="fs-id1167824694795" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_09_04_005d_img.jpg"/>
+</media>
+</entry>
+</row>
+<row>
+<entry valign="top" align="left">Solve by factoring.</entry>
+<entry valign="top" align="left">
+<media id="fs-id1167829748215" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_09_04_005e_img.jpg"/>
+</media><newline/><media id="fs-id1167836560607" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_09_04_005f_img.jpg"/>
+</media><newline/><media id="fs-id1167829645110" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_09_04_005g_img.jpg"/>
+</media>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="left">Replace <emphasis effect="italics">u</emphasis> with <m:math><m:mrow><m:msup><m:mi>x</m:mi><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac></m:mrow></m:msup><m:mo>.</m:mo></m:mrow></m:math></entry>
+<entry valign="middle" align="left">
+<media id="fs-id1167836448476" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_09_04_005h_img.jpg"/>
+</media>
+</entry>
+</row>
+<row>
+<entry valign="top" align="left">Solve for <m:math><m:mi>x</m:mi></m:math> by cubing both sides.</entry>
+<entry valign="top" align="left">
+<media id="fs-id1167832980949" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_09_04_005i_img.jpg"/>
+</media><newline/><media id="fs-id1167836415994" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_09_04_005j_img.jpg"/>
+</media>
+</entry>
+</row>
+<row>
+<entry valign="top" align="left">Check:<newline/><newline/>
+<media id="fs-id1167833021593" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_09_04_005a_img.jpg"/>
+</media>
+</entry>
+<entry/>
+</row>
+</tbody>
+</tgroup>
+</table>
+</solution>
+</exercise>
+</example>
+<note id="fs-id1167824748831" class="try">
+<exercise id="fs-id1167829599191">
+<problem id="fs-id1167836547471">
+<para id="fs-id1167836323236">Solve: <m:math><m:mrow><m:msup><m:mi>x</m:mi><m:mrow><m:mfrac><m:mn>2</m:mn><m:mn>3</m:mn></m:mfrac></m:mrow></m:msup><m:mo>−</m:mo><m:mn>5</m:mn><m:msup><m:mi>x</m:mi><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac></m:mrow></m:msup><m:mo>−</m:mo><m:mn>14</m:mn><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836506554">
+<para id="fs-id1167836399398"><m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>−8</m:mn><m:mo>,</m:mo><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>343</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1167836477552" class="try">
+<exercise id="fs-id1167824765299">
+<problem id="fs-id1167833053722">
+<para id="fs-id1167836502385">Solve: <m:math><m:mrow><m:msup><m:mi>x</m:mi><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow></m:msup><m:mo>+</m:mo><m:mn>8</m:mn><m:msup><m:mi>x</m:mi><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>4</m:mn></m:mfrac></m:mrow></m:msup><m:mo>+</m:mo><m:mn>15</m:mn><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836299260">
+<para id="fs-id1167829748045"><m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>81</m:mn><m:mo>,</m:mo><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>625</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<para id="fs-id1165926678285">In the next example, we need to keep in mind the definition of a negative exponent as well as the properties of exponents.</para>
+<example id="fs-id1167829719262">
+<exercise id="fs-id1167836506374">
+<problem id="fs-id1167833224470">
+<para id="fs-id1167836417826">Solve: <m:math><m:mrow><m:mn>3</m:mn><m:msup><m:mi>x</m:mi><m:mrow><m:mn>−2</m:mn></m:mrow></m:msup><m:mo>−</m:mo><m:mn>7</m:mn><m:msup><m:mi>x</m:mi><m:mrow><m:mn>−1</m:mn></m:mrow></m:msup><m:mo>+</m:mo><m:mn>2</m:mn><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836509720">
+<para id="fs-id1167829683684">The <m:math><m:mrow><m:msup><m:mi>x</m:mi><m:mrow><m:mn>−1</m:mn></m:mrow></m:msup></m:mrow></m:math> in the middle term is squared in the first term <m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msup><m:mi>x</m:mi><m:mrow><m:mn>−1</m:mn></m:mrow></m:msup></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:msup><m:mi>x</m:mi><m:mrow><m:mn>−2</m:mn></m:mrow></m:msup><m:mo>.</m:mo></m:mrow></m:math> If we let <m:math><m:mrow><m:mi>u</m:mi><m:mo>=</m:mo><m:msup><m:mi>x</m:mi><m:mrow><m:mn>−1</m:mn></m:mrow></m:msup></m:mrow></m:math> and substitute, our trinomial will be in <emphasis effect="italics">ax</emphasis><sup>2</sup> + <emphasis effect="italics">bx</emphasis> + <emphasis effect="italics">c</emphasis> = 0 form.</para>
+<table id="fs-id1167833365963" class="unnumbered unstyled can-break" summary="Write the equation. Three times x to the negative two power minus 7 times x to the negative one power plus 2 equals zero. Rewrite x to the negative two power as the square of x to the negative one power to prepare for the substitution. Let u equal the x to the negative one power and substitute. The equation becomes 3 u squared minus 7 u plus 2 equals 0. Factor the expression on the left side of the equation. The product of 3 u minus 1 and u minus 2 equals 0. By the Zero Product Property, 3 u minus 1 equals 0 or u minus 2 equals 0. So u equals one third or u equals 2. Replace u with x to the negative one power and solve for x by taking the reciprocal. If u equals one third, then x to the negative one power equals one third, so x equals 3. If u equals 2, then x to the negative one power equals 2, so x equals one half. Check the solutions. Start with x equals 3. Substitute 3 for x in the left-hand side of the original equation to get 3 times 3 to the negative 2 power minus 7 times 3 to the negative one power plus 2. We need to show that this expression equals zero. Simplify to yield 3 times one ninth minus 7 times one third plus 2 which equals one third minus seven thirds plus six thirds, or 0. X equals 3 is a solution. Next, check x equals one half. Substitute one half for x in the left-hand side of the original equation to get 3 times one half to the negative 2 power minus 7 times one half to the negative one power plus 2. We need to show that this expression equals zero. Simplify to yield 3 times 4 minus 7 times 2 plus 2 which equals 12 minus 14 plus 2, or 0. X equals one half is a solution.">
+<label/>
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<tbody>
+<row>
+<entry/>
+<entry/>
+<entry valign="top" align="left">
+<media id="fs-id1167829599635" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_09_04_006b_img.jpg"/>
+</media>
+</entry>
+</row>
+<row>
+<entry valign="top" align="left">Rewrite the trinomial to prepare for the substitution.</entry>
+<entry/>
+<entry valign="top" align="left">
+<media id="fs-id1167836684589" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_09_04_006c_img.jpg"/>
+</media>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="left">Let <m:math><m:mrow><m:mi>u</m:mi><m:mo>=</m:mo><m:msup><m:mrow><m:mi>x</m:mi></m:mrow><m:mrow><m:mn>−1</m:mn></m:mrow></m:msup></m:mrow></m:math> and substitute.</entry>
+<entry/>
+<entry valign="middle" align="left">
+<media id="fs-id1167824732359" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_09_04_006d_img.jpg"/>
+</media>
+</entry>
+</row>
+<row>
+<entry valign="top" align="left">Solve by factoring.</entry>
+<entry/>
+<entry valign="top" align="left">
+<media id="fs-id1167836729694" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_09_04_006e_img.jpg"/>
+</media></entry>
+</row>
+<row>
+<entry valign="top" align="left"/>
+<entry/>
+<entry valign="top" align="left">
+<media id="fs-id1171791084816" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_09_04_006f_img.jpg"/>
+</media></entry>
+</row>
+<row>
+<entry valign="top" align="left"/>
+<entry/>
+<entry valign="top" align="left"><media id="fs-id1167836626538" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_09_04_006g_img.jpg"/>
+</media>
+</entry>
+</row>
+<row>
+<entry valign="top" align="left">Replace <emphasis effect="italics">u</emphasis> with <m:math><m:mrow><m:msup><m:mrow><m:mi>x</m:mi></m:mrow><m:mrow><m:mn>−1</m:mn></m:mrow></m:msup><m:mo>.</m:mo></m:mrow></m:math></entry>
+<entry/>
+<entry valign="top" align="left">
+<media id="fs-id1167836561361" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_09_04_006h_img.jpg"/>
+</media>
+</entry>
+</row>
+<row>
+<entry valign="top" align="left">Solve for <m:math><m:mi>x</m:mi></m:math> by taking the reciprocal since <m:math><m:mrow><m:msup><m:mi>x</m:mi><m:mrow><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:msup><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mi>x</m:mi></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></entry>
+<entry/>
+<entry valign="top" align="left">
+<media id="fs-id1167832961279" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_09_04_006i_img.jpg"/>
+</media>
+</entry>
+</row>
+<row>
+<entry valign="top" align="left">Check:<newline/><newline/>
+<media id="fs-id1167836299963" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_09_04_006a_img.jpg"/>
+</media>
+</entry>
+<entry/>
+<entry/>
+</row>
+</tbody>
+</tgroup>
+</table>
+</solution>
+</exercise>
+</example>
+
+<note id="fs-id1167829721085" class="try">
+<exercise id="fs-id1167836554174">
+<problem id="fs-id1167833377541">
+<para id="fs-id1167836609520">Solve: <m:math><m:mrow><m:mn>8</m:mn><m:msup><m:mi>x</m:mi><m:mrow><m:mn>−2</m:mn></m:mrow></m:msup><m:mo>−</m:mo><m:mn>10</m:mn><m:msup><m:mi>x</m:mi><m:mrow><m:mn>−1</m:mn></m:mrow></m:msup><m:mo>+</m:mo><m:mn>3</m:mn><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836512182">
+<para id="fs-id1167836548249"><m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>4</m:mn><m:mn>3</m:mn></m:mfrac><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>2</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1167836610369" class="try">
+<exercise id="fs-id1167833024591">
+<problem id="fs-id1167836626974">
+<para id="fs-id1167836557624">Solve: <m:math><m:mrow><m:mn>6</m:mn><m:msup><m:mi>x</m:mi><m:mrow><m:mn>−2</m:mn></m:mrow></m:msup><m:mo>−</m:mo><m:mn>23</m:mn><m:msup><m:mi>x</m:mi><m:mrow><m:mn>−1</m:mn></m:mrow></m:msup><m:mo>+</m:mo><m:mn>20</m:mn><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167833256113">
+<para id="fs-id1167836532232"><m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>2</m:mn><m:mn>5</m:mn></m:mfrac><m:mo>,</m:mo><m:mi>x</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>3</m:mn><m:mn>4</m:mn></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1167836541382" class="media-2">
+<para id="fs-id1167836629298">Access this online resource for additional instruction and practice with solving quadratic equations.</para>
+<list id="fs-id1167829936758" display="block">
+<item><link url="https://openstax.org/l/37QuadForm4">Solving Equations in Quadratic Form</link></item>
+</list>
+</note>
+</section>
+<section id="fs-id1167836513746" class="key-concepts">
+<title>Key Concepts</title>
+<list id="fs-id1167836531216" list-type="bulleted" bullet-style="bullet">
+<item>How to solve equations in quadratic form.
+<list id="fs-id1167836477354" list-type="enumerated" number-style="arabic" class="stepwise">
+<item>Identify a substitution that will put the equation in quadratic form.</item>
+<item>Rewrite the equation with the substitution to put it in quadratic form.</item>
+<item>Solve the quadratic equation for <emphasis effect="italics">u</emphasis>.</item>
+<item>Substitute the original variable back into the results, using the substitution.</item>
+<item>Solve for the original variable.</item>
+<item>Check the solutions.</item>
+</list></item></list>
+</section>
+<section id="fs-id1167836477488" class="section-exercises">
+<section id="fs-id1167836390473" class="practice-perfect">
+<title>Practice Makes Perfect</title>
+<para id="fs-id1167836552606"><emphasis effect="bold">Solve Equations in Quadratic Form</emphasis></para>
+<para id="fs-id1167836688632">In the following exercises, solve.</para>
+<exercise id="fs-id1167833048634">
+<problem id="fs-id1167833397126">
+<para id="fs-id1167836622870"><m:math><m:mrow><m:msup><m:mi>x</m:mi><m:mn>4</m:mn></m:msup><m:mo>−</m:mo><m:mn>7</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>12</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167829740503">
+<para id="fs-id1167836532767"><m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mo>±</m:mo><m:msqrt><m:mn>3</m:mn></m:msqrt><m:mo>,</m:mo><m:mi>x</m:mi><m:mo>=</m:mo><m:mo>±</m:mo><m:mn>2</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167836621350">
+<problem id="fs-id1167836283160">
+<para id="fs-id1167836507963"><m:math><m:mrow><m:msup><m:mi>x</m:mi><m:mn>4</m:mn></m:msup><m:mo>−</m:mo><m:mn>9</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>18</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167833056781">
+<problem id="fs-id1167829685363">
+<para id="fs-id1167836363985"><m:math><m:mrow><m:msup><m:mi>x</m:mi><m:mn>4</m:mn></m:msup><m:mo>−</m:mo><m:mn>13</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>30</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836417856">
+<para id="fs-id1167825830254"><m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mo>±</m:mo><m:msqrt><m:mrow><m:mn>15</m:mn></m:mrow></m:msqrt><m:mo>,</m:mo><m:mi>x</m:mi><m:mo>=</m:mo><m:mo>±</m:mo><m:msqrt><m:mn>2</m:mn></m:msqrt><m:mi>i</m:mi></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167836652640">
+<problem id="fs-id1167829785636">
+<para id="fs-id1167833047402"><m:math><m:mrow><m:msup><m:mi>x</m:mi><m:mn>4</m:mn></m:msup><m:mo>+</m:mo><m:mn>5</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>36</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167836379312">
+<problem id="fs-id1167836627066">
+<para id="fs-id1167836629903"><m:math><m:mrow><m:mn>2</m:mn><m:msup><m:mi>x</m:mi><m:mn>4</m:mn></m:msup><m:mo>−</m:mo><m:mn>5</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>3</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836687994">
+<para id="fs-id1167836619855"><m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mo>±</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mi>x</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mo>±</m:mo><m:msqrt><m:mn>6</m:mn></m:msqrt></m:mrow><m:mn>2</m:mn></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167833269880">
+<problem id="fs-id1167836596280">
+<para id="fs-id1167836398874"><m:math><m:mrow><m:mn>4</m:mn><m:msup><m:mi>x</m:mi><m:mn>4</m:mn></m:msup><m:mo>−</m:mo><m:mn>5</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>1</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167829750536">
+<problem id="fs-id1167836305911">
+<para id="fs-id1167836341518"><m:math><m:mrow><m:mn>2</m:mn><m:msup><m:mi>x</m:mi><m:mn>4</m:mn></m:msup><m:mo>−</m:mo><m:mn>7</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>3</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167824774181">
+<para id="fs-id1167829693355"><m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mo>±</m:mo><m:msqrt><m:mn>3</m:mn></m:msqrt><m:mo>,</m:mo><m:mi>x</m:mi><m:mo>=</m:mo><m:mo>±</m:mo><m:mfrac><m:mrow><m:msqrt><m:mn>2</m:mn></m:msqrt></m:mrow><m:mn>2</m:mn></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167836408950">
+<problem id="fs-id1167836579268">
+<para id="fs-id1167836329209"><m:math><m:mrow><m:mn>3</m:mn><m:msup><m:mi>x</m:mi><m:mn>4</m:mn></m:msup><m:mo>−</m:mo><m:mn>14</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>8</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167836699100">
+<problem id="fs-id1167836731868">
+<para id="fs-id1167836521020"><m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>5</m:mn><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>−</m:mo><m:mn>36</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836516031">
+<para id="fs-id1167823013241"><m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>−1</m:mn><m:mo>,</m:mo><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>12</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167836620823">
+<problem id="fs-id1167836608523">
+<para id="fs-id1167829809683"><m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>3</m:mn><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>−</m:mo><m:mn>54</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167825872620">
+<problem id="fs-id1167825823995">
+<para id="fs-id1167832977403"><m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>−</m:mo><m:mn>6</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836481420">
+<para id="fs-id1167832976579"><m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mn>5</m:mn><m:mn>3</m:mn></m:mfrac><m:mo>,</m:mo><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167836289041">
+<problem id="fs-id1167836649268">
+<para id="fs-id1167833239945"><m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>5</m:mn><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>3</m:mn><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>5</m:mn><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>−</m:mo><m:mn>28</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167836293918">
+<problem id="fs-id1167829737953">
+<para id="fs-id1167836550513"><m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>5</m:mn><m:mrow><m:mo>(</m:mo><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mn>4</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167832981583">
+<para id="fs-id1167829742998"><m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mi>x</m:mi><m:mo>=</m:mo><m:mo>±</m:mo><m:msqrt><m:mn>3</m:mn></m:msqrt></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167829942584">
+<problem id="fs-id1167836387084">
+<para id="fs-id1167833036689"><m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>4</m:mn><m:mrow><m:mo>(</m:mo><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mn>3</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167829826691">
+<problem id="fs-id1167836553331">
+<para id="fs-id1167829750094"><m:math><m:mrow><m:mn>2</m:mn><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>5</m:mn><m:mrow><m:mo>(</m:mo><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mn>2</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836707184">
+<para id="fs-id1167836539916"><m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mo>±</m:mo><m:msqrt><m:mfrac><m:mrow><m:mn>11</m:mn></m:mrow><m:mn>2</m:mn></m:mfrac></m:msqrt><m:mo>,</m:mo><m:mi>x</m:mi><m:mo>=</m:mo><m:mo>±</m:mo><m:mrow><m:msqrt><m:mrow><m:mn>7</m:mn></m:mrow></m:msqrt></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167833022079">
+<problem id="fs-id1167836299364">
+<para id="fs-id1167836375964"><m:math><m:mrow><m:mn>2</m:mn><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>7</m:mn><m:mrow><m:mo>(</m:mo><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mn>6</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167836552088">
+<problem id="fs-id1167833058861">
+<para id="fs-id1167830123856"><m:math><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:msqrt><m:mi>x</m:mi></m:msqrt><m:mo>−</m:mo><m:mn>20</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167829790434">
+<para id="fs-id1167836625623"><m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>25</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167833059781">
+<problem id="fs-id1167829787104">
+<para id="fs-id1167833049962"><m:math><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>8</m:mn><m:msqrt><m:mi>x</m:mi></m:msqrt><m:mo>+</m:mo><m:mn>15</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167836329465">
+<problem id="fs-id1167829681249">
+<para id="fs-id1167836491957"><m:math><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>6</m:mn><m:msqrt><m:mi>x</m:mi></m:msqrt><m:mo>−</m:mo><m:mn>16</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167833051614">
+<para id="fs-id1167833158318"><m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>4</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167829744349">
+<problem id="fs-id1167836522515">
+<para id="fs-id1167836306229"><m:math><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn><m:msqrt><m:mi>x</m:mi></m:msqrt><m:mo>−</m:mo><m:mn>21</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167836391104">
+<problem id="fs-id1167836630489">
+<para id="fs-id1167830093104"><m:math><m:mrow><m:mn>6</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:msqrt><m:mi>x</m:mi></m:msqrt><m:mo>−</m:mo><m:mn>2</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167829694662">
+<para id="fs-id1167836537491"><m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>4</m:mn></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167836391718">
+<problem id="fs-id1167836600003">
+<para id="fs-id1167832940220"><m:math><m:mrow><m:mn>6</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:msqrt><m:mi>x</m:mi></m:msqrt><m:mo>−</m:mo><m:mn>1</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167836323284">
+<problem id="fs-id1167833379433">
+<para id="fs-id1167836683538"><m:math><m:mrow><m:mn>10</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>17</m:mn><m:msqrt><m:mi>x</m:mi></m:msqrt><m:mo>+</m:mo><m:mn>3</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167829720454">
+  <para id="fs-id1167833054312"><m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>25</m:mn></m:mrow></m:mfrac></m:mrow><m:mo>,</m:mo>
+  <m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>9</m:mn><m:mrow><m:mn>4</m:mn></m:mrow></m:mfrac></m:mrow>
+  </m:math></para></solution>
+</exercise>
+<exercise id="fs-id1167833082053">
+<problem id="fs-id1167836328808">
+<para id="fs-id1167836362464"><m:math><m:mrow><m:mn>12</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>5</m:mn><m:msqrt><m:mi>x</m:mi></m:msqrt><m:mo>−</m:mo><m:mn>3</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167836492727">
+<problem id="fs-id1167826206258">
+<para id="fs-id1167833054408"><m:math><m:mrow><m:msup><m:mi>x</m:mi><m:mrow><m:mfrac><m:mn>2</m:mn><m:mn>3</m:mn></m:mfrac></m:mrow></m:msup><m:mo>+</m:mo><m:mn>9</m:mn><m:msup><m:mi>x</m:mi><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac></m:mrow></m:msup><m:mo>+</m:mo><m:mn>8</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836706434">
+<para id="fs-id1167832925613"><m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>−1</m:mn><m:mo>,</m:mo><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>−512</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167836612020">
+<problem id="fs-id1167829831866">
+<para id="fs-id1167836361636"><m:math><m:mrow><m:msup><m:mi>x</m:mi><m:mrow><m:mfrac><m:mn>2</m:mn><m:mn>3</m:mn></m:mfrac></m:mrow></m:msup><m:mo>−</m:mo><m:mn>3</m:mn><m:msup><m:mi>x</m:mi><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac></m:mrow></m:msup><m:mo>=</m:mo><m:mn>28</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167836756609">
+<problem id="fs-id1167836629341">
+<para id="fs-id1167833058893"><m:math><m:mrow><m:msup><m:mi>x</m:mi><m:mrow><m:mfrac><m:mn>2</m:mn><m:mn>3</m:mn></m:mfrac></m:mrow></m:msup><m:mo>+</m:mo><m:mn>4</m:mn><m:msup><m:mi>x</m:mi><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac></m:mrow></m:msup><m:mo>=</m:mo><m:mn>12</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167829742759">
+<para id="fs-id1167836798074"><m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>8</m:mn><m:mo>,</m:mo><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>−216</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167833025488">
+<problem id="fs-id1167829753596">
+<para id="fs-id1167836729573"><m:math><m:mrow><m:msup><m:mi>x</m:mi><m:mrow><m:mfrac><m:mn>2</m:mn><m:mn>3</m:mn></m:mfrac></m:mrow></m:msup><m:mo>−</m:mo><m:mn>11</m:mn><m:msup><m:mi>x</m:mi><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac></m:mrow></m:msup><m:mo>+</m:mo><m:mn>30</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167829745221">
+<problem id="fs-id1167836448360">
+<para id="fs-id1167836379404"><m:math><m:mrow><m:mn>6</m:mn><m:msup><m:mi>x</m:mi><m:mrow><m:mfrac><m:mn>2</m:mn><m:mn>3</m:mn></m:mfrac></m:mrow></m:msup><m:mo>−</m:mo><m:msup><m:mi>x</m:mi><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac></m:mrow></m:msup><m:mo>=</m:mo><m:mn>12</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836538104">
+<para id="fs-id1167836433089"><m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>27</m:mn></m:mrow><m:mn>8</m:mn></m:mfrac><m:mo>,</m:mo><m:mi>x</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mrow><m:mn>64</m:mn></m:mrow><m:mrow><m:mn>27</m:mn></m:mrow></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167836522254">
+<problem id="fs-id1167825791292">
+<para id="fs-id1167833142430"><m:math><m:mrow><m:mn>3</m:mn><m:msup><m:mi>x</m:mi><m:mrow><m:mfrac><m:mn>2</m:mn><m:mn>3</m:mn></m:mfrac></m:mrow></m:msup><m:mo>−</m:mo><m:mn>10</m:mn><m:msup><m:mi>x</m:mi><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac></m:mrow></m:msup><m:mo>=</m:mo><m:mn>8</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167829748135">
+<problem id="fs-id1167833396850">
+<para id="fs-id1167833139611"><m:math><m:mrow><m:mn>8</m:mn><m:msup><m:mi>x</m:mi><m:mrow><m:mfrac><m:mn>2</m:mn><m:mn>3</m:mn></m:mfrac></m:mrow></m:msup><m:mo>−</m:mo><m:mn>43</m:mn><m:msup><m:mi>x</m:mi><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac></m:mrow></m:msup><m:mo>+</m:mo><m:mn>15</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836691776">
+<para id="fs-id1167836608352"><m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>27</m:mn><m:mn>512</m:mn></m:mfrac><m:mo>,</m:mo><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>125</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167836480304">
+<problem id="fs-id1167829651072">
+<para id="fs-id1167825949274"><m:math><m:mrow><m:mn>20</m:mn><m:msup><m:mi>x</m:mi><m:mrow><m:mfrac><m:mn>2</m:mn><m:mn>3</m:mn></m:mfrac></m:mrow></m:msup><m:mo>−</m:mo><m:mn>23</m:mn><m:msup><m:mi>x</m:mi><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac></m:mrow></m:msup><m:mo>+</m:mo><m:mn>6</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167826131782">
+<problem id="fs-id1167836296736">
+<para id="fs-id1167836319507"><m:math><m:mrow><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>8</m:mn><m:msup><m:mi>x</m:mi><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow></m:msup><m:mo>+</m:mo><m:mn>7</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836390041">
+<para id="fs-id1167829747750"><m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>49</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167836553976">
+<problem id="fs-id1167836570969">
+<para id="fs-id1167836607787"><m:math><m:mrow><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>7</m:mn><m:msup><m:mi>x</m:mi><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow></m:msup><m:mo>=</m:mo><m:mn>15</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167829721215">
+<problem id="fs-id1167836524620">
+<para id="fs-id1167836492217"><m:math><m:mrow><m:mn>6</m:mn><m:msup><m:mi>x</m:mi><m:mrow><m:mn>−2</m:mn></m:mrow></m:msup><m:mo>+</m:mo><m:mn>13</m:mn><m:msup><m:mi>x</m:mi><m:mrow><m:mn>−1</m:mn></m:mrow></m:msup><m:mo>+</m:mo><m:mn>5</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836729031">
+<para id="fs-id1167836399348"><m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>−2</m:mn><m:mo>,</m:mo><m:mi>x</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mn>3</m:mn><m:mn>5</m:mn></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167824734801">
+<problem id="fs-id1167829619888">
+<para id="fs-id1167829695346"><m:math><m:mrow><m:mn>15</m:mn><m:msup><m:mi>x</m:mi><m:mrow><m:mn>−2</m:mn></m:mrow></m:msup><m:mo>−</m:mo><m:mn>26</m:mn><m:msup><m:mi>x</m:mi><m:mrow><m:mn>−1</m:mn></m:mrow></m:msup><m:mo>+</m:mo><m:mn>8</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167836356048">
+<problem id="fs-id1167824754866">
+<para id="fs-id1167836520180"><m:math><m:mrow><m:mn>8</m:mn><m:msup><m:mi>x</m:mi><m:mrow><m:mn>−2</m:mn></m:mrow></m:msup><m:mo>−</m:mo><m:mn>2</m:mn><m:msup><m:mi>x</m:mi><m:mrow><m:mn>−1</m:mn></m:mrow></m:msup><m:mo>−</m:mo><m:mn>3</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836440443">
+<para id="fs-id1167836315013"><m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>−2</m:mn><m:mo>,</m:mo><m:mi>x</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>4</m:mn><m:mn>3</m:mn></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167836367159">
+<problem id="fs-id1167829860664">
+<para id="fs-id1167836352824"><m:math><m:mrow><m:mn>15</m:mn><m:msup><m:mi>x</m:mi><m:mrow><m:mn>−2</m:mn></m:mrow></m:msup><m:mo>−</m:mo><m:mn>4</m:mn><m:msup><m:mi>x</m:mi><m:mrow><m:mn>−1</m:mn></m:mrow></m:msup><m:mo>−</m:mo><m:mn>4</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1167833408043" class="writing">
+<title>Writing Exercises</title>
+<exercise id="fs-id1167829750381">
+<problem id="fs-id1167836417261">
+<para id="fs-id1167836352160">Explain how to recognize an equation in quadratic form.</para>
+</problem>
+<solution id="fs-id1167836560393">
+<para id="fs-id1167836415834">Answers will vary.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167833328888">
+<problem id="fs-id1167824584365">
+<para id="fs-id1167829596848">Explain the procedure for solving an equation in quadratic form.</para>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1167833128991">
+<title>Self Check</title>
+<para id="fs-id1167829860685"><span class="token">ⓐ</span> After completing the exercises, use this checklist to evaluate your mastery of the objectives of this section.</para>
+<media id="fs-id1167836515372" alt="This table provides a checklist to evaluate mastery of the objectives of this section. Choose how would you respond to the statement “I can solve equations in quadratic form.” “Confidently,” “with some help,” or “No, I don’t get it.”">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_09_04_201_img_new.jpg"/>
+</media>
+<para id="fs-id1167836705311"><span class="token">ⓑ</span> On a scale of 1-10, how would you rate your mastery of this section in light of your responses on the checklist? How can you improve this?</para>
+</section>
+</section>
+</content>
+</document>

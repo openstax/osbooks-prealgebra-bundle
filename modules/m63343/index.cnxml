@@ -1,0 +1,1405 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Add and Subtract Polynomials</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m63343</md:content-id>
+  <md:title>Add and Subtract Polynomials</md:title>
+  <md:abstract>By the end of this section, you will be able to:
+<list>
+<item>Determine the degree of polynomials</item>
+<item>Add and subtract polynomials</item>
+<item>Evaluate a polynomial function for a given value</item>
+<item>Add and subtract polynomial functions</item>
+</list></md:abstract>
+  <md:uuid>9e9d60d5-b373-4675-a019-2b4220bd93f4</md:uuid>
+</metadata>
+
+
+<content>
+<note id="fs-id1167833366592" class="be-prepared">
+<para id="fs-id1167833050669">Before you get started, take this readiness quiz.</para>
+<list id="fs-id1167836415169" list-type="enumerated" number-style="arabic">
+<item>Simplify: <m:math><m:mrow><m:mn>3</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo>+</m:mo><m:mn>8</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>5</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>5</m:mn><m:mo>.</m:mo></m:mrow></m:math><newline/>
+If you missed this problem, review <link target-id="fs-id1167836652573" document="m63302"/>.</item>
+<item>Subtract: <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>5</m:mn><m:mi>n</m:mi><m:mo>+</m:mo><m:mn>8</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>−</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math><newline/>If you missed this problem, review <link target-id="fs-id1167829586631" document="m63302"/>.</item>
+<item>Evaluate: <m:math><m:mrow><m:mn>4</m:mn><m:mi>x</m:mi><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math> when <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>−2</m:mn></m:mrow></m:math> and <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>5</m:mn><m:mo>.</m:mo></m:mrow></m:math><newline/>
+If you missed this problem, review <link target-id="fs-id1167832053133" document="m63303"/>.</item>
+</list>
+</note>
+<section id="fs-id1167836299901">
+<title>Determine the Degree of Polynomials</title>
+<para id="fs-id1167836319331">We have learned that a <emphasis effect="italics">term</emphasis> is a constant or the product of a constant and one or more variables. A <term>monomial</term> is an algebraic expression with one term. When it is of the form <m:math><m:mrow><m:mi>a</m:mi><m:msup><m:mi>x</m:mi><m:mi>m</m:mi></m:msup><m:mo>,</m:mo></m:mrow></m:math> where <emphasis effect="italics">a</emphasis> is a constant and <emphasis effect="italics">m</emphasis> is a whole number, it is called a monomial in one variable. Some examples of monomial in one variable are. Monomials can also have more than one variable such as and <m:math><m:mrow><m:mn>−4</m:mn><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:msup><m:mi>b</m:mi><m:mn>3</m:mn></m:msup><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math></para>
+<note id="fs-id1167833021555">
+<title>Monomial</title>
+<para id="fs-id1167824734983">A <emphasis effect="bold">monomial</emphasis> is an algebraic expression with one term.</para>
+<para id="fs-id1167836409519">A monomial in one variable is a term of the form <m:math><m:mrow><m:mi>a</m:mi><m:msup><m:mi>x</m:mi><m:mi>m</m:mi></m:msup><m:mo>,</m:mo></m:mrow></m:math> where <emphasis effect="italics">a</emphasis> is a constant and <emphasis effect="italics">m</emphasis> is a whole number.</para>
+</note>
+<para id="fs-id1167833023042">A monomial, or two or more monomials combined by addition or subtraction, is a <term>polynomial</term>. Some polynomials have special names, based on the number of terms. A monomial is a polynomial with exactly one term. A binomial has exactly two terms, and a <term>trinomial</term> has exactly three terms. There are no special names for polynomials with more than three terms.</para>
+<note id="fs-id1167829688772">
+<title>Polynomials</title>
+<para id="fs-id1167836481441"><emphasis effect="bold">polynomial</emphasis>—A monomial, or two or more algebraic terms combined by addition or subtraction is a polynomial.</para>
+<para id="fs-id1167829628029"><emphasis effect="bold">monomial</emphasis>—A polynomial with exactly one term is called a monomial.</para>
+<para id="fs-id1167829720442"><emphasis effect="bold">binomial</emphasis>—A polynomial with exactly two terms is called a binomial.</para>
+<para id="fs-id1167836510464"><emphasis effect="bold">trinomial</emphasis>—A polynomial with exactly three terms is called a trinomial.</para>
+</note>
+<para id="fs-id1167836349269">Here are some examples of polynomials.</para>
+<table id="fs-id1167829661616" class="unnumbered" summary="This table has five columns and four rows. The first row is for polynomials and lists three examples: y plus 1, 4 a squared minus 7 a b plus 2 b squared, 4 x to the fourth power plus x cubed plus 8 x squared minus 9 x plus 1. The second row is for monomials and lists four examples: 14, 8 y squared, minus 9 x cubed y to the fifth power, and negative 12 a cubed b squared c. The third row is for binomials and lists four examples: a plus 7 b, 4 x square minus y squared, y squared minus 16, and 3 p cubed q minus 9 p squared q. The fourth row is for trinomials and list four examples: x squared minus 7 x plus 12, 9 m squared plus 2 mn minus 8 n squared, 6 k to the fourth power minus k cubed plus 8 k, and z to the fourth power plus 3z squared minus 1.">
+<label/>
+<tgroup cols="5">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<colspec colnum="4" colname="c4"/>
+<colspec colnum="5" colname="c5"/>
+<tbody>
+<row valign="top">
+<entry valign="top" align="left">Polynomial</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:math></entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mn>4</m:mn><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>7</m:mn><m:mi>a</m:mi><m:mi>b</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math></entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mn>4</m:mn><m:msup><m:mi>x</m:mi><m:mn>4</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup><m:mo>+</m:mo><m:mn>8</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>9</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:math></entry>
+<entry valign="top" align="left"/>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Monomial</entry>
+<entry valign="top" align="left">14</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mn>8</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math></entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mn>−9</m:mn><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup><m:msup><m:mi>y</m:mi><m:mn>5</m:mn></m:msup></m:mrow></m:math></entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mn>−13</m:mn><m:msup><m:mi>a</m:mi><m:mn>3</m:mn></m:msup><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:mi>c</m:mi></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Binomial</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mi>a</m:mi><m:mo>+</m:mo><m:mn>7</m:mn><m:mi>b</m:mi></m:mrow></m:math></entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mn>4</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math></entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>16</m:mn></m:mrow></m:math></entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mn>3</m:mn><m:msup><m:mi>p</m:mi><m:mn>3</m:mn></m:msup><m:mi>q</m:mi><m:mo>−</m:mo><m:mn>9</m:mn><m:msup><m:mi>p</m:mi><m:mn>2</m:mn></m:msup><m:mi>q</m:mi></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Trinomial</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>7</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>12</m:mn></m:mrow></m:math></entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mn>9</m:mn><m:msup><m:mi>m</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>m</m:mi><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>8</m:mn><m:msup><m:mi>n</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math></entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mn>6</m:mn><m:msup><m:mi>k</m:mi><m:mn>4</m:mn></m:msup><m:mo>−</m:mo><m:msup><m:mi>k</m:mi><m:mn>3</m:mn></m:msup><m:mo>+</m:mo><m:mn>8</m:mn><m:mi>k</m:mi></m:mrow></m:math></entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:msup><m:mi>z</m:mi><m:mn>4</m:mn></m:msup><m:mo>+</m:mo><m:mn>3</m:mn><m:msup><m:mi>z</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:math></entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<para id="fs-id1167836512053">Notice that every monomial, binomial, and trinomial is also a polynomial. They are just special members of the “family” of polynomials and so they have special names. We use the words <emphasis effect="italics">monomial</emphasis>, <emphasis effect="italics">binomial</emphasis>, and <emphasis effect="italics">trinomial</emphasis> when referring to these special polynomials and just call all the rest <emphasis effect="italics">polynomials</emphasis>.</para>
+<para id="fs-id1167836298253">The <term>degree of a polynomial</term> and the degree of its terms are determined by the exponents of the variable.</para>
+<para id="fs-id1167836322222">A monomial that has no variable, just a constant, is a special case. The <term>degree of a constant</term> is 0.</para>
+<note id="fs-id1167836310024">
+<title>Degree of a Polynomial</title>
+<para id="fs-id1167832951084">The <emphasis effect="bold">degree of a term</emphasis> is the sum of the exponents of its variables.</para>
+<para id="fs-id1167833021780">The <emphasis effect="bold">degree of a constant</emphasis> is 0.</para>
+<para id="fs-id1167836553112">The <emphasis effect="bold">degree of a polynomial</emphasis> is the highest degree of all its terms.</para>
+</note>
+<para id="fs-id1167829693456">Let’s see how this works by looking at several polynomials. We’ll take it step by step, starting with monomials, and then progressing to polynomials with more terms.</para>
+<para id="fs-id1167836628336">Let's start by looking at a monomial. The monomial <m:math><m:mrow><m:mn>8</m:mn><m:mi>a</m:mi><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math> has two variables <emphasis effect="italics">a</emphasis> and <emphasis effect="italics">b</emphasis>. To find the degree we need to find the sum of the exponents. The variable a doesn't have an exponent written, but remember that means the exponent is 1. The exponent of <emphasis effect="italics">b</emphasis> is 2. The sum of the exponents, <m:math><m:mrow><m:mn>1</m:mn><m:mo>+</m:mo><m:mn>2</m:mn><m:mo>,</m:mo></m:mrow></m:math> is 3 so the degree is 3.</para>
+<media id="fs-id1167836552469" alt="The polynomial is 8 a b squared. The exponents of the variables are 1 and 2 so the degree of the monomial is 1 plus 2 which equals 3.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_05_01_001_img_new.jpg"/>
+</media>
+<para id="fs-id1167836508452">Here are some additional examples.</para>
+<media id="fs-id1167836282723" alt="Monomial examples: 14 has degree 0, 8 a b squared has degree 3, negative 9 x cubed y to the fifth power has degree 8, negative 13 a has degree 1. Binomial examples: The terms in h plus 7 have degree 1 and 0 so the degree of the whole polynomial is 1. The terms in 7 b squared minus 3 b have degree 2 and 1 so the degree of the whole polynomial is 2. The terms in z squared y squared minus 25 have degree 4 and 0 so the degree of the whole polynomial is 4. The terms in 4 n cubed minus 8 n squared have degree 3 and 2 so the degree of the whole polynomial is 3. Trinomial examples: The terms in x squared minus 12 x plus 27 have degree 2, 1 and 0 so the degree of the whole polynomial is 2. The terms in 9 a squared plus 6 a b plus b squared have degree 2, 2, and 2 so the degree of the whole polynomial is 2. The terms in 6 m to the fourth power minus m cubed n squared plus 8 m n to the fifth power have degree 4, 5, and 6 so the degree of the whole polynomial is 6. The terms in z to the fourth power plus 3 z squared minus 1 have degree 4, 2, and 0 so the degree of the whole polynomial is 4. Polynomial examples: The terms in y minus 1 have degree 1 and 0 so the degree of the whole polynomial is 1. The terms in 3 y squared minus 2 y minus 5 have degree 2, 1, 0 so the degree of the whole polynomial is 2. The terms in 4 x to the fourth power plus x cubed plus eight x squared minus 9 x plus 1 have degree 4, 3, 2, 1, and 0 so the degree of the whole polynomial is 4.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_05_01_002_img_new.jpg"/>
+</media>
+<para id="fs-id1167836523638">Working with polynomials is easier when you list the terms in descending order of degrees. When a polynomial is written this way, it is said to be in <term>standard form of a polynomial</term>. Get in the habit of writing the term with the highest degree first.</para>
+<example id="fs-id1167836415722">
+<exercise id="fs-id1167836529152">
+<problem id="fs-id1167829694957">
+<para id="fs-id1167836546580">Determine whether each polynomial is a monomial, binomial, trinomial, or other polynomial. Then, find the degree of each polynomial.</para>
+<para id="fs-id1167836456244"><span class="token">ⓐ</span> <m:math><m:mrow><m:mn>7</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>5</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mn>−2</m:mn><m:msup><m:mi>a</m:mi><m:mn>4</m:mn></m:msup><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math> <span class="token">ⓒ</span> <m:math><m:mrow><m:mn>3</m:mn><m:msup><m:mi>x</m:mi><m:mn>5</m:mn></m:msup><m:mo>−</m:mo><m:mn>4</m:mn><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup><m:mo>−</m:mo><m:mn>6</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>8</m:mn></m:mrow></m:math> <span class="token">ⓓ</span> <m:math><m:mrow><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>8</m:mn><m:mi>x</m:mi><m:msup><m:mi>y</m:mi><m:mn>3</m:mn></m:msup></m:mrow></m:math> <span class="token">ⓔ</span> 15</para>
+</problem>
+<solution id="fs-id1167836635375">
+<table id="fs-id1167836357312" class="unnumbered" summary="This table has five columns. The first is labeled polynomials, the second is number of terms, the third is type, the fourth is degree of terms, and the fifth is degree of polynomial. The first row shows 7 y squared minus 5y plus 3 has 3 terms, trinomial, the degree of terms are 2, 1, 0, and the degree of the polynomial is 2. The second row shows minus 2 a to the fourth b squared has 1 term, monomial, degree of terms and degree of polynomial are both 4. The third row shows 3 x to the fifth power minus 4 x cubed minus 6 x squared plus x minus 8 has 5 terms, is a polynomial, and the degree of terms are 5, 3, 2, 0, and 1, so the degree of the polynomial is 5. The fourth row shows 2y minus 8 x y cubed has 2 terms, is a binomial, has degree of terms 1 and 5, and the degree of the polynomial is 4. The fifth row shows 14 which has 1 term and is a monomial with degree of terms and degree of polynomial 0.">
+<label/>
+<tgroup cols="6">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<colspec colnum="4" colname="c4"/>
+<colspec colnum="5" colname="c5"/>
+<colspec colnum="6" colname="c6"/>
+<thead>
+<row valign="top">
+<entry valign="top" align="left"/>
+<entry valign="top" align="left">Polynomial</entry>
+<entry valign="top" align="left">Number of terms</entry>
+<entry valign="top" align="left">Type</entry>
+<entry valign="top" align="left">Degree of terms</entry>
+<entry valign="top" align="left">Degree of polynomial</entry>
+</row>
+</thead>
+<tbody>
+<row valign="top">
+<entry valign="middle" align="left"><span class="token">ⓐ</span></entry>
+<entry valign="middle" align="left"><m:math><m:mrow><m:mn>7</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>5</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow></m:math></entry>
+<entry valign="middle" align="center">3</entry>
+<entry valign="middle" align="left">Trinomial</entry>
+<entry valign="middle" align="center">2, 1, 0</entry>
+<entry valign="middle" align="center">2</entry>
+</row>
+<row valign="top">
+<entry valign="middle" align="left"><span class="token">ⓑ</span></entry>
+<entry valign="middle" align="left"><m:math><m:mrow><m:mn>−2</m:mn><m:msup><m:mi>a</m:mi><m:mn>4</m:mn></m:msup><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math></entry>
+<entry valign="middle" align="center">1</entry>
+<entry valign="middle" align="left">Monomial</entry>
+<entry valign="middle" align="center">4, 2</entry>
+<entry valign="middle" align="center">6</entry>
+</row>
+<row valign="top">
+<entry valign="middle" align="left"><span class="token">ⓒ</span></entry>
+<entry valign="middle" align="left"><m:math><m:mrow><m:mn>3</m:mn><m:msup><m:mi>x</m:mi><m:mn>5</m:mn></m:msup><m:mo>−</m:mo><m:mn>4</m:mn><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup><m:mo>−</m:mo><m:mn>6</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>8</m:mn></m:mrow></m:math></entry>
+<entry valign="middle" align="center">5</entry>
+<entry valign="middle" align="left">Polynomial</entry>
+<entry valign="middle" align="center">5, 3, 2, 1, 0</entry>
+<entry valign="middle" align="center">5</entry>
+</row>
+<row valign="top">
+<entry valign="middle" align="left"><span class="token">ⓓ</span></entry>
+<entry valign="middle" align="left"><m:math><m:mrow><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>8</m:mn><m:mi>x</m:mi><m:msup><m:mi>y</m:mi><m:mn>3</m:mn></m:msup></m:mrow></m:math></entry>
+<entry valign="middle" align="center">2</entry>
+<entry valign="middle" align="left">Binomial</entry>
+<entry valign="middle" align="center">1, 4</entry>
+<entry valign="middle" align="center">4</entry>
+</row>
+<row valign="top">
+<entry valign="middle" align="left"><span class="token">ⓔ</span></entry>
+<entry valign="middle" align="left">15</entry>
+<entry valign="middle" align="center">1</entry>
+<entry valign="middle" align="left">Monomial</entry>
+<entry valign="middle" align="center">0</entry>
+<entry valign="middle" align="center">0</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</solution>
+</exercise>
+</example>
+<note id="fs-id1167836531779" class="try">
+<exercise id="fs-id1167836518702">
+<problem id="fs-id1167836494104">
+<para id="fs-id1167836447977">Determine whether each polynomial is a monomial, binomial, trinomial, or other polynomial. Then, find the degree of each polynomial.</para>
+<para id="fs-id1167836544732"><span class="token">ⓐ</span> <m:math><m:mrow><m:mn>−5</m:mn></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mn>8</m:mn><m:msup><m:mi>y</m:mi><m:mn>3</m:mn></m:msup><m:mo>−</m:mo><m:mn>7</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow></m:math> <span class="token">ⓒ</span> <m:math><m:mrow><m:mn>−3</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>5</m:mn><m:mi>x</m:mi><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>9</m:mn><m:mi>x</m:mi><m:msup><m:mi>y</m:mi><m:mn>3</m:mn></m:msup></m:mrow></m:math> <span class="token">ⓓ</span> <m:math><m:mrow><m:mn>81</m:mn><m:msup><m:mi>m</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>4</m:mn><m:msup><m:mi>n</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math> <span class="token">ⓔ</span> <m:math><m:mrow><m:mn>−3</m:mn><m:msup><m:mi>x</m:mi><m:mn>6</m:mn></m:msup><m:msup><m:mi>y</m:mi><m:mn>3</m:mn></m:msup><m:mi>z</m:mi></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836552453">
+<para id="fs-id1167836625437"><span class="token">ⓐ</span> monomial, 0<newline/><span class="token">ⓑ</span> polynomial, 3 <span class="token">ⓒ</span> trinomial, 3<newline/><span class="token">ⓓ</span> binomial, 2 <span class="token">ⓔ</span> monomial, 10</para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1167836624239" class="try">
+<exercise id="fs-id1167829751398">
+<problem id="fs-id1167836293918">
+<para id="fs-id1167836552504">Determine whether each polynomial is a monomial, binomial, trinomial, or other polynomial. Then, find the degree of each polynomial.</para>
+<para id="fs-id1167836553862"><span class="token">ⓐ</span> <m:math><m:mrow><m:mn>64</m:mn><m:msup><m:mi>k</m:mi><m:mn>3</m:mn></m:msup><m:mo>−</m:mo><m:mn>8</m:mn></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mn>9</m:mn><m:msup><m:mi>m</m:mi><m:mn>3</m:mn></m:msup><m:mo>+</m:mo><m:mn>4</m:mn><m:msup><m:mi>m</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow></m:math> <span class="token">ⓒ</span> <m:math><m:mrow><m:mfrac><m:mn>5</m:mn><m:mn>6</m:mn></m:mfrac></m:mrow></m:math> <span class="token">ⓓ</span> <m:math><m:mrow><m:mn>8</m:mn><m:msup><m:mi>a</m:mi><m:mn>4</m:mn></m:msup><m:mo>−</m:mo><m:mn>7</m:mn><m:msup><m:mi>a</m:mi><m:mn>3</m:mn></m:msup><m:mi>b</m:mi><m:mo>−</m:mo><m:mn>6</m:mn><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>4</m:mn><m:mi>a</m:mi><m:msup><m:mi>b</m:mi><m:mn>3</m:mn></m:msup><m:mo>+</m:mo><m:mn>7</m:mn><m:msup><m:mi>b</m:mi><m:mn>4</m:mn></m:msup></m:mrow></m:math> <span class="token">ⓔ</span> <m:math><m:mrow><m:mtext>−</m:mtext><m:msup><m:mi>p</m:mi><m:mn>4</m:mn></m:msup><m:msup><m:mi>q</m:mi><m:mn>3</m:mn></m:msup></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836574318">
+<para id="fs-id1167829752758"><span class="token">ⓐ</span>binomial, 3 <span class="token">ⓑ</span> trinomial, 3 <span class="token">ⓒ</span> monomial, 0 <span class="token">ⓓ</span> polynomial, 4 <span class="token">ⓔ</span> monomial, 7</para>
+</solution>
+</exercise>
+</note>
+</section>
+<section id="fs-id1167836363198">
+<title>Add and Subtract Polynomials</title>
+<para id="fs-id1167836297171">We have learned how to simplify expressions by combining like terms. Remember, like terms must have the same variables with the same exponent. Since monomials are terms, adding and subtracting monomials is the same as combining like terms. If the monomials are like terms, we just combine them by adding or subtracting the coefficients.</para>
+<example id="fs-id1167829908757">
+<exercise id="fs-id1167829589861">
+<problem id="fs-id1167836526514">
+<para id="fs-id1167836295565">Add or subtract: <span class="token">ⓐ</span> <m:math><m:mrow><m:mn>25</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>15</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mn>16</m:mn><m:mi>p</m:mi><m:msup><m:mi>q</m:mi><m:mn>3</m:mn></m:msup><m:mo>−</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−7</m:mn><m:mi>p</m:mi><m:msup><m:mi>q</m:mi><m:mn>3</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836282025">
+<para id="fs-id1167836341558"><span class="token">ⓐ</span><newline/>
+<m:math><m:mrow><m:mtable>
+<m:mtr><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:mspace width="3em"/><m:mn>25</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>15</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mtext>Combine like terms.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:mspace width="3em"/><m:mn>40</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup></m:mtd></m:mtr></m:mtable></m:mrow></m:math></para>
+<para id="fs-id1167836362982"><span class="token">ⓑ</span><newline/>
+<m:math><m:mrow><m:mtable>
+<m:mtr><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:mspace width="3em"/><m:mn>16</m:mn><m:mi>p</m:mi><m:msup><m:mi>q</m:mi><m:mn>3</m:mn></m:msup><m:mo>−</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−7</m:mn><m:mi>p</m:mi><m:msup><m:mi>q</m:mi><m:mn>3</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mtext>Combine like terms.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:mspace width="3em"/><m:mn>23</m:mn><m:mi>p</m:mi><m:msup><m:mi>q</m:mi><m:mn>3</m:mn></m:msup></m:mtd></m:mtr></m:mtable></m:mrow></m:math></para>
+</solution>
+</exercise>
+</example>
+<note id="fs-id1167836353044" class="try">
+<exercise id="fs-id1167836390664">
+<problem id="fs-id1167829716743">
+<para id="fs-id1167836392806">Add or subtract: <span class="token">ⓐ</span> <m:math><m:mrow><m:mn>12</m:mn><m:msup><m:mi>q</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>9</m:mn><m:msup><m:mi>q</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mn>8</m:mn><m:mi>m</m:mi><m:msup><m:mi>n</m:mi><m:mn>3</m:mn></m:msup><m:mo>−</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−5</m:mn><m:mi>m</m:mi><m:msup><m:mi>n</m:mi><m:mn>3</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836389469">
+<para id="fs-id1167833345172"><span class="token">ⓐ</span> <m:math><m:mrow><m:mn>21</m:mn><m:msup><m:mi>q</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mn>13</m:mn><m:mi>m</m:mi><m:msup><m:mi>n</m:mi><m:mn>3</m:mn></m:msup></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1167836357323" class="try">
+<exercise id="fs-id1167833310117">
+<problem id="fs-id1167836693189">
+<para id="fs-id1167836628342">Add or subtract: <span class="token">ⓐ</span> <m:math><m:mrow><m:mn>−15</m:mn><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>8</m:mn><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mn>−15</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:msup><m:mi>z</m:mi><m:mn>3</m:mn></m:msup><m:mo>−</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−5</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:msup><m:mi>z</m:mi><m:mn>3</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836610409">
+<para id="fs-id1167836613592"><span class="token">ⓐ</span> <m:math><m:mrow><m:mn>−7</m:mn><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mn>−10</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:msup><m:mi>z</m:mi><m:mn>3</m:mn></m:msup></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<para id="fs-id1167836299490">Remember that like terms must have the same variables with the same exponents.</para>
+<example id="fs-id1167836700849">
+<exercise id="fs-id1167836524855">
+<problem id="fs-id1167836615698">
+<para id="fs-id1167836614091">Simplify: <span class="token">ⓐ</span> <m:math><m:mrow><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>7</m:mn><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>6</m:mn><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:msup><m:mi>u</m:mi><m:mn>2</m:mn></m:msup><m:mi>v</m:mi><m:mo>+</m:mo><m:mn>5</m:mn><m:msup><m:mi>u</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>3</m:mn><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836692468">
+<para id="fs-id1167836532785"><span class="token">ⓐ</span><newline/>
+<m:math><m:mrow><m:mtable>
+<m:mtr><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:mspace width="9em"/><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>7</m:mn><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>6</m:mn><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mtext>Combine like terms.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:mspace width="9em"/><m:mn>−5</m:mn><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>7</m:mn><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup></m:mtd></m:mtr></m:mtable></m:mrow></m:math></para>
+<para id="fs-id1167836529276"><span class="token">ⓑ</span><newline/>
+<m:math><m:mrow><m:mtable>
+<m:mtr><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:msup><m:mi>u</m:mi><m:mn>2</m:mn></m:msup><m:mi>v</m:mi><m:mo>+</m:mo><m:mn>5</m:mn><m:msup><m:mi>u</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>3</m:mn><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mtable><m:mtr><m:mtd columnalign="left"><m:mtext>There are no like terms to combine.</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>In this case, the polynomial is unchanged.</m:mtext></m:mtd></m:mtr></m:mtable></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:msup><m:mi>u</m:mi><m:mn>2</m:mn></m:msup><m:mi>v</m:mi><m:mo>+</m:mo><m:mn>5</m:mn><m:msup><m:mi>u</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>3</m:mn><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup></m:mtd></m:mtr></m:mtable></m:mrow></m:math></para>
+</solution>
+</exercise>
+</example>
+<note id="fs-id1167836571078" class="try">
+<exercise id="fs-id1167836387371">
+<problem id="fs-id1167836560357">
+<para id="fs-id1167836287957">Add: <span class="token">ⓐ</span> <m:math><m:mrow><m:mn>8</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>3</m:mn><m:msup><m:mi>z</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>3</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:msup><m:mi>m</m:mi><m:mn>2</m:mn></m:msup><m:msup><m:mi>n</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>8</m:mn><m:msup><m:mi>m</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>4</m:mn><m:msup><m:mi>n</m:mi><m:mn>2</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836528200">
+<para id="fs-id1167836492113"><span class="token">ⓐ</span> <m:math><m:mrow><m:mn>5</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>3</m:mn><m:msup><m:mi>z</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math><newline/><span class="token">ⓑ</span> <m:math><m:mrow><m:msup><m:mi>m</m:mi><m:mn>2</m:mn></m:msup><m:msup><m:mi>n</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>8</m:mn><m:msup><m:mi>m</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>4</m:mn><m:msup><m:mi>n</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1167836756832" class="try">
+<exercise id="fs-id1167824584640">
+<problem id="fs-id1167824584769">
+<para id="fs-id1167829597034">Add: <span class="token">ⓐ</span> <m:math><m:mrow><m:mn>3</m:mn><m:msup><m:mi>m</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mi>n</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>7</m:mn><m:msup><m:mi>m</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mi>p</m:mi><m:msup><m:mi>q</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>6</m:mn><m:mi>p</m:mi><m:mo>−</m:mo><m:mn>5</m:mn><m:msup><m:mi>q</m:mi><m:mn>2</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836329245">
+<para id="fs-id1167824737606"><span class="token">ⓐ</span> <m:math><m:mrow><m:mn>−4</m:mn><m:msup><m:mi>m</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mi>n</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math><newline/><span class="token">ⓑ</span> <m:math><m:mrow><m:mi>p</m:mi><m:msup><m:mi>q</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>6</m:mn><m:mi>p</m:mi><m:mo>−</m:mo><m:mn>5</m:mn><m:msup><m:mi>q</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<para id="fs-id1167836689245">We can think of adding and subtracting polynomials as just adding and subtracting a series of monomials. Look for the like terms—those with the same variables and the same exponent. The Commutative Property allows us to rearrange the terms to put like terms together.</para>
+<example id="fs-id1167836289213">
+<exercise id="fs-id1167833139745">
+<problem id="fs-id1167833056480">
+<para id="fs-id1167833056483">Find the sum:<m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>7</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>9</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>4</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>8</m:mn><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>7</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167829614243">
+<para id="fs-id1167829614246"><m:math><m:mrow><m:mtable>
+<m:mtr><m:mtd columnalign="left"><m:mtext>Identify like terms.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:mrow><m:mo>(</m:mo><m:mrow><m:munder accentunder="true"><m:munder accentunder="true"><m:mrow><m:mn>7</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mo stretchy="true">____</m:mo></m:munder><m:mo stretchy="true">____</m:mo></m:munder><m:mo>−</m:mo><m:munder accentunder="true"><m:mrow><m:mn>2</m:mn><m:mi>y</m:mi></m:mrow><m:mo stretchy="true">___</m:mo></m:munder><m:mo>+</m:mo><m:mrow><m:mrow><m:mn>9</m:mn></m:mrow></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:munder accentunder="true"><m:munder accentunder="true"><m:mrow><m:mn>4</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mo stretchy="true">____</m:mo></m:munder><m:mo stretchy="true">____</m:mo></m:munder><m:mo>−</m:mo><m:munder accentunder="true"><m:mrow><m:mn>8</m:mn><m:mi>y</m:mi></m:mrow><m:mo stretchy="true">___</m:mo></m:munder><m:mo>−</m:mo><m:mn>7</m:mn><m:mo>)</m:mo></m:mrow></m:mrow></m:mrow></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mtable><m:mtr><m:mtd columnalign="left"><m:mtext>Rewrite without the parentheses,</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>rearranging to get the like terms together.</m:mtext></m:mtd></m:mtr></m:mtable></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:munder accentunder="true"><m:munder accentunder="true"><m:mrow><m:mn>7</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>4</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mo stretchy="true">_________</m:mo></m:munder><m:mo stretchy="true">_________</m:mo></m:munder><m:mo>−</m:mo><m:munder accentunder="true"><m:mrow><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>8</m:mn><m:mi>y</m:mi></m:mrow><m:mo stretchy="true">_______</m:mo></m:munder><m:mo>+</m:mo><m:mrow><m:mn>9</m:mn><m:mo>−</m:mo><m:mn>7</m:mn></m:mrow></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mtext>Combine like terms.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:mn>11</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>10</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>2</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:math></para>
+</solution>
+</exercise>
+</example>
+<note id="fs-id1167836539576" class="try">
+<exercise id="fs-id1167836447632">
+<problem id="fs-id1167836309244">
+<para id="fs-id1167836309246">Find the sum: <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>7</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>7</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167829586793">
+<para id="fs-id1167829586795"><m:math><m:mrow><m:mn>8</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>11</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>8</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1167824736146" class="try">
+<exercise id="fs-id1167833385425">
+<problem id="fs-id1167833385427">
+<para id="fs-id1167833071635">Find the sum: <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>14</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>6</m:mn><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>8</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167825703487">
+<para id="fs-id1167825703489"><m:math><m:mrow><m:mn>17</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>14</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<para id="fs-id1171790896470">Be careful with the signs as you distribute while subtracting the polynomials in the next example.</para>
+<example id="fs-id1167829749490">
+<exercise id="fs-id1167829749492">
+<problem id="fs-id1167836522315">
+<para id="fs-id1167836522317">Find the difference: <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>9</m:mn><m:msup><m:mi>w</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>7</m:mn><m:mi>w</m:mi><m:mo>+</m:mo><m:mn>5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>−</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:msup><m:mi>w</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836731036">
+<para id="fs-id1167836756613"><m:math><m:mrow><m:mtable>
+<m:mtr><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>9</m:mn><m:msup><m:mi>w</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>7</m:mn><m:mi>w</m:mi><m:mo>+</m:mo><m:mn>5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>−</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:msup><m:mi>w</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mtext>Distribute and identify like terms.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:munder accentunder="true"><m:munder accentunder="true"><m:mrow><m:mn>9</m:mn><m:msup><m:mi>w</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mo stretchy="true">____</m:mo></m:munder><m:mo stretchy="true">____</m:mo></m:munder><m:mo>−</m:mo><m:munder accentunder="true"><m:mrow><m:mn>7</m:mn><m:mi>w</m:mi></m:mrow><m:mo stretchy="true">___</m:mo></m:munder><m:mo>+</m:mo><m:mn>5</m:mn><m:mo>−</m:mo><m:munder accentunder="true"><m:munder accentunder="true"><m:mrow><m:mn>2</m:mn><m:msup><m:mi>w</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mo stretchy="true">____</m:mo></m:munder><m:mo stretchy="true">____</m:mo></m:munder><m:mo>+</m:mo><m:mn>4</m:mn></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mtext>Rearrange the terms.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:munder accentunder="true"><m:munder accentunder="true"><m:mrow><m:mn>9</m:mn><m:msup><m:mi>w</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>2</m:mn><m:msup><m:mi>w</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mo stretchy="true">__________</m:mo></m:munder><m:mo stretchy="true">__________</m:mo></m:munder><m:mo>−</m:mo><m:munder accentunder="true"><m:mrow><m:mn>7</m:mn><m:mi>w</m:mi></m:mrow><m:mo stretchy="true">___</m:mo></m:munder><m:mo>+</m:mo><m:mn>5</m:mn><m:mo>+</m:mo><m:mn>4</m:mn></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mtext>Combine like terms.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:mn>7</m:mn><m:msup><m:mi>w</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>7</m:mn><m:mi>w</m:mi><m:mo>+</m:mo><m:mn>9</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:math></para>
+</solution>
+</exercise>
+</example>
+<note id="fs-id1167833339032" class="try">
+<exercise id="fs-id1167833339035">
+<problem id="fs-id1167836620467">
+<para id="fs-id1167836620470">Find the difference: <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>8</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>19</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>−</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>7</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>14</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836543282">
+<para id="fs-id1167836543285"><m:math><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>5</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1167829585676" class="try">
+<exercise id="fs-id1167829585679">
+<problem id="fs-id1167836447528">
+<para id="fs-id1167836447530">Find the difference: <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>9</m:mn><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>5</m:mn><m:mi>b</m:mi><m:mo>−</m:mo><m:mn>4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>−</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3</m:mn><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>5</m:mn><m:mi>b</m:mi><m:mo>−</m:mo><m:mn>7</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167829832094">
+<para id="fs-id1167836533016"><m:math><m:mrow><m:mn>6</m:mn><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<para id="fs-id1171790290366">To subtract <m:math><m:mrow><m:mi>a</m:mi></m:mrow></m:math> from <m:math><m:mrow><m:mi>b</m:mi><m:mo>,</m:mo></m:mrow></m:math> we write it as <m:math><m:mrow><m:mi>b</m:mi><m:mo>−</m:mo><m:mi>a</m:mi><m:mo>,</m:mo></m:mrow></m:math> placing the <m:math><m:mrow><m:mi>b</m:mi></m:mrow></m:math> first.</para>
+<example id="fs-id1167833049950">
+<exercise id="fs-id1167833049952">
+<problem id="fs-id1167833049954">
+<para id="fs-id1167833339601">Subtract <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msup><m:mi>p</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>10</m:mn><m:mi>p</m:mi><m:mi>q</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:msup><m:mi>q</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> from <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msup><m:mi>p</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mi>q</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836706818">
+<para id="fs-id1167833057701"><m:math><m:mrow><m:mtable>
+<m:mtr><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:mrow><m:mo>(</m:mo><m:mrow><m:msup><m:mi>p</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mi>q</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>−</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:msup><m:mi>p</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>10</m:mn><m:mi>p</m:mi><m:mi>q</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:msup><m:mi>q</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mtext>Distribute.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:msup><m:mi>p</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mi>q</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:msup><m:mi>p</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>10</m:mn><m:mi>p</m:mi><m:mi>q</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:msup><m:mi>q</m:mi><m:mn>2</m:mn></m:msup></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mtext>Rearrange the terms, to put like terms together.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:msup><m:mi>p</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:msup><m:mi>p</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>10</m:mn><m:mi>p</m:mi><m:mi>q</m:mi><m:mo>+</m:mo><m:msup><m:mi>q</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>2</m:mn><m:msup><m:mi>q</m:mi><m:mn>2</m:mn></m:msup></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mtext>Combine like terms.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:mn>−10</m:mn><m:mi>p</m:mi><m:mi>q</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:msup><m:mi>q</m:mi><m:mn>2</m:mn></m:msup></m:mtd></m:mtr></m:mtable></m:mrow></m:math></para>
+</solution>
+</exercise>
+</example>
+<note id="fs-id1167824733970" class="try">
+<exercise id="fs-id1167836416627">
+<problem id="fs-id1167836416629">
+<para id="fs-id1167836416631">Subtract <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>5</m:mn><m:mi>a</m:mi><m:mi>b</m:mi><m:mo>−</m:mo><m:mn>6</m:mn><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> from <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836557087">
+<para id="fs-id1167836557089"> <m:math><m:mrow><m:mn>−5</m:mn><m:mi>a</m:mi><m:mi>b</m:mi><m:mo>+</m:mo><m:mn>7</m:mn><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1167829853708" class="try">
+<exercise id="fs-id1167829853711">
+<problem id="fs-id1167836493326">
+<para id="fs-id1167836493328">Subtract <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msup><m:mi>m</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>7</m:mn><m:mi>m</m:mi><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:msup><m:mi>n</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> from <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msup><m:mi>m</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mi>n</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836665216">
+<para id="fs-id1167836665218"> <m:math><m:mrow><m:mn>7</m:mn><m:mi>m</m:mi><m:mi>n</m:mi><m:mo>+</m:mo><m:mn>4</m:mn><m:msup><m:mi>n</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<example id="fs-id1167833412561">
+<exercise id="fs-id1167833412564">
+<problem id="fs-id1167833412566">
+<para id="fs-id1167836730201">Find the sum: <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msup><m:mi>u</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>6</m:mn><m:mi>u</m:mi><m:mi>v</m:mi><m:mo>+</m:mo><m:mn>5</m:mn><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3</m:mn><m:msup><m:mi>u</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>u</m:mi><m:mi>v</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836558032">
+<para id="fs-id1167836558034"><m:math><m:mrow><m:mtable>
+<m:mtr><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:mrow><m:mo>(</m:mo><m:mrow><m:msup><m:mi>u</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>6</m:mn><m:mi>u</m:mi><m:mi>v</m:mi><m:mo>+</m:mo><m:mn>5</m:mn><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3</m:mn><m:msup><m:mi>u</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>u</m:mi><m:mi>v</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mtd></m:mtr>
+<m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="left"><m:mtext>Distribute.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:msup><m:mi>u</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>6</m:mn><m:mi>u</m:mi><m:mi>v</m:mi><m:mo>+</m:mo><m:mn>5</m:mn><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>3</m:mn><m:msup><m:mi>u</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>u</m:mi><m:mi>v</m:mi></m:mtd></m:mtr>
+<m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="left"><m:mtext>Rearrange the terms to put like terms together.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:msup><m:mi>u</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>3</m:mn><m:msup><m:mi>u</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>6</m:mn><m:mi>u</m:mi><m:mi>v</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>u</m:mi><m:mi>v</m:mi><m:mo>+</m:mo><m:mn>5</m:mn><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup></m:mtd></m:mtr>
+<m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="left"><m:mtext>Combine like terms.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:mn>4</m:mn><m:msup><m:mi>u</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>4</m:mn><m:mi>u</m:mi><m:mi>v</m:mi><m:mo>+</m:mo><m:mn>5</m:mn><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup></m:mtd></m:mtr></m:mtable></m:mrow></m:math></para>
+</solution>
+</exercise>
+</example>
+<note id="fs-id1167836328953" class="try">
+<exercise id="fs-id1167836552919">
+<problem id="fs-id1167836552921">
+<para id="fs-id1167833382187">Find the sum: <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>4</m:mn><m:mi>x</m:mi><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>5</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mi>x</m:mi><m:mi>y</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836424170">
+<para id="fs-id1167836602764"><m:math><m:mrow><m:mn>5</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>5</m:mn><m:mi>x</m:mi><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>5</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1167836689192" class="try">
+<exercise id="fs-id1167836689195">
+<problem id="fs-id1167836689197">
+<para id="fs-id1167836624073">Find the sum: <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>5</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mi>y</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167833036790">
+<para id="fs-id1167836756749"><m:math><m:mrow><m:mn>7</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>6</m:mn><m:mi>x</m:mi><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<para id="fs-id1171792799230">When we add and subtract more than two polynomials, the process is the same.</para>
+<example id="fs-id1167836423838">
+<exercise id="fs-id1167836423840">
+<problem id="fs-id1167836507496">
+<para id="fs-id1167836507498">Simplify: <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msup><m:mi>a</m:mi><m:mn>3</m:mn></m:msup><m:mo>−</m:mo><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:mi>b</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>−</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>a</m:mi><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mi>b</m:mi><m:mn>3</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:mi>b</m:mi><m:mo>+</m:mo><m:mi>a</m:mi><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836560662">
+<para id="fs-id1167836560664"><m:math><m:mrow><m:mtable>
+<m:mtr><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:mrow><m:mo>(</m:mo><m:mrow><m:msup><m:mi>a</m:mi><m:mn>3</m:mn></m:msup><m:mo>−</m:mo><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:mi>b</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>−</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>a</m:mi><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mi>b</m:mi><m:mn>3</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:mi>b</m:mi><m:mo>+</m:mo><m:mi>a</m:mi><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow></m:mtd></m:mtr>
+<m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="left"><m:mtext>Distribute.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:msup><m:mi>a</m:mi><m:mn>3</m:mn></m:msup><m:mo>−</m:mo><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:mi>b</m:mi><m:mo>−</m:mo><m:mi>a</m:mi><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:msup><m:mi>b</m:mi><m:mn>3</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:mi>b</m:mi><m:mo>+</m:mo><m:mi>a</m:mi><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup></m:mtd></m:mtr>
+<m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="left"><m:mtext>Rewrite without the parentheses,</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd/></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>rearranging to get the like terms together.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:msup><m:mi>a</m:mi><m:mn>3</m:mn></m:msup><m:mo>−</m:mo><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:mi>b</m:mi><m:mo>+</m:mo><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:mi>b</m:mi><m:mo>−</m:mo><m:mi>a</m:mi><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>a</m:mi><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:msup><m:mi>b</m:mi><m:mn>3</m:mn></m:msup></m:mtd></m:mtr>
+<m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="left"><m:mtext>Combine like terms.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:msup><m:mi>a</m:mi><m:mn>3</m:mn></m:msup><m:mo>−</m:mo><m:msup><m:mi>b</m:mi><m:mn>3</m:mn></m:msup></m:mtd></m:mtr></m:mtable></m:mrow></m:math></para>
+</solution>
+</exercise>
+</example>
+<note id="fs-id1167829594555" class="try">
+<exercise id="fs-id1167829594558">
+<problem id="fs-id1167836493517">
+<para id="fs-id1167836493519">Simplify: <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup><m:mo>−</m:mo><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mi>y</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>−</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mi>y</m:mi><m:mn>3</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mi>y</m:mi><m:mo>+</m:mo><m:mi>x</m:mi><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167832961272">
+<para id="fs-id1167832961274"><m:math><m:mrow><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mi>y</m:mi><m:mn>3</m:mn></m:msup></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1167836293746" class="try">
+<exercise id="fs-id1167836293749">
+<problem id="fs-id1167836293752">
+<para id="fs-id1167829930564">Simplify: <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msup><m:mi>p</m:mi><m:mn>3</m:mn></m:msup><m:mo>−</m:mo><m:msup><m:mi>p</m:mi><m:mn>2</m:mn></m:msup><m:mi>q</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>p</m:mi><m:msup><m:mi>q</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mi>q</m:mi><m:mn>3</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>−</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:msup><m:mi>p</m:mi><m:mn>2</m:mn></m:msup><m:mi>q</m:mi><m:mo>+</m:mo><m:mi>p</m:mi><m:msup><m:mi>q</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167833030913">
+<para id="fs-id1167833030915"><m:math><m:mrow><m:msup><m:mi>p</m:mi><m:mn>3</m:mn></m:msup><m:mo>−</m:mo><m:mn>3</m:mn><m:msup><m:mi>p</m:mi><m:mn>2</m:mn></m:msup><m:mi>q</m:mi><m:mo>+</m:mo><m:msup><m:mi>q</m:mi><m:mn>3</m:mn></m:msup></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+</section>
+<section id="fs-id1167836624599">
+<title>Evaluate a Polynomial Function for a Given Value</title>
+<para id="fs-id1167833381572">A <term>polynomial function</term> is a function defined by a polynomial. For example, <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>5</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>6</m:mn></m:mrow></m:math> and <m:math><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>4</m:mn></m:mrow></m:math> are polynomial functions, because <m:math><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>5</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>6</m:mn></m:mrow></m:math> and <m:math><m:mrow><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>4</m:mn></m:mrow></m:math> are polynomials.</para>
+<note id="fs-id1167836511381">
+<title>Polynomial Function</title>
+<para id="fs-id1167836596338">A <emphasis effect="bold">polynomial function</emphasis> is a function whose range values are defined by a polynomial.</para>
+</note>
+<para id="fs-id1167836294033">In <link class="target-chapter" document="m63316">Graphs and Functions</link>, where we first introduced functions, we learned that evaluating a function means to find the value of <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:mrow></m:math> for a given value of <emphasis effect="italics">x</emphasis>. To evaluate a polynomial function, we will substitute the given value for the variable and then simplify using the order of operations.</para>
+<example id="fs-id1167836619473">
+<exercise id="fs-id1167836619475">
+<problem id="fs-id1167829694499">
+<para id="fs-id1167829694501">For the function <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>5</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>8</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn></m:mrow></m:math> find: <span class="token">ⓐ</span> <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mn>4</m:mn><m:mo>)</m:mo></m:mrow></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> <span class="token">ⓒ</span> <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mn>0</m:mn><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836477533">
+<para id="fs-id1167836477535"><span class="token">ⓐ</span><newline/>
+<table id="fs-id1167829741803" class="unnumbered unstyled" summary="The image shows a series of equations with instructions. The first equation is the function equation f of x equals 5 x squared minus 8 x plus 4. To find f of 4, substitute 4 for x. The second equation is f of 4 equals 5 times 4 squared minus 8 times 4 plus 4. The 4’s replacing x are emphasized. The remaining equations show how to simplify the right side of the equation using the order of operations. The third equation is f of 4 equals 5 times 16 minus 8 times 4 plus 4. The fourth equation is f of 4 equals 80 minus 32 plus 4. The last equation is f of 4 equals 52.">
+<label/>
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<tbody>
+<row valign="top">
+<entry valign="top" align="left"/>
+<entry valign="top" align="left"><media id="fs-id1167836391910" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_05_01_004b_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left"><media id="fs-id1167829683894" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_05_01_004a_img.jpg"/></media>  </entry>
+<entry valign="top" align="left"><media id="fs-id1167829597649" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_05_01_004c_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Simplify the exponents.</entry>
+<entry valign="top" align="left"><media id="fs-id1167833061150" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_05_01_004d_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Multiply.</entry>
+<entry valign="top" align="left"><media id="fs-id1167836635636" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_05_01_004e_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Simplify.</entry>
+<entry valign="top" align="left"><media id="fs-id1167833056901" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_05_01_004f_img.jpg"/></media></entry>
+</row>
+</tbody>
+</tgroup>
+</table></para>
+<para id="fs-id1167836557376"><span class="token">ⓑ</span><newline/>
+<table id="fs-id1167836557383" class="unnumbered unstyled" summary="The image shows a series of equations with instructions. The first equation is the function equation f of x equals 5 x squared minus 8 x plus 4. To find f of negative 2, substitute negative 2 for x. The second equation is f of negative 2 equals 5 times negative 2 squared minus 8 times negative 2 plus 4. The negative 2’s replacing x are emphasized. The remaining equations show how to simplify the right side of the equation using the order of operations. The third equation is f of negative 2 equals 5 times 4 minus 8 times negative 2 plus 4. The fourth equation is f of negative 2 equals 20 plus 16 plus 4. The last equation is f of negative 2 equals 40.">
+<label/>
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<tbody>
+<row valign="top">
+<entry valign="top" align="left"/>
+<entry valign="top" align="left"><media id="fs-id1167836520680" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_05_01_005b_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left"><media id="fs-id1167836515645" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_05_01_005a_img.jpg"/></media> </entry>
+<entry valign="top" align="left"><media id="fs-id1167832999661" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_05_01_005c_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Simplify the exponents.</entry>
+<entry valign="top" align="left"><media id="fs-id1167836362540" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_05_01_005d_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Multiply.</entry>
+<entry valign="top" align="left"><media id="fs-id1167836738242" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_05_01_005e_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Simplify.</entry>
+<entry valign="top" align="left"><media id="fs-id1167836534829" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_05_01_005f_img.jpg"/></media></entry>
+</row>
+</tbody>
+</tgroup>
+</table></para>
+<para id="fs-id1167836700907"><span class="token">ⓒ</span><newline/>
+<table id="fs-id1167836606920" class="unnumbered unstyled" summary="The image shows a series of equations with instructions. The first equation is the function equation f of x equals 5 x squared minus 8 x plus 4. To find f of 0, substitute 0 for x. The second equation is f of 0 equals 5 times 0 squared minus 8 times 0 plus 4. The 0’s replacing x are emphasized. The remaining equations show how to simplify the right side of the equation using the order of operations. The third equation is f of 0 equals 5 times 0 minus 8 times 0 plus 4. The fourth equation is f of 0 equals 0 plus 0 plus 4. The last equation is f of 0 equals 4.">
+<label/>
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<tbody>
+<row valign="top">
+<entry valign="top" align="left"/>
+<entry valign="top" align="left"><media id="fs-id1167829690356" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_05_01_006b_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left"><media id="fs-id1167833059281a" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_05_01_006a_img.jpg"/></media>  </entry>
+<entry valign="top" align="left"><media id="fs-id1167833059281" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_05_01_006c_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Simplify the exponents.</entry>
+<entry valign="top" align="left"><media id="fs-id1167836492694" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_05_01_006d_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Multiply.</entry>
+<entry valign="top" align="left"><media id="fs-id1167833339022" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_05_01_006e_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Simplify.</entry>
+<entry valign="top" align="left"><media id="fs-id1167832999463" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_05_01_006f_img.jpg"/></media></entry>
+</row>
+</tbody>
+</tgroup>
+</table></para>
+</solution>
+</exercise>
+</example>
+<note id="fs-id1167836532480" class="try">
+<exercise id="fs-id1167836532484">
+<problem id="fs-id1167836532486">
+<para id="fs-id1167836520974">For the function <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>3</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>15</m:mn><m:mo>,</m:mo></m:mrow></m:math> find <span class="token">ⓐ</span> <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mn>3</m:mn><m:mo>)</m:mo></m:mrow></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> <span class="token">ⓒ</span> <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mn>0</m:mn><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836560811">
+<para id="fs-id1167836560813"><span class="token">ⓐ</span> 18 <span class="token">ⓑ</span> 50 <span class="token">ⓒ</span> <m:math><m:mrow><m:mn>−15</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1167836377469" class="try">
+<exercise id="fs-id1167836377474">
+<problem id="fs-id1167836377476">
+<para id="fs-id1167836515904">For the function <m:math><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>5</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>4</m:mn><m:mo>,</m:mo></m:mrow></m:math> find <span class="token">ⓐ</span> <m:math><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> <span class="token">ⓒ</span> <m:math><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mn>0</m:mn><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836507429">
+<para id="fs-id1167836507431"><span class="token">ⓐ</span> 20 <span class="token">ⓑ</span> 2 <span class="token">ⓒ</span> <m:math><m:mrow><m:mn>−4</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<para id="fs-id1167829580335">The polynomial functions similar to the one in the next example are used in many fields to determine the height of an object at some time after it is projected into the air. The polynomial in the next function is used specifically for dropping something from 250 ft.</para>
+<example id="fs-id1167836494121">
+<exercise id="fs-id1167836494123">
+<problem id="fs-id1167836494125">
+<para id="fs-id1167836494127">The polynomial function <m:math><m:mrow><m:mi>h</m:mi><m:mrow><m:mo>(</m:mo><m:mi>t</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>−16</m:mn><m:msup><m:mi>t</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>250</m:mn></m:mrow></m:math> gives the height of a ball <emphasis effect="italics">t</emphasis> seconds after it is dropped from a 250-foot tall building. Find the height after <m:math><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>2</m:mn></m:mrow></m:math> seconds.</para>
+</problem>
+<solution id="fs-id1167836596028">
+<para id="fs-id1167836596030"><m:math><m:mrow><m:mtable>
+<m:mtr><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mi>h</m:mi><m:mrow><m:mo>(</m:mo><m:mi>t</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>−16</m:mn><m:msup><m:mi>t</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>250</m:mn></m:mtd></m:mtr><m:mtr/>
+<m:mtr><m:mtd columnalign="left"><m:mtext>To find</m:mtext><m:mspace width="0.2em"/><m:mi>h</m:mi><m:mrow><m:mo>(</m:mo><m:mn>2</m:mn><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mtext>substitute</m:mtext><m:mspace width="0.2em"/><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mo>.</m:mo></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mi>h</m:mi><m:mrow><m:mo>(</m:mo><m:mn>2</m:mn><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>−16</m:mn><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>250</m:mn></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mtext>Simplify.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mi>h</m:mi><m:mrow><m:mo>(</m:mo><m:mn>2</m:mn><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>−16</m:mn><m:mo>·</m:mo><m:mn>4</m:mn><m:mo>+</m:mo><m:mn>250</m:mn></m:mtd></m:mtr><m:mtr/>
+<m:mtr><m:mtd columnalign="left"><m:mtext>Simplify.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mi>h</m:mi><m:mrow><m:mo>(</m:mo><m:mn>2</m:mn><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>−64</m:mn><m:mo>+</m:mo><m:mn>250</m:mn></m:mtd></m:mtr><m:mtr/>
+<m:mtr><m:mtd columnalign="left"><m:mtext>Simplify.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mi>h</m:mi><m:mrow><m:mo>(</m:mo><m:mn>2</m:mn><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>186</m:mn></m:mtd></m:mtr>
+<m:mtr><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mtext>After 2 seconds the height of the ball is 186 feet.</m:mtext></m:mtd></m:mtr></m:mtable></m:mrow></m:math></para>
+</solution>
+</exercise>
+</example>
+<note id="fs-id1167836628296" class="try">
+<exercise id="fs-id1167836606842">
+<problem id="fs-id1167836606845">
+<para id="fs-id1167836606847">The polynomial function <m:math><m:mrow><m:mi>h</m:mi><m:mrow><m:mo>(</m:mo><m:mi>t</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>−16</m:mn><m:msup><m:mi>t</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>150</m:mn></m:mrow></m:math> gives the height of a stone <emphasis effect="italics">t</emphasis> seconds after it is dropped from a 150-foot tall cliff. Find the height after <m:math><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> seconds (the initial height of the object).</para>
+</problem>
+<solution id="fs-id1167836730595">
+<para id="fs-id1167836706618">The height is <m:math><m:mrow><m:mn>150</m:mn></m:mrow></m:math> feet.</para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1167833082429" class="try">
+<exercise id="fs-id1167833082432">
+<problem id="fs-id1167836546926">
+<para id="fs-id1167836546928">The polynomial function <m:math><m:mrow><m:mi>h</m:mi><m:mrow><m:mo>(</m:mo><m:mi>t</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>−16</m:mn><m:msup><m:mi>t</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>175</m:mn></m:mrow></m:math> gives the height of a ball <emphasis effect="italics">t</emphasis> seconds after it is dropped from a 175-foot tall bridge. Find the height after <m:math><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>3</m:mn></m:mrow></m:math> seconds.</para>
+</problem>
+<solution id="fs-id1167833051269">
+<para id="fs-id1167833051271">The height is 31 feet.</para>
+</solution>
+</exercise>
+</note>
+</section>
+<section id="fs-id1167829719032">
+<title>Add and Subtract Polynomial Functions</title>
+<para id="fs-id1167833224796">Just as polynomials can be added and subtracted, polynomial functions can also be added and subtracted.</para>
+<note id="fs-id1167833224799">
+<title>Addition and Subtraction of Polynomial Functions</title>
+<para id="fs-id1167833224804">For functions <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:mrow></m:math> and <m:math><m:mrow><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>,</m:mo></m:mrow></m:math></para>
+<equation id="fs-id1167836508945" class="unnumbered"><label/><m:math><m:mrow><m:mtable><m:mtr><m:mtd columnalign="left"><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>f</m:mi><m:mo>+</m:mo><m:mi>g</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>f</m:mi><m:mo>−</m:mo><m:mi>g</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>−</m:mo><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:mtd></m:mtr></m:mtable></m:mrow></m:math></equation>
+</note>
+<example id="fs-id1167836717235">
+<exercise id="fs-id1167836717237">
+<problem id="fs-id1167836717240">
+<para id="fs-id1167836717242">For functions <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>3</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>5</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>7</m:mn></m:mrow></m:math> and <m:math><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:mo>,</m:mo></m:mrow></m:math> find:</para>
+<para id="fs-id1167829872138"><span class="token">ⓐ</span> <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>f</m:mi><m:mo>+</m:mo><m:mi>g</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>f</m:mi><m:mo>+</m:mo><m:mi>g</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mn>3</m:mn><m:mo>)</m:mo></m:mrow></m:mrow></m:math> <span class="token">ⓒ</span> <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>f</m:mi><m:mo>−</m:mo><m:mi>g</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:mrow></m:math> <span class="token">ⓓ</span> <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>f</m:mi><m:mo>−</m:mo><m:mi>g</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167832982204">
+<para id="fs-id1167832982206"><span class="token">ⓐ</span><newline/>
+<table id="fs-id1167836391919" class="unnumbered unstyled" summary="The figure shows a series of equations in function notation. The first equation is the formula f plus g of x equals f of x plus g of x. Substituting f of x equals 3 x squared minus 5 x plus 7 and g of x equals x squared minus 4 x minus 3 into the formula results in the equation f plus g of x equals the quantity 3 x squared minus 5 x plus 7 in parentheses plus the quantity x squared minus 4 x minus 3 in parentheses. Rewriting without parentheses is the equation f plus g of x equals 3 x squared minus 5 x plus 7 plus x squared minus 4 x minus 3. Putting like terms together results in the equation f plus g of x equals 3 x squared plus x squared minus 5 x minus 4 x plus 7 minus 3. Combining like terms results in the fully simplified function equation f plus g of x equals 4 x squared minus 9 x plus 4.">
+<label/>
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<tbody>
+<row valign="top">
+<entry valign="top" align="left"/>
+<entry valign="top" align="left"><media id="fs-id1167836326099" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_05_01_007b_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left"><media id="fs-id1167829861746" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_05_01_007a_img.jpg"/></media></entry>
+<entry valign="top" align="left"><media id="fs-id1167836624089" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_05_01_007c_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Rewrite without the parentheses.</entry>
+<entry valign="top" align="left"><media id="fs-id1167829695341" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_05_01_007d_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Put like terms together.</entry>
+<entry valign="top" align="left"><media id="fs-id1167829627739" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_05_01_007e_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Combine like terms.</entry>
+<entry valign="top" align="left"><media id="fs-id1167833407424" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_05_01_007f_img.jpg"/></media></entry>
+</row>
+</tbody>
+</tgroup>
+</table></para>
+<para id="fs-id1167836730613"><span class="token">ⓑ</span> In part (a) we found <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>f</m:mi><m:mo>+</m:mo><m:mi>g</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:mrow></m:math> and now are asked to find <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>f</m:mi><m:mo>+</m:mo><m:mi>g</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mn>3</m:mn><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math><newline/><newline/>
+<m:math><m:mrow><m:mtable>
+<m:mtr><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>f</m:mi><m:mo>+</m:mo><m:mi>g</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>4</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>9</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn></m:mtd></m:mtr><m:mtr/><m:mtr/>
+<m:mtr><m:mtd columnalign="left"><m:mtext>To find</m:mtext><m:mspace width="0.2em"/><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>f</m:mi><m:mo>+</m:mo><m:mi>g</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mn>3</m:mn><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mtext>substitute</m:mtext><m:mspace width="0.2em"/><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>3</m:mn><m:mo>.</m:mo></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>f</m:mi><m:mo>+</m:mo><m:mi>g</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mn>3</m:mn><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>4</m:mn><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mn>3</m:mn><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>9</m:mn><m:mo>·</m:mo><m:mn>3</m:mn><m:mo>+</m:mo><m:mn>4</m:mn></m:mtd></m:mtr><m:mtr/><m:mtr/>
+<m:mtr><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>f</m:mi><m:mo>+</m:mo><m:mi>g</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mn>3</m:mn><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>4</m:mn><m:mo>·</m:mo><m:mn>9</m:mn><m:mo>−</m:mo><m:mn>9</m:mn><m:mo>·</m:mo><m:mn>3</m:mn><m:mo>+</m:mo><m:mn>4</m:mn></m:mtd></m:mtr><m:mtr/><m:mtr/>
+<m:mtr><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>f</m:mi><m:mo>+</m:mo><m:mi>g</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mn>3</m:mn><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>36</m:mn><m:mo>−</m:mo><m:mn>27</m:mn><m:mo>+</m:mo><m:mn>4</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:math></para>
+<para id="fs-id1167836660081">Notice that we could have found <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>f</m:mi><m:mo>+</m:mo><m:mi>g</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mn>3</m:mn><m:mo>)</m:mo></m:mrow></m:mrow></m:math> by first finding the values of <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mn>3</m:mn><m:mo>)</m:mo></m:mrow></m:mrow></m:math> and <m:math><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mn>3</m:mn><m:mo>)</m:mo></m:mrow></m:mrow></m:math> separately and then adding the results.</para>
+<para id="fs-id1167829748064">
+<table id="fs-id1167829748066" class="unnumbered unstyled" summary="The figure shows a series of calculations to verify the last result. The first calculation is labeled Find f of 3. The first equation is the function equation f of x equals 3 x squared minus 5 x plus 7. The second equation is f of 3 equals 3 times 3 squared minus 5 times 3 plus 7, where the 3’s are all emphasized. The third equation is f of 3 equals 19. The second calculation is labeled Find g of 3. The first equation is the function equation g of x equals x squared minus 4 x minus 3. The second equation is g of 3 equals 3 squared minus 4 times 3 minus 3. The 3’s that replaced the x’s are emphasized. The next equation is g of 3 equals negative 6. The last calculation is labeled Find f plus g of 3. The first equation is the formula f plus g of x equals f of x plus g of x. The second equation is f plus g of 3 equals f of 3 plus g of 3. Substituting f of 3 equals 19 and g of 3 equals negative 6 we get the equation f plus g of 3 equals 19 minus 6. The last equation is f plus g of 3 equals 13.">
+<label/>
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<tbody>
+<row valign="top">
+<entry valign="top" align="left">Find <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mn>3</m:mn><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></entry>
+<entry valign="top" align="left"><media id="fs-id1167829743187" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_05_01_008b_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left"/>
+<entry valign="top" align="left"><media id="fs-id1167829745681" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_05_01_008c_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left"/>
+<entry valign="top" align="left"><media id="fs-id1167836614824" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_05_01_008d_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Find <m:math><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mn>3</m:mn><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></entry>
+<entry valign="top" align="left"><media id="fs-id1167833338871" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_05_01_008e_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left"/>
+<entry valign="top" align="left"><media id="fs-id1167833024470" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_05_01_008f_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left"/>
+<entry valign="top" align="left"><media id="fs-id1167832945745" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_05_01_008g_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Find <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>f</m:mi><m:mo>+</m:mo><m:mi>g</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mn>3</m:mn><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></entry>
+<entry valign="top" align="left"><media id="fs-id1167829579194" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_05_01_008h_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left"/>
+<entry valign="top" align="left"><media id="fs-id1167833066755" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_05_01_008i_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left"><media id="fs-id1167836391940" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_05_01_008a_img.jpg"/></media><m:math><m:mrow><m:mspace width="1.2em"/></m:mrow></m:math></entry>
+<entry valign="top" align="left"><media id="fs-id1167836536972" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_05_01_008j_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left"/>
+<entry valign="top" align="left"><media id="fs-id1167836601705" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_05_01_008k_img.jpg"/></media></entry>
+</row>
+</tbody>
+</tgroup>
+</table></para>
+<para id="fs-id1167833378545"><span class="token">ⓒ</span><newline/>
+<table id="fs-id1167832982035" class="unnumbered unstyled" summary="The figure shows a series of equations in function notation. The first equation is the formula f minus g of x equals f of x minus g of x. Substituting f of x equals 3 x squared minus 5 x plus 7 and g of x equals x squared minus 4 x minus 3 into the formula results in the equation f minus g of x equals the quantity 3 x squared minus 5 x plus 7 in parentheses minus the quantity x squared minus 4 x minus 3 in parentheses. Rewriting without parentheses is the equation f minus g of x equals 3 x squared minus 5 x plus 7 minus x squared plus 4 x plus 3. Putting like terms together results in the equation f minus g of x equals 3 x squared minus x squared minus 5 x plus 4 x plus 7 plus 3. Combining like terms results in the fully simplified function equation f minus g of x equals 2 x squared minus x plus 10.">
+<label/>
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<tbody>
+<row valign="top">
+<entry valign="top" align="left"/>
+<entry valign="top" align="left"><media id="fs-id1167836625927" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_05_01_009b_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left"><media id="fs-id1167829593569" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_05_01_009a_img.jpg"/></media></entry>
+<entry valign="top" align="left"><media id="fs-id1167829717196" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_05_01_009c_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Rewrite without the parentheses.</entry>
+<entry valign="top" align="left"><media id="fs-id1167833338979" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_05_01_009d_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Put like terms together.</entry>
+<entry valign="top" align="left"><media id="fs-id1167829692985" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_05_01_009e_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Combine like terms.</entry>
+<entry valign="top" align="left"><media id="fs-id1167833227243" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_05_01_009f_img.jpg"/></media></entry>
+</row>
+</tbody>
+</tgroup>
+</table></para>
+<para id="fs-id1167833060375"><span class="token">ⓓ</span><newline/>
+<table id="fs-id1167832937173" class="unnumbered unstyled" summary="The figure shows a series of equations in function notation. The first equation is the equation f minus g of x equals 2 x squared minus x plus 10. To find f minus g of negative 2 substitute x equals negative 2. The second equation is f minus g of negative 2 equals 2 times negative 2 squared minus negative 2 plus 10. The next equation is f minus g of negative 2 equals 2 times 4 minus negative 2 plus 10. The next equation is f minus g of negative 2 equals 20.">
+<label/>
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<tbody>
+<row valign="top">
+<entry valign="top" align="left"><media id="fs-id1167829739277" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_05_01_010_img_new.jpg"/></media></entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</para>
+</solution>
+</exercise>
+</example>
+<note id="fs-id1167824734625" class="try">
+<exercise id="fs-id1167824734629">
+<problem id="fs-id1167824734631">
+<para id="fs-id1167824734633">For functions <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>2</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow></m:math> and <m:math><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>6</m:mn><m:mo>,</m:mo></m:mrow></m:math> find: <span class="token">ⓐ</span> <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>f</m:mi><m:mo>+</m:mo><m:mi>g</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>f</m:mi><m:mo>+</m:mo><m:mi>g</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mn>3</m:mn><m:mo>)</m:mo></m:mrow></m:mrow></m:math> <span class="token">ⓒ</span> <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>f</m:mi><m:mo>−</m:mo><m:mi>g</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:mrow></m:math> <span class="token">ⓓ</span> <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>f</m:mi><m:mo>−</m:mo><m:mi>g</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167829811159">
+<para id="fs-id1167829811161"><span class="token">ⓐ</span> <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>f</m:mi><m:mo>+</m:mo><m:mi>g</m:mi><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>3</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>6</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>f</m:mi><m:mo>+</m:mo><m:mi>g</m:mi><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>6</m:mn></m:mrow></m:math><newline/><span class="token">ⓒ</span> <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>f</m:mi><m:mo>−</m:mo><m:mi>g</m:mi><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>9</m:mn></m:mrow></m:math><newline/><span class="token">ⓓ</span> <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>f</m:mi><m:mo>−</m:mo><m:mi>g</m:mi><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>−2</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>17</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1167836619815" class="try">
+<exercise id="fs-id1167830076287">
+<problem id="fs-id1167830076289">
+<para id="fs-id1167830076291">For functions <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>5</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:math> and <m:math><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>8</m:mn><m:mo>,</m:mo></m:mrow></m:math> find <span class="token">ⓐ</span> <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>f</m:mi><m:mo>+</m:mo><m:mi>g</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>f</m:mi><m:mo>+</m:mo><m:mi>g</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mn>3</m:mn><m:mo>)</m:mo></m:mrow></m:mrow></m:math> <span class="token">ⓒ</span> <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>f</m:mi><m:mo>−</m:mo><m:mi>g</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:mrow></m:math> <span class="token">ⓓ</span> <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>f</m:mi><m:mo>−</m:mo><m:mi>g</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167829614418">
+<para id="fs-id1167829614420"><span class="token">ⓐ</span> <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>f</m:mi><m:mo>+</m:mo><m:mi>g</m:mi><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>6</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>7</m:mn></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>f</m:mi><m:mo>+</m:mo><m:mi>g</m:mi><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>58</m:mn></m:mrow></m:math><newline/><span class="token">ⓒ</span> <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>f</m:mi><m:mo>−</m:mo><m:mi>g</m:mi><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>4</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>7</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>9</m:mn></m:mrow></m:math><newline/><span class="token">ⓓ</span> <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>f</m:mi><m:mo>−</m:mo><m:mi>g</m:mi><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>−2</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>21</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1167836594852" class="media-2">
+<para id="fs-id1167836594856">Access this online resource for additional instruction and practice with adding and subtracting polynomials.</para>
+<list id="fs-id1167836594861" list-type="bulleted" bullet-style="bullet">
+<item><link url="https://openstax.org/l/37AddSubtrPoly">Adding and Subtracting Polynomials</link></item>
+</list>
+</note>
+</section>
+<section id="fs-id1167824584895" class="key-concepts">
+<title>Key Concepts</title>
+<list id="fs-id1167829828750" list-type="bulleted" bullet-style="bullet">
+<item><emphasis effect="bold">Monomial</emphasis>
+<list id="fs-id1167836409466" list-type="bulleted" bullet-style="bullet">
+<item>A <emphasis effect="bold">monomial</emphasis> is an algebraic expression with one term.</item>
+<item>A monomial in one variable is a term of the form <m:math><m:mrow><m:mi>a</m:mi><m:msup><m:mi>x</m:mi><m:mi>m</m:mi></m:msup><m:mo>,</m:mo></m:mrow></m:math> where <emphasis effect="italics">a</emphasis> is a constant and <emphasis effect="italics">m</emphasis> is a whole number.</item>
+</list></item>
+<item><emphasis effect="bold">Polynomials</emphasis>
+<list id="fs-id1167836625101" list-type="bulleted" bullet-style="bullet">
+<item><emphasis effect="bold">Polynomial</emphasis>—A monomial, or two or more algebraic terms combined by addition or subtraction is a polynomial.</item>
+<item><emphasis effect="bold">monomial</emphasis> —A polynomial with exactly one term is called a monomial.</item>
+<item><emphasis effect="bold">binomial</emphasis> — A polynomial with exactly two terms is called a binomial.</item>
+<item><emphasis effect="bold">trinomial</emphasis> —A polynomial with exactly three terms is called a trinomial.</item>
+</list></item>
+<item><emphasis effect="bold">Degree of a Polynomial</emphasis>
+<list id="fs-id1167836756827" list-type="bulleted" bullet-style="bullet">
+<item>The <emphasis effect="bold">degree of a term</emphasis> is the sum of the exponents of its variables.</item>
+<item>The <emphasis effect="bold">degree of a constant</emphasis> is 0.</item>
+<item>The <emphasis effect="bold">degree of a polynomial</emphasis> is the highest degree of all its terms.</item></list>
+</item>
+</list>
+</section>
+<section id="fs-id1167829713312" class="section-exercises">
+<section id="fs-id1167829713317" class="practice-perfect"><title>Practice Makes Perfect</title><para id="fs-id1167829713324"><emphasis effect="bold">Determine the Type of Polynomials</emphasis></para><para id="fs-id1167836408265">In the following exercises, determine if the polynomial is a monomial, binomial, trinomial, or other polynomial.</para>
+<exercise id="fs-id1167836408269">
+<problem id="fs-id1167836408272">
+<para id="fs-id1167836408274"><newline/><span class="token">ⓐ</span> <m:math><m:mrow><m:mn>47</m:mn><m:msup><m:mi>x</m:mi><m:mn>5</m:mn></m:msup><m:mo>−</m:mo><m:mn>17</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:msup><m:mi>y</m:mi><m:mn>3</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math><newline/><span class="token">ⓑ</span> <m:math><m:mrow><m:mn>5</m:mn><m:msup><m:mi>c</m:mi><m:mn>3</m:mn></m:msup><m:mo>+</m:mo><m:mn>11</m:mn><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mi>c</m:mi><m:mo>−</m:mo><m:mn>8</m:mn></m:mrow></m:math><newline/><span class="token">ⓒ</span> <m:math><m:mrow><m:mfrac><m:mn>5</m:mn><m:mn>9</m:mn></m:mfrac><m:mi>a</m:mi><m:mi>b</m:mi><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac><m:mi>b</m:mi></m:mrow></m:math><newline/><span class="token">ⓓ</span> 4<newline/><span class="token">ⓔ</span> <m:math><m:mrow><m:mn>4</m:mn><m:mi>p</m:mi><m:mi>q</m:mi><m:mo>+</m:mo><m:mn>17</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167829627905">
+<para id="fs-id1167829627907"><span class="token">ⓐ</span> trinomial, 5 <span class="token">ⓑ</span> polynomial, 3 <span class="token">ⓒ</span> binomial, 2 <span class="token">ⓓ</span> monomial, 0<newline/><span class="token">ⓔ</span> binomial, 1</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167836512992">
+<problem id="fs-id1167836512994">
+<para id="fs-id1167836512996"><newline/><span class="token">ⓐ</span> <m:math><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math><newline/><span class="token">ⓑ</span> <m:math><m:mrow><m:mn>−13</m:mn><m:msup><m:mi>c</m:mi><m:mn>4</m:mn></m:msup></m:mrow></m:math><newline/><span class="token">ⓒ</span> <m:math><m:mrow><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>a</m:mi><m:mi>b</m:mi><m:mo>−</m:mo><m:mn>7</m:mn><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math><newline/><span class="token">ⓓ</span> <m:math><m:mrow><m:mn>4</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>8</m:mn></m:mrow></m:math><newline/><span class="token">ⓔ</span> 19</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167832937207">
+<problem id="fs-id1167832937209">
+<para id="fs-id1167832937211"><newline/><span class="token">ⓐ</span> <m:math><m:mrow><m:mn>8</m:mn><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>5</m:mn><m:mi>x</m:mi></m:mrow></m:math><newline/><span class="token">ⓑ</span> <m:math><m:mrow><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>5</m:mn><m:mi>y</m:mi><m:mi>z</m:mi><m:mo>−</m:mo><m:mn>6</m:mn><m:msup><m:mi>z</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math><newline/><span class="token">ⓒ</span> <m:math><m:mrow><m:msup><m:mi>y</m:mi><m:mn>3</m:mn></m:msup><m:mo>−</m:mo><m:mn>8</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>16</m:mn></m:mrow></m:math><newline/><span class="token">ⓓ</span> <m:math><m:mrow><m:mn>81</m:mn><m:mi>a</m:mi><m:msup><m:mi>b</m:mi><m:mn>4</m:mn></m:msup><m:mo>−</m:mo><m:mn>24</m:mn><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>b</m:mi></m:mrow></m:math><newline/><span class="token">ⓔ</span> <m:math><m:mrow><m:mn>−18</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836596290">
+<para id="fs-id1167836596292"><span class="token">ⓐ</span> binomial <span class="token">ⓑ</span> trinomial<newline/><span class="token">ⓒ</span> polynomial <span class="token">ⓓ</span> trinomial<newline/><span class="token">ⓔ</span> monomial </para>
+</solution>
+</exercise>
+<exercise id="fs-id1167833009337">
+<problem id="fs-id1167833009340">
+<para id="fs-id1167833009342"><newline/><span class="token">ⓐ</span> <m:math><m:mrow><m:mn>11</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math><newline/><span class="token">ⓑ</span> <m:math><m:mrow><m:mn>−73</m:mn></m:mrow></m:math><newline/><span class="token">ⓒ</span> <m:math><m:mrow><m:mn>6</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math><newline/><span class="token">ⓓ</span> <m:math><m:mrow><m:mn>4</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>17</m:mn><m:msup><m:mi>z</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math><newline/><span class="token">ⓔ</span> <m:math><m:mrow><m:mn>5</m:mn><m:msup><m:mi>c</m:mi><m:mn>3</m:mn></m:msup><m:mo>+</m:mo><m:mn>11</m:mn><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mi>c</m:mi><m:mo>−</m:mo><m:mn>8</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167836321250">
+<problem id="fs-id1167836321253">
+<para id="fs-id1167836321255"><newline/><span class="token">ⓐ</span> <m:math><m:mrow><m:mn>5</m:mn><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>12</m:mn><m:mi>a</m:mi><m:mi>b</m:mi><m:mo>−</m:mo><m:mn>7</m:mn><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math><newline/><span class="token">ⓑ</span> <m:math><m:mrow><m:mn>18</m:mn><m:mi>x</m:mi><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mi>z</m:mi></m:mrow></m:math><newline/><span class="token">ⓒ</span> <m:math><m:mrow><m:mn>5</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow></m:math><newline/><span class="token">ⓓ</span> <m:math><m:mrow><m:msup><m:mi>y</m:mi><m:mn>3</m:mn></m:msup><m:mo>−</m:mo><m:mn>8</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>16</m:mn></m:mrow></m:math><newline/><span class="token">ⓔ</span> <m:math><m:mrow><m:mn>−24</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167829684015">
+<para id="fs-id1167829684017"><span class="token">ⓐ</span> <m:math><m:mrow><m:mtext>trinomial, </m:mtext><m:mn>2</m:mn></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mtext>monomial, </m:mtext><m:mn>4</m:mn></m:mrow></m:math> <span class="token">ⓒ</span> <m:math><m:mrow><m:mtext>binomial, </m:mtext><m:mn>1</m:mn></m:mrow></m:math> <span class="token">ⓓ</span> <m:math><m:mrow><m:mtext>quadrinomial, </m:mtext><m:mn>3</m:mn></m:mrow></m:math><newline/><span class="token">ⓔ</span> <m:math><m:mrow><m:mtext>monomial, </m:mtext><m:mn>0</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167829741538">
+<problem id="fs-id1167829741540">
+<para id="fs-id1167829741542"><newline/><span class="token">ⓐ</span> <m:math><m:mrow><m:mn>9</m:mn><m:msup><m:mi>y</m:mi><m:mn>3</m:mn></m:msup><m:mo>−</m:mo><m:mn>10</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>6</m:mn></m:mrow></m:math><newline/><span class="token">ⓑ</span> <m:math><m:mrow><m:mn>−12</m:mn><m:msup><m:mi>p</m:mi><m:mn>3</m:mn></m:msup><m:mi>q</m:mi></m:mrow></m:math><newline/><span class="token">ⓒ</span> <m:math><m:mrow><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>9</m:mn><m:mi>a</m:mi><m:mi>b</m:mi><m:mo>+</m:mo><m:mn>18</m:mn><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math><newline/><span class="token">ⓓ</span> <m:math><m:mrow><m:mn>20</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>10</m:mn><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>30</m:mn></m:mrow></m:math><newline/><span class="token">ⓔ</span> 17</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167826131747">
+<problem id="fs-id1167826131749">
+<para id="fs-id1167826131751"><newline/><span class="token">ⓐ</span> <m:math><m:mrow><m:mn>14</m:mn><m:mi>s</m:mi><m:mo>−</m:mo><m:mn>29</m:mn><m:mi>t</m:mi></m:mrow></m:math><newline/><span class="token">ⓑ</span> <m:math><m:mrow><m:msup><m:mi>z</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>5</m:mn><m:mi>z</m:mi><m:mo>−</m:mo><m:mn>6</m:mn></m:mrow></m:math><newline/><span class="token">ⓒ</span> <m:math><m:mrow><m:msup><m:mi>y</m:mi><m:mn>3</m:mn></m:msup><m:mo>−</m:mo><m:mn>8</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mi>z</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:msup><m:mi>z</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>16</m:mn><m:msup><m:mi>z</m:mi><m:mn>3</m:mn></m:msup></m:mrow></m:math><newline/><span class="token">ⓓ</span> <m:math><m:mrow><m:mn>23</m:mn><m:mi>a</m:mi><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>14</m:mn></m:mrow></m:math><newline/><span class="token">ⓔ</span> <m:math><m:mrow><m:mn>−3</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836730500">
+<para id="fs-id1167836730502"><span class="token">ⓐ</span> <m:math><m:mrow><m:mtext>binomial, </m:mtext><m:mn>1</m:mn></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mtext>trinomial, </m:mtext><m:mn>2</m:mn></m:mrow></m:math> <span class="token">ⓒ</span> <m:math><m:mrow><m:mtext>pentanomial, </m:mtext><m:mn>3</m:mn></m:mrow></m:math> <span class="token">ⓓ</span> <m:math><m:mrow><m:mtext>binomial, </m:mtext><m:mn>3</m:mn></m:mrow></m:math><newline/><span class="token">ⓔ</span> <m:math><m:mrow><m:mtext>monomial, </m:mtext><m:mn>0</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167836598350">
+<problem id="fs-id1167836598352">
+<para id="fs-id1167836598355"><newline/><span class="token">ⓐ</span> <m:math><m:mrow><m:mn>15</m:mn><m:mi>x</m:mi><m:msup><m:mi>y</m:mi><m:mrow/></m:msup></m:mrow></m:math><newline/><span class="token">ⓑ</span> 15<newline/><span class="token">ⓒ</span> <m:math><m:mrow><m:mn>6</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math><newline/><span class="token">ⓓ</span> <m:math><m:mrow><m:mn>10</m:mn><m:mi>p</m:mi><m:mo>−</m:mo><m:mn>9</m:mn><m:mi>q</m:mi></m:mrow></m:math><newline/><span class="token">ⓔ</span> <m:math><m:mrow><m:msup><m:mi>m</m:mi><m:mn>4</m:mn></m:msup><m:mo>+</m:mo><m:mn>4</m:mn><m:msup><m:mi>m</m:mi><m:mn>3</m:mn></m:msup><m:mo>+</m:mo><m:mn>6</m:mn><m:msup><m:mi>m</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>4</m:mn><m:mi>m</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<para id="fs-id1167829718398"><emphasis effect="bold">Add and Subtract Polynomials</emphasis></para>
+<para id="fs-id1167829718404">In the following exercises, add or subtract the monomials.</para>
+<exercise id="fs-id1167829808015">
+<problem id="fs-id1167829808017">
+<para id="fs-id1167829808019"><newline/><span class="token">ⓐ</span> <m:math><m:mrow><m:msup><m:mrow><m:mspace width="0.2em"/><m:mtext>7x</m:mtext></m:mrow><m:mtext>2</m:mtext></m:msup><m:mo>+</m:mo><m:mn>5</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math><newline/><span class="token">ⓑ</span> <m:math><m:mrow><m:mspace width="0.2em"/><m:mtext>4a</m:mtext><m:mo>−</m:mo><m:mn>9</m:mn><m:mi>a</m:mi></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836548593">
+<para id="fs-id1167836548595"><span class="token">ⓐ</span> <m:math><m:mrow><m:msup><m:mrow><m:mtext>12x</m:mtext></m:mrow><m:mtext>2</m:mtext></m:msup></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mtext>−</m:mtext><m:mspace width="0.2em"/><m:mtext>5a</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167829627667">
+<problem id="fs-id1167829627669">
+<para id="fs-id1167829627671"><newline/><span class="token">ⓐ</span> <m:math><m:mrow><m:msup><m:mrow><m:mspace width="0.2em"/><m:mtext>4y</m:mtext></m:mrow><m:mtext>3</m:mtext></m:msup><m:mo>+</m:mo><m:mn>6</m:mn><m:msup><m:mi>y</m:mi><m:mn>3</m:mn></m:msup></m:mrow></m:math><newline/><span class="token">ⓑ</span> <m:math><m:mrow><m:mtext>−</m:mtext><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>5</m:mn><m:mi>y</m:mi></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167826205230">
+<problem id="fs-id1167826205232">
+<para id="fs-id1167826205234"><newline/><span class="token">ⓐ</span> <m:math><m:mrow><m:mn>−12</m:mn><m:mi>w</m:mi><m:mo>+</m:mo><m:mn>18</m:mn><m:mi>w</m:mi></m:mrow></m:math><newline/><span class="token">ⓑ</span> <m:math><m:mrow><m:mn>7</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mi>y</m:mi><m:mo>−</m:mo><m:mo stretchy="false">(</m:mo><m:mn>−12</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mi>y</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836660180">
+<para id="fs-id1167836660182"><span class="token">ⓐ</span> <m:math><m:mrow><m:mtext>6</m:mtext><m:mi>w</m:mi></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mn>19</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mi>y</m:mi></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167836449588">
+<problem id="fs-id1167836449590">
+<para id="fs-id1167836449592"><newline/><span class="token">ⓐ</span> <m:math><m:mrow><m:mn>−3</m:mn><m:mi>m</m:mi><m:mo>+</m:mo><m:mn>9</m:mn><m:mi>m</m:mi></m:mrow></m:math><newline/><span class="token">ⓑ</span> <m:math><m:mrow><m:mn>15</m:mn><m:mi>y</m:mi><m:msup><m:mi>z</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mo stretchy="false">(</m:mo><m:mn>−8</m:mn><m:mi>y</m:mi><m:msup><m:mi>z</m:mi><m:mn>2</m:mn></m:msup><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167836621812">
+<problem id="fs-id1167836621814">
+<para id="fs-id1167836621816"><m:math><m:mrow><m:msup><m:mrow><m:mspace width="0.2em"/><m:mtext>7x</m:mtext></m:mrow><m:mtext>2</m:mtext></m:msup><m:mo>+</m:mo><m:mn>5</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mspace width="0.2em"/><m:mtext>4a</m:mtext><m:mo>−</m:mo><m:mn>9</m:mn><m:mi>a</m:mi></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167829746749">
+<para id="fs-id1167829746751"><m:math><m:mrow><m:msup><m:mrow><m:mtext>12x</m:mtext></m:mrow><m:mtext>2</m:mtext></m:msup><m:mo>−</m:mo><m:mspace width="0.2em"/><m:mtext>5a</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167833274103">
+<problem id="fs-id1167833274105">
+<para id="fs-id1167833274108"><m:math><m:mrow><m:msup><m:mrow><m:mspace width="0.2em"/><m:mtext>4y</m:mtext></m:mrow><m:mtext>3</m:mtext></m:msup><m:mo>+</m:mo><m:mn>6</m:mn><m:msup><m:mi>y</m:mi><m:mn>3</m:mn></m:msup><m:mo>−</m:mo><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>5</m:mn><m:mi>y</m:mi></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167833023422">
+<problem id="fs-id1167833023425">
+<para id="fs-id1167833023427"><m:math><m:mrow><m:mn>−12</m:mn><m:mi>w</m:mi><m:mo>+</m:mo><m:mn>18</m:mn><m:mi>w</m:mi><m:mo>+</m:mo><m:mn>7</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mi>y</m:mi><m:mo>−</m:mo><m:mo stretchy="false">(</m:mo><m:mn>−12</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mi>y</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167829906656">
+<para id="fs-id1167829906658"><m:math><m:mrow><m:mn>6</m:mn><m:mi>w</m:mi><m:mo>+</m:mo><m:mn>19</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mi>y</m:mi></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167833021002">
+<problem id="fs-id1167833021004">
+<para id="fs-id1167833021007"><m:math><m:mrow><m:mn>−3</m:mn><m:mi>m</m:mi><m:mo>+</m:mo><m:mn>9</m:mn><m:mi>m</m:mi><m:mo>+</m:mo><m:mn>15</m:mn><m:mi>y</m:mi><m:msup><m:mi>z</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mo stretchy="false">(</m:mo><m:mn>−8</m:mn><m:mi>y</m:mi><m:msup><m:mi>z</m:mi><m:mn>2</m:mn></m:msup><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167833021640">
+<problem id="fs-id1167833021642">
+<para id="fs-id1167833021644"><newline/><span class="token">ⓐ</span> <m:math><m:mrow><m:mn>−5</m:mn><m:mi>b</m:mi><m:mo>−</m:mo><m:mn>17</m:mn><m:mi>b</m:mi></m:mrow></m:math><newline/><span class="token">ⓑ</span> <m:math><m:mrow><m:mn>3</m:mn><m:mi>x</m:mi><m:mi>y</m:mi><m:mo>−</m:mo><m:mo stretchy="false">(</m:mo><m:mn>−8</m:mn><m:mi>x</m:mi><m:mi>y</m:mi><m:mo stretchy="false">)</m:mo><m:mo>+</m:mo><m:mn>5</m:mn><m:mi>x</m:mi><m:mi>y</m:mi></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836789251">
+<para id="fs-id1167836789253"><span class="token">ⓐ</span> <m:math><m:mrow><m:mn>−22</m:mn><m:mi>b</m:mi></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mn>16</m:mn><m:mi>x</m:mi><m:mi>y</m:mi></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167836615678">
+<problem id="fs-id1167836615680">
+<para id="fs-id1167836615683"><newline/><span class="token">ⓐ</span> <m:math><m:mrow><m:mn>−10</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>35</m:mn><m:mi>x</m:mi></m:mrow></m:math><newline/><span class="token">ⓑ</span> <m:math><m:mrow><m:mn>17</m:mn><m:mi>m</m:mi><m:msup><m:mi>n</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mo stretchy="false">(</m:mo><m:mn>−9</m:mn><m:mi>m</m:mi><m:msup><m:mi>n</m:mi><m:mn>2</m:mn></m:msup><m:mo stretchy="false">)</m:mo><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>m</m:mi><m:msup><m:mi>n</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167836756594">
+<problem id="fs-id1167836756596">
+<para id="fs-id1167836756598"><newline/><span class="token">ⓐ</span> <m:math><m:mrow><m:mspace width="0.2em"/><m:mtext>12</m:mtext><m:mi>a</m:mi><m:mo>+</m:mo><m:mn>5</m:mn><m:mi>b</m:mi><m:mo>−</m:mo><m:mn>22</m:mn><m:mi>a</m:mi></m:mrow></m:math><newline/><span class="token">ⓑ</span> <m:math><m:mrow><m:mi>p</m:mi><m:msup><m:mi>q</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>4</m:mn><m:mi>p</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:msup><m:mi>q</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167832925638">
+<para id="fs-id1167832925640"><span class="token">ⓐ</span> <m:math><m:mrow><m:mn>−10</m:mn><m:mi>a</m:mi><m:mo>+</m:mo><m:mn>5</m:mn><m:mi>b</m:mi></m:mrow></m:math><newline/><span class="token">ⓑ</span> <m:math><m:mrow><m:mi>p</m:mi><m:msup><m:mi>q</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>4</m:mn><m:mi>p</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:msup><m:mi>q</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167836492076">
+<problem id="fs-id1167836492078">
+<para id="fs-id1167836492080"><newline/><span class="token">ⓐ</span> <m:math><m:mrow><m:mspace width="0.2em"/><m:mtext>14x</m:mtext><m:mo>−</m:mo><m:mn>3</m:mn><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>13</m:mn><m:mi>x</m:mi></m:mrow></m:math><newline/><span class="token">ⓑ</span> <m:math><m:mrow><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:mi>b</m:mi><m:mo>−</m:mo><m:mn>4</m:mn><m:mi>a</m:mi><m:mo>−</m:mo><m:mn>5</m:mn><m:mi>a</m:mi><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167832936422">
+<problem id="fs-id1167832936424">
+<para id="fs-id1167832936426"><newline/><span class="token">ⓐ</span> <m:math><m:mrow><m:mn>2</m:mn><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>6</m:mn><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math><newline/><span class="token">ⓑ</span> <m:math><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>7</m:mn><m:mi>x</m:mi><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167833060532">
+<para id="fs-id1167836552096"><span class="token">ⓐ</span> <m:math><m:mrow><m:mn>−4</m:mn><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math><newline/><span class="token">ⓑ</span> <m:math><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>7</m:mn><m:mi>x</m:mi><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167836440002">
+<problem id="fs-id1167836440004">
+<para id="fs-id1167836440006"><newline/><span class="token">ⓐ</span> <m:math><m:mrow><m:mn>5</m:mn><m:msup><m:mi>u</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>4</m:mn><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>6</m:mn><m:msup><m:mi>u</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math><newline/><span class="token">ⓑ</span> <m:math><m:mrow><m:mspace width="0.2em"/><m:mtext>12a</m:mtext><m:mo>+</m:mo><m:mn>8</m:mn><m:mi>b</m:mi></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167836596888">
+<problem id="fs-id1167836596890">
+<para id="fs-id1167836596892"><newline/><span class="token">ⓐ</span> <m:math><m:mrow><m:mi>x</m:mi><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>5</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>5</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math><newline/><span class="token">ⓑ</span> <m:math><m:mrow><m:mspace width="0.2em"/><m:mtext>19y</m:mtext><m:mo>+</m:mo><m:mn>5</m:mn><m:mi>z</m:mi></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167829930529">
+<para id="fs-id1167829930531"><span class="token">ⓐ</span> <m:math><m:mrow><m:mi>x</m:mi><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>5</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>5</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math><newline/><span class="token">ⓑ</span> <m:math><m:mrow><m:mn>19</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>5</m:mn><m:mi>z</m:mi></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167836508704">
+<problem id="fs-id1167836508706">
+<para id="fs-id1167836508708"><m:math><m:mrow><m:mtext>12</m:mtext><m:mi>a</m:mi><m:mo>+</m:mo><m:mn>5</m:mn><m:mi>b</m:mi><m:mo>−</m:mo><m:mn>22</m:mn><m:mi>a</m:mi><m:mo>+</m:mo><m:mi>p</m:mi><m:msup><m:mi>q</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>4</m:mn><m:mi>p</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:msup><m:mi>q</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167836406955">
+<problem id="fs-id1167836406957">
+<para id="fs-id1167836406959"><m:math><m:mrow><m:mtext>14x</m:mtext><m:mo>−</m:mo><m:mn>3</m:mn><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>13</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:mi>b</m:mi><m:mo>−</m:mo><m:mn>4</m:mn><m:mi>a</m:mi><m:mo>−</m:mo><m:mn>5</m:mn><m:mi>a</m:mi><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836434024">
+<para id="fs-id1167836434026"><m:math><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:mi>b</m:mi><m:mo>−</m:mo><m:mn>4</m:mn><m:mi>a</m:mi><m:mo>−</m:mo><m:mn>5</m:mn><m:mi>a</m:mi><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167836432063">
+<problem id="fs-id1167836423784">
+<para id="fs-id1167836423787"><m:math><m:mrow><m:mn>2</m:mn><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>6</m:mn><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>7</m:mn><m:mi>x</m:mi><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167829747886">
+<problem id="fs-id1167829747888">
+<para id="fs-id1167829747890"><m:math><m:mrow><m:mn>5</m:mn><m:msup><m:mi>u</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>4</m:mn><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>6</m:mn><m:msup><m:mi>u</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mspace width="0.2em"/><m:mtext>12a</m:mtext><m:mo>+</m:mo><m:mn>8</m:mn><m:mi>b</m:mi></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836409558">
+<para id="fs-id1167836620844"><m:math><m:mrow><m:mtext>−</m:mtext><m:msup><m:mi>u</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>4</m:mn><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mspace width="0.2em"/><m:mtext>12a</m:mtext><m:mo>+</m:mo><m:mn>8</m:mn><m:mi>b</m:mi></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167836292513">
+<problem id="fs-id1167836292515">
+<para id="fs-id1167836737848"><m:math><m:mrow><m:mi>x</m:mi><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>5</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>5</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mspace width="0.2em"/><m:mtext>19y</m:mtext><m:mo>+</m:mo><m:mn>5</m:mn><m:mi>z</m:mi></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167833338729">
+<problem id="fs-id1167833338731">
+<para id="fs-id1167833338733">Add: <m:math><m:mrow><m:mn>4</m:mn><m:mi>a</m:mi><m:mo>,</m:mo><m:mn>−3</m:mn><m:mi>b</m:mi><m:mo>,</m:mo><m:mn>−8</m:mn><m:mi>a</m:mi></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167832982010">
+<para id="fs-id1167832982012"><m:math><m:mrow><m:mtext>−</m:mtext><m:mtext>4a</m:mtext><m:mo>−</m:mo><m:mn>3</m:mn><m:mi>b</m:mi></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167829712496">
+<problem id="fs-id1167829712498">
+<para id="fs-id1167829712501">Add:<m:math><m:mrow><m:mspace width="0.2em"/><m:mtext>4x</m:mtext><m:mo>,</m:mo><m:mn>3</m:mn><m:mi>y</m:mi><m:mo>,</m:mo><m:mn>−3</m:mn><m:mi>x</m:mi></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167833086506">
+<problem id="fs-id1167833086508">
+<para id="fs-id1167836429801">Subtract <m:math><m:mrow><m:mn>5</m:mn><m:msup><m:mi>x</m:mi><m:mn>6</m:mn></m:msup></m:mrow></m:math> from <m:math><m:mrow><m:mn>−12</m:mn><m:msup><m:mi>x</m:mi><m:mn>6</m:mn></m:msup></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167826025484">
+<para id="fs-id1167826025486"><m:math><m:mrow><m:mn>−17</m:mn><m:msup><m:mi>x</m:mi><m:mn>6</m:mn></m:msup></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167826025500">
+<problem id="fs-id1167833197293">
+<para id="fs-id1167833197295">Subtract <m:math><m:mrow><m:mn>2</m:mn><m:msup><m:mi>p</m:mi><m:mn>4</m:mn></m:msup></m:mrow></m:math> from <m:math><m:mrow><m:mn>−7</m:mn><m:msup><m:mi>p</m:mi><m:mn>4</m:mn></m:msup></m:mrow></m:math></para>
+</problem>
+</exercise>
+<para id="fs-id1167824733268">In the following exercises, add the polynomials.</para>
+<exercise id="fs-id1167824733271">
+<problem id="fs-id1167824733273">
+<para id="fs-id1167824733275"><m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>5</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>12</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>4</m:mn><m:mo stretchy="false">)</m:mo><m:mo>+</m:mo><m:mo stretchy="false">(</m:mo><m:mn>6</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>8</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>7</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836665099">
+<para id="fs-id1167836665101"><m:math><m:mrow><m:mn>11</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>4</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>11</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167829690282">
+<problem id="fs-id1167829690285">
+<para id="fs-id1167829690287"><m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>4</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>10</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo><m:mo>+</m:mo><m:mo stretchy="false">(</m:mo><m:mn>8</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>6</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>5</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167833350072">
+<problem id="fs-id1167833350074">
+<para id="fs-id1167833350076"><m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>6</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>8</m:mn><m:mo stretchy="false">)</m:mo><m:mo>+</m:mo><m:mo stretchy="false">(</m:mo><m:mn>−4</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>11</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>9</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836732159">
+<para id="fs-id1167836732161"><m:math><m:mrow><m:mn>−3</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>17</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167829597471">
+<problem id="fs-id1167829597473">
+<para id="fs-id1167829597475"><m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>9</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>4</m:mn><m:mo stretchy="false">)</m:mo><m:mo>+</m:mo><m:mo stretchy="false">(</m:mo><m:mn>−2</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>5</m:mn><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167836356307">
+<problem id="fs-id1167836456213">
+<para id="fs-id1167836456215"><m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>8</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>5</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo><m:mo>+</m:mo><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167833386390">
+<para id="fs-id1167833386392"><m:math><m:mrow><m:mn>11</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>5</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>5</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167833128238">
+<problem id="fs-id1167833128240">
+<para id="fs-id1167829788193"><m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>7</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>9</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo><m:mo>+</m:mo><m:mo stretchy="false">(</m:mo><m:mn>6</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>4</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167836561092">
+<problem id="fs-id1167836561095">
+<para id="fs-id1167836561097"><m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>5</m:mn><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>8</m:mn><m:mo stretchy="false">)</m:mo><m:mo>+</m:mo><m:mo stretchy="false">(</m:mo><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>4</m:mn><m:mi>a</m:mi><m:mo>−</m:mo><m:mn>9</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167833385974">
+<para id="fs-id1167833385976"><m:math><m:mrow><m:mn>6</m:mn><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>4</m:mn><m:mi>a</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167829844347">
+<problem id="fs-id1167829844349">
+<para id="fs-id1167829844351"><m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:msup><m:mi>p</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>6</m:mn><m:mi>p</m:mi><m:mo>−</m:mo><m:mn>18</m:mn><m:mo stretchy="false">)</m:mo><m:mo>+</m:mo><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:msup><m:mi>p</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>11</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para>
+</problem>
+</exercise>
+<para id="fs-id1167833142618">In the following exercises, subtract the polynomials.</para>
+<exercise id="fs-id1167833142621">
+<problem id="fs-id1167833142624">
+<para id="fs-id1167833142626"><m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>4</m:mn><m:msup><m:mi>m</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>6</m:mn><m:mi>m</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo><m:mo>−</m:mo><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:msup><m:mi>m</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>m</m:mi><m:mo>−</m:mo><m:mn>7</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167829751095">
+<para id="fs-id1167836508167"><m:math><m:mrow><m:mn>2</m:mn><m:msup><m:mi>m</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>7</m:mn><m:mi>m</m:mi><m:mo>+</m:mo><m:mn>4</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167836398826">
+<problem id="fs-id1167836398828">
+<para id="fs-id1167836398830"><m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>4</m:mn><m:mi>b</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:mo>−</m:mo><m:mo stretchy="false">(</m:mo><m:mn>5</m:mn><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mi>b</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167829834036">
+<problem id="fs-id1167829834038">
+<para id="fs-id1167829834041"><m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>8</m:mn><m:mi>a</m:mi><m:mo>+</m:mo><m:mn>5</m:mn><m:mo stretchy="false">)</m:mo><m:mo>−</m:mo><m:mo stretchy="false">(</m:mo><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>3</m:mn><m:mi>a</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167829621172">
+<para id="fs-id1167829621175"><m:math><m:mrow><m:mn>11</m:mn><m:mi>a</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167829790417">
+<problem id="fs-id1167829790419">
+<para id="fs-id1167829790421"><m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>7</m:mn><m:mi>b</m:mi><m:mo>+</m:mo><m:mn>5</m:mn><m:mo stretchy="false">)</m:mo><m:mo>−</m:mo><m:mo stretchy="false">(</m:mo><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>b</m:mi><m:mo>+</m:mo><m:mn>9</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167836386461">
+<problem id="fs-id1167830096219">
+<para id="fs-id1167830096222"><m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>12</m:mn><m:msup><m:mi>s</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>15</m:mn><m:mi>s</m:mi><m:mo stretchy="false">)</m:mo><m:mo>−</m:mo><m:mo stretchy="false">(</m:mo><m:mi>s</m:mi><m:mo>−</m:mo><m:mn>9</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836688871">
+<para id="fs-id1167829907673"><m:math><m:mrow><m:mn>12</m:mn><m:msup><m:mi>s</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>16</m:mn><m:mi>s</m:mi><m:mo>+</m:mo><m:mn>9</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167836423564">
+<problem id="fs-id1167836423566">
+<para id="fs-id1167836423568"><m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>10</m:mn><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>20</m:mn><m:mi>r</m:mi><m:mo stretchy="false">)</m:mo><m:mo>−</m:mo><m:mo stretchy="false">(</m:mo><m:mi>r</m:mi><m:mo>−</m:mo><m:mn>8</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para>
+</problem>
+</exercise>
+<para id="fs-id1167829696661">In the following exercises, subtract the polynomials.</para>
+<exercise id="fs-id1167829696664" class="material-set-2">
+<problem id="fs-id1167829696666">
+<para id="fs-id1167829696668">Subtract <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>9</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> from <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>12</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>6</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167824584633">
+<para id="fs-id1167824584635"><m:math><m:mrow><m:mn>3</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167829620966" class="material-set-2">
+<problem id="fs-id1167829620969">
+<para id="fs-id1167836650171">Subtract <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>5</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>12</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> from <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>10</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>8</m:mn><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>20</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167836613921" class="material-set-2">
+<problem id="fs-id1167836613923">
+<para id="fs-id1167836613925">Subtract <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>7</m:mn><m:msup><m:mi>w</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>4</m:mn><m:mi>w</m:mi><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> from <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>8</m:mn><m:msup><m:mi>w</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mi>w</m:mi><m:mo>+</m:mo><m:mn>6</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167829702031">
+<para id="fs-id1167829702033"><m:math><m:mrow><m:msup><m:mi>w</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>w</m:mi><m:mo>+</m:mo><m:mn>4</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167836615484" class="material-set-2">
+<problem id="fs-id1167836615486">
+<para id="fs-id1167836615488">Subtract <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>5</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>12</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> from <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>9</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>6</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>20</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+</exercise>
+<para id="fs-id1167836666634">In the following exercises, find the difference of the polynomials.</para>
+<exercise id="fs-id1167829717203" class="material-set-2">
+<problem id="fs-id1167829717206">
+<para id="fs-id1167829717208">Find the difference of <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msup><m:mi>w</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>w</m:mi><m:mo>−</m:mo><m:mn>42</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> and <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msup><m:mi>w</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>10</m:mn><m:mi>w</m:mi><m:mo>+</m:mo><m:mn>24</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167829589207">
+<para id="fs-id1167829589209"><m:math><m:mrow><m:mn>11</m:mn><m:mi>w</m:mi><m:mo>−</m:mo><m:mn>66</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167836531012" class="material-set-2">
+<problem id="fs-id1167836531014">
+<para id="fs-id1167836531017">Find the difference of <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msup><m:mi>z</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>3</m:mn><m:mi>z</m:mi><m:mo>−</m:mo><m:mn>18</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> and <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msup><m:mi>z</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>5</m:mn><m:mi>z</m:mi><m:mo>−</m:mo><m:mn>20</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+</exercise>
+<para id="fs-id1167829931386">In the following exercises, add the polynomials.</para>
+<exercise id="fs-id1167829931390" class="material-set-2">
+<problem id="fs-id1167829931392">
+<para id="fs-id1167829931394"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>7</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>6</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>5</m:mn><m:mi>x</m:mi><m:mi>y</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836596754">
+<para id="fs-id1167832981645"><m:math><m:mrow><m:mn>10</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>7</m:mn><m:mi>x</m:mi><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>6</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167836728250" class="material-set-2">
+<problem id="fs-id1167836728252">
+<para id="fs-id1167836728254"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−5</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>4</m:mn><m:mi>x</m:mi><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>7</m:mn><m:mi>x</m:mi><m:mi>y</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167824740668" class="material-set-2">
+<problem id="fs-id1167824740670">
+<para id="fs-id1167824740672"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>7</m:mn><m:msup><m:mi>m</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>m</m:mi><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>8</m:mn><m:msup><m:mi>n</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3</m:mn><m:msup><m:mi>m</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>m</m:mi><m:mi>n</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836407251">
+<para id="fs-id1167836484935"><m:math><m:mrow><m:mn>10</m:mn><m:msup><m:mi>m</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>m</m:mi><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>8</m:mn><m:msup><m:mi>n</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167836423638" class="material-set-2">
+<problem id="fs-id1167836423640">
+<para id="fs-id1167836423642"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>3</m:mn><m:mi>r</m:mi><m:mi>s</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:msup><m:mi>s</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>5</m:mn><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>3</m:mn><m:mi>r</m:mi><m:mi>s</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+</exercise>
+<para id="fs-id1167829742745">In the following exercises, add or subtract the polynomials.</para>
+<exercise id="fs-id1167829742748" class="material-set-2">
+<problem id="fs-id1167829742751">
+<para id="fs-id1167829742753"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>−</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>a</m:mi><m:mi>b</m:mi><m:mo>−</m:mo><m:mn>4</m:mn><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167833086321">
+<para id="fs-id1167833086323"><m:math><m:mrow><m:mn>−3</m:mn><m:mi>a</m:mi><m:mi>b</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167829787218" class="material-set-2">
+<problem id="fs-id1167829787220">
+<para id="fs-id1167829787222"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msup><m:mi>m</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>2</m:mn><m:msup><m:mi>n</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>−</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:msup><m:mi>m</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>8</m:mn><m:mi>m</m:mi><m:mi>n</m:mi><m:mo>−</m:mo><m:msup><m:mi>n</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167829594307" class="material-set-2">
+<problem id="fs-id1167829594309">
+<para id="fs-id1167829594311"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msup><m:mi>p</m:mi><m:mn>3</m:mn></m:msup><m:mo>−</m:mo><m:mn>3</m:mn><m:msup><m:mi>p</m:mi><m:mn>2</m:mn></m:msup><m:mi>q</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mi>p</m:mi><m:msup><m:mi>q</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>4</m:mn><m:msup><m:mi>q</m:mi><m:mn>3</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>−</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3</m:mn><m:msup><m:mi>p</m:mi><m:mn>2</m:mn></m:msup><m:mi>q</m:mi><m:mo>+</m:mo><m:mi>p</m:mi><m:msup><m:mi>q</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167829627529">
+<para id="fs-id1167829627531"><m:math><m:mrow><m:msup><m:mi>p</m:mi><m:mn>3</m:mn></m:msup><m:mo>−</m:mo><m:mn>6</m:mn><m:msup><m:mi>p</m:mi><m:mn>2</m:mn></m:msup><m:mi>q</m:mi><m:mo>+</m:mo><m:mi>p</m:mi><m:msup><m:mi>q</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>4</m:mn><m:msup><m:mi>q</m:mi><m:mn>3</m:mn></m:msup></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167829750509" class="material-set-2">
+<problem id="fs-id1167829750511">
+<para id="fs-id1167829750513"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msup><m:mi>a</m:mi><m:mn>3</m:mn></m:msup><m:mo>−</m:mo><m:mn>2</m:mn><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:mi>b</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>a</m:mi><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mi>b</m:mi><m:mn>3</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>−</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3</m:mn><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:mi>b</m:mi><m:mo>+</m:mo><m:mn>4</m:mn><m:mi>a</m:mi><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167829905295" class="material-set-2">
+<problem id="fs-id1167829905297">
+<para id="fs-id1167829905299"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup><m:mo>−</m:mo><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mi>y</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>−</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>4</m:mn><m:mi>x</m:mi><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:msup><m:mi>y</m:mi><m:mn>3</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mi>y</m:mi><m:mo>−</m:mo><m:mi>x</m:mi><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836599533">
+<para id="fs-id1167836599535"><m:math><m:mrow><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup><m:mo>+</m:mo><m:mn>2</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>5</m:mn><m:mi>x</m:mi><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mi>y</m:mi><m:mn>3</m:mn></m:msup></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167836629436" class="material-set-2">
+<problem id="fs-id1167836629438">
+<para id="fs-id1167836629440"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup><m:mo>−</m:mo><m:mn>2</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mi>y</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>−</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>3</m:mn><m:msup><m:mi>y</m:mi><m:mn>3</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>−</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>4</m:mn><m:mi>x</m:mi><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+</exercise>
+<para id="fs-id1167836432779"><emphasis effect="bold">Evaluate a Polynomial Function for a Given Value</emphasis></para>
+<para id="fs-id1167836432784">In the following exercises, find the function values for each polynomial function.</para>
+<exercise id="fs-id1167836432788" class="material-set-2">
+<problem id="fs-id1167836432790">
+<para id="fs-id1167836432792">For the function <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>8</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mo>,</m:mo></m:mrow></m:math> find:<newline/><span class="token">ⓐ</span> <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mn>5</m:mn><m:mo>)</m:mo></m:mrow></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> <span class="token">ⓒ</span> <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mn>0</m:mn><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167832982231">
+<para id="fs-id1167832982233"><span class="token">ⓐ</span> 187 <span class="token">ⓑ</span> 40 <span class="token">ⓒ</span> 2</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167832982250" class="material-set-2">
+<problem id="fs-id1167832982252">
+<para id="fs-id1167836561341">For the function <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>5</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>7</m:mn><m:mo>,</m:mo></m:mrow></m:math> find:<newline/><span class="token">ⓐ</span> <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mn>1</m:mn><m:mo>)</m:mo></m:mrow></m:mrow></m:math> <span class="token">ⓒ</span> <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mn>0</m:mn><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167829738632" class="material-set-2">
+<problem id="fs-id1167829738634">
+<para id="fs-id1167829738637">For the function <m:math><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>4</m:mn><m:mo>−</m:mo><m:mn>36</m:mn><m:mi>x</m:mi><m:mo>,</m:mo></m:mrow></m:math> find:<newline/><span class="token">ⓐ</span> <m:math><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mn>3</m:mn><m:mo>)</m:mo></m:mrow></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mn>0</m:mn><m:mo>)</m:mo></m:mrow></m:mrow></m:math> <span class="token">ⓒ</span> <m:math><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167832977153">
+<para id="fs-id1167832977155"><span class="token">ⓐ</span> <m:math><m:mrow><m:mn>−104</m:mn></m:mrow></m:math> <span class="token">ⓑ</span> 4 <span class="token">ⓒ</span> 40</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167836558053" class="material-set-2">
+<problem id="fs-id1167836558055">
+<para id="fs-id1167836558057">For the function <m:math><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>16</m:mn><m:mo>−</m:mo><m:mn>36</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>,</m:mo></m:mrow></m:math> find:<newline/><span class="token">ⓐ</span> <m:math><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mn>0</m:mn><m:mo>)</m:mo></m:mrow></m:mrow></m:math> <span class="token">ⓒ</span> <m:math><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mn>2</m:mn><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+</exercise>
+<para id="fs-id1167824754903">In the following exercises, find the height for each polynomial function.</para>
+<exercise id="fs-id1167836609191" class="material-set-2">
+<problem id="fs-id1167836609193">
+<para id="fs-id1167836609196">A painter drops a brush from a platform 75 feet high. The polynomial function <m:math><m:mrow><m:mi>h</m:mi><m:mrow><m:mo>(</m:mo><m:mi>t</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>−16</m:mn><m:msup><m:mi>t</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>75</m:mn></m:mrow></m:math> gives the height of the brush <emphasis effect="italics">t</emphasis> seconds after it was dropped. Find the height after <m:math><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>2</m:mn></m:mrow></m:math> seconds.</para>
+</problem>
+<solution id="fs-id1167836423697">
+<para id="fs-id1167836423699">The height is 11 feet.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167836333432" class="material-set-2">
+<problem id="fs-id1167836333434">
+<para id="fs-id1167836333436">A girl drops a ball off the cliff into the ocean. The polynomial <m:math><m:mrow><m:mi>h</m:mi><m:mrow><m:mo>(</m:mo><m:mi>t</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>−16</m:mn><m:msup><m:mi>t</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>200</m:mn></m:mrow></m:math> gives the height of a ball <emphasis effect="italics">t</emphasis> seconds after it is dropped. Find the height after <m:math><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>3</m:mn></m:mrow></m:math> seconds.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167824755607" class="material-set-2">
+<problem id="fs-id1167824755609">
+<para id="fs-id1167824755611">A manufacturer of stereo sound speakers has found that the revenue received from selling the speakers at a cost of <emphasis effect="italics">p</emphasis> dollars each is given by the polynomial function <m:math><m:mrow><m:mi>R</m:mi><m:mrow><m:mo>(</m:mo><m:mi>p</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>−4</m:mn><m:msup><m:mi>p</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>420</m:mn><m:mi>p</m:mi><m:mo>.</m:mo></m:mrow></m:math> Find the revenue received when <m:math><m:mrow><m:mi>p</m:mi><m:mo>=</m:mo><m:mn>60</m:mn></m:mrow></m:math> dollars.</para>
+</problem>
+<solution id="fs-id1167836732114">
+<para id="fs-id1167836732116">The revenue is $10,800.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167836732122" class="material-set-2">
+<problem id="fs-id1167836732124">
+<para id="fs-id1167836732126">A manufacturer of the latest basketball shoes has found that the revenue received from selling the shoes at a cost of <emphasis effect="italics">p</emphasis> dollars each is given by the polynomial <m:math><m:mrow><m:mi>R</m:mi><m:mrow><m:mo>(</m:mo><m:mi>p</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>−4</m:mn><m:msup><m:mi>p</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>420</m:mn><m:mi>p</m:mi><m:mo>.</m:mo></m:mrow></m:math> Find the revenue received when <m:math><m:mrow><m:mi>p</m:mi><m:mo>=</m:mo><m:mn>90</m:mn></m:mrow></m:math> dollars.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167833022467" class="material-set-2">
+<problem id="fs-id1167833022469">
+<para id="fs-id1167833022472">The polynomial <m:math><m:mrow><m:mi>C</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>6</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>90</m:mn><m:mi>x</m:mi></m:mrow></m:math> gives the cost, in dollars, of producing a rectangular container whose top and bottom are squares with side <emphasis effect="italics">x</emphasis> feet and height 6 feet. Find the cost of producing a box with <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>4</m:mn></m:mrow></m:math> feet.</para>
+</problem>
+<solution id="fs-id1167833050568">
+<para id="fs-id1167833050570">The cost is $456.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167833050575" class="material-set-2">
+<problem id="fs-id1167829695828">
+<para id="fs-id1167829695830">The polynomial <m:math><m:mrow><m:mi>C</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>6</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>90</m:mn><m:mi>x</m:mi></m:mrow></m:math> gives the cost, in dollars, of producing a rectangular container whose top and bottom are squares with side <emphasis effect="italics">x</emphasis> feet and height 4 feet. Find the cost of producing a box with <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>6</m:mn></m:mrow></m:math> feet.</para>
+</problem>
+</exercise>
+<para id="fs-id1167833381677"><emphasis effect="bold">Add and Subtract Polynomial Functions</emphasis></para>
+<para id="fs-id1167833381682">In each example, find <span class="token">ⓐ</span> (<emphasis effect="italics">f</emphasis> + <emphasis effect="italics">g</emphasis>)(<emphasis effect="italics">x</emphasis>) <span class="token">ⓑ</span> (<emphasis effect="italics">f</emphasis> + <emphasis effect="italics">g</emphasis>)(2) <span class="token">ⓒ</span> (<emphasis effect="italics">f</emphasis> − <emphasis effect="italics">g</emphasis>)(<emphasis effect="italics">x</emphasis>) <span class="token">ⓓ</span> (<emphasis effect="italics">f</emphasis> − <emphasis effect="italics">g</emphasis>)(−3).</para>
+<exercise id="fs-id1167836418844" class="material-set-2">
+<problem id="fs-id1167836418846">
+<para id="fs-id1167836418848"><m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>2</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:math> and <m:math><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>5</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>8</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167833086694">
+<para id="fs-id1167833086696"><span class="token">ⓐ</span> <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>f</m:mi><m:mo>+</m:mo><m:mi>g</m:mi><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>7</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>f</m:mi><m:mo>+</m:mo><m:mi>g</m:mi><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>40</m:mn></m:mrow></m:math><newline/><span class="token">ⓒ</span> <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>f</m:mi><m:mo>−</m:mo><m:mi>g</m:mi><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>−3</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>12</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow></m:math><newline/><span class="token">ⓓ</span> <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>f</m:mi><m:mo>−</m:mo><m:mi>g</m:mi><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>−3</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>7</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167833347303" class="material-set-2">
+<problem id="fs-id1167833347305">
+<para id="fs-id1167833347308"><m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>4</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>7</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow></m:math> and <m:math><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>4</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167836624045" class="material-set-2">
+<problem id="fs-id1167836624047">
+<para id="fs-id1167836624049"><m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>3</m:mn><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup><m:mo>−</m:mo><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow></m:math> and <m:math><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>3</m:mn><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup><m:mo>−</m:mo><m:mn>7</m:mn><m:mi>x</m:mi></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836409394">
+<para id="fs-id1167836409396"><newline/><span class="token">ⓐ</span> <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>f</m:mi><m:mo>+</m:mo><m:mi>g</m:mi><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>6</m:mn><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup><m:mo>−</m:mo><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>9</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow></m:math><newline/><span class="token">ⓑ</span> <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>f</m:mi><m:mo>+</m:mo><m:mi>g</m:mi><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>29</m:mn></m:mrow></m:math><newline/><span class="token">ⓒ</span> <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>f</m:mi><m:mo>−</m:mo><m:mi>g</m:mi><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mtext>−</m:mtext><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>5</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow></m:math><newline/><span class="token">ⓓ</span> <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>f</m:mi><m:mo>−</m:mo><m:mi>g</m:mi><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>−3</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>−21</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167824732288" class="material-set-2">
+<problem id="fs-id1167824732290">
+<para id="fs-id1167824732292"><m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>5</m:mn><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup><m:mo>−</m:mo><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn></m:mrow></m:math> and <m:math><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>8</m:mn><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+</section><section id="fs-id1167836529231" class="writing">
+<title>Writing Exercises</title>
+<exercise id="fs-id1167836529238">
+<problem id="fs-id1167836529240">
+<para id="fs-id1167836529242">Using your own words, explain the difference between a monomial, a binomial, and a trinomial.</para>
+</problem>
+<solution id="fs-id1167836529248">
+<para id="fs-id1167836529250">Answers will vary.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167836529255">
+<problem id="fs-id1167836618900">
+<para id="fs-id1167836618902">Using your own words, explain the difference between a polynomial with five terms and a polynomial with a degree of 5.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167836618915">
+<problem id="fs-id1167836618917">
+<para id="fs-id1167836618919">Ariana thinks the sum <m:math><m:mrow><m:mn>6</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>5</m:mn><m:msup><m:mi>y</m:mi><m:mn>4</m:mn></m:msup></m:mrow></m:math> is <m:math><m:mrow><m:mn>11</m:mn><m:msup><m:mi>y</m:mi><m:mn>6</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math> What is wrong with her reasoning?</para>
+</problem>
+<solution id="fs-id1167836494401">
+<para id="fs-id1167836494403">Answers will vary.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167824755444">
+<problem id="fs-id1167824755447">
+<para id="fs-id1167824755449">Is every trinomial a second degree polynomial? If not, give an example.</para>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1167824755462">
+<title>Self Check</title>
+<para id="fs-id1167824755467"><span class="token">ⓐ</span> After completing the exercises, use this checklist to evaluate your mastery of the objectives of this section.</para>
+<media id="fs-id1167836602621" alt="The figure shows a table with six rows and four columns. The first row is a header row and it labels each column. The first column header is “I can…”, the second is &quot;confidently&quot;, the third is “with some help”, “no minus I don’t get it!”. Under the first column are the phrases “identify polynomials, monomials, binomials, and trinomials”, “determine the degree of polynomials”, “add and subtract monomials”, “add and subtract polynomials”, and “evaluate a polynomial for a given value”. Under the second, third, fourth columns are blank spaces where the learner can check what level of mastery they have achieved.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_05_01_201_img_new.jpg"/>
+</media>
+<para id="fs-id1167836602631"><span class="token">ⓑ</span> If most of your checks were:</para>
+<para id="fs-id1167836602638"><emphasis effect="bold">…confidently.</emphasis> Congratulations! You have achieved the objectives in this section. Reflect on the study skills you used so that you can continue to use them. What did you do to become confident of your ability to do these things? Be specific.</para>
+<para id="fs-id1167829767167"><emphasis effect="bold">…with some help.</emphasis> This must be addressed quickly because topics you do not master become potholes in your road to success. In math every topic builds upon previous work. It is important to make sure you have a strong foundation before you move on. Who can you ask for help? Your fellow classmates and instructor are good resources. Is there a place on campus where math tutors are available? Can your study skills be improved?</para>
+<para id="fs-id1167829767178"><emphasis effect="bold">…no - I don’t get it!</emphasis> This is a warning sign and you must not ignore it. You should get help right away or you will quickly be overwhelmed. See your instructor as soon as you can to discuss your situation. Together you can come up with a plan to get you the help you need.</para>
+</section>
+</section>
+</content>
+<glossary>
+<definition id="fs-id1167836508735">
+<term>binomial</term>
+<meaning id="fs-id1167836508741">A binomial is a polynomial with exactly two terms.</meaning>
+</definition>
+<definition id="fs-id1167836508745">
+<term>degree of a constant</term>
+<meaning id="fs-id1167836508750">The degree of any constant is 0.</meaning>
+</definition>
+<definition id="fs-id1167836508755">
+<term>degree of a polynomial</term>
+<meaning id="fs-id1167836508760">The degree of a polynomial is the highest degree of all its terms.</meaning>
+</definition>
+<definition id="fs-id1167836508764">
+<term>degree of a term</term>
+<meaning id="fs-id1167833385664">The degree of a term is the sum of the exponents of its variables.</meaning>
+</definition>
+<definition id="fs-id1167833385668">
+<term>monomial</term>
+<meaning id="fs-id1167833385674">A monomial is an algebraic expression with one term. A monomial in one variable is a term of the form <m:math><m:mrow><m:mi>a</m:mi><m:msup><m:mi>x</m:mi><m:mi>m</m:mi></m:msup><m:mo>,</m:mo></m:mrow></m:math> where <emphasis effect="italics">a</emphasis> is a constant and <emphasis effect="italics">m</emphasis> is a whole number.</meaning>
+</definition>
+<definition id="fs-id1167829853744">
+<term>polynomial</term>
+<meaning id="fs-id1167829853749">A monomial or two or more monomials combined by addition or subtraction is a polynomial.</meaning>
+</definition>
+<definition id="fs-id1167829853754">
+<term>standard form of a polynomial</term>
+<meaning id="fs-id1167829853760">A polynomial is in standard form when the terms of a polynomial are written in descending order of degrees.</meaning>
+</definition>
+<definition id="fs-id1167833350539">
+<term>trinomial</term>
+<meaning id="fs-id1167833350544">A trinomial is a polynomial with exactly three terms.</meaning>
+</definition>
+<definition id="fs-id1167833350548">
+<term>polynomial function</term>
+<meaning id="fs-id1167833350554">A polynomial function is a function whose range values are defined by a polynomial.</meaning>
+</definition>
+</glossary>
+</document>

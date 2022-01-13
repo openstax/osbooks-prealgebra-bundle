@@ -1,0 +1,2307 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Quadratic Equations</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m60309</md:content-id>
+  <md:title>Quadratic Equations</md:title>
+  <md:abstract><para>By the end of this section, you will be able to:</para>
+<list>
+<item>Solve quadratic equations by using the Zero Product Property</item>
+<item>Solve quadratic equations factoring</item>
+<item>Solve applications modeled by quadratic equations</item>
+</list></md:abstract>
+  <md:uuid>0c7875f0-7368-4faf-b91e-e93d118b7369</md:uuid>
+</metadata>
+
+<content>
+<note id="fs-id1168345455244" class="be-prepared">
+<para id="fs-id1168345277872">Before you get started, take this readiness quiz.</para>
+<list id="fs-id1168345511822" list-type="enumerated" number-style="arabic">
+<item>Solve: <m:math><m:mrow><m:mn>5</m:mn><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>.<newline/>
+If you missed this problem, review <link document="m60262" target-id="fs-id1168344197880"/>.</item>
+<item>Solve: <m:math><m:mrow><m:mn>10</m:mn><m:mi>a</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>.<newline/>
+If you missed this problem, review <link document="m60249" target-id="fs-id1168344337607"/>.</item>
+<item>Combine like terms: <m:math><m:mrow><m:mn>12</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>6</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn><m:mi>x</m:mi></m:mrow></m:math>.<newline/>
+If you missed this problem, review <link document="m60247" target-id="fs-id1170654940588"/>.</item>
+<item>Factor <m:math><m:mrow><m:msup><m:mi>n</m:mi><m:mn>3</m:mn></m:msup><m:mo>−</m:mo><m:mn>9</m:mn><m:msup><m:mi>n</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>22</m:mn><m:mi>n</m:mi></m:mrow></m:math> completely.<newline/>
+If you missed this problem, review <link document="m60182" target-id="fs-id1168345223960"/>.</item>
+</list>
+</note>
+<para id="fs-id1168345465987">We have already solved linear equations, equations of the form <m:math><m:mrow><m:mi>a</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>b</m:mi><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>c</m:mi></m:mrow></m:math>. In linear equations, the variables have no exponents. Quadratic equations are equations in which the variable is squared. Listed below are some examples of quadratic equations:</para>
+<equation id="fs-id1168345550029" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd columnalign="center"><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>5</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>6</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:mn>3</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>4</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>10</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:mn>64</m:mn><m:msup><m:mi>u</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>81</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:mi>n</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>n</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>42</m:mn></m:mtd></m:mtr></m:mtable></m:math></equation>
+<para id="fs-id1168345342754">The last equation doesn’t appear to have the variable squared, but when we simplify the expression on the left we will get <m:math><m:mrow><m:msup><m:mi>n</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>n</m:mi></m:mrow></m:math>.</para>
+<para id="fs-id1168345519042">The general form of a quadratic equation is <m:math><m:mrow><m:mi>a</m:mi><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>b</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>c</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mtext>with</m:mtext><m:mspace width="0.2em"/><m:mi>a</m:mi><m:mo>≠</m:mo><m:mn>0</m:mn></m:mrow></m:math>.</para>
+<note id="fs-id1168345540470">
+<title>Quadratic Equation</title>
+<para id="fs-id1168345435009">An equation of the form <m:math><m:mrow><m:mi>a</m:mi><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>b</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>c</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> is called a quadratic equation.</para>
+<equation id="fs-id1168345623094" class="unnumbered"><label/><m:math><m:mrow><m:mi>a</m:mi><m:mo>,</m:mo><m:mi>b</m:mi><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mtext>and</m:mtext><m:mspace width="0.2em"/><m:mi>c</m:mi><m:mspace width="0.2em"/><m:mtext>are real numbers and</m:mtext><m:mspace width="0.2em"/><m:mi>a</m:mi><m:mo>≠</m:mo><m:mn>0</m:mn></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1168345552259">To solve <term class="no-emphasis">quadratic equations</term> we need methods different than the ones we used in solving linear equations. We will look at one method here and then several others in a later chapter.</para>
+<section id="fs-id1168345418715">
+<title>Solve Quadratic Equations Using the Zero Product Property</title>
+<para id="fs-id1168345526059">We will first solve some quadratic equations by using the Zero Product Property. The <term>Zero Product Property</term> says that if the product of two quantities is zero, it must be that at least one of the quantities is zero. The only way to get a product equal to zero is to multiply by zero itself.</para>
+<note id="fs-id1168345327228">
+<title>Zero Product Property</title>
+<para id="fs-id1168345209529">If <m:math><m:mrow><m:mi>a</m:mi><m:mo>·</m:mo><m:mi>b</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>, then either <m:math><m:mrow><m:mi>a</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> or <m:math><m:mrow><m:mi>b</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> or both.</para>
+</note>
+<para id="fs-id1168345744388">We will now use the <term class="no-emphasis">Zero Product Property</term>, to solve a quadratic equation.</para>
+<example id="fs-id1168341961578">
+<title>How to Use the Zero Product Property to Solve a Quadratic Equation</title>
+<exercise id="fs-id1168345390023">
+<problem id="fs-id1168345276335">
+<para id="fs-id1168341901810">Solve: <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>.</para>
+</problem>
+<solution id="fs-id1168345557567">
+<title>Solution</title>
+<media id="fs-id1168345377174" alt="This table gives the steps for solving (x + 1)(x – 4) = 0. The first step is to set each factor equal to 0. Since it is a product equal to 0, at least one factor must equal 0. x + 1 = 0 or x – 4 = 0.">
+<image mime-type="image/jpeg" src="../../media/CNX_Elem Alg_Figure_07_06_001a_img_new.jpg"/>
+</media>
+<media id="fs-id1168345544042" alt="The next step is to solve each linear equation. This gives two solutions, x = −1 or x = 4.">
+<image mime-type="image/jpeg" src="../../media/CNX_Elem Alg_Figure_07_06_001b_img_new.jpg"/>
+</media>
+<media id="fs-id1168345251138" alt="The last step is to check both answers by substituting the values for x into the original equation.">
+<image mime-type="image/jpeg" src="../../media/CNX_Elem Alg_Figure_07_06_001c_img_new.jpg"/>
+</media>
+</solution>
+</exercise>
+</example>
+<note id="fs-id1168345517599" class="try">
+<exercise id="fs-id1168345199327">
+<problem id="fs-id1168342179799">
+<para id="fs-id1168345230502">Solve: <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>.</para>
+</problem>
+<solution id="fs-id1168341902390">
+<para id="fs-id1168345729584"><m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>3</m:mn><m:mo>,</m:mo><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>−5</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1168345294144" class="try">
+<exercise id="fs-id1168345542390">
+<problem id="fs-id1168345426421">
+<para id="fs-id1168342171016">Solve: <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>6</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>9</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>.</para>
+</problem>
+<solution id="fs-id1168345644081">
+<para id="fs-id1168341906500"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>6</m:mn><m:mo>,</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−9</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<para id="fs-id1168345384591">We usually will do a little more work than we did in this last example to solve the linear equations that result from using the Zero Product Property.</para>
+<example id="fs-id1168345549988">
+<exercise id="fs-id1168345193878">
+<problem id="fs-id1168345218054">
+<para id="fs-id1168341840802">Solve: <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>5</m:mn><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>6</m:mn><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>.</para>
+</problem>
+<solution id="fs-id1168345218945">
+<title>Solution</title>
+<para id="fs-id1168345347220"><table id="eip-id1172183276008" class="unnumbered unstyled can-break" summary="This image shows the steps for solving (5 n – 2)(6 n – 1) = 0. First, use the zero factor property to set each factor equal to 0, 5 n – 2 = 0 or 6 n – 1 = 0. Then, solve the equations, n = 2/5 or n = 1/6. Finally, check the answers by substituting the two solutions back into the original equation."><label/><tgroup cols="3">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+ <tbody>
+  <row>
+    <entry/>
+    <entry align="right" namest="c2" nameend="c3"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>5</m:mn><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>6</m:mn><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></entry>
+  </row>
+  <row>
+    <entry>Use the Zero Product Property to set<newline/>each factor to 0.</entry>
+    <entry align="right"><m:math><m:mn>5</m:mn><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:math></entry>
+    <entry align="right"><m:math><m:mn>6</m:mn><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>1</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:math></entry>
+  </row>
+  <row>
+    <entry>Solve the equations.</entry>
+    <entry align="right"><m:math><m:mi>n</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>2</m:mn><m:mn>5</m:mn></m:mfrac></m:math></entry>
+    <entry align="right"><m:math><m:mi>n</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>6</m:mn></m:mfrac></m:math></entry>
+  </row>
+  <row>
+    <entry>Check your answers.</entry>
+    <entry/>
+    <entry/>
+  </row>
+  <row>
+    <entry><media id="eip-id1172187965657" alt="."><image mime-type="image/png" src="../../media/CNX_Elem Alg_Figure_07_06_002_img_new.jpg"/></media></entry>
+    <entry/>
+    <entry/>
+  </row>
+</tbody>
+</tgroup>
+</table></para></solution>
+</exercise>
+</example>
+<note id="fs-id1168345196819" class="try">
+<exercise id="fs-id1168345241928">
+<problem id="fs-id1168345241990">
+<para id="fs-id1168345284573">Solve: <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3</m:mn><m:mi>m</m:mi><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mi>m</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>.</para>
+</problem>
+<solution id="fs-id1168345291634">
+<para id="fs-id1168345440217"><m:math><m:mrow><m:mi>m</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>2</m:mn><m:mn>3</m:mn></m:mfrac><m:mo>,</m:mo><m:mi>m</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1168345284568" class="try">
+<exercise id="fs-id1168345461191">
+<problem id="fs-id1168345418950">
+<para id="fs-id1168345363065">Solve: <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>4</m:mn><m:mi>p</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>4</m:mn><m:mi>p</m:mi><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>.</para>
+</problem>
+<solution id="fs-id1168345443090">
+<para id="fs-id1168345427139"><m:math><m:mrow><m:mi>p</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mn>3</m:mn><m:mn>4</m:mn></m:mfrac><m:mo>,</m:mo><m:mi>p</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>3</m:mn><m:mn>4</m:mn></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<para id="fs-id1168345342548">Notice when we checked the solutions that each of them made just one factor equal to zero. But the product was zero for both solutions.</para>
+<example id="fs-id1168345559520">
+<exercise id="fs-id1168345370390">
+<problem id="fs-id1168345623160">
+<para id="fs-id1168345621074">Solve: <m:math><m:mrow><m:mn>3</m:mn><m:mi>p</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>10</m:mn><m:mi>p</m:mi><m:mo>+</m:mo><m:mn>7</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>.</para>
+</problem>
+<solution id="fs-id1168345743856">
+<title>Solution</title>
+<para id="fs-id1168345293425"><table id="eip-id1172184423668" class="unnumbered unstyled can-break" summary="This image shows the steps for solving 3 p (10 p + 7) = 0. The first step is using the zero product property to set each factor equal to 0, 3p = 0 or 10 p + 7 = 0. The next step is solving both equations, p = 0 or p = negative 7/10. Finally, check the solutions by substituting the answers into the original equation."><label/><tgroup cols="3">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+ <tbody>
+  <row>
+    <entry/>
+    <entry align="center" namest="c2" nameend="c3"><m:math><m:mrow><m:mspace width="1.2em"/><m:mn>3</m:mn><m:mi>p</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>10</m:mn><m:mi>p</m:mi><m:mo>+</m:mo><m:mn>7</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></entry>
+  </row>
+  <row>
+    <entry>Use the Zero Product Property to set<newline/>each factor to 0.</entry>
+    <entry align="right"><m:math><m:mn>3</m:mn><m:mi>p</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:math></entry>
+    <entry align="right"><m:math><m:mn>10</m:mn><m:mi>p</m:mi><m:mo>+</m:mo><m:mn>7</m:mn><m:mo>=</m:mo><m:mn>0</m:mn><m:mspace width="1.6em"/></m:math></entry>
+  </row>
+  <row>
+    <entry>Solve the equations.</entry>
+    <entry align="right"><m:math><m:mi>p</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:math></entry>
+    <entry align="right"><m:math><m:mn>10</m:mn><m:mi>p</m:mi><m:mo>=</m:mo><m:mn>−7</m:mn><m:mspace width="0.9em"/></m:math></entry>
+  </row>
+  <row>
+    <entry/>
+    <entry/>
+    <entry align="right"><m:math><m:mi>p</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mn>7</m:mn><m:mn>10</m:mn></m:mfrac></m:math></entry>
+  </row>
+  <row>
+    <entry>Check your answers.</entry>
+    <entry/>
+    <entry/>
+  </row>
+  <row>
+    <entry><media id="eip-id1172183700280" alt="."><image mime-type="image/png" src="../../media/CNX_Elem Alg_Figure_07_06_003a_img_new.jpg"/></media></entry>
+    <entry/>
+    <entry/>
+  </row>
+</tbody>
+</tgroup>
+</table></para></solution>
+</exercise>
+</example>
+<note id="fs-id1168345270147" class="try">
+<exercise id="fs-id1168345219518">
+<problem id="fs-id1168345270393">
+<para id="fs-id1168345688809">Solve: <m:math><m:mrow><m:mn>2</m:mn><m:mi>u</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>5</m:mn><m:mi>u</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>.</para>
+</problem>
+<solution id="fs-id1168345428523">
+<para id="fs-id1168345297996"><m:math><m:mrow><m:mi>u</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mi>u</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>5</m:mn></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1168345325302" class="try">
+<exercise id="fs-id1168345375992">
+<problem id="fs-id1168345373612">
+<para id="fs-id1168345429617">Solve: <m:math><m:mrow><m:mi>w</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mi>w</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>.</para>
+</problem>
+<solution id="fs-id1168345397536">
+<para id="fs-id1168345399458"><m:math><m:mrow><m:mi>w</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mi>w</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mn>3</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<para id="fs-id1168345230401">It may appear that there is only one factor in the next example. Remember, however, that <m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>8</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math> means <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>8</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>8</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math>.</para>
+<example id="fs-id1168345388937">
+<exercise id="fs-id1168345374063">
+<problem id="fs-id1168345744922">
+<para id="fs-id1168345419570">Solve: <m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>8</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>.</para>
+</problem>
+<solution id="fs-id1168345283164">
+<title>Solution</title>
+<para id="fs-id1168345386484"><table id="eip-id1172187685782" class="unnumbered unstyled can-break" summary="This image shows the steps for solving the equation (y – 8) squared = 0. The first step is to write the left hand side as a product, (y – 8)(y – 8) = 0. The next step is using the zero product property and set each factor equal to 0, y – 8 = 0 and y – 8 -= 0. Solve both equations, y = 8 and y = 8. When the solution repeats, it is a double root. Finally, check the solution by substituting back into the original equation."><label/><tgroup cols="3">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+ <tbody>
+  <row>
+    <entry/>
+    <entry align="right" namest="c2" nameend="c3"><m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>8</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></entry>
+  </row>
+  <row>
+    <entry>Rewrite the left side as a product.</entry>
+    <entry align="right" namest="c2" nameend="c3"><m:math><m:mo>(</m:mo><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>8</m:mn><m:mo>)</m:mo><m:mo>(</m:mo><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>8</m:mn><m:mo>)</m:mo><m:mo>=</m:mo><m:mn>0</m:mn></m:math></entry>
+  </row>
+  <row>
+    <entry>Use the Zero Product Property and<newline/>set each factor to 0.</entry>
+    <entry align="right"><m:math><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>8</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:math></entry>
+    <entry align="right"><m:math><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>8</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:math></entry>
+  </row>
+  <row>
+    <entry>Solve the equations.</entry>
+    <entry align="right"><m:math><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>8</m:mn></m:math></entry>
+    <entry align="right"><m:math><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>8</m:mn></m:math></entry>
+  </row>
+  <row>
+    <entry>When a solution repeats, we call it<newline/>a double root.</entry>
+    <entry/>
+    <entry/>
+  </row>
+  <row>
+    <entry>Check your answer.</entry>
+    <entry/>
+    <entry/>
+  </row>
+  <row>
+    <entry><media id="eip-id1172189140808" alt="."><image mime-type="image/png" src="../../media/CNX_Elem Alg_Figure_07_06_004a_img_new.jpg"/></media></entry>
+    <entry/>
+    <entry/>
+  </row>
+</tbody>
+</tgroup>
+</table></para></solution>
+</exercise>
+</example>
+<note id="fs-id1168345291329" class="try">
+<exercise id="fs-id1168345250293">
+<problem id="fs-id1168345209742">
+<para id="fs-id1168345636099">Solve: <m:math><m:mrow><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>.</para>
+</problem>
+<solution id="fs-id1168345405906">
+<para id="fs-id1168345425825"><m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1168341853924" class="try">
+<exercise id="fs-id1168345302359">
+<problem id="fs-id1168345292872">
+<para id="fs-id1168345329047">Solve: <m:math><m:mrow><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>v</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>.</para>
+</problem>
+<solution id="fs-id1168345276004">
+<para id="fs-id1168345688558"><m:math><m:mrow><m:mi>v</m:mi><m:mo>=</m:mo><m:mn>2</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+</section>
+<section id="fs-id1168345500421">
+<title>Solve Quadratic Equations by Factoring</title>
+<para id="fs-id1168341857405">Each of the equations we have solved in this section so far had one side in factored form. In order to use the Zero Product Property, the quadratic equation must be factored, with zero on one side. So we be sure to start with the quadratic equation in standard form, <m:math><m:mrow><m:mi>a</m:mi><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>b</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>c</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>. Then we factor the expression on the left.</para>
+<example id="fs-id1168345251303">
+<title>How to Solve a Quadratic Equation by Factoring</title>
+<exercise id="fs-id1168345633903">
+<problem id="fs-id1168345302181">
+<para id="fs-id1168345667903">Solve: <m:math><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>8</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>.</para>
+</problem>
+<solution id="fs-id1168345726539">
+<title>Solution</title>
+<media id="fs-id1168345442219" alt="This table gives the steps for solving the equation x squared + 2 x – 8 = 0. The first step is writing the equation in standard quadratic form, which it is.">
+<image mime-type="image/jpeg" src="../../media/CNX_Elem Alg_Figure_07_06_005a_img_new.jpg"/>
+</media>
+<media id="fs-id1168345560598" alt="The second step is factoring the quadratic expression x squared + 2 x – 8. The factors are (x + 4), (x – 2).">
+<image mime-type="image/jpeg" src="../../media/CNX_Elem Alg_Figure_07_06_005b_img_new.jpg"/>
+</media>
+<media id="fs-id1168345451693" alt="The next step is using the zero product property and set each factor equal to 0, x + 4 = 0 and x – 2 = 0.">
+<image mime-type="image/jpeg" src="../../media/CNX_Elem Alg_Figure_07_06_005c_img_new.jpg"/>
+</media>
+<media id="fs-id1168345216876" alt="The next step is solving both linear equations, x = −4 or x = 2.">
+<image mime-type="image/jpeg" src="../../media/CNX_Elem Alg_Figure_07_06_005d_img_new.jpg"/>
+</media>
+<media id="fs-id1168342168201" alt="The last step is checking both solutions by substituting them into the original equation.">
+<image mime-type="image/jpeg" src="../../media/CNX_Elem Alg_Figure_07_06_005e_img_new.jpg"/>
+</media>
+</solution>
+</exercise>
+</example>
+<note id="fs-id1168341889998" class="try">
+<exercise id="fs-id1168345363415">
+<problem id="fs-id1168345390066">
+<para id="fs-id1168345270345">Solve: <m:math><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>12</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>.</para>
+</problem>
+<solution id="fs-id1168345450396">
+<para id="fs-id1168345508580"><m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>4</m:mn><m:mo>,</m:mo><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>−3</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1168345342475" class="try">
+<exercise id="fs-id1168345434115">
+<problem id="fs-id1168345638819">
+<para id="fs-id1168345357376">Solve: <m:math><m:mrow><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>9</m:mn><m:mi>b</m:mi><m:mo>+</m:mo><m:mn>14</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>.</para>
+</problem>
+<solution id="fs-id1168345389311">
+<para id="fs-id1168345241745"><m:math><m:mrow><m:mi>b</m:mi><m:mo>=</m:mo><m:mn>−2</m:mn><m:mo>,</m:mo><m:mi>b</m:mi><m:mo>=</m:mo><m:mn>−7</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1168341963053" class="howto">
+<title>Solve a quadratic equation by factoring.</title>
+<list id="fs-id1168746420031" list-type="enumerated" number-style="arabic" class="stepwise">
+<item>Write the quadratic equation in standard form, <m:math><m:mrow><m:mi>a</m:mi><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>b</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>c</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>.</item>
+<item>Factor the quadratic expression.</item>
+<item>Use the Zero Product Property.</item>
+<item>Solve the linear equations.</item>
+<item>Check.</item>
+</list>
+</note>
+<para id="fs-id1168345346508">Before we factor, we must make sure the quadratic equation is in standard form.</para>
+
+<example id="fs-id1168341967366">
+<exercise id="fs-id1168345276808">
+<problem id="fs-id1168341963002">
+<para id="fs-id1168345387536">Solve: <m:math><m:mrow><m:mn>2</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>13</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>45</m:mn></m:mrow></m:math>.</para>
+</problem>
+<solution id="fs-id1168345386380">
+<title>Solution</title>
+<para id="fs-id1168345538965">
+<table id="eip-id1172189180766" class="unnumbered unstyled can-break" summary="This image shows the steps for solving the equation 2 y squared = 13 y + 45. The first step is writing the equation in standard quadratic form, 2 y squared – 13 y – 45 = 0. The second step is to factor the quadratic expression, (2 y + 5)(y – 9) = 0. The third step is to use the zero product property to set each factor equal to 0, 2 y + 5 = 0 or y – 9 = 0. Solve each equation, y = -5/2 or y = 9. Finally, check the answers by substituting them back into the original equation."><label/>
+<tgroup cols="3"><colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<tbody>
+<row>
+<entry/>
+<entry align="left"><m:math><m:mrow><m:mspace width="4.65em"/><m:mn>2</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>13</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>45</m:mn></m:mrow></m:math></entry>
+<entry/>
+</row>
+<row>
+<entry>Write the quadratic equation in standard form.</entry>
+<entry align="left"><m:math><m:mn>2</m:mn><m:msup><m:mi>y</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo>−</m:mo><m:mn>13</m:mn><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>45</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:math></entry>
+<entry/>
+</row>
+<row>
+<entry>Factor the quadratic expression.</entry>
+<entry align="left"><m:math><m:mspace width="0.7em"/><m:mo>(</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>5</m:mn><m:mo>)</m:mo><m:mo>(</m:mo><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>9</m:mn><m:mo>)</m:mo><m:mo>=</m:mo><m:mn>0</m:mn></m:math></entry>
+<entry/>
+</row>
+<row>
+<entry>Use the Zero Product Property<newline/>to set each factor to 0.</entry>
+<entry align="left"><m:math><m:mspace width="3.46em"/><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>5</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:math></entry>
+<entry align="right"><m:math><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>9</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:math></entry>
+</row>
+<row>
+<entry>Solve each equation.</entry>
+<entry align="left"><m:math><m:mspace width="5.68em"/><m:mi>y</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mrow><m:mn>5</m:mn></m:mrow><m:mn>2</m:mn></m:mfrac></m:math></entry>
+<entry align="right"><m:math><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>9</m:mn></m:math></entry>
+</row>
+<row>
+<entry>Check your answers.</entry>
+<entry/>
+<entry/>
+</row>
+<row>
+<entry><media id="eip-id1172187398438" alt="."><image mime-type="image/png" src="../../media/CNX_Elem Alg_Figure_07_06_006a_img_new.jpg"/></media></entry>
+<entry/>
+<entry/>
+</row>
+</tbody>
+
+</tgroup>
+</table></para>
+</solution>
+</exercise>
+</example>
+
+<note id="fs-id1168345635133" class="try">
+<exercise id="fs-id1168345543571">
+<problem id="fs-id1168345303039">
+<para id="fs-id1168345450758">Solve: <m:math><m:mrow><m:mn>3</m:mn><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>10</m:mn><m:mi>c</m:mi><m:mo>−</m:mo><m:mn>8</m:mn></m:mrow></m:math>.</para>
+</problem>
+<solution id="fs-id1168345693502">
+<para id="fs-id1168345363888"><m:math><m:mrow><m:mi>c</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mi>c</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>4</m:mn><m:mn>3</m:mn></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1168341852502" class="try">
+<exercise id="fs-id1168345425629">
+<problem id="fs-id1168345636315">
+<para id="fs-id1168345228814">Solve: <m:math><m:mrow><m:mn>2</m:mn><m:msup><m:mi>d</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>5</m:mn><m:mi>d</m:mi><m:mo>=</m:mo><m:mn>3</m:mn></m:mrow></m:math>.</para>
+</problem>
+<solution id="fs-id1168345650494">
+<para id="fs-id1168341841008"><m:math><m:mrow><m:mi>d</m:mi><m:mo>=</m:mo><m:mn>3</m:mn><m:mo>,</m:mo><m:mi>d</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<example id="fs-id1168345645014">
+<exercise id="fs-id1168345725064">
+<problem id="fs-id1168345325910">
+<para id="fs-id1168341852336">Solve: <m:math><m:mrow><m:mn>5</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>13</m:mn><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>7</m:mn><m:mi>x</m:mi></m:mrow></m:math>.</para>
+</problem>
+<solution id="fs-id1168341967351">
+<title>Solution</title>
+<para id="fs-id1168341961005">
+<table id="eip-id1172185965580" class="unnumbered unstyled can-break" summary="This image shows the steps for solving the equation 5 x squared – 13 x = 7 x. The first step is writing the equation in standard quadratic form, 5 x squared – 20 x = 0. The second step is to factor the quadratic expression, 5 x(x – 4)= 0. The third step is to use the zero product property to set each factor equal to 0, 5 x = 0 or x - 4 = 0. Solve each equation, x = 0 or x = 4. Finally, check the answers by substituting them back into the original equation."><label/>
+<tgroup cols="3"><colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<tbody>
+<row>
+<entry/>
+<entry align="right"><m:math><m:mrow><m:mn>5</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>13</m:mn><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>7</m:mn><m:mi>x</m:mi></m:mrow></m:math></entry>
+<entry/>
+</row>
+<row>
+<entry>Write the quadratic equation in standard form.</entry>
+<entry align="right"><m:math><m:mrow><m:mn>5</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>20</m:mn><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mspace width="0.5em"/></m:mrow></m:math></entry>
+<entry/>
+</row>
+<row>
+<entry>Factor the left side of the equation.</entry>
+<entry align="right"><m:math><m:mn>5</m:mn><m:mi>x</m:mi><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>4</m:mn><m:mo>)</m:mo><m:mo>=</m:mo><m:mn>0</m:mn><m:mspace width="0.5em"/></m:math></entry>
+<entry/>
+</row>
+<row>
+<entry>Use the Zero Product Property<newline/>to set each factor to 0.</entry>
+<entry align="right"><m:math><m:mn>5</m:mn><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mspace width="0.5em"/></m:math></entry>
+<entry align="right"><m:math><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>4</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:math></entry>
+</row>
+<row>
+<entry>Solve each equation.</entry>
+<entry align="right"><m:math><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mspace width="0.5em"/></m:math></entry>
+<entry align="right"><m:math><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>4</m:mn></m:math></entry>
+</row>
+<row>
+<entry>Check your answers.</entry>
+<entry/>
+<entry/>
+</row>
+<row>
+<entry><media id="eip-id1172189380900" alt="."><image mime-type="image/png" src="../../media/CNX_Elem Alg_Figure_07_06_007a_img_new.jpg"/></media></entry>
+<entry/>
+<entry/>
+</row>
+</tbody>
+
+</tgroup>
+</table></para></solution>
+</exercise>
+</example>
+<note id="fs-id1168341852901" class="try">
+<exercise id="fs-id1168341862796">
+<problem id="fs-id1168345560289">
+<para id="fs-id1168341962906">Solve: <m:math><m:mrow><m:mn>6</m:mn><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>9</m:mn><m:mi>a</m:mi><m:mo>=</m:mo><m:mn>3</m:mn><m:mi>a</m:mi></m:mrow></m:math>.</para>
+</problem>
+<solution id="fs-id1168341889934">
+<para id="fs-id1168345284910"><m:math><m:mrow><m:mi>a</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mi>a</m:mi><m:mo>=</m:mo><m:mn>−1</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1168345283987" class="try">
+<exercise id="fs-id1168341861122">
+<problem id="fs-id1168341865205">
+<para id="fs-id1168341960848">Solve: <m:math><m:mrow><m:mn>45</m:mn><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>b</m:mi><m:mo>=</m:mo><m:mn>−17</m:mn><m:mi>b</m:mi></m:mrow></m:math>.</para>
+</problem>
+<solution id="fs-id1168345447862">
+<para id="fs-id1168345370862"><m:math><m:mrow><m:mi>b</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mi>b</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<para id="fs-id1168341852439">Solving quadratic equations by factoring will make use of all the factoring techniques you have learned in this chapter! Do you recognize the special product pattern in the next example?</para>
+<example id="fs-id1168345397950"><exercise id="fs-id1168345375039">
+<problem id="fs-id1168345499235">
+<para id="fs-id1168341917388">Solve: <m:math><m:mrow><m:mn>144</m:mn><m:msup><m:mi>q</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>25</m:mn></m:mrow></m:math>.</para>
+</problem>
+<solution id="fs-id1168341899495">
+<title>Solution</title>
+<table id="eip-532" class="unnumbered unstyled" summary="hold"><label/>
+<tgroup cols="3"><tbody>
+ <row>
+   <entry/>
+   <entry><media id="eip-idm792731760" alt="."><image mime-type="image/jpeg" src="../../media/CNX_ElemAlg_Figure_07_06_012_img-01.jpg"/></media></entry>
+   <entry/>
+ </row>
+ <row>
+    <entry>Write the quadratic equation in standard form.</entry>
+   <entry><media id="eip-idm762515760" alt="."><image mime-type="image/jpeg" src="../../media/CNX_ElemAlg_Figure_07_06_012_img-02.jpg"/></media></entry>
+   <entry/>
+ </row>
+ <row>
+   <entry>Factor. It is a difference of squares.</entry>
+   <entry><media id="eip-idm792111770" alt="."><image mime-type="image/jpeg" src="../../media/CNX_ElemAlg_Figure_07_06_012_img-03.jpg"/></media></entry>
+   <entry/>
+ </row>
+ <row>
+   <entry>Use the Zero Product Property to set each factor to 0.</entry>
+   <entry><m:math><m:mtable><m:mtr><m:mtd columnalign="left"><m:mn>12</m:mn><m:mi>q</m:mi><m:mo>–</m:mo><m:mn>5</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mtd></m:mtr>
+
+
+</m:mtable></m:math></entry>
+   <entry><m:math><m:mtable><m:mtr><m:mtd columnalign="left"><m:mn>12</m:mn><m:mi>q</m:mi><m:mo>+</m:mo><m:mn>5</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mtd></m:mtr>
+
+
+</m:mtable></m:math></entry>
+ </row>
+ <row>
+   <entry>Solve each equation.</entry>
+   <entry><m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:mn>12</m:mn><m:mi>q</m:mi></m:mtd><m:mtd><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>5</m:mn></m:mtd></m:mtr>
+
+<m:mtr><m:mtd><m:mi>q</m:mi></m:mtd><m:mtd><m:mo>=</m:mo></m:mtd><m:mtd><m:mfrac><m:mn>5</m:mn><m:mn>12</m:mn></m:mfrac></m:mtd></m:mtr>
+
+</m:mtable></m:math></entry>
+       <entry><m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:mn>12</m:mn><m:mi>q</m:mi></m:mtd><m:mtd><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>–5</m:mn></m:mtd></m:mtr>
+
+<m:mtr><m:mtd columnalign="right"><m:mi>q</m:mi></m:mtd><m:mtd><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mo>–</m:mo><m:mfrac><m:mn>5</m:mn><m:mn>12</m:mn></m:mfrac></m:mtd></m:mtr>
+
+</m:mtable></m:math></entry>
+ </row>
+ <row>
+   <entry>Check your answers.</entry>
+   <entry/>
+   <entry/>
+ </row>
+</tbody>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</tgroup>
+</table>
+</solution>
+</exercise></example><note id="fs-id1168345636490" class="try">
+<exercise id="fs-id1168341959854">
+<problem id="fs-id1168345519062">
+<para id="fs-id1168345745232">Solve: <m:math><m:mrow><m:mn>25</m:mn><m:msup><m:mi>p</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>49</m:mn></m:mrow></m:math>.</para>
+</problem>
+<solution id="fs-id1168345259135">
+<para id="fs-id1168341959825"><m:math><m:mrow><m:mi>p</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>7</m:mn><m:mn>5</m:mn></m:mfrac><m:mo>,</m:mo><m:mtext>p</m:mtext><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mn>7</m:mn><m:mn>5</m:mn></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1168345440808" class="try">
+<exercise id="fs-id1168345235812">
+<problem id="fs-id1168345634619">
+<para id="fs-id1168345499804">Solve: <m:math><m:mrow><m:mn>36</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>121</m:mn></m:mrow></m:math>.</para>
+</problem>
+<solution id="fs-id1168345742994">
+<para id="fs-id1168345326313"><m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>11</m:mn></m:mrow><m:mn>6</m:mn></m:mfrac><m:mo>,</m:mo><m:mi>x</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mrow><m:mn>11</m:mn></m:mrow><m:mn>6</m:mn></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<para id="fs-id1168345217926">The left side in the next example is factored, but the right side is not zero. In order to use the Zero Product Property, one side of the equation must be zero. We’ll multiply the factors and then write the equation in standard form.</para>
+<example id="fs-id1168345742571">
+<exercise id="fs-id1168345668346">
+<problem id="fs-id1168345252465">
+<para id="fs-id1168345414700">Solve: <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>8</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>3</m:mn><m:mi>x</m:mi></m:mrow></m:math>.</para>
+</problem>
+<solution id="fs-id1168345540793">
+<title>Solution</title>
+<para id="fs-id1168345240289"><m:math><m:mtable><m:mtr><m:mtd columnalign="left"><m:mtable><m:mtr/><m:mtr/><m:mtr/><m:mtr/><m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="left"><m:mtext>Multiply the binomials.</m:mtext></m:mtd></m:mtr><m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="left"><m:mtext>Write the quadratic equation in standard form.</m:mtext></m:mtd></m:mtr><m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="left"><m:mtext>Factor the trinomial.</m:mtext></m:mtd></m:mtr></m:mtable></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mtable><m:mtr><m:mtd columnalign="right"><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>8</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>3</m:mn><m:mi>x</m:mi></m:mtd></m:mtr><m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="right"><m:mn>3</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>11</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>8</m:mn></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>3</m:mn><m:mi>x</m:mi></m:mtd></m:mtr><m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="right"><m:mn>3</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>14</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>8</m:mn></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>0</m:mn></m:mtd></m:mtr><m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="right"><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>0</m:mn></m:mtd></m:mtr></m:mtable></m:mtd></m:mtr><m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="left"><m:mtable><m:mtr><m:mtd columnalign="left"><m:mtext>Use the Zero Product Property to set each factor to 0.</m:mtext></m:mtd></m:mtr><m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="left"><m:mtext>Solve each equation.</m:mtext></m:mtd></m:mtr><m:mtr/><m:mtr/><m:mtr/></m:mtable></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mspace width="3.3em"/><m:mtable><m:mtr/><m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="right"><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>0</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>4</m:mn></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>0</m:mn></m:mtd></m:mtr><m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="right"><m:mn>3</m:mn><m:mi>x</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>2</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mi>x</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>4</m:mn></m:mtd></m:mtr><m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="right"><m:mi>x</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mfrac><m:mn>2</m:mn><m:mn>3</m:mn></m:mfrac></m:mtd></m:mtr></m:mtable></m:mtd></m:mtr><m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="left"><m:mtext>Check your answers.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mtext>The check is left to you!</m:mtext></m:mtd></m:mtr></m:mtable></m:math></para>
+</solution>
+</exercise>
+</example>
+<note id="fs-id1168345450269" class="try">
+<exercise id="fs-id1168345540760">
+<problem id="fs-id1168341912488">
+<para id="fs-id1168345254518">Solve: <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mi>m</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>m</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>12</m:mn><m:mi>m</m:mi></m:mrow></m:math>.</para>
+</problem>
+<solution id="fs-id1168345432844">
+<para id="fs-id1168345291161"><m:math><m:mrow><m:mi>m</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mi>m</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>3</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1168345385332" class="try">
+<exercise id="fs-id1168345644128">
+<problem id="fs-id1168345688860">
+<para id="fs-id1168345230253">Solve: <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>k</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>k</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>8</m:mn></m:mrow></m:math>.</para>
+</problem>
+<solution id="fs-id1168341961254">
+<para id="fs-id1168345432760"><m:math><m:mrow><m:mi>k</m:mi><m:mo>=</m:mo><m:mn>3</m:mn><m:mo>,</m:mo><m:mi>k</m:mi><m:mo>=</m:mo><m:mn>−3</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<para id="fs-id1168345742691">The Zero Product Property also applies to the product of three or more factors. If the product is zero, at least one of the factors must be zero. We can solve some equations of degree more than two by using the Zero Product Property, just like we solved quadratic equations.</para>
+<example id="fs-id1168345633340"><exercise id="fs-id1168341906994">
+<problem id="fs-id1168345511663">
+<para id="fs-id1168345294541">Solve: <m:math><m:mrow><m:mn>9</m:mn><m:msup><m:mi>m</m:mi><m:mn>3</m:mn></m:msup><m:mo>+</m:mo><m:mn>100</m:mn><m:mi>m</m:mi><m:mo>=</m:mo><m:mn>60</m:mn><m:msup><m:mi>m</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math>.</para>
+</problem>
+<solution id="fs-id1168345734919">
+<title>Solution</title>
+<table id="eip-889" summary="`" class="unnumbered unstyled"><label/>
+<tgroup cols="2"><tbody>
+    <row>
+        <entry/>
+        <entry><media id="eip-idm562338368" alt="."><image mime-type="image/jpeg" src="../../media/CNX_ElemAlg_Figure_07_06_013_img-01.jpg"/></media></entry>
+    </row>
+    <row>
+        <entry>Bring all the terms to one side so that the other side is zero.</entry>
+        <entry><media id="eip-idm704254400" alt="."><image mime-type="image/jpeg" src="../../media/CNX_ElemAlg_Figure_07_06_013_img-02.jpg"/></media></entry>
+    </row>
+    <row>
+        <entry>Factor the greatest common factor first.</entry>
+        <entry><media id="eip-idm539868144" alt="."><image mime-type="image/jpeg" src="../../media/CNX_ElemAlg_Figure_07_06_013_img-03.jpg"/></media></entry>
+    </row>
+    <row>
+        <entry>Factor the trinomial.</entry>
+        <entry><media id="eip-idm729043712" alt="."><image mime-type="image/jpeg" src="../../media/CNX_ElemAlg_Figure_07_06_013_img-04.jpg"/></media></entry>
+    </row>
+    <row>
+        <entry>Use the Zero Product Property to set each factor to 0.</entry>
+        <entry><media id="eip-idm511628800" alt="."><image mime-type="image/jpeg" src="../../media/CNX_ElemAlg_Figure_07_06_013_img-05.jpg"/></media></entry>
+    </row>
+    <row>
+        <entry>Solve each equation.</entry>
+        <entry><media id="eip-idm597333632" alt="."><image mime-type="image/jpeg" src="../../media/CNX_ElemAlg_Figure_07_06_013_img-06.jpg"/></media></entry>
+    </row>
+    <row>
+        <entry>Check your answers.</entry>
+        <entry>The check is left to you.</entry>
+    </row>
+</tbody>
+</tgroup>
+</table>
+</solution>
+</exercise></example><note id="fs-id1168345474659" class="try">
+<exercise id="fs-id1168341961107">
+<problem id="fs-id1168345235323">
+<para id="fs-id1168341852878">Solve: <m:math><m:mrow><m:mn>8</m:mn><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup><m:mo>=</m:mo><m:mn>24</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>18</m:mn><m:mi>x</m:mi></m:mrow></m:math>.</para>
+</problem>
+<solution id="fs-id1168345263118">
+<para id="fs-id1168341852447"><m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mi>x</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>3</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1168345424189" class="try">
+<exercise id="fs-id1168345644359">
+<problem id="fs-id1168345447717">
+<para id="fs-id1168341973438">Solve: <m:math><m:mrow><m:mn>16</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>32</m:mn><m:msup><m:mi>y</m:mi><m:mn>3</m:mn></m:msup><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>y</m:mi></m:mrow></m:math>.</para>
+</problem>
+<solution id="fs-id1168345276647">
+<para id="fs-id1168345425183"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>4</m:mn></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<para id="fs-id1168341864114">When we factor the quadratic equation in the next example we will get three factors. However the first factor is a constant. We know that factor cannot equal 0.</para>
+<example id="fs-id1168342181326">
+<exercise id="fs-id1168345438099">
+<problem id="fs-id1168341961226">
+<para id="fs-id1168341955845">Solve: <m:math><m:mrow><m:mn>4</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>16</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>84</m:mn></m:mrow></m:math>.</para>
+</problem>
+<solution id="fs-id1168345473488">
+<title>Solution</title>
+<para id="fs-id1168345385736"><m:math><m:mtable><m:mtr><m:mtd columnalign="left"><m:mtable><m:mtr/><m:mtr/><m:mtr/><m:mtr/><m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="left"><m:mtext>Write the quadratic equation in standard form.</m:mtext></m:mtd></m:mtr><m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="left"><m:mtext>Factor the greatest common factor first.</m:mtext></m:mtd></m:mtr><m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="left"><m:mtext>Factor the trinomial.</m:mtext></m:mtd></m:mtr></m:mtable></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mspace width="1em"/><m:mtable><m:mtr><m:mtd columnalign="right"><m:mn>4</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>16</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>84</m:mn></m:mtd></m:mtr><m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="right"><m:mn>4</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>16</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>84</m:mn></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>0</m:mn></m:mtd></m:mtr><m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="right"><m:mn>4</m:mn><m:mrow><m:mo>(</m:mo><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>21</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>0</m:mn></m:mtd></m:mtr><m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="right"><m:mn>4</m:mn><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>7</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>0</m:mn></m:mtd></m:mtr></m:mtable></m:mtd></m:mtr><m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="left"><m:mtable><m:mtr><m:mtd columnalign="left"><m:mtext>Use the Zero Product Property to set each factor to 0.</m:mtext></m:mtd></m:mtr><m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="left"><m:mtext>Solve each equation.</m:mtext></m:mtd></m:mtr></m:mtable></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mspace width="0.4em"/><m:mtable><m:mtr><m:mtd columnalign="right"><m:mn>4</m:mn></m:mtd><m:mtd columnalign="left"><m:mo>≠</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>0</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>7</m:mn></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>0</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>0</m:mn></m:mtd></m:mtr><m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="right"><m:mn>4</m:mn></m:mtd><m:mtd columnalign="left"><m:mo>≠</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>0</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mi>x</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>7</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mi>x</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>−3</m:mn></m:mtd></m:mtr></m:mtable></m:mtd></m:mtr><m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="left"><m:mtext>Check your answers.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mtext>The check is left to you.</m:mtext></m:mtd></m:mtr></m:mtable></m:math></para>
+</solution>
+</exercise>
+</example>
+<note id="fs-id1168345407298" class="try">
+<exercise id="fs-id1168345423473">
+<problem id="fs-id1168345450438">
+<para id="fs-id1168345450440">Solve: <m:math><m:mrow><m:mn>18</m:mn><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>30</m:mn><m:mo>=</m:mo><m:mn>−33</m:mn><m:mi>a</m:mi></m:mrow></m:math>.</para>
+</problem>
+<solution id="fs-id1168345726500">
+<para id="fs-id1168345640003"><m:math><m:mrow><m:mi>a</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mn>5</m:mn><m:mn>2</m:mn></m:mfrac><m:mo>,</m:mo><m:mi>a</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>2</m:mn><m:mn>3</m:mn></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1168345434087" class="try">
+<exercise id="fs-id1168345213399">
+<problem id="fs-id1168345669337">
+<para id="fs-id1168345642800">Solve: <m:math><m:mrow><m:mn>123</m:mn><m:mi>b</m:mi><m:mo>=</m:mo><m:mn>−6</m:mn><m:mo>−</m:mo><m:mn>60</m:mn><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math>.</para>
+</problem>
+<solution id="fs-id1168345429626">
+<para id="fs-id1168345407244"><m:math><m:mrow><m:mi>b</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mi>b</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>20</m:mn></m:mrow></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+</section>
+<section id="fs-id1168345541980">
+<title>Solve Applications Modeled by Quadratic Equations</title>
+<para id="fs-id1168341852823">The problem solving strategy we used earlier for applications that translate to linear equations will work just as well for applications that translate to quadratic equations. We will copy the problem solving strategy here so we can use it for reference.</para>
+<note id="fs-id1168341923634" class="howto">
+<title>Use a problem-solving strategy to solve word problems.</title>
+<list id="fs-id1168744120385" list-type="enumerated" number-style="arabic" class="stepwise">
+<item><emphasis effect="bold">Read</emphasis> the problem. Make sure all the words and ideas are understood.</item>
+<item><emphasis effect="bold">Identify</emphasis> what we are looking for.</item>
+<item><emphasis effect="bold">Name</emphasis> what we are looking for. Choose a variable to represent that quantity.</item>
+<item><emphasis effect="bold">Translate</emphasis> into an equation. It may be helpful to restate the problem in one sentence with all the important information. Then, translate the English sentence into an algebra equation.</item>
+<item><emphasis effect="bold">Solve</emphasis> the equation using good algebra techniques.</item>
+<item><emphasis effect="bold">Check</emphasis> the answer in the problem and make sure it makes sense.</item>
+<item><emphasis effect="bold">Answer</emphasis> the question with a complete sentence.</item>
+</list>
+</note>
+<para id="fs-id1168345499205">We will start with a number problem to get practice translating words into a quadratic equation.</para>
+<example id="fs-id1168345374678">
+<exercise id="fs-id1168345374680">
+<problem id="fs-id1168345256727">
+<para id="fs-id1168341963294">The product of two consecutive integers is <m:math><m:mrow><m:mn>132</m:mn></m:mrow></m:math>. Find the integers.</para>
+</problem>
+<solution id="fs-id1168345676322">
+<title>Solution</title>
+<para id="fs-id1169745319903"><m:math><m:mtable><m:mtr><m:mtd columnalign="left"><m:mtext mathvariant="bold">Step 1. Read</m:mtext><m:mspace width="0.2em"/><m:mtext>the problem.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd/><m:mtd/><m:mtd/></m:mtr><m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="left"><m:mtext mathvariant="bold">Step 2. Identify</m:mtext><m:mspace width="0.2em"/><m:mtext>what we are looking for.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mtext>We are looking for two consecutive integers.</m:mtext></m:mtd></m:mtr><m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="left"><m:mtext mathvariant="bold">Step 3. Name</m:mtext><m:mspace width="0.2em"/><m:mtext>what we are looking for.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mtext>Let</m:mtext><m:mspace width="0.2em"/><m:mi>n</m:mi><m:mo>=</m:mo><m:mtext>the first integer</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd/><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mi>n</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo>=</m:mo><m:mspace width="0.2em"/><m:mtext>the next consecutive integer</m:mtext></m:mtd></m:mtr><m:mtr/><m:mtr/>
+<m:mtr><m:mtd columnalign="left"><m:mtext mathvariant="bold">Step 4. Translate</m:mtext><m:mspace width="0.2em"/><m:mtext>into an equation. Restate the</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mtext>The product of the two consecutive integers is 132.</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>problem in a sentence.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd/><m:mtd/><m:mtd/><m:mtd/></m:mtr><m:mtr><m:mtd/><m:mtd/><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mtext>The first integer times the next integer is 132.</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtable><m:mtr><m:mtd columnalign="left"><m:mtext>Translate to an equation.</m:mtext></m:mtd></m:mtr><m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="left"><m:mtext mathvariant="bold">Step 5. Solve</m:mtext><m:mspace width="0.2em"/><m:mtext>the equation.</m:mtext></m:mtd></m:mtr><m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="left"><m:mtext>Bring all the terms to one side.</m:mtext></m:mtd></m:mtr><m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="left"><m:mtext>Factor the trinomial.</m:mtext></m:mtd></m:mtr></m:mtable></m:mtd><m:mtd/><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mtable><m:mtr><m:mtd columnalign="right"><m:mi>n</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>n</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>132</m:mn></m:mtd></m:mtr><m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="right"><m:msup><m:mi>n</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>n</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>132</m:mn></m:mtd></m:mtr><m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="right"><m:msup><m:mi>n</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>132</m:mn></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>0</m:mn></m:mtd></m:mtr><m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="right"><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>11</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>n</m:mi><m:mo>+</m:mo><m:mn>12</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>0</m:mn></m:mtd></m:mtr></m:mtable></m:mtd></m:mtr><m:mtr/><m:mtr/>
+<m:mtr><m:mtd columnalign="left"><m:mtable><m:mtr><m:mtd columnalign="left"><m:mtext>Use the zero product property.</m:mtext></m:mtd></m:mtr><m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="left"><m:mtext>Solve the equations.</m:mtext></m:mtd></m:mtr></m:mtable></m:mtd><m:mtd/><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mspace width="4em"/><m:mtable><m:mtr><m:mtd columnalign="right"><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>11</m:mn></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>0</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mi>n</m:mi><m:mo>+</m:mo><m:mn>12</m:mn></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>0</m:mn></m:mtd></m:mtr><m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="right"><m:mi>n</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>11</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mi>n</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>−12</m:mn></m:mtd></m:mtr></m:mtable></m:mtd></m:mtr></m:mtable></m:math></para>
+<para id="fs-id1169754361460">There are two values for <m:math><m:mi>n</m:mi></m:math> that are solutions to this problem. So there are two sets of consecutive integers that will work.</para>
+<para id="fs-id1169751896519"><m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:mtext>If the first integer is</m:mtext><m:mspace width="0.2em"/><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>11</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mtext>If the first integer is</m:mtext><m:mspace width="0.2em"/><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>−12</m:mn></m:mtd></m:mtr><m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="right"><m:mtext>then the next integer is</m:mtext><m:mspace width="0.2em"/><m:mi>n</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mtext>then the next integer is</m:mtext><m:mspace width="0.2em"/><m:mi>n</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mtd></m:mtr><m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="right"><m:mn>11</m:mn><m:mo>+</m:mo><m:mn>1</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−12</m:mn><m:mo>+</m:mo><m:mn>1</m:mn></m:mtd></m:mtr><m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="right"><m:mn>12</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−11</m:mn></m:mtd></m:mtr></m:mtable></m:math></para>
+<para id="fs-id1169751962238"><emphasis effect="bold">Step 6. Check</emphasis> the answer.</para>
+<para id="fs-id1169754362816">The consecutive integers are <m:math><m:mrow><m:mn>11</m:mn><m:mo>,</m:mo><m:mn>12</m:mn></m:mrow></m:math> and <m:math><m:mrow><m:mn>−11</m:mn><m:mo>,</m:mo><m:mn>−12</m:mn></m:mrow></m:math>. The product <m:math><m:mrow><m:mn>11</m:mn><m:mo>·</m:mo><m:mn>12</m:mn><m:mo>=</m:mo><m:mn>132</m:mn></m:mrow></m:math> and the product <m:math><m:mrow><m:mn>−11</m:mn><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−12</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>132</m:mn></m:mrow></m:math>. Both pairs of consecutive integers are solutions.</para>
+<para id="fs-id1169751871736"><emphasis effect="bold">Step 7. Answer</emphasis> the question. The consecutive integers are <m:math><m:mrow><m:mn>11</m:mn><m:mo>,</m:mo><m:mn>12</m:mn></m:mrow></m:math> and <m:math><m:mrow><m:mn>−11</m:mn><m:mo>,</m:mo><m:mn>−12</m:mn></m:mrow></m:math>.</para>
+</solution>
+</exercise>
+</example>
+<note id="fs-id1168345435497" class="try">
+<exercise id="fs-id1168345435501">
+<problem id="fs-id1168345387491">
+<para id="fs-id1168345387493">The product of two consecutive integers is <m:math><m:mrow><m:mn>240</m:mn></m:mrow></m:math>. Find the integers.</para>
+</problem>
+<solution id="fs-id1168345450655">
+<para id="fs-id1168345450657"><m:math><m:mrow><m:mn>−15</m:mn><m:mo>,</m:mo><m:mn>−16</m:mn><m:mspace width="0.2em"/><m:mtext>and</m:mtext><m:mspace width="0.2em"/><m:mn>15</m:mn><m:mo>,</m:mo><m:mn>16</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1168345692331" class="try">
+<exercise id="fs-id1168341912280">
+<problem id="fs-id1168345407344">
+<para id="fs-id1168345407346">The product of two consecutive integers is <m:math><m:mrow><m:mn>420</m:mn></m:mrow></m:math>. Find the integers.</para>
+</problem>
+<solution id="fs-id1168345543623">
+<para id="fs-id1168345249992"><m:math><m:mrow><m:mn>−21</m:mn><m:mo>,</m:mo><m:mn>−20</m:mn><m:mspace width="0.2em"/><m:mtext>and</m:mtext><m:mspace width="0.2em"/><m:mn>20</m:mn><m:mo>,</m:mo><m:mn>21</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<para id="fs-id1168341851518">Were you surprised by the pair of negative integers that is one of the solutions to the previous example? The product of the two positive integers and the product of the two negative integers both give 132.</para>
+<para id="fs-id1168342171712">In some applications, negative solutions will result from the algebra, but will not be realistic for the situation.</para>
+<example id="fs-id1168345293362">
+<exercise id="fs-id1168345687148">
+<problem id="fs-id1168345687150">
+<para id="fs-id1168341960616">A rectangular garden has an area <m:math><m:mrow><m:mn>15</m:mn></m:mrow></m:math> square feet. The length of the garden is two feet more than the width. Find the length and width of the garden.</para>
+</problem>
+<solution id="fs-id1169749485410">
+<title>Solution</title>
+<para id="fs-id1169754122435">
+<table id="fs-id1169751855491" class="unnumbered unstyled can-break" summary="This figure shows the steps for solving the rectangular garden question. The garden is a rectangle and is labeled w for the width and w + 2 for the length. Next, the formula for area, A = L times W, is used to create an equation. The equation is 15 = (w + 2)w. The equation is simplified and put in standard quadratic form, 0 = w squared + 2 w – 15. Then, the quadratic expression is factored, 0 = (w + 5)(w -3). The equation is solved with the zero product property, negative 5 = w and 3 = w. The negative answer does not makes sense. The solution then is, w = 3. Finally, the width is 3 feet and the length is 3 + 2 = 5 feet. The garden is 3 feet by 5 feet."><label/>
+<tgroup cols="3">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<tbody>
+<row>
+<entry><emphasis effect="bold">Step 1. Read</emphasis> the problem. In problems involving geometric figures, a sketch can help you visualize the situation.</entry>
+<entry align="center" namest="c2" nameend="c3"><media id="fs-id1169751896488" alt="."><image mime-type="image/png" src="../../media/CNX_Elem Alg_Figure_07_06_008b_img_new.jpg"/></media></entry>
+</row>
+<row>
+<entry><emphasis effect="bold">Step 2. Identify</emphasis> what you are looking for.</entry>
+<entry align="left" namest="c2" nameend="c3">We are looking for the length and width.</entry>
+</row>
+<row>
+<entry><emphasis effect="bold">Step 3. Name</emphasis> what you are looking for.<newline/>The length is two feet more than width.</entry>
+<entry align="left" namest="c2" nameend="c3">Let <emphasis effect="italics">W</emphasis> = the width of the garden.<newline/><emphasis effect="italics">W</emphasis> + 2 = the length of the garden</entry>
+</row>
+<row>
+<entry><emphasis effect="bold">Step 4. Translate</emphasis> into an equation.<newline/>Restate the important information in a sentence.</entry>
+<entry align="left" valign="bottom" namest="c2" nameend="c3"><newline/>The area of the rectangular garden is 15 square feet.</entry>
+</row>
+<row>
+<entry>Use the formula for the area of a rectangle.</entry>
+<entry align="left" namest="c2" nameend="c3"><m:math><m:mrow><m:mspace width="0.8em"/><m:mi>A</m:mi><m:mo>=</m:mo><m:mi>L</m:mi><m:mo>·</m:mo><m:mi>W</m:mi></m:mrow></m:math></entry>
+</row>
+<row>
+<entry>Substitute in the variables.</entry>
+<entry align="left" namest="c2" nameend="c3"><m:math><m:mrow><m:mspace width="0.5em"/><m:mn>15</m:mn><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mi>W</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo><m:mi>W</m:mi></m:mrow></m:math></entry>
+</row>
+<row>
+<entry><emphasis effect="bold">Step 5. Solve</emphasis> the equation. Distribute first.</entry>
+<entry align="left" namest="c2" nameend="c3"><m:math><m:mrow><m:mspace width="0.5em"/><m:mn>15</m:mn><m:mo>=</m:mo><m:msup><m:mrow><m:mi>W</m:mi></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>W</m:mi></m:mrow></m:math></entry>
+</row>
+<row>
+<entry>Get zero on one side.</entry>
+<entry align="left" namest="c2" nameend="c3"><m:math><m:mrow><m:mspace width="1em"/><m:mn>0</m:mn><m:mo>=</m:mo><m:msup><m:mrow><m:mi>W</m:mi></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>W</m:mi><m:mo>−</m:mo><m:mn>15</m:mn></m:mrow></m:math></entry>
+</row>
+<row>
+<entry>Factor the trinomial.</entry>
+<entry align="left" namest="c2" nameend="c3"><m:math><m:mrow><m:mspace width="1em"/><m:mn>0</m:mn><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mi>W</m:mi><m:mo>+</m:mo><m:mn>5</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mi>W</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></entry>
+</row>
+<row>
+<entry>Use the Zero Product Property.</entry>
+<entry><m:math><m:mrow><m:mspace width="1em"/><m:mn>0</m:mn><m:mo>=</m:mo><m:mi>W</m:mi><m:mo>+</m:mo><m:mn>5</m:mn></m:mrow></m:math></entry>
+<entry align="left"><m:math><m:mrow><m:mn>0</m:mn><m:mo>=</m:mo><m:mi>W</m:mi><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow></m:math></entry>
+</row>
+<row>
+<entry>Solve each equation.</entry>
+<entry><m:math><m:mrow><m:mspace width="0.4em"/><m:mn>−5</m:mn><m:mo>=</m:mo><m:mi>W</m:mi></m:mrow></m:math></entry>
+<entry align="left"><m:math><m:mrow><m:mn>3</m:mn><m:mo>=</m:mo><m:mi>W</m:mi></m:mrow></m:math></entry>
+</row>
+<row>
+<entry>Since <emphasis effect="italics">W</emphasis> is the width of the garden,<newline/>it does not make sense for it to be<newline/>negative. We eliminate that value for <emphasis effect="italics">W</emphasis>.</entry>
+<entry><m:math><m:mrow><m:mspace width="0.35em"/><m:menclose notation="updiagonalstrike"><m:mrow><m:mn>−5</m:mn><m:mo>=</m:mo><m:mi>W</m:mi></m:mrow></m:menclose></m:mrow></m:math><newline/><newline/><m:math><m:mrow><m:mspace width="1em"/><m:mi>W</m:mi><m:mo>=</m:mo><m:mn>3</m:mn></m:mrow></m:math></entry>
+<entry align="left"><m:math><m:mrow><m:mn>3</m:mn><m:mo>=</m:mo><m:mi>W</m:mi></m:mrow></m:math><newline/><newline/>Width is 3 feet.</entry>
+</row>
+<row>
+<entry>Find the value of the length.</entry>
+<entry><m:math><m:mrow><m:mspace width="1em"/><m:mi>W</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mo>=</m:mo><m:mtext>length</m:mtext></m:mrow></m:math></entry>
+<entry/>
+</row>
+<row>
+<entry/>
+<entry><m:math><m:mrow><m:mspace width="1em"/><m:mn>3</m:mn><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow></m:math></entry>
+<entry/>
+</row>
+<row>
+<entry/>
+<entry><m:math><m:mrow><m:mspace width="1.6em"/><m:mn>5</m:mn></m:mrow></m:math></entry>
+<entry align="center">Length is 5 feet.</entry>
+</row>
+<row>
+<entry><emphasis effect="bold">Step 6. Check</emphasis> the answer.<newline/>Does the answer make sense?</entry>
+<entry/>
+<entry/>
+</row>
+<row>
+<entry><media id="fs-id1169753967320" alt="."><image mime-type="image/png" src="../../media/CNX_Elem Alg_Figure_07_06_008a_img_new.jpg"/></media></entry>
+<entry/>
+<entry/>
+</row>
+<row>
+<entry/>
+<entry namest="c2" nameend="c3" align="left">Yes, this makes sense.</entry>
+</row>
+<row>
+<entry><emphasis effect="bold">Step 7. Answer</emphasis> the question.</entry>
+<entry namest="c2" nameend="c3" align="left">The width of the garden is 3 feet<newline/>and the length is 5 feet.</entry>
+</row>
+</tbody>
+</tgroup>
+
+</table></para>
+</solution>
+</exercise>
+</example>
+<note id="fs-id1168345276658" class="try">
+<exercise id="fs-id1168345276662">
+<problem id="fs-id1168345669152">
+<para id="fs-id1168345669154">A rectangular sign has an area of 30 square feet. The length of the sign is one foot more than the width. Find the length and width of the sign.</para>
+</problem>
+<solution id="fs-id1168345543073">
+<para id="fs-id1168345543075"><m:math><m:mn>5</m:mn></m:math> feet and <m:math><m:mn>6</m:mn></m:math> feet</para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1168341968224" class="try">
+<exercise id="fs-id1168342170246">
+<problem id="fs-id1168342170248">
+<para id="fs-id1168342170250">A rectangular patio has an area of 180 square feet. The width of the patio is three feet less than the length. Find the length and width of the patio.</para>
+</problem>
+<solution id="fs-id1168345397725">
+<para id="fs-id1168345397727"><m:math><m:mrow><m:mn>12</m:mn></m:mrow></m:math> feet and <m:math><m:mrow><m:mn>15</m:mn></m:mrow></m:math> feet</para>
+</solution>
+</exercise>
+</note>
+<para id="fs-id1168345239822">In an earlier chapter, we used the Pythagorean Theorem <m:math><m:mrow><m:mo>(</m:mo><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup><m:mo>)</m:mo></m:mrow></m:math>. It gave the relation between the legs and the hypotenuse of a right triangle.</para>
+<media id="fs-id1168345557189" alt="This figure is a right triangle.">
+<image mime-type="image/jpeg" src="../../media/CNX_Elem Alg_Figure_07_06_009_img_new.jpg"/>
+</media>
+<para id="fs-id1168345622820">We will use this formula to in the next example.</para>
+
+<example id="fs-id1168341921712">
+<exercise id="fs-id1168341921714">
+<problem id="fs-id1168345442026">
+<para id="fs-id1168345442028">Justine wants to put a deck in the corner of her backyard in the shape of a right triangle, as shown below. The hypotenuse will be 17 feet long. The length of one side will be 7 feet less than the length of the other side. Find the lengths of the sides of the deck.</para>
+<media id="fs-id1168345385720" alt="This figure is a right triangle. The vertical leg is labeled “x – 7”. the horizontal leg, the base, is labeled “x”. The hypotenuse is labeled “17”.">
+<image mime-type="image/jpeg" src="../../media/CNX_Elem Alg_Figure_07_06_010_img_new.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1168342180572">
+<title>Solution</title>
+<table id="fs-id1169750735925" class="unnumbered unstyled can-break" summary="This image shows the steps for solving the above deck problem. The first step is reading the problem. The second step is identify what you are looking for, which is the lengths of the sides of the deck. The third step is naming what you are looking for, which is x = length of one side of the deck and x – 7 the length of the other side. The fourth step is translating into an equation. This problem uses the Pythagorean theorem, x squared + (x – 7) squared = 17 squared. The fifth step is to simplify the equation and solve. The equation simplifies to 2 x squared – 14 x + 49 = 289. Then, the equation is put into standard quadratic form, 2 x squared – 14 x – 240 = 0. The equation is then factored into 2 (x – 15)(x + 8) = 0. Each factor is set equal to 0 and solved, x = 15 or x = -8. Since x = negative 8 does not make sense, the solution is x = 15. The sixth step is to see if the answer makes sense. The last step is to answer the question, the sides of the deck are 8, 15, and 17 feet."><label/>
+<tgroup cols="4">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<colspec colnum="4" colname="c4"/>
+<tbody>
+<row>
+<entry><emphasis effect="bold">Step 1. Read</emphasis> the problem.</entry>
+<entry/>
+<entry/>
+<entry/>
+</row>
+<row>
+<entry><emphasis effect="bold">Step 2. Identify</emphasis> what you are looking for.<newline/></entry>
+<entry namest="c2" nameend="c4">We are looking for the lengths of the sides<newline/>of the deck.</entry>
+</row>
+<row>
+<entry><emphasis effect="bold">Step 3. Name</emphasis> what you are looking for.<newline/>One side is 7 less than the other.</entry>
+<entry namest="c2" nameend="c4">Let <emphasis effect="italics">x</emphasis> = length of a side of the deck<newline/><emphasis effect="italics">x</emphasis> − 7 = length of other side</entry>
+</row>
+<row>
+<entry><emphasis effect="bold">Step 4. Translate</emphasis> into an equation.<newline/>Since this is a right triangle we can use the<newline/>Pythagorean Theorem.</entry>
+<entry namest="c2" nameend="c4"><m:math><m:mrow><m:mspace width="5.3em"/><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math><newline/></entry>
+</row>
+<row>
+<entry>Substitute in the variables.</entry>
+<entry namest="c2" nameend="c3"><m:math><m:mrow><m:mspace width="3.05em"/><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>7</m:mn><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:msup><m:mrow><m:mn>17</m:mn></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math>
+</entry>
+<entry/>
+</row>
+<row>
+<entry><emphasis effect="bold">Step 5. Solve</emphasis> the equation.</entry>
+<entry namest="c2" nameend="c3" align="left"><m:math><m:mrow><m:mspace width="0.6em"/><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>14</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>49</m:mn><m:mo>=</m:mo><m:mn>289</m:mn></m:mrow></m:math>
+</entry>
+<entry/>
+</row>
+<row>
+<entry>Simplify.</entry>
+<entry namest="c2" nameend="c3" align="left"><m:math><m:mrow><m:mspace width="2.15em"/><m:mn>2</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>14</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>49</m:mn><m:mo>=</m:mo><m:mn>289</m:mn></m:mrow></m:math>
+</entry>
+<entry/>
+</row>
+<row>
+<entry>It is a quadratic equation, so get zero on one side.</entry>
+<entry namest="c2" nameend="c3" align="left"><m:math><m:mrow><m:mspace width="1.7em"/><m:mn>2</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>14</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>240</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>
+</entry>
+<entry/>
+</row>
+<row>
+<entry>Factor the greatest common factor.</entry>
+<entry namest="c2" nameend="c3" align="left"><m:math><m:mrow><m:mspace width="1.5em"/><m:mn>2</m:mn><m:mo stretchy="false">(</m:mo><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>7</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>120</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></entry>
+<entry/>
+</row>
+<row>
+<entry>Factor the trinomial.</entry>
+<entry namest="c2" nameend="c3" align="left"><m:math><m:mrow><m:mspace width="1.8em"/><m:mn>2</m:mn><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>15</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>8</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>
+</entry>
+<entry/>
+</row>
+<row>
+<entry>Use the Zero Product Property.</entry>
+<entry><m:math><m:mrow><m:mn>2</m:mn><m:mo>≠</m:mo><m:mn>0</m:mn></m:mrow></m:math>
+</entry>
+<entry align="left"><m:math><m:mrow><m:mspace width="1.6em"/><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>15</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>
+</entry>
+<entry align="left"><m:math><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>8</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>
+</entry>
+</row>
+<row>
+<entry>Solve.</entry>
+<entry><m:math><m:mrow><m:mn>2</m:mn><m:mo>≠</m:mo><m:mn>0</m:mn></m:mrow></m:math>
+</entry>
+<entry align="left"><m:math><m:mrow><m:mspace width="3.75em"/><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>15</m:mn></m:mrow></m:math>
+</entry>
+<entry align="left"><m:math><m:mrow><m:mspace width="1.7em"/><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>−8</m:mn></m:mrow></m:math>
+</entry>
+</row>
+<row>
+<entry>Since <emphasis effect="italics">x</emphasis> is a side of the triangle, <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mtext>−8</m:mtext></m:mrow></m:math> does not<newline/>make sense.</entry>
+<entry><m:math><m:mn>2</m:mn><m:mo>≠</m:mo><m:mn>0</m:mn></m:math><newline/></entry>
+<entry align="left"><m:math><m:mspace width="3.75em"/><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>15</m:mn></m:math><newline/></entry>
+<entry align="left"><m:math><m:mrow><m:mspace width="1.7em"/><m:menclose notation="updiagonalstrike"><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>−8</m:mn></m:mrow></m:menclose></m:mrow></m:math><newline/></entry>
+</row>
+<row>
+<entry>Find the length of the other side.</entry>
+<entry/>
+<entry/>
+<entry/>
+</row>
+<row>
+<entry namest="c1" nameend="c2" align="right">If the length of one side is    </entry>
+<entry align="left"><media id="fs-id1169746619632" alt="."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_07_06_011b_img_new.jpg"/></media></entry>
+<entry/>
+</row>
+<row>
+<entry namest="c1" nameend="c2" align="right">then the length of the other side is</entry>
+<entry align="left"><media id="fs-id1169752820722" alt="."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_07_06_011c_img_new.jpg"/></media></entry>
+<entry/>
+</row>
+<row>
+<entry/>
+<entry/>
+<entry align="left"><media id="fs-id1169752957890" alt="."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_07_06_011d_img_new.jpg"/></media></entry>
+<entry/>
+</row>
+<row>
+<entry/>
+<entry namest="c2" nameend="c4">8 is the length of the other side.</entry>
+</row>
+<row>
+<entry><emphasis effect="bold">Step 6. Check</emphasis> the answer.<newline/>Do these numbers make sense?</entry>
+<entry/>
+<entry/>
+<entry/>
+</row>
+<row>
+<entry><media id="fs-id1169752962360" alt="."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_07_06_011a_img_new.jpg"/></media></entry>
+<entry/>
+<entry/>
+<entry/>
+</row>
+<row>
+<entry><emphasis effect="bold">Step 7. Answer</emphasis> the question.</entry>
+<entry namest="c2" nameend="c4">The sides of the deck are 8, 15, and 17 feet.</entry>
+</row>
+</tbody>
+</tgroup>
+
+</table></solution>
+</exercise>
+</example>
+
+<note id="fs-id1168342181291" class="try">
+<exercise id="fs-id1168342181295">
+<problem id="fs-id1168341864208">
+<para id="fs-id1168341864210">A boat’s sail is a right triangle. The length of one side of the sail is 7 feet more than the other side. The hypotenuse is 13. Find the lengths of the two sides of the sail.</para>
+</problem>
+<solution id="fs-id1168341864213">
+<para id="fs-id1168345511398"><m:math><m:mn>5</m:mn></m:math> feet and <m:math><m:mrow><m:mn>12</m:mn></m:mrow></m:math> feet</para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1168345290434" class="try">
+<exercise id="fs-id1168345290438">
+<problem id="fs-id1168342181524">
+<para id="fs-id1168342181527">A meditation garden is in the shape of a right triangle, with one leg 7 feet. The length of the hypotenuse is one more than the length of one of the other legs. Find the lengths of the hypotenuse and the other leg.</para>
+</problem>
+<solution id="fs-id1168345692165">
+<para id="fs-id1168341919022"><m:math><m:mrow><m:mn>24</m:mn></m:mrow></m:math> feet and <m:math><m:mrow><m:mn>25</m:mn></m:mrow></m:math> feet</para>
+</solution>
+</exercise>
+</note>
+</section>
+<section id="fs-id1168345451582" class="key-concepts">
+<title>Key Concepts</title>
+<list id="fs-id1168342179610" list-type="bulleted" bullet-style="bullet">
+<item><emphasis effect="bold">Zero Product Property</emphasis> If <m:math><m:mrow><m:mi>a</m:mi><m:mo>·</m:mo><m:mi>b</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>, then either <m:math><m:mrow><m:mi>a</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> or <m:math><m:mrow><m:mi>b</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> or both. See <link target-id="fs-id1168341961578"/>.</item>
+<item><emphasis effect="bold">Solve a quadratic equation by factoring</emphasis> To solve a quadratic equation by factoring: See <link target-id="fs-id1168345251303"/>.
+<list id="fs-id1168746274811" list-type="enumerated" number-style="arabic" class="stepwise">
+<item>Write the quadratic equation in standard form, <m:math><m:mrow><m:mi>a</m:mi><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>b</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>c</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>.</item>
+<item>Factor the quadratic expression.</item>
+<item>Use the Zero Product Property.</item>
+<item>Solve the linear equations.</item>
+<item>Check.</item>
+</list>
+</item>
+<item><emphasis effect="bold">Use a problem solving strategy to solve word problems</emphasis> See <link target-id="fs-id1168345374678"/>.
+<list id="fs-id1168746253261" list-type="enumerated" number-style="arabic" class="stepwise">
+<item><emphasis effect="bold">Read</emphasis> the problem. Make sure all the words and ideas are understood.</item>
+<item><emphasis effect="bold">Identify</emphasis> what we are looking for.</item>
+<item><emphasis effect="bold">Name</emphasis> what we are looking for. Choose a variable to represent that quantity.</item>
+<item><emphasis effect="bold">Translate</emphasis> into an equation. It may be helpful to restate the problem in one sentence with all the important information. Then, translate the English sentence into an algebra equation.</item>
+<item><emphasis effect="bold">Solve</emphasis> the equation using good algebra techniques.</item>
+<item><emphasis effect="bold">Check</emphasis> the answer in the problem and make sure it makes sense.</item>
+<item><emphasis effect="bold">Answer</emphasis> the question with a complete sentence.</item>
+</list>
+</item>
+</list>
+</section>
+<section id="fs-id1168345448991" class="section-exercises">
+<title>Section Exercises</title><section id="fs-id1168345448994" class="practice-perfect">
+<title>Practice Makes Perfect</title>
+<para id="fs-id1168341852292"><emphasis effect="bold">Use the Zero Product Property</emphasis></para>
+<para id="fs-id1168746511390">In the following exercises, solve.</para>
+<exercise id="fs-id1168345558637">
+<problem id="fs-id1168345558639">
+<para id="fs-id1168345447027"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>7</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168341919099">
+<para id="fs-id1168341919101"><m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>3</m:mn><m:mo>,</m:mo><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>−7</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1168345541700">
+<problem id="fs-id1168345541702">
+<para id="fs-id1168345541705"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>11</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1168345413764">
+<problem id="fs-id1168345413766">
+<para id="fs-id1168345413768"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3</m:mn><m:mi>a</m:mi><m:mo>−</m:mo><m:mn>10</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mi>a</m:mi><m:mo>−</m:mo><m:mn>7</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168345277631">
+<para id="fs-id1168345262181"><m:math><m:mrow><m:mi>a</m:mi><m:mo>=</m:mo><m:mn>10</m:mn><m:mtext>/</m:mtext><m:mn>3</m:mn><m:mo>,</m:mo><m:mi>a</m:mi><m:mo>=</m:mo><m:mn>7</m:mn><m:mtext>/</m:mtext><m:mn>2</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1168342104273">
+<problem id="fs-id1168345440042">
+<para id="fs-id1168345440044"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>5</m:mn><m:mi>b</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>6</m:mn><m:mi>b</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1168345256258">
+<problem id="fs-id1168345436933">
+<para id="fs-id1168345436936"><m:math><m:mrow><m:mn>6</m:mn><m:mi>m</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>12</m:mn><m:mi>m</m:mi><m:mo>−</m:mo><m:mn>5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168345376499">
+<para id="fs-id1168345436388"><m:math><m:mrow><m:mi>m</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mi>m</m:mi><m:mo>=</m:mo><m:mn>5</m:mn><m:mtext>/</m:mtext><m:mn>12</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1168342101582">
+<problem id="fs-id1168342101584">
+<para id="fs-id1168342101586"><m:math><m:mrow><m:mn>2</m:mn><m:mi>x</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>6</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1168345473473">
+<problem id="fs-id1168345451412">
+<para id="fs-id1168345451414"><m:math><m:mrow><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168342135026">
+<para id="fs-id1168342135028"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>3</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1168345443124">
+<problem id="fs-id1168345429872">
+<para id="fs-id1168345429874"><m:math><m:mrow><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>b</m:mi><m:mo>+</m:mo><m:mn>10</m:mn><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1168345421024">
+<problem id="fs-id1168345421026">
+<para id="fs-id1168345421029"><m:math><m:mrow><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168345429779">
+<para id="fs-id1168345429781"><m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mtext>/</m:mtext><m:mn>2</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1168341973071">
+<problem id="fs-id1168341973073">
+<para id="fs-id1168341973076"><m:math><m:mrow><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>5</m:mn><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<para id="fs-id1168345445837"><emphasis effect="bold">Solve Quadratic Equations by Factoring</emphasis></para>
+<para id="fs-id1168746695379">In the following exercises, solve.</para>
+<exercise id="fs-id1168345385677">
+<problem id="fs-id1168345385679">
+<para id="fs-id1168345461274"><m:math><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>7</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>12</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168341862463">
+<para id="fs-id1168341862465"><m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>−3</m:mn><m:mo>,</m:mo><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>−4</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1168345499918">
+<problem id="fs-id1168345499920">
+<para id="fs-id1168341863569"><m:math><m:mrow><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>8</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>15</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1168342104302">
+<problem id="fs-id1168345550377">
+<para id="fs-id1168345550379"><m:math><m:mrow><m:mn>5</m:mn><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>26</m:mn><m:mi>a</m:mi><m:mo>=</m:mo><m:mn>24</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168345405563">
+<para id="fs-id1168345405565"><m:math><m:mrow><m:mi>a</m:mi><m:mo>=</m:mo><m:mn>−4</m:mn><m:mtext>/</m:mtext><m:mn>5</m:mn><m:mo>,</m:mo><m:mi>a</m:mi><m:mo>=</m:mo><m:mn>6</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1168342181230">
+<problem id="fs-id1168345255407">
+<para id="fs-id1168345255410"><m:math><m:mrow><m:mn>4</m:mn><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>7</m:mn><m:mi>b</m:mi><m:mo>=</m:mo><m:mn>−3</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1168345687968">
+<problem id="fs-id1168345687970">
+<para id="fs-id1168345406614"><m:math><m:mrow><m:mn>4</m:mn><m:msup><m:mi>m</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>17</m:mn><m:mi>m</m:mi><m:mo>−</m:mo><m:mn>15</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168345748538">
+<para id="fs-id1168345432415"><m:math><m:mrow><m:mi>m</m:mi><m:mo>=</m:mo><m:mn>5</m:mn><m:mtext>/</m:mtext><m:mn>4</m:mn><m:mo>,</m:mo><m:mi>m</m:mi><m:mo>=</m:mo><m:mn>3</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1168345685181">
+<problem id="fs-id1168345685183">
+<para id="fs-id1168345685185"><m:math><m:mrow><m:msup><m:mi>n</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>5</m:mn><m:mo>−</m:mo><m:mn>6</m:mn><m:mi>n</m:mi></m:mrow></m:math> <m:math><m:mrow><m:msup><m:mi>n</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>5</m:mn><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>6</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1168345426361">
+<problem id="fs-id1168345426363">
+<para id="fs-id1168345300899"><m:math><m:mrow><m:mn>7</m:mn><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>14</m:mn><m:mi>a</m:mi><m:mo>=</m:mo><m:mn>7</m:mn><m:mi>a</m:mi></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168345301582">
+<para id="fs-id1168345301584"><m:math><m:mrow><m:mi>a</m:mi><m:mo>=</m:mo><m:mn>−1</m:mn><m:mo>,</m:mo><m:mi>a</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1168345250902">
+<problem id="fs-id1168341906932">
+<para id="fs-id1168341906935"><m:math><m:mrow><m:mn>12</m:mn><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>15</m:mn><m:mi>b</m:mi><m:mo>=</m:mo><m:mn>−9</m:mn><m:mi>b</m:mi></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1168345508550">
+<problem id="fs-id1168345508552">
+<para id="fs-id1168345508555"><m:math><m:mrow><m:mn>49</m:mn><m:msup><m:mi>m</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>144</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168341857777">
+<para id="fs-id1168341857779"><m:math><m:mrow><m:mi>m</m:mi><m:mo>=</m:mo><m:mn>12</m:mn><m:mtext>/</m:mtext><m:mn>7</m:mn><m:mo>,</m:mo><m:mi>m</m:mi><m:mo>=</m:mo><m:mn>−12</m:mn><m:mtext>/</m:mtext><m:mn>7</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1168342135153">
+<problem id="fs-id1168342135155">
+<para id="fs-id1168345688979"><m:math><m:mrow><m:mn>625</m:mn><m:mo>=</m:mo><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1168345460107">
+<problem id="fs-id1168345460109">
+<para id="fs-id1168345460111"><m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>4</m:mn><m:mi>y</m:mi></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168345327681">
+<para id="fs-id1168345416850"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−1</m:mn><m:mo>,</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>6</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1168341960628">
+<problem id="fs-id1168341960630">
+<para id="fs-id1168342048499"><m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>p</m:mi><m:mo>−</m:mo><m:mn>5</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mi>p</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>−7</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1168341869666">
+<problem id="fs-id1168341869668">
+<para id="fs-id1168341869670"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>−4</m:mn><m:mi>x</m:mi></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168345484160">
+<para id="fs-id1168345484163"><m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>3</m:mn><m:mtext>/</m:mtext><m:mn>2</m:mn><m:mo>,</m:mo><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>−1</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1168341902745">
+<problem id="fs-id1168341902747">
+<para id="fs-id1168345439640"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>6</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>−8</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1168345677063">
+<problem id="fs-id1168345677065">
+<para id="fs-id1168345677067"><m:math><m:mrow><m:mn>16</m:mn><m:msup><m:mi>p</m:mi><m:mn>3</m:mn></m:msup><m:mo>=</m:mo><m:mn>24</m:mn><m:msup><m:mi>p</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>9</m:mn><m:mi>p</m:mi></m:mrow></m:math></para></problem>
+<solution id="fs-id1168345561178">
+<para id="fs-id1168345561180"><m:math><m:mrow><m:mi>p</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mi>p</m:mi><m:mo>=</m:mo><m:mn>¾</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1168345674617">
+<problem id="fs-id1168345674619">
+<para id="fs-id1168345674621"><m:math><m:mrow><m:msup><m:mi>m</m:mi><m:mn>3</m:mn></m:msup><m:mo>−</m:mo><m:mn>2</m:mn><m:msup><m:mi>m</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mtext>−</m:mtext><m:mi>m</m:mi></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1168342179767">
+<problem id="fs-id1168342179769">
+<para id="fs-id1168345453765"><m:math><m:mrow><m:mn>20</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>60</m:mn><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>−45</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168345581321">
+<para id="fs-id1168345455423"><m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>3</m:mn><m:mtext>/</m:mtext><m:mn>2</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1168345466189">
+<problem id="fs-id1168345466192">
+<para id="fs-id1168345466194"><m:math><m:mrow><m:mn>3</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>18</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−27</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<para id="fs-id1168345499601"><emphasis effect="bold">Solve Applications Modeled by Quadratic Equations</emphasis></para>
+<para id="fs-id1168743986361">In the following exercises, solve.</para>
+<exercise id="fs-id1168341972689">
+<problem id="fs-id1168345557117">
+<para id="fs-id1168345557119">The product of two consecutive integers is 56. Find the integers.</para>
+</problem>
+<solution id="fs-id1168345437955">
+<para id="fs-id1168345437957"><m:math><m:mrow><m:mn>7</m:mn><m:mspace width="0.2em"/><m:mtext>and</m:mtext><m:mspace width="0.2em"/><m:mn>8</m:mn><m:mo>;</m:mo><m:mo>−</m:mo><m:mn>8</m:mn><m:mspace width="0.2em"/><m:mtext>and</m:mtext><m:mspace width="0.2em"/><m:mn>−7</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1168345385349">
+<problem id="fs-id1168345385351">
+<para id="fs-id1168345487465">The product of two consecutive integers is 42. Find the integers.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1168345406159">
+<problem id="fs-id1168345687625">
+<para id="fs-id1168345687627">The area of a rectangular carpet is 28 square feet. The length is three feet more than the width. Find the length and the width of the carpet.</para>
+</problem>
+<solution id="fs-id1168345720247">
+<para id="fs-id1168345720249"><m:math><m:mrow><m:mn>4</m:mn><m:mspace width="0.2em"/><m:mtext>feet and</m:mtext><m:mspace width="0.2em"/><m:mn>7</m:mn><m:mspace width="0.2em"/><m:mtext>feet</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1168345511243">
+<problem id="fs-id1168345511245">
+<para id="fs-id1168345511247">A rectangular retaining wall has area 15 square feet. The height of the wall is two feet less than its length. Find the height and the length of the wall.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1168345635795">
+<problem id="fs-id1168345635797">
+<para id="fs-id1168345635799">A pennant is shaped like a right triangle, with hypotenuse 10 feet. The length of one side of the pennant is two feet longer than the length of the other side. Find the length of the two sides of the pennant.</para>
+</problem>
+<solution id="fs-id1168345511696">
+<para id="fs-id1168345692154"><m:math><m:mrow><m:mn>6</m:mn><m:mspace width="0.2em"/><m:mtext>feet and</m:mtext><m:mspace width="0.2em"/><m:mn>8</m:mn><m:mspace width="0.2em"/><m:mtext>feet</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1168345405727">
+<problem id="fs-id1168345405729">
+<para id="fs-id1168345374230">A reflecting pool is shaped like a right triangle, with one leg along the wall of a building. The hypotenuse is 9 feet longer than the side along the building. The third side is 7 feet longer than the side along the building. Find the lengths of all three sides of the reflecting pool.</para>
+</problem>
+</exercise>
+<para id="fs-id1168345326129"><emphasis effect="bold">Mixed Practice</emphasis></para>
+<para id="fs-id1168746385151">In the following exercises, solve.</para>
+<exercise id="fs-id1168345517788">
+<problem id="fs-id1168345517790">
+<para id="fs-id1168345517792"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>8</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168345578956">
+<para id="fs-id1168345578958"><m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>−8</m:mn><m:mo>,</m:mo><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>3</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1168345520400">
+<problem id="fs-id1168345520402">
+<para id="fs-id1168345520404"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3</m:mn><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>7</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1168345398434">
+<problem id="fs-id1168345416537">
+<para id="fs-id1168345416539"><m:math><m:mrow><m:msup><m:mi>p</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>12</m:mn><m:mi>p</m:mi><m:mo>+</m:mo><m:mn>11</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168345384578">
+<para id="fs-id1168345384580"><m:math><m:mrow><m:mi>p</m:mi><m:mo>=</m:mo><m:mn>−1</m:mn><m:mo>,</m:mo><m:mi>p</m:mi><m:mo>=</m:mo><m:mn>−11</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1168342171277">
+<problem id="fs-id1168342171279">
+<para id="fs-id1168342171282"><m:math><m:mrow><m:msup><m:mi>q</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>12</m:mn><m:mi>q</m:mi><m:mo>−</m:mo><m:mn>13</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1168345270015">
+<problem id="fs-id1168345270017">
+<para id="fs-id1168345270019"><m:math><m:mrow><m:msup><m:mi>m</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>6</m:mn><m:mi>m</m:mi><m:mo>+</m:mo><m:mn>16</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168345404928">
+<para id="fs-id1168342132832"><m:math><m:mrow><m:mi>m</m:mi><m:mo>=</m:mo><m:mn>−2</m:mn><m:mo>,</m:mo><m:mi>m</m:mi><m:mo>=</m:mo><m:mn>8</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1168345637175">
+<problem id="fs-id1168345439293">
+<para id="fs-id1168345439295"><m:math><m:mrow><m:mn>4</m:mn><m:msup><m:mi>n</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>19</m:mn><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>5</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1168342168182">
+<problem id="fs-id1168342079169">
+<para id="fs-id1168342079171"><m:math><m:mrow><m:msup><m:mi>a</m:mi><m:mn>3</m:mn></m:msup><m:mo>−</m:mo><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>42</m:mn><m:mi>a</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168345668206">
+<para id="fs-id1168345668208"><m:math><m:mrow><m:mi>a</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mi>a</m:mi><m:mo>=</m:mo><m:mn>−6</m:mn><m:mo>,</m:mo><m:mi>a</m:mi><m:mo>=</m:mo><m:mn>7</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1168345434149">
+<problem id="fs-id1168345434151">
+<para id="fs-id1168345290752"><m:math><m:mrow><m:mn>4</m:mn><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>60</m:mn><m:mi>b</m:mi><m:mo>+</m:mo><m:mn>224</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1168345626429">
+<problem id="fs-id1168345724051">
+<para id="fs-id1168345724053">The product of two consecutive integers is 110. Find the integers.</para>
+</problem>
+<solution id="fs-id1168345724058">
+<para id="fs-id1168345634175"><m:math><m:mrow><m:mn>10</m:mn><m:mspace width="0.2em"/><m:mtext>and</m:mtext><m:mspace width="0.2em"/><m:mn>11</m:mn><m:mo>;</m:mo><m:mo>−</m:mo><m:mn>11</m:mn><m:mspace width="0.2em"/><m:mtext>and</m:mtext><m:mspace width="0.2em"/><m:mn>−10</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1168345726441">
+<problem id="fs-id1168345292035">
+<para id="fs-id1168345292037">The length of one leg of a right triangle is three more than the other leg. If the hypotenuse is 15, find the lengths of the two legs.</para>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1168342167601" class="everyday">
+<title>Everyday Math</title>
+<exercise id="fs-id1168341892120">
+<problem id="fs-id1168341892122">
+<para id="fs-id1168341892124"><emphasis effect="bold">Area of a patio</emphasis> If each side of a square patio is increased by 4 feet, the area of the patio would be 196 square feet. Solve the equation <m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>s</m:mi><m:mo>+</m:mo><m:mn>4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>196</m:mn></m:mrow></m:math> for <emphasis effect="italics">s</emphasis> to find the length of a side of the patio.</para>
+</problem>
+<solution id="fs-id1168342040485">
+<para id="fs-id1168341874654">10 feet</para>
+</solution>
+</exercise>
+<exercise id="fs-id1168341874659">
+<problem id="fs-id1168341905818">
+<para id="fs-id1168341905821"><emphasis effect="bold">Watermelon drop</emphasis> A watermelon is dropped from the tenth story of a building. Solve the equation <m:math><m:mrow><m:mn>−16</m:mn><m:msup><m:mi>t</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>144</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> for <m:math><m:mrow><m:mi>t</m:mi></m:mrow></m:math> to find the number of seconds it takes the watermelon to reach the ground.</para>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1168342104250" class="writing">
+<title>Writing Exercises</title>
+<exercise id="fs-id1168342104255">
+<problem id="fs-id1168342104257">
+<para id="fs-id1168345409559">Explain how you solve a quadratic equation. How many answers do you expect to get for a quadratic equation?</para>
+</problem>
+<solution id="fs-id1168345409565">
+<para id="fs-id1168345452708">Answers may vary.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1168345452714">
+<problem id="fs-id1168345452716">
+<para id="fs-id1168345473318">Give an example of a quadratic equation that has a GCF and none of the solutions to the equation is zero.</para>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1168345633874"><title>Self Check</title><para id="fs-id1168341869686"><span class="token">ⓐ</span> After completing the exercises, use this checklist to evaluate your mastery of the objectives of this section.</para>
+<media id="fs-id1168341906559" alt="This table has the following statements all to be preceded by “I can…”. The first row is “solve quadratic equations by using the zero product property”. The second row is “solve quadratic equations by factoring”. The third row is “solve applications modeled by quadratic equations”. In the columns beside these statements are the headers, “confidently”, “with some help”, and “no-I don’t get it!”.">
+<image mime-type="image/jpeg" src="../../media/CNX_ElemAlg_Figure_07_06_201_img_new.jpg"/>
+</media>
+<para id="fs-id1168345556130"><span class="token">ⓑ</span> Overall, after looking at the checklist, do you think you are well-prepared for the next section? Why or why not?</para>
+</section></section>
+<section id="fs-id1168341952417" class="review-exercises"><title>Chapter 7 Review Exercises</title><section id="fs-id1168341952420">
+<title><link class="target-chapter" document="m60295">7.1 Greatest Common Factor and Factor by Grouping</link></title>
+<para id="fs-id1168342171047"><emphasis effect="bold">Find the Greatest Common Factor of Two or More Expressions</emphasis></para>
+<para id="fs-id1168746401229">In the following exercises, find the greatest common factor.</para>
+<exercise id="fs-id1168341975139">
+<problem id="fs-id1168341975141">
+<para id="fs-id1168341975144"><m:math><m:mrow><m:mn>42</m:mn><m:mo>,</m:mo><m:mn>60</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168345414786">
+<para id="fs-id1168345414788">6</para>
+</solution>
+</exercise>
+<exercise id="fs-id1168345414794">
+<problem id="fs-id1168345250578">
+<para id="fs-id1168345250580"><m:math><m:mrow><m:mn>450</m:mn><m:mo>,</m:mo><m:mn>420</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1168345430469">
+<problem id="fs-id1168345430471">
+<para id="fs-id1168345430474"><m:math><m:mrow><m:mn>90</m:mn><m:mo>,</m:mo><m:mn>150</m:mn><m:mo>,</m:mo><m:mn>105</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168342048491">
+<para id="fs-id1168342048493"><m:math><m:mrow><m:mn>15</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1168345451701">
+<problem id="fs-id1168345451703">
+<para id="fs-id1168345329814"><m:math><m:mrow><m:mn>60</m:mn><m:mo>,</m:mo><m:mn>294</m:mn><m:mo>,</m:mo><m:mn>630</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<para id="fs-id1168345409265"><emphasis effect="bold">Factor the Greatest Common Factor from a Polynomial</emphasis></para>
+<para id="fs-id1168744037912">In the following exercises, factor the greatest common factor from each polynomial.</para>
+<exercise id="fs-id1168345409271">
+<problem id="fs-id1168345677648">
+<para id="fs-id1168345677650"><m:math><m:mrow><m:mn>24</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>42</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168345260315">
+<para id="fs-id1168345260317"><m:math><m:mrow><m:mn>6</m:mn><m:mo stretchy="false">(</m:mo><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>7</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1168341907628">
+<problem id="fs-id1168341907631">
+<para id="fs-id1168341907633"><m:math><m:mrow><m:mn>35</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>84</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1168345292145">
+<problem id="fs-id1168345292148">
+<para id="fs-id1168345292150"><m:math><m:mrow><m:mn>15</m:mn><m:msup><m:mi>m</m:mi><m:mn>4</m:mn></m:msup><m:mo>+</m:mo><m:mn>6</m:mn><m:msup><m:mi>m</m:mi><m:mn>2</m:mn></m:msup><m:mi>n</m:mi></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168345671373">
+<para id="fs-id1168345671375"><m:math><m:mrow><m:mn>3</m:mn><m:msup><m:mi>m</m:mi><m:mn>2</m:mn></m:msup><m:mo stretchy="false">(</m:mo><m:mn>5</m:mn><m:msup><m:mi>m</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>n</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1168345429031">
+<problem id="fs-id1168341960857">
+<para id="fs-id1168341960859"><m:math><m:mrow><m:mn>24</m:mn><m:mi>p</m:mi><m:msup><m:mi>t</m:mi><m:mn>4</m:mn></m:msup><m:mo>+</m:mo><m:mn>16</m:mn><m:msup><m:mi>t</m:mi><m:mn>7</m:mn></m:msup></m:mrow></m:math></para>
+</problem>
+</exercise>
+<para id="fs-id1168345578452"><emphasis effect="bold">Factor by Grouping</emphasis></para>
+<para id="fs-id1168345387395">In the following exercises, factor by grouping.</para>
+<exercise id="fs-id1168345387398">
+<problem id="fs-id1168345387400">
+<para id="fs-id1168345678003"><m:math><m:mrow><m:mi>a</m:mi><m:mi>x</m:mi><m:mo>−</m:mo><m:mi>a</m:mi><m:mi>y</m:mi><m:mo>+</m:mo><m:mi>b</m:mi><m:mi>x</m:mi><m:mo>−</m:mo><m:mi>b</m:mi><m:mi>y</m:mi></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168341852648">
+<para id="fs-id1168341852650"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>a</m:mi><m:mo>+</m:mo><m:mi>b</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mi>y</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1168345517761">
+<problem id="fs-id1168345517763">
+<para id="fs-id1168345277696"><m:math><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mi>y</m:mi><m:mo>−</m:mo><m:mi>x</m:mi><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>y</m:mi></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1168345577891">
+<problem id="fs-id1168345577893">
+<para id="fs-id1168345577896"><m:math><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>7</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>21</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168345671489">
+<para id="fs-id1168345671491"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>7</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1168345559492">
+<problem id="fs-id1168345559494">
+<para id="fs-id1168345559496"><m:math><m:mrow><m:mn>4</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>16</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>12</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1168345545414">
+<problem id="fs-id1168345545416">
+<para id="fs-id1168345545418"><m:math><m:mrow><m:msup><m:mi>m</m:mi><m:mn>3</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mi>m</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>m</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168345636941">
+<para id="fs-id1168345636943"><m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:msup><m:mi>m</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mi>m</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1168341968091">
+<problem id="fs-id1168341968093">
+<para id="fs-id1168341968095"><m:math><m:mrow><m:mn>5</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>5</m:mn><m:mi>y</m:mi><m:mo>−</m:mo><m:mi>y</m:mi><m:mo>+</m:mo><m:mi>x</m:mi></m:mrow></m:math></para>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1168345659571">
+<title><link class="target-chapter" document="m60191">7.2 Factor Trinomials of the form <m:math><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>b</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>c</m:mi></m:mrow></m:math></link></title>
+<para id="fs-id1168342122718"><emphasis effect="bold">Factor Trinomials of the Form <m:math><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>b</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>c</m:mi></m:mrow></m:math></emphasis></para>
+<para id="fs-id1168743403773">In the following exercises, factor each trinomial of the form <m:math><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>b</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>c</m:mi></m:mrow></m:math>.</para>
+<exercise id="fs-id1168341928724">
+<problem id="fs-id1168341928726">
+<para id="fs-id1168341928728"><m:math><m:mrow><m:msup><m:mi>u</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>17</m:mn><m:mi>u</m:mi><m:mo>+</m:mo><m:mn>72</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168342123421">
+<para id="fs-id1168342123423"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>u</m:mi><m:mo>+</m:mo><m:mn>8</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>u</m:mi><m:mo>+</m:mo><m:mn>9</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1168341923767">
+<problem id="fs-id1168341923769">
+<para id="fs-id1168341923771"><m:math><m:mrow><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>14</m:mn><m:mi>a</m:mi><m:mo>+</m:mo><m:mn>33</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1168342204421">
+<problem id="fs-id1168342204423">
+<para id="fs-id1168342204425"><m:math><m:mrow><m:msup><m:mi>k</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>16</m:mn><m:mi>k</m:mi><m:mo>+</m:mo><m:mn>60</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168341852800">
+<para id="fs-id1168341852802"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>k</m:mi><m:mo>−</m:mo><m:mn>6</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>k</m:mi><m:mo>−</m:mo><m:mn>10</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1168345417784">
+<problem id="fs-id1168345417786">
+<para id="fs-id1168345677696"><m:math><m:mrow><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>11</m:mn><m:mi>r</m:mi><m:mo>+</m:mo><m:mn>28</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1168345669975">
+<problem id="fs-id1168345669977">
+<para id="fs-id1168345669980"><m:math><m:mrow><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>6</m:mn><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>7</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168345639996">
+<para id="fs-id1168341977766"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>7</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1168341906012">
+<problem id="fs-id1168341906014">
+<para id="fs-id1168341906016"><m:math><m:mrow><m:msup><m:mi>m</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>m</m:mi><m:mo>−</m:mo><m:mn>54</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1168345414774">
+<problem id="fs-id1168345414776">
+<para id="fs-id1168345522055"><m:math><m:mrow><m:msup><m:mi>s</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>s</m:mi><m:mo>−</m:mo><m:mn>8</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168341972914">
+<para id="fs-id1168341972916"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>s</m:mi><m:mo>−</m:mo><m:mn>4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>s</m:mi><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1168341951012">
+<problem id="fs-id1168341951014">
+<para id="fs-id1168341951016"><m:math><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>10</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<para id="fs-id1168341840975"><emphasis effect="bold">Factor Trinomials of the Form <m:math><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>b</m:mi><m:mi>x</m:mi><m:mi>y</m:mi><m:mo>+</m:mo><m:mi>c</m:mi><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math></emphasis></para>
+<para id="fs-id1168743403108">In the following examples, factor each trinomial of the form <m:math><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>b</m:mi><m:mi>x</m:mi><m:mi>y</m:mi><m:mo>+</m:mo><m:mi>c</m:mi><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math>.</para>
+<exercise id="fs-id1168345578936">
+<problem id="fs-id1168345578938">
+<para id="fs-id1168345578941"><m:math><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>12</m:mn><m:mi>x</m:mi><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>35</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168341901916">
+<para id="fs-id1168341901918"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>5</m:mn><m:mi>y</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>7</m:mn><m:mi>y</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1168345556405">
+<problem id="fs-id1168345556407">
+<para id="fs-id1168345556409"><m:math><m:mrow><m:msup><m:mi>u</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>14</m:mn><m:mi>u</m:mi><m:mi>v</m:mi><m:mo>+</m:mo><m:mn>48</m:mn><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1168341861101">
+<problem id="fs-id1168341861103">
+<para id="fs-id1168341861105"><m:math><m:mrow><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>4</m:mn><m:mi>a</m:mi><m:mi>b</m:mi><m:mo>−</m:mo><m:mn>21</m:mn><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168345578360">
+<para id="fs-id1168345578363"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>a</m:mi><m:mo>+</m:mo><m:mn>7</m:mn><m:mi>b</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>a</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:mi>b</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1168345443700">
+<problem id="fs-id1168345443702">
+<para id="fs-id1168345443705"><m:math><m:mrow><m:msup><m:mi>p</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>5</m:mn><m:mi>p</m:mi><m:mi>q</m:mi><m:mo>−</m:mo><m:mn>36</m:mn><m:msup><m:mi>q</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math></para>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1168341849280">
+<title><link class="target-chapter" document="m60182">7.3 Factoring Trinomials of the form <m:math><m:mrow><m:mi>a</m:mi><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>b</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>c</m:mi></m:mrow></m:math></link></title>
+<para id="fs-id1168345424497"><emphasis effect="bold">Recognize a Preliminary Strategy to Factor Polynomials Completely</emphasis></para>
+<para id="fs-id1168744361958">In the following exercises, identify the best method to use to factor each polynomial.</para>
+<exercise id="fs-id1168345461922">
+<problem id="fs-id1168345461924">
+<para id="fs-id1168345461926"><m:math><m:mrow><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>17</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>42</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168341917051">
+<para id="fs-id1168341917053">Undo FOIL</para>
+</solution>
+</exercise>
+<exercise id="fs-id1168341927737">
+<problem id="fs-id1168341927740">
+<para id="fs-id1168341927742"><m:math><m:mrow><m:mn>12</m:mn><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>32</m:mn><m:mi>r</m:mi><m:mo>+</m:mo><m:mn>5</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1168345286554">
+<problem id="fs-id1168345286556">
+<para id="fs-id1168345286558"><m:math><m:mrow><m:mn>8</m:mn><m:msup><m:mi>a</m:mi><m:mn>3</m:mn></m:msup><m:mo>+</m:mo><m:mn>72</m:mn><m:mi>a</m:mi></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168345561644">
+<para id="fs-id1168345286070">Factor the GCF</para>
+</solution>
+</exercise>
+<exercise id="fs-id1168345286075">
+<problem id="fs-id1168345286077">
+<para id="fs-id1168345286079"><m:math><m:mrow><m:mn>4</m:mn><m:mi>m</m:mi><m:mo>−</m:mo><m:mi>m</m:mi><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:mi>n</m:mi><m:mo>+</m:mo><m:mn>12</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<para id="fs-id1168345418904"><emphasis effect="bold">Factor Trinomials of the Form <m:math><m:mrow><m:mi>a</m:mi><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>b</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>c</m:mi></m:mrow></m:math> with a GCF</emphasis></para>
+<para id="fs-id1168746587399">In the following exercises, factor completely.</para>
+<exercise id="fs-id1168341911621">
+<problem id="fs-id1168341911623">
+<para id="fs-id1168341911626"><m:math><m:mrow><m:mn>6</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>42</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>60</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168345367662">
+<para id="fs-id1168345367664"><m:math><m:mrow><m:mn>6</m:mn><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1168345688139">
+<problem id="fs-id1168345688141">
+<para id="fs-id1168345688143"><m:math><m:mrow><m:mn>8</m:mn><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>32</m:mn><m:mi>a</m:mi><m:mo>+</m:mo><m:mn>24</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1168345654961">
+<problem id="fs-id1168345654963">
+<para id="fs-id1168345654965"><m:math><m:mrow><m:mn>3</m:mn><m:msup><m:mi>n</m:mi><m:mn>4</m:mn></m:msup><m:mo>−</m:mo><m:mn>12</m:mn><m:msup><m:mi>n</m:mi><m:mn>3</m:mn></m:msup><m:mo>−</m:mo><m:mn>96</m:mn><m:msup><m:mi>n</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168341977710">
+<para id="fs-id1168341977713"><m:math><m:mrow><m:mn>3</m:mn><m:msup><m:mi>n</m:mi><m:mn>2</m:mn></m:msup><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>8</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>n</m:mi><m:mo>+</m:mo><m:mn>4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1168345635419">
+<problem id="fs-id1168345635421">
+<para id="fs-id1168345630364"><m:math><m:mrow><m:mn>5</m:mn><m:msup><m:mi>y</m:mi><m:mn>4</m:mn></m:msup><m:mo>+</m:mo><m:mn>25</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>70</m:mn><m:mi>y</m:mi></m:mrow></m:math></para>
+</problem>
+</exercise>
+<para id="fs-id1168345429042"><emphasis effect="bold">Factor Trinomials Using the “ac” Method</emphasis></para>
+<para id="fs-id1168746595260">In the following exercises, factor.</para>
+<exercise id="fs-id1168345429049">
+<problem id="fs-id1168345429051">
+<para id="fs-id1168342179629"><m:math><m:mrow><m:mn>2</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>9</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168342037111">
+<para id="fs-id1168345578230"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1168345695049">
+<problem id="fs-id1168345695051">
+<para id="fs-id1168345577023"><m:math><m:mrow><m:mn>3</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>17</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>10</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1168345329541">
+<problem id="fs-id1168345329543">
+<para id="fs-id1168342101707"><m:math><m:mrow><m:mn>18</m:mn><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>9</m:mn><m:mi>a</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168345621148">
+<para id="fs-id1168341917564"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3</m:mn><m:mi>a</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>6</m:mn><m:mi>a</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1168345439622">
+<problem id="fs-id1168341968034">
+<para id="fs-id1168341968036"><m:math><m:mrow><m:mn>8</m:mn><m:msup><m:mi>u</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>14</m:mn><m:mi>u</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1168345545383">
+<problem id="fs-id1168345545385">
+<para id="fs-id1168345545387"><m:math><m:mrow><m:mn>15</m:mn><m:msup><m:mi>p</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>p</m:mi><m:mo>−</m:mo><m:mn>8</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168345520186">
+<para id="fs-id1168345520189"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>5</m:mn><m:mi>p</m:mi><m:mo>+</m:mo><m:mn>4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3</m:mn><m:mi>p</m:mi><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1168345439696">
+<problem id="fs-id1168345439698">
+<para id="fs-id1168345439700"><m:math><m:mrow><m:mn>15</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>6</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1168342122365">
+<problem id="fs-id1168342122367">
+<para id="fs-id1168342122369"><m:math><m:mrow><m:mn>40</m:mn><m:msup><m:mi>s</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mi>s</m:mi><m:mo>−</m:mo><m:mn>6</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168345418121">
+<para id="fs-id1168345418124"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>5</m:mn><m:mi>s</m:mi><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>8</m:mn><m:mi>s</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1168342170994">
+<problem id="fs-id1168341972935">
+<para id="fs-id1168341972937"><m:math><m:mrow><m:mn>20</m:mn><m:msup><m:mi>n</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>7</m:mn><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<para id="fs-id1168345578541"><emphasis effect="bold">Factor Trinomials with a GCF Using the “ac” Method</emphasis></para>
+<para id="fs-id1168743388760">In the following exercises, factor.</para>
+<exercise id="fs-id1168345578548">
+<problem id="fs-id1168341955942">
+<para id="fs-id1168341955944"><m:math><m:mrow><m:mn>3</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>36</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168345455032">
+<para id="fs-id1168345455034"><m:math><m:mrow><m:mn>3</m:mn><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1168345581294">
+<problem id="fs-id1168345581296">
+<para id="fs-id1168345581298"><m:math><m:mrow><m:mn>4</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>8</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1168345405935">
+<problem id="fs-id1168345405937">
+<para id="fs-id1168345405939"><m:math><m:mrow><m:mn>60</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>85</m:mn><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>25</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168345726476">
+<para id="fs-id1168345726478"><m:math><m:mrow><m:mn>5</m:mn><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>4</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3</m:mn><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1168345665267">
+<problem id="fs-id1168345665269">
+<para id="fs-id1168345665271"><m:math><m:mrow><m:mn>18</m:mn><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>57</m:mn><m:mi>a</m:mi><m:mo>−</m:mo><m:mn>21</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1168342257598">
+<title><link class="target-chapter" document="m60167">7.4 Factoring Special Products</link></title>
+<para id="fs-id1168342257607"><emphasis effect="bold">Factor Perfect Square Trinomials</emphasis></para>
+<para id="fs-id1168744124247">In the following exercises, factor.</para>
+<exercise id="fs-id1168345545364">
+<problem id="fs-id1168345545367">
+<para id="fs-id1168345545369"><m:math><m:mrow><m:mn>25</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>30</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>9</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168345432803">
+<para id="fs-id1168345432805"><m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>5</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1168345420159">
+<problem id="fs-id1168345420161">
+<para id="fs-id1168342107073"><m:math><m:mrow><m:mn>16</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>72</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>81</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1168341892561">
+<problem id="fs-id1168341892563">
+<para id="fs-id1168341892566"><m:math><m:mrow><m:mn>36</m:mn><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>84</m:mn><m:mi>a</m:mi><m:mi>b</m:mi><m:mo>+</m:mo><m:mn>49</m:mn><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168345687049">
+<para id="fs-id1168345687051"><m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>6</m:mn><m:mi>a</m:mi><m:mo>−</m:mo><m:mn>7</m:mn><m:mi>b</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1168341923658">
+<problem id="fs-id1168341923660">
+<para id="fs-id1168345405413"><m:math><m:mrow><m:mn>64</m:mn><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>176</m:mn><m:mi>r</m:mi><m:mi>s</m:mi><m:mo>+</m:mo><m:mn>121</m:mn><m:msup><m:mi>s</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1168345671296">
+<problem id="fs-id1168345671298">
+<para id="fs-id1168345671300"><m:math><m:mrow><m:mn>40</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>360</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>810</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168345634610">
+<para id="fs-id1168342171071"><m:math><m:mrow><m:mn>10</m:mn><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>9</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1168342122348">
+<problem id="fs-id1168342122350">
+<para id="fs-id1168342122352"><m:math><m:mrow><m:mn>75</m:mn><m:msup><m:mi>u</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>180</m:mn><m:mi>u</m:mi><m:mo>+</m:mo><m:mn>108</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1168341963214">
+<problem id="fs-id1168341963216">
+<para id="fs-id1168341963218"><m:math><m:mrow><m:mn>2</m:mn><m:msup><m:mi>y</m:mi><m:mn>3</m:mn></m:msup><m:mo>−</m:mo><m:mn>16</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>32</m:mn><m:mi>y</m:mi></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168345525557">
+<para id="fs-id1168342124675"><m:math><m:mrow><m:mn>2</m:mn><m:mi>y</m:mi><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1168341917412">
+<problem id="fs-id1168341917414">
+<para id="fs-id1168341917417"><m:math><m:mrow><m:mn>5</m:mn><m:msup><m:mi>k</m:mi><m:mn>3</m:mn></m:msup><m:mo>−</m:mo><m:mn>70</m:mn><m:msup><m:mi>k</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>245</m:mn><m:mi>k</m:mi></m:mrow></m:math></para>
+</problem>
+</exercise>
+<para id="fs-id1168345517646"><emphasis effect="bold">Factor Differences of Squares</emphasis></para>
+<para id="fs-id1168746281831">In the following exercises, factor.</para>
+<exercise id="fs-id1168345517653">
+<problem id="fs-id1168345517655">
+<para id="fs-id1168345517657"><m:math><m:mrow><m:mn>81</m:mn><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>25</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168342134947">
+<para id="fs-id1168342134949"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>9</m:mn><m:mi>r</m:mi><m:mo>−</m:mo><m:mn>5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>9</m:mn><m:mi>r</m:mi><m:mo>+</m:mo><m:mn>5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1168341912945">
+<problem id="fs-id1168341912947">
+<para id="fs-id1168341912950"><m:math><m:mrow><m:mn>49</m:mn><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>144</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1168341905854">
+<problem id="fs-id1168341905857">
+<para id="fs-id1168341905859"><m:math><m:mrow><m:mn>169</m:mn><m:msup><m:mi>m</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:msup><m:mi>n</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168345670059">
+<para id="fs-id1168345670061"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>13</m:mn><m:mi>m</m:mi><m:mo>+</m:mo><m:mi>n</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>13</m:mn><m:mi>m</m:mi><m:mo>−</m:mo><m:mi>n</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1168341927772">
+<problem id="fs-id1168345405362">
+<para id="fs-id1168345405364"><m:math><m:mrow><m:mn>64</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1168341849265">
+<problem id="fs-id1168341849267">
+<para id="fs-id1168341849269"><m:math><m:mrow><m:mn>25</m:mn><m:msup><m:mi>p</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168345406636">
+<para id="fs-id1168345406638"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>5</m:mn><m:mi>p</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>5</m:mn><m:mi>p</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1168345638328">
+<problem id="fs-id1168345638331">
+<para id="fs-id1168345638333"><m:math><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:mn>16</m:mn><m:msup><m:mi>s</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1168345542213">
+<problem id="fs-id1168345542215">
+<para id="fs-id1168345542217"><m:math><m:mrow><m:mn>9</m:mn><m:mo>−</m:mo><m:mn>121</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168345473630">
+<para id="fs-id1168345473632"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3</m:mn><m:mo>+</m:mo><m:mn>11</m:mn><m:mi>y</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3</m:mn><m:mo>−</m:mo><m:mn>11</m:mn><m:mi>y</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1168345451676">
+<problem id="fs-id1168345451678">
+<para id="fs-id1168345451680"><m:math><m:mrow><m:mn>100</m:mn><m:msup><m:mi>k</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>81</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1168345405964">
+<problem id="fs-id1168345405966">
+<para id="fs-id1168345405968"><m:math><m:mrow><m:mn>20</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>125</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168345405985">
+<para id="fs-id1168342082162"><m:math><m:mrow><m:mn>5</m:mn><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1168345530054">
+<problem id="fs-id1168345530056">
+<para id="fs-id1168345530058"><m:math><m:mrow><m:mn>18</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>98</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1168345538563">
+<problem id="fs-id1168341929487">
+<para id="fs-id1168341929489"><m:math><m:mrow><m:mn>49</m:mn><m:msup><m:mi>u</m:mi><m:mn>3</m:mn></m:msup><m:mo>−</m:mo><m:mn>9</m:mn><m:mi>u</m:mi></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168341929508">
+<para id="fs-id1168341929510"><m:math><m:mrow><m:mi>u</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>7</m:mn><m:mi>u</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>7</m:mn><m:mi>u</m:mi><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1168342101477">
+<problem id="fs-id1168342101479">
+<para id="fs-id1168342101481"><m:math><m:mrow><m:mn>169</m:mn><m:msup><m:mi>n</m:mi><m:mn>3</m:mn></m:msup><m:mo>−</m:mo><m:mi>n</m:mi></m:mrow></m:math></para>
+</problem>
+</exercise>
+<para id="fs-id1168345473361"><emphasis effect="bold">Factor Sums and Differences of Cubes</emphasis></para>
+<para id="fs-id1168744265611">In the following exercises, factor.</para>
+<exercise id="fs-id1168345473367">
+<problem id="fs-id1168345473370">
+<para id="fs-id1168345454902"><m:math><m:mrow><m:msup><m:mi>a</m:mi><m:mn>3</m:mn></m:msup><m:mo>−</m:mo><m:mn>125</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168345454917">
+<para id="fs-id1168345454919"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>a</m:mi><m:mo>−</m:mo><m:mn>5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>5</m:mn><m:mi>a</m:mi><m:mo>+</m:mo><m:mn>25</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1168345578508">
+<problem id="fs-id1168345578510">
+<para id="fs-id1168345578512"><m:math><m:mrow><m:msup><m:mi>b</m:mi><m:mn>3</m:mn></m:msup><m:mo>−</m:mo><m:mn>216</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1168341912896">
+<problem id="fs-id1168341912898">
+<para id="fs-id1168341912900"><m:math><m:mrow><m:mn>2</m:mn><m:msup><m:mi>m</m:mi><m:mn>3</m:mn></m:msup><m:mo>+</m:mo><m:mn>54</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168341911638">
+<para id="fs-id1168341911640"><m:math><m:mrow><m:mn>2</m:mn><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>m</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msup><m:mi>m</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>3</m:mn><m:mi>m</m:mi><m:mo>+</m:mo><m:mn>9</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1168345405525">
+<problem id="fs-id1168345405527">
+<para id="fs-id1168345405529"><m:math><m:mrow><m:mn>81</m:mn><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1168342170909">
+<title><link class="target-chapter" document="m60259">7.5 General Strategy for Factoring Polynomials</link></title>
+<para id="fs-id1168342170918"><emphasis effect="bold">Recognize and Use the Appropriate Method to Factor a Polynomial Completely</emphasis></para>
+<para id="fs-id1168746399852">In the following exercises, factor completely.</para>
+<exercise id="fs-id1168342170924">
+<problem id="fs-id1168342170926">
+<para id="fs-id1168342170928"><m:math><m:mrow><m:mn>24</m:mn><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup><m:mo>+</m:mo><m:mn>44</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168345517560">
+<para id="fs-id1168345517562"><m:math><m:mrow><m:mn>4</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>6</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>11</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1168342123095">
+<problem id="fs-id1168342123097">
+<para id="fs-id1168342123099"><m:math><m:mrow><m:mn>24</m:mn><m:msup><m:mi>a</m:mi><m:mn>4</m:mn></m:msup><m:mo>−</m:mo><m:mn>9</m:mn><m:msup><m:mi>a</m:mi><m:mn>3</m:mn></m:msup></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1168342135183">
+<problem id="fs-id1168342135185">
+<para id="fs-id1168342135187"><m:math><m:mrow><m:mn>16</m:mn><m:msup><m:mi>n</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>56</m:mn><m:mi>m</m:mi><m:mi>n</m:mi><m:mo>+</m:mo><m:mn>49</m:mn><m:msup><m:mi>m</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168345671255">
+<para id="fs-id1168345671257"><m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>4</m:mn><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>7</m:mn><m:mi>m</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1168341910416">
+<problem id="fs-id1168341910419">
+<para id="fs-id1168341910421"><m:math><m:mrow><m:mn>6</m:mn><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>25</m:mn><m:mi>a</m:mi><m:mo>−</m:mo><m:mn>9</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1168345576874">
+<problem id="fs-id1168345576876">
+<para id="fs-id1168345576878"><m:math><m:mrow><m:mn>5</m:mn><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>22</m:mn><m:mi>r</m:mi><m:mo>−</m:mo><m:mn>48</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168341977739">
+<para id="fs-id1168341977741"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>r</m:mi><m:mo>+</m:mo><m:mn>6</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>5</m:mn><m:mi>r</m:mi><m:mo>−</m:mo><m:mn>8</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1168341963186">
+<problem id="fs-id1168341963188">
+<para id="fs-id1168341963190"><m:math><m:mrow><m:mn>5</m:mn><m:msup><m:mi>u</m:mi><m:mn>4</m:mn></m:msup><m:mo>−</m:mo><m:mn>45</m:mn><m:msup><m:mi>u</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1168345404006">
+<problem id="fs-id1168345404009">
+<para id="fs-id1168345404011"><m:math><m:mrow><m:msup><m:mi>n</m:mi><m:mn>4</m:mn></m:msup><m:mo>−</m:mo><m:mn>81</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168342171584">
+<para id="fs-id1168342171586"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msup><m:mi>n</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>9</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>n</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1168341916298">
+<problem id="fs-id1168341916300">
+<para id="fs-id1168342171209"><m:math><m:mrow><m:mn>64</m:mn><m:msup><m:mi>j</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>225</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1168342171234">
+<problem id="fs-id1168342171236">
+<para id="fs-id1168342171238"><m:math><m:mrow><m:mn>5</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>5</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>60</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168345654994">
+<para id="fs-id1168345654996"><m:math><m:mrow><m:mn>5</m:mn><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1168345656715">
+<problem id="fs-id1168345656717">
+<para id="fs-id1168345661614"><m:math><m:mrow><m:msup><m:mi>b</m:mi><m:mn>3</m:mn></m:msup><m:mo>−</m:mo><m:mn>64</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1168345693032">
+<problem id="fs-id1168341929454">
+<para id="fs-id1168341929456"><m:math><m:mrow><m:msup><m:mi>m</m:mi><m:mn>3</m:mn></m:msup><m:mo>+</m:mo><m:mn>125</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168341929471">
+<para id="fs-id1168341929473"><m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>m</m:mi><m:mo>+</m:mo><m:mn>5</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:msup><m:mi>m</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>5</m:mn><m:mi>m</m:mi><m:mo>+</m:mo><m:mn>25</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1168341853637">
+<problem id="fs-id1168341853639">
+<para id="fs-id1168342124539"><m:math><m:mrow><m:mn>2</m:mn><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>b</m:mi><m:mi>c</m:mi><m:mo>+</m:mo><m:mn>5</m:mn><m:mi>c</m:mi><m:mi>b</m:mi><m:mo>−</m:mo><m:mn>5</m:mn><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math></para>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1168345545338">
+<title><link class="target-chapter" document="m60309">7.6 Quadratic Equations</link></title>
+<para id="fs-id1168345545346"><emphasis effect="bold">Use the Zero Product Property</emphasis></para>
+<para id="fs-id1168744041366">In the following exercises, solve.</para>
+<exercise id="fs-id1168345545353">
+<problem id="fs-id1168345545355">
+<para id="fs-id1168345520409"><m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>a</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mi>a</m:mi><m:mo>+</m:mo><m:mn>7</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168345499808">
+<para id="fs-id1168345499810"><m:math><m:mrow><m:mi>a</m:mi><m:mo>=</m:mo><m:mn>3</m:mn><m:mspace width="0.2em"/><m:mi>a</m:mi><m:mo>=</m:mo><m:mn>−7</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1168345499832">
+<problem id="fs-id1168345499834">
+<para id="fs-id1168345499836"><m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>b</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mi>b</m:mi><m:mo>+</m:mo><m:mn>10</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1168345405038">
+<problem id="fs-id1168345405040">
+<para id="fs-id1168345405042"><m:math><m:mrow><m:mn>3</m:mn><m:mi>m</m:mi><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mi>m</m:mi><m:mo>−</m:mo><m:mn>5</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mi>m</m:mi><m:mo>+</m:mo><m:mn>6</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168341861217">
+<para id="fs-id1168341861219"><m:math><m:mrow><m:mi>m</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mspace width="0.2em"/><m:mi>m</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>5</m:mn><m:mn>2</m:mn></m:mfrac><m:mspace width="0.2em"/><m:mi>m</m:mi><m:mo>=</m:mo><m:mn>–6</m:mn></m:mrow></m:math></para></solution>
+</exercise>
+<exercise id="fs-id1168341910494">
+<problem id="fs-id1168341910497">
+<para id="fs-id1168341910499"><m:math><m:mrow><m:mn>7</m:mn><m:mi>n</m:mi><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mi>n</m:mi><m:mo>+</m:mo><m:mn>8</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>5</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<para id="fs-id1168345741504"><emphasis effect="bold">Solve Quadratic Equations by Factoring</emphasis></para>
+<para id="fs-id1168345741510">In the following exercises, solve.</para>
+<exercise id="fs-id1168345741513">
+<problem id="fs-id1168345741515">
+<para id="fs-id1168345741517"><m:math><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>9</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>20</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168341892265">
+<para id="fs-id1168341892267"><m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>−4</m:mn><m:mo>,</m:mo><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>−5</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1168341892289">
+<problem id="fs-id1168345622715">
+<para id="fs-id1168345622717"><m:math><m:mrow><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>72</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1168345214312">
+<problem id="fs-id1168345214314">
+<para id="fs-id1168345214316"><m:math><m:mrow><m:mn>2</m:mn><m:msup><m:mi>p</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>11</m:mn><m:mi>p</m:mi><m:mo>=</m:mo><m:mn>40</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168345439651">
+<para id="fs-id1168345439653"><m:math><m:mrow><m:mi>p</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mn>5</m:mn><m:mn>2</m:mn></m:mfrac><m:mo>,</m:mo><m:mi>p</m:mi><m:mo>=</m:mo><m:mn>8</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1168345439680">
+<problem id="fs-id1168345439682">
+<para id="fs-id1168345439684"><m:math><m:mrow><m:msup><m:mi>q</m:mi><m:mn>3</m:mn></m:msup><m:mo>+</m:mo><m:mn>3</m:mn><m:msup><m:mi>q</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>q</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1168345525366">
+<problem id="fs-id1168345525368">
+<para id="fs-id1168345525370"><m:math><m:mrow><m:mn>144</m:mn><m:msup><m:mi>m</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>25</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168342123838">
+<para id="fs-id1168342123840"><m:math><m:mrow><m:mi>m</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>5</m:mn><m:mrow><m:mn>12</m:mn></m:mrow></m:mfrac><m:mo>,</m:mo><m:mi>m</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mn>5</m:mn><m:mrow><m:mn>12</m:mn></m:mrow></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1168342101638">
+<problem id="fs-id1168342101641">
+<para id="fs-id1168342101643"><m:math><m:mrow><m:mn>4</m:mn><m:msup><m:mi>n</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>36</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<para id="fs-id1168342123610"><emphasis effect="bold">Solve Applications Modeled by Quadratic Equations</emphasis></para>
+<para id="fs-id1168744361038">In the following exercises, solve.</para>
+<exercise id="fs-id1168342123617">
+<problem id="fs-id1168342123619">
+<para id="fs-id1168342123621">The product of two consecutive numbers is <m:math><m:mrow><m:mn>462</m:mn></m:mrow></m:math>. Find the numbers.</para>
+</problem>
+<solution id="fs-id1168342123631">
+<para id="fs-id1168342123633"><m:math><m:mrow><m:mn>−21</m:mn><m:mo>,</m:mo><m:mn>−22</m:mn><m:mspace width="0.2em"/><m:mn>21</m:mn><m:mo>,</m:mo><m:mn>22</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1168341966852">
+<problem id="fs-id1168341966854">
+<para id="fs-id1168341966857">The area of a rectangular shaped patio <m:math><m:mrow><m:mn>400</m:mn></m:mrow></m:math> square feet. The length of the patio is <m:math><m:mn>9</m:mn></m:math> feet more than its width. Find the length and width.</para>
+</problem>
+</exercise>
+</section>
+</section><section id="fs-id1168345639498" class="practice-test">
+<title>Practice Test</title>
+<para id="fs-id1168345639505">In the following exercises, find the Greatest Common Factor in each expression.</para>
+<exercise id="fs-id1168345639508">
+<problem id="fs-id1168345639511">
+<para id="fs-id1168345639513"><m:math><m:mrow><m:mn>14</m:mn><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>42</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168345424409">
+<para id="fs-id1168345424412"><m:math><m:mrow><m:mn>7</m:mn><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>6</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1168345424433">
+<problem id="fs-id1168345424435">
+<para id="fs-id1168345424437"><m:math><m:mrow><m:mn>−6</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>30</m:mn><m:mi>x</m:mi></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1168345487552">
+<problem id="fs-id1168345487554">
+<para id="fs-id1168345487556"><m:math><m:mrow><m:mn>80</m:mn><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>120</m:mn><m:msup><m:mi>a</m:mi><m:mn>3</m:mn></m:msup></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168345543364">
+<para id="fs-id1168345543367"><m:math><m:mrow><m:mn>40</m:mn><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>a</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1168341967250">
+<problem id="fs-id1168341967252">
+<para id="fs-id1168341967254"><m:math><m:mrow><m:mn>5</m:mn><m:mi>m</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>m</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mn>3</m:mn><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>m</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+</exercise>
+<para id="fs-id1168345499874">In the following exercises, factor completely.</para>
+<exercise id="fs-id1168345499877">
+<problem id="fs-id1168345499879">
+<para id="fs-id1168345499882"><m:math><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>13</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>36</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168345482989">
+<para id="fs-id1168345482992"><m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>7</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>6</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1168341956009">
+<problem id="fs-id1168341956011">
+<para id="fs-id1168341956013"><m:math><m:mrow><m:msup><m:mi>p</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>p</m:mi><m:mi>q</m:mi><m:mo>−</m:mo><m:mn>12</m:mn><m:msup><m:mi>q</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1168345726323">
+<problem id="fs-id1168345726325">
+<para id="fs-id1168345553145"><m:math><m:mrow><m:mn>3</m:mn><m:msup><m:mi>a</m:mi><m:mn>3</m:mn></m:msup><m:mo>−</m:mo><m:mn>6</m:mn><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>72</m:mn><m:mi>a</m:mi></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168345553174">
+<para id="fs-id1168345553176"><m:math><m:mrow><m:mn>3</m:mn><m:mi>a</m:mi><m:mo stretchy="false">(</m:mo><m:mi>a</m:mi><m:mo>+</m:mo><m:mn>4</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mi>a</m:mi><m:mo>−</m:mo><m:mn>6</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para></solution>
+</exercise>
+<exercise id="fs-id1168341923682">
+<problem id="fs-id1168341923684">
+<para id="fs-id1168341923686"><m:math><m:mrow><m:msup><m:mi>s</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>25</m:mn><m:mi>s</m:mi><m:mo>+</m:mo><m:mn>84</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1168345687112">
+<problem id="fs-id1168345687114">
+<para id="fs-id1168345687116"><m:math><m:mrow><m:mn>5</m:mn><m:msup><m:mi>n</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>30</m:mn><m:mi>n</m:mi><m:mo>+</m:mo><m:mn>45</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168345404942">
+<para id="fs-id1168345404945"><m:math><m:mrow><m:mn>5</m:mn><m:mo>(</m:mo><m:mi>n</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:msup><m:mo>)</m:mo><m:mn>2</m:mn></m:msup></m:mrow></m:math></para></solution>
+</exercise>
+<exercise id="fs-id1168345404979">
+<problem id="fs-id1168345404981">
+<para id="fs-id1168345404983"><m:math><m:mrow><m:mn>64</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>49</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1168342082250">
+<problem id="fs-id1168342082252">
+<para id="fs-id1168342082255"><m:math><m:mrow><m:mi>x</m:mi><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>8</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>7</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>56</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168345517433">
+<para id="fs-id1168345517435"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>8</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>7</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1168341959033">
+<problem id="fs-id1168341959035">
+<para id="fs-id1168341959038"><m:math><m:mrow><m:mn>40</m:mn><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>810</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1168341959085">
+<problem id="fs-id1168341959087">
+<para id="fs-id1168345556154"><m:math><m:mrow><m:mn>9</m:mn><m:msup><m:mi>s</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>12</m:mn><m:mi>s</m:mi><m:mo>+</m:mo><m:mn>4</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168345556178">
+<para id="fs-id1168345556180"><m:math><m:mrow><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mi>s</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1168345556207">
+<problem id="fs-id1168345556210">
+<para id="fs-id1168345405138"><m:math><m:mrow><m:msup><m:mi>n</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>12</m:mn><m:mi>n</m:mi><m:mo>+</m:mo><m:mn>36</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1168345405187">
+<problem id="fs-id1168345405189">
+<para id="fs-id1168345405191"><m:math><m:mrow><m:mn>100</m:mn><m:mo>−</m:mo><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168345420861">
+<para id="fs-id1168345420864"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>10</m:mn><m:mo>−</m:mo><m:mi>a</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>10</m:mn><m:mo>+</m:mo><m:mi>a</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1168345420896">
+<problem id="fs-id1168345420898">
+<para id="fs-id1168345420900"><m:math><m:mrow><m:mn>6</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>11</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>10</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1168345726175">
+<problem id="fs-id1168345726177">
+<para id="fs-id1168345726179"><m:math><m:mrow><m:mn>3</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>75</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168345622843">
+<para id="fs-id1168345622845"><m:math><m:mrow><m:mn>3</m:mn><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>5</m:mn><m:mi>y</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>5</m:mn><m:mi>y</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1168345622883">
+<problem id="fs-id1168345622886">
+<para id="fs-id1168345622888"><m:math><m:mrow><m:msup><m:mi>c</m:mi><m:mn>3</m:mn></m:msup><m:mo>−</m:mo><m:mn>1000</m:mn><m:msup><m:mi>d</m:mi><m:mn>3</m:mn></m:msup></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1168341892179">
+<problem id="fs-id1168341892181">
+<para id="fs-id1168341892183"><m:math><m:mrow><m:mi>a</m:mi><m:mi>b</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:mi>b</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>a</m:mi><m:mo>+</m:mo><m:mn>6</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168341892210">
+<para id="fs-id1168341892212"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>a</m:mi><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>b</m:mi><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1168345466364">
+<problem id="fs-id1168345466366">
+<para id="fs-id1168345466368"><m:math><m:mrow><m:mn>6</m:mn><m:msup><m:mi>u</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>u</m:mi><m:mo>−</m:mo><m:mn>18</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1168345638919">
+<problem id="fs-id1168345638921">
+<para id="fs-id1168345638923"><m:math><m:mrow><m:mn>8</m:mn><m:msup><m:mi>m</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>22</m:mn><m:mi>m</m:mi><m:mo>+</m:mo><m:mn>5</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168345638946">
+<para id="fs-id1168345638949"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>4</m:mn><m:mi>m</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mi>m</m:mi><m:mo>+</m:mo><m:mn>5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+<para id="fs-id1168341870299">In the following exercises, solve.</para>
+<exercise id="fs-id1168341870302">
+<problem id="fs-id1168341870304">
+<para id="fs-id1168341870306"><m:math><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>9</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>20</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1168345687693">
+<problem id="fs-id1168345687695">
+<para id="fs-id1168345687697"><m:math><m:mrow><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>132</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168345687716">
+<para id="fs-id1168345687718"><m:math><m:mrow><m:mtext>y</m:mtext><m:mo>=</m:mo><m:mn>−11</m:mn><m:mo>,</m:mo><m:mtext>y</m:mtext><m:mo>=</m:mo><m:mn>12</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1168342133579">
+<problem id="fs-id1168342133581">
+<para id="fs-id1168342133583"><m:math><m:mrow><m:mn>5</m:mn><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>26</m:mn><m:mi>a</m:mi><m:mo>=</m:mo><m:mn>24</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1168342133633">
+<problem id="fs-id1168342133635">
+<para id="fs-id1168342133637"><m:math><m:mrow><m:mn>9</m:mn><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>9</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168345625712">
+<para id="fs-id1168345625714"><m:math><m:mrow><m:mi>b</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mi>b</m:mi><m:mo>=</m:mo><m:mn>−1</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1168345625735">
+<problem id="fs-id1168345625738">
+<para id="fs-id1168345625740"><m:math><m:mrow><m:mn>16</m:mn><m:mo>−</m:mo><m:msup><m:mi>m</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1168341928345">
+<problem id="fs-id1168341928347">
+<para id="fs-id1168341928349"><m:math><m:mrow><m:mn>4</m:mn><m:msup><m:mi>n</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>19</m:mn><m:mi>n</m:mi><m:mo>+</m:mo><m:mn>21</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168341928375">
+<para id="fs-id1168341928377"><m:math><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mn>7</m:mn><m:mn>4</m:mn></m:mfrac><m:mo>,</m:mo><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>−3</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1168342123540">
+<problem id="fs-id1168342123542">
+<para id="fs-id1168342123544"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>6</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1168345516591">
+<problem id="fs-id1168345516593">
+<para id="fs-id1168345516595">The product of two consecutive integers is <m:math><m:mrow><m:mn>156</m:mn></m:mrow></m:math>. Find the integers.</para>
+</problem>
+<solution id="fs-id1168345516605">
+<para id="fs-id1168345516607"><m:math><m:mrow><m:mn>12</m:mn><m:mspace width="0.2em"/><m:mtext>and</m:mtext><m:mspace width="0.2em"/><m:mn>13</m:mn><m:mo>;</m:mo><m:mo>−</m:mo><m:mn>13</m:mn><m:mspace width="0.2em"/><m:mtext>and</m:mtext><m:mspace width="0.2em"/><m:mn>−12</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1168345516642">
+<problem id="fs-id1168345516644">
+<para id="fs-id1168345516646">The area of a rectangular place mat is <m:math><m:mrow><m:mn>168</m:mn></m:mrow></m:math> square inches. Its length is two inches longer than the width. Find the length and width of the placemat.</para>
+</problem>
+</exercise>
+</section>
+</content>
+<glossary>
+<definition id="fs-id1168342122770">
+<term>quadratic equations</term>
+<meaning id="fs-id1168342122776">are equations in which the variable is squared.</meaning>
+</definition>
+<definition id="fs-id1168342122780">
+<term>Zero Product Property</term>
+<meaning id="fs-id1168342122785">The Zero Product Property states that, if the product of two quantities is zero, at least one of the quantities is zero.</meaning>
+</definition>
+</glossary>
+</document>

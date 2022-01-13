@@ -1,0 +1,1228 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Divide Polynomials</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m60173</md:content-id>
+  <md:title>Divide Polynomials</md:title>
+  <md:abstract><para>By the end of this section, you will be able to:</para>
+<list>
+<item>Divide a polynomial by a monomial</item>
+<item>Divide a polynomial by a binomial</item>
+</list></md:abstract>
+  <md:uuid>4925ce3f-da01-4b3b-b918-a8d1447e22bf</md:uuid>
+</metadata>
+
+<content>
+<note id="fs-id1169597513262" class="be-prepared">
+<para id="fs-id1169597529164">Before you get started, take this readiness quiz.</para>
+<list id="fs-id1169597395008" list-type="enumerated" number-style="arabic">
+<item>Add: <m:math><m:mrow><m:mfrac><m:mn>3</m:mn><m:mi>d</m:mi></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mi>x</m:mi><m:mi>d</m:mi></m:mfrac><m:mo>.</m:mo></m:mrow></m:math><newline/>
+If you missed this problem, review <link document="m60196" target-id="fs-id1170654957397"/>.</item>
+<item>Simplify: <m:math><m:mrow><m:mfrac><m:mrow><m:mn>30</m:mn><m:mi>x</m:mi><m:msup><m:mi>y</m:mi><m:mn>3</m:mn></m:msup></m:mrow><m:mrow><m:mn>5</m:mn><m:mi>x</m:mi><m:mi>y</m:mi></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math><newline/>
+If you missed this problem, review <link document="m60165" target-id="fs-id1169596500764"/>.</item>
+<item>Combine like terms: <m:math><m:mrow><m:mn>8</m:mn><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>12</m:mn><m:mi>a</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo>+</m:mo><m:mn>3</m:mn><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>5</m:mn><m:mi>a</m:mi><m:mo>+</m:mo><m:mn>4</m:mn><m:mo>.</m:mo></m:mrow></m:math><newline/>
+If you missed this problem, review <link document="m60247" target-id="fs-id1170654940588"/>.</item>
+</list>
+</note>
+<section id="fs-id1169597410581">
+<title>Divide a Polynomial by a Monomial</title>
+<para id="fs-id1169597495901">In the last section, you learned how to divide a monomial by a monomial. As you continue to build up your knowledge of polynomials the next procedure is to divide a polynomial of two or more terms by a <term class="no-emphasis">monomial</term>.</para>
+<para id="fs-id1169597414468">The method we’ll use to divide a polynomial by a monomial is based on the properties of fraction addition. So we’ll start with an example to review fraction addition.</para>
+<table id="eip-903" summary=".">
+<tgroup cols="2"><tbody>
+<row>
+  <entry>The sum,</entry>
+  <entry><m:math><m:mfrac><m:mi>y</m:mi><m:mn>5</m:mn></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>2</m:mn><m:mn>5</m:mn></m:mfrac><m:mo>,</m:mo></m:math></entry>
+</row>
+<row>
+  <entry>simplifies to</entry>
+  <entry><m:math><m:mfrac><m:mrow><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow><m:mn>5</m:mn></m:mfrac><m:mo>.</m:mo></m:math></entry>
+</row>
+</tbody>
+
+</tgroup>
+</table><para id="fs-id1169597690628">Now we will do this in reverse to split a single fraction into separate fractions.</para>
+<para id="fs-id1169597555516">We’ll state the fraction addition property here just as you learned it and in reverse.</para>
+<note id="fs-id1169597702997">
+<title>Fraction Addition</title>
+<para id="fs-id1169597576926">If <m:math><m:mrow><m:mi>a</m:mi><m:mo>,</m:mo><m:mi>b</m:mi><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mtext>and</m:mtext><m:mspace width="0.2em"/><m:mi>c</m:mi></m:mrow></m:math> are numbers where <m:math><m:mrow><m:mi>c</m:mi><m:mo>≠</m:mo><m:mn>0</m:mn></m:mrow></m:math>, then</para>
+<equation id="fs-id1169597364210" class="unnumbered"><label/><m:math><m:mrow><m:mfrac><m:mi>a</m:mi><m:mi>c</m:mi></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mi>b</m:mi><m:mi>c</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>a</m:mi><m:mo>+</m:mo><m:mi>b</m:mi></m:mrow><m:mi>c</m:mi></m:mfrac><m:mspace width="1em"/><m:mtext>and</m:mtext><m:mspace width="1em"/><m:mfrac><m:mrow><m:mi>a</m:mi><m:mo>+</m:mo><m:mi>b</m:mi></m:mrow><m:mi>c</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mi>a</m:mi><m:mi>c</m:mi></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mi>b</m:mi><m:mi>c</m:mi></m:mfrac></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1169597394144">We use the form on the left to add fractions and we use the form on the right to divide a polynomial by a monomial.</para>
+<table id="eip-657" summary=".">
+<tgroup cols="2"><tbody>
+<row>
+  <entry>For example,</entry>
+  <entry><m:math><m:mfrac><m:mrow><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow><m:mn>5</m:mn></m:mfrac></m:math></entry>
+</row>
+<row>
+  <entry>can be written</entry>
+  <entry><m:math><m:mfrac><m:mi>y</m:mi><m:mn>5</m:mn></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>2</m:mn><m:mn>5</m:mn></m:mfrac><m:mo>.</m:mo></m:math></entry>
+</row>
+</tbody>
+
+</tgroup>
+</table><para id="fs-id1169597334694">We use this form of fraction addition to divide polynomials by monomials.</para>
+<note id="fs-id1169597491344">
+<title>Division of a Polynomial by a Monomial</title>
+<para id="fs-id1169597334458">To divide a polynomial by a monomial, divide each term of the polynomial by the <term class="no-emphasis">monomial</term>.</para>
+</note>
+<example id="fs-id1169597368792"><exercise id="fs-id1169597359694">
+<problem id="fs-id1169597466487">
+<para id="fs-id1169597381554">Find the quotient: <m:math><m:mrow><m:mfrac><m:mrow><m:mn>7</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>21</m:mn></m:mrow><m:mn>7</m:mn></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169597531097">
+<title>Solution</title>
+<table id="eip-958" summary="." class="unnumbered unstyled">
+<tgroup cols="2"><tbody>
+<row>
+  <entry/>
+  <entry><m:math><m:mfrac><m:mrow><m:mn>7</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>21</m:mn></m:mrow><m:mn>7</m:mn></m:mfrac></m:math></entry>
+</row>
+<row>
+  <entry>Divide each term of the numerator by the denominator.</entry>
+  <entry><m:math><m:mfrac><m:mrow><m:mn>7</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mn>7</m:mn></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mrow><m:mn>21</m:mn></m:mrow><m:mn>7</m:mn></m:mfrac></m:math></entry>
+</row>
+<row>
+  <entry>Simplify each fraction.</entry>
+  <entry><m:math><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>3</m:mn></m:math></entry>
+</row>
+</tbody>
+
+</tgroup>
+</table>
+</solution>
+</exercise>
+</example><note id="fs-id1169597414519" class="try">
+<exercise id="fs-id1169597366844">
+<problem id="fs-id1169597494486">
+<para id="fs-id1169597518761">Find the quotient: <m:math><m:mrow><m:mfrac><m:mrow><m:mn>8</m:mn><m:msup><m:mi>z</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>24</m:mn></m:mrow><m:mn>4</m:mn></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169597383953">
+<para id="fs-id1169597344110"><m:math><m:mrow><m:mn>2</m:mn><m:msup><m:mi>z</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>6</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1169597374037" class="try">
+<exercise id="fs-id1169597537973">
+<problem id="fs-id1169597576300">
+<para id="fs-id1169597579154">Find the quotient: <m:math><m:mrow><m:mfrac><m:mrow><m:mn>18</m:mn><m:msup><m:mi>z</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>27</m:mn></m:mrow><m:mn>9</m:mn></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169597379980">
+<para id="fs-id1169597537992"><m:math><m:mrow><m:mn>2</m:mn><m:msup><m:mi>z</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<para id="fs-id1169597495783">Remember that division can be represented as a fraction. When you are asked to divide a polynomial by a monomial and it is not already in fraction form, write a fraction with the polynomial in the numerator and the monomial in the denominator.</para>
+<example id="fs-id1169597579790"><exercise id="fs-id1169597431869">
+<problem id="fs-id1169597395518">
+<para id="fs-id1169597360676">Find the quotient: <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>18</m:mn><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup><m:mo>−</m:mo><m:mn>36</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>÷</m:mo><m:mn>6</m:mn><m:mi>x</m:mi><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169597493630">
+<title>Solution</title>
+<table id="eip-560" summary="." class="unnumbered unstyled">
+<tgroup cols="2"><tbody>
+<row>
+  <entry/>
+  <entry><m:math><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>18</m:mn><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup><m:mo>−</m:mo><m:mn>36</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>÷</m:mo><m:mn>6</m:mn><m:mi>x</m:mi></m:math></entry>
+</row>
+<row>
+  <entry>Rewrite as a fraction.</entry>
+  <entry><m:math><m:mfrac><m:mrow><m:mn>18</m:mn><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup><m:mo>−</m:mo><m:mn>36</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>6</m:mn><m:mi>x</m:mi></m:mrow></m:mfrac></m:math></entry>
+</row>
+<row>
+  <entry>Divide each term of the numerator by the denominator.</entry>
+  <entry><m:math><m:mfrac><m:mrow><m:mn>18</m:mn><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup></m:mrow><m:mrow><m:mn>6</m:mn><m:mi>x</m:mi></m:mrow></m:mfrac><m:mo>−</m:mo><m:mfrac><m:mrow><m:mn>36</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>6</m:mn><m:mi>x</m:mi></m:mrow></m:mfrac></m:math></entry>
+</row>
+<row>
+  <entry>Simplify.</entry>
+  <entry><m:math><m:mn>3</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>6</m:mn><m:mi>x</m:mi></m:math></entry>
+</row>
+</tbody>
+
+</tgroup>
+</table>
+</solution>
+</exercise>
+</example><note id="fs-id1169597457327" class="try">
+<exercise id="fs-id1169597364029">
+<problem id="fs-id1169597493725">
+<para id="fs-id1169597485217">Find the quotient: <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>27</m:mn><m:msup><m:mi>b</m:mi><m:mn>3</m:mn></m:msup><m:mo>−</m:mo><m:mn>33</m:mn><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>÷</m:mo><m:mn>3</m:mn><m:mi>b</m:mi><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169597337165">
+<para id="fs-id1169597381277"><m:math><m:mrow><m:mn>9</m:mn><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>11</m:mn><m:mi>b</m:mi></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1169597363381" class="try">
+<exercise id="fs-id1169597495098">
+<problem id="fs-id1169597380989">
+<para id="fs-id1169597421768">Find the quotient: <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>25</m:mn><m:msup><m:mi>y</m:mi><m:mn>3</m:mn></m:msup><m:mo>−</m:mo><m:mn>55</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>÷</m:mo><m:mn>5</m:mn><m:mi>y</m:mi><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169597460742">
+<para id="fs-id1169597507210"><m:math><m:mrow><m:mn>5</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>11</m:mn><m:mi>y</m:mi></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<para id="fs-id1169597494726">When we divide by a negative, we must be extra careful with the signs.</para>
+<example id="fs-id1169597579516"><exercise id="fs-id1169597445185">
+<problem id="fs-id1169597533874">
+<para id="fs-id1169597492601">Find the quotient: <m:math><m:mrow><m:mfrac><m:mrow><m:mn>12</m:mn><m:msup><m:mi>d</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>16</m:mn><m:mi>d</m:mi></m:mrow><m:mrow><m:mn>−4</m:mn></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169597501851">
+<title>Solution</title>
+<table id="eip-992" summary="." class="unnumbered unstyled">
+<tgroup cols="2"><tbody>
+<row>
+  <entry/>
+  <entry><m:math><m:mfrac><m:mrow><m:mn>12</m:mn><m:msup><m:mi>d</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>16</m:mn><m:mi>d</m:mi></m:mrow><m:mrow><m:mn>−4</m:mn></m:mrow></m:mfrac></m:math></entry>
+</row>
+<row>
+  <entry>Divide each term of the numerator by the denominator.</entry>
+  <entry><m:math><m:mfrac><m:mrow><m:mn>12</m:mn><m:msup><m:mi>d</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>−4</m:mn></m:mrow></m:mfrac><m:mo>−</m:mo><m:mfrac><m:mrow><m:mn>16</m:mn><m:mi>d</m:mi></m:mrow><m:mrow><m:mn>−4</m:mn></m:mrow></m:mfrac></m:math></entry>
+</row>
+<row>
+  <entry>Simplify. Remember, subtracting a negative is like adding a positive!</entry>
+  <entry><m:math><m:mn>−3</m:mn><m:msup><m:mi>d</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>4</m:mn><m:mi>d</m:mi></m:math></entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</solution>
+</exercise>
+</example><note id="fs-id1169597394573" class="try">
+<exercise id="fs-id1169597373652">
+<problem id="fs-id1169597412822">
+<para id="fs-id1169597352013">Find the quotient: <m:math><m:mrow><m:mfrac><m:mrow><m:mn>25</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>15</m:mn><m:mi>y</m:mi></m:mrow><m:mrow><m:mn>−5</m:mn></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169597497900">
+<para id="fs-id1169597415973"><m:math><m:mrow><m:mn>−5</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>y</m:mi></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1169597518545" class="try">
+<exercise id="fs-id1169597380965">
+<problem id="fs-id1169597386661">
+<para id="fs-id1169597388331">Find the quotient: <m:math><m:mrow><m:mfrac><m:mrow><m:mn>42</m:mn><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>18</m:mn><m:mi>b</m:mi></m:mrow><m:mrow><m:mn>−6</m:mn></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169597514405">
+<para id="fs-id1169597342466"><m:math><m:mrow><m:mn>−7</m:mn><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>b</m:mi></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<example id="fs-id1169597477821"><exercise id="fs-id1169597444458">
+<problem id="fs-id1169597540593">
+<para id="fs-id1169597500832">Find the quotient: <m:math><m:mrow><m:mfrac><m:mrow><m:mn>105</m:mn><m:msup><m:mi>y</m:mi><m:mn>5</m:mn></m:msup><m:mo>+</m:mo><m:mn>75</m:mn><m:msup><m:mi>y</m:mi><m:mn>3</m:mn></m:msup></m:mrow><m:mrow><m:mn>5</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169597415544">
+<title>Solution</title>
+<table id="eip-78" summary="." class="unnumbered unstyled">
+<tgroup cols="2"><tbody>
+<row>
+  <entry/>
+  <entry><m:math><m:mfrac><m:mrow><m:mn>105</m:mn><m:msup><m:mi>y</m:mi><m:mn>5</m:mn></m:msup><m:mo>+</m:mo><m:mn>75</m:mn><m:msup><m:mi>y</m:mi><m:mn>3</m:mn></m:msup></m:mrow><m:mrow><m:mn>5</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:math></entry>
+</row>
+<row>
+  <entry>Separate the terms.</entry>
+  <entry><m:math><m:mfrac><m:mrow><m:mn>105</m:mn><m:msup><m:mi>y</m:mi><m:mn>5</m:mn></m:msup></m:mrow><m:mrow><m:mn>5</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mrow><m:mn>75</m:mn><m:msup><m:mi>y</m:mi><m:mn>3</m:mn></m:msup></m:mrow><m:mrow><m:mn>5</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:math></entry>
+</row>
+<row>
+  <entry>Simplify.</entry>
+  <entry><m:math><m:mn>21</m:mn><m:msup><m:mi>y</m:mi><m:mn>3</m:mn></m:msup><m:mo>+</m:mo><m:mn>15</m:mn><m:mi>y</m:mi></m:math></entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+
+</solution>
+</exercise></example><note id="fs-id1169597410664" class="try">
+<exercise id="fs-id1169597513321">
+<problem id="fs-id1169597401022">
+<para id="fs-id1169597333321">Find the quotient: <m:math><m:mrow><m:mfrac><m:mrow><m:mn>60</m:mn><m:msup><m:mi>d</m:mi><m:mn>7</m:mn></m:msup><m:mo>+</m:mo><m:mn>24</m:mn><m:msup><m:mi>d</m:mi><m:mn>5</m:mn></m:msup></m:mrow><m:mrow><m:mn>4</m:mn><m:msup><m:mi>d</m:mi><m:mn>3</m:mn></m:msup></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169597536170">
+<para id="fs-id1169597495416"><m:math><m:mrow><m:mn>15</m:mn><m:msup><m:mi>d</m:mi><m:mn>4</m:mn></m:msup><m:mo>+</m:mo><m:mn>6</m:mn><m:msup><m:mi>d</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1169597388034" class="try">
+<exercise id="fs-id1169597460151">
+<problem id="fs-id1169597387876">
+<para id="fs-id1169597467170">Find the quotient: <m:math><m:mrow><m:mfrac><m:mrow><m:mn>216</m:mn><m:msup><m:mi>p</m:mi><m:mn>7</m:mn></m:msup><m:mo>−</m:mo><m:mn>48</m:mn><m:msup><m:mi>p</m:mi><m:mn>5</m:mn></m:msup></m:mrow><m:mrow><m:mn>6</m:mn><m:msup><m:mi>p</m:mi><m:mn>3</m:mn></m:msup></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169597389499">
+<para id="fs-id1169597408774"><m:math><m:mrow><m:mn>36</m:mn><m:msup><m:mi>p</m:mi><m:mn>4</m:mn></m:msup><m:mo>−</m:mo><m:mn>8</m:mn><m:msup><m:mi>p</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<example id="fs-id1169597542358"><exercise id="fs-id1169597420902"><problem id="fs-id1169597527007">
+<para id="fs-id1169597505361">Find the quotient: <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>15</m:mn><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>35</m:mn><m:mi>x</m:mi><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>÷</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−5</m:mn><m:mi>x</m:mi><m:mi>y</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169597514617">
+<title>Solution</title>
+<table id="eip-802" summary="/" class="unnumbered unstyled">
+<tgroup cols="2"><tbody>
+<row>
+  <entry/>
+  <entry><m:math><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>15</m:mn><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>35</m:mn><m:mi>x</m:mi><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>÷</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−5</m:mn><m:mi>x</m:mi><m:mi>y</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:math></entry>
+</row>
+<row>
+  <entry>Rewrite as a fraction.</entry>
+  <entry><m:math><m:mfrac><m:mrow><m:mn>15</m:mn><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>35</m:mn><m:mi>x</m:mi><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>−5</m:mn><m:mi>x</m:mi><m:mi>y</m:mi></m:mrow></m:mfrac></m:math></entry>
+</row>
+<row>
+  <entry>Separate the terms.</entry>
+  <entry><m:math><m:mfrac><m:mrow><m:mn>15</m:mn><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup><m:mi>y</m:mi></m:mrow><m:mrow><m:mn>−5</m:mn><m:mi>x</m:mi><m:mi>y</m:mi></m:mrow></m:mfrac><m:mo>−</m:mo><m:mfrac><m:mrow><m:mn>35</m:mn><m:mi>x</m:mi><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>−5</m:mn><m:mi>x</m:mi><m:mi>y</m:mi></m:mrow></m:mfrac></m:math></entry>
+</row>
+<row>
+  <entry>Simplify.</entry>
+  <entry><m:math><m:mn>−3</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>7</m:mn><m:mi>y</m:mi></m:math></entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</solution>
+</exercise></example><note id="fs-id1169597460197" class="try">
+<exercise id="fs-id1169597393585">
+<problem id="fs-id1169597699122">
+<para id="fs-id1169597480855">Find the quotient: <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>32</m:mn><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:mi>b</m:mi><m:mo>−</m:mo><m:mn>16</m:mn><m:mi>a</m:mi><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>÷</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−8</m:mn><m:mi>a</m:mi><m:mi>b</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169597498291">
+<para id="fs-id1169597388358"><m:math><m:mrow><m:mn>−4</m:mn><m:mi>a</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>b</m:mi></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1169597431912" class="try">
+<exercise id="fs-id1169597338852">
+<problem id="fs-id1169597383472">
+<para id="fs-id1169597380957">Find the quotient: <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−48</m:mn><m:msup><m:mi>a</m:mi><m:mn>8</m:mn></m:msup><m:msup><m:mi>b</m:mi><m:mn>4</m:mn></m:msup><m:mo>−</m:mo><m:mn>36</m:mn><m:msup><m:mi>a</m:mi><m:mn>6</m:mn></m:msup><m:msup><m:mi>b</m:mi><m:mn>5</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>÷</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−6</m:mn><m:msup><m:mi>a</m:mi><m:mn>3</m:mn></m:msup><m:msup><m:mi>b</m:mi><m:mn>3</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169597492222">
+<para id="fs-id1169597492224"><m:math><m:mrow><m:mn>8</m:mn><m:msup><m:mi>a</m:mi><m:mn>5</m:mn></m:msup><m:mi>b</m:mi><m:mo>+</m:mo><m:mn>6</m:mn><m:msup><m:mi>a</m:mi><m:mn>3</m:mn></m:msup><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<example id="fs-id1169597466634"><exercise id="fs-id1169597542231">
+<problem id="fs-id1169597536289">
+<para id="fs-id1169597536291">Find the quotient: <m:math><m:mrow><m:mfrac><m:mrow><m:mn>36</m:mn><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>27</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>9</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:msup><m:mi>y</m:mi><m:mn>3</m:mn></m:msup></m:mrow><m:mrow><m:mn>9</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mi>y</m:mi></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169597445753">
+<title>Solution</title>
+<table id="eip-917" summary="." class="unnumbered unstyled">
+<tgroup cols="2"><tbody>
+<row>
+  <entry/>
+  <entry><m:math><m:mfrac><m:mrow><m:mn>36</m:mn><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>27</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>9</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:msup><m:mi>y</m:mi><m:mn>3</m:mn></m:msup></m:mrow><m:mrow><m:mn>9</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mi>y</m:mi></m:mrow></m:mfrac></m:math></entry>
+</row>
+<row>
+  <entry>Separate the terms.</entry>
+  <entry><m:math><m:mfrac><m:mrow><m:mn>36</m:mn><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>9</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mi>y</m:mi></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mrow><m:mn>27</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>9</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mi>y</m:mi></m:mrow></m:mfrac><m:mo>−</m:mo><m:mfrac><m:mrow><m:mn>9</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:msup><m:mi>y</m:mi><m:mn>3</m:mn></m:msup></m:mrow><m:mrow><m:mn>9</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mi>y</m:mi></m:mrow></m:mfrac></m:math></entry>
+</row>
+<row>
+  <entry>Simplify.</entry>
+  <entry><m:math><m:mn>4</m:mn><m:mi>x</m:mi><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>y</m:mi><m:mo>−</m:mo><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup></m:math></entry>
+</row>
+</tbody>
+
+</tgroup>
+</table>
+</solution>
+</exercise>
+</example><note id="fs-id1169597461002" class="try">
+<exercise id="fs-id1169597687906">
+<problem id="fs-id1169597687908">
+<para id="fs-id1169597517317">Find the quotient: <m:math><m:mrow><m:mfrac><m:mrow><m:mn>40</m:mn><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>24</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>16</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:msup><m:mi>y</m:mi><m:mn>3</m:mn></m:msup></m:mrow><m:mrow><m:mn>8</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mi>y</m:mi></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169597466727">
+<para id="fs-id1169597507457"><m:math><m:mrow><m:mn>5</m:mn><m:mi>x</m:mi><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1169597497473" class="try">
+<exercise id="fs-id1169597380049">
+<problem id="fs-id1169597380051">
+<para id="fs-id1169597519110">Find the quotient: <m:math><m:mrow><m:mfrac><m:mrow><m:mn>35</m:mn><m:msup><m:mi>a</m:mi><m:mn>4</m:mn></m:msup><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>14</m:mn><m:msup><m:mi>a</m:mi><m:mn>4</m:mn></m:msup><m:msup><m:mi>b</m:mi><m:mn>3</m:mn></m:msup><m:mo>−</m:mo><m:mn>42</m:mn><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:msup><m:mi>b</m:mi><m:mn>4</m:mn></m:msup></m:mrow><m:mrow><m:mn>7</m:mn><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169597468109">
+<para id="fs-id1169597468111"><m:math><m:mrow><m:mn>5</m:mn><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>2</m:mn><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:mi>b</m:mi><m:mo>−</m:mo><m:mn>6</m:mn><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<example id="fs-id1169597539291"><exercise id="fs-id1169597539293">
+<problem id="fs-id1169597539295">
+<para id="fs-id1169597539514">Find the quotient: <m:math><m:mrow><m:mfrac><m:mrow><m:mn>10</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>5</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>20</m:mn></m:mrow><m:mrow><m:mn>5</m:mn><m:mi>x</m:mi></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169597538674">
+<title>Solution</title>
+<table id="eip-848" summary="." class="unnumbered unstyled">
+<tgroup cols="2"><tbody>
+<row>
+  <entry/>
+  <entry><m:math><m:mfrac><m:mrow><m:mn>10</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>5</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>20</m:mn></m:mrow><m:mrow><m:mn>5</m:mn><m:mi>x</m:mi></m:mrow></m:mfrac></m:math></entry>
+</row>
+<row>
+  <entry>Separate the terms.</entry>
+  <entry><m:math><m:mfrac><m:mrow><m:mn>10</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>5</m:mn><m:mi>x</m:mi></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mrow><m:mn>5</m:mn><m:mi>x</m:mi></m:mrow><m:mrow><m:mn>5</m:mn><m:mi>x</m:mi></m:mrow></m:mfrac><m:mo>−</m:mo><m:mfrac><m:mrow><m:mn>20</m:mn></m:mrow><m:mrow><m:mn>5</m:mn><m:mi>x</m:mi></m:mrow></m:mfrac></m:math></entry>
+</row>
+<row>
+  <entry>Simplify.</entry>
+  <entry><m:math><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo>+</m:mo><m:mfrac><m:mn>4</m:mn><m:mi>x</m:mi></m:mfrac></m:math></entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+
+</solution>
+</exercise></example><note id="fs-id1169597700078" class="try">
+<exercise id="fs-id1169597700081">
+<problem id="fs-id1169597525470">
+<para id="fs-id1169597525472">Find the quotient: <m:math><m:mrow><m:mfrac><m:mrow><m:mn>18</m:mn><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>6</m:mn><m:mi>c</m:mi><m:mo>−</m:mo><m:mn>9</m:mn></m:mrow><m:mrow><m:mn>6</m:mn><m:mi>c</m:mi></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169597481131">
+<para id="fs-id1169597481133"><m:math><m:mrow><m:mn>3</m:mn><m:mi>c</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo>−</m:mo><m:mfrac><m:mn>3</m:mn><m:mrow><m:mn>2</m:mn><m:mi>c</m:mi></m:mrow></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1169597576430" class="try">
+<exercise id="fs-id1169597576433">
+<problem id="fs-id1169597576435">
+<para id="fs-id1169597480452">Find the quotient: <m:math><m:mrow><m:mfrac><m:mrow><m:mn>10</m:mn><m:msup><m:mi>d</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>5</m:mn><m:mi>d</m:mi><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow><m:mrow><m:mn>5</m:mn><m:mi>d</m:mi></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169597691492">
+<para id="fs-id1169597691494"><m:math><m:mrow><m:mn>2</m:mn><m:mi>d</m:mi><m:mo>−</m:mo><m:mn>1</m:mn><m:mo>−</m:mo><m:mfrac><m:mn>2</m:mn><m:mrow><m:mn>5</m:mn><m:mi>d</m:mi></m:mrow></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+</section>
+<section id="fs-id1169597481790">
+<title>Divide a Polynomial by a Binomial</title>
+<para id="fs-id1169597467275">To divide a polynomial by a <term class="no-emphasis">binomial</term>, we follow a procedure very similar to long division of numbers. So let’s look carefully the steps we take when we divide a 3-digit number, 875, by a 2-digit number, 25.</para>
+<para id="eip-940"><table id="eip-id1172187510368" class="unnumbered unstyled" summary="This figure has two columns. At the top of the figure, the text in the left column says “We write the long division.” In the right column is the long division of 875 by 25. One row down, the text in the left column says “We divide the first two digits, 87, by 25.” This produces 3, which is placed above 875 on the long division bracket in the right column. One row down, the text in the left column says “We multiply 3 times 25 and write the product under the 87.” In the right column, 75 is written under the first two digits of 875 in the long division bracket. One row down, the text in the left column says “Now we subtract 75 from 87.” The difference is 12, which is written under 75 in the right column. One row down, the text in the left column says “Then we bring down the third digit of the divided, 5.” In the right column, the 5 in 875 is brought down next to the 12, making 125. One row down, the text in the left column says, “Repeat the process, dividing 25 into 125.” In the right column, 5 is written after the 3 on top of the long division bracket. 25 fits into 125 exactly 5 times, so the quotient of 875 and 25 is 35."><label/>
+<tgroup cols="2">
+<tbody>
+<row>
+<entry>We write the long division</entry>
+<entry><media id="eip-id1172184642489" alt="The long division of 875 by 25."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_06_06_003a_img_new.jpg"/></media></entry>
+</row>
+<row>
+<entry>We divide the first two digits, 87, by 25.</entry>
+<entry><media id="eip-id1172184642506" alt="25 fits into 87 three times. 3 is written above the second digit of 875 in the long division bracket."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_06_06_003b_img_new.jpg"/></media></entry>
+</row>
+<row>
+<entry>We multiply 3 times 25 and write the product under the 87.</entry>
+<entry><media id="eip-id1172184642522" alt="The product of 3 and 25 is 75, which is written below the first two digits of 875 in the long division bracket."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_06_06_003c_img_new.jpg"/></media></entry>
+</row>
+<row>
+<entry>Now we subtract 75 from 87.</entry>
+<entry><media id="eip-id1172184642539" alt="87 minus 75 is 12, which is written under 75."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_06_06_003d_img_new.jpg"/></media></entry>
+</row>
+<row>
+<entry>Then we bring down the third digit of the dividend, 5.</entry>
+<entry><media id="eip-id1172187798542" alt="The 5 in 875 is brought down next to the 12, making 125."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_06_06_003e_img_new.jpg"/></media></entry>
+</row>
+<row>
+<entry>Repeat the process, dividing 25 into 125.</entry>
+<entry><media id="eip-id1172187798558" alt="25 fits into 125 five times. 5 is written to the right of the 3 on top of the long division bracket. 5 times 25 is 125. 125 minus 125 is zero. There is zero remainder, so 25 fits into 125 exactly five times. 875 divided by 25 equals 35."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_06_06_003f_img_new.jpg"/></media></entry>
+</row>
+</tbody>
+</tgroup>
+</table></para>
+<para id="fs-id1169597467437">We check division by multiplying the quotient by the divisor.</para>
+<para id="fs-id1169597389713">If we did the division correctly, the product should equal the dividend.</para>
+<equation id="fs-id1169597389716" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd columnalign="center"><m:mn>35</m:mn><m:mo>·</m:mo><m:mn>25</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="center"><m:mn>875</m:mn><m:mspace width="0.2em"/><m:mtext>✓</m:mtext></m:mtd></m:mtr></m:mtable></m:math></equation>
+<para id="fs-id1169597477096">Now we will divide a <term class="no-emphasis">trinomial</term> by a binomial. As you read through the example, notice how similar the steps are to the numerical example above.</para>
+<example id="fs-id1169597508401">
+<exercise id="fs-id1169597702000">
+<problem id="fs-id1169597702002">
+<para id="fs-id1169597702005">Find the quotient: <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>9</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>20</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>÷</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169597703002">
+<title>Solution</title>
+<para id="fs-id1169597701537"><table id="eip-id1172188987857" class="unnumbered unstyled can-break" summary="This figure has two columns. At the top of the figure, the right column contains a trinomial, x squared plus 9x plus 20, divided by a binomial, x plus 5. One row down, the text in the left column says “Write it as a long division problem. Be sure the dividend is in standard form.” In the right column is the long division of x squared plus 9x plus 20 by x plus 5. One row down, the text in the left column says “Divide x squared by x. It may help to ask yourself, ‘What do I need to multiply x by to get x squared?’ Put the answer, x, in the quotient over the x term.” In the right column, x is written on top of the long division bracket, above the 9x in x squared plus 9x plus 20. One row down, the text in the left column says “Multiply x times x plus 5. Line up the like terms under the dividend.” In the right column, x squared plus 5x is written under x squared plus 9x in the long division bracket. One row down, the text in the left column says “Subtract x squared plus 5x from x squared plus 9x. You may find it easier to change the signs and then add. Then bring down the last term, 20.” The sum of x squared plus 9x and negative x squared plus negative 5x is 4x, which is written underneath the negative 5x in the right column. The third term in x squared plus 9x plus 20 is brought down next to 4x, making 4x plus 20. One row down, the text in the left column says “Divide 4x by x. It may help to ask yourself, ‘What do I need to multiply x by to get 4x?’ Put the answer, 4, in the quotient over the constant term.” In the right column, 4 is written on top of the long division bracket, next to x and above the 20 in x squared plus 9x plus 20. One row down, the text says “Multiply 4 times x plus 5.” x plus 5 times 4 is exactly 4x plus 20, which is written under the first 4x plus 20 in the right column. One row down, the text in the left column says “Subtract 4x plus 20 from 4x plus 20.” In the right column, the answer is found to be 0, thus x plus 5 fits into x squared plus 9x plus 20 exactly x plus 4 times. One row down, the left column says “Check. Multiply the quotient by the divisor.” Below this is the product of two binomials, x plus 4 and x plus 5. Below this, the text says “You should  get the dividend.” Next to this is x squared plus 9x plus 20 with a check mark next to it."><label/>
+<tgroup cols="2">
+<tbody>
+<row>
+<entry/>
+<entry><media id="eip-id1172188987876" alt="A trinomial, x squared plus 9 x plus 20, divided by a binomial, x plus 5."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_06_06_001b_img_new.jpg"/></media></entry>
+</row>
+<row>
+<entry>Write it as a long division problem.</entry>
+<entry/>
+</row>
+<row>
+<entry>Be sure the dividend is in standard form.</entry>
+<entry><media id="eip-id1172188987901" alt="The long division of x squared plus 9 x plus 20 by x plus 5"><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_06_06_001c_img_new.jpg"/></media></entry>
+</row>
+<row>
+<entry>Divide <emphasis effect="italics">x</emphasis><sup>2</sup> by <emphasis effect="italics">x</emphasis>. It may help to ask yourself, "What do I need to multiply <emphasis effect="italics">x</emphasis> by to get <emphasis effect="italics">x</emphasis><sup>2</sup>?"</entry>
+<entry/>
+</row>
+<row>
+<entry>Put the answer, <emphasis effect="italics">x</emphasis>, in the quotient over the <emphasis effect="italics">x</emphasis> term.</entry>
+<entry><media id="eip-id1172185705618" alt="x fits into x squared x times. x is written above the second term of x squared plus 9 x plus 20 in the long division bracket."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_06_06_001d_img_new.jpg"/></media></entry>
+</row>
+<row>
+<entry>Multiply <emphasis effect="italics">x</emphasis> times <emphasis effect="italics">x</emphasis> + 5. Line up the like terms under the dividend.</entry>
+<entry><media id="eip-id1172185705665" alt="The product of x and x plus 5 is x squared plus 5 x, which is written below the first two terms of x squared plus 9x plus 20 in the long division bracket."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_06_06_001e_img_new.jpg"/></media></entry>
+</row>
+<row>
+<entry>Subtract <emphasis effect="italics">x</emphasis><sup>2</sup> + 5<emphasis effect="italics">x</emphasis> from <emphasis effect="italics">x</emphasis><sup>2</sup> + 9<emphasis effect="italics">x</emphasis>.</entry>
+<entry/>
+</row>
+<row>
+<entry valign="bottom"><media id="eip-id1172182440466" alt="You may find it easier to change the signs and then add."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_06_06_001a_img_new.jpg"/></media><newline/>Then bring down the last term, 20.</entry>
+<entry><media id="eip-id1172182440477" alt="The sum of x squared plus 9 x and negative x squared plus negative 5 x is 4 x, which is written underneath the negative 5 x. The third term in x squared plus 9 x plus 20 is brought down next to 4 x, making 4 x plus 20."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_06_06_001f_img_new.jpg"/></media></entry>
+</row>
+<row>
+<entry>Divide 4<emphasis effect="italics">x</emphasis> by <emphasis effect="italics">x</emphasis>. It may help to ask yourself, "What do I need to<newline/>multiply <emphasis effect="italics">x</emphasis> by to get 4<emphasis effect="italics">x</emphasis>?"</entry>
+<entry/>
+</row>
+<row>
+<entry>Put the answer, 4, in the quotient over the constant term.</entry>
+<entry><media id="eip-id1172182440517" alt="4 x divided by x is 4. Plus 4 is written on top of the long division bracket, next to x and above the 20 in x squared plus 9 x plus 20."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_06_06_001g_img_new.jpg"/></media></entry>
+</row>
+<row>
+<entry>Multiply 4 times <emphasis effect="italics">x</emphasis> + 5.</entry>
+<entry><media id="eip-id1172182440548" alt="x plus 5 times 4 is 4 x plus 20, which is written under the first 4 x plus 20."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_06_06_001h_img_new.jpg"/></media></entry>
+</row>
+<row>
+<entry>Subtract 4<emphasis effect="italics">x</emphasis> + 20 from 4<emphasis effect="italics">x</emphasis> + 20.</entry>
+<entry><media id="eip-id1172187699599" alt="4 x plus 20 minus 4 x plus 20 is 0. The remainder is 0. x squared plus 9 x plus 20 divided by x plus 5 equals x plus 4."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_06_06_001i_img_new.jpg"/></media></entry>
+</row>
+<row>
+<entry>Check:</entry>
+<entry/>
+</row>
+<row>
+<entry>Multiply the quotient by the divisor.</entry>
+<entry/>
+</row>
+<row>
+<entry>(<emphasis effect="italics">x</emphasis> + 4)(<emphasis effect="italics">x</emphasis> + 5)</entry>
+<entry/>
+</row>
+<row>
+<entry>You should get the dividend.</entry>
+<entry/>
+</row>
+<row>
+<entry><emphasis effect="italics">x</emphasis><sup>2</sup> + 9<emphasis effect="italics">x</emphasis> + 20✓</entry>
+<entry/>
+</row>
+</tbody>
+</tgroup>
+</table></para></solution>
+</exercise>
+</example>
+<note id="fs-id1169597538316" class="try">
+<exercise id="fs-id1169597538319">
+<problem id="fs-id1169597705768">
+<para id="fs-id1169597705770">Find the quotient: <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>10</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>21</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>÷</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169597701803">
+<para id="fs-id1169597701805"><m:math><m:mrow><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>7</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1169597577051" class="try">
+<exercise id="fs-id1169597505788">
+<problem id="fs-id1169597505790">
+<para id="fs-id1169597539597">Find the quotient: <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msup><m:mi>m</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>9</m:mn><m:mi>m</m:mi><m:mo>+</m:mo><m:mn>20</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>÷</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>m</m:mi><m:mo>+</m:mo><m:mn>4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169597505694">
+<para id="fs-id1169597537079"><m:math><m:mrow><m:mi>m</m:mi><m:mo>+</m:mo><m:mn>5</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<para id="fs-id1169597534737">When the divisor has subtraction sign, we must be extra careful when we multiply the partial quotient and then subtract. It may be safer to show that we change the signs and then add.</para>
+<example id="fs-id1169597534742">
+<exercise id="fs-id1169597511486">
+<problem id="fs-id1169597511488">
+<para id="fs-id1169597511490">Find the quotient: <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>5</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>÷</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169597395118">
+<title>Solution</title>
+<para id="fs-id1169597517090"><table id="eip-id1172181065697" class="unnumbered unstyled" summary="This figure has two columns. At the top of the figure, the right column contains a trinomial, 2x squared minus 5x minus 3, divided by a binomial, x minus 3. One row down, the text in the left column says “Write it as a long division problem. Be sure the dividend is in standard form.” In the right column is the long division of 2x squared minus 5x minus 3 by x minus 3. One row down, the text in the left column says “Divide 2x squared by x. Put the answer, 2x, in the quotient over the x term.” In the right column, 2x is written on top of the long division bracket, above the 5x in 2x squared minus 5x minus 3. One row down, the text in the left column says “Multiply x times x minus 3. Line up the like terms under the dividend.” In the right column, 2x squared minus 6x is written under 2x squared minus 5x in the long division bracket. One row down, the text in the left column says “Subtract 2x squared minus 6x from 2x squared minus 5x. Change the signs and then add. Then bring down the last term.” The sum of 2x squared minus 5x and negative 2x squared plus 6x is x, which is written underneath the 6x in the right column. The third term in 2x squared minus 5x minus 3 is brought down next to x, making x minus 3. One row down, the text in the left column says “Divide x by x. Put the answer, 1, in the quotient over the constant term.” In the right column, plus 1 is written on top of the long division bracket, next to 2x and above the minus 3 in 2x squared minus 5x minus 3. One row down, the text says “Multiply 1 times x minus 3.” x minus 3 times 1 is x minus 3, which is written under the first x minus 3 in the right column. One row down, the text in the left column says “Subtract x minus 3 from x minus 3 by changing the signs and adding.” In the right column, the answer is found to be 0, thus x minus 3 fits into 2x squared minus 5x minus 3 exactly 2x plus 1 times. One row down, the left column says “To check, multiply x minus 3 by 2x plus 1. The result should be 2x squared minus 5x minus 3.”"><label/>
+<tgroup cols="2">
+<tbody>
+<row>
+<entry/>
+<entry><media id="eip-id1172184928981" alt="A trinomial, 2 x squared minus 5 x minus 3, divided by a binomial, x minus 3."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_06_06_002a_img_new.jpg"/></media></entry>
+</row>
+<row>
+<entry>Write it as a long division problem.</entry>
+<entry/>
+</row>
+<row>
+<entry>Be sure the dividend is in standard form.</entry>
+<entry><media id="eip-id1172184929006" alt="The long division of 2 x squared minus 5 x minus 3 by x minus 3."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_06_06_002b_img_new.jpg"/></media></entry>
+</row>
+<row>
+<entry>Divide 2<emphasis effect="italics">x</emphasis><sup>2</sup> by <emphasis effect="italics">x</emphasis>.<newline/>Put the answer, 2<emphasis effect="italics">x</emphasis>, in the quotient over the <emphasis effect="italics">x</emphasis> term.</entry>
+<entry><media id="eip-id1172183316397" alt="x fits into 2 x squared 2 x times. 2 x is written above the second term of 2 x squared minus 5 x minus 3 in the long division bracket."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_06_06_002c_img_new.jpg"/></media></entry>
+</row>
+<row>
+<entry>Multiply 2<emphasis effect="italics">x</emphasis> times <emphasis effect="italics">x</emphasis> − 3. Line up the like terms under the dividend.</entry>
+<entry><media id="eip-id1172183316424" alt="The product of 2 x and x minus 3 is 2 x squared minus 6 x, which is written below the first two terms of 2 x squared minus 5 x minus 3 in the long division bracket."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_06_06_002d_img_new.jpg"/></media></entry>
+</row>
+<row>
+<entry>Subtract 2<emphasis effect="italics">x</emphasis><sup>2</sup> − 6<emphasis effect="italics">x</emphasis> from 2<emphasis effect="italics">x</emphasis><sup>2</sup> − 5<emphasis effect="italics">x</emphasis>.<newline/>Change the signs and then add.<newline/>Then bring down the last term.</entry>
+<entry><media id="eip-id1172183740032" alt="The sum of 2 x squared minus 5 x and negative 2 x squared plus 6 x is x, which is written underneath the 6 x. The third term in 2 x squared minus 5 x minus 3 is brought down next to x, making x minus 3."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_06_06_002e_img_new.jpg"/></media></entry>
+</row>
+<row>
+<entry>Divide  <emphasis effect="italics">x</emphasis> by <emphasis effect="italics">x</emphasis>.<newline/>Put the answer, 1, in the quotient over the constant term.</entry>
+<entry><media id="eip-id1172187915766" alt="Plus 1 is written on top of the long division bracket, next to 2 x and above the minus 3 in 2 x squared minus 5 x minus 3."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_06_06_002f_img_new.jpg"/></media></entry>
+</row>
+<row>
+<entry>Multiply 1 times <emphasis effect="italics">x</emphasis> − 3.</entry>
+<entry><media id="eip-id1172187915788" alt="x minus 3 times 1 is x minus 3, which is written under the first x minus 3."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_06_06_002g_img_new.jpg"/></media></entry>
+</row>
+<row>
+<entry>Subtract <emphasis effect="italics">x</emphasis> − 3 from <emphasis effect="italics">x</emphasis> − 3 by changing the signs and adding.</entry>
+<entry><media id="eip-id1172187915815" alt="The binomial x minus 3 minus the binomial negative x plus 3 is 0. The remainder is 0. 2 x squared minus 5 x minus 3 divided by x minus 3 equals 2 x plus 1."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_06_06_002h_img_new.jpg"/></media></entry>
+</row>
+<row>
+<entry>To check, multiply (<emphasis effect="italics">x</emphasis> − 3)(2<emphasis effect="italics">x</emphasis> + 1).</entry>
+<entry/>
+</row>
+<row>
+<entry>The result should be 2<emphasis effect="italics">x</emphasis><sup>2</sup> − 5<emphasis effect="italics">x</emphasis> − 3.</entry>
+<entry/>
+</row>
+</tbody>
+</tgroup>
+</table></para></solution>
+</exercise>
+</example>
+<note id="fs-id1169597525784" class="try">
+<exercise id="fs-id1169597525787">
+<problem id="fs-id1169597525789">
+<para id="fs-id1169597480068">Find the quotient: <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>20</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>÷</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169597705809">
+<para id="fs-id1169597705811"><m:math><m:mrow><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>5</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1169597467476" class="try">
+<exercise id="fs-id1169597505545">
+<problem id="fs-id1169597505547">
+<para id="fs-id1169597505549">Find the quotient: <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>16</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>12</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>÷</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>6</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169597479290">
+<para id="fs-id1169597467956"><m:math><m:mrow><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<para id="fs-id1169597466423">When we divided 875 by 25, we had no remainder. But sometimes division of numbers does leave a remainder. The same is true when we divide polynomials. In <link target-id="fs-id1169597466649"/>, we’ll have a division that leaves a remainder. We write the remainder as a fraction with the divisor as the denominator.</para>
+<example id="fs-id1169597466649">
+<exercise id="fs-id1169597466651">
+<problem id="fs-id1169597466653">
+<para id="fs-id1169597466431">Find the quotient: <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup><m:mo>−</m:mo><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>÷</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169597518898">
+<title>Solution</title>
+<para id="fs-id1169597688954"><table id="eip-id1172187568714" class="unnumbered unstyled can-break" summary="This figure has two columns. At the top of the figure, the right column contains one polynomial, x cubed minus x squared plus x plus 4, divided by another polynomial, x plus 1. One row down, the text in the left column says “Write it as a long division problem. Be sure the dividend is in standard form.” In the right column is the long division of x cubed minus x squared plus x plus 4 by x plus 1. One row down, the text in the left column says “Divide x cubed by x. Put the answer, x squared, in the quotient over the x squared term. Multiply x squared times x plus 1. Line up like terms under the dividend.” In the right column, x squared is written on top of the long division bracket, above the minus x squared in x cubed minus x squared plus x plus 4. x cubed plus x squared is written under x cubed plus x squared. One row down, the text in the left column says “Subtract x cubed plus x squared from x cubed minus x squared by changing the signs and then adding. Then bring down the next term.” In the right column, the sum of x cubed minus x squared and negative x cubed plus negative x squared is negative 2x squared, which is written underneath the negative x squared. The next term in x cubed minus x squared plus x plus 4 is brought down next to negative 2x squared, making negative 2x squared plus x. One row down, the text in the left column says “Divide negative 2x squared by x. Put the answer, negative 2x, in the quotient over the x term. Multiply negative 2x times x plus 1. Line up the like terms under the dividend.” In the right column, minus 2x is written on top of the long division bracket, next to x squared and above the x in x cubed minus x squared plus x plus 4. Negative 2x squared minus 2x is written under negative 2x squared plus x. One row down, the text says “Subtract negative 2x squared minus 2x from negative 2x squared plus x by changing the signs and adding. Then bring down the last term.” In the right column, the sum of negative 2x squared plus x and 2x squared plus 2x is found to be 3x. The last term in x cubed minus x squared plus x plus 4 is brought down, making 3x plus 4. One row down, the text in the left column says “Divide 3x by x. Put the answer, 3, in the quotient over the constant term. Multiply 3 times x plus 1. Line up the like terms under the dividend.” In the right column, plus 3 is written on top of the long division bracket, above the 4 in x cubed minus x squared plus x plus 4. 3x plus 3 is written under 3x plus 4. One row down, the text in the left column says “Subtract 3x plus 3 from 3x plus 4 by changing the signs and adding.” In the right column, the sum of 3x plus 4 and negative 3x plus negative 3 is 1. In the left column, the text continues “Write the remainder as a fraction with the divisor as the denominator.” In the right column, the quotient of x cubed minus x squared plus x plus 4 and x plus 1 is found to be x squared minus 2x plus 3 plus 1 divided by x plus 1. One row down, the text in the left column says “To check, multiply x plus 1 by x squared minus 2x plus 3 plus 1 divided by x plus 1. The result should be x cubed minus x squared plus x plus 4.”"><label/>
+<tgroup cols="2">
+<tbody>
+<row>
+<entry/>
+<entry><media id="eip-id1172187568733" alt="A polynomial, x cubed minus x squared plus x plus 4, divided by another polynomial, x plus 1."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_06_06_004a_img_new.jpg"/></media></entry>
+</row>
+<row>
+<entry>Write it as a long division problem.</entry>
+<entry/>
+</row>
+<row>
+<entry>Be sure the dividend is in standard form.</entry>
+<entry><media id="eip-id1172187568790" alt="The long division of x cubed minus x squared plus x plus 4 by x plus 1."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_06_06_004b_img_new.jpg"/></media></entry>
+</row>
+<row>
+<entry>Divide <emphasis effect="italics">x</emphasis><sup>3</sup> by <emphasis effect="italics">x</emphasis>.<newline/>Put the answer, <emphasis effect="italics">x</emphasis><sup>2</sup>, in the quotient over the <emphasis effect="italics">x</emphasis><sup>2</sup> term.<newline/>Multiply <emphasis effect="italics">x</emphasis><sup>2</sup> times <emphasis effect="italics">x</emphasis> + 1. Line up the like terms under the dividend.</entry>
+<entry><media id="eip-id1172182556558" alt="x fits into x squared x times. x is written above the second term of x cubed minus x squared plus x plus 4 in the long division bracket."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_06_06_004c_img_new.jpg"/></media></entry>
+</row>
+<row>
+<entry>Subtract <emphasis effect="italics">x</emphasis><sup>3</sup> + <emphasis effect="italics">x</emphasis><sup>2</sup> from <emphasis effect="italics">x</emphasis><sup>3</sup> − <emphasis effect="italics">x</emphasis><sup>2</sup> by changing the signs and adding.<newline/>Then bring down the next term.</entry>
+<entry><media id="eip-id1172188147656" alt="The sum of x cubed minus x squared and negative x cubed plus negative x squared is negative 2 x squared, which is written underneath the negative x squared. The next term in x cubed minus x squared plus x plus 4 is brought down next to negative 2 x squared, making negative 2 x squared plus x."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_06_06_004d_img_new.jpg"/></media></entry>
+</row>
+<row>
+<entry>Divide −2<emphasis effect="italics">x</emphasis><sup>2</sup> by <emphasis effect="italics">x</emphasis>.<newline/>Put the answer, −2<emphasis effect="italics">x</emphasis>, in the quotient over the <emphasis effect="italics">x</emphasis> term.<newline/>Multiply −2<emphasis effect="italics">x</emphasis> times <emphasis effect="italics">x</emphasis> + 1. Line up the like terms under the dividend.</entry>
+<entry><media id="eip-id1172184642567" alt="Minus 2 x is written on top of the long division bracket, next to x squared and above the x in x cubed minus x squared plus x plus 4. Negative 2 x squared minus 2 x is written under negative 2 x squared plus x."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_06_06_004e_img_new.jpg"/></media></entry>
+</row>
+<row>
+<entry>Subtract −2<emphasis effect="italics">x</emphasis><sup>2</sup> − 2<emphasis effect="italics">x</emphasis> from −2<emphasis effect="italics">x</emphasis><sup>2</sup> + <emphasis effect="italics">x</emphasis> by changing the signs and adding.<newline/>Then bring down the last term.</entry>
+<entry><media id="eip-id1172183494556" alt="The sum of negative 2 x squared plus x and 2 x squared plus 2 x is found to be 3 x. The last term in x cubed minus x squared plus x plus 4 is brought down, making 3 x plus 4."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_06_06_004f_img_new.jpg"/></media></entry>
+</row>
+<row>
+<entry>Divide 3<emphasis effect="italics">x</emphasis> by <emphasis effect="italics">x</emphasis>.<newline/>Put the answer, 3, in the quotient over the constant term.<newline/>Multiply 3 times <emphasis effect="italics">x</emphasis> + 1. Line up the like terms under the dividend.</entry>
+<entry><media id="eip-id1172184642497" alt="Plus 3 is written on top of the long division bracket, above the 4 in x cubed minus x squared plus x plus 4. 3 x plus 3 is written under 3 x plus 4."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_06_06_004g_img_new.jpg"/></media></entry>
+</row>
+<row>
+<entry>Subtract 3<emphasis effect="italics">x</emphasis> + 3 from 3<emphasis effect="italics">x</emphasis> + 4 by changing the signs and adding.<newline/>Write the remainder as a fraction with the divisor as the denominator.</entry>
+<entry><media id="eip-id1172187798533" alt="The sum of 3 x plus 4 and negative 3 x plus negative 3 is 1. Therefore, the polynomial x cubed minus x squared plus x plus 4, divided by the binomial x plus 1, equals x squared minus 2 x plus the fraction 1 over x plus 1."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_06_06_004h_img_new.jpg"/></media></entry>
+</row>
+<row>
+<entry>To check, multiply <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mo>+</m:mo><m:mfrac><m:mrow><m:mn>1</m:mn></m:mrow><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:mfrac><m:mo>)</m:mo><m:mo>.</m:mo></m:mrow></m:mrow></m:mrow></m:math><newline/>The result should be <m:math><m:mrow><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup><m:mo>−</m:mo><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn></m:mrow></m:math>.</entry>
+<entry/>
+</row>
+</tbody>
+</tgroup>
+</table></para></solution>
+</exercise>
+</example>
+<note id="fs-id1169597704014" class="try">
+<exercise id="fs-id1169597702724">
+<problem id="fs-id1169597702726">
+<para id="fs-id1169597702728">Find the quotient: <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup><m:mo>+</m:mo><m:mn>5</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>8</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>6</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>÷</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169597701035">
+<para id="fs-id1169597528272"><m:math><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mo>+</m:mo><m:mfrac><m:mn>2</m:mn><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1169597688530" class="try">
+<exercise id="fs-id1169597688534">
+<problem id="fs-id1169597538034">
+<para id="fs-id1169597538036">Find the quotient: <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup><m:mo>+</m:mo><m:mn>8</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>8</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>÷</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169597688012">
+<para id="fs-id1169597688014"><m:math><m:mrow><m:mn>2</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>6</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>5</m:mn><m:mo>−</m:mo><m:mfrac><m:mn>3</m:mn><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<para id="fs-id1169597467634">Look back at the dividends in <link target-id="fs-id1169597508401"/>, <link target-id="fs-id1169597534742"/>, and <link target-id="fs-id1169597466649"/>. The terms were written in descending order of degrees, and there were no missing degrees. The dividend in <link target-id="fs-id1169597691391"/> will be <m:math><m:mrow><m:msup><m:mi>x</m:mi><m:mn>4</m:mn></m:msup><m:mo>−</m:mo><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>5</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow></m:math>. It is missing an <m:math><m:mrow><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup></m:mrow></m:math> term. We will add in <m:math><m:mrow><m:mn>0</m:mn><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup></m:mrow></m:math> as a placeholder.</para>
+<example id="fs-id1169597691391">
+<exercise id="fs-id1169597691394">
+<problem id="fs-id1169597479156">
+<para id="fs-id1169597479158">Find the quotient: <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msup><m:mi>x</m:mi><m:mn>4</m:mn></m:msup><m:mo>−</m:mo><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>5</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>÷</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169597466575">
+<title>Solution</title>
+<para id="fs-id1169597467230">Notice that there is no <m:math><m:mrow><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup></m:mrow></m:math> term in the dividend. We will add <m:math><m:mrow><m:mn>0</m:mn><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup></m:mrow></m:math> as a placeholder.</para>
+<para id="fs-id1169597702692">
+<table id="fs-id1172181141590" class="unnumbered unstyled can-break" summary="This figure has two columns. At the top of the figure, the right column contains one polynomial, x to the fourth power minus x squared minus 5 x minus 2, divided by another polynomial, x plus 2. One row down, the text in the left column says “Write it as a long division problem. Be sure the dividend is in standard form with placeholders for missing terms.” In the right column is the long division of x to the fourth power plus 0 x cubed minus x squared minus 5 x minus 2 by x plus 2. One row down, the text in the left column says “Divide to the fourth power by x. Put the answer, x cubed, in the quotient over the x cubed term. Multiply x cubed times x plus 2. Line up like terms. Subtract and then bring down the next term.” In the right column, x cubed is written on top of the long division bracket above the x cubed term in the dividend. Below the first two terms of the dividend x to the fourth power plus 2 x cubed is subtracted to give negative 2 x cubed minus x squared. A note next to the division reads “It may be helpful to change the signs and add.” One row down, the text in the left column says “Divide negative 2 x cubed by x. Put the answer, negative 2 x cubed, in the quotient over the x squared term. Multiply negative 2 x squared times x plus 2. Line up like terms. Subtract and bring down the next term.” In the right column, x cubed minus 2 x squared is written on top of the long division bracket. At the bottom of the long division negative 2 x cubed minus 4 x squared is subtracted to give 3 x squared plus 5 x. A note reads “It may be helpful to change the signs and add.” One row down, the text in the left column says “Divide 3 x squared by x. Put the answer, 3 x, in the quotient over the x term. Multiply 3x times x plus 2. Line up the like terms. Subtract and bring down the next term. In the right column, x cubed minus 2 x squared plus 3 x is written on top of the long division bracket. At the bottom of the long division 3 x squared plus 6 x is subtracted to give negative x minus 2. A note reads “It may be helpful to change the signs and add.” One row down, the text in the left column says “Divide negative x by x. Put the answer, negative 1, in the quotient over the constant term. Multiply negative 1 times x plus 2. Line up the like terms. Change the signs, add. In the right column, x cubed minus 2 x squared plus 3 x minus 1 is written on top of the long division bracket. At the bottom of the long division negative x minus 2 is subtract to give 0. A note reads “It may be helpful to change the signs and add.”"><label/>
+<tgroup cols="2">
+<tbody>
+<row>
+<entry/>
+<entry><media id="fs-id1172184443841" alt="A polynomial, x to the fourth power minus x squared minus 5 x minus 2, divided by another polynomial, x plus 2."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_06_06_005a_img_new.jpg"/></media></entry>
+</row>
+<row>
+<entry>Write it as a long division problem. Be sure the dividend is in standard form with placeholders for missing terms.</entry>
+<entry><media id="fs-id1172178264966" alt="The long division of x to the fourth power plus 0 x cubed minus x squared minus 5 x minus 2 by x plus 2."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_06_06_005b_img_new.jpg"/></media></entry>
+</row>
+<row>
+<entry>Divide <emphasis effect="italics">x</emphasis><sup>4</sup> by <emphasis effect="italics">x</emphasis>.<newline/>Put the answer, <emphasis effect="italics">x</emphasis><sup>3</sup>, in the quotient over the <emphasis effect="italics">x</emphasis><sup>3</sup> term.<newline/>Multiply <emphasis effect="italics">x</emphasis><sup>3</sup> times <emphasis effect="italics">x</emphasis> + 2. Line up the like terms.<newline/>Subtract and then bring down the next term.</entry>
+<entry><media id="fs-id1172188027210" alt="x cubed is written on top of the long division bracket above the x cubed term in the dividend. Below the first two terms of the dividend x to the fourth power plus 2 x cubed is subtracted to give negative 2 x cubed minus x squared. A note next to the division reads “It may be helpful to change the signs and add.”"><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_06_06_005c_img_new.jpg"/></media></entry>
+</row>
+<row>
+<entry>Divide −2<emphasis effect="italics">x</emphasis><sup>3</sup> by <emphasis effect="italics">x</emphasis>.<newline/>Put the answer, −2<emphasis effect="italics">x</emphasis><sup>2</sup>, in the quotient over the <emphasis effect="italics">x</emphasis><sup>2</sup> term.<newline/>Multiply −2<emphasis effect="italics">x</emphasis><sup>2</sup> times <emphasis effect="italics">x</emphasis> + 1. Line up the like terms.<newline/>Subtract and bring down the next term.</entry>
+<entry><media id="fs-id1172184878920" alt="x cubed minus 2 x squared is written on top of the long division bracket. At the bottom of the long division negative 2 x cubed minus 4 x squared is subtracted to give 3 x squared plus 5 x. A note reads “It may be helpful to change the signs and add.”"><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_06_06_005d_img_new.jpg"/></media></entry>
+</row>
+<row>
+<entry>Divide 3<emphasis effect="italics">x</emphasis><sup>2</sup> by <emphasis effect="italics">x</emphasis>.<newline/>Put the answer, 3<emphasis effect="italics">x</emphasis>, in the quotient over the <emphasis effect="italics">x</emphasis> term.<newline/>Multiply 3<emphasis effect="italics">x</emphasis> times <emphasis effect="italics">x</emphasis> + 1. Line up the like terms.<newline/>Subtract and bring down the next term.</entry>
+<entry><media id="fs-id1172187754931" alt="x cubed minus 2 x squared plus 3 x is written on top of the long division bracket. At the bottom of the long division 3 x squared plus 6 x is subtracted to give negative x minus 2. A note reads “It may be helpful to change the signs and add.”"><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_06_06_005e_img_new.jpg"/></media></entry>
+</row>
+<row>
+<entry>Divide −<emphasis effect="italics">x</emphasis> by <emphasis effect="italics">x</emphasis>.<newline/>Put the answer, −1, in the quotient over the constant term.<newline/>Multiply −1 times <emphasis effect="italics">x</emphasis> + 1. Line up the like terms.<newline/>Change the signs, add.</entry>
+<entry><media id="fs-id1172183316474" alt="x cubed minus 2 x squared plus 3 x minus 1 is written on top of the long division bracket. At the bottom of the long division negative x minus 2 is subtract to give 0. A note reads “It may be helpful to change the signs and add.” The polynomial x to the fourth power minus x squared plus 5 x minus 2, divided by the binomial x plus 2 equals the polynomial x cubed minus 2 x squared plus 3 x minus 1."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_06_06_005f_img_new.jpg"/></media></entry>
+</row>
+<row>
+<entry>To check, multiply <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup><m:mo>−</m:mo><m:mn>2</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math>.</entry>
+<entry/>
+</row>
+<row>
+<entry>The result should be <m:math><m:mrow><m:msup><m:mi>x</m:mi><m:mn>4</m:mn></m:msup><m:mo>−</m:mo><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>5</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow></m:math>.</entry>
+<entry/>
+</row>
+</tbody>
+</tgroup>
+</table></para>
+</solution>
+</exercise>
+</example>
+<note id="fs-id1169597518958" class="try">
+<exercise id="fs-id1169597518961">
+<problem id="fs-id1169597518963">
+<para id="fs-id1169597541930">Find the quotient: <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>14</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>÷</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169597684586">
+<para id="fs-id1169597684588"><m:math><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>7</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1169597456192" class="try">
+<exercise id="fs-id1169597456195">
+<problem id="fs-id1169597456197">
+<para id="fs-id1169597481566">Find the quotient: <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msup><m:mi>x</m:mi><m:mn>4</m:mn></m:msup><m:mo>−</m:mo><m:mn>3</m:mn><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup><m:mo>−</m:mo><m:mn>1000</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>÷</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169597530418">
+<para id="fs-id1169597530420"><m:math><m:mrow><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup><m:mo>−</m:mo><m:mn>8</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>40</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>200</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<para id="fs-id1169597689590">In <link target-id="fs-id1169597538053"/>, we will divide by <m:math><m:mrow><m:mn>2</m:mn><m:mi>a</m:mi><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow></m:math>. As we divide we will have to consider the constants as well as the variables.</para>
+<example id="fs-id1169597538053">
+<exercise id="fs-id1169597525896">
+<problem id="fs-id1169597525898">
+<para id="fs-id1169597525900">Find the quotient: <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>8</m:mn><m:msup><m:mi>a</m:mi><m:mn>3</m:mn></m:msup><m:mo>+</m:mo><m:mn>27</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>÷</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mi>a</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169597539241">
+<title>Solution</title>
+<para id="fs-id1169597456026">This time we will show the division all in one step. We need to add two placeholders in order to divide.</para>
+<para id="fs-id1169597456030"><media id="fs-id1169597456031" alt="The figure shows the long division of 8 a cubed plus 27 by 2 a plus 3. In the long division bracket, placeholders 0 a squared and 0 a are added into the polynomial. On the first line under the dividend 8 a cubed plus 12 a squared is subtracted. To the right, an arrow indicates that this value came from multiplying 4 a squared by 2 a plus 3. The subtraction gives negative 12 a squared plus 0 a. From this negative 12 a squared minus 18 a is subtracted. To the right, an arrow indicates that this value came from multiplying 6 a by 2 a plus 3. The subtraction give 18 a plus 27. From this 18 a plus 27 is subtracted. To the right, an arrow indicates that this value came from multiplying 9 by 2 a plus 3. The result is 0.">
+<image mime-type="image/jpeg" src="../../media/CNX_ElemAlg_Figure_06_06_006_img_new.jpg"/>
+</media></para>
+<para id="fs-id1169597517990">To check, multiply <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mi>a</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>4</m:mn><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>6</m:mn><m:mi>a</m:mi><m:mo>+</m:mo><m:mn>9</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math>.</para>
+<para id="fs-id1169597456266">The result should be <m:math><m:mrow><m:mn>8</m:mn><m:msup><m:mi>a</m:mi><m:mn>3</m:mn></m:msup><m:mo>+</m:mo><m:mn>27</m:mn></m:mrow></m:math>.</para>
+</solution>
+</exercise>
+</example>
+<note id="fs-id1169597537194" class="try">
+<exercise id="fs-id1169597537197">
+<problem id="fs-id1169597525556">
+<para id="fs-id1169597525558">Find the quotient: <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup><m:mo>−</m:mo><m:mn>64</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>÷</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169597533391">
+<para id="fs-id1169597533393"><m:math><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>16</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1169597701368" class="try">
+<exercise id="fs-id1169597701371">
+<problem id="fs-id1169597701373">
+<para id="fs-id1169597701375">Find the quotient: <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>125</m:mn><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup><m:mo>−</m:mo><m:mn>8</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>÷</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>5</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169597501741">
+<para id="fs-id1169597501743"><m:math><m:mrow><m:mn>25</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>10</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1169597340263" class="media-2">
+<para id="fs-id1169597340267">Access these online resources for additional instruction and practice with dividing polynomials:</para>
+<list id="fs-id1169597340270" display="block">
+<item><link url="https://openstax.org/l/25DividePolyMo1">Divide a Polynomial by a Monomial</link></item>
+<item><link url="https://openstax.org/l/25DividePolyMo2">Divide a Polynomial by a Monomial 2</link></item>
+<item><link url="https://openstax.org/l/25DividePolyBin">Divide Polynomial by Binomial</link></item>
+</list>
+</note>
+</section>
+<section id="fs-id1169597536563" class="key-concepts">
+<title>Key Concepts</title>
+<list id="fs-id1169597536569" list-type="bulleted" bullet-style="bullet">
+<item><emphasis effect="bold">Fraction Addition</emphasis>
+<list id="fs-id1169597528209" list-type="bulleted" bullet-style="open-circle">
+<item>If <m:math><m:mrow><m:mi>a</m:mi><m:mo>,</m:mo><m:mi>b</m:mi><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mtext>and</m:mtext><m:mspace width="0.2em"/><m:mi>c</m:mi></m:mrow></m:math> are numbers where <m:math><m:mrow><m:mi>c</m:mi><m:mo>≠</m:mo><m:mn>0</m:mn></m:mrow></m:math>, then<newline/>
+<m:math><m:mrow><m:mfrac><m:mi>a</m:mi><m:mi>c</m:mi></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mi>b</m:mi><m:mi>c</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>a</m:mi><m:mo>+</m:mo><m:mi>b</m:mi></m:mrow><m:mi>c</m:mi></m:mfrac><m:mspace width="0.5em"/><m:mtext>and</m:mtext><m:mspace width="0.5em"/><m:mfrac><m:mrow><m:mi>a</m:mi><m:mo>+</m:mo><m:mi>b</m:mi></m:mrow><m:mi>c</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mi>a</m:mi><m:mi>c</m:mi></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mi>b</m:mi><m:mi>c</m:mi></m:mfrac></m:mrow></m:math><newline/><newline/></item>
+</list></item>
+<item><emphasis effect="bold">Division of a Polynomial by a Monomial</emphasis>
+<list id="fs-id1169597689368" list-type="bulleted" bullet-style="open-circle">
+<item>To divide a polynomial by a monomial, divide each term of the polynomial by the monomial.</item>
+</list></item>
+</list>
+</section>
+<section id="fs-id1169597460721" class="section-exercises">
+<section id="fs-id1169597460724" class="practice-perfect">
+<title>Practice Makes Perfect</title>
+<para id="fs-id1169597688762">In the following exercises, divide each polynomial by the monomial.</para>
+<exercise id="fs-id1169597688765">
+<problem id="fs-id1169597688768">
+<para id="fs-id1169597688770"><m:math><m:mrow><m:mfrac><m:mrow><m:mn>45</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>36</m:mn></m:mrow><m:mn>9</m:mn></m:mfrac></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1169597689653">
+<problem id="fs-id1169597689655">
+<para id="fs-id1169597689657"><m:math><m:mrow><m:mfrac><m:mrow><m:mn>30</m:mn><m:mi>b</m:mi><m:mo>+</m:mo><m:mn>75</m:mn></m:mrow><m:mn>5</m:mn></m:mfrac></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169597702896">
+<para id="fs-id1169597702898"><m:math><m:mrow><m:mn>6</m:mn><m:mi>b</m:mi><m:mo>+</m:mo><m:mn>15</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1169597508174">
+<problem id="fs-id1169597691512">
+<para id="fs-id1169597691514"><m:math><m:mrow><m:mfrac><m:mrow><m:mn>8</m:mn><m:msup><m:mi>d</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>4</m:mn><m:mi>d</m:mi></m:mrow><m:mn>2</m:mn></m:mfrac></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1169597540766">
+<problem id="fs-id1169597540768">
+<para id="fs-id1169597540770"><m:math><m:mrow><m:mfrac><m:mrow><m:mn>42</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>14</m:mn><m:mi>x</m:mi></m:mrow><m:mn>7</m:mn></m:mfrac></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169597536586">
+<para id="fs-id1169597516032"><m:math><m:mrow><m:mn>6</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>x</m:mi></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1169597478505">
+<problem id="fs-id1169597505773">
+<para id="fs-id1169597505775"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>16</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>20</m:mn><m:mi>y</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>÷</m:mo><m:mn>4</m:mn><m:mi>y</m:mi></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1169597703059">
+<problem id="fs-id1169597703061">
+<para id="fs-id1169597703063"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>55</m:mn><m:msup><m:mi>w</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>10</m:mn><m:mi>w</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>÷</m:mo><m:mn>5</m:mn><m:mi>w</m:mi></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169597703024">
+<para id="fs-id1169597703026"><m:math><m:mrow><m:mn>11</m:mn><m:mi>w</m:mi><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1169597540403">
+<problem id="fs-id1169597705444">
+<para id="fs-id1169597705446"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>9</m:mn><m:msup><m:mi>n</m:mi><m:mn>4</m:mn></m:msup><m:mo>+</m:mo><m:mn>6</m:mn><m:msup><m:mi>n</m:mi><m:mn>3</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>÷</m:mo><m:mn>3</m:mn><m:mi>n</m:mi></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1169597457428">
+<problem id="fs-id1169597457430">
+<para id="fs-id1169597457432"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>8</m:mn><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup><m:mo>+</m:mo><m:mn>6</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>÷</m:mo><m:mn>2</m:mn><m:mi>x</m:mi></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169597576951">
+<para id="fs-id1169597479215"><m:math><m:mrow><m:mn>4</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>x</m:mi></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1169597403556">
+<problem id="fs-id1169597403558">
+<para id="fs-id1169597503219"><m:math><m:mrow><m:mfrac><m:mrow><m:mn>18</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>12</m:mn><m:mi>y</m:mi></m:mrow><m:mrow><m:mn>−6</m:mn></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1169597523416">
+<problem id="fs-id1169597523418">
+<para id="fs-id1169597523420"><m:math><m:mrow><m:mfrac><m:mrow><m:mn>20</m:mn><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>12</m:mn><m:mi>b</m:mi></m:mrow><m:mrow><m:mn>−4</m:mn></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169597415932">
+<para id="fs-id1169597415934"><m:math><m:mrow><m:mn>−5</m:mn><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>b</m:mi></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1169597479005">
+<problem id="fs-id1169597479008">
+<para id="fs-id1169597479010"><m:math><m:mrow><m:mfrac><m:mrow><m:mn>35</m:mn><m:msup><m:mi>a</m:mi><m:mn>4</m:mn></m:msup><m:mo>+</m:mo><m:mn>65</m:mn><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>−5</m:mn></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1169597511803">
+<problem id="fs-id1169597511805">
+<para id="fs-id1169597465593"><m:math><m:mrow><m:mfrac><m:mrow><m:mn>51</m:mn><m:msup><m:mi>m</m:mi><m:mn>4</m:mn></m:msup><m:mo>+</m:mo><m:mn>72</m:mn><m:msup><m:mi>m</m:mi><m:mn>3</m:mn></m:msup></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169597525502">
+<para id="fs-id1169597525504"><m:math><m:mrow><m:mn>−17</m:mn><m:msup><m:mi>m</m:mi><m:mn>4</m:mn></m:msup><m:mo>−</m:mo><m:mn>24</m:mn><m:msup><m:mi>m</m:mi><m:mn>3</m:mn></m:msup></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1169597539580">
+<problem id="fs-id1169597539583">
+<para id="fs-id1169597539585"><m:math><m:mrow><m:mfrac><m:mrow><m:mn>310</m:mn><m:msup><m:mi>y</m:mi><m:mn>4</m:mn></m:msup><m:mo>−</m:mo><m:mn>200</m:mn><m:msup><m:mi>y</m:mi><m:mn>3</m:mn></m:msup></m:mrow><m:mrow><m:mn>5</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1169597507956">
+<problem id="fs-id1169597483789">
+<para id="fs-id1169597483791"><m:math><m:mrow><m:mfrac><m:mrow><m:mn>412</m:mn><m:msup><m:mi>z</m:mi><m:mn>8</m:mn></m:msup><m:mo>−</m:mo><m:mn>48</m:mn><m:msup><m:mi>z</m:mi><m:mn>5</m:mn></m:msup></m:mrow><m:mrow><m:mn>4</m:mn><m:msup><m:mi>z</m:mi><m:mn>3</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169597505812">
+<para id="fs-id1169597495072"><m:math><m:mrow><m:mn>103</m:mn><m:msup><m:mi>z</m:mi><m:mn>5</m:mn></m:msup><m:mo>−</m:mo><m:mn>12</m:mn><m:msup><m:mi>z</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1169597479204">
+<problem id="fs-id1169597394858">
+<para id="fs-id1169597394860"><m:math><m:mrow><m:mfrac><m:mrow><m:mn>46</m:mn><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup><m:mo>+</m:mo><m:mn>38</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>2</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1169597691469">
+<problem id="fs-id1169597691471">
+<para id="fs-id1169597691473"><m:math><m:mrow><m:mfrac><m:mrow><m:mn>51</m:mn><m:msup><m:mi>y</m:mi><m:mn>4</m:mn></m:msup><m:mo>+</m:mo><m:mn>42</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>3</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169597395096">
+<para id="fs-id1169597395098"><m:math><m:mrow><m:mn>17</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>14</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1169597502333">
+<problem id="fs-id1169597502335">
+<para id="fs-id1169597502337"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>24</m:mn><m:msup><m:mi>p</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>33</m:mn><m:mi>p</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>÷</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−3</m:mn><m:mi>p</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1169597705520">
+<problem id="fs-id1169597532386">
+<para id="fs-id1169597532388"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>35</m:mn><m:msup><m:mi>x</m:mi><m:mn>4</m:mn></m:msup><m:mo>−</m:mo><m:mn>21</m:mn><m:mi>x</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>÷</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−7</m:mn><m:mi>x</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169597410380">
+<para id="fs-id1169597479083"><m:math><m:mrow><m:mn>−5</m:mn><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1169597479038">
+<problem id="fs-id1169597479040">
+<para id="fs-id1169597479042"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>63</m:mn><m:msup><m:mi>m</m:mi><m:mn>4</m:mn></m:msup><m:mo>−</m:mo><m:mn>42</m:mn><m:msup><m:mi>m</m:mi><m:mn>3</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>÷</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−7</m:mn><m:msup><m:mi>m</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1169597579576">
+<problem id="fs-id1169597579578">
+<para id="fs-id1169597579580"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>48</m:mn><m:msup><m:mi>y</m:mi><m:mn>4</m:mn></m:msup><m:mo>−</m:mo><m:mn>24</m:mn><m:msup><m:mi>y</m:mi><m:mn>3</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>÷</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−8</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169597537141">
+<para id="fs-id1169597537143"><m:math><m:mrow><m:mn>−6</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>y</m:mi></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1169597541069">
+<problem id="fs-id1169597539273">
+<para id="fs-id1169597539275"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>63</m:mn><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:msup><m:mi>b</m:mi><m:mn>3</m:mn></m:msup><m:mo>+</m:mo><m:mn>72</m:mn><m:mi>a</m:mi><m:msup><m:mi>b</m:mi><m:mn>4</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>÷</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>9</m:mn><m:mi>a</m:mi><m:mi>b</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1169597536103">
+<problem id="fs-id1169597536105">
+<para id="fs-id1169597536108"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>45</m:mn><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup><m:msup><m:mi>y</m:mi><m:mn>4</m:mn></m:msup><m:mo>+</m:mo><m:mn>60</m:mn><m:mi>x</m:mi><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>÷</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>5</m:mn><m:mi>x</m:mi><m:mi>y</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169597539251">
+<para id="fs-id1169597539253"><m:math><m:mrow><m:mn>9</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:msup><m:mi>y</m:mi><m:mn>3</m:mn></m:msup><m:mo>+</m:mo><m:mn>12</m:mn><m:mi>y</m:mi></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1169597500425">
+<problem id="fs-id1169597500427">
+<para id="fs-id1169597703956"><m:math><m:mrow><m:mfrac><m:mrow><m:mn>52</m:mn><m:msup><m:mi>p</m:mi><m:mn>5</m:mn></m:msup><m:msup><m:mi>q</m:mi><m:mn>4</m:mn></m:msup><m:mo>+</m:mo><m:mn>36</m:mn><m:msup><m:mi>p</m:mi><m:mn>4</m:mn></m:msup><m:msup><m:mi>q</m:mi><m:mn>3</m:mn></m:msup><m:mo>−</m:mo><m:mn>64</m:mn><m:msup><m:mi>p</m:mi><m:mn>3</m:mn></m:msup><m:msup><m:mi>q</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>4</m:mn><m:msup><m:mi>p</m:mi><m:mn>2</m:mn></m:msup><m:mi>q</m:mi></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1169597688599">
+<problem id="fs-id1169597688602">
+<para id="fs-id1169597688604"><m:math><m:mrow><m:mfrac><m:mrow><m:mn>49</m:mn><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup><m:msup><m:mi>d</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>70</m:mn><m:msup><m:mi>c</m:mi><m:mn>3</m:mn></m:msup><m:msup><m:mi>d</m:mi><m:mn>3</m:mn></m:msup><m:mo>−</m:mo><m:mn>35</m:mn><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup><m:msup><m:mi>d</m:mi><m:mn>4</m:mn></m:msup></m:mrow><m:mrow><m:mn>7</m:mn><m:mi>c</m:mi><m:msup><m:mi>d</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169597508149">
+<para id="fs-id1169597508152"><m:math><m:mrow><m:mn>7</m:mn><m:mi>c</m:mi><m:mo>−</m:mo><m:mn>10</m:mn><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup><m:mi>d</m:mi><m:mo>−</m:mo><m:mn>5</m:mn><m:mi>c</m:mi><m:msup><m:mi>d</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1169597517875">
+<problem id="fs-id1169597517877">
+<para id="fs-id1169597517880"><m:math><m:mrow><m:mfrac><m:mrow><m:mn>66</m:mn><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>110</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:msup><m:mi>y</m:mi><m:mn>3</m:mn></m:msup><m:mo>−</m:mo><m:mn>44</m:mn><m:msup><m:mi>x</m:mi><m:mn>4</m:mn></m:msup><m:msup><m:mi>y</m:mi><m:mn>3</m:mn></m:msup></m:mrow><m:mrow><m:mn>11</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1169597533008">
+<problem id="fs-id1169597533010">
+<para id="fs-id1169597533013"><m:math><m:mrow><m:mfrac><m:mrow><m:mn>72</m:mn><m:msup><m:mi>r</m:mi><m:mn>5</m:mn></m:msup><m:msup><m:mi>s</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>132</m:mn><m:msup><m:mi>r</m:mi><m:mn>4</m:mn></m:msup><m:msup><m:mi>s</m:mi><m:mn>3</m:mn></m:msup><m:mo>−</m:mo><m:mn>96</m:mn><m:msup><m:mi>r</m:mi><m:mn>3</m:mn></m:msup><m:msup><m:mi>s</m:mi><m:mn>5</m:mn></m:msup></m:mrow><m:mrow><m:mn>12</m:mn><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup><m:msup><m:mi>s</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169597518079">
+<para id="fs-id1169597518081"><m:math><m:mrow><m:mn>6</m:mn><m:msup><m:mi>r</m:mi><m:mn>3</m:mn></m:msup><m:mo>+</m:mo><m:mn>11</m:mn><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup><m:mi>s</m:mi><m:mo>−</m:mo><m:mn>8</m:mn><m:mi>r</m:mi><m:msup><m:mi>s</m:mi><m:mn>3</m:mn></m:msup></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1169597689502">
+<problem id="fs-id1169597689504">
+<para id="fs-id1169597689507"><m:math><m:mrow><m:mfrac><m:mrow><m:mn>4</m:mn><m:msup><m:mi>w</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>w</m:mi><m:mo>−</m:mo><m:mn>5</m:mn></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>w</m:mi></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1169597505645">
+<problem id="fs-id1169597505648">
+<para id="fs-id1169597691185"><m:math><m:mrow><m:mfrac><m:mrow><m:mn>12</m:mn><m:msup><m:mi>q</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>q</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow><m:mrow><m:mn>3</m:mn><m:mi>q</m:mi></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169597705533">
+<para id="fs-id1169597705536"><m:math><m:mrow><m:mn>4</m:mn><m:mi>q</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo>−</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>3</m:mn><m:mi>q</m:mi></m:mrow></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1169597507826">
+<problem id="fs-id1169597507828">
+<para id="fs-id1169597507711"><m:math><m:mrow><m:mfrac><m:mrow><m:mn>10</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>5</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>4</m:mn></m:mrow><m:mrow><m:mn>−5</m:mn><m:mi>x</m:mi></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1169597505676">
+<problem id="fs-id1169597505678">
+<para id="fs-id1169597688085"><m:math><m:mrow><m:mfrac><m:mrow><m:mn>20</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>12</m:mn><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow><m:mrow><m:mn>−4</m:mn><m:mi>y</m:mi></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169597689414">
+<para id="fs-id1169597689417"><m:math><m:mrow><m:mn>−5</m:mn><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>4</m:mn><m:mi>y</m:mi></m:mrow></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1169597690568">
+<problem id="fs-id1169597690570">
+<para id="fs-id1169597690572"><m:math><m:mrow><m:mfrac><m:mrow><m:mn>36</m:mn><m:msup><m:mi>p</m:mi><m:mn>3</m:mn></m:msup><m:mo>+</m:mo><m:mn>18</m:mn><m:msup><m:mi>p</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>12</m:mn><m:mi>p</m:mi></m:mrow><m:mrow><m:mn>6</m:mn><m:msup><m:mi>p</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1169597555593">
+<problem id="fs-id1169597555595">
+<para id="fs-id1169597555597"><m:math><m:mrow><m:mfrac><m:mrow><m:mn>63</m:mn><m:msup><m:mi>a</m:mi><m:mn>3</m:mn></m:msup><m:mo>−</m:mo><m:mn>108</m:mn><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>99</m:mn><m:mi>a</m:mi></m:mrow><m:mrow><m:mn>9</m:mn><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169597690772">
+<para id="fs-id1169597690774"><m:math><m:mrow><m:mn>7</m:mn><m:mi>a</m:mi><m:mo>−</m:mo><m:mn>12</m:mn><m:mo>+</m:mo><m:mfrac><m:mrow><m:mn>11</m:mn></m:mrow><m:mi>a</m:mi></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+<para id="fs-id1169597691545"><emphasis effect="bold">Divide a Polynomial by a Binomial</emphasis></para>
+<para id="fs-id1168745135233">In the following exercises, divide each polynomial by the binomial.</para>
+<exercise id="fs-id1169597691552">
+<problem id="fs-id1169597691554">
+<para id="fs-id1169597691556"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>7</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>12</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>÷</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1169597508201">
+<problem id="fs-id1169597508203">
+<para id="fs-id1169597508205"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msup><m:mi>d</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>8</m:mn><m:mi>d</m:mi><m:mo>+</m:mo><m:mn>12</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>÷</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>d</m:mi><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169597461062">
+<para id="fs-id1169597461064"><m:math><m:mrow><m:mi>d</m:mi><m:mo>+</m:mo><m:mn>6</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1169597704251">
+<problem id="fs-id1169597704254">
+<para id="fs-id1169597704256"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>10</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>÷</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1169597539545">
+<problem id="fs-id1169597539548">
+<para id="fs-id1169597539550"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>a</m:mi><m:mo>−</m:mo><m:mn>35</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>÷</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>a</m:mi><m:mo>+</m:mo><m:mn>5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169597541088">
+<para id="fs-id1169597541090"><m:math><m:mrow><m:mi>a</m:mi><m:mo>−</m:mo><m:mn>7</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1169597507990">
+<problem id="fs-id1169597507992">
+<para id="fs-id1169597507995"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msup><m:mi>t</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>12</m:mn><m:mi>t</m:mi><m:mo>+</m:mo><m:mn>36</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>÷</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>t</m:mi><m:mo>−</m:mo><m:mn>6</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1169597533723">
+<problem id="fs-id1169597533725">
+<para id="fs-id1169597533727"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>14</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>49</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>÷</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>7</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169597395213">
+<para id="fs-id1169597688492"><m:math><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>7</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1169597688505">
+<problem id="fs-id1169597688507">
+<para id="fs-id1169597688510"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>6</m:mn><m:msup><m:mi>m</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>19</m:mn><m:mi>m</m:mi><m:mo>−</m:mo><m:mn>20</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>÷</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>m</m:mi><m:mo>−</m:mo><m:mn>4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1169597691274">
+<problem id="fs-id1169597691276">
+<para id="fs-id1169597508034"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>4</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>17</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>15</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>÷</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169597479508">
+<para id="fs-id1169597479511"><m:math><m:mrow><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1169597688851">
+<problem id="fs-id1169597688854">
+<para id="fs-id1169597688856"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msup><m:mi>q</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>q</m:mi><m:mo>+</m:mo><m:mn>20</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>÷</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>q</m:mi><m:mo>+</m:mo><m:mn>6</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1169597699782">
+<problem id="fs-id1169597699784">
+<para id="fs-id1169597699786"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msup><m:mi>p</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>11</m:mn><m:mi>p</m:mi><m:mo>+</m:mo><m:mn>16</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>÷</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>p</m:mi><m:mo>+</m:mo><m:mn>8</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169597537114">
+<para id="fs-id1169597537116"><m:math><m:mrow><m:mi>p</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mo>−</m:mo><m:mfrac><m:mn>8</m:mn><m:mrow><m:mi>p</m:mi><m:mo>+</m:mo><m:mn>8</m:mn></m:mrow></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1169597507965">
+<problem id="fs-id1169597507967">
+<para id="fs-id1169597507970"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>3</m:mn><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>15</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>÷</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>8</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1169597536609">
+<problem id="fs-id1169597536611">
+<para id="fs-id1169597536613"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>30</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>÷</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169597507780">
+<para id="fs-id1169597507782"><m:math><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>7</m:mn><m:mo>+</m:mo><m:mfrac><m:mn>5</m:mn><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>5</m:mn></m:mrow></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1169597479109">
+<problem id="fs-id1169597479111">
+<para id="fs-id1169597479113"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3</m:mn><m:msup><m:mi>b</m:mi><m:mn>3</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>÷</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>b</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1169597701854">
+<problem id="fs-id1169597701857">
+<para id="fs-id1169597701859"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:msup><m:mi>n</m:mi><m:mn>3</m:mn></m:msup><m:mo>−</m:mo><m:mn>10</m:mn><m:mi>n</m:mi><m:mo>+</m:mo><m:mn>24</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>÷</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>n</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169597701931">
+<para id="fs-id1169597701933"><m:math><m:mrow><m:mn>2</m:mn><m:msup><m:mi>n</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>6</m:mn><m:mi>n</m:mi><m:mo>+</m:mo><m:mn>8</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1169597701957">
+<problem id="fs-id1169597701959">
+<para id="fs-id1169597701962"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:msup><m:mi>y</m:mi><m:mn>3</m:mn></m:msup><m:mo>−</m:mo><m:mn>6</m:mn><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>36</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>÷</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1169597689071">
+<problem id="fs-id1169597689074">
+<para id="fs-id1169597689076"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>7</m:mn><m:msup><m:mi>q</m:mi><m:mn>3</m:mn></m:msup><m:mo>−</m:mo><m:mn>5</m:mn><m:mi>q</m:mi><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>÷</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>q</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169597517275">
+<para id="fs-id1169597517278"><m:math><m:mrow><m:mn>7</m:mn><m:msup><m:mi>q</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>7</m:mn><m:mi>q</m:mi><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1169597539317">
+<problem id="fs-id1169597539320">
+<para id="fs-id1169597539322"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msup><m:mi>z</m:mi><m:mn>3</m:mn></m:msup><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>÷</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>z</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1169597479465">
+<problem id="fs-id1169597479467">
+<para id="fs-id1169597479469"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msup><m:mi>m</m:mi><m:mn>3</m:mn></m:msup><m:mo>+</m:mo><m:mn>1000</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>÷</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>m</m:mi><m:mo>+</m:mo><m:mn>10</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169597688679">
+<para id="fs-id1169597688681"><m:math><m:mrow><m:msup><m:mi>m</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>10</m:mn><m:mi>m</m:mi><m:mo>+</m:mo><m:mn>100</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1169597688039">
+<problem id="fs-id1169597688041">
+<para id="fs-id1169597688043"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msup><m:mi>a</m:mi><m:mn>3</m:mn></m:msup><m:mo>−</m:mo><m:mn>125</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>÷</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>a</m:mi><m:mo>−</m:mo><m:mn>5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1169597691161">
+<problem id="fs-id1169597506296">
+<para id="fs-id1169597506298"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup><m:mo>−</m:mo><m:mn>216</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>÷</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>6</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169597506335">
+<para id="fs-id1169597688544"><m:math><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>6</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>36</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1169597688566">
+<problem id="fs-id1169597688568">
+<para id="fs-id1169597688570"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>64</m:mn><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup><m:mo>−</m:mo><m:mn>27</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>÷</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1169597540823">
+<problem id="fs-id1169597540826">
+<para id="fs-id1169597540828"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>125</m:mn><m:msup><m:mi>y</m:mi><m:mn>3</m:mn></m:msup><m:mo>−</m:mo><m:mn>64</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>÷</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>5</m:mn><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169597508098">
+<para id="fs-id1169597508100"><m:math><m:mrow><m:mn>25</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>20</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>16</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+</section>
+<section id="fs-id1169597533039" class="everyday">
+<title>Everyday Math</title>
+<exercise id="fs-id1169597533044">
+<problem id="fs-id1169597533046">
+<para id="fs-id1169597533048"><emphasis effect="bold">Average cost</emphasis> Pictures Plus produces digital albums. The company’s average cost (in dollars) to make <m:math><m:mi>x</m:mi></m:math> albums is given by the expression <m:math><m:mrow><m:mfrac><m:mrow><m:mn>7</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>500</m:mn></m:mrow><m:mi>x</m:mi></m:mfrac></m:mrow></m:math>.</para>
+<list id="fs-id1168745404763" list-type="enumerated" number-style="arabic" class="circled">
+<item><span class="token">ⓐ</span> Find the quotient by dividing the numerator by the denominator.</item>
+<item><span class="token">ⓑ</span> What will the average cost (in dollars) be to produce 20 albums?</item>
+</list>
+</problem>
+</exercise>
+<exercise id="fs-id1169597517356">
+<problem id="fs-id1169597517358">
+<para id="fs-id1169597517360"><emphasis effect="bold">Handshakes</emphasis> At a company meeting, every employee shakes hands with every other employee. The number of handshakes is given by the expression <m:math><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>n</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mi>n</m:mi></m:mrow><m:mn>2</m:mn></m:mfrac></m:mrow></m:math>, where <m:math><m:mi>n</m:mi></m:math> represents the number of employees. How many handshakes will there be if there are 10 employees at the meeting?</para>
+</problem>
+<solution id="fs-id1169597478547">
+<para id="fs-id1169597478549">45</para>
+</solution>
+</exercise>
+</section>
+<section id="fs-id1169597478555" class="writing">
+<title>Writing Exercises</title>
+<exercise id="fs-id1169597478560">
+<problem id="fs-id1169597688617">
+<para id="fs-id1169597688619">James divides <m:math><m:mrow><m:mn>48</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>6</m:mn></m:mrow></m:math> by 6 this way: <m:math><m:mrow><m:mfrac><m:mrow><m:mn>48</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:menclose notation="updiagonalstrike"><m:mn>6</m:mn></m:menclose></m:mrow><m:mrow><m:menclose notation="updiagonalstrike"><m:mn>6</m:mn></m:menclose></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>48</m:mn><m:mi>y</m:mi></m:mrow></m:math>. What is wrong with his reasoning?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1169597517217">
+<problem id="fs-id1169597517219">
+<para id="fs-id1169597517221">Divide <m:math><m:mrow><m:mfrac><m:mrow><m:mn>10</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>12</m:mn></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>x</m:mi></m:mrow></m:mfrac></m:mrow></m:math> and explain with words how you get each term of the quotient.</para>
+</problem>
+<solution id="fs-id1169597539371">
+<para id="fs-id1169597539373">Answers will vary.</para>
+</solution>
+</exercise>
+</section>
+<section id="fs-id1168745570131">
+<title>Self Check</title>
+<para id="fs-id1169597539383"><span class="token">ⓐ</span> After completing the exercises, use this checklist to evaluate your mastery of the objectives of this section.</para>
+<media id="fs-id1169597539394" alt="This is a table that has three rows and four columns. In the first row, which is a header row, the cells read from left to right “I can…,” “Confidently,” “With some help,” and “No-I don’t get it!” The first column below “I can…” reads “divide a polynomial by a monomial,” and “divide a polynomial by a binomial.” The rest of the cells are blank.">
+<image mime-type="image/jpeg" src="../../media/CNX_ElemAlg_Figure_06_06_201_img_new.jpg"/>
+</media>
+<para id="fs-id1169597539403"><span class="token">ⓑ</span> After reviewing this checklist, what will you do to become confident for all goals?</para>
+</section>
+</section>
+</content>
+</document>

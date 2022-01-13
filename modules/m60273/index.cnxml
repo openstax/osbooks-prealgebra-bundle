@@ -1,0 +1,1717 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Graph Linear Equations in Two Variables</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m60273</md:content-id>
+  <md:title>Graph Linear Equations in Two Variables</md:title>
+  <md:abstract><para>By the end of this section, you will be able to:</para>
+<list>
+<item>Recognize the relationship between the solutions of an equation and its graph.</item>
+<item>Graph a linear equation by plotting points.</item>
+<item>Graph vertical and horizontal lines.</item>
+</list></md:abstract>
+  <md:uuid>ba853849-9e0e-4c65-9709-683d2575b1a6</md:uuid>
+</metadata>
+
+<content>
+<note id="fs-id1169596685166" class="be-prepared">
+<para id="fs-id1169596556983">Before you get started, take this readiness quiz.</para>
+<list id="fs-id1169596381070" list-type="enumerated" number-style="arabic">
+<item>Evaluate <m:math><m:mrow><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow></m:math> when <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>−1</m:mn></m:mrow></m:math>.<newline/>
+If you missed this problem, review <link document="m60212" target-id="fs-id1170654287812"/>.</item>
+<item>Solve <m:math><m:mrow><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>12</m:mn></m:mrow></m:math> for <m:math><m:mi>y</m:mi></m:math> in general.<newline/>
+If you missed this problem, review <link document="m60231" target-id="fs-id1168345520209"/>.</item>
+</list>
+</note>
+<section id="fs-id1169596497621">
+<title>Recognize the Relationship Between the Solutions of an Equation and its Graph</title>
+<para id="fs-id1169596288680">In the previous section, we found several solutions to the equation <m:math><m:mrow><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>6</m:mn></m:mrow></m:math>. They are listed in <link target-id="fs-id1169596529930"/>. So, the ordered pairs <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math>, <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>0</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math>, and <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>,</m:mo><m:mfrac><m:mn>3</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> are some solutions to the equation <m:math><m:mrow><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>6</m:mn></m:mrow></m:math>. We can plot these solutions in the rectangular coordinate system as shown in <link target-id="CNX_ElemAlg_Figure_04_02_001"/>.</para>
+<table id="fs-id1169596529930" summary="This table has 5 rows and 3 columns. The first row is a title row with the equation 3x plus 2y equals 6. The second row is a header row and it labels each column. The first column header is “x”, the second is “y” and the third is “(x, y)”. Under the first column are the numbers 0, 2, and 1. Under the second column are the numbers 3, 0, and three halves. Under the third column are the ordered pairs (0, 3), (2, 0), and (1, three halves).">
+<tgroup cols="3">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<tbody>
+<row valign="top">
+<entry valign="middle" align="center" namest="c1" nameend="c3"><emphasis effect="bold"><m:math><m:mrow><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>6</m:mn></m:mrow></m:math></emphasis></entry>
+</row>
+<row valign="top">
+<entry valign="middle" align="center"><emphasis effect="bold"><m:math><m:mi>x</m:mi></m:math></emphasis></entry>
+<entry valign="bottom" align="center"><emphasis effect="bold"><m:math><m:mi>y</m:mi></m:math></emphasis></entry>
+<entry valign="middle" align="center"><emphasis effect="bold"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>y</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></emphasis></entry>
+</row>
+<row valign="top">
+<entry valign="middle" align="center">0</entry>
+<entry valign="middle" align="center">3</entry>
+<entry valign="middle" align="center"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="middle" align="center">2</entry>
+<entry valign="middle" align="center">0</entry>
+<entry valign="middle" align="center"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>0</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="middle" align="center">1</entry>
+<entry valign="middle" align="center"><m:math><m:mrow><m:mfrac><m:mn>3</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow></m:math></entry>
+<entry valign="middle" align="center"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>,</m:mo><m:mfrac><m:mn>3</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<figure id="CNX_ElemAlg_Figure_04_02_001">
+<media id="fs-id1169596366303" alt="The figure shows four points on the x y-coordinate plane. The x-axis of the plane runs from negative 7 to 7. The y-axis of the plane runs from negative 7 to 7. Dots mark off the four points at (0, 3), (1, three halves), (2, 0), and (4, negative 3). The four points appear to line up along a straight line.">
+<image mime-type="image/jpeg" src="../../media/CNX_ElemAlg_Figure_04_02_001_img_new.jpg"/>
+</media>
+</figure>
+<para id="fs-id1169596395639">Notice how the points line up perfectly? We connect the points with a line to get the graph of the equation <m:math><m:mrow><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>6</m:mn></m:mrow></m:math>. See <link target-id="CNX_ElemAlg_Figure_04_02_002"/>. Notice the arrows on the ends of each side of the line. These arrows indicate the line continues.</para>
+<figure id="CNX_ElemAlg_Figure_04_02_002">
+<media id="fs-id1169594072032" alt="The figure shows a straight line drawn through four points on the x y-coordinate plane. The x-axis of the plane runs from negative 7 to 7. The y-axis of the plane runs from negative 7 to 7. Dots mark off the four points at (0, 3), (1, three halves), (2, 0), and (4, negative 3). A straight line with a negative slope goes through all four points. The line has arrows on both ends pointing to the edge of the figure. The line is labeled with the equation 3x plus 2y equals 6.">
+<image mime-type="image/jpeg" src="../../media/CNX_ElemAlg_Figure_04_02_002_img_new.jpg"/>
+</media>
+</figure>
+<para id="fs-id1169596498779">Every point on the line is a solution of the equation. Also, every solution of this equation is a point on this line. Points <emphasis effect="italics">not</emphasis> on the line are not solutions.</para>
+<para id="fs-id1169596621603">Notice that the point whose coordinates are <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−2</m:mn><m:mo>,</m:mo><m:mn>6</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> is on the line shown in <link target-id="CNX_ElemAlg_Figure_04_02_003"/>. If you substitute <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>−2</m:mn></m:mrow></m:math> and <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>6</m:mn></m:mrow></m:math> into the equation, you find that it is a solution to the equation.</para>
+<figure id="CNX_ElemAlg_Figure_04_02_003">
+<media id="fs-id1169596658659" alt="The figure shows a straight line and two points and on the x y-coordinate plane. The x-axis of the plane runs from negative 7 to 7. The y-axis of the plane runs from negative 7 to 7. Dots mark off the two points and are labeled by the coordinates “(negative 2, 6)” and “(4, 1)”. The straight line goes through the point (negative 2, 6) but does not go through the point (4, 1).">
+<image mime-type="image/jpeg" src="../../media/CNX_ElemAlg_Figure_04_02_003_img_new.jpg"/>
+</media>
+</figure>
+<media id="fs-id1169596295719" alt="The figure shows a series of equations to check if the ordered pair (negative 2, 6) is a solution to the equation 3x plus 2y equals 6. The first line states “Test (negative 2, 6)”. The negative 2 is colored blue and the 6 is colored red. The second line states the two- variable equation 3x plus 2y equals 6. The third line shows the ordered pair substituted into the two- variable equation resulting in 3(negative 2) plus 2(6) equals 6 where the negative 2 is colored blue to show it is the first component in the ordered pair and the 6 is red to show it is the second component in the ordered pair. The fourth line is the simplified equation negative 6 plus 12 equals 6. The fifth line is the further simplified equation 6equals6. A check mark is written next to the last equation to indicate it is a true statement and show that (negative 2, 6) is a solution to the equation 3x plus 2y equals 6.">
+<image mime-type="image/jpeg" src="../../media/CNX_ElemAlg_Figure_04_02_020_img_new.jpg"/>
+</media>
+<para id="fs-id1169596704533">So the point <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−2</m:mn><m:mo>,</m:mo><m:mn>6</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> is a solution to the equation <m:math><m:mrow><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>6</m:mn></m:mrow></m:math>. (The phrase “the point whose coordinates are <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−2</m:mn><m:mo>,</m:mo><m:mn>6</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math>” is often shortened to “the point <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−2</m:mn><m:mo>,</m:mo><m:mn>6</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math>.”)</para>
+<media id="fs-id1169596233549" alt="The figure shows a series of equations to check if the ordered pair (4, 1) is a solution to the equation 3x plus 2y equals 6. The first line states “What about (4, 1)?”. The 4 is colored blue and the 1 is colored red. The second line states the two- variable equation 3x plus 2y equals 6. The third line shows the ordered pair substituted into the two- variable equation resulting in 3(4) plus 2(1) equals 6 where the 4 is colored blue to show it is the first component in the ordered pair and the 1 is red to show it is the second component in the ordered pair. The fourth line is the simplified equation 12 plus 2 equals 6. A question mark is placed above the equals sign to indicate that it is not known if the equation is true or false. The fifth line is the further simplified statement 14 not equal to 6. A “not equals” sign is written between the two numbers and looks like an equals sign with a forward slash through it.">
+<image mime-type="image/jpeg" src="../../media/CNX_ElemAlg_Figure_04_02_021_img_new.jpg"/>
+</media>
+<para id="fs-id1169596211761">So <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>4</m:mn><m:mo>,</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> is not a solution to the equation <m:math><m:mrow><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>6</m:mn></m:mrow></m:math>. Therefore, the point <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>4</m:mn><m:mo>,</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> is not on the line. See <link target-id="CNX_ElemAlg_Figure_04_02_002"/>. This is an example of the saying, “A picture is worth a thousand words.” The line shows you <emphasis effect="italics">all</emphasis> the solutions to the equation. Every point on the line is a solution of the equation. And, every solution of this equation is on this line. This line is called the <emphasis effect="italics">graph</emphasis> of the equation <m:math><m:mrow><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>6</m:mn></m:mrow></m:math>.</para>
+<note id="fs-id1169596619696">
+<title>Graph of a Linear Equation</title>
+<para id="fs-id1169594086156">The <term>graph of a linear equation</term> <m:math><m:mrow><m:mi>A</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>B</m:mi><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>C</m:mi></m:mrow></m:math> is a line.</para>
+<list id="fs-id1169596469070" list-type="bulleted" bullet-style="bullet">
+<item>Every point on the line is a solution of the equation.</item>
+<item>Every solution of this equation is a point on this line.</item>
+</list>
+</note>
+<example id="fs-id1169596766949">
+<exercise id="fs-id1169594060860">
+<problem id="fs-id1169596446085">
+<para id="fs-id1169596590486">The graph of <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow></m:math> is shown.</para>
+<media id="fs-id1169596298887" alt="The figure shows a straight line on the x y-coordinate plane. The x-axis of the plane runs from negative 7 to 7. The y-axis of the plane runs from negative 7 to 7. The straight line has a positive slope and goes through the y-axis at the (0, negative 3). The line is labeled with the equation y equals 2x negative 3.">
+<image mime-type="image/jpeg" src="../../media/CNX_ElemAlg_Figure_04_02_004_img_new.jpg"/>
+</media>
+<para id="fs-id1169594147325">For each ordered pair, decide:</para>
+<para id="fs-id1168464057467"><span class="token">ⓐ</span> Is the ordered pair a solution to the equation?<newline/>
+<span class="token">ⓑ</span> Is the point on the line?</para>
+<para id="fs-id1169594053219">A <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>−3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> B <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> C <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>−3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> D <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−1</m:mn><m:mo>,</m:mo><m:mn>−5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169596584660">
+<title>Solution</title>
+<para id="fs-id1169594031478">Substitute the <emphasis effect="italics">x</emphasis>- and <emphasis effect="italics">y</emphasis>- values into the equation to check if the ordered pair is a solution to the equation.</para>
+<list id="fs-id1169596529966" list-type="enumerated" number-style="arabic" class="circled">
+<item><span class="token">ⓐ</span><newline/>
+<para id="fs-id1169596406095"><media id="fs-id1169594053171" alt="The figure shows a series of equations to check if the ordered pairs (0, negative 3), (3, 3), (2, negative 3), and (negative 1, negative 5) are a solutions to the equation y equals 2x negative 3. The first line states the ordered pairs with the labels A: (0, negative 3), B: (3, 3), C: (2, negative 3), and D: (negative 1, negative 5). The first components are colored blue and the second components are colored red. The second line states the two- variable equation y equals 2x minus 3. The third line shows the four ordered pairs substituted into the two- variable equation resulting in four equations. The first equation is negative 3 equals 2(0) minus 3 where the 0 is colored clue and the negative 3 on the left side of the equation is colored red. The second equation is 3 equals 2(3) minus 3 where the 3 in parentheses is colored clue and the 3 on the left side of the equation is colored red. The third equation is negative 3 equals 2(2) minus 3 where the 2 in parentheses is colored clue and the negative 3 on the left side of the equation is colored red. The fourth equation is negative 5 equals 2(negative 1) minus 3 where the negative 1 is colored clue and the negative 5 is colored red. Question marks are placed above all the equal signs to indicate that it is not known if the equations are true or false. The fourth line shows the simplified versions of the four equations. The first is negative 3 equals negative 3 with a check mark indicating (0, negative 3) is a solution. The second is 3 equals 3 with a check mark indicating (3, 3) is a solution. The third is negative 3 not equals 1 indicating (2, negative 3) is not a solution. The fourth is negative 5 equals negative 5 with a check mark indicating (negative 1, negative 5) is a solution.">
+<image mime-type="image/jpeg" src="../../media/CNX_ElemAlg_Figure_04_02_022_img_new.jpg"/>
+</media></para></item>
+<item><span class="token">ⓑ</span> Plot the points A <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math>, B <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math>, C <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>−3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math>, and D <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−1</m:mn><m:mo>,</m:mo><m:mn>−5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math>.<newline/>
+<media id="fs-id1169594085144" alt="The figure shows a straight line and four points and on the x y-coordinate plane. The x-axis of the plane runs from negative 7 to 7. The y-axis of the plane runs from negative 7 to 7. Dots mark off the two points and are labeled by the coordinates (negative 1, negative 5), (0, negative 3), (2, negative 3), and (3, 3). The straight line, labeled with the equation y equals 2x negative 3 goes through the three points (negative 1, negative 5), (0, negative 3), and (3, 3) but does not go through the point (2, negative 3).">
+<image mime-type="image/jpeg" src="../../media/CNX_ElemAlg_Figure_04_02_005_img_new.jpg"/>
+</media></item>
+</list>
+<para id="fs-id1169596380866">The points <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math>, <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math>, and <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−1</m:mn><m:mo>,</m:mo><m:mn>−5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> are on the line <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow></m:math>, and the point <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>−3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> is not on the line.</para>
+<para id="fs-id1169596307156">The points that are solutions to <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow></m:math> are on the line, but the point that is not a solution is not on the line.</para>
+</solution>
+</exercise>
+</example>
+<note id="fs-id1169596301929" class="try">
+<exercise id="fs-id1169596364071">
+<problem id="fs-id1169596232522">
+<para id="fs-id1169596679540">Use the graph of <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:math> to decide whether each ordered pair is:</para>
+<list id="fs-id1169596240370" list-type="bulleted" bullet-style="bullet">
+<item>a solution to the equation.</item>
+<item>on the line.</item>
+</list>
+<para id="fs-id1169596497114"><span class="token">ⓐ</span> <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>−1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+<media id="fs-id1169596375599" alt="The figure shows a straight line on the x y-coordinate plane. The x-axis of the plane runs from negative 7 to 7. The y-axis of the plane runs from negative 7 to 7. The straight line goes through the point (negative 2, negative 7) and for every 3 units it goes up, it goes one unit to the right. The line is labeled with the equation y equals 3x minus 1.">
+<image mime-type="image/jpeg" src="../../media/CNX_ElemAlg_Figure_04_02_006_img_new.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1169596446214">
+<para id="fs-id1169596497874"><span class="token">ⓐ</span> yes, yes <span class="token">ⓑ</span> yes, yes</para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1169594212092" class="try">
+<exercise id="fs-id1169596429451">
+<problem id="fs-id1169594052319">
+<para id="fs-id1169596368045">Use graph of <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:math> to decide whether each ordered pair is:</para>
+<list id="fs-id1169596540882" list-type="bulleted" bullet-style="bullet">
+<item>a solution to the equation</item>
+<item>on the line</item>
+</list>
+<para id="fs-id1169594061442"><span class="token">ⓐ</span> <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>−1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−1</m:mn><m:mo>,</m:mo><m:mn>−4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+<media id="fs-id1169596454689" alt="The figure shows a straight line on the x y-coordinate plane. The x-axis of the plane runs from negative 7 to 7. The y-axis of the plane runs from negative 7 to 7. The straight line goes through the point (negative 2, negative 7) and for every 3 units it goes up, it goes one unit to the right. The line is labeled with the equation y equals 3x minus 1.">
+<image mime-type="image/jpeg" src="../../media/CNX_ElemAlg_Figure_04_02_006_img_new.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1169594170971">
+<para id="fs-id1169596499435"><span class="token">ⓐ</span> no, no <span class="token">ⓑ</span> yes, yes</para>
+</solution>
+</exercise>
+</note>
+</section>
+<section id="fs-id1169596243367">
+<title>Graph a Linear Equation by Plotting Points</title>
+<para id="fs-id1169596531943">There are several methods that can be used to graph a linear equation. The method we used to graph <m:math><m:mrow><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>6</m:mn></m:mrow></m:math> is called plotting points, or the Point–Plotting Method.</para>
+<example id="fs-id1169594212614">
+<title>How To Graph an Equation By Plotting Points</title>
+<exercise id="fs-id1169596519072">
+<problem id="fs-id1169596373126">
+<para id="fs-id1169594153320">Graph the equation <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:math> by plotting points.</para>
+</problem>
+<solution id="fs-id1169596222394">
+<title>Solution</title>
+<media id="fs-id1169596298191" alt="The figure shows the three step procedure for graphing a line from the equation using the example equation y equals 2x minus 1. The first step is to “Find three points whose coordinates are solutions to the equation. Organize the solutions in a table”. The remark is made that “You can choose any values for x or y. In this case, since y is isolated on the left side of the equation, it is easier to choose values for x”. The work for the first step of the example is shown through a series of equations aligned vertically. From the top down, the equations are y equals 2x plus 1, x equals 0 (where the 0 is blue), y equals 2x plus 1, y equals 2(0) plus 1 (where the 0 is blue), y equals 0 plus 1, y equals 1, x equals 1 (where the 1 is blue), y equals 2x plus 1, y equals 2(1) plus 1 (where the 1 is blue), y equals 2 plus 1, y equals 3, x equals negative 2 (where the negative 2 is blue), y equals 2x plus 1, y equals 2(negative 2) plus 1 (where the negative 2 is blue), y equals negative 4 plus 1, y equals negative 3. The work is then organized in a table. The table has 5 rows and 3 columns. The first row is a title row with the equation y equals 2x plus 1. The second row is a header row and it labels each column. The first column header is “x”, the second is “y” and the third is “(x, y)”. Under the first column are the numbers 0, 1, and negative 2. Under the second column are the numbers 1, 3, and negative 3. Under the third column are the ordered pairs (0, 1), (1, 3), and (negative 2, negative 3).">
+<image mime-type="image/jpeg" src="../../media/CNX_ElemAlg_Figure_04_02_044a_img_new.jpg"/>
+</media>
+<media id="fs-id1169596685141" alt="The second step is to “Plot the points in a rectangular coordinate system. Check that the points line up. If they do not, carefully check your work!” For the example the points are (0, 1), (1, 3), and (negative 2, negative 3). A graph shows the three points on the x y-coordinate plane. The x-axis of the plane runs from negative 7 to 7. The y-axis of the plane runs from negative 7 to 7. Dots mark off the three points at (0, 1), (1, 3), and (negative 2, negative 3). The question “Do the points line up?” is stated and followed with the answer “Yes, the points line up.”">
+<image mime-type="image/jpeg" src="../../media/CNX_ElemAlg_Figure_04_02_044b_img_new.jpg"/>
+</media>
+<media id="fs-id1169596291701" alt="The third step of the procedure is “Draw the line through the three points. Extend the line to fill the grid and put arrows on both ends of the line.” A graph shows a straight line drawn through three points on the x y-coordinate plane. The x-axis of the plane runs from negative 7 to 7. The y-axis of the plane runs from negative 7 to 7. Dots mark off the three points at (0, 1), (1, 3), and (negative 2, negative 3). A straight line goes through all three points. The line has arrows on both ends pointing to the edge of the figure. The line is labeled with the equation y equals 2x plus 1. The statement “This line is the graph of y equals 2x plus 1” is included next to the graph.">
+<image mime-type="image/jpeg" src="../../media/CNX_ElemAlg_Figure_04_02_044c_img_new.jpg"/>
+</media>
+</solution>
+</exercise>
+</example>
+<note id="fs-id1169596443288" class="try">
+<exercise id="fs-id1169596764471">
+<problem id="fs-id1169594155415">
+<para id="fs-id1169596531818">Graph the equation by plotting points: <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow></m:math>.</para>
+</problem>
+<solution id="fs-id1169596232896">
+<para id="fs-id1169596372291"><media id="fs-id1169596438179" alt="The figure shows a straight line on the x y-coordinate plane. The x-axis of the plane runs from negative 7 to 7. The y-axis of the plane runs from negative 7 to 7. The straight line goes through the points (negative 2, negative 7), (negative 1, negative 5), (0, negative 3), (1, negative 1), (2, 1), (3, 3), (4, 5), and (5, 7). There are arrows at the ends of the line pointing to the outside of the figure.">
+<image mime-type="image/jpeg" src="../../media/CNX_ElemAlg_Figure_04_02_023_img_new.jpg"/>
+</media></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1169596316200" class="try">
+<exercise id="fs-id1169594076642">
+<problem id="fs-id1169594172185">
+<para id="fs-id1169596313530">Graph the equation by plotting points: <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn></m:mrow></m:math>.</para>
+</problem>
+<solution id="fs-id1169596534537">
+<para id="fs-id1169596516663"><media id="fs-id1169596768293" alt="The figure shows a straight line on the x y-coordinate plane. The x-axis of the plane runs from negative 7 to 7. The y-axis of the plane runs from negative 7 to 7. The straight line goes through the points (negative 1, 6), (0, 4), (1, 2), (2, 0), (3, negative 2), (4, negative 4), and (5, negative 6). There are arrows at the ends of the line pointing to the outside of the figure.">
+<image mime-type="image/jpeg" src="../../media/CNX_ElemAlg_Figure_04_02_024_img_new.jpg"/>
+</media></para>
+</solution>
+</exercise>
+</note>
+<para id="fs-id1169596453724">The steps to take when graphing a linear equation by plotting points are summarized below.</para>
+<note id="fs-id1169596686979" class="howto">
+<title>Graph a linear equation by plotting points.</title>
+<list id="fs-id1169596686441" list-type="enumerated" number-style="arabic" class="stepwise">
+<item>Find three points whose coordinates are solutions to the equation. Organize them in a table.</item>
+<item>Plot the points in a rectangular coordinate system. Check that the points line up. If they do not, carefully check your work.</item>
+<item>Draw the line through the three points. Extend the line to fill the grid and put arrows on both ends of the line.</item>
+</list>
+</note>
+<para id="fs-id1169596338664">It is true that it only takes two points to determine a line, but it is a good habit to use three points. If you only plot two points and one of them is incorrect, you can still draw a line but it will not represent the solutions to the equation. It will be the wrong line.</para>
+<para id="fs-id1169594031834">If you use three points, and one is incorrect, the points will not line up. This tells you something is wrong and you need to check your work. Look at the difference between part (a) and part (b) in <link target-id="CNX_ElemAlg_Figure_04_02_010"/>.</para>
+<figure id="CNX_ElemAlg_Figure_04_02_010">
+<media id="fs-id1169596405158" alt="Figure a shows three points with a straight line going through them. Figure b shows three points that do not lie on the same line.">
+<image mime-type="image/jpeg" src="../../media/CNX_ElemAlg_Figure_04_02_010_img_new.jpg"/>
+</media>
+</figure>
+<para id="fs-id1169596410945">Let’s do another example. This time, we’ll show the last two steps all on one grid.</para>
+<example id="fs-id1169596591922">
+<exercise id="fs-id1169596658123">
+<problem id="fs-id1169594014166">
+<para id="fs-id1169596381376">Graph the equation <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−3</m:mn><m:mi>x</m:mi></m:mrow></m:math>.</para>
+</problem>
+<solution id="fs-id1169596340938">
+<title>Solution</title>
+<para id="fs-id1169596369626">Find three points that are solutions to the equation. Here, again, it’s easier to choose values for <m:math><m:mi>x</m:mi></m:math>. Do you see why?<newline/>
+<media id="fs-id1169594239630" alt="The figure shows three sets of equations used to determine ordered pairs from the equation y equals negative 3x. The first set has the equations: x equals 0 (where the 0 is blue), y equals negative 3x, y equals negative 3(0) (where the 0 is blue), y equals 0. The second set has the equations: x equals 1 (where the 1 is blue), y equals negative 3x, y equals negative 3(1) (where the 1 is blue), y equals negative 3. The third set has the equations: x equals negative 2 (where the negative 2 is blue), y equals negative 3x, y equals negative 3(negative 2) (where the negative 2 is blue), y equals 6.">
+<image mime-type="image/jpeg" src="../../media/CNX_ElemAlg_Figure_04_02_025_img_new.jpg"/>
+</media></para>
+<para id="fs-id1169596518462">We list the points in <link target-id="fs-id1169596654135"/>.<newline/>
+<table id="fs-id1169596654135" summary="This table has 5 rows and 3 columns. The first row is a title row with the equation y equals negative 3x. The second row is a header row and it labels each column. The first column header is x, the second is y and the third is (x, y). Under the first column are the numbers 0, 1, and negative 2. Under the second column are the numbers 0, negative 3, and 6. Under the third column are the ordered pairs (0, 0), (1, negative 3), and (negative 2, 6).">
+<tgroup cols="3">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<tbody>
+<row valign="top">
+<entry valign="middle" align="center" namest="c1" nameend="c3"><emphasis effect="bold"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−3</m:mn><m:mi>x</m:mi></m:mrow></m:math></emphasis></entry>
+</row>
+<row valign="top">
+<entry valign="middle" align="center"><emphasis effect="bold"><m:math><m:mi>x</m:mi></m:math></emphasis></entry>
+<entry valign="bottom" align="center"><emphasis effect="bold"><m:math><m:mi>y</m:mi></m:math></emphasis></entry>
+<entry valign="middle" align="center"><emphasis effect="bold"><m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>y</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math></emphasis></entry>
+</row>
+
+<row valign="top">
+<entry valign="middle" align="center">0</entry>
+<entry valign="middle" align="center">0</entry>
+<entry valign="middle" align="center"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>0</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="middle" align="center">1</entry>
+<entry valign="middle" align="center"><m:math><m:mrow><m:mn>−3</m:mn></m:mrow></m:math></entry>
+<entry valign="middle" align="center"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>−3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="middle" align="center"><m:math><m:mrow><m:mn>−2</m:mn></m:mrow></m:math></entry>
+<entry valign="middle" align="center">6</entry>
+<entry valign="middle" align="center"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−2</m:mn><m:mo>,</m:mo><m:mn>6</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+</row>
+</tbody>
+</tgroup>
+</table></para>
+<para id="fs-id1169596275520">Plot the points, check that they line up, and draw the line.<newline/>
+<media id="fs-id1169596310903" alt="The figure shows a straight line drawn through three points on the x y-coordinate plane. The x-axis of the plane runs from negative 7 to 7. The y-axis of the plane runs from negative 7 to 7. Dots mark off the three points which are labeled by their ordered pairs (negative 2, 6), (0, 0), and (1, negative 3). A straight line goes through all three points. The line has arrows on both ends pointing to the outside of the figure. The line is labeled with the equation y equals negative 3x.">
+<image mime-type="image/jpeg" src="../../media/CNX_ElemAlg_Figure_04_02_011_img_new.jpg"/>
+</media></para>
+</solution>
+</exercise>
+</example>
+<note id="fs-id1169596656657" class="try">
+<exercise id="fs-id1169594157527">
+<problem id="fs-id1169594159171">
+<para id="fs-id1169594150201">Graph the equation by plotting points: <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−4</m:mn><m:mi>x</m:mi></m:mrow></m:math>.</para>
+</problem>
+<solution id="fs-id1169594085758">
+<para id="fs-id1169594030813"><media id="fs-id1169596704588" alt="The figure shows a straight line drawn on the x y-coordinate plane. The x-axis of the plane runs from negative 12 to 12. The y-axis of the plane runs from negative 12 to 12. The straight line goes through the points (negative 2, 8), (0, 0), and (2, negative 8). The line has arrows on both ends pointing to the outside of the figure.">
+<image mime-type="image/jpeg" src="../../media/CNX_ElemAlg_Figure_04_02_012_img_new.jpg"/>
+</media></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1169596388264" class="try">
+<exercise id="fs-id1169596704813">
+<problem id="fs-id1169596396249">
+<para id="fs-id1169596307573">Graph the equation by plotting points: <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>x</m:mi></m:mrow></m:math>.</para>
+</problem>
+<solution id="fs-id1169596404490">
+<para id="fs-id1169594171676"><media id="fs-id1169596382558" alt="The figure shows a straight line drawn on the x y-coordinate plane. The x-axis of the plane runs from negative 12 to 12. The y-axis of the plane runs from negative 12 to 12. The straight line goes through the points (negative 8, negative 8), (negative 6, negative 6), (negative 4, negative 4), (negative 2, negative 2), (0, 0), (2, 2), (4, 4), (6, 6), and (8, 8). The line has arrows on both ends pointing to the outside of the figure.">
+<image mime-type="image/jpeg" src="../../media/CNX_ElemAlg_Figure_04_02_013_img_new.jpg"/>
+</media></para>
+</solution>
+</exercise>
+</note>
+<para id="fs-id1169596386758">When an equation includes a fraction as the coefficient of <m:math><m:mi>x</m:mi></m:math>, we can still substitute any numbers for <m:math><m:mi>x</m:mi></m:math>. But the math is easier if we make ‘good’ choices for the values of <m:math><m:mi>x</m:mi></m:math>. This way we will avoid fraction answers, which are hard to graph precisely.</para>
+<example id="fs-id1169596691671">
+<exercise id="fs-id1169596655592">
+<problem id="fs-id1169596362679">
+<para id="fs-id1169596702145">Graph the equation <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow></m:math>.</para>
+</problem>
+<solution id="fs-id1169594002064">
+<title>Solution</title>
+<para id="fs-id1169596299233">Find three points that are solutions to the equation. Since this equation has the fraction <m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow></m:math> as a coefficient of <m:math><m:mi>x</m:mi><m:mo>,</m:mo></m:math> we will choose values of <m:math><m:mi>x</m:mi></m:math> carefully. We will use zero as one choice and multiples of 2 for the other choices. Why are multiples of 2 a good choice for values of <m:math><m:mi>x</m:mi></m:math>?<newline/>
+<media id="fs-id1169596440466" alt="The figure shows three sets of equations used to determine ordered pairs from the equation y equals (one half)x plus 3. The first set has the equations: x equals 0 (where the 0 is blue), y equals (one half)x plus 3, y equals (one half)(0) plus 3 (where the 0 is blue), y equals 0 plus 3, y equals 3. The second set has the equations: x equals 2 (where the 2 is blue), y equals (one half)x plus 3, y equals (one half)(2) plus 3 (where the 2 is blue), y equals 1 plus 3, y equals 4. The third set has the equations: x equals 4 (where the 4 is blue), y equals (one half)x plus 3, y equals (one half)(4) plus 3 (where the 4 is blue), y equals 2 plus 3, y equals 5.">
+<image mime-type="image/jpeg" src="../../media/CNX_ElemAlg_Figure_04_02_026_img_new.jpg"/>
+</media></para>
+<para id="fs-id1169594086177">The points are shown in <link target-id="fs-id1169596641191"/>.</para>
+<table id="fs-id1169596641191" summary="This table has 5 rows and 3 columns. The first row is a title row with the equation y equals (one half)x plus 3. The second row is a header row and it labels each column. The first column header is x, the second is y and the third is (x, y). Under the first column are the numbers 0, 2, and 4. Under the second column are the numbers 3, 4, and 5. Under the third column are the ordered pairs (0, 3), (2, 4), and (4, 5).">
+<tgroup cols="3">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<tbody>
+<row valign="top">
+<entry valign="middle" align="center" namest="c1" nameend="c3"><emphasis effect="bold"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow></m:math></emphasis></entry>
+</row>
+<row valign="top">
+<entry valign="middle" align="center"><emphasis effect="bold"><m:math><m:mi>x</m:mi></m:math></emphasis></entry>
+<entry valign="middle" align="center"><emphasis effect="bold"><m:math><m:mi>y</m:mi></m:math></emphasis></entry>
+<entry valign="middle" align="center"><emphasis effect="bold"><m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>y</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math></emphasis></entry>
+</row>
+
+<row valign="top">
+<entry valign="middle" align="center">0</entry>
+<entry valign="middle" align="center">3</entry>
+<entry valign="middle" align="center"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="middle" align="center">2</entry>
+<entry valign="middle" align="center">4</entry>
+<entry valign="middle" align="center"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="middle" align="center">4</entry>
+<entry valign="middle" align="center">5</entry>
+<entry valign="middle" align="center"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>4</m:mn><m:mo>,</m:mo><m:mn>5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<para id="fs-id1169594156783">Plot the points, check that they line up, and draw the line.<newline/>
+<media id="fs-id1169594189788" alt="The figure shows a straight line drawn through three points on the x y-coordinate plane. The x-axis of the plane runs from negative 7 to 7. The y-axis of the plane runs from negative 7 to 7. Dots mark off the three points which are labeled by their ordered pairs (0, 3), (2, 4), and (4, 5). A straight line goes through all three points. The line has arrows on both ends pointing to the outside of the figure. The line is labeled with the equation y equals (one half)x plus 3.">
+<image mime-type="image/jpeg" src="../../media/CNX_ElemAlg_Figure_04_02_014_img_new.jpg"/>
+</media></para>
+</solution>
+</exercise>
+</example>
+<note id="fs-id1169596392359" class="try">
+<exercise id="fs-id1169596392362">
+<problem id="fs-id1169596392364">
+<para id="fs-id1169594004706">Graph the equation <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:math>.</para>
+</problem>
+<solution id="fs-id1169596565866">
+<para id="fs-id1169596439025"><media id="fs-id1169596439026" alt="The figure shows a straight line drawn on the x y-coordinate plane. The x-axis of the plane runs from negative 12 to 12. The y-axis of the plane runs from negative 12 to 12. The straight line goes through the points (negative 9, negative 4), (negative 6, negative 3), (negative 3, negative 2), (0, negative 1), (3, 0), (6, 1), and (9, 2). The line has arrows on both ends pointing to the outside of the figure.">
+<image mime-type="image/jpeg" src="../../media/CNX_ElemAlg_Figure_04_02_015_img_new.jpg"/>
+</media></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1169594012392" class="try">
+<exercise id="fs-id1169594085425">
+<problem id="fs-id1169594085427">
+<para id="fs-id1169596622617">Graph the equation <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>4</m:mn></m:mfrac><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow></m:math>.</para>
+</problem>
+<solution id="fs-id1169596252029">
+<para id="fs-id1169596252031"><media id="fs-id1169594097142" alt="The figure shows a straight line drawn on the x y-coordinate plane. The x-axis of the plane runs from negative 12 to 12. The y-axis of the plane runs from negative 12 to 12. The straight line goes through the points (negative 12, negative 1), (negative 8, 0), (negative 4, 1), (0, 2), (4, 3), (8, 4), and (12, 5). The line has arrows on both ends pointing to the outside of the figure.">
+<image mime-type="image/jpeg" src="../../media/CNX_ElemAlg_Figure_04_02_016_img_new.jpg"/>
+</media></para>
+</solution>
+</exercise>
+</note>
+<para id="fs-id1169596686309">So far, all the equations we graphed had <m:math><m:mi>y</m:mi></m:math> given in terms of <m:math><m:mi>x</m:mi></m:math>. Now we’ll graph an equation with <m:math><m:mi>x</m:mi></m:math> and <m:math><m:mi>y</m:mi></m:math> on the same side. Let’s see what happens in the equation <m:math><m:mrow><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>3</m:mn></m:mrow></m:math>. If <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> what is the value of <m:math><m:mi>x</m:mi></m:math>?</para>
+<media id="fs-id1169596445877" alt="The figure shows a set of equations used to determine an ordered pair from the equation 2x plus y equals 3. The first equation is y equals 0 (where the 0 is red). The second equation is the two- variable equation 2x plus y equals 3. The third equation is the onenegative variable equation 2x plus 0 equals 3 (where the 0 is red). The fourth equation is 2x equals 3. The fifth equation is x equals three halves. The last line is the ordered pair (three halves, 0).">
+<image mime-type="image/jpeg" src="../../media/CNX_ElemAlg_Figure_04_02_027_img_new.jpg"/>
+</media>
+<para id="fs-id1169596445921">This point has a fraction for the <emphasis effect="italics">x</emphasis>- coordinate and, while we could graph this point, it is hard to be precise graphing fractions. Remember in the example <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow></m:math>, we carefully chose values for <m:math><m:mi>x</m:mi></m:math> so as not to graph fractions at all. If we solve the equation <m:math><m:mrow><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>3</m:mn></m:mrow></m:math> for <m:math><m:mi>y</m:mi></m:math>, it will be easier to find three solutions to the equation.</para>
+<equation id="fs-id1169596386267" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>y</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>3</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>y</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>−2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mtd></m:mtr></m:mtable></m:math></equation>
+<para id="fs-id1169596382780">The solutions for <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>, <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math>, and <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>−1</m:mn></m:mrow></m:math> are shown in the <link target-id="fs-id1169596387360"/>. The graph is shown in <link target-id="CNX_ElemAlg_Figure_04_02_017"/>.</para>
+<table id="fs-id1169596387360" summary="This table has 5 rows and 3 columns. The first row is a title row with the equation 2x plus y equals 3. The second row is a header row and it labels each column. The first column header is x, the second is y and the third is (x, y). Under the first column are the numbers 0, 1, and negative 1. Under the second column are the numbers 3, 1, and 5. Under the third column are the ordered pairs (0, 3), (1, 1), and (negative 1, 5).">
+<tgroup cols="3">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<tbody>
+<row valign="top">
+<entry valign="middle" align="center" namest="c1" nameend="c3"><emphasis effect="bold"><m:math><m:mrow><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>3</m:mn></m:mrow></m:math></emphasis></entry>
+</row>
+<row valign="top">
+<entry valign="middle" align="center"><emphasis effect="bold"><m:math><m:mi>x</m:mi></m:math></emphasis></entry>
+<entry valign="bottom" align="center"><emphasis effect="bold"><m:math><m:mi>y</m:mi></m:math></emphasis></entry>
+<entry valign="middle" align="center"><emphasis effect="bold"><m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>y</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math></emphasis></entry>
+</row>
+
+<row valign="top">
+<entry valign="middle" align="center">0</entry>
+<entry valign="middle" align="center">3</entry>
+<entry valign="middle" align="center"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="middle" align="center">1</entry>
+<entry valign="middle" align="center">1</entry>
+<entry valign="middle" align="center"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="middle" align="center"><m:math><m:mrow><m:mn>−1</m:mn></m:mrow></m:math></entry>
+<entry valign="middle" align="center">5</entry>
+<entry valign="middle" align="center"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−1</m:mn><m:mo>,</m:mo><m:mn>5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<figure id="CNX_ElemAlg_Figure_04_02_017">
+<media id="fs-id1169596361103" alt="The figure shows a straight line drawn through three points on the x y-coordinate plane. The x-axis of the plane runs from negative 7 to 7. The y-axis of the plane runs from negative 7 to 7. Dots mark off the three points which are labeled by their ordered pairs (negative 1, 5), (0, 3), and (1, 1). A straight line goes through all three points. The line has arrows on both ends pointing to the outside of the figure. The line is labeled with the equation 2x plus y equals 3.">
+<image mime-type="image/jpeg" src="../../media/CNX_ElemAlg_Figure_04_02_017_img_new.jpg"/>
+</media>
+</figure>
+<para id="fs-id1169596376662">Can you locate the point <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mn>3</m:mn><m:mn>2</m:mn></m:mfrac><m:mo>,</m:mo><m:mn>0</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math>, which we found by letting <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>, on the line?</para>
+<example id="fs-id1169594156658"><exercise id="fs-id1169594156660">
+<problem id="fs-id1169594029163">
+<para id="fs-id1169594029165">Graph the equation <m:math><m:mrow><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−1</m:mn></m:mrow></m:math>.</para>
+</problem>
+<solution id="fs-id1169596754513">
+<title>Solution</title>
+<table id="eip-846" summary=".">
+<tgroup cols="2"><tbody>
+  <row>
+    <entry>Find three points that are solutions to the equation.</entry>
+    <entry><m:math><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>y</m:mi><m:mspace width="0.5em"/><m:mo>=</m:mo><m:mspace width="0.5em"/><m:mn>−1</m:mn></m:math></entry>
+  </row>
+  <row>
+    <entry>First, solve the equation for <m:math><m:mi>y</m:mi></m:math>.</entry>
+    <entry><m:math><m:mi>y</m:mi><m:mspace width="0.5em"/><m:mo>=</m:mo><m:mspace width="0.5em"/><m:mn>−3</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:math></entry>
+  </row>
+</tbody>
+</tgroup>
+</table>
+<para id="fs-id1169596364491">We’ll let <m:math><m:mi>x</m:mi></m:math> be 0, 1, and <m:math><m:mrow><m:mn>−1</m:mn></m:mrow></m:math> to find 3 points. The ordered pairs are shown in <link target-id="fs-id1169596364512"/>. Plot the points, check that they line up, and draw the line. See <link target-id="CNX_ElemAlg_Figure_04_02_018"/>.</para><table id="fs-id1169596364512" summary="This table has 5 rows and 3 columns. The first row is a title row with the equation 3x plus y equals negative 1. The second row is a header row and it labels each column. The first column header is x, the second is y and the third is (x, y). Under the first column are the numbers 0, 1, and negative 1. Under the second column are the numbers negative 1, negative 4, and 2. Under the third column are the ordered pairs (0, negative 1), (1, negative 4), and (negative 1, 2).">
+<tgroup cols="3">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<tbody>
+<row valign="top">
+<entry valign="middle" align="center" namest="c1" nameend="c3"><emphasis effect="bold"><m:math><m:mrow><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−1</m:mn></m:mrow></m:math></emphasis></entry>
+</row>
+<row valign="top">
+<entry valign="middle" align="center"><emphasis effect="bold"><m:math><m:mi>x</m:mi></m:math></emphasis></entry>
+<entry valign="bottom" align="center"><emphasis effect="bold"><m:math><m:mi>y</m:mi></m:math></emphasis></entry>
+<entry valign="middle" align="center"><emphasis effect="bold"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>y</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></emphasis></entry>
+</row>
+
+<row valign="top">
+<entry valign="middle" align="center">0</entry>
+<entry valign="middle" align="center"><m:math><m:mrow><m:mn>−1</m:mn></m:mrow></m:math></entry>
+<entry valign="middle" align="center"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>−1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="middle" align="center">1</entry>
+<entry valign="middle" align="center"><m:math><m:mrow><m:mn>−4</m:mn></m:mrow></m:math></entry>
+<entry valign="middle" align="center"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>−4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="middle" align="center"><m:math><m:mrow><m:mn>−1</m:mn></m:mrow></m:math></entry>
+<entry valign="middle" align="center">2</entry>
+<entry valign="middle" align="center"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−1</m:mn><m:mo>,</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<figure id="CNX_ElemAlg_Figure_04_02_018">
+<media id="fs-id1169594129492" alt="The figure shows a straight line drawn through three points on the x y-coordinate plane. The x-axis of the plane runs from negative 7 to 7. The y-axis of the plane runs from negative 7 to 7. Dots mark off the three points which are labeled by their ordered pairs (negative 1, 2), (0, negative 1), and (1, negative 4). A straight line goes through all three points. The line has arrows on both ends pointing to the outside of the figure. The line is labeled with the equation 3x plus y equals negative 1.">
+<image mime-type="image/jpeg" src="../../media/CNX_ElemAlg_Figure_04_02_018_img_new.jpg"/>
+</media>
+</figure>
+</solution>
+</exercise>
+</example><note id="fs-id1169596314007" class="try">
+<exercise id="fs-id1169596314011">
+<problem id="fs-id1169596314014">
+<para id="fs-id1169596314016">Graph the equation <m:math><m:mrow><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>2</m:mn></m:mrow></m:math>.</para>
+</problem>
+<solution id="fs-id1169596314036">
+<para id="fs-id1169596314038"><media id="fs-id1169596314039" alt="The figure shows a straight line drawn on the x y-coordinate plane. The x-axis of the plane runs from negative 12 to 12. The y-axis of the plane runs from negative 12 to 12. The straight line goes through the points (negative 4, 10), (negative 2, 6), (0, 2), (2, negative 2), (4, negative 6), and (6, negative 10). The line has arrows on both ends pointing to the outside of the figure.">
+<image mime-type="image/jpeg" src="../../media/CNX_ElemAlg_Figure_04_02_019_img_new.jpg"/>
+</media></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1169596444546" class="try">
+<exercise id="fs-id1169596444550">
+<problem id="fs-id1169596444552">
+<para id="fs-id1169596444554">Graph the equation <m:math><m:mrow><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−3</m:mn></m:mrow></m:math>.</para>
+</problem>
+<solution id="fs-id1169596444575">
+<para id="fs-id1169596444577"><media id="fs-id1169596444578" alt="The figure shows a straight line drawn on the x y-coordinate plane. The x-axis of the plane runs from negative 12 to 12. The y-axis of the plane runs from negative 12 to 12. The straight line goes through the points (negative 3, 9), (negative 2, 5), (negative 1, 1), (0, negative 3), (1, negative 7), and (2, negative 10). The line has arrows on both ends pointing to the outside of the figure.">
+<image mime-type="image/jpeg" src="../../media/CNX_ElemAlg_Figure_04_02_028_img_new.jpg"/>
+</media></para>
+</solution>
+</exercise>
+</note>
+<para id="fs-id1169596446914">If you can choose any three points to graph a line, how will you know if your graph matches the one shown in the answers in the book? If the points where the graphs cross the <emphasis effect="italics">x</emphasis>- and <emphasis effect="italics">y</emphasis>-axis are the same, the graphs match!</para>
+<para id="fs-id1169596446930">The equation in <link target-id="fs-id1169594156658"/> was written in standard form, with both <m:math><m:mi>x</m:mi></m:math> and <m:math><m:mi>y</m:mi></m:math> on the same side. We solved that equation for <m:math><m:mi>y</m:mi></m:math> in just one step. But for other equations in standard form it is not that easy to solve for <m:math><m:mi>y</m:mi></m:math>, so we will leave them in standard form. We can still find a first point to plot by letting <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> and solving for <m:math><m:mi>y</m:mi></m:math>. We can plot a second point by letting <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> and then solving for <m:math><m:mi>x</m:mi></m:math>. Then we will plot a third point by using some other value for <m:math><m:mi>x</m:mi></m:math> or <m:math><m:mi>y</m:mi></m:math>.</para>
+<example id="fs-id1169596438833"><exercise id="fs-id1169596438835">
+<problem id="fs-id1169596438837">
+<para id="fs-id1169594030848">Graph the equation <m:math><m:mrow><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>6</m:mn></m:mrow></m:math>.</para>
+</problem>
+<solution id="fs-id1169594030870">
+<title>Solution</title>
+<table id="eip-511" summary=".">
+<tgroup cols="2"><tbody>
+  <row>
+    <entry>Find three points that are solutions to the equation.</entry>
+    <entry><m:math><m:mtable>
+    	<m:mtr><m:mtd columnalign="right"><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:mi>y</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>6</m:mn></m:mtd></m:mtr>
+    </m:mtable></m:math></entry>
+  </row>
+  <row>
+    <entry>First, let <m:math><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:math>.</entry>
+    <entry><m:math><m:mtable>
+    	<m:mtr><m:mtd columnalign="right"><m:mn>2</m:mn><m:mrow><m:mo>(</m:mo><m:mn>0</m:mn><m:mo>)</m:mo></m:mrow><m:mo>−</m:mo><m:mn>3</m:mn><m:mi>y</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>6</m:mn></m:mtd></m:mtr>
+    </m:mtable></m:math></entry>
+</row>
+<row>
+    <entry>Solve for <m:math><m:mi>y</m:mi></m:math>.</entry>
+    <entry><m:math><m:mtable>
+    	<m:mtr><m:mtd columnalign="right"><m:mn>−3</m:mn><m:mi>y</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>6</m:mn></m:mtd></m:mtr>
+    	<m:mtr><m:mtd columnalign="right"><m:mi>y</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>−2</m:mn></m:mtd></m:mtr>
+    </m:mtable></m:math></entry>
+</row>
+<row>
+    <entry>Now let <m:math><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:math>.</entry>
+    <entry><m:math><m:mtable>
+    	<m:mtr><m:mtd columnalign="right"><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:mrow><m:mo>(</m:mo><m:mn>0</m:mn><m:mo>)</m:mo></m:mrow></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>6</m:mn></m:mtd></m:mtr>
+    </m:mtable></m:math></entry>
+</row>
+<row>
+    <entry>Solve for <m:math><m:mi>x</m:mi></m:math>.</entry>
+    <entry><m:math><m:mtable>
+    	<m:mtr><m:mtd columnalign="right"><m:mn>2</m:mn><m:mi>x</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>6</m:mn></m:mtd></m:mtr>
+    	<m:mtr><m:mtd columnalign="right"><m:mi>x</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>3</m:mn></m:mtd></m:mtr>
+    </m:mtable></m:math></entry>
+</row>
+<row>
+    <entry>We need a third point. Remember, we can choose any value for <m:math><m:mi>x</m:mi></m:math> or <m:math><m:mi>y</m:mi></m:math>. We'll let <m:math><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>6</m:mn></m:math>.</entry>
+    <entry><m:math><m:mtable>
+    	<m:mtr><m:mtd columnalign="right"><m:mn>2</m:mn><m:mrow><m:mo>(</m:mo><m:mn>6</m:mn><m:mo>)</m:mo></m:mrow><m:mo>−</m:mo><m:mn>3</m:mn><m:mi>y</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>6</m:mn></m:mtd></m:mtr>
+    </m:mtable></m:math></entry>
+  </row>
+  <row>
+    <entry>Solve for <m:math><m:mi>y</m:mi></m:math>.</entry>
+    <entry><m:math><m:mtable>
+    	<m:mtr><m:mtd columnalign="right"><m:mn>12</m:mn><m:mo>−</m:mo><m:mn>3</m:mn><m:mi>y</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>6</m:mn></m:mtd></m:mtr>
+    	<m:mtr><m:mtd columnalign="right"><m:mn>−3</m:mn><m:mi>y</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>−6</m:mn></m:mtd></m:mtr>
+    	<m:mtr><m:mtd columnalign="right"><m:mi>y</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>2</m:mn></m:mtd></m:mtr>
+    </m:mtable></m:math></entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<para id="fs-id1169596548028">We list the ordered pairs in <link target-id="fs-id1169596548039"/>. Plot the points, check that they line up, and draw the line. See <link target-id="CNX_ElemAlg_Figure_04_02_029"/>.</para><table id="fs-id1169596548039" summary="This table has 5 rows and 3 columns. The first row is a title row with the equation 2x negative 3y equals 6. The second row is a header row and it labels each column. The first column header is x, the second is y and the third is (x, y). Under the first column are the numbers 0, 3, and 6. Under the second column are the numbers negative 2, 0, and 2. Under the third column are the ordered pairs (0, negative 2), (3, 0), and (6, 2).">
+<tgroup cols="3">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<tbody>
+<row valign="top">
+<entry valign="middle" align="center" namest="c1" nameend="c3"><emphasis effect="bold"><m:math><m:mrow><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>6</m:mn></m:mrow></m:math></emphasis></entry>
+</row>
+<row valign="top">
+<entry valign="middle" align="center"><emphasis effect="bold"><m:math><m:mi>x</m:mi></m:math></emphasis></entry>
+<entry valign="middle" align="center"><emphasis effect="bold"><m:math><m:mi>y</m:mi></m:math></emphasis></entry>
+<entry valign="middle" align="center"><emphasis effect="bold"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>y</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></emphasis></entry>
+</row>
+
+<row valign="top">
+<entry valign="middle" align="center">0</entry>
+<entry valign="middle" align="center"><m:math><m:mrow><m:mn>−2</m:mn></m:mrow></m:math></entry>
+<entry valign="middle" align="center"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>−2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="middle" align="center">3</entry>
+<entry valign="middle" align="center">0</entry>
+<entry valign="middle" align="center"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>0</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="middle" align="center">6</entry>
+<entry valign="middle" align="center">2</entry>
+<entry valign="middle" align="center"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>6</m:mn><m:mo>,</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<figure id="CNX_ElemAlg_Figure_04_02_029">
+<media id="fs-id1169596439927" alt="The figure shows a straight line drawn through three points on the x y-coordinate plane. The x-axis of the plane runs from negative 7 to 7. The y-axis of the plane runs from negative 7 to 7. Dots mark off the three points which are labeled by their ordered pairs (0, negative 2), (3, 0), and (6, 2). A straight line goes through all three points. The line has arrows on both ends pointing to the outside of the figure. The line is labeled with the equation 2x minus 3y equals 6.">
+<image mime-type="image/jpeg" src="../../media/CNX_ElemAlg_Figure_04_02_029_img_new.jpg"/>
+</media>
+</figure>
+</solution>
+</exercise>
+</example><note id="fs-id1169596381106" class="try">
+<exercise id="fs-id1169596381110">
+<problem id="fs-id1169596381112">
+<para id="fs-id1169596381114">Graph the equation <m:math><m:mrow><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>8</m:mn></m:mrow></m:math>.</para>
+</problem>
+<solution id="fs-id1169596381137">
+<para id="fs-id1169596381139"><media id="fs-id1169596381140" alt="The figure shows a straight line drawn on the x y-coordinate plane. The x-axis of the plane runs from negative 7 to 7. The y-axis of the plane runs from negative 7 to 7. The straight line goes through the points (negative 1, 6), (0, 4), (1, 2), (2, 0), (3, negative 2), and (4, negative 4). The line has arrows on both ends pointing to the outside of the figure.">
+<image mime-type="image/jpeg" src="../../media/CNX_ElemAlg_Figure_04_02_030_img_new.jpg"/>
+</media></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1169596381158" class="try">
+<exercise id="fs-id1169596381162">
+<problem id="fs-id1169596381164">
+<para id="fs-id1169596387106">Graph the equation <m:math><m:mrow><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>4</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>8</m:mn></m:mrow></m:math>.</para>
+</problem>
+<solution id="fs-id1169596387128">
+<para id="fs-id1169596387131"><media id="fs-id1169596387132" alt="The figure shows a straight line drawn on the x y-coordinate plane. The x-axis of the plane runs from negative 7 to 7. The y-axis of the plane runs from negative 7 to 7. The straight line goes through the points (negative 6, negative 5), (negative 4, negative 4), (negative 2, negative 3), (0, negative 2), (2, negative 1), (4, 0), and (6, 1). The line has arrows on both ends pointing to the outside of the figure.">
+<image mime-type="image/jpeg" src="../../media/CNX_ElemAlg_Figure_04_02_031_img_new.jpg"/>
+</media></para>
+</solution>
+</exercise>
+</note>
+</section>
+<section id="fs-id1169596387151">
+<title>Graph Vertical and Horizontal Lines</title>
+<para id="fs-id1169596387156">Can we graph an equation with only one variable? Just <m:math><m:mi>x</m:mi></m:math> and no <m:math><m:mi>y</m:mi></m:math>, or just <m:math><m:mi>y</m:mi></m:math> without an <m:math><m:mi>x</m:mi></m:math>? How will we make a table of values to get the points to plot?</para>
+<para id="fs-id1169594240483">Let’s consider the equation <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>−3</m:mn></m:mrow></m:math>. This equation has only one variable, <m:math><m:mi>x</m:mi></m:math>. The equation says that <m:math><m:mi>x</m:mi></m:math> is <emphasis effect="italics">always</emphasis> equal to <m:math><m:mrow><m:mn>−3</m:mn></m:mrow></m:math>, so its value does not depend on <m:math><m:mi>y</m:mi></m:math>. No matter what <m:math><m:mi>y</m:mi></m:math> is, the value of <m:math><m:mi>x</m:mi></m:math> is always <m:math><m:mrow><m:mn>−3</m:mn></m:mrow></m:math>.</para>
+<para id="fs-id1169596226049">So to make a table of values, write <m:math><m:mrow><m:mn>−3</m:mn></m:mrow></m:math> in for all the <m:math><m:mi>x</m:mi></m:math> values. Then choose any values for <m:math><m:mi>y</m:mi></m:math>. Since <m:math><m:mi>x</m:mi></m:math> does not depend on <m:math><m:mi>y</m:mi></m:math>, you can choose any numbers you like. But to fit the points on our coordinate graph, we’ll use 1, 2, and 3 for the <emphasis effect="italics">y</emphasis>-coordinates. See <link target-id="fs-id1169596226086"/>.</para>
+<table id="fs-id1169596226086" summary="This table has 5 rows and 3 columns. The first row is a title row with the equation x equals negative 3. The second row is a header row and it labels each column. The first column header is x, the second is y and the third is (x, y). Under the first column are the numbers negative 3, negative 3, and negative 3. Under the second column are the numbers 1, 2, and 3. Under the third column are the ordered pairs (negative 3, 1), (negative 3, 2), and (negative 3, 3).">
+<tgroup cols="3">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<tbody>
+<row valign="top">
+<entry valign="middle" align="center" namest="c1" nameend="c3"><emphasis effect="bold"><m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>−3</m:mn></m:mrow></m:math></emphasis></entry>
+</row>
+<row valign="top">
+<entry valign="middle" align="center"><emphasis effect="bold"><m:math><m:mi>x</m:mi></m:math></emphasis></entry>
+<entry valign="bottom" align="center"><emphasis effect="bold"><m:math><m:mi>y</m:mi></m:math></emphasis></entry>
+<entry valign="middle" align="center"><emphasis effect="bold"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>y</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></emphasis></entry>
+</row>
+
+<row valign="top">
+<entry valign="middle" align="center"><m:math><m:mrow><m:mn>−3</m:mn></m:mrow></m:math></entry>
+<entry valign="middle" align="center">1</entry>
+<entry valign="middle" align="center"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−3</m:mn><m:mo>,</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="middle" align="center"><m:math><m:mrow><m:mn>−3</m:mn></m:mrow></m:math></entry>
+<entry valign="middle" align="center">2</entry>
+<entry valign="middle" align="center"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−3</m:mn><m:mo>,</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="middle" align="center"><m:math><m:mrow><m:mn>−3</m:mn></m:mrow></m:math></entry>
+<entry valign="middle" align="center">3</entry>
+<entry valign="middle" align="center"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−3</m:mn><m:mo>,</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<para id="fs-id1169594079050">Plot the points from <link target-id="fs-id1169596226086"/> and connect them with a straight line. Notice in <link target-id="CNX_ElemAlg_Figure_04_02_032"/> that we have graphed a <emphasis effect="italics">vertical line</emphasis>.</para>
+<figure id="CNX_ElemAlg_Figure_04_02_032">
+<media id="fs-id1169594079071" alt="The figure shows a vertical straight line drawn through three points on the x y-coordinate plane. The x-axis of the plane runs from negative 7 to 7. The y-axis of the plane runs from negative 7 to 7. Dots mark off the three points which are labeled by their ordered pairs (negative 3, 1), (negative 3, 2), and (negative 3, 3). A vertical straight line goes through all three points. The line has arrows on both ends pointing to the outside of the figure. The line is labeled with the equation x equals negative 3.">
+<image mime-type="image/jpeg" src="../../media/CNX_ElemAlg_Figure_04_02_032_img_new.jpg"/>
+</media>
+</figure>
+<note id="fs-id1169594079091">
+<title>Vertical Line</title>
+<para id="fs-id1169594178158">A <term>vertical line</term> is the graph of an equation of the form <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mi>a</m:mi></m:mrow></m:math>.</para>
+<para id="fs-id1169594178174">The line passes through the <emphasis effect="italics">x</emphasis>-axis at <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>a</m:mi><m:mo>,</m:mo><m:mn>0</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math>.</para>
+</note>
+<para id="fs-id1171791765473"> </para>
+<example id="fs-id1169594178200">
+<exercise id="fs-id1169594178202">
+<problem id="fs-id1169594178204">
+<para id="fs-id1169594178206">Graph the equation <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>2</m:mn></m:mrow></m:math>.</para>
+</problem>
+<solution id="fs-id1169594150626">
+<title>Solution</title>
+<para id="fs-id1169594150632">The equation has only one variable, <m:math><m:mi>x</m:mi></m:math>, and <m:math><m:mi>x</m:mi></m:math> is always equal to 2. We create <link target-id="fs-id1169594150665"/> where <m:math><m:mi>x</m:mi></m:math> is always 2 and then put in any values for <m:math><m:mi>y</m:mi></m:math>. The graph is a vertical line passing through the <emphasis effect="italics">x</emphasis>-axis at 2. See <link target-id="CNX_ElemAlg_Figure_04_02_033"/>.</para>
+<table id="fs-id1169594150665" summary="This table has 5 rows and 3 columns. The first row is a title row with the equation x equals 2. The second row is a header row and it labels each column. The first column header is x, the second is y and the third is (x, y). Under the first column are the numbers 2, 2, and 2. Under the second column are the numbers 1, 2, and 3. Under the third column are the ordered pairs (2, 1), (2, 2), and (2, 3).">
+<tgroup cols="3">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<tbody>
+<row valign="top">
+<entry valign="middle" align="center" namest="c1" nameend="c3"><emphasis effect="bold"><m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>2</m:mn></m:mrow></m:math></emphasis></entry>
+</row>
+<row valign="top">
+<entry valign="middle" align="center"><emphasis effect="bold"><m:math><m:mi>x</m:mi></m:math></emphasis></entry>
+<entry valign="bottom" align="center"><emphasis effect="bold"><m:math><m:mi>y</m:mi></m:math></emphasis></entry>
+<entry valign="middle" align="center"><emphasis effect="bold"><m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>y</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math></emphasis></entry>
+</row>
+
+<row valign="top">
+<entry valign="middle" align="center">2</entry>
+<entry valign="middle" align="center">1</entry>
+<entry valign="middle" align="center"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="middle" align="center">2</entry>
+<entry valign="middle" align="center">2</entry>
+<entry valign="middle" align="center"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="middle" align="center">2</entry>
+<entry valign="middle" align="center">3</entry>
+<entry valign="middle" align="center"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<figure id="CNX_ElemAlg_Figure_04_02_033">
+<media id="fs-id1169594129240" alt="The figure shows a straight vertical line drawn through three points on the x y-coordinate plane. The x-axis of the plane runs from negative 7 to 7. The y-axis of the plane runs from negative 7 to 7. Dots mark off the three points which are labeled by their ordered pairs (2, 1), (2, 2), and (2, 3). A vertical straight line goes through all three points. The line has arrows on both ends pointing to the outside of the figure. The line is labeled with the equation x equals 2.">
+<image mime-type="image/jpeg" src="../../media/CNX_ElemAlg_Figure_04_02_033_img_new.jpg"/>
+</media>
+</figure>
+</solution>
+</exercise>
+</example>
+<note id="fs-id1169594129269" class="try">
+<exercise id="fs-id1169594129273">
+<problem id="fs-id1169594129275">
+<para id="fs-id1169594129277">Graph the equation <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>5</m:mn></m:mrow></m:math>.</para>
+</problem>
+<solution id="fs-id1169594129291">
+<para id="fs-id1169594129293"><media id="fs-id1169594129294" alt="The figure shows a straight vertical line drawn on the x y-coordinate plane. The x-axis of the plane runs from negative 12 to 12. The y-axis of the plane runs from negative 12 to 12. The straight line goes through the points (5, 1), (5, 2), (5, 3), and all other points with first coordinate 5. The line has arrows on both ends pointing to the outside of the figure.">
+<image mime-type="image/jpeg" src="../../media/CNX_ElemAlg_Figure_04_02_034_img_new.jpg"/>
+</media></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1169596516319" class="try">
+<exercise id="fs-id1169596516324">
+<problem id="fs-id1169596516326">
+<para id="fs-id1169596516328">Graph the equation <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>−2</m:mn></m:mrow></m:math>.</para>
+</problem>
+<solution id="fs-id1169596516342">
+<para id="fs-id1169596516344"><media id="fs-id1169596516345" alt="The figure shows a straight vertical line drawn on the x y-coordinate plane. The x-axis of the plane runs from negative 12 to 12. The y-axis of the plane runs from negative 12 to 12. The straight line goes through the points (negative 2, 1), (negative 2, 2), (negative 2, 3), and all other points with first coordinate negative 2. The line has arrows on both ends pointing to the outside of the figure.">
+<image mime-type="image/jpeg" src="../../media/CNX_ElemAlg_Figure_04_02_035_img_new.jpg"/>
+</media></para>
+</solution>
+</exercise>
+</note>
+<para id="fs-id1169596516363">What if the equation has <m:math><m:mi>y</m:mi></m:math> but no <m:math><m:mi>x</m:mi></m:math>? Let’s graph the equation <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>4</m:mn></m:mrow></m:math>. This time the <emphasis effect="italics">y</emphasis>- value is a constant, so in this equation, <m:math><m:mi>y</m:mi></m:math> does not depend on <m:math><m:mi>x</m:mi></m:math>. Fill in 4 for all the <m:math><m:mi>y</m:mi></m:math>’s in <link target-id="fs-id1169594030456"/> and then choose any values for <m:math><m:mi>x</m:mi></m:math>. We’ll use 0, 2, and 4 for the <emphasis effect="italics">x</emphasis>-coordinates.</para>
+<table id="fs-id1169594030456" summary="This table has 5 rows and 3 columns. The first row is a title row with the equation y equals 4. The second row is a header row and it labels each column. The first column header is x, the second is y and the third is (x, y). Under the first column are the numbers 0, 2, and 4. Under the second column are the numbers 4, 4, and 4. Under the third column are the ordered pairs (0, 4), (2, 4), and (4, 4).">
+<tgroup cols="3">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<tbody>
+<row valign="top">
+<entry valign="middle" align="center" namest="c1" nameend="c3"><emphasis effect="bold"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>4</m:mn></m:mrow></m:math></emphasis></entry>
+</row>
+<row valign="top">
+<entry valign="middle" align="center"><emphasis effect="bold"><m:math><m:mi>x</m:mi></m:math></emphasis></entry>
+<entry valign="bottom" align="center"><emphasis effect="bold"><m:math><m:mi>y</m:mi></m:math></emphasis></entry>
+<entry valign="middle" align="center"><emphasis effect="bold"><m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>y</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math></emphasis></entry>
+</row>
+
+<row valign="top">
+<entry valign="middle" align="center">0</entry>
+<entry valign="middle" align="center">4</entry>
+<entry valign="middle" align="center"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="middle" align="center">2</entry>
+<entry valign="middle" align="center">4</entry>
+<entry valign="middle" align="center"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="middle" align="center">4</entry>
+<entry valign="middle" align="center">4</entry>
+<entry valign="middle" align="center"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>4</m:mn><m:mo>,</m:mo><m:mn>4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<para id="fs-id1169596754204">The graph is a horizontal line passing through the <emphasis effect="italics">y</emphasis>-axis at 4. See <link target-id="CNX_ElemAlg_Figure_04_02_036"/>.</para>
+<figure id="CNX_ElemAlg_Figure_04_02_036">
+<media id="fs-id1169596754220" alt="The figure shows a straight horizontal line drawn through three points on the x y-coordinate plane. The x-axis of the plane runs from negative 7 to 7. The y-axis of the plane runs from negative 7 to 7. Dots mark off the three points which are labeled by their ordered pairs (0, 4), (2, 4), and (4, 4). A straight horizontal line goes through all three points. The line has arrows on both ends pointing to the outside of the figure. The line is labeled with the equation y equals 4.">
+<image mime-type="image/jpeg" src="../../media/CNX_ElemAlg_Figure_04_02_036_img_new.jpg"/>
+</media>
+</figure>
+<note id="fs-id1169596409604">
+<title>Horizontal Line</title>
+<para id="fs-id1169596409609">A <term>horizontal line</term> is the graph of an equation of the form <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>b</m:mi></m:mrow></m:math>.</para>
+<para id="fs-id1169596409625">The line passes through the <emphasis effect="italics">y</emphasis>-axis at <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mi>b</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math>.</para>
+</note>
+<para id="fs-id1171791531282"> </para>
+<example id="fs-id1169596409650">
+<exercise id="fs-id1169596409653">
+<problem id="fs-id1169596409655">
+<para id="fs-id1169596409657">Graph the equation <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−1</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169596652708">
+<title>Solution</title>
+<para id="fs-id1169596652714">The equation <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−1</m:mn></m:mrow></m:math> has only one variable, <m:math><m:mi>y</m:mi></m:math>. The value of <m:math><m:mi>y</m:mi></m:math> is constant. All the ordered pairs in <link target-id="fs-id1169596652759"/> have the same <emphasis effect="italics">y</emphasis>-coordinate. The graph is a horizontal line passing through the <emphasis effect="italics">y</emphasis>-axis at <m:math><m:mrow><m:mn>−1</m:mn></m:mrow></m:math>, as shown in <link target-id="CNX_ElemAlg_Figure_04_02_037"/>.</para>
+<table id="fs-id1169596652759" summary="This table has 5 rows and 3 columns. The first row is a title row with the equation y equals negative 1. The second row is a header row and it labels each column. The first column header is x, the second is y and the third is (x, y). Under the first column are the numbers 0, 3, and negative 3. Under the second column are the numbers negative 1, negative 1, and negative 1. Under the third column are the ordered pairs (0, negative 1), (3, negative 1), and (negative 3, negative 1).">
+<tgroup cols="3">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<tbody>
+<row valign="top">
+<entry valign="middle" align="center" namest="c1" nameend="c3"><emphasis effect="bold"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−1</m:mn></m:mrow></m:math></emphasis></entry>
+</row>
+<row valign="top">
+<entry valign="middle" align="center"><emphasis effect="bold"><m:math><m:mi>x</m:mi></m:math></emphasis></entry>
+<entry valign="bottom" align="center"><emphasis effect="bold"><m:math><m:mi>y</m:mi></m:math></emphasis></entry>
+<entry valign="middle" align="center"><emphasis effect="bold"><m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>y</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math></emphasis></entry>
+</row>
+
+<row valign="top">
+<entry valign="middle" align="center">0</entry>
+<entry valign="middle" align="center"><m:math><m:mrow><m:mn>−1</m:mn></m:mrow></m:math></entry>
+<entry valign="middle" align="center"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>−1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="middle" align="center">3</entry>
+<entry valign="middle" align="center"><m:math><m:mrow><m:mn>−1</m:mn></m:mrow></m:math></entry>
+<entry valign="middle" align="center"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>−1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="middle" align="center"><m:math><m:mrow><m:mn>−3</m:mn></m:mrow></m:math></entry>
+<entry valign="middle" align="center"><m:math><m:mrow><m:mn>−1</m:mn></m:mrow></m:math></entry>
+<entry valign="middle" align="center"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−3</m:mn><m:mo>,</m:mo><m:mn>−1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<figure id="CNX_ElemAlg_Figure_04_02_037">
+<media id="fs-id1169596445854" alt="The figure shows a straight horizontal line drawn through three points on the x y-coordinate plane. The x-axis of the plane runs from negative 7 to 7. The y-axis of the plane runs from negative 7 to 7. Dots mark off the three points which are labeled by their ordered pairs (negative 3, negative 1), (0, negative 1), and (3, negative 1). A straight horizontal line goes through all three points. The line has arrows on both ends pointing to the outside of the figure. The line is labeled with the equation y equals negative 1.">
+<image mime-type="image/jpeg" src="../../media/CNX_ElemAlg_Figure_04_02_037_img_new.jpg"/>
+</media>
+</figure>
+</solution>
+</exercise>
+</example>
+<note id="fs-id1169594008580" class="try">
+<exercise id="fs-id1169594008584">
+<problem id="fs-id1169594008586">
+<para id="fs-id1169594008588">Graph the equation <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−4</m:mn></m:mrow></m:math>.</para>
+</problem>
+<solution id="fs-id1169594008602">
+<para id="fs-id1169594008604"><media id="fs-id1169594008605" alt="The figure shows a straight horizontal line drawn on the x y-coordinate plane. The x-axis of the plane runs from negative 12 to 12. The y-axis of the plane runs from negative 12 to 12. The straight line goes through the points (negative 4, negative 4), (0, negative 4), (4, negative 4), and all other points with second coordinate negative 4. The line has arrows on both ends pointing to the outside of the figure.">
+<image mime-type="image/jpeg" src="../../media/CNX_ElemAlg_Figure_04_02_038_img_new.jpg"/>
+</media></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1169594008623" class="try">
+<exercise id="fs-id1169594008627">
+<problem id="fs-id1169594008629">
+<para id="fs-id1169594008632">Graph the equation <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>3</m:mn></m:mrow></m:math>.</para>
+</problem>
+<solution id="fs-id1169594123578">
+<para id="fs-id1169594123580"><media id="fs-id1169594123581" alt="The figure shows a straight horizontal line drawn on the x y-coordinate plane. The x-axis of the plane runs from negative 12 to 12. The y-axis of the plane runs from negative 12 to 12. The straight line goes through the points (negative 4, 3), (0, 3), (4, 3), and all other points with second coordinate 3. The line has arrows on both ends pointing to the outside of the figure.">
+<image mime-type="image/jpeg" src="../../media/CNX_ElemAlg_Figure_04_02_039_img_new.jpg"/>
+</media></para>
+</solution>
+</exercise>
+</note>
+<para id="fs-id1169594123599">The equations for vertical and horizontal lines look very similar to equations like <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>.</m:mo></m:mrow></m:math> What is the difference between the equations <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>4</m:mn><m:mi>x</m:mi></m:mrow></m:math> and <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>4</m:mn></m:mrow></m:math>?</para>
+<para id="fs-id1169594123637">The equation <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>4</m:mn><m:mi>x</m:mi></m:mrow></m:math> has both <m:math><m:mi>x</m:mi></m:math> and <m:math><m:mi>y</m:mi></m:math>. The value of <m:math><m:mi>y</m:mi></m:math> depends on the value of <m:math><m:mi>x</m:mi></m:math>. The <emphasis effect="italics">y</emphasis>-coordinate changes according to the value of <m:math><m:mi>x</m:mi></m:math>. The equation <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>4</m:mn></m:mrow></m:math> has only one variable. The value of <m:math><m:mi>y</m:mi></m:math> is constant. The <emphasis effect="italics">y</emphasis>-coordinate is always 4. It does not depend on the value of <m:math><m:mi>x</m:mi></m:math>. See <link target-id="fs-id1169596394775"/>.</para>
+<table id="fs-id1169596394775" summary="There are two tables, each with 5 rows and 3 columns. For the table on the left: The first row is a title row with the equation y equals 4x. The second row is a header row and it labels each column. The first column header is x, the second is y and the third is (x, y). Under the first column are the numbers 0, 1, and 2. Under the second column are the numbers 0, 4, and 8. Under the third column are the ordered pairs (0, 0), (1, 4), and (2, 8). For the table on the right: The first row is a title row with the equation y equals 4. The second row is a header row and it labels each column. The first column header is x, the second is y and the third is (x, y). Under the first column are the numbers 0, 1, and 2. Under the second column are the numbers 4, 4, and 4. Under the third column are the ordered pairs (0, 4), (1, 4), and (2, 4).">
+<tgroup cols="7">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<colspec colnum="4" colname="c4"/>
+<colspec colnum="5" colname="c5"/>
+<colspec colnum="6" colname="c6"/>
+<colspec colnum="7" colname="c7"/>
+<tbody>
+<row valign="top">
+<entry valign="middle" align="center" namest="c1" nameend="c3"><emphasis effect="bold"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>4</m:mn><m:mi>x</m:mi></m:mrow></m:math></emphasis></entry>
+<entry valign="bottom" morerows="4" align="center"/>
+<entry align="center" valign="top" namest="c4" nameend="c6"><emphasis effect="bold"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>4</m:mn></m:mrow></m:math></emphasis></entry>
+</row>
+<row valign="top">
+<entry valign="middle" align="center"><emphasis effect="bold"><m:math><m:mi>x</m:mi></m:math></emphasis></entry>
+<entry valign="bottom" align="center"><emphasis effect="bold"><m:math><m:mi>y</m:mi></m:math></emphasis></entry>
+<entry valign="middle" align="center"><emphasis effect="bold"><m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>y</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math></emphasis></entry>
+<entry valign="middle" align="center"><emphasis effect="bold"><m:math><m:mi>x</m:mi></m:math></emphasis></entry>
+<entry valign="bottom" align="center"><emphasis effect="bold"><m:math><m:mi>y</m:mi></m:math></emphasis></entry>
+<entry valign="middle" align="center"><emphasis effect="bold"><m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>y</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math></emphasis></entry>
+</row>
+<row valign="top">
+<entry valign="middle" align="center">0</entry>
+<entry valign="middle" align="center">0</entry>
+<entry valign="middle" align="center"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>0</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+<entry valign="middle" align="center">0</entry>
+<entry valign="middle" align="center">4</entry>
+<entry valign="middle" align="center"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="middle" align="center">1</entry>
+<entry valign="middle" align="center">4</entry>
+<entry valign="middle" align="center"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+<entry valign="middle" align="center">1</entry>
+<entry valign="middle" align="center">4</entry>
+<entry valign="middle" align="center"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="middle" align="center">2</entry>
+<entry valign="middle" align="center">8</entry>
+<entry valign="middle" align="center"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>8</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+<entry valign="middle" align="center">2</entry>
+<entry valign="middle" align="center">4</entry>
+<entry valign="middle" align="center"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<figure id="CNX_ElemAlg_Figure_04_02_040">
+<media id="fs-id1169594034207" alt="The figure shows a two straight lines drawn on the same x y-coordinate plane. The x-axis of the plane runs from negative 7 to 7. The y-axis of the plane runs from negative 7 to 7. One line is a straight horizontal line labeled with the equation y equals 4. The other line is a slanted line labeled with the equation y equals 4x.">
+<image mime-type="image/jpeg" src="../../media/CNX_ElemAlg_Figure_04_02_040_img_new.jpg"/>
+</media>
+</figure>
+<para id="fs-id1169594034174">Notice, in <link target-id="CNX_ElemAlg_Figure_04_02_040"/>, the equation <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>4</m:mn><m:mi>x</m:mi></m:mrow></m:math> gives a slanted line, while <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>4</m:mn></m:mrow></m:math> gives a horizontal line.</para>
+<example id="fs-id1169596446104">
+<exercise id="fs-id1169596446106">
+<problem id="fs-id1169596446108">
+<para id="fs-id1169596446110">Graph <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−3</m:mn><m:mi>x</m:mi></m:mrow></m:math> and <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−3</m:mn></m:mrow></m:math> in the same rectangular coordinate system.</para>
+</problem>
+<solution id="fs-id1169596446136">
+<title>Solution</title>
+<para id="fs-id1169596446141">Notice that the first equation has the variable <m:math><m:mi>x</m:mi></m:math>, while the second does not. See <link target-id="fs-id1169596446157"/>. The two graphs are shown in <link target-id="CNX_ElemAlg_Figure_04_02_041"/>.</para>
+<table id="fs-id1169596446157" summary="There are two tables, each with 5 rows and 3 columns. For the table on the left: The first row is a title row with the equation y equals negative 3x. The second row is a header row and it labels each column. The first column header is x, the second is y and the third is (x, y). Under the first column are the numbers 0, 1, and 2. Under the second column are the numbers 0, negative 3, and negative 6. Under the third column are the ordered pairs (0, 0), (1, negative 3), and (2, negative 6). For the table on the right: The first row is a title row with the equation y equals negative 3. The second row is a header row and it labels each column. The first column header is x, the second is y and the third is (x, y). Under the first column are the numbers 0, 1, and 2. Under the second column are the numbers negative 3, negative 3, and negative 3. Under the third column are the ordered pairs (0, negative 3), (1, negative 3), and (2, negative 3).">
+<tgroup cols="7">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<colspec colnum="4" colname="c4"/>
+<colspec colnum="5" colname="c5"/>
+<colspec colnum="6" colname="c6"/>
+<colspec colnum="7" colname="c7"/>
+<tbody>
+<row valign="top">
+<entry valign="middle" align="center" namest="c1" nameend="c3"><emphasis effect="bold"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−3</m:mn><m:mi>x</m:mi></m:mrow></m:math></emphasis></entry>
+<entry valign="middle" morerows="4" align="center"/>
+<entry align="center" valign="top" namest="c4" nameend="c6"><emphasis effect="bold"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−3</m:mn></m:mrow></m:math></emphasis></entry>
+</row>
+<row valign="top">
+<entry valign="middle" align="center"><emphasis effect="bold"><m:math><m:mi>x</m:mi></m:math></emphasis></entry>
+<entry valign="bottom" align="center"><emphasis effect="bold"><m:math><m:mi>y</m:mi></m:math></emphasis></entry>
+<entry valign="middle" align="center"><emphasis effect="bold"><m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>y</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math></emphasis></entry>
+<entry align="center" valign="top"><emphasis effect="bold"><m:math><m:mi>x</m:mi></m:math></emphasis></entry>
+<entry align="center" valign="top"><emphasis effect="bold"><m:math><m:mi>y</m:mi></m:math></emphasis></entry>
+<entry align="center" valign="top"><emphasis effect="bold"><m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>y</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math></emphasis></entry>
+</row>
+<row valign="top">
+<entry valign="middle" align="center">0</entry>
+<entry valign="middle" align="center">0</entry>
+<entry valign="middle" align="center"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>0</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+<entry align="center" valign="top">0</entry>
+<entry align="center" valign="top"><m:math><m:mrow><m:mn>−3</m:mn></m:mrow></m:math></entry>
+<entry align="center" valign="top"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>−3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="middle" align="center">1</entry>
+<entry valign="middle" align="center"><m:math><m:mrow><m:mn>−3</m:mn></m:mrow></m:math></entry>
+<entry valign="middle" align="center"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>−3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+<entry align="center" valign="top">1</entry>
+<entry align="center" valign="top"><m:math><m:mrow><m:mn>−3</m:mn></m:mrow></m:math></entry>
+<entry align="center" valign="top"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>−3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="middle" align="center">2</entry>
+<entry valign="middle" align="center"><m:math><m:mrow><m:mn>−6</m:mn></m:mrow></m:math></entry>
+<entry valign="middle" align="center"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>−6</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+<entry align="center" valign="top">2</entry>
+<entry align="center" valign="top"><m:math><m:mrow><m:mn>−3</m:mn></m:mrow></m:math></entry>
+<entry align="center" valign="top"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>−3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<figure id="CNX_ElemAlg_Figure_04_02_041">
+<media id="fs-id1169596446253" alt="The figure shows a two straight lines drawn on the same x y-coordinate plane. The x-axis of the plane runs from negative 7 to 7. The y-axis of the plane runs from negative 7 to 7. One line is a straight horizontal line labeled with the equation y equals negative 3. The other line is a slanted line labeled with the equation y equals negative 3x.">
+<image mime-type="image/jpeg" src="../../media/CNX_ElemAlg_Figure_04_02_041_img_new.jpg"/>
+</media>
+</figure>
+</solution>
+</exercise>
+</example>
+<note id="fs-id1169596446275" class="try">
+<exercise id="fs-id1169596446279">
+<problem id="fs-id1169596446281">
+<para id="fs-id1169596446283">Graph <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−4</m:mn><m:mi>x</m:mi></m:mrow></m:math> and <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−4</m:mn></m:mrow></m:math> in the same rectangular coordinate system.</para>
+</problem>
+<solution id="fs-id1169596446309">
+<para id="fs-id1169596446311"><media id="fs-id1169596446312" alt="The figure shows a two straight lines drawn on the same x y-coordinate plane. The x-axis of the plane runs from negative 12 to 12. The y-axis of the plane runs from negative 12 to 12. One line is a straight horizontal line going through the points (negative 4, negative 4), (0, negative 4), (4, negative 4), and all other points with second coordinate negative 4. The other line is a slanted line going through the points (negative 2, 8), (negative 1, 4), (0, 0), (1, negative 4), and (2, negative 8).">
+<image mime-type="image/jpeg" src="../../media/CNX_ElemAlg_Figure_04_02_042_img_new.jpg"/>
+</media></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1169594154335" class="try">
+<exercise id="fs-id1169594154340">
+<problem id="fs-id1169594154342">
+<para id="fs-id1169594154344">Graph <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>3</m:mn></m:mrow></m:math> and <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>3</m:mn><m:mi>x</m:mi></m:mrow></m:math> in the same rectangular coordinate system.</para>
+</problem>
+<solution id="fs-id1169594154369">
+<para id="fs-id1169594154372"><media id="fs-id1169594154373" alt="The figure shows a two straight lines drawn on the same x y-coordinate plane. The x-axis of the plane runs from negative 12 to 12. The y-axis of the plane runs from negative 12 to 12. One line is a straight horizontal line going through the points (negative 4, 3) (0, 3), (4, 3), and all other points with second coordinate 3. The other line is a slanted line going through the points (negative 2, negative 6), (negative 1, negative 3), (0, 0), (1, 3), and (2, 6).">
+<image mime-type="image/jpeg" src="../../media/CNX_ElemAlg_Figure_04_02_043_img_new.jpg"/>
+</media></para>
+</solution>
+</exercise>
+</note>
+</section>
+<section id="fs-id1169594154422" class="key-concepts">
+<title>Key Concepts</title>
+<list id="fs-id1169594154430" list-type="bulleted" bullet-style="bullet">
+<item><emphasis effect="bold">Graph a Linear Equation by Plotting Points</emphasis>
+<list id="fs-id1169594079036" list-type="enumerated" number-style="arabic" class="stepwise">
+<item>Find three points whose coordinates are solutions to the equation. Organize them in a table.</item>
+<item>Plot the points in a rectangular coordinate system. Check that the points line up. If they do not, carefully check your work!</item>
+<item>Draw the line through the three points. Extend the line to fill the grid and put arrows on both ends of the line.</item>
+</list></item>
+</list>
+</section>
+<section id="fs-id1169594028663" class="section-exercises">
+<section id="fs-id1169594028667" class="practice-perfect">
+<title>Practice Makes Perfect</title>
+<para id="fs-id1169594028673"><emphasis effect="bold">Recognize the Relationship Between the Solutions of an Equation and its Graph</emphasis></para>
+<para id="fs-id1169594212944">In the following exercises, for each ordered pair, decide:</para>
+<para id="fs-id1169594028680"><span class="token">ⓐ</span> Is the ordered pair a solution to the equation? <span class="token">ⓑ</span> Is the point on the line?</para>
+<exercise id="fs-id1169594028683" class="material-set-2">
+<problem id="fs-id1169594028685">
+<para id="fs-id1169594028687"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow></m:math></para>
+<para id="fs-id1169594028702"><span class="token">ⓐ</span> <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math><newline/><span class="token">ⓑ</span> <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math><newline/><span class="token">ⓒ</span> <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−1</m:mn><m:mo>,</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math><newline/><span class="token">ⓓ</span> <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−3</m:mn><m:mo>,</m:mo><m:mn>−1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para><media id="fs-id1169594008347" alt="The figure shows a straight line drawn on the x y-coordinate plane. The x-axis of the plane runs from negative 7 to 7. The y-axis of the plane runs from negative 7 to 7. The straight line goes through the points (negative 6, negative 4), (negative 5, negative 3), (negative 4, negative 2), (negative 3, negative 1), (negative 2, 0), (negative 1, 1), (0, 2), (1, 3), (2, 4), (3, 5), (4, 6), and (5, 7).">
+<image mime-type="image/jpeg" src="../../media/CNX_ElemAlg_Figure_04_02_259_img_new.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1169594008363">
+<para id="fs-id1169594008365"><span class="token">ⓐ</span> yes; no <span class="token">ⓑ</span> no; no <span class="token">ⓒ</span> yes; yes <span class="token">ⓓ</span> yes; yes</para>
+</solution>
+</exercise>
+<exercise id="fs-id1169594008371" class="material-set-2">
+<problem id="fs-id1169594008373">
+<para id="fs-id1169594008375"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>4</m:mn></m:mrow></m:math></para>
+<para id="fs-id1169594008390"><span class="token">ⓐ</span> <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>−4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math><newline/><span class="token">ⓑ</span> <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>−1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math><newline/><span class="token">ⓒ</span> <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math><newline/><span class="token">ⓓ</span> <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>−5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para><media id="fs-id1169594041702" alt="The figure shows a straight line drawn on the x y-coordinate plane. The x-axis of the plane runs from negative 7 to 7. The y-axis of the plane runs from negative 7 to 7. The straight line goes through the points (negative 3, negative 7), (negative 2, negative 6), (negative 1, negative 5), (0, negative 4), (1, negative 3), (2, negative 2), (3, negative 1), (4, 0), (5, 1), (6, 2), and (7, 3).">
+<image mime-type="image/jpeg" src="../../media/CNX_ElemAlg_Figure_04_02_260_img_new.jpg"/>
+</media>
+</problem>
+</exercise>
+<exercise id="fs-id1169594041725" class="material-set-2">
+<problem id="fs-id1169594041727">
+<para id="fs-id1169594041730"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow></m:math></para>
+<para id="fs-id1169594041750"><span class="token">ⓐ</span> <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>−3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math><newline/><span class="token">ⓑ</span> <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>−2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math><newline/><span class="token">ⓒ</span> <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−2</m:mn><m:mo>,</m:mo><m:mn>−4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math><newline/><span class="token">ⓓ</span> <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>4</m:mn><m:mo>,</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para><media id="fs-id1169594176022" alt="The figure shows a straight line drawn on the x y-coordinate plane. The x-axis of the plane runs from negative 7 to 7. The y-axis of the plane runs from negative 7 to 7. The straight line goes through the points (negative 6, negative 6), (negative 4, negative 5), (negative 2, negative 4), (0, negative 3), (2, negative 2), (4, negative 1), and (6, 0).">
+<image mime-type="image/jpeg" src="../../media/CNX_ElemAlg_Figure_04_02_261_img_new.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1169594176037">
+<para id="fs-id1169594176039"><span class="token">ⓐ</span> yes; yes <span class="token">ⓑ</span> yes; yes <span class="token">ⓒ</span> yes; yes <span class="token">ⓓ</span> no; no</para>
+</solution>
+</exercise>
+<exercise id="fs-id1169594176045" class="material-set-2">
+<problem id="fs-id1169594176047">
+<para id="fs-id1169594176049"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow></m:math></para>
+<para id="fs-id1169594176069"><span class="token">ⓐ</span> <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math><newline/><span class="token">ⓑ</span> <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math><newline/><span class="token">ⓒ</span> <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−3</m:mn><m:mo>,</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math><newline/><span class="token">ⓓ</span> <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−6</m:mn><m:mo>,</m:mo><m:mn>0</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para><media id="fs-id1169596457903" alt="The figure shows a straight line drawn on the x y-coordinate plane. The x-axis of the plane runs from negative 7 to 7. The y-axis of the plane runs from negative 7 to 7. The straight line goes through the points (negative 6, 0), (negative 3, 1), (0, 2), (3, 3), and (6, 4).">
+<image mime-type="image/jpeg" src="../../media/CNX_ElemAlg_Figure_04_02_282_img_new.jpg"/>
+</media>
+</problem>
+</exercise>
+<para id="fs-id1169596457925"><emphasis effect="bold">Graph a Linear Equation by Plotting Points</emphasis></para>
+<para id="fs-id1169596319037">In the following exercises, graph by plotting points.</para>
+<exercise id="fs-id1169596457933">
+<problem id="fs-id1169596457935">
+<para id="fs-id1169596457937"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169596457955">
+<para id="fs-id1169594030486"><media id="fs-id1169594030487" alt="The figure shows a straight line drawn on the x y-coordinate plane. The x-axis of the plane runs from negative 12 to 12. The y-axis of the plane runs from negative 12 to 12. The straight line goes through the points (negative 3, negative 10), (negative 2, negative 7), (negative 1, negative 4), (0, negative 1), (1, 2), (2, 5), and (3, 8).">
+<image mime-type="image/jpeg" src="../../media/CNX_ElemAlg_Figure_04_02_201_img_new.jpg"/>
+</media></para>
+</solution>
+</exercise>
+<exercise id="fs-id1169594030503">
+<problem id="fs-id1169594030506">
+<para id="fs-id1169594030508"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1169594030546">
+<problem id="fs-id1169594030548">
+<para id="fs-id1169594030550"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169594030568">
+<para id="fs-id1169594030570"><media id="fs-id1169594030572" alt="The figure shows a straight line drawn on the x y-coordinate plane. The x-axis of the plane runs from negative 12 to 12. The y-axis of the plane runs from negative 12 to 12. The straight line goes through the points (negative 4, 10), (negative 3, 8), (negative 2, 6), (negative 1, 4), (0, 2), (1, 0), (2, negative 2), (3, negative 4), (4, negative 6), and (5, negative 8).">
+<image mime-type="image/jpeg" src="../../media/CNX_ElemAlg_Figure_04_02_203_img_new.jpg"/>
+</media></para>
+</solution>
+</exercise>
+<exercise id="fs-id1169594030588">
+<problem id="fs-id1169594030590">
+<para id="fs-id1169594030592"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1169594073518">
+<problem id="fs-id1169594073520">
+<para id="fs-id1169594073522"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169594073538">
+<para id="fs-id1169594073540"><media id="fs-id1169594073542" alt="The figure shows a straight line drawn on the x y-coordinate plane. The x-axis of the plane runs from negative 12 to 12. The y-axis of the plane runs from negative 12 to 12. The straight line goes through the points (negative 10, negative 8), (negative 9, negative 7), (negative 8, negative 6), (negative 7, negative 5), (negative 6, negative 4), (negative 5, negative 3), (negative 4, negative 2), (negative 3, negative 1), (negative 2, 0), (negative 1, 1), (0, 2), (1, 3), (2, 4), (3, 5), (4, 6), (5, 7), (6, 8), (7, 9), and (8, 10).">
+<image mime-type="image/jpeg" src="../../media/CNX_ElemAlg_Figure_04_02_205_img_new.jpg"/>
+</media></para>
+</solution>
+</exercise>
+<exercise id="fs-id1169594073560">
+<problem id="fs-id1169594073562">
+<para id="fs-id1169594073564"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1169594073601">
+<problem id="fs-id1169594206310">
+<para id="fs-id1169594206312"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mtext>−</m:mtext><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169594206330">
+<para id="fs-id1169594206332"><media id="fs-id1169594206333" alt="The figure shows a straight line drawn on the x y-coordinate plane. The x-axis of the plane runs from negative 12 to 12. The y-axis of the plane runs from negative 12 to 12. The straight line goes through the points (negative 10, 7), (negative 9, 6), (negative 8, 5), (negative 7, 4), (negative 6, 3), (negative 5, 2), (negative 4, 1), (negative 3, 0), (negative 2, negative 1), (negative 1, negative 2), (0, negative 3), (1, negative 4), (2, negative 5), (3, negative 6), (4, negative 7), (5, negative 8), (6, negative 9), and (7, negative 10).">
+<image mime-type="image/jpeg" src="../../media/CNX_ElemAlg_Figure_04_02_207_img_new.jpg"/>
+</media></para>
+</solution>
+</exercise>
+<exercise id="fs-id1169594206351">
+<problem id="fs-id1169594206354">
+<para id="fs-id1169594206356"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mtext>−</m:mtext><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1169594206395">
+<problem id="fs-id1169594206397">
+<para id="fs-id1169594206399"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>x</m:mi></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169594206413">
+<para id="fs-id1169594206415"><media id="fs-id1169594206416" alt="The figure shows a straight line drawn on the x y-coordinate plane. The x-axis of the plane runs from negative 12 to 12. The y-axis of the plane runs from negative 12 to 12. The straight line goes through the points (negative 5, negative 10), (negative 4, negative 8), (negative 3, negative 6), (negative 2, negative 4), (negative 1, negative 2), (0, 0), (1, 2), (2, 4), (3, 6), (4, 8), and (5, 10).">
+<image mime-type="image/jpeg" src="../../media/CNX_ElemAlg_Figure_04_02_209_img_new.jpg"/>
+</media></para>
+</solution>
+</exercise>
+<exercise id="fs-id1169596636156">
+<problem id="fs-id1169596636159">
+<para id="fs-id1169596636161"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>3</m:mn><m:mi>x</m:mi></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1169596636194">
+<problem id="fs-id1169596636197">
+<para id="fs-id1169596636199"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−4</m:mn><m:mi>x</m:mi></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169596636213">
+<para id="fs-id1169596636215"><media id="fs-id1169596636216" alt="The figure shows a straight line drawn on the x y-coordinate plane. The x-axis of the plane runs from negative 12 to 12. The y-axis of the plane runs from negative 12 to 12. The straight line goes through the points (negative 3, 12), (negative 2, 8), (negative 1, 4), (0, 0), (1, negative 4), (2, negative 8), and (3, negative 12).">
+<image mime-type="image/jpeg" src="../../media/CNX_ElemAlg_Figure_04_02_211_img_new.jpg"/>
+</media></para>
+</solution>
+</exercise>
+<exercise id="fs-id1169596636232">
+<problem id="fs-id1169596636234">
+<para id="fs-id1169596636236"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−2</m:mn><m:mi>x</m:mi></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1169594077737">
+<problem id="fs-id1169594077739">
+<para id="fs-id1169594077741"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169594077762">
+<para id="fs-id1169594077764"><media id="fs-id1169594077765" alt="The figure shows a straight line drawn on the x y-coordinate plane. The x-axis of the plane runs from negative 12 to 12. The y-axis of the plane runs from negative 12 to 12. The straight line goes through the points (negative 12, negative 4), (negative 10, negative 3), (negative 8, negative 2), (negative 6, negative 1), (negative 4, 0), (negative 2, 1), (0, 2), (2, 3), (4, 4), (6, 5), (8, 6), and (10, 7).">
+<image mime-type="image/jpeg" src="../../media/CNX_ElemAlg_Figure_04_02_213_img_new.jpg"/>
+</media></para>
+</solution>
+</exercise>
+<exercise id="fs-id1169594077782">
+<problem id="fs-id1169594077785">
+<para id="fs-id1169594077787"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1169594077828">
+<problem id="fs-id1169594077830">
+<para id="fs-id1169594077832"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>4</m:mn><m:mn>3</m:mn></m:mfrac><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>5</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169596662207">
+<para id="fs-id1169596662209"><media id="fs-id1169596662210" alt="The figure shows a straight line drawn on the x y-coordinate plane. The x-axis of the plane runs from negative 12 to 12. The y-axis of the plane runs from negative 12 to 12. The straight line goes through the points (negative 3, negative 9), (0, negative 5), (3, negative 1), (6, 3), and (9, 7).">
+<image mime-type="image/jpeg" src="../../media/CNX_ElemAlg_Figure_04_02_215_img_new.jpg"/>
+</media></para>
+</solution>
+</exercise>
+<exercise id="fs-id1169596662226">
+<problem id="fs-id1169596662228">
+<para id="fs-id1169596662231"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>3</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1169596662272">
+<problem id="fs-id1169596662274">
+<para id="fs-id1169596662276"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mn>2</m:mn><m:mn>5</m:mn></m:mfrac><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169596662299">
+<para id="fs-id1169596662302"><media id="fs-id1169596662303" alt="The figure shows a straight line drawn on the x y-coordinate plane. The x-axis of the plane runs from negative 12 to 12. The y-axis of the plane runs from negative 12 to 12. The straight line goes through the points (negative 10, 5), (negative 5, 3), (0, 1), (5, negative 1), and (10, negative 3).">
+<image mime-type="image/jpeg" src="../../media/CNX_ElemAlg_Figure_04_02_217_img_new.jpg"/>
+</media></para>
+</solution>
+</exercise>
+<exercise id="fs-id1169596754032">
+<problem id="fs-id1169596754034">
+<para id="fs-id1169596754036"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mn>4</m:mn><m:mn>5</m:mn></m:mfrac><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1169596754079">
+<problem id="fs-id1169596754081">
+<para id="fs-id1169596754084"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mn>3</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169596754107">
+<para id="fs-id1169596754109"><media id="fs-id1169596754110" alt="The figure shows a straight line drawn on the x y-coordinate plane. The x-axis of the plane runs from negative 12 to 12. The y-axis of the plane runs from negative 12 to 12. The straight line goes through the points (negative 6, 11), (negative 4, 8), (negative 2, 5), (0, 2), (2, negative 1), (4, negative 4), (6, negative 7), and (8, negative 10).">
+<image mime-type="image/jpeg" src="../../media/CNX_ElemAlg_Figure_04_02_219_img_new.jpg"/>
+</media></para>
+</solution>
+</exercise>
+<exercise id="fs-id1169596754127">
+<problem id="fs-id1169596754129">
+<para id="fs-id1169596754131"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mn>5</m:mn><m:mn>3</m:mn></m:mfrac><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1169594073637">
+<problem id="fs-id1169594073639">
+<para id="fs-id1169594073641"><m:math><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>6</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169594073657">
+<para id="fs-id1169594073659"><media id="fs-id1169594073660" alt="The figure shows a straight line drawn on the x y-coordinate plane. The x-axis of the plane runs from negative 12 to 12. The y-axis of the plane runs from negative 12 to 12. The straight line goes through the points (negative 4, 10), (negative 3, 9), (negative 2, 8), (negative 1, 7), (0, 6), (1, 5), (2, 4), (3, 3), (4, 2), (5, 1), (6, 0), (7, negative 1), (8, negative 2), (9, negative 3), and (10, negative 4).">
+<image mime-type="image/jpeg" src="../../media/CNX_ElemAlg_Figure_04_02_221_img_new.jpg"/>
+</media></para>
+</solution>
+</exercise>
+<exercise id="fs-id1169594073678">
+<problem id="fs-id1169594073680">
+<para id="fs-id1169594073682"><m:math><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>4</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1169594073718">
+<problem id="fs-id1169594073721">
+<para id="fs-id1169594073723"><m:math><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−3</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169594150702">
+<para id="fs-id1169594150704"><media id="fs-id1169594150705" alt="The figure shows a straight line drawn on the x y-coordinate plane. The x-axis of the plane runs from negative 12 to 12. The y-axis of the plane runs from negative 12 to 12. The straight line goes through the points (negative 10, 7), (negative 9, 6), (negative 8, 5), (negative 7, 4), (negative 6, 3), (negative 5, 2), (negative 4, 1), (negative 3, 0), (negative 2, negative 1), (negative 1, negative 2), (0, negative 3), (1, negative 4), (2, negative 5), (3, negative 6), (4, negative 7), (5, negative 8), (6, negative 9), and (7, negative 10).">
+<image mime-type="image/jpeg" src="../../media/CNX_ElemAlg_Figure_04_02_223_img_new.jpg"/>
+</media></para>
+</solution>
+</exercise>
+<exercise id="fs-id1169594150723">
+<problem id="fs-id1169594150726">
+<para id="fs-id1169594150728"><m:math><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−2</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1169594150765">
+<problem id="fs-id1169594150767">
+<para id="fs-id1169594150769"><m:math><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>2</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169594150785">
+<para id="fs-id1169594150787"><media id="fs-id1169594150788" alt="The figure shows a straight line drawn on the x y-coordinate plane. The x-axis of the plane runs from negative 12 to 12. The y-axis of the plane runs from negative 12 to 12. The straight line goes through the points (negative 8, negative 10), (negative 7, negative 9), (negative 6, negative 8), (negative 5, negative 7), (negative 4, negative 6), (negative 3, negative 5), (negative 2, negative 4), (negative 1, negative 3), (0, negative 2), (1, negative 1), (2, 0), (3, 1), (4, 2), (5, 3), (6, 4), (7, 5), (8, 6), (9, 7), and (10, 8).">
+<image mime-type="image/jpeg" src="../../media/CNX_ElemAlg_Figure_04_02_225_img_new.jpg"/>
+</media></para>
+</solution>
+</exercise>
+<exercise id="fs-id1169594150806">
+<problem id="fs-id1169594150809">
+<para id="fs-id1169594045832"><m:math><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1169594045869">
+<problem id="fs-id1169594045871">
+<para id="fs-id1169594045873"><m:math><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−1</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169594045889">
+<para id="fs-id1169594045892"><media id="fs-id1169594045893" alt="The figure shows a straight line drawn on the x y-coordinate plane. The x-axis of the plane runs from negative 12 to 12. The y-axis of the plane runs from negative 12 to 12. The straight line goes through the points (negative 9, negative 8), (negative 8, negative 7), (negative 7, negative 6), (negative 6, negative 5), (negative 5, negative 4), (negative 4, negative 3), (negative 3, negative 2), (negative 2, negative 1), (negative 1, 0), (0, 1), (1, 2), (2, 3), (3, 4), (4, 5), (5, 6), (6, 7), (7, 8), (8, 9), and (9, 10).">
+<image mime-type="image/jpeg" src="../../media/CNX_ElemAlg_Figure_04_02_227_img_new.jpg"/>
+</media></para>
+</solution>
+</exercise>
+<exercise id="fs-id1169594045911">
+<problem id="fs-id1169594045913">
+<para id="fs-id1169594045915"><m:math><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−3</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1169596441575">
+<problem id="fs-id1169596441577">
+<para id="fs-id1169596441579"><m:math><m:mrow><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>7</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169596441597">
+<para id="fs-id1169596441599"><media id="fs-id1169596441600" alt="The figure shows a straight line drawn on the x y-coordinate plane. The x-axis of the plane runs from negative 7 to -7. The equation 3 x plus y equals 7 is graphed.">
+<image mime-type="image/jpeg" src="../../media/CNX_ElemAlg_Figure_04_02_229_img.jpg"/>
+</media></para>
+</solution>
+</exercise>
+<exercise id="fs-id1169596441615">
+<problem id="fs-id1169596441618">
+<para id="fs-id1169596441620"><m:math><m:mrow><m:mn>5</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>6</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1169596441657">
+<problem id="fs-id1169596441659">
+<para id="fs-id1169596441661"><m:math><m:mrow><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−3</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169596441679">
+<para id="fs-id1169596441682"><media id="fs-id1169596441683" alt="The figure shows a straight line drawn on the x y-coordinate plane. The x-axis of the plane runs from negative 7 to 7. The y-axis of the plane runs from negative 7 to 7. The straight line goes through the points (negative 5, 7), (negative 4, 5), (negative 3, 3), (negative 2, 1), (negative 1, negative 1), (0, negative 3), (1, negative 5), and (2, negative 7).">
+<image mime-type="image/jpeg" src="../../media/CNX_ElemAlg_Figure_04_02_231_img_new.jpg"/>
+</media></para>
+</solution>
+</exercise>
+<exercise id="fs-id1169596441699">
+<problem id="fs-id1169596754229">
+<para id="fs-id1169596754232"><m:math><m:mrow><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−5</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1169596754269">
+<problem id="fs-id1169596754271">
+<para id="fs-id1169596754273"><m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>2</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169596754294">
+<para id="fs-id1169596754297"><media id="fs-id1169596754298" alt="The figure shows a straight line drawn on the x y-coordinate plane. The x-axis of the plane runs from negative 7 to 7. The y-axis of the plane runs from negative 7 to 7. The straight line goes through the points (negative 6, 4), (negative 3, 3), (0, 2), (3, 1), and (6, 0).">
+<image mime-type="image/jpeg" src="../../media/CNX_ElemAlg_Figure_04_02_233_img_new.jpg"/>
+</media></para>
+</solution>
+</exercise>
+<exercise id="fs-id1169596754314">
+<problem id="fs-id1169596754316">
+<para id="fs-id1169596754318"><m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>3</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1169594030913">
+<problem id="fs-id1169594030915">
+<para id="fs-id1169594030917"><m:math><m:mrow><m:mfrac><m:mn>2</m:mn><m:mn>5</m:mn></m:mfrac><m:mi>x</m:mi><m:mo>−</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>4</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169594030939">
+<para id="fs-id1169594030941"><media id="fs-id1169594030942" alt="The figure shows a straight line drawn on the x y-coordinate plane. The x-axis of the plane runs from negative 7 to 7. The y-axis of the plane runs from negative 7 to 7. The straight line goes through the points (negative 5, negative 2), (0, negative 4), and (5, negative 6).">
+<image mime-type="image/jpeg" src="../../media/CNX_ElemAlg_Figure_04_02_235_img.jpg"/>
+</media></para>
+</solution>
+</exercise>
+<exercise id="fs-id1169594030957">
+<problem id="fs-id1169594030959">
+<para id="fs-id1169594030961"><m:math><m:mrow><m:mfrac><m:mn>3</m:mn><m:mn>4</m:mn></m:mfrac><m:mi>x</m:mi><m:mo>−</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>6</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1169594031001">
+<problem id="fs-id1169594031004">
+<para id="fs-id1169594031006"><m:math><m:mrow><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>12</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169594031026">
+<para id="fs-id1169594031028"><media id="fs-id1169594031029" alt="The figure shows a straight line drawn on the x y-coordinate plane. The x-axis of the plane runs from negative 7 to 7. The y-axis of the plane runs from negative 7 to 7. The straight line goes through the points (negative 3, 6), (0, 4), (3, 2), and (6, 0).">
+<image mime-type="image/jpeg" src="../../media/CNX_ElemAlg_Figure_04_02_237_img_new.jpg"/>
+</media></para>
+</solution>
+</exercise>
+<exercise id="fs-id1169596766671">
+<problem id="fs-id1169596766673">
+<para id="fs-id1169596766675"><m:math><m:mrow><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>12</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1169596766715">
+<problem id="fs-id1169596766717">
+<para id="fs-id1169596766719"><m:math><m:mrow><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>4</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>12</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169596766739">
+<para id="fs-id1169596766741"><media id="fs-id1169596766742" alt="The figure shows a straight line drawn on the x y-coordinate plane. The x-axis of the plane runs from negative 7 to 7. The y-axis of the plane runs from negative 7 to 7. The straight line goes through the points (negative 4, negative 6), (0, negative 3), (4, 0), and (8, 3).">
+<image mime-type="image/jpeg" src="../../media/CNX_ElemAlg_Figure_04_02_239_img_new.jpg"/>
+</media></para>
+</solution>
+</exercise>
+<exercise id="fs-id1169596766758">
+<problem id="fs-id1169596766760">
+<para id="fs-id1169596766763"><m:math><m:mrow><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>5</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>10</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1169594056395">
+<problem id="fs-id1169594056397">
+<para id="fs-id1169594056400"><m:math><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>6</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>3</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169594056418">
+<para id="fs-id1169594056420"><media id="fs-id1169594056421" alt="The figure shows a straight line drawn on the x y-coordinate plane. The x-axis of the plane runs from negative 7 to 7. The y-axis of the plane runs from negative 7 to 7. The straight line goes through the points (negative 6, negative three halves), (negative 3, negative 1), (0, negative one half), (3, 0), and (6, one half).">
+<image mime-type="image/jpeg" src="../../media/CNX_ElemAlg_Figure_04_02_262_img_new.jpg"/>
+</media></para>
+</solution>
+</exercise>
+<exercise id="fs-id1169594056437">
+<problem id="fs-id1169594056439">
+<para id="fs-id1169594056441"><m:math><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>4</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>2</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1169594056479">
+<problem id="fs-id1169594056481">
+<para id="fs-id1169594056484"><m:math><m:mrow><m:mn>5</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>4</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169594056504">
+<para id="fs-id1169594056506"><media id="fs-id1169594056507" alt="The figure shows a straight line drawn on the x y-coordinate plane. The x-axis of the plane runs from negative 7 to 7. The y-axis of the plane runs from negative 7 to 7. The straight line goes through the points (negative 2, 7), (0, 2), (2, negative 3), and (4, negative 8).">
+<image mime-type="image/jpeg" src="../../media/CNX_ElemAlg_Figure_04_02_264_img_new.jpg"/>
+</media></para>
+</solution>
+</exercise>
+<exercise id="fs-id1169594193002">
+<problem id="fs-id1169594193004">
+<para id="fs-id1169594193006"><m:math><m:mrow><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>5</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>5</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<para id="fs-id1169594193046"><emphasis effect="bold">Graph Vertical and Horizontal Lines</emphasis></para>
+<para id="fs-id1169596686274">In the following exercises, graph each equation.</para>
+<exercise id="fs-id1169594193053">
+<problem id="fs-id1169594193055">
+<para id="fs-id1169594193057"><m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>4</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169594193069">
+<para id="fs-id1169594193071"><media id="fs-id1169594193072" alt="The figure shows a straight vertical line drawn on the x y-coordinate plane. The x-axis of the plane runs from negative 12 to 12. The y-axis of the plane runs from negative 12 to 12. The vertical line goes through the points (4, 0), (4, 1), (4, 2) and all points with first coordinate 4.">
+<image mime-type="image/jpeg" src="../../media/CNX_ElemAlg_Figure_04_02_241_img_new.jpg"/>
+</media></para>
+</solution>
+</exercise>
+<exercise id="fs-id1169594193088">
+<problem id="fs-id1169594193090">
+<para id="fs-id1169594193092"><m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>3</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1169596438644">
+<problem id="fs-id1169596438646">
+<para id="fs-id1169596438648"><m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>−2</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169596438660">
+<para id="fs-id1169596438662"><media id="fs-id1169596438663" alt="The figure shows a straight vertical line drawn on the x y-coordinate plane. The x-axis of the plane runs from negative 12 to 12. The y-axis of the plane runs from negative 12 to 12. The vertical line goes through the points (negative 2, 0), (negative 2, 1), (negative 2, 2) and all points with first coordinate negative 2.">
+<image mime-type="image/jpeg" src="../../media/CNX_ElemAlg_Figure_04_02_243_img_new.jpg"/>
+</media></para>
+</solution>
+</exercise>
+<exercise id="fs-id1169596438678">
+<problem id="fs-id1169596438681">
+<para id="fs-id1169596438683"><m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>−5</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1169596438714">
+<problem id="fs-id1169596438716">
+<para id="fs-id1169596438718"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>3</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169596438730">
+<para id="fs-id1169596438732"><media id="fs-id1169596438733" alt="The figure shows a straight horizontal line drawn on the x y-coordinate plane. The x-axis of the plane runs from negative 12 to 12. The y-axis of the plane runs from negative 12 to 12. The horizontal line goes through the points (0, 3), (1, 3), (2, 3) and all points with second coordinate 3.">
+<image mime-type="image/jpeg" src="../../media/CNX_ElemAlg_Figure_04_02_245_img_new.jpg"/>
+</media></para>
+</solution>
+</exercise>
+<exercise id="fs-id1169596438749">
+<problem id="fs-id1169596438751">
+<para id="fs-id1169596438753"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1169594129340">
+<problem id="fs-id1169594129342">
+<para id="fs-id1169594129345"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−5</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169594129356">
+<para id="fs-id1169594129358"><media id="fs-id1169594129360" alt="The figure shows a straight horizontal line drawn on the x y-coordinate plane. The x-axis of the plane runs from negative 12 to 12. The y-axis of the plane runs from negative 12 to 12. The horizontal line goes through the points (0, negative 5), (1, negative 5), (2, negative 5) and all points with second coordinate negative 5.">
+<image mime-type="image/jpeg" src="../../media/CNX_ElemAlg_Figure_04_02_247_img_new.jpg"/>
+</media></para>
+</solution>
+</exercise>
+<exercise id="fs-id1169594129376">
+<problem id="fs-id1169594129378">
+<para id="fs-id1169594129380"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−2</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1169594129412">
+<problem id="fs-id1169594129414">
+<para id="fs-id1169594129416"><m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>7</m:mn><m:mn>3</m:mn></m:mfrac></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169594129431">
+<para id="fs-id1169594129433"><media id="fs-id1169594129434" alt="The figure shows a straight vertical line drawn on the x y-coordinate plane. The x-axis of the plane runs from negative 12 to 12. The y-axis of the plane runs from negative 12 to 12. The vertical line goes through the points (7/3, 0), (7/3, 1), (7/3, 2) and all points with first coordinate 7/3.">
+<image mime-type="image/jpeg" src="../../media/CNX_ElemAlg_Figure_04_02_249_img_new.jpg"/>
+</media></para>
+</solution>
+</exercise>
+<exercise id="fs-id1169594129450">
+<problem id="fs-id1169594129452">
+<para id="fs-id1169594129454"><m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>5</m:mn><m:mn>4</m:mn></m:mfrac></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1169596635754">
+<problem id="fs-id1169596635756">
+<para id="fs-id1169596635759"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mrow><m:mn>15</m:mn></m:mrow><m:mn>4</m:mn></m:mfrac></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169596635777">
+<para id="fs-id1169596635779"><media id="fs-id1169596635780" alt="The figure shows a straight horizontal line drawn on the x y-coordinate plane. The x-axis of the plane runs from negative 7 to 7. The y-axis of the plane runs from negative 7 to 7. The horizontal line goes through the points (0, negative 15/4), (1, negative 15/4), (2, negative 15/4) and all points with second coordinate negative 15/4.">
+<image mime-type="image/jpeg" src="../../media/CNX_ElemAlg_Figure_04_02_251_img_new.jpg"/>
+</media></para>
+</solution>
+</exercise>
+<exercise id="fs-id1169596635796">
+<problem id="fs-id1169596635798">
+<para id="fs-id1169596635801"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mn>5</m:mn><m:mn>3</m:mn></m:mfrac></m:mrow></m:math></para>
+</problem>
+</exercise>
+<para id="fs-id1169596635837">In the following exercises, graph each pair of equations in the same rectangular coordinate system.</para>
+<exercise id="fs-id1169596635841">
+<problem id="fs-id1169596635844">
+<para id="fs-id1169596635846"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>x</m:mi></m:mrow></m:math> and <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>2</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169594150823">
+<para id="fs-id1169594150825"><media id="fs-id1169594150826" alt="The figure shows a two straight lines drawn on the same x y-coordinate plane. The x-axis of the plane runs from negative 12 to 12. The y-axis of the plane runs from negative 12 to 12. One line is a straight horizontal line going through the points (negative 4, 2) (0, 2), (4, 2), and all other points with second coordinate 2. The other line is a slanted line going through the points (negative 5, negative 10), (negative 4, negative 8), (negative 3, negative 6), (negative 2, negative 4), (negative 1, negative 2), (0, 0), (1, 2), (2, 4), (3, 6), (4, 8), and (5, 10).">
+<image mime-type="image/jpeg" src="../../media/CNX_ElemAlg_Figure_04_02_253_img_new.jpg"/>
+</media></para>
+</solution>
+</exercise>
+<exercise id="fs-id1169594150845">
+<problem id="fs-id1169594150847">
+<para id="fs-id1169594150849"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>5</m:mn><m:mi>x</m:mi></m:mrow></m:math> and <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>5</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1169594150893">
+<problem id="fs-id1169594150895">
+<para id="fs-id1169594150897"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>x</m:mi></m:mrow></m:math> and <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169594150931">
+<para id="fs-id1169594150934"><media id="fs-id1169594150935" alt="The figure shows a two straight lines drawn on the same x y-coordinate plane. The x-axis of the plane runs from negative 12 to 12. The y-axis of the plane runs from negative 12 to 12. One line is a straight horizontal line going through the points (negative 4, negative one half) (0, negative one half), (4, negative one half), and all other points with second coordinate negative one half. The other line is a slanted line going through the points (negative 10, 5), (negative 8, 4), (negative 6, 3), (negative 4, 2), (negative 2, 1), (0, 0), (1, negative 2), (2, negative 4), (3, negative 6), (4, negative 8), and (5, negative 10).">
+<image mime-type="image/jpeg" src="../../media/CNX_ElemAlg_Figure_04_02_255_img_new.jpg"/>
+</media></para>
+</solution>
+</exercise>
+<exercise id="fs-id1169596432031">
+<problem id="fs-id1169596432033">
+<para id="fs-id1169596432035"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac><m:mi>x</m:mi></m:mrow></m:math> and <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac></m:mrow></m:math></para>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1169596432092">
+<title>Mixed Practice</title>
+<para id="fs-id1169596432097">In the following exercises, graph each equation.</para>
+<exercise id="fs-id1169596432100" class="material-set-2">
+<problem id="fs-id1169596432102">
+<para id="fs-id1169596432105"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>4</m:mn><m:mi>x</m:mi></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169596432118">
+<para id="fs-id1169596432121"><media id="fs-id1169596432122" alt="The figure shows a straight line drawn on the x y-coordinate plane. The x-axis of the plane runs from negative 7 to 7. The y-axis of the plane runs from negative 7 to 7. The straight line goes through the points (negative 2, negative 8), (negative 1, negative 4), (0, 0), (1, 4), and (2, 8).">
+<image mime-type="image/jpeg" src="../../media/CNX_ElemAlg_Figure_04_02_266_img_new.jpg"/>
+</media></para>
+</solution>
+</exercise>
+<exercise id="fs-id1169596432138" class="material-set-2">
+<problem id="fs-id1169596432140">
+<para id="fs-id1169596432142"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>x</m:mi></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1169596642362" class="material-set-2">
+<problem id="fs-id1169596642364">
+<para id="fs-id1169596642366"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169596642389">
+<para id="fs-id1169596642391"><media id="fs-id1169596642392" alt="The figure shows a straight line drawn on the x y-coordinate plane. The x-axis of the plane runs from negative 7 to 7. The y-axis of the plane runs from negative 7 to 7. The straight line goes through the points (negative 6, 6), (negative 4, 5), (negative 2, 4), (0, 3), (2, 2), (4, 1), and (6, 0).">
+<image mime-type="image/jpeg" src="../../media/CNX_ElemAlg_Figure_04_02_268_img_new.jpg"/>
+</media></para>
+</solution>
+</exercise>
+<exercise id="fs-id1169596642409" class="material-set-2">
+<problem id="fs-id1169596642411">
+<para id="fs-id1169596642413"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>4</m:mn></m:mfrac><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1169596642454" class="material-set-2">
+<problem id="fs-id1169596642456">
+<para id="fs-id1169596642458"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mtext>−</m:mtext><m:mi>x</m:mi></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169596598234">
+<para id="fs-id1169596598236"><media id="fs-id1169596598237" alt="The figure shows a straight line drawn on the x y-coordinate plane. The x-axis of the plane runs from negative 7 to 7. The y-axis of the plane runs from negative 7 to 7. The straight line goes through the points (negative 6, 6), (negative 5, 5), (negative 4, 4), (negative 3, 3), (negative 2, 2), (negative 1, 1), (0, 0), (1, negative 1), (2, negative 2), (3, negative 3), (4, negative 4), (5, negative 5), and (6, negative 6).">
+<image mime-type="image/jpeg" src="../../media/CNX_ElemAlg_Figure_04_02_270_img_new.jpg"/>
+</media></para>
+</solution>
+</exercise>
+<exercise id="fs-id1169596598253" class="material-set-2">
+<problem id="fs-id1169596598256">
+<para id="fs-id1169596598258"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>x</m:mi></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1169596598290" class="material-set-2">
+<problem id="fs-id1169596598292">
+<para id="fs-id1169596598294"><m:math><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>3</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169596598310">
+<para id="fs-id1169596598312"><media id="fs-id1169596598313" alt="The figure shows a straight line drawn on the x y-coordinate plane. The x-axis of the plane runs from negative 7 to 7. The y-axis of the plane runs from negative 7 to 7. The straight line goes through the points (negative 3, negative 7), (negative 2, negative 6), (negative 1, negative 4), (0, negative 3), (1, negative 2), (2, negative 1), (3, 0), (4, 1), (5, 2), and (6, 3).">
+<image mime-type="image/jpeg" src="../../media/CNX_ElemAlg_Figure_04_02_272_img_new.jpg"/>
+</media></para>
+</solution>
+</exercise>
+<exercise id="fs-id1169596598330" class="material-set-2">
+<problem id="fs-id1169596598332">
+<para id="fs-id1169596598334"><m:math><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−5</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1169596697676" class="material-set-2">
+<problem id="fs-id1169596697679">
+<para id="fs-id1169596697681"><m:math><m:mrow><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>2</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169596697699">
+<para id="fs-id1169596697701"><media id="fs-id1169596697702" alt="The figure shows a straight line drawn on the x y-coordinate plane. The x-axis of the plane runs from negative 7 to 7. The y-axis of the plane runs from negative 7 to 7. The straight line goes through the points (negative 2, 6), (negative 1, 4), (0, 2), (1, negative 2), and (2, negative 6).">
+<image mime-type="image/jpeg" src="../../media/CNX_ElemAlg_Figure_04_02_274_img_new.jpg"/>
+</media></para>
+</solution>
+</exercise>
+<exercise id="fs-id1169596697718" class="material-set-2">
+<problem id="fs-id1169596697720">
+<para id="fs-id1169596697722"><m:math><m:mrow><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>6</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1169596697760" class="material-set-2">
+<problem id="fs-id1169596697762">
+<para id="fs-id1169596697764"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−1</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169596697776">
+<para id="fs-id1169596697778"><media id="fs-id1169596697779" alt="The figure shows a straight horizontal line drawn on the x y-coordinate plane. The x-axis of the plane runs from negative 7 to 7. The y-axis of the plane runs from negative 7 to 7. The horizontal line goes through the points (0, negative 1), (1, negative 1), (2, negative 1) and all points with second coordinate negative 1.">
+<image mime-type="image/jpeg" src="../../media/CNX_ElemAlg_Figure_04_02_276_img_new.jpg"/>
+</media></para>
+</solution>
+</exercise>
+<exercise id="fs-id1169596697795" class="material-set-2">
+<problem id="fs-id1169596697797">
+<para id="fs-id1169596697800"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>5</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1169594041784" class="material-set-2">
+<problem id="fs-id1169594041786">
+<para id="fs-id1169594041788"><m:math><m:mrow><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>6</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>12</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169594041809">
+<para id="fs-id1169594041811"><media id="fs-id1169594041812" alt="The figure shows a straight line drawn on the x y-coordinate plane. The x-axis of the plane runs from negative 7 to 7. The y-axis of the plane runs from negative 7 to 7. The straight line goes through the points (negative 6, 4), (negative 3, 3), (0, 2), (3, 1), and (6, 0).">
+<image mime-type="image/jpeg" src="../../media/CNX_ElemAlg_Figure_04_02_278_img_new.jpg"/>
+</media></para>
+</solution>
+</exercise>
+<exercise id="fs-id1169594041828" class="material-set-2">
+<problem id="fs-id1169594041830">
+<para id="fs-id1169594041832"><m:math><m:mrow><m:mn>5</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>10</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1169594041871" class="material-set-2">
+<problem id="fs-id1169594041874">
+<para id="fs-id1169594041876"><m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>3</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169594041887">
+<para id="fs-id1169594041890"><media id="fs-id1169594041891" alt="The figure shows a straight vertical line drawn on the x y-coordinate plane. The x-axis of the plane runs from negative 7 to 7. The y-axis of the plane runs from negative 7 to 7. The vertical line goes through the points (3, 0), (3, 1), (3, 2) and all points with first coordinate 3.">
+<image mime-type="image/jpeg" src="../../media/CNX_ElemAlg_Figure_04_02_280_img_new.jpg"/>
+</media></para>
+</solution>
+</exercise>
+<exercise id="fs-id1169594041907" class="material-set-2">
+<problem id="fs-id1169594149654">
+<para id="fs-id1169594149656"><m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>−4</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1169594149688" class="everyday">
+<title>Everyday Math</title>
+<exercise id="fs-id1169594149694">
+<problem id="fs-id1169594149696">
+<para id="fs-id1169594149698"><emphasis effect="bold">Motor home cost.</emphasis> The Robinsons rented a motor home for one week to go on vacation. It cost them $594 plus $0.32 per mile to rent the motor home, so the linear equation <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>594</m:mn><m:mo>+</m:mo><m:mn>0.32</m:mn><m:mi>x</m:mi></m:mrow></m:math> gives the cost, <m:math><m:mi>y</m:mi></m:math>, for driving <m:math><m:mi>x</m:mi></m:math> miles. Calculate the rental cost for driving 400, 800, and 1200 miles, and then graph the line.</para>
+</problem>
+<solution id="fs-id1169594149733">
+<para id="fs-id1169594149736">$722, $850, $978<newline/>
+<media id="fs-id1169594149740" alt="The figure shows a straight line drawn on the x y-coordinate plane. The x-axis of the plane runs from 0 to 1200 in increments of 100. The y-axis of the plane runs from 0 to 1000 in increments of 100. The straight line starts at the point (0, 594) and goes through the points (400, 722), (800, 850), and (1200, 978). The right end of the line has an arrow pointing up and to the right.">
+<image mime-type="image/jpeg" src="../../media/CNX_ElemAlg_Figure_04_02_257_img_new.jpg"/>
+</media></para>
+</solution>
+</exercise>
+<exercise id="fs-id1169594149757">
+<problem id="fs-id1169594149759">
+<para id="fs-id1169594149761"><emphasis effect="bold">Weekly earnings.</emphasis> At the art gallery where he works, Salvador gets paid $200 per week plus 15% of the sales he makes, so the equation <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>200</m:mn><m:mo>+</m:mo><m:mn>0.15</m:mn><m:mi>x</m:mi></m:mrow></m:math> gives the amount, <m:math><m:mi>y</m:mi></m:math>, he earns for selling <m:math><m:mi>x</m:mi></m:math> dollars of artwork. Calculate the amount Salvador earns for selling $900, $1600, and $2000, and then graph the line.</para>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1169594176591" class="writing">
+<title>Writing Exercises</title>
+<exercise id="fs-id1169594176596">
+<problem id="fs-id1169594176599">
+<para id="fs-id1169594176601">Explain how you would choose three <emphasis effect="italics">x</emphasis>- values to make a table to graph the line <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>5</m:mn></m:mfrac><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow></m:math>.</para>
+</problem>
+<solution id="fs-id1169594176629">
+<para id="fs-id1169594176632">Answers will vary.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1169594176637">
+<problem id="fs-id1169594176639">
+<para id="fs-id1169594176641">What is the difference between the equations of a vertical and a horizontal line?</para>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1169594154392">
+<title>Self Check</title>
+<para id="fs-id1172184799008"><span class="token">ⓐ</span> After completing the exercises, use this checklist to evaluate your mastery of the objectives of this section.</para>
+<media id="fs-id1169594154409" alt="This table has 4 rows and 4 columns. The first row is a header row and it labels each column. The first column header is “I can…”, the second is “Confidently”, the third is “With some help”, and the fourth is “No, I don’t get it”. Under the first column are the phrases “…recognize the relation between the solutions of an equation and its graph.”, “…graph a linear equation by plotting points.”, and “…graph vertical and horizontal lines.”. The other columns are left blank so that the learner may indicate their mastery level for each topic.">
+<image mime-type="image/jpeg" src="../../media/CNX_ElemAlg_Figure_04_02_283_img_new.jpg"/>
+</media>
+<para id="fs-id1172181170055"><span class="token">ⓑ</span> After reviewing this checklist, what will you do to become confident for all goals?</para>
+</section>
+</section>
+</content>
+<glossary>
+<definition id="fs-id1169594176658">
+<term>graph of a linear equation</term>
+<meaning id="fs-id1169594176664">The graph of a linear equation <m:math><m:mrow><m:mi>A</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>B</m:mi><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>C</m:mi></m:mrow></m:math> is a straight line. Every point on the line is a solution of the equation. Every solution of this equation is a point on this line.</meaning>
+</definition>
+<definition id="fs-id1169594176687">
+<term>horizontal line</term>
+<meaning id="fs-id1169594176692">A horizontal line is the graph of an equation of the form <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>b</m:mi></m:mrow></m:math>. The line passes through the <emphasis effect="italics">y</emphasis>-axis at <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mi>b</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math>.</meaning>
+</definition>
+<definition id="fs-id1169596554286">
+<term>vertical line</term>
+<meaning id="fs-id1169596554292">A vertical line is the graph of an equation of the form <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mi>a</m:mi></m:mrow></m:math>. The line passes through the <emphasis effect="italics">x</emphasis>-axis at <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>a</m:mi><m:mo>,</m:mo><m:mn>0</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math>.</meaning>
+</definition>
+</glossary>
+</document>

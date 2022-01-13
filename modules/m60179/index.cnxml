@@ -1,0 +1,1461 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Solve Systems of Equations by Graphing</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m60179</md:content-id>
+  <md:title>Solve Systems of Equations by Graphing</md:title>
+  <md:abstract><para>By the end of this section, you will be able to:</para>
+<list>
+<item>Determine whether an ordered pair is a solution of a system of equations</item>
+<item>Solve a system of linear equations by graphing</item>
+<item>Determine the number of solutions of linear system</item>
+<item>Solve applications of systems of equations by graphing</item>
+</list></md:abstract>
+  <md:uuid>0f99f6b2-0cf7-40ba-afec-7d2b9b592615</md:uuid>
+</metadata>
+
+<content>
+<note id="fs-id1168345574911" class="be-prepared">
+<para id="fs-id1168345224024">Before you get started, take this readiness quiz.</para>
+<list id="fs-id1168345431657" list-type="enumerated" number-style="arabic">
+<item>For the equation <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>2</m:mn><m:mn>3</m:mn></m:mfrac><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>4</m:mn></m:mrow></m:math><newline/>
+<span class="token">ⓐ</span> is <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>6</m:mn><m:mo>,</m:mo><m:mn>0</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> a solution? <span class="token">ⓑ</span> is <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−3</m:mn><m:mo>,</m:mo><m:mn>−2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> a solution?<newline/>
+If you missed this problem, review <link target-id="fs-id1168345419326" document="m60258"/>.</item>
+<item>Find the slope and <emphasis effect="italics">y</emphasis>-intercept of the line <m:math><m:mrow><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>12</m:mn></m:mrow></m:math>.<newline/>
+If you missed this problem, review <link target-id="fs-id1169596648901" document="m60151"/>.</item>
+<item>Find the <emphasis effect="italics">x</emphasis>- and <emphasis effect="italics">y</emphasis>-intercepts of the line <m:math><m:mrow><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>12</m:mn></m:mrow></m:math>.<newline/>
+If you missed this problem, review <link target-id="fs-id1169595318015" document="m60278"/>.</item>
+</list>
+</note>
+<section id="fs-id1168341923821">
+<title>Determine Whether an Ordered Pair is a Solution of a System of Equations</title>
+<para id="fs-id1168345398220">In <link class="target-chapter" document="m60216">Solving Linear Equations and Inequalities</link> we learned how to solve linear equations with one variable. Remember that the solution of an equation is a value of the variable that makes a true statement when substituted into the equation.</para>
+<para id="fs-id1168345229009">Now we will work with <term>systems of linear equations</term>, two or more linear equations grouped together.</para>
+<note id="fs-id1168345512598">
+<title>System of Linear Equations</title>
+<para id="fs-id1168345255310">When two or more linear equations are grouped together, they form a system of linear equations.</para>
+</note>
+<para id="fs-id1168345269961">We will focus our work here on systems of two linear equations in two unknowns. Later, you may solve larger systems of equations.</para>
+<para id="fs-id1168341857638">An example of a system of two linear equations is shown below. We use a brace to show the two equations are grouped together to form a system of equations.</para>
+<equation id="fs-id1168345242279" class="unnumbered"><label/><m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>7</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>6</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:mrow></m:math></equation>
+<para id="fs-id1168345435392">A linear equation in two variables, like 2<emphasis effect="italics">x</emphasis> + <emphasis effect="italics">y</emphasis> = 7, has an infinite number of solutions. Its graph is a line. Remember, every point on the line is a solution to the equation and every solution to the equation is a point on the line.</para>
+<para id="fs-id1168345385750">To solve a system of two linear equations, we want to find the values of the variables that are solutions to both equations. In other words, we are looking for the ordered pairs (<emphasis effect="italics">x</emphasis>, <emphasis effect="italics">y</emphasis>) that make both equations true. These are called the <term class="no-emphasis">solutions to a system of equations</term>.</para>
+<note id="fs-id1168345726821">
+<title>Solutions of a System of Equations</title>
+<para id="fs-id1168341862592"><emphasis effect="bold">Solutions of a system of equations</emphasis> are the values of the variables that make all the equations true. A solution of a system of two linear equations is represented by an ordered pair (<emphasis effect="italics">x</emphasis>, <emphasis effect="italics">y</emphasis>).</para>
+</note>
+<para id="fs-id1168345430694">To determine if an ordered pair is a solution to a system of two equations, we substitute the values of the variables into each equation. If the ordered pair makes both equations true, it is a solution to the system.</para>
+<para id="fs-id1168345561194">Let’s consider the system below:</para>
+<equation id="fs-id1168345250439" class="unnumbered"><label/><m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>7</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>4</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:mrow></m:math></equation>
+<para id="fs-id1168345452720">Is the ordered pair <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>−1</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math> a solution?</para>
+<media id="fs-id1168345451927" alt="This figure begins with a sentence, “We substitute x =2 and y = -1 into both equations.” The first equation shows that 3x minus y equals 7. Then 3 times 2 minus negative, in parentheses, equals 7. Then 7 equals 7 is true. The second equation reads x minus 2y equals 4. Then 2 minus 2 times negative one in parentheses equals 4. Then 4 = 4 is true.">
+<image mime-type="image/jpeg" src="../../media/CNX_ElemAlg_Figure_05_01_001_img_new.jpg"/>
+</media>
+<para id="fs-id1168345741629">The ordered pair (2, −1) made both equations true. Therefore (2, −1) is a solution to this system.</para>
+<para id="fs-id1168345273771">Let’s try another ordered pair. Is the ordered pair (3, 2) a solution?</para>
+<media id="fs-id1168345745133" alt="This figure begins with the sentence, “We substitute x equals 3 and y equals 2 into both equations.” The first equation reads 3 times x minus 7equals 7. Then, 3 times 3 minus 2 equals 7. Then 7 = 7 is true. The second equation reads x minus 2y equals 4. The n times 2 minus 2 times 2 = 4. Then negative 2 = 4 is false.">
+<image mime-type="image/jpeg" src="../../media/CNX_ElemAlg_Figure_05_01_002_img_new.jpg"/>
+</media>
+<para id="fs-id1168345284173">The ordered pair (3, 2) made one equation true, but it made the other equation false. Since it is not a solution to <emphasis effect="bold">both</emphasis> equations, it is not a solution to this system.</para>
+<example id="fs-id1168345262395">
+<exercise id="fs-id1168341916392">
+<problem id="fs-id1168345276323">
+<para id="fs-id1168345375020">Determine whether the ordered pair is a solution to the system: <m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mi>x</m:mi><m:mo>−</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−1</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−5</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:mrow></m:math></para>
+<para id="fs-id1168345296934"><span class="token">ⓐ</span> <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>−2</m:mn><m:mo>,</m:mo><m:mn>−1</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>−4</m:mn><m:mo>,</m:mo><m:mn>−3</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168345356556">
+<title>Solution</title>
+<list id="fs-id1168038222539" list-type="enumerated" number-style="arabic" class="circled">
+<item><span class="token">ⓐ</span><newline/>
+<media id="fs-id1168345219786" alt="This figure shows two bracketed equations. The first is x minus y = negative 1. The second is 2 times x minus y equals negative 5. The sentence, “We substitute x = negative 2 and y = 1 into both equations,” follows. The first equation shows the substitution and reveals that negative 1 = negative 1. The second equation shows the substitution and reveals that 5 do not equal -5. Under the first equation is the sentence, “(negative 2, negative 1) does not make both equations true.” Under the second equation is the sentence, “(negative 2, negative 1) is not a solution.”">
+<image mime-type="image/jpeg" src="../../media/CNX_ElemAlg_Figure_05_01_003_img_new.jpg"/>
+</media><newline/>(−2, −1) does not make both equations true. (−2, −1) is not a solution.<newline/><newline/>
+<span class="token">ⓑ</span><newline/>
+<media id="fs-id1168345509987" alt="This figure begins with the sentence, “We substitute x = -4 and y = -3 into both equations.” The first equation listed shows x – y = -1. Then -4 - (-3) = -1. Then -1 = -1. The second equation listed shows 2x – y = -5. Then 2 times (-4) – (-3) = -5. Then -5 = -5. Under the first equation is the sentence, “(-4, -3) does make both equations true.” Under the second equation is the sentence, “(-4, -3) is a solution.”">
+<image mime-type="image/jpeg" src="../../media/CNX_ElemAlg_Figure_05_01_004_img_new.jpg"/>
+</media><newline/>(−4, −3) does not make both equations true. (−4, −3) is a solution.</item>
+</list>
+</solution>
+</exercise>
+</example>
+<note id="fs-id1168341950089" class="try">
+<exercise id="fs-id1168345303132">
+<problem id="fs-id1168345425152">
+<para id="fs-id1168345436547">Determine whether the ordered pair is a solution to the system: <m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−5</m:mn></m:mtd></m:mtr></m:mtable></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+<para id="fs-id1168341916968"><span class="token">ⓐ</span> <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>−3</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>0</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168345441011">
+<para id="fs-id1168345261680"><span class="token">ⓐ</span> yes <span class="token">ⓑ</span> no</para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1168345260449" class="try">
+<exercise id="fs-id1168345389165">
+<problem id="fs-id1168345408774">
+<para id="fs-id1168345339971">Determine whether the ordered pair is a solution to the system: <m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−8</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>−3</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>4</m:mn></m:mtd></m:mtr></m:mtable></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+<para id="fs-id1168345374499"><span class="token">ⓐ</span> <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>−2</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>−2</m:mn><m:mo>,</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168345458756">
+<para id="fs-id1168345255423"><span class="token">ⓐ</span> no <span class="token">ⓑ</span> yes</para>
+</solution>
+</exercise>
+</note>
+</section>
+<section id="fs-id1168345440846">
+<title>Solve a System of Linear Equations by Graphing</title>
+<para id="fs-id1168345425485">In this chapter we will use three methods to solve a system of linear equations. The first method we’ll use is graphing.</para>
+<para id="fs-id1168341959249">The graph of a linear equation is a line. Each point on the line is a solution to the equation. For a system of two equations, we will graph two lines. Then we can see all the points that are solutions to each equation. And, by finding what the lines have in common, we’ll find the solution to the system.</para>
+<para id="fs-id1168345511616">Most linear equations in one variable have one solution, but we saw that some equations, called contradictions, have no solutions and for other equations, called identities, all numbers are solutions.</para>
+<para id="fs-id1168345293314">Similarly, when we solve a system of two linear equations represented by a graph of two lines in the same plane, there are three possible cases, as shown in <link target-id="CNX_ElemAlg_Figure_05_01_005"/>:</para>
+<figure id="CNX_ElemAlg_Figure_05_01_005">
+<media id="fs-id1168345447960" alt="This figure shows three x y-coordinate planes. The first plane shows two lines which intersect at one point. Under the graph it says, “The lines intersect. Intersecting lines have one point in common. There is one solution to this system.” The second x y-coordinate plane shows two parallel lines. Under the graph it says, “The lines are parallel. Parallel lines have no points in common. There is no solution to this system.” The third x y-coordinate plane shows one line. Under the graph it says, “Both equations give the same line. Because we have just one line, there are infinitely many solutions.”">
+<image mime-type="image/jpeg" src="../../media/CNX_ElemAlg_Figure_05_01_005_img_new.jpg"/>
+</media>
+</figure>
+<para id="fs-id1168345325810">For the first example of solving a system of linear equations in this section and in the next two sections, we will solve the same system of two linear equations. But we’ll use a different method in each section. After seeing the third method, you’ll decide which method was the most convenient way to solve this system.</para>
+<example id="fs-id1168345389954">
+<title>How to Solve a System of Linear Equations by Graphing</title>
+<exercise id="fs-id1168345283558">
+<problem id="fs-id1168345451825">
+<para id="fs-id1168345250621">Solve the system by graphing: <m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>7</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>6</m:mn></m:mtd></m:mtr></m:mtable></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168345196799">
+<title>Solution</title>
+<media id="fs-id1168345644826" alt="This table has four rows and three columns. The first column acts as the header column. The first row reads, “Step 1. Graph the first equation.” Then it reads, “To graph the first line, write the equation in slope-intercept form.” The equation reads 2x + y = 7 and becomes y = -2x + 7 where m = -2 and b = 7. Then it shows a graph of the equations 2x + y = 7. The equation x – 2y = 6 is also listed.">
+<image mime-type="image/jpeg" src="../../media/CNX_ElemAlg_Figure_05_01_006a_img_new.jpg"/>
+</media>
+<media id="fs-id1168345191681" alt="The second row reads, “Step 2. Graph the second equation on the same rectangular coordinate system.” Then it says, “To graph the second line, use intercepts.” This is followed by the equation x – 2y = 6 and the ordered pairs (0, -3) and (6, 0). The last column of this row shows a graph of the two equations.">
+<image mime-type="image/jpeg" src="../../media/CNX_ElemAlg_Figure_05_01_006b_img_new.jpg"/>
+</media>
+<media id="fs-id1168345425385" alt="The third row reads, “Step 3. Determine whether the lines intersect, are parallel, or are the same line.” Then “Look at the graph of the lines.” Finally it reads, “The lines intersect.”">
+<image mime-type="image/jpeg" src="../../media/CNX_ElemAlg_Figure_05_01_006c_img_new.jpg"/>
+</media>
+<media id="fs-id1168341841026" alt="The fourth row reads, “Step 4. Identify the solution to the system. If the lines intersect, identify the point of intersection. Check to make sure it is a solution to both equations. This is the solution to the system. If the lines are parallel, the system has no solution. If the lines are the same, the system has an infinite number of solutions.” Then it reads, “Since the lines intersect, find the point of intersection. Check the point in both equations.” Finally it reads, “The lines intersect at (4, -1). It then uses substitution to show that, “The solution is (4, -1).”">
+<image mime-type="image/jpeg" src="../../media/CNX_ElemAlg_Figure_05_01_006d_img_new.jpg"/>
+</media>
+</solution>
+</exercise>
+</example>
+<note id="fs-id1168345260215" class="try">
+<exercise id="fs-id1168345274730">
+<problem id="fs-id1168345220500">
+<para id="fs-id1168345431391">Solve each system by graphing: <m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−3</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>5</m:mn></m:mtd></m:mtr></m:mtable></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168345560615">
+<para id="fs-id1168345449012"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1168345443081" class="try">
+<exercise id="fs-id1168345419477">
+<problem id="fs-id1168345357954">
+<para id="fs-id1168345374808">Solve each system by graphing: <m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mo>−</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>12</m:mn></m:mtd></m:mtr></m:mtable></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168345363614">
+<para id="fs-id1168345213692"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<para id="fs-id1168345389456">The steps to use to solve a system of linear equations by graphing are shown below.</para>
+<note id="fs-id1168345450126" class="howto">
+<title>To solve a system of linear equations by graphing.</title>
+<list id="fs-id1169751856808" list-type="enumerated" number-style="arabic" class="stepwise">
+<item>Graph the first equation.</item>
+<item>Graph the second equation on the same rectangular coordinate system.</item>
+<item>Determine whether the lines intersect, are parallel, or are the same line.</item>
+<item>Identify the solution to the system.
+<list id="fs-id1168345443090" list-type="bulleted" bullet-style="open-circle">
+<item>If the lines intersect, identify the point of intersection. Check to make sure it is a solution to both equations. This is the solution to the system.</item>
+<item>If the lines are parallel, the system has no solution.</item>
+<item>If the lines are the same, the system has an infinite number of solutions.</item>
+</list></item>
+</list>
+</note>
+<example id="fs-id1168345346297">
+<exercise id="fs-id1168345260186">
+<problem id="fs-id1168345240470">
+<para id="fs-id1168345450358">Solve the system by graphing: <m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mtd></m:mtr></m:mtable></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168345261327">
+<title>Solution</title>
+<para id="fs-id1168345360405">Both of the equations in this system are in slope-intercept form, so we will use their slopes and <emphasis effect="italics">y</emphasis>-intercepts to graph them. <m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:mrow></m:math><newline/>
+<table id="fs-id1167829696931" class="unnumbered unstyled can-break" summary="This figure begins with a set of instructions. The first line reads, “Find the slope and y-intercept of the first equation.” Next to this, it shows that y equals 2x plus 1 where m = 2 and b = 1. The next line down reads, “Find the slope and y-intercept of the first equation.” Next to this on the right, it shows that y = 4x – 1 where m = 4 and b = -1. The next line down reads, “Graph the two lines”. Beneath this it reads, “Determine the point of intersection. The lines intersect at (1, 3). This it shows a graph of the two lines on an x, y coordinate plane. The lines intersect at (1, 3). Then the figure says, “Check the solution in both equations.” The first equation reads, y = 2 plus 1. Then 3 = 2 times 1 plus 1. Then 3 = 3. The second equation reads, y = 4x – 1. Then 3 = 4 times 1 – 1. Then 3 = 3. Then it says, “The solution is (1, 3).” ">
+<label/><tgroup cols="2">
+<tbody>
+  <row>
+    <entry valign="top">Find the slope and <emphasis effect="italics">y</emphasis>-intercept of the<newline/>first equation.</entry>
+    <entry valign="top"><media id="fs-id1167836693016" alt="."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_05_01_007a_img_new.jpg"/></media></entry>
+  </row>
+  <row>
+    <entry valign="top">Find the slope and <emphasis effect="italics">y</emphasis>-intercept of the<newline/>first equation.</entry>
+    <entry valign="top"><media id="fs-id1167836492140" alt="."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_05_01_007b_img_new.jpg"/></media></entry>
+  </row>
+  <row>
+    <entry valign="top">Graph the two lines.</entry>
+    <entry/>
+  </row>
+  <row>
+    <entry valign="top">Determine the point of intersection.</entry>
+    <entry align="center" valign="top">The lines intersect at (1, 3).</entry>
+  </row>
+  <row>
+    <entry/>
+    <entry valign="top"><media id="fs-id1167833102398" alt="."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_05_01_007c_img_new.jpg"/></media></entry>
+  </row>
+  <row>
+    <entry valign="top">Check the solution in both equations.</entry>
+<entry align="center" valign="top"><m:math><m:mtable><m:mtr><m:mtd><m:mtable><m:mtr><m:mtd columnalign="right"><m:mi>y</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mn>3</m:mn></m:mtd><m:mtd columnalign="left"><m:mover><m:mrow><m:mo>=</m:mo></m:mrow><m:mo>?</m:mo></m:mover></m:mtd><m:mtd columnalign="left"><m:mn>2</m:mn><m:mo>·</m:mo><m:mn>1</m:mn><m:mo>+</m:mo><m:mn>1</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mn>3</m:mn></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>3</m:mn><m:mspace width="0.2em"/><m:mo>✓</m:mo></m:mtd></m:mtr></m:mtable></m:mtd><m:mtd/><m:mtd/><m:mtd><m:mtable><m:mtr><m:mtd columnalign="right"><m:mi>y</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mn>3</m:mn></m:mtd><m:mtd columnalign="left"><m:mover><m:mrow><m:mo>=</m:mo></m:mrow><m:mo>?</m:mo></m:mover></m:mtd><m:mtd columnalign="left"><m:mn>4</m:mn><m:mo>·</m:mo><m:mn>1</m:mn><m:mo>−</m:mo><m:mn>1</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mn>3</m:mn></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>3</m:mn><m:mspace width="0.2em"/><m:mo>✓</m:mo></m:mtd></m:mtr></m:mtable></m:mtd></m:mtr></m:mtable></m:math></entry>
+
+  </row>
+  <row>
+    <entry/>
+    <entry align="center" valign="top">The solution is (1, 3).</entry>
+  </row></tbody>
+</tgroup>
+</table>
+</para>
+</solution>
+</exercise>
+</example>
+<note id="fs-id1168345689915" class="try">
+<exercise id="fs-id1168345215696">
+<problem id="fs-id1168345193878">
+<para id="fs-id1168345270231">Solve each system by graphing: <m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mi>y</m:mi><m:mo>=</m:mo><m:mtext>−</m:mtext><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>4</m:mn></m:mtd></m:mtr></m:mtable></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168345329125">
+<para id="fs-id1168345433895"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−2</m:mn><m:mo>,</m:mo><m:mn>−2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1168345560907" class="try">
+<exercise id="fs-id1168345484264">
+<problem id="fs-id1168345384058">
+<para id="fs-id1168345399266">Solve each system by graphing: <m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mi>y</m:mi><m:mo>=</m:mo><m:mtext>−</m:mtext><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>7</m:mn></m:mtd></m:mtr></m:mtable></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168345373611">
+<para id="fs-id1168345433206"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>6</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<para id="fs-id1168345324708">Both equations in <link target-id="fs-id1168345346297"/> were given in slope–intercept form. This made it easy for us to quickly graph the lines. In the next example, we’ll first re-write the equations into slope–intercept form.</para>
+<example id="fs-id1168345633922">
+<exercise id="fs-id1168345377312">
+<problem id="fs-id1168345301935">
+<para id="fs-id1168345250708">Solve the system by graphing: <m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−1</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mtd></m:mtr></m:mtable></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168345302868">
+<title>Solution</title>
+<para id="fs-id1167836326706">We’ll solve both of these equations for <m:math><m:mi>y</m:mi></m:math> so that we can easily graph them using their slopes and <emphasis effect="italics">y</emphasis>-intercepts. <m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−1</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:mrow></m:math><newline/>
+<table id="fs-id1167824584625" class="unnumbered unstyled can-break" summary="This figure shows a solution in two columns. The first line in the left column, reads “Solve the first equation for y.” To the right of this, it has the equation 3x + y = negative 1 which becomes y = negative 3x – 1.  The next line down reads, “Find the slope and y-intercept.” Then it shows that m = negative 3 and b = negative 1. Below this reads,  “Solve the second equation for y.” Next to this is the equation 2x + 1 = 0 become y = negative 2x. Below this reads, “Find the slope and y-intercept.” Next to this it shows that  b = negative 2 and b = 0. Then it says, “Graph the lines.” An x y-coordinate plane shows the two graphed lines intersecting at (negative 1, 2). The figure then indicates, “Determine the point of intersection. The lines intersect at (negative 1, 2).” Finally the figure says, “Check the solution in both equations.” The first equation shows 3x + y = -1. Then 3(-1) + 2 = -1. And then -1 = -1. The second equation shows 2x + y = 0. Then 2(-1) + 2 = 0. Then 0 = 0. The figure then says, “The solution is (-1, 2).”">
+<label/><tgroup cols="2">
+ <tbody>
+  <row>
+    <entry valign="top">Solve the first equation for <emphasis effect="italics">y</emphasis>.<newline/><newline/><newline/>Find the slope and <emphasis effect="italics">y</emphasis>-intercept.<newline/><newline/><newline/>Solve the second equation for <emphasis effect="italics">y</emphasis>.<newline/><newline/><newline/>Find the slope and <emphasis effect="italics">y</emphasis>-intercept.</entry>
+<entry align="center" valign="top"><m:math><m:mtable><m:mtr><m:mtd><m:mtable><m:mtr><m:mtd columnalign="right"><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>y</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mo>−</m:mo><m:mn>1</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>y</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mo>−</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mtd></m:mtr><m:mtr/><m:mtr><m:mtd columnalign="right"><m:mi>m</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mo>−</m:mo><m:mn>3</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>b</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mo>−</m:mo><m:mn>1</m:mn></m:mtd></m:mtr><m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="right"><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>y</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>0</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>y</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>x</m:mi></m:mtd></m:mtr><m:mtr/><m:mtr><m:mtd columnalign="right"><m:mi>m</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mo>−</m:mo><m:mn>2</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>b</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>0</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mrow/></m:mtd></m:mtr></m:mtable></m:mtd></m:mtr></m:mtable></m:math>
+</entry>
+  </row>
+  <row>
+    <entry valign="top">Graph the lines.</entry>
+    <entry valign="top"><media id="fs-id1167836705596" alt="."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_05_01_008a_img_new.jpg"/></media></entry>
+  </row>
+  <row>
+    <entry valign="top">Determine the point of intersection.</entry>
+    <entry align="center" valign="top">The lines intersect at (−1, 2).</entry>
+  </row>
+  <row>
+    <entry valign="top">Check the solution in both equations.</entry>
+    <entry align="center" valign="top"><m:math><m:mtable><m:mtr><m:mtd><m:mtable><m:mtr><m:mtd columnalign="right"><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>y</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mo>−</m:mo><m:mn>1</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mn>3</m:mn><m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:mo>+</m:mo><m:mn>2</m:mn></m:mtd><m:mtd columnalign="left"><m:mover><m:mo>=</m:mo><m:mo>?</m:mo></m:mover></m:mtd><m:mtd columnalign="left"><m:mo>−</m:mo><m:mn>1</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mo>−</m:mo><m:mn>1</m:mn></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mo>−</m:mo><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mo>✓</m:mo></m:mtd></m:mtr></m:mtable></m:mtd><m:mtd/><m:mtd/><m:mtd><m:mtable><m:mtr><m:mtd columnalign="right"><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>y</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>0</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mn>2</m:mn><m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:mo>+</m:mo><m:mn>2</m:mn></m:mtd><m:mtd columnalign="left"><m:mover><m:mo>=</m:mo><m:mo>?</m:mo></m:mover></m:mtd><m:mtd columnalign="left"><m:mn>0</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mn>0</m:mn></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>0</m:mn><m:mspace width="0.2em"/><m:mo>✓</m:mo></m:mtd></m:mtr></m:mtable></m:mtd></m:mtr></m:mtable></m:math></entry>
+  </row>
+  <row>
+    <entry/>
+    <entry align="center" valign="top">The solution is (−1, 2).</entry>
+  </row>
+</tbody>
+</tgroup>
+</table>
+</para>
+</solution>
+</exercise>
+</example>
+<note id="fs-id1168345292514" class="try">
+<exercise id="fs-id1168345293946">
+<problem id="fs-id1168345337170">
+<para id="fs-id1168345301261">Solve each system by graphing: <m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mo>−</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>10</m:mn></m:mtd></m:mtr></m:mtable></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168345561188">
+<para id="fs-id1168345254462"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1168345291749" class="try">
+<exercise id="fs-id1168345240324">
+<problem id="fs-id1168345414971">
+<para id="fs-id1168345260803">Solve each system by graphing: <m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>6</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mtd></m:mtr></m:mtable></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168345240100">
+<para id="fs-id1168345209743"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>5</m:mn><m:mo>,</m:mo><m:mn>−4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<para id="fs-id1168345398741">Usually when equations are given in standard form, the most convenient way to graph them is by using the intercepts. We’ll do this in <link target-id="fs-id1168345196601"/>.</para>
+<example id="fs-id1168345196601">
+<exercise id="fs-id1168345285258">
+<problem id="fs-id1168345644007">
+<para id="fs-id1168345695461">Solve the system by graphing: <m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>2</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mi>x</m:mi><m:mo>−</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>4</m:mn></m:mtd></m:mtr></m:mtable></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168345273530">
+<title>Solution</title>
+<para id="fs-id1168345276953">We will find the <emphasis effect="italics">x</emphasis>- and <emphasis effect="italics">y</emphasis>-intercepts of both equations and use them to graph the lines.</para>
+<table id="fs-id1167829578991" class="unnumbered unstyled can-break" summary="This is a figure that shows a solution in three columns. In the first column, it reads, “To find the intercepts, let x = 0 and solve for y, then let y = 0 and solve for x.” The middle column shows the equation x + y = 2. Centered below this it reads x + y = 2 and next to this,  x + y = 2. Below this it shows 0 + y = 2, and y = 2. Then it shows x + 0 = 2, and x = 2. There is a table to the right with the columns labeled “x” and “y.” Under “x” are the number 0 and 2. Under “y” are the numbers 2 and 0. In the next row down, it reads, “Find the intercepts, let x = 0 then let y = 0.” The middle column shows x - y = 4. Then x - y = 4 and x - y = 4. Below this it shows 0 - y = 4, -y = 4, and y = negative 4. Then it shows x - 0 = 4, and x = 4. There is a table to the right with the columns labeled “x” and “y.” Under “x” are the number 0 and 4. Under “y” are the numbers -4 and 0. Below this there is a graph that shows two lines intersecting at point (3, -1) on an x y-coordinate plane.">
+<label/><tgroup cols="3">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+ <tbody>
+  <row>
+    <entry valign="top"/>
+    <entry align="center" valign="top"><media id="fs-id1167836629538" alt="."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_05_01_009a_img_new.jpg"/></media></entry>
+    <entry/>
+  </row>
+  <row>
+    <entry valign="top">To find the intercepts, let <emphasis effect="italics">x</emphasis> = 0 and solve<newline/>for <emphasis effect="italics">y</emphasis>, then let <emphasis effect="italics">y</emphasis> = 0 and solve for <emphasis effect="italics">x</emphasis>.</entry>
+    <entry align="center" valign="top"><m:math><m:mtable><m:mtr><m:mtd><m:mtable><m:mtr><m:mtd columnalign="right"><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>y</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>2</m:mn></m:mtd></m:mtr><m:mtr><m:mtd><m:mn>0</m:mn><m:mo>+</m:mo><m:mi>y</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>2</m:mn></m:mtd></m:mtr><m:mtr><m:mtd><m:mi>y</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>2</m:mn></m:mtd></m:mtr></m:mtable></m:mtd><m:mtd/><m:mtd/><m:mtd><m:mtable><m:mtr><m:mtd columnalign="right"><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>y</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>2</m:mn></m:mtd></m:mtr><m:mtr><m:mtd><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>0</m:mn></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>2</m:mn></m:mtd></m:mtr><m:mtr><m:mtd><m:mi>x</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>2</m:mn></m:mtd></m:mtr></m:mtable></m:mtd></m:mtr></m:mtable></m:math></entry>
+    <entry valign="top"><media id="fs-id1167829596067" alt="."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_05_01_009b_img_new.jpg"/></media></entry>
+  </row>
+  <row>
+    <entry valign="top"/>
+    <entry align="center" valign="top"><media id="fs-id1167836621931" alt="."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_05_01_010a_img_new.jpg"/></media></entry>
+    <entry/>
+  </row>
+  <row>
+    <entry valign="top">To find the intercepts, let<newline/><emphasis effect="italics">x</emphasis> = 0 then let <emphasis effect="italics">y</emphasis> = 0.</entry>
+    <entry align="center" valign="top"><m:math><m:mtable><m:mtr><m:mtd><m:mtable><m:mtr><m:mtd columnalign="right"><m:mi>x</m:mi><m:mo>−</m:mo><m:mi>y</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>4</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mn>0</m:mn><m:mo>−</m:mo><m:mi>y</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>4</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mo>−</m:mo><m:mi>y</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>4</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>y</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mo>−</m:mo><m:mn>4</m:mn></m:mtd></m:mtr></m:mtable></m:mtd><m:mtd/><m:mtd/><m:mtd><m:mtable><m:mtr><m:mtd columnalign="right"><m:mi>x</m:mi><m:mo>−</m:mo><m:mi>y</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>4</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>0</m:mn></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>4</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>x</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>4</m:mn></m:mtd></m:mtr><m:mtr/><m:mtr/><m:mtr/></m:mtable></m:mtd></m:mtr></m:mtable></m:math></entry>
+    <entry valign="top"><newline/><media id="fs-id1167829830534" alt="."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_05_01_010b_img_new.jpg"/></media></entry>
+  </row>
+  <row>
+    <entry valign="top">Graph the line.</entry>
+    <entry align="center" valign="top"><media id="fs-id1167836320119" alt="This graph shows two lines intersection at point (3, -1) on an x y-coordinate plane."><image mime-type="image/jpeg" src="../../media/CNX_ElemAlg_Figure_05_01_011_img_new.jpg"/></media></entry>
+    <entry/>
+  </row>
+  <row>
+    <entry valign="top">Determine the point of intersection.</entry>
+    <entry align="center" valign="top">The lines intersect at (3, −1).</entry>
+    <entry valign="top"/>
+    </row>
+  <row>
+     <entry valign="top">Check the solution in both equations.</entry>
+    <entry align="center" valign="top"><m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>y</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>2</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mi>x</m:mi><m:mo>−</m:mo><m:mi>y</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>4</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>3</m:mn><m:mo>+</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mtd><m:mtd columnalign="left"><m:mover><m:mo>=</m:mo><m:mo>?</m:mo></m:mover></m:mtd><m:mtd columnalign="left"><m:mn>2</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>3</m:mn><m:mo>−</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mtd><m:mtd columnalign="left"><m:mover><m:mo>=</m:mo><m:mo>?</m:mo></m:mover></m:mtd><m:mtd columnalign="left"><m:mn>4</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mn>2</m:mn></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>2</m:mn><m:mo>✓</m:mo></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>4</m:mn></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>4</m:mn><m:mo>✓</m:mo></m:mtd></m:mtr></m:mtable></m:math><newline/>The solution is (3, −1).</entry>
+    <entry/>
+  </row>
+</tbody>
+</tgroup>
+</table>
+</solution>
+</exercise>
+</example>
+<note id="fs-id1168345228861" class="try">
+<exercise id="fs-id1168345427106">
+<problem id="fs-id1168345727147">
+<para id="fs-id1168345301947">Solve each system by graphing: <m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>6</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mi>x</m:mi><m:mo>−</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>2</m:mn></m:mtd></m:mtr></m:mtable></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168345292167">
+<para id="fs-id1168345390050"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>4</m:mn><m:mo>,</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1168345427070" class="try">
+<exercise id="fs-id1168345552288">
+<problem id="fs-id1168345708392">
+<para id="fs-id1168345293463">Solve each system by graphing: <m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>2</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mi>x</m:mi><m:mo>−</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−8</m:mn></m:mtd></m:mtr></m:mtable></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168345744765">
+<para id="fs-id1168345459656"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>5</m:mn><m:mo>,</m:mo><m:mn>−3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<para id="fs-id1168345389141">Do you remember how to graph a linear equation with just one variable? It will be either a vertical or a horizontal line.</para>
+<example id="fs-id1168345385925">
+<exercise id="fs-id1168345271070">
+<problem id="fs-id1168345431017">
+<para id="fs-id1168345419137">Solve the system by graphing: <m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>6</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>12</m:mn></m:mtd></m:mtr></m:mtable></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168345287687">
+<title>Solution</title>
+<table id="fs-id1167836356457" class="unnumbered unstyled can-break" summary="This figure shows two equations: y = 6 and x plus 3y = 12. It then says, “We know the first equation represents a horizontal line whose y-intercept is 6.” Then is shows that y = 6. It then says, “The second equation is most conveniently graphed using intercepts.” Then it shows 2x plus 3y = 12. Then it reads, “To find the intercepts, let x = 0 and then y = 0.” There is a graph with the columns labeled “x” and “y.” Under “x” are the numbers 0 and 6. Under “y” are the numbers 4 and 0. Then it reads, “Graph the lines.” The two lines are graphed on an x y-coordinate plane. The lines intersect at point (negative 3, 6). The figure then reads, “Determine the point of intersection. The lines intersect at (negative 3, 6).” The figure then shows that y = 6, then 6 = 6, and 2 = 2. It also shows that 2x +3y = 12. Then, 2 times negative 3, in parentheses, plus 3 times 6 = 12. Then negative 6 plus 18 = 12, and 12 = 12. The figure then indicates, “The solution is (negative 3, 6).”">
+<label/><tgroup cols="2">
+ <tbody>
+  <row>
+    <entry/>
+    <entry valign="top"><media id="fs-id1167829594693" alt="."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_05_01_012a_img_new.jpg"/></media></entry>
+  </row>
+  <row>
+    <entry valign="top">We know the first equation represents a horizontal<newline/>line whose <emphasis effect="italics">y</emphasis>-intercept is 6.</entry>
+    <entry valign="top"><media id="fs-id1167836550964" alt="."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_05_01_012b_img_new.jpg"/></media></entry>
+  </row>
+  <row>
+    <entry valign="top">The second equation is most conveniently graphed<newline/>using intercepts.</entry>
+    <entry valign="top"><media id="fs-id1167836492417" alt="."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_05_01_012c_img_new.jpg"/></media></entry>
+  </row>
+  <row>
+    <entry valign="top">To find the intercepts, let <emphasis effect="italics">x</emphasis> = 0 and then <emphasis effect="italics">y</emphasis> = 0.</entry>
+    <entry valign="top"><media id="fs-id1167836355778" alt="."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_05_01_012d_img_new.jpg"/></media></entry>
+  </row>
+  <row>
+    <entry valign="top">Graph the lines.</entry>
+    <entry valign="top"><media id="fs-id1167829790109" alt="."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_05_01_012e_img_new.jpg"/></media></entry>
+  </row>
+  <row>
+    <entry valign="top">Determine the point of intersection.</entry>
+    <entry align="center" valign="top">The lines intersect at (−3, 6).</entry>
+  </row>
+  <row>
+    <entry valign="top">Check the solution to both equations.</entry>
+    <entry align="center" valign="top"><m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:mi>y</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>6</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>y</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>12</m:mn></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="right"><m:mn>6</m:mn></m:mtd><m:mtd columnalign="left"><m:mover><m:mo>=</m:mo><m:mo>?</m:mo></m:mover></m:mtd><m:mtd columnalign="left"><m:mn>6</m:mn><m:mo>✓</m:mo></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>2</m:mn><m:mo stretchy="false">(</m:mo><m:mn>−3</m:mn><m:mo stretchy="false">)</m:mo><m:mo>+</m:mo><m:mn>3</m:mn><m:mo stretchy="false">(</m:mo><m:mn>6</m:mn><m:mo stretchy="false">)</m:mo></m:mtd><m:mtd columnalign="left"><m:mover><m:mo>=</m:mo><m:mo>?</m:mo></m:mover></m:mtd><m:mtd columnalign="left"><m:mn>12</m:mn></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="right"><m:mn>2</m:mn></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>2</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−6</m:mn><m:mo>+</m:mo><m:mn>18</m:mn></m:mtd><m:mtd columnalign="left"><m:mover><m:mo>=</m:mo><m:mo>?</m:mo></m:mover></m:mtd><m:mtd columnalign="left"><m:mn>12</m:mn></m:mtd></m:mtr>
+<m:mtr><m:mtd/><m:mtd/><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>12</m:mn></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>12</m:mn><m:mo>✓</m:mo></m:mtd></m:mtr></m:mtable></m:math></entry>
+  </row>
+  <row>
+    <entry/>
+    <entry align="center" valign="top">The solution is (−3, 6).</entry>
+  </row>
+  </tbody>
+  </tgroup>
+  </table>
+  </solution>
+</exercise>
+</example>
+<note id="fs-id1168345453337" class="try">
+<exercise id="fs-id1168345708239">
+<problem id="fs-id1168345250431">
+<para id="fs-id1168345230324">Solve each system by graphing: <m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−1</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>6</m:mn></m:mtd></m:mtr></m:mtable></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168345229034">
+<para id="fs-id1168345286142"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>9</m:mn><m:mo>,</m:mo><m:mn>−1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1168341962950" class="try">
+<exercise id="fs-id1168345339790">
+<problem id="fs-id1168345646805">
+<para id="fs-id1168345452294">Solve each system by graphing: <m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>4</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>24</m:mn></m:mtd></m:mtr></m:mtable></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168341952356">
+<para id="fs-id1168345449550"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>4</m:mn><m:mo>,</m:mo><m:mn>−6</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<para id="fs-id1168345284634">In all the systems of linear equations so far, the lines intersected and the solution was one point. In the next two examples, we’ll look at a system of equations that has no solution and at a system of equations that has an infinite number of solutions.</para>
+<example id="fs-id1168345407207">
+<exercise id="fs-id1168345284380">
+<problem id="fs-id1168341955833">
+<para id="fs-id1168341864012">Solve the system by graphing: <m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mi>y</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>4</m:mn></m:mtd></m:mtr></m:mtable></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168345260776">
+<title>Solution</title>
+<table id="fs-id1167836599119" class="unnumbered unstyled can-break" summary="This figure lists two equations: y = one half “x” minus 3 and x minus 2 = 4. It then indicates, “To graph the first equation, we will use the slope and y-intercept.” The figure then shows that y = one half “x” minus 3 in which m = one half and b = negative 3. The next line down reads, “To graph the second equation, we will use the intercepts.” Next to this is the equation x minus 2y = 4 which is followed by a table with two columns labeled “x” and “y.” Under “x” are the numbers 0 and 4. Under “y” are the numbers negative 2 and 0. The figure then says, “Graph the lines.” The two lines are then graphed on an x y-coordinate plane. The two lines appear to be parallel. The figure then reads, “Determine the point of intersection. The lines are parallel. Since no point is on both lines, there is no ordered pair that makes both equations true. There is no solution to this system.”">
+<label/><tgroup cols="2">
+ <tbody>
+  <row>
+    <entry/>
+    <entry valign="top"><media id="fs-id1167825829989" alt="."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_05_01_013a_img_new.jpg"/></media></entry>
+  </row>
+  <row>
+    <entry valign="top">To graph the first equation, we will<newline/>use its slope and <emphasis effect="italics">y</emphasis>-intercept.</entry>
+    <entry valign="top"><media id="fs-id1167829877876" alt="."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_05_01_013b_img_new.jpg"/></media></entry>
+  </row>
+  <row>
+    <entry/>
+    <entry valign="top"><media id="fs-id1167829753121" alt="."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_05_01_013c_img_new.jpg"/></media></entry>
+  </row>
+  <row>
+    <entry/>
+    <entry valign="top"><media id="fs-id1167836557401" alt="."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_05_01_013d_img_new.jpg"/></media></entry>
+  </row>
+  <row>
+    <entry valign="top">To graph the second equation,<newline/>we will use the intercepts.</entry>
+    <entry valign="top"><media id="fs-id1167836543355" alt="."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_05_01_013e_img_new.jpg"/></media></entry>
+  </row>
+  <row>
+    <entry/>
+    <entry valign="top"><media id="fs-id1167833022880" alt="."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_05_01_013f_img_new.jpg"/></media></entry>
+  </row>
+  <row>
+    <entry valign="top">Graph the lines.</entry>
+    <entry valign="top"><media id="fs-id1167836366683" alt="."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_05_01_013g_img_new.jpg"/></media></entry>
+  </row>
+  <row>
+    <entry valign="top">Determine the point of intersection.</entry>
+    <entry valign="top">    The lines are parallel.</entry>
+</row>
+  <row>
+    <entry/>
+    <entry valign="top">Since no point is on both lines, there is no ordered pair<newline/>that makes both equations true. There is no solution to<newline/>this system.</entry>
+    </row>
+ </tbody>
+ </tgroup>
+ </table>
+ </solution>
+</exercise>
+</example>
+<note id="fs-id1168341916918" class="try">
+<exercise id="fs-id1168341913823">
+<problem id="fs-id1168345746509">
+<para id="fs-id1168345420434">Solve each system by graphing: <m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mi>y</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>4</m:mn></m:mfrac><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>8</m:mn></m:mtd></m:mtr></m:mtable></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168345725138">
+<para id="fs-id1168345418010">no solution</para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1168345414817" class="try">
+<exercise id="fs-id1168345650454">
+<problem id="fs-id1168345294559">
+<para id="fs-id1168345253138">Solve each system by graphing: <m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>6</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>6</m:mn></m:mtd></m:mtr></m:mtable></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168345302969">
+<para id="fs-id1168345453128">no solution</para>
+</solution>
+</exercise>
+</note>
+<example id="fs-id1168345725053">
+<exercise id="fs-id1168345223825">
+<problem id="fs-id1168345194746">
+<para id="fs-id1168345428978">Solve the system by graphing: <m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>−6</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>9</m:mn></m:mtd></m:mtr></m:mtable></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168345510019">
+<title>Solution</title>
+<table id="fs-id1167836510916" class="unnumbered unstyled can-break" summary="This figure shows two equations: y = 2x minus 3 and negative 6x plus 3y =  negative 9. The next line down reads, “Find the slope and y-intercept of the first equation.” It then shows that y = 2x -3 where m = 2 and b = negative 3. I also shows negative 6x plus 3y = negative 9. It then reads, “Find the intercepts of the second equation.” There is a table with two columns labeled “x” and “y.” Under “x” are the numbers 0 and three over two. Under “y” are the numbers negative 3 and 0. The figure then reads, “Graph the lines.” There appears to be only one line graphed on the x y coordinate plane. The figure then reads, “Determine the point of intersection. The lines are the same! Since every point on the line makes both equations true, there are infinitely many ordered pairs that make both equations true. There are infinitely many solutions to this system.">
+<label/><tgroup cols="2">
+ <tbody>
+  <row>
+    <entry/>
+    <entry valign="top"><media id="fs-id1167833380846" alt="."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_05_01_014a_img_new.jpg"/></media></entry>
+  </row>
+  <row>
+    <entry valign="top">Find the slope and <emphasis effect="italics">y</emphasis>-intercept of the<newline/>first equation.</entry>
+    <entry valign="top"><media id="fs-id1167836628539" alt="."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_05_01_014b_img_new.jpg"/></media></entry>
+  </row>
+  <row>
+    <entry valign="top">Find the intercepts of the second equation.</entry>
+    <entry valign="top"><media id="fs-id1167829599268" alt="."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_05_01_014c_img_new.jpg"/></media></entry>
+  </row>
+  <row>
+    <entry/>
+    <entry valign="top"><media id="fs-id1167833139693" alt="."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_05_01_014d_img_new.jpg"/></media></entry>
+  </row>
+  <row>
+    <entry valign="top">Graph the lines.</entry>
+    <entry valign="top"><media id="fs-id1167836287817" alt="."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_05_01_014e_img_new.jpg"/></media></entry>
+  </row>
+  <row>
+    <entry valign="top">Determine the point of intersection.</entry>
+    <entry valign="top">The lines are the same!</entry>
+    </row>
+  <row>
+    <entry/>
+    <entry valign="top">Since every point on the line makes both equations<newline/>true, there are infinitely many ordered pairs that make<newline/>both equations true.</entry>
+  </row>
+  <row>
+    <entry/>
+    <entry valign="top">There are infinitely many solutions to this system.</entry>
+  </row>
+</tbody>
+</tgroup>
+</table>
+</solution>
+</exercise>
+</example>
+<note id="fs-id1168345273751" class="try">
+<exercise id="fs-id1168341958678">
+<problem id="fs-id1168345303045">
+<para id="fs-id1168345445689">Solve each system by graphing: <m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mi>y</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>6</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>6</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>12</m:mn></m:mtd></m:mtr></m:mtable></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168345407885">
+<para id="fs-id1168345453131">infinitely many solutions</para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1168345434089" class="try">
+<exercise id="fs-id1168345527958">
+<problem id="fs-id1168345636074">
+<para id="fs-id1168345254357">Solve each system by graphing: <m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mi>y</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>4</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>4</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>16</m:mn></m:mtd></m:mtr></m:mtable></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168345325952">
+<para id="fs-id1168345416496">infinitely many solutions</para>
+</solution>
+</exercise>
+</note>
+<para id="fs-id1168345541865">If you write the second equation in <link target-id="fs-id1168345725053"/> in slope-intercept form, you may recognize that the equations have the same slope and same <emphasis effect="italics">y</emphasis>-intercept.</para>
+<para id="fs-id1168345329224">When we graphed the second line in the last example, we drew it right over the first line. We say the two lines are coincident. Coincident lines have the same slope and same <emphasis effect="italics">y</emphasis>-intercept.</para>
+<note id="fs-id1168345292875">
+<title>Coincident Lines</title>
+<para id="fs-id1168341847732">Coincident lines have the same slope and same <emphasis effect="italics">y</emphasis>-intercept.</para>
+</note>
+<para id="fs-id1171790292699"> </para>
+</section>
+<section id="fs-id1168341840730">
+<title>Determine the Number of Solutions of a Linear System</title>
+<para id="fs-id1168345262002">There will be times when we will want to know how many solutions there will be to a system of linear equations, but we might not actually have to find the solution. It will be helpful to determine this without graphing.</para>
+<para id="fs-id1168345325732">We have seen that two lines in the same plane must either intersect or are parallel. The systems of equations in <link target-id="fs-id1168345389954"/> through <link target-id="fs-id1168345385925"/> all had two intersecting lines. Each system had one solution.</para>
+<para id="fs-id1168345230044">A system with parallel lines, like <link target-id="fs-id1168345407207"/>, has no solution. What happened in <link target-id="fs-id1168345725053"/>? The equations have <term class="no-emphasis">coincident lines</term>, and so the system had infinitely many solutions.</para>
+<para id="fs-id1168345237685">We’ll organize these results in <link target-id="CNX_ElemAlg_Figure_05_01_018_img"/> below:</para>
+<figure id="CNX_ElemAlg_Figure_05_01_018_img">
+<media id="fs-id1169752220328" alt="This table has two columns and four rows. The first row labels each column “Graph” and “Number of solutions.” Under “Graph” are “2 intersecting lines,” “Parallel lines,” and “Same line.” Under “Number of solutions” are “1,” “None,” and “Infinitely many.”">
+<image mime-type="image/jpeg" src="../../media/CNX_ElemAlg_Figure_05_01_018_img_new.jpg"/>
+</media>
+</figure>
+<para id="fs-id1168345693726">Parallel lines have the same slope but different <emphasis effect="italics">y</emphasis>-intercepts. So, if we write both equations in a system of linear equations in slope–intercept form, we can see how many solutions there will be without graphing! Look at the system we solved in <link target-id="fs-id1168345407207"/>.</para>
+<equation id="fs-id1168345743284" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:mspace width="0.1em"/><m:mo>{</m:mo><m:mspace width="0.1em"/><m:mtable><m:mtr><m:mtd columnalign="right"><m:mi>y</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>y</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>4</m:mn></m:mtd></m:mtr></m:mtable></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>The first line is in slope–intercept form.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mtext>If we solve the second equation for</m:mtext><m:mspace width="0.2em"/><m:mi>y</m:mi><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mtext>we get</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="center"><m:mi>y</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:mspace width="1em"/><m:mtable><m:mtr><m:mtd columnalign="right"><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>y</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>4</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mn>−2</m:mn><m:mi>y</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mtext>−</m:mtext><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>y</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn></m:mtd></m:mtr></m:mtable></m:mtd></m:mtr><m:mtr><m:mtd columnalign="center"><m:mi>m</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mo>,</m:mo><m:mi>b</m:mi><m:mo>=</m:mo><m:mn>−3</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:mi>m</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mo>,</m:mo><m:mi>b</m:mi><m:mo>=</m:mo><m:mn>−2</m:mn></m:mtd></m:mtr></m:mtable></m:math></equation>
+<para id="fs-id1168345287565">The two lines have the same slope but different <emphasis effect="italics">y</emphasis>-intercepts. They are parallel lines.</para>
+<para id="fs-id1168345453187"><link target-id="CNX_ElemAlg_Figure_05_01_019_img"/> shows how to determine the number of solutions of a linear system by looking at the slopes and intercepts.</para>
+<figure id="CNX_ElemAlg_Figure_05_01_019_img">
+<media id="fs-id1169752198853" alt="This table is entitled “Number of Solutions of a Linear System of Equations.” There are four columns. The columns are labeled, “Slopes,” “Intercepts,” “Type of Lines,” “Number of Solutions.” Under “Slopes” are “Different,” “Same,” and “Same.” Under “Intercepts,” the first cell is blank, then the words “Different” and “Same” appear. Under “Types of Lines” are the words, “Intersecting,” “Parallel,” and “Coincident.” Under “Number of Solutions” are “1 point,” “No Solution,” and “Infinitely many solutions.”">
+<image mime-type="image/jpeg" src="../../media/CNX_ElemAlg_Figure_05_01_019_img_new.jpg"/>
+</media>
+</figure>
+<para id="fs-id1168345287740">Let’s take one more look at our equations in <link target-id="fs-id1168345407207"/> that gave us parallel lines.</para>
+<equation id="fs-id1168345510136" class="unnumbered"><label/><m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mi>y</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>4</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:mrow></m:math></equation>
+<para id="fs-id1168345650553">When both lines were in slope-intercept form we had:</para>
+<equation id="fs-id1168345302936" class="unnumbered"><label/><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:mspace width="2em"/><m:mi>y</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow></m:math></equation>
+<para id="fs-id1168345457988">Do you recognize that it is impossible to have a single ordered pair <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>y</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> that is a solution to both of those equations?</para>
+<para id="fs-id1168345287296">We call a system of equations like this <term class="no-emphasis">an inconsistent system</term>. It has no solution.</para>
+<para id="fs-id1168345692186">A system of equations that has at least one solution is called a <term class="no-emphasis">consistent system</term>.</para>
+<note id="fs-id1168345559935">
+<title>Consistent and Inconsistent Systems</title>
+<para id="fs-id1168345692954">A <term>consistent system</term> of equations is a system of equations with at least one solution.</para>
+<para id="fs-id1168345427031">An <term>inconsistent system</term> of equations is a system of equations with no solution.</para>
+</note>
+<para id="fs-id1168345240009">We also categorize the equations in a system of equations by calling the equations <emphasis effect="italics">independent</emphasis> or <emphasis effect="italics">dependent</emphasis>. If two equations are <term>independent equations</term>, they each have their own set of solutions. Intersecting lines and parallel lines are independent.</para>
+<para id="fs-id1168345228631">If two equations are dependent, all the solutions of one equation are also solutions of the other equation. When we graph two <term class="no-emphasis">dependent equations</term>, we get coincident lines.</para>
+<note id="fs-id1168345424375">
+<title>Independent and Dependent Equations</title>
+<para id="fs-id1168345423433">Two equations are <term>independent</term> if they have different solutions.</para>
+<para id="fs-id1168345278054">Two equations are <term>dependent</term> if all the solutions of one equation are also solutions of the other equation.</para>
+</note>
+<para id="fs-id1168345417086">Let’s sum this up by looking at the graphs of the three types of systems. See <link target-id="CNX_ElemAlg_Figure_05_01_015"/> and <link target-id="CNX_ElemAlg_Figure_05_01_020_img"/>.</para>
+<figure id="CNX_ElemAlg_Figure_05_01_015">
+<media id="fs-id1168345643971" alt="This figure shows three x y coordinate planes in a horizontal row. The first shows two lines intersecting. The second shows two parallel lines. The third shows two coincident lines.">
+<image mime-type="image/jpeg" src="../../media/CNX_ElemAlg_Figure_05_01_015_img_new.jpg"/>
+</media>
+</figure>
+<figure id="CNX_ElemAlg_Figure_05_01_020_img">
+<media id="fs-id1169754134886" alt="This table has four columns and four rows. The columns are labeled, “Lines,” “Intersecting,” “Parallel,” and “Coincident.” In the first row under the labeled column “lines” it reads “Number of solutions.” Reading across, it tell us that an intersecting line contains 1 point, a parallel line provides no solution, and a coincident line has infinitely many solutions. A consistent/inconsistent line has consistent lines if they are intersecting, inconsistent lines if they are parallel and consistent if the lines are coincident. Finally, dependent and independent lines are considered independent if the lines intersect, they are also independent if the lines are parallel, and they are dependent if the lines are coincident.">
+<image mime-type="image/jpeg" src="../../media/CNX_ElemAlg_Figure_05_01_020_img_new.jpg"/>
+</media>
+</figure>
+<example id="fs-id1168345414617"><exercise id="fs-id1168345676048">
+<problem id="fs-id1168345448163">
+<para id="fs-id1168345671375">Without graphing, determine the number of solutions and then classify the system of equations: <m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>6</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>12</m:mn></m:mtd></m:mtr></m:mtable></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168345251139">
+<title>Solution</title>
+<table id="eip-118" summary="." class="unnumbered unstyled">
+<tgroup cols="2"><tbody>
+  <row>
+    <entry>We will compare the slopes and intercepts of the two lines.</entry>
+    <entry><m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>6</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>12</m:mn></m:mtd></m:mtr></m:mtable></m:mrow><m:mo>.</m:mo></m:mrow></m:math></entry>
+  </row>
+ <row>
+    <entry>The first equation is already in slope-intercept form.</entry>
+    <entry><m:math><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:math></entry>
+  </row>
+<row>
+    <entry>Write the second equation in slope-intercept form.</entry>
+    <entry><m:math><m:mtable>
+    	<m:mtr><m:mtd columnalign="right"><m:mn>6</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>y</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>12</m:mn></m:mtd></m:mtr>
+    	<m:mtr><m:mtd columnalign="right"><m:mn>−2</m:mn><m:mi>y</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>−6</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>12</m:mn></m:mtd></m:mtr>
+    	<m:mtr><m:mtd columnalign="right"><m:mfrac><m:mrow><m:mn>−2</m:mn><m:mi>y</m:mi></m:mrow><m:mrow><m:mn>−2</m:mn></m:mrow></m:mfrac></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mfrac><m:mrow><m:mn>−6</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>12</m:mn></m:mrow><m:mrow><m:mn>−2</m:mn></m:mrow></m:mfrac></m:mtd></m:mtr>
+    	<m:mtr><m:mtd columnalign="right"><m:mi>y</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>6</m:mn></m:mtd></m:mtr>
+    </m:mtable></m:math></entry>
+  </row>
+ <row>
+    <entry>Find the slope and intercept of each line.</entry>
+    <entry><m:math><m:mtable>
+	<m:mtr><m:mtd columnalign="right"><m:mi>y</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mi>y</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>6</m:mn></m:mtd></m:mtr>
+		<m:mtr><m:mtd columnalign="right"><m:mi>m</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>3</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mi>m</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>3</m:mn></m:mtd></m:mtr>
+		<m:mtr><m:mtd columnalign="right"><m:mi>b</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>−1</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mi>b</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>−6</m:mn></m:mtd></m:mtr></m:mtable>
+    </m:math></entry>
+  </row>
+<row>
+  	<entry/>
+  	<entry>Since the slopes are the same and <m:math><m:mi>y</m:mi></m:math>-intercepts are different, the lines are parallel.</entry>
+  </row>
+</tbody>
+</tgroup>
+</table>
+<para id="fs-id1168345560002">A system of equations whose graphs are parallel lines has no solution and is inconsistent and independent.</para>
+</solution>
+</exercise>
+</example><note id="fs-id1168345695525" class="try">
+<exercise id="fs-id1168345416761">
+<problem id="fs-id1168345326624">
+<para id="fs-id1168345416501">Without graphing, determine the number of solutions and then classify the system of equations.</para>
+<para id="fs-id1168345224525"><m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mi>y</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>4</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>9</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168345415558">
+<para id="fs-id1168345667907">no solution, inconsistent, independent</para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1168345538684" class="try">
+<exercise id="fs-id1168345408145">
+<problem id="fs-id1168345408147">
+<para id="fs-id1168341960593">Without graphing, determine the number of solutions and then classify the system of equations.</para>
+<para id="fs-id1168345346556"><m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mi>y</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>5</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>6</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168345414201">
+<para id="fs-id1168345414203">no solution, inconsistent, independent</para>
+</solution>
+</exercise>
+</note>
+<example id="fs-id1168345430572"><exercise id="fs-id1168341853771"><problem id="fs-id1168341857668">
+<para id="fs-id1168341857670">Without graphing, determine the number of solutions and then classify the system of equations: <m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>3</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>5</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>5</m:mn></m:mtd></m:mtr></m:mtable></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168345553490">
+<title>Solution</title>
+<table id="eip-504" summary="." class="unnumbered unstyled"><label/>
+<tgroup cols="3"><colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<tbody>
+  <row>
+    <entry>We will compare the slope and intercepts of the two lines.</entry>
+    <entry align="center" namest="c2" nameend="c3"><m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>3</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>5</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>5</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:mrow></m:math></entry>
+  </row>
+  <row>
+    <entry>Write both equations in slope-intercept form.</entry>
+    <entry><m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>y</m:mi></m:mtd><m:mtd><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>−3</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>y</m:mi></m:mtd><m:mtd><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>−2</m:mn><m:mi>x</m:mi><m:mn>−3</m:mn></m:mtd></m:mtr></m:mtable></m:math></entry>
+    <entry><m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>5</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>5</m:mn></m:mtd><m:mtd><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>5</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mn>−5</m:mn><m:mi>y</m:mi></m:mtd><m:mtd><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>−</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>5</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mfrac><m:mrow><m:mn>−5</m:mn><m:mi>y</m:mi></m:mrow><m:mn>−5</m:mn></m:mfrac></m:mtd><m:mtd><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mfrac><m:mrow><m:mn>−</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>5</m:mn></m:mrow><m:mn>−5</m:mn></m:mfrac></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>y</m:mi></m:mtd><m:mtd><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mfrac><m:mn>1</m:mn><m:mn>5</m:mn></m:mfrac><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mtd></m:mtr></m:mtable></m:math></entry>
+  </row>
+  <row>
+    <entry>Find the slope and intercept of each line.</entry>
+    <entry><m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:mi>y</m:mi></m:mtd><m:mtd><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>−2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>m</m:mi></m:mtd><m:mtd><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>−2</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>b</m:mi></m:mtd><m:mtd><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>−3</m:mn></m:mtd></m:mtr></m:mtable></m:math></entry>
+    <entry><m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:mi>y</m:mi></m:mtd><m:mtd><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mfrac><m:mn>1</m:mn><m:mn>5</m:mn></m:mfrac><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>m</m:mi></m:mtd><m:mtd><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mfrac><m:mn>1</m:mn><m:mn>5</m:mn></m:mfrac></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>b</m:mi></m:mtd><m:mtd><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>−1</m:mn></m:mtd></m:mtr></m:mtable></m:math></entry>
+  </row>
+  <row>
+    <entry/>
+    <entry namest="c2" nameend="c3">Since the slopes are different, the lines intersect.</entry>
+  </row>
+</tbody>
+
+</tgroup>
+</table>
+<para id="fs-id1168345742349">A system of equations whose graphs are intersect has 1 solution and is consistent and independent.</para>
+</solution>
+</exercise></example><note id="fs-id1168345425501" class="try">
+<exercise id="fs-id1168345417927">
+<problem id="fs-id1168345417929">
+<para id="fs-id1168345398213">Without graphing, determine the number of solutions and then classify the system of equations.</para>
+<para id="fs-id1168345398216"><m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>2</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168345458749">
+<para id="fs-id1168345458751">one solution, consistent, independent</para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1168345399460" class="try">
+<exercise id="fs-id1168345399463">
+<problem id="fs-id1168345409193">
+<para id="fs-id1168345409195">Without graphing, determine the number of solutions and then classify the system of equations.</para>
+<para id="fs-id1168341960878"><m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>12</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mo>−</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>3</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168341863642">
+<para id="fs-id1168341863644">one solution, consistent, independent</para>
+</solution>
+</exercise>
+</note>
+<example id="fs-id1168345425514"><exercise id="fs-id1168345425516">
+<problem id="fs-id1168345557327">
+<para id="fs-id1168345557329">Without graphing, determine the number of solutions and then classify the system of equations. <m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>4</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mi>y</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>3</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168345384539">
+<title>Solution</title>
+<table id="eip-238" summary="." class="unnumbered unstyled">
+<tgroup cols="2"><tbody>
+  <row>
+    <entry>We will compare the slopes and intercepts of the two lines.</entry>
+    <entry><m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>4</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mi>y</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>3</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:mrow></m:math></entry>
+  </row>
+  <row>
+    <entry>Write the first equation in slope-intercept form.</entry>
+    <entry><m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>y</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>4</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mn>−2</m:mn><m:mi>y</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>−3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mfrac><m:mrow><m:mn>−2</m:mn><m:mi>y</m:mi></m:mrow><m:mrow><m:mn>−2</m:mn></m:mrow></m:mfrac></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mfrac><m:mrow><m:mn>−3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn></m:mrow><m:mrow><m:mn>−2</m:mn></m:mrow></m:mfrac></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>y</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mfrac><m:mn>3</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn></m:mtd></m:mtr>
+    </m:mtable></m:math></entry>
+  </row>
+  <row>
+    <entry>The second equation is already in slope-intercept form.</entry>
+    <entry><m:math><m:mtable>
+    	<m:mtr><m:mtd columnalign="right"><m:mi>y</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>3</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn></m:mtd></m:mtr>
+    </m:mtable></m:math></entry>
+  </row>
+  <row>
+  	<entry/>
+  	<entry>Since the slopes are the same, they have the same slope and same <m:math><m:mi>y</m:mi></m:math>-intercept and so the lines are coincident.</entry>
+  </row>
+</tbody>
+
+</tgroup>
+</table>
+<para id="fs-id1168341852918">A system of equations whose graphs are coincident lines has infinitely many solutions and is consistent and dependent.</para>
+</solution>
+</exercise>
+</example><note id="fs-id1168345623960" class="try">
+<exercise id="fs-id1168345374486">
+<problem id="fs-id1168345374488">
+<para id="fs-id1168345374490">Without graphing, determine the number of solutions and then classify the system of equations.</para>
+<para id="fs-id1168345398366"><m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>5</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>20</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mi>y</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>4</m:mn><m:mn>5</m:mn></m:mfrac><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>4</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168345428781">
+<para id="fs-id1168345428783">infinitely many solutions, consistent, dependent</para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1168341923497" class="try">
+<exercise id="fs-id1168345448628">
+<problem id="fs-id1168345420664">
+<para id="fs-id1168345420666">Without graphing, determine the number of solutions and then classify the system of equations.</para>
+<para id="fs-id1168345558357"><m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mn>−2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>4</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>8</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mi>y</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168345677739">
+<para id="fs-id1168345386573">infinitely many solutions, consistent, dependent</para>
+</solution>
+</exercise>
+</note>
+</section>
+<section id="fs-id1168341916335">
+<title>Solve Applications of Systems of Equations by Graphing</title>
+<para id="fs-id1168345743034">We will use the same problem solving strategy we used in <link class="target-chapter" document="m60222">Math Models</link> to set up and solve applications of systems of linear equations. We’ll modify the strategy slightly here to make it appropriate for systems of equations.</para>
+<para id="fs-id1169754121669"><newline/></para>
+<note id="fs-id1168341972806" class="howto">
+<title>Use a problem solving strategy for systems of linear equations.</title>
+<list id="fs-id1169751898179" list-type="enumerated" number-style="arabic" class="stepwise">
+<item><emphasis effect="bold">Read</emphasis> the problem. Make sure all the words and ideas are understood.</item>
+<item><emphasis effect="bold">Identify</emphasis> what we are looking for.</item>
+<item><emphasis effect="bold">Name</emphasis> what we are looking for. Choose variables to represent those quantities.</item>
+<item><emphasis effect="bold">Translate</emphasis> into a system of equations.</item>
+<item><emphasis effect="bold">Solve</emphasis> the system of equations using good algebra techniques.</item>
+<item><emphasis effect="bold">Check</emphasis> the answer in the problem and make sure it makes sense.</item>
+<item><emphasis effect="bold">Answer</emphasis> the question with a complete sentence.</item>
+</list>
+</note>
+<para id="fs-id1168341910497">Step 5 is where we will use the method introduced in this section. We will graph the equations and find the solution.</para>
+<example id="fs-id1168341910502">
+<exercise id="fs-id1168345415360">
+<problem id="fs-id1168345415363">
+<para id="fs-id1168345415365">Sondra is making 10 quarts of punch from fruit juice and club soda. The number of quarts of fruit juice is 4 times the number of quarts of club soda. How many quarts of fruit juice and how many quarts of club soda does Sondra need?</para>
+</problem>
+<solution id="fs-id1168345667515">
+<title>Solution</title>
+<para id="fs-id1168341961495"><emphasis effect="bold">Step 1. Read</emphasis> the problem.</para>
+<para id="fs-id1168341841009"><emphasis effect="bold">Step 2. Identify</emphasis> what we are looking for.</para>
+<para id="fs-id1168345447831">We are looking for the number of quarts of fruit juice and the number of quarts of club soda that Sondra will need.</para>
+<para id="fs-id1168345447835"><emphasis effect="bold">Step 3. Name</emphasis> what we are looking for. Choose variables to represent those quantities.</para>
+<para id="fs-id1168037092275">  Let <m:math><m:mrow><m:mi>f</m:mi><m:mo>=</m:mo></m:mrow></m:math> number of quarts of fruit juice.<newline/>
+    <m:math><m:mrow><m:mi>c</m:mi><m:mo>=</m:mo></m:mrow></m:math> number of quarts of club soda</para>
+<para id="fs-id1168341958682"><emphasis effect="bold">Step 4. Translate</emphasis> into a system of equations.<newline/>
+<media id="fs-id1168341917919" alt="This figure shows sentences converted into equations. The first sentence reads, “The number of quarts of fruit juice and the number of quarts of club soda is 10. “Number of quarts of fruit juice” contains a curly bracket beneath the phrase with an “f” centered under the bracket. The “And” also contains a curly bracket beneath it and has a plus sign centered beneath it. “Number of quarts of club soda” contains a curly bracket with the variable “c” beneath it. And finally, the phrase “is 10” contains a curly bracket. Under this it reads equals 10. The second sentence reads, “The number of quarts of fruit juice is four times the number of quarts of club soda”. This sentence is set up similarly in that each phrase contains a curly bracket underneath. The variable “f” represents “The number of quarts of fruit juice”. An equal sign represents “is” and “4c” represents four times the number of quarts of club soda.”">
+<image mime-type="image/jpeg" src="../../media/CNX_ElemAlg_Figure_05_01_016_img_new.jpg"/>
+</media></para>
+<para id="fs-id1168345374822">We now have the system. <m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mi>f</m:mi><m:mo>+</m:mo><m:mi>c</m:mi><m:mo>=</m:mo><m:mn>10</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mi>f</m:mi><m:mo>=</m:mo><m:mn>4</m:mn><m:mi>c</m:mi></m:mtd></m:mtr></m:mtable></m:mrow></m:mrow></m:math></para>
+<para id="fs-id1168345558568"><emphasis effect="bold">Step 5. Solve</emphasis> the system of equations using good algebra techniques.<newline/>
+<media id="fs-id1168345634396" alt="This figure shows two equations and their graph. The first equation is f = 4c where b = 4 and b = 0. The second equation is f + c = 10. f = negative c +10 where b = negative 1 and b = 10. The x y coordinate plane shows a graph of these two lines which intersect at (2, 8).">
+<image mime-type="image/jpeg" src="../../media/CNX_ElemAlg_Figure_05_01_017_img_new.jpg"/>
+</media></para>
+<para id="fs-id1168345386283">The point of intersection (2, 8) is the solution. This means Sondra needs 2 quarts of club soda and 8 quarts of fruit juice.</para>
+<para id="fs-id1168345329449"><emphasis effect="bold">Step 6. Check</emphasis> the answer in the problem and make sure it makes sense.</para>
+<para id="fs-id1168345342682">Does this make sense in the problem?</para>
+<para id="fs-id1168345342685">Yes, the number of quarts of fruit juice, 8 is 4 times the number of quarts of club soda, 2.</para>
+<para id="fs-id1168345457793">Yes, 10 quarts of punch is 8 quarts of fruit juice plus 2 quarts of club soda.</para>
+<para id="fs-id1168345457796"><emphasis effect="bold">Step 7. Answer</emphasis> the question with a complete sentence.</para>
+<para id="fs-id1168345425413">Sondra needs 8 quarts of fruit juice and 2 quarts of soda.</para>
+</solution>
+</exercise>
+</example>
+<note id="fs-id1168345745115" class="try">
+<exercise id="fs-id1168345745119">
+<problem id="fs-id1168345461354">
+<para id="fs-id1168345461356">Manny is making 12 quarts of orange juice from concentrate and water. The number of quarts of water is 3 times the number of quarts of concentrate. How many quarts of concentrate and how many quarts of water does Manny need?</para>
+</problem>
+<solution id="fs-id1168345748496">
+<para id="fs-id1168345748498">Manny needs 3 quarts juice concentrate and 9 quarts water.</para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1168345287673" class="try">
+<exercise id="fs-id1168341959554">
+<problem id="fs-id1168341959557">
+<para id="fs-id1168345560730">Alisha is making an 18 ounce coffee beverage that is made from brewed coffee and milk. The number of ounces of brewed coffee is 5 times greater than the number of ounces of milk. How many ounces of coffee and how many ounces of milk does Alisha need?</para>
+</problem>
+<solution id="fs-id1168345511129">
+<para id="fs-id1168345511131">Alisha needs 15 ounces of coffee and 3 ounces of milk.</para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1168341952013" class="media-2">
+<para id="fs-id1168345745168">Access these online resources for additional instruction and practice with solving systems of equations by graphing.</para>
+<list id="fs-id1168345745172" display="block">
+<item><link url="http://www.openstax.org/l/25linsysGraph">Instructional Video Solving Linear Systems by Graphing</link></item>
+<item><link url="http://www.openstax.org/l/25solvesbyGraph">Instructional Video Solve by Graphing</link></item>
+</list>
+</note>
+</section>
+<section id="fs-id1168345342426" class="key-concepts">
+<title>Key Concepts</title>
+<list id="fs-id1168345723898" list-type="bulleted" bullet-style="bullet">
+<item><emphasis effect="bold">To solve a system of linear equations by graphing</emphasis>
+<list id="fs-id1169751872326" list-type="enumerated" number-style="arabic" class="stepwise">
+<item>Graph the first equation.</item>
+<item>Graph the second equation on the same rectangular coordinate system.</item>
+<item>Determine whether the lines intersect, are parallel, or are the same line.</item>
+<item>Identify the solution to the system.<newline/>
+If the lines intersect, identify the point of intersection. Check to make sure it is a solution to both equations. This is the solution to the system.<newline/>
+If the lines are parallel, the system has no solution.<newline/>
+If the lines are the same, the system has an infinite number of solutions.</item>
+<item>Check the solution in both equations.<newline/><newline/></item>
+</list></item>
+<item>Determine the number of solutions from the graph of a linear system<newline/>
+<media id="fs-id1169752215390" alt="This table has two columns and four rows. The first row labels each column “Graph” and “Number of solutions.” Under “Graph” are “2 intersecting lines,” “Parallel lines,” and “Same line.” Under “Number of solutions” are “1,” “None,” and “Infinitely many.”">
+<image mime-type="image/jpeg" src="../../media/CNX_ElemAlg_Figure_05_01_022_img_new.jpg"/>
+</media>
+</item>
+<item>Determine the number of solutions of a linear system by looking at the slopes and intercepts<newline/>
+<media id="fs-id1169744990195" alt="This table is entitled “Number of Solutions of a Linear System of Equations.” There are four columns. The columns are labeled, “Slopes,” “Intercepts,” “Type of Lines,” “Number of Solutions.” Under “Slopes” are “Different,” “Same,” and “Same.” Under “Intercepts,” the first cell is blank, then the words “Different” and “Same” appear. Under “Types of Lines” are the words, “Intersecting,” “Parallel,” and “Coincident.” Under “Number of Solutions” are “1 point,” “No Solution,” and “Infinitely many solutions.”">
+<image mime-type="image/jpeg" src="../../media/CNX_ElemAlg_Figure_05_01_023_img_new.jpg"/>
+</media>
+</item>
+<item>Determine the number of solutions and how to classify a system of equations<newline/>
+<media id="fs-id1169749818467" alt="This table has four columns and four rows. The columns are labeled, “Lines,” “Intersecting,” “Parallel,” and “Coincident.” In the first row under the labeled column “lines” it reads “Number of solutions.” Reading across, it tell us that an intersecting line contains 1 point, a parallel line provides no solution, and a coincident line has infinitely many solutions. A consistent/inconsistent line has consistent lines if they are intersecting, inconsistent lines if they are parallel and consistent if the lines are coincident. Finally, dependent and independent lines are considered independent if the lines intersect, they are also independent if the lines are parallel, and they are dependent if the lines are coincident.">
+<image mime-type="image/jpeg" src="../../media/CNX_ElemAlg_Figure_05_01_024_img_new.jpg"/>
+</media><newline/><newline/>
+</item>
+<item><emphasis effect="bold">Problem Solving Strategy for Systems of Linear Equations</emphasis>
+<list id="fs-id1169754134591" list-type="enumerated" number-style="arabic" class="stepwise">
+<item><emphasis effect="bold">Read</emphasis> the problem. Make sure all the words and ideas are understood.</item>
+<item><emphasis effect="bold">Identify</emphasis> what we are looking for.</item>
+<item><emphasis effect="bold">Name</emphasis> what we are looking for. Choose variables to represent those quantities.</item>
+<item><emphasis effect="bold">Translate</emphasis> into a system of equations.</item>
+<item><emphasis effect="bold">Solve</emphasis> the system of equations using good algebra techniques.</item>
+<item><emphasis effect="bold">Check</emphasis> the answer in the problem and make sure it makes sense.</item>
+<item><emphasis effect="bold">Answer</emphasis> the question with a complete sentence.</item>
+</list></item></list>
+</section>
+<section id="fs-id1168345433883" class="section-exercises">
+<section id="fs-id1168345433887" class="practice-perfect">
+<title>Practice Makes Perfect</title>
+<para id="fs-id1168345500508"><emphasis effect="bold">Determine Whether an Ordered Pair is a Solution of a System of Equations</emphasis>. In the following exercises, determine if the following points are solutions to the given system of equations.</para>
+<exercise id="fs-id1168345386868">
+<problem id="fs-id1168345553249">
+<para id="fs-id1168345553251"><m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>6</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>4</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>5</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:mrow></m:math></para>
+<para id="fs-id1168345746646"><span class="token">ⓐ</span> <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>−3</m:mn><m:mo>,</m:mo><m:mn>4</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168345647810">
+<para id="fs-id1168345647812"><span class="token">ⓐ</span> yes <span class="token">ⓑ</span> no</para>
+</solution>
+</exercise>
+<exercise id="fs-id1168345387927">
+<problem id="fs-id1168345387929">
+<para id="fs-id1168345387931"><m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mn>7</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>4</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−1</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>−3</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:mrow></m:math></para>
+<para id="fs-id1168345415582"><span class="token">ⓐ</span>  <span class="token">ⓑ</span> <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>−2</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1168345631561">
+<problem id="fs-id1168345290497">
+<para id="fs-id1168345290499"><m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>5</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:mrow></m:math></para>
+<para id="fs-id1168345743256"><span class="token">ⓐ</span> <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>4</m:mn><m:mo>,</m:mo><m:mtext>−3</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>0</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168345578761">
+<para id="fs-id1168345578763"><span class="token">ⓐ</span> yes <span class="token">ⓑ</span> no</para>
+</solution>
+</exercise>
+<exercise id="fs-id1168341840943">
+<problem id="fs-id1168341840945">
+<para id="fs-id1168345461472"><m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mn>−3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>8</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mo>−</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−9</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:mrow></m:math></para>
+<para id="fs-id1168345423964"><span class="token">ⓐ</span> <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>−5</m:mn><m:mo>,</m:mo><m:mn>−7</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>−5</m:mn><m:mo>,</m:mo><m:mn>7</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1168345539006">
+<problem id="fs-id1168345539008">
+<para id="fs-id1168345742401"><m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>2</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mi>y</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>3</m:mn><m:mn>4</m:mn></m:mfrac><m:mi>x</m:mi></m:mtd></m:mtr></m:mtable></m:mrow></m:mrow></m:math></para>
+<para id="fs-id1168345433161"><span class="token">ⓐ</span> <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mn>8</m:mn><m:mn>7</m:mn></m:mfrac><m:mo>,</m:mo><m:mfrac><m:mn>6</m:mn><m:mn>7</m:mn></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>,</m:mo><m:mfrac><m:mn>3</m:mn><m:mn>4</m:mn></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168345692978">
+<para id="fs-id1168345692980"><span class="token">ⓐ</span> yes <span class="token">ⓑ</span> no</para>
+</solution>
+</exercise>
+<exercise id="fs-id1168345387669">
+<problem id="fs-id1168345387671">
+<para id="fs-id1168341961476"><m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mi>y</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>2</m:mn><m:mn>5</m:mn></m:mfrac><m:mi>x</m:mi></m:mtd></m:mtr></m:mtable></m:mrow></m:mrow></m:math></para>
+<para id="fs-id1168345449421"><span class="token">ⓐ</span> <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mn>5</m:mn><m:mn>7</m:mn></m:mfrac><m:mo>,</m:mo><m:mfrac><m:mn>2</m:mn><m:mn>7</m:mn></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>5</m:mn><m:mo>,</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1168345557069">
+<problem id="fs-id1168345448115">
+<para id="fs-id1168345448117"><m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>5</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>10</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mi>y</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>3</m:mn><m:mn>5</m:mn></m:mfrac><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:mrow></m:math></para>
+<para id="fs-id1168345375040"><span class="token">ⓐ</span> <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−10</m:mn><m:mo>,</m:mo><m:mn>4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mn>5</m:mn><m:mn>4</m:mn></m:mfrac><m:mo>,</m:mo><m:mfrac><m:mn>7</m:mn><m:mn>4</m:mn></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168345665192">
+<para id="fs-id1168345665194"><span class="token">ⓐ</span> no <span class="token">ⓑ</span> yes</para>
+</solution>
+</exercise>
+<exercise id="fs-id1168345340028">
+<problem id="fs-id1168345340030">
+<para id="fs-id1168341847904"><m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>9</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mi>y</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>2</m:mn><m:mn>3</m:mn></m:mfrac><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:mrow></m:math></para>
+<para id="fs-id1168345424220"><span class="token">ⓐ</span> <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−6</m:mn><m:mo>,</m:mo><m:mn>5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>5</m:mn><m:mo>,</m:mo><m:mfrac><m:mn>4</m:mn><m:mn>3</m:mn></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+</exercise>
+<para id="fs-id1168345452960"><emphasis effect="bold">Solve a System of Linear Equations by Graphing</emphasis> In the following exercises, solve the following systems of equations by graphing.</para>
+<exercise id="fs-id1168345435408">
+<problem id="fs-id1168345435410">
+<para id="fs-id1168345674645"><m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−3</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>5</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168345461248">
+<para id="fs-id1168345461250"><m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>−2</m:mn><m:mo>,</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1168345293318">
+<problem id="fs-id1168345293320">
+<para id="fs-id1168345293323"><m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mtext>−</m:mtext><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>2</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−4</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1168345425316">
+<problem id="fs-id1168345425318">
+<para id="fs-id1168341919089"><m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mn>−3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−1</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>4</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168345551543">
+<para id="fs-id1168345551545"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1168345744394">
+<problem id="fs-id1168345744396">
+<para id="fs-id1168345744398"><m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mn>−2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−3</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>4</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1168345540886">
+<problem id="fs-id1168345540888">
+<para id="fs-id1168345540890"><m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168341959808">
+<para id="fs-id1168345559628"><m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1168345428374">
+<problem id="fs-id1168345428376">
+<para id="fs-id1168341849572"><m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1168345633802">
+<problem id="fs-id1168345633804">
+<para id="fs-id1168345633806"><m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mi>y</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>3</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mi>y</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>5</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168345436511">
+<para id="fs-id1168345436513"><m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>4</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1168345560424">
+<problem id="fs-id1168341952524">
+<para id="fs-id1168341952526"><m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mi>y</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>2</m:mn><m:mn>3</m:mn></m:mfrac><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mi>y</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>5</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1168345745274">
+<problem id="fs-id1168345745276">
+<para id="fs-id1168345745278"><m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mo>−</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−3</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>4</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168345540406">
+<para id="fs-id1168345540408"><m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>−1</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1168341910533">
+<problem id="fs-id1168341910535">
+<para id="fs-id1168341910537"><m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mi>x</m:mi><m:mo>−</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>3</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>4</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1168345494239">
+<problem id="fs-id1168345494241">
+<para id="fs-id1168345450669"><m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mn>−3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−1</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>4</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168345577238">
+<para id="fs-id1168345577240"><m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1168345644061">
+<problem id="fs-id1168345644063">
+<para id="fs-id1168345644065"><m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mn>−3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−2</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>6</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1168345452675">
+<problem id="fs-id1168345452677">
+<para id="fs-id1168345452679"><m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>5</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>4</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168345228378">
+<para id="fs-id1168345286284"><m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1168345644870">
+<problem id="fs-id1168345644872">
+<para id="fs-id1168345644874"><m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mi>x</m:mi><m:mo>−</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>2</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>6</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1168345474651">
+<problem id="fs-id1168345474653">
+<para id="fs-id1168345474656"><m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>2</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mi>x</m:mi><m:mo>−</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168341840935">
+<para id="fs-id1168341840937"><m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1168345300808">
+<problem id="fs-id1168345429597">
+<para id="fs-id1168345429599"><m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>6</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mi>x</m:mi><m:mo>−</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−8</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1168345521391">
+<problem id="fs-id1168345521393">
+<para id="fs-id1168345521395"><m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−5</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mi>x</m:mi><m:mo>−</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>3</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168345636533">
+<para id="fs-id1168345636535"><m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>−1</m:mn><m:mo>,</m:mo><m:mn>−4</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1168345577160">
+<problem id="fs-id1168345577163">
+<para id="fs-id1168345577165"><m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>4</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mi>x</m:mi><m:mo>−</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1168345560540">
+<problem id="fs-id1168345560542">
+<para id="fs-id1168345560544"><m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−4</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mo>−</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−2</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168341952256">
+<para id="fs-id1168341952258"><m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1168341862530">
+<problem id="fs-id1168341862532">
+<para id="fs-id1168341862534"><m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mo>−</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>3</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>3</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1168345676006">
+<problem id="fs-id1168345676008">
+<para id="fs-id1168345676010"><m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mn>−2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>3</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>12</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168341895754">
+<para id="fs-id1168345398193"><m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>−5</m:mn><m:mo>,</m:mo><m:mn>6</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1168345677688">
+<problem id="fs-id1168345677690">
+<para id="fs-id1168345677693"><m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>4</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>12</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1168345521673">
+<problem id="fs-id1168341852821">
+<para id="fs-id1168341852823"><m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>6</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−2</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168345439979">
+<para id="fs-id1168345623888"><m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>6</m:mn><m:mo>,</m:mo><m:mn>−2</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1168345748437">
+<problem id="fs-id1168345748439">
+<para id="fs-id1168345748441"><m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mn>−2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>2</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>4</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1168345521355">
+<problem id="fs-id1168345521357">
+<para id="fs-id1168345521359"><m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−3</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>2</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168345560523">
+<para id="fs-id1168345560526"><m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1168345448456">
+<problem id="fs-id1168345448458">
+<para id="fs-id1168345448460"><m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>8</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−3</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1168345544228">
+<problem id="fs-id1168345544230">
+<para id="fs-id1168345544232"><m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−1</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168341841073">
+<para id="fs-id1168341841075"><m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1168345692811">
+<problem id="fs-id1168345692813">
+<para id="fs-id1168345734941"><m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>2</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>−2</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1168341960671">
+<problem id="fs-id1168341960673">
+<para id="fs-id1168341960675"><m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−6</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>−3</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168345665132">
+<para id="fs-id1168345665134"><m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>−3</m:mn><m:mo>,</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1168345432827">
+<problem id="fs-id1168345432829">
+<para id="fs-id1168345432831"><m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>4</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1168345239514">
+<problem id="fs-id1168345239516">
+<para id="fs-id1168345239518"><m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>8</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>8</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>6</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>14</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168345398307">
+<para id="fs-id1168345398309">no solution</para>
+</solution>
+</exercise>
+<exercise id="fs-id1168345398314">
+<problem id="fs-id1168345398316">
+<para id="fs-id1168345398318"><m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>4</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>−2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>6</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>3</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1168345661664">
+<problem id="fs-id1168341890503">
+<para id="fs-id1168341890505"><m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mn>−2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>4</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mi>y</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>x</m:mi></m:mtd></m:mtr></m:mtable></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168341863017">
+<para id="fs-id1168341863019">no solution</para>
+</solution>
+</exercise>
+<exercise id="fs-id1168341863024">
+<problem id="fs-id1168345631535">
+<para id="fs-id1168345631537"><m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>5</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>10</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mi>y</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mn>3</m:mn><m:mn>5</m:mn></m:mfrac><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1168345557355">
+<problem id="fs-id1168345557357">
+<para id="fs-id1168345557360"><m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>−3</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>4</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>6</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>8</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168341847744">
+<para id="fs-id1168341847746">no solution</para>
+</solution>
+</exercise>
+<exercise id="fs-id1168345250664">
+<problem id="fs-id1168345250667">
+<para id="fs-id1168345250669"><m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>3</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>7</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>8</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>6</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>14</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1168341857407">
+<problem id="fs-id1168341857409">
+<para id="fs-id1168341857411"><m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>6</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>−8</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>4</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−24</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168345440043">
+<para id="fs-id1168345440045">infinitely many solutions</para>
+</solution>
+</exercise>
+<exercise id="fs-id1168345440051">
+<problem id="fs-id1168345521948">
+<para id="fs-id1168345521950"><m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mn>5</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>7</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>−10</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>4</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−14</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1168345520967">
+<problem id="fs-id1168345520970">
+<para id="fs-id1168345561466"><m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−6</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>4</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mn>4</m:mn><m:mn>3</m:mn></m:mfrac><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>8</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168345695324">
+<para id="fs-id1168345695326">infinitely many solutions</para>
+</solution>
+</exercise>
+<exercise id="fs-id1168345695331">
+<problem id="fs-id1168345695333">
+<para id="fs-id1168345695336"><m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mtext>−</m:mtext><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−6</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mi>y</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1168345432692">
+<problem id="fs-id1168345432695">
+<para id="fs-id1168345432697"><m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mn>−3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−2</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mi>y</m:mi><m:mo>=</m:mo><m:mtext>−</m:mtext><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168345557241">
+<para id="fs-id1168345557243"><m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1168345453225">
+<problem id="fs-id1168345420542">
+<para id="fs-id1168345420544"><m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mo>−</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−2</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mi>y</m:mi><m:mo>=</m:mo><m:mtext>−</m:mtext><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:mrow></m:math></para>
+</problem>
+</exercise>
+<para id="fs-id1168345557286"><emphasis effect="bold">Determine the Number of Solutions of a Linear System</emphasis> Without graphing the following systems of equations, determine the number of solutions and then classify the system of equations.</para>
+<exercise id="fs-id1168345557294">
+<problem id="fs-id1168345557296">
+<para id="fs-id1168345557298"><m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mi>y</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>2</m:mn><m:mn>3</m:mn></m:mfrac><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>−2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>5</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168345746319">
+<para id="fs-id1168345416852">0 solutions</para>
+</solution>
+</exercise>
+<exercise id="fs-id1168345416858">
+<problem id="fs-id1168345416860">
+<para id="fs-id1168345416862"><m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mi>y</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>9</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1168345541378">
+<problem id="fs-id1168345541380">
+<para id="fs-id1168345689737"><m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>8</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168345405546">
+<para id="fs-id1168345429793">0 solutions</para>
+</solution>
+</exercise>
+<exercise id="fs-id1168345429798">
+<problem id="fs-id1168345429800">
+<para id="fs-id1168345429802"><m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>9</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>18</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1168345476396">
+<problem id="fs-id1168345476398">
+<para id="fs-id1168345476400"><m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mi>y</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>2</m:mn><m:mn>3</m:mn></m:mfrac><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>7</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168345543705">
+<para id="fs-id1168345543707">no solutions, inconsistent, independent</para>
+</solution>
+</exercise>
+<exercise id="fs-id1168345540624">
+<problem id="fs-id1168345540626">
+<para id="fs-id1168345540628"><m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>12</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−3</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1168345692887">
+<problem id="fs-id1168345692889">
+<para id="fs-id1168345692891"><m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>10</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−6</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168345541430">
+<para id="fs-id1168345541432">consistent, 1 solution</para>
+</solution>
+</exercise>
+<exercise id="fs-id1168345541437">
+<problem id="fs-id1168345541439">
+<para id="fs-id1168345541442"><m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mn>5</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>4</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>5</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1168345557451">
+<problem id="fs-id1168345557453">
+<para id="fs-id1168345557455"><m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mi>y</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>5</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>10</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168345327901">
+<para id="fs-id1168345327903">infinitely many solutions</para>
+</solution>
+</exercise>
+<exercise id="fs-id1168345327908">
+<problem id="fs-id1168345327910">
+<para id="fs-id1168345290769"><m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>−</m:mtext><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1168341919229">
+<problem id="fs-id1168341919232">
+<para id="fs-id1168341919234"><m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−3</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168345407286">
+<para id="fs-id1168345407288">infinitely many solutions</para>
+</solution>
+</exercise>
+<exercise id="fs-id1168345407294">
+<problem id="fs-id1168345407296">
+<para id="fs-id1168345407298"><m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mn>5</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>10</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mi>y</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>5</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>5</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:mrow></m:math></para>
+</problem>
+</exercise>
+<para id="fs-id1168345558548"><emphasis effect="bold">Solve Applications of Systems of Equations by Graphing</emphasis> In the following exercises, solve.</para>
+<exercise id="fs-id1168345558555">
+<problem id="fs-id1168345558557">
+<para id="fs-id1168345746384">Molly is making strawberry infused water. For each ounce of strawberry juice, she uses three times as many ounces of water. How many ounces of strawberry juice and how many ounces of water does she need to make 64 ounces of strawberry infused water?</para>
+</problem>
+<solution id="fs-id1168345746391">
+<para id="fs-id1168345746393">Molly needs 16 ounces of strawberry juice and 48 ounces of water.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1168345746398">
+<problem id="fs-id1168345746400">
+<para id="fs-id1168345746402">Jamal is making a snack mix that contains only pretzels and nuts. For every ounce of nuts, he will use 2 ounces of pretzels. How many ounces of pretzels and how many ounces of nuts does he need to make 45 ounces of snack mix?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1168345636619">
+<problem id="fs-id1168345636622">
+<para id="fs-id1168345636624">Enrique is making a party mix that contains raisins and nuts. For each ounce of nuts, he uses twice the amount of raisins. How many ounces of nuts and how many ounces of raisins does he need to make 24 ounces of party mix?</para>
+</problem>
+<solution id="fs-id1168345636630">
+<para id="fs-id1168345636632">Enrique needs 8 ounces of nuts and 16 ounces of water.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1168345577184">
+<problem id="fs-id1168345577186">
+<para id="fs-id1168345577188">Owen is making lemonade from concentrate. The number of quarts of water he needs is 4 times the number of quarts of concentrate. How many quarts of water and how many quarts of concentrate does Owen need to make 100 quarts of lemonade?</para>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1168345577203" class="everyday">
+<title>Everyday Math</title>
+<exercise id="fs-id1168345413958">
+<problem id="fs-id1168345413960">
+<para id="fs-id1168345413962">Leo is planning his spring flower garden. He wants to plant tulip and daffodil bulbs. He will plant 6 times as many daffodil bulbs as tulip bulbs. If he wants to plant 350 bulbs, how many tulip bulbs and how many daffodil bulbs should he plant?</para>
+</problem>
+<solution id="fs-id1168345413968">
+<para id="fs-id1168345413970">Leo should plant 50 tulips and 300 daffodils.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1168345413976">
+<problem id="fs-id1168345413978">
+<para id="fs-id1168345413980">A marketing company surveys 1,200 people. They surveyed twice as many females as males. How many males and females did they survey?</para>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1168345572431" class="writing">
+<title>Writing Exercises</title>
+<exercise id="fs-id1168345572436">
+<problem id="fs-id1168345572438">
+<para id="fs-id1168345572441">In a system of linear equations, the two equations have the same slope. Describe the possible solutions to the system.</para>
+</problem>
+<solution id="fs-id1168341864095">
+<para id="fs-id1168341864097">Given that it is only known that the slopes of both linear equations are the same, there are either no solutions (the graphs of the equations are parallel) or infinitely many.</para></solution>
+</exercise>
+<exercise id="fs-id1168341864103">
+<problem id="fs-id1168341864105">
+<para id="fs-id1168341864107">In a system of linear equations, the two equations have the same intercepts. Describe the possible solutions to the system.</para>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1168345540583">
+<title>Self Check</title>
+<para id="fs-id1168345540592">After completing the exercises, use this checklist to evaluate your mastery of the objectives of this section.</para>
+<media id="fs-id1168345540596" alt="This figure shows a table with four rows and four columns. The columns are labeled, “I can…,” “Confidently.” “With some help.” and “No - I don’t get it.” The only column with filled in cells below it is labeled “I can…” It reads, “determine whether an ordered pair is a solution of a system of equations.” “solve a system of linear equations by graphing.” “determine the number of solutions of a linear system.” and “solve applications of systems of equations by graphing.”">
+<image mime-type="image/jpeg" src="../../media/CNX_ElemAlg_Figure_05_01_201_img_new.jpg"/>
+</media>
+<para id="fs-id1168341959270">If most of your checks were:</para>
+<para id="fs-id1168341959273"><emphasis effect="bold">…confidently.</emphasis> Congratulations! You have achieved the objectives in this section. Reflect on the study skills you used so that you can continue to use them. What did you do to become confident of your ability to do these things? Be specific.</para>
+<para id="fs-id1168341959282"><emphasis effect="bold">…with some help.</emphasis> This must be addressed quickly because topics you do not master become potholes in your road to success. In math every topic builds upon previous work. It is important to make sure you have a strong foundation before you move on. Who can you ask for help? Your fellow classmates and instructor are good resources. Is there a place on campus where math tutors are available? Can your study skills be improved?</para>
+<para id="fs-id1168345631513"><emphasis effect="bold">…no - I don’t get it!</emphasis> This is a warning sign and you must not ignore it. You should get help right away or you will quickly be overwhelmed. See your instructor as soon as you can to discuss your situation. Together you can come up with a plan to get you the help you need.</para>
+</section>
+</section>
+</content>
+<glossary>
+<definition id="fs-id1168345631530">
+<term>coincident lines</term>
+<meaning id="fs-id1168345527779">Coincident lines are lines that have the same slope and same <emphasis effect="italics">y</emphasis>-intercept.</meaning>
+</definition>
+<definition id="fs-id1168345527788">
+<term>consistent system</term>
+<meaning id="fs-id1168345527794">A consistent system of equations is a system of equations with at least one solution.</meaning>
+</definition>
+<definition id="fs-id1168345527798">
+<term>dependent equations</term>
+<meaning id="fs-id1168345484131">Two equations are dependent if all the solutions of one equation are also solutions of the other equation.</meaning>
+</definition>
+<definition id="fs-id1168345484135">
+<term>inconsistent system</term>
+<meaning id="fs-id1168345484140">An inconsistent system of equations is a system of equations with no solution.</meaning>
+</definition>
+<definition id="fs-id1168345484145">
+<term>independent equations</term>
+<meaning id="fs-id1168345484150">Two equations are independent if they have different solutions.</meaning>
+</definition>
+<definition id="fs-id1168345484154">
+<term>solutions of a system of equations</term>
+<meaning id="fs-id1168345693483">Solutions of a system of equations are the values of the variables that make all the equations true. A solution of a system of two linear equations is represented by an ordered pair (<emphasis effect="italics">x</emphasis>, <emphasis effect="italics">y</emphasis>).</meaning>
+</definition>
+<definition id="fs-id1168345693499">
+<term>system of linear equations</term>
+<meaning id="fs-id1168345363996">When two or more linear equations are grouped together, they form a system of linear equations.</meaning>
+</definition>
+</glossary>
+</document>

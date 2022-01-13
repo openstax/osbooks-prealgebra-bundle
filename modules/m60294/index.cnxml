@@ -1,0 +1,1275 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Higher Roots</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m60294</md:content-id>
+  <md:title>Higher Roots</md:title>
+  <md:abstract><para>By the end of this section, you will be able to:</para>
+<list>
+<item>Simplify expressions with higher roots</item>
+<item>Use the Product Property to simplify expressions with higher roots</item>
+<item>Use the Quotient Property to simplify expressions with higher roots</item>
+<item>Add and subtract higher roots</item>
+</list></md:abstract>
+  <md:uuid>b55c5836-305b-49b1-a6e4-7f0eb56671c6</md:uuid>
+</metadata>
+
+<content>
+<note id="fs-id1169595176665" class="be-prepared">
+<para id="fs-id1169595362398">Before you get started, take this readiness quiz.</para>
+<list id="fs-id1169597517327" list-type="enumerated" number-style="arabic">
+<item>Simplify: <m:math><m:mrow><m:msup><m:mi>y</m:mi><m:mn>5</m:mn></m:msup><m:msup><m:mi>y</m:mi><m:mn>4</m:mn></m:msup></m:mrow></m:math>.<newline/>
+If you missed this problem, review <link target-id="fs-id1169597505948" document="m60215"/>.</item>
+<item>Simplify: <m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msup><m:mi>n</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>6</m:mn></m:msup></m:mrow></m:math>.<newline/>
+If you missed this problem, review <link target-id="fs-id1169597518556" document="m60215"/>.</item>
+<item>Simplify: <m:math><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>x</m:mi><m:mn>8</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:math>.<newline/>
+If you missed this problem, review <link target-id="fs-id1169596499202" document="m60165"/>.</item>
+</list>
+</note>
+<section id="fs-id1169597740554">
+<title>Simplify Expressions with Higher Roots</title>
+<para id="fs-id1169595642451">Up to now, in this chapter we have worked with squares and square roots. We will now extend our work to include higher powers and higher roots.</para>
+<para id="fs-id1169595340090">Let’s review some vocabulary first.</para>
+<equation id="fs-id1169595340326" class="unnumbered"><label/><m:math><m:mrow><m:mtable><m:mtr><m:mtd columnalign="left"><m:mtext mathvariant="bold">We write:</m:mtext></m:mtd><m:mtd/><m:mtd columnalign="left"><m:mspace width="2em"/><m:mtext mathvariant="bold">We say:</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="center"><m:msup><m:mi>n</m:mi><m:mn>2</m:mn></m:msup></m:mtd><m:mtd/><m:mtd columnalign="left"><m:mspace width="2em"/><m:mi>n</m:mi><m:mspace width="0.2em"/><m:mtext>squared</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="center"><m:msup><m:mi>n</m:mi><m:mn>3</m:mn></m:msup></m:mtd><m:mtd/><m:mtd columnalign="left"><m:mspace width="2em"/><m:mi>n</m:mi><m:mspace width="0.2em"/><m:mtext>cubed</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="center"><m:msup><m:mi>n</m:mi><m:mn>4</m:mn></m:msup></m:mtd><m:mtd/><m:mtd columnalign="left"><m:mspace width="2em"/><m:mi>n</m:mi><m:mspace width="0.2em"/><m:mtext>to the fourth</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="center"><m:msup><m:mi>n</m:mi><m:mn>5</m:mn></m:msup></m:mtd><m:mtd/><m:mtd columnalign="left"><m:mspace width="2em"/><m:mi>n</m:mi><m:mspace width="0.2em"/><m:mtext>to the fifth</m:mtext></m:mtd></m:mtr></m:mtable></m:mrow></m:math></equation>
+<para id="fs-id1169597702313">The terms ‘squared’ and ‘cubed’ come from the formulas for area of a square and volume of a cube.</para>
+<para id="fs-id1169597502674">It will be helpful to have a table of the powers of the integers from <m:math><m:mrow><m:mn>−5</m:mn><m:mspace width="0.2em"/><m:mtext>to</m:mtext><m:mspace width="0.2em"/><m:mn>5</m:mn></m:mrow></m:math>. See <link target-id="CNX_ElemAlg_Figure_09_09_001"/>.</para>
+<figure id="CNX_ElemAlg_Figure_09_09_001">
+<media id="fs-id1169597464646" alt="This figure consists of two tables. The first table shows the results of raising the numbers 1, 2, 3, 4, 5, x, and x squared to the second, third, fourth, and fifth powers. The second table shows the results of raising the numbers negative one through negative five to the second, third, fourth, and fifth powers. The table first has five columns and nine rows. The second has five columns and seven rows. The columns in both tables are labeled, “Number,” “Square,” “Cube,” “Fourth power,” “Fifth power,” nothing,  “Number,” “Square,” “Cube,” “Fourth power,” and “Fifth power.” In both tables, the next row reads: n, n squared, n cubed, n to the fourth power, n to the fifth power, nothing, n, n squared, n cubed, n to the fourth power, and n to the fifth power. In the first table, 1 squared, 1 cubed, 1 to the fourth power, and 1 to the fifth power are all shown to be 1. In the next row, 2 squared is 4, 2 cubed is 8, 2 to the fourth power is 16, and 2 to the fifth power is 32. In the next row, 3 squared is 9, 3 cubed is 27, 3 to the fourth power is 81, and 3 to the fifth power is 243. In the next row, 4 squared is 16, 4 cubed is 64, 4 to the fourth power is 246, and 4 to the fifth power is 1024. In the next row, 5 squared is 25, 5 cubed is 125, 5 to the fourth power is 625, and 5 to the fifth power is 3125. In the next row, x squared, x cubed, x to the fourth power, and x to the fifth power are listed. In the next row, x squared squared is x to the fourth power, x cubed squared is x to the fifth power, x squared to the fourth power is x to the eighth power, and x squared to the fifth power is x to the tenth power. In the second table, negative 1 squared is 1, negative 1 cubed is negative 1, negative 1 to the fourth power is 1, and negative 1 to the fifth power is negative 1. In the next row, negative 2 squared is 4, negative 2 cubed is negative 8, negative 2 to the fourth power is 16, and negative 2 to the fifth power is negative 32. In the next row, negative 4 squared is 16, negative 4 cubed is negative 64, negative 4 to the fourth power is 256, and negative 4 to the fifth power is negative 1024. In the next row, negative 5 squared is 25, negative 5 cubed is negative 125, negative 5 to the fourth power is 625, and negative 5 to the fifth power is negative 3125.">
+<image mime-type="image/jpeg" src="../../media/CNX_ElemAlg_Figure_09_07_001_img_new.jpg"/></media>
+<caption>First through fifth powers of integers from <m:math><m:mrow><m:mn>−5</m:mn></m:mrow></m:math> to <m:math><m:mrow><m:mn>5</m:mn><m:mo>.</m:mo></m:mrow></m:math></caption>
+</figure>
+<para id="fs-id1169597821063">Notice the signs in <link target-id="CNX_ElemAlg_Figure_09_09_001"/>. All powers of positive numbers are positive, of course. But when we have a negative number, the even powers are positive and the odd powers are negative. We’ll copy the row with the powers of <m:math><m:mrow><m:mn>−2</m:mn></m:mrow></m:math> below to help you see this.</para>
+<media id="fs-id1169597335146" alt="This figure has five columns and two rows. The first row labels each column: n, n squared, n cubed, n to the fourth power, and n to the fifth power. The second row reads: negative 2, 4, negative 8, 16, and negative 32.">
+<image mime-type="image/jpeg" src="../../media/CNX_ElemAlg_Figure_09_07_002_img_new.jpg"/></media>
+<para id="fs-id1169597342363">Earlier in this chapter we defined the square root of a number.</para>
+<equation id="fs-id1169595174372" class="unnumbered"><label/><m:math><m:mrow><m:mtext>If</m:mtext><m:mspace width="0.2em"/><m:msup><m:mi>n</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mi>m</m:mi><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mtext>then</m:mtext><m:mspace width="0.2em"/><m:mi>n</m:mi><m:mspace width="0.2em"/><m:mtext>is a square root of</m:mtext><m:mspace width="0.2em"/><m:mi>m</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1169597415292">And we have used the notation <m:math><m:mrow><m:msqrt><m:mi>m</m:mi></m:msqrt></m:mrow></m:math> to denote the <term>principal square root</term>. So <m:math><m:mrow><m:msqrt><m:mi>m</m:mi></m:msqrt><m:mo>≥</m:mo><m:mn>0</m:mn></m:mrow></m:math> always.</para>
+<para id="fs-id1169595121278">We will now extend the definition to higher roots.</para>
+<note id="fs-id1169595201010">
+<title><emphasis effect="italics">n</emphasis>th Root of a Number</title>
+<para id="fs-id1169595123032">If <m:math><m:mrow><m:msup><m:mi>b</m:mi><m:mi>n</m:mi></m:msup><m:mo>=</m:mo><m:mi>a</m:mi></m:mrow></m:math>, then <m:math><m:mi>b</m:mi></m:math> is an <term><emphasis effect="italics">n</emphasis>th root of a number</term> <m:math><m:mi>a</m:mi></m:math>.</para>
+<para id="fs-id1169597770682">The principal <emphasis effect="italics">n</emphasis>th root of <m:math><m:mi>a</m:mi></m:math> is written <m:math><m:mrow><m:mroot><m:mi>a</m:mi><m:mi>n</m:mi></m:mroot></m:mrow></m:math>.</para>
+<para id="fs-id1169597783926">        <emphasis effect="italics">n</emphasis> is called the <term>index</term> of the radical.</para>
+</note>
+<para id="fs-id1169595174115">We do not write the index for a square root. Just like we use the word ‘cubed’ for <m:math><m:mrow><m:msup><m:mi>b</m:mi><m:mn>3</m:mn></m:msup></m:mrow></m:math>, we use the term ‘cube root’ for <m:math><m:mrow><m:mroot><m:mi>a</m:mi><m:mn>3</m:mn></m:mroot></m:mrow></m:math>.</para>
+<para id="fs-id1169597615453">We refer to <link target-id="CNX_ElemAlg_Figure_09_09_001"/> to help us find higher roots.</para>
+<equation id="fs-id1169597407762" class="unnumbered"><label/><m:math><m:mrow><m:mtable><m:mtr><m:mtd columnalign="right"><m:msup><m:mn>4</m:mn><m:mn>3</m:mn></m:msup></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>64</m:mn></m:mtd><m:mtd/><m:mtd columnalign="right"><m:mspace width="4em"/><m:mroot><m:mrow><m:mn>64</m:mn></m:mrow><m:mn>3</m:mn></m:mroot></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>4</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:msup><m:mn>3</m:mn><m:mn>4</m:mn></m:msup></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>81</m:mn></m:mtd><m:mtd/><m:mtd columnalign="right"><m:mspace width="4em"/><m:mroot><m:mrow><m:mn>81</m:mn></m:mrow><m:mn>4</m:mn></m:mroot></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>3</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>5</m:mn></m:msup></m:mtd><m:mtd columnalign="right"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>−32</m:mn></m:mtd><m:mtd/><m:mtd columnalign="right"><m:mspace width="4em"/><m:mroot><m:mrow><m:mn>−32</m:mn></m:mrow><m:mn>5</m:mn></m:mroot></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>−2</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:math></equation>
+<para id="fs-id1169597715812">Could we have an even root of a negative number? No. We know that the square root of a negative number is not a real number. The same is true for any even root. Even roots of negative numbers are not real numbers. Odd roots of negative numbers are real numbers.</para>
+<note id="fs-id1169597482926">
+<title>Properties of <m:math><m:mrow><m:mroot><m:mi>a</m:mi><m:mi>n</m:mi></m:mroot></m:mrow></m:math></title>
+<para id="fs-id1169597461758">When <m:math><m:mrow><m:mi>n</m:mi></m:mrow></m:math> is an even number and</para>
+<list id="fs-id1169597818533" list-type="bulleted" bullet-style="bullet">
+<item><m:math><m:mrow><m:mi>a</m:mi><m:mo>≥</m:mo><m:mn>0</m:mn></m:mrow></m:math>, then <m:math><m:mrow><m:mroot><m:mi>a</m:mi><m:mi>n</m:mi></m:mroot></m:mrow></m:math> is a real number</item>
+<item><m:math><m:mrow><m:mi>a</m:mi><m:mo>&lt;</m:mo><m:mn>0</m:mn></m:mrow></m:math>, then <m:math><m:mrow><m:mroot><m:mi>a</m:mi><m:mi>n</m:mi></m:mroot></m:mrow></m:math> is not a real number</item>
+</list>
+<para id="fs-id1169597537186">When <m:math><m:mrow><m:mi>n</m:mi></m:mrow></m:math> is an odd number, <m:math><m:mrow><m:mroot><m:mi>a</m:mi><m:mi>n</m:mi></m:mroot></m:mrow></m:math> is a real number for all values of <m:math><m:mi>a</m:mi></m:math>.</para>
+</note>
+<example id="fs-id1169597409237">
+<exercise id="fs-id1169597522089">
+<problem id="fs-id1169595237759">
+<para id="fs-id1169597431768">Simplify: <span class="token">ⓐ</span> <m:math><m:mrow><m:mroot><m:mn>8</m:mn><m:mn>3</m:mn></m:mroot></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mroot><m:mrow><m:mn>81</m:mn></m:mrow><m:mn>4</m:mn></m:mroot></m:mrow></m:math> <span class="token">ⓒ</span> <m:math><m:mrow><m:mroot><m:mrow><m:mn>32</m:mn></m:mrow><m:mn>5</m:mn></m:mroot></m:mrow></m:math>.</para>
+</problem>
+<solution id="fs-id1169597832282">
+<title>Solution</title>
+<list id="fs-id1169511702566" list-type="enumerated" number-style="arabic" class="circled">
+<item><span class="token">ⓐ</span><m:math><m:mrow><m:mtable><m:mtr><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mspace width="4em"/><m:mroot><m:mn>8</m:mn><m:mn>3</m:mn></m:mroot></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>Since</m:mtext><m:mspace width="0.2em"/><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mn>2</m:mn><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>3</m:mn></m:msup><m:mo>=</m:mo><m:mn>8</m:mn><m:mo>.</m:mo></m:mtd><m:mtd/><m:mtd columnalign="left"><m:mspace width="4em"/><m:mn>2</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:math></item>
+<item><span class="token">ⓑ</span><newline/><m:math><m:mrow><m:mtable><m:mtr><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mspace width="4em"/><m:mroot><m:mrow><m:mn>81</m:mn></m:mrow><m:mn>4</m:mn></m:mroot></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>Since</m:mtext><m:mspace width="0.2em"/><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mn>3</m:mn><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>4</m:mn></m:msup><m:mo>=</m:mo><m:mn>81</m:mn><m:mo>.</m:mo></m:mtd><m:mtd/><m:mtd columnalign="left"><m:mspace width="4em"/><m:mn>3</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:math></item>
+<item><span class="token">ⓒ</span><newline/><m:math><m:mrow><m:mtable><m:mtr><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mspace width="4em"/><m:mroot><m:mrow><m:mn>32</m:mn></m:mrow><m:mn>5</m:mn></m:mroot></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>Since</m:mtext><m:mspace width="0.2em"/><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mn>2</m:mn><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>5</m:mn></m:msup><m:mo>=</m:mo><m:mn>32</m:mn><m:mo>.</m:mo></m:mtd><m:mtd/><m:mtd columnalign="left"><m:mspace width="4em"/><m:mn>2</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:math></item>  </list>
+</solution>
+</exercise>
+</example>
+<note id="fs-id1169597823859" class="try">
+<exercise id="fs-id1169595200930">
+<problem id="fs-id1169597415431">
+<para id="fs-id1169597430245">Simplify: <span class="token">ⓐ</span> <m:math><m:mrow><m:mroot><m:mrow><m:mn>27</m:mn></m:mrow><m:mn>3</m:mn></m:mroot></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mroot><m:mrow><m:mn>256</m:mn></m:mrow><m:mn>4</m:mn></m:mroot></m:mrow></m:math> <span class="token">ⓒ</span> <m:math><m:mrow><m:mroot><m:mrow><m:mn>243</m:mn></m:mrow><m:mn>5</m:mn></m:mroot></m:mrow></m:math>.</para>
+</problem>
+<solution id="fs-id1169595177883">
+<para id="fs-id1169595149545"><span class="token">ⓐ</span> 3 <span class="token">ⓑ</span> 4 <span class="token">ⓒ</span> 3</para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1169597528227" class="try">
+<exercise id="fs-id1169597525658">
+<problem id="fs-id1169595497415">
+<para id="fs-id1169597806821">Simplify: <span class="token">ⓐ</span> <m:math><m:mrow><m:mroot><m:mrow><m:mn>1000</m:mn></m:mrow><m:mn>3</m:mn></m:mroot></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mroot><m:mrow><m:mn>16</m:mn></m:mrow><m:mn>4</m:mn></m:mroot></m:mrow></m:math> <span class="token">ⓒ</span> <m:math><m:mrow><m:mroot><m:mrow><m:mn>32</m:mn></m:mrow><m:mn>5</m:mn></m:mroot></m:mrow></m:math>.</para>
+</problem>
+<solution id="fs-id1169595173986">
+<para id="fs-id1169597460720"><span class="token">ⓐ</span> 10 <span class="token">ⓑ</span> 2 <span class="token">ⓒ</span> 2</para>
+</solution>
+</exercise>
+</note>
+<example id="fs-id1169595656501">
+<exercise id="fs-id1169597838024">
+<problem id="fs-id1169597416175">
+<para id="fs-id1169595122456">Simplify: <span class="token">ⓐ</span> <m:math><m:mrow><m:mroot><m:mrow><m:mn>−64</m:mn></m:mrow><m:mn>3</m:mn></m:mroot></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mroot><m:mrow><m:mn>−16</m:mn></m:mrow><m:mn>4</m:mn></m:mroot></m:mrow></m:math> <span class="token">ⓒ</span> <m:math><m:mrow><m:mroot><m:mrow><m:mn>−243</m:mn></m:mrow><m:mn>5</m:mn></m:mroot></m:mrow></m:math>.</para>
+</problem>
+<solution id="fs-id1169595255971">
+<title>Solution</title>
+<list id="fs-id1169597497756" list-type="enumerated" number-style="arabic" class="circled">
+<item><span class="token">ⓐ</span><newline/><m:math><m:mrow><m:mtable><m:mtr><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mspace width="8.5em"/><m:mroot><m:mrow><m:mn>−64</m:mn></m:mrow><m:mn>3</m:mn></m:mroot></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>Since</m:mtext><m:mspace width="0.2em"/><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>3</m:mn></m:msup><m:mo>=</m:mo><m:mn>−64</m:mn><m:mo>.</m:mo></m:mtd><m:mtd/><m:mtd columnalign="left"><m:mspace width="10em"/><m:mn>−4</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:math><newline/><newline/></item>
+<item><span class="token">ⓑ</span><newline/><m:math><m:mrow><m:mtable><m:mtr><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mroot><m:mrow><m:mn>−16</m:mn></m:mrow><m:mn>4</m:mn></m:mroot></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtable><m:mtr><m:mtd columnalign="left"><m:mtext>Think,</m:mtext><m:mspace width="0.2em"/><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mo>?</m:mo><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>4</m:mn></m:msup><m:mo>=</m:mo><m:mn>−16</m:mn><m:mo>.</m:mo><m:mspace width="0.2em"/><m:mtext>No real number raised</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>to the fourth power is positive.</m:mtext></m:mtd></m:mtr></m:mtable></m:mtd><m:mtd/><m:mtd columnalign="left"><m:mtext>Not a real number.</m:mtext></m:mtd></m:mtr></m:mtable></m:mrow></m:math><newline/><newline/></item>
+<item><span class="token">ⓒ</span><newline/><m:math><m:mrow><m:mtable><m:mtr><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mspace width="8.5em"/><m:mroot><m:mrow><m:mn>−243</m:mn></m:mrow><m:mn>5</m:mn></m:mroot></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>Since</m:mtext><m:mspace width="0.2em"/><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>5</m:mn></m:msup><m:mo>=</m:mo><m:mn>−243</m:mn><m:mo>.</m:mo></m:mtd><m:mtd/><m:mtd columnalign="left"><m:mspace width="10em"/><m:mn>−3</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:math></item>
+</list>
+</solution>
+</exercise>
+</example>
+<note id="fs-id1169595178559" class="try">
+<exercise id="fs-id1169597413550">
+<problem id="fs-id1169597706782">
+<para id="fs-id1169595484776">Simplify: <span class="token">ⓐ</span> <m:math><m:mrow><m:mroot><m:mrow><m:mn>−125</m:mn></m:mrow><m:mn>3</m:mn></m:mroot></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mroot><m:mrow><m:mn>−16</m:mn></m:mrow><m:mn>4</m:mn></m:mroot></m:mrow></m:math> <span class="token">ⓒ</span> <m:math><m:mrow><m:mroot><m:mrow><m:mn>−32</m:mn></m:mrow><m:mn>5</m:mn></m:mroot></m:mrow></m:math>.</para>
+</problem>
+<solution id="fs-id1169597479616">
+<para id="fs-id1169597586502"><span class="token">ⓐ</span> <m:math><m:mrow><m:mn>−5</m:mn></m:mrow></m:math> <span class="token">ⓑ</span> not real <span class="token">ⓒ</span> <m:math><m:mrow><m:mn>−2</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1169597498291" class="try">
+<exercise id="fs-id1169597704041">
+<problem id="fs-id1169597517388">
+<para id="fs-id1169597339457">Simplify: <span class="token">ⓐ</span> <m:math><m:mrow><m:mroot><m:mrow><m:mn>−216</m:mn></m:mrow><m:mn>3</m:mn></m:mroot></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mroot><m:mrow><m:mn>−81</m:mn></m:mrow><m:mn>4</m:mn></m:mroot></m:mrow></m:math> <span class="token">ⓒ</span> <m:math><m:mrow><m:mroot><m:mrow><m:mn>−1024</m:mn></m:mrow><m:mn>5</m:mn></m:mroot></m:mrow></m:math>.</para>
+</problem>
+<solution id="fs-id1169595219335">
+<para id="fs-id1169595220489"><span class="token">ⓐ</span> <m:math><m:mrow><m:mn>−6</m:mn></m:mrow></m:math> <span class="token">ⓑ</span> not real <span class="token">ⓒ</span> <m:math><m:mrow><m:mn>−4</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<para id="fs-id1169597523315">When we worked with square roots that had variables in the radicand, we restricted the variables to non-negative values. Now we will remove this restriction.</para>
+<para id="fs-id1169595179114">The odd root of a number can be either positive or negative. We have seen that <m:math><m:mrow><m:mroot><m:mrow><m:mn>−64</m:mn></m:mrow><m:mn>3</m:mn></m:mroot><m:mo>=</m:mo><m:mn>−4</m:mn></m:mrow></m:math>.</para>
+<para id="fs-id1169597681603">But the even root of a non-negative number is always non-negative, because we take the <term class="no-emphasis">principal <emphasis effect="italics">n</emphasis>th root</term>.</para>
+<para id="fs-id1169597617755">Suppose we start with <m:math><m:mrow><m:mi>a</m:mi><m:mo>=</m:mo><m:mn>−5</m:mn></m:mrow></m:math>.</para>
+<equation id="fs-id1169595662736" class="unnumbered"><label/><m:math><m:mrow><m:mtable><m:mtr><m:mtd columnalign="left"><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>4</m:mn></m:msup><m:mo>=</m:mo><m:mn>625</m:mn></m:mtd><m:mtd/><m:mtd columnalign="left"><m:mspace width="4em"/><m:mroot><m:mrow><m:mn>625</m:mn></m:mrow><m:mn>4</m:mn></m:mroot><m:mo>=</m:mo><m:mn>5</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:math></equation>
+<para id="fs-id1169597616666">How can we make sure the fourth root of −5 raised to the fourth power, <m:math><m:mrow><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>−5</m:mn><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>4</m:mn></m:msup></m:mrow></m:math> is 5? We will see in the following property.</para>
+<note id="fs-id1169597808511">
+<title>Simplifying Odd and Even Roots</title>
+<para id="fs-id1169595122611">For any integer <m:math><m:mrow><m:mi>n</m:mi><m:mo>≥</m:mo><m:mn>2</m:mn></m:mrow></m:math>,</para>
+<equation id="fs-id1169595287889" class="unnumbered"><label/><m:math><m:mrow><m:mtable><m:mtr><m:mtd columnalign="left"><m:mtext>when</m:mtext><m:mspace width="0.2em"/><m:mi>n</m:mi><m:mspace width="0.2em"/><m:mtext>is odd</m:mtext></m:mtd><m:mtd/><m:mtd columnalign="left"><m:mroot><m:mrow><m:msup><m:mi>a</m:mi><m:mi>n</m:mi></m:msup></m:mrow><m:mi>n</m:mi></m:mroot><m:mo>=</m:mo><m:mi>a</m:mi></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>when</m:mtext><m:mspace width="0.2em"/><m:mi>n</m:mi><m:mspace width="0.2em"/><m:mtext>is even</m:mtext></m:mtd><m:mtd/><m:mtd columnalign="left"><m:mroot><m:mrow><m:msup><m:mi>a</m:mi><m:mi>n</m:mi></m:msup></m:mrow><m:mi>n</m:mi></m:mroot><m:mo>=</m:mo><m:mo stretchy="false">|</m:mo><m:mi>a</m:mi><m:mo stretchy="false">|</m:mo></m:mtd></m:mtr></m:mtable></m:mrow></m:math></equation>
+<para id="fs-id1169597701504">We must use the absolute value signs when we take an even root of an expression with a variable in the radical.</para>
+</note>
+<example id="fs-id1169597703858">
+<exercise id="fs-id1169597515401">
+<problem id="fs-id1169597528059">
+<para id="fs-id1169597506687">Simplify: <span class="token">ⓐ</span> <m:math><m:mrow><m:msqrt><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:msqrt></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mroot><m:mrow><m:msup><m:mi>n</m:mi><m:mn>3</m:mn></m:msup></m:mrow><m:mn>3</m:mn></m:mroot></m:mrow></m:math> <span class="token">ⓒ</span> <m:math><m:mrow><m:mroot><m:mrow><m:msup><m:mi>p</m:mi><m:mn>4</m:mn></m:msup></m:mrow><m:mn>4</m:mn></m:mroot></m:mrow></m:math> <span class="token">ⓓ</span> <m:math><m:mrow><m:mroot><m:mrow><m:msup><m:mi>y</m:mi><m:mn>5</m:mn></m:msup></m:mrow><m:mn>5</m:mn></m:mroot></m:mrow></m:math>.</para>
+</problem>
+<solution id="fs-id1169597707182">
+<title>Solution</title>
+<para id="fs-id1169595123261">We use the absolute value to be sure to get the positive root.</para>
+<list id="fs-id1169512702566" list-type="enumerated" number-style="arabic" class="circled">
+<item><span class="token">ⓐ</span><m:math><m:mrow><m:mtable><m:mtr><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:msqrt><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:msqrt></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>Since</m:mtext><m:mspace width="0.2em"/><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>and we want the positive root.</m:mtext></m:mtd><m:mtd/><m:mtd columnalign="left"><m:mrow><m:mo>|</m:mo><m:mi>x</m:mi><m:mo>|</m:mo></m:mrow></m:mtd></m:mtr></m:mtable></m:mrow></m:math></item>
+<item><span class="token">ⓑ</span><newline/><m:math><m:mrow><m:mtable><m:mtr><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mspace width="1.2em"/><m:mroot><m:mrow><m:msup><m:mi>n</m:mi><m:mn>3</m:mn></m:msup></m:mrow><m:mn>3</m:mn></m:mroot></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtable><m:mtr><m:mtd columnalign="left"><m:mtext>Since</m:mtext><m:mspace width="0.2em"/><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mi>n</m:mi><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>3</m:mn></m:msup><m:mo>=</m:mo><m:msup><m:mi>n</m:mi><m:mn>3</m:mn></m:msup><m:mo>.</m:mo><m:mspace width="0.2em"/><m:mtext>It is an odd root so there is</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>no need for an absolute value sign.</m:mtext></m:mtd></m:mtr></m:mtable></m:mtd><m:mtd/><m:mtd columnalign="left"><m:mspace width="1.2em"/><m:mi>n</m:mi></m:mtd></m:mtr></m:mtable></m:mrow></m:math></item>
+<item><span class="token">ⓒ</span><newline/><m:math><m:mrow><m:mtable><m:mtr><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mroot><m:mrow><m:msup><m:mi>p</m:mi><m:mn>4</m:mn></m:msup></m:mrow><m:mn>4</m:mn></m:mroot></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>Since</m:mtext><m:mspace width="0.2em"/><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mi>p</m:mi><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>4</m:mn></m:msup><m:mo>=</m:mo><m:msup><m:mi>p</m:mi><m:mn>4</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>and we want the positive root.</m:mtext></m:mtd><m:mtd/><m:mtd columnalign="left"><m:mrow><m:mo>|</m:mo><m:mi>p</m:mi><m:mo>|</m:mo></m:mrow></m:mtd></m:mtr></m:mtable></m:mrow></m:math></item>
+<item><span class="token">ⓓ</span><newline/><m:math><m:mrow><m:mtable><m:mtr><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mspace width="2.2em"/><m:mroot><m:mrow><m:msup><m:mi>y</m:mi><m:mn>5</m:mn></m:msup></m:mrow><m:mn>5</m:mn></m:mroot></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtable><m:mtr><m:mtd columnalign="left"><m:mtext>Since</m:mtext><m:mspace width="0.2em"/><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mi>y</m:mi><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>5</m:mn></m:msup><m:mo>=</m:mo><m:msup><m:mi>y</m:mi><m:mn>5</m:mn></m:msup><m:mo>.</m:mo><m:mspace width="0.2em"/><m:mtext>It is an odd root so there</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>is no need for an absolute value sign.</m:mtext></m:mtd></m:mtr></m:mtable></m:mtd><m:mtd/><m:mtd columnalign="left"><m:mspace width="2.2em"/><m:mi>y</m:mi></m:mtd></m:mtr></m:mtable></m:mrow></m:math></item></list>
+</solution>
+</exercise>
+</example>
+<note id="fs-id1169597759329" class="try">
+<exercise id="fs-id1169595231122">
+<problem id="fs-id1169595231124">
+<para id="fs-id1169595231126">Simplify: <span class="token">ⓐ</span> <m:math><m:mrow><m:msqrt><m:mrow><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:msqrt></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mroot><m:mrow><m:msup><m:mi>w</m:mi><m:mn>3</m:mn></m:msup></m:mrow><m:mn>3</m:mn></m:mroot></m:mrow></m:math> <span class="token">ⓒ</span> <m:math><m:mrow><m:mroot><m:mrow><m:msup><m:mi>m</m:mi><m:mn>4</m:mn></m:msup></m:mrow><m:mn>4</m:mn></m:mroot></m:mrow></m:math> <span class="token">ⓓ</span> <m:math><m:mrow><m:mroot><m:mrow><m:msup><m:mi>q</m:mi><m:mn>5</m:mn></m:msup></m:mrow><m:mn>5</m:mn></m:mroot></m:mrow></m:math>.</para>
+</problem>
+<solution id="fs-id1169595497412">
+<para id="fs-id1169597767810"><span class="token">ⓐ</span> <m:math><m:mrow><m:mrow><m:mo>|</m:mo><m:mi>b</m:mi><m:mo>|</m:mo></m:mrow></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mi>w</m:mi></m:math> <span class="token">ⓒ</span> <m:math><m:mrow><m:mrow><m:mo>|</m:mo><m:mi>m</m:mi><m:mo>|</m:mo></m:mrow></m:mrow></m:math> <span class="token">ⓓ</span> <m:math><m:mi>q</m:mi></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1169595259629" class="try">
+<exercise id="fs-id1169595259632">
+<problem id="fs-id1169595223723">
+<para id="fs-id1169595223725">Simplify: <span class="token">ⓐ</span> <m:math><m:mrow><m:msqrt><m:mrow><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:msqrt></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mroot><m:mrow><m:msup><m:mi>p</m:mi><m:mn>3</m:mn></m:msup></m:mrow><m:mn>3</m:mn></m:mroot></m:mrow></m:math> <span class="token">ⓒ</span> <m:math><m:mrow><m:mroot><m:mrow><m:msup><m:mi>z</m:mi><m:mn>4</m:mn></m:msup></m:mrow><m:mn>4</m:mn></m:mroot></m:mrow></m:math> <span class="token">ⓓ</span> <m:math><m:mrow><m:mroot><m:mrow><m:msup><m:mi>q</m:mi><m:mn>5</m:mn></m:msup></m:mrow><m:mn>5</m:mn></m:mroot></m:mrow></m:math>.</para>
+</problem>
+<solution id="fs-id1169595149420">
+<para id="fs-id1169595149422"><span class="token">ⓐ</span> <m:math><m:mrow><m:mrow><m:mo>|</m:mo><m:mi>y</m:mi><m:mo>|</m:mo></m:mrow></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mi>p</m:mi></m:math> <span class="token">ⓒ</span> <m:math><m:mrow><m:mrow><m:mo>|</m:mo><m:mi>z</m:mi><m:mo>|</m:mo></m:mrow></m:mrow></m:math> <span class="token">ⓓ</span> <m:math><m:mi>q</m:mi></m:math></para>
+</solution>
+</exercise>
+</note>
+<example id="fs-id1169595186437">
+<exercise id="fs-id1169595186439">
+<problem id="fs-id1169597681469">
+<para id="fs-id1169597681471">Simplify: <span class="token">ⓐ</span> <m:math><m:mrow><m:mroot><m:mrow><m:msup><m:mi>y</m:mi><m:mrow><m:mn>18</m:mn></m:mrow></m:msup></m:mrow><m:mn>3</m:mn></m:mroot></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mroot><m:mrow><m:msup><m:mi>z</m:mi><m:mn>8</m:mn></m:msup></m:mrow><m:mn>4</m:mn></m:mroot></m:mrow></m:math>.</para>
+</problem>
+<solution id="fs-id1169595211361">
+<title>Solution</title>
+<list id="fs-id1169595152116" list-type="enumerated" number-style="arabic" class="circled">
+<item><span class="token">ⓐ</span><newline/><m:math><m:mrow><m:mtable><m:mtr><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mspace width="16em"/><m:mroot><m:mrow><m:msup><m:mi>y</m:mi><m:mrow><m:mn>18</m:mn></m:mrow></m:msup></m:mrow><m:mn>3</m:mn></m:mroot></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>Since</m:mtext><m:mspace width="0.2em"/><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msup><m:mi>y</m:mi><m:mn>6</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>3</m:mn></m:msup><m:mo>=</m:mo><m:msup><m:mi>y</m:mi><m:mrow><m:mn>18</m:mn></m:mrow></m:msup><m:mo>.</m:mo></m:mtd><m:mtd/><m:mtd columnalign="left"><m:mspace width="16em"/><m:mroot><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msup><m:mi>y</m:mi><m:mn>6</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>3</m:mn></m:msup></m:mrow><m:mn>3</m:mn></m:mroot></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mspace width="16em"/><m:msup><m:mi>y</m:mi><m:mn>6</m:mn></m:msup></m:mtd></m:mtr></m:mtable></m:mrow></m:math><newline/><newline/></item>
+<item><span class="token">ⓑ</span><newline/><m:math><m:mrow><m:mtable><m:mtr><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mroot><m:mrow><m:msup><m:mi>z</m:mi><m:mn>8</m:mn></m:msup></m:mrow><m:mn>4</m:mn></m:mroot></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>Since</m:mtext><m:mspace width="0.2em"/><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msup><m:mi>z</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>4</m:mn></m:msup><m:mo>=</m:mo><m:msup><m:mi>z</m:mi><m:mn>8</m:mn></m:msup><m:mo>.</m:mo></m:mtd><m:mtd/><m:mtd columnalign="left"><m:mroot><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msup><m:mi>z</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>4</m:mn></m:msup></m:mrow><m:mn>4</m:mn></m:mroot></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>Since</m:mtext><m:mspace width="0.2em"/><m:msup><m:mi>z</m:mi><m:mn>2</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>is positive, we do not need an absolute value sign.</m:mtext></m:mtd><m:mtd/><m:mtd columnalign="left"><m:msup><m:mi>z</m:mi><m:mn>2</m:mn></m:msup></m:mtd></m:mtr></m:mtable></m:mrow></m:math></item>
+</list>
+</solution>
+</exercise>
+</example>
+<note id="fs-id1169597775831" class="try">
+<exercise id="fs-id1169597775834">
+<problem id="fs-id1169597775837">
+<para id="fs-id1169597775839">Simplify: <span class="token">ⓐ</span> <m:math><m:mrow><m:mroot><m:mrow><m:msup><m:mi>u</m:mi><m:mrow><m:mn>12</m:mn></m:mrow></m:msup></m:mrow><m:mn>4</m:mn></m:mroot></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mroot><m:mrow><m:msup><m:mi>v</m:mi><m:mrow><m:mn>15</m:mn></m:mrow></m:msup></m:mrow><m:mn>3</m:mn></m:mroot></m:mrow></m:math>.</para>
+</problem>
+<solution id="fs-id1169595103691">
+<para id="fs-id1169595103693"><span class="token">ⓐ</span> <m:math><m:mrow><m:msup><m:mi>u</m:mi><m:mn>3</m:mn></m:msup></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:msup><m:mi>v</m:mi><m:mn>5</m:mn></m:msup></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1169595254846" class="try">
+<exercise id="fs-id1169595254849">
+<problem id="fs-id1169595254851">
+<para id="fs-id1169595254853">Simplify: <span class="token">ⓐ</span> <m:math><m:mrow><m:mroot><m:mrow><m:msup><m:mi>c</m:mi><m:mrow><m:mn>20</m:mn></m:mrow></m:msup></m:mrow><m:mn>5</m:mn></m:mroot></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mroot><m:mrow><m:msup><m:mi>d</m:mi><m:mrow><m:mn>24</m:mn></m:mrow></m:msup></m:mrow><m:mn>6</m:mn></m:mroot></m:mrow></m:math>.</para>
+</problem>
+<solution id="fs-id1169595309300">
+<para id="fs-id1169595309303"><span class="token">ⓐ</span> <m:math><m:mrow><m:msup><m:mi>c</m:mi><m:mn>4</m:mn></m:msup></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:msup><m:mi>d</m:mi><m:mn>4</m:mn></m:msup></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<example id="fs-id1169597817669">
+<exercise id="fs-id1169597870701">
+<problem id="fs-id1169597870703">
+<para id="fs-id1169597870705">Simplify: <span class="token">ⓐ</span> <m:math><m:mrow><m:mroot><m:mrow><m:mn>64</m:mn><m:msup><m:mi>p</m:mi><m:mn>6</m:mn></m:msup></m:mrow><m:mn>3</m:mn></m:mroot></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mroot><m:mrow><m:mn>16</m:mn><m:msup><m:mi>q</m:mi><m:mrow><m:mn>12</m:mn></m:mrow></m:msup></m:mrow><m:mn>4</m:mn></m:mroot></m:mrow></m:math>.</para>
+</problem>
+<solution id="fs-id1169595348760">
+<title>Solution</title>
+<para id="fs-id1169751905007"><span class="token">ⓐ</span><m:math><m:mrow><m:mtable><m:mtr><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mspace width="6em"/><m:mroot><m:mrow><m:mn>64</m:mn><m:msup><m:mi>p</m:mi><m:mn>6</m:mn></m:msup></m:mrow><m:mn>3</m:mn></m:mroot></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>Rewrite</m:mtext><m:mspace width="0.2em"/><m:mn>64</m:mn><m:msup><m:mi>p</m:mi><m:mn>6</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>as</m:mtext><m:mspace width="0.2em"/><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>4</m:mn><m:msup><m:mi>p</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>3</m:mn></m:msup><m:mo>.</m:mo></m:mtd><m:mtd/><m:mtd columnalign="left"><m:mspace width="6em"/><m:mroot><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>4</m:mn><m:msup><m:mi>p</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>3</m:mn></m:msup></m:mrow><m:mn>3</m:mn></m:mroot></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>Take the cube root.</m:mtext></m:mtd><m:mtd/><m:mtd columnalign="left"><m:mspace width="6em"/><m:mn>4</m:mn><m:msup><m:mi>p</m:mi><m:mn>2</m:mn></m:msup></m:mtd></m:mtr></m:mtable></m:mrow></m:math><newline/><newline/>
+<span class="token">ⓑ</span><newline/><m:math><m:mrow><m:mtable><m:mtr><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mroot><m:mrow><m:mn>16</m:mn><m:msup><m:mi>q</m:mi><m:mrow><m:mn>12</m:mn></m:mrow></m:msup></m:mrow><m:mn>4</m:mn></m:mroot></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>Rewrite the radicand as a fourth power.</m:mtext></m:mtd><m:mtd/><m:mtd columnalign="left"><m:mroot><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:msup><m:mi>q</m:mi><m:mn>3</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>4</m:mn></m:msup></m:mrow><m:mn>4</m:mn></m:mroot></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>Take the fourth root.</m:mtext></m:mtd><m:mtd/><m:mtd columnalign="left"><m:mn>2</m:mn><m:mrow><m:mo>|</m:mo><m:mrow><m:msup><m:mi>q</m:mi><m:mn>3</m:mn></m:msup></m:mrow><m:mo>|</m:mo></m:mrow></m:mtd></m:mtr></m:mtable></m:mrow></m:math></para>
+</solution>
+</exercise>
+</example>
+<note id="fs-id1169597742733" class="try">
+<exercise id="fs-id1169595176643">
+<problem id="fs-id1169595176645">
+<para id="fs-id1169595176647">Simplify: <span class="token">ⓐ</span> <m:math><m:mrow><m:mroot><m:mrow><m:mn>27</m:mn><m:msup><m:mi>x</m:mi><m:mrow><m:mn>27</m:mn></m:mrow></m:msup></m:mrow><m:mn>3</m:mn></m:mroot></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mroot><m:mrow><m:mn>81</m:mn><m:msup><m:mi>q</m:mi><m:mrow><m:mn>28</m:mn></m:mrow></m:msup></m:mrow><m:mn>4</m:mn></m:mroot></m:mrow></m:math>.</para>
+</problem>
+<solution id="fs-id1169595359916">
+<para id="fs-id1169595359918"><span class="token">ⓐ</span> <m:math><m:mrow><m:mn>3</m:mn><m:msup><m:mi>x</m:mi><m:mn>9</m:mn></m:msup></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mn>3</m:mn><m:mrow><m:mo>|</m:mo><m:mrow><m:msup><m:mi>q</m:mi><m:mn>7</m:mn></m:msup></m:mrow><m:mo>|</m:mo></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1169597537384" class="try">
+<exercise id="fs-id1169597537387">
+<problem id="fs-id1169597537389">
+<para id="fs-id1169595508273">Simplify: <span class="token">ⓐ</span> <m:math><m:mrow><m:mroot><m:mrow><m:mn>125</m:mn><m:msup><m:mi>p</m:mi><m:mn>9</m:mn></m:msup></m:mrow><m:mn>3</m:mn></m:mroot></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mroot><m:mrow><m:mn>243</m:mn><m:msup><m:mi>q</m:mi><m:mrow><m:mn>25</m:mn></m:mrow></m:msup></m:mrow><m:mn>5</m:mn></m:mroot></m:mrow></m:math>.</para>
+</problem>
+<solution id="fs-id1169595642495">
+<para id="fs-id1169595642498"><span class="token">ⓐ</span> <m:math><m:mrow><m:mn>5</m:mn><m:msup><m:mi>p</m:mi><m:mn>3</m:mn></m:msup></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mn>3</m:mn><m:msup><m:mi>q</m:mi><m:mn>5</m:mn></m:msup></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+</section>
+<section id="fs-id1169595363887">
+<title>Use the Product Property to Simplify Expressions with Higher Roots</title>
+<para id="fs-id1169597849693">We will simplify expressions with higher roots in much the same way as we simplified expressions with square roots. An <emphasis effect="italics">n</emphasis>th root is considered simplified if it has no factors of <m:math><m:mrow><m:msup><m:mi>m</m:mi><m:mi>n</m:mi></m:msup></m:mrow></m:math>.</para>
+<note id="fs-id1169597849710">
+<title>Simplified <emphasis effect="italics">n</emphasis>th Root</title>
+<para id="fs-id1169597707034"><m:math><m:mrow><m:mroot><m:mi>a</m:mi><m:mi>n</m:mi></m:mroot></m:mrow></m:math> is considered simplified if <m:math><m:mi>a</m:mi></m:math> has no factors of <m:math><m:mrow><m:msup><m:mi>m</m:mi><m:mi>n</m:mi></m:msup></m:mrow></m:math>.</para>
+</note>
+<para id="fs-id1169597707163">We will generalize the Product Property of Square Roots to include any integer root <m:math><m:mrow><m:mi>n</m:mi><m:mo>≥</m:mo><m:mn>2</m:mn></m:mrow></m:math>.</para>
+<note id="fs-id1169595340586">
+<title>Product Property of <emphasis effect="italics">n</emphasis>th Roots</title>
+<equation id="fs-id1169595340596" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd columnalign="left"><m:mroot><m:mrow><m:mi>a</m:mi><m:mi>b</m:mi></m:mrow><m:mi>n</m:mi></m:mroot><m:mo>=</m:mo><m:mroot><m:mi>a</m:mi><m:mi>n</m:mi></m:mroot><m:mo>·</m:mo><m:mroot><m:mi>b</m:mi><m:mi>n</m:mi></m:mroot></m:mtd><m:mtd columnalign="left"><m:mtext>and</m:mtext></m:mtd><m:mtd columnalign="left"><m:mroot><m:mi>a</m:mi><m:mi>n</m:mi></m:mroot><m:mo>·</m:mo><m:mroot><m:mi>b</m:mi><m:mi>n</m:mi></m:mroot><m:mo>=</m:mo><m:mroot><m:mrow><m:mi>a</m:mi><m:mi>b</m:mi></m:mrow><m:mi>n</m:mi></m:mroot></m:mtd></m:mtr><m:mtr/></m:mtable></m:math></equation>
+<para id="fs-id1168746324988">when <m:math><m:mrow><m:mroot><m:mi>a</m:mi><m:mi>n</m:mi></m:mroot></m:mrow></m:math> and <m:math><m:mrow><m:mroot><m:mi>b</m:mi><m:mi>n</m:mi></m:mroot></m:mrow></m:math> are real numbers and for any integer <m:math><m:mrow><m:mi>n</m:mi><m:mo>≥</m:mo><m:mn>2</m:mn></m:mrow></m:math></para>
+</note>
+<example id="fs-id1169597836812">
+<exercise id="fs-id1169597836814">
+<problem id="fs-id1169597836816">
+<para id="fs-id1169595642716">Simplify: <span class="token">ⓐ</span> <m:math><m:mrow><m:mroot><m:mrow><m:msup><m:mi>x</m:mi><m:mn>4</m:mn></m:msup></m:mrow><m:mn>3</m:mn></m:mroot></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mroot><m:mrow><m:msup><m:mi>x</m:mi><m:mn>7</m:mn></m:msup></m:mrow><m:mn>4</m:mn></m:mroot></m:mrow></m:math>.</para>
+</problem>
+<solution id="fs-id1169595329981">
+<title>Solution</title>
+<list id="fs-id1169595329986" list-type="enumerated" number-style="arabic" class="circled">
+<item><span class="token">ⓐ</span><newline/><m:math><m:mrow><m:mtable><m:mtr><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mroot><m:mrow><m:msup><m:mi>x</m:mi><m:mn>4</m:mn></m:msup></m:mrow><m:mn>3</m:mn></m:mroot></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtable><m:mtr><m:mtd columnalign="left"><m:mtext>Rewrite the radicand as a product using the</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>largest perfect cube factor.</m:mtext></m:mtd></m:mtr></m:mtable></m:mtd><m:mtd/><m:mtd columnalign="left"><m:mroot><m:mrow><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup><m:mo>·</m:mo><m:mi>x</m:mi></m:mrow><m:mn>3</m:mn></m:mroot></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>Rewrite the radical as the product of two radicals.</m:mtext></m:mtd><m:mtd/><m:mtd columnalign="left"><m:mroot><m:mrow><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup></m:mrow><m:mn>3</m:mn></m:mroot><m:mo>·</m:mo><m:mroot><m:mi>x</m:mi><m:mn>3</m:mn></m:mroot></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>Simplify.</m:mtext></m:mtd><m:mtd/><m:mtd columnalign="left"><m:mi>x</m:mi><m:mroot><m:mi>x</m:mi><m:mn>3</m:mn></m:mroot></m:mtd></m:mtr></m:mtable></m:mrow></m:math><newline/><newline/></item>
+<item><span class="token">ⓑ</span><newline/><m:math><m:mrow><m:mtable><m:mtr><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mroot><m:mrow><m:msup><m:mi>x</m:mi><m:mn>7</m:mn></m:msup></m:mrow><m:mn>4</m:mn></m:mroot></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtable><m:mtr><m:mtd columnalign="left"><m:mtext>Rewrite the radicand as a product using the</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>greatest perfect fourth power factor.</m:mtext></m:mtd></m:mtr></m:mtable></m:mtd><m:mtd/><m:mtd columnalign="left"><m:mroot><m:mrow><m:msup><m:mi>x</m:mi><m:mn>4</m:mn></m:msup><m:mo>·</m:mo><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup></m:mrow><m:mn>4</m:mn></m:mroot></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>Rewrite the radical as the product of two radicals.</m:mtext></m:mtd><m:mtd/><m:mtd columnalign="left"><m:mroot><m:mrow><m:msup><m:mi>x</m:mi><m:mn>4</m:mn></m:msup></m:mrow><m:mn>4</m:mn></m:mroot><m:mo>·</m:mo><m:mroot><m:mrow><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup></m:mrow><m:mn>4</m:mn></m:mroot></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>Simplify.</m:mtext></m:mtd><m:mtd/><m:mtd columnalign="left"><m:mrow><m:mo>|</m:mo><m:mi>x</m:mi><m:mo>|</m:mo></m:mrow><m:mroot><m:mrow><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup></m:mrow><m:mn>4</m:mn></m:mroot></m:mtd></m:mtr></m:mtable></m:mrow></m:math></item>
+</list>
+</solution>
+</exercise>
+</example>
+<note id="fs-id1169597689698" class="try">
+<exercise id="fs-id1169595237697">
+<problem id="fs-id1169595237699">
+<para id="fs-id1169595237701">Simplify: <span class="token">ⓐ</span> <m:math><m:mrow><m:mroot><m:mrow><m:msup><m:mi>y</m:mi><m:mn>6</m:mn></m:msup></m:mrow><m:mn>4</m:mn></m:mroot></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mroot><m:mrow><m:msup><m:mi>z</m:mi><m:mn>5</m:mn></m:msup></m:mrow><m:mn>3</m:mn></m:mroot></m:mrow></m:math>.</para>
+</problem>
+<solution id="fs-id1169597849776">
+<para id="fs-id1169597849779"><span class="token">ⓐ</span> <m:math><m:mrow><m:mrow><m:mo>|</m:mo><m:mi>y</m:mi><m:mo>|</m:mo></m:mrow><m:mroot><m:mrow><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mn>4</m:mn></m:mroot></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mi>z</m:mi><m:mroot><m:mrow><m:msup><m:mi>z</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mn>3</m:mn></m:mroot></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1169597818311" class="try">
+<exercise id="fs-id1169597818314">
+<problem id="fs-id1169597818316">
+<para id="fs-id1169597818318">Simplify: <span class="token">ⓐ</span> <m:math><m:mrow><m:mroot><m:mrow><m:msup><m:mi>p</m:mi><m:mn>8</m:mn></m:msup></m:mrow><m:mn>5</m:mn></m:mroot></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mroot><m:mrow><m:msup><m:mi>q</m:mi><m:mrow><m:mn>13</m:mn></m:mrow></m:msup></m:mrow><m:mn>6</m:mn></m:mroot></m:mrow></m:math>.</para>
+</problem>
+<solution id="fs-id1169595185406">
+<para id="fs-id1169595185408"><span class="token">ⓐ</span> <m:math><m:mrow><m:mi>p</m:mi><m:mroot><m:mrow><m:msup><m:mi>p</m:mi><m:mn>3</m:mn></m:msup></m:mrow><m:mn>5</m:mn></m:mroot></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:msup><m:mi>q</m:mi><m:mn>2</m:mn></m:msup><m:mroot><m:mi>q</m:mi><m:mn>6</m:mn></m:mroot></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<example id="fs-id1169597804366">
+<exercise id="fs-id1169597804368">
+<problem id="fs-id1169597804370">
+<para id="fs-id1169597804372">Simplify: <span class="token">ⓐ</span> <m:math><m:mrow><m:mroot><m:mrow><m:mn>16</m:mn></m:mrow><m:mn>3</m:mn></m:mroot></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mroot><m:mrow><m:mn>243</m:mn></m:mrow><m:mn>4</m:mn></m:mroot></m:mrow></m:math>.</para>
+</problem>
+<solution id="fs-id1169595233340">
+<title>Solution</title>
+<list id="fs-id1169595233346" list-type="enumerated" number-style="arabic" class="circled">
+<item><span class="token">ⓐ</span><newline/><m:math><m:mrow><m:mtable><m:mtr><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mroot><m:mrow><m:mn>16</m:mn></m:mrow><m:mn>3</m:mn></m:mroot></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mroot><m:mrow><m:msup><m:mn>2</m:mn><m:mn>4</m:mn></m:msup></m:mrow><m:mn>3</m:mn></m:mroot></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtable><m:mtr><m:mtd columnalign="left"><m:mtext>Rewrite the radicand as a product using the</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>greatest perfect cube factor.</m:mtext></m:mtd></m:mtr></m:mtable></m:mtd><m:mtd/><m:mtd columnalign="left"><m:mroot><m:mrow><m:msup><m:mn>2</m:mn><m:mn>3</m:mn></m:msup><m:mo>·</m:mo><m:mn>2</m:mn></m:mrow><m:mn>3</m:mn></m:mroot></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>Rewrite the radical as the product of two radicals.</m:mtext></m:mtd><m:mtd/><m:mtd columnalign="left"><m:mroot><m:mrow><m:msup><m:mn>2</m:mn><m:mn>3</m:mn></m:msup></m:mrow><m:mn>3</m:mn></m:mroot><m:mo>·</m:mo><m:mroot><m:mn>2</m:mn><m:mn>3</m:mn></m:mroot></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>Simplify.</m:mtext></m:mtd><m:mtd/><m:mtd columnalign="left"><m:mn>2</m:mn><m:mroot><m:mn>2</m:mn><m:mn>3</m:mn></m:mroot></m:mtd></m:mtr></m:mtable></m:mrow></m:math><newline/><newline/></item>
+<item><span class="token">ⓑ</span><newline/><m:math><m:mrow><m:mtable><m:mtr><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mroot><m:mrow><m:mn>243</m:mn></m:mrow><m:mn>4</m:mn></m:mroot></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mroot><m:mrow><m:msup><m:mn>3</m:mn><m:mn>5</m:mn></m:msup></m:mrow><m:mn>4</m:mn></m:mroot></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtable><m:mtr><m:mtd columnalign="left"><m:mtext>Rewrite the radicand as a product using the</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>greatest perfect fourth power factor.</m:mtext></m:mtd></m:mtr></m:mtable></m:mtd><m:mtd/><m:mtd columnalign="left"><m:mroot><m:mrow><m:msup><m:mn>3</m:mn><m:mn>4</m:mn></m:msup><m:mo>·</m:mo><m:mn>3</m:mn></m:mrow><m:mn>4</m:mn></m:mroot></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>Rewrite the radical as the product of two radicals.</m:mtext></m:mtd><m:mtd/><m:mtd columnalign="left"><m:mroot><m:mrow><m:msup><m:mn>3</m:mn><m:mn>4</m:mn></m:msup></m:mrow><m:mn>4</m:mn></m:mroot><m:mo>·</m:mo><m:mroot><m:mn>3</m:mn><m:mn>4</m:mn></m:mroot></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>Simplify.</m:mtext></m:mtd><m:mtd/><m:mtd columnalign="left"><m:mn>3</m:mn><m:mroot><m:mn>3</m:mn><m:mn>4</m:mn></m:mroot></m:mtd></m:mtr></m:mtable></m:mrow></m:math></item>
+</list>
+</solution>
+</exercise>
+</example>
+<note id="fs-id1169597777169" class="try">
+<exercise id="fs-id1169597777172">
+<problem id="fs-id1169597777174">
+<para id="fs-id1169597777176">Simplify: <span class="token">ⓐ</span> <m:math><m:mrow><m:mroot><m:mrow><m:mn>81</m:mn></m:mrow><m:mn>3</m:mn></m:mroot></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mroot><m:mrow><m:mn>64</m:mn></m:mrow><m:mn>4</m:mn></m:mroot></m:mrow></m:math>.</para>
+</problem>
+<solution id="fs-id1169597784324">
+<para id="fs-id1169597784326"><span class="token">ⓐ</span> <m:math><m:mrow><m:mn>3</m:mn><m:mroot><m:mn>4</m:mn><m:mn>3</m:mn></m:mroot></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mn>2</m:mn><m:mroot><m:mn>4</m:mn><m:mn>4</m:mn></m:mroot></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1169595359874" class="try">
+<exercise id="fs-id1169595359877">
+<problem id="fs-id1169595359879">
+<para id="fs-id1169595359881">Simplify: <span class="token">ⓐ</span> <m:math><m:mrow><m:mroot><m:mrow><m:mn>625</m:mn></m:mrow><m:mn>3</m:mn></m:mroot></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mroot><m:mrow><m:mn>729</m:mn></m:mrow><m:mn>4</m:mn></m:mroot></m:mrow></m:math>.</para>
+</problem>
+<solution id="fs-id1169597777230">
+<para id="fs-id1169597777233"><span class="token">ⓐ</span> <m:math><m:mrow><m:mn>5</m:mn><m:mroot><m:mn>5</m:mn><m:mn>3</m:mn></m:mroot></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mn>3</m:mn><m:mroot><m:mn>9</m:mn><m:mn>4</m:mn></m:mroot></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<para id="fs-id1169595644263">Don’t forget to use the absolute value signs when taking an even root of an expression with a variable in the radical.</para>
+<example id="fs-id1169595644269">
+<exercise id="fs-id1169595644271">
+<problem id="fs-id1169595644273">
+<para id="fs-id1169595644275">Simplify: <span class="token">ⓐ</span> <m:math><m:mrow><m:mroot><m:mrow><m:mn>24</m:mn><m:msup><m:mi>x</m:mi><m:mn>7</m:mn></m:msup></m:mrow><m:mn>3</m:mn></m:mroot></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mroot><m:mrow><m:mn>80</m:mn><m:msup><m:mi>y</m:mi><m:mrow><m:mn>14</m:mn></m:mrow></m:msup></m:mrow><m:mn>4</m:mn></m:mroot></m:mrow></m:math>.</para>
+</problem>
+<solution id="fs-id1169595211893">
+<title>Solution</title>
+<list id="fs-id1169595211898" list-type="enumerated" number-style="arabic" class="circled">
+<item><span class="token">ⓐ</span><newline/><m:math><m:mrow><m:mtable><m:mtr><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mspace width="8em"/><m:mroot><m:mrow><m:mn>24</m:mn><m:msup><m:mi>x</m:mi><m:mn>7</m:mn></m:msup></m:mrow><m:mn>3</m:mn></m:mroot></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtable><m:mtr><m:mtd columnalign="left"><m:mtext>Rewrite the radicand as a product using</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>perfect cube factors.</m:mtext></m:mtd></m:mtr></m:mtable></m:mtd><m:mtd/><m:mtd columnalign="left"><m:mspace width="8em"/><m:mroot><m:mrow><m:msup><m:mn>2</m:mn><m:mn>3</m:mn></m:msup><m:msup><m:mi>x</m:mi><m:mn>6</m:mn></m:msup><m:mo>·</m:mo><m:mn>3</m:mn><m:mi>x</m:mi></m:mrow><m:mn>3</m:mn></m:mroot></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>Rewrite the radical as the product of two radicals.</m:mtext></m:mtd><m:mtd/><m:mtd columnalign="left"><m:mspace width="8em"/><m:mroot><m:mrow><m:msup><m:mn>2</m:mn><m:mn>3</m:mn></m:msup><m:msup><m:mi>x</m:mi><m:mn>6</m:mn></m:msup></m:mrow><m:mn>3</m:mn></m:mroot><m:mo>·</m:mo><m:mroot><m:mrow><m:mn>3</m:mn><m:mi>x</m:mi></m:mrow><m:mn>3</m:mn></m:mroot></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>Rewrite the first radicand as</m:mtext><m:mspace width="0.2em"/><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>3</m:mn></m:msup><m:mo>.</m:mo></m:mtd><m:mtd/><m:mtd columnalign="left"><m:mspace width="8em"/><m:mroot><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>3</m:mn></m:msup></m:mrow><m:mn>3</m:mn></m:mroot><m:mo>·</m:mo><m:mroot><m:mrow><m:mn>3</m:mn><m:mi>x</m:mi></m:mrow><m:mn>3</m:mn></m:mroot></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>Simplify.</m:mtext></m:mtd><m:mtd/><m:mtd columnalign="left"><m:mspace width="8em"/><m:mn>2</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mroot><m:mrow><m:mn>3</m:mn><m:mi>x</m:mi></m:mrow><m:mn>3</m:mn></m:mroot></m:mtd></m:mtr></m:mtable></m:mrow></m:math><newline/><newline/></item>
+<item><span class="token">ⓑ</span><newline/><m:math><m:mrow><m:mtable><m:mtr><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mroot><m:mrow><m:mn>80</m:mn><m:msup><m:mi>y</m:mi><m:mrow><m:mn>14</m:mn></m:mrow></m:msup></m:mrow><m:mn>4</m:mn></m:mroot></m:mtd></m:mtr><m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="left"><m:mtable><m:mtr><m:mtd columnalign="left"><m:mtext>Rewrite the radicand as a product using</m:mtext><m:mspace width="0.2em"/><m:mtext>perfect fourth power factors.</m:mtext></m:mtd></m:mtr></m:mtable></m:mtd><m:mtd/><m:mtd columnalign="left"><m:mroot><m:mrow><m:msup><m:mn>2</m:mn><m:mn>4</m:mn></m:msup><m:msup><m:mi>y</m:mi><m:mrow><m:mn>12</m:mn></m:mrow></m:msup><m:mo>·</m:mo><m:mn>5</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mn>4</m:mn></m:mroot></m:mtd></m:mtr><m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="left"><m:mtext>Rewrite the radical as the product of two radicals.</m:mtext></m:mtd><m:mtd/><m:mtd columnalign="left"><m:mroot><m:mrow><m:msup><m:mn>2</m:mn><m:mn>4</m:mn></m:msup><m:msup><m:mi>y</m:mi><m:mrow><m:mn>12</m:mn></m:mrow></m:msup></m:mrow><m:mn>4</m:mn></m:mroot><m:mo>·</m:mo><m:mroot><m:mrow><m:mn>5</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mn>4</m:mn></m:mroot></m:mtd></m:mtr><m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="left"><m:mtext>Rewrite the first radicand as</m:mtext><m:mspace width="0.2em"/><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:msup><m:mi>y</m:mi><m:mn>3</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>4</m:mn></m:msup><m:mo>.</m:mo></m:mtd><m:mtd/><m:mtd columnalign="left"><m:mroot><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:msup><m:mi>y</m:mi><m:mn>3</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>4</m:mn></m:msup></m:mrow><m:mn>4</m:mn></m:mroot><m:mo>·</m:mo><m:mroot><m:mrow><m:mn>5</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mn>4</m:mn></m:mroot></m:mtd></m:mtr><m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="left"><m:mtext>Simplify.</m:mtext></m:mtd><m:mtd/><m:mtd columnalign="left"><m:mn>2</m:mn><m:mrow><m:mo>|</m:mo><m:msup><m:mi>y</m:mi><m:mn>3</m:mn></m:msup><m:mo>|</m:mo></m:mrow><m:mroot><m:mrow><m:mn>5</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mn>4</m:mn></m:mroot></m:mtd></m:mtr></m:mtable></m:mrow></m:math></item>
+</list>
+</solution>
+</exercise>
+</example>
+<note id="fs-id1169597849628" class="try">
+<exercise id="fs-id1169597849631">
+<problem id="fs-id1169597849634">
+<para id="fs-id1169597849636">Simplify: <span class="token">ⓐ</span> <m:math><m:mrow><m:mroot><m:mrow><m:mn>54</m:mn><m:msup><m:mi>p</m:mi><m:mrow><m:mn>10</m:mn></m:mrow></m:msup></m:mrow><m:mn>3</m:mn></m:mroot></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mroot><m:mrow><m:mn>64</m:mn><m:msup><m:mi>q</m:mi><m:mrow><m:mn>10</m:mn></m:mrow></m:msup></m:mrow><m:mn>4</m:mn></m:mroot></m:mrow></m:math>.</para>
+</problem>
+<solution id="fs-id1169595235657">
+<para id="fs-id1169595235659"><span class="token">ⓐ</span> <m:math><m:mrow><m:mn>3</m:mn><m:msup><m:mi>p</m:mi><m:mn>3</m:mn></m:msup><m:mroot><m:mrow><m:mn>2</m:mn><m:mi>p</m:mi></m:mrow><m:mn>3</m:mn></m:mroot></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mn>2</m:mn><m:msup><m:mi>q</m:mi><m:mn>2</m:mn></m:msup><m:mroot><m:mrow><m:mn>4</m:mn><m:msup><m:mi>q</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mn>4</m:mn></m:mroot></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1169595342640" class="try">
+<exercise id="fs-id1169595342643">
+<problem id="fs-id1169595342645">
+<para id="fs-id1169595342648">Simplify: <span class="token">ⓐ</span> <m:math><m:mrow><m:mroot><m:mrow><m:mn>128</m:mn><m:msup><m:mi>m</m:mi><m:mrow><m:mn>11</m:mn></m:mrow></m:msup></m:mrow><m:mn>3</m:mn></m:mroot></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mroot><m:mrow><m:mn>162</m:mn><m:msup><m:mi>n</m:mi><m:mn>7</m:mn></m:msup></m:mrow><m:mn>4</m:mn></m:mroot></m:mrow></m:math>.</para>
+</problem>
+<solution id="fs-id1169595644143">
+<para id="fs-id1169595644145"><span class="token">ⓐ</span> <m:math><m:mrow><m:mn>4</m:mn><m:msup><m:mi>m</m:mi><m:mn>3</m:mn></m:msup><m:mroot><m:mrow><m:mn>2</m:mn><m:msup><m:mi>m</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mn>3</m:mn></m:mroot></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mn>3</m:mn><m:mrow><m:mo>|</m:mo><m:mi>n</m:mi><m:mo>|</m:mo></m:mrow><m:mroot><m:mrow><m:mn>2</m:mn><m:msup><m:mi>n</m:mi><m:mn>3</m:mn></m:msup></m:mrow><m:mn>4</m:mn></m:mroot></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<example id="fs-id1169595642308">
+<exercise id="fs-id1169595642310">
+<problem id="fs-id1169595642312">
+<para id="fs-id1169595642315">Simplify: <span class="token">ⓐ</span> <m:math><m:mrow><m:mroot><m:mrow><m:mn>−27</m:mn></m:mrow><m:mn>3</m:mn></m:mroot></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mroot><m:mrow><m:mn>−16</m:mn></m:mrow><m:mn>4</m:mn></m:mroot></m:mrow></m:math>.</para>
+</problem>
+<solution id="fs-id1169595297838">
+<title>Solution</title>
+<list id="fs-id1169595297844" list-type="enumerated" number-style="arabic" class="circled">
+<item><span class="token">ⓐ</span><newline/><m:math><m:mrow><m:mtable><m:mtr><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mspace width="2em"/><m:mroot><m:mrow><m:mn>−27</m:mn></m:mrow><m:mn>3</m:mn></m:mroot></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtable><m:mtr><m:mtd columnalign="left"><m:mtext>Rewrite the radicand as a product using</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>perfect cube factors.</m:mtext></m:mtd></m:mtr></m:mtable></m:mtd><m:mtd/><m:mtd columnalign="left"><m:mspace width="2em"/><m:mroot><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>3</m:mn></m:msup></m:mrow><m:mn>3</m:mn></m:mroot></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>Take the cube root.</m:mtext></m:mtd><m:mtd/><m:mtd columnalign="left"><m:mspace width="2em"/><m:mn>−3</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:math><newline/><newline/></item>
+<item><span class="token">ⓑ</span><newline/><m:math><m:mrow><m:mtable><m:mtr><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mroot><m:mrow><m:mn>−16</m:mn></m:mrow><m:mn>4</m:mn></m:mroot></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>There is no real number</m:mtext><m:mspace width="0.2em"/><m:mi>n</m:mi><m:mspace width="0.2em"/><m:mtext>where</m:mtext><m:mspace width="0.2em"/><m:msup><m:mi>n</m:mi><m:mn>4</m:mn></m:msup><m:mo>=</m:mo><m:mn>−16</m:mn><m:mo>.</m:mo></m:mtd><m:mtd/><m:mtd columnalign="left"><m:mtext>Not a real number.</m:mtext></m:mtd></m:mtr></m:mtable></m:mrow></m:math></item>
+</list>
+</solution>
+</exercise>
+</example>
+<note id="fs-id1169597713567" class="try">
+<exercise id="fs-id1169597713571">
+<problem id="fs-id1169597713573">
+<para id="fs-id1169597713575">Simplify: <span class="token">ⓐ</span> <m:math><m:mrow><m:mroot><m:mrow><m:mn>−108</m:mn></m:mrow><m:mn>3</m:mn></m:mroot></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mroot><m:mrow><m:mn>−48</m:mn></m:mrow><m:mn>4</m:mn></m:mroot></m:mrow></m:math>.</para>
+</problem>
+<solution id="fs-id1169595138703">
+<para id="fs-id1169595138705"><span class="token">ⓐ</span> <m:math><m:mrow><m:mn>−3</m:mn><m:mroot><m:mn>4</m:mn><m:mn>3</m:mn></m:mroot></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mtext>not real</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1169595138736" class="try">
+<exercise id="fs-id1169595138740">
+<problem id="fs-id1169595138742">
+<para id="fs-id1169595107822">Simplify: <span class="token">ⓐ</span> <m:math><m:mrow><m:mroot><m:mrow><m:mn>−625</m:mn></m:mrow><m:mn>3</m:mn></m:mroot></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mroot><m:mrow><m:mn>−324</m:mn></m:mrow><m:mn>4</m:mn></m:mroot></m:mrow></m:math>.</para>
+</problem>
+<solution id="fs-id1169595107855">
+<para id="fs-id1169595107857"><span class="token">ⓐ</span> <m:math><m:mrow><m:mn>−5</m:mn><m:mroot><m:mn>5</m:mn><m:mn>3</m:mn></m:mroot></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mtext>not real</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+</section>
+<section id="fs-id1169595245256">
+<title>Use the Quotient Property to Simplify Expressions with Higher Roots</title>
+<para id="fs-id1169595245261">We can simplify higher roots with quotients in the same way we simplified square roots. First we simplify any fractions inside the radical.</para>
+<example id="fs-id1169595245266">
+<exercise id="fs-id1169595245268">
+<problem id="fs-id1169595245270">
+<para id="fs-id1169595245272">Simplify: <span class="token">ⓐ</span> <m:math><m:mrow><m:mroot><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>a</m:mi><m:mn>8</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mi>a</m:mi><m:mn>5</m:mn></m:msup></m:mrow></m:mfrac></m:mrow><m:mn>3</m:mn></m:mroot></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mroot><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>a</m:mi><m:mrow><m:mn>10</m:mn></m:mrow></m:msup></m:mrow><m:mrow><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow><m:mn>4</m:mn></m:mroot></m:mrow></m:math>.</para>
+</problem>
+<solution id="fs-id1169595138763">
+<title>Solution</title>
+<list id="fs-id1169595138768" list-type="enumerated" number-style="arabic" class="circled">
+<item><span class="token">ⓐ</span><newline/><m:math><m:mrow><m:mtable><m:mtr><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mspace width="5em"/><m:mroot><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>a</m:mi><m:mn>8</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mi>a</m:mi><m:mn>5</m:mn></m:msup></m:mrow></m:mfrac></m:mrow><m:mn>3</m:mn></m:mroot></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>Simplify the fraction under the radical first.</m:mtext></m:mtd><m:mtd/><m:mtd columnalign="left"><m:mspace width="5em"/><m:mroot><m:mrow><m:msup><m:mi>a</m:mi><m:mn>3</m:mn></m:msup></m:mrow><m:mn>3</m:mn></m:mroot></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>Simplify.</m:mtext></m:mtd><m:mtd/><m:mtd columnalign="left"><m:mspace width="5em"/><m:mi>a</m:mi></m:mtd></m:mtr></m:mtable></m:mrow></m:math><newline/><newline/></item>
+<item><span class="token">ⓑ</span><newline/><m:math><m:mrow><m:mtable><m:mtr><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mroot><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>a</m:mi><m:mrow><m:mn>10</m:mn></m:mrow></m:msup></m:mrow><m:mrow><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow><m:mn>4</m:mn></m:mroot></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>Simplify the fraction under the radical first.</m:mtext></m:mtd><m:mtd/><m:mtd columnalign="left"><m:mroot><m:mrow><m:msup><m:mi>a</m:mi><m:mn>8</m:mn></m:msup></m:mrow><m:mn>4</m:mn></m:mroot></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>Rewrite the radicand using perfect fourth power factors.</m:mtext></m:mtd><m:mtd/><m:mtd columnalign="left"><m:mroot><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>4</m:mn></m:msup></m:mrow><m:mn>4</m:mn></m:mroot></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>Simplify.</m:mtext></m:mtd><m:mtd/><m:mtd columnalign="left"><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup></m:mtd></m:mtr></m:mtable></m:mrow></m:math></item>
+</list>
+</solution>
+</exercise>
+</example>
+<note id="fs-id1169595540956" class="try">
+<exercise id="fs-id1169595540959">
+<problem id="fs-id1169595540961">
+<para id="fs-id1169595540963">Simplify: <span class="token">ⓐ</span> <m:math><m:mrow><m:mroot><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>x</m:mi><m:mn>7</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup></m:mrow></m:mfrac></m:mrow><m:mn>4</m:mn></m:mroot></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mroot><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>y</m:mi><m:mrow><m:mn>17</m:mn></m:mrow></m:msup></m:mrow><m:mrow><m:msup><m:mi>y</m:mi><m:mn>5</m:mn></m:msup></m:mrow></m:mfrac></m:mrow><m:mn>4</m:mn></m:mroot></m:mrow></m:math>.</para>
+</problem>
+<solution id="fs-id1169597837990">
+<para id="fs-id1169597837992"><span class="token">ⓐ</span> <m:math><m:mrow><m:mrow><m:mo>|</m:mo><m:mi>x</m:mi><m:mo>|</m:mo></m:mrow></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:msup><m:mi>y</m:mi><m:mn>3</m:mn></m:msup></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1169595258806" class="try">
+<exercise id="fs-id1169595258810">
+<problem id="fs-id1169595258812">
+<para id="fs-id1169595258814">Simplify: <span class="token">ⓐ</span> <m:math><m:mrow><m:mroot><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>m</m:mi><m:mrow><m:mn>13</m:mn></m:mrow></m:msup></m:mrow><m:mrow><m:msup><m:mi>m</m:mi><m:mn>7</m:mn></m:msup></m:mrow></m:mfrac></m:mrow><m:mn>3</m:mn></m:mroot></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mroot><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>n</m:mi><m:mrow><m:mn>12</m:mn></m:mrow></m:msup></m:mrow><m:mrow><m:msup><m:mi>n</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow><m:mn>5</m:mn></m:mroot></m:mrow></m:math>.</para>
+</problem>
+<solution id="fs-id1169595642365">
+<para id="fs-id1169595642367"><span class="token">ⓐ</span> <m:math><m:mrow><m:msup><m:mi>m</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:msup><m:mi>n</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<para id="fs-id1169597722346">Previously, we used the Quotient Property ‘in reverse’ to simplify square roots. Now we will generalize the formula to include higher roots.</para>
+<note id="fs-id1169597722352">
+<title>Quotient Property of <emphasis effect="italics">n</emphasis>th Roots</title>
+<equation id="fs-id1169597722363" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd columnalign="left"><m:mroot><m:mrow><m:mfrac><m:mi>a</m:mi><m:mi>b</m:mi></m:mfrac></m:mrow><m:mi>n</m:mi></m:mroot><m:mo>=</m:mo><m:mfrac><m:mrow><m:mroot><m:mi>a</m:mi><m:mi>n</m:mi></m:mroot></m:mrow><m:mrow><m:mroot><m:mi>b</m:mi><m:mi>n</m:mi></m:mroot></m:mrow></m:mfrac></m:mtd><m:mtd columnalign="left"><m:mtext>and</m:mtext></m:mtd><m:mtd columnalign="left"><m:mfrac><m:mrow><m:mroot><m:mi>a</m:mi><m:mi>n</m:mi></m:mroot></m:mrow><m:mrow><m:mroot><m:mi>b</m:mi><m:mi>n</m:mi></m:mroot></m:mrow></m:mfrac><m:mo>=</m:mo><m:mroot><m:mrow><m:mfrac><m:mi>a</m:mi><m:mi>b</m:mi></m:mfrac></m:mrow><m:mi>n</m:mi></m:mroot></m:mtd></m:mtr></m:mtable></m:math></equation>
+<para id="fs-id1168743963230">when <m:math><m:mrow><m:mroot><m:mi>a</m:mi><m:mi>n</m:mi></m:mroot><m:mspace width="0.2em"/><m:mtext>and</m:mtext><m:mspace width="0.2em"/><m:mroot><m:mi>b</m:mi><m:mi>n</m:mi></m:mroot><m:mspace width="0.2em"/><m:mtext>are real numbers,</m:mtext><m:mspace width="0.2em"/><m:mi>b</m:mi><m:mo>≠</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mtext>and for any integer</m:mtext><m:mspace width="0.2em"/><m:mi>n</m:mi><m:mo>≥</m:mo><m:mn>2</m:mn></m:mrow></m:math></para>
+</note>
+<example id="fs-id1169597624559">
+<exercise id="fs-id1169597624561">
+<problem id="fs-id1169597624563">
+<para id="fs-id1169597624565">Simplify: <span class="token">ⓐ</span> <m:math><m:mrow><m:mfrac><m:mrow><m:mroot><m:mrow><m:mn>−108</m:mn></m:mrow><m:mn>3</m:mn></m:mroot></m:mrow><m:mrow><m:mroot><m:mn>2</m:mn><m:mn>3</m:mn></m:mroot></m:mrow></m:mfrac></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mfrac><m:mrow><m:mroot><m:mrow><m:mn>96</m:mn><m:msup><m:mi>x</m:mi><m:mn>7</m:mn></m:msup></m:mrow><m:mn>4</m:mn></m:mroot></m:mrow><m:mrow><m:mroot><m:mrow><m:mn>3</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mn>4</m:mn></m:mroot></m:mrow></m:mfrac></m:mrow></m:math>.</para>
+</problem>
+<solution id="fs-id1169595276730">
+<title>Solution</title>
+<list id="fs-id1169595276735" list-type="enumerated" number-style="arabic" class="circled">
+<item><span class="token">ⓐ</span><newline/><m:math><m:mrow><m:mtable><m:mtr><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mfrac><m:mrow><m:mroot><m:mrow><m:mn>−108</m:mn></m:mrow><m:mn>3</m:mn></m:mroot></m:mrow><m:mrow><m:mroot><m:mn>2</m:mn><m:mn>3</m:mn></m:mroot></m:mrow></m:mfrac></m:mtd></m:mtr><m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="left"><m:mtable><m:mtr><m:mtd columnalign="left"><m:mtext>Neither radicand is a perfect cube, so use</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>the Quotient Property to write as one radical.</m:mtext></m:mtd></m:mtr></m:mtable></m:mtd><m:mtd/><m:mtd columnalign="left"><m:mroot><m:mrow><m:mfrac><m:mrow><m:mn>−108</m:mn></m:mrow><m:mn>2</m:mn></m:mfrac></m:mrow><m:mn>3</m:mn></m:mroot></m:mtd></m:mtr><m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="left"><m:mtext>Simplify the fraction under the radical.</m:mtext></m:mtd><m:mtd/><m:mtd columnalign="left"><m:mroot><m:mrow><m:mn>−54</m:mn></m:mrow><m:mn>3</m:mn></m:mroot></m:mtd></m:mtr><m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="left"><m:mtable><m:mtr><m:mtd columnalign="left"><m:mtext>Rewrite the radicand as a product using</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>perfect cube factors.</m:mtext></m:mtd></m:mtr></m:mtable></m:mtd><m:mtd/><m:mtd columnalign="left"><m:mroot><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>3</m:mn></m:msup><m:mo>·</m:mo><m:mn>2</m:mn></m:mrow><m:mn>3</m:mn></m:mroot></m:mtd></m:mtr><m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="left"><m:mtext>Rewrite the radical as the product of two radicals.</m:mtext></m:mtd><m:mtd/><m:mtd columnalign="left"><m:mroot><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>3</m:mn></m:msup></m:mrow><m:mn>3</m:mn></m:mroot><m:mo>·</m:mo><m:mroot><m:mn>2</m:mn><m:mn>3</m:mn></m:mroot></m:mtd></m:mtr><m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="left"><m:mtext>Simplify.</m:mtext></m:mtd><m:mtd/><m:mtd columnalign="left"><m:mn>−3</m:mn><m:mroot><m:mn>2</m:mn><m:mn>3</m:mn></m:mroot></m:mtd></m:mtr></m:mtable></m:mrow></m:math><newline/><newline/></item>
+<item><span class="token">ⓑ</span><newline/><m:math><m:mrow><m:mtable><m:mtr><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mfrac><m:mrow><m:mroot><m:mrow><m:mn>96</m:mn><m:msup><m:mi>x</m:mi><m:mn>7</m:mn></m:msup></m:mrow><m:mn>4</m:mn></m:mroot></m:mrow><m:mrow><m:mroot><m:mrow><m:mn>3</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mn>4</m:mn></m:mroot></m:mrow></m:mfrac></m:mtd></m:mtr><m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="left"><m:mtable><m:mtr><m:mtd columnalign="left"><m:mtext>Neither radicand is a perfect fourth power,</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>so use the Quotient Property to write as one radical.</m:mtext></m:mtd></m:mtr></m:mtable></m:mtd><m:mtd/><m:mtd columnalign="left"><m:mroot><m:mrow><m:mfrac><m:mrow><m:mn>96</m:mn><m:msup><m:mi>x</m:mi><m:mn>7</m:mn></m:msup></m:mrow><m:mrow><m:mn>3</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow><m:mn>4</m:mn></m:mroot></m:mtd></m:mtr><m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="left"><m:mtext>Simplify the fraction under the radical.</m:mtext></m:mtd><m:mtd/><m:mtd columnalign="left"><m:mroot><m:mrow><m:mn>32</m:mn><m:msup><m:mi>x</m:mi><m:mn>5</m:mn></m:msup></m:mrow><m:mn>4</m:mn></m:mroot></m:mtd></m:mtr><m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="left"><m:mtable><m:mtr><m:mtd columnalign="left"><m:mtext>Rewrite the radicand as a product using</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>perfect fourth power factors.</m:mtext></m:mtd></m:mtr></m:mtable></m:mtd><m:mtd/><m:mtd columnalign="left"><m:mroot><m:mrow><m:msup><m:mn>2</m:mn><m:mn>4</m:mn></m:msup><m:msup><m:mi>x</m:mi><m:mn>4</m:mn></m:msup><m:mo>·</m:mo><m:mn>2</m:mn><m:mi>x</m:mi></m:mrow><m:mn>4</m:mn></m:mroot></m:mtd></m:mtr><m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="left"><m:mtext>Rewrite the radical as the product of two radicals.</m:mtext></m:mtd><m:mtd/><m:mtd columnalign="left"><m:mroot><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mi>x</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>4</m:mn></m:msup></m:mrow><m:mn>4</m:mn></m:mroot><m:mo>·</m:mo><m:mroot><m:mrow><m:mn>2</m:mn><m:mi>x</m:mi></m:mrow><m:mn>4</m:mn></m:mroot></m:mtd></m:mtr><m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="left"><m:mtext>Simplify.</m:mtext></m:mtd><m:mtd/><m:mtd columnalign="left"><m:mn>2</m:mn><m:mrow><m:mo>|</m:mo><m:mi>x</m:mi><m:mo>|</m:mo></m:mrow><m:mroot><m:mrow><m:mn>2</m:mn><m:mi>x</m:mi></m:mrow><m:mn>4</m:mn></m:mroot></m:mtd></m:mtr></m:mtable></m:mrow></m:math></item>
+</list>
+</solution>
+</exercise>
+</example>
+<note id="fs-id1169595122190" class="try">
+<exercise id="fs-id1169595122195">
+<problem id="fs-id1169595122197">
+<para id="fs-id1169595122199">Simplify: <span class="token">ⓐ</span> <m:math><m:mrow><m:mfrac><m:mrow><m:mroot><m:mrow><m:mn>−532</m:mn></m:mrow><m:mn>3</m:mn></m:mroot></m:mrow><m:mrow><m:mroot><m:mn>2</m:mn><m:mn>3</m:mn></m:mroot></m:mrow></m:mfrac></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mfrac><m:mrow><m:mroot><m:mrow><m:mn>486</m:mn><m:msup><m:mi>m</m:mi><m:mrow><m:mn>11</m:mn></m:mrow></m:msup></m:mrow><m:mn>4</m:mn></m:mroot></m:mrow><m:mrow><m:mroot><m:mrow><m:mn>3</m:mn><m:msup><m:mi>m</m:mi><m:mn>5</m:mn></m:msup></m:mrow><m:mn>4</m:mn></m:mroot></m:mrow></m:mfrac></m:mrow></m:math>.</para>
+</problem>
+<solution id="fs-id1169595330313">
+<para id="fs-id1169595330315"><span class="token">ⓐ</span> <m:math><m:mrow><m:mtext>not real</m:mtext></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mn>3</m:mn><m:mrow><m:mo>|</m:mo><m:mi>m</m:mi><m:mo>|</m:mo></m:mrow><m:mroot><m:mrow><m:mn>2</m:mn><m:msup><m:mi>m</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mn>4</m:mn></m:mroot></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1169595644554" class="try">
+<exercise id="fs-id1169595644558">
+<problem id="fs-id1169595644560">
+<para id="fs-id1169595644562">Simplify: <span class="token">ⓐ</span> <m:math><m:mrow><m:mfrac><m:mrow><m:mroot><m:mrow><m:mn>−192</m:mn></m:mrow><m:mn>3</m:mn></m:mroot></m:mrow><m:mrow><m:mroot><m:mn>3</m:mn><m:mn>3</m:mn></m:mroot></m:mrow></m:mfrac></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mfrac><m:mrow><m:mroot><m:mrow><m:mn>324</m:mn><m:msup><m:mi>n</m:mi><m:mn>7</m:mn></m:msup></m:mrow><m:mn>4</m:mn></m:mroot></m:mrow><m:mrow><m:mroot><m:mrow><m:mn>2</m:mn><m:msup><m:mi>n</m:mi><m:mn>3</m:mn></m:msup></m:mrow><m:mn>4</m:mn></m:mroot></m:mrow></m:mfrac></m:mrow></m:math>.</para>
+</problem>
+<solution id="fs-id1169597848680">
+<para id="fs-id1169597848682"><span class="token">ⓐ</span> <m:math><m:mrow><m:mn>−4</m:mn></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mn>3</m:mn><m:mrow><m:mo>|</m:mo><m:mi>n</m:mi><m:mo>|</m:mo></m:mrow><m:mroot><m:mn>2</m:mn><m:mn>4</m:mn></m:mroot></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<para id="fs-id1169595163078">If the fraction inside the radical cannot be simplified, we use the first form of the Quotient Property to rewrite the expression as the quotient of two radicals.</para>
+<example id="fs-id1169595163082">
+<exercise id="fs-id1169595163085">
+<problem id="fs-id1169595163087">
+<para id="fs-id1169595163089">Simplify: <span class="token">ⓐ</span> <m:math><m:mrow><m:mroot><m:mrow><m:mfrac><m:mrow><m:mn>24</m:mn><m:msup><m:mi>x</m:mi><m:mn>7</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mi>y</m:mi><m:mn>3</m:mn></m:msup></m:mrow></m:mfrac></m:mrow><m:mn>3</m:mn></m:mroot></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mroot><m:mrow><m:mfrac><m:mrow><m:mn>48</m:mn><m:msup><m:mi>x</m:mi><m:mrow><m:mn>10</m:mn></m:mrow></m:msup></m:mrow><m:mrow><m:msup><m:mi>y</m:mi><m:mn>8</m:mn></m:msup></m:mrow></m:mfrac></m:mrow><m:mn>4</m:mn></m:mroot></m:mrow></m:math>.</para>
+</problem>
+<solution id="fs-id1169595483618">
+<title>Solution</title>
+<list id="fs-id1169595483623" list-type="enumerated" number-style="arabic" class="circled">
+<item><span class="token">ⓐ</span><newline/><m:math><m:mrow><m:mtable><m:mtr><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mroot><m:mrow><m:mfrac><m:mrow><m:mn>24</m:mn><m:msup><m:mi>x</m:mi><m:mn>7</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mi>y</m:mi><m:mn>3</m:mn></m:msup></m:mrow></m:mfrac></m:mrow><m:mn>3</m:mn></m:mroot></m:mtd></m:mtr><m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="left"><m:mtable><m:mtr><m:mtd columnalign="left"><m:mtext>The fraction in the radicand cannot be</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>simplified. Use the Quotient Property to</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>write as two radicals.</m:mtext></m:mtd></m:mtr></m:mtable></m:mtd><m:mtd/><m:mtd columnalign="left"><m:mfrac><m:mrow><m:mroot><m:mrow><m:mn>24</m:mn><m:msup><m:mi>x</m:mi><m:mn>7</m:mn></m:msup></m:mrow><m:mn>3</m:mn></m:mroot></m:mrow><m:mrow><m:mroot><m:mrow><m:msup><m:mi>y</m:mi><m:mn>3</m:mn></m:msup></m:mrow><m:mn>3</m:mn></m:mroot></m:mrow></m:mfrac></m:mtd></m:mtr><m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="left"><m:mtable><m:mtr><m:mtd columnalign="left"><m:mtext>Rewrite each radicand as a product using</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>perfect cube factors.</m:mtext></m:mtd></m:mtr></m:mtable></m:mtd><m:mtd/><m:mtd columnalign="left"><m:mfrac><m:mrow><m:mroot><m:mrow><m:mn>8</m:mn><m:msup><m:mi>x</m:mi><m:mn>6</m:mn></m:msup><m:mo>·</m:mo><m:mn>3</m:mn><m:mi>x</m:mi></m:mrow><m:mn>3</m:mn></m:mroot></m:mrow><m:mrow><m:mroot><m:mrow><m:msup><m:mi>y</m:mi><m:mn>3</m:mn></m:msup></m:mrow><m:mn>3</m:mn></m:mroot></m:mrow></m:mfrac></m:mtd></m:mtr><m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="left"><m:mtext>Rewrite the numerator as the product of two radicals.</m:mtext></m:mtd><m:mtd/><m:mtd columnalign="left"><m:mfrac><m:mrow><m:mroot><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>3</m:mn></m:msup></m:mrow><m:mn>3</m:mn></m:mroot><m:mspace width="0.2em"/><m:mroot><m:mrow><m:mn>3</m:mn><m:mi>x</m:mi></m:mrow><m:mn>3</m:mn></m:mroot></m:mrow><m:mrow><m:mroot><m:mrow><m:msup><m:mi>y</m:mi><m:mn>3</m:mn></m:msup></m:mrow><m:mn>3</m:mn></m:mroot></m:mrow></m:mfrac></m:mtd></m:mtr><m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="left"><m:mtext>Simplify.</m:mtext></m:mtd><m:mtd/><m:mtd columnalign="left"><m:mfrac><m:mrow><m:mn>2</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mroot><m:mrow><m:mn>3</m:mn><m:mi>x</m:mi></m:mrow><m:mn>3</m:mn></m:mroot></m:mrow><m:mi>y</m:mi></m:mfrac></m:mtd></m:mtr></m:mtable></m:mrow></m:math><newline/><newline/></item>
+<item><span class="token">ⓑ</span><newline/><m:math><m:mrow><m:mtable><m:mtr><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mroot><m:mrow><m:mfrac><m:mrow><m:mn>48</m:mn><m:msup><m:mi>x</m:mi><m:mrow><m:mn>10</m:mn></m:mrow></m:msup></m:mrow><m:mrow><m:msup><m:mi>y</m:mi><m:mn>8</m:mn></m:msup></m:mrow></m:mfrac></m:mrow><m:mn>4</m:mn></m:mroot></m:mtd></m:mtr><m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="left"><m:mtable><m:mtr><m:mtd columnalign="left"><m:mtext>The fraction in the radicand cannot be</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>simplified. Use the Quotient Property to</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>write as two radicals.</m:mtext></m:mtd></m:mtr></m:mtable></m:mtd><m:mtd/><m:mtd columnalign="left"><m:mfrac><m:mrow><m:mroot><m:mrow><m:mn>48</m:mn><m:msup><m:mi>x</m:mi><m:mrow><m:mn>10</m:mn></m:mrow></m:msup></m:mrow><m:mn>4</m:mn></m:mroot></m:mrow><m:mrow><m:mroot><m:mrow><m:msup><m:mi>y</m:mi><m:mn>8</m:mn></m:msup></m:mrow><m:mn>4</m:mn></m:mroot></m:mrow></m:mfrac></m:mtd></m:mtr><m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="left"><m:mtable><m:mtr><m:mtd columnalign="left"><m:mtext>Rewrite each radicand as a product using</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>perfect fourth power factors.</m:mtext></m:mtd></m:mtr></m:mtable></m:mtd><m:mtd/><m:mtd columnalign="left"><m:mfrac><m:mrow><m:mroot><m:mrow><m:mn>16</m:mn><m:msup><m:mi>x</m:mi><m:mn>8</m:mn></m:msup><m:mo>·</m:mo><m:mn>3</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mn>4</m:mn></m:mroot></m:mrow><m:mrow><m:mroot><m:mrow><m:msup><m:mi>y</m:mi><m:mn>8</m:mn></m:msup></m:mrow><m:mn>4</m:mn></m:mroot></m:mrow></m:mfrac></m:mtd></m:mtr><m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="left"><m:mtext>Rewrite the numerator as the product of two radicals.</m:mtext></m:mtd><m:mtd/><m:mtd columnalign="left"><m:mfrac><m:mrow><m:mroot><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>4</m:mn></m:msup></m:mrow><m:mn>4</m:mn></m:mroot><m:mspace width="0.2em"/><m:mroot><m:mrow><m:mn>3</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mn>4</m:mn></m:mroot></m:mrow><m:mrow><m:mroot><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>4</m:mn></m:msup></m:mrow><m:mn>4</m:mn></m:mroot></m:mrow></m:mfrac></m:mtd></m:mtr><m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="left"><m:mtext>Simplify.</m:mtext></m:mtd><m:mtd/><m:mtd columnalign="left"><m:mfrac><m:mrow><m:mn>2</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mroot><m:mrow><m:mn>3</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mn>4</m:mn></m:mroot></m:mrow><m:mrow><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mtd></m:mtr></m:mtable></m:mrow></m:math></item>
+</list>
+</solution>
+</exercise>
+</example>
+<note id="fs-id1169595331036" class="try">
+<exercise id="fs-id1169595331040">
+<problem id="fs-id1169595331042">
+<para id="fs-id1169595331044">Simplify: <span class="token">ⓐ</span> <m:math><m:mrow><m:mroot><m:mrow><m:mfrac><m:mrow><m:mn>108</m:mn><m:msup><m:mi>c</m:mi><m:mrow><m:mn>10</m:mn></m:mrow></m:msup></m:mrow><m:mrow><m:msup><m:mi>d</m:mi><m:mn>6</m:mn></m:msup></m:mrow></m:mfrac></m:mrow><m:mn>3</m:mn></m:mroot></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mroot><m:mrow><m:mfrac><m:mrow><m:mn>80</m:mn><m:msup><m:mi>x</m:mi><m:mrow><m:mn>10</m:mn></m:mrow></m:msup></m:mrow><m:mrow><m:msup><m:mi>y</m:mi><m:mn>5</m:mn></m:msup></m:mrow></m:mfrac></m:mrow><m:mn>4</m:mn></m:mroot></m:mrow></m:math>.</para>
+</problem>
+<solution id="fs-id1169595644228">
+<para id="fs-id1169595644230"><span class="token">ⓐ</span> <m:math><m:mrow><m:mfrac><m:mrow><m:mn>3</m:mn><m:msup><m:mi>c</m:mi><m:mn>3</m:mn></m:msup><m:mroot><m:mrow><m:mn>4</m:mn><m:mi>c</m:mi></m:mrow><m:mn>3</m:mn></m:mroot></m:mrow><m:mrow><m:msup><m:mi>d</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mrow><m:mo>|</m:mo><m:mi>y</m:mi><m:mo>|</m:mo></m:mrow></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mroot><m:mrow><m:mfrac><m:mrow><m:mn>80</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mi>y</m:mi></m:mfrac></m:mrow><m:mn>4</m:mn></m:mroot></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1169595538785" class="try">
+<exercise id="fs-id1169595538789">
+<problem id="fs-id1169595538791">
+<para id="fs-id1169595538794">Simplify: <span class="token">ⓐ</span> <m:math><m:mrow><m:mroot><m:mrow><m:mfrac><m:mrow><m:mn>40</m:mn><m:msup><m:mi>r</m:mi><m:mn>3</m:mn></m:msup></m:mrow><m:mi>s</m:mi></m:mfrac></m:mrow><m:mn>3</m:mn></m:mroot></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mroot><m:mrow><m:mfrac><m:mrow><m:mn>162</m:mn><m:msup><m:mi>m</m:mi><m:mrow><m:mn>14</m:mn></m:mrow></m:msup></m:mrow><m:mrow><m:msup><m:mi>n</m:mi><m:mrow><m:mn>12</m:mn></m:mrow></m:msup></m:mrow></m:mfrac></m:mrow><m:mn>4</m:mn></m:mroot></m:mrow></m:math>.</para>
+</problem>
+<solution id="fs-id1169595339293">
+<para id="fs-id1169595339295"><span class="token">ⓐ</span> <m:math><m:mrow><m:mi>r</m:mi><m:mroot><m:mrow><m:mfrac><m:mrow><m:mn>40</m:mn></m:mrow><m:mi>s</m:mi></m:mfrac></m:mrow><m:mn>3</m:mn></m:mroot></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mfrac><m:mrow><m:mn>3</m:mn><m:msup><m:mi>m</m:mi><m:mn>3</m:mn></m:msup><m:mroot><m:mrow><m:mn>2</m:mn><m:msup><m:mi>m</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mn>4</m:mn></m:mroot></m:mrow><m:mrow><m:mrow><m:mo>|</m:mo><m:mrow><m:msup><m:mi>n</m:mi><m:mn>3</m:mn></m:msup></m:mrow><m:mo>|</m:mo></m:mrow></m:mrow></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+</section>
+<section id="fs-id1169597848590">
+<title>Add and Subtract Higher Roots</title>
+<para id="fs-id1169597848596">We can add and subtract higher roots like we added and subtracted square roots. First we provide a formal definition of <term class="no-emphasis">like radicals</term>.</para>
+<note id="fs-id1169597848608">
+<title>Like Radicals</title>
+<para id="fs-id1169597848613">Radicals with the same index and same radicand are called <term>like radicals</term>.</para>
+</note>
+<para id="fs-id1169597756872">Like radicals have the same index and the same radicand.</para>
+<list id="fs-id1169597756875" list-type="bulleted" bullet-style="bullet">
+<item><m:math><m:mrow><m:mn>9</m:mn><m:mroot><m:mrow><m:mn>42</m:mn><m:mi>x</m:mi></m:mrow><m:mn>4</m:mn></m:mroot></m:mrow></m:math> and <m:math><m:mrow><m:mn>−2</m:mn><m:mroot><m:mrow><m:mn>42</m:mn><m:mi>x</m:mi></m:mrow><m:mn>4</m:mn></m:mroot></m:mrow></m:math> are like radicals.</item>
+<item><m:math><m:mrow><m:mn>5</m:mn><m:mroot><m:mrow><m:mn>125</m:mn><m:mi>x</m:mi></m:mrow><m:mn>3</m:mn></m:mroot></m:mrow></m:math> and <m:math><m:mrow><m:mn>6</m:mn><m:mroot><m:mrow><m:mn>125</m:mn><m:mi>y</m:mi></m:mrow><m:mn>3</m:mn></m:mroot></m:mrow></m:math> are not like radicals. The radicands are different.</item>
+<item><m:math><m:mrow><m:mn>2</m:mn><m:mroot><m:mrow><m:mn>1000</m:mn><m:mi>q</m:mi></m:mrow><m:mn>5</m:mn></m:mroot></m:mrow></m:math> and <m:math><m:mrow><m:mn>−4</m:mn><m:mroot><m:mrow><m:mn>1000</m:mn><m:mi>q</m:mi></m:mrow><m:mn>4</m:mn></m:mroot></m:mrow></m:math> are not like radicals. The indices are different.</item>
+</list>
+<para id="fs-id1169595484870">We add and subtract like radicals in the same way we add and subtract like terms. We can add <m:math><m:mrow><m:mn>9</m:mn><m:mroot><m:mrow><m:mn>42</m:mn><m:mi>x</m:mi></m:mrow><m:mn>4</m:mn></m:mroot><m:mo>+</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−2</m:mn><m:mroot><m:mrow><m:mn>42</m:mn><m:mi>x</m:mi></m:mrow><m:mn>4</m:mn></m:mroot></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> and the result is <m:math><m:mrow><m:mn>7</m:mn><m:mroot><m:mrow><m:mn>42</m:mn><m:mi>x</m:mi></m:mrow><m:mn>4</m:mn></m:mroot></m:mrow></m:math>.</para>
+<example id="fs-id1169595238898">
+<exercise id="fs-id1169595238901">
+<problem id="fs-id1169595238903">
+<para id="fs-id1169595238905">Simplify: <span class="token">ⓐ</span> <m:math><m:mrow><m:mroot><m:mrow><m:mn>4</m:mn><m:mi>x</m:mi></m:mrow><m:mn>3</m:mn></m:mroot><m:mo>+</m:mo><m:mroot><m:mrow><m:mn>4</m:mn><m:mi>x</m:mi></m:mrow><m:mn>3</m:mn></m:mroot></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mn>4</m:mn><m:mroot><m:mn>8</m:mn><m:mn>4</m:mn></m:mroot><m:mo>−</m:mo><m:mn>2</m:mn><m:mroot><m:mn>8</m:mn><m:mn>4</m:mn></m:mroot></m:mrow></m:math>.</para>
+</problem>
+<solution id="fs-id1169595643165">
+<title>Solution</title>
+<list id="fs-id1169595643170" list-type="enumerated" number-style="arabic" class="circled">
+<item><span class="token">ⓐ</span><newline/><m:math><m:mrow><m:mtable><m:mtr><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mspace width="2em"/><m:mroot><m:mrow><m:mn>4</m:mn><m:mi>x</m:mi></m:mrow><m:mn>3</m:mn></m:mroot><m:mo>+</m:mo><m:mroot><m:mrow><m:mn>4</m:mn><m:mi>x</m:mi></m:mrow><m:mn>3</m:mn></m:mroot></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>The radicals are like, so we add the coefficients.</m:mtext></m:mtd><m:mtd/><m:mtd columnalign="left"><m:mspace width="2em"/><m:mn>2</m:mn><m:mroot><m:mrow><m:mn>4</m:mn><m:mi>x</m:mi></m:mrow><m:mn>3</m:mn></m:mroot></m:mtd></m:mtr></m:mtable></m:mrow></m:math><newline/><newline/></item>
+<item><span class="token">ⓑ</span><newline/><m:math><m:mrow><m:mtable><m:mtr><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mn>4</m:mn><m:mroot><m:mn>8</m:mn><m:mn>4</m:mn></m:mroot><m:mo>−</m:mo><m:mn>2</m:mn><m:mroot><m:mn>8</m:mn><m:mn>4</m:mn></m:mroot></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>The radicals are like, so we subtract the coefficients.</m:mtext></m:mtd><m:mtd/><m:mtd columnalign="left"><m:mn>2</m:mn><m:mroot><m:mn>8</m:mn><m:mn>4</m:mn></m:mroot></m:mtd></m:mtr></m:mtable></m:mrow></m:math></item>
+</list>
+</solution>
+</exercise>
+</example>
+<note id="fs-id1169595352972" class="try">
+<exercise id="fs-id1169595352976">
+<problem id="fs-id1169595352978">
+<para id="fs-id1169595352980">Simplify: <span class="token">ⓐ</span> <m:math><m:mrow><m:mroot><m:mrow><m:mn>3</m:mn><m:mi>x</m:mi></m:mrow><m:mn>5</m:mn></m:mroot><m:mo>+</m:mo><m:mroot><m:mrow><m:mn>3</m:mn><m:mi>x</m:mi></m:mrow><m:mn>5</m:mn></m:mroot></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mn>3</m:mn><m:mroot><m:mn>9</m:mn><m:mn>3</m:mn></m:mroot><m:mo>−</m:mo><m:mroot><m:mn>9</m:mn><m:mn>3</m:mn></m:mroot></m:mrow></m:math>.</para>
+</problem>
+<solution id="fs-id1169595644086">
+<para id="fs-id1169595644088"><span class="token">ⓐ</span> <m:math><m:mrow><m:mn>2</m:mn><m:mroot><m:mrow><m:mn>3</m:mn><m:mi>x</m:mi></m:mrow><m:mn>5</m:mn></m:mroot></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mn>2</m:mn><m:mroot><m:mn>9</m:mn><m:mn>3</m:mn></m:mroot></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1169595644127" class="try">
+<exercise id="fs-id1169595223979">
+<problem id="fs-id1169595223981">
+<para id="fs-id1169595223983">Simplify: <span class="token">ⓐ</span> <m:math><m:mrow><m:mroot><m:mrow><m:mn>10</m:mn><m:mi>y</m:mi></m:mrow><m:mn>4</m:mn></m:mroot><m:mo>+</m:mo><m:mroot><m:mrow><m:mn>10</m:mn><m:mi>y</m:mi></m:mrow><m:mn>4</m:mn></m:mroot></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mn>5</m:mn><m:mroot><m:mrow><m:mn>32</m:mn></m:mrow><m:mn>6</m:mn></m:mroot><m:mo>−</m:mo><m:mn>3</m:mn><m:mroot><m:mrow><m:mn>32</m:mn></m:mrow><m:mn>6</m:mn></m:mroot></m:mrow></m:math>.</para>
+</problem>
+<solution id="fs-id1169595224043">
+<para id="fs-id1169595224045"><span class="token">ⓐ</span> <m:math><m:mrow><m:mn>2</m:mn><m:mroot><m:mrow><m:mn>10</m:mn><m:mi>y</m:mi></m:mrow><m:mn>4</m:mn></m:mroot></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mn>2</m:mn><m:mroot><m:mrow><m:mn>32</m:mn></m:mrow><m:mn>6</m:mn></m:mroot></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<para id="fs-id1169595174270">When an expression does not appear to have like radicals, we will simplify each radical first. Sometimes this leads to an expression with like radicals.</para>
+<example id="fs-id1169595174275">
+<exercise id="fs-id1169595174277">
+<problem id="fs-id1169595174279">
+<para id="fs-id1169595174281">Simplify: <span class="token">ⓐ</span> <m:math><m:mrow><m:mroot><m:mrow><m:mn>54</m:mn></m:mrow><m:mn>3</m:mn></m:mroot><m:mo>−</m:mo><m:mroot><m:mrow><m:mn>16</m:mn></m:mrow><m:mn>3</m:mn></m:mroot></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mroot><m:mrow><m:mn>48</m:mn></m:mrow><m:mn>4</m:mn></m:mroot><m:mo>+</m:mo><m:mroot><m:mrow><m:mn>243</m:mn></m:mrow><m:mn>4</m:mn></m:mroot></m:mrow></m:math>.</para>
+</problem>
+<solution id="fs-id1169595643252">
+<title>Solution</title>
+<list id="fs-id1169595643257" list-type="enumerated" number-style="arabic" class="circled">
+<item><span class="token">ⓐ</span><newline/><m:math><m:mrow><m:mtable><m:mtr><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mroot><m:mrow><m:mn>54</m:mn></m:mrow><m:mn>3</m:mn></m:mroot><m:mo>−</m:mo><m:mroot><m:mrow><m:mn>16</m:mn></m:mrow><m:mn>3</m:mn></m:mroot></m:mtd></m:mtr><m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="left"><m:mtext>Rewrite each radicand using perfect cube factors.</m:mtext></m:mtd><m:mtd/><m:mtd columnalign="left"><m:mroot><m:mrow><m:mn>27</m:mn></m:mrow><m:mn>3</m:mn></m:mroot><m:mo>·</m:mo><m:mroot><m:mn>2</m:mn><m:mn>3</m:mn></m:mroot><m:mo>−</m:mo><m:mroot><m:mn>8</m:mn><m:mn>3</m:mn></m:mroot><m:mo>·</m:mo><m:mroot><m:mn>2</m:mn><m:mn>3</m:mn></m:mroot></m:mtd></m:mtr><m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="left"><m:mtext>Rewrite the perfect cubes.</m:mtext></m:mtd><m:mtd/><m:mtd columnalign="left"><m:mroot><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mn>3</m:mn><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>3</m:mn></m:msup></m:mrow><m:mn>3</m:mn></m:mroot><m:mspace width="0.2em"/><m:mroot><m:mn>2</m:mn><m:mn>3</m:mn></m:mroot><m:mo>−</m:mo><m:mroot><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mn>2</m:mn><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>3</m:mn></m:msup></m:mrow><m:mn>3</m:mn></m:mroot><m:mspace width="0.2em"/><m:mroot><m:mn>2</m:mn><m:mn>3</m:mn></m:mroot></m:mtd></m:mtr><m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="left"><m:mtext>Simplify the radicals where possible.</m:mtext></m:mtd><m:mtd/><m:mtd columnalign="left"><m:mn>3</m:mn><m:mroot><m:mn>2</m:mn><m:mn>3</m:mn></m:mroot><m:mo>−</m:mo><m:mn>2</m:mn><m:mroot><m:mn>2</m:mn><m:mn>3</m:mn></m:mroot></m:mtd></m:mtr><m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="left"><m:mtext>Combine like radicals.</m:mtext></m:mtd><m:mtd/><m:mtd columnalign="left"><m:mroot><m:mn>2</m:mn><m:mn>3</m:mn></m:mroot></m:mtd></m:mtr></m:mtable></m:mrow></m:math><newline/><newline/></item>
+<item><span class="token">ⓑ</span><newline/><m:math><m:mrow><m:mtable><m:mtr><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mspace width="2em"/><m:mroot><m:mrow><m:mn>48</m:mn></m:mrow><m:mn>4</m:mn></m:mroot><m:mo>+</m:mo><m:mroot><m:mrow><m:mn>243</m:mn></m:mrow><m:mn>4</m:mn></m:mroot></m:mtd></m:mtr><m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="left"><m:mtext>Rewrite using perfect fourth power factors.</m:mtext></m:mtd><m:mtd/><m:mtd columnalign="left"><m:mspace width="2em"/><m:mroot><m:mrow><m:mn>16</m:mn></m:mrow><m:mn>4</m:mn></m:mroot><m:mo>·</m:mo><m:mroot><m:mn>3</m:mn><m:mn>4</m:mn></m:mroot><m:mo>+</m:mo><m:mroot><m:mrow><m:mn>81</m:mn></m:mrow><m:mn>4</m:mn></m:mroot><m:mo>·</m:mo><m:mroot><m:mn>3</m:mn><m:mn>4</m:mn></m:mroot></m:mtd></m:mtr><m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="left"><m:mtext>Rewrite the perfect fourth powers.</m:mtext></m:mtd><m:mtd/><m:mtd columnalign="left"><m:mspace width="2em"/><m:mroot><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mn>2</m:mn><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>4</m:mn></m:msup></m:mrow><m:mn>4</m:mn></m:mroot><m:mspace width="0.2em"/><m:mroot><m:mn>3</m:mn><m:mn>4</m:mn></m:mroot><m:mo>+</m:mo><m:mroot><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mn>3</m:mn><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>4</m:mn></m:msup></m:mrow><m:mn>4</m:mn></m:mroot><m:mspace width="0.2em"/><m:mroot><m:mn>3</m:mn><m:mn>4</m:mn></m:mroot></m:mtd></m:mtr><m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="left"><m:mtext>Simplify the radicals where possible.</m:mtext></m:mtd><m:mtd/><m:mtd columnalign="left"><m:mspace width="2em"/><m:mn>2</m:mn><m:mroot><m:mn>3</m:mn><m:mn>4</m:mn></m:mroot><m:mo>+</m:mo><m:mn>3</m:mn><m:mroot><m:mn>3</m:mn><m:mn>4</m:mn></m:mroot></m:mtd></m:mtr><m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="left"><m:mtext>Combine like radicals.</m:mtext></m:mtd><m:mtd/><m:mtd columnalign="left"><m:mspace width="2em"/><m:mn>5</m:mn><m:mroot><m:mn>3</m:mn><m:mn>4</m:mn></m:mroot></m:mtd></m:mtr></m:mtable></m:mrow></m:math></item>
+</list>
+</solution>
+</exercise>
+</example>
+<note id="fs-id1169595538500" class="try">
+<exercise id="fs-id1169595538504">
+<problem id="fs-id1169595538506">
+<para id="fs-id1169595538509">Simplify: <span class="token">ⓐ</span> <m:math><m:mrow><m:mroot><m:mrow><m:mn>192</m:mn></m:mrow><m:mn>3</m:mn></m:mroot><m:mo>−</m:mo><m:mroot><m:mrow><m:mn>81</m:mn></m:mrow><m:mn>3</m:mn></m:mroot></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mroot><m:mrow><m:mn>32</m:mn></m:mrow><m:mn>4</m:mn></m:mroot><m:mo>+</m:mo><m:mroot><m:mrow><m:mn>512</m:mn></m:mrow><m:mn>4</m:mn></m:mroot></m:mrow></m:math>.</para>
+</problem>
+<solution id="fs-id1169595330199">
+<para id="fs-id1169595330201"><span class="token">ⓐ</span> <m:math><m:mrow><m:mroot><m:mn>3</m:mn><m:mn>3</m:mn></m:mroot></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mn>6</m:mn><m:mroot><m:mn>2</m:mn><m:mn>4</m:mn></m:mroot></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1169595330235" class="try">
+<exercise id="fs-id1169595330239">
+<problem id="fs-id1169595330241">
+<para id="fs-id1169595330243">Simplify: <span class="token">ⓐ</span> <m:math><m:mrow><m:mroot><m:mrow><m:mn>108</m:mn></m:mrow><m:mn>3</m:mn></m:mroot><m:mo>−</m:mo><m:mroot><m:mrow><m:mn>250</m:mn></m:mrow><m:mn>3</m:mn></m:mroot></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mroot><m:mrow><m:mn>64</m:mn></m:mrow><m:mn>5</m:mn></m:mroot><m:mo>+</m:mo><m:mroot><m:mrow><m:mn>486</m:mn></m:mrow><m:mn>5</m:mn></m:mroot></m:mrow></m:math>.</para>
+</problem>
+<solution id="fs-id1169595139353">
+<para id="fs-id1169595139355"><span class="token">ⓐ</span> <m:math><m:mrow><m:mtext>−</m:mtext><m:mroot><m:mn>2</m:mn><m:mn>3</m:mn></m:mroot></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mn>5</m:mn><m:mroot><m:mn>2</m:mn><m:mn>5</m:mn></m:mroot></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<example id="fs-id1169595139391">
+<exercise id="fs-id1169595139393">
+<problem id="fs-id1169595139396">
+<para id="fs-id1169595139398">Simplify: <span class="token">ⓐ</span> <m:math><m:mrow><m:mroot><m:mrow><m:mn>24</m:mn><m:msup><m:mi>x</m:mi><m:mn>4</m:mn></m:msup></m:mrow><m:mn>3</m:mn></m:mroot><m:mo>−</m:mo><m:mroot><m:mrow><m:mn>−81</m:mn><m:msup><m:mi>x</m:mi><m:mn>7</m:mn></m:msup></m:mrow><m:mn>3</m:mn></m:mroot></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mroot><m:mrow><m:mn>162</m:mn><m:msup><m:mi>y</m:mi><m:mn>9</m:mn></m:msup></m:mrow><m:mn>4</m:mn></m:mroot><m:mo>+</m:mo><m:mroot><m:mrow><m:mn>516</m:mn><m:msup><m:mi>y</m:mi><m:mn>5</m:mn></m:msup></m:mrow><m:mn>4</m:mn></m:mroot></m:mrow></m:math>.</para>
+</problem>
+<solution id="fs-id1169595644788">
+<title>Solution</title>
+<list id="fs-id1169595644793" list-type="enumerated" number-style="arabic" class="circled">
+<item><span class="token">ⓐ</span><newline/><m:math><m:mrow><m:mtable><m:mtr><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mspace width="4em"/><m:mroot><m:mrow><m:mn>24</m:mn><m:msup><m:mi>x</m:mi><m:mn>4</m:mn></m:msup></m:mrow><m:mn>3</m:mn></m:mroot><m:mo>−</m:mo><m:mroot><m:mrow><m:mn>−81</m:mn><m:msup><m:mi>x</m:mi><m:mn>7</m:mn></m:msup></m:mrow><m:mn>3</m:mn></m:mroot></m:mtd></m:mtr><m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="left"><m:mtext>Rewrite each radicand using perfect cube factors.</m:mtext></m:mtd><m:mtd/><m:mtd columnalign="left"><m:mspace width="4em"/><m:mroot><m:mrow><m:mn>8</m:mn><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup></m:mrow><m:mn>3</m:mn></m:mroot><m:mo>·</m:mo><m:mroot><m:mrow><m:mn>3</m:mn><m:mi>x</m:mi></m:mrow><m:mn>3</m:mn></m:mroot><m:mo>−</m:mo><m:mroot><m:mrow><m:mn>−27</m:mn><m:msup><m:mi>x</m:mi><m:mn>6</m:mn></m:msup></m:mrow><m:mn>3</m:mn></m:mroot><m:mo>·</m:mo><m:mroot><m:mrow><m:mn>3</m:mn><m:mi>x</m:mi></m:mrow><m:mn>3</m:mn></m:mroot></m:mtd></m:mtr><m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="left"><m:mtext>Rewrite the perfect cubes.</m:mtext></m:mtd><m:mtd/><m:mtd columnalign="left"><m:mspace width="4em"/><m:mroot><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mi>x</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>3</m:mn></m:msup></m:mrow><m:mn>3</m:mn></m:mroot><m:mspace width="0.2em"/><m:mroot><m:mrow><m:mn>3</m:mn><m:mi>x</m:mi></m:mrow><m:mn>3</m:mn></m:mroot><m:mo>−</m:mo><m:mroot><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−3</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>3</m:mn></m:msup></m:mrow><m:mn>3</m:mn></m:mroot><m:mspace width="0.2em"/><m:mroot><m:mrow><m:mn>3</m:mn><m:mi>x</m:mi></m:mrow><m:mn>3</m:mn></m:mroot></m:mtd></m:mtr><m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="left"><m:mtext>Simplify the radicals where possible.</m:mtext></m:mtd><m:mtd/><m:mtd columnalign="left"><m:mspace width="4em"/><m:mn>2</m:mn><m:mi>x</m:mi><m:mroot><m:mrow><m:mn>3</m:mn><m:mi>x</m:mi></m:mrow><m:mn>3</m:mn></m:mroot><m:mo>−</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−3</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mroot><m:mrow><m:mn>3</m:mn><m:mi>x</m:mi></m:mrow><m:mn>3</m:mn></m:mroot></m:mrow><m:mo>)</m:mo></m:mrow></m:mtd></m:mtr></m:mtable></m:mrow></m:math><newline/><newline/></item>
+<item><span class="token">ⓑ</span><newline/><m:math><m:mrow><m:mtable><m:mtr><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mroot><m:mrow><m:mn>162</m:mn><m:msup><m:mi>y</m:mi><m:mn>9</m:mn></m:msup></m:mrow><m:mn>4</m:mn></m:mroot><m:mo>+</m:mo><m:mroot><m:mrow><m:mn>516</m:mn><m:msup><m:mi>y</m:mi><m:mn>5</m:mn></m:msup></m:mrow><m:mn>4</m:mn></m:mroot></m:mtd></m:mtr><m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="left"><m:mtext>Rewrite each radicand using perfect fourth power factors.</m:mtext></m:mtd><m:mtd/><m:mtd columnalign="left"><m:mroot><m:mrow><m:mn>81</m:mn><m:msup><m:mi>y</m:mi><m:mn>8</m:mn></m:msup></m:mrow><m:mn>4</m:mn></m:mroot><m:mo>·</m:mo><m:mroot><m:mrow><m:mn>2</m:mn><m:mi>y</m:mi></m:mrow><m:mn>4</m:mn></m:mroot><m:mo>+</m:mo><m:mroot><m:mrow><m:mn>256</m:mn><m:msup><m:mi>y</m:mi><m:mn>4</m:mn></m:msup></m:mrow><m:mn>4</m:mn></m:mroot><m:mo>·</m:mo><m:mroot><m:mrow><m:mn>2</m:mn><m:mi>y</m:mi></m:mrow><m:mn>4</m:mn></m:mroot></m:mtd></m:mtr><m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="left"><m:mtext>Rewrite the perfect fourth powers.</m:mtext></m:mtd><m:mtd/><m:mtd columnalign="left"><m:mroot><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>4</m:mn></m:msup></m:mrow><m:mn>4</m:mn></m:mroot><m:mo>·</m:mo><m:mroot><m:mrow><m:mn>2</m:mn><m:mi>y</m:mi></m:mrow><m:mn>4</m:mn></m:mroot><m:mo>+</m:mo><m:mroot><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>4</m:mn><m:mi>y</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>4</m:mn></m:msup></m:mrow><m:mn>4</m:mn></m:mroot><m:mo>·</m:mo><m:mroot><m:mrow><m:mn>2</m:mn><m:mi>y</m:mi></m:mrow><m:mn>4</m:mn></m:mroot></m:mtd></m:mtr><m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="left"><m:mtext>Simplify the radicals where possible.</m:mtext></m:mtd><m:mtd/><m:mtd columnalign="left"><m:mn>3</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mroot><m:mrow><m:mn>2</m:mn><m:mi>y</m:mi></m:mrow><m:mn>4</m:mn></m:mroot><m:mo>+</m:mo><m:mn>4</m:mn><m:mrow><m:mo>|</m:mo><m:mi>y</m:mi><m:mo>|</m:mo></m:mrow><m:mroot><m:mrow><m:mn>2</m:mn><m:mi>y</m:mi></m:mrow><m:mn>4</m:mn></m:mroot></m:mtd></m:mtr></m:mtable></m:mrow></m:math></item>
+</list>
+</solution>
+</exercise>
+</example>
+<note id="fs-id1169595115419" class="try">
+<exercise id="fs-id1169595115423">
+<problem id="fs-id1169595115425">
+<para id="fs-id1169595115427">Simplify: <span class="token">ⓐ</span> <m:math><m:mrow><m:mroot><m:mrow><m:mn>32</m:mn><m:msup><m:mi>y</m:mi><m:mn>5</m:mn></m:msup></m:mrow><m:mn>3</m:mn></m:mroot><m:mo>−</m:mo><m:mroot><m:mrow><m:mn>−108</m:mn><m:msup><m:mi>y</m:mi><m:mn>8</m:mn></m:msup></m:mrow><m:mn>3</m:mn></m:mroot></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mroot><m:mrow><m:mn>243</m:mn><m:msup><m:mi>r</m:mi><m:mrow><m:mn>11</m:mn></m:mrow></m:msup></m:mrow><m:mn>4</m:mn></m:mroot><m:mo>+</m:mo><m:mroot><m:mrow><m:mn>768</m:mn><m:msup><m:mi>r</m:mi><m:mrow><m:mn>10</m:mn></m:mrow></m:msup></m:mrow><m:mn>4</m:mn></m:mroot></m:mrow></m:math>.</para>
+</problem>
+<solution id="fs-id1169595305388">
+<para id="fs-id1169595305390"><span class="token">ⓐ</span> <m:math><m:mrow><m:mn>2</m:mn><m:mi>y</m:mi><m:mroot><m:mrow><m:mn>4</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mn>3</m:mn></m:mroot><m:mo>+</m:mo><m:mn>3</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mroot><m:mrow><m:mn>4</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mn>3</m:mn></m:mroot></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mn>3</m:mn><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup><m:mroot><m:mrow><m:mn>3</m:mn><m:msup><m:mi>r</m:mi><m:mn>3</m:mn></m:msup></m:mrow><m:mn>4</m:mn></m:mroot><m:mo>+</m:mo><m:mn>4</m:mn><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup><m:mroot><m:mrow><m:mn>3</m:mn><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mn>4</m:mn></m:mroot></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1169595197008" class="try">
+<exercise id="fs-id1169595197013">
+<problem id="fs-id1169595197015">
+<para id="fs-id1169595197017">Simplify: <span class="token">ⓐ</span> <m:math><m:mrow><m:mroot><m:mrow><m:mn>40</m:mn><m:msup><m:mi>z</m:mi><m:mn>7</m:mn></m:msup></m:mrow><m:mn>3</m:mn></m:mroot><m:mo>−</m:mo><m:mroot><m:mrow><m:mn>−135</m:mn><m:msup><m:mi>z</m:mi><m:mn>4</m:mn></m:msup></m:mrow><m:mn>3</m:mn></m:mroot></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mroot><m:mrow><m:mn>80</m:mn><m:msup><m:mi>s</m:mi><m:mrow><m:mn>13</m:mn></m:mrow></m:msup></m:mrow><m:mn>4</m:mn></m:mroot><m:mo>+</m:mo><m:mroot><m:mrow><m:mn>1280</m:mn><m:msup><m:mi>s</m:mi><m:mn>6</m:mn></m:msup></m:mrow><m:mn>4</m:mn></m:mroot></m:mrow></m:math>.</para>
+</problem>
+<solution id="fs-id1169595645146">
+<para id="fs-id1169595645149"><span class="token">ⓐ</span> <m:math><m:mrow><m:mn>2</m:mn><m:msup><m:mi>z</m:mi><m:mn>2</m:mn></m:msup><m:mroot><m:mrow><m:mn>5</m:mn><m:mi>z</m:mi></m:mrow><m:mn>3</m:mn></m:mroot><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>z</m:mi><m:mroot><m:mrow><m:mn>5</m:mn><m:mi>z</m:mi></m:mrow><m:mn>3</m:mn></m:mroot></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mn>2</m:mn><m:mrow><m:mo>|</m:mo><m:mrow><m:msup><m:mi>s</m:mi><m:mn>3</m:mn></m:msup></m:mrow><m:mo>|</m:mo></m:mrow><m:mroot><m:mrow><m:mn>5</m:mn><m:mi>s</m:mi></m:mrow><m:mn>4</m:mn></m:mroot><m:mo>+</m:mo><m:mn>4</m:mn><m:mrow><m:mo>|</m:mo><m:mi>s</m:mi><m:mo>|</m:mo></m:mrow><m:mroot><m:mrow><m:mn>5</m:mn><m:mi>s</m:mi></m:mrow><m:mn>4</m:mn></m:mroot></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1169595642813" class="media-2">
+<para id="fs-id1169595642817">Access these online resources for additional instruction and practice with simplifying higher roots.</para>
+<list id="fs-id1169595642821" display="block">
+<item><link url="https://openstax.org/l/25SimplifyHR">Simplifying Higher Roots</link></item>
+<item><link url="https://openstax.org/l/25AddSubtrHR">Add/Subtract Roots with Higher Indices</link></item>
+</list>
+</note>
+</section>
+<section id="fs-id1169595329849" class="key-concepts">
+<title>Key Concepts</title>
+<list id="fs-id1169595329856" list-type="bulleted" bullet-style="bullet">
+<item><emphasis effect="bold">Properties of</emphasis></item>
+<item><m:math><m:mrow><m:mroot><m:mi>a</m:mi><m:mi>n</m:mi></m:mroot></m:mrow></m:math> when <m:math><m:mrow><m:mi>n</m:mi></m:mrow></m:math> is an even number and
+<list id="fs-id1169595329877" list-type="bulleted" bullet-style="open-circle">
+<item><m:math><m:mrow><m:mi>a</m:mi><m:mo>≥</m:mo><m:mn>0</m:mn></m:mrow></m:math>, then <m:math><m:mrow><m:mroot><m:mi>a</m:mi><m:mi>n</m:mi></m:mroot></m:mrow></m:math> is a real number</item>
+<item><m:math><m:mrow><m:mi>a</m:mi><m:mo>&lt;</m:mo><m:mn>0</m:mn></m:mrow></m:math>, then <m:math><m:mrow><m:mroot><m:mi>a</m:mi><m:mi>n</m:mi></m:mroot></m:mrow></m:math> is not a real number</item>
+<item>When <m:math><m:mrow><m:mi>n</m:mi></m:mrow></m:math> is an odd number, <m:math><m:mrow><m:mroot><m:mi>a</m:mi><m:mi>n</m:mi></m:mroot></m:mrow></m:math> is a real number for all values of <emphasis effect="italics">a</emphasis>.</item>
+<item>For any integer <m:math><m:mrow><m:mi>n</m:mi><m:mo>≥</m:mo><m:mn>2</m:mn></m:mrow></m:math>, when <emphasis effect="italics">n</emphasis> is odd <m:math><m:mrow><m:mroot><m:mrow><m:msup><m:mi>a</m:mi><m:mi>n</m:mi></m:msup></m:mrow><m:mi>n</m:mi></m:mroot><m:mo>=</m:mo><m:mi>a</m:mi></m:mrow></m:math></item>
+<item>For any integer <m:math><m:mrow><m:mi>n</m:mi><m:mo>≥</m:mo><m:mn>2</m:mn></m:mrow></m:math>, when <emphasis effect="italics">n</emphasis> is even <m:math><m:mrow><m:mroot><m:mrow><m:msup><m:mi>a</m:mi><m:mi>n</m:mi></m:msup></m:mrow><m:mi>n</m:mi></m:mroot><m:mo>=</m:mo><m:mrow><m:mo>|</m:mo><m:mi>a</m:mi><m:mo>|</m:mo></m:mrow></m:mrow></m:math></item>
+</list></item>
+<item><m:math><m:mrow><m:mroot><m:mi>a</m:mi><m:mi>n</m:mi></m:mroot></m:mrow></m:math> is considered simplified if <emphasis effect="italics">a</emphasis> has no factors of <m:math><m:mrow><m:msup><m:mi>m</m:mi><m:mi>n</m:mi></m:msup></m:mrow></m:math>.</item>
+<item><emphasis effect="bold">Product Property of <emphasis effect="italics">n</emphasis>th Roots</emphasis><newline/>
+<equation id="fs-id1167263494150" class="unnumbered"><label/><m:math><m:mrow><m:mroot><m:mrow><m:mi>a</m:mi><m:mi>b</m:mi></m:mrow><m:mi>n</m:mi></m:mroot><m:mo>=</m:mo><m:mroot><m:mi>a</m:mi><m:mi>n</m:mi></m:mroot><m:mo>·</m:mo><m:mroot><m:mi>b</m:mi><m:mi>n</m:mi></m:mroot><m:mspace width="0.5em"/><m:mtext>and</m:mtext><m:mspace width="0.5em"/><m:mroot><m:mi>a</m:mi><m:mi>n</m:mi></m:mroot><m:mo>·</m:mo><m:mroot><m:mi>b</m:mi><m:mi>n</m:mi></m:mroot><m:mo>=</m:mo><m:mroot><m:mrow><m:mi>a</m:mi><m:mi>b</m:mi></m:mrow><m:mi>n</m:mi></m:mroot></m:mrow></m:math></equation></item>
+<item><emphasis effect="bold">Quotient Property of <emphasis effect="italics">n</emphasis>th Roots</emphasis><newline/>
+<equation id="fs-id1169595644492" class="unnumbered"><label/><m:math><m:mrow><m:mroot><m:mrow><m:mfrac><m:mi>a</m:mi><m:mi>b</m:mi></m:mfrac></m:mrow><m:mi>n</m:mi></m:mroot><m:mo>=</m:mo><m:mfrac><m:mrow><m:mroot><m:mi>a</m:mi><m:mi>n</m:mi></m:mroot></m:mrow><m:mrow><m:mroot><m:mi>b</m:mi><m:mi>n</m:mi></m:mroot></m:mrow></m:mfrac><m:mspace width="0.5em"/><m:mtext>and</m:mtext><m:mspace width="0.5em"/><m:mfrac><m:mrow><m:mroot><m:mi>a</m:mi><m:mi>n</m:mi></m:mroot></m:mrow><m:mrow><m:mroot><m:mi>b</m:mi><m:mi>n</m:mi></m:mroot></m:mrow></m:mfrac><m:mo>=</m:mo><m:mroot><m:mrow><m:mfrac><m:mi>a</m:mi><m:mi>b</m:mi></m:mfrac></m:mrow><m:mi>n</m:mi></m:mroot></m:mrow></m:math></equation></item>
+<item>To combine like radicals, simply add or subtract the coefficients while keeping the radical the same.</item>
+</list>
+</section>
+<section id="fs-id1169595645273" class="section-exercises">
+<section id="fs-id1169595645277" class="practice-perfect">
+<title>Practice Makes Perfect</title>
+<para id="fs-id1169595645282"><emphasis effect="bold">Simplify Expressions with Higher Roots</emphasis></para>
+<para id="fs-id1169595645288">In the following exercises, simplify.</para>
+<exercise id="fs-id1169595645292">
+<problem id="fs-id1169595645294">
+<para id="fs-id1169595645296"><newline/><span class="token">ⓐ</span> <m:math><m:mrow><m:mroot><m:mrow><m:mn>216</m:mn></m:mrow><m:mn>3</m:mn></m:mroot></m:mrow></m:math><newline/><span class="token">ⓑ</span> <m:math><m:mrow><m:mroot><m:mrow><m:mn>256</m:mn></m:mrow><m:mn>4</m:mn></m:mroot></m:mrow></m:math><newline/><span class="token">ⓒ</span> <m:math><m:mrow><m:mroot><m:mrow><m:mn>32</m:mn></m:mrow><m:mn>5</m:mn></m:mroot></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1169595278318">
+<problem id="fs-id1169595278320">
+<para id="fs-id1169595278322"><newline/><span class="token">ⓐ</span> <m:math><m:mrow><m:mroot><m:mrow><m:mn>27</m:mn></m:mrow><m:mn>3</m:mn></m:mroot></m:mrow></m:math><newline/><span class="token">ⓑ</span> <m:math><m:mrow><m:mroot><m:mrow><m:mn>16</m:mn></m:mrow><m:mn>4</m:mn></m:mroot></m:mrow></m:math><newline/><span class="token">ⓒ</span> <m:math><m:mrow><m:mroot><m:mrow><m:mn>243</m:mn></m:mrow><m:mn>5</m:mn></m:mroot></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169595644307">
+<para id="fs-id1169595644309"><span class="token">ⓐ</span> <m:math><m:mn>3</m:mn></m:math> <span class="token">ⓑ</span> <m:math><m:mn>2</m:mn></m:math> <span class="token">ⓒ</span> <m:math><m:mn>3</m:mn></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1169595644341">
+<problem id="fs-id1169595644343">
+<para id="fs-id1169595644345"><newline/><span class="token">ⓐ</span> <m:math><m:mrow><m:mroot><m:mrow><m:mn>512</m:mn></m:mrow><m:mn>3</m:mn></m:mroot></m:mrow></m:math><newline/><span class="token">ⓑ</span> <m:math><m:mrow><m:mroot><m:mrow><m:mn>81</m:mn></m:mrow><m:mn>4</m:mn></m:mroot></m:mrow></m:math><newline/><span class="token">ⓒ</span> <m:math><m:mrow><m:mroot><m:mn>1</m:mn><m:mn>5</m:mn></m:mroot></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1169595333326">
+<problem id="fs-id1169595333328">
+<para id="fs-id1169595333330"><newline/><span class="token">ⓐ</span> <m:math><m:mrow><m:mroot><m:mrow><m:mn>125</m:mn></m:mrow><m:mn>3</m:mn></m:mroot></m:mrow></m:math><newline/><span class="token">ⓑ</span> <m:math><m:mrow><m:mroot><m:mrow><m:mn>1296</m:mn></m:mrow><m:mn>4</m:mn></m:mroot></m:mrow></m:math><newline/><span class="token">ⓒ</span> <m:math><m:mrow><m:mroot><m:mrow><m:mn>1024</m:mn></m:mrow><m:mn>5</m:mn></m:mroot></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169595333376">
+<para id="fs-id1169595333378"><span class="token">ⓐ</span> <m:math><m:mn>5</m:mn></m:math> <span class="token">ⓑ</span> <m:math><m:mn>6</m:mn></m:math> <span class="token">ⓒ</span> <m:math><m:mn>4</m:mn></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1169597725733">
+<problem id="fs-id1169597725735">
+<para id="fs-id1169597725737"><newline/><span class="token">ⓐ</span> <m:math><m:mrow><m:mroot><m:mrow><m:mn>−8</m:mn></m:mrow><m:mn>3</m:mn></m:mroot></m:mrow></m:math><newline/><span class="token">ⓑ</span> <m:math><m:mrow><m:mroot><m:mrow><m:mn>−81</m:mn></m:mrow><m:mn>4</m:mn></m:mroot></m:mrow></m:math><newline/><span class="token">ⓒ</span> <m:math><m:mrow><m:mroot><m:mrow><m:mn>−32</m:mn></m:mrow><m:mn>5</m:mn></m:mroot></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1169595094915">
+<problem id="fs-id1169595094917">
+<para id="fs-id1169595094919"><newline/><span class="token">ⓐ</span> <m:math><m:mrow><m:mroot><m:mrow><m:mn>−64</m:mn></m:mrow><m:mn>3</m:mn></m:mroot></m:mrow></m:math><newline/><span class="token">ⓑ</span> <m:math><m:mrow><m:mroot><m:mrow><m:mn>−16</m:mn></m:mrow><m:mn>4</m:mn></m:mroot></m:mrow></m:math><newline/><span class="token">ⓒ</span> <m:math><m:mrow><m:mroot><m:mrow><m:mn>−243</m:mn></m:mrow><m:mn>5</m:mn></m:mroot></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169595094965">
+<para id="fs-id1169595094968"><span class="token">ⓐ</span> <m:math><m:mrow><m:mn>−4</m:mn></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mtext>not real</m:mtext></m:mrow></m:math> <span class="token">ⓒ</span> <m:math><m:mrow><m:mn>−3</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1169597776155">
+<problem id="fs-id1169597776157">
+<para id="fs-id1169597776160"><newline/><span class="token">ⓐ</span> <m:math><m:mrow><m:mroot><m:mrow><m:mn>−125</m:mn></m:mrow><m:mn>3</m:mn></m:mroot></m:mrow></m:math><newline/><span class="token">ⓑ</span> <m:math><m:mrow><m:mroot><m:mrow><m:mn>−1296</m:mn></m:mrow><m:mn>4</m:mn></m:mroot></m:mrow></m:math><newline/><span class="token">ⓒ</span> <m:math><m:mrow><m:mroot><m:mrow><m:mn>−1024</m:mn></m:mrow><m:mn>5</m:mn></m:mroot></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1169597776238">
+<problem id="fs-id1169597776240">
+<para id="fs-id1169597776242"><newline/><span class="token">ⓐ</span> <m:math><m:mrow><m:mroot><m:mrow><m:mn>−512</m:mn></m:mrow><m:mn>3</m:mn></m:mroot></m:mrow></m:math><newline/><span class="token">ⓑ</span> <m:math><m:mrow><m:mroot><m:mrow><m:mn>−81</m:mn></m:mrow><m:mn>4</m:mn></m:mroot></m:mrow></m:math><newline/><span class="token">ⓒ</span> <m:math><m:mrow><m:mroot><m:mrow><m:mn>−1</m:mn></m:mrow><m:mn>5</m:mn></m:mroot></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169595538612">
+<para id="fs-id1169595538614"><span class="token">ⓐ</span> <m:math><m:mrow><m:mn>−8</m:mn></m:mrow></m:math> <span class="token">ⓑ</span> not a real number <span class="token">ⓒ</span> <m:math><m:mrow><m:mn>−1</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1169595538643">
+<problem id="fs-id1169595538645">
+<para id="fs-id1169595538648"><newline/><span class="token">ⓐ</span> <m:math><m:mrow><m:mroot><m:mrow><m:msup><m:mi>u</m:mi><m:mn>5</m:mn></m:msup></m:mrow><m:mn>5</m:mn></m:mroot></m:mrow></m:math><newline/><span class="token">ⓑ</span> <m:math><m:mrow><m:mroot><m:mrow><m:msup><m:mi>v</m:mi><m:mn>8</m:mn></m:msup></m:mrow><m:mn>8</m:mn></m:mroot></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1169595272367"><problem id="fs-id1169595272369">
+<list id="eip-idm436938448" list-type="enumerated" number-style="arabic" class="circled"><item>
+<para id="fs-id1169595272371">
+<span class="token">ⓐ</span> <m:math><m:mrow><m:mroot><m:mrow><m:msup><m:mi>a</m:mi><m:mn>3</m:mn></m:msup></m:mrow><m:mn>3</m:mn></m:mroot></m:mrow></m:math></para>
+</item>
+<item>
+<para id="eip-idm759794768">
+<span class="token">ⓑ</span> <media id="fs-id1167266377765" alt="."><image mime-type="image/jpeg" src="../../media/CNX_ElemAlg_Figure_09_08_014_img_new.jpg"/></media></para></item>
+</list></problem>
+<solution id="fs-id1169595272411">
+<para id="fs-id1169595272414"><span class="token">ⓐ</span> <m:math><m:mi>a</m:mi></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mrow><m:mo>|</m:mo><m:mi>b</m:mi><m:mo>|</m:mo></m:mrow></m:mrow></m:math></para>
+
+</solution>
+</exercise><exercise id="fs-id1169595643010">
+<problem id="fs-id1169595643013">
+<para id="fs-id1169595643015"><newline/><span class="token">ⓐ</span> <m:math><m:mrow><m:mroot><m:mrow><m:msup><m:mi>y</m:mi><m:mn>4</m:mn></m:msup></m:mrow><m:mn>4</m:mn></m:mroot></m:mrow></m:math><newline/><span class="token">ⓑ</span> <m:math><m:mrow><m:mroot><m:mrow><m:msup><m:mi>m</m:mi><m:mn>7</m:mn></m:msup></m:mrow><m:mn>7</m:mn></m:mroot></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1169595643084">
+<problem id="fs-id1169595643086">
+<para id="fs-id1169595643088"><newline/><span class="token">ⓐ</span> <m:math><m:mrow><m:mroot><m:mrow><m:msup><m:mi>k</m:mi><m:mn>8</m:mn></m:msup></m:mrow><m:mn>8</m:mn></m:mroot></m:mrow></m:math><newline/><span class="token">ⓑ</span> <m:math><m:mrow><m:mroot><m:mrow><m:msup><m:mi>p</m:mi><m:mn>6</m:mn></m:msup></m:mrow><m:mn>6</m:mn></m:mroot></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169595330092">
+<para id="fs-id1169595330094"><span class="token">ⓐ</span> <m:math><m:mrow><m:mrow><m:mo>|</m:mo><m:mi>k</m:mi><m:mo>|</m:mo></m:mrow></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mrow><m:mo>|</m:mo><m:mi>p</m:mi><m:mo>|</m:mo></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1169595330129">
+<problem id="fs-id1169595330131">
+<para id="fs-id1169595330134"><newline/><span class="token">ⓐ</span> <m:math><m:mrow><m:mroot><m:mrow><m:msup><m:mi>x</m:mi><m:mn>9</m:mn></m:msup></m:mrow><m:mn>3</m:mn></m:mroot></m:mrow></m:math><newline/><span class="token">ⓑ</span> <m:math><m:mrow><m:mroot><m:mrow><m:msup><m:mi>y</m:mi><m:mrow><m:mn>12</m:mn></m:mrow></m:msup></m:mrow><m:mn>4</m:mn></m:mroot></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1169595212628">
+<problem id="fs-id1169595212630">
+<para id="fs-id1169595212632"><newline/><span class="token">ⓐ</span> <m:math><m:mrow><m:mroot><m:mrow><m:msup><m:mi>a</m:mi><m:mrow><m:mn>10</m:mn></m:mrow></m:msup></m:mrow><m:mn>5</m:mn></m:mroot></m:mrow></m:math><newline/><span class="token">ⓑ</span> <m:math><m:mrow><m:mroot><m:mrow><m:msup><m:mi>b</m:mi><m:mrow><m:mn>27</m:mn></m:mrow></m:msup></m:mrow><m:mn>3</m:mn></m:mroot></m:mrow></m:math>
+</para>
+</problem>
+<solution id="fs-id1169595212673">
+<para id="fs-id1169595212675"><span class="token">ⓐ</span> <m:math><m:mrow><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:msup><m:mi>b</m:mi><m:mn>9</m:mn></m:msup></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1169595643622">
+<problem id="fs-id1169595643624">
+<para id="fs-id1169595643626"><newline/><span class="token">ⓐ</span> <m:math><m:mrow><m:mroot><m:mrow><m:msup><m:mi>m</m:mi><m:mn>8</m:mn></m:msup></m:mrow><m:mn>4</m:mn></m:mroot></m:mrow></m:math><newline/><span class="token">ⓑ</span> <m:math><m:mrow><m:mroot><m:mrow><m:msup><m:mi>n</m:mi><m:mrow><m:mn>20</m:mn></m:mrow></m:msup></m:mrow><m:mn>5</m:mn></m:mroot></m:mrow></m:math>
+</para>
+</problem>
+</exercise>
+<exercise id="fs-id1169595643700">
+<problem id="fs-id1169595643702">
+<para id="fs-id1169595643704"><newline/><span class="token">ⓐ</span> <m:math><m:mrow><m:mroot><m:mrow><m:msup><m:mi>r</m:mi><m:mrow><m:mn>12</m:mn></m:mrow></m:msup></m:mrow><m:mn>6</m:mn></m:mroot></m:mrow></m:math><newline/><span class="token">ⓑ</span> <m:math><m:mrow><m:mroot><m:mrow><m:msup><m:mi>s</m:mi><m:mrow><m:mn>30</m:mn></m:mrow></m:msup></m:mrow><m:mn>3</m:mn></m:mroot></m:mrow></m:math>
+</para>
+</problem>
+<solution id="fs-id1169595483666">
+<para id="fs-id1169595483668"><span class="token">ⓐ</span> <m:math><m:mrow><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:msup><m:mi>s</m:mi><m:mrow><m:mn>10</m:mn></m:mrow></m:msup></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1169595483699">
+<problem id="fs-id1169595483702">
+<para id="fs-id1169595483704"><newline/><span class="token">ⓐ</span> <m:math><m:mrow><m:mroot><m:mrow><m:mn>16</m:mn><m:msup><m:mi>x</m:mi><m:mn>8</m:mn></m:msup></m:mrow><m:mn>4</m:mn></m:mroot></m:mrow></m:math><newline/><span class="token">ⓑ</span> <m:math><m:mrow><m:mroot><m:mrow><m:mn>64</m:mn><m:msup><m:mi>y</m:mi><m:mrow><m:mn>12</m:mn></m:mrow></m:msup></m:mrow><m:mn>6</m:mn></m:mroot></m:mrow></m:math>
+</para>
+</problem>
+</exercise>
+<exercise id="fs-id1169595497437">
+<problem id="fs-id1169595497439">
+<para id="fs-id1169595497441"><newline/><span class="token">ⓐ</span> <m:math><m:mrow><m:mroot><m:mrow><m:mn>−8</m:mn><m:msup><m:mi>c</m:mi><m:mn>9</m:mn></m:msup></m:mrow><m:mn>3</m:mn></m:mroot></m:mrow></m:math><newline/><span class="token">ⓑ</span> <m:math><m:mrow><m:mroot><m:mrow><m:mn>125</m:mn><m:msup><m:mi>d</m:mi><m:mrow><m:mn>15</m:mn></m:mrow></m:msup></m:mrow><m:mn>3</m:mn></m:mroot></m:mrow></m:math>
+</para>
+</problem>
+<solution id="fs-id1169595497488">
+<para id="fs-id1169595497490"><span class="token">ⓐ</span> <m:math><m:mrow><m:mn>−2</m:mn><m:msup><m:mi>c</m:mi><m:mn>3</m:mn></m:msup></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mn>5</m:mn><m:msup><m:mi>d</m:mi><m:mn>5</m:mn></m:msup></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1169595497525">
+<problem id="fs-id1169595497527">
+<para id="fs-id1169595497529"><newline/><span class="token">ⓐ</span> <m:math><m:mrow><m:mroot><m:mrow><m:mn>216</m:mn><m:msup><m:mi>a</m:mi><m:mn>6</m:mn></m:msup></m:mrow><m:mn>3</m:mn></m:mroot></m:mrow></m:math><newline/><span class="token">ⓑ</span> <m:math><m:mrow><m:mroot><m:mrow><m:mn>32</m:mn><m:msup><m:mi>b</m:mi><m:mrow><m:mn>20</m:mn></m:mrow></m:msup></m:mrow><m:mn>5</m:mn></m:mroot></m:mrow></m:math>
+</para>
+</problem>
+</exercise>
+<exercise id="fs-id1169595508419">
+<problem id="fs-id1169595508422">
+<para id="fs-id1169595508424"><newline/><span class="token">ⓐ</span> <m:math><m:mrow><m:mroot><m:mrow><m:mn>128</m:mn><m:msup><m:mi>r</m:mi><m:mrow><m:mn>14</m:mn></m:mrow></m:msup></m:mrow><m:mn>7</m:mn></m:mroot></m:mrow></m:math><newline/><span class="token">ⓑ</span> <m:math><m:mrow><m:mroot><m:mrow><m:mn>81</m:mn><m:msup><m:mi>s</m:mi><m:mrow><m:mn>24</m:mn></m:mrow></m:msup></m:mrow><m:mn>4</m:mn></m:mroot></m:mrow></m:math>
+</para>
+</problem>
+<solution id="fs-id1169597867767">
+<para id="fs-id1169597867769"><span class="token">ⓐ</span> <m:math><m:mrow><m:mn>2</m:mn><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mn>3</m:mn><m:msup><m:mi>s</m:mi><m:mn>6</m:mn></m:msup></m:mrow></m:math></para>
+</solution>
+</exercise>
+<para id="fs-id1169597867804"><emphasis effect="bold">Use the Product Property to Simplify Expressions with Higher Roots</emphasis></para>
+<para id="fs-id1169597867810">In the following exercises, simplify.</para>
+<exercise id="fs-id1169597867814">
+<problem id="fs-id1169597867816">
+<para id="fs-id1169597867818"><span class="token">ⓐ</span> <m:math><m:mrow><m:mroot><m:mrow><m:msup><m:mi>r</m:mi><m:mn>5</m:mn></m:msup></m:mrow><m:mn>3</m:mn></m:mroot></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mroot><m:mrow><m:msup><m:mi>s</m:mi><m:mrow><m:mn>10</m:mn></m:mrow></m:msup></m:mrow><m:mn>4</m:mn></m:mroot></m:mrow></m:math>
+</para>
+</problem>
+</exercise>
+<exercise id="fs-id1169595640666">
+<problem id="fs-id1169595640668">
+<para id="fs-id1169595640670"><span class="token">ⓐ</span> <m:math><m:mrow><m:mroot><m:mrow><m:msup><m:mi>u</m:mi><m:mn>7</m:mn></m:msup></m:mrow><m:mn>5</m:mn></m:mroot></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mroot><m:mrow><m:msup><m:mi>v</m:mi><m:mrow><m:mn>11</m:mn></m:mrow></m:msup></m:mrow><m:mn>6</m:mn></m:mroot></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169595640709">
+<para id="fs-id1169595640711"><span class="token">ⓐ</span> <m:math><m:mrow><m:mi>u</m:mi><m:mroot><m:mrow><m:msup><m:mi>u</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mn>5</m:mn></m:mroot></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mi>v</m:mi><m:mroot><m:mrow><m:msup><m:mi>v</m:mi><m:mn>5</m:mn></m:msup></m:mrow><m:mn>6</m:mn></m:mroot></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1169595640755">
+<problem id="fs-id1169595640757">
+<para id="fs-id1169595640759"><span class="token">ⓐ</span> <m:math><m:mrow><m:mroot><m:mrow><m:msup><m:mi>m</m:mi><m:mn>5</m:mn></m:msup></m:mrow><m:mn>4</m:mn></m:mroot></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mroot><m:mrow><m:msup><m:mi>n</m:mi><m:mrow><m:mn>10</m:mn></m:mrow></m:msup></m:mrow><m:mn>8</m:mn></m:mroot></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1169595272250">
+<problem id="fs-id1169595272252">
+<para id="fs-id1169595272254"><span class="token">ⓐ</span> <m:math><m:mrow><m:mroot><m:mrow><m:msup><m:mi>p</m:mi><m:mn>8</m:mn></m:msup></m:mrow><m:mn>5</m:mn></m:mroot></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mroot><m:mrow><m:msup><m:mi>q</m:mi><m:mn>8</m:mn></m:msup></m:mrow><m:mn>3</m:mn></m:mroot></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169595272292">
+<para id="fs-id1169595272294"><span class="token">ⓐ</span> <m:math><m:mrow><m:mi>p</m:mi><m:mroot><m:mrow><m:msup><m:mi>p</m:mi><m:mn>3</m:mn></m:msup></m:mrow><m:mn>5</m:mn></m:mroot></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:msup><m:mi>q</m:mi><m:mn>2</m:mn></m:msup><m:mroot><m:mrow><m:msup><m:mi>q</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mn>3</m:mn></m:mroot></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1169595318634">
+<problem id="fs-id1169595318636">
+<para id="fs-id1169595318638"><span class="token">ⓐ</span> <m:math><m:mrow><m:mroot><m:mrow><m:mn>32</m:mn></m:mrow><m:mn>4</m:mn></m:mroot></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mroot><m:mrow><m:mn>64</m:mn></m:mrow><m:mn>5</m:mn></m:mroot></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1169595318707">
+<problem id="fs-id1169595318709">
+<para id="fs-id1169595318711"><span class="token">ⓐ</span> <m:math><m:mrow><m:mroot><m:mrow><m:mn>625</m:mn></m:mrow><m:mn>3</m:mn></m:mroot></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mroot><m:mrow><m:mn>128</m:mn></m:mrow><m:mn>6</m:mn></m:mroot></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169597775700">
+<para id="fs-id1169597775702"><span class="token">ⓐ</span> <m:math><m:mrow><m:mn>5</m:mn><m:mroot><m:mn>5</m:mn><m:mn>3</m:mn></m:mroot></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mn>2</m:mn><m:mroot><m:mn>2</m:mn><m:mn>6</m:mn></m:mroot></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1169597775737">
+<problem id="fs-id1169597775740">
+<para id="fs-id1169597775742"><span class="token">ⓐ</span> <m:math><m:mrow><m:mroot><m:mrow><m:mn>64</m:mn></m:mrow><m:mn>5</m:mn></m:mroot></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mroot><m:mrow><m:mn>256</m:mn></m:mrow><m:mn>3</m:mn></m:mroot></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1169597775810">
+<problem id="fs-id1169597775813">
+<para id="fs-id1169597775815"><span class="token">ⓐ</span> <m:math><m:mrow><m:mroot><m:mrow><m:mn>3125</m:mn></m:mrow><m:mn>4</m:mn></m:mroot></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mroot><m:mrow><m:mn>81</m:mn></m:mrow><m:mn>3</m:mn></m:mroot></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169595484486">
+<para id="fs-id1169595484488"><span class="token">ⓐ</span> <m:math><m:mrow><m:mn>5</m:mn><m:mroot><m:mn>5</m:mn><m:mn>4</m:mn></m:mroot></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mn>3</m:mn><m:mroot><m:mn>3</m:mn><m:mn>3</m:mn></m:mroot></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1169595484523">
+<problem id="fs-id1169595484525">
+<para id="fs-id1169595484527"><span class="token">ⓐ</span> <m:math><m:mrow><m:mroot><m:mrow><m:mn>108</m:mn><m:msup><m:mi>x</m:mi><m:mn>5</m:mn></m:msup></m:mrow><m:mn>3</m:mn></m:mroot></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mroot><m:mrow><m:mn>48</m:mn><m:msup><m:mi>y</m:mi><m:mn>6</m:mn></m:msup></m:mrow><m:mn>4</m:mn></m:mroot></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1169597838373">
+<problem id="fs-id1169597838376">
+<para id="fs-id1169597838378"><span class="token">ⓐ</span> <m:math><m:mrow><m:mroot><m:mrow><m:mn>96</m:mn><m:msup><m:mi>a</m:mi><m:mn>7</m:mn></m:msup></m:mrow><m:mn>5</m:mn></m:mroot></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mroot><m:mrow><m:mn>375</m:mn><m:msup><m:mi>b</m:mi><m:mn>4</m:mn></m:msup></m:mrow><m:mn>3</m:mn></m:mroot></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169597838420">
+<para id="fs-id1169597838422"><span class="token">ⓐ</span> <m:math><m:mrow><m:mn>2</m:mn><m:mi>a</m:mi><m:mroot><m:mrow><m:mn>3</m:mn><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mn>5</m:mn></m:mroot></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mn>5</m:mn><m:mi>b</m:mi><m:mroot><m:mrow><m:mn>3</m:mn><m:mi>b</m:mi></m:mrow><m:mn>3</m:mn></m:mroot></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1169597838471">
+<problem id="fs-id1169597838473">
+<para id="fs-id1169595162791"><span class="token">ⓐ</span> <m:math><m:mrow><m:mroot><m:mrow><m:mn>405</m:mn><m:msup><m:mi>m</m:mi><m:mrow><m:mn>10</m:mn></m:mrow></m:msup></m:mrow><m:mn>4</m:mn></m:mroot></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mroot><m:mrow><m:mn>160</m:mn><m:msup><m:mi>n</m:mi><m:mn>8</m:mn></m:msup></m:mrow><m:mn>5</m:mn></m:mroot></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1169595162891">
+<problem id="fs-id1169595162893">
+<para id="fs-id1169595162895"><span class="token">ⓐ</span> <m:math><m:mrow><m:mroot><m:mrow><m:mn>512</m:mn><m:msup><m:mi>p</m:mi><m:mn>5</m:mn></m:msup></m:mrow><m:mn>3</m:mn></m:mroot></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mroot><m:mrow><m:mn>324</m:mn><m:msup><m:mi>q</m:mi><m:mn>7</m:mn></m:msup></m:mrow><m:mn>4</m:mn></m:mroot></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169595644850">
+<para id="fs-id1169595644853"><span class="token">ⓐ</span> <m:math><m:mrow><m:mn>8</m:mn><m:mi>p</m:mi><m:mroot><m:mrow><m:msup><m:mi>p</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mn>3</m:mn></m:mroot></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mn>3</m:mn><m:mi>q</m:mi><m:mroot><m:mrow><m:mn>4</m:mn><m:msup><m:mi>q</m:mi><m:mn>3</m:mn></m:msup></m:mrow><m:mn>4</m:mn></m:mroot></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1169595644902">
+<problem id="fs-id1169595644905">
+<para id="fs-id1169595644907"><span class="token">ⓐ</span> <m:math><m:mrow><m:mroot><m:mrow><m:mn>−864</m:mn></m:mrow><m:mn>3</m:mn></m:mroot></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mroot><m:mrow><m:mn>−256</m:mn></m:mrow><m:mn>4</m:mn></m:mroot></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1169595644970">
+<problem id="fs-id1169595644972">
+<para id="fs-id1169595247474"><span class="token">ⓐ</span> <m:math><m:mrow><m:mroot><m:mrow><m:mn>−486</m:mn></m:mrow><m:mn>5</m:mn></m:mroot></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mroot><m:mrow><m:mn>−64</m:mn></m:mrow><m:mn>6</m:mn></m:mroot></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169595247505">
+<para id="fs-id1169595247507"><span class="token">ⓐ</span> <m:math><m:mrow><m:mn>−3</m:mn><m:mroot><m:mn>2</m:mn><m:mn>5</m:mn></m:mroot></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mtext>not real</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1169595247537">
+<problem id="fs-id1169595247539">
+<para id="fs-id1169595247541"><span class="token">ⓐ</span> <m:math><m:mrow><m:mroot><m:mrow><m:mn>−32</m:mn></m:mrow><m:mn>5</m:mn></m:mroot></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mroot><m:mrow><m:mn>−1</m:mn></m:mrow><m:mn>8</m:mn></m:mroot></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1169595247599">
+<problem id="fs-id1169595247601">
+<para id="fs-id1169595247603"><span class="token">ⓐ</span> <m:math><m:mrow><m:mroot><m:mrow><m:mn>−8</m:mn></m:mrow><m:mn>3</m:mn></m:mroot></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mroot><m:mrow><m:mn>−16</m:mn></m:mrow><m:mn>4</m:mn></m:mroot></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169595097909">
+<para id="fs-id1169595097912"><span class="token">ⓐ</span> <m:math><m:mrow><m:mn>−2</m:mn></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mtext>not real</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<para id="fs-id1169595097936"><emphasis effect="bold">Use the Quotient Property to Simplify Expressions with Higher Roots</emphasis></para>
+<para id="fs-id1169595097942">In the following exercises, simplify.</para>
+<exercise id="fs-id1169595097945">
+<problem id="fs-id1169595097947">
+<para id="fs-id1169595097950"><span class="token">ⓐ</span> <m:math><m:mrow><m:mroot><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>p</m:mi><m:mrow><m:mn>11</m:mn></m:mrow></m:msup></m:mrow><m:mrow><m:msup><m:mi>p</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow><m:mn>3</m:mn></m:mroot></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mroot><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>q</m:mi><m:mrow><m:mn>17</m:mn></m:mrow></m:msup></m:mrow><m:mrow><m:msup><m:mi>q</m:mi><m:mrow><m:mn>13</m:mn></m:mrow></m:msup></m:mrow></m:mfrac></m:mrow><m:mn>4</m:mn></m:mroot></m:mrow></m:math>
+</para>
+</problem>
+</exercise>
+<exercise id="fs-id1169595360371">
+<problem id="fs-id1169595360373">
+<para id="fs-id1169595360375"><span class="token">ⓐ</span> <m:math><m:mrow><m:mroot><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>d</m:mi><m:mrow><m:mn>12</m:mn></m:mrow></m:msup></m:mrow><m:mrow><m:msup><m:mi>d</m:mi><m:mn>7</m:mn></m:msup></m:mrow></m:mfrac></m:mrow><m:mn>5</m:mn></m:mroot></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mroot><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>m</m:mi><m:mrow><m:mn>12</m:mn></m:mrow></m:msup></m:mrow><m:mrow><m:msup><m:mi>m</m:mi><m:mn>4</m:mn></m:msup></m:mrow></m:mfrac></m:mrow><m:mn>8</m:mn></m:mroot></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169595360432">
+<para id="fs-id1169595360435"><span class="token">ⓐ</span> <m:math><m:mi>d</m:mi></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mrow><m:mo>|</m:mo><m:mi>m</m:mi><m:mo>|</m:mo></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1169595360463">
+<problem id="fs-id1169595360465">
+<para id="fs-id1169595360467"><span class="token">ⓐ</span> <m:math><m:mrow><m:mroot><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>u</m:mi><m:mrow><m:mn>21</m:mn></m:mrow></m:msup></m:mrow><m:mrow><m:msup><m:mi>u</m:mi><m:mrow><m:mn>11</m:mn></m:mrow></m:msup></m:mrow></m:mfrac></m:mrow><m:mn>5</m:mn></m:mroot></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mroot><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>v</m:mi><m:mrow><m:mn>30</m:mn></m:mrow></m:msup></m:mrow><m:mrow><m:msup><m:mi>v</m:mi><m:mrow><m:mn>12</m:mn></m:mrow></m:msup></m:mrow></m:mfrac></m:mrow><m:mn>6</m:mn></m:mroot></m:mrow></m:math>
+</para>
+</problem>
+</exercise>
+<exercise id="fs-id1169595184003">
+<problem id="fs-id1169595184005">
+<para id="fs-id1169595184007"><span class="token">ⓐ</span> <m:math><m:mrow><m:mroot><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>r</m:mi><m:mrow><m:mn>14</m:mn></m:mrow></m:msup></m:mrow><m:mrow><m:msup><m:mi>r</m:mi><m:mn>5</m:mn></m:msup></m:mrow></m:mfrac></m:mrow><m:mn>3</m:mn></m:mroot></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mroot><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>c</m:mi><m:mrow><m:mn>21</m:mn></m:mrow></m:msup></m:mrow><m:mrow><m:msup><m:mi>c</m:mi><m:mn>9</m:mn></m:msup></m:mrow></m:mfrac></m:mrow><m:mn>4</m:mn></m:mroot></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169595184064">
+<para id="fs-id1169595184066"><span class="token">ⓐ</span> <m:math><m:mrow><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mrow><m:mo>|</m:mo><m:mrow><m:msup><m:mi>c</m:mi><m:mn>3</m:mn></m:msup></m:mrow><m:mo>|</m:mo></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1169595272746">
+<problem id="fs-id1169595272749">
+<para id="fs-id1169595272751"><span class="token">ⓐ</span> <m:math><m:mrow><m:mfrac><m:mrow><m:mroot><m:mrow><m:mn>64</m:mn></m:mrow><m:mn>4</m:mn></m:mroot></m:mrow><m:mrow><m:mroot><m:mn>2</m:mn><m:mn>4</m:mn></m:mroot></m:mrow></m:mfrac></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mfrac><m:mrow><m:mroot><m:mrow><m:mn>128</m:mn><m:msup><m:mi>x</m:mi><m:mn>8</m:mn></m:msup></m:mrow><m:mn>5</m:mn></m:mroot></m:mrow><m:mrow><m:mroot><m:mrow><m:mn>2</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mn>5</m:mn></m:mroot></m:mrow></m:mfrac></m:mrow></m:math>
+</para>
+</problem>
+</exercise>
+<exercise id="fs-id1169595272855">
+<problem id="fs-id1169595272857">
+<para id="fs-id1169595583773"><span class="token">ⓐ</span> <m:math><m:mrow><m:mfrac><m:mrow><m:mroot><m:mrow><m:mn>−625</m:mn></m:mrow><m:mn>3</m:mn></m:mroot></m:mrow><m:mrow><m:mroot><m:mn>5</m:mn><m:mn>3</m:mn></m:mroot></m:mrow></m:mfrac></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mfrac><m:mrow><m:mroot><m:mrow><m:mn>80</m:mn><m:msup><m:mi>m</m:mi><m:mn>7</m:mn></m:msup></m:mrow><m:mn>4</m:mn></m:mroot></m:mrow><m:mrow><m:mroot><m:mrow><m:mn>5</m:mn><m:mi>m</m:mi></m:mrow><m:mn>4</m:mn></m:mroot></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169595583832">
+<para id="fs-id1169595583834"><span class="token">ⓐ</span> <m:math><m:mrow><m:mn>−5</m:mn></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mn>4</m:mn><m:mi>m</m:mi><m:mroot><m:mrow><m:msup><m:mi>m</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mn>4</m:mn></m:mroot></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1169595583870">
+<problem id="fs-id1169595583873">
+<para id="fs-id1169595583875"><span class="token">ⓐ</span> <m:math><m:mrow><m:mroot><m:mrow><m:mfrac><m:mrow><m:mn>1050</m:mn></m:mrow><m:mn>2</m:mn></m:mfrac></m:mrow><m:mn>3</m:mn></m:mroot></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mroot><m:mrow><m:mfrac><m:mrow><m:mn>486</m:mn><m:msup><m:mi>y</m:mi><m:mn>9</m:mn></m:msup></m:mrow><m:mrow><m:mn>2</m:mn><m:msup><m:mi>y</m:mi><m:mn>3</m:mn></m:msup></m:mrow></m:mfrac></m:mrow><m:mn>4</m:mn></m:mroot></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1169595260149">
+<problem id="fs-id1169595260151">
+<para id="fs-id1169595260153"><span class="token">ⓐ</span> <m:math><m:mrow><m:mroot><m:mrow><m:mfrac><m:mrow><m:mn>162</m:mn></m:mrow><m:mn>6</m:mn></m:mfrac></m:mrow><m:mn>3</m:mn></m:mroot></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mroot><m:mrow><m:mfrac><m:mrow><m:mn>160</m:mn><m:msup><m:mi>r</m:mi><m:mrow><m:mn>10</m:mn></m:mrow></m:msup></m:mrow><m:mrow><m:mn>5</m:mn><m:msup><m:mi>r</m:mi><m:mn>3</m:mn></m:msup></m:mrow></m:mfrac></m:mrow><m:mn>4</m:mn></m:mroot></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169595260206">
+<para id="fs-id1169595260209"><span class="token">ⓐ</span> <m:math><m:mrow><m:mn>3</m:mn><m:mroot><m:mn>6</m:mn><m:mn>3</m:mn></m:mroot></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mn>2</m:mn><m:mrow><m:mo>|</m:mo><m:mrow><m:mi>r</m:mi></m:mrow><m:mo>|</m:mo></m:mrow><m:mroot><m:mrow><m:mn>2</m:mn><m:msup><m:mi>r</m:mi><m:mn>3</m:mn></m:msup></m:mrow><m:mn>4</m:mn></m:mroot></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1169595320196">
+<problem id="fs-id1169595320198">
+<para id="fs-id1169595320200"><span class="token">ⓐ</span> <m:math><m:mrow><m:mroot><m:mrow><m:mfrac><m:mrow><m:mn>54</m:mn><m:msup><m:mi>a</m:mi><m:mn>8</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mi>b</m:mi><m:mn>3</m:mn></m:msup></m:mrow></m:mfrac></m:mrow><m:mn>3</m:mn></m:mroot></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mroot><m:mrow><m:mfrac><m:mrow><m:mn>64</m:mn><m:msup><m:mi>c</m:mi><m:mn>5</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mi>d</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow><m:mn>4</m:mn></m:mroot></m:mrow></m:math>
+</para>
+</problem>
+</exercise>
+<exercise id="fs-id1169595307134">
+<problem id="fs-id1169595307136">
+<para id="fs-id1169595307138"><span class="token">ⓐ</span> <m:math><m:mrow><m:mroot><m:mrow><m:mfrac><m:mrow><m:mn>96</m:mn><m:msup><m:mi>r</m:mi><m:mrow><m:mn>11</m:mn></m:mrow></m:msup></m:mrow><m:mrow><m:msup><m:mi>s</m:mi><m:mn>3</m:mn></m:msup></m:mrow></m:mfrac></m:mrow><m:mn>5</m:mn></m:mroot></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mroot><m:mrow><m:mfrac><m:mrow><m:mn>128</m:mn><m:msup><m:mi>u</m:mi><m:mn>7</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mi>v</m:mi><m:mn>3</m:mn></m:msup></m:mrow></m:mfrac></m:mrow><m:mn>6</m:mn></m:mroot></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169595307199">
+<para id="fs-id1169595307201"><span class="token">ⓐ</span> <m:math><m:mrow><m:mfrac><m:mrow><m:mn>2</m:mn><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup><m:mroot><m:mrow><m:mn>3</m:mn><m:mi>r</m:mi></m:mrow><m:mn>5</m:mn></m:mroot></m:mrow><m:mrow><m:msup><m:mi>s</m:mi><m:mn>3</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mfrac><m:mrow><m:mn>2</m:mn><m:msup><m:mi>u</m:mi><m:mn>3</m:mn></m:msup><m:mroot><m:mrow><m:mn>2</m:mn><m:mi>u</m:mi><m:mi>v</m:mi><m:mn>3</m:mn></m:mrow><m:mn>6</m:mn></m:mroot></m:mrow><m:mi>v</m:mi></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1169595307269">
+<problem id="fs-id1169595307271">
+<para id="fs-id1169595307273"><span class="token">ⓐ</span> <m:math><m:mrow><m:mroot><m:mrow><m:mfrac><m:mrow><m:mn>81</m:mn><m:msup><m:mi>s</m:mi><m:mn>8</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mi>t</m:mi><m:mn>3</m:mn></m:msup></m:mrow></m:mfrac></m:mrow><m:mn>3</m:mn></m:mroot></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mroot><m:mrow><m:mfrac><m:mrow><m:mn>64</m:mn><m:msup><m:mi>p</m:mi><m:mrow><m:mn>15</m:mn></m:mrow></m:msup></m:mrow><m:mrow><m:msup><m:mi>q</m:mi><m:mrow><m:mn>12</m:mn></m:mrow></m:msup></m:mrow></m:mfrac></m:mrow><m:mn>4</m:mn></m:mroot></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1169597849443">
+<problem id="fs-id1169597849445">
+<para id="fs-id1169595265172"><span class="token">ⓐ</span> <m:math><m:mrow><m:mroot><m:mrow><m:mfrac><m:mrow><m:mn>625</m:mn><m:msup><m:mi>u</m:mi><m:mrow><m:mn>10</m:mn></m:mrow></m:msup></m:mrow><m:mrow><m:msup><m:mi>v</m:mi><m:mn>3</m:mn></m:msup></m:mrow></m:mfrac></m:mrow><m:mn>3</m:mn></m:mroot></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mroot><m:mrow><m:mfrac><m:mrow><m:mn>729</m:mn><m:msup><m:mi>c</m:mi><m:mrow><m:mn>21</m:mn></m:mrow></m:msup></m:mrow><m:mrow><m:msup><m:mi>d</m:mi><m:mn>8</m:mn></m:msup></m:mrow></m:mfrac></m:mrow><m:mn>4</m:mn></m:mroot></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169595265234">
+<para id="fs-id1169595265236"><span class="token">ⓐ</span> <m:math><m:mrow><m:mfrac><m:mrow><m:mn>5</m:mn><m:msup><m:mi>u</m:mi><m:mn>3</m:mn></m:msup><m:mroot><m:mrow><m:mn>5</m:mn><m:mi>u</m:mi></m:mrow><m:mn>3</m:mn></m:mroot></m:mrow><m:mi>v</m:mi></m:mfrac></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mfrac><m:mrow><m:mn>3</m:mn><m:msup><m:mi>c</m:mi><m:mn>5</m:mn></m:msup><m:mroot><m:mrow><m:mn>9</m:mn><m:mi>c</m:mi></m:mrow><m:mn>4</m:mn></m:mroot></m:mrow><m:mrow><m:msup><m:mi>d</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+<para id="fs-id1169595265301"><emphasis effect="bold">Add and Subtract Higher Roots</emphasis></para>
+<para id="fs-id1169595265307">In the following exercises, simplify.</para>
+<exercise id="fs-id1169595265310">
+<problem id="fs-id1169595265312">
+<para id="fs-id1169595265314"><newline/><span class="token">ⓐ</span> <m:math><m:mrow><m:mroot><m:mrow><m:mn>8</m:mn><m:mi>p</m:mi></m:mrow><m:mn>7</m:mn></m:mroot><m:mo>+</m:mo><m:mroot><m:mrow><m:mn>8</m:mn><m:mi>p</m:mi></m:mrow><m:mn>7</m:mn></m:mroot></m:mrow></m:math><newline/><span class="token">ⓑ</span> <m:math><m:mrow><m:mn>3</m:mn><m:mroot><m:mrow><m:mn>25</m:mn></m:mrow><m:mn>3</m:mn></m:mroot><m:mo>−</m:mo><m:mroot><m:mrow><m:mn>25</m:mn></m:mrow><m:mn>3</m:mn></m:mroot></m:mrow></m:math>
+</para>
+</problem>
+</exercise>
+<exercise id="fs-id1169595626897">
+<problem id="fs-id1169595626899">
+<para id="fs-id1169595626901"><newline/><span class="token">ⓐ</span> <m:math><m:mrow><m:mroot><m:mrow><m:mn>15</m:mn><m:mi>q</m:mi></m:mrow><m:mn>3</m:mn></m:mroot><m:mo>+</m:mo><m:mroot><m:mrow><m:mn>15</m:mn><m:mi>q</m:mi></m:mrow><m:mn>3</m:mn></m:mroot></m:mrow></m:math><newline/><span class="token">ⓑ</span> <m:math><m:mrow><m:mn>2</m:mn><m:mroot><m:mrow><m:mn>27</m:mn></m:mrow><m:mn>4</m:mn></m:mroot><m:mo>−</m:mo><m:mn>6</m:mn><m:mroot><m:mrow><m:mn>27</m:mn></m:mrow><m:mn>4</m:mn></m:mroot></m:mrow></m:math>
+</para>
+</problem>
+<solution id="fs-id1169595626960">
+<para id="fs-id1169595626962"><span class="token">ⓐ</span> <m:math><m:mrow><m:mn>2</m:mn><m:mroot><m:mrow><m:mn>15</m:mn><m:mi>q</m:mi></m:mrow><m:mn>3</m:mn></m:mroot></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mn>−4</m:mn><m:mroot><m:mrow><m:mn>27</m:mn></m:mrow><m:mn>4</m:mn></m:mroot></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1169597707247">
+<problem id="fs-id1169597707249">
+<para id="fs-id1169597707251"><newline/><span class="token">ⓐ</span> <m:math><m:mrow><m:mn>3</m:mn><m:mroot><m:mrow><m:mn>9</m:mn><m:mi>x</m:mi></m:mrow><m:mn>5</m:mn></m:mroot><m:mo>+</m:mo><m:mn>7</m:mn><m:mroot><m:mrow><m:mn>9</m:mn><m:mi>x</m:mi></m:mrow><m:mn>5</m:mn></m:mroot></m:mrow></m:math><newline/><span class="token">ⓑ</span> <m:math><m:mrow><m:mn>8</m:mn><m:mroot><m:mrow><m:mn>3</m:mn><m:mi>q</m:mi></m:mrow><m:mn>7</m:mn></m:mroot><m:mo>−</m:mo><m:mn>2</m:mn><m:mroot><m:mrow><m:mn>3</m:mn><m:mi>q</m:mi></m:mrow><m:mn>7</m:mn></m:mroot></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1169597707360">
+<problem id="fs-id1169597707362">
+<para id="fs-id1169595223427"><newline/><span class="token">ⓐ</span> <media id="fs-id1167265409012" alt="."><image mime-type="image/jpeg" src="../../media/CNX_ElemAlg_Figure_09_08_007_img_new.jpg"/></media><newline/><span class="token">ⓑ</span> <media id="fs-id1167263402819" alt="."><image mime-type="image/jpeg" src="../../media/CNX_ElemAlg_Figure_09_08_008_img_new.jpg"/></media></para>
+</problem>
+<solution id="fs-id1169595223497">
+<para id="fs-id1169595223499"><span class="token">ⓐ</span> <media id="fs-id1167263402841" alt="."><image mime-type="image/jpeg" src="../../media/CNX_ElemAlg_Figure_09_08_004_img_new.jpg"/></media> <span class="token">ⓑ</span> <media id="fs-id1167261016663" alt="."><image mime-type="image/jpeg" src="../../media/CNX_ElemAlg_Figure_09_08_005_img_new.jpg"/></media></para>
+</solution>
+</exercise>
+<exercise id="fs-id1169595223543">
+<problem id="fs-id1169595223545">
+<para id="fs-id1169595223547"><newline/><span class="token">ⓐ</span> <m:math><m:mrow><m:mroot><m:mrow><m:mn>81</m:mn></m:mrow><m:mn>3</m:mn></m:mroot><m:mo>−</m:mo><m:mroot><m:mrow><m:mn>192</m:mn></m:mrow><m:mn>3</m:mn></m:mroot></m:mrow></m:math><newline/><span class="token">ⓑ</span> <m:math><m:mrow><m:mroot><m:mrow><m:mn>512</m:mn></m:mrow><m:mn>4</m:mn></m:mroot><m:mo>−</m:mo><m:mroot><m:mrow><m:mn>32</m:mn></m:mrow><m:mn>4</m:mn></m:mroot></m:mrow></m:math>
+</para>
+</problem>
+</exercise>
+<exercise id="fs-id1169595107165">
+<problem id="fs-id1169595107167">
+<para id="fs-id1169595107170"><newline/><span class="token">ⓐ</span> <m:math><m:mrow><m:mroot><m:mrow><m:mn>250</m:mn></m:mrow><m:mn>3</m:mn></m:mroot><m:mo>−</m:mo><m:mroot><m:mrow><m:mn>54</m:mn></m:mrow><m:mn>3</m:mn></m:mroot></m:mrow></m:math><newline/><span class="token">ⓑ</span> <m:math><m:mrow><m:mroot><m:mrow><m:mn>243</m:mn></m:mrow><m:mn>4</m:mn></m:mroot><m:mo>−</m:mo><m:mroot><m:mrow><m:mn>1875</m:mn></m:mrow><m:mn>4</m:mn></m:mroot></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169595107218">
+<para id="fs-id1169595107220"><span class="token">ⓐ</span> <m:math><m:mrow><m:mn>5</m:mn><m:mroot><m:mn>5</m:mn><m:mn>3</m:mn></m:mroot><m:mo>−</m:mo><m:mn>3</m:mn><m:mroot><m:mn>2</m:mn><m:mn>3</m:mn></m:mroot></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mn>−2</m:mn><m:mroot><m:mn>3</m:mn><m:mn>4</m:mn></m:mroot></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1169595107265">
+<problem id="fs-id1169595107267">
+<para id="fs-id1169595107269"><newline/><span class="token">ⓐ</span> <m:math><m:mrow><m:mroot><m:mrow><m:mn>128</m:mn></m:mrow><m:mn>3</m:mn></m:mroot><m:mo>+</m:mo><m:mroot><m:mrow><m:mn>250</m:mn></m:mrow><m:mn>3</m:mn></m:mroot></m:mrow></m:math><newline/><span class="token">ⓑ</span> <m:math><m:mrow><m:mroot><m:mrow><m:mn>729</m:mn></m:mrow><m:mn>5</m:mn></m:mroot><m:mo>+</m:mo><m:mroot><m:mrow><m:mn>96</m:mn></m:mrow><m:mn>5</m:mn></m:mroot></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1169595265040">
+<problem id="fs-id1169595265042">
+<para id="fs-id1169595265044"><newline/><span class="token">ⓐ</span> <m:math><m:mrow><m:mroot><m:mrow><m:mn>243</m:mn></m:mrow><m:mn>4</m:mn></m:mroot><m:mo>+</m:mo><m:mroot><m:mrow><m:mn>1250</m:mn></m:mrow><m:mn>4</m:mn></m:mroot></m:mrow></m:math><newline/><span class="token">ⓑ</span> <m:math><m:mrow><m:mroot><m:mrow><m:mn>2000</m:mn></m:mrow><m:mn>3</m:mn></m:mroot><m:mo>+</m:mo><m:mroot><m:mrow><m:mn>54</m:mn></m:mrow><m:mn>3</m:mn></m:mroot></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169595265093">
+<para id="fs-id1169595265095"><span class="token">ⓐ</span> <m:math><m:mrow><m:mn>3</m:mn><m:mroot><m:mn>3</m:mn><m:mn>4</m:mn></m:mroot><m:mo>+</m:mo><m:mn>5</m:mn><m:mroot><m:mn>2</m:mn><m:mn>4</m:mn></m:mroot></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mn>13</m:mn><m:mroot><m:mn>2</m:mn><m:mn>3</m:mn></m:mroot></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1169595265139">
+<problem id="fs-id1169595265142">
+<para id="fs-id1169597808888"><newline/><span class="token">ⓐ</span> <m:math><m:mrow><m:mroot><m:mrow><m:mn>64</m:mn><m:msup><m:mi>a</m:mi><m:mrow><m:mn>10</m:mn></m:mrow></m:msup></m:mrow><m:mn>3</m:mn></m:mroot><m:mo>−</m:mo><m:mroot><m:mrow><m:mn>−216</m:mn><m:msup><m:mi>a</m:mi><m:mrow><m:mn>12</m:mn></m:mrow></m:msup></m:mrow><m:mn>3</m:mn></m:mroot></m:mrow></m:math><newline/><span class="token">ⓑ</span> <m:math><m:mrow><m:mroot><m:mrow><m:mn>486</m:mn><m:msup><m:mi>u</m:mi><m:mn>7</m:mn></m:msup></m:mrow><m:mn>4</m:mn></m:mroot><m:mo>+</m:mo><m:mroot><m:mrow><m:mn>768</m:mn><m:msup><m:mi>u</m:mi><m:mn>3</m:mn></m:msup></m:mrow><m:mn>4</m:mn></m:mroot></m:mrow></m:math>
+</para>
+</problem>
+</exercise>
+<exercise id="fs-id1169597809040">
+<problem id="fs-id1169597809042">
+<para id="fs-id1169597809044"><newline/><span class="token">ⓐ</span> <m:math><m:mrow><m:mroot><m:mrow><m:mn>80</m:mn><m:msup><m:mi>b</m:mi><m:mn>5</m:mn></m:msup></m:mrow><m:mn>3</m:mn></m:mroot><m:mo>−</m:mo><m:mroot><m:mrow><m:mn>−270</m:mn><m:msup><m:mi>b</m:mi><m:mn>3</m:mn></m:msup></m:mrow><m:mn>3</m:mn></m:mroot></m:mrow></m:math><newline/><span class="token">ⓑ</span> <m:math><m:mrow><m:mroot><m:mrow><m:mn>160</m:mn><m:msup><m:mi>v</m:mi><m:mrow><m:mn>10</m:mn></m:mrow></m:msup></m:mrow><m:mn>4</m:mn></m:mroot><m:mo>−</m:mo><m:mroot><m:mrow><m:mn>1280</m:mn><m:msup><m:mi>v</m:mi><m:mn>3</m:mn></m:msup></m:mrow><m:mn>4</m:mn></m:mroot></m:mrow></m:math>
+</para>
+</problem>
+<solution id="fs-id1169597875142">
+<para id="fs-id1169597875144"><span class="token">ⓐ</span> <m:math><m:mrow><m:mn>2</m:mn><m:mi>b</m:mi><m:mroot><m:mrow><m:mn>10</m:mn><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mn>3</m:mn></m:mroot><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>b</m:mi><m:mroot><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:mroot></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mn>2</m:mn><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup><m:mroot><m:mrow><m:mn>10</m:mn><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mn>4</m:mn></m:mroot><m:mo>−</m:mo><m:mn>4</m:mn><m:mroot><m:mrow><m:mn>5</m:mn><m:msup><m:mi>v</m:mi><m:mn>3</m:mn></m:msup></m:mrow><m:mn>4</m:mn></m:mroot></m:mrow></m:math></para>
+</solution>
+</exercise>
+<para id="fs-id1169597875228"><emphasis effect="bold">Mixed Practice</emphasis></para>
+<para id="fs-id1169597875235">In the following exercises, simplify.</para>
+<exercise id="fs-id1169597875238">
+<problem id="fs-id1169597875240">
+<para id="fs-id1169597875242"><m:math><m:mrow><m:mroot><m:mrow><m:mn>16</m:mn></m:mrow><m:mn>4</m:mn></m:mroot></m:mrow></m:math>
+</para>
+</problem>
+</exercise>
+<exercise id="fs-id1169595543936">
+<problem id="fs-id1169595543938">
+<para id="fs-id1169595543940"><m:math><m:mrow><m:mroot><m:mrow><m:mn>64</m:mn></m:mrow><m:mn>6</m:mn></m:mroot></m:mrow></m:math>
+</para>
+</problem>
+<solution id="fs-id1169595543953">
+<para id="fs-id1169595543955"><m:math><m:mn>2</m:mn></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1169595543963">
+<problem id="fs-id1169595543965">
+<para id="fs-id1169595543967"><m:math><m:mrow><m:mroot><m:mrow><m:msup><m:mi>a</m:mi><m:mn>3</m:mn></m:msup></m:mrow><m:mn>3</m:mn></m:mroot></m:mrow></m:math>
+</para>
+</problem>
+</exercise>
+<exercise id="fs-id1169595543993">
+<problem id="fs-id1169595543995">
+<para id="fs-id1171791296089"><media id="fs-id1171791434127" alt="."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_09_08_014_img_new.jpg"/></media></para>
+</problem>
+<solution id="fs-id1169595544017">
+<para id="fs-id1169595544019"><m:math><m:mrow><m:mrow><m:mo>|</m:mo><m:mi>b</m:mi><m:mo>|</m:mo></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1169595544033">
+<problem id="fs-id1169595544035">
+<para id="fs-id1169595544037"><m:math><m:mrow><m:mroot><m:mrow><m:mn>−8</m:mn><m:msup><m:mi>c</m:mi><m:mn>9</m:mn></m:msup></m:mrow><m:mn>3</m:mn></m:mroot></m:mrow></m:math>
+</para>
+</problem>
+</exercise>
+<exercise id="fs-id1169595544074">
+<problem id="fs-id1169595544076">
+<para id="fs-id1169595544078"><m:math><m:mrow><m:mroot><m:mrow><m:mn>125</m:mn><m:msup><m:mi>d</m:mi><m:mrow><m:mn>15</m:mn></m:mrow></m:msup></m:mrow><m:mn>3</m:mn></m:mroot></m:mrow></m:math>
+</para>
+</problem>
+<solution id="fs-id1169597750841">
+<para id="fs-id1169597750843"><m:math><m:mrow><m:mn>5</m:mn><m:msup><m:mi>d</m:mi><m:mn>5</m:mn></m:msup></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1169597750857">
+<problem id="fs-id1169597750859">
+<para id="fs-id1169597750861"><m:math><m:mrow><m:mroot><m:mrow><m:msup><m:mi>r</m:mi><m:mn>5</m:mn></m:msup></m:mrow><m:mn>3</m:mn></m:mroot></m:mrow></m:math>
+</para>
+</problem>
+</exercise>
+<exercise id="fs-id1169597750898">
+<problem id="fs-id1169597750900">
+<para id="fs-id1169597750902"><m:math><m:mrow><m:mroot><m:mrow><m:msup><m:mi>s</m:mi><m:mrow><m:mn>10</m:mn></m:mrow></m:msup></m:mrow><m:mn>4</m:mn></m:mroot></m:mrow></m:math>
+</para>
+</problem>
+<solution id="fs-id1169597750919">
+<para id="fs-id1169597750921"><m:math><m:mrow><m:msup><m:mi>s</m:mi><m:mn>2</m:mn></m:msup><m:mroot><m:mrow><m:msup><m:mi>s</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mn>4</m:mn></m:mroot></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1169597750942">
+<problem id="fs-id1169597750945">
+<para id="fs-id1169597750947"><m:math><m:mrow><m:mroot><m:mrow><m:mn>108</m:mn><m:msup><m:mi>x</m:mi><m:mn>5</m:mn></m:msup></m:mrow><m:mn>3</m:mn></m:mroot></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1169597750988">
+<problem id="fs-id1169597750990">
+<para id="fs-id1169597750993"><m:math><m:mrow><m:mroot><m:mrow><m:mn>48</m:mn><m:msup><m:mi>y</m:mi><m:mn>6</m:mn></m:msup></m:mrow><m:mn>4</m:mn></m:mroot></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169595163622">
+<para id="fs-id1169595163624"><m:math><m:mrow><m:mn>2</m:mn><m:mi>y</m:mi><m:mroot><m:mrow><m:mn>3</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mn>4</m:mn></m:mroot></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1169595163646">
+<problem id="fs-id1169595163648">
+<para id="fs-id1169595163651"><m:math><m:mrow><m:mroot><m:mrow><m:mn>−486</m:mn></m:mrow><m:mn>5</m:mn></m:mroot></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1169595163678">
+<problem id="fs-id1169595163680">
+<para id="fs-id1169595163683"><m:math><m:mrow><m:mroot><m:mrow><m:mn>−64</m:mn></m:mrow><m:mn>6</m:mn></m:mroot></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169595163694">
+<para id="fs-id1169595163696"><m:math><m:mrow><m:mtext>not real</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1169595163705">
+<problem id="fs-id1169595163707">
+<para id="fs-id1169595163709"><m:math><m:mrow><m:mfrac><m:mrow><m:mroot><m:mrow><m:mn>64</m:mn></m:mrow><m:mn>4</m:mn></m:mroot></m:mrow><m:mrow><m:mroot><m:mn>2</m:mn><m:mn>4</m:mn></m:mroot></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1169595163746">
+<problem id="fs-id1169595163748">
+<para id="fs-id1169595163750"><m:math><m:mrow><m:mfrac><m:mrow><m:mroot><m:mrow><m:mn>128</m:mn><m:msup><m:mi>x</m:mi><m:mn>8</m:mn></m:msup></m:mrow><m:mn>5</m:mn></m:mroot></m:mrow><m:mrow><m:mroot><m:mrow><m:mn>2</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mn>5</m:mn></m:mroot></m:mrow></m:mfrac></m:mrow></m:math>
+</para>
+</problem>
+<solution id="fs-id1169595163783">
+<para id="fs-id1169595163785"><m:math><m:mrow><m:mn>2</m:mn><m:mi>x</m:mi><m:mroot><m:mrow><m:mn>2</m:mn><m:mi>x</m:mi></m:mrow><m:mn>5</m:mn></m:mroot></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1169597732775">
+<problem id="fs-id1169597732777">
+<para id="fs-id1169597732779"><m:math><m:mrow><m:mroot><m:mrow><m:mfrac><m:mrow><m:mn>96</m:mn><m:msup><m:mi>r</m:mi><m:mrow><m:mn>11</m:mn></m:mrow></m:msup></m:mrow><m:mrow><m:msup><m:mi>s</m:mi><m:mn>3</m:mn></m:msup></m:mrow></m:mfrac></m:mrow><m:mn>5</m:mn></m:mroot></m:mrow></m:math>
+</para>
+</problem>
+</exercise>
+<exercise id="fs-id1169597732839">
+<problem id="fs-id1169597732841">
+<para id="fs-id1169597732843"><m:math><m:mrow><m:mroot><m:mrow><m:mfrac><m:mrow><m:mn>128</m:mn><m:msup><m:mi>u</m:mi><m:mn>7</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mi>v</m:mi><m:mn>3</m:mn></m:msup></m:mrow></m:mfrac></m:mrow><m:mn>6</m:mn></m:mroot></m:mrow></m:math>
+</para>
+</problem>
+<solution id="fs-id1169597732870">
+<para id="fs-id1169597732872"><m:math><m:mrow><m:mfrac><m:mrow><m:mn>2</m:mn><m:msup><m:mi>u</m:mi><m:mn>3</m:mn></m:msup><m:mroot><m:mrow><m:mn>2</m:mn><m:mi>u</m:mi><m:mi>v</m:mi><m:mn>3</m:mn></m:mrow><m:mn>6</m:mn></m:mroot></m:mrow><m:mi>v</m:mi></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1169597732903">
+<problem id="fs-id1169597732905">
+<para id="fs-id1169597732907"><m:math><m:mrow><m:mroot><m:mrow><m:mn>81</m:mn></m:mrow><m:mn>3</m:mn></m:mroot><m:mo>−</m:mo><m:mroot><m:mrow><m:mn>192</m:mn></m:mrow><m:mn>3</m:mn></m:mroot></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1169595541087">
+<problem id="fs-id1169595541089">
+<para id="fs-id1169595541091"><m:math><m:mrow><m:mroot><m:mrow><m:mn>512</m:mn></m:mrow><m:mn>4</m:mn></m:mroot><m:mo>−</m:mo><m:mroot><m:mrow><m:mn>32</m:mn></m:mrow><m:mn>4</m:mn></m:mroot></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169595541111">
+<para id="fs-id1169595541114"><m:math><m:mrow><m:mn>4</m:mn><m:mroot><m:mn>2</m:mn><m:mn>4</m:mn></m:mroot></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1169595541127">
+<problem id="fs-id1169595541130">
+<para id="fs-id1169595541132"><m:math><m:mrow><m:mroot><m:mrow><m:mn>64</m:mn><m:msup><m:mi>a</m:mi><m:mrow><m:mn>10</m:mn></m:mrow></m:msup></m:mrow><m:mn>3</m:mn></m:mroot><m:mo>−</m:mo><m:mroot><m:mrow><m:mn>−216</m:mn><m:msup><m:mi>a</m:mi><m:mrow><m:mn>12</m:mn></m:mrow></m:msup></m:mrow><m:mn>3</m:mn></m:mroot></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1169595541192">
+<problem id="fs-id1169595541195">
+<para id="fs-id1169595541197"><m:math><m:mrow><m:mroot><m:mrow><m:mn>486</m:mn><m:msup><m:mi>u</m:mi><m:mn>7</m:mn></m:msup></m:mrow><m:mn>4</m:mn></m:mroot><m:mo>+</m:mo><m:mroot><m:mrow><m:mn>768</m:mn><m:msup><m:mi>u</m:mi><m:mn>3</m:mn></m:msup></m:mrow><m:mn>4</m:mn></m:mroot></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169595541228">
+<para id="fs-id1169595541230"><m:math><m:mrow><m:mn>3</m:mn><m:mi>u</m:mi><m:mroot><m:mrow><m:mn>6</m:mn><m:msup><m:mi>u</m:mi><m:mn>3</m:mn></m:msup></m:mrow><m:mn>4</m:mn></m:mroot><m:mo>+</m:mo><m:mn>4</m:mn><m:mroot><m:mrow><m:mn>3</m:mn><m:msup><m:mi>u</m:mi><m:mn>3</m:mn></m:msup></m:mrow><m:mn>4</m:mn></m:mroot></m:mrow></m:math></para>
+</solution>
+</exercise>
+</section>
+<section id="fs-id1169597596847" class="everyday">
+<title>Everyday Math</title>
+<exercise id="fs-id1169597596862">
+<problem id="fs-id1169597596864">
+<para id="fs-id1169597596866"><emphasis effect="bold">Population growth</emphasis> The expression <m:math><m:mrow><m:mn>10</m:mn><m:mo>·</m:mo><m:msup><m:mi>x</m:mi><m:mi>n</m:mi></m:msup></m:mrow></m:math> models the growth of a mold population after <m:math><m:mi>n</m:mi></m:math> generations. There were 10 spores at the start, and each had <m:math><m:mi>x</m:mi></m:math> offspring. So <m:math><m:mrow><m:mn>10</m:mn><m:mo>·</m:mo><m:msup><m:mi>x</m:mi><m:mi>n</m:mi></m:msup></m:mrow></m:math> is the number of offspring at the fifth generation. At the fifth generation there were 10,240 offspring. Simplify the expression <m:math><m:mrow><m:mroot><m:mrow><m:mfrac><m:mrow><m:mn>10,240</m:mn></m:mrow><m:mrow><m:mn>10</m:mn></m:mrow></m:mfrac></m:mrow><m:mn>5</m:mn></m:mroot></m:mrow></m:math> to determine the number of offspring of each spore.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1169597596939">
+<problem id="fs-id1169597596941">
+<para id="fs-id1169597596943"><emphasis effect="bold">Spread of a virus</emphasis> The expression <m:math><m:mrow><m:mn>3</m:mn><m:mo>·</m:mo><m:msup><m:mi>x</m:mi><m:mi>n</m:mi></m:msup></m:mrow></m:math> models the spread of a virus after <m:math><m:mi>n</m:mi></m:math> cycles. There were three people originally infected with the virus, and each of them infected <m:math><m:mi>x</m:mi></m:math> people. So <m:math><m:mrow><m:mn>3</m:mn><m:mo>·</m:mo><m:msup><m:mi>x</m:mi><m:mn>4</m:mn></m:msup></m:mrow></m:math> is the number of people infected on the fourth cycle. At the fourth cycle 1875 people were infected. Simplify the expression <m:math><m:mrow><m:mroot><m:mrow><m:mfrac><m:mrow><m:mn>1875</m:mn></m:mrow><m:mn>3</m:mn></m:mfrac></m:mrow><m:mn>4</m:mn></m:mroot></m:mrow></m:math> to determine the number of people each person infected.</para>
+</problem>
+<solution id="fs-id1169597597002">
+<para id="fs-id1169597597004"><m:math><m:mn>5</m:mn></m:math></para>
+</solution>
+</exercise>
+</section>
+<section id="fs-id1169597687563" class="writing">
+<title>Writing Exercises</title>
+<exercise id="fs-id1169597687569">
+<problem id="fs-id1169597687571">
+<para id="fs-id1169597687573">Explain how you know that <m:math><m:mrow><m:mroot><m:mrow><m:msup><m:mi>x</m:mi><m:mrow><m:mn>10</m:mn></m:mrow></m:msup></m:mrow><m:mn>5</m:mn></m:mroot><m:mo>=</m:mo><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math>
+.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1169597687606">
+<problem id="fs-id1169597687608">
+<para id="fs-id1169597687610">Explain why <m:math><m:mrow><m:mroot><m:mrow><m:mn>−64</m:mn></m:mrow><m:mn>4</m:mn></m:mroot></m:mrow></m:math>
+is not a real number but <m:math><m:mrow><m:mroot><m:mrow><m:mn>−64</m:mn></m:mrow><m:mn>3</m:mn></m:mroot></m:mrow></m:math>
+is.</para>
+</problem>
+<solution id="fs-id1169597687638">
+<para id="fs-id1169597687640">Answers may vary.</para>
+</solution>
+</exercise>
+</section>
+<section id="fs-id1169597687648">
+<title>Self Check</title>
+<para id="fs-id1168744223663"><span class="token">ⓐ</span> After completing the exercises, use this checklist to evaluate your mastery of the objectives of this section.</para>
+<media id="fs-id1169597687674" alt="This table has four columns and five rows. The first row labels each column: “I can…,” “Confidentaly,” “With some help,” and “No – I don’t get it!” The rows under the “I can…,” column read, “simplify expressions with hither roots.,” “use the product property to simplify expressions with higher roots.,” “use the quotient property to simplify expressions with higher roots.,” and “add and subtract higher roots.” The rest of the rows under the columns are empty.">
+<image mime-type="image/jpeg" src="../../media/CNX_ElemAlg_Figure_09_07_201_img_new.jpg"/></media>
+<para id="fs-id1168744223688"><span class="token">ⓑ</span> What does this checklist tell you about your mastery of this section? What steps will you take to improve?</para>
+</section>
+</section>
+</content>
+<glossary>
+<definition id="fs-id1169597687695">
+<term><emphasis effect="italics">n</emphasis>th root of a number</term>
+<meaning id="fs-id1169597687704">If <m:math><m:mrow><m:msup><m:mi>b</m:mi><m:mi>n</m:mi></m:msup><m:mo>=</m:mo><m:mi>a</m:mi></m:mrow></m:math>, then <m:math><m:mi>b</m:mi></m:math> is an <emphasis effect="italics">n</emphasis>th root of <m:math><m:mi>a</m:mi></m:math>.</meaning>
+</definition>
+<definition id="fs-id1169595239561">
+<term>principal <emphasis effect="italics">n</emphasis>th root</term>
+<meaning id="fs-id1169595239571">The principal <emphasis effect="italics">n</emphasis>th root of <m:math><m:mi>a</m:mi></m:math> is written <m:math><m:mrow><m:mroot><m:mi>a</m:mi><m:mi>n</m:mi></m:mroot></m:mrow></m:math>.</meaning>
+</definition>
+<definition id="fs-id1169595239594">
+<term>index</term>
+<meaning id="fs-id1169595239599"><m:math><m:mrow><m:mroot><m:mi>a</m:mi><m:mi>n</m:mi></m:mroot></m:mrow></m:math> <emphasis effect="italics">n</emphasis> is called the <emphasis effect="italics">index</emphasis> of the radical.</meaning>
+</definition>
+<definition id="fs-id1169595239612">
+<term>like radicals</term>
+<meaning id="fs-id1169595239618">Radicals with the same index and same radicand are called like radicals.</meaning>
+</definition>
+</glossary>
+</document>

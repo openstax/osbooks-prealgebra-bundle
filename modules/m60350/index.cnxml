@@ -1,0 +1,1136 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Solve Quadratic Equations Using the Quadratic Formula</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m60350</md:content-id>
+  <md:title>Solve Quadratic Equations Using the Quadratic Formula</md:title>
+  <md:abstract><para>By the end of this section, you will be able to:</para>
+<list>
+<item>Solve quadratic equations using the quadratic formula</item>
+<item>Use the discriminant to predict the number of solutions of a quadratic equation</item>
+<item>Identify the most appropriate method to use to solve a quadratic equation</item>
+</list></md:abstract>
+  <md:uuid>9b0c900a-92a8-437a-bb9b-34cd4aac12e8</md:uuid>
+</metadata>
+
+<content>
+<note id="fs-id1166502110766" class="be-prepared">
+<para id="fs-id1166502067314">Before you get started, take this readiness quiz.</para>
+<list id="fs-id1166501977409" list-type="enumerated" number-style="arabic">
+<item>Simplify: <m:math><m:mrow><m:mfrac><m:mrow><m:mn>−20</m:mn><m:mo>−</m:mo><m:mn>5</m:mn></m:mrow><m:mrow><m:mn>10</m:mn></m:mrow></m:mfrac></m:mrow></m:math>.<newline/>
+If you missed this problem, review <link document="m60251" target-id="fs-id1170654032703"/>.</item>
+<item>Simplify: <m:math><m:mrow><m:mn>4</m:mn><m:mo>+</m:mo><m:msqrt><m:mrow><m:mn>121</m:mn></m:mrow></m:msqrt></m:mrow></m:math>.<newline/>
+If you missed this problem, review <link target-id="fs-id1169594055295" document="m60284"/>.</item>
+<item>Simplify: <m:math><m:mrow><m:msqrt><m:mrow><m:mn>128</m:mn></m:mrow></m:msqrt></m:mrow></m:math>.<newline/>
+If you missed this problem, review <link target-id="fs-id1169594051758" document="m60332"/>.</item>
+</list>
+</note>
+<para id="fs-id1166502047775">When we solved quadratic equations in the last section by completing the square, we took the same steps every time. By the end of the exercise set, you may have been wondering ‘isn’t there an easier way to do this?’ The answer is ‘yes.’ In this section, we will derive and use a formula to find the solution of a quadratic equation.</para>
+<para id="fs-id1166502069815">We have already seen how to solve a formula for a specific variable ‘in general’ so that we would do the algebraic steps only once and then use the new formula to find the value of the specific variable. Now, we will go through the steps of completing the square in general to solve a quadratic equation for <emphasis effect="italics">x</emphasis>. It may be helpful to look at one of the examples at the end of the last section where we solved an equation of the form <m:math><m:mrow><m:mi>a</m:mi><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>b</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>c</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> as you read through the algebraic steps below, so you see them with numbers as well as ‘in general.’</para>
+<para id="fs-id1166501946352"><m:math><m:mtable><m:mtr><m:mtd columnalign="left"><m:mtext>We start with the standard form of a quadratic equation</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mi>a</m:mi><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>b</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>c</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>0</m:mn><m:mspace width="2em"/><m:mi>a</m:mi><m:mo>≠</m:mo><m:mn>0</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>and solve it for</m:mtext><m:mspace width="0.2em"/><m:mi>x</m:mi><m:mspace width="0.2em"/><m:mtext>by completing the square.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd/><m:mtd/><m:mtd/></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>Isolate the variable terms on one side.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mi>a</m:mi><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>b</m:mi><m:mi>x</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mtext>−</m:mtext><m:mi>c</m:mi></m:mtd></m:mtr><m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="left"><m:mtext>Make leading coefficient 1, by dividing by a.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mfrac><m:mrow><m:mi>a</m:mi><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mi>a</m:mi></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mi>b</m:mi><m:mi>a</m:mi></m:mfrac><m:mi>x</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mo>−</m:mo><m:mfrac><m:mi>c</m:mi><m:mi>a</m:mi></m:mfrac></m:mtd></m:mtr><m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="left"><m:mtext>Simplify.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mfrac><m:mi>b</m:mi><m:mi>a</m:mi></m:mfrac><m:mi>x</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mo>−</m:mo><m:mfrac><m:mi>c</m:mi><m:mi>a</m:mi></m:mfrac></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>To complete the square, find</m:mtext><m:mspace width="0.2em"/><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mo>·</m:mo><m:mfrac><m:mi>b</m:mi><m:mi>a</m:mi></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>and add it to both</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd/></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>sides of the equation.</m:mtext><m:mspace width="0.2em"/><m:msup><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mi>b</m:mi><m:mi>a</m:mi></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mfrac><m:mrow><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>4</m:mn><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mfrac><m:mi>b</m:mi><m:mi>a</m:mi></m:mfrac><m:mi>x</m:mi><m:mo>+</m:mo><m:mfrac><m:mrow><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>4</m:mn><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mo>−</m:mo><m:mfrac><m:mi>c</m:mi><m:mi>a</m:mi></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mrow><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>4</m:mn><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mtd></m:mtr><m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="left"><m:mtext>The left side is a perfect square, factor it.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mfrac><m:mi>b</m:mi><m:mrow><m:mn>2</m:mn><m:mi>a</m:mi></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mo>−</m:mo><m:mfrac><m:mi>c</m:mi><m:mi>a</m:mi></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mrow><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>4</m:mn><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mtd></m:mtr><m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="left"><m:mtable><m:mtr><m:mtd columnalign="left"><m:mtext>Find the common denominator of the right side and write</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>equivalent fractions with the common denominator.</m:mtext></m:mtd></m:mtr></m:mtable></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mfrac><m:mi>b</m:mi><m:mrow><m:mn>2</m:mn><m:mi>a</m:mi></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mfrac><m:mrow><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>4</m:mn><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>−</m:mo><m:mfrac><m:mrow><m:mi>c</m:mi><m:mo>·</m:mo><m:mn>4</m:mn><m:mi>a</m:mi></m:mrow><m:mrow><m:mi>a</m:mi><m:mo>·</m:mo><m:mn>4</m:mn><m:mi>a</m:mi></m:mrow></m:mfrac></m:mtd></m:mtr><m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="left"><m:mtext>Simplify.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mfrac><m:mi>b</m:mi><m:mrow><m:mn>2</m:mn><m:mi>a</m:mi></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mfrac><m:mrow><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>4</m:mn><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>−</m:mo><m:mfrac><m:mrow><m:mn>4</m:mn><m:mi>a</m:mi><m:mi>c</m:mi></m:mrow><m:mrow><m:mn>4</m:mn><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mtd></m:mtr><m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="left"><m:mtext>Combine to one fraction.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mfrac><m:mi>b</m:mi><m:mrow><m:mn>2</m:mn><m:mi>a</m:mi></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mfrac><m:mrow><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>4</m:mn><m:mi>a</m:mi><m:mi>c</m:mi></m:mrow><m:mrow><m:mn>4</m:mn><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mtd></m:mtr><m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="left"><m:mtext>Use the square root property.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mi>x</m:mi><m:mo>+</m:mo><m:mfrac><m:mi>b</m:mi><m:mrow><m:mn>2</m:mn><m:mi>a</m:mi></m:mrow></m:mfrac></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mo>±</m:mo><m:mspace width="0.2em"/><m:msqrt><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>4</m:mn><m:mi>a</m:mi><m:mi>c</m:mi></m:mrow><m:mrow><m:mn>4</m:mn><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:msqrt></m:mtd></m:mtr><m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="left"><m:mtext>Simplify.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mi>x</m:mi><m:mo>+</m:mo><m:mfrac><m:mi>b</m:mi><m:mrow><m:mn>2</m:mn><m:mi>a</m:mi></m:mrow></m:mfrac></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mo>±</m:mo><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:msqrt><m:mrow><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>4</m:mn><m:mi>a</m:mi><m:mi>c</m:mi></m:mrow></m:msqrt></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>a</m:mi></m:mrow></m:mfrac></m:mtd></m:mtr><m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="left"><m:mtext>Add</m:mtext><m:mspace width="0.2em"/><m:mo>−</m:mo><m:mfrac><m:mi>b</m:mi><m:mrow><m:mn>2</m:mn><m:mi>a</m:mi></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mtext>to both sides of the equation.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mi>x</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mo>−</m:mo><m:mfrac><m:mi>b</m:mi><m:mrow><m:mn>2</m:mn><m:mi>a</m:mi></m:mrow></m:mfrac><m:mo>±</m:mo><m:mfrac><m:mrow><m:msqrt><m:mrow><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>4</m:mn><m:mi>a</m:mi><m:mi>c</m:mi></m:mrow></m:msqrt></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>a</m:mi></m:mrow></m:mfrac></m:mtd></m:mtr><m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="left"><m:mtext>Combine the terms on the right side.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mi>x</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mfrac><m:mrow><m:mtext>−</m:mtext><m:mi>b</m:mi><m:mo>±</m:mo><m:msqrt><m:mrow><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>4</m:mn><m:mi>a</m:mi><m:mi>c</m:mi></m:mrow></m:msqrt></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>a</m:mi></m:mrow></m:mfrac></m:mtd></m:mtr></m:mtable></m:math></para>
+<para id="fs-id1166502059312">This last equation is the Quadratic Formula.</para>
+<note id="fs-id1166502171666">
+<title>Quadratic Formula</title>
+<para id="fs-id1166502029834">The solutions to a quadratic equation of the form <m:math><m:mrow><m:mi>a</m:mi><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>b</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>c</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>, <m:math><m:mrow><m:mi>a</m:mi><m:mo>≠</m:mo><m:mn>0</m:mn></m:mrow></m:math> are given by the formula:</para>
+<equation id="fs-id1166502098180" class="unnumbered"><label/><m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mtext>−</m:mtext><m:mi>b</m:mi><m:mo>±</m:mo><m:msqrt><m:mrow><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>4</m:mn><m:mi>a</m:mi><m:mi>c</m:mi></m:mrow></m:msqrt></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>a</m:mi></m:mrow></m:mfrac></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1166502041375">To use the Quadratic Formula, we substitute the values of <m:math><m:mrow><m:mi>a</m:mi><m:mo>,</m:mo><m:mi>b</m:mi><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mtext>and</m:mtext><m:mspace width="0.2em"/><m:mi>c</m:mi></m:mrow></m:math> into the expression on the right side of the formula. Then, we do all the math to simplify the expression. The result gives the solution(s) to the quadratic equation.</para>
+<example id="fs-id1166502221779">
+<title>How to Solve a Quadratic Equation Using the Quadratic Formula</title>
+<exercise id="fs-id1166502221782">
+<problem id="fs-id1166502092344">
+<para id="fs-id1166502092347">Solve <m:math><m:mrow><m:mn>2</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>9</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>5</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> by using the Quadratic Formula.</para>
+</problem>
+<solution id="fs-id1166501955931">
+<title>Solution</title>
+<media id="fs-id1166502216433" alt="The image shows the steps to solve the quadratic equation two x squared plus nine x minus five equals zero. Step one is to write the quadratic equation in standard form and identify the a, b, and c values. This equation is already in standard for. The value of a is two, the value of b is nine and the value of c is negative five.">
+<image mime-type="image/jpeg" src="../../media/CNX_ElemAlg_Figure_10_03_001a_img_new.jpg"/>
+</media>
+<media id="fs-id1166502221397" alt="Step two is to write the quadratic formula. Then substitute in the values of a, b, and c. Substitute two for a, nine for b and negative five for c in the formula x equals the quantity negative b plus or minus the square root of b squared minus four times a times c divided by two times a. The formula becomes x equals negative nine plus or minus the square root of negative nine squared minus four time two times negative five all divided by two times two.">
+<image mime-type="image/jpeg" src="../../media/CNX_ElemAlg_Figure_10_03_001b_img_new.jpg"/>
+</media>
+<media id="fs-id1166502220339" alt="Step three is to simplify the formula. Squaring negative nine and performing the multiplication to get negative nine plus or minus the square root of 81 minus negative 40 all divided by four. This simplifies further to negative nine plus or minus the square root of 121 all divided by four which reduces to negative nine plus or minus 11 all divided by four. Negative nine plus 11 divided by four is two fourths which reduces to one half. Negative nine minus 11 divided by four is negative 20 fourths which reduces to negative five.">
+<image mime-type="image/jpeg" src="../../media/CNX_ElemAlg_Figure_10_03_001c_img_new.jpg"/>
+</media>
+<media id="fs-id1166502224412" alt="Step four is to check the solutions by putting each answer in the original equation to check. Replace x in two x squared plus nine x minus five equals zero with one half to get two times one half squared plus nine times one half minus five. Simplify to get one half plus nine halves minus five which is zero. Replace x in two x squared plus nine x minus five equals zero with negative five to get two times negative five squared plus nine times negative five minus five. Simplify to get 50 minus 45 minus five which is zero.">
+<image mime-type="image/jpeg" src="../../media/CNX_ElemAlg_Figure_10_03_001d_img_new.jpg"/>
+</media>
+</solution>
+</exercise>
+</example>
+<note id="fs-id1166502072679" class="try">
+<exercise id="fs-id1166502072682">
+<problem id="fs-id1166502221370">
+<para id="fs-id1166502221372">Solve <m:math><m:mrow><m:mn>3</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>5</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> by using the Quadratic Formula.</para>
+</problem>
+<solution id="fs-id1166502080304">
+<para id="fs-id1166502080306"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>2</m:mn><m:mn>3</m:mn></m:mfrac><m:mo>,</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1166502075245" class="try">
+<exercise id="fs-id1166502075186">
+<problem id="fs-id1166502075188">
+<para id="fs-id1166502075190">Solve <m:math><m:mrow><m:mn>4</m:mn><m:msup><m:mi>z</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>z</m:mi><m:mo>−</m:mo><m:mn>6</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> by using the Quadratic Formula.</para>
+</problem>
+<solution id="fs-id1166502047870">
+<para id="fs-id1166502047872"><m:math><m:mrow><m:mi>z</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mn>3</m:mn><m:mn>2</m:mn></m:mfrac><m:mo>,</m:mo><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1166502081155" class="howto">
+<title>Solve a quadratic equation using the Quadratic Formula.</title>
+<list id="fs-id1168743991591" list-type="enumerated" number-style="arabic" class="stepwise">
+<item>Write the Quadratic Formula in standard form. Identify the <m:math><m:mi>a</m:mi></m:math>, <m:math><m:mi>b</m:mi></m:math>, and <m:math><m:mi>c</m:mi></m:math> values.</item>
+<item>Write the Quadratic Formula. Then substitute in the values of <m:math><m:mi>a</m:mi></m:math>, <m:math><m:mi>b</m:mi></m:math>, and <m:math><m:mi>c</m:mi><m:mo>.</m:mo></m:math></item>
+<item>Simplify.</item>
+<item>Check the solutions.</item>
+</list>
+</note>
+<para id="fs-id1166502171538">If you say the formula as you write it in each problem, you’ll have it memorized in no time. And remember, the Quadratic Formula is an equation. Be sure you start with ‘<m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo></m:mrow></m:math>’.</para>
+<example id="fs-id1166502221189">
+<exercise id="fs-id1166502171633"><problem id="fs-id1166502171635">
+<para id="fs-id1166502171637">Solve <m:math><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>6</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>5</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> by using the Quadratic Formula.</para>
+</problem>
+<solution id="fs-id1166501953494">
+<title>Solution</title>
+<table id="eip-id1172184869330" class="unnumbered unstyled" summary="The image shows the steps to solve the quadratic equation x squared minus six x plus five equals zero. The equation is already in standard for. The value of a is one, the value of b is negative six and the value of c is five. Write the quadratic formula substituting in the values of a, b, and c. The formula becomes x equals negative negative six plus or minus the square root of negative six squared minus four times one times five all divided by two times one. Simplify under the square root to get 36 minus 20 which is 16. The square root of 16 is four. The formula simplifies to six plus or minus four all divided by two. Six plus four divided by two reduces to ten halves which is five. Six minus four all divided by two reduces to two halves which is one. Check the solutions by putting each answer in the original equation to. Replace x in x squared minus six x plus five equals zero with one to get one squared minus six times one plus five. Simplify to get one minus six plus five which is zero.  Replace x in x squared minus six x plus five equals zero with five to get five squared minus six times five plus five. Simplify to get 25 minus 30 plus five which is zero.">
+<label/><tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<tbody>
+<row>
+<entry namest="c1" nameend="c2"/>
+<entry><media id="eip-id1172184684671" alt="."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_10_03_002b_img_new.jpg"/></media></entry>
+</row>
+
+<row>
+<entry namest="c1" nameend="c2">This equation is in standard form.</entry>
+<entry><media id="eip-id1172187819234" alt="."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_10_03_002c_img_new.jpg"/></media></entry>
+</row>
+<row>
+<entry namest="c1" nameend="c2">Identify the <emphasis effect="italics">a, b, c</emphasis> values. </entry>
+<entry><media id="eip-id1172181141865" alt="."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_10_03_002d_img_new.jpg"/></media></entry>
+</row>
+
+<row>
+<entry namest="c1" nameend="c2">Write the Quadratic Formula.</entry>
+<entry><media id="eip-id1172184886603" alt="."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_10_03_002e_img_new.jpg"/></media></entry></row>
+<row>
+<entry namest="c1" nameend="c2">Then substitute in the values of <emphasis effect="italics">a, b, c.</emphasis></entry>
+<entry><media id="eip-id1172177972917" alt="."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_10_03_002f_img_new.jpg"/></media></entry></row>
+<row>
+<entry namest="c1" nameend="c2">Simplify.</entry>
+<entry><media id="eip-id1172178741985" alt="."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_10_03_002g_img_new.jpg"/></media><newline/><media id="eip-id1172178341762" alt="."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_10_03_002h_img_new.jpg"/></media><newline/><media id="eip-id1172183300628" alt="."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_10_03_002i_img_new.jpg"/></media></entry></row>
+
+<row>
+<entry namest="c1" nameend="c2">Rewrite to show two solutions.</entry>
+<entry><media id="eip-id1172181450574" alt="."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_10_03_002j_img_new.jpg"/></media></entry></row>
+<row>
+<entry namest="c1" nameend="c2">Simplify.</entry>
+<entry><media id="eip-id1172187984166" alt="."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_10_03_002k_img_new.jpg"/></media><newline/><media id="eip-id1172187891079" alt="."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_10_03_002l_img_new.jpg"/></media></entry></row>
+<row>
+<entry namest="c1" nameend="c2">Check.<newline/><media id="eip-id1172187827988" alt="."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_10_03_002a_img_new.jpg"/></media></entry>
+<entry/></row>
+</tbody>
+</tgroup>
+</table>
+</solution>
+</exercise></example>
+<note id="fs-id1166502220820" class="try">
+<exercise id="fs-id1166502224372">
+<problem id="fs-id1166502224374">
+<para id="fs-id1166502102284">Solve <m:math><m:mrow><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>a</m:mi><m:mo>−</m:mo><m:mn>15</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> by using the Quadratic Formula.</para>
+</problem>
+<solution id="fs-id1166502108999">
+<para id="fs-id1166502109001"><m:math><m:mrow><m:mi>a</m:mi><m:mo>=</m:mo><m:mn>−3</m:mn><m:mo>,</m:mo><m:mi>a</m:mi><m:mo>=</m:mo><m:mn>5</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1166502172005" class="try">
+<exercise id="fs-id1166502172008">
+<problem id="fs-id1166502172010">
+<para id="fs-id1166501954066">Solve <m:math><m:mrow><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>10</m:mn><m:mi>b</m:mi><m:mo>+</m:mo><m:mn>24</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> by using the Quadratic Formula.</para>
+</problem>
+<solution id="fs-id1166502059354">
+<para id="fs-id1166502059356"><m:math><m:mrow><m:mi>b</m:mi><m:mo>=</m:mo><m:mn>−6</m:mn><m:mo>,</m:mo><m:mi>b</m:mi><m:mo>=</m:mo><m:mn>−4</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<para id="fs-id1166502221812">When we solved quadratic equations by using the Square Root Property, we sometimes got answers that had radicals. That can happen, too, when using the Quadratic Formula. If we get a radical as a solution, the final answer must have the radical in its simplified form.</para>
+<example id="fs-id1166502058671">
+<exercise id="fs-id1166502058673"><problem id="fs-id1166502058675">
+<para id="fs-id1166502221826">Solve <m:math><m:mrow><m:mn>4</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>5</m:mn><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> by using the Quadratic Formula.</para>
+</problem>
+<solution id="fs-id1166502217028">
+<title>Solution</title>
+<para id="fs-id1166502217012">We can use the Quadratic Formula to solve for the variable in a quadratic equation, whether or not it is named ‘<emphasis effect="italics">x</emphasis>’.</para>
+<table id="eip-id1172187645553" class="unnumbered unstyled" summary="The image shows the steps to solve the quadratic equation four y squared minus five y minus three equals zero. The equation is already in standard for. The value of a is four, the value of b is negative five and the value of c is negative three. Write the quadratic formula substituting in the values of a, b, and c. The formula becomes y equals negative negative five plus or minus the square root of negative five squared minus four times four times negative three all divided by two times four. Simplify under the square root to get 25 plus 48 which is 73. The square root of 73 does not reduce. The formula simplifies to five plus or minus the square root of 73 all divided by eight. The solutions are five plus the square root of 73 all divided by eight and five minus the square root of 73 all divided by eight. Checking the solutions is left to the student.">
+<label/><tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<tbody>
+<row>
+<entry namest="c1" nameend="c2"/>
+<entry><media id="eip-id1172185604387" alt="."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_10_03_003a_img_new.jpg"/></media></entry>
+</row>
+
+<row>
+<entry namest="c1" nameend="c2">This equation is in standard form.</entry>
+<entry><media id="eip-id1172185604407" alt="."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_10_03_003b_img_new.jpg"/></media></entry>
+</row>
+<row>
+<entry namest="c1" nameend="c2">Identify the <emphasis effect="italics">a, b, c</emphasis> values. </entry>
+<entry><media id="eip-id1172185604433" alt="."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_10_03_003c_img_new.jpg"/></media></entry>
+</row>
+
+<row>
+<entry namest="c1" nameend="c2">Write the Quadratic Formula.</entry>
+<entry><media id="eip-id1172182473958" alt="."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_10_03_003d_img_new.jpg"/></media></entry></row>
+<row>
+<entry namest="c1" nameend="c2">Then substitute in the values of <emphasis effect="italics">a, b, c.</emphasis></entry>
+<entry><media id="eip-id1172182473982" alt="."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_10_03_003e_img_new.jpg"/></media></entry></row>
+<row>
+<entry namest="c1" nameend="c2">Simplify.</entry>
+<entry><media id="eip-id1172189059605" alt="."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_10_03_003f_img_new.jpg"/></media><newline/><media id="eip-id1172189059614" alt="."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_10_03_003g_img_new.jpg"/></media></entry></row>
+<row>
+<entry namest="c1" nameend="c2">Rewrite to show two solutions.</entry>
+<entry><media id="eip-id1172189059634" alt="."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_10_03_003h_img_new.jpg"/></media></entry></row>
+<row>
+<entry namest="c1" nameend="c2">Check. We leave the check to you.</entry>
+<entry/></row>
+</tbody>
+</tgroup>
+</table>
+</solution>
+</exercise></example>
+<note id="fs-id1166502109118" class="try">
+<exercise id="fs-id1166502109121">
+<problem id="fs-id1166502109123">
+<para id="fs-id1166502054974">Solve <m:math><m:mrow><m:mn>2</m:mn><m:msup><m:mi>p</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>8</m:mn><m:mi>p</m:mi><m:mo>+</m:mo><m:mn>5</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> by using the Quadratic Formula.</para>
+</problem>
+<solution id="fs-id1166502074538">
+<para id="fs-id1166502214644"><m:math><m:mrow><m:mi>p</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>−4</m:mn><m:mo>±</m:mo><m:msqrt><m:mn>6</m:mn></m:msqrt></m:mrow><m:mn>2</m:mn></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1166502098076" class="try">
+<exercise id="fs-id1166502104960">
+<problem id="fs-id1166502104962">
+<para id="fs-id1166502104964">Solve <m:math><m:mrow><m:mn>5</m:mn><m:msup><m:mi>q</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>11</m:mn><m:mi>q</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> by using the Quadratic Formula.</para>
+</problem>
+<solution id="fs-id1166502085563">
+<para id="fs-id1166502085565"><m:math><m:mrow><m:mi>q</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>11</m:mn><m:mo>±</m:mo><m:msqrt><m:mrow><m:mn>61</m:mn></m:mrow></m:msqrt></m:mrow><m:mrow><m:mn>10</m:mn></m:mrow></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<example id="fs-id1166502077854">
+<exercise id="fs-id1166502041611"><problem id="fs-id1166502041613">
+<para id="fs-id1166502041615">Solve <m:math><m:mrow><m:mn>2</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>10</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>11</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> by using the Quadratic Formula.</para>
+</problem>
+<solution id="fs-id1166502063670">
+<title>Solution</title>
+<table id="eip-id1172183446155" class="unnumbered unstyled can-break" summary="The image shows the steps to solve the quadratic equation two x squared plus ten x plus 11 equal zero. The equation is already in standard form. The value of a is two, the value of b is ten and the value of c is 11. Write the quadratic formula substituting in the values of a, b and c. The formula becomes x equals negative ten plus or minus the square root of ten squared minus four times two times 11 all divided by two times two. Simplify under the square root to get 100 minus 88 which is 12. The square root of 12 simplifies to four square root of three. The formula simplifies to negative ten plus or minus four square root of three all over four. The numerator, negative ten plus or minus four square root of three, has the greatest common factor of two. Factor out the two in the numerator to get two times the quantity negative five plus or minus two square root of three all divided by four. The common factor of two can be reduced in the numerator and denominator so that the solution simplifies to negative five plus or minus two square root of three all divided by two. The two solutions are negative five plus two square root of three all divided by two and negative five minus two square root of three all divided by two. Checking the solutions is left to the student.">
+<label/><tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<tbody>
+<row>
+<entry namest="c1" nameend="c2"/>
+<entry><media id="eip-id1172187840163" alt="."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_10_03_004a_img_new.jpg"/></media></entry>
+</row>
+
+<row>
+<entry namest="c1" nameend="c2">This equation is in standard form.</entry>
+<entry><media id="eip-id1172187948896" alt="."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_10_03_004b_img_new.jpg"/></media></entry>
+</row>
+<row>
+<entry namest="c1" nameend="c2">Identify the <emphasis effect="italics">a, b, c</emphasis> values. </entry>
+<entry><media id="eip-id1172188191731" alt="."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_10_03_004c_img_new.jpg"/></media></entry>
+</row>
+
+<row>
+<entry namest="c1" nameend="c2">Write the Quadratic Formula.</entry>
+<entry><media id="eip-id1172183635906" alt="."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_10_03_004d_img_new.jpg"/></media></entry></row>
+<row>
+<entry namest="c1" nameend="c2">Then substitute in the values of <emphasis effect="italics">a, b, c.</emphasis></entry>
+<entry><media id="eip-id1172177878351" alt="."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_10_03_004e_img_new.jpg"/></media></entry></row>
+
+<row>
+<entry namest="c1" nameend="c2">Simplify.</entry>
+<entry><media id="eip-id1172188169603" alt="."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_10_03_004f_img_new.jpg"/></media><newline/><media id="eip-id1172184767764" alt="."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_10_03_004g_img_new.jpg"/></media></entry></row>
+
+<row>
+<entry namest="c1" nameend="c2">Simplify the radical.</entry>
+<entry><media id="eip-id1172187851443" alt="."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_10_03_004h_img_new.jpg"/></media></entry></row>
+
+<row>
+<entry namest="c1" nameend="c2">Factor out the common factor in the numerator.</entry>
+<entry><media id="eip-id1172187837659" alt="."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_10_03_004i_img_new.jpg"/></media></entry></row>
+
+<row>
+<entry namest="c1" nameend="c2">Remove the common factors.</entry>
+<entry><media id="eip-id1172181150167" alt="."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_10_03_004j_img_new.jpg"/></media></entry></row>
+
+<row>
+<entry namest="c1" nameend="c2">Rewrite to show two solutions.</entry>
+<entry><media id="eip-id1172187953780" alt="."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_10_03_004k_img_new.jpg"/></media></entry></row>
+
+<row>
+<entry namest="c1" nameend="c2">Check. We leave the check to you.</entry>
+<entry/></row>
+</tbody>
+</tgroup>
+</table>
+</solution>
+</exercise></example>
+<note id="fs-id1166502106505" class="try">
+<exercise id="fs-id1166502106508">
+<problem id="fs-id1166502215192">
+<para id="fs-id1166502215194">Solve <m:math><m:mrow><m:mn>3</m:mn><m:msup><m:mi>m</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>12</m:mn><m:mi>m</m:mi><m:mo>+</m:mo><m:mn>7</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> by using the Quadratic Formula.</para>
+</problem>
+<solution id="fs-id1166502097422">
+<para id="fs-id1166502042913"><m:math><m:mrow><m:mi>m</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>−6</m:mn><m:mo>±</m:mo><m:msqrt><m:mrow><m:mn>15</m:mn></m:mrow></m:msqrt></m:mrow><m:mn>3</m:mn></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1166502042469" class="try">
+<exercise id="fs-id1166502042472">
+<problem id="fs-id1166502042474">
+<para id="fs-id1166502068899">Solve <m:math><m:mrow><m:mn>5</m:mn><m:msup><m:mi>n</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>4</m:mn><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>4</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> by using the Quadratic Formula.</para>
+</problem>
+<solution id="fs-id1166502103460">
+<para id="fs-id1166502059923"><m:math><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>−2</m:mn><m:mo>±</m:mo><m:mn>2</m:mn><m:msqrt><m:mn>6</m:mn></m:msqrt></m:mrow><m:mn>5</m:mn></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<para id="fs-id1166502221849">We cannot take the square root of a negative number. So, when we substitute <m:math><m:mi>a</m:mi></m:math>, <m:math><m:mi>b</m:mi></m:math>, and <m:math><m:mi>c</m:mi></m:math> into the Quadratic Formula, if the quantity inside the radical is negative, the quadratic equation has no real solution. We will see this in the next example.</para>
+<example id="fs-id1166502053264">
+<exercise id="fs-id1166502012032"><problem id="fs-id1166502012034">
+<para id="fs-id1166502012036">Solve <m:math><m:mrow><m:mn>3</m:mn><m:msup><m:mi>p</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>p</m:mi><m:mo>+</m:mo><m:mn>9</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> by using the Quadratic Formula.</para>
+</problem>
+<solution id="fs-id1166502103506">
+<title>Solution</title>
+<table id="eip-id1172189367350" class="unnumbered unstyled can-break" summary="The image shows the steps to solve the quadratic equation three p squared plus two p plus nine equal zero. The equation is already in standard form. The value of a is three, the value of b is two and the value of c is nine. Write the quadratic formula substituting in the values of a, b and c. The formula becomes p equals negative two plus or minus the square root of two squared minus four times three times nine all divided by two times three. Simplify under the square root to get four minus 108 which is negative 104. Since we cannot take the square root of a negative number there is no real solution."><label/><tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<tbody>
+
+
+<row>
+<entry namest="c1" nameend="c2">This equation is in standard form.</entry>
+<entry><media id="eip-id1172189367392" alt="."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_10_03_005a_img_new.jpg"/></media></entry>
+</row>
+<row>
+<entry namest="c1" nameend="c2">Identify the <emphasis effect="italics">a, b, c</emphasis> values. </entry>
+<entry><media id="eip-id1172187403062" alt="."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_10_03_005b_img_new.jpg"/></media></entry>
+</row>
+
+<row>
+<entry namest="c1" nameend="c2">Write the Quadratic Formula.</entry>
+<entry><media id="eip-id1172187403083" alt="."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_10_03_005c_img_new.jpg"/></media></entry></row>
+<row>
+<entry namest="c1" nameend="c2">Then substitute in the values of <emphasis effect="italics">a, b, c.</emphasis></entry>
+<entry><media id="eip-id1172187403107" alt="."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_10_03_005d_img_new.jpg"/></media></entry></row>
+
+<row>
+<entry namest="c1" nameend="c2">Simplify.</entry>
+<entry><media id="eip-id1172187647825" alt="."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_10_03_005e_img_new.jpg"/></media></entry></row>
+
+<row>
+<entry namest="c1" nameend="c2">Simplify the radical.</entry>
+<entry><media id="eip-id1172187647854" alt="."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_10_03_005f_img_new.jpg"/></media></entry></row>
+<row>
+<entry namest="c1" nameend="c2">We cannot take the square root of a negative number.</entry>
+<entry>There is no real solution.</entry></row>
+</tbody>
+</tgroup>
+</table></solution>
+</exercise></example>
+<note id="fs-id1166502097544" class="try">
+<exercise id="fs-id1166502097547">
+<problem id="fs-id1166502085583">
+<para id="fs-id1166502085586">Solve <m:math><m:mrow><m:mn>4</m:mn><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>3</m:mn><m:mi>a</m:mi><m:mo>+</m:mo><m:mn>8</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> by using the Quadratic Formula.</para>
+</problem>
+<solution id="fs-id1166502109066">
+<para id="fs-id1166502171560">no real solution</para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1166501974072" class="try">
+<exercise id="fs-id1166501974075">
+<problem id="fs-id1166502041574">
+<para id="fs-id1166502041576">Solve <m:math><m:mrow><m:mn>5</m:mn><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>b</m:mi><m:mo>+</m:mo><m:mn>4</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> by using the Quadratic Formula.</para>
+</problem>
+<solution id="fs-id1166502215400">
+<para id="fs-id1166502032578">no real solution</para>
+</solution>
+</exercise>
+</note>
+<para id="fs-id1166502222275">The quadratic equations we have solved so far in this section were all written in standard form, <m:math><m:mrow><m:mi>a</m:mi><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>b</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>c</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>. Sometimes, we will need to do some algebra to get the equation into standard form before we can use the Quadratic Formula.</para>
+<example id="fs-id1166502056397">
+<exercise id="fs-id1166502068488"><problem id="fs-id1166502068490">
+<para id="fs-id1166502068492">Solve <m:math><m:mrow><m:mi>x</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>6</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mn>4</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> by using the Quadratic Formula.</para>
+</problem>
+<solution id="fs-id1166502172029">
+<title>Solution</title>
+<table id="eip-id1172187749041" class="unnumbered unstyled can-break" summary="The image shows the steps to solve the quadratic equation  x times the quantity x plus six all plus four equals zero. Distribute the x on the left side to get the equation in standard form. The equation is now x squared plus six x plus four. The value of a is one, the value of b is six and the value of c is four. Write the quadratic formula substituting in the values of a, b and c. The formula becomes x equals negative six plus or minus the square root of six squared minus four times six times four all divided by two times one. Simplify under the square root to get 36 minus 16 which is 20. The square root of 20 simplifies to two square root of five. The formula simplifies to negative six plus or minus two square root of five all over two. The numerator, negative six plus or minus two square root of five, has the greatest common factor of two. Factor out the two in the numerator to get two times the quantity negative six plus or minus the square root of five all divided by two. The common factor of two can be reduced in the numerator and denominator so that the solution simplifies to negative three plus or minus the square root of five. The two solutions are negative three plus the square root of five and negative three minus the square root of five. Checking the solutions is left to the student.">
+<label/><tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<tbody>
+
+<row>
+<entry namest="c1" nameend="c2"/>
+<entry><media id="eip-id1172184493593" alt="."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_10_03_006a_img_new.jpg"/></media></entry>
+</row>
+<row>
+<entry namest="c1" nameend="c2">Distribute to get the equation in standard form.</entry>
+<entry><media id="eip-id1172187733296" alt="."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_10_03_006b_img_new.jpg"/></media></entry>
+</row>
+<row>
+<entry namest="c1" nameend="c2">This equation is now in standard form.</entry>
+<entry><media id="eip-id1172187949281" alt="."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_10_03_006c_img_new.jpg"/></media></entry>
+</row>
+<row>
+<entry namest="c1" nameend="c2">Identify the <emphasis effect="italics">a, b, c</emphasis> values. </entry>
+<entry><media id="eip-id1172184869531" alt="."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_10_03_006d_img_new.jpg"/></media></entry>
+</row>
+
+<row>
+<entry namest="c1" nameend="c2">Write the Quadratic Formula.</entry>
+<entry><media id="eip-id1172184642502" alt="."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_10_03_006e_img_new.jpg"/></media></entry></row>
+<row>
+<entry namest="c1" nameend="c2">Then substitute in the values of <emphasis effect="italics">a, b, c.</emphasis></entry>
+<entry><media id="eip-id1172178265675" alt="."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_10_03_006f_img_new.jpg"/></media></entry></row>
+
+<row>
+<entry namest="c1" nameend="c2">Simplify.</entry>
+<entry><media id="eip-id1172181323525" alt="."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_10_03_006g_img_new.jpg"/></media></entry></row>
+<row>
+<entry namest="c1" nameend="c2">Simplify inside the radical.</entry>
+<entry><media id="eip-id1172183803036" alt="."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_10_03_006h_img_new.jpg"/></media></entry></row>
+<row>
+<entry namest="c1" nameend="c2">Simplify the radical.</entry>
+<entry><media id="eip-id1172184510855" alt="."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_10_03_006i_img_new.jpg"/></media></entry></row>
+<row>
+<entry namest="c1" nameend="c2">Factor out the common factor in the numerator.</entry>
+<entry><media id="eip-id1172187955051" alt="."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_10_03_006j_img_new.jpg"/></media></entry></row>
+<row>
+<entry namest="c1" nameend="c2">Remove the common factors.</entry>
+<entry><media id="eip-id1172181389297" alt="."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_10_03_006k_img_new.jpg"/></media></entry></row>
+<row>
+<entry namest="c1" nameend="c2">Rewrite to show two solutions.</entry>
+<entry><media id="eip-id1172183476718" alt="."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_10_03_006l_img_new.jpg"/></media></entry></row>
+<row>
+<entry namest="c1" nameend="c2">Check. We leave the check to you.</entry>
+<entry/></row>
+</tbody>
+</tgroup>
+</table>
+</solution>
+</exercise></example>
+<note id="fs-id1166502109015" class="try">
+<exercise id="fs-id1166502109019">
+<problem id="fs-id1166502109021">
+<para id="fs-id1166502046808">Solve <m:math><m:mrow><m:mi>x</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>−</m:mo><m:mn>5</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> by using the Quadratic Formula.</para>
+</problem>
+<solution id="fs-id1166502076583">
+<para id="fs-id1166502076251"><m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>−1</m:mn><m:mo>±</m:mo><m:msqrt><m:mn>6</m:mn></m:msqrt></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1166502042787" class="try">
+<exercise id="fs-id1166502042790">
+<problem id="fs-id1166502064238">
+<para id="fs-id1166502064240">Solve <m:math><m:mrow><m:mi>y</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3</m:mn><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>−</m:mo><m:mn>2</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> by using the Quadratic Formula.</para>
+</problem>
+<solution id="fs-id1166502171820">
+<para id="fs-id1166502171822"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mn>2</m:mn><m:mn>3</m:mn></m:mfrac><m:mo>,</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<para id="fs-id1166502064692">When we solved linear equations, if an equation had too many fractions we ‘cleared the fractions’ by multiplying both sides of the equation by the LCD. This gave us an equivalent equation—without fractions—to solve. We can use the same strategy with quadratic equations.</para>
+<example id="fs-id1166501955663">
+<exercise id="fs-id1166501955665"><problem id="fs-id1166501955667">
+<para id="fs-id1166502075711">Solve <m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:msup><m:mi>u</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mfrac><m:mn>2</m:mn><m:mn>3</m:mn></m:mfrac><m:mi>u</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac></m:mrow></m:math> by using the Quadratic Formula.</para>
+</problem>
+<solution id="fs-id1166502221427">
+<title>Solution</title>
+<table id="eip-id1172182472964" class="unnumbered unstyled can-break" summary="The image shows the steps to solve the quadratic equation one half u squared plus two thirds u equals one third. Clear the fractions by multiplying both sides of the equation by the least common denominator of six. The equation is now three u squared plus four u equals two. Subtract two from both sides of the equation to get it in standard form. Now the equation is three u squared plus four u minus two equals zero. The value of a is three, the value of b is four and the value of c is negative two. Write the quadratic formula substituting in the values of a, b and c. The formula becomes u equals negative four plus or minus the square root of four squared minus four times three times negative two all divided by two times three. Simplify under the square root to get 16 plus 24 which is 40. The square root of 40 simplifies to two square root of ten. The formula simplifies to negative four plus or minus two square root of ten all over six. The numerator, negative four plus or minus two square root of ten, has the greatest common factor of two. Factor out the two in the numerator to get two times the quantity negative two plus or minus the square root of ten all divided by six. The common factor of two can be reduced in the numerator and denominator so that the solution simplifies to negative two plus or minus the square root of ten all over three. The two solutions are negative two plus the square root of ten all over three and negative two minus the square root of ten all over three. Checking the solutions is left to the student.">
+<label/><tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<tbody>
+
+<row>
+<entry namest="c1" nameend="c2"/>
+<entry><media id="eip-id1172185615482" alt="."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_10_03_007a_img_new.jpg"/></media></entry>
+</row>
+<row>
+<entry namest="c1" nameend="c2">Multiply both sides by the LCD, 6, to clear the fractions.</entry>
+<entry><media id="eip-id1172185615503" alt="."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_10_03_007b_img_new.jpg"/></media></entry>
+</row>
+<row>
+<entry namest="c1" nameend="c2">Multiply.</entry>
+<entry><media id="eip-id1172185615524" alt="."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_10_03_007c_img_new.jpg"/></media></entry>
+</row>
+<row>
+<entry namest="c1" nameend="c2">Subtract 2 to get the equation in standard form.</entry>
+<entry><media id="eip-id1172182531012" alt="."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_10_03_007d_img_new.jpg"/></media></entry>
+</row>
+<row>
+<entry namest="c1" nameend="c2">Identify the <emphasis effect="italics">a, b, c</emphasis> values. </entry>
+<entry><media id="eip-id1172182531038" alt="."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_10_03_007e_img_new.jpg"/></media></entry>
+</row>
+
+<row>
+<entry namest="c1" nameend="c2">Write the Quadratic Formula.</entry>
+<entry><media id="eip-id1172182531058" alt="."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_10_03_007f_img_new.jpg"/></media></entry></row>
+<row>
+<entry namest="c1" nameend="c2">Then substitute in the values of <emphasis effect="italics">a, b, c.</emphasis></entry>
+<entry><media id="eip-id1172185763180" alt="."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_10_03_007g_img_new.jpg"/></media></entry></row>
+<row>
+<entry align="left" valign="top" namest="c1" nameend="c2">Simplify.</entry>
+<entry><media id="eip-id1172185763199" alt="."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_10_03_007h_img_new.jpg"/></media><newline/><media id="eip-id1172185763209" alt="."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_10_03_007i_img_new.jpg"/></media></entry></row>
+<row>
+<entry namest="c1" nameend="c2">Simplify the radical.</entry>
+<entry><media id="eip-id1172185763228" alt="."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_10_03_007j_img_new.jpg"/></media></entry></row>
+<row>
+<entry namest="c1" nameend="c2">Factor out the common factor in the numerator.</entry>
+<entry><media id="eip-id1172185763248" alt="."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_10_03_007k_img_new.jpg"/></media></entry></row>
+<row>
+<entry namest="c1" nameend="c2">Remove the common factors.</entry>
+<entry><media id="eip-id1172182557298" alt="."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_10_03_007l_img_new.jpg"/></media></entry></row>
+<row>
+<entry namest="c1" nameend="c2">Rewrite to show two solutions.</entry>
+<entry><media id="eip-id1172182557318" alt="."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_10_03_007m_img_new.jpg"/></media></entry></row>
+<row>
+<entry namest="c1" nameend="c2">Check. We leave the check to you.</entry>
+<entry/></row>
+</tbody>
+</tgroup>
+</table>
+</solution>
+</exercise></example>
+<note id="fs-id1166502171826" class="try">
+<exercise id="fs-id1166502171829">
+<problem id="fs-id1166502171831">
+<para id="fs-id1166502047811">Solve <m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>4</m:mn></m:mfrac><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac><m:mi>c</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>12</m:mn></m:mrow></m:mfrac></m:mrow></m:math> by using the Quadratic Formula.</para>
+</problem>
+<solution id="fs-id1166502079812">
+<para id="fs-id1166502079814"><m:math><m:mrow><m:mi>c</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>2</m:mn><m:mo>±</m:mo><m:msqrt><m:mn>7</m:mn></m:msqrt></m:mrow><m:mn>3</m:mn></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1166502171976" class="try">
+<exercise id="fs-id1166502171979">
+<problem id="fs-id1166502222841">
+<para id="fs-id1166502222843">Solve <m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>9</m:mn></m:mfrac><m:msup><m:mi>d</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>d</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow></m:math> by using the Quadratic Formula.</para>
+</problem>
+<solution id="fs-id1166502223031">
+<para id="fs-id1166502223033"><m:math><m:mrow><m:mi>d</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>2</m:mn><m:mn>3</m:mn></m:mfrac><m:mo>,</m:mo><m:mi>d</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<para id="fs-id1166502224405">Think about the equation <m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>. We know from the Zero Products Principle that this equation has only one solution: <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>3</m:mn></m:mrow></m:math>.</para>
+<para id="fs-id1169215697803">We will see in the next example how using the Quadratic Formula to solve an equation with a perfect square also gives just one solution.</para>
+<example id="fs-id1166502216614">
+<exercise id="fs-id1166502216616"><problem id="fs-id1166502216618">
+<para id="fs-id1166502083747">Solve <m:math><m:mrow><m:mn>4</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>20</m:mn><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>−25</m:mn></m:mrow></m:math> by using the Quadratic Formula.</para>
+</problem>
+<solution id="fs-id1166502061128">
+<title>Solution</title>
+<table id="eip-id1172174320195" class="unnumbered unstyled" summary="The image shows the steps to solve the quadratic equation  four x squared minus 20 x equals negative 25. Add 25 to both sides of the equation to get it in standard form. Now the equation is four x squared minus 20 x plus 25 equals zero. The value of a is four, the value of b is negative 20 and the value of c is 25. Write the quadratic formula substituting in the values of a, b and c. The formula becomes x equals negative negative 20 plus or minus the square root of negative 20 squared minus four times four times 25 all divided by two times four. Simplify under the square root to get 400 minus 400 which is zero. The square root of zero simplifies to zero. The formula simplifies to 20 plus or minus zero all over by eight. The numerator, reduces to just 20. 20 over eight reduces to five halves. Checking the solutions is left to the student.">
+<label/><tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<tbody>
+
+<row>
+<entry namest="c1" nameend="c2"/>
+<entry><media id="eip-id1172187229303" alt="."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_10_03_008a_img_new.jpg"/></media></entry>
+</row>
+<row>
+<entry namest="c1" nameend="c2">Add 25 to get the equation in standard form.</entry>
+<entry><media id="eip-id1172187229323" alt="."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_10_03_008b_img_new.jpg"/></media></entry>
+</row>
+<row>
+<entry namest="c1" nameend="c2">Identify the <emphasis effect="italics">a, b, c</emphasis> values. </entry>
+<entry><media id="eip-id1172187229349" alt="."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_10_03_008c_img_new.jpg"/></media></entry>
+</row>
+<row>
+<entry namest="c1" nameend="c2">Write the Quadratic Formula.</entry>
+<entry><media id="eip-id1172185617569" alt="."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_10_03_008d_img_new.jpg"/></media></entry></row>
+<row>
+<entry namest="c1" nameend="c2">Then substitute in the values of <emphasis effect="italics">a, b, c.</emphasis></entry>
+<entry><media id="eip-id1172185617593" alt="."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_10_03_008e_img_new.jpg"/></media></entry></row>
+<row>
+<entry namest="c1" nameend="c2" valign="top" align="left">Simplify.</entry>
+<entry><media id="eip-id1172185617613" alt="."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_10_03_008f_img_new.jpg"/></media><newline/><media id="eip-id1172185617622" alt="."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_10_03_008g_img_new.jpg"/></media></entry></row>
+<row>
+<entry namest="c1" nameend="c2">Simplify the radical.</entry>
+<entry><media id="eip-id1172185617642" alt="."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_10_03_008h_img_new.jpg"/></media></entry></row>
+<row>
+<entry namest="c1" nameend="c2">Simplify the fraction.</entry>
+<entry><media id="eip-id1172189237430" alt="."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_10_03_008i_img_new.jpg"/></media></entry></row>
+<row>
+<entry namest="c1" nameend="c2">Check. We leave the check to you.</entry>
+<entry/></row>
+</tbody>
+</tgroup>
+</table>
+
+<para id="fs-id1166502063604">Did you recognize that <m:math><m:mrow><m:mn>4</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>20</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>25</m:mn></m:mrow></m:math> is a perfect square?</para>
+</solution>
+</exercise></example>
+<note id="fs-id1166502076270" class="try">
+<exercise id="fs-id1166502217177">
+<problem id="fs-id1166502217179">
+<para id="fs-id1166502217181">Solve <m:math><m:mrow><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>10</m:mn><m:mi>r</m:mi><m:mo>+</m:mo><m:mn>25</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> by using the Quadratic Formula.</para>
+</problem>
+<solution id="fs-id1166502059563">
+<para id="fs-id1166502059565"><m:math><m:mrow><m:mi>r</m:mi><m:mo>=</m:mo><m:mn>−5</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1166502061295" class="try">
+<exercise id="fs-id1166502061299">
+<problem id="fs-id1166502061301">
+<para id="fs-id1166502061303">Solve <m:math><m:mrow><m:mn>25</m:mn><m:msup><m:mi>t</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>40</m:mn><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>−16</m:mn></m:mrow></m:math> by using the Quadratic Formula.</para>
+</problem>
+<solution id="fs-id1166502171460">
+<para id="fs-id1166502171462"><m:math><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>4</m:mn><m:mn>5</m:mn></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<section id="fs-id1166502078155">
+<title>Use the Discriminant to Predict the Number of Solutions of a Quadratic Equation</title>
+<para id="fs-id1166502171745">When we solved the quadratic equations in the previous examples, sometimes we got two solutions, sometimes one solution, sometimes no real solutions. Is there a way to predict the number of solutions to a quadratic equation without actually solving the equation?</para>
+<para id="fs-id1166502171750">Yes, the quantity inside the radical of the Quadratic Formula makes it easy for us to determine the number of solutions. This quantity is called the <term class="no-emphasis">discriminant</term>.</para>
+<note id="fs-id1166502216536">
+<title>Discriminant</title>
+<para id="fs-id1166502216541">In the Quadratic Formula <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mtext>−</m:mtext><m:mi>b</m:mi><m:mo>±</m:mo><m:msqrt><m:mrow><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>4</m:mn><m:mi>a</m:mi><m:mi>c</m:mi></m:mrow></m:msqrt></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>a</m:mi></m:mrow></m:mfrac></m:mrow></m:math>, the quantity <m:math><m:mrow><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>4</m:mn><m:mi>a</m:mi><m:mi>c</m:mi></m:mrow></m:math> is called the <term>discriminant</term>.</para>
+</note>
+<para id="fs-id1166502221148">Let’s look at the discriminant of the equations in <link target-id="fs-id1166502221779"/>, <link target-id="fs-id1166502053264"/>, and <link target-id="fs-id1166502216614"/>, and the number of solutions to those quadratic equations.</para>
+<table id="fs-id1166502046892" class="unnumbered" summary="The table has four rows and five columns. The first row is a header row with the first column left blank. The second column is labeled “Quadratic Equation (in standard form)”, the third column is labeled “Discriminant b squared minus four a c”, the fourth column is labeled “ Sign of the Discriminant” and the last column is labeled “Number of real solutions”. The first column is a header column. Row two is labeled “Example 10_03_01” in the first column. The second column is the equation two x squared plus nine x minus five equals zero. The third column is the equation nine squared minus four times two times negative five equals 121. The fourth column has a plus sign and the last column has the number two. Row three is labeled “Example 10_03_08” in the first column. The second column is the equation four x squared minus 20 x plus 25 equals zero. The third column is the equation negative 20 squared minus four times four times 25 equals zero. The fourth column has a zero and the last column has the number one. The last row is labeled “Example 10_03_05” in the first column. The second column is the equation three p squared plus two p plus nine equals zero. The third column is the equation two squared minus four times three times nine equals negative 104. The fourth column has a negative sign and the last column has the number zero.">
+<tgroup cols="5">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<colspec colnum="4" colname="c4"/>
+<colspec colnum="5" colname="c5"/>
+<thead>
+<row valign="top">
+<entry valign="middle" align="center"/>
+<entry valign="middle" align="center"><emphasis effect="bold">Quadratic Equation (in standard form)</emphasis></entry>
+<entry valign="middle" align="center"><emphasis effect="bold">Discriminant <m:math><m:mrow><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>4</m:mn><m:mi>a</m:mi><m:mi>c</m:mi></m:mrow></m:math></emphasis></entry>
+<entry valign="middle" align="center"><emphasis effect="bold">Sign of the Discriminant</emphasis></entry>
+<entry valign="middle" align="center"><emphasis effect="bold">Number of real solutions</emphasis></entry>
+</row>
+</thead>
+<tbody>
+<row valign="top">
+<entry valign="middle" align="left"><link target-id="fs-id1166502221779"/></entry>
+<entry valign="middle" align="center"><m:math><m:mrow><m:mn>2</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>9</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>5</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></entry>
+<entry valign="middle" align="center"><m:math><m:mrow><m:msup><m:mn>9</m:mn><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>4</m:mn><m:mo>·</m:mo><m:mn>2</m:mn><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>121</m:mn></m:mrow></m:math></entry>
+<entry valign="middle" align="center">+</entry>
+<entry valign="middle" align="center">2</entry>
+</row>
+<row valign="top">
+<entry valign="middle" align="left"><link target-id="fs-id1166502216614"/></entry>
+<entry valign="middle" align="center"><m:math><m:mrow><m:mn>4</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>20</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>25</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></entry>
+<entry valign="middle" align="center"><m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−20</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>4</m:mn><m:mo>·</m:mo><m:mn>4</m:mn><m:mo>·</m:mo><m:mn>25</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></entry>
+<entry valign="middle" align="center">0</entry>
+<entry valign="middle" align="center">1</entry>
+</row>
+<row valign="top">
+<entry valign="middle" align="left"><link target-id="fs-id1166502053264"/></entry>
+<entry valign="middle" align="center"><m:math><m:mrow><m:mn>3</m:mn><m:msup><m:mi>p</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>p</m:mi><m:mo>+</m:mo><m:mn>9</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></entry>
+<entry valign="middle" align="center"><m:math><m:mrow><m:msup><m:mn>2</m:mn><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>4</m:mn><m:mo>·</m:mo><m:mn>3</m:mn><m:mo>·</m:mo><m:mn>9</m:mn><m:mo>=</m:mo><m:mn>−104</m:mn></m:mrow></m:math></entry>
+<entry valign="middle" align="center">−</entry>
+<entry valign="middle" align="center">0</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<para id="fs-id1166502079856">When the discriminant is <emphasis effect="bold">positive</emphasis> <m:math><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mtext>−</m:mtext><m:mi>b</m:mi><m:mo>±</m:mo><m:msqrt><m:mo>+</m:mo></m:msqrt></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>a</m:mi></m:mrow></m:mfrac><m:mo>)</m:mo></m:mrow></m:math> the quadratic equation has <emphasis effect="bold">two solutions</emphasis>.</para>
+<para id="fs-id1166502170265">When the discriminant is <emphasis effect="bold">zero</emphasis> <m:math><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mtext>−</m:mtext><m:mi>b</m:mi><m:mo>±</m:mo><m:msqrt><m:mn>0</m:mn></m:msqrt></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>a</m:mi></m:mrow></m:mfrac><m:mo>)</m:mo></m:mrow></m:math> the quadratic equation has <emphasis effect="bold">one solution</emphasis>.</para>
+<para id="fs-id1166502171504">When the discriminant is <emphasis effect="bold">negative</emphasis> <m:math><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mtext>−</m:mtext><m:mi>b</m:mi><m:mo>±</m:mo><m:msqrt><m:mo>−</m:mo></m:msqrt></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>a</m:mi></m:mrow></m:mfrac><m:mo>)</m:mo></m:mrow></m:math> the quadratic equation has <emphasis effect="bold">no real solutions</emphasis>.</para>
+<note id="fs-id1166502171773" class="howto">
+<title>Use the discriminant, <m:math><m:mrow><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>4</m:mn><m:mi>a</m:mi><m:mi>c</m:mi></m:mrow></m:math>, to determine the number of solutions of a Quadratic Equation.</title>
+<para id="fs-id1166502171800">For a quadratic equation of the form <m:math><m:mrow><m:mi>a</m:mi><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>b</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>c</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>, <m:math><m:mrow><m:mi>a</m:mi><m:mo>≠</m:mo><m:mn>0</m:mn></m:mrow></m:math>,</para>
+<list id="fs-id1166502222931" list-type="bulleted" bullet-style="bullet">
+<item>if <m:math><m:mrow><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>4</m:mn><m:mi>a</m:mi><m:mi>c</m:mi><m:mo>&gt;</m:mo><m:mn>0</m:mn></m:mrow></m:math>, the equation has two solutions.</item>
+<item>if <m:math><m:mrow><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>4</m:mn><m:mi>a</m:mi><m:mi>c</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>, the equation has one solution.</item>
+<item>if <m:math><m:mrow><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>4</m:mn><m:mi>a</m:mi><m:mi>c</m:mi><m:mo>&lt;</m:mo><m:mn>0</m:mn></m:mrow></m:math>, the equation has no real solutions.</item>
+</list>
+</note>
+
+<example id="fs-id1166502171907">
+<exercise id="fs-id1166502171910">
+<problem id="fs-id1166502171912">
+<para id="fs-id1166502171914">Determine the number of solutions to each quadratic equation:</para>
+<para id="fs-id1166502171917"><span class="token">ⓐ</span> <m:math><m:mrow><m:mn>2</m:mn><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>3</m:mn><m:mi>v</m:mi><m:mo>+</m:mo><m:mn>6</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mn>3</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>7</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>9</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> <span class="token">ⓒ</span> <m:math><m:mrow><m:mn>5</m:mn><m:msup><m:mi>n</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>n</m:mi><m:mo>+</m:mo><m:mn>4</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> <span class="token">ⓓ</span> <m:math><m:mrow><m:mn>9</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>6</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1166502217229">
+<title>Solution</title>
+<para id="fs-id1166502217234">To determine the number of solutions of each quadratic equation, we will look at its discriminant.</para>
+<list id="fs-id1167271094707" list-type="enumerated" number-style="arabic" class="circled">
+<item><span class="token">ⓐ</span><newline/><m:math><m:mtable><m:mtr><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mspace width="5em"/><m:mn>2</m:mn><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>3</m:mn><m:mi>v</m:mi><m:mo>+</m:mo><m:mn>6</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>The equation is in standard form, identify</m:mtext><m:mspace width="0.2em"/><m:mi>a</m:mi><m:mo>,</m:mo><m:mi>b</m:mi><m:mo>,</m:mo><m:mi>c</m:mi><m:mo>.</m:mo></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mspace width="5em"/><m:mi>a</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mi>b</m:mi><m:mo>=</m:mo><m:mn>−3</m:mn><m:mo>,</m:mo><m:mi>c</m:mi><m:mo>=</m:mo><m:mn>6</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>Write the discriminant.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mspace width="5em"/><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>4</m:mn><m:mi>a</m:mi><m:mi>c</m:mi><m:mspace width="1.3em"/></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>Substitute in the values of</m:mtext><m:mspace width="0.2em"/><m:mi>a</m:mi><m:mo>,</m:mo><m:mi>b</m:mi><m:mo>,</m:mo><m:mi>c</m:mi><m:mo>.</m:mo></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mspace width="5em"/><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mn>3</m:mn><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>4</m:mn><m:mo>·</m:mo><m:mn>2</m:mn><m:mo>·</m:mo><m:mn>6</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>Simplify.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mspace width="5em"/><m:mtable><m:mtr><m:mtd columnalign="right"><m:mn>9</m:mn><m:mo>−</m:mo><m:mn>48</m:mn><m:mspace width="1.7em"/></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mn>−39</m:mn><m:mspace width="2.1em"/></m:mtd></m:mtr></m:mtable></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>Because the discriminant is negative, there are no real</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd/></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>solutions to the equation.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd/></m:mtr></m:mtable></m:math><newline/></item>
+<item><span class="token">ⓑ</span><newline/><m:math><m:mtable><m:mtr><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mspace width="6.2em"/><m:mn>3</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>7</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>9</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>The equation is in standard form, identify</m:mtext><m:mspace width="0.2em"/><m:mi>a</m:mi><m:mo>,</m:mo><m:mi>b</m:mi><m:mo>,</m:mo><m:mi>c</m:mi><m:mo>.</m:mo></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mspace width="6.2em"/><m:mi>a</m:mi><m:mo>=</m:mo><m:mn>3</m:mn><m:mo>,</m:mo><m:mi>b</m:mi><m:mo>=</m:mo><m:mn>7</m:mn><m:mo>,</m:mo><m:mi>c</m:mi><m:mo>=</m:mo><m:mn>−9</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>Write the discriminant.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mspace width="6.2em"/><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>4</m:mn><m:mi>a</m:mi><m:mi>c</m:mi><m:mspace width="2.6em"/></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>Substitute in the values of</m:mtext><m:mspace width="0.2em"/><m:mi>a</m:mi><m:mo>,</m:mo><m:mi>b</m:mi><m:mo>,</m:mo><m:mi>c</m:mi><m:mo>.</m:mo></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mspace width="6.2em"/><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mn>7</m:mn><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>4</m:mn><m:mo>·</m:mo><m:mn>3</m:mn><m:mo>·</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−9</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>Simplify.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mspace width="6.2em"/><m:mtable><m:mtr><m:mtd columnalign="right"><m:mn>49</m:mn><m:mo>+</m:mo><m:mn>108</m:mn><m:mspace width="2.6em"/></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mn>157</m:mn><m:mspace width="3.4em"/></m:mtd></m:mtr></m:mtable></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>Because the discriminant is positive, there are two</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd/></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>solutions to the equation.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd/></m:mtr></m:mtable></m:math><newline/></item>
+<item><span class="token">ⓒ</span><newline/><m:math><m:mtable><m:mtr><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mspace width="5em"/><m:mn>5</m:mn><m:msup><m:mi>n</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>n</m:mi><m:mo>+</m:mo><m:mn>4</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>The equation is in standard form, identify</m:mtext><m:mspace width="0.2em"/><m:mi>a</m:mi><m:mo>,</m:mo><m:mi>b</m:mi><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mtext>and</m:mtext><m:mspace width="0.2em"/><m:mi>c</m:mi><m:mo>.</m:mo></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mspace width="5em"/><m:mi>a</m:mi><m:mo>=</m:mo><m:mn>5</m:mn><m:mo>,</m:mo><m:mi>b</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mi>c</m:mi><m:mo>=</m:mo><m:mn>4</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>Write the discriminant.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mspace width="5em"/><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>4</m:mn><m:mi>a</m:mi><m:mi>c</m:mi><m:mspace width="1.2em"/></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>Substitute in the values of</m:mtext><m:mspace width="0.2em"/><m:mi>a</m:mi><m:mo>,</m:mo><m:mi>b</m:mi><m:mo>,</m:mo><m:mi>c</m:mi><m:mo>.</m:mo></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mspace width="5em"/><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mn>1</m:mn><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>4</m:mn><m:mo>·</m:mo><m:mn>5</m:mn><m:mo>·</m:mo><m:mn>4</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>Simplify.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mspace width="5em"/><m:mtable><m:mtr><m:mtd columnalign="right"><m:mn>1</m:mn><m:mo>−</m:mo><m:mn>80</m:mn><m:mspace width="1.7em"/></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mn>−79</m:mn><m:mspace width="2.1em"/></m:mtd></m:mtr></m:mtable></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>Because the discriminant is negative, there are no real</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd/></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>solutions to the equation.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd/></m:mtr></m:mtable></m:math><newline/></item>
+<item><span class="token">ⓓ</span><newline/><m:math><m:mtable><m:mtr><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>9</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>6</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>The equation is in standard form, identify</m:mtext><m:mspace width="0.2em"/><m:mi>a</m:mi><m:mo>,</m:mo><m:mi>b</m:mi><m:mo>,</m:mo><m:mi>c</m:mi><m:mo>.</m:mo></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mi>a</m:mi><m:mo>=</m:mo><m:mn>9</m:mn><m:mo>,</m:mo><m:mi>b</m:mi><m:mo>=</m:mo><m:mn>−6</m:mn><m:mo>,</m:mo><m:mi>c</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>Write the discriminant.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>4</m:mn><m:mi>a</m:mi><m:mi>c</m:mi><m:mspace width="1.2em"/></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>Substitute in the values of</m:mtext><m:mspace width="0.2em"/><m:mi>a</m:mi><m:mo>,</m:mo><m:mi>b</m:mi><m:mo>,</m:mo><m:mi>c</m:mi><m:mo>.</m:mo></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−6</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>4</m:mn><m:mo>·</m:mo><m:mn>9</m:mn><m:mo>·</m:mo><m:mn>1</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>Simplify.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mtable><m:mtr><m:mtd columnalign="right"><m:mn>36</m:mn><m:mo>−</m:mo><m:mn>36</m:mn><m:mspace width="1.6em"/></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mn>0</m:mn><m:mspace width="2.7em"/></m:mtd></m:mtr></m:mtable></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>Because the discriminant is 0, there is one solution to the equation.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd/></m:mtr></m:mtable></m:math></item>
+</list>
+</solution>
+</exercise>
+</example>
+
+<note id="fs-id1166502216526" class="try">
+<exercise id="fs-id1166502220741">
+<problem id="fs-id1166502220743">
+<para id="fs-id1166502220746">Determine the number of solutions to each quadratic equation:</para>
+<para id="fs-id1166502220749"><span class="token">ⓐ</span> <m:math><m:mrow><m:mn>8</m:mn><m:msup><m:mi>m</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>3</m:mn><m:mi>m</m:mi><m:mo>+</m:mo><m:mn>6</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mn>5</m:mn><m:msup><m:mi>z</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>6</m:mn><m:mi>z</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> <span class="token">ⓒ</span> <m:math><m:mrow><m:mn>9</m:mn><m:msup><m:mi>w</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>24</m:mn><m:mi>w</m:mi><m:mo>+</m:mo><m:mn>16</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> <span class="token">ⓓ</span> <m:math><m:mrow><m:mn>9</m:mn><m:msup><m:mi>u</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>u</m:mi><m:mo>+</m:mo><m:mn>4</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1166502221926">
+<para id="fs-id1166502221929"><span class="token">ⓐ</span> no real solutions <span class="token">ⓑ</span> 2 <span class="token">ⓒ</span> 1 <span class="token">ⓓ</span> no real solutions</para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1166502221935" class="try">
+<exercise id="fs-id1166502221939">
+<problem id="fs-id1166502221941">
+<para id="fs-id1166502221943">Determine the number of solutions to each quadratic equation:</para>
+<para id="fs-id1166502221947"><span class="token">ⓐ</span> <m:math><m:mrow><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>7</m:mn><m:mi>b</m:mi><m:mo>−</m:mo><m:mn>13</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mn>5</m:mn><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>6</m:mn><m:mi>a</m:mi><m:mo>+</m:mo><m:mn>10</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> <span class="token">ⓒ</span> <m:math><m:mrow><m:mn>4</m:mn><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>20</m:mn><m:mi>r</m:mi><m:mo>+</m:mo><m:mn>25</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> <span class="token">ⓓ</span> <m:math><m:mrow><m:mn>7</m:mn><m:msup><m:mi>t</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>11</m:mn><m:mi>t</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1166502064581">
+<para id="fs-id1166502064583"><span class="token">ⓐ</span> 2 <span class="token">ⓑ</span> no real solutions <span class="token">ⓒ</span> 1 <span class="token">ⓓ</span> 2</para>
+</solution>
+</exercise>
+</note>
+</section>
+<section id="fs-id1166502064590">
+<title>Identify the Most Appropriate Method to Use to Solve a Quadratic Equation</title>
+<para id="fs-id1166502064596">We have used four methods to solve quadratic equations:</para>
+<list id="fs-id1166502064599" list-type="bulleted" bullet-style="bullet">
+<item>Factoring</item>
+<item>Square Root Property</item>
+<item>Completing the Square</item>
+<item>Quadratic Formula</item>
+</list>
+<para id="fs-id1166502064619">You can solve any quadratic equation by using the Quadratic Formula, but that is not always the easiest method to use.</para>
+<note id="fs-id1166502064623" class="howto">
+<title>Identify the most appropriate method to solve a Quadratic Equation.</title>
+<list id="fs-id1168746324685" list-type="enumerated" number-style="arabic" class="stepwise">
+<item>Try <emphasis effect="bold">Factoring</emphasis> first. If the quadratic factors easily, this method is very quick.</item>
+<item>Try the <emphasis effect="bold">Square Root Property</emphasis> next. If the equation fits the form <m:math><m:mrow><m:mi>a</m:mi><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mi>k</m:mi></m:mrow></m:math> or <m:math><m:mrow><m:mi>a</m:mi><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mi>h</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mi>k</m:mi></m:mrow></m:math>, it can easily be solved by using the Square Root Property.</item>
+<item>Use the <emphasis effect="bold">Quadratic Formula</emphasis>. Any quadratic equation can be solved by using the Quadratic Formula.</item>
+</list>
+</note>
+<para id="fs-id1166501975264">What about the method of completing the square? Most people find that method cumbersome and prefer not to use it. We needed to include it in this chapter because we completed the square in general to derive the Quadratic Formula. You will also use the process of completing the square in other areas of algebra.</para>
+<example id="fs-id1166501975270">
+<exercise id="fs-id1166501975272">
+<problem id="fs-id1166501975274">
+<para id="fs-id1166501975276">Identify the most appropriate method to use to solve each quadratic equation:</para>
+<para id="fs-id1166501975280"><span class="token">ⓐ</span> <m:math><m:mrow><m:mn>5</m:mn><m:msup><m:mi>z</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>17</m:mn></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mn>4</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>12</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>9</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> <span class="token">ⓒ</span> <m:math><m:mrow><m:mn>8</m:mn><m:msup><m:mi>u</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>6</m:mn><m:mi>u</m:mi><m:mo>=</m:mo><m:mn>11</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1166502053387">
+<title>Solution</title>
+<para id="fs-id1166502053392"><span class="token">ⓐ</span> <m:math><m:mrow><m:mn>5</m:mn><m:msup><m:mi>z</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>17</m:mn></m:mrow></m:math></para>
+<para id="fs-id1166502053409">Since the equation is in the <m:math><m:mrow><m:mi>a</m:mi><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mi>k</m:mi></m:mrow></m:math>, the most appropriate method is to use the Square Root Property.</para>
+<para id="fs-id1168744116904"><newline/></para>
+<para id="fs-id1166502053427"><span class="token">ⓑ</span> <m:math><m:mrow><m:mn>4</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>12</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>9</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></para>
+<para id="fs-id1166502053455">We recognize that the left side of the equation is a perfect square trinomial, and so Factoring will be the most appropriate method.</para>
+<para id="fs-id1168744094363"><newline/></para>
+<para id="fs-id1166502053459"><span class="token">ⓒ</span> <m:math><m:mrow><m:mn>8</m:mn><m:msup><m:mi>u</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>6</m:mn><m:mi>u</m:mi><m:mo>=</m:mo><m:mn>11</m:mn></m:mrow></m:math></para>
+<para id="fs-id1166502220224">Put the equation in standard form. <m:math><m:mrow><m:mn>8</m:mn><m:msup><m:mi>u</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>6</m:mn><m:mi>u</m:mi><m:mo>−</m:mo><m:mn>11</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></para>
+<para id="fs-id1166502220251">While our first thought may be to try Factoring, thinking about all the possibilities for trial and error leads us to choose the Quadratic Formula as the most appropriate method</para>
+</solution>
+</exercise>
+</example>
+<note id="fs-id1166502220259" class="try">
+<exercise id="fs-id1166502220264">
+<problem id="fs-id1166502220266">
+<para id="fs-id1166502220268">Identify the most appropriate method to use to solve each quadratic equation:</para>
+<para id="fs-id1168743963762"><span class="token">ⓐ</span> <m:math><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>6</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>8</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>16</m:mn></m:mrow></m:math> <span class="token">ⓒ</span> <m:math><m:mrow><m:mn>5</m:mn><m:msup><m:mi>p</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>6</m:mn><m:mi>p</m:mi><m:mo>=</m:mo><m:mn>9</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1166502104539">
+<para id="fs-id1166502104541"><span class="token">ⓐ</span> factor <span class="token">ⓑ</span> Square Root Property <span class="token">ⓒ</span> Quadratic Formula</para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1166502104548" class="try">
+<exercise id="fs-id1166502104552">
+<problem id="fs-id1166502104554">
+<para id="fs-id1166502104556">Identify the most appropriate method to use to solve each quadratic equation:</para>
+<para id="fs-id1168744266921"><span class="token">ⓐ</span> <m:math><m:mrow><m:mn>8</m:mn><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>a</m:mi><m:mo>−</m:mo><m:mn>9</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mn>4</m:mn><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>4</m:mn><m:mi>b</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> <span class="token">ⓒ</span> <m:math><m:mrow><m:mn>5</m:mn><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>125</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1166502104625">
+<para id="fs-id1166502104628"><span class="token">ⓐ</span> Quadratic Formula <span class="token">ⓑ</span> factoring <span class="token">ⓒ</span> Square Root Property</para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1166502104634" class="media-2">
+<para id="fs-id1166502104638">Access these online resources for additional instruction and practice with using the Quadratic Formula:</para>
+<list id="fs-id1166502104642" display="block">
+<item><link url="https://openstax.org/l/25Quadformula">Solving Quadratic Equations: Solving with the Quadratic Formula</link></item>
+<item><link url="https://openstax.org/l/25Usequadform">How to solve a quadratic equation in standard form using the Quadratic Formula (example)</link></item>
+<item><link url="https://openstax.org/l/25Byquadformula">Solving Quadratic Equations using the Quadratic Formula—Example 3</link></item>
+<item><link url="https://openstax.org/l/25Solvequadform">Solve Quadratic Equations using Quadratic Formula</link></item>
+</list>
+</note>
+</section>
+<section id="fs-id1166502082670" class="key-concepts">
+<title>Key Concepts</title>
+<list id="fs-id1166502082681" list-type="bulleted" bullet-style="bullet">
+<item><emphasis effect="bold">Quadratic Formula</emphasis> The solutions to a quadratic equation of the form <m:math><m:mrow><m:mi>a</m:mi><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>b</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>c</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo></m:mrow></m:math> <m:math><m:mrow><m:mi>a</m:mi><m:mo>≠</m:mo><m:mn>0</m:mn></m:mrow></m:math> are given by the formula:<newline/>
+<equation id="fs-id1168744124434" class="unnumbered"><label/><m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mtext>−</m:mtext><m:mi>b</m:mi><m:mo>±</m:mo><m:msqrt><m:mrow><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>4</m:mn><m:mi>a</m:mi><m:mi>c</m:mi></m:mrow></m:msqrt></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>a</m:mi></m:mrow></m:mfrac></m:mrow></m:math></equation></item>
+<item><emphasis effect="bold">Solve a Quadratic Equation Using the Quadratic Formula</emphasis><newline/>
+To solve a quadratic equation using the Quadratic Formula.
+<list id="fs-id1168746413123" list-type="enumerated" number-style="arabic" class="stepwise">
+<item>Write the quadratic formula in standard form. Identify the <m:math><m:mrow><m:mi>a</m:mi><m:mo>,</m:mo><m:mi>b</m:mi><m:mo>,</m:mo><m:mi>c</m:mi></m:mrow></m:math> values.</item>
+<item>Write the quadratic formula. Then substitute in the values of <m:math><m:mrow><m:mi>a</m:mi><m:mo>,</m:mo><m:mi>b</m:mi><m:mo>,</m:mo><m:mi>c</m:mi><m:mo>.</m:mo></m:mrow></m:math></item>
+<item>Simplify.</item>
+<item>Check the solutions.</item>
+</list></item>
+<item><emphasis effect="bold">Using the Discriminant, <m:math><m:mrow><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>4</m:mn><m:mi>a</m:mi><m:mi>c</m:mi></m:mrow></m:math>, to Determine the Number of Solutions of a Quadratic Equation</emphasis><newline/>
+For a quadratic equation of the form <m:math><m:mrow><m:mi>a</m:mi><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>b</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>c</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo></m:mrow></m:math> <m:math><m:mrow><m:mi>a</m:mi><m:mo>≠</m:mo><m:mn>0</m:mn><m:mo>,</m:mo></m:mrow></m:math>
+<list id="fs-id1168744093259" list-type="bulleted" bullet-style="bullet">
+<item>if <m:math><m:mrow><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>4</m:mn><m:mi>a</m:mi><m:mi>c</m:mi><m:mo>&gt;</m:mo><m:mn>0</m:mn></m:mrow></m:math>, the equation has 2 solutions.</item>
+<item>if <m:math><m:mrow><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>4</m:mn><m:mi>a</m:mi><m:mi>c</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>, the equation has 1 solution.</item>
+<item>if <m:math><m:mrow><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>4</m:mn><m:mi>a</m:mi><m:mi>c</m:mi><m:mo>&lt;</m:mo><m:mn>0</m:mn></m:mrow></m:math>, the equation has no real solutions.</item>
+</list></item>
+<item><emphasis effect="bold">To identify the most appropriate method to solve a quadratic equation:</emphasis>
+<list id="fs-id1168744094714" list-type="enumerated" number-style="arabic" class="stepwise">
+<item>Try Factoring first. If the quadratic factors easily this method is very quick.</item>
+<item>Try the Square Root Property next. If the equation fits the form <m:math><m:mrow><m:mi>a</m:mi><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mi>k</m:mi></m:mrow></m:math> or <m:math><m:mrow><m:mi>a</m:mi><m:msup><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mi>h</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mi>k</m:mi></m:mrow></m:math>, it can easily be solved by using the Square Root Property.</item>
+<item>Use the Quadratic Formula. Any other quadratic equation is best solved by using the Quadratic Formula.</item>
+</list></item>
+</list>
+</section>
+<section id="fs-id1166502082699" class="section-exercises">
+<section id="fs-id1166502082703" class="practice-perfect">
+<title>Practice Makes Perfect</title>
+<para id="fs-id1166502082708"><emphasis effect="bold">Solve Quadratic Equations Using the Quadratic Formula</emphasis></para>
+<para id="fs-id1168744045972">In the following exercises, solve by using the Quadratic Formula.</para>
+<exercise id="fs-id1166502082715">
+<problem id="fs-id1166502082718">
+<para id="fs-id1166502082720"><m:math><m:mrow><m:mn>4</m:mn><m:msup><m:mi>m</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>m</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1166502082745">
+<para id="fs-id1166502082747"><m:math><m:mrow><m:mi>m</m:mi><m:mo>=</m:mo><m:mn>−1</m:mn><m:mo>,</m:mo><m:mi>m</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>3</m:mn><m:mn>4</m:mn></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1166502082772">
+<problem id="fs-id1166502082774">
+<para id="fs-id1166502081233"><m:math><m:mrow><m:mn>4</m:mn><m:msup><m:mi>n</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>9</m:mn><m:mi>n</m:mi><m:mo>+</m:mo><m:mn>5</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1166502081287">
+<problem id="fs-id1166502081289">
+<para id="fs-id1166502081291"><m:math><m:mrow><m:mn>2</m:mn><m:msup><m:mi>p</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>7</m:mn><m:mi>p</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1166502081319">
+<para id="fs-id1166502081321"><m:math><m:mrow><m:mi>p</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mo>,</m:mo><m:mi>p</m:mi><m:mo>=</m:mo><m:mn>3</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1166502081346">
+<problem id="fs-id1166502081348">
+<para id="fs-id1166502081350"><m:math><m:mrow><m:mn>3</m:mn><m:msup><m:mi>q</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>8</m:mn><m:mi>q</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1166502216780">
+<problem id="fs-id1166502216782">
+<para id="fs-id1166502216784"><m:math><m:mrow><m:msup><m:mi>p</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>7</m:mn><m:mi>p</m:mi><m:mo>+</m:mo><m:mn>12</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1166502216810">
+<para id="fs-id1166502216812"><m:math><m:mrow><m:mi>p</m:mi><m:mo>=</m:mo><m:mn>−4</m:mn><m:mo>,</m:mo><m:mi>p</m:mi><m:mo>=</m:mo><m:mn>−3</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1166502216833">
+<problem id="fs-id1166502216835">
+<para id="fs-id1166502216837"><m:math><m:mrow><m:msup><m:mi>q</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>q</m:mi><m:mo>−</m:mo><m:mn>18</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1166502102443">
+<problem id="fs-id1166502102445">
+<para id="fs-id1166502102447"><m:math><m:mrow><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>8</m:mn><m:mi>r</m:mi><m:mo>−</m:mo><m:mn>33</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1166502102473">
+<para id="fs-id1166502102475"><m:math><m:mrow><m:mi>r</m:mi><m:mo>=</m:mo><m:mn>−3</m:mn><m:mo>,</m:mo><m:mi>r</m:mi><m:mo>=</m:mo><m:mn>11</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1166502102496">
+<problem id="fs-id1166502102499">
+<para id="fs-id1166502102501"><m:math><m:mrow><m:msup><m:mi>t</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>13</m:mn><m:mi>t</m:mi><m:mo>+</m:mo><m:mn>40</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1166502102550">
+<problem id="fs-id1166502102552">
+<para id="fs-id1166502102554"><m:math><m:mrow><m:mn>3</m:mn><m:msup><m:mi>u</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>7</m:mn><m:mi>u</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1166502079463">
+<para id="fs-id1166502079466"><m:math><m:mrow><m:mi>u</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>−7</m:mn><m:mo>±</m:mo><m:msqrt><m:mrow><m:mn>73</m:mn></m:mrow></m:msqrt></m:mrow><m:mn>6</m:mn></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1166502079489">
+<problem id="fs-id1166502079491">
+<para id="fs-id1166502079493"><m:math><m:mrow><m:mn>6</m:mn><m:msup><m:mi>z</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>9</m:mn><m:mi>z</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1166502079528">
+<problem id="fs-id1166502079531">
+<para id="fs-id1166502079533"><m:math><m:mrow><m:mn>2</m:mn><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>6</m:mn><m:mi>a</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1166502079560">
+<para id="fs-id1166502079563"><m:math><m:mrow><m:mi>a</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>3</m:mn><m:mo>±</m:mo><m:msqrt><m:mn>3</m:mn></m:msqrt></m:mrow><m:mn>2</m:mn></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1166502222672">
+<problem id="fs-id1166502222674">
+<para id="fs-id1166502222677"><m:math><m:mrow><m:mn>5</m:mn><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>b</m:mi><m:mo>−</m:mo><m:mn>4</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1166502222730">
+<problem id="fs-id1166502222732">
+<para id="fs-id1166502222734"><m:math><m:mrow><m:mn>2</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>9</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1166502222762">
+<para id="fs-id1166502222764">no real solution</para>
+</solution>
+</exercise>
+<exercise id="fs-id1166502222769">
+<problem id="fs-id1166502222772">
+<para id="fs-id1166502222774"><m:math><m:mrow><m:mn>6</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>5</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1166502061518">
+<problem id="fs-id1166502061520">
+<para id="fs-id1166502061522"><m:math><m:mrow><m:mi>v</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>v</m:mi><m:mo>+</m:mo><m:mn>5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>−</m:mo><m:mn>10</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1166502061551">
+<para id="fs-id1166502061553"><m:math><m:mrow><m:mi>v</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>−5</m:mn><m:mo>±</m:mo><m:msqrt><m:mrow><m:mn>65</m:mn></m:mrow></m:msqrt></m:mrow><m:mn>2</m:mn></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1166502061576">
+<problem id="fs-id1166502061579">
+<para id="fs-id1166502061581"><m:math><m:mrow><m:mn>3</m:mn><m:mi>w</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>w</m:mi><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>−</m:mo><m:mn>8</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1166502090424">
+<problem id="fs-id1166502090426">
+<para id="fs-id1166502090428"><m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac><m:msup><m:mi>m</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>12</m:mn></m:mrow></m:mfrac><m:mi>m</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>4</m:mn></m:mfrac></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1166502090462">
+<para id="fs-id1166502090465"><m:math><m:mrow><m:mi>m</m:mi><m:mo>=</m:mo><m:mn>−1</m:mn><m:mo>,</m:mo><m:mi>m</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>3</m:mn><m:mn>4</m:mn></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1166502090489">
+<problem id="fs-id1166502090491">
+<para id="fs-id1166502090493"><m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac><m:msup><m:mi>n</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>n</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1166502090548">
+<problem id="fs-id1166502090550">
+<para id="fs-id1166502090552"><m:math><m:mrow><m:mn>16</m:mn><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>24</m:mn><m:mi>c</m:mi><m:mo>+</m:mo><m:mn>9</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1166502109180">
+<para id="fs-id1166502109182"><m:math><m:mrow><m:mi>c</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mn>3</m:mn><m:mn>4</m:mn></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1166502109200">
+<problem id="fs-id1166502109202">
+<para id="fs-id1166502109204"><m:math><m:mrow><m:mn>25</m:mn><m:msup><m:mi>d</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>60</m:mn><m:mi>d</m:mi><m:mo>+</m:mo><m:mn>36</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1166502109250">
+<problem id="fs-id1166502109252">
+<para id="fs-id1166502109255"><m:math><m:mrow><m:mn>5</m:mn><m:msup><m:mi>m</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>m</m:mi><m:mo>−</m:mo><m:mn>7</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1166502109282">
+<para id="fs-id1166502109284"><m:math><m:mrow><m:mi>m</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mn>7</m:mn><m:mn>5</m:mn></m:mfrac><m:mo>,</m:mo><m:mi>m</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1166502061167">
+<problem id="fs-id1166502061169">
+<para id="fs-id1166502061171"><m:math><m:mrow><m:mn>8</m:mn><m:msup><m:mi>n</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>3</m:mn><m:mi>n</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1166502061207">
+<problem id="fs-id1166502061209">
+<para id="fs-id1166502061211"><m:math><m:mrow><m:msup><m:mi>p</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>6</m:mn><m:mi>p</m:mi><m:mo>−</m:mo><m:mn>27</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1166502061236">
+<para id="fs-id1166502061239"><m:math><m:mrow><m:mi>p</m:mi><m:mo>=</m:mo><m:mn>−3</m:mn><m:mo>,</m:mo><m:mi>p</m:mi><m:mo>=</m:mo><m:mn>9</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1166502061260">
+<problem id="fs-id1166502061262">
+<para id="fs-id1166502061264"><m:math><m:mrow><m:mn>25</m:mn><m:msup><m:mi>q</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>30</m:mn><m:mi>q</m:mi><m:mo>+</m:mo><m:mn>9</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1166502092429">
+<problem id="fs-id1166502092432">
+<para id="fs-id1166502092434"><m:math><m:mrow><m:mn>4</m:mn><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>r</m:mi><m:mo>−</m:mo><m:mn>5</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1166502092461">
+<para id="fs-id1166502092464"><m:math><m:mrow><m:mi>r</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>−3</m:mn><m:mo>±</m:mo><m:msqrt><m:mrow><m:mn>89</m:mn></m:mrow></m:msqrt></m:mrow><m:mn>8</m:mn></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1166502092487">
+<problem id="fs-id1166502092489">
+<para id="fs-id1166502092491"><m:math><m:mrow><m:mn>3</m:mn><m:mi>t</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>t</m:mi><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>2</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1166502073348">
+<problem id="fs-id1166502073350">
+<para id="fs-id1166502073352"><m:math><m:mrow><m:mn>2</m:mn><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>12</m:mn><m:mi>a</m:mi><m:mo>+</m:mo><m:mn>5</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1166502073380">
+<para id="fs-id1166502073382"><m:math><m:mrow><m:mi>a</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>−6</m:mn><m:mo>±</m:mo><m:msqrt><m:mrow><m:mn>26</m:mn></m:mrow></m:msqrt></m:mrow><m:mn>2</m:mn></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1166502073406">
+<problem id="fs-id1166502073408">
+<para id="fs-id1166502073410"><m:math><m:mrow><m:mn>4</m:mn><m:msup><m:mi>d</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>7</m:mn><m:mi>d</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1166502073463">
+<problem id="fs-id1166502073465">
+<para id="fs-id1166502073467"><m:math><m:mrow><m:mfrac><m:mn>3</m:mn><m:mn>4</m:mn></m:mfrac><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>b</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>3</m:mn><m:mn>8</m:mn></m:mfrac></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1166502102847">
+<para id="fs-id1166502102849"><m:math><m:mrow><m:mi>b</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>−2</m:mn><m:mo>±</m:mo><m:msqrt><m:mrow><m:mn>11</m:mn></m:mrow></m:msqrt></m:mrow><m:mn>6</m:mn></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1166502102873">
+<problem id="fs-id1166502102875">
+<para id="fs-id1166502102877"><m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>9</m:mn></m:mfrac><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mfrac><m:mn>2</m:mn><m:mn>3</m:mn></m:mfrac><m:mi>c</m:mi><m:mo>=</m:mo><m:mn>3</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1166502102930">
+<problem id="fs-id1166502102932">
+<para id="fs-id1166502102934"><m:math><m:mrow><m:mn>2</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>12</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1166502102962">
+<para id="fs-id1166502102964"><m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>−6</m:mn><m:mo>±</m:mo><m:msqrt><m:mrow><m:mn>42</m:mn></m:mrow></m:msqrt></m:mrow><m:mn>4</m:mn></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1166502214775">
+<problem id="fs-id1166502214778">
+<para id="fs-id1166502214780"><m:math><m:mrow><m:mn>16</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>8</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<para id="fs-id1166502214828"><emphasis effect="bold">Use the Discriminant to Predict the Number of Solutions of a Quadratic Equation</emphasis></para>
+<para id="fs-id1168744090058">In the following exercises, determine the number of solutions to each quadratic equation.</para>
+<exercise id="fs-id1166502214835">
+<problem id="fs-id1166502214837">
+<para id="fs-id1166502214839"><newline/><span class="token">ⓐ</span> <m:math><m:mrow><m:mn>4</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>5</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>16</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math><newline/><span class="token">ⓑ</span> <m:math><m:mrow><m:mn>36</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>36</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>9</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math><newline/><span class="token">ⓒ</span> <m:math><m:mrow><m:mn>6</m:mn><m:msup><m:mi>m</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>m</m:mi><m:mo>−</m:mo><m:mn>5</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math><newline/><span class="token">ⓓ</span> <m:math><m:mrow><m:mn>18</m:mn><m:msup><m:mi>n</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>7</m:mn><m:mi>n</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1166502220908">
+<para id="fs-id1166502220910"><span class="token">ⓐ</span> no real solutions <span class="token">ⓑ</span> 1<newline/><span class="token">ⓒ</span> 2 <span class="token">ⓓ</span> no real solutions</para>
+</solution>
+</exercise>
+<exercise id="fs-id1166502220916">
+<problem id="fs-id1166502220918">
+<para id="fs-id1166502220920"><newline/><span class="token">ⓐ</span> <m:math><m:mrow><m:mn>9</m:mn><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>15</m:mn><m:mi>v</m:mi><m:mo>+</m:mo><m:mn>25</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math><newline/><span class="token">ⓑ</span> <m:math><m:mrow><m:mn>100</m:mn><m:msup><m:mi>w</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>60</m:mn><m:mi>w</m:mi><m:mo>+</m:mo><m:mn>9</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math><newline/><span class="token">ⓒ</span> <m:math><m:mrow><m:mn>5</m:mn><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>7</m:mn><m:mi>c</m:mi><m:mo>−</m:mo><m:mn>10</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math><newline/><span class="token">ⓓ</span> <m:math><m:mrow><m:mn>15</m:mn><m:msup><m:mi>d</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>4</m:mn><m:mi>d</m:mi><m:mo>+</m:mo><m:mn>8</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1166502073987">
+<problem id="fs-id1166502073989">
+<para id="fs-id1166502073991"><newline/><span class="token">ⓐ</span> <m:math><m:mrow><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>12</m:mn><m:mi>r</m:mi><m:mo>+</m:mo><m:mn>36</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math><newline/><span class="token">ⓑ</span> <m:math><m:mrow><m:mn>8</m:mn><m:msup><m:mi>t</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>11</m:mn><m:mi>t</m:mi><m:mo>+</m:mo><m:mn>5</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math><newline/><span class="token">ⓒ</span> <m:math><m:mrow><m:mn>4</m:mn><m:msup><m:mi>u</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>12</m:mn><m:mi>u</m:mi><m:mo>+</m:mo><m:mn>9</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math><newline/><span class="token">ⓓ</span> <m:math><m:mrow><m:mn>3</m:mn><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>5</m:mn><m:mi>v</m:mi><m:mo>−</m:mo><m:mn>1</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1166502172049">
+<para id="fs-id1166502172051"><span class="token">ⓐ</span> 1 <span class="token">ⓑ</span> no real solutions<newline/><span class="token">ⓒ</span> 1 <span class="token">ⓓ</span> 2</para>
+</solution>
+</exercise>
+<exercise id="fs-id1166502172057">
+<problem id="fs-id1166502172059">
+<para id="fs-id1166502172061"><newline/><span class="token">ⓐ</span> <m:math><m:mrow><m:mn>25</m:mn><m:msup><m:mi>p</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>10</m:mn><m:mi>p</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math><newline/><span class="token">ⓑ</span> <m:math><m:mrow><m:mn>7</m:mn><m:msup><m:mi>q</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>3</m:mn><m:mi>q</m:mi><m:mo>−</m:mo><m:mn>6</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math><newline/><span class="token">ⓒ</span> <m:math><m:mrow><m:mn>7</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>8</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math><newline/><span class="token">ⓓ</span> <m:math><m:mrow><m:mn>25</m:mn><m:msup><m:mi>z</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>60</m:mn><m:mi>z</m:mi><m:mo>+</m:mo><m:mn>36</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<para id="fs-id1166502172174"><emphasis effect="bold">Identify the Most Appropriate Method to Use to Solve a Quadratic Equation</emphasis></para>
+<para id="fs-id1168746298353">In the following exercises, identify the most appropriate method (Factoring, Square Root, or Quadratic Formula) to use to solve each quadratic equation. Do not solve.</para>
+<exercise id="fs-id1166502172182">
+<problem id="fs-id1166502172184">
+<para id="fs-id1166502172186"><newline/><span class="token">ⓐ</span> <m:math><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>5</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>24</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math><newline/><span class="token">ⓑ</span> <m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>12</m:mn></m:mrow></m:math><newline/><span class="token">ⓒ</span> <m:math><m:mrow><m:mn>14</m:mn><m:msup><m:mi>m</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>m</m:mi><m:mo>=</m:mo><m:mn>11</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1166502104447">
+<para id="fs-id1166502104449"><span class="token">ⓐ</span> factor <span class="token">ⓑ</span> square root<newline/><span class="token">ⓒ</span> Quadratic Formula</para>
+</solution>
+</exercise>
+<exercise id="fs-id1166502104455">
+<problem id="fs-id1166502104457">
+<para id="fs-id1166502104459"><newline/><span class="token">ⓐ</span> <m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>8</m:mn><m:mi>v</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>81</m:mn></m:mrow></m:math><newline/><span class="token">ⓑ</span> <m:math><m:mrow><m:msup><m:mi>w</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>9</m:mn><m:mi>w</m:mi><m:mo>−</m:mo><m:mn>22</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math><newline/><span class="token">ⓒ</span> <m:math><m:mrow><m:mn>4</m:mn><m:msup><m:mi>n</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>10</m:mn><m:mo>=</m:mo><m:mn>6</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1166502104122">
+<problem id="fs-id1166502104124">
+<para id="fs-id1166502104126"><newline/><span class="token">ⓐ</span> <m:math><m:mrow><m:mn>6</m:mn><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>14</m:mn><m:mo>=</m:mo><m:mn>20</m:mn></m:mrow></m:math><newline/><span class="token">ⓑ</span> <m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>4</m:mn></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mfrac><m:mn>5</m:mn><m:mrow><m:mn>16</m:mn></m:mrow></m:mfrac></m:mrow></m:math><newline/><span class="token">ⓒ</span> <m:math><m:mrow><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>8</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1166502104200">
+<para id="fs-id1166502104202"><span class="token">ⓐ</span> factor <span class="token">ⓑ</span> square root<newline/><span class="token">ⓒ</span> factor</para>
+</solution>
+</exercise>
+<exercise id="fs-id1166502104208">
+<problem id="fs-id1166502104210">
+<para id="fs-id1166502104212"><newline/><span class="token">ⓐ</span> <m:math><m:mrow><m:mn>8</m:mn><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>15</m:mn><m:mi>b</m:mi><m:mo>=</m:mo><m:mn>4</m:mn></m:mrow></m:math><newline/><span class="token">ⓑ</span> <m:math><m:mrow><m:mfrac><m:mn>5</m:mn><m:mn>9</m:mn></m:mfrac><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mfrac><m:mn>2</m:mn><m:mn>3</m:mn></m:mfrac><m:mi>v</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math><newline/><span class="token">ⓒ</span> <m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>w</m:mi><m:mo>+</m:mo><m:mfrac><m:mn>4</m:mn><m:mn>3</m:mn></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mfrac><m:mn>2</m:mn><m:mn>9</m:mn></m:mfrac></m:mrow></m:math></para>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1166502053784" class="everyday">
+<title>Everyday Math</title>
+<exercise id="fs-id1166502053790">
+<problem id="fs-id1166502053792">
+<para id="fs-id1166502053794">A flare is fired straight up from a ship at sea. Solve the equation <m:math><m:mrow><m:mn>16</m:mn><m:mrow><m:mo>(</m:mo><m:mrow><m:msup><m:mi>t</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>13</m:mn><m:mi>t</m:mi><m:mo>+</m:mo><m:mn>40</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> for <m:math><m:mi>t</m:mi></m:math>, the number of seconds it will take for the flare to be at an altitude of 640 feet.</para>
+</problem>
+<solution id="fs-id1166502053834">
+<para id="fs-id1166502053836">5 seconds, 8 seconds</para>
+</solution>
+</exercise>
+<exercise id="fs-id1166502053842">
+<problem id="fs-id1166502053844">
+<para id="fs-id1166502053846">An architect is designing a hotel lobby. She wants to have a triangular window looking out to an atrium, with the width of the window 6 feet more than the height. Due to energy restrictions, the area of the window must be 140 square feet. Solve the equation <m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:msup><m:mi>h</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>h</m:mi><m:mo>=</m:mo><m:mn>140</m:mn></m:mrow></m:math> for <m:math><m:mi>h</m:mi></m:math>, the height of the window.</para>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1166502110807" class="writing">
+<title>Writing Exercises</title>
+<exercise id="fs-id1166502110812">
+<problem id="fs-id1166502110814">
+<para id="fs-id1166502110817">Solve the equation <m:math><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>10</m:mn><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>200</m:mn></m:mrow></m:math><newline/><span class="token">ⓐ</span> by completing the square<newline/><span class="token">ⓑ</span> using the Quadratic Formula<newline/><span class="token">ⓒ</span> Which method do you prefer? Why?</para>
+</problem>
+<solution id="fs-id1166502110841">
+<para id="fs-id1166502110843"><span class="token">ⓐ</span> <m:math><m:mrow><m:mn>−20</m:mn><m:mo>,</m:mo><m:mn>10</m:mn></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mn>−20</m:mn><m:mo>,</m:mo><m:mn>10</m:mn></m:mrow></m:math><newline/><span class="token">ⓒ</span> answers will vary</para>
+</solution>
+</exercise>
+<exercise id="fs-id1166502110868">
+<problem id="fs-id1166502110870">
+<para id="fs-id1166502110872">Solve the equation <m:math><m:mrow><m:mn>12</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>23</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>24</m:mn></m:mrow></m:math><newline/><span class="token">ⓐ</span> by completing the square<newline/><span class="token">ⓑ</span> using the Quadratic Formula<newline/><span class="token">ⓒ</span> Which method do you prefer? Why?</para>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1166502110943">
+<title>Self Check</title>
+<para id="fs-id1166502079119"><span class="token">ⓐ</span> After completing the exercises, use this checklist to evaluate your mastery of the objectives of this section.</para>
+<media id="fs-id1166502079131" alt="This table has four rows and four columns. The first row is a header row and it labels each column. The first column is labeled &quot;I can …&quot;, the second &quot;Confidently&quot;, the third “With some help” and the last &quot;No–I don’t get it&quot;. In the “I can…” column the next row reads “solve quadratic equations using the quadratic formula.” The next row reads “use the discriminant to predict the number of solutions of a quadratic equation.” and the last row reads “identify the most appropriate method to use to solve a quadratic equation.” The remaining columns are blank.">
+<image mime-type="image/jpeg" src="../../media/CNX_ElemAlg_Figure_10_03_201_img_new.jpg"/>
+</media>
+<para id="fs-id1166502079140"><span class="token">ⓑ</span> What does this checklist tell you about your mastery of this section? What steps will you take to improve?</para>
+</section>
+</section>
+</content>
+<glossary>
+<definition id="fs-id1166502079152">
+<term>discriminant</term>
+<meaning id="fs-id1166502079157">In the Quadratic Formula, <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mtext>−</m:mtext><m:mi>b</m:mi><m:mo>±</m:mo><m:msqrt><m:mrow><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>4</m:mn><m:mi>a</m:mi><m:mi>c</m:mi></m:mrow></m:msqrt></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>a</m:mi></m:mrow></m:mfrac></m:mrow></m:math> the quantity <m:math><m:mrow><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>4</m:mn><m:mi>a</m:mi><m:mi>c</m:mi></m:mrow></m:math> is called the discriminant.</meaning>
+</definition>
+</glossary>
+</document>

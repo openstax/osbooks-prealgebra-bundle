@@ -1,0 +1,1467 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Solve Rational Equations</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m63380</md:content-id>
+  <md:title>Solve Rational Equations</md:title>
+  <md:abstract>By the end of this section, you will be able to:
+<list>
+<item>Solve rational equations</item>
+<item>Use rational functions</item>
+<item>Solve a rational equation for a specific variable</item>
+</list></md:abstract>
+  <md:uuid>114b6c20-ac2e-4d26-8ede-f6f4a0bce191</md:uuid>
+</metadata>
+
+<content>
+<note id="fs-id1167834061707" class="be-prepared">
+<para id="fs-id1167831928853">Before you get started, take this readiness quiz.</para>
+<list id="fs-id1167835309437" list-type="enumerated" number-style="arabic">
+<item>Solve: <m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>6</m:mn></m:mfrac><m:mi>x</m:mi><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac><m:mo>.</m:mo></m:mrow></m:math><newline/>
+If you missed this problem, review <link target-id="fs-id1167833239741" document="m63308"/>.</item>
+<item>Solve: <m:math><m:mrow><m:msup><m:mi>n</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>5</m:mn><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>36</m:mn><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>.</m:mo></m:mrow></m:math><newline/>
+If you missed this problem, review <link target-id="fs-id1167836625705" document="m63362"/>.</item>
+<item>Solve the formula <m:math><m:mrow><m:mn>5</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>10</m:mn></m:mrow></m:math> for <m:math><m:mrow><m:mi>y</m:mi><m:mo>.</m:mo></m:mrow></m:math><newline/>
+If you missed this problem, review <link target-id="fs-id1167835229496" document="m63310"/>.</item>
+</list>
+</note>
+<para id="fs-id1167832052437">After defining the terms ‘expression’ and ‘equation’ earlier, we have used them throughout this book. We have <emphasis effect="italics">simplified</emphasis> many kinds of <emphasis effect="italics">expressions</emphasis> and <emphasis effect="italics">solved</emphasis> many kinds of <emphasis effect="italics">equations</emphasis>. We have simplified many rational expressions so far in this chapter. Now we will <emphasis effect="italics">solve</emphasis> a <term>rational equation</term>.</para>
+<note id="fs-id1167835640377">
+<title>Rational Equation</title>
+<para id="fs-id1167826801731">A <emphasis effect="bold">rational equation</emphasis> is an equation that contains a rational expression.</para>
+</note>
+<para id="fs-id1167835369643">You must make sure to know the difference between rational expressions and rational equations. The equation contains an equal sign.</para>
+<equation id="fs-id1167827958702" class="unnumbered"><label/><m:math><m:mrow><m:mtable><m:mtr><m:mtd columnalign="center"><m:mtext>Rational Expression</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:mtext>Rational Equation</m:mtext></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="center"><m:mtable><m:mtr><m:mtd columnalign="center"><m:mfrac><m:mn>1</m:mn><m:mn>8</m:mn></m:mfrac><m:mi>x</m:mi><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="center"><m:mfrac><m:mrow><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>6</m:mn></m:mrow><m:mrow><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>36</m:mn></m:mrow></m:mfrac></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="center"><m:mfrac><m:mn>1</m:mn><m:mrow><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mi>n</m:mi><m:mo>+</m:mo><m:mn>4</m:mn></m:mrow></m:mfrac></m:mtd></m:mtr></m:mtable></m:mtd>
+<m:mtd/><m:mtd/><m:mtd columnalign="center"><m:mtable><m:mtr><m:mtd columnalign="right"><m:mfrac><m:mn>1</m:mn><m:mn>8</m:mn></m:mfrac><m:mi>x</m:mi><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mfrac><m:mn>1</m:mn><m:mn>4</m:mn></m:mfrac></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="right"><m:mfrac><m:mrow><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>6</m:mn></m:mrow><m:mrow><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>36</m:mn></m:mrow></m:mfrac></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="right"><m:mfrac><m:mn>1</m:mn><m:mrow><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mi>n</m:mi><m:mo>+</m:mo><m:mn>4</m:mn></m:mrow></m:mfrac></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mfrac><m:mrow><m:mn>15</m:mn></m:mrow><m:mrow><m:msup><m:mi>n</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>12</m:mn></m:mrow></m:mfrac></m:mtd></m:mtr></m:mtable></m:mtd></m:mtr></m:mtable></m:mrow></m:math></equation>
+<section id="fs-id1167832053699">
+<title>Solve Rational Equations</title>
+<para id="fs-id1167835563859">We have already solved linear equations that contained fractions. We found the LCD of all the fractions in the equation and then multiplied both sides of the equation by the LCD to “clear” the fractions.</para>
+<para id="fs-id1167832060163">We will use the same strategy to solve rational equations. We will multiply both sides of the equation by the LCD. Then, we will have an equation that does not contain rational expressions and thus is much easier for us to solve. But because the original equation may have a variable in a denominator, we must be careful that we don’t end up with a solution that would make a denominator equal to zero.</para>
+<para id="fs-id1167835360295">So before we begin solving a rational equation, we examine it first to find the values that would make any denominators zero. That way, when we solve a rational equation we will know if there are any algebraic solutions we must discard.</para>
+<para id="fs-id1167831912071">An algebraic solution to a rational equation that would cause any of the rational expressions to be undefined is called an <term>extraneous solution to a rational equation</term>.</para>
+<note id="fs-id1167835320224">
+<title>Extraneous Solution to a Rational Equation</title>
+<para id="fs-id1167831239457">An <emphasis effect="bold">extraneous solution to a rational equation</emphasis> is an algebraic solution that would cause any of the expressions in the original equation to be undefined.</para>
+</note>
+<para id="fs-id1167835319662">We note any possible extraneous solutions, <emphasis effect="italics">c</emphasis>, by writing <m:math><m:mrow><m:mi>x</m:mi><m:mo>≠</m:mo><m:mi>c</m:mi></m:mrow></m:math> next to the equation.</para>
+<example id="fs-id1167832212123">
+<title>How to Solve a Rational Equation</title>
+<exercise id="fs-id1167835373684"><problem id="fs-id1167831106822">
+<para id="fs-id1167834516061">Solve: <m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mi>x</m:mi></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mn>5</m:mn><m:mn>6</m:mn></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167834222446">
+<media id="fs-id1167831882177" alt="Step 1 is to find any value of the variable that makes the denominator of the zero. Remember that if x is equal to 0, then 1 divided by x is undefined. So the equation becomes the sum of 1 divided by x and one-third is equal to five-sixths, where x is not equal to 0.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_07_04_001a_img_new.jpg"/>
+</media>
+<media id="fs-id1167835373808" alt="Step 2 is to find the least common denominator of all the fractions in the problem, 1 divided by x, one-third, and five-sixths. The least common denominator is 6 x.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_07_04_001b_img_new.jpg"/>
+</media>
+<media id="fs-id1167834133022" alt="Step 3 is to clear the fractions in the equation by multiplying each side by the least common denominator. The result is 6 x times the sum of 1 divided by x and one-third is equal to 6 x times five-sixths. Simplify using the distributive property. The result is 6 x times the quantity1 divided by x plus 6 x times one-third is equal to 6 x times five-sixths, which simplifies to 6 plus 2 x is equal to 5 x. This simplifies to 6 is equal to 3 x.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_07_04_001c_img_new.jpg"/>
+</media>
+<media id="fs-id1167834060144" alt="Step 4 is to solve the equation that results. The result is 2 is equal to x">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_07_04_001d_img_new.jpg"/>
+</media>
+<media id="fs-id1167834133754" alt="Step 5 is to check the solution. Remember that any solutions that makes the original expression undefined must be discarded. The solution is not 0. Substitute x is equal to 2 into the original equation, 1 divided by x plus one-third is equal to five-sixths. Is one-half plus one-third is equal to five-sixths a true equation? Is three-sixths plus two-sixth is equal to five-sixths a true equation? Three-sixths plus two-sixth is equal to five-sixths. Five-sixth is equal to five-sixth is a true equation. So, the solution is x is equal to 2">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_07_04_001e_img_new.jpg"/>
+</media>
+</solution>
+</exercise></example>
+<note id="fs-id1167835419818" class="try">
+<exercise id="fs-id1167834280170">
+<problem id="fs-id1167835416569">
+<para id="fs-id1167835367835">Solve: <m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mi>y</m:mi></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>2</m:mn><m:mn>3</m:mn></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>5</m:mn></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167831086720">
+<para id="fs-id1167826813938"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mn>7</m:mn><m:mrow><m:mn>15</m:mn></m:mrow></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1167835283352" class="try">
+<exercise id="fs-id1167830704153">
+<problem id="fs-id1167834387408">
+<para id="fs-id1167832060219">Solve: <m:math><m:mrow><m:mfrac><m:mn>2</m:mn><m:mn>3</m:mn></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>5</m:mn></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mi>x</m:mi></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167835369741">
+<para id="fs-id1167835595617"><m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>13</m:mn></m:mrow><m:mrow><m:mn>15</m:mn></m:mrow></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<para id="fs-id1167835233360">The steps of this method are shown.</para>
+<note id="fs-id1167835378137" class="howto">
+<title>Solve equations with rational expressions.</title>
+<list id="fs-id1167835322096" list-type="enumerated" number-style="arabic" class="stepwise">
+<item>Note any value of the variable that would make any denominator zero.</item>
+<item>Find the least common denominator of <emphasis effect="italics">all</emphasis> denominators in the equation.</item>
+<item>Clear the fractions by multiplying both sides of the equation by the LCD.</item>
+<item>Solve the resulting equation.</item>
+<item>Check:
+<list id="fs-id1167830838434" list-type="bulleted" bullet-style="bullet">
+<item>If any values found in Step 1 are algebraic solutions, discard them.</item>
+<item>Check any remaining solutions in the original equation.</item>
+</list></item>
+</list>
+</note>
+<para id="fs-id1167835528067">We always start by noting the values that would cause any denominators to be zero.</para>
+<example id="fs-id1167831228721">
+<title>How to Solve a Rational Equation using the Zero Product Property</title>
+<exercise id="fs-id1167826987271">
+<problem id="fs-id1167835510388">
+<para id="fs-id1167835513316">Solve: <m:math><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:mfrac><m:mn>5</m:mn><m:mi>y</m:mi></m:mfrac><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mn>6</m:mn><m:mrow><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167834536690">
+<table id="fs-id1167834191698" class="unnumbered unstyled can-break" summary="1 minus the quantity 5 divided by y is equal to the negative of the quantity 6 divided by y squared. Identify any value of y that would make any denominator 0. Add y is not equal to 0 to the equation. The least common denominator of the fractions in the equation, the quantity 5 divided by y and the negative of the quantity 6 divided by y squared is y squared. Clear the fractions in the equation by multiplying each side by y squared. y squared times the quantity 1 minus the quantity 5 divided by y is equal to y squared times the negative of the quantity 6 divided by y squared. Distribute y squared. The result is y squared times 1 minus y squared times the quantity 5 divided by y is equal to the negative of the quantity 6 divided by y squared. Multiply on both sides of the equation. The result is y squared minus 5 y is equal to negative 6. To solve this equation, first write it in standard form. Its standard form is y squared minus 5 y plus 6 is equal to 0. Factor the left side of the equation. The result is the quantity y minus 2 times the quantity y minus 3 is equal to zero. Using the Zero Product Property. the equation becomes y minus 2 is equal to 0 or y minus 3 is equal to 0. Solving each equation results in the solutions, y is equal to 2 or y is equal to 3. Check the solutions by substituting them into the original equation, 1 minus the quantity 5 divided by y is equal to the negative of 6 divided by y squared. Note that 0 was not an algebraic solution. Is the equation 1 minus the quantity 5 divided by 2 is equal to the quantity 6 divided by 2 squared true? When each side is simplified, the result is negative 3 divided by 2 is equal negative 3 divided by 2, which is a true equation. Is the equation 1 minus the quantity 5 divided by 3 is equal to the quantity 6 divided by 3 squared true? When each side is simplified, the result is negative 2 divided by 3 is equal to negative 2 divided by 3, which is a true equation. The solution is y is equal to 2 or y is equal to 3.">
+<label/>
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<tbody>
+<row>
+<entry/>
+<entry align="left"><media id="fs-id1167834506071" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_07_04_002b_img.jpg"/>
+</media>
+</entry>
+</row>
+<row>
+<entry align="left">Note any value of the variable that would make<newline/>any denominator zero.</entry>
+<entry align="left"><media id="fs-id1167835353657" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_07_04_002c_img.jpg"/>
+</media>
+</entry>
+</row>
+<row>
+<entry align="left">Find the least common denominator of all denominators in<newline/>the equation. The LCD is <emphasis effect="italics">y</emphasis><sup>2</sup>.</entry>
+<entry/>
+</row>
+<row><entry align="left">Clear the fractions by multiplying both sides of<newline/>the equation by the LCD.</entry>
+<entry align="left"><media id="fs-id1167834299943" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_07_04_002d_img.jpg"/>
+</media>
+</entry>
+</row>
+<row>
+<entry align="left">Distribute.</entry>
+<entry align="left"><media id="fs-id1167835303369" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_07_04_002e_img.jpg"/>
+</media>
+</entry>
+</row>
+<row>
+<entry align="left">Multiply.</entry>
+<entry align="left"><media id="fs-id1167834049006" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_07_04_002f_img.jpg"/>
+</media>
+</entry>
+</row>
+<row>
+<entry align="left">Solve the resulting equation. First<newline/>write the quadratic equation in standard form.</entry>
+<entry align="left"><media id="fs-id1167835303505" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_07_04_002g_img.jpg"/>
+</media>
+</entry>
+</row>
+<row>
+<entry align="left">Factor.</entry>
+<entry align="left"><media id="fs-id1167832060135" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_07_04_002h_img.jpg"/>
+</media>
+</entry>
+</row>
+<row>
+<entry align="left">Use the Zero Product Property.</entry>
+<entry align="left"><media id="fs-id1167834120431" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_07_04_002i_img.jpg"/>
+</media>
+</entry>
+</row>
+<row>
+<entry align="left">Solve.</entry>
+<entry align="left"><media id="fs-id1167831910249" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_07_04_002j_img.jpg"/>
+</media>
+</entry>
+</row>
+<row>
+<entry align="left">Check.<newline/>We did not get 0 as an algebraic solution.<newline/><newline/><newline/><media id="fs-id1167835370931" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_07_04_002a_img.jpg"/>
+</media>
+</entry>
+<entry/>
+</row>
+<row>
+<entry/>
+<entry align="left">The solution is <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mo>,</m:mo></m:mrow></m:math> <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>3</m:mn><m:mo>.</m:mo></m:mrow></m:math></entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</solution>
+</exercise>
+</example>
+<note id="fs-id1167835317276" class="try">
+<exercise id="fs-id1167835417937">
+<problem id="fs-id1167835334526">
+<para id="fs-id1167835364449">Solve: <m:math><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:mfrac><m:mn>2</m:mn><m:mi>x</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>15</m:mn></m:mrow><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167835350474">
+<para id="fs-id1167835234636"><m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>−3</m:mn><m:mo>,</m:mo><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>5</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1167831958129" class="try">
+<exercise id="fs-id1167834239193">
+<problem id="fs-id1167831116689">
+<para id="fs-id1167835254163">Solve: <m:math><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:mfrac><m:mn>4</m:mn><m:mi>y</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>12</m:mn></m:mrow><m:mrow><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167835529923">
+<para id="fs-id1167835353178"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−2</m:mn><m:mo>,</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>6</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<para id="fs-id1167828421672">In the next example, the last denominators is a difference of squares. Remember to factor it first to find the LCD.</para>
+<example id="fs-id1167834183995">
+<exercise id="fs-id1167834061864">
+<problem id="fs-id1167831846925">
+<para id="fs-id1167828435100">Solve: <m:math><m:mrow><m:mfrac><m:mn>2</m:mn><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>4</m:mn><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>4</m:mn></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167832036216">
+<table id="fs-id1167835596565" class="unnumbered unstyled can-break" summary="2 divided by the quantity x plus 2 plus 4 divided by the quantity x minus 2 is equal to the quantity x minus 1 divided by the quantity x squared minus 4. Notice that x is equal to negative 2 and x is equal to 2 would make denominators zero. Factor the denominator on the right side of the equation. The result is 2 divided by the quantity x plus 2 plus 4 divided by the quantity x minus 2 is equal to the quantity x minus 1 divided by the quantity x plus 2 times the quantity x minus 2, x is not equal to negative and x is not equal to 2. The least common denominator of all the denominators in the equation is the quantity x plus 2 times the quantity x minus 2. Clear the fractions by multiplying both sides of the equation by the least common denominator, the quantity x plus 2 times the quantity x minus 2. Distribute the least common denominator to each expression in the equation. The result is the quantity x plus 2 times the quantity x minus 2 times 2 divided by the quantity x plus 2 plus the quantity x plus 2 times the quantity x minus 2 times 4 divided by the quantity x minus 2 is equal to the quantity x plus 2 times the quantity x minus 2 times the quantity x minus 1 divided by the quantity x squared minus 4. Remove the common factors from the equation. The result is 2 times the quantity x minus 2 plus 4 times the quantity x plus 2 is equal to x minus 1. Distribute the constants on the left side of the equation. The result is 2 x minus 4 plus 4 x plus 8 is equal to x minus 1. Solve the equation by simplifying each side of the equation. The result is 6 x plus 4 is equal to x minus 1. Isolating the variable term, the result is 5 x is equal to negative 5. Solving for x, the solution is x is equal to negative 1. Check the solution. Remember x cannot be equal to 2 and x cannot be equal to negative 2. Substitute x is equal to negative into the original equation, 2 divided by the quantity x plus 2 plus 4 divided by the quantity x minus 2 is equal to the quantity x minus 1 divided by the quantity x squared minus 4. Is 2 divided by the quantity negative 1 plus 2 plus 4 divided by the quantity negative 1 minus 2 is equal to the quantity negative 1 minus 1 all divided by the square of negative 1 minus 4? When each side of the equation is simplified, the result is 2 divided by 3 is equal to 2 divided by 3, which is true. So, the solution is x is equal to negative 1.">
+<label/>
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<tbody>
+<row>
+<entry/>
+<entry align="left"><media id="fs-id1167835215786" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_07_04_003b_img.jpg"/>
+</media>
+</entry>
+</row>
+<row>
+<entry align="left">Note any value of the variable<newline/>that would make any denominator<newline/>zero.</entry>
+<entry align="left"><media id="fs-id1167831036916" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_07_04_003c_img.jpg"/>
+</media>
+</entry>
+</row>
+<row>
+<entry align="left">Find the least common<newline/>denominator of all denominators<newline/>in the equation.<newline/>The LCD is <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></entry>
+<entry/>
+</row>
+<row>
+<entry align="left">Clear the fractions by multiplying<newline/>both sides of the equation by the<newline/>LCD.</entry>
+<entry align="left"><media id="fs-id1167835304190" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_07_04_003d_img.jpg"/>
+</media>
+</entry>
+</row>
+<row>
+<entry align="left">Distribute.</entry>
+<entry align="left"><media id="fs-id1167835381726" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_07_04_003e_img.jpg"/>
+</media>
+</entry>
+</row>
+<row>
+<entry align="left">Remove common factors.</entry>
+<entry align="left"><media id="fs-id1167835336606" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_07_04_003f_img.jpg"/>
+</media>
+</entry>
+</row>
+<row>
+<entry align="left">Simplify.</entry>
+<entry align="left"><media id="fs-id1167835362546" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_07_04_003g_img.jpg"/>
+</media>
+</entry>
+</row>
+<row>
+<entry align="left">Distribute.</entry>
+<entry align="left"><media id="fs-id1167835254920" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_07_04_003h_img.jpg"/>
+</media>
+</entry>
+</row>
+<row>
+<entry valign="top" align="left">Solve.</entry>
+<entry align="left"><media id="fs-id1167835288367" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_07_04_003i_img.jpg"/>
+</media><newline/><media id="fs-id1167835545413" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_07_04_003j_img.jpg"/>
+</media>
+<newline/><media id="fs-id1167831883495" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_07_04_003k_img.jpg"/>
+</media>
+</entry>
+</row>
+<row>
+<entry align="left">Check:<newline/>We did not get 2 or −2 as algebraic solutions.<newline/><newline/><media id="fs-id1167828377151" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_07_04_003a_img.jpg"/>
+</media>
+</entry>
+<entry/>
+</row>
+<row>
+<entry/>
+<entry align="left">The solution is <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>−1</m:mn><m:mo>.</m:mo></m:mrow></m:math></entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</solution>
+</exercise>
+</example>
+<note id="fs-id1167835335371" class="try">
+<exercise id="fs-id1167834505929">
+<problem id="fs-id1167830703991">
+<para id="fs-id1167834395459">Solve: <m:math><m:mrow><m:mfrac><m:mn>2</m:mn><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167831066244">
+<para id="fs-id1167835369250"><m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>2</m:mn><m:mn>3</m:mn></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1167832058926" class="try">
+<exercise id="fs-id1167835489220">
+<problem id="fs-id1167826997270">
+<para id="fs-id1167832214483">Solve: <m:math><m:mrow><m:mfrac><m:mn>5</m:mn><m:mrow><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>2</m:mn><m:mrow><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mn>5</m:mn><m:mrow><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>9</m:mn></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167835351509">
+<para id="fs-id1167835167375"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>2</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<para id="fs-id1167835304069">In the next example, the first denominator is a <term class="no-emphasis">trinomial</term>. Remember to factor it first to find the LCD.</para>
+<example id="fs-id1167834053796">
+<exercise id="fs-id1167834556934">
+<problem id="fs-id1167834191598">
+<para id="fs-id1167834195564">Solve: <m:math><m:mrow><m:mfrac><m:mrow><m:mi>m</m:mi><m:mo>+</m:mo><m:mn>11</m:mn></m:mrow><m:mrow><m:msup><m:mi>m</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>5</m:mn><m:mi>m</m:mi><m:mo>+</m:mo><m:mn>4</m:mn></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mn>5</m:mn><m:mrow><m:mi>m</m:mi><m:mo>−</m:mo><m:mn>4</m:mn></m:mrow></m:mfrac><m:mo>−</m:mo><m:mfrac><m:mn>3</m:mn><m:mrow><m:mi>m</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167835310614">
+<table id="fs-id1167835267517" class="unnumbered unstyled" summary="Solve the quantity m plus 11 all divided by the quantity m squared minus 5 m plus 4 is equal to 5 divided by the quantity m minus 4 minus 3 divided by the quantity m minus 1. Factor the quadratic denominator. The result is the quantity m plus 11 all divided by the quantity m minus 4 times the quantity m minus 1 is equal to 5 divided by the quantity m minus 4 minus 3 divided by the quantity m minus 1. Notice that m is equal to 4 and m is equal to 1 would make a denominator 0. The least common denominator of all the denominators is the quantity m minus 4 times the quantity m minus 1. Clear the fractions in the equation by multiplying each side of the equation by the least common denominator. The result is the quantity m minus 4 times the quantity m minus 1 times the quantity m plus 11 all divided by the quantity m minus 4 times the quantity m minus 1 is equal to the quantity m minus 4 times the difference between 5 divided by the quantity m minus 4 and 3 divided by m minus 1. Distribute the quantity m minus 4 times the quantity m minus 1 to each term in the equation. The result is the quantity m minus 4 times the quantity m minus 1 times the quantity m plus 11 all divided by the quantity m minus 4 is equal to the quantity m minus 4 times the quantity m minus 1 times 5 divided by the quantity m minus 4 minus the quantity m minus 4 times the quantity m minus 1 times 3 divided by the quantity m minus 1. Removing the common factors, the result is m plus 11 is equal to 5 times the quantity x minus 1 minus 3 times the quantity m minus 4. Simplify the equation, the result is m plus 11 is equal to 5 m minus 5 minus 3 m plus 12. Solving the equation, the result is 4 is equal to m. Check the solution. Recall that a solution m is equal to 4would make a denominator 0, which means the solution is extraneous. There is no solution, which can be confirmed by substituting m is equal to 4 into the original equation, the quantity m plus 11 all divided by the quantity m squared minus 5 m plus 4 is equal to 5 divided by the quantity m minus 4 minus 3 divided by the quantity m minus 1. Simplifying each side of the equation, the result is the quantity 4 plus 11 all divided by the quantity 4 squared minus 5 times 4 plus 4 is equal to 5 divided by 0 minus 3 divided by the quantity 4 minus 1. 5 divided by 0 is undefined. The substitution confirmed that m is equal to 4 is extraneous, and that there is no solution.">
+<label/>
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<tbody>
+<row>
+<entry/>
+<entry align="left"><media id="fs-id1167835349939" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_07_04_004b_img.jpg"/>
+</media>
+</entry>
+</row>
+<row>
+<entry align="left">Note any value of the variable that<newline/>would make any denominator zero.<newline/>Use the factored form of the quadratic<newline/>denominator.</entry>
+<entry align="left"><media id="fs-id1167834048906" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_07_04_004c_img.jpg"/>
+</media>
+</entry>
+</row>
+<row>
+<entry align="left">Find the least common denominator<newline/>of all denominators in the equation.<newline/>The LCD is <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>m</m:mi><m:mo>−</m:mo><m:mn>4</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mi>m</m:mi><m:mo>−</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo></m:mrow></m:math></entry>
+<entry/>
+</row>
+<row>
+<entry align="left">Clear the fractions by<newline/>multiplying both sides of the<newline/>equation by the LCD.</entry>
+<entry align="left"><media id="fs-id1167835614716" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_07_04_004d_img.jpg"/>
+</media>
+</entry>
+</row>
+<row>
+<entry align="left">Distribute.</entry>
+<entry align="left"><media id="fs-id1167835307993" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_07_04_004e_img.jpg"/>
+</media>
+</entry>
+</row>
+<row>
+<entry align="left">Remove common factors.</entry>
+<entry align="left"><media id="fs-id1167835288140" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_07_04_004f_img.jpg"/>
+</media>
+</entry>
+</row>
+<row>
+<entry align="left">Simplify.</entry>
+<entry align="left"><media id="fs-id1167832059589" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_07_04_004g_img.jpg"/>
+</media>
+</entry>
+</row>
+<row>
+<entry valign="top" align="left">Solve the resulting equation.</entry>
+<entry align="left"><media id="fs-id1167832043823" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_07_04_004h_img.jpg"/>
+</media><newline/><media id="fs-id1167835361972" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_07_04_004i_img.jpg"/>
+</media>
+</entry>
+</row>
+<row>
+<entry align="left">Check.<newline/>The only algebraic solution<newline/>was 4, but we said that 4 would make<newline/>a denominator equal to zero. The algebraic solution is an<newline/>extraneous solution.</entry>
+<entry/>
+</row>
+<row>
+<entry/>
+<entry align="center">There is no solution to this equation.</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</solution>
+</exercise>
+</example>
+<note id="fs-id1167835225722" class="try">
+<exercise id="fs-id1167831888149">
+<problem id="fs-id1167828420283">
+<para id="fs-id1167828420312">Solve: <m:math><m:mrow><m:mfrac><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>13</m:mn></m:mrow><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>7</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>10</m:mn></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mn>6</m:mn><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>5</m:mn></m:mrow></m:mfrac><m:mo>−</m:mo><m:mfrac><m:mn>4</m:mn><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167835341884">
+<para id="fs-id1167835239505">There is no solution.</para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1167834134765" class="try">
+<exercise id="fs-id1167834191403">
+<problem id="fs-id1167834289524">
+<para id="fs-id1167832153360">Solve: <m:math><m:mrow><m:mfrac><m:mrow><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>6</m:mn></m:mrow><m:mrow><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>4</m:mn></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mn>2</m:mn><m:mrow><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>4</m:mn></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>7</m:mn><m:mrow><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167835304510">
+<para id="fs-id1167835324958">There is no solution.</para>
+</solution>
+</exercise>
+</note>
+<para id="fs-id1167835329756">The equation we solved in the previous example had only one algebraic solution, but it was an extraneous solution. That left us with no solution to the equation. In the next example we get two algebraic solutions. Here one or both could be extraneous solutions.</para>
+<example id="fs-id1167831821768">
+<exercise id="fs-id1167834224774">
+<problem id="fs-id1167835303848">
+<para id="fs-id1167835370415">Solve: <m:math><m:mrow><m:mfrac><m:mi>y</m:mi><m:mrow><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>6</m:mn></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>72</m:mn></m:mrow><m:mrow><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>36</m:mn></m:mrow></m:mfrac><m:mo>+</m:mo><m:mn>4</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167835512341">
+<table id="fs-id1167834234116" class="unnumbered unstyled" summary="Solve y divided by the quantity y plus 6 is equal to the quantity 72 divided by the difference between y squared and 36 plus 4. Factor all of the denominators. The result is y divided by the quantity y plus 6 is equal to 72 divided by the sum of the quantity y minus 6 times y plus 6 and 4. This shows y is not equal to 6 and y is not equal to negative 6. They make a denominator 0. The least common denominator of all of the denominators is the quantity y minus 6 times the quantity y plus 6. Clear the fractions by multiplying each side by the least common denominator. The result is the quantity y minus 6 times y is equal to 72 plus the quantity y minus 6 times the quantity y plus 6 times 4. Simplifying the equation, the result is y times the quantity y minus 6 is equal to 72 plus 4 times the quantity y squared minus 36. Now the equation can be solved. Write the equation so that 0 is on one side. The result is 0 is equal to 3 y squared plus 6 y minus 72. After factoring, the equation becomes 0 is equal to 3 times the quantity y plus 6 times the quantity y minus 4. The results are y is equal to negative 6 or y is equal to 4. Remember that y is equal to negative 6 is an extraneous solution. Check y is equal to 4 by substituting it into the original equation. Is 4 divided by the sum of 4 and 6 is equal to 72 divided by the difference between 4 squared and 36 plus 4 an true equation? After simplifying, the result is four-tenths is equal to four-tenths, which is a true equation. So, the solution is y is equal to 4.">
+<label/>
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<tbody>
+<row>
+<entry/>
+<entry align="left"><media id="fs-id1167828436496" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_07_04_005b_img.jpg"/>
+</media>
+</entry>
+</row>
+<row>
+<entry align="left">Factor all the denominators,<newline/>so we can note any value of<newline/>the variable that would make<newline/>any denominator zero.</entry>
+<entry align="left"><media id="fs-id1167826978106" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_07_04_005c_img.jpg"/>
+</media>
+</entry>
+</row>
+<row>
+<entry align="left">Find the least common denominator.<newline/>The LCD is <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>6</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>6</m:mn><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo></m:mrow></m:math></entry>
+<entry/>
+</row>
+<row>
+<entry align="left">Clear the fractions.</entry>
+<entry align="left"><media id="fs-id1167834228808" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_07_04_005d_img.jpg"/>
+</media>
+</entry>
+</row>
+<row>
+<entry align="left">Simplify.</entry>
+<entry align="left"><media id="fs-id1167831880791" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_07_04_005e_img.jpg"/>
+</media>
+</entry>
+</row>
+<row>
+<entry align="left">Simplify.</entry>
+<entry align="left"><media id="fs-id1167830951924" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_07_04_005f_img.jpg"/>
+</media>
+</entry>
+</row>
+<row>
+<entry valign="top" align="left">Solve the resulting equation.</entry>
+<entry align="left"><media id="fs-id1167835321005" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_07_04_005g_img.jpg"/>
+</media><newline/><media id="fs-id1167835237890" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_07_04_005h_img.jpg"/>
+</media>
+<newline/><media id="fs-id1167835180564" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_07_04_005i_img.jpg"/>
+</media>
+<newline/><media id="fs-id1167835236556" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_07_04_005j_img.jpg"/>
+</media>
+<newline/><media id="fs-id1167834372182" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_07_04_005k_img.jpg"/>
+</media>
+</entry>
+</row>
+<row>
+<entry align="left">Check.<newline/><newline/><media id="fs-id1167835400321" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_07_04_005a_img.jpg"/>
+</media>
+</entry>
+<entry/>
+</row>
+<row>
+<entry/>
+<entry align="center">The solution is <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>4</m:mn><m:mo>.</m:mo></m:mrow></m:math></entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</solution>
+</exercise>
+</example>
+<note id="fs-id1167835191293" class="try">
+<exercise id="fs-id1167834161557">
+<problem id="fs-id1167834111780">
+<para id="fs-id1167834099415">Solve: <m:math><m:mrow><m:mfrac><m:mi>x</m:mi><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>32</m:mn></m:mrow><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>16</m:mn></m:mrow></m:mfrac><m:mo>+</m:mo><m:mn>5</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167835515151">
+<para id="fs-id1167834234162"><m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>3</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1167835416535" class="try">
+<exercise id="fs-id1167835311069">
+<problem id="fs-id1167835329368">
+<para id="fs-id1167831086631">Solve: <m:math><m:mrow><m:mfrac><m:mi>y</m:mi><m:mrow><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>8</m:mn></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>128</m:mn></m:mrow><m:mrow><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>64</m:mn></m:mrow></m:mfrac><m:mo>+</m:mo><m:mn>9</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167835532579">
+<para id="fs-id1167831106924"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>7</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<para id="fs-id1165927749652">In some cases, all the algebraic solutions are extraneous.</para>
+<example id="fs-id1167835379244">
+<exercise id="fs-id1167834377067">
+<problem id="fs-id1167835163926">
+<para id="fs-id1167835513958">Solve: <m:math><m:mrow><m:mfrac><m:mi>x</m:mi><m:mrow><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow></m:mfrac><m:mo>−</m:mo><m:mfrac><m:mn>2</m:mn><m:mrow><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>5</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>9</m:mn></m:mrow><m:mrow><m:mn>12</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>12</m:mn></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167835622176">
+<table id="fs-id1167835267213" class="unnumbered unstyled" summary="Solve the difference between x divided by the quantity 2 x minus 2 and 2 divided by the quantity 3x plus 3 is equal to the quantity 5 x squared minus 2 x plus 9 all over the quantity 12 x squared minus 12. Factor all of the denominators in the equation to identify extraneous solutions and the least common denominator. The result is the difference between x divided by the product of 2 and x minus 1 and 2 divided by the product of 3 and x plus 1 is equal to the quantity 5 x squared minus 2 x plus 9 all divided by the product of 12 x minus 1 and x plus 1. Notice that x is not equal to and x is not equal to negative 1, and that the least common denominator 12 times the quantity x minus 1 times the quantity x plus 1. Multiply each side of the equation by the least common denominator to clear the fractions. The result tis 6 times the quantity x plus 1 times x minus 4 times the quantity x minus 1 times 2 is equal to 5 x squared minus 2 x plus 9. Simplify the equation by writing the constant factors first. The result is 6 x times the quantity x plus 1 minus 4 times 2 times the quantity x minus 1 is equal to 5 x squared minus 2 x plus 9. Distribute the factors to further simplify. The result is 6 x squared plus 6x minus 8 x plus 8 is equal to 5 x squared minus 2 x plus 9. Begin solving the equation by writing it with 0 on one side. The result is x squared minus 1 is equal to 0. After factoring, the equation becomes the quantity x minus 1 times the quantity x plus 1 is equal to 0. The results are x is equal to 1 or x is equal to negative 1. Recall that x is not equal to 1 or x is not equal to negative 1. Those values are extraneous, so there is no solution.">
+<label/>
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<tbody>
+<row>
+<entry/>
+<entry align="left"><media id="fs-id1167834376186" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_07_04_006a_img.jpg"/>
+</media>
+</entry>
+</row>
+<row>
+<entry align="left">We will start by factoring all<newline/>denominators, to make it easier<newline/>to identify extraneous solutions and the LCD.</entry>
+<entry align="left"><media id="fs-id1167835229823" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_07_04_006b_img.jpg"/>
+</media>
+</entry>
+</row>
+<row>
+<entry align="left">Note any value of the variable<newline/>that would make any denominator zero.</entry>
+<entry align="left"><media id="fs-id1167835356455" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_07_04_006c_img.jpg"/>
+</media>
+</entry>
+</row>
+<row>
+<entry align="left">Find the least common<newline/>denominator.<newline/>The LCD is <m:math><m:mrow><m:mn>12</m:mn><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></entry>
+<entry/>
+</row>
+<row>
+<entry align="left">Clear the fractions.</entry>
+<entry align="left"><media id="fs-id1167835233322" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_07_04_006d_img.jpg"/>
+</media>
+</entry>
+</row>
+<row>
+<entry align="left">Simplify.</entry>
+<entry align="left"><media id="fs-id1167835336257" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_07_04_006e_img.jpg"/>
+</media>
+</entry>
+</row>
+<row>
+<entry align="left">Simplify.</entry>
+<entry align="left"><media id="fs-id1167832066186" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_07_04_006f_img.jpg"/>
+</media>
+</entry>
+</row>
+<row>
+<entry valign="top" align="left">Solve the resulting equation.</entry>
+<entry align="left"><media id="fs-id1167835381243" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_07_04_006g_img.jpg"/>
+</media><newline/><media id="fs-id1167835366586" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_07_04_006h_img.jpg"/>
+</media>
+<newline/><media id="fs-id1167834473791" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_07_04_006i_img.jpg"/>
+</media>
+<newline/><media id="fs-id1167834190380" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_07_04_006j_img.jpg"/>
+</media>
+</entry>
+</row>
+<row>
+<entry align="left" namest="c1" nameend="c2">Check.<newline/><newline/> <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math> and <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>−1</m:mn></m:mrow></m:math> are extraneous solutions.</entry>
+</row>
+<row>
+<entry/>
+<entry align="center">The equation has no solution.</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</solution>
+</exercise>
+</example>
+<note id="fs-id1167835214096" class="try">
+<exercise id="fs-id1167835202851">
+<problem id="fs-id1167835358566">
+<para id="fs-id1167832057089">Solve: <m:math><m:mrow><m:mfrac><m:mi>y</m:mi><m:mrow><m:mn>5</m:mn><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>10</m:mn></m:mrow></m:mfrac><m:mo>−</m:mo><m:mfrac><m:mn>5</m:mn><m:mrow><m:mn>3</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>6</m:mn></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>2</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>19</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>54</m:mn></m:mrow><m:mrow><m:mn>15</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>60</m:mn></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167835420450">
+<para id="fs-id1167835352167">There is no solution.</para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1167835364530" class="try">
+<exercise id="fs-id1167835479971">
+<problem id="fs-id1167830770198">
+<para id="fs-id1167835338212">Solve: <m:math><m:mrow><m:mfrac><m:mi>z</m:mi><m:mrow><m:mn>2</m:mn><m:mi>z</m:mi><m:mo>+</m:mo><m:mn>8</m:mn></m:mrow></m:mfrac><m:mo>−</m:mo><m:mfrac><m:mn>3</m:mn><m:mrow><m:mn>4</m:mn><m:mi>z</m:mi><m:mo>−</m:mo><m:mn>8</m:mn></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>3</m:mn><m:msup><m:mi>z</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>16</m:mn><m:mi>z</m:mi><m:mo>−</m:mo><m:mn>16</m:mn></m:mrow><m:mrow><m:mn>8</m:mn><m:msup><m:mi>z</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>z</m:mi><m:mo>−</m:mo><m:mn>64</m:mn></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167835307262">
+<para id="fs-id1167835333508">There is no solution.</para>
+</solution>
+</exercise>
+</note>
+<example id="fs-id1167834177880">
+<exercise id="fs-id1167835515393">
+<problem id="fs-id1167835304792">
+<para id="fs-id1167830702633">Solve: <m:math><m:mrow><m:mfrac><m:mn>4</m:mn><m:mrow><m:mn>3</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>10</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>3</m:mn><m:mrow><m:mn>3</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mn>2</m:mn><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167834539321">
+<table id="fs-id1167827943907" class="unnumbered unstyled" summary="Solve 4 divided by the quantity 3 x squared minus 10 x plus 3 plus 3 divided by the quantity 3 x squared plus 2 x minus 1 is equal to 2 divided by the quantity x squared minus 2 x minus 3. Factor all of the denominators in the equation. The result is 4 divided by the quantity 3 x minus 1 times the quantity x minus 3 plus 3 divided by the quantity 3 x minus 1 times the quantity x plus 1 is equal to 2 divided by the quantity x minus 3 times the quantity x plus 1. Notice that x is not equal to negative 1, x is not equal to one-third, and x is not equal to 3. Those values make a denominator 0. The least common denominator is the quantity 3 x minus 1 times the quantity x plus 1 times the quantity x minus 3. Clear the fractions by multiplying each side of the equation by the least common denominator. The quantity 3 x minus 1 times the quantity x plus 1 times the quantity x minus 3 times the quantity of divided by the quantity 3 x minus 1 times the quantity x minus 3 plus 3 divided by the quantity 3 x minus 1 times the quantity x plus 1 is equal to the quantity 3 x minus 1 times the quantity x plus 1 times the quantity x minus 3 times 2 divided by the quantity x minus 3 times the quantity x plus 1. Simplify by removing common factors. The result is 4 times the quantity x plus 1 plus 3 times the quantity x minus 3 is equal to 2 times the quantity 3 x minus 1. Simplify the equation by distributing. The result is 4 x plus 4 plus 3 x minus 9 is equal to 6 x minus 2. further simplifying, the result is 7 x minus 5 is equal to 6 x minus 2. Solve the equation. The result is x is equal to 3. The only algebraic solution was  but we said that  would make a denominator equal to zero. The algebraic solution is an extraneous solution. There is no solution to this equation.">
+<label/>
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<tbody>
+<row>
+<entry/>
+<entry align="left"><media id="fs-id1167835370982" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_07_04_007a_img.jpg"/>
+</media>
+</entry>
+</row>
+<row>
+<entry align="left">Factor all the denominators, so we can note any value of the variable that would make any denominator<newline/>zero.</entry>
+<entry align="center"><media id="fs-id1167835258541" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_07_04_007b_img.jpg"/>
+</media><newline/>
+<m:math><m:mrow><m:mi>x</m:mi><m:mo>≠</m:mo><m:mtext>−</m:mtext><m:mn>1</m:mn><m:mo>,</m:mo><m:mi>x</m:mi><m:mo>≠</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac><m:mo>,</m:mo><m:mi>x</m:mi><m:mo>≠</m:mo><m:mn>3</m:mn></m:mrow></m:math></entry>
+</row>
+<row>
+<entry align="left">Find the least common denominator. The LCD is <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></entry>
+<entry/>
+</row>
+<row>
+<entry align="left">Clear the fractions.</entry>
+<entry/>
+</row>
+<row>
+<entry namest="c1" nameend="c2" align="right">
+<media id="fs-id1167826781751" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_07_04_007c_img.jpg"/>
+</media>
+</entry>
+</row>
+<row>
+<entry align="left">Simplify.</entry>
+<entry align="center"><media id="fs-id1167834189271" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_07_04_007d_img.jpg"/>
+</media>
+</entry>
+</row>
+<row>
+<entry align="left">Distribute.</entry>
+<entry align="left"><media id="fs-id1167830702476" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_07_04_007e_img.jpg"/>
+</media>
+</entry>
+</row>
+<row>
+<entry align="left">Simplify.</entry>
+<entry align="left"><media id="fs-id1167834382438" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_07_04_007f_img.jpg"/>
+</media>
+</entry>
+</row>
+<row>
+<entry/>
+<entry align="left"><media id="fs-id1167835420812" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_07_04_007g_img.jpg"/>
+</media>
+</entry>
+</row>
+<row>
+<entry align="left">The only algebraic solution was <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>3</m:mn><m:mo>,</m:mo></m:mrow></m:math> but we said that <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>3</m:mn></m:mrow></m:math> would make a denominator equal to zero. The algebraic solution is an extraneous solution.</entry>
+<entry/>
+</row>
+<row>
+<entry/>
+<entry align="center">There is no solution to this equation.</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</solution>
+</exercise>
+</example>
+<note id="fs-id1167835365122" class="try">
+<exercise id="fs-id1167835166517">
+<problem id="fs-id1167826779764">
+<para id="fs-id1167835244637">Solve: <m:math><m:mrow><m:mfrac><m:mrow><m:mn>15</m:mn></m:mrow><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>6</m:mn></m:mrow></m:mfrac><m:mo>−</m:mo><m:mfrac><m:mn>3</m:mn><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mn>2</m:mn><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167830921037">
+<para id="fs-id1167830924303">There is no solution.</para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1167835622929" class="try">
+<exercise id="fs-id1167831239367">
+<problem id="fs-id1167835615834">
+<para id="fs-id1167834431535">Solve: <m:math><m:mrow><m:mfrac><m:mn>5</m:mn><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow></m:mfrac><m:mo>−</m:mo><m:mfrac><m:mn>3</m:mn><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>5</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>6</m:mn></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167835241523">
+<para id="fs-id1167834064068">There is no solution.</para>
+</solution>
+</exercise>
+</note>
+</section>
+<section id="fs-id1167830866178">
+<title>Use Rational Functions</title>
+<para id="fs-id1167832057008">Working with functions that are defined by rational expressions often lead to rational equations. Again, we use the same techniques to solve them.</para>
+<example id="fs-id1167835187467">
+<exercise id="fs-id1167835515194">
+<problem id="fs-id1167835596552">
+<para id="fs-id1167835237617">For rational function, <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>6</m:mn></m:mrow><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>8</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>15</m:mn></m:mrow></m:mfrac><m:mo>,</m:mo></m:mrow></m:math> <span class="token">ⓐ</span> find the domain of the function, <span class="token">ⓑ</span> solve <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>,</m:mo></m:mrow></m:math> and <span class="token">ⓒ</span> find the points on the graph at this function value.</para>
+</problem>
+<solution id="fs-id1167835358480">
+<para id="fs-id1167835400376"><span class="token">ⓐ</span> The domain of a rational function is all real numbers except those that make the rational expression undefined. So to find them, we will set the denominator equal to zero and solve.</para>
+<para id="fs-id1167831919514"><m:math><m:mrow><m:mtable><m:mtr><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>8</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>15</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>Factor the trinomial.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>0</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>Use the Zero Product Property.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:mo>=</m:mo><m:mn>0</m:mn><m:mspace width="1em"/><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>5</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>Solve.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>3</m:mn><m:mspace width="1em"/><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>5</m:mn></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mtext>The domain is all real numbers except</m:mtext><m:mspace width="0.2em"/><m:mi>x</m:mi><m:mo>≠</m:mo><m:mn>3</m:mn><m:mo>,</m:mo><m:mi>x</m:mi><m:mo>≠</m:mo><m:mn>5</m:mn><m:mtext>.</m:mtext></m:mtd></m:mtr></m:mtable></m:mrow></m:math>.</para><para id="fs-id1167835363306"><span class="token">ⓑ</span><newline/>
+<table id="fs-id1167834539060" class="unnumbered unstyled" summary="The function f is equal to 1. Substitute the quantity 2 x minus 6 divided by the quantity x squared minus 8 x plus 15 for f. Factoring the denominator, the result is the quantity 2 x minus 6 all divided by the x squared minus 8 x plus 15 is equal to 1. Factoring the denominator, the result is the quantity 2 x minus 6 divided by the quantity x minus 3 times the quantity x minus 5 is equal to 1. Multiply each side of the equation by the least common denominator, the quantity x minus 3 times the quantity x minus 5. Simplifying, the result is 2 x minus 6 is equal to x squared minus 8 x plus 15. Solve the equation so that terms with variables are one side. The result is 0 is equal to x squared minus 10 x plus 21. Factor the right side of the equation. The result is 0 is equal to the quantity x minus 7 times the quantity x minus 3. Using the Zero Product Property, the result is x minus 7 is equal to 0 or x minus 3 is equal to 0. Solve each equation. The results is x is equal to 7 or x is equal to 3.">
+<label/>
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<tbody>
+<row>
+<entry/>
+<entry align="center"><media id="fs-id1167830700608" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_07_04_008a_img.jpg"/>
+</media>
+</entry>
+</row>
+<row>
+<entry align="left">Substitute in the rational expression.</entry>
+<entry align="center"><media id="fs-id1167834430970" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_07_04_008b_img.jpg"/>
+</media>
+</entry>
+</row>
+<row>
+<entry align="left">Factor the denominator.</entry>
+<entry align="center"><media id="fs-id1167835589718" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_07_04_008c_img.jpg"/>
+</media>
+</entry>
+</row>
+<row>
+<entry align="left">Multiply both sides by the LCD,<newline/><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></entry>
+<entry align="center"><media id="fs-id1167835345154" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_07_04_008d_img.jpg"/>
+</media>
+</entry>
+</row>
+<row>
+<entry align="left">Simplify.</entry>
+<entry align="left"><media id="fs-id1167835306830" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_07_04_008e_img.jpg"/>
+</media></entry>
+</row>
+<row>
+<entry align="left">Solve.</entry>
+<entry align="left"><media id="fs-id1167835281480" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_07_04_008f_img.jpg"/>
+</media>
+</entry>
+</row>
+<row>
+<entry align="left">Factor.</entry>
+<entry align="left"><media id="fs-id1167834228009" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_07_04_008g_img.jpg"/>
+</media></entry>
+</row>
+<row>
+<entry align="left">Use the Zero Product Property.</entry>
+<entry align="left"><media id="fs-id1167830959814" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_07_04_008h_img.jpg"/>
+</media>
+</entry></row>
+<row>
+<entry align="left">Solve.</entry>
+<entry align="left"><media id="fs-id1167826819802" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_07_04_008i_img.jpg"/>
+</media>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table></para>
+<para id="fs-id1167831836352"><span class="token">ⓒ</span> The value of the function is 1 when <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>7</m:mn><m:mo>,</m:mo><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>3</m:mn><m:mo>.</m:mo></m:mrow></m:math> So the points on the graph of this function when <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>,</m:mo></m:mrow></m:math> will be <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>7</m:mn><m:mo>,</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</solution>
+</exercise>
+</example>
+<note id="fs-id1167831923032" class="try">
+<exercise id="fs-id1167834234019">
+<problem id="fs-id1167834234021">
+<para id="fs-id1167831923565">For rational function, <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>8</m:mn><m:mo>−</m:mo><m:mi>x</m:mi></m:mrow><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>7</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>12</m:mn></m:mrow></m:mfrac><m:mo>,</m:mo></m:mrow></m:math> <span class="token">ⓐ</span> find the domain of the function <span class="token">ⓑ</span> solve <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>3</m:mn></m:mrow></m:math> <span class="token">ⓒ</span> find the points on the graph at this function value.</para>
+</problem>
+<solution id="fs-id1167835364523">
+<para id="fs-id1167835280319"><span class="token">ⓐ</span> The domain is all real numbers except <m:math><m:mrow><m:mi>x</m:mi><m:mo>≠</m:mo><m:mn>3</m:mn></m:mrow></m:math> and <m:math><m:mrow><m:mi>x</m:mi><m:mo>≠</m:mo><m:mn>4</m:mn><m:mo>.</m:mo></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mi>x</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>14</m:mn></m:mrow><m:mn>3</m:mn></m:mfrac></m:mrow></m:math><newline/><span class="token">ⓒ</span> <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:mn>14</m:mn></m:mrow><m:mn>3</m:mn></m:mfrac><m:mo>,</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1167835420479" class="try">
+<exercise id="fs-id1167834060719">
+<problem id="fs-id1167835361379">
+<para id="fs-id1167835361381">For rational function, <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>6</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>5</m:mn></m:mrow></m:mfrac><m:mo>,</m:mo></m:mrow></m:math> <span class="token">ⓐ</span> find the domain of the function <span class="token">ⓑ</span> solve <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>4</m:mn></m:mrow></m:math> <span class="token">ⓒ</span> find the points on the graph at this function value.</para>
+</problem>
+<solution id="fs-id1167835215922">
+<para id="fs-id1167834120573"><span class="token">ⓐ</span> The domain is all real numbers except <m:math><m:mrow><m:mi>x</m:mi><m:mo>≠</m:mo><m:mn>1</m:mn></m:mrow></m:math> and <m:math><m:mrow><m:mi>x</m:mi><m:mo>≠</m:mo><m:mn>5</m:mn><m:mo>.</m:mo></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>21</m:mn></m:mrow><m:mn>4</m:mn></m:mfrac></m:mrow></m:math> <span class="token">ⓒ</span> <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:mn>21</m:mn></m:mrow><m:mn>4</m:mn></m:mfrac><m:mo>,</m:mo><m:mn>4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+</section>
+<section id="fs-id1167835348471">
+<title>Solve a Rational Equation for a Specific Variable</title>
+<para id="fs-id1167826997467">When we solved linear equations, we learned how to solve a formula for a specific variable. Many formulas used in business, science, economics, and other fields use rational equations to model the relation between two or more variables. We will now see how to solve a rational equation for a specific variable.</para>
+<para id="fs-id1167835232465">When we developed the point-slope formula from our slope formula, we cleared the fractions by multiplying by the LCD.</para>
+<para id="fs-id1167835303521"><m:math><m:mrow><m:mtable><m:mtr><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mi>m</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mfrac><m:mrow><m:mi>y</m:mi><m:mo>−</m:mo><m:msub><m:mi>y</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mfrac></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mtext>Multiply both sides of the equation by</m:mtext><m:mspace width="0.2em"/><m:mi>x</m:mi><m:mo>−</m:mo><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub><m:mo>.</m:mo></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mi>m</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mo>)</m:mo></m:mrow></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:mi>y</m:mi><m:mo>−</m:mo><m:msub><m:mi>y</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mo>)</m:mo></m:mrow></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mtext>Simplify.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mi>m</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mo>)</m:mo></m:mrow></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mi>y</m:mi><m:mo>−</m:mo><m:msub><m:mi>y</m:mi><m:mn>1</m:mn></m:msub></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mtext>Rewrite the equation with the</m:mtext><m:mspace width="0.2em"/><m:mi>y</m:mi><m:mspace width="0.2em"/><m:mtext>terms on the left.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mi>y</m:mi><m:mo>−</m:mo><m:msub><m:mi>y</m:mi><m:mn>1</m:mn></m:msub></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mi>m</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mo>)</m:mo></m:mrow></m:mtd></m:mtr></m:mtable></m:mrow></m:math></para>
+<para id="fs-id1167826801694">In the next example, we will use the same technique with the formula for slope that we used to get the point-slope form of an equation of a line through the point <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math> We will add one more step to solve for <emphasis effect="italics">y</emphasis>.</para>
+<example id="fs-id1167834194630">
+<exercise id="fs-id1167835347768">
+<problem id="fs-id1167835347770">
+<para id="fs-id1167835379570">Solve:<m:math><m:mrow><m:mi>m</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow></m:mfrac></m:mrow></m:math> for <m:math><m:mrow><m:mi>y</m:mi><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167831086839">
+<table id="fs-id1167831086842" class="unnumbered unstyled" summary="Solve the quantity y minus 2 divided by the quantity x minus 3 for y. The solution cannot be x is equal to 3 because it will make a denominator 0. Clear the fractions on both sides of the equation by multiplying each one by the lowest common denominator, x minus 3. The result is the quantity x minus 3 times m is equal to the quantity x minus 3 times the quantity y minus 2 all divided by the quantity x minus 3. Simplifying on each side, the result is x m minus 3 m is equal to y minus 2. Isolating the term with y, the result is x m minus 3 m plus 2 is equal to y.">
+<label/>
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<tbody>
+<row>
+<entry/>
+<entry align="left"><media id="fs-id1167835307680" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_07_04_009b_img.jpg"/>
+</media>
+</entry>
+</row>
+<row>
+<entry align="left">Note any value of the variable that would<newline/>make any denominator zero.</entry>
+<entry align="left"><media id="fs-id1167834184589" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_07_04_009c_img.jpg"/>
+</media>
+</entry>
+</row>
+<row>
+<entry align="left">Clear the fractions by multiplying both sides of<newline/>the equation by the LCD, <m:math><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:mo>.</m:mo></m:mrow></m:math></entry>
+<entry align="left"><media id="fs-id1167835345481" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_07_04_009a_img.jpg"/>
+</media>
+</entry>
+</row>
+<row>
+<entry align="left">Simplify.</entry>
+<entry align="left"><media id="fs-id1167828421394" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_07_04_009d_img.jpg"/>
+</media>
+</entry>
+</row>
+<row>
+<entry align="left">Isolate the term with <emphasis effect="italics">y</emphasis>.</entry>
+<entry align="left"><media id="fs-id1167834535951" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_07_04_009e_img.jpg"/>
+</media>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</solution>
+</exercise>
+</example>
+<note id="fs-id1167834280129" class="try">
+<exercise id="fs-id1167834280132">
+<problem id="fs-id1167835357901">
+<para id="fs-id1167835357904">Solve: <m:math><m:mrow><m:mi>m</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>5</m:mn></m:mrow><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>4</m:mn></m:mrow></m:mfrac></m:mrow></m:math>for <m:math><m:mrow><m:mi>y</m:mi><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167834134460">
+<para id="fs-id1167831872404"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>m</m:mi><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>4</m:mn><m:mi>m</m:mi><m:mo>+</m:mo><m:mn>5</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1167835358529" class="try">
+<exercise id="fs-id1167834132867">
+<problem id="fs-id1167834132869">
+<para id="fs-id1167828421267">Solve: <m:math><m:mrow><m:mi>m</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>5</m:mn></m:mrow></m:mfrac></m:mrow></m:math> for <m:math><m:mrow><m:mi>y</m:mi><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167835376441">
+<para id="fs-id1167835376443"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>m</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>5</m:mn><m:mi>m</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<para id="fs-id1167831116847">Remember to multiply both sides by the LCD in the next example.</para>
+<example id="fs-id1167831116850">
+<exercise id="fs-id1167834433514">
+<problem id="fs-id1167834433516">
+<para id="fs-id1167835368438">Solve: <m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mi>c</m:mi></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mi>m</m:mi></m:mfrac><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math> for <emphasis effect="italics">c</emphasis>.</para>
+</problem>
+<solution id="fs-id1167835582748">
+<table id="fs-id1167835582750" class="unnumbered unstyled" summary="Solve the quantity 1 divided by c plus the quantity 1 divided by m is equal to 1 for c. Notice that the values that would make any denominator 0 are c is equal to 0 and m is equal to 0. The least common denominator of the denominators of the fractions is c m. Clear the fractions in the equation by multiplying each side by c m. Distribute c m to each term. The result is c m times the quantity 1 divided by c plus c m times the quantity 1 divided by m is equal to c m times 1. When simplified, the equation becomes m plus c is equal to c m. Collect the terns with c on the right side of the equation. The result is m is equal to c m minus c. When the right side is factored, the result is m is equal to c times the quantity m minus 1. Divide each side of the equation by the quantity m minus 1 to isolate c. When the common factors are removed, the result is m divided by the quantity m minus 1 is equal to c. Notice that m is not equal to 1.">
+<label/>
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<tbody>
+<row>
+<entry/>
+<entry align="left"><media id="fs-id1167835319356" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_07_04_010a_img.jpg"/>
+</media>
+</entry>
+</row>
+<row>
+<entry align="left">Note any value of the variable that would make<newline/>any denominator zero.</entry>
+<entry align="left"><media id="fs-id1167834306898" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_07_04_010b_img.jpg"/>
+</media>
+</entry>
+</row>
+<row>
+<entry align="left">Clear the fractions by multiplying both sides of<newline/>the equations by the LCD, <emphasis effect="italics">cm</emphasis>.</entry>
+<entry align="left"><media id="fs-id1167834431316" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_07_04_010c_img.jpg"/>
+</media>
+</entry>
+</row>
+<row>
+<entry align="left">Distribute.</entry>
+<entry align="left"><media id="fs-id1167826977623" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_07_04_010d_img.jpg"/>
+</media>
+</entry>
+</row>
+<row>
+<entry align="left">Simplify.</entry>
+<entry align="left"><media id="fs-id1167831922161" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_07_04_010e_img.jpg"/>
+</media>
+</entry>
+</row>
+<row>
+<entry align="left">Collect the terms with <emphasis effect="italics">c</emphasis> to the right.</entry>
+<entry align="left"><media id="fs-id1167834505759" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_07_04_010f_img.jpg"/>
+</media>
+</entry>
+</row>
+<row>
+<entry align="left">Factor the expression on the right.</entry>
+<entry align="left"><media id="fs-id1167835280666" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_07_04_010g_img.jpg"/>
+</media>
+</entry>
+</row>
+<row>
+<entry align="left">To isolate <emphasis effect="italics">c</emphasis>, divide both sides by <m:math><m:mrow><m:mi>m</m:mi><m:mo>−</m:mo><m:mn>1</m:mn><m:mo>.</m:mo></m:mrow></m:math></entry>
+<entry align="left"><media id="fs-id1167834376913" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_07_04_010h_img.jpg"/>
+</media>
+</entry>
+</row>
+<row>
+<entry align="left">Simplify by removing common factors.</entry>
+<entry align="left"><media id="fs-id1167835257626" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_07_04_010i_img.jpg"/>
+</media>
+</entry>
+</row>
+<row>
+<entry namest="c1" nameend="c2" align="left">Notice that even though we excluded <m:math><m:mrow><m:mi>c</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mi>m</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> from the original equation, we must also now state that <m:math><m:mrow><m:mi>m</m:mi><m:mo>≠</m:mo><m:mn>1</m:mn><m:mo>.</m:mo></m:mrow></m:math></entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</solution>
+</exercise>
+</example>
+<note id="fs-id1167834196626" class="try">
+<exercise id="fs-id1167835328642">
+<problem id="fs-id1167835328644">
+<para id="fs-id1167835240600">Solve: <m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mi>a</m:mi></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mi>b</m:mi></m:mfrac><m:mo>=</m:mo><m:mi>c</m:mi></m:mrow></m:math> for <emphasis effect="italics">a</emphasis>.</para>
+</problem>
+<solution id="fs-id1167835300418">
+<para id="fs-id1167831871932"><m:math><m:mrow><m:mi>a</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>b</m:mi><m:mrow><m:mi>c</m:mi><m:mi>b</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1167835342182" class="try">
+<exercise id="fs-id1167835342186">
+<problem id="fs-id1167835359612">
+<para id="fs-id1167835359614">Solve: <m:math><m:mrow><m:mfrac><m:mn>2</m:mn><m:mi>x</m:mi></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mi>y</m:mi></m:mfrac></m:mrow></m:math> for <emphasis effect="italics">y</emphasis>.</para>
+</problem>
+<solution id="fs-id1167835310191">
+<para id="fs-id1167835310193"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>3</m:mn><m:mi>x</m:mi></m:mrow><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>6</m:mn></m:mrow></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1167826780819" class="media-2">
+<para id="fs-id1167835374004">Access this online resource for additional instruction and practice with equations with rational expressions.</para>
+<list id="fs-id1167835377566" display="block">
+<item><link url="https://openstax.org/l/37EqRatExp">Equations with Rational Expressions</link></item>
+</list>
+</note>
+</section>
+<section id="fs-id1167826783875" class="key-concepts">
+<title>Key Concepts</title>
+<list id="fs-id1167834190024" list-type="bulleted" bullet-style="bullet">
+<item><emphasis effect="bold">How to solve equations with rational expressions.</emphasis>
+<list id="fs-id1167835322041" list-type="enumerated" number-style="arabic" class="stepwise">
+<item>Note any value of the variable that would make any denominator zero.</item>
+<item>Find the least common denominator of all denominators in the equation.</item>
+<item>Clear the fractions by multiplying both sides of the equation by the LCD.</item>
+<item>Solve the resulting equation.</item>
+<item>Check:
+<list id="fs-id1167831890544" list-type="bulleted" bullet-style="bullet">
+<item>If any values found in Step 1 are algebraic solutions, discard them.</item>
+<item>Check any remaining solutions in the original equation.</item>
+</list></item>
+</list></item>
+</list>
+</section>
+<section id="fs-id1167831949120" class="section-exercises">
+<section id="fs-id1167834429105" class="practice-perfect">
+<title>Practice Makes Perfect</title>
+<para id="fs-id1167830897851"><emphasis effect="bold">Solve Rational Equations</emphasis></para>
+<para id="fs-id1167835596642">In the following exercises, solve each rational equation.</para>
+<exercise id="fs-id1167835596645" class="material-set-2">
+<problem id="fs-id1167835309564">
+<para id="fs-id1167835309566"><m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mi>a</m:mi></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>2</m:mn><m:mn>5</m:mn></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167835309673">
+<para id="fs-id1167835381730"><m:math><m:mrow><m:mi>a</m:mi><m:mo>=</m:mo><m:mn>10</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167826781539" class="material-set-2">
+<problem id="fs-id1167826781541">
+<para id="fs-id1167826781543"><m:math><m:mrow><m:mfrac><m:mn>6</m:mn><m:mn>3</m:mn></m:mfrac><m:mo>−</m:mo><m:mfrac><m:mn>2</m:mn><m:mi>d</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mn>4</m:mn><m:mn>9</m:mn></m:mfrac></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167830704645" class="material-set-2">
+<problem id="fs-id1167830704647">
+<para id="fs-id1167830704649"><m:math><m:mrow><m:mfrac><m:mn>4</m:mn><m:mn>5</m:mn></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>4</m:mn></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mn>2</m:mn><m:mi>v</m:mi></m:mfrac></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167835527876">
+<para id="fs-id1167835423110"><m:math><m:mrow><m:mi>v</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>40</m:mn></m:mrow><m:mrow><m:mn>21</m:mn></m:mrow></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167835310329" class="material-set-2">
+<problem id="fs-id1167835310331">
+<para id="fs-id1167834279098"><m:math><m:mrow><m:mfrac><m:mn>3</m:mn><m:mn>8</m:mn></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>2</m:mn><m:mi>y</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>4</m:mn></m:mfrac></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167835319658" class="material-set-2">
+<problem id="fs-id1167831106962">
+<para id="fs-id1167831106964"><m:math><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:mfrac><m:mn>2</m:mn><m:mi>m</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mn>8</m:mn><m:mrow><m:msup><m:mi>m</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167835358672">
+<para id="fs-id1167834194116"><m:math><m:mrow><m:mi>m</m:mi><m:mo>=</m:mo><m:mn>−2</m:mn><m:mo>,</m:mo><m:mi>m</m:mi><m:mo>=</m:mo><m:mn>4</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167832060052" class="material-set-2">
+<problem id="fs-id1167832060054">
+<para id="fs-id1167832060056"><m:math><m:mrow><m:mn>1</m:mn><m:mo>+</m:mo><m:mfrac><m:mn>4</m:mn><m:mi>n</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>21</m:mn></m:mrow><m:mrow><m:msup><m:mi>n</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167835365115" class="material-set-2">
+<problem id="fs-id1167835365117">
+<para id="fs-id1167832128656"><m:math><m:mrow><m:mn>1</m:mn><m:mo>+</m:mo><m:mfrac><m:mn>9</m:mn><m:mi>p</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>−20</m:mn></m:mrow><m:mrow><m:msup><m:mi>p</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167830961108">
+<para id="fs-id1167830961110"><m:math><m:mrow><m:mi>p</m:mi><m:mo>=</m:mo><m:mn>−5</m:mn><m:mo>,</m:mo><m:mi>p</m:mi><m:mo>=</m:mo><m:mn>−4</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167834423050" class="material-set-2">
+<problem id="fs-id1167835368406">
+<para id="fs-id1167835368408"><m:math><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:mfrac><m:mn>7</m:mn><m:mi>q</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>−6</m:mn></m:mrow><m:mrow><m:msup><m:mi>q</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167835304732" class="material-set-2">
+<problem id="fs-id1167835304734">
+<para id="fs-id1167835304736"><m:math><m:mrow><m:mfrac><m:mn>5</m:mn><m:mrow><m:mn>3</m:mn><m:mi>v</m:mi><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mn>7</m:mn><m:mrow><m:mn>4</m:mn><m:mi>v</m:mi></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167834505336">
+<para id="fs-id1167834505338"><m:math><m:mrow><m:mi>v</m:mi><m:mo>=</m:mo><m:mn>14</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167835511103" class="material-set-2">
+<problem id="fs-id1167834063671">
+<para id="fs-id1167834063673"><m:math><m:mrow><m:mfrac><m:mn>8</m:mn><m:mrow><m:mn>2</m:mn><m:mi>w</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mn>3</m:mn><m:mi>w</m:mi></m:mfrac></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167831040520" class="material-set-2">
+<problem id="fs-id1167831040523">
+<para id="fs-id1167831040525"><m:math><m:mrow><m:mfrac><m:mn>3</m:mn><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>7</m:mn><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>4</m:mn></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mn>8</m:mn><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>16</m:mn></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167835348754">
+<para id="fs-id1167835334884"><m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mn>4</m:mn><m:mn>5</m:mn></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167835229217" class="material-set-2">
+<problem id="fs-id1167835229219">
+<para id="fs-id1167835229221"><m:math><m:mrow><m:mfrac><m:mn>5</m:mn><m:mrow><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>9</m:mn></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>9</m:mn></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>18</m:mn></m:mrow><m:mrow><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>81</m:mn></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167834190044" class="material-set-2">
+<problem id="fs-id1167834190046">
+<para id="fs-id1167834190048"><m:math><m:mrow><m:mfrac><m:mn>8</m:mn><m:mrow><m:mi>z</m:mi><m:mo>−</m:mo><m:mn>10</m:mn></m:mrow></m:mfrac><m:mo>−</m:mo><m:mfrac><m:mn>7</m:mn><m:mrow><m:mi>z</m:mi><m:mo>+</m:mo><m:mn>10</m:mn></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mn>5</m:mn><m:mrow><m:msup><m:mi>z</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>100</m:mn></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167835479340">
+<para id="fs-id1167831835428"><m:math><m:mrow><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>−145</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167835479358" class="material-set-2">
+<problem id="fs-id1167835479360">
+<para id="fs-id1167835479362"><m:math><m:mrow><m:mfrac><m:mn>9</m:mn><m:mrow><m:mi>a</m:mi><m:mo>+</m:mo><m:mn>11</m:mn></m:mrow></m:mfrac><m:mo>−</m:mo><m:mfrac><m:mn>6</m:mn><m:mrow><m:mi>a</m:mi><m:mo>−</m:mo><m:mn>11</m:mn></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mn>6</m:mn><m:mrow><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>121</m:mn></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167834111880" class="material-set-2">
+<problem id="fs-id1167834111883">
+<para id="fs-id1167834111885"><m:math><m:mrow><m:mfrac><m:mrow><m:mn>−10</m:mn></m:mrow><m:mrow><m:mi>q</m:mi><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow></m:mfrac><m:mo>−</m:mo><m:mfrac><m:mn>7</m:mn><m:mrow><m:mi>q</m:mi><m:mo>+</m:mo><m:mn>4</m:mn></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167826994126">
+<para id="fs-id1167826994129"><m:math><m:mrow><m:mi>q</m:mi><m:mo>=</m:mo><m:mn>−18</m:mn><m:mo>,</m:mo><m:mi>q</m:mi><m:mo>=</m:mo><m:mn>−1</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167834079305" class="material-set-2">
+<problem id="fs-id1167834146932">
+<para id="fs-id1167834146934"><m:math><m:mrow><m:mfrac><m:mn>2</m:mn><m:mrow><m:mi>s</m:mi><m:mo>+</m:mo><m:mn>7</m:mn></m:mrow></m:mfrac><m:mo>−</m:mo><m:mfrac><m:mn>3</m:mn><m:mrow><m:mi>s</m:mi><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167831881752" class="material-set-2">
+<problem id="fs-id1167831881755">
+<para id="fs-id1167830959746"><m:math><m:mrow><m:mfrac><m:mrow><m:mi>v</m:mi><m:mo>−</m:mo><m:mn>10</m:mn></m:mrow><m:mrow><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>5</m:mn><m:mi>v</m:mi><m:mo>+</m:mo><m:mn>4</m:mn></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mn>3</m:mn><m:mrow><m:mi>v</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:mfrac><m:mo>−</m:mo><m:mfrac><m:mn>6</m:mn><m:mrow><m:mi>v</m:mi><m:mo>−</m:mo><m:mn>4</m:mn></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167835365624">
+<para id="fs-id1167831881738"><m:math><m:mrow><m:mtext>no solution</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167827966802" class="material-set-2">
+<problem id="fs-id1167827966804">
+<para id="fs-id1167835237656"><m:math><m:mrow><m:mfrac><m:mrow><m:mi>w</m:mi><m:mo>+</m:mo><m:mn>8</m:mn></m:mrow><m:mrow><m:msup><m:mi>w</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>11</m:mn><m:mi>w</m:mi><m:mo>+</m:mo><m:mn>28</m:mn></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mn>5</m:mn><m:mrow><m:mi>w</m:mi><m:mo>−</m:mo><m:mn>7</m:mn></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>2</m:mn><m:mrow><m:mi>w</m:mi><m:mo>−</m:mo><m:mn>4</m:mn></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167830704522" class="material-set-2">
+<problem id="fs-id1167834552530">
+<para id="fs-id1167834552532"><m:math><m:mrow><m:mfrac><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>10</m:mn></m:mrow><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>8</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>12</m:mn></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mn>3</m:mn><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>4</m:mn><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>6</m:mn></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167835304338">
+<para id="fs-id1167835304340"><m:math><m:mrow><m:mtext>no solution</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167831880161" class="material-set-2">
+<problem id="fs-id1167835371420">
+<para id="fs-id1167835371422"><m:math><m:mrow><m:mfrac><m:mrow><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>5</m:mn></m:mrow><m:mrow><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>4</m:mn><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>5</m:mn></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>5</m:mn></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167835234777" class="material-set-2">
+<problem id="fs-id1167835234779">
+<para id="fs-id1167835234781"><m:math><m:mrow><m:mfrac><m:mrow><m:mi>b</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow><m:mrow><m:mn>3</m:mn><m:mi>b</m:mi></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mi>b</m:mi><m:mrow><m:mn>24</m:mn></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mi>b</m:mi></m:mfrac></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167835380533">
+<para id="fs-id1167835380536"><m:math><m:mrow><m:mi>b</m:mi><m:mo>=</m:mo><m:mn>−8</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167830837155" class="material-set-2">
+<problem id="fs-id1167830837157">
+<para id="fs-id1167835340875"><m:math><m:mrow><m:mfrac><m:mrow><m:mi>c</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow><m:mrow><m:mn>12</m:mn><m:mi>c</m:mi></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mi>c</m:mi><m:mrow><m:mn>36</m:mn></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>4</m:mn><m:mi>c</m:mi></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167835230880" class="material-set-2">
+<problem id="fs-id1167835230882">
+<para id="fs-id1167834064438"><m:math><m:mrow><m:mfrac><m:mi>d</m:mi><m:mrow><m:mi>d</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>18</m:mn></m:mrow><m:mrow><m:msup><m:mi>d</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>9</m:mn></m:mrow></m:mfrac><m:mo>+</m:mo><m:mn>4</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167830704484">
+<para id="fs-id1167830704486"><m:math><m:mrow><m:mi>d</m:mi><m:mo>=</m:mo><m:mn>2</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167834555265" class="material-set-2">
+<problem id="fs-id1167834555267">
+<para id="fs-id1167834124400"><m:math><m:mrow><m:mfrac><m:mi>m</m:mi><m:mrow><m:mi>m</m:mi><m:mo>+</m:mo><m:mn>5</m:mn></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>50</m:mn></m:mrow><m:mrow><m:msup><m:mi>m</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>25</m:mn></m:mrow></m:mfrac><m:mo>+</m:mo><m:mn>6</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167835339503" class="material-set-2">
+<problem id="fs-id1167835339505">
+<para id="fs-id1167835339507"><m:math><m:mrow><m:mfrac><m:mi>n</m:mi><m:mrow><m:mi>n</m:mi><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow></m:mfrac><m:mo>−</m:mo><m:mn>3</m:mn><m:mo>=</m:mo><m:mfrac><m:mn>8</m:mn><m:mrow><m:msup><m:mi>n</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>4</m:mn></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167834526292">
+<para id="fs-id1167834526295"><m:math><m:mrow><m:mi>m</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167835380884" class="material-set-2">
+<problem id="fs-id1167828447056">
+<para id="fs-id1167828447059"><m:math><m:mrow><m:mfrac><m:mi>p</m:mi><m:mrow><m:mi>p</m:mi><m:mo>+</m:mo><m:mn>7</m:mn></m:mrow></m:mfrac><m:mo>−</m:mo><m:mn>8</m:mn><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>98</m:mn></m:mrow><m:mrow><m:msup><m:mi>p</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>49</m:mn></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167831887701" class="material-set-2">
+<problem id="fs-id1167834448880">
+<para id="fs-id1167834448882"><m:math><m:mrow><m:mfrac><m:mi>q</m:mi><m:mrow><m:mn>3</m:mn><m:mi>q</m:mi><m:mo>−</m:mo><m:mn>9</m:mn></m:mrow></m:mfrac><m:mo>−</m:mo><m:mfrac><m:mn>3</m:mn><m:mrow><m:mn>4</m:mn><m:mi>q</m:mi><m:mo>+</m:mo><m:mn>12</m:mn></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>7</m:mn><m:msup><m:mi>q</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>6</m:mn><m:mi>q</m:mi><m:mo>+</m:mo><m:mn>63</m:mn></m:mrow><m:mrow><m:mn>24</m:mn><m:msup><m:mi>q</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>216</m:mn></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167835218128">
+<para id="fs-id1167835218130"><m:math><m:mrow><m:mtext>no solution</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167835348954" class="material-set-2">
+<problem id="fs-id1167831887557">
+<para id="fs-id1167831887559"><m:math><m:mrow><m:mfrac><m:mi>r</m:mi><m:mrow><m:mn>3</m:mn><m:mi>r</m:mi><m:mo>−</m:mo><m:mn>15</m:mn></m:mrow></m:mfrac><m:mo>−</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>4</m:mn><m:mi>r</m:mi><m:mo>+</m:mo><m:mn>20</m:mn></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>3</m:mn><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>17</m:mn><m:mi>r</m:mi><m:mo>+</m:mo><m:mn>40</m:mn></m:mrow><m:mrow><m:mn>12</m:mn><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>300</m:mn></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167835254283" class="material-set-2">
+<problem id="fs-id1167835512055">
+<para id="fs-id1167835512058"><m:math><m:mrow><m:mfrac><m:mi>s</m:mi><m:mrow><m:mn>2</m:mn><m:mi>s</m:mi><m:mo>+</m:mo><m:mn>6</m:mn></m:mrow></m:mfrac><m:mo>−</m:mo><m:mfrac><m:mn>2</m:mn><m:mrow><m:mn>5</m:mn><m:mi>s</m:mi><m:mo>+</m:mo><m:mn>5</m:mn></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>5</m:mn><m:msup><m:mi>s</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>3</m:mn><m:mi>s</m:mi><m:mo>−</m:mo><m:mn>7</m:mn></m:mrow><m:mrow><m:mn>10</m:mn><m:msup><m:mi>s</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>40</m:mn><m:mi>s</m:mi><m:mo>+</m:mo><m:mn>30</m:mn></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167834430234">
+<para id="fs-id1167834430236"><m:math><m:mrow><m:mi>s</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>5</m:mn><m:mn>4</m:mn></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167835511057" class="material-set-2">
+<problem id="fs-id1167831117195">
+<para id="fs-id1167831117197"><m:math><m:mrow><m:mfrac><m:mi>t</m:mi><m:mrow><m:mn>6</m:mn><m:mi>t</m:mi><m:mo>−</m:mo><m:mn>12</m:mn></m:mrow></m:mfrac><m:mo>−</m:mo><m:mfrac><m:mn>5</m:mn><m:mrow><m:mn>2</m:mn><m:mi>t</m:mi><m:mo>+</m:mo><m:mn>10</m:mn></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:msup><m:mi>t</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>23</m:mn><m:mi>t</m:mi><m:mo>+</m:mo><m:mn>70</m:mn></m:mrow><m:mrow><m:mn>12</m:mn><m:msup><m:mi>t</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>36</m:mn><m:mi>t</m:mi><m:mo>−</m:mo><m:mn>120</m:mn></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167835419937" class="material-set-2">
+<problem id="fs-id1167835419939">
+<para id="fs-id1167834063967"><m:math><m:mrow><m:mfrac><m:mn>2</m:mn><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>8</m:mn></m:mrow></m:mfrac><m:mo>−</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>9</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>20</m:mn></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mn>4</m:mn><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>10</m:mn></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167835364061">
+<para id="fs-id1167835364063"><m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mn>4</m:mn><m:mn>3</m:mn></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167835514064" class="material-set-2">
+<problem id="fs-id1167835514066">
+<para id="fs-id1167835338292"><m:math><m:mrow><m:mfrac><m:mn>5</m:mn><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>2</m:mn><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>6</m:mn></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mn>3</m:mn><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167826978010" class="material-set-2">
+<problem id="fs-id1167826978012">
+<para id="fs-id1167830925343"><m:math><m:mrow><m:mfrac><m:mn>3</m:mn><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>5</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>6</m:mn></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>3</m:mn><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>7</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>6</m:mn></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mn>6</m:mn><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167834537641">
+<para id="fs-id1167834537643">no solution</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167826978331" class="material-set-2">
+<problem id="fs-id1167826978333">
+<para id="fs-id1167826978335"><m:math><m:mrow><m:mfrac><m:mn>2</m:mn><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>3</m:mn><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mn>6</m:mn><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+</exercise>
+<para id="fs-id1167826778769"><emphasis effect="bold">Solve Rational Equations that Involve Functions</emphasis></para>
+<exercise id="fs-id1167835356003" class="material-set-2">
+<problem id="fs-id1167835356005">
+<para id="fs-id1167835356007">For rational function, <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>6</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>8</m:mn></m:mrow></m:mfrac><m:mo>,</m:mo></m:mrow></m:math> <span class="token">ⓐ</span> find the domain of the function <span class="token">ⓑ</span> solve <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>5</m:mn></m:mrow></m:math> <span class="token">ⓒ</span> find the points on the graph at this function value.</para>
+</problem>
+<solution id="fs-id1167835349026">
+<para id="fs-id1167835301328">&gt;<span class="token">ⓐ</span> The domain is all real numbers except <m:math><m:mrow><m:mi>x</m:mi><m:mo>≠</m:mo><m:mtext>−</m:mtext><m:mn>2</m:mn></m:mrow></m:math> and <m:math><m:mrow><m:mi>x</m:mi><m:mo>≠</m:mo><m:mtext>−</m:mtext><m:mn>4</m:mn><m:mo>.</m:mo></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>−3</m:mn><m:mo>,</m:mo><m:mi>x</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mrow><m:mn>14</m:mn></m:mrow><m:mn>5</m:mn></m:mfrac></m:mrow></m:math> <span class="token">ⓒ</span> <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−3</m:mn><m:mo>,</m:mo><m:mn>5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mo>−</m:mo><m:mfrac><m:mrow><m:mn>14</m:mn></m:mrow><m:mn>5</m:mn></m:mfrac><m:mo>,</m:mo><m:mn>5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167835319215" class="material-set-2">
+<problem id="fs-id1167835319217">
+<para id="fs-id1167831239531">For rational function, <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow></m:mfrac><m:mo>,</m:mo></m:mrow></m:math> <span class="token">ⓐ</span> find the domain of the function <span class="token">ⓑ</span> solve <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math> <span class="token">ⓒ</span> find the points on the graph at this function value.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167835287710" class="material-set-2">
+<problem id="fs-id1167835287712">
+<para id="fs-id1167835287714">For rational function, <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>2</m:mn><m:mo>−</m:mo><m:mi>x</m:mi></m:mrow><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>7</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>10</m:mn></m:mrow></m:mfrac><m:mo>,</m:mo></m:mrow></m:math> <span class="token">ⓐ</span> find the domain of the function <span class="token">ⓑ</span> solve <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>2</m:mn></m:mrow></m:math> <span class="token">ⓒ</span> find the points on the graph at this function value.</para>
+</problem>
+<solution id="fs-id1167834430848">
+<para id="fs-id1167834535542"><span class="token">ⓐ</span> The domain is all real numbers except <m:math><m:mrow><m:mi>x</m:mi><m:mo>≠</m:mo><m:mn>2</m:mn></m:mrow></m:math> and <m:math><m:mrow><m:mi>x</m:mi><m:mo>≠</m:mo><m:mn>5</m:mn><m:mo>.</m:mo></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>9</m:mn><m:mn>2</m:mn></m:mfrac><m:mo>,</m:mo></m:mrow></m:math> <span class="token">ⓒ</span> <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mn>9</m:mn><m:mn>2</m:mn></m:mfrac><m:mo>,</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167834066254" class="material-set-2">
+<problem id="fs-id1167834066256">
+<para id="fs-id1167835354887">For rational function, <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>5</m:mn><m:mo>−</m:mo><m:mi>x</m:mi></m:mrow><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>5</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>6</m:mn></m:mrow></m:mfrac><m:mo>,</m:mo></m:mrow></m:math><newline/><span class="token">ⓐ</span> find the domain of the function<newline/><span class="token">ⓑ</span> solve <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>3</m:mn></m:mrow></m:math><newline/><span class="token">ⓒ</span> the points on the graph at this function value.</para>
+</problem>
+</exercise>
+<para id="fs-id1167835336553"><emphasis effect="bold">Solve a Rational Equation for a Specific Variable</emphasis></para>
+<para id="fs-id1167830693613">In the following exercises, solve.</para>
+<exercise id="fs-id1167830693617">
+<problem id="fs-id1167832053198">
+<para id="fs-id1167832053200"><m:math><m:mrow><m:mfrac><m:mi>C</m:mi><m:mi>r</m:mi></m:mfrac><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>π</m:mi></m:mrow></m:math> for <m:math><m:mrow><m:mi>r</m:mi><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167834124437">
+<para id="fs-id1167834124439"><m:math><m:mrow><m:mi>r</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>C</m:mi><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi></m:mrow></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167835173771">
+<problem id="fs-id1167834244190">
+<para id="fs-id1167834244192"><m:math><m:mrow><m:mfrac><m:mi>I</m:mi><m:mi>r</m:mi></m:mfrac><m:mo>=</m:mo><m:mi>P</m:mi></m:mrow></m:math> for <m:math><m:mrow><m:mi>r</m:mi><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167835237516">
+<problem id="fs-id1167835375434">
+<para id="fs-id1167835375436"><m:math><m:mrow><m:mfrac><m:mrow><m:mi>v</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow><m:mrow><m:mi>w</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow></m:math> for <m:math><m:mrow><m:mi>w</m:mi><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167831913245">
+<para id="fs-id1167831913247"><m:math><m:mrow><m:mi>w</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>v</m:mi><m:mo>+</m:mo><m:mn>7</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167831884542">
+<problem id="fs-id1167831884544">
+<para id="fs-id1167834539247"><m:math><m:mrow><m:mfrac><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>5</m:mn></m:mrow><m:mrow><m:mn>2</m:mn><m:mo>−</m:mo><m:mi>y</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mn>4</m:mn><m:mn>3</m:mn></m:mfrac></m:mrow></m:math> for <m:math><m:mrow><m:mi>y</m:mi><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167834130086">
+<problem id="fs-id1167835365713">
+<para id="fs-id1167835365715"><m:math><m:mrow><m:mi>a</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>b</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow><m:mrow><m:mi>c</m:mi><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow></m:mfrac></m:mrow></m:math> for <m:math><m:mrow><m:mi>c</m:mi><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167835319924">
+<para id="fs-id1167835368012"><m:math><m:mrow><m:mi>c</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>b</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>a</m:mi></m:mrow><m:mi>a</m:mi></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167834423786">
+<problem id="fs-id1167834423788">
+<para id="fs-id1167834099281"><m:math><m:mrow><m:mi>m</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>n</m:mi><m:mrow><m:mn>2</m:mn><m:mo>−</m:mo><m:mi>n</m:mi></m:mrow></m:mfrac></m:mrow></m:math> for <m:math><m:mrow><m:mi>n</m:mi><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167826782306">
+<problem id="fs-id1167826782308">
+<para id="fs-id1167830704311"><m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mi>p</m:mi></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>2</m:mn><m:mi>q</m:mi></m:mfrac><m:mo>=</m:mo><m:mn>4</m:mn></m:mrow></m:math> for <m:math><m:mrow><m:mi>p</m:mi><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167835331700">
+<para id="fs-id1167831106942"><m:math><m:mrow><m:mi>p</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>q</m:mi><m:mrow><m:mn>4</m:mn><m:mi>q</m:mi><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167831823292">
+<problem id="fs-id1167835254155">
+<para id="fs-id1167835254157"><m:math><m:mrow><m:mfrac><m:mn>3</m:mn><m:mi>s</m:mi></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mi>t</m:mi></m:mfrac><m:mo>=</m:mo><m:mn>2</m:mn></m:mrow></m:math> for <m:math><m:mrow><m:mi>s</m:mi><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167835380032">
+<problem id="fs-id1167832041363">
+<para id="fs-id1167832041365"><m:math><m:mrow><m:mfrac><m:mn>2</m:mn><m:mi>v</m:mi></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>5</m:mn></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mn>3</m:mn><m:mi>w</m:mi></m:mfrac></m:mrow></m:math> for <m:math><m:mrow><m:mi>w</m:mi><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167834473638">
+<para id="fs-id1167834473640"><m:math><m:mrow><m:mi>w</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>15</m:mn><m:mi>v</m:mi></m:mrow><m:mrow><m:mn>10</m:mn><m:mo>+</m:mo><m:mi>v</m:mi></m:mrow></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167835347802">
+<problem id="fs-id1167830838410">
+<para id="fs-id1167830838412"><m:math><m:mrow><m:mfrac><m:mn>6</m:mn><m:mi>x</m:mi></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>2</m:mn><m:mn>3</m:mn></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mi>y</m:mi></m:mfrac></m:mrow></m:math> for <m:math><m:mrow><m:mi>y</m:mi><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167834539307">
+<problem id="fs-id1167834539309">
+<para id="fs-id1167834539311"><m:math><m:mrow><m:mfrac><m:mrow><m:mi>m</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow><m:mrow><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mn>4</m:mn><m:mn>5</m:mn></m:mfrac></m:mrow></m:math> for <m:math><m:mrow><m:mi>n</m:mi><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167826977638">
+<para id="fs-id1167826977640"><m:math><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>5</m:mn><m:mi>m</m:mi><m:mo>+</m:mo><m:mn>23</m:mn></m:mrow><m:mn>4</m:mn></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167831912314">
+<problem id="fs-id1167831912316">
+<para id="fs-id1167834191152"><m:math><m:mrow><m:mi>r</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>s</m:mi><m:mrow><m:mn>3</m:mn><m:mo>−</m:mo><m:mi>t</m:mi></m:mrow></m:mfrac></m:mrow></m:math> for <m:math><m:mrow><m:mi>t</m:mi><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167831846917">
+<problem id="fs-id1167831846919">
+<para id="fs-id1167835519767"><m:math><m:mrow><m:mfrac><m:mi>E</m:mi><m:mi>c</m:mi></m:mfrac><m:mo>=</m:mo><m:msup><m:mi>m</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math> for <m:math><m:mrow><m:mi>c</m:mi><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167832152860">
+<para id="fs-id1167832152862"><m:math><m:mrow><m:mi>c</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>E</m:mi><m:mrow><m:msup><m:mi>m</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167834184720">
+<problem id="fs-id1167834184722">
+<para id="fs-id1167834146999"><m:math><m:mrow><m:mfrac><m:mi>R</m:mi><m:mi>T</m:mi></m:mfrac><m:mo>=</m:mo><m:mi>W</m:mi></m:mrow></m:math> for <m:math><m:mrow><m:mi>T</m:mi><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167835321864">
+<problem id="fs-id1167835321866">
+<para id="fs-id1167834587420"><m:math><m:mrow><m:mfrac><m:mn>3</m:mn><m:mi>x</m:mi></m:mfrac><m:mo>−</m:mo><m:mfrac><m:mn>5</m:mn><m:mi>y</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>4</m:mn></m:mfrac></m:mrow></m:math> for <m:math><m:mrow><m:mi>y</m:mi><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167835319640">
+<para id="fs-id1167835319643"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>20</m:mn><m:mi>x</m:mi></m:mrow><m:mrow><m:mn>12</m:mn><m:mo>−</m:mo><m:mi>x</m:mi></m:mrow></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167832057452">
+<problem id="fs-id1167832057454">
+<para id="fs-id1167835258331"><m:math><m:mrow><m:mi>c</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>2</m:mn><m:mi>a</m:mi></m:mfrac><m:mspace width="0.2em"/><m:mo>+</m:mo><m:mfrac><m:mi>b</m:mi><m:mn>5</m:mn></m:mfrac></m:mrow></m:math> for <m:math><m:mrow><m:mi>a</m:mi><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1167834157025" class="writing">
+<title>Writing Exercises</title>
+<exercise id="fs-id1167831921246">
+<problem id="fs-id1167831921248">
+<para id="fs-id1167832060427">Your class mate is having trouble in this section. Write down the steps you would use to explain how to solve a rational equation.</para>
+</problem>
+<solution id="fs-id1167831883616">
+<para id="fs-id1167831883618">Answers will vary.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167834066032">
+<problem id="fs-id1167834066034">
+<para id="fs-id1167834066036">Alek thinks the equation <m:math><m:mrow><m:mfrac><m:mi>y</m:mi><m:mrow><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>6</m:mn></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>72</m:mn></m:mrow><m:mrow><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>36</m:mn></m:mrow></m:mfrac><m:mo>+</m:mo><m:mn>4</m:mn></m:mrow></m:math> has two solutions, <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−6</m:mn></m:mrow></m:math> and <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>4</m:mn><m:mo>.</m:mo></m:mrow></m:math> Explain why Alek is wrong.</para>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1167832053662"><title>Self Check</title><para id="fs-id1167835330833"><span class="token">ⓐ</span> After completing the exercises, use this checklist to evaluate your mastery of the objectives of this section.</para>
+<media id="fs-id1167834061744" alt="This table has four columns and four rows. The first row is a header and it labels each column, “I can…”, “Confidently,” “With some help,” and “No-I don’t get it!” In row 2, the I can was solve rational equations. In row 3, the I can was solve rational equations involving functions. In row 4, the I can was solve rational equations for a specific variable.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_07_04_201_img_new.jpg"/>
+</media>
+<para id="fs-id1167834094796"><span class="token">ⓑ</span> On a scale of <m:math><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:mn>10</m:mn><m:mo>,</m:mo></m:mrow></m:math> how would you rate your mastery of this section in light of your responses on the checklist? How can you improve this?</para>
+</section></section>
+</content>
+<glossary>
+<definition id="fs-id1167832068260"><term>extraneous solution to a rational equation</term><meaning id="fs-id1167832068263">An extraneous solution to a rational equation is an algebraic solution that would cause any of the expressions in the original equation to be undefined.</meaning>
+</definition>
+<definition id="fs-id1167835342941"><term>rational equation</term><meaning id="fs-id1167835342944">A rational equation is an equation that contains a rational expression.</meaning>
+</definition>
+</glossary>
+</document>

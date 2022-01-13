@@ -1,0 +1,1677 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+<title>Find Multiples and Factors</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m53009</md:content-id>
+  <md:title>Find Multiples and Factors</md:title>
+  <md:abstract>By the end of this section, you will be able to:
+<list>
+<item>Identify multiples of numbers</item>
+<item>Use common divisibility tests</item>
+<item>Find all the factors of a number</item>
+<item>Identify prime and composite numbers</item>
+</list></md:abstract>
+  <md:uuid>3632bfb6-e470-4a0c-934e-5f0c5c76931b</md:uuid>
+</metadata>
+
+<content>
+<note id="fs-id1301324" class="be-prepared">
+<para id="fs-id3407322">Before you get started, take this readiness quiz.</para>
+<list id="fs-id1171103933142" list-type="enumerated" number-style="arabic"><item>Which of the following numbers are counting numbers (natural numbers)?<newline/>
+<m:math><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>4</m:mn><m:mo>,</m:mo><m:mn>215</m:mn></m:mrow></m:math><newline/>If you missed this problem, review <link target-id="fs-id1262372" document="m52990"/>.</item>
+<item>Find the sum of <m:math><m:mrow><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>5</m:mn><m:mo>,</m:mo></m:mrow></m:math> and <m:math><m:mrow><m:mn>7</m:mn><m:mo>.</m:mo></m:mrow></m:math><newline/>If you missed the problem, review <link target-id="fs-id4121509" document="m53002"/>.</item>
+</list></note>
+<section id="fs-id2654602"><title>Identify Multiples of Numbers</title><para id="fs-id1531302">Annie is counting the shoes in her closet. The shoes are matched in pairs, so she doesn’t have to count each one. She counts by twos: <m:math><m:mrow><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>4</m:mn><m:mo>,</m:mo><m:mn>6</m:mn><m:mo>,</m:mo><m:mn>8</m:mn><m:mo>,</m:mo><m:mn>10</m:mn><m:mo>,</m:mo><m:mn>12</m:mn><m:mo>.</m:mo></m:mrow></m:math> She has <m:math><m:mrow><m:mn>12</m:mn></m:mrow></m:math> shoes in her closet.</para>
+<para id="fs-id2398906">The numbers <m:math><m:mrow><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>4</m:mn><m:mo>,</m:mo><m:mn>6</m:mn><m:mo>,</m:mo><m:mn>8</m:mn><m:mo>,</m:mo><m:mn>10</m:mn><m:mo>,</m:mo><m:mn>12</m:mn></m:mrow></m:math> are called multiples of <m:math><m:mrow><m:mn>2</m:mn><m:mo>.</m:mo></m:mrow></m:math> Multiples of <m:math><m:mrow><m:mn>2</m:mn></m:mrow></m:math> can be written as the product of a counting number and <m:math><m:mrow><m:mn>2</m:mn><m:mo>.</m:mo></m:mrow></m:math> The first six multiples of <m:math><m:mrow><m:mn>2</m:mn></m:mrow></m:math> are given below.</para>
+<equation id="fs-id1257309" class="unnumbered"><label/><m:math><m:mrow><m:mtable columnalign="left"><m:mtr><m:mtd><m:mn>1</m:mn><m:mo>⋅</m:mo><m:mn>2</m:mn><m:mo>=</m:mo><m:mn>2</m:mn></m:mtd></m:mtr><m:mtr><m:mtd><m:mn>2</m:mn><m:mo>⋅</m:mo><m:mn>2</m:mn><m:mo>=</m:mo><m:mn>4</m:mn></m:mtd></m:mtr><m:mtr><m:mtd><m:mn>3</m:mn><m:mo>⋅</m:mo><m:mn>2</m:mn><m:mo>=</m:mo><m:mn>6</m:mn></m:mtd></m:mtr><m:mtr><m:mtd><m:mn>4</m:mn><m:mo>⋅</m:mo><m:mn>2</m:mn><m:mo>=</m:mo><m:mn>8</m:mn></m:mtd></m:mtr><m:mtr><m:mtd><m:mn>5</m:mn><m:mo>⋅</m:mo><m:mn>2</m:mn><m:mo>=</m:mo><m:mn>10</m:mn></m:mtd></m:mtr><m:mtr><m:mtd><m:mn>6</m:mn><m:mo>⋅</m:mo><m:mn>2</m:mn><m:mo>=</m:mo><m:mn>12</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:math></equation>
+<para id="fs-id1932440">A <term>multiple of a number</term> is the product of the number and a counting number. So a multiple of <m:math><m:mrow><m:mn>3</m:mn></m:mrow></m:math> would be the product of a counting number and <m:math><m:mrow><m:mn>3</m:mn><m:mo>.</m:mo></m:mrow></m:math> Below are the first six multiples of <m:math><m:mrow><m:mn>3</m:mn><m:mo>.</m:mo></m:mrow></m:math></para><equation id="fs-id2218997" class="unnumbered"><label/><m:math><m:mrow><m:mtable columnalign="left"><m:mtr><m:mtd><m:mn>1</m:mn><m:mo>⋅</m:mo><m:mn>3</m:mn><m:mo>=</m:mo><m:mn>3</m:mn></m:mtd></m:mtr><m:mtr><m:mtd><m:mn>2</m:mn><m:mo>⋅</m:mo><m:mn>3</m:mn><m:mo>=</m:mo><m:mn>6</m:mn></m:mtd></m:mtr><m:mtr><m:mtd><m:mn>3</m:mn><m:mo>⋅</m:mo><m:mn>3</m:mn><m:mo>=</m:mo><m:mn>9</m:mn></m:mtd></m:mtr><m:mtr><m:mtd><m:mn>4</m:mn><m:mo>⋅</m:mo><m:mn>3</m:mn><m:mo>=</m:mo><m:mn>12</m:mn></m:mtd></m:mtr><m:mtr><m:mtd><m:mn>5</m:mn><m:mo>⋅</m:mo><m:mn>3</m:mn><m:mo>=</m:mo><m:mn>15</m:mn></m:mtd></m:mtr><m:mtr><m:mtd><m:mn>6</m:mn><m:mo>⋅</m:mo><m:mn>3</m:mn><m:mo>=</m:mo><m:mn>18</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:math></equation>
+<para id="fs-id1409054">We can find the multiples of any number by continuing this process. <link target-id="fs-id1946698"/> shows the multiples of <m:math><m:mrow><m:mn>2</m:mn></m:mrow></m:math> through <m:math><m:mrow><m:mn>9</m:mn></m:mrow></m:math> for the first twelve counting numbers.</para>
+<table id="fs-id1946698" summary="The table has nine rows and thirteen columns. The first row is a header row. The first row, first column labels the first row as the counting numbers. The remaining columns are labeled 1 through 12. Starting in the second row, the first column list the categories: “Multiples of 2”,  “Multiples of 3”,  “Multiples of 4”, “Multiples of 5”,  “Multiples of 6”,  “Multiples of 7”, “Multiples of 8”, and  “Multiples of 9”. Under the “1” column are the values: 1, 2, 3, 4, 5, 6, 7, 8, and 9. Under the “2” column are the values: 4, 6, 8, 10, 12, 14, 16, and 18. Under the “3”column are the values: 3, 6, 9, 12, 15, 18, 24, and 27. Under the “4” column are the values: 8, 12, 16, 20, 24, 28, 32, and 36. Under the “5” column are the values: 10, 15, 20, 25, 30, 35, 40,  and 45. Under the “6” column are the values: 12, 18, 24, 30, 36, 42, 48, and 54. Under the “7” column are the values: 14, 21, 28, 35, 42, 49, 56, and 63. Under the “8” column are the values: 16, 24, 32, 40, 48, 56, 64, and 72. Under the “9” column are the values: 18, 27, 36, 45, 54, 63, 72, and 81. Under the “10” column are the values: 20, 30, 40, 50, 60, 70, 80, and 90. Under the “11” column are the values: 22, 33, 44, 55, 66, 77, 88, and 99. Under the “12” column are the values: 24, 36, 48, 60, 72, 84, 96, and 108.">
+<tgroup cols="13">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<colspec colnum="4" colname="c4"/>
+<colspec colnum="5" colname="c5"/>
+<colspec colnum="6" colname="c6"/>
+<colspec colnum="7" colname="c7"/>
+<colspec colnum="8" colname="c8"/>
+<colspec colnum="9" colname="c9"/>
+<colspec colnum="10" colname="c10"/>
+<colspec colnum="11" colname="c11"/>
+<colspec colnum="12" colname="c12"/>
+<colspec colnum="13" colname="c13"/>
+<thead>
+<row valign="top">
+<entry align="left"><emphasis effect="bold">Counting Number</emphasis></entry>
+<entry align="center"><m:math><m:mrow><m:mstyle fontweight="bold"><m:mn>1</m:mn></m:mstyle></m:mrow></m:math></entry>
+<entry align="center"><m:math><m:mrow><m:mstyle fontweight="bold"><m:mn>2</m:mn></m:mstyle></m:mrow></m:math></entry>
+<entry align="center"><m:math><m:mrow><m:mstyle fontweight="bold"><m:mn>3</m:mn></m:mstyle></m:mrow></m:math></entry>
+<entry align="center"><m:math><m:mrow><m:mstyle fontweight="bold"><m:mn>4</m:mn></m:mstyle></m:mrow></m:math></entry>
+<entry align="center"><m:math><m:mrow><m:mstyle fontweight="bold"><m:mn>5</m:mn></m:mstyle></m:mrow></m:math></entry>
+<entry align="center"><m:math><m:mrow><m:mstyle fontweight="bold"><m:mn>6</m:mn></m:mstyle></m:mrow></m:math></entry>
+<entry align="center"><m:math><m:mrow><m:mstyle fontweight="bold"><m:mn>7</m:mn></m:mstyle></m:mrow></m:math></entry>
+<entry align="center"><m:math><m:mrow><m:mstyle fontweight="bold"><m:mn>8</m:mn></m:mstyle></m:mrow></m:math></entry>
+<entry align="center"><m:math><m:mrow><m:mstyle fontweight="bold"><m:mn>9</m:mn></m:mstyle></m:mrow></m:math></entry>
+<entry align="center"><m:math><m:mrow><m:mstyle fontweight="bold"><m:mn>10</m:mn></m:mstyle></m:mrow></m:math></entry>
+<entry align="center"><m:math><m:mrow><m:mstyle fontweight="bold"><m:mn>11</m:mn></m:mstyle></m:mrow></m:math></entry>
+<entry align="center"><m:math><m:mrow><m:mstyle fontweight="bold"><m:mn>12</m:mn></m:mstyle></m:mrow></m:math></entry>
+</row>
+</thead>
+<tbody>
+<row valign="top">
+<entry align="left"><m:math><m:mrow><m:mtext>Multiples of</m:mtext><m:mspace width="0.2em"/><m:mn>2</m:mn></m:mrow></m:math></entry>
+<entry align="center"><m:math><m:mrow><m:mn>2</m:mn></m:mrow></m:math></entry>
+<entry align="center"><m:math><m:mrow><m:mn>4</m:mn></m:mrow></m:math></entry>
+<entry align="center"><m:math><m:mrow><m:mn>6</m:mn></m:mrow></m:math></entry>
+<entry align="center"><m:math><m:mrow><m:mn>8</m:mn></m:mrow></m:math></entry>
+<entry align="center"><m:math><m:mrow><m:mn>10</m:mn></m:mrow></m:math></entry>
+<entry align="center"><m:math><m:mrow><m:mn>12</m:mn></m:mrow></m:math></entry>
+<entry align="center"><m:math><m:mrow><m:mn>14</m:mn></m:mrow></m:math></entry>
+<entry align="center"><m:math><m:mrow><m:mn>16</m:mn></m:mrow></m:math></entry>
+<entry align="center"><m:math><m:mrow><m:mn>18</m:mn></m:mrow></m:math></entry>
+<entry align="center"><m:math><m:mrow><m:mn>20</m:mn></m:mrow></m:math></entry>
+<entry align="center"><m:math><m:mrow><m:mn>22</m:mn></m:mrow></m:math></entry>
+<entry align="center"><m:math><m:mrow><m:mn>24</m:mn></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry align="left"><m:math><m:mrow><m:mtext>Multiples of</m:mtext><m:mspace width="0.2em"/><m:mn>3</m:mn></m:mrow></m:math></entry>
+<entry align="center"><m:math><m:mrow><m:mn>3</m:mn></m:mrow></m:math></entry>
+<entry align="center"><m:math><m:mrow><m:mn>6</m:mn></m:mrow></m:math></entry>
+<entry align="center"><m:math><m:mrow><m:mn>9</m:mn></m:mrow></m:math></entry>
+<entry align="center"><m:math><m:mrow><m:mn>12</m:mn></m:mrow></m:math></entry>
+<entry align="center"><m:math><m:mrow><m:mn>15</m:mn></m:mrow></m:math></entry>
+<entry align="center"><m:math><m:mrow><m:mn>18</m:mn></m:mrow></m:math></entry>
+<entry align="center"><m:math><m:mrow><m:mn>21</m:mn></m:mrow></m:math></entry>
+<entry align="center"><m:math><m:mrow><m:mn>24</m:mn></m:mrow></m:math></entry>
+<entry align="center"><m:math><m:mrow><m:mn>27</m:mn></m:mrow></m:math></entry>
+<entry align="center"><m:math><m:mrow><m:mn>30</m:mn></m:mrow></m:math></entry>
+<entry align="center"><m:math><m:mrow><m:mn>33</m:mn></m:mrow></m:math></entry>
+<entry align="center"><m:math><m:mrow><m:mn>36</m:mn></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry align="left"><m:math><m:mrow><m:mtext>Multiples of</m:mtext><m:mspace width="0.2em"/><m:mn>4</m:mn></m:mrow></m:math></entry>
+<entry align="center"><m:math><m:mrow><m:mn>4</m:mn></m:mrow></m:math></entry>
+<entry align="center"><m:math><m:mrow><m:mn>8</m:mn></m:mrow></m:math></entry>
+<entry align="center"><m:math><m:mrow><m:mn>12</m:mn></m:mrow></m:math></entry>
+<entry align="center"><m:math><m:mrow><m:mn>16</m:mn></m:mrow></m:math></entry>
+<entry align="center"><m:math><m:mrow><m:mn>20</m:mn></m:mrow></m:math></entry>
+<entry align="center"><m:math><m:mrow><m:mn>24</m:mn></m:mrow></m:math></entry>
+<entry align="center"><m:math><m:mrow><m:mn>28</m:mn></m:mrow></m:math></entry>
+<entry align="center"><m:math><m:mrow><m:mn>32</m:mn></m:mrow></m:math></entry>
+<entry align="center"><m:math><m:mrow><m:mn>36</m:mn></m:mrow></m:math></entry>
+<entry align="center"><m:math><m:mrow><m:mn>40</m:mn></m:mrow></m:math></entry>
+<entry align="center"><m:math><m:mrow><m:mn>44</m:mn></m:mrow></m:math></entry>
+<entry align="center"><m:math><m:mrow><m:mn>48</m:mn></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry align="left"><m:math><m:mrow><m:mtext>Multiples of</m:mtext><m:mspace width="0.2em"/><m:mn>5</m:mn></m:mrow></m:math></entry>
+<entry align="center"><m:math><m:mrow><m:mn>5</m:mn></m:mrow></m:math></entry>
+<entry align="center"><m:math><m:mrow><m:mn>10</m:mn></m:mrow></m:math></entry>
+<entry align="center"><m:math><m:mrow><m:mn>15</m:mn></m:mrow></m:math></entry>
+<entry align="center"><m:math><m:mrow><m:mn>20</m:mn></m:mrow></m:math></entry>
+<entry align="center"><m:math><m:mrow><m:mn>25</m:mn></m:mrow></m:math></entry>
+<entry align="center"><m:math><m:mrow><m:mn>30</m:mn></m:mrow></m:math></entry>
+<entry align="center"><m:math><m:mrow><m:mn>35</m:mn></m:mrow></m:math></entry>
+<entry align="center"><m:math><m:mrow><m:mn>40</m:mn></m:mrow></m:math></entry>
+<entry align="center"><m:math><m:mrow><m:mn>45</m:mn></m:mrow></m:math></entry>
+<entry align="center"><m:math><m:mrow><m:mn>50</m:mn></m:mrow></m:math></entry>
+<entry align="center"><m:math><m:mrow><m:mn>55</m:mn></m:mrow></m:math></entry>
+<entry align="center"><m:math><m:mrow><m:mn>60</m:mn></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry align="left"><m:math><m:mrow><m:mtext>Multiples of</m:mtext><m:mspace width="0.2em"/><m:mn>6</m:mn></m:mrow></m:math></entry>
+<entry align="center"><m:math><m:mrow><m:mn>6</m:mn></m:mrow></m:math></entry>
+<entry align="center"><m:math><m:mrow><m:mn>12</m:mn></m:mrow></m:math></entry>
+<entry align="center"><m:math><m:mrow><m:mn>18</m:mn></m:mrow></m:math></entry>
+<entry align="center"><m:math><m:mrow><m:mn>24</m:mn></m:mrow></m:math></entry>
+<entry align="center"><m:math><m:mrow><m:mn>30</m:mn></m:mrow></m:math></entry>
+<entry align="center"><m:math><m:mrow><m:mn>36</m:mn></m:mrow></m:math></entry>
+<entry align="center"><m:math><m:mrow><m:mn>42</m:mn></m:mrow></m:math></entry>
+<entry align="center"><m:math><m:mrow><m:mn>48</m:mn></m:mrow></m:math></entry>
+<entry align="center"><m:math><m:mrow><m:mn>54</m:mn></m:mrow></m:math></entry>
+<entry align="center"><m:math><m:mrow><m:mn>60</m:mn></m:mrow></m:math></entry>
+<entry align="center"><m:math><m:mrow><m:mn>66</m:mn></m:mrow></m:math></entry>
+<entry align="center"><m:math><m:mrow><m:mn>72</m:mn></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry align="left"><m:math><m:mrow><m:mtext>Multiples of</m:mtext><m:mspace width="0.2em"/><m:mn>7</m:mn></m:mrow></m:math></entry>
+<entry align="center"><m:math><m:mrow><m:mn>7</m:mn></m:mrow></m:math></entry>
+<entry align="center"><m:math><m:mrow><m:mn>14</m:mn></m:mrow></m:math></entry>
+<entry align="center"><m:math><m:mrow><m:mn>21</m:mn></m:mrow></m:math></entry>
+<entry align="center"><m:math><m:mrow><m:mn>28</m:mn></m:mrow></m:math></entry>
+<entry align="center"><m:math><m:mrow><m:mn>35</m:mn></m:mrow></m:math></entry>
+<entry align="center"><m:math><m:mrow><m:mn>42</m:mn></m:mrow></m:math></entry>
+<entry align="center"><m:math><m:mrow><m:mn>49</m:mn></m:mrow></m:math></entry>
+<entry align="center"><m:math><m:mrow><m:mn>56</m:mn></m:mrow></m:math></entry>
+<entry align="center"><m:math><m:mrow><m:mn>63</m:mn></m:mrow></m:math></entry>
+<entry align="center"><m:math><m:mrow><m:mn>70</m:mn></m:mrow></m:math></entry>
+<entry align="center"><m:math><m:mrow><m:mn>77</m:mn></m:mrow></m:math></entry>
+<entry align="center"><m:math><m:mrow><m:mn>84</m:mn></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry align="left"><m:math><m:mrow><m:mtext>Multiples of</m:mtext><m:mspace width="0.2em"/><m:mn>8</m:mn></m:mrow></m:math></entry>
+<entry align="center"><m:math><m:mrow><m:mn>8</m:mn></m:mrow></m:math></entry>
+<entry align="center"><m:math><m:mrow><m:mn>16</m:mn></m:mrow></m:math></entry>
+<entry align="center"><m:math><m:mrow><m:mn>24</m:mn></m:mrow></m:math></entry>
+<entry align="center"><m:math><m:mrow><m:mn>32</m:mn></m:mrow></m:math></entry>
+<entry align="center"><m:math><m:mrow><m:mn>40</m:mn></m:mrow></m:math></entry>
+<entry align="center"><m:math><m:mrow><m:mn>48</m:mn></m:mrow></m:math></entry>
+<entry align="center"><m:math><m:mrow><m:mn>56</m:mn></m:mrow></m:math></entry>
+<entry align="center"><m:math><m:mrow><m:mn>64</m:mn></m:mrow></m:math></entry>
+<entry align="center"><m:math><m:mrow><m:mn>72</m:mn></m:mrow></m:math></entry>
+<entry align="center"><m:math><m:mrow><m:mn>80</m:mn></m:mrow></m:math></entry>
+<entry align="center"><m:math><m:mrow><m:mn>88</m:mn></m:mrow></m:math></entry>
+<entry align="center"><m:math><m:mrow><m:mn>96</m:mn></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry align="left"><m:math><m:mrow><m:mtext>Multiples of</m:mtext><m:mspace width="0.2em"/><m:mn>9</m:mn></m:mrow></m:math></entry>
+<entry align="center"><m:math><m:mrow><m:mn>9</m:mn></m:mrow></m:math></entry>
+<entry align="center"><m:math><m:mrow><m:mn>18</m:mn></m:mrow></m:math></entry>
+<entry align="center"><m:math><m:mrow><m:mn>27</m:mn></m:mrow></m:math></entry>
+<entry align="center"><m:math><m:mrow><m:mn>36</m:mn></m:mrow></m:math></entry>
+<entry align="center"><m:math><m:mrow><m:mn>45</m:mn></m:mrow></m:math></entry>
+<entry align="center"><m:math><m:mrow><m:mn>54</m:mn></m:mrow></m:math></entry>
+<entry align="center"><m:math><m:mrow><m:mn>63</m:mn></m:mrow></m:math></entry>
+<entry align="center"><m:math><m:mrow><m:mn>72</m:mn></m:mrow></m:math></entry>
+<entry align="center"><m:math><m:mrow><m:mn>81</m:mn></m:mrow></m:math></entry>
+<entry align="center"><m:math><m:mrow><m:mn>90</m:mn></m:mrow></m:math></entry>
+<entry align="center"><m:math><m:mrow><m:mn>99</m:mn></m:mrow></m:math></entry>
+<entry align="center"><m:math><m:mrow><m:mn>108</m:mn></m:mrow></m:math></entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<note id="fs-id2199259">
+<title>Multiple of a Number</title>
+<para id="fs-id2751305">A number is a <term class="no-emphasis">multiple</term> of <m:math><m:mrow><m:mi>n</m:mi></m:mrow></m:math> if it is the product of a counting number and <m:math><m:mrow><m:mi>n</m:mi><m:mo>.</m:mo></m:mrow></m:math></para>
+</note>
+<para id="fs-id1150171">Recognizing the patterns for multiples of <m:math><m:mrow><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>5</m:mn><m:mo>,</m:mo><m:mn>10</m:mn><m:mo>,</m:mo><m:mtext>and</m:mtext><m:mspace width="0.2em"/><m:mn>3</m:mn></m:mrow></m:math> will be helpful to you as you continue in this course.</para>
+<note id="fs-id1171104053598" class="manipulative-math">Doing the Manipulative Mathematics activity “Multiples” will help you develop a better understanding of multiples.</note>
+<para id="fs-id1733229"><link target-id="CNX_BMath_Figure_02_04_001"/> shows the counting numbers from <m:math><m:mrow><m:mn>1</m:mn></m:mrow></m:math> to <m:math><m:mrow><m:mn>50</m:mn><m:mo>.</m:mo></m:mrow></m:math> Multiples of <m:math><m:mrow><m:mn>2</m:mn></m:mrow></m:math> are highlighted. Do you notice a pattern?</para>
+<figure id="CNX_BMath_Figure_02_04_001">
+<media id="fs-id1949566" alt="The image shows a chart with five rows and ten columns. The first row lists the numbers from 1 to 10. The second row lists the numbers from 11 to 20. The third row lists the numbers from 21 to 30. The fourth row lists the numbers from 31 and 40. The fifth row lists the numbers from 41 to 50. All factors of 2 are highlighted in blue.">
+<image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_02_04_001.jpg"/>
+</media>
+<caption>Multiples of <m:math><m:mrow><m:mn>2</m:mn></m:mrow></m:math> between <m:math><m:mrow><m:mn>1</m:mn></m:mrow></m:math> and <m:math><m:mrow><m:mn>50</m:mn></m:mrow></m:math></caption>
+</figure>
+<para id="fs-id2297954">The last digit of each highlighted number in <link target-id="CNX_BMath_Figure_02_04_001"/> is either <m:math><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>4</m:mn><m:mo>,</m:mo><m:mn>6</m:mn><m:mo>,</m:mo><m:mtext>or</m:mtext><m:mspace width="0.2em"/><m:mn>8</m:mn><m:mo>.</m:mo></m:mrow></m:math> This is true for the product of <m:math><m:mrow><m:mn>2</m:mn></m:mrow></m:math> and any counting number. So, to tell if any number is a multiple of <m:math><m:mrow><m:mn>2</m:mn></m:mrow></m:math> look at the last digit. If it is <m:math><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>4</m:mn><m:mo>,</m:mo><m:mn>6</m:mn><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mstyle fontstyle="italic"><m:mtext>or</m:mtext></m:mstyle><m:mspace width="0.2em"/><m:mn>8</m:mn><m:mo>,</m:mo></m:mrow></m:math> then the number is a multiple of <m:math><m:mrow><m:mn>2</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+<example id="fs-id1933504">
+<exercise id="fs-id2195600"><problem id="fs-id1336719">
+<para id="fs-id3301368">Determine whether each of the following is a multiple of <m:math><m:mn>2</m:mn><m:mtext>:</m:mtext></m:math>
+<list id="eip-id1168469470854" list-type="enumerated" number-style="arabic" class="circled"><item>
+<span class="token">ⓐ</span><m:math><m:mspace width="0.2em"/><m:mn>489</m:mn><m:mspace width="0.2em"/></m:math>
+</item>
+<item>
+<span class="token">ⓑ</span>
+<m:math><m:mspace width="0.2em"/><m:mn>3,714</m:mn></m:math>
+</item>
+</list></para></problem>
+<solution id="fs-id1283777">
+<title>Solution</title>
+<table id="eip-id1168468413253" class="unnumbered unstyled" summary=".">
+<label/><tgroup cols="2">
+ <tbody>
+  <row>
+    <entry><span class="token">ⓐ</span> </entry>
+    <entry/>
+  </row>
+  <row>
+    <entry>Is 489 a multiple of 2?</entry>
+    <entry/>
+  </row>
+  <row> 
+    <entry>Is the last digit 0, 2, 4, 6, or 8?</entry>
+    <entry>No.</entry>
+  </row>
+  <row>
+    <entry/>
+    <entry>489 is not a multiple of 2.</entry>
+  </row>
+</tbody>
+
+</tgroup>
+</table>
+
+<table id="eip-id1168469557564" class="unnumbered unstyled" summary="."><label/>
+<tgroup cols="2"><tbody>
+  <row>
+    <entry><span class="token">ⓑ</span> </entry>
+    <entry/>
+  </row>
+  <row>
+    <entry>Is 3,714 a multiple of 2?</entry>
+    <entry/>
+  </row>
+  <row> 
+    <entry>Is the last digit 0, 2, 4, 6, or 8?</entry>
+    <entry>Yes.</entry>
+  </row>
+  <row>
+    <entry/>
+    <entry>3,714 is a multiple of 2.</entry>
+  </row>
+</tbody>
+
+
+</tgroup>
+</table></solution>
+</exercise></example>
+<note id="fs-id2200549" class="try">
+<exercise id="fs-id2296262">
+<problem id="fs-id1510145">
+<para id="fs-id1337332">Determine whether each number is a multiple of <m:math><m:mrow><m:mn>2</m:mn><m:mtext>:</m:mtext></m:mrow></m:math></para>
+<para id="fs-id4121581"><list id="eip-id1168468261793" list-type="enumerated" number-style="arabic" class="circled"><item>
+<span class="token">ⓐ</span>
+<m:math><m:mspace width="0.2em"/><m:mn>678</m:mn><m:mspace width="0.2em"/></m:math></item>
+<item>
+<span class="token">ⓑ</span>
+<m:math><m:mspace width="0.2em"/><m:mn>21,493</m:mn></m:math></item>
+</list></para></problem>
+<solution id="fs-id1392853">
+<para id="fs-id2200506"><list id="eip-id1168467492717" list-type="enumerated" number-style="arabic" class="circled"><item>
+<span class="token">ⓐ</span> yes 
+</item>
+<item>
+<span class="token">ⓑ</span> no
+</item>
+</list></para></solution>
+</exercise>
+</note>
+<note id="fs-id1171104409404" class="try">
+<exercise id="fs-id2646813">
+<problem id="fs-id2164034">
+<para id="fs-id1171104020017">Determine whether each number is a multiple of <m:math><m:mrow><m:mn>2</m:mn><m:mtext>:</m:mtext></m:mrow></m:math></para>
+<para id="fs-id998472"><list id="eip-id1168466659034" list-type="enumerated" number-style="arabic" class="circled"><item>
+<span class="token">ⓐ</span>
+<m:math><m:mspace width="0.2em"/><m:mn>979</m:mn><m:mspace width="0.2em"/>
+</m:math></item>
+<item>
+<span class="token">ⓑ</span>
+<m:math><m:mspace width="0.2em"/><m:mn>17,780</m:mn></m:math></item>
+</list></para></problem>
+<solution id="fs-id556042">
+<para id="fs-id1969783"><list id="eip-id1168466488927" list-type="enumerated" number-style="arabic" class="circled"><item>
+<span class="token">ⓐ</span> no 
+</item>
+<item>
+<span class="token">ⓑ</span> yes
+</item>
+</list></para></solution>
+</exercise>
+</note>
+<para id="fs-id4338408">Now let’s look at multiples of <m:math><m:mrow><m:mstyle fontweight="bold"><m:mn>5</m:mn></m:mstyle><m:mo>.</m:mo></m:mrow></m:math> <link target-id="CNX_BMath_Figure_02_04_002"/> highlights all of the multiples of <m:math><m:mrow><m:mstyle fontweight="bold"><m:mn>5</m:mn></m:mstyle></m:mrow></m:math> between <m:math><m:mrow><m:mstyle fontweight="bold"><m:mn>1</m:mn></m:mstyle></m:mrow></m:math> and <m:math><m:mrow><m:mstyle fontweight="bold"><m:mn>50</m:mn></m:mstyle><m:mo>.</m:mo></m:mrow></m:math> What do you notice about the multiples of <m:math><m:mrow><m:mstyle fontweight="bold"><m:mn>5</m:mn></m:mstyle><m:mo>?</m:mo></m:mrow></m:math></para>
+<figure id="CNX_BMath_Figure_02_04_002">
+<media id="fs-id1379128" alt="The image shows a chart with five rows and ten columns. The first row lists the numbers from 1 to 10. The second row lists the numbers from 11 to 20. The third row lists the numbers from 21 to 30. The fourth row lists the numbers from 31 and 40. The fifth row lists the numbers from 41 to 50. All factors of 5 are highlighted in blue.">
+<image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_02_04_002.jpg"/>
+</media>
+<caption>Multiples of <m:math><m:mrow><m:mn>5</m:mn></m:mrow></m:math> between <m:math><m:mrow><m:mn>1</m:mn></m:mrow></m:math> and <m:math><m:mrow><m:mn>50</m:mn></m:mrow></m:math></caption>
+</figure>
+<para id="fs-id1966999">All multiples of <m:math><m:mrow><m:mn>5</m:mn></m:mrow></m:math> end with either <m:math><m:mrow><m:mn>5</m:mn></m:mrow></m:math> or <m:math><m:mrow><m:mn>0</m:mn><m:mo>.</m:mo></m:mrow></m:math> Just like we identify multiples of <m:math><m:mrow><m:mn>2</m:mn></m:mrow></m:math> by looking at the last digit, we can identify multiples of <m:math><m:mrow><m:mn>5</m:mn></m:mrow></m:math> by looking at the last digit.</para>
+<example id="fs-id1945166"><exercise id="fs-id1402050"><problem id="fs-id1294922">
+<para id="fs-id1859291">Determine whether each of the following is a multiple of <m:math><m:mn>5</m:mn><m:mtext>:</m:mtext><m:mspace width="0.2em"/></m:math>
+<list id="eip-id1168468416906" list-type="enumerated" number-style="arabic" class="circled"><item>
+<span class="token">ⓐ</span>
+<m:math>
+<m:mspace width="0.2em"/><m:mn>579</m:mn><m:mspace width="0.2em"/>
+</m:math></item>
+<item>
+<span class="token">ⓑ</span>
+<m:math>
+<m:mspace width="0.2em"/><m:mn>880</m:mn></m:math></item>
+</list></para></problem>
+<solution id="fs-id1800197">
+<title>Solution</title>
+
+<table id="eip-id1168466183262" class="unnumbered unstyled" summary=".">
+<label/><tgroup cols="2">
+ <tbody>
+  <row>
+    <entry><span class="token">ⓐ</span> </entry>
+    <entry/>
+  </row>
+  <row>
+    <entry>Is 579 a multiple of 5?</entry>
+    <entry/>
+  </row>
+  <row> 
+    <entry>Is the last digit 5 or 0?</entry>
+    <entry>No.</entry>
+  </row>
+  <row>
+    <entry/>
+    <entry>579 is not a multiple of 5.</entry>
+  </row>
+</tbody>
+
+</tgroup>
+</table>
+<table id="eip-id1168469479124" class="unnumbered unstyled" summary=".">
+<label/><tgroup cols="2">
+ <tbody>
+  <row>
+    <entry><span class="token">ⓑ</span> </entry>
+    <entry/>
+  </row>
+  <row>
+    <entry>Is 880 a multiple of 5?</entry>
+    <entry/>
+  </row>
+  <row> 
+    <entry>Is the last digit 5 or 0?</entry>
+    <entry>Yes.</entry>
+  </row>
+  <row>
+    <entry/>
+    <entry>880 is a multiple of 5.</entry>
+  </row>
+</tbody>
+
+</tgroup>
+</table>
+</solution>
+</exercise></example><note id="fs-id1611836" class="try">
+<exercise id="fs-id2129414">
+<problem id="fs-id1722832">
+<para id="fs-id1559185">Determine whether each number is a multiple of <m:math><m:mrow><m:mn>5</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+<para id="fs-id2223147"><list id="eip-id1168466262646" list-type="enumerated" number-style="arabic" class="circled"><item>
+<span class="token">ⓐ</span>
+<m:math><m:mspace width="0.2em"/><m:mn>675</m:mn><m:mspace width="0.2em"/></m:math></item>
+<item>
+<span class="token">ⓑ</span>
+<m:math>
+<m:mspace width="0.2em"/><m:mn>1,578</m:mn></m:math></item>
+</list></para></problem>
+<solution id="fs-id1387277">
+<para id="fs-id2620103"><list id="eip-id1168466659025" list-type="enumerated" number-style="arabic" class="circled"><item>
+<span class="token">ⓐ</span> yes 
+</item>
+<item>
+<span class="token">ⓑ</span> no
+</item>
+</list></para></solution>
+</exercise>
+</note>
+<note id="fs-id1171102911564" class="try">
+<exercise id="fs-id2700402">
+<problem id="fs-id2608791">
+<para id="fs-id1171102824262">Determine whether each number is a multiple of <m:math><m:mrow><m:mn>5</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+<para id="fs-id1933951"><list id="eip-id1168469893914" list-type="enumerated" number-style="arabic" class="circled"><item>
+<span class="token">ⓐ</span>
+<m:math><m:mspace width="0.2em"/><m:mn>421</m:mn><m:mspace width="0.2em"/>
+</m:math></item>
+<item>
+<span class="token">ⓑ</span>
+<m:math><m:mspace width="0.2em"/><m:mn>2,690</m:mn></m:math></item>
+</list></para></problem>
+<solution id="fs-id1282864">
+<para id="fs-id2483351"><list id="eip-id1168466334406" list-type="enumerated" number-style="arabic" class="circled"><item>
+<span class="token">ⓐ</span> no 
+</item>
+<item>
+<span class="token">ⓑ</span> yes
+</item>
+</list></para></solution>
+</exercise>
+</note>
+<para id="fs-id1224467"><link target-id="CNX_BMath_Figure_02_04_003"/> highlights the multiples of <m:math><m:mrow><m:mn>10</m:mn></m:mrow></m:math> between <m:math><m:mrow><m:mn>1</m:mn></m:mrow></m:math> and <m:math><m:mrow><m:mn>50</m:mn><m:mo>.</m:mo></m:mrow></m:math> All multiples of <m:math><m:mrow><m:mn>10</m:mn></m:mrow></m:math> all end with a zero.</para>
+<figure id="CNX_BMath_Figure_02_04_003">
+<media id="fs-id2320043" alt="The image shows a chart with five rows and ten columns. The first row lists the numbers from 1 to 10. The second row lists the numbers from 11 to 20. The third row lists the numbers from 21 to 30. The fourth row lists the numbers from 31 and 40. The fifth row lists the numbers from 41 to 50. All factors of 10 are highlighted in blue.">
+<image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_02_04_003.jpg"/>
+</media>
+<caption>Multiples of <m:math><m:mrow><m:mn>10</m:mn></m:mrow></m:math> between <m:math><m:mrow><m:mn>1</m:mn></m:mrow></m:math> and <m:math><m:mrow><m:mn>50</m:mn></m:mrow></m:math></caption>
+</figure>
+<example id="fs-id2581585">
+<exercise id="fs-id1918409"><problem id="fs-id1627894">
+<para id="fs-id1790326">Determine whether each of the following is a multiple of <m:math><m:mn>10</m:mn><m:mtext>:</m:mtext><m:mspace width="0.2em"/></m:math>
+<list id="eip-id1168469873298" list-type="enumerated" number-style="arabic" class="circled"><item>
+<span class="token">ⓐ</span>
+<m:math><m:mspace width="0.2em"/><m:mn>425</m:mn><m:mspace width="0.2em"/></m:math></item>
+<item>
+<span class="token">ⓑ</span>
+<m:math><m:mspace width="0.2em"/><m:mn>350</m:mn></m:math></item>
+</list></para></problem>
+<solution id="fs-id2495896">
+<title>Solution</title>
+
+<table id="eip-id1168466058608" class="unnumbered unstyled" summary="."><label/>
+<tgroup cols="2"><tbody>
+  <row>
+    <entry><span class="token">ⓐ</span> </entry>
+    <entry/>
+  </row>
+  <row>
+    <entry>Is 425 a multiple of 10?</entry>
+    <entry/>
+  </row>
+  <row> 
+    <entry>Is the last digit zero?</entry>
+    <entry>No.</entry>
+  </row>
+  <row>
+    <entry/>
+    <entry>425 is not a multiple of 10.</entry>
+  </row>
+</tbody>
+
+
+
+</tgroup>
+</table>
+<table id="eip-id1168468276774" class="unnumbered unstyled" summary=".">
+<label/><tgroup cols="2">
+ <tbody>
+  <row>
+    <entry><span class="token">ⓑ</span> </entry>
+    <entry/>
+  </row>
+  <row>
+    <entry>Is 350 a multiple of 10?</entry>
+    <entry/>
+  </row>
+  <row> 
+    <entry>Is the last digit zero?</entry>
+    <entry>Yes.</entry>
+  </row>
+  <row>
+    <entry/>
+    <entry>350 is a multiple of 10.</entry>
+  </row>
+</tbody>
+
+</tgroup>
+</table>
+</solution>
+</exercise></example>
+<note id="fs-id1602825" class="try">
+<exercise id="fs-id1313068">
+<problem id="fs-id2219043">
+<para id="fs-id2687482">Determine whether each number is a multiple of <m:math><m:mrow><m:mn>10</m:mn><m:mtext>:</m:mtext></m:mrow></m:math></para>
+<para id="fs-id1714227"><list id="eip-id1168466211343" list-type="enumerated" number-style="arabic" class="circled"><item>
+<span class="token">ⓐ</span>
+<m:math><m:mspace width="0.2em"/><m:mn>179</m:mn><m:mspace width="0.2em"/></m:math></item>
+<item>
+<span class="token">ⓑ</span>
+<m:math><m:mspace width="0.2em"/><m:mn>3,540</m:mn></m:math></item>
+</list></para></problem>
+<solution id="fs-id2472564">
+<para id="fs-id1545128"><list id="eip-id1168466223476" list-type="enumerated" number-style="arabic" class="circled"><item>
+<span class="token">ⓐ</span> no 
+</item>
+<item>
+<span class="token">ⓑ</span> yes
+</item>
+</list></para></solution>
+</exercise>
+</note>
+<note id="fs-id1171104048350" class="try">
+<exercise id="fs-id1693595">
+<problem id="fs-id2136478">
+<para id="fs-id1171102985206">Determine whether each number is a multiple of <m:math><m:mrow><m:mn>10</m:mn><m:mtext>:</m:mtext></m:mrow></m:math></para>
+<para id="fs-id1951300"><list id="eip-id1168467239818" list-type="enumerated" number-style="arabic" class="circled"><item>
+<span class="token">ⓐ</span>
+<m:math><m:mspace width="0.2em"/><m:mn>110</m:mn><m:mspace width="0.2em"/>
+</m:math></item>
+<item>
+<span class="token">ⓑ</span>
+<m:math><m:mspace width="0.2em"/><m:mn>7,595</m:mn></m:math></item>
+</list></para></problem>
+<solution id="fs-id770612">
+<para id="fs-id1325144"><list id="eip-id1168469658335" list-type="enumerated" number-style="arabic" class="circled"><item>
+<span class="token">ⓐ</span> yes 
+</item>
+<item>
+<span class="token">ⓑ</span> no
+</item>
+</list></para></solution>
+</exercise>
+</note>
+<para id="fs-id1257171"><link target-id="CNX_BMath_Figure_02_04_004"/> highlights multiples of <m:math><m:mrow><m:mn>3</m:mn><m:mo>.</m:mo></m:mrow></m:math> The pattern for multiples of <m:math><m:mrow><m:mn>3</m:mn></m:mrow></m:math> is not as obvious as the patterns for multiples of <m:math><m:mrow><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>5</m:mn><m:mo>,</m:mo><m:mtext>and</m:mtext><m:mspace width="0.2em"/><m:mn>10</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+<figure id="CNX_BMath_Figure_02_04_004">
+<media id="fs-id1242400" alt="The image shows a chart with five rows and ten columns. The first row lists the numbers from 1 to 10. The second row lists the numbers from 11 to 20. The third row lists the numbers from 21 to 30. The fourth row lists the numbers from 31 and 40. The fifth row lists the numbers from 41 to 50. All factors of 3 are highlighted in blue.">
+<image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_02_04_004.jpg"/>
+</media>
+<caption>Multiples of <m:math><m:mrow><m:mn>3</m:mn></m:mrow></m:math> between <m:math><m:mrow><m:mn>1</m:mn></m:mrow></m:math> and <m:math><m:mrow><m:mn>50</m:mn></m:mrow></m:math></caption>
+</figure>
+<para id="fs-id2319353">Unlike the other patterns we’ve examined so far, this pattern does not involve the last digit. The pattern for multiples of <m:math><m:mrow><m:mn>3</m:mn></m:mrow></m:math> is based on the sum of the digits. If the sum of the digits of a number is a multiple of <m:math><m:mrow><m:mn>3</m:mn><m:mo>,</m:mo></m:mrow></m:math> then the number itself is a multiple of <m:math><m:mrow><m:mn>3</m:mn><m:mo>.</m:mo></m:mrow></m:math> See <link target-id="fs-id2670625"/>.</para>
+<table id="fs-id2670625" summary="This table has two rows and nine columns. The first column labels the two rows. The first row is “Multiple of 3” and the second row is “Sum of digits.” The second column shows 3 in the first row and 3 in the second row. The third column shows 6 in the first row and 6 in the second row. The fourth column shows 9 in the first row and 9 in the second row. The fifth column shows 12 in the first row and 1 plus 2 is 3 in the second row. The sixth column shows 15 in the first row and 1 plus 5 is 6 in the second row. The seventh column shows 18 in the first row and 1 plus 8 is 9 in the second row. The eighth column shows 21 in the first row and 2 plus 1 is 3 in the second row. The last column shows 24 in the first row and 2 plus 4 is 6 in the second row.">
+<tgroup cols="9">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<colspec colnum="4" colname="c4"/>
+<colspec colnum="5" colname="c5"/>
+<colspec colnum="6" colname="c6"/>
+<colspec colnum="7" colname="c7"/>
+<colspec colnum="8" colname="c8"/>
+<colspec colnum="9" colname="c9"/>
+<tbody>
+<row valign="top">
+<entry align="center"><m:math><m:mrow><m:mtext mathvariant="bold">Multiple of 3</m:mtext></m:mrow></m:math></entry>
+<entry align="left"><m:math><m:mrow><m:mn>3</m:mn></m:mrow></m:math></entry>
+<entry align="left"><m:math><m:mrow><m:mn>6</m:mn></m:mrow></m:math></entry>
+<entry align="left"><m:math><m:mrow><m:mn>9</m:mn></m:mrow></m:math></entry>
+<entry align="left"><m:math><m:mrow><m:mn>12</m:mn></m:mrow></m:math></entry>
+<entry align="left"><m:math><m:mrow><m:mn>15</m:mn></m:mrow></m:math></entry>
+<entry align="left"><m:math><m:mrow><m:mn>18</m:mn></m:mrow></m:math></entry>
+<entry align="left"><m:math><m:mrow><m:mn>21</m:mn></m:mrow></m:math></entry>
+<entry align="left"><m:math><m:mrow><m:mn>24</m:mn></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry align="center"><m:math><m:mrow><m:mtext mathvariant="bold">Sum of digits</m:mtext></m:mrow></m:math></entry>
+<entry align="left"><m:math><m:mrow><m:mn>3</m:mn></m:mrow></m:math></entry>
+<entry align="left"><m:math><m:mrow><m:mn>6</m:mn></m:mrow></m:math></entry>
+<entry align="left"><m:math><m:mrow><m:mn>9</m:mn></m:mrow></m:math></entry>
+<entry align="left"><m:math><m:mrow><m:mtable columnalign="center"><m:mtr columnalign="center"><m:mtd columnalign="center"><m:mn>1</m:mn><m:mo>+</m:mo><m:mn>2</m:mn></m:mtd></m:mtr><m:mtr columnalign="center"><m:mtd columnalign="center"><m:mn>3</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:math></entry>
+<entry align="left"><m:math><m:mrow><m:mtable columnalign="center"><m:mtr columnalign="center"><m:mtd columnalign="center"><m:mn>1</m:mn><m:mo>+</m:mo><m:mn>5</m:mn></m:mtd></m:mtr><m:mtr columnalign="center"><m:mtd columnalign="center"><m:mn>6</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:math></entry>
+<entry align="left"><m:math><m:mrow><m:mtable columnalign="center"><m:mtr columnalign="center"><m:mtd columnalign="center"><m:mn>1</m:mn><m:mo>+</m:mo><m:mn>8</m:mn></m:mtd></m:mtr><m:mtr columnalign="center"><m:mtd columnalign="center"><m:mn>9</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:math></entry>
+<entry align="left"><m:math><m:mrow><m:mtable columnalign="center"><m:mtr columnalign="center"><m:mtd columnalign="center"><m:mn>2</m:mn><m:mo>+</m:mo><m:mn>1</m:mn></m:mtd></m:mtr><m:mtr columnalign="center"><m:mtd columnalign="center"><m:mn>3</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:math></entry>
+<entry align="left"><m:math><m:mrow><m:mtable columnalign="center"><m:mtr columnalign="center"><m:mtd columnalign="center"><m:mn>2</m:mn><m:mo>+</m:mo><m:mn>4</m:mn></m:mtd></m:mtr><m:mtr columnalign="center"><m:mtd columnalign="center"><m:mn>6</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:math></entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<para id="fs-id2273231">Consider the number <m:math><m:mrow><m:mn>42</m:mn><m:mo>.</m:mo></m:mrow></m:math> The digits are <m:math><m:mrow><m:mn>4</m:mn></m:mrow></m:math> and <m:math><m:mrow><m:mn>2</m:mn><m:mo>,</m:mo></m:mrow></m:math> and their sum is <m:math><m:mrow><m:mn>4</m:mn><m:mo>+</m:mo><m:mn>2</m:mn><m:mo>=</m:mo><m:mn>6</m:mn><m:mo>.</m:mo></m:mrow></m:math> Since <m:math><m:mrow><m:mn>6</m:mn></m:mrow></m:math> is a multiple of <m:math><m:mrow><m:mn>3</m:mn><m:mo>,</m:mo></m:mrow></m:math> we know that <m:math><m:mrow><m:mn>42</m:mn></m:mrow></m:math> is also a multiple of <m:math><m:mrow><m:mn>3</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+<example id="fs-id1585294">
+<exercise id="fs-id1862568">
+<problem id="fs-id1916138">
+<para id="fs-id1717630">Determine whether each of the given numbers is a multiple of <m:math><m:mn>3</m:mn><m:mtext>:</m:mtext><m:mspace width="0.2em"/></m:math>
+<list id="eip-id1168468294103" list-type="enumerated" number-style="arabic" class="circled"><item>
+<span class="token">ⓐ</span>
+<m:math><m:mspace width="0.2em"/><m:mn>645</m:mn><m:mspace width="0.2em"/>
+</m:math></item>
+<item>
+<span class="token">ⓑ</span>
+<m:math><m:mspace width="0.2em"/><m:mn>10,519</m:mn></m:math></item>
+</list></para></problem>
+<solution id="fs-id1221829">
+<title>Solution</title>
+<para id="fs-id2166582"><span class="token">ⓐ</span> Is <m:math><m:mrow><m:mn>645</m:mn></m:mrow></m:math> a multiple of <m:math><m:mrow><m:mn>3</m:mn><m:mo>?</m:mo></m:mrow></m:math>
+</para><para id="fs-id1166211"><table id="eip-id1168467261275" class="unnumbered unstyled" summary=".">
+<label/><tgroup cols="2">
+ <tbody>
+  <row>
+    <entry>Find the sum of the digits.</entry>
+    <entry><m:math><m:mn>6</m:mn><m:mo>+</m:mo><m:mn>4</m:mn><m:mo>+</m:mo><m:mn>5</m:mn><m:mo>=</m:mo><m:mn>15</m:mn></m:math></entry>
+  </row>
+  <row> 
+    <entry>Is 15 a multiple of 3?</entry>
+    <entry>Yes.</entry>
+  </row>
+  <row>
+    <entry>If we're not sure, we could add its digits to find out. We can check it by dividing 645 by 3.</entry>
+    <entry><m:math><m:mn>645</m:mn><m:mo>÷</m:mo><m:mn>3</m:mn></m:math></entry>
+  </row>
+  <row>
+    <entry>The quotient is 215.</entry>
+    <entry><m:math><m:mn>3</m:mn><m:mo>⋅</m:mo><m:mn>215</m:mn><m:mo>=</m:mo><m:mn>645</m:mn></m:math></entry>
+  </row>
+</tbody>
+
+</tgroup>
+</table>
+</para><para id="fs-id1302295"><span class="token">ⓑ</span> Is <m:math><m:mrow><m:mn>10,519</m:mn></m:mrow></m:math> a multiple of <m:math><m:mrow><m:mn>3</m:mn><m:mo>?</m:mo></m:mrow></m:math></para><para id="fs-id1596736"><table id="eip-id1168466267838" class="unnumbered unstyled" summary=".">
+<label/><tgroup cols="2">
+ <tbody>
+  <row>
+    <entry>Find the sum of the digits.</entry>
+    <entry><m:math><m:mn>1</m:mn><m:mo>+</m:mo><m:mn>0</m:mn><m:mo>+</m:mo><m:mn>5</m:mn><m:mo>+</m:mo><m:mn>1</m:mn><m:mo>+</m:mo><m:mn>9</m:mn><m:mo>=</m:mo><m:mn>16</m:mn></m:math></entry>
+  </row>
+  <row> 
+    <entry>Is 16 a multiple of 3?</entry>
+    <entry>No.</entry>
+  </row>
+  <row>
+    <entry>So 10,519 is not a multiple of 3 either..</entry>
+    <entry><m:math><m:mn>645</m:mn><m:mo>÷</m:mo><m:mn>3</m:mn></m:math></entry>
+  </row>
+  <row>
+    <entry>We can check this by dividing by 10,519 by 3.</entry>
+    <entry><m:math><m:mtable><m:mtr><m:mtd><m:mn>3,506</m:mn><m:mtext>R</m:mtext><m:mn>1</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mn>3</m:mn><m:menclose notation="longdiv"><m:mrow><m:mn>10,519</m:mn></m:mrow></m:menclose><m:mspace width="1em"/></m:mtd></m:mtr></m:mtable></m:math></entry>
+  </row>
+</tbody>
+
+</tgroup>
+</table>
+</para><para id="fs-id1280496">When we divide <m:math><m:mrow><m:mn>10,519</m:mn></m:mrow></m:math> by <m:math><m:mrow><m:mn>3</m:mn><m:mo>,</m:mo></m:mrow></m:math> we do not get a counting number, so <m:math><m:mrow><m:mn>10,519</m:mn></m:mrow></m:math> is not the product of a counting number and <m:math><m:mrow><m:mn>3</m:mn><m:mo>.</m:mo></m:mrow></m:math> It is not a multiple of <m:math><m:mrow><m:mn>3</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+</solution>
+</exercise>
+</example>
+<note id="fs-id1325302" class="try">
+<exercise id="fs-id1205350">
+<problem id="fs-id1198820">
+<para id="fs-id1595540">Determine whether each number is a multiple of <m:math><m:mrow><m:mn>3</m:mn><m:mtext>:</m:mtext></m:mrow></m:math></para>
+<para id="fs-id1500117"><list id="eip-id1168468675959" list-type="enumerated" number-style="arabic" class="circled"><item>
+<span class="token">ⓐ</span>
+<m:math><m:mspace width="0.2em"/><m:mn>954</m:mn><m:mspace width="0.2em"/>
+</m:math></item>
+<item>
+<span class="token">ⓑ</span>
+<m:math><m:mspace width="0.2em"/><m:mn>3,742</m:mn></m:math>
+</item>
+</list></para></problem>
+<solution id="fs-id1187338">
+<para id="fs-id1863656"><list id="eip-id1168467506093" list-type="enumerated" number-style="arabic" class="circled"><item>
+<span class="token">ⓐ</span> yes 
+</item>
+<item>
+<span class="token">ⓑ</span> no
+</item>
+</list></para></solution>
+</exercise>
+</note>
+<note id="fs-id1171102866840" class="try">
+<exercise id="fs-id1213726">
+<problem id="fs-id1365874">
+<para id="fs-id1171100737980">Determine whether each number is a multiple of <m:math><m:mrow><m:mn>3</m:mn><m:mtext>:</m:mtext></m:mrow></m:math></para>
+<para id="fs-id2218606"><list id="eip-id1168469668538" list-type="enumerated" number-style="arabic" class="circled"><item>
+<span class="token">ⓐ</span>
+<m:math><m:mspace width="0.2em"/><m:mn>643</m:mn><m:mspace width="0.2em"/>
+</m:math>
+</item>
+<item>
+<span class="token">ⓑ</span>
+<m:math>
+<m:mspace width="0.2em"/><m:mn>8,379</m:mn></m:math></item>
+</list></para></problem>
+<solution id="fs-id2280141">
+<para id="fs-id1381742"><list id="eip-id1168469468727" list-type="enumerated" number-style="arabic" class="circled"><item>
+<span class="token">ⓐ</span> no 
+</item>
+<item>
+<span class="token">ⓑ</span> yes
+</item>
+</list></para></solution>
+</exercise>
+</note>
+<para id="fs-id2495618">Look back at the charts where you highlighted the multiples of <m:math><m:mrow><m:mn>2</m:mn><m:mo>,</m:mo></m:mrow></m:math> of <m:math><m:mrow><m:mn>5</m:mn><m:mo>,</m:mo></m:mrow></m:math> and of <m:math><m:mrow><m:mn>10</m:mn><m:mo>.</m:mo></m:mrow></m:math> Notice that the multiples of <m:math><m:mrow><m:mn>10</m:mn></m:mrow></m:math> are the numbers that are multiples of both <m:math><m:mrow><m:mn>2</m:mn></m:mrow></m:math> and <m:math><m:mrow><m:mn>5</m:mn><m:mo>.</m:mo></m:mrow></m:math> That is because <m:math><m:mrow><m:mn>10</m:mn><m:mo>=</m:mo><m:mn>2</m:mn><m:mo>⋅</m:mo><m:mn>5</m:mn><m:mo>.</m:mo></m:mrow></m:math> Likewise, since <m:math><m:mrow><m:mn>6</m:mn><m:mo>=</m:mo><m:mn>2</m:mn><m:mo>⋅</m:mo><m:mn>3</m:mn><m:mo>,</m:mo></m:mrow></m:math> the multiples of <m:math><m:mrow><m:mn>6</m:mn></m:mrow></m:math> are the numbers that are multiples of both <m:math><m:mrow><m:mn>2</m:mn></m:mrow></m:math> and <m:math><m:mrow><m:mn>3</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+</section><section id="fs-id1566084">
+<title>Use Common Divisibility Tests</title>
+<para id="fs-id2221897">Another way to say that <m:math><m:mrow><m:mn>375</m:mn></m:mrow></m:math> is a multiple of <m:math><m:mrow><m:mn>5</m:mn></m:mrow></m:math> is to say that <m:math><m:mrow><m:mn>375</m:mn></m:mrow></m:math> is divisible by <m:math><m:mrow><m:mn>5</m:mn><m:mo>.</m:mo></m:mrow></m:math> In fact, <m:math><m:mrow><m:mn>375</m:mn><m:mo>÷</m:mo><m:mn>5</m:mn></m:mrow></m:math> is <m:math><m:mrow><m:mn>75</m:mn><m:mo>,</m:mo></m:mrow></m:math> so <m:math><m:mrow><m:mn>375</m:mn></m:mrow></m:math> is <m:math><m:mrow><m:mn>5</m:mn><m:mo>⋅</m:mo><m:mn>75</m:mn><m:mo>.</m:mo></m:mrow></m:math> Notice in <link target-id="fs-id1585294"/> that <m:math><m:mrow><m:mn>10,519</m:mn></m:mrow></m:math> is not a multiple <m:math><m:mrow><m:mn>3</m:mn><m:mo>.</m:mo></m:mrow></m:math> When we divided <m:math><m:mrow><m:mn>10,519</m:mn></m:mrow></m:math> by <m:math><m:mrow><m:mn>3</m:mn></m:mrow></m:math> we did not get a counting number, so <m:math><m:mrow><m:mn>10,519</m:mn></m:mrow></m:math> is not divisible by <m:math><m:mrow><m:mn>3</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+<note id="fs-id1558919">
+<title>Divisibility</title>
+<para id="fs-id2630113">If a number <m:math><m:mrow><m:mi>m</m:mi></m:mrow></m:math> is a multiple of <m:math><m:mrow><m:mi>n</m:mi><m:mo>,</m:mo></m:mrow></m:math> then we say that <m:math><m:mrow><m:mi>m</m:mi></m:mrow></m:math> is divisible by <m:math><m:mrow><m:mi>n</m:mi><m:mo>.</m:mo></m:mrow></m:math></para></note>
+<para id="fs-id4875562">Since multiplication and division are inverse operations, the patterns of multiples that we found can be used as divisibility tests. <link target-id="fs-id2134771"/> summarizes <term class="no-emphasis">divisibility tests</term> for some of the counting numbers between one and ten.</para>
+<table id="fs-id2134771" summary="This table has five rows and two columns. The first row is a header row that labels each column. The first column is labeled “Divisible by” and the second is “Test”. The second row shows the number 2 in the first column and the phrase “last digit is 0, 2, 4, 6, or 8” is in the second column. The third row shows the number 3 in the first column and the phrase “sum of the digits is divisible by 3” is in the second column. The fourth row shows the number 5 in the first column and the phrase “last digit is 5 or 0” is in the second column. The fifth row shows the number 10 in the first column and the phrase “last digit is 0” is in the second column.">
+<tgroup cols="2"><colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<thead>
+<row valign="top">
+<entry align="center" namest="c1" nameend="c2"><emphasis effect="bold">Divisibility Tests</emphasis></entry>
+</row>
+<row valign="top">
+<entry align="center"><emphasis effect="bold">A number is divisible by</emphasis></entry>
+<entry align="center"/>
+</row>
+</thead>
+<tbody>
+<row valign="top">
+<entry align="center"><m:math><m:mrow><m:mstyle fontweight="bold"><m:mn>2</m:mn></m:mstyle></m:mrow></m:math></entry>
+<entry align="center">if the last digit is <m:math><m:mrow><m:mstyle fontweight="bold"><m:mn>0</m:mn></m:mstyle><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mstyle fontweight="bold"><m:mn>2</m:mn></m:mstyle><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mstyle fontweight="bold"><m:mn>4</m:mn></m:mstyle><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mstyle fontweight="bold"><m:mn>6</m:mn></m:mstyle><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mstyle fontweight="bold"><m:mtext>or</m:mtext></m:mstyle><m:mspace width="0.2em"/><m:mstyle fontweight="bold"><m:mn>8</m:mn></m:mstyle></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry align="center"><m:math><m:mrow><m:mstyle fontweight="bold"><m:mn>3</m:mn></m:mstyle></m:mrow></m:math></entry>
+<entry align="center">if the sum of the digits is divisible by <m:math><m:mrow><m:mstyle fontweight="bold"><m:mn>3</m:mn></m:mstyle></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry align="center"><m:math><m:mrow><m:mstyle fontweight="bold"><m:mn>5</m:mn></m:mstyle></m:mrow></m:math></entry>
+<entry align="center">if the last digit is <m:math><m:mrow><m:mstyle fontweight="bold"><m:mn>5</m:mn></m:mstyle></m:mrow></m:math> or <m:math><m:mrow><m:mstyle fontweight="bold"><m:mn>0</m:mn></m:mstyle></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry align="center"><m:math><m:mrow><m:mstyle fontweight="bold"><m:mn>6</m:mn></m:mstyle></m:mrow></m:math></entry>
+<entry align="center">if divisible by both <m:math><m:mrow><m:mstyle fontweight="bold"><m:mn>2</m:mn></m:mstyle></m:mrow></m:math> and <m:math><m:mrow><m:mstyle fontweight="bold"><m:mn>3</m:mn></m:mstyle></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry align="center"><m:math><m:mrow><m:mstyle fontweight="bold"><m:mn>10</m:mn></m:mstyle></m:mrow></m:math></entry>
+<entry align="center">if the last digit is <m:math><m:mrow><m:mstyle fontweight="bold"><m:mn>0</m:mn></m:mstyle></m:mrow></m:math></entry>
+</row>
+</tbody>
+
+
+</tgroup>
+</table><example id="fs-id1159977"><exercise id="fs-id1946686">
+<problem id="fs-id2790541">
+<para id="fs-id1300120">Determine whether <m:math><m:mrow><m:mn>1,290</m:mn></m:mrow></m:math> is divisible by <m:math><m:mrow><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>5</m:mn><m:mo>,</m:mo><m:mtext>and</m:mtext><m:mspace width="0.2em"/><m:mn>10</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1569846">
+<title>Solution</title>
+<para id="fs-id2907137"><link target-id="fs-id1405269"/> applies the divisibility tests to <m:math><m:mrow><m:mn>1,290</m:mn><m:mo>.</m:mo></m:mrow></m:math> In the far right column, we check the results of the divisibility tests by seeing if the quotient is a whole number.</para>
+<table id="fs-id1405269" summary="This table has five rows and four columns. The first row is a header row that labels each column. The columns are labeled “Divisible by”, “Test”, “Divisible?” and “Check”. The second row shows the number 2 in the first column, the question “Is the last digit 0, 2, 4, 6, or 8? “ is in the second column, the word yes in the third column and the equation 1290 divided by 2 equals 645 in the fourth column.  The third row shows the number 3 in the first column, the question “Is the sum of the digits divisible by 3” then the equation 1 plus 2 plus 9 plus 0 = 12 is in the second column, the word yes in the third column and the equation 1290 divided by 3 equals 430 in the fourth column.  The fourth row shows the number 5 in the first column, the question “Is the last digit 5 or 0” is in the second column, the word yes in the third column and the equation 1290 divided by 5 equals 258 in the fourth column.  The fifth row shows the number 10 in the first column, the question “Is the last digit 0” is in the second column,  the word yes in the third column and the equation 1290 divided by 10 equals 129 in the fourth column.">
+<tgroup cols="4">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<colspec colnum="4" colname="c4"/>
+<thead>
+<row valign="top">
+<entry align="center"><emphasis effect="bold">Divisible by…?</emphasis></entry>
+<entry align="center"><emphasis effect="bold">Test</emphasis></entry>
+<entry align="center"><emphasis effect="bold">Divisible?</emphasis></entry>
+<entry align="center"><emphasis effect="bold">Check</emphasis></entry>
+</row>
+</thead>
+<tbody>
+<row valign="top">
+<entry align="center"><m:math><m:mrow><m:mstyle fontweight="bold"><m:mn>2</m:mn></m:mstyle></m:mrow></m:math></entry>
+<entry align="left">Is last digit <m:math><m:mrow><m:mstyle fontweight="bold"><m:mn>0</m:mn></m:mstyle><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mstyle fontweight="bold"><m:mn>2</m:mn></m:mstyle><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mstyle fontweight="bold"><m:mn>4</m:mn></m:mstyle><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mstyle fontweight="bold"><m:mn>6</m:mn></m:mstyle><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mstyle fontweight="bold"><m:mtext>or</m:mtext></m:mstyle><m:mspace width="0.2em"/><m:mstyle fontweight="bold"><m:mn>8</m:mn></m:mstyle><m:mo>?</m:mo></m:mrow></m:math> <emphasis effect="italics">Yes.</emphasis></entry>
+<entry align="center">yes</entry>
+<entry align="center"><m:math><m:mrow><m:mn>1290</m:mn><m:mo>÷</m:mo><m:mn>2</m:mn><m:mo>=</m:mo><m:mn>645</m:mn></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry align="center"><m:math><m:mrow><m:mstyle fontweight="bold"><m:mn>3</m:mn></m:mstyle></m:mrow></m:math></entry>
+<entry align="left"><m:math><m:mrow><m:mtext>Is sum of digits divisible by</m:mtext><m:mspace width="0.2em"/><m:mstyle fontweight="bold"><m:mn>3</m:mn></m:mstyle><m:mo>?</m:mo></m:mrow></m:math><newline/><m:math><m:mrow><m:mn>1</m:mn><m:mo>+</m:mo><m:mn>2</m:mn><m:mo>+</m:mo><m:mn>9</m:mn><m:mo>+</m:mo><m:mn>0</m:mn><m:mo>=</m:mo><m:mn>12</m:mn></m:mrow></m:math> <emphasis effect="italics">Yes.</emphasis></entry>
+<entry align="center">yes</entry>
+<entry align="center"><m:math><m:mrow><m:mn>1290</m:mn><m:mo>÷</m:mo><m:mn>3</m:mn><m:mo>=</m:mo><m:mn>430</m:mn></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry align="center"><m:math><m:mrow><m:mstyle fontweight="bold"><m:mn>5</m:mn></m:mstyle></m:mrow></m:math></entry>
+<entry align="left">Is last digit <m:math><m:mrow><m:mstyle fontweight="bold"><m:mn>5</m:mn></m:mstyle></m:mrow></m:math> or <m:math><m:mrow><m:mstyle fontweight="bold"><m:mn>0</m:mn></m:mstyle><m:mo>?</m:mo></m:mrow></m:math> <emphasis effect="italics">Yes.</emphasis></entry>
+<entry align="center">yes</entry>
+<entry align="center"><m:math><m:mrow><m:mn>1290</m:mn><m:mo>÷</m:mo><m:mn>5</m:mn><m:mo>=</m:mo><m:mn>258</m:mn></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry align="center"><m:math><m:mrow><m:mstyle fontweight="bold"><m:mn>10</m:mn></m:mstyle></m:mrow></m:math></entry>
+<entry align="left">Is last digit <m:math><m:mrow><m:mstyle fontweight="bold"><m:mn>0</m:mn></m:mstyle><m:mo>?</m:mo></m:mrow></m:math> <emphasis effect="italics">Yes.</emphasis></entry>
+<entry align="center">yes</entry>
+<entry align="center"><m:math><m:mrow><m:mn>1290</m:mn><m:mo>÷</m:mo><m:mn>10</m:mn><m:mo>=</m:mo><m:mn>129</m:mn></m:mrow></m:math></entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<para id="fs-id1741819">Thus, <m:math><m:mrow><m:mn>1,290</m:mn></m:mrow></m:math> is divisible by <m:math><m:mrow><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>5</m:mn><m:mo>,</m:mo><m:mtext>and</m:mtext><m:mspace width="0.2em"/><m:mn>10</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+</solution>
+</exercise>
+</example><note id="fs-id2202281" class="try">
+<exercise id="fs-id2221615">
+<problem id="fs-id1730533">
+<para id="fs-id2202284">Determine whether the given number is divisible by <m:math><m:mrow><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>5</m:mn><m:mo>,</m:mo><m:mtext>and</m:mtext><m:mspace width="0.2em"/><m:mn>10</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+<para id="fs-id1730536"><m:math><m:mrow><m:mn>6240</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1948901">
+<para id="fs-id1948903">Divisible by 2, 3, 5, and 10</para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1171102992471" class="try">
+<exercise id="fs-id1882702">
+<problem id="fs-id1882704">
+<para id="fs-id1171104402357">Determine whether the given number is divisible by <m:math><m:mrow><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>5</m:mn><m:mo>,</m:mo><m:mtext>and</m:mtext><m:mspace width="0.2em"/><m:mn>10</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+<para id="fs-id1909533"><m:math><m:mrow><m:mn>7248</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1891972">
+<para id="fs-id2909012">Divisible by 2 and 3, not 5 or 10.</para>
+</solution>
+</exercise>
+</note>
+<example id="fs-id4212248"><exercise id="fs-id2382335">
+<problem id="fs-id2382337">
+<para id="fs-id1948909">Determine whether <m:math><m:mrow><m:mn>5,625</m:mn></m:mrow></m:math> is divisible by <m:math><m:mrow><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>5</m:mn><m:mo>,</m:mo><m:mtext>and</m:mtext><m:mspace width="0.2em"/><m:mn>10</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id2466908">
+<title>Solution</title>
+<para id="fs-id2650037"><link target-id="fs-id1970659"/> applies the divisibility tests to <m:math><m:mrow><m:mn>5,625</m:mn></m:mrow></m:math> and tests the results by finding the quotients.</para>
+<table id="fs-id1970659" summary="This table has five rows and four columns. The first row is a header row that labels each column. The columns are labeled “Divisible by”, “Test”, “Divisible?” and “Check”. The second row shows the number 2 in the first column, the question “Is the last digit 0, 2, 4, 6, or 8? “ is in the second column, the word no in the third column and the equation 5625 divided by 2 equals 2812.5 in the fourth column.  The third row shows the number 3 in the first column, the question “Is the sum of the digits divisible by 3” then the equation 5 plus 6 plus 2 plus 5 = 18 is in the second column, the word yes in the third column and the equation 5625 divided by 3 equals 1875 in the fourth column.  The fourth row shows the number 5 in the first column, the question “Is the last digit 5 or 0” is in the second column, the word yes in the third column and the equation 5625 divided by 5 equals 1125 in the fourth column.  The fifth row shows the number 10 in the first column, the question “Is the last digit 0” is in the second column,  the word no in the third column and the equation 5625 divided by 10 equals 562.5 in the fourth column.">
+<tgroup cols="4">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<colspec colnum="4" colname="c4"/>
+<thead>
+<row valign="top">
+<entry align="center"><emphasis effect="bold">Divisible by…?</emphasis></entry>
+<entry align="center"><emphasis effect="bold">Test</emphasis></entry>
+<entry align="center"><emphasis effect="bold">Divisible?</emphasis></entry>
+<entry align="center"><emphasis effect="bold">Check</emphasis></entry>
+</row>
+</thead>
+<tbody>
+<row valign="top">
+<entry align="center"><m:math><m:mrow><m:mstyle fontweight="bold"><m:mn>2</m:mn></m:mstyle></m:mrow></m:math></entry>
+<entry align="left">Is last digit <m:math><m:mrow><m:mstyle fontweight="bold"><m:mn>0</m:mn></m:mstyle><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mstyle fontweight="bold"><m:mn>2</m:mn></m:mstyle><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mstyle fontweight="bold"><m:mn>4</m:mn></m:mstyle><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mstyle fontweight="bold"><m:mn>6</m:mn></m:mstyle><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mstyle fontweight="bold"><m:mtext>or</m:mtext></m:mstyle><m:mspace width="0.2em"/><m:mstyle fontweight="bold"><m:mn>8</m:mn></m:mstyle><m:mo>?</m:mo></m:mrow></m:math> <emphasis effect="italics">No.</emphasis></entry>
+<entry align="center">no</entry>
+<entry align="center"><m:math><m:mrow><m:mn>5625</m:mn><m:mo>÷</m:mo><m:mn>2</m:mn><m:mo>=</m:mo><m:mn>2812.5</m:mn></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry align="center"><m:math><m:mrow><m:mstyle fontweight="bold"><m:mn>3</m:mn></m:mstyle></m:mrow></m:math></entry>
+<entry align="left"><m:math><m:mrow><m:mtext>Is sum of digits divisible by</m:mtext><m:mspace width="0.2em"/><m:mstyle fontweight="bold"><m:mn>3</m:mn></m:mstyle><m:mo>?</m:mo></m:mrow></m:math><newline/><m:math><m:mrow><m:mn>5</m:mn><m:mo>+</m:mo><m:mn>6</m:mn><m:mo>+</m:mo><m:mn>2</m:mn><m:mo>+</m:mo><m:mn>5</m:mn><m:mo>=</m:mo><m:mn>18</m:mn></m:mrow></m:math> <emphasis effect="italics">Yes.</emphasis></entry>
+<entry align="center">yes</entry>
+<entry align="center"><m:math><m:mrow><m:mn>5625</m:mn><m:mo>÷</m:mo><m:mn>3</m:mn><m:mo>=</m:mo><m:mn>1875</m:mn></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry align="center"><m:math><m:mrow><m:mstyle fontweight="bold"><m:mn>5</m:mn></m:mstyle></m:mrow></m:math></entry>
+<entry align="left">Is last digit is <m:math><m:mrow><m:mstyle fontweight="bold"><m:mn>5</m:mn></m:mstyle></m:mrow></m:math> or <m:math><m:mrow><m:mstyle fontweight="bold"><m:mn>0</m:mn></m:mstyle><m:mo>?</m:mo></m:mrow></m:math> <emphasis effect="italics">Yes.</emphasis></entry>
+<entry align="center">yes</entry>
+<entry align="center"><m:math><m:mrow><m:mn>5625</m:mn><m:mo>÷</m:mo><m:mn>5</m:mn><m:mo>=</m:mo><m:mn>1125</m:mn></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry align="center"><m:math><m:mrow><m:mstyle fontweight="bold"><m:mn>10</m:mn></m:mstyle></m:mrow></m:math></entry>
+<entry align="left">Is last digit <m:math><m:mrow><m:mstyle fontweight="bold"><m:mn>0</m:mn></m:mstyle><m:mo>?</m:mo></m:mrow></m:math> <emphasis effect="italics">No.</emphasis></entry>
+<entry align="center">no</entry>
+<entry align="center"><m:math><m:mrow><m:mn>5625</m:mn><m:mo>÷</m:mo><m:mn>10</m:mn><m:mo>=</m:mo><m:mn>562.5</m:mn></m:mrow></m:math></entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<para id="fs-id1859662">Thus, <m:math><m:mrow><m:mn>5,625</m:mn></m:mrow></m:math> is divisible by <m:math><m:mrow><m:mn>3</m:mn></m:mrow></m:math> and <m:math><m:mrow><m:mn>5</m:mn><m:mo>,</m:mo></m:mrow></m:math> but not <m:math><m:mrow><m:mn>2</m:mn><m:mo>,</m:mo></m:mrow></m:math> or <m:math><m:mrow><m:mn>10</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+</solution>
+</exercise>
+</example><note id="fs-id1946957" class="try">
+<exercise id="fs-id1519100">
+<problem id="fs-id1519102">
+<para id="fs-id1946960">Determine whether the given number is divisible <m:math><m:mrow><m:mtext>by</m:mtext><m:mspace width="0.2em"/><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>5</m:mn><m:mo>,</m:mo><m:mtext>and</m:mtext><m:mspace width="0.2em"/><m:mn>10</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+<para id="fs-id1726142"><m:math><m:mrow><m:mn>4962</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1828926">
+<para id="fs-id1828929">Divisible by 2, 3, not 5 or 10.</para></solution>
+</exercise>
+</note>
+<note id="fs-id1171102866908" class="try">
+<exercise id="fs-id2209994">
+<problem id="fs-id2209996">
+<para id="fs-id1171103296260">Determine whether the given number is divisible <m:math><m:mrow><m:mtext>by</m:mtext><m:mspace width="0.2em"/><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>5</m:mn><m:mo>,</m:mo><m:mtext>and</m:mtext><m:mspace width="0.2em"/><m:mn>10</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+<para id="fs-id1735435"><m:math><m:mrow><m:mn>3765</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1823105">
+<para id="fs-id1823108">Divisible by 3 and 5.</para>
+</solution>
+</exercise>
+</note>
+</section>
+<section id="fs-id2172492">
+<title>Find All the Factors of a Number</title>
+<para id="fs-id2202736">There are often several ways to talk about the same idea. So
+far, we’ve seen that if <m:math><m:mrow><m:mi>m</m:mi></m:mrow></m:math> is a multiple of <m:math><m:mrow><m:mi>n</m:mi><m:mo>,</m:mo></m:mrow></m:math> we can say that <m:math><m:mrow><m:mi>m</m:mi></m:mrow></m:math> is <term class="no-emphasis">divisible</term> by <m:math><m:mrow><m:mi>n</m:mi><m:mo>.</m:mo></m:mrow></m:math> We know that <m:math><m:mrow><m:mn>72</m:mn></m:mrow></m:math> is the product of <m:math><m:mrow><m:mn>8</m:mn></m:mrow></m:math> and <m:math><m:mrow><m:mn>9</m:mn><m:mo>,</m:mo></m:mrow></m:math> so we can say <m:math><m:mrow><m:mn>72</m:mn></m:mrow></m:math> is a multiple of <m:math><m:mrow><m:mn>8</m:mn></m:mrow></m:math> and <m:math><m:mrow><m:mn>72</m:mn></m:mrow></m:math> is a multiple of <m:math><m:mrow><m:mn>9</m:mn><m:mo>.</m:mo></m:mrow></m:math> We can also say <m:math><m:mrow><m:mn>72</m:mn></m:mrow></m:math> is divisible by <m:math><m:mrow><m:mn>8</m:mn></m:mrow></m:math> and by <m:math><m:mrow><m:mn>9</m:mn><m:mo>.</m:mo></m:mrow></m:math> Another way to talk about this is to say that <m:math><m:mrow><m:mn>8</m:mn></m:mrow></m:math> and <m:math><m:mrow><m:mn>9</m:mn></m:mrow></m:math> are factors of <m:math><m:mrow><m:mn>72</m:mn><m:mo>.</m:mo></m:mrow></m:math> When we write <m:math><m:mrow><m:mn>72</m:mn><m:mo>=</m:mo><m:mn>8</m:mn><m:mo>⋅</m:mo><m:mn>9</m:mn></m:mrow></m:math> we can say that we have factored <m:math><m:mrow><m:mn>72</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+<media id="fs-id2751166" alt="The image shows the equation 8 times 9 equals 72. The 8 and 9 are labeled as factors and the 72 is labeled product.">
+<image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_02_04_008_img.jpg"/>
+</media>
+<note id="fs-id1285055">
+<title>Factors</title>
+<para id="fs-id1393991">If <m:math><m:mrow><m:mi>a</m:mi><m:mo>⋅</m:mo><m:mi>b</m:mi><m:mo>=</m:mo><m:mi>m</m:mi><m:mo>,</m:mo></m:mrow></m:math> then <m:math><m:mrow><m:mi>a</m:mi><m:mspace width="0.2em"/><m:mtext>and</m:mtext><m:mspace width="0.2em"/><m:mi>b</m:mi></m:mrow></m:math> are factors of <m:math><m:mrow><m:mi>m</m:mi><m:mo>,</m:mo></m:mrow></m:math> and <m:math><m:mrow><m:mi>m</m:mi></m:mrow></m:math> is the product of <m:math><m:mrow><m:mi>a</m:mi><m:mspace width="0.2em"/><m:mtext>and</m:mtext><m:mspace width="0.2em"/><m:mi>b</m:mi><m:mo>.</m:mo></m:mrow></m:math></para>
+</note>
+<para id="fs-id2197819">In algebra, it can be useful to determine all of the factors of a number. This is called factoring a number, and it can help us solve many kinds of problems.</para><note id="eip-47" class="manipulative-math">Doing the Manipulative Mathematics activity “Model Multiplication and Factoring” will help you develop a better understanding of multiplication and factoring.</note><para id="fs-id1741468">For example, suppose a choreographer is planning a dance for a ballet recital. There are <m:math><m:mrow><m:mn>24</m:mn></m:mrow></m:math> dancers, and for a certain scene, the choreographer wants to arrange the dancers in groups of equal sizes on stage. </para><para id="eip-356">In how many ways can the dancers be put into groups of equal size? Answering this question is the same as identifying the factors of <m:math><m:mrow><m:mn>24</m:mn><m:mo>.</m:mo></m:mrow></m:math> <link target-id="fs-id1406287"/> summarizes the different ways that the choreographer can arrange the dancers.</para><table id="fs-id1406287" summary="The table has nine rows and three columns. The first row is a header row. The columns are labeled “Number of Groups”, “Dancers per Group” and “Total Dancers”. Under the “Number of Groups” column are the values: 1, 2, 3, 4, 6, 8,12, and 24. Under the “Dancers per Group” column are the values: 24, 12, 8, 6, 4, 3, 2,  and 1. Under the “Total Dancers” column are the equations: 1 times 24 equals 24, 2 times 12 equals 24, 3 times 8 equals 24, 4 times 6 equals 24, 6 times 4 equals 24, 8 times 3 equals 24, 12 times 2 equals 24, and 24 times 1 equals 24.">
+<tgroup cols="3">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<thead>
+<row valign="top">
+<entry align="center"><emphasis effect="bold">Number of Groups</emphasis></entry>
+<entry align="center"><emphasis effect="bold">Dancers per Group</emphasis></entry>
+<entry align="center"><emphasis effect="bold">Total Dancers</emphasis></entry>
+</row>
+</thead>
+<tbody>
+<row valign="top">
+<entry align="center"><m:math><m:mrow><m:mn>1</m:mn></m:mrow></m:math></entry>
+<entry align="center"><m:math><m:mrow><m:mn>24</m:mn></m:mrow></m:math></entry>
+<entry align="center"><m:math><m:mrow><m:mn>1</m:mn><m:mo>⋅</m:mo><m:mn>24</m:mn><m:mo>=</m:mo><m:mn>24</m:mn></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry align="center"><m:math><m:mrow><m:mn>2</m:mn></m:mrow></m:math></entry>
+<entry align="center"><m:math><m:mrow><m:mn>12</m:mn></m:mrow></m:math></entry>
+<entry align="center"><m:math><m:mrow><m:mn>2</m:mn><m:mo>⋅</m:mo><m:mn>12</m:mn><m:mo>=</m:mo><m:mn>24</m:mn></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry align="center"><m:math><m:mrow><m:mn>3</m:mn></m:mrow></m:math></entry>
+<entry align="center"><m:math><m:mrow><m:mn>8</m:mn></m:mrow></m:math></entry>
+<entry align="center"><m:math><m:mrow><m:mn>3</m:mn><m:mo>⋅</m:mo><m:mn>8</m:mn><m:mo>=</m:mo><m:mn>24</m:mn></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry align="center"><m:math><m:mrow><m:mn>4</m:mn></m:mrow></m:math></entry>
+<entry align="center"><m:math><m:mrow><m:mn>6</m:mn></m:mrow></m:math></entry>
+<entry align="center"><m:math><m:mrow><m:mn>4</m:mn><m:mo>⋅</m:mo><m:mn>6</m:mn><m:mo>=</m:mo><m:mn>24</m:mn></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry align="center"><m:math><m:mrow><m:mn>6</m:mn></m:mrow></m:math></entry>
+<entry align="center"><m:math><m:mrow><m:mn>4</m:mn></m:mrow></m:math></entry>
+<entry align="center"><m:math><m:mrow><m:mn>6</m:mn><m:mo>⋅</m:mo><m:mn>4</m:mn><m:mo>=</m:mo><m:mn>24</m:mn></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry align="center"><m:math><m:mrow><m:mn>8</m:mn></m:mrow></m:math></entry>
+<entry align="center"><m:math><m:mrow><m:mn>3</m:mn></m:mrow></m:math></entry>
+<entry align="center"><m:math><m:mrow><m:mn>8</m:mn><m:mo>⋅</m:mo><m:mn>3</m:mn><m:mo>=</m:mo><m:mn>24</m:mn></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry align="center"><m:math><m:mrow><m:mn>12</m:mn></m:mrow></m:math></entry>
+<entry align="center"><m:math><m:mrow><m:mn>2</m:mn></m:mrow></m:math></entry>
+<entry align="center"><m:math><m:mrow><m:mn>12</m:mn><m:mo>⋅</m:mo><m:mn>2</m:mn><m:mo>=</m:mo><m:mn>24</m:mn></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry align="center"><m:math><m:mrow><m:mn>24</m:mn></m:mrow></m:math></entry>
+<entry align="center"><m:math><m:mrow><m:mn>1</m:mn></m:mrow></m:math></entry>
+<entry align="center"><m:math><m:mrow><m:mn>24</m:mn><m:mo>⋅</m:mo><m:mn>1</m:mn><m:mo>=</m:mo><m:mn>24</m:mn></m:mrow></m:math></entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<para id="fs-id2668925">What patterns do you see in <link target-id="fs-id1406287"/>? Did you notice that the number of groups times the number of dancers per group is always <m:math><m:mrow><m:mn>24</m:mn><m:mo>?</m:mo></m:mrow></m:math> This makes sense, since there are always <m:math><m:mrow><m:mn>24</m:mn></m:mrow></m:math> dancers.</para>
+<para id="fs-id3445237">You may notice another pattern if you look carefully at the first two columns. These two columns contain the exact same set of numbers—but in reverse order. They are mirrors of one another, and in fact, both columns list all of the factors of <m:math><m:mrow><m:mn>24</m:mn><m:mo>,</m:mo></m:mrow></m:math> which are:</para>
+<equation id="fs-id1824865" class="unnumbered"><label/><m:math><m:mrow><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>4</m:mn><m:mo>,</m:mo><m:mn>6</m:mn><m:mo>,</m:mo><m:mn>8</m:mn><m:mo>,</m:mo><m:mn>12</m:mn><m:mo>,</m:mo><m:mn>24</m:mn></m:mrow></m:math></equation>
+<para id="fs-id2619780">We can find all the factors of any counting number by systematically dividing the number by each counting number, starting with <m:math><m:mrow><m:mn>1</m:mn><m:mo>.</m:mo></m:mrow></m:math> If the <term class="no-emphasis">quotient</term> is also a counting number, then the divisor and the quotient are factors of the number. We can stop when the quotient becomes smaller than the divisor.</para>
+<note id="fs-id4280966" class="howto"><title>Find all the factors of a counting number.</title><list id="eip-id1168467162605" list-type="enumerated" number-style="arabic" class="stepwise"><item>Divide the number by each of the counting numbers, in order, until the quotient is smaller than the divisor.
+<list id="eip-id1168263547010"><item>If the quotient is a counting number, the divisor and quotient are a pair of factors.</item>
+<item>If the quotient is not a counting number, the divisor is not a factor.</item></list></item>
+<item>List all the factor pairs.</item>
+<item>Write all the <term class="no-emphasis">factors</term> in order from smallest to largest.</item></list></note><example id="fs-id1842375">
+<exercise id="fs-id1842378">
+<problem id="fs-id1742809">
+<para id="fs-id1742811">Find all the factors of <m:math><m:mrow><m:mn>72</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id2657538">
+<title>Solution</title>
+<para id="fs-id1866900">Divide <m:math><m:mrow><m:mn>72</m:mn></m:mrow></m:math> by each of the counting numbers starting with <m:math><m:mrow><m:mn>1</m:mn><m:mo>.</m:mo></m:mrow></m:math> If the quotient is a whole number, the divisor and quotient are a pair of factors.<newline/>
+<media id="fs-id3369689" alt="The figure shows a table with ten rows and four columns. The first row is a header row and labels the rows “Dividend”, “Divisor”, “Quotient”, and “Factors”. Under the “Dividend” column all rows show the number 72. In the second row the “Divisor” column is 1, the “Quotient” column is 72 and the “Factors” column is 1 and 72. In the third row the “Divisor” column is 2, the “Quotient” column is 36 and the “Factors” column is 2 and 36. In the fourth row the “Divisor” column is 3, the “Quotient” column is 24 and the “Factors” column is 3 and 24. In the fifth row the “Divisor” column is 4, the “Quotient” column is 18 and the “Factors” column is 4 and 18. In the sixth row the “Divisor” column is 5, the “Quotient” column is 14.4 and the “Factors” column is blank. In the seventh row the “Divisor” column is 6, the “Quotient” column is 12 and the “Factors” column is 6 and 12. In the eighth row the “Divisor” column is 7, the “Quotient” column is about 10.29 and the “Factors” column is blank. In the ninth row the “Divisor” column is 8, the “Quotient” column is 9 and the “Factors” column is 8 and 9. In the tenth row the “Divisor” column is 9, the “Quotient” column is 8 and the “Factors” column is 9 and 8.">
+<image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_02_04_009.jpg"/>
+</media></para>
+<para id="fs-id1740274">The next line would have a divisor of <m:math><m:mrow><m:mn>9</m:mn></m:mrow></m:math> and a quotient of <m:math><m:mrow><m:mn>8</m:mn><m:mo>.</m:mo></m:mrow></m:math> The quotient would be smaller than the divisor, so we stop. If we continued, we would end up only listing the same factors again in reverse order. Listing all the factors from smallest to greatest, we have</para>
+<para id="fs-id1321733"><m:math><m:mrow><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>4</m:mn><m:mo>,</m:mo><m:mn>6</m:mn><m:mo>,</m:mo><m:mn>8</m:mn><m:mo>,</m:mo><m:mn>9</m:mn><m:mo>,</m:mo><m:mn>12</m:mn><m:mo>,</m:mo><m:mn>18</m:mn><m:mo>,</m:mo><m:mn>24</m:mn><m:mo>,</m:mo><m:mn>36</m:mn><m:mo>,</m:mo><m:mtext>and</m:mtext><m:mspace width="0.2em"/><m:mn>72</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+</example>
+<note id="fs-id2661440" class="try">
+<exercise id="fs-id2440121">
+<problem id="fs-id2790496">
+<para id="fs-id2440118">Find all the factors of the given number:</para>
+<para id="fs-id2790498"><m:math><m:mrow><m:mn>96</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id588366">
+<para id="fs-id588368">1, 2, 3, 4, 6, 8, 12, 16, 24, 32, 48, 96</para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1171104005581" class="try">
+<exercise id="fs-id1463317">
+<problem id="fs-id1463320">
+<para id="fs-id1171104014294">Find all the factors of the given number:</para>
+<para id="fs-id1463322"><m:math><m:mrow><m:mn>80</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id764418">
+<para id="fs-id2472012">1, 2, 4, 5, 8, 10, 16, 20, 40, 80</para>
+</solution>
+</exercise>
+</note>
+</section>
+<section id="fs-id1500003"><title>Identify Prime and Composite Numbers</title><para id="fs-id1500008">Some numbers, like <m:math><m:mrow><m:mn>72</m:mn><m:mo>,</m:mo></m:mrow></m:math> have many factors. Other numbers, such as <m:math><m:mrow><m:mn>7</m:mn><m:mo>,</m:mo></m:mrow></m:math> have only two factors: <m:math><m:mrow><m:mn>1</m:mn></m:mrow></m:math> and the number. A number with only two factors is called a <term>prime number</term>. A number with more than two factors is called a <term>composite number</term>. The number <m:math><m:mrow><m:mn>1</m:mn></m:mrow></m:math> is neither prime nor composite. It has only one factor, itself.</para>
+<note id="fs-id2431129">
+<title>Prime Numbers and Composite Numbers</title>
+<para id="fs-id2484442">A prime number is a counting number greater than <m:math><m:mrow><m:mn>1</m:mn></m:mrow></m:math> whose only factors are <m:math><m:mrow><m:mn>1</m:mn></m:mrow></m:math> and itself.</para>
+<para id="fs-id1824744">A composite number is a counting number that is not prime.</para>
+</note>
+<para id="fs-id1824749"><link target-id="CNX_BMath_Figure_02_04_014"/> lists the counting numbers from <m:math><m:mrow><m:mn>2</m:mn></m:mrow></m:math> through <m:math><m:mrow><m:mn>20</m:mn></m:mrow></m:math> along with their factors. The highlighted numbers are prime, since each has only two factors.</para>
+<figure id="CNX_BMath_Figure_02_04_014"><media id="fs-id1480189" alt="This figure shows a table with twenty rows and three columns. The first row is a header row. It labels the columns as “Number”, “Factor” and “Prime or composite?” The second row lists the number 2, in red, under the “Number” column, the numbers 1 and 2 under the “Factors” column and the word prime under the “Prime or Composite?” column. The third row lists the number 3, in red, under the “Number” column, the numbers 1 and 3 under the “Factors” column and the word prime under the “Prime or Composite?” column. The fourth row lists the number 4 under the “Number” column, the numbers 1, 2 and 4 under the “Factors” column and the word composite under the “Prime or Composite?” column. The fifth row lists the number 5, in red, under the “Number” column, the numbers 1 and 5 under the “Factors” column and the word prime under the “Prime or Composite?” column. The sixth row lists the number 6 under the “Number” column, the numbers 1, 2, 3 and 6 under the “Factors” column and the word composite under the “Prime or Composite?” column. The seventh row lists the number 7, in red, under the “Number” column, the numbers 1 and 7 under the “Factors” column and the word prime under the “Prime or Composite?” column. The eighth row lists the number 8 under the “Number” column, the numbers 1, 2, 4 and 8 under the “Factors” column and the word composite under the “Prime or Composite?” column. The ninth row lists the number 9 under the “Number” column, the numbers 1, 3 and 9 under the “Factors” column and the word composite under the “Prime or Composite?” column. The tenth row lists the number 10 under the “Number” column, the numbers 1, 2, 5 and 10 under the “Factors” column and the word composite under the “Prime or Composite?” column. The eleventh row lists the number 11, in red, under the “Number” column, the numbers 1 and 11 under the “Factors” column and the word prime under the “Prime or Composite?” column. The twelfth row lists the number 12 under the “Number” column, the numbers 1, 2, 3, 4, 6 and 12 under the “Factors” column and the word composite under the “Prime or Composite?” column. The thirteenth row lists the number 13, in red, under the “Number” column, the numbers 1 and 13 under the “Factors” column and the word prime under the “Prime or Composite?” column. The fourteenth row lists the number 14 under the “Number” column, the numbers 1, 2, 7 and 14 under the “Factors” column and the word composite under the “Prime or Composite?” column. The fifteenth row lists the number 15 under the “Number” column, the numbers 1, 2, 3, 5 and 15 under the “Factors” column and the word composite under the “Prime or Composite?” column. The sixteenth row lists the number 16 under the “Number” column, the numbers 1, 2, 4, 8 and 16 under the “Factors” column and the word composite under the “Prime or Composite?” column. The seventeenth row lists the number 17, in red, under the “Number” column, the numbers 1 and 17 under the “Factors” column and the word prime under the “Prime or Composite?” column. The eighteenth row lists the number 18 under the “Number” column, the numbers 1, 2, 3, 6, 9 and 18 under the “Factors” column and the word composite under the “Prime or Composite?” column. The nineteenth row lists the number 19, in red, under the “Number” column, the numbers 1 and 19 under the “Factors” column and the word prime under the “Prime or Composite?” column. The twentieth row lists the number 20 under the “Number” column, the numbers 1, 2, 4, 5, 10 and 20 under the “Factors” column and the word composite under the “Prime or Composite?” column.">
+<image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_02_04_014_Errata.jpg"/>
+</media>
+
+<caption>Factors of the counting numbers from <m:math><m:mrow><m:mn>2</m:mn></m:mrow></m:math> through <m:math><m:mrow><m:mn>20</m:mn><m:mo>,</m:mo></m:mrow></m:math> with prime numbers highlighted</caption></figure><para id="fs-id2382417">The prime numbers less than <m:math><m:mrow><m:mn>20</m:mn></m:mrow></m:math> are <m:math><m:mrow><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>5</m:mn><m:mo>,</m:mo><m:mn>7</m:mn><m:mo>,</m:mo><m:mn>11</m:mn><m:mo>,</m:mo><m:mn>13</m:mn><m:mo>,</m:mo><m:mn>17</m:mn><m:mo>,</m:mo><m:mtext>and</m:mtext><m:mspace width="0.2em"/><m:mn>19</m:mn><m:mo>.</m:mo></m:mrow></m:math> There are many larger prime numbers too. In order to determine whether a number is prime or composite, we need to see if the number has any factors other than <m:math><m:mrow><m:mn>1</m:mn></m:mrow></m:math> and itself. To do this, we can test each of the smaller prime numbers in order to see if it is a factor of the number. If none of the prime numbers are factors, then that number is also prime.</para>
+<note id="fs-id1762218" class="howto"><title>Determine if a number is prime.</title><list id="eip-id1168468773932" list-type="enumerated" number-style="arabic" class="stepwise"><item> Test each of the primes, in order, to see if it is a factor of the number.</item>
+<item> Start with <m:math><m:mrow><m:mn>2</m:mn></m:mrow></m:math> and stop when the quotient is smaller than the divisor or when a prime factor is found.</item>
+<item> If the number has a <term class="no-emphasis">prime factor</term>, then it is a <term class="no-emphasis">composite number</term>. If it has no prime factors, then the number is prime.</item></list></note><example id="fs-id1756650">
+<exercise id="fs-id1756652">
+<problem id="fs-id1756654">
+<para id="fs-id2425072">Identify each number as prime or composite: 
+<list id="eip-id1168466268209" list-type="enumerated" number-style="arabic" class="circled"><item>
+<span class="token">ⓐ</span>
+<m:math><m:mspace width="0.2em"/><m:mn>83</m:mn><m:mspace width="0.2em"/></m:math>
+</item>
+<item>
+<span class="token">ⓑ</span>
+<m:math><m:mspace width="0.2em"/><m:mn>77</m:mn></m:math></item>
+</list></para></problem>
+<solution id="fs-id1570468">
+<title>Solution</title>
+<para id="fs-id2210031"><span class="token">ⓐ</span> Test each prime, in order, to see if it is a factor of <m:math><m:mrow><m:mn>83</m:mn></m:mrow></m:math>, starting with <m:math><m:mrow><m:mn>2</m:mn><m:mo>,</m:mo></m:mrow></m:math> as shown. We will stop when the quotient is smaller than the divisor.</para><table id="fs-id3335859" class="unnumbered" summary="The figure shows a table with six rows and three columns. The first row is a header row and labels the rows “Prime”, “Test”, and “Factor of 83?” Under the “Prime” column, the rows show the numbers 2, 3, 5, 7, and 11. Under the “Test” column, the second row lists “Last digit of 83 is not 0, 2, 4, 6, or 8”. Under the “Factor of 83?” column, all of the rows list “No.” Under the “Test” column, the third row lists “eight plus three equals eleven, and eleven is not divisible by three.”  Under the “Test” column, the fourth row lists “The last digit of eighty-three is not five or zero.” Under the “Test” column, the fifth row lists “eighty-three divided by seven equals eleven point eight, five, seven, ellipses.” Under the “Test” column, the sixth row lists “eighty-three divided by eleven equals seven point five four five ellipses.”">
+<label/>
+<tgroup cols="3">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<thead>
+<row valign="top">
+<entry align="left">
+<emphasis effect="bold">Prime</emphasis></entry>
+<entry align="left"><emphasis effect="bold">Test</emphasis></entry>
+<entry align="left"><emphasis effect="bold">Factor of</emphasis> <m:math><m:mrow><m:mstyle fontweight="bold"><m:mn>83</m:mn></m:mstyle><m:mo>?</m:mo></m:mrow></m:math></entry>
+</row>
+</thead>
+<tbody>
+<row valign="top">
+<entry align="left"><m:math><m:mrow><m:mn>2</m:mn></m:mrow></m:math></entry>
+<entry align="left">Last digit of <m:math><m:mrow><m:mn>83</m:mn></m:mrow></m:math> is not <m:math><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>4</m:mn><m:mo>,</m:mo><m:mn>6</m:mn><m:mo>,</m:mo><m:mtext>or</m:mtext><m:mspace width="0.2em"/><m:mn>8</m:mn><m:mo>.</m:mo></m:mrow></m:math></entry>
+<entry align="left">No.</entry>
+</row>
+<row valign="top">
+<entry align="left"><m:math><m:mrow><m:mn>3</m:mn></m:mrow></m:math></entry>
+<entry align="left"><m:math><m:mrow><m:mn>8</m:mn><m:mo>+</m:mo><m:mn>3</m:mn><m:mo>=</m:mo><m:mn>11</m:mn><m:mo>,</m:mo></m:mrow></m:math> and <m:math><m:mrow><m:mn>11</m:mn></m:mrow></m:math> is not divisible by <m:math><m:mrow><m:mn>3</m:mn><m:mo>.</m:mo></m:mrow></m:math></entry>
+<entry align="left">No.</entry>
+</row>
+<row valign="top">
+<entry align="left"><m:math><m:mrow><m:mn>5</m:mn></m:mrow></m:math></entry>
+<entry align="left">The last digit of <m:math><m:mrow><m:mn>83</m:mn></m:mrow></m:math> is not <m:math><m:mrow><m:mn>5</m:mn></m:mrow></m:math> or <m:math><m:mrow><m:mn>0</m:mn><m:mo>.</m:mo></m:mrow></m:math></entry>
+<entry align="left">No.</entry>
+</row>
+<row valign="top">
+<entry align="left"><m:math><m:mrow><m:mn>7</m:mn></m:mrow></m:math></entry>
+<entry align="left"><m:math><m:mrow><m:mn>83</m:mn><m:mo>÷</m:mo><m:mn>7</m:mn><m:mo>=</m:mo><m:mn>11.857</m:mn><m:mtext>….</m:mtext></m:mrow></m:math></entry>
+<entry align="left">No.</entry>
+</row>
+<row valign="top">
+<entry align="left"><m:math><m:mrow><m:mn>11</m:mn></m:mrow></m:math></entry>
+<entry align="left"><m:math><m:mrow><m:mn>83</m:mn><m:mo>÷</m:mo><m:mn>11</m:mn><m:mo>=</m:mo><m:mn>7.545</m:mn><m:mtext>…</m:mtext></m:mrow></m:math></entry>
+<entry align="left">No.</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<para id="fs-id1755034">We can stop when we get to <m:math><m:mrow><m:mn>11</m:mn></m:mrow></m:math> because the quotient <m:math><m:mrow><m:mtext>(7.545…)</m:mtext></m:mrow></m:math> is less than the divisor.</para>
+<para id="fs-id2431998">We did not find any prime numbers that are factors of <m:math><m:mrow><m:mn>83</m:mn><m:mo>,</m:mo></m:mrow></m:math> so we know <m:math><m:mrow><m:mn>83</m:mn></m:mrow></m:math> is prime.</para>
+<para id="fs-id3002106"><span class="token">ⓑ</span> Test each prime, in order, to see if it is a factor of <m:math><m:mrow><m:mn>77</m:mn><m:mo>.</m:mo></m:mrow></m:math></para><table id="fs-id2371111" class="unnumbered" summary="The figure shows a table with five rows and three columns. The first row is a header row and labels the rows “Prime”, “Test”, and “Factor of 77?” Under the “Prime” column, the rows show the numbers 2, 3, 5, and 7. Under the “Test” column, the second row lists “Last digit is not 0, 2, 4, 6, or 8”. Under the “Factor of 77?” column, the first three rows list “No” and the fourth row lists “Yes.” Under the “Test” column, the third row lists “seven plus seven equals fourteen, and fourteen is not divisible by three.” Under the “Test” column, the fourth row lists “The last digit is not five or zero.” Under the “Test” column, the fifth row lists “seventy-seven divided by eleven equals seven.”"><label/>
+<tgroup cols="3"><colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<thead>
+<row valign="top">
+<entry align="left"><emphasis effect="bold">Prime</emphasis></entry>
+<entry align="left"><emphasis effect="bold">Test</emphasis></entry>
+<entry align="left"><emphasis effect="bold">Factor of <m:math><m:mrow><m:mn>77</m:mn><m:mo>?</m:mo></m:mrow></m:math></emphasis></entry>
+</row>
+</thead>
+<tbody>
+<row valign="top">
+<entry align="left"><m:math><m:mrow><m:mn>2</m:mn></m:mrow></m:math></entry>
+<entry align="left">Last digit is not <m:math><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>4</m:mn><m:mo>,</m:mo><m:mn>6</m:mn><m:mo>,</m:mo><m:mtext>or</m:mtext><m:mspace width="0.2em"/><m:mn>8</m:mn><m:mo>.</m:mo></m:mrow></m:math></entry>
+<entry align="left">No.</entry>
+</row>
+<row valign="top">
+<entry align="left"><m:math><m:mrow><m:mn>3</m:mn></m:mrow></m:math></entry>
+<entry align="left"><m:math><m:mrow><m:mn>7</m:mn><m:mo>+</m:mo><m:mn>7</m:mn><m:mo>=</m:mo><m:mn>14</m:mn><m:mo>,</m:mo></m:mrow></m:math> and <m:math><m:mrow><m:mn>14</m:mn></m:mrow></m:math> is not divisible by <m:math><m:mrow><m:mn>3</m:mn><m:mo>.</m:mo></m:mrow></m:math></entry>
+<entry align="left">No.</entry>
+</row>
+<row valign="top">
+<entry align="left"><m:math><m:mrow><m:mn>5</m:mn></m:mrow></m:math></entry>
+<entry align="left">the last digit is not <m:math><m:mrow><m:mn>5</m:mn></m:mrow></m:math> or <m:math><m:mrow><m:mn>0</m:mn><m:mo>.</m:mo></m:mrow></m:math></entry>
+<entry align="left">No.</entry>
+</row>
+<row valign="top">
+<entry align="left"><m:math><m:mrow><m:mn>7</m:mn></m:mrow></m:math></entry>
+<entry align="left"><m:math><m:mrow><m:mn>77</m:mn><m:mo>÷</m:mo><m:mn>7</m:mn><m:mo>=</m:mo><m:mn>11</m:mn></m:mrow></m:math></entry>
+<entry align="left">Yes.</entry>
+</row>
+</tbody>
+
+</tgroup>
+</table><para id="fs-id2835605">Since <m:math><m:mrow><m:mn>77</m:mn></m:mrow></m:math> is divisible by <m:math><m:mrow><m:mn>7</m:mn><m:mo>,</m:mo></m:mrow></m:math> we know it is not a prime number. It is composite.</para>
+</solution>
+</exercise>
+</example>
+<note id="fs-id2388653" class="try">
+<exercise id="fs-id2388660">
+<problem id="fs-id2924990">
+<para id="fs-id2388657">Identify the number as prime or composite:</para>
+<para id="fs-id2924992"><m:math><m:mrow><m:mn>91</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id2492211">
+<para id="fs-id2492213">composite</para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1171104424147" class="try">
+<exercise id="fs-id2352840">
+<problem id="fs-id2352842">
+<para id="fs-id1171101067266">Identify the number as prime or composite:</para>
+<para id="fs-id2352844"><m:math><m:mrow><m:mn>137</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id2649067">
+<para id="fs-id2649069">prime</para>
+</solution>
+</exercise>
+</note>
+<note id="eip-id1168466680369" class="links-to-literacy">The Links to Literacy activities <emphasis effect="italics">One Hundred Hungry Ants</emphasis>, <emphasis effect="italics">Spunky Monkeys on Parade</emphasis> and <emphasis effect="italics">A Remainder of One</emphasis> will provide you with another view of the topics covered in this section.</note><note id="fs-id2608556" class="media-2"><title>ACCESS ADDITIONAL ONLINE RESOURCES</title><list id="fs-id2200105" display="block">
+<item><link url="http://openstaxcollege.org/l/24Divisrules">Divisibility Rules</link></item>
+<item><link url="http://openstaxcollege.org/l/24Factors">Factors</link></item>
+<item><link url="http://openstaxcollege.org/l/24Factors1">Ex 1: Determine Factors of a Number</link></item>
+<item><link url="http://openstaxcollege.org/l/24Factors2">Ex 2: Determine Factors of a Number</link></item>
+<item><link url="http://openstaxcollege.org/l/24Factors3">Ex 3: Determine Factors of a Number</link></item>
+</list>
+</note></section><section id="fs-id2382506" class="key-concepts"><title>Key Concepts</title><table id="eip-839" class="unnumbered" summary=".">
+<tgroup cols="2"><colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<thead>
+  <row>
+    <entry namest="c1" nameend="c2" align="center">Divisibility Tests</entry>
+  </row>
+</thead>
+<tbody>
+  <row>
+    <entry><emphasis>A number is divisible by</emphasis></entry>
+    <entry/>
+  </row>
+  <row>
+    <entry><emphasis>2</emphasis></entry>
+    <entry>if the last digit is <emphasis>0, 2, 4, 6,</emphasis> or <emphasis>8</emphasis></entry>
+  </row>
+  <row>
+    <entry><emphasis>3</emphasis></entry>
+    <entry>if the sum of the digits is divisible by  <emphasis>3</emphasis></entry>
+  </row>
+  <row>
+    <entry><emphasis>5</emphasis></entry>
+    <entry>if the last digit is <emphasis>5</emphasis> or <emphasis>0</emphasis></entry>
+  </row>
+  <row>
+    <entry><emphasis>6</emphasis></entry>
+    <entry>if divisible by both <emphasis>2</emphasis> and <emphasis>3</emphasis></entry>
+  </row>
+  <row>
+    <entry><emphasis>10</emphasis></entry>
+    <entry>if the last digit is <emphasis>0</emphasis></entry>
+  </row>
+</tbody>
+
+
+
+
+
+
+</tgroup>
+</table><list id="eip-8"><item><emphasis effect="strong">Factors</emphasis>   If <m:math><m:mi>a</m:mi><m:mo>⋅</m:mo><m:mi>b</m:mi><m:mo>=</m:mo><m:mi>m</m:mi></m:math>, then <m:math><m:mi>a</m:mi></m:math>  and  <m:math><m:mi>b</m:mi></m:math> are factors of <m:math><m:mi>m</m:mi></m:math>, and <m:math><m:mi>m</m:mi></m:math> is the product of <m:math><m:mi>a</m:mi></m:math>  and <m:math><m:mi>b</m:mi></m:math>.</item>
+<item><emphasis effect="strong">Find all the factors of a counting number.</emphasis>
+<list id="eip-id1170196371740" list-type="enumerated" number-style="arabic" class="stepwise"><item>Divide the number by each of the counting numbers, in order, until the quotient is smaller than the divisor.
+<list id="eip-id1170196371744" list-type="enumerated" number-style="lower-alpha"><item>If the quotient is a counting number, the divisor and quotient are a pair of factors.</item>
+<item>If the quotient is not a counting number, the divisor is not a factor.</item></list></item>
+<item>List all the factor pairs.</item>
+<item>Write all the factors in order from smallest to largest.</item></list></item>
+<item><emphasis effect="strong">Determine if a number is prime.</emphasis>
+<list id="eip-id1170196371762" list-type="enumerated" number-style="arabic" class="stepwise"><item>Test each of the primes, in order, to see if it is a factor of the number.</item>
+<item>Start with 2 and stop when the quotient is smaller than the divisor or when a prime factor is found.</item>
+<item>If the number has a prime factor, then it is a composite number. If it has no prime factors, then the number is prime.</item></list></item>
+</list></section><section id="fs-id1932978" class="section-exercises">
+<section id="fs-id1932982" class="practice-perfect">
+<title>Practice Makes Perfect</title>
+<para id="fs-id1932987"><emphasis effect="bold">Identify Multiples of Numbers</emphasis> </para><para id="eip-139">In the following exercises, list all the multiples less than <m:math><m:mrow><m:mn>50</m:mn></m:mrow></m:math> for the given number.</para><exercise id="fs-id2648898">
+<problem id="fs-id2648900">
+<para id="fs-id2648902"><m:math><m:mrow><m:mn>2</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1463030">
+<para id="fs-id1463032">2, 4, 6, 8, 10 12, 14, 16, 18, 20, 22, 24, 26, 28, 30, 32, 34, 36, 38, 40, 42, 44, 46, 48</para>
+</solution>
+</exercise>
+<exercise id="fs-id2945589">
+<problem id="fs-id2945591">
+<para id="fs-id2945594"><m:math><m:mrow><m:mn>3</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id2491166">
+<problem id="fs-id2491168">
+<para id="fs-id2491170"><m:math><m:mrow><m:mn>4</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id2438565">
+<para id="fs-id2438567">4, 8, 12, 16, 20, 24, 28, 32, 36, 40, 44, 48</para>
+</solution>
+</exercise>
+<exercise id="fs-id2142206">
+<problem id="fs-id2142208">
+<para id="fs-id2142211"><m:math><m:mrow><m:mn>5</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id2159924">
+<problem id="fs-id2159926">
+<para id="fs-id2159928"><m:math><m:mrow><m:mn>6</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id2806721">
+<para id="fs-id2806723">6, 12, 18, 24, 30, 36, 42, 48</para>
+</solution>
+</exercise>
+<exercise id="fs-id1898539">
+<problem id="fs-id1898541">
+<para id="fs-id1898543"><m:math><m:mrow><m:mn>7</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id2830249">
+<problem id="fs-id2830251">
+<para id="fs-id2830253"><m:math><m:mrow><m:mn>8</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id2319446">
+<para id="fs-id2319448">8, 16, 24, 32, 40, 48</para>
+</solution>
+</exercise>
+<exercise id="fs-id2142909">
+<problem id="fs-id2142911">
+<para id="fs-id2142913"><m:math><m:mrow><m:mn>9</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1919779">
+<problem id="fs-id1919781">
+<para id="fs-id1919783"><m:math><m:mrow><m:mn>10</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1777681">
+<para id="fs-id1777684">10, 20, 30, 40</para>
+</solution>
+</exercise>
+<exercise id="fs-id2133632">
+<problem id="fs-id2133634">
+<para id="fs-id2133636"><m:math><m:mrow><m:mn>12</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<para id="fs-id2751187"><emphasis effect="bold">Use Common Divisibility Tests</emphasis> </para><para id="eip-334">In the following exercises, use the divisibility tests to determine whether each number is divisible by <m:math><m:mrow><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>4</m:mn><m:mo>,</m:mo><m:mn>5</m:mn><m:mo>,</m:mo><m:mn>6</m:mn><m:mo>,</m:mo><m:mtext>and</m:mtext><m:mspace width="0.2em"/><m:mn>10</m:mn><m:mo>.</m:mo></m:mrow></m:math></para><exercise id="fs-id1275833">
+<problem id="fs-id1275835">
+<para id="fs-id1275837"><m:math><m:mrow><m:mn>84</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1899193">
+<para id="fs-id1899195">Divisible by 2, 3, 4, 6</para>
+</solution>
+</exercise>
+<exercise id="fs-id2137515">
+<problem id="fs-id2137517">
+<para id="fs-id2137519"><m:math><m:mrow><m:mn>96</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id2670133">
+<problem id="fs-id2670135">
+<para id="fs-id2670137"><m:math><m:mrow><m:mn>75</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1808301">
+<para id="fs-id1808303">Divisible by 3, 5</para>
+</solution>
+</exercise>
+<exercise id="fs-id2661999">
+<problem id="fs-id2662001">
+<para id="fs-id2662003"><m:math><m:mrow><m:mn>78</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id2308877">
+<problem id="fs-id2308879">
+<para id="fs-id2308881"><m:math><m:mrow><m:mn>168</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id2436810">
+<para id="fs-id2436812">Divisible by 2, 3, 4, 6</para>
+</solution>
+</exercise>
+<exercise id="fs-id4428679">
+<problem id="fs-id4428681">
+<para id="fs-id4428683"><m:math><m:mrow><m:mn>264</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1756662">
+<problem id="fs-id1756664">
+<para id="fs-id1756666"><m:math><m:mrow><m:mn>900</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id2762455">
+<para id="fs-id2762457">Divisible by 2, 3, 4, 5, 6, 10</para>
+</solution>
+</exercise>
+<exercise id="fs-id2379600">
+<problem id="fs-id2379602">
+<para id="fs-id2379604"><m:math><m:mrow><m:mn>800</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id2257959">
+<problem id="fs-id2257961">
+<para id="fs-id2257964"><m:math><m:mrow><m:mn>896</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id2754342">
+<para id="fs-id2754344">Divisible by 2, 4</para>
+</solution>
+</exercise>
+<exercise id="fs-id1597338">
+<problem id="fs-id1597341">
+<para id="fs-id1597343"><m:math><m:mrow><m:mn>942</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1378148">
+<problem id="fs-id1378150">
+<para id="fs-id1378152"><m:math><m:mrow><m:mn>375</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1826050">
+<para id="fs-id1826053">Divisible by 3, 5</para>
+</solution>
+</exercise>
+<exercise id="fs-id1807539">
+<problem id="fs-id1807541">
+<para id="fs-id1807543"><m:math><m:mrow><m:mn>750</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id2221799">
+<problem id="fs-id2221801">
+<para id="fs-id2221803"><m:math><m:mrow><m:mn>350</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id2636590">
+<para id="fs-id2636592">Divisible by 2, 5, 10</para>
+</solution>
+</exercise>
+<exercise id="fs-id2139115">
+<problem id="fs-id2139117">
+<para id="fs-id2139120"><m:math><m:mrow><m:mn>550</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id2385578">
+<problem id="fs-id2385580">
+<para id="fs-id2385582"><m:math><m:mrow><m:mn>1430</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id3013724">
+<para id="fs-id3013726">Divisible by 2, 5, 10</para>
+</solution>
+</exercise>
+<exercise id="fs-id1785849">
+<problem id="fs-id1785852">
+<para id="fs-id1785854"><m:math><m:mrow><m:mn>1080</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1480699">
+<problem id="fs-id1480701">
+<para id="fs-id1480703"><m:math><m:mrow><m:mn>22,335</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1842364">
+<para id="fs-id1842366">Divisible by 3, 5</para>
+</solution>
+</exercise>
+<exercise id="fs-id1969257">
+<problem id="fs-id1969259">
+<para id="fs-id1969261"><m:math><m:mrow><m:mn>39,075</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<para id="fs-id2817222"><emphasis effect="bold">Find All the Factors of a Number</emphasis> </para><para id="eip-505">In the following exercises, find all the factors of the given number.</para><exercise id="fs-id2817229">
+<problem id="fs-id2817231">
+<para id="fs-id2172314"><m:math><m:mrow><m:mn>36</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id2172322">
+<para id="fs-id2172324">1, 2, 3, 4, 6, 9, 12, 18, 36</para>
+</solution>
+</exercise>
+<exercise id="fs-id2307475">
+<problem id="fs-id2307477">
+<para id="fs-id2307480"><m:math><m:mrow><m:mn>42</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id2662819">
+<problem id="fs-id2662821">
+<para id="fs-id2662823"><m:math><m:mrow><m:mn>60</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id2189878">
+<para id="fs-id2189880">1, 2, 3, 4, 5, 6, 10, 12, 15, 20, 30, 60</para>
+</solution>
+</exercise>
+<exercise id="fs-id1931719">
+<problem id="fs-id1931721">
+<para id="fs-id1931723"><m:math><m:mrow><m:mn>48</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id2222884">
+<problem id="fs-id2222886">
+<para id="fs-id2222888"><m:math><m:mrow><m:mn>144</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1807754">
+<para id="fs-id1807756">1, 2, 3, 4, 6, 8, 12, 18, 24, 36, 48, 72,144</para>
+</solution>
+</exercise>
+<exercise id="fs-id1807762">
+<problem id="fs-id1206182">
+<para id="fs-id1206184"><m:math><m:mrow><m:mn>200</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1206193">
+<problem id="fs-id2197000">
+<para id="fs-id2197002"><m:math><m:mrow><m:mn>588</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id2197009">
+<para id="fs-id2496694">1, 2, 3, 4, 6, 7, 12, 14, 21, 28, 42, 49, 84, 98, 147, 196, 294, 588</para>
+</solution>
+</exercise>
+<exercise id="fs-id2496699">
+<problem id="fs-id2496701">
+<para id="fs-id2496703"><m:math><m:mrow><m:mn>576</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<para id="fs-id1328329"><emphasis effect="bold">Identify Prime and Composite Numbers</emphasis> </para><para id="eip-544">In the following exercises, determine if the given number is prime or composite.</para><exercise id="fs-id1328335">
+<problem id="fs-id2967678">
+<para id="fs-id2967680"><m:math><m:mrow><m:mn>43</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id2967688">
+<para id="fs-id1946923">prime</para>
+</solution>
+</exercise>
+<exercise id="fs-id1946929">
+<problem id="fs-id1946931">
+<para id="fs-id1946933"><m:math><m:mrow><m:mn>67</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id2571113">
+<problem id="fs-id2571115">
+<para id="fs-id2571117"><m:math><m:mrow><m:mn>39</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1367633">
+<para id="fs-id1367635">composite</para>
+</solution>
+</exercise>
+<exercise id="fs-id1367640">
+<problem id="fs-id1715426">
+<para id="fs-id1715428"><m:math><m:mrow><m:mn>53</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1715437">
+<problem id="fs-id2340923">
+<para id="fs-id2340925"><m:math><m:mrow><m:mn>71</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id2340932">
+<para id="fs-id2425657">prime</para>
+</solution>
+</exercise>
+<exercise id="fs-id2425663">
+<problem id="fs-id2425665">
+<para id="fs-id2425667"><m:math><m:mrow><m:mn>119</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1597737">
+<problem id="fs-id1597739">
+<para id="fs-id1597742"><m:math><m:mrow><m:mn>481</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id2852874">
+<para id="fs-id2852876">composite</para>
+</solution>
+</exercise>
+<exercise id="fs-id2852882">
+<problem id="fs-id1968900">
+<para id="fs-id1968902"><m:math><m:mrow><m:mn>221</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1968911">
+<problem id="fs-id3436536">
+<para id="fs-id3436539"><m:math><m:mrow><m:mn>209</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id3436546">
+<para id="fs-id2757906">composite</para>
+</solution>
+</exercise>
+<exercise id="fs-id2757911">
+<problem id="fs-id2757913">
+<para id="fs-id2757916"><m:math><m:mrow><m:mn>359</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1800104">
+<problem id="fs-id1800106">
+<para id="fs-id1800108"><m:math><m:mrow><m:mn>667</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id2340905">
+<para id="fs-id2340907">composite</para>
+</solution>
+</exercise>
+<exercise id="fs-id2340912">
+<problem id="fs-id4153356">
+<para id="fs-id4153358"><m:math><m:mrow><m:mn>1771</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1721184" class="everyday">
+<title>Everyday Math</title>
+<exercise id="fs-id1721189">
+<problem id="fs-id1721191">
+<para id="fs-id1721194"><emphasis effect="bold">Banking</emphasis> Frank’s grandmother gave him <m:math><m:mrow><m:mtext>$100</m:mtext></m:mrow></m:math> at his high school graduation. Instead of spending it, Frank opened a bank account. Every week, he added <m:math><m:mrow><m:mtext>$15</m:mtext></m:mrow></m:math> to the account. The table shows how much money Frank had put in the account by the end of each week. Complete the table by filling in the blanks.</para>
+<table id="fs-id1783686" class="unnumbered" summary="This table has nine rows and three columns. The first row is a header row that labels each column. The first column is labeled “Weeks after graduation”, the second is labeled “Total number of dollars Frank put in the account”, and the last is labeled “Simplified Total”. Under the “Weeks after graduation” column are the values: 0, 1, 2, 3, 4, 5, 6, 20, and the letter x. Under the “Total number of dollars Frank put in the account” column are the expressions: 100; 100 plus 15; 100 plus 15 times 2; 100 plus 15 times 3; 100 plus 15 times empty set of brackets; 100 plus empty set of brackets; the last three rows are blank. Under the “Simplified Total” column are the values: 100, 115, 130, the last six rows are blank.">
+<label/>
+<tgroup cols="3">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<thead>
+<row valign="top">
+<entry align="center"><emphasis effect="bold">Weeks after graduation</emphasis></entry>
+<entry align="center"><emphasis effect="bold">Total number of dollars Frank put in the account</emphasis></entry>
+<entry align="center"><emphasis effect="bold">Simplified Total</emphasis></entry>
+</row>
+</thead>
+<tbody>
+<row valign="top">
+<entry align="center"><m:math><m:mrow><m:mn>0</m:mn></m:mrow></m:math></entry>
+<entry align="center"><m:math><m:mrow><m:mn>100</m:mn></m:mrow></m:math></entry>
+<entry align="center"><m:math><m:mrow><m:mn>100</m:mn></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry align="center"><m:math><m:mrow><m:mn>1</m:mn></m:mrow></m:math></entry>
+<entry align="center"><m:math><m:mrow><m:mn>100</m:mn><m:mo>+</m:mo><m:mn>15</m:mn></m:mrow></m:math></entry>
+<entry align="center"><m:math><m:mrow><m:mn>115</m:mn></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry align="center"><m:math><m:mrow><m:mn>2</m:mn></m:mrow></m:math></entry>
+<entry align="center"><m:math><m:mrow><m:mn>100</m:mn><m:mo>+</m:mo><m:mn>15</m:mn><m:mo>⋅</m:mo><m:mn>2</m:mn></m:mrow></m:math></entry>
+<entry align="center"><m:math><m:mrow><m:mn>130</m:mn></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry align="center"><m:math><m:mrow><m:mn>3</m:mn></m:mrow></m:math></entry>
+<entry align="center"><m:math><m:mrow><m:mn>100</m:mn><m:mo>+</m:mo><m:mn>15</m:mn><m:mo>⋅</m:mo><m:mn>3</m:mn></m:mrow></m:math></entry>
+<entry/>
+</row>
+<row valign="top">
+<entry align="center"><m:math><m:mrow><m:mn>4</m:mn></m:mrow></m:math></entry>
+<entry align="center"><m:math><m:mrow><m:mn>100</m:mn><m:mo>+</m:mo><m:mn>15</m:mn><m:mo>⋅</m:mo><m:mo>[</m:mo><m:mspace width="0.2em"/><m:mo>]</m:mo></m:mrow></m:math></entry>
+<entry/>
+</row>
+<row valign="top">
+<entry align="center"><m:math><m:mrow><m:mn>5</m:mn></m:mrow></m:math></entry>
+<entry align="center"><m:math><m:mrow><m:mn>100</m:mn><m:mo>+</m:mo><m:mo>[</m:mo><m:mspace width="0.2em"/><m:mo>]</m:mo></m:mrow></m:math></entry>
+<entry/>
+</row>
+<row valign="top">
+<entry align="center"><m:math><m:mrow><m:mn>6</m:mn></m:mrow></m:math></entry>
+<entry/>
+<entry/>
+</row>
+<row valign="top">
+<entry align="center"><m:math><m:mrow><m:mn>20</m:mn></m:mrow></m:math></entry>
+<entry/>
+<entry/>
+</row>
+<row valign="top">
+<entry align="center"><m:math><m:mrow><m:mi>x</m:mi></m:mrow></m:math></entry>
+<entry/>
+<entry/>
+</row>
+</tbody>
+</tgroup>
+</table>
+</problem>
+<solution id="fs-id2385555">
+<para id="fs-id1167906508368"><newline/><media id="fs-id19495660" alt="This table has nine rows and three columns. The first row is a header row that labels each column. The first column is labeled “Weeks after opening the account”, the second is labeled “Total number of dollars Gina put in the account”, and the last is labeled “Simplified Total”. Under the “Weeks after opening the account” column are the values: 0, 1, 2, 3, 4, 5, 6, 20, and the letter x. Under the “Total number of dollars Gina put in the account” column are the expressions: 75; 75 plus 20; 75 plus 20 times 2; 75 plus 20 times 3; 75 plus 20 times empty set of brackets; 75 plus empty set of brackets; the last three rows are blank. Under the “Simplified Total” column are the values: 75, 95, 115, the last six rows are blank.">
+<image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_02_05_203_img.jpg"/>
+</media></para></solution>
+</exercise>
+<exercise id="fs-id2314342">
+<problem id="fs-id2314344">
+<para id="fs-id2314346"><emphasis effect="bold">Banking</emphasis> In March, Gina opened a Christmas club savings account at her bank. She deposited <m:math><m:mrow><m:mtext>$75</m:mtext></m:mrow></m:math> to open the account. Every week, she added <m:math><m:mrow><m:mtext>$20</m:mtext></m:mrow></m:math> to the account. The table shows how much money Gina had put in the account by the end of each week. Complete the table by filling in the blanks.</para>
+<table id="fs-id4201920" class="unnumbered" summary="This table has nine rows and three columns. The first row is a header row that labels each column. The first column is labeled “Weeks after opening the account”, the second is labeled “Total number of dollars Gina put in the account”, and the last is labeled “Simplified Total”. Under the “Weeks after opening the account” column are the values: 0, 1, 2, 3, 4, 5, 6, 20, and the letter x. Under the “Total number of dollars Gina put in the account” column are the expressions: 75; 75 plus 20; 75 plus 20 times 2; 75 plus 20 times 3; 75 plus 20 times empty set of brackets; 75 plus empty set of brackets; the last three rows are blank. Under the “Simplified Total” column are the values: 75, 95, 115, the last six rows are blank.">
+<label/>
+<tgroup cols="3">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<thead>
+<row valign="top">
+<entry align="center"><emphasis effect="bold">Weeks after opening the account</emphasis></entry>
+<entry align="center"><emphasis effect="bold">Total number of dollars Gina put in the account</emphasis></entry>
+<entry align="center"><emphasis effect="bold">Simplified Total</emphasis></entry>
+</row>
+</thead>
+<tbody>
+<row valign="top">
+<entry align="center"><m:math><m:mrow><m:mn>0</m:mn></m:mrow></m:math></entry>
+<entry align="center"><m:math><m:mrow><m:mn>75</m:mn></m:mrow></m:math></entry>
+<entry align="center"><m:math><m:mrow><m:mn>75</m:mn></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry align="center"><m:math><m:mrow><m:mn>1</m:mn></m:mrow></m:math></entry>
+<entry align="center"><m:math><m:mrow><m:mn>75</m:mn><m:mo>+</m:mo><m:mn>20</m:mn></m:mrow></m:math></entry>
+<entry align="center"><m:math><m:mrow><m:mn>95</m:mn></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry align="center"><m:math><m:mrow><m:mn>2</m:mn></m:mrow></m:math></entry>
+<entry align="center"><m:math><m:mrow><m:mn>75</m:mn><m:mo>+</m:mo><m:mn>20</m:mn><m:mo>⋅</m:mo><m:mn>2</m:mn></m:mrow></m:math></entry>
+<entry align="center"><m:math><m:mrow><m:mn>115</m:mn></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry align="center"><m:math><m:mrow><m:mn>3</m:mn></m:mrow></m:math></entry>
+<entry align="center"><m:math><m:mrow><m:mn>75</m:mn><m:mo>+</m:mo><m:mn>20</m:mn><m:mo>⋅</m:mo><m:mn>3</m:mn></m:mrow></m:math></entry>
+<entry/>
+</row>
+<row valign="top">
+<entry align="center"><m:math><m:mrow><m:mn>4</m:mn></m:mrow></m:math></entry>
+<entry align="center"><m:math><m:mrow><m:mn>75</m:mn><m:mo>+</m:mo><m:mn>20</m:mn><m:mo>⋅</m:mo><m:mo>[</m:mo><m:mspace width="0.2em"/><m:mo>]</m:mo></m:mrow></m:math></entry>
+<entry/>
+</row>
+<row valign="top">
+<entry align="center"><m:math><m:mrow><m:mn>5</m:mn></m:mrow></m:math></entry>
+<entry align="center"><m:math><m:mrow><m:mn>75</m:mn><m:mo>+</m:mo><m:mo>[</m:mo><m:mspace width="0.2em"/><m:mo>]</m:mo></m:mrow></m:math></entry>
+<entry/>
+</row>
+<row valign="top">
+<entry align="center"><m:math><m:mrow><m:mn>6</m:mn></m:mrow></m:math></entry>
+<entry/>
+<entry/>
+</row>
+<row valign="top">
+<entry align="center"><m:math><m:mrow><m:mn>20</m:mn></m:mrow></m:math></entry>
+<entry/>
+<entry/>
+</row>
+<row valign="top">
+<entry align="center"><m:math><m:mrow><m:mi>x</m:mi></m:mrow></m:math></entry>
+<entry/>
+<entry/>
+</row>
+</tbody>
+</tgroup>
+</table>
+</problem>
+</exercise>
+</section>
+<section id="fs-id2168145" class="writing">
+<title>Writing Exercises</title>
+<exercise id="fs-id2168150">
+<problem id="fs-id2168152">
+<para id="fs-id3329385">If a number is divisible by <m:math><m:mrow><m:mn>2</m:mn></m:mrow></m:math> and by <m:math><m:mrow><m:mn>3</m:mn><m:mo>,</m:mo></m:mrow></m:math> why is it also divisible by <m:math><m:mrow><m:mn>6</m:mn><m:mo>?</m:mo></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id4163772">
+<problem id="fs-id4163774">
+<para id="fs-id4163776">What is the difference between prime numbers and composite numbers?</para>
+</problem>
+</exercise></section><section id="eip-387" class="self-check"><title>Self Check</title><para id="eip-id1168468374941"><span class="token">ⓐ</span> After completing the exercises, use this checklist to evaluate your mastery of the objectives of this section.
+</para>
+
+<figure id="eip-id1164269515410" class="unnumbered"><label/><media id="eip-id1164271108221" alt="."><image mime-type="image/jpg" src="../../media/CNX_BMath_Figure_AppB_011.jpg"/></media></figure><para id="eip-id1168466075811"><span class="token">ⓑ</span> On a scale of 1–10, how would you rate your mastery of this section in light of your responses on the checklist? How can you improve this?</para></section></section>
+</content>
+<glossary>
+<definition id="fs-id1596534">
+<term>multiple of a number</term>
+<meaning id="fs-id1596539">A number is a multiple of <m:math><m:mi>n</m:mi></m:math> if it is the product of a counting number and <m:math><m:mi>n</m:mi></m:math>.</meaning>
+</definition>
+<definition id="fs-id1596543">
+<term>divisibility</term>
+<meaning id="fs-id2860656">If a number <m:math><m:mi>m</m:mi></m:math> is a multiple of <m:math><m:mi>n</m:mi></m:math>, then we say that <m:math><m:mi>m</m:mi></m:math> is divisible by <m:math><m:mi>n</m:mi></m:math>.</meaning>
+</definition>
+<definition id="fs-id2860661">
+<term>prime number</term>
+<meaning id="fs-id2860666">A prime number is a counting number greater than 1 whose only factors are 1 and itself.</meaning>
+</definition>
+<definition id="fs-id1227087">
+<term>composite number</term>
+<meaning id="fs-id1227093">A composite number is a counting number that is not prime.</meaning>
+</definition>
+</glossary>
+</document>

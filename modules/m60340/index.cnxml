@@ -1,0 +1,1384 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Solve Quadratic Equations by Completing the Square</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m60340</md:content-id>
+  <md:title>Solve Quadratic Equations by Completing the Square</md:title>
+  <md:abstract><para>By the end of this section, you will be able to:</para>
+<list>
+<item>Complete the square of a binomial expression</item>
+<item>Solve quadratic equations of the form <m:math><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>b</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>c</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> by completing the square</item>
+<item>Solve quadratic equations of the form <m:math><m:mrow><m:mi>a</m:mi><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>b</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>c</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> by completing the square</item>
+</list></md:abstract>
+  <md:uuid>6ecf6865-a29b-409f-bab1-8a5748e050e0</md:uuid>
+</metadata>
+
+<content>
+<note id="fs-id1168344117327" class="be-prepared">
+<para id="fs-id1168344479139">Before you get started, take this readiness quiz. If you miss a problem, go back to the section listed and review the material.</para>
+<list id="fs-id1168342992262" list-type="enumerated" number-style="arabic">
+<item>Simplify <m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>12</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math>.<newline/>
+If you missed this problem, review <link target-id="fs-id1169596316193" document="m60194"/>.</item>
+<item>Factor <m:math><m:mrow><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>18</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>81</m:mn></m:mrow></m:math>.<newline/>
+If you missed this problem, review <link document="m60167" target-id="fs-id1168345414926"/>.</item>
+<item>Factor <m:math><m:mrow><m:mn>5</m:mn><m:msup><m:mi>n</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>40</m:mn><m:mi>n</m:mi><m:mo>+</m:mo><m:mn>80</m:mn></m:mrow></m:math>.<newline/>
+If you missed this problem, review <link document="m60167" target-id="fs-id1168341906554"/>.</item>
+</list>
+</note>
+<para id="fs-id1168344332190">So far, we have solved quadratic equations by factoring and using the Square Root Property. In this section, we will solve quadratic equations by a process called ‘completing the square.’</para>
+<section id="fs-id1168344317431">
+<title>Complete The Square of a Binomial Expression</title>
+<para id="fs-id1168344116826">In the last section, we were able to use the Square Root Property to solve the equation <m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>7</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>12</m:mn></m:mrow></m:math> because the left side was a perfect square.</para>
+<equation id="fs-id1168344371772" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:msup><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>7</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mn>2</m:mn></m:msup></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>12</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>7</m:mn></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mo>±</m:mo><m:mspace width="0.2em"/><m:msqrt><m:mrow><m:mn>12</m:mn></m:mrow></m:msqrt></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>7</m:mn></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mo>±</m:mo><m:mspace width="0.2em"/><m:mn>2</m:mn><m:msqrt><m:mn>3</m:mn></m:msqrt></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>y</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>7</m:mn><m:mo>±</m:mo><m:mn>2</m:mn><m:msqrt><m:mn>3</m:mn></m:msqrt></m:mtd></m:mtr></m:mtable></m:math></equation>
+<para id="fs-id1168344342260">We also solved an equation in which the left side was a perfect square trinomial, but we had to rewrite it the form <m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mi>k</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math> in order to use the square root property.</para>
+<equation id="fs-id1168344246627" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>10</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>25</m:mn></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>18</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:msup><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mn>2</m:mn></m:msup></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>18</m:mn></m:mtd></m:mtr></m:mtable></m:math></equation>
+<para id="fs-id1168344120577">What happens if the variable is not part of a perfect square? Can we use algebra to make a perfect square?</para>
+<para id="fs-id1168344157046">Let’s study the binomial square pattern we have used many times. We will look at two examples.</para>
+<equation id="fs-id1168342982303" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd columnalign="left"><m:mtable><m:mtr><m:mtd columnalign="left"><m:msup><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>9</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mn>2</m:mn></m:msup></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>9</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>9</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>9</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>9</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>81</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>18</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>81</m:mn></m:mtd></m:mtr></m:mtable></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mspace width="2em"/><m:mtable><m:mtr><m:mtd columnalign="left"><m:msup><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>7</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mn>2</m:mn></m:msup></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>7</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mspace width="0.2em"/><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>7</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>7</m:mn><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>7</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>49</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>14</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>49</m:mn></m:mtd></m:mtr></m:mtable></m:mtd></m:mtr></m:mtable></m:math></equation>
+<note id="fs-id1168344116786">
+<title>Binomial Squares Pattern</title>
+<para id="fs-id1168344086598">If <m:math><m:mrow><m:mi>a</m:mi><m:mo>,</m:mo><m:mi>b</m:mi></m:mrow></m:math> are real numbers,</para>
+<equation id="fs-id1168745401865" class="unnumbered"><label/><m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>a</m:mi><m:mo>+</m:mo><m:mi>b</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>a</m:mi><m:mi>b</m:mi><m:mo>+</m:mo><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math></equation>
+<media id="fs-id1168745130300" alt="">
+<image mime-type="image/jpeg" src="../../media/CNX_ElemAlg_Figure_10_01_008_img_new.jpg"/>
+</media>
+<equation id="fs-id1168745096198" class="unnumbered"><label/><m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>a</m:mi><m:mo>−</m:mo><m:mi>b</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>a</m:mi><m:mi>b</m:mi><m:mo>+</m:mo><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math></equation>
+<media id="fs-id1168745406939" alt="">
+<image mime-type="image/jpeg" src="../../media/CNX_ElemAlg_Figure_10_01_007_img_new.jpg"/>
+</media>
+</note>
+<para id="fs-id1168344515815">We can use this pattern to “make” a perfect square.</para>
+<para id="fs-id1168344108868">We will start with the expression <m:math><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>6</m:mn><m:mi>x</m:mi></m:mrow></m:math>. Since there is a plus sign between the two terms, we will use the <m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>a</m:mi><m:mo>+</m:mo><m:mi>b</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math> pattern.</para>
+<equation id="fs-id1168344568860" class="unnumbered"><label/><m:math><m:mrow><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>a</m:mi><m:mi>b</m:mi><m:mo>+</m:mo><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>a</m:mi><m:mo>+</m:mo><m:mi>b</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math></equation>
+<para id="fs-id1168343005590">Notice that the first term of <m:math><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>6</m:mn><m:mi>x</m:mi></m:mrow></m:math> is a square, <m:math><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math>.</para>
+<para id="fs-id1168344505212">We now know <m:math><m:mrow><m:mi>a</m:mi><m:mo>=</m:mo><m:mi>x</m:mi></m:mrow></m:math>.</para>
+<para id="fs-id1168344213628">What number can we add to <m:math><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>6</m:mn><m:mi>x</m:mi></m:mrow></m:math> to make a perfect square trinomial?</para>
+<media id="fs-id1168344086586" alt="The image shows the expression a squared plus two a b plus b squared. Below it is the expression x squared plus six x plus a blank space. The x squared is below the a squared, the six x is below two a b and the blank is below the b squared.">
+<image mime-type="image/jpeg" src="../../media/CNX_ElemAlg_Figure_10_02_001_img_new.jpg"/>
+</media>
+<para id="fs-id1168343174293">The middle term of the Binomial Squares Pattern, <m:math><m:mrow><m:mn>2</m:mn><m:mi>a</m:mi><m:mi>b</m:mi></m:mrow></m:math>, is twice the product of the two terms of the binomial. This means twice the product of <m:math><m:mi>x</m:mi></m:math> and some number is <m:math><m:mrow><m:mn>6</m:mn><m:mi>x</m:mi></m:mrow></m:math>. So, two times some number must be six. The number we need is <m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mo>·</m:mo><m:mn>6</m:mn><m:mo>=</m:mo><m:mn>3</m:mn><m:mo>.</m:mo></m:mrow></m:math> The second term in the binomial, <m:math><m:mi>b</m:mi><m:mo>,</m:mo></m:math> must be 3.</para>
+<media id="fs-id1168344215563" alt="The image is similar to the image above. It shows the expression a squared plus two a b plus b squared. Below it is the expression x squared plus two times three times x plus a blank space. The x squared is below the a squared, the two times three times x is below two a b and the blank is below the b squared.">
+<image mime-type="image/jpeg" src="../../media/CNX_ElemAlg_Figure_10_02_002_img_new.jpg"/>
+</media>
+<para id="fs-id1168344247621">We now know <m:math><m:mrow><m:mi>b</m:mi><m:mo>=</m:mo><m:mn>3</m:mn></m:mrow></m:math>.</para>
+<para id="fs-id1168344102150">Now, we just square the second term of the binomial to get the last term of the perfect square trinomial, so we square three to get the last term, nine.</para>
+<media id="fs-id1168343113466" alt="The image shows the expression a squared plus two a b plus b squared. Below it is the expression x squared plus six x plus nine.">
+<image mime-type="image/jpeg" src="../../media/CNX_ElemAlg_Figure_10_02_003_img_new.jpg"/>
+</media>
+<para id="fs-id1168344371899">We can now factor to</para>
+<media id="fs-id1168344314678" alt="The image shows the expression quantity a plus b squared. Below it is the expression quantity x plus three squared.">
+<image mime-type="image/jpeg" src="../../media/CNX_ElemAlg_Figure_10_02_004_img_new.jpg"/>
+</media>
+<para id="fs-id1168344302798">So, we found that adding nine to <m:math><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>6</m:mn><m:mi>x</m:mi></m:mrow></m:math> ‘completes the square,’ and we write it as <m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math>.</para>
+<note id="fs-id1168344336499" class="howto">
+<title>Complete a square.</title>
+<para id="fs-id1168343247032">To complete the square of <m:math><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>b</m:mi><m:mi>x</m:mi></m:mrow></m:math>:</para>
+<list id="fs-id1168742193556" list-type="enumerated" number-style="arabic" class="stepwise">
+<item>Identify <m:math><m:mi>b</m:mi></m:math>, the coefficient of <m:math><m:mi>x</m:mi></m:math>.</item>
+<item>Find <m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>b</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math>, the number to complete the square.</item>
+<item>Add the <m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>b</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math> to <m:math><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>b</m:mi><m:mi>x</m:mi></m:mrow></m:math>.</item>
+</list>
+</note>
+
+<example id="fs-id1168344331852">
+<exercise id="fs-id1168344435160">
+<problem id="fs-id1168343070863">
+<para id="fs-id1168344561288">Complete the square to make a perfect square trinomial. Then, write the result as a binomial square.</para>
+<para id="fs-id1168741922380"><m:math><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>14</m:mn><m:mi>x</m:mi></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168344087732">
+<title>Solution</title>
+<table id="eip-id1172187828372" class="unnumbered unstyled" summary="The image shows the expression x squared plus 14 x with x squared plus b x written above it. The coefficient of x is 14 so b is 14. Find half of b and square it. Half of 14 is seven and seven squared is 49. Add 49 to the binomial to complete the square and get the expression x squared plus 14 x plus 49 which is the quantity x plus seven squared."><label/><tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<tbody>
+<row>
+<entry>The coefficient of <emphasis effect="italics">x</emphasis> is 14.</entry>
+<entry align="center"><media id="eip-id1172184487453" alt="."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_10_02_005a_img_new.jpg"/></media></entry>
+</row>
+<row>
+<entry><m:math><m:mtable><m:mtr/><m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="center"><m:mtext>Find</m:mtext><m:mspace width="0.2em"/><m:msup><m:mrow><m:mo>(</m:mo><m:mfrac><m:mrow><m:mn>1</m:mn></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:mfrac><m:mi>b</m:mi><m:mo>)</m:mo></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo>.</m:mo></m:mtd></m:mtr><m:mtr><m:mtd columnalign="center"><m:msup><m:mrow><m:mo>(</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mo>⋅</m:mo><m:mn>14</m:mn><m:mo>)</m:mo></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mtd></m:mtr><m:mtr><m:mtd columnalign="center"><m:msup><m:mrow><m:mo>(</m:mo><m:mn>7</m:mn><m:mo>)</m:mo></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mtd></m:mtr><m:mtr><m:mtd columnalign="center"><m:mn>49</m:mn></m:mtd></m:mtr></m:mtable></m:math></entry>
+<entry/>
+</row>
+<row>
+<entry>Add 49 to the binomial to complete the square.</entry>
+<entry align="center"><m:math><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>14</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>49</m:mn></m:math></entry>
+</row>
+<row>
+<entry>Rewrite as a binomial square.</entry>
+<entry align="center"><m:math><m:msup><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>7</m:mn><m:mo>)</m:mo></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:math></entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</solution>
+</exercise>
+</example>
+
+<note id="fs-id1168344089612" class="try">
+<exercise id="fs-id1168343031938">
+<problem id="fs-id1168343053437">
+<para id="fs-id1168344593965">Complete the square to make a perfect square trinomial. Write the result as a binomial square.</para>
+<para id="fs-id1168745353116"><m:math><m:mrow><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>12</m:mn><m:mi>y</m:mi></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168344395218">
+<para id="fs-id1168344229384"><m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>6</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1168344186744" class="try">
+<exercise id="fs-id1168344300452">
+<problem id="fs-id1168344087697">
+<para id="fs-id1168344108924">Complete the square to make a perfect square trinomial. Write the result as a binomial square.</para>
+<para id="fs-id1168745117732"><m:math><m:mrow><m:msup><m:mi>z</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>8</m:mn><m:mi>z</m:mi></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168344504812">
+<para id="fs-id1168344188659"><m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>z</m:mi><m:mo>+</m:mo><m:mn>4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<example id="fs-id1168344150117">
+<exercise id="fs-id1168344515896"><problem id="fs-id1168344202943">
+<para id="fs-id1168343112872">Complete the square to make a perfect square trinomial. Then, write the result as a binomial squared. <m:math><m:mrow><m:msup><m:mi>m</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>26</m:mn><m:mi>m</m:mi></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168344088616">
+<title>Solution</title>
+<table id="eip-id1172181422130" class="unnumbered unstyled" summary="The image shows the expression m squared minus 26 m with x squared plus b x written above it. The coefficient of m is negative 26 so b is negative 26. Find half of b and square it. Half of negative 26 is negative 13 and negative 13 squared is 169. Add 169 to the binomial to complete the square and get the expression m squared minus 26 m plus 169 which is the quantity m minus 13 squared."><label/><tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<tbody>
+<row>
+<entry>The coefficient of <emphasis effect="italics">m</emphasis> is −26.</entry>
+<entry align="center"><media id="eip-id1172187857270" alt="The image shows the expression m squared minus 26 m with x squared plus b x written above it. The coefficient of m is negative 26 so b is negative 26. Find half of b and square it. Half of negative 26 is negative 13 and negative 13 squared is 169. Add 169 to the binomial to complete the square and get the expression m squared minus 26 m plus 169 which is the quantity m minus 13 squared."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_10_02_006a_img_new.jpg"/></media></entry>
+</row>
+<row>
+<entry><m:math><m:mtable><m:mtr/><m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="center"><m:mtext>Find</m:mtext><m:mspace width="0.2em"/><m:msup><m:mrow><m:mo>(</m:mo><m:mfrac><m:mrow><m:mn>1</m:mn></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:mfrac><m:mi>b</m:mi><m:mo>)</m:mo></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo>.</m:mo></m:mtd></m:mtr><m:mtr><m:mtd columnalign="center"><m:msup><m:mrow><m:mo>(</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mo>⋅</m:mo><m:mo>(</m:mo><m:mtext>−</m:mtext><m:mn>26</m:mn><m:mo>)</m:mo><m:mo>)</m:mo></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mtd></m:mtr><m:mtr><m:mtd columnalign="center"><m:msup><m:mrow><m:mo>(</m:mo><m:mtext>−</m:mtext><m:mn>13</m:mn><m:mo>)</m:mo></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mtd></m:mtr><m:mtr><m:mtd columnalign="center"><m:mn>169</m:mn></m:mtd></m:mtr></m:mtable></m:math></entry>
+<entry/>
+</row>
+<row>
+<entry>Add 169 to the binomial to complete the square.</entry>
+<entry align="center"><m:math><m:msup><m:mi>m</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>26</m:mn><m:mi>m</m:mi><m:mo>+</m:mo><m:mn>169</m:mn></m:math></entry>
+</row>
+<row>
+<entry>Rewrite as a binomial square.</entry>
+<entry align="center"><m:math><m:msup><m:mrow><m:mo>(</m:mo><m:mi>m</m:mi><m:mo>−</m:mo><m:mn>13</m:mn><m:mo>)</m:mo></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:math></entry>
+</row>
+</tbody>
+</tgroup>
+</table></solution>
+</exercise></example>
+<note id="fs-id1168344082522" class="try">
+<exercise id="fs-id1168343140591">
+<problem id="fs-id1168344193766">
+<para id="fs-id1168342953388">Complete the square to make a perfect square trinomial. Write the result as a binomial square.</para>
+<para id="fs-id1168745100988"><m:math><m:mrow><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>20</m:mn><m:mi>a</m:mi></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168344249462">
+<para id="fs-id1168344216217"><m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>a</m:mi><m:mo>−</m:mo><m:mn>10</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1168343007675" class="try">
+<exercise id="fs-id1168343008633">
+<problem id="fs-id1168344334426">
+<para id="fs-id1168344123712">Complete the square to make a perfect square trinomial. Write the result as a binomial square.</para>
+<para id="fs-id1168745400864"><m:math><m:mrow><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>4</m:mn><m:mi>b</m:mi></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168343174663">
+<para id="fs-id1168343130219"><m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>b</m:mi><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<example id="fs-id1168344236010">
+<exercise id="fs-id1168344340411"><problem id="fs-id1168344214806">
+<para id="fs-id1168344503163">Complete the square to make a perfect square trinomial. Then, write the result as a binomial squared.</para>
+<para id="fs-id1168745370998"><m:math><m:mrow><m:msup><m:mi>u</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>9</m:mn><m:mi>u</m:mi></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168344120472">
+<title>Solution</title>
+<table id="eip-id1172187814201" class="unnumbered unstyled" summary="The image shows the expression u squared minus nine u with x squared plus b x written above it. The coefficient of u is negative nine so b is negative nine. Find half of b and square it. Half of negative nine is negative nine halves and negative nine halves squared is 81 fourths. Add 81 fourths to the binomial to complete the square and get the expression u squared minus nine u plus 81 fourths which is the quantity u minus nine halves squared."><label/><tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<tbody>
+<row>
+<entry>The coefficient of <emphasis effect="italics">u</emphasis> is −9.</entry>
+<entry align="center"><media id="eip-id1172183489616" alt="."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_10_02_007a_img_new.jpg"/></media></entry>
+</row>
+<row>
+<entry><m:math><m:mtable><m:mtr/><m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="center"><m:mtext>Find</m:mtext><m:mspace width="0.2em"/><m:msup><m:mrow><m:mo>(</m:mo><m:mfrac><m:mrow><m:mn>1</m:mn></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:mfrac><m:mi>b</m:mi><m:mo>)</m:mo></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo>.</m:mo></m:mtd></m:mtr><m:mtr><m:mtd columnalign="center"><m:msup><m:mrow><m:mo>(</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mo>⋅</m:mo><m:mo>(</m:mo><m:mtext>−</m:mtext><m:mn>9</m:mn><m:mo>)</m:mo><m:mo>)</m:mo></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mtd></m:mtr><m:mtr><m:mtd columnalign="center"><m:msup><m:mrow><m:mo>(</m:mo><m:mo>−</m:mo><m:mfrac><m:mrow><m:mn>9</m:mn></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:mfrac><m:mo>)</m:mo></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mtd></m:mtr><m:mtr><m:mtd columnalign="center"><m:mfrac><m:mn>81</m:mn><m:mn>4</m:mn></m:mfrac></m:mtd></m:mtr></m:mtable></m:math></entry>
+<entry/>
+</row>
+<row>
+<entry>Add <m:math><m:mfrac><m:mn>81</m:mn><m:mn>4</m:mn></m:mfrac></m:math> to the binomial to complete the square.</entry>
+<entry align="center"><m:math><m:msup><m:mi>u</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>9</m:mn><m:mi>u</m:mi><m:mo>+</m:mo><m:mfrac><m:mn>81</m:mn><m:mn>4</m:mn></m:mfrac></m:math></entry>
+</row>
+<row>
+<entry>Rewrite as a binomial square.</entry>
+<entry align="center"><m:math><m:msup><m:mrow><m:mo>(</m:mo><m:mi>u</m:mi><m:mo>−</m:mo><m:mfrac><m:mn>9</m:mn><m:mn>2</m:mn></m:mfrac><m:mo>)</m:mo></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:math></entry>
+</row>
+</tbody>
+</tgroup>
+</table></solution>
+</exercise></example>
+<note id="fs-id1168344316848" class="try">
+<exercise id="fs-id1168344286664">
+<problem id="fs-id1168343299914">
+<para id="fs-id1168344328040">Complete the square to make a perfect square trinomial. Write the result as a binomial square.</para>
+<para id="fs-id1168741858434"><m:math><m:mrow><m:msup><m:mi>m</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>5</m:mn><m:mi>m</m:mi></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168343245459">
+<para id="fs-id1168344525216"><m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>m</m:mi><m:mo>−</m:mo><m:mfrac><m:mn>5</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1168344295502" class="try">
+<exercise id="fs-id1168344343397">
+<problem id="fs-id1168343127488">
+<para id="fs-id1168343127490">Complete the square to make a perfect square trinomial. Write the result as a binomial square.</para>
+<para id="fs-id1168745104310"><m:math><m:mrow><m:msup><m:mi>n</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>13</m:mn><m:mi>n</m:mi></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168344124234">
+<para id="fs-id1168344449132"><m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>n</m:mi><m:mo>+</m:mo><m:mfrac><m:mrow><m:mn>13</m:mn></m:mrow><m:mn>2</m:mn></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<example id="fs-id1168343046073">
+<exercise id="fs-id1168343046075"><problem id="fs-id1168344441166">
+<para id="fs-id1168344441169">Complete the square to make a perfect square trinomial. Then, write the result as a binomial squared.</para>
+<para id="fs-id1168745132054"><m:math><m:mrow><m:msup><m:mi>p</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>p</m:mi></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168344513882">
+<title>Solution</title>
+<table id="eip-id1172181069126" class="unnumbered unstyled" summary="The image shows the expression p squared one half p with x squared plus b x written above it. The coefficient of p is one half so b is one half. Find half of b and square it. Half of one half is one fourth and one fourth squared is one sixteenth. Add one sixteenth to the binomial to complete the square and get the expression p squared plus one half p plus one sixteenth which is the quantity p plus one fourth squared."><label/><tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<tbody>
+<row>
+<entry>The coefficient of <emphasis effect="italics">p</emphasis> is <m:math><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:math>.</entry>
+<entry align="center"><media id="eip-id1172187965823" alt="."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_10_02_008a_img_new.jpg"/></media></entry>
+</row>
+<row>
+<entry><m:math><m:mtable><m:mtr/><m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="center"><m:mtext>Find</m:mtext><m:mspace width="0.2em"/><m:msup><m:mrow><m:mo>(</m:mo><m:mfrac><m:mrow><m:mn>1</m:mn></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:mfrac><m:mi>b</m:mi><m:mo>)</m:mo></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo>.</m:mo></m:mtd></m:mtr><m:mtr><m:mtd columnalign="center"><m:msup><m:mrow><m:mo>(</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mo>⋅</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mo>)</m:mo></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mtd></m:mtr><m:mtr><m:mtd columnalign="center"><m:msup><m:mrow><m:mo>(</m:mo><m:mfrac><m:mrow><m:mn>1</m:mn></m:mrow><m:mrow><m:mn>4</m:mn></m:mrow></m:mfrac><m:mo>)</m:mo></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mtd></m:mtr><m:mtr><m:mtd columnalign="center"><m:mfrac><m:mn>1</m:mn><m:mn>16</m:mn></m:mfrac></m:mtd></m:mtr></m:mtable></m:math></entry>
+<entry/>
+</row>
+<row>
+<entry>Add <m:math><m:mfrac><m:mn>1</m:mn><m:mn>16</m:mn></m:mfrac></m:math> to the binomial to complete the square.</entry>
+<entry align="center"><m:math><m:msup><m:mi>p</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>p</m:mi><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>16</m:mn></m:mfrac></m:math></entry>
+</row>
+<row>
+<entry>Rewrite as a binomial square.</entry>
+<entry align="center"><m:math><m:msup><m:mrow><m:mo>(</m:mo><m:mi>p</m:mi><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>4</m:mn></m:mfrac><m:mo>)</m:mo></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:math></entry>
+</row>
+
+
+
+</tbody>
+</tgroup>
+</table></solution>
+</exercise></example>
+<note id="fs-id1168343189088" class="try">
+<exercise id="fs-id1168343189091">
+<problem id="fs-id1168344330730">
+<para id="fs-id1168344330732">Complete the square to make a perfect square trinomial. Write the result as a binomial square.</para>
+<para id="fs-id1168745486155"><m:math><m:mrow><m:msup><m:mi>p</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>4</m:mn></m:mfrac><m:mi>p</m:mi></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168343052184">
+<para id="fs-id1168344394811"><m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>p</m:mi><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>8</m:mn></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1168344432226" class="try">
+<exercise id="fs-id1168344415774">
+<problem id="fs-id1168343035868">
+<para id="fs-id1168343035871">Complete the square to make a perfect square trinomial. Write the result as a binomial square.</para>
+<para id="fs-id1168745093947"><m:math><m:mrow><m:msup><m:mi>q</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mfrac><m:mn>2</m:mn><m:mn>3</m:mn></m:mfrac><m:mi>q</m:mi></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168343140177">
+<para id="fs-id1168343045286"><m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>q</m:mi><m:mo>−</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+</section>
+<section id="fs-id1168344235515">
+<title>Solve Quadratic Equations of the Form <emphasis effect="italics">x</emphasis><sup>2</sup> + <emphasis effect="italics">bx</emphasis> + <emphasis effect="italics">c</emphasis> = 0 by completing the square</title>
+<para id="fs-id1168343131362">In solving equations, we must always do the same thing to both sides of the equation. This is true, of course, when we solve a quadratic equation by <term class="no-emphasis">completing the square</term>, too. When we add a term to one side of the equation to make a perfect square trinomial, we must also add the same term to the other side of the equation.</para>
+<para id="fs-id1168343188973">For example, if we start with the equation <m:math><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>6</m:mn><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>40</m:mn></m:mrow></m:math> and we want to complete the square on the left, we will add nine to both sides of the equation.</para>
+<media id="fs-id1168343129139" alt="The image shows the equation x squared plus six x equals 40. Below that the equation is rewritten as x squared plus six x plus blank space equals 40 plus blank space. Below that the equation is rewritten again as x squared plus six x plus nine equals 40 plus nine.">
+<image mime-type="image/jpeg" src="../../media/CNX_ElemAlg_Figure_10_02_009_img_new.jpg"/>
+</media>
+<para id="fs-id1168342992206">Then, we factor on the left and simplify on the right.</para>
+<equation id="fs-id1168344102931" class="unnumbered"><label/><m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>49</m:mn></m:mrow></m:math></equation>
+<para id="fs-id1168344615085">Now the equation is in the form to solve using the Square Root Property. Completing the square is a way to transform an equation into the form we need to be able to use the Square Root Property.</para>
+<example id="fs-id1168344601701">
+<title>How To Solve a Quadratic Equation of the Form <m:math><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>b</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>c</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> by Completing the Square</title>
+<exercise id="fs-id1168344601703">
+<problem id="fs-id1168343024842">
+<para id="fs-id1168343024844">Solve <m:math><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>8</m:mn><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>48</m:mn></m:mrow></m:math> by completing the square.</para>
+</problem>
+<solution id="fs-id1168344448514">
+<title>Solution</title>
+<media id="fs-id1168343111985" alt="The image shows the steps to solve the equation x squared plus eight x equals 48. Step one is to isolate the variable terms on one side and the constant terms on the other. The equation already has all the variables on the left.">
+<image mime-type="image/jpeg" src="../../media/CNX_ElemAlg_Figure_10_02_010a_img_new.jpg"/>
+</media>
+<media id="fs-id1168344233466" alt="Step two is to find the quantity half of b squared, the number to complete the square and add it to both sides of the equation. The coefficient of x is eight so b is eight. Take half of eight, which is four and square it to get 16. Add 16 to both sides of the equation to get x squared plus eight x plus 16 equals 48 plus 16.">
+<image mime-type="image/jpeg" src="../../media/CNX_ElemAlg_Figure_10_02_010b_img_new.jpg"/>
+</media>
+<media id="fs-id1168344511307" alt="Step three is to factor the perfect square trinomial as a binomial square. The left side is the perfect square trinomial x squared plus eight x plus 16 which factors to the quantity x plus four squared. Adding on the right side 48 plus 16 is 64. The equation is now the quantity x plus four squared equals 64.">
+<image mime-type="image/jpeg" src="../../media/CNX_ElemAlg_Figure_10_02_010c_img_new.jpg"/>
+</media>
+<media id="fs-id1168343108709" alt="Step four is to use the square root property to make the equation x plus four equals plus or minus the square root of 64.">
+<image mime-type="image/jpeg" src="../../media/CNX_ElemAlg_Figure_10_02_010d_img_new.jpg"/>
+</media>
+<media id="fs-id1168342955719" alt="Step five is to simplify the radical and then solve the two resulting equations. The square root of 64 is eight. The equation can be written as two equations: x plus four equals eight and x plus four equals negative eight. Solving each equation gives x equals four or negative 12.">
+<image mime-type="image/jpeg" src="../../media/CNX_ElemAlg_Figure_10_02_010e_img_new.jpg"/>
+</media>
+<media id="fs-id1168342981592" alt="Step six is to check the solutions. To check the solutions put each answer in the original equation. Substituting x equals four in the original equation to get four squared plus eight times four equals 48. The left side simplifies to 16 plus 32 which is 48. Substituting x equals negative 12 in the original equation to get negative 12 squared plus eight times negative 12 equals 48. The left side simplifies to 144 minus 96 which is 48.">
+<image mime-type="image/jpeg" src="../../media/CNX_ElemAlg_Figure_10_02_010f_img_new.jpg"/>
+</media>
+</solution>
+</exercise>
+</example>
+<note id="fs-id1168344603372" class="try">
+<exercise id="fs-id1168344603376">
+<problem id="fs-id1168344505224">
+<para id="fs-id1168344505226">Solve <m:math><m:mrow><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>4</m:mn><m:mi>c</m:mi><m:mo>=</m:mo><m:mn>5</m:mn></m:mrow></m:math> by completing the square.</para>
+</problem>
+<solution id="fs-id1168344116534">
+<para id="fs-id1168343141928"><m:math><m:mrow><m:mi>c</m:mi><m:mo>=</m:mo><m:mn>−5</m:mn><m:mo>,</m:mo><m:mi>c</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1168343009070" class="try">
+<exercise id="fs-id1168343183527">
+<problem id="fs-id1168343183530">
+<para id="fs-id1168343183532">Solve <m:math><m:mrow><m:msup><m:mi>d</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>10</m:mn><m:mi>d</m:mi><m:mo>=</m:mo><m:mn>−9</m:mn></m:mrow></m:math> by completing the square.</para>
+</problem>
+<solution id="fs-id1168344501727">
+<para id="fs-id1168344501729"><m:math><m:mrow><m:mi>d</m:mi><m:mo>=</m:mo><m:mn>−9</m:mn><m:mo>,</m:mo><m:mi>d</m:mi><m:mo>=</m:mo><m:mn>−1</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1168344085029" class="howto">
+<title>Solve a quadratic equation of the form <m:math><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>b</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>c</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> by completing the square.</title>
+<list id="fs-id1168745547014" list-type="enumerated" number-style="arabic" class="stepwise">
+<item>Isolate the variable terms on one side and the constant terms on the other.</item>
+<item>Find <m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mo>·</m:mo><m:mi>b</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math>, the number to complete the square. Add it to both sides of the equation.</item>
+<item>Factor the perfect square trinomial as a binomial square.</item>
+<item>Use the Square Root Property.</item>
+<item>Simplify the radical and then solve the two resulting equations.</item>
+<item>Check the solutions.</item>
+</list>
+</note>
+<example id="fs-id1168344298641">
+<exercise id="fs-id1168344298643"><problem id="fs-id1168344080255">
+<para id="fs-id1168344080257">Solve <m:math><m:mrow><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>6</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>16</m:mn></m:mrow></m:math> by completing the square.</para>
+</problem>
+<solution id="fs-id1168343222100">
+<title>Solution</title>
+<table id="eip-id1172183483254" class="unnumbered unstyled" summary="The image shows the steps to solve the equation y squared minus six y equals 16. The equation already has all the variables on the left. The coefficient of y is negative six so b is negative six. Take half of negative six, which is negative three and square it to get nine. Add nine to both sides of the equation to get y squared minus six y plus nine equals 16 plus nine. Factor the perfect square trinomial as a binomial square so that the left side is the quantity y minus three squared. Adding on the right side 16 plus nine is 25. Now use the square root property to make the equation y minus three equals plus or minus the square root of 25. Simplify the square root of 25 to get 5 and write the equation as two equations. One equation is x minus three equals five and the other is x minus three equals negative five. Solve the two resulting equations to get eight or negative two. Check solution by putting each answer in the original equation. Substituting y equals eight in the original equation to get eight squared minus six times eight equals 16. The left side simplifies to 64 minus 48 which is 16. Substituting y equals negative two in the original equation to get negative two squared minus six times negative two equals 16. The left side simplifies to four plus 12 which is 16."><label/><tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<tbody>
+<row>
+<entry namest="c1" nameend="c2">The variable terms are on the left side.</entry>
+<entry><media id="eip-id1172187748470" alt="."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_10_02_011b_img_new.jpg"/></media></entry>
+</row>
+<row>
+<entry namest="c1" nameend="c2">Take half of <m:math><m:mo>−</m:mo><m:mn>6</m:mn></m:math> and square it. <m:math><m:mo>(</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mo>(</m:mo><m:mtext>−</m:mtext><m:mn>6</m:mn><m:mo>)</m:mo><m:msup><m:mo>)</m:mo><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>9</m:mn></m:math></entry>
+<entry><media id="eip-id1172184816382" alt="."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_10_02_011c_img_new.jpg"/></media></entry>
+</row>
+<row>
+<entry namest="c1" nameend="c2">Add 9 to both sides.</entry>
+<entry><media id="eip-id1172181065575" alt="."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_10_02_011d_img_new.jpg"/></media></entry></row>
+<row>
+<entry namest="c1" nameend="c2">Factor the perfect square trinomial as a binomial square.</entry>
+<entry><media id="eip-id1172187905264" alt="."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_10_02_011e_img_new.jpg"/></media></entry></row>
+
+<row>
+<entry namest="c1" nameend="c2">Use the Square Root Property.</entry>
+<entry><media id="eip-id1172187816859" alt="."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_10_02_011f_img_new.jpg"/></media></entry></row>
+<row>
+<entry namest="c1" nameend="c2">Simplify the radical.</entry>
+<entry><media id="eip-id1172183605973" alt="."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_10_02_011g_img_new.jpg"/></media></entry></row>
+<row>
+<entry namest="c1" nameend="c2">Solve for <emphasis effect="italics">y</emphasis>.</entry>
+<entry><media id="eip-id1172183468305" alt="."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_10_02_011h_img_new.jpg"/></media></entry></row>
+<row>
+<entry namest="c1" nameend="c2">Rewrite to show two solutions.</entry>
+<entry><media id="eip-id1172178742709" alt="."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_10_02_011i_img_new.jpg"/></media></entry></row>
+<row>
+<entry namest="c1" nameend="c2">Solve the equations.</entry>
+<entry><media id="eip-id1172183752051" alt="."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_10_02_011j_img_new.jpg"/></media></entry></row>
+<row>
+<entry namest="c1" nameend="c2">Check.<newline/><newline/><media id="eip-id1172184380655" alt="."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_10_02_011a_img_new.jpg"/></media></entry>
+<entry/></row>
+</tbody>
+</tgroup>
+</table></solution>
+</exercise></example>
+<note id="fs-id1168344345227" class="try">
+<exercise id="fs-id1168344345230">
+<problem id="fs-id1168343069736">
+<para id="fs-id1168343069738">Solve <m:math><m:mrow><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>4</m:mn><m:mi>r</m:mi><m:mo>=</m:mo><m:mn>12</m:mn></m:mrow></m:math> by completing the square.</para>
+</problem>
+<solution id="fs-id1168344072415">
+<para id="fs-id1168343222076"><m:math><m:mrow><m:mi>r</m:mi><m:mo>=</m:mo><m:mn>−2</m:mn><m:mo>,</m:mo><m:mi>r</m:mi><m:mo>=</m:mo><m:mn>6</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1168344448919" class="try">
+<exercise id="fs-id1168343239282">
+<problem id="fs-id1168343239284">
+<para id="fs-id1168343239287">Solve <m:math><m:mrow><m:msup><m:mi>t</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>10</m:mn><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>11</m:mn></m:mrow></m:math> by completing the square.</para>
+</problem>
+<solution id="fs-id1168344194027">
+<para id="fs-id1168344194030"><m:math><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>−1</m:mn><m:mo>,</m:mo><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>11</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<example id="fs-id1168343132661">
+<exercise id="fs-id1168344115165"><problem id="fs-id1168344115167">
+<para id="fs-id1168344115170">Solve <m:math><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>−21</m:mn></m:mrow></m:math> by completing the square.</para>
+</problem>
+<solution id="fs-id1168344343624">
+<title>Solution</title>
+<table id="eip-id1172187965825" class="unnumbered unstyled" summary="The image shows the steps to solve the equation x squared plus four x equals negative 21. The equation already has all the variables on the left. The coefficient of x is four so b is four. Take half of four, which is two and square it to get four. Add four to both sides of the equation to get x squared plus four y plus four equals negative 21 plus four. Factor the perfect square trinomial as a binomial square so that the left side is the quantity x plus two squared. Adding on the right side negative 21 plus four is negative 17. Now use the square root property to make the equation x plus two equals plus or minus the square root of negative 17. We cannot take the square root of a negative number. So there is no real solution.">
+<label/><tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<tbody>
+<row>
+<entry namest="c1" nameend="c2">The variable terms are on the left side.</entry>
+<entry><media id="eip-id1172187821680" alt="."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_10_02_012a_img_new.jpg"/></media></entry>
+</row>
+<row>
+<entry namest="c1" nameend="c2">Take half of <m:math><m:mn>4</m:mn></m:math> and square it. <m:math><m:mo>(</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mo>(</m:mo><m:mn>4</m:mn><m:mo>)</m:mo><m:msup><m:mo>)</m:mo><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>4</m:mn></m:math></entry>
+<entry><media id="eip-id1172181067050" alt="."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_10_02_012b_img_new.jpg"/></media></entry>
+</row>
+<row>
+<entry namest="c1" nameend="c2">Add 4 to both sides.</entry>
+<entry><media id="eip-id1172183564149" alt="."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_10_02_012c_img_new.jpg"/></media></entry></row>
+<row>
+<entry namest="c1" nameend="c2">Factor the perfect square trinomial as a binomial square.</entry>
+<entry><media id="eip-id1172184380307" alt="."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_10_02_012d_img_new.jpg"/></media></entry></row>
+
+<row>
+<entry namest="c1" nameend="c2">Use the Square Root Property.</entry>
+<entry><media id="eip-id1172177973786" alt="."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_10_02_012e_img_new.jpg"/></media></entry></row>
+<row>
+<entry namest="c1" nameend="c2">We cannot take the square root of a negative number.</entry>
+<entry>There is no real solution.</entry></row>
+</tbody>
+</tgroup>
+</table>
+</solution>
+</exercise></example>
+<note id="fs-id1168343062472" class="try">
+<exercise id="fs-id1168344319251">
+<problem id="fs-id1168344319253">
+<para id="fs-id1168343238148">Solve <m:math><m:mrow><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>10</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−35</m:mn></m:mrow></m:math> by completing the square.</para>
+</problem>
+<solution id="fs-id1168343096850">
+<para id="fs-id1168344120264">no real solution</para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1168344514796" class="try">
+<exercise id="fs-id1168344514799">
+<problem id="fs-id1168343064373">
+<para id="fs-id1168343064375">Solve <m:math><m:mrow><m:msup><m:mi>z</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>8</m:mn><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>−19</m:mn></m:mrow></m:math> by completing the square.</para>
+</problem>
+<solution id="fs-id1168342968152">
+<para id="fs-id1168343244629">no real solution</para>
+</solution>
+</exercise>
+</note>
+<para id="fs-id1168344303302">In the previous example, there was no real solution because <m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>k</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math> was equal to a negative number.</para>
+<example id="fs-id1168344439578">
+<exercise id="fs-id1168342952885"><problem id="fs-id1168342952888">
+<para id="fs-id1168342952890">Solve <m:math><m:mrow><m:msup><m:mi>p</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>18</m:mn><m:mi>p</m:mi><m:mo>=</m:mo><m:mn>−6</m:mn></m:mrow></m:math> by completing the square.</para>
+</problem>
+<solution id="fs-id1168343024857">
+<title>Solution</title>
+<table id="eip-id1172187797863" class="unnumbered unstyled" summary="The image show the steps to solve the equation p squared minus 18 p equals negative six. The equation already has all the variables on the left. The coefficient of p is negative 18 so b is negative 18. Take half of negative 18, which is negative nine and square it to get 81. Add 81 to both sides of the equation to get p squared minus 18 p plus 81 equals negative six plus 81. Factor the perfect square trinomial as a binomial square so that the left side is the quantity p minus nine squared. Adding on the right side negative six plus 81 is 75. Now use the square root property to make the equation p minus nine equals plus or minus the square root of 75. Simplify the square root of 75 to get five square root of three and write the equation as two equations. One equation is p minus nine equals five square root of three and the other is p minus nine equals negative five square root of three. Solve the two resulting equations to get nine plus five square root of three and nine minus f square root of three. Check solution by putting each answer in the original equation. Substituting p equals nine plus five square root of three in the original equation to get the quantity nine plus five square root of three squared minus 18 times the quantity nine plus five square root of three equals negative six. The left side simplifies to 81 plus 90 square root of three plus 75 minus 162 minus 90 square root of three. Combining like terms this will reduce to negative six. Substituting p equals nine minus five square root of three in the original equation to get the quantity nine minus five square root of three squared minus 18 times the quantity nine minus five square root of three equals negative six. The left side simplifies to 81 minus 90 square root of three plus 75 minus 162 plus 90 square root of three. Combining like terms this will reduce to negative six.">
+<label/><tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<tbody>
+<row>
+<entry namest="c1" nameend="c2">The variable terms are on the left side.</entry>
+<entry><media id="eip-id1172187984516" alt="."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_10_02_013b_img_new.jpg"/></media></entry>
+</row>
+<row>
+<entry namest="c1" nameend="c2">Take half of <m:math><m:mtext>−</m:mtext><m:mn>18</m:mn></m:math> and square it. <m:math><m:mo>(</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mo>(</m:mo><m:mtext>−</m:mtext><m:mn>18</m:mn><m:mo>)</m:mo><m:msup><m:mo>)</m:mo><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>81</m:mn></m:math></entry>
+<entry><media id="eip-id1172188110670" alt="."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_10_02_013c_img_new.jpg"/></media></entry>
+</row>
+<row>
+<entry namest="c1" nameend="c2">Add 81 to both sides.</entry>
+<entry><media id="eip-id1172187984574" alt="."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_10_02_013d_img_new.jpg"/></media></entry></row>
+<row>
+<entry namest="c1" nameend="c2">Factor the perfect square trinomial as a binomial square.</entry>
+<entry><media id="eip-id1172188103186" alt="."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_10_02_013e_img_new.jpg"/></media></entry></row>
+
+<row>
+<entry namest="c1" nameend="c2">Use the Square Root Property.</entry>
+<entry><media id="eip-id1172184527572" alt="."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_10_02_013f_img_new.jpg"/></media></entry></row>
+<row>
+<entry namest="c1" nameend="c2">Simplify the radical.</entry>
+<entry><media id="eip-id1172178051038" alt="."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_10_02_013g_img_new.jpg"/></media></entry></row>
+<row>
+<entry namest="c1" nameend="c2">Solve for <emphasis effect="italics">p.</emphasis></entry>
+<entry><media id="eip-id1172187940786" alt="."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_10_02_013h_img_new.jpg"/></media></entry></row>
+<row>
+<entry namest="c1" nameend="c2">Rewrite to show two solutions.</entry>
+<entry><media id="eip-id1172187828716" alt="."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_10_02_013i_img_new.jpg"/></media></entry>
+</row>
+<row>
+<entry namest="c1" nameend="c2">Check.<newline/>
+<media id="eip-id1172187951399" alt="."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_10_02_013a_img_new.jpg"/></media></entry>
+<entry/></row>
+</tbody>
+</tgroup>
+</table>
+<para id="fs-id1168344357923">Another way to check this would be to use a calculator. Evaluate <m:math><m:mrow><m:msup><m:mi>p</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>18</m:mn><m:mi>p</m:mi></m:mrow></m:math> for both of the solutions. The answer should be <m:math><m:mrow><m:mn>−6</m:mn></m:mrow></m:math>.</para>
+</solution>
+</exercise></example>
+<note id="fs-id1168343002020" class="try">
+<exercise id="fs-id1168344149912">
+<problem id="fs-id1168344149914">
+<para id="fs-id1168344149916">Solve <m:math><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>16</m:mn><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>−16</m:mn></m:mrow></m:math> by completing the square.</para>
+</problem>
+<solution id="fs-id1168344478008">
+<para id="fs-id1168344478010"><m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>8</m:mn><m:mo>±</m:mo><m:mn>4</m:mn><m:msqrt><m:mn>3</m:mn></m:msqrt></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1168343161343" class="try">
+<exercise id="fs-id1168343188152">
+<problem id="fs-id1168343188154">
+<para id="fs-id1168343003423">Solve <m:math><m:mrow><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>8</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>11</m:mn></m:mrow></m:math> by completing the square.</para>
+</problem>
+<solution id="fs-id1168344441578">
+<para id="fs-id1168344441581"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−4</m:mn><m:mo>±</m:mo><m:mn>3</m:mn><m:msqrt><m:mn>3</m:mn></m:msqrt></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<para id="fs-id1168342992517">We will start the next example by isolating the variable terms on the left side of the equation.</para>
+<example id="fs-id1168342992520">
+<exercise id="fs-id1168344311082"><problem id="fs-id1168344311084">
+<para id="fs-id1168344311086">Solve <m:math><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>10</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn><m:mo>=</m:mo><m:mn>15</m:mn></m:mrow></m:math> by completing the square.</para>
+</problem>
+<solution id="fs-id1168344578060">
+<title>Solution</title>
+<table id="eip-id1172187400996" class="unnumbered unstyled" summary="The image shows the steps to solve the equation x squared plus ten x plus four equals 15. The equation already has all the variables on the left but the constant four needs to be subtracted from both sides to get the constants on the right. The equation is now x squared plus ten x equals 11. The coefficient of x is ten so b is ten. Take half of ten, which is five and square it to get 25. Add 25 to both sides of the equation to get x squared plus ten x plus 25 equals 11 plus 25. Factor the perfect square trinomial as a binomial square so that the left side is the quantity x plus five squared. Adding on the right side 11 plus 25 is 36. Now use the square root property to make the equation x plus five equals plus or minus the square root of 36. Simplify the square root of 36 to get six and write the equation as two equations. One equation is x plus five equals six and the other is x plus five equals negative six. Solve the two resulting equations to get one and negative 11. Check solution by putting each answer in the original equation. Substituting x equals one in the original equation to get one squared plus ten times one plus four which simplifies to one plus ten plus four which is 15. Substituting x equals negative 11 in the original equation to get negative 11 squared plus ten times negative 11 plus four which simplifies to 121 minus 110 plus four which is also 15."><label/><tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<tbody>
+<row>
+<entry namest="c1" nameend="c2">The variable terms are on the left side.</entry>
+<entry><media id="eip-id1172186660196" alt="."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_10_02_014b_img_new.jpg"/></media></entry>
+</row>
+<row>
+<entry namest="c1" nameend="c2">Subtract <m:math><m:mn>4</m:mn></m:math> to get the constant terms on the right side. </entry>
+<entry><media id="eip-id1172182450050" alt="."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_10_02_014c_img_new.jpg"/></media></entry>
+</row>
+<row>
+<entry namest="c1" nameend="c2">Take half of 10 and square it. <m:math><m:mo>(</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mo>(</m:mo><m:mn>10</m:mn><m:mo>)</m:mo><m:msup><m:mo>)</m:mo><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>25</m:mn></m:math></entry>
+<entry><media id="eip-id1172187552048" alt="."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_10_02_014d_img_new.jpg"/></media></entry></row>
+<row>
+<entry namest="c1" nameend="c2">Add 25 to both sides.</entry>
+<entry><media id="eip-id1172189072514" alt="."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_10_02_014e_img_new.jpg"/></media></entry></row>
+
+<row>
+<entry namest="c1" nameend="c2">Factor the perfect square trinomial as a binomial square.</entry>
+<entry><media id="eip-id1172189126248" alt="."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_10_02_014f_img_new.jpg"/></media></entry></row>
+<row>
+<entry namest="c1" nameend="c2">Use the Square Root Property.</entry>
+<entry><media id="eip-id1172180057958" alt="."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_10_02_014g_img_new.jpg"/></media></entry></row>
+
+<row>
+<entry namest="c1" nameend="c2">Simplify the radical.</entry>
+<entry><media id="eip-id1172187686976" alt="."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_10_02_014h_img_new.jpg"/></media></entry></row>
+<row>
+<entry namest="c1" nameend="c2">Solve for <emphasis effect="italics">x.</emphasis></entry>
+<entry><media id="eip-id1172187645190" alt="."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_10_02_014i_img_new.jpg"/></media></entry></row>
+<row>
+<entry namest="c1" nameend="c2">Rewrite to show two equations.</entry>
+<entry><media id="eip-id1172185591564" alt="."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_10_02_014j_img_new.jpg"/></media></entry></row>
+<row>
+<entry namest="c1" nameend="c2">Solve the equations.</entry>
+<entry><media id="eip-id1172185623132" alt="."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_10_02_014k_img_new.jpg"/></media></entry></row>
+<row>
+<entry namest="c1" nameend="c2">Check.<newline/><media id="eip-id1172185573493" alt="."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_10_02_014a_img_new.jpg"/></media></entry>
+<entry/></row>
+</tbody>
+</tgroup>
+</table></solution>
+</exercise></example>
+<note id="fs-id1168344418872" class="try">
+<exercise id="fs-id1168344387307">
+<problem id="fs-id1168344387309">
+<para id="fs-id1168344387311">Solve <m:math><m:mrow><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>4</m:mn><m:mi>a</m:mi><m:mo>+</m:mo><m:mn>9</m:mn><m:mo>=</m:mo><m:mn>30</m:mn></m:mrow></m:math> by completing the square.</para>
+</problem>
+<solution id="fs-id1168344441109">
+<para id="fs-id1168344441112"><m:math><m:mrow><m:mi>a</m:mi><m:mo>=</m:mo><m:mn>−7</m:mn><m:mo>,</m:mo><m:mi>a</m:mi><m:mo>=</m:mo><m:mn>3</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1168344579803" class="try">
+<exercise id="fs-id1168343052492">
+<problem id="fs-id1168343052494">
+<para id="fs-id1168343009058">Solve <m:math><m:mrow><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>8</m:mn><m:mi>b</m:mi><m:mo>−</m:mo><m:mn>4</m:mn><m:mo>=</m:mo><m:mn>16</m:mn></m:mrow></m:math> by completing the square.</para>
+</problem>
+<solution id="fs-id1168343244483">
+<para id="fs-id1168343244486"><m:math><m:mrow><m:mi>b</m:mi><m:mo>=</m:mo><m:mn>−10</m:mn><m:mo>,</m:mo><m:mi>b</m:mi><m:mo>=</m:mo><m:mn>−2</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<para id="fs-id1168344478057">To solve the next equation, we must first collect all the variable terms to the left side of the equation. Then, we proceed as we did in the previous examples.</para>
+<example id="fs-id1168344478062">
+<exercise id="fs-id1168343193274">
+<problem id="fs-id1168343193276">
+<para id="fs-id1168343193278">Solve <m:math><m:mrow><m:msup><m:mi>n</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>3</m:mn><m:mi>n</m:mi><m:mo>+</m:mo><m:mn>11</m:mn></m:mrow></m:math> by completing the square.</para>
+</problem>
+<solution id="fs-id1168344281874">
+<title>Solution</title>
+<para id="fs-id1168344213751"><table id="eip-id1172189014997" class="unnumbered unstyled" summary="The image shows the steps to solve the equation n squared equals three n plus 11. Subtract three n to get the variables terms on the left side. The equation is now n squared minus three n equals 11. The coefficient of n is negative three so b is negative three. Take half of negative three, which is negative three halves and square it to get nine fourths. Add nine fourths to both sides of the equation to get n squared minus three n plus nine fourths equals 11 plus nine fourths. Factor the perfect square trinomial as a binomial square so that the left side is the quantity n minus three halves squared. Adding on the right side 11 plus nine fourths is 53 fourths. Now use the square root property to make the equation n minus three halves equals plus or minus the square root of 53 fourths. Simplify the square root of 53 fourths to get the square root of 53 over two and write the equation as two equations. One equation is n minus three halves equals the square root of 53 over two and the other is n minus three halves equals negative square root of 53 over two. Solve the two resulting equations to get three halves plus the square root of 53 over two and three halves plus the square root of 53 over two. Checking the solution is left to the student.">
+<label/><tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<tbody>
+<row>
+<entry namest="c1" nameend="c2"/>
+<entry><media id="eip-id1172187646407" alt="."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_10_02_015a_img_new.jpg"/></media></entry>
+</row>
+<row>
+<entry namest="c1" nameend="c2">Subtract 3<emphasis effect="italics">n</emphasis> to get the variable terms on the left side.</entry>
+<entry><media id="eip-id1172189261475" alt="."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_10_02_015b_img_new.jpg"/></media></entry>
+</row>
+<row>
+<entry namest="c1" nameend="c2">Take half of <m:math><m:mtext>−</m:mtext><m:mn>3</m:mn></m:math> and square it. <m:math><m:mo>(</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mo>(</m:mo><m:mtext>−</m:mtext><m:mn>3</m:mn><m:mo>)</m:mo><m:msup><m:mo>)</m:mo><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mfrac><m:mn>9</m:mn><m:mn>4</m:mn></m:mfrac></m:math></entry>
+<entry><media id="eip-id1172187706103" alt="."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_10_02_015c_img_new.jpg"/></media></entry>
+</row>
+<row>
+<entry namest="c1" nameend="c2">Add <m:math><m:mfrac><m:mn>9</m:mn><m:mn>4</m:mn></m:mfrac></m:math> to both sides.</entry>
+<entry><media id="eip-id1172188860081" alt="."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_10_02_015d_img_new.jpg"/></media></entry></row>
+<row>
+<entry namest="c1" nameend="c2">Factor the perfect square trinomial as a binomial square.</entry>
+<entry><media id="eip-id1172189030655" alt="."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_10_02_015e_img_new.jpg"/></media></entry></row>
+
+<row>
+<entry namest="c1" nameend="c2">Add the fractions on the right side.</entry>
+<entry><media id="eip-id1172187572997" alt="."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_10_02_015f_img_new.jpg"/></media></entry></row>
+<row>
+<entry namest="c1" nameend="c2">Use the Square Root Property.</entry>
+<entry><media id="eip-id1172182549203" alt="."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_10_02_015g_img_new.jpg"/></media></entry></row>
+
+<row>
+<entry namest="c1" nameend="c2">Simplify the radical.</entry>
+<entry><media id="eip-id1172187218790" alt="."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_10_02_015h_img_new.jpg"/></media></entry></row>
+<row>
+<entry namest="c1" nameend="c2">Solve for <emphasis effect="italics">n.</emphasis></entry>
+<entry><media id="eip-id1172188999246" alt="."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_10_02_015i_img_new.jpg"/></media></entry></row>
+<row>
+<entry namest="c1" nameend="c2">Rewrite to show two equations.</entry>
+<entry><media id="eip-id1172186020455" alt="."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_10_02_015j_img_new.jpg"/></media></entry></row>
+<row>
+<entry namest="c1" nameend="c2">Check. We leave the check for you! </entry>
+<entry/></row>
+</tbody>
+</tgroup>
+</table>
+</para></solution>
+</exercise>
+</example>
+<note id="fs-id1168344102677" class="try">
+<exercise id="fs-id1168344459190">
+<problem id="fs-id1168344459192">
+<para id="fs-id1168344459194">Solve <m:math><m:mrow><m:msup><m:mi>p</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>5</m:mn><m:mi>p</m:mi><m:mo>+</m:mo><m:mn>9</m:mn></m:mrow></m:math> by completing the square.</para>
+</problem>
+<solution id="fs-id1168344116217">
+<para id="fs-id1168343025307"><m:math><m:mrow><m:mi>p</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>5</m:mn><m:mn>2</m:mn></m:mfrac><m:mo>±</m:mo><m:mfrac><m:mrow><m:msqrt><m:mrow><m:mn>61</m:mn></m:mrow></m:msqrt></m:mrow><m:mn>2</m:mn></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1168344089293" class="try">
+<exercise id="fs-id1168343059657">
+<problem id="fs-id1168343059659">
+<para id="fs-id1168343059661">Solve <m:math><m:mrow><m:msup><m:mi>q</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>7</m:mn><m:mi>q</m:mi><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow></m:math> by completing the square.</para>
+</problem>
+<solution id="fs-id1168344363130">
+<para id="fs-id1168344554841"><m:math><m:mrow><m:mi>q</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>7</m:mn><m:mn>2</m:mn></m:mfrac><m:mo>±</m:mo><m:mfrac><m:mrow><m:msqrt><m:mrow><m:mn>37</m:mn></m:mrow></m:msqrt></m:mrow><m:mn>2</m:mn></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<para id="fs-id1168343161076">Notice that the left side of the next equation is in factored form. But the right side is not zero, so we cannot use the Zero Product Property. Instead, we multiply the factors and then put the equation into the standard form to solve by completing the square.</para>
+<example id="fs-id1168343096947">
+<exercise id="fs-id1168343096949"><problem id="fs-id1168343114382">
+<para id="fs-id1168343114384">Solve <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>9</m:mn></m:mrow></m:math> by completing the square.</para>
+</problem>
+<solution id="fs-id1168344523295">
+<title>Solution</title>
+<table id="eip-id1172181027030" class="unnumbered unstyled" summary="The image show the steps to solve the equation quantity x minus three times quantity x plus five equals nine. Multiply the binomials on the left so that the equation becomes x squared plus two x minus 15 equals nine. Add 15 to both sides to get only the variables terms on the left side. The equation is now x squared plus two x equals 24. The coefficient of x is two so b is two. Take half two, which is one and square it to get one. Add one to both sides of the equation to x squared plus two x plus one equals 24 plus one. Factor the perfect square trinomial as a binomial square so that the left side is the quantity x plus one squared. Adding on the right side 24 plus one is 25. Now use the square root property to make the equation x plus one equals plus or minus the square root of 25. Simplify the square root of 25 to get five and write the equation as two equations. One equation is x plus one equals five and the other is x plus one equals negative five. Solve the two resulting equations to get four and negative six. Checking the solution is left to the student.">
+<label/><tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<tbody>
+<row>
+<entry namest="c1" nameend="c2"/>
+<entry><media id="eip-id1172188148982" alt="."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_10_02_016a_img_new.jpg"/></media></entry>
+</row>
+<row>
+<entry namest="c1" nameend="c2">We multiply binomials on the left.</entry>
+<entry><media id="eip-id1172187816856" alt="."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_10_02_016b_img_new.jpg"/></media></entry>
+</row>
+<row>
+<entry namest="c1" nameend="c2">Add 15 to get the variable terms on the left side. </entry>
+<entry><media id="eip-id1172183516134" alt="."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_10_02_016c_img_new.jpg"/></media></entry>
+</row>
+<row>
+<entry namest="c1" nameend="c2">Take half of 2 and square it. <m:math><m:mo>(</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mo>(</m:mo><m:mn>2</m:mn><m:mo>)</m:mo><m:msup><m:mo>)</m:mo><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>1</m:mn></m:math></entry>
+<entry><media id="eip-id1172187959727" alt="."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_10_02_016d_img_new.jpg"/></media></entry></row>
+<row>
+<entry namest="c1" nameend="c2">Add 1 to both sides.</entry>
+<entry><media id="eip-id1172183586870" alt="."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_10_02_016e_img_new.jpg"/></media></entry></row>
+
+<row>
+<entry namest="c1" nameend="c2">Factor the perfect square trinomial as a binomial square.</entry>
+<entry><media id="eip-id1172183493355" alt="."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_10_02_016f_img_new.jpg"/></media></entry></row>
+<row>
+<entry namest="c1" nameend="c2">Use the Square Root Property.</entry>
+<entry><media id="eip-id1172183483252" alt="."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_10_02_016g_img_new.jpg"/></media></entry></row>
+
+<row>
+<entry namest="c1" nameend="c2">Solve for <emphasis effect="italics">x</emphasis>.</entry>
+<entry><media id="eip-id1172187823436" alt="."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_10_02_016h_img_new.jpg"/></media></entry></row>
+<row>
+<entry namest="c1" nameend="c2">Rewite to show two solutions.</entry>
+<entry><media id="eip-id1172187795885" alt="."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_10_02_016i_img_new.jpg"/></media></entry></row>
+<row>
+<entry namest="c1" nameend="c2">Simplify.</entry>
+<entry><media id="eip-id1172181060700" alt="."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_10_02_016j_img_new.jpg"/></media></entry></row>
+<row>
+<entry namest="c1" nameend="c2">Check. We leave the check for you! </entry>
+<entry/></row>
+
+</tbody>
+</tgroup>
+</table>
+</solution>
+</exercise></example>
+<note id="fs-id1168344331667" class="try">
+<exercise id="fs-id1168343184290">
+<problem id="fs-id1168343184292">
+<para id="fs-id1168343184295">Solve <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>c</m:mi><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>c</m:mi><m:mo>+</m:mo><m:mn>8</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>7</m:mn></m:mrow></m:math> by completing the square.</para>
+</problem>
+<solution id="fs-id1168343159288">
+<para id="fs-id1168343159290"><m:math><m:mrow><m:mi>c</m:mi><m:mo>=</m:mo><m:mn>−3</m:mn><m:mo>±</m:mo><m:mn>4</m:mn><m:msqrt><m:mn>2</m:mn></m:msqrt></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1168344492716" class="try">
+<exercise id="fs-id1168344555324">
+<problem id="fs-id1168344555326">
+<para id="fs-id1168344555328">Solve <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>d</m:mi><m:mo>−</m:mo><m:mn>7</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>d</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>56</m:mn></m:mrow></m:math> by completing the square.</para>
+</problem>
+<solution id="fs-id1168344316897">
+<para id="fs-id1168344503660"><m:math><m:mrow><m:mi>d</m:mi><m:mo>=</m:mo><m:mn>−7</m:mn><m:mo>,</m:mo><m:mi>d</m:mi><m:mo>=</m:mo><m:mn>11</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+</section>
+<section id="fs-id1168343048803">
+<title>Solve Quadratic Equations of the form <emphasis effect="italics">ax</emphasis><sup>2</sup> + <emphasis effect="italics">bx</emphasis> + <emphasis effect="italics">c</emphasis> = 0 by completing the square</title>
+<para id="fs-id1168343072422">The process of completing the square works best when the leading coefficient is one, so the left side of the equation is of the form <m:math><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>b</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>c</m:mi></m:mrow></m:math>. If the <m:math><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math> term has a coefficient, we take some preliminary steps to make the coefficient equal to one.</para>
+<para id="fs-id1168343128101">Sometimes the coefficient can be factored from all three terms of the trinomial. This will be our strategy in the next example.</para>
+<example id="fs-id1168343128105">
+<exercise id="fs-id1168344602223">
+<problem id="fs-id1168344602225">
+<para id="fs-id1168344602227">Solve <m:math><m:mrow><m:mn>3</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>12</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>15</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> by completing the square.</para>
+</problem>
+<solution id="fs-id1168344301282">
+<title>Solution</title>
+<para id="fs-id1168344329849">To complete the square, we need the coefficient of <m:math><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math> to be one. If we factor out the coefficient of <m:math><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math> as a common factor, we can continue with solving the equation by completing the square.</para>
+<para id="fs-id1168343132333"><table id="eip-id1172187672540" class="unnumbered unstyled" summary="The image shows the steps to solve the equation three x squared minus 12 x minus 15 equals zero. Factor out the greatest common factor of three and divide both sides of the equation by three so that the equation simplifies to x squared minus four x minus five equals zero. Add five to both sides to get only the variables terms on the left side. The equation is now x squared minus four x equals five. The coefficient of x is negative four so b is negative four. Take half negative four, which is negative two and square it to get four. Add four to both sides of the equation to get x squared minus four x plus four equals five plus four. Factor the perfect square trinomial as a binomial square so that the left side is the quantity x minus two squared. Adding on the right side five plus four is nine. Now use the square root property to make the equation x minus two equals plus or minus the square root of nine. Simplify the square root of nine to get three and write the equation as two equations. One equation is x minus two equals three and the other is x minus two equals negative three. Solve the two resulting equations to get five and negative one. Check solution by putting each answer in the original equation. Substituting x equals five in the original equation to get three times five squared minus 12 times five minus 15 which simplifies to 75 minus 60 minus 15 which is zero. Substituting x equals negative one in the original equation to get three times negative one squared minus 12 times negative one minus 15 which simplifies to three plus 12 minus 15 which is zero.">
+<label/><tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<tbody>
+<row>
+<entry namest="c1" nameend="c2"/>
+<entry><media id="eip-id1172189180490" alt="."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_10_02_017b_img_new.jpg"/></media></entry>
+</row>
+<row>
+<entry namest="c1" nameend="c2">Factor out the greatest common factor.</entry>
+<entry><media id="eip-id1172189140756" alt="."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_10_02_017c_img_new.jpg"/></media></entry>
+</row>
+<row>
+<entry namest="c1" nameend="c2">Divide both sides by 3 to isolate the trinomial. </entry>
+<entry><media id="eip-id1172189140730" alt="."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_10_02_017d_img_new.jpg"/></media></entry>
+</row>
+<row>
+<entry namest="c1" nameend="c2">Simplify.</entry>
+<entry><media id="eip-id1172187037997" alt="."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_10_02_017e_img_new.jpg"/></media></entry></row>
+<row>
+<entry namest="c1" nameend="c2">Subtract 5 to get the constant terms on the right.</entry>
+<entry><media id="eip-id1172189133759" alt="."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_10_02_017f_img_new.jpg"/></media></entry></row>
+
+
+
+<row>
+<entry namest="c1" nameend="c2">Take half of 4 and square it. <m:math><m:mo>(</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mo>(</m:mo><m:mn>4</m:mn><m:mo>)</m:mo><m:msup><m:mo>)</m:mo><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>4</m:mn></m:math></entry>
+<entry><media id="eip-id1172182440276" alt="."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_10_02_017g_img_new.jpg"/></media></entry></row>
+<row>
+<entry namest="c1" nameend="c2">Add 4 to both sides.</entry>
+<entry><media id="eip-id1172189048490" alt="."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_10_02_017h_img_new.jpg"/></media></entry></row>
+
+<row>
+<entry namest="c1" nameend="c2">Factor the perfect square trinomial as a binomial square.</entry>
+<entry><media id="eip-id1172186677629" alt="."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_10_02_017i_img_new.jpg"/></media></entry></row>
+<row>
+<entry namest="c1" nameend="c2">Use the Square Root Property.</entry>
+<entry><media id="eip-id1172182679226" alt="."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_10_02_017j_img_new.jpg"/></media></entry></row>
+<row>
+<entry namest="c1" nameend="c2">Solve for <emphasis effect="italics">x.</emphasis></entry>
+<entry><media id="eip-id1172186657305" alt="."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_10_02_017k_img_new.jpg"/></media></entry></row>
+<row>
+<entry namest="c1" nameend="c2">Rewrite to show 2 solutions.</entry>
+<entry><media id="eip-id1172187399982" alt="."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_10_02_017l_img_new.jpg"/></media></entry></row>
+<row>
+<entry namest="c1" nameend="c2">Simplify.</entry>
+<entry><media id="eip-id1172189015269" alt="."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_10_02_017m_img_new.jpg"/></media></entry></row>
+<row>
+<entry namest="c1" nameend="c2">Check.<newline/><media id="eip-id1172189042163" alt="."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_10_02_017a_img_new.jpg"/></media> </entry>
+<entry/></row>
+</tbody>
+</tgroup>
+</table>
+</para></solution>
+</exercise>
+</example>
+<note id="fs-id1168342953212" class="try">
+<exercise id="fs-id1168342953216">
+<problem id="fs-id1168342957563">
+<para id="fs-id1168342957565">Solve <m:math><m:mrow><m:mn>2</m:mn><m:msup><m:mi>m</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>16</m:mn><m:mi>m</m:mi><m:mo>−</m:mo><m:mn>8</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> by completing the square.</para>
+</problem>
+<solution id="fs-id1168343036029">
+<para id="fs-id1168343036031"><m:math><m:mrow><m:mi>m</m:mi><m:mo>=</m:mo><m:mn>−4</m:mn><m:mo>±</m:mo><m:mn>2</m:mn><m:msqrt><m:mn>5</m:mn></m:msqrt></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1168343238311" class="try">
+<exercise id="fs-id1168343238314">
+<problem id="fs-id1168344330300">
+<para id="fs-id1168344330302">Solve <m:math><m:mrow><m:mn>4</m:mn><m:msup><m:mi>n</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>24</m:mn><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>56</m:mn><m:mo>=</m:mo><m:mn>8</m:mn></m:mrow></m:math> by completing the square.</para>
+</problem>
+<solution id="fs-id1168343288093">
+<para id="fs-id1168343288095"><m:math><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>−2</m:mn><m:mo>,</m:mo><m:mn>8</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<para id="fs-id1168342992156">To complete the square, the leading coefficient must be one. When the leading coefficient is not a factor of all the terms, we will divide both sides of the equation by the leading coefficient. This will give us a fraction for the second coefficient. We have already seen how to complete the square with fractions in this section.</para>
+<example id="fs-id1168342992162"><exercise id="fs-id1168342972862">
+<problem id="fs-id1168342972864">
+<para id="fs-id1168342972866">Solve <m:math><m:mrow><m:mn>2</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>20</m:mn></m:mrow></m:math> by completing the square.</para>
+</problem>
+<solution id="fs-id1168343096958">
+<title>Solution</title>
+<para id="fs-id11683434816">Again, our first step will be to make the coefficient of <m:math><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math> be one. By dividing both sides of the equation by the coefficient of <m:math><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math>, we can then continue with solving the equation by completing the square.</para>
+<table id="eip-id11721850902" class="unnumbered unstyled" summary="The image shows the steps to solve the equation two x squared minus three x equals 20. Divide both sides of the equation by two so that the coefficient of x squared is one. The equation becomes x squared minus three halves x equals ten. The coefficient of x is negative three halves so b is negative three halves. Take half negative three halves, which is negative three fourths and square it to get nine sixteenths. Add nine sixteenths to both sides of the equation to get x squared minus three halves x plus nine sixteenths equals ten plus nine sixteenths. Factor the perfect square trinomial as a binomial square so that the left side is the quantity x minus three fourths squared. Adding on the right side ten plus nine sixteenths is 169 sixteenths. Now use the square root property to make the equation x minus three fourths equals plus or minus the square root of 169 sixteenths. Simplify the square root of 169 sixteenths to get 13 fourths and write the equation as two equations. One equation is x minus three fourths equals 13 fourths and the other is x minus three fourths equals negative 13 fourths. Solve the two resulting equations to get four and negative five halves. Checking the solution is left to the student."><label/><tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<tbody>
+<row>
+<entry namest="c1" nameend="c2"/>
+<entry><media id="eip-id1178908334" alt="."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_10_02_018a_img_new.jpg"/></media></entry>
+</row>
+<row>
+<entry namest="c1" nameend="c2">Divide both sides by 2 to get the coefficient of <m:math><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:math> to be 1.</entry>
+<entry><media id="eip-id1172186012" alt="."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_10_02_018b_img_new.jpg"/></media></entry>
+</row>
+<row>
+<entry namest="c1" nameend="c2">Simplify.</entry>
+<entry><media id="eip-id1179140732" alt="."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_10_02_018c_img_new.jpg"/></media></entry>
+</row>
+<row>
+<entry namest="c1" nameend="c2">Take half of <m:math><m:mo>−</m:mo><m:mfrac><m:mn>3</m:mn><m:mn>2</m:mn></m:mfrac></m:math> and square it. <m:math><m:mo>(</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mo>(</m:mo><m:mo>−</m:mo><m:mfrac><m:mn>3</m:mn><m:mn>2</m:mn></m:mfrac><m:mo>)</m:mo><m:msup><m:mo>)</m:mo><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mfrac><m:mn>9</m:mn><m:mn>16</m:mn></m:mfrac></m:math></entry>
+<entry><media id="eip-id11721857881" alt="."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_10_02_018d_img_new.jpg"/></media></entry></row>
+<row>
+<entry namest="c1" nameend="c2">Add <m:math><m:mfrac><m:mn>9</m:mn><m:mn>16</m:mn></m:mfrac></m:math> to both sides.</entry>
+<entry><media id="eip-id117895268" alt="."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_10_02_018e_img_new.jpg"/></media></entry></row>
+<row>
+<entry namest="c1" nameend="c2">Factor the perfect square trinomial as a binomial square.</entry>
+<entry><media id="eip-id111831520" alt="."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_10_02_018f_img_new.jpg"/></media></entry></row>
+<row>
+<entry namest="c1" nameend="c2">Add the fractions on the right side.</entry>
+<entry><media id="eip-id121402197" alt="."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_10_02_018g_img_new.jpg"/></media></entry></row>
+<row>
+<entry namest="c1" nameend="c2">Use the Square Root Property.</entry>
+<entry><media id="eip-id117298577" alt="."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_10_02_018h_img_new.jpg"/></media></entry></row>
+<row>
+<entry namest="c1" nameend="c2">Simplify the radical.</entry>
+<entry><media id="eip-id117295536" alt="."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_10_02_018i_img_new.jpg"/></media></entry></row>
+<row>
+<entry namest="c1" nameend="c2">Solve for <emphasis effect="italics">x.</emphasis></entry>
+<entry><media id="eip-id1172758" alt="."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_10_02_018j_img_new.jpg"/></media></entry></row>
+<row>
+<entry namest="c1" nameend="c2">Rewrite to show 2 solutions.</entry>
+<entry><media id="eip-id11721821766" alt="."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_10_02_018k_img_new.jpg"/></media></entry></row>
+<row>
+<entry namest="c1" nameend="c2">Simplify.</entry>
+<entry><media id="eip-id115792795" alt="."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_10_02_018l_img_new.jpg"/></media></entry></row>
+<row>
+<entry namest="c1" nameend="c2">Check. We leave the check for you. </entry>
+<entry/></row>
+</tbody>
+</tgroup>
+</table>
+</solution>
+</exercise>
+</example><note id="fs-id1168344363282" class="try">
+<exercise id="fs-id1168343190332">
+<problem id="fs-id1168343190334">
+<para id="fs-id1168343190336">Solve <m:math><m:mrow><m:mn>3</m:mn><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>r</m:mi><m:mo>=</m:mo><m:mn>21</m:mn></m:mrow></m:math> by completing the square.</para>
+</problem>
+<solution id="fs-id1168344194045">
+<para id="fs-id1168344194048"><m:math><m:mrow><m:mi>r</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mn>7</m:mn><m:mn>3</m:mn></m:mfrac><m:mo>,</m:mo><m:mi>r</m:mi><m:mo>=</m:mo><m:mn>3</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1168343035876" class="try">
+<exercise id="fs-id1168343035879">
+<problem id="fs-id1168343035881">
+<para id="fs-id1168344235519">Solve <m:math><m:mrow><m:mn>4</m:mn><m:msup><m:mi>t</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>20</m:mn></m:mrow></m:math> by completing the square.</para>
+</problem>
+<solution id="fs-id1168342953580">
+<para id="fs-id1168343237343"><m:math><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mn>5</m:mn><m:mn>2</m:mn></m:mfrac><m:mo>,</m:mo><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>2</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<example id="fs-id1168344371416">
+<exercise id="fs-id1168344371418"><problem id="fs-id1168344371420">
+<para id="fs-id1168344294741">Solve <m:math><m:mrow><m:mn>3</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>4</m:mn></m:mrow></m:math> by completing the square.</para>
+</problem>
+<solution id="fs-id1168343054810">
+<title>Solution</title>
+<para id="fs-id1168343054816">Again, our first step will be to make the coefficient of <m:math><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math> be one. By dividing both sides of the equation by the coefficient of <m:math><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math>, we can then continue with solving the equation by completing the square.</para>
+<table id="eip-id1172188981919" class="unnumbered unstyled" summary="The image shows the steps to solve the equation three x squared plus two x equals 4. Divide both sides of the equation by three so that the coefficient of x squared is one. The equation becomes x squared plus two thirds x equals four thirds. The coefficient of x is two thirds so b is two thirds. Take half two thirds, which is one third and square it to get one ninth. Add one ninth to both sides of the equation to get x squared plus two thirds x plus one ninth equals four thirds plus one ninth. Factor the perfect square trinomial as a binomial square so that the left side is the quantity x plus one third squared. Adding on the right side four thirds plus one ninth is 13 ninths. Now use the square root property to make the equation x plus one third equals plus or minus the square root of 13 ninths. Simplify the square root of 13 ninths to get the square root of 13 over three and write the equation as two equations. One equation is x plus one third equals the square root of 13 over three and the other is x plus one third equals negative square root of 13 over three. Solve the two resulting equations to get negative one third plus the square root of 13 over two and negative one third minus the square root of 13 over two. Checking the solution is left to the student.">
+<label/><tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<tbody>
+<row>
+<entry namest="c1" nameend="c2"/>
+<entry><media id="eip-id1172187650923" alt="."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_10_02_019a_img_new.jpg"/></media></entry>
+</row>
+<row>
+<entry namest="c1" nameend="c2">Divide both sides by 3 to make the coefficient of <m:math><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:math> equal 1.</entry>
+<entry><media id="eip-id1172182143740" alt="."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_10_02_019b_img_new.jpg"/></media></entry>
+</row>
+<row>
+<entry namest="c1" nameend="c2">Simplify. </entry>
+<entry><media id="eip-id1172189031531" alt="."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_10_02_019c_img_new.jpg"/></media></entry>
+</row>
+<row>
+<entry namest="c1" nameend="c2">Take half of <m:math><m:mfrac><m:mn>2</m:mn><m:mn>3</m:mn></m:mfrac></m:math> and square it. <m:math><m:mo>(</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mo>⋅</m:mo><m:mfrac><m:mn>2</m:mn><m:mn>3</m:mn></m:mfrac><m:msup><m:mo>)</m:mo><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>9</m:mn></m:mfrac></m:math></entry>
+<entry><media id="eip-id1172185560333" alt="."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_10_02_019d_img_new.jpg"/></media></entry></row>
+<row>
+<entry namest="c1" nameend="c2">Add <m:math><m:mfrac><m:mn>1</m:mn><m:mn>9</m:mn></m:mfrac></m:math> to both sides.</entry>
+<entry><media id="eip-id1172182436584" alt="."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_10_02_019e_img_new.jpg"/></media></entry></row>
+
+
+
+<row>
+<entry namest="c1" nameend="c2">Factor the perfect square trinomial as a binomial square.</entry>
+<entry><media id="eip-id1172189369815" alt="."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_10_02_019f_img_new.jpg"/></media></entry></row>
+<row>
+<entry namest="c1" nameend="c2">Use the Square Root Property.</entry>
+<entry><media id="eip-id1172186829655" alt="."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_10_02_019g_img_new.jpg"/></media></entry></row>
+
+<row>
+<entry namest="c1" nameend="c2">Simplify the radical.</entry>
+<entry><media id="eip-id1172187646656" alt="."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_10_02_019h_img_new.jpg"/></media></entry></row>
+
+<row>
+<entry namest="c1" nameend="c2">Solve for <emphasis effect="italics">x</emphasis>.</entry>
+<entry><media id="eip-id1172189040651" alt="."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_10_02_019i_img_new.jpg"/></media></entry></row>
+<row>
+<entry namest="c1" nameend="c2">Rewrite to show 2 solutions.</entry>
+<entry><media id="eip-id1172182450434" alt="."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_10_02_019j_img_new.jpg"/></media></entry></row>
+
+<row>
+<entry namest="c1" nameend="c2">Check. We leave the check for you. </entry>
+<entry/></row>
+
+</tbody>
+</tgroup>
+</table>
+
+
+</solution>
+</exercise></example>
+<note id="fs-id1168344555452" class="try">
+<exercise id="fs-id1168344555456">
+<problem id="fs-id1168343023251">
+<para id="fs-id1168343023253">Solve <m:math><m:mrow><m:mn>4</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>12</m:mn></m:mrow></m:math> by completing the square.</para>
+</problem>
+<solution id="fs-id1168343174100">
+<para id="fs-id1168343174103"><m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mn>3</m:mn><m:mn>8</m:mn></m:mfrac><m:mo>±</m:mo><m:mfrac><m:mrow><m:msqrt><m:mrow><m:mn>201</m:mn></m:mrow></m:msqrt></m:mrow><m:mn>8</m:mn></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1168344475548" class="try">
+<exercise id="fs-id1168344554975">
+<problem id="fs-id1168344554977">
+<para id="fs-id1168344554979">Solve <m:math><m:mrow><m:mn>5</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>10</m:mn></m:mrow></m:math> by completing the square.</para>
+</problem>
+<solution id="fs-id1168343212217">
+<para id="fs-id1168343212219"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mn>3</m:mn><m:mrow><m:mn>10</m:mn></m:mrow></m:mfrac><m:mo>±</m:mo><m:mfrac><m:mrow><m:msqrt><m:mrow><m:mn>209</m:mn></m:mrow></m:msqrt></m:mrow><m:mrow><m:mn>10</m:mn></m:mrow></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1168344389757" class="media-2">
+<para id="fs-id1168344389760">Access these online resources for additional instruction and practice with solving quadratic equations by completing the square:</para>
+<list id="fs-id1168344436914" list-type="bulleted" bullet-style="bullet">
+<item><link url="https://openstax.org/l/25Completethesq">Introduction to the method of completing the square</link></item>
+<item><link url="https://openstax.org/l/25Solvebycompsq">How to Solve By Completing the Square</link></item>
+</list>
+</note>
+</section>
+<section id="fs-id1168342953207" class="key-concepts">
+<title>Key Concepts</title>
+<list id="fs-id1168344236215" list-type="bulleted" bullet-style="bullet">
+<item>Binomial Squares Pattern If <m:math><m:mrow><m:mi>a</m:mi><m:mo>,</m:mo><m:mi>b</m:mi></m:mrow></m:math> are real numbers,<newline/>
+<m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>a</m:mi><m:mo>+</m:mo><m:mi>b</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>a</m:mi><m:mi>b</m:mi><m:mo>+</m:mo><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math><newline/>
+<media id="fs-id1168741879475" alt="">
+<image mime-type="image/jpeg" src="../../media/CNX_ElemAlg_Figure_10_05_239_img_new.jpg"/>
+</media><newline/>
+<m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>a</m:mi><m:mo>−</m:mo><m:mi>b</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>a</m:mi><m:mi>b</m:mi><m:mo>+</m:mo><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math><newline/>
+<media id="fs-id1168741992782" alt="">
+<image mime-type="image/jpeg" src="../../media/CNX_ElemAlg_Figure_10_05_238_img_new.jpg"/>
+</media></item>
+<item>Complete a Square<newline/>To complete the square of <m:math><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>b</m:mi><m:mi>x</m:mi></m:mrow></m:math>:
+<list id="fs-id1171791753923" list-type="enumerated" number-style="arabic" class="stepwise">
+<item>Identify <m:math><m:mi>b</m:mi></m:math>, the coefficient of <m:math><m:mi>x</m:mi></m:math>.</item>
+<item>Find <m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>b</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math>, the number to complete the square.</item>
+<item>Add the <m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>b</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math> to <m:math><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>b</m:mi><m:mi>x</m:mi></m:mrow></m:math>.</item>
+</list></item>
+</list>
+</section>
+<section id="fs-id1168343119761" class="section-exercises">
+<section id="fs-id1168343119765" class="practice-perfect">
+<title>Practice Makes Perfect</title>
+<para id="fs-id1168343119770"><emphasis effect="bold">Complete the Square of a Binomial Expression</emphasis></para>
+<para id="fs-id1168745258214">In the following exercises, complete the square to make a perfect square trinomial. Then, write the result as a binomial squared.</para>
+<exercise id="fs-id1168343159316">
+<problem id="fs-id1168343159318">
+<para id="fs-id1168343159320"><m:math><m:mrow><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>10</m:mn><m:mi>a</m:mi></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168344441199">
+<para id="fs-id1168344441201"><m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>a</m:mi><m:mo>+</m:mo><m:mn>5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1168343189229">
+<problem id="fs-id1168343189231">
+<para id="fs-id1168343189233"><m:math><m:mrow><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>12</m:mn><m:mi>b</m:mi></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1168344579605">
+<problem id="fs-id1168344579608">
+<para id="fs-id1168344213786"><m:math><m:mrow><m:msup><m:mi>m</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>18</m:mn><m:mi>m</m:mi></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168344246940">
+<para id="fs-id1168344246942"><m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>m</m:mi><m:mo>+</m:mo><m:mn>9</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1168343218354">
+<problem id="fs-id1168343218356">
+<para id="fs-id1168343218358"><m:math><m:mrow><m:msup><m:mi>n</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>16</m:mn><m:mi>n</m:mi></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1168343127448">
+<problem id="fs-id1168343127450">
+<para id="fs-id1168343127452"><m:math><m:mrow><m:msup><m:mi>m</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>24</m:mn><m:mi>m</m:mi></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168344563411">
+<para id="fs-id1168344563413"><m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>m</m:mi><m:mo>−</m:mo><m:mn>12</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1168344421078">
+<problem id="fs-id1168344421080">
+<para id="fs-id1168344343818"><m:math><m:mrow><m:msup><m:mi>n</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>16</m:mn><m:mi>n</m:mi></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1168343063663">
+<problem id="fs-id1168343063665">
+<para id="fs-id1168343063667"><m:math><m:mrow><m:msup><m:mi>p</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>22</m:mn><m:mi>p</m:mi></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168343181404">
+<para id="fs-id1168343181406"><m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>p</m:mi><m:mo>−</m:mo><m:mn>11</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1168343194102">
+<problem id="fs-id1168343194105">
+<para id="fs-id1168343194107"><m:math><m:mrow><m:msup><m:mi>q</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>6</m:mn><m:mi>q</m:mi></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1168342953269">
+<problem id="fs-id1168342952619">
+<para id="fs-id1168342952621"><m:math><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>9</m:mn><m:mi>x</m:mi></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168342952638">
+<para id="fs-id1168342952640"><m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mfrac><m:mn>9</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1168344234301">
+<problem id="fs-id1168344234303">
+<para id="fs-id1168344234305"><m:math><m:mrow><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>11</m:mn><m:mi>y</m:mi></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1168342957377">
+<problem id="fs-id1168342957379">
+<para id="fs-id1168342957382"><m:math><m:mrow><m:msup><m:mi>p</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac><m:mi>p</m:mi></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168343242901">
+<para id="fs-id1168343242904"><m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>p</m:mi><m:mo>−</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>6</m:mn></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1168343280695">
+<problem id="fs-id1168343280697">
+<para id="fs-id1168343280699"><m:math><m:mrow><m:msup><m:mi>q</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mfrac><m:mn>3</m:mn><m:mn>4</m:mn></m:mfrac><m:mi>q</m:mi></m:mrow></m:math></para>
+</problem>
+</exercise>
+<para id="fs-id1168343114043"><emphasis effect="bold">Solve Quadratic Equations of the Form</emphasis> <m:math><m:mrow><m:mstyle mathvariant="bold"><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>b</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>c</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:mstyle></m:mrow></m:math> <emphasis effect="bold">by Completing the Square</emphasis></para>
+<para id="fs-id1168741803414">In the following exercises, solve by completing the square.</para>
+<exercise id="fs-id1168342972837">
+<problem id="fs-id1168342972839">
+<para id="fs-id1168342972841"><m:math><m:mrow><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>6</m:mn><m:mi>v</m:mi><m:mo>=</m:mo><m:mn>40</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168342957525">
+<para id="fs-id1168342957527"><m:math><m:mrow><m:mi>v</m:mi><m:mo>=</m:mo><m:mn>−10</m:mn><m:mo>,</m:mo><m:mi>v</m:mi><m:mo>=</m:mo><m:mn>4</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1168343288052">
+<problem id="fs-id1168343288054">
+<para id="fs-id1168343288056"><m:math><m:mrow><m:msup><m:mi>w</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>8</m:mn><m:mi>w</m:mi><m:mo>=</m:mo><m:mn>65</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1168344545809">
+<problem id="fs-id1168344545812">
+<para id="fs-id1168344545814"><m:math><m:mrow><m:msup><m:mi>u</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>u</m:mi><m:mo>=</m:mo><m:mn>3</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168342954113">
+<para id="fs-id1168342954115"><m:math><m:mrow><m:mi>u</m:mi><m:mo>=</m:mo><m:mn>−3</m:mn><m:mo>,</m:mo><m:mi>u</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1168342954136">
+<problem id="fs-id1168342954138">
+<para id="fs-id1168342954140"><m:math><m:mrow><m:msup><m:mi>z</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>12</m:mn><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>−11</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1168342954926">
+<problem id="fs-id1168342954929">
+<para id="fs-id1168342954931"><m:math><m:mrow><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>12</m:mn><m:mi>c</m:mi><m:mo>=</m:mo><m:mn>13</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168342954952">
+<para id="fs-id1168342954954"><m:math><m:mrow><m:mi>c</m:mi><m:mo>=</m:mo><m:mn>−1</m:mn><m:mo>,</m:mo><m:mi>c</m:mi><m:mo>=</m:mo><m:mn>13</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1168342956278">
+<problem id="fs-id1168342956280">
+<para id="fs-id1168342956282"><m:math><m:mrow><m:msup><m:mi>d</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>8</m:mn><m:mi>d</m:mi><m:mo>=</m:mo><m:mn>9</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1168342956327">
+<problem id="fs-id1168342956329">
+<para id="fs-id1168342956331"><m:math><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>20</m:mn><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>21</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168342956130">
+<para id="fs-id1168342956132"><m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>−1</m:mn><m:mo>,</m:mo><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>21</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1168342956154">
+<problem id="fs-id1168342956156">
+<para id="fs-id1168342956158"><m:math><m:mrow><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>8</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1168343184325">
+<problem id="fs-id1168343184328">
+<para id="fs-id1168343184330"><m:math><m:mrow><m:msup><m:mi>m</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>4</m:mn><m:mi>m</m:mi><m:mo>=</m:mo><m:mn>−44</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168343184351">
+<para id="fs-id1168343184353">no real solution</para>
+</solution>
+</exercise>
+<exercise id="fs-id1168343184358">
+<problem id="fs-id1168343184361">
+<para id="fs-id1168343184363"><m:math><m:mrow><m:msup><m:mi>n</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>−3</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1168342998722">
+<problem id="fs-id1168342998724">
+<para id="fs-id1168342998726"><m:math><m:mrow><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>6</m:mn><m:mi>r</m:mi><m:mo>=</m:mo><m:mn>−11</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168342998747">
+<para id="fs-id1168342998750">no real solution</para>
+</solution>
+</exercise>
+<exercise id="fs-id1168342998755">
+<problem id="fs-id1168342998757">
+<para id="fs-id1168342998759"><m:math><m:mrow><m:msup><m:mi>t</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>14</m:mn><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>−50</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1168344561355">
+<problem id="fs-id1168344561357">
+<para id="fs-id1168344561359"><m:math><m:mrow><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>10</m:mn><m:mi>a</m:mi><m:mo>=</m:mo><m:mn>−5</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168344561380">
+<para id="fs-id1168344561383"><m:math><m:mrow><m:mi>a</m:mi><m:mo>=</m:mo><m:mn>5</m:mn><m:mo>±</m:mo><m:mn>2</m:mn><m:msqrt><m:mn>5</m:mn></m:msqrt></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1168344561403">
+<problem id="fs-id1168344561405">
+<para id="fs-id1168344561407"><m:math><m:mrow><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>6</m:mn><m:mi>b</m:mi><m:mo>=</m:mo><m:mn>41</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1168342955458">
+<problem id="fs-id1168342955460">
+<para id="fs-id1168342955462"><m:math><m:mrow><m:msup><m:mi>u</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>14</m:mn><m:mi>u</m:mi><m:mo>+</m:mo><m:mn>12</m:mn><m:mo>=</m:mo><m:mn>−1</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168342955488">
+<para id="fs-id1168342955490"><m:math><m:mrow><m:mi>u</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mi>u</m:mi><m:mo>=</m:mo><m:mn>13</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1168344310218">
+<problem id="fs-id1168344310220">
+<para id="fs-id1168344310222"><m:math><m:mrow><m:msup><m:mi>z</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>z</m:mi><m:mo>−</m:mo><m:mn>5</m:mn><m:mo>=</m:mo><m:mn>2</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1168344310270">
+<problem id="fs-id1168344310272">
+<para id="fs-id1168342975571"><m:math><m:mrow><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>9</m:mn><m:mi>v</m:mi><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168342975592">
+<para id="fs-id1168342975595"><m:math><m:mrow><m:mi>v</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>9</m:mn><m:mn>2</m:mn></m:mfrac><m:mo>±</m:mo><m:mfrac><m:mrow><m:msqrt><m:mrow><m:mn>89</m:mn></m:mrow></m:msqrt></m:mrow><m:mn>2</m:mn></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1168342975621">
+<problem id="fs-id1168342975623">
+<para id="fs-id1168342975626"><m:math><m:mrow><m:msup><m:mi>w</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>5</m:mn><m:mi>w</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1168342956029">
+<problem id="fs-id1168342956031">
+<para id="fs-id1168342956033"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>6</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>9</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168342956068">
+<para id="fs-id1168342956070"><m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>−7</m:mn><m:mo>,</m:mo><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>3</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1168344484397">
+<problem id="fs-id1168344484399">
+<para id="fs-id1168344484401"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>9</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>7</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>79</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<para id="fs-id1168344619938"><emphasis effect="bold">Solve Quadratic Equations of the Form</emphasis> <m:math><m:mrow><m:mstyle mathvariant="bold"><m:mrow><m:mi>a</m:mi><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>b</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>c</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:mstyle></m:mrow></m:math> <emphasis effect="bold">by Completing the Square</emphasis></para>
+<para id="fs-id1168741804815">In the following exercises, solve by completing the square.</para>
+<exercise id="fs-id1168344619975">
+<problem id="fs-id1168344619977">
+<para id="fs-id1168344619979"><m:math><m:mrow><m:mn>3</m:mn><m:msup><m:mi>m</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>30</m:mn><m:mi>m</m:mi><m:mo>−</m:mo><m:mn>27</m:mn><m:mo>=</m:mo><m:mn>6</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168344620007">
+<para id="fs-id1168344620009"><m:math><m:mrow><m:mi>m</m:mi><m:mo>=</m:mo><m:mn>−11</m:mn><m:mo>,</m:mo><m:mi>m</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1168342953752">
+<problem id="fs-id1168342953754">
+<para id="fs-id1168342953756"><m:math><m:mrow><m:mn>2</m:mn><m:msup><m:mi>n</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>4</m:mn><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>26</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1168342953806">
+<problem id="fs-id1168344628277">
+<para id="fs-id1168344628279"><m:math><m:mrow><m:mn>2</m:mn><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>c</m:mi><m:mo>=</m:mo><m:mn>6</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168344628300">
+<para id="fs-id1168344628302"><m:math><m:mrow><m:mi>c</m:mi><m:mo>=</m:mo><m:mn>−2</m:mn><m:mo>,</m:mo><m:mi>c</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>3</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1168344628327">
+<problem id="fs-id1168344628329">
+<para id="fs-id1168344628331"><m:math><m:mrow><m:mn>3</m:mn><m:msup><m:mi>d</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>4</m:mn><m:mi>d</m:mi><m:mo>=</m:mo><m:mn>15</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1168344628067">
+<problem id="fs-id1168344628070">
+<para id="fs-id1168344628072"><m:math><m:mrow><m:mn>2</m:mn><m:msup><m:mi>p</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>7</m:mn><m:mi>p</m:mi><m:mo>=</m:mo><m:mn>14</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168344628095">
+<para id="fs-id1168344628097"><m:math><m:mrow><m:mi>p</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mn>7</m:mn><m:mn>4</m:mn></m:mfrac><m:mo>±</m:mo><m:mfrac><m:mrow><m:msqrt><m:mrow><m:mn>161</m:mn></m:mrow></m:msqrt></m:mrow><m:mn>4</m:mn></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1168343118458">
+<problem id="fs-id1168343118460">
+<para id="fs-id1168343118462"><m:math><m:mrow><m:mn>3</m:mn><m:msup><m:mi>q</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>5</m:mn><m:mi>q</m:mi><m:mo>=</m:mo><m:mn>9</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1168343118516" class="everyday">
+<title>Everyday Math</title>
+<exercise id="fs-id1168343118521">
+<problem id="fs-id1168343118523">
+<para id="fs-id1168343118525">Rafi is designing a rectangular playground to have an area of 320 square feet. He wants one side of the playground to be four feet longer than the other side. Solve the equation <m:math><m:mrow><m:msup><m:mi>p</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>4</m:mn><m:mi>p</m:mi><m:mo>=</m:mo><m:mn>320</m:mn></m:mrow></m:math> for <m:math><m:mi>p</m:mi></m:math>, the length of one side of the playground. What is the length of the other side?</para>
+</problem>
+<solution id="fs-id1168344519950">
+<para id="fs-id1168344519952">16 feet, 20 feet</para>
+</solution>
+</exercise>
+<exercise id="fs-id1168344519957">
+<problem id="fs-id1168344519959">
+<para id="fs-id1168344519962">Yvette wants to put a square swimming pool in the corner of her backyard. She will have a 3 foot deck on the south side of the pool and a 9 foot deck on the west side of the pool. She has a total area of 1080 square feet for the pool and two decks. Solve the equation <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>s</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>s</m:mi><m:mo>+</m:mo><m:mn>9</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>1080</m:mn></m:mrow></m:math> for <m:math><m:mi>s</m:mi></m:math>, the length of a side of the pool.</para>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1168344492886" class="writing">
+<title>Writing Exercises</title>
+<exercise id="fs-id1168344492892">
+<problem id="fs-id1168344492894">
+<para id="fs-id1168344492896">Solve the equation <m:math><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>10</m:mn><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>−25</m:mn></m:mrow></m:math> <span class="token">ⓐ</span> by using the Square Root Property and <span class="token">ⓑ</span> by completing the square. <span class="token">ⓒ</span> Which method do you prefer? Why?</para>
+</problem>
+<solution id="fs-id1168344492922">
+<para id="fs-id1168344492924"><span class="token">ⓐ</span> <m:math><m:mrow><m:mn>−5</m:mn></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mn>−5</m:mn></m:mrow></m:math> <span class="token">ⓒ</span> Answers will vary.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1168344492940">
+<problem id="fs-id1168344492942">
+<para id="fs-id1168344492944">Solve the equation <m:math><m:mrow><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>8</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>48</m:mn></m:mrow></m:math> by completing the square and explain all your steps.</para>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1168344401070">
+<title>Self Check</title>
+<para id="fs-id1168344401079"><span class="token">ⓐ</span> After completing the exercises, use this checklist to evaluate your mastery of the objectives of this section.</para>
+<media id="fs-id1168344401091" alt="This table has four rows and four columns. The first row is a header row and it labels each column. The first column is labeled “I can ...”, the second “Confidently”, the third “With some help” and the last “No–I don’t get it”. In the “I can...” column the next row reads “complete the square of a binomial expression.” The next row reads “solve quadratic equations of the form x squared plus b x plus c equals zero by completing the square.” and the last row reads “solve quadratic equations of the form a x squared plus b x plus c equals zero by completing the square.” The remaining columns are blank.">
+<image mime-type="image/jpeg" src="../../media/CNX_ElemAlg_Figure_10_02_201_img_new.jpg"/>
+</media>
+<para id="fs-id1168344401098"><span class="token">ⓑ</span> After reviewing this checklist, what will you do to become confident for all objectives?</para>
+</section>
+</section>
+</content>
+<glossary>
+<definition id="fs-id1168344401109">
+<term>completing the square</term>
+<meaning id="fs-id1168344401114">Completing the square is a method used to solve quadratic equations.</meaning>
+</definition>
+</glossary>
+</document>

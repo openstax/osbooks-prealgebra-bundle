@@ -1,0 +1,1880 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Divide Monomials</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m60165</md:content-id>
+  <md:title>Divide Monomials</md:title>
+  <md:abstract><para>By the end of this section, you will be able to:</para>
+<list>
+<item>Simplify expressions using the Quotient Property for Exponents</item>
+<item>Simplify expressions with zero exponents</item>
+<item>Simplify expressions using the quotient to a Power Property</item>
+<item>Simplify expressions by applying several properties</item>
+<item>Divide monomials</item>
+</list></md:abstract>
+  <md:uuid>e4af7bbf-c6cc-48df-a992-7875445487d5</md:uuid>
+</metadata>
+
+<content>
+<note id="fs-id1169596298776" class="be-prepared">
+<para id="fs-id1169596531910">Before you get started, take this readiness quiz.</para>
+<list id="fs-id1169596536371" list-type="enumerated" number-style="arabic">
+<item>Simplify: <m:math><m:mrow><m:mfrac><m:mn>8</m:mn><m:mrow><m:mn>24</m:mn></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math><newline/>
+If you missed this problem, review <link target-id="fs-id1170654030842" document="m60251"/>.</item>
+<item>Simplify: <m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:msup><m:mi>m</m:mi><m:mn>3</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>5</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math><newline/>
+If you missed this problem, review <link target-id="fs-id1169597539964" document="m60215"/>.</item>
+<item>Simplify: <m:math><m:mrow><m:mfrac><m:mrow><m:mn>12</m:mn><m:mi>x</m:mi></m:mrow><m:mrow><m:mn>12</m:mn><m:mi>y</m:mi></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math><newline/>
+If you missed this problem, review <link target-id="fs-id1170653915457" document="m60251"/>.</item>
+</list>
+</note>
+<section id="fs-id1169596454026"><title>Simplify Expressions Using the Quotient Property for Exponents</title><para id="fs-id1169596315677">Earlier in this chapter, we developed the properties of exponents for multiplication. We summarize these properties below.</para>
+<note id="fs-id1169596345315"><title>Summary of Exponent Properties for Multiplication</title><para id="fs-id1169596397302">If <m:math><m:mrow><m:mi>a</m:mi><m:mspace width="0.2em"/><m:mtext>and</m:mtext><m:mspace width="0.2em"/><m:mi>b</m:mi></m:mrow></m:math> are real numbers, and <m:math><m:mrow><m:mi>m</m:mi><m:mspace width="0.2em"/><m:mtext>and</m:mtext><m:mspace width="0.2em"/><m:mi>n</m:mi></m:mrow></m:math> are whole numbers, then</para>
+<table id="eip-756" summary="." class="unnumbered unstyled">
+<tgroup cols="2"><tbody>
+<row>
+  <entry><emphasis>Product Property</emphasis></entry>
+  <entry><m:math><m:msup><m:mi>a</m:mi><m:mi>m</m:mi></m:msup><m:mo>·</m:mo><m:msup><m:mi>a</m:mi><m:mi>n</m:mi></m:msup><m:mo>=</m:mo><m:msup><m:mi>a</m:mi><m:mrow><m:mi>m</m:mi><m:mo>+</m:mo><m:mi>n</m:mi></m:mrow></m:msup></m:math></entry>
+</row>
+<row>
+  <entry><emphasis>Power Property</emphasis></entry>
+  <entry><m:math><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:msup><m:mi>a</m:mi><m:mi>m</m:mi></m:msup><m:mo stretchy="false">)</m:mo></m:mrow><m:mi>n</m:mi></m:msup><m:mo>=</m:mo><m:msup><m:mi>a</m:mi><m:mrow><m:mi>m</m:mi><m:mo>·</m:mo><m:mi>n</m:mi></m:mrow></m:msup></m:math></entry>
+</row>
+<row>
+  <entry><emphasis>Product to a Power</emphasis></entry>
+  <entry><m:math><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>a</m:mi><m:mi>b</m:mi><m:mo stretchy="false">)</m:mo></m:mrow><m:mi>m</m:mi></m:msup><m:mo>=</m:mo><m:msup><m:mi>a</m:mi><m:mi>m</m:mi></m:msup><m:msup><m:mi>b</m:mi><m:mi>m</m:mi></m:msup></m:math></entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</note><para id="fs-id1169596217596">Now we will look at the exponent properties for division. A quick memory refresher may help before we get started. You have learned to simplify fractions by dividing out common factors from the numerator and denominator using the Equivalent Fractions Property. This property will also help you work with algebraic fractions—which are also quotients.</para>
+<note id="fs-id1169596302154">
+<title>Equivalent Fractions Property</title>
+<para id="fs-id1169596362684">If <m:math><m:mrow><m:mi>a</m:mi><m:mo>,</m:mo><m:mi>b</m:mi><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mtext>and</m:mtext><m:mspace width="0.2em"/><m:mi>c</m:mi></m:mrow></m:math> are whole numbers where <m:math><m:mrow><m:mi>b</m:mi><m:mo>≠</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mi>c</m:mi><m:mo>≠</m:mo><m:mn>0</m:mn></m:mrow></m:math>,</para>
+<equation id="fs-id1169596306813" class="unnumbered"><label/><m:math><m:mrow><m:mtext>then</m:mtext><m:mspace width="1em"/><m:mfrac><m:mi>a</m:mi><m:mi>b</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>a</m:mi><m:mo>·</m:mo><m:mi>c</m:mi></m:mrow><m:mrow><m:mi>b</m:mi><m:mo>·</m:mo><m:mi>c</m:mi></m:mrow></m:mfrac><m:mspace width="1em"/><m:mtext>and</m:mtext><m:mspace width="1em"/><m:mfrac><m:mrow><m:mi>a</m:mi><m:mo>·</m:mo><m:mi>c</m:mi></m:mrow><m:mrow><m:mi>b</m:mi><m:mo>·</m:mo><m:mi>c</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mi>a</m:mi><m:mi>b</m:mi></m:mfrac></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1169596375311">As before, we’ll try to discover a property by looking at some examples.</para>
+<table id="eip-250" summary="." class="unnumbered unstyled">
+<tgroup cols="4"><tbody>
+  <row>
+    <entry>Consider</entry>
+    <entry><m:math><m:mfrac><m:mrow><m:msup><m:mi>x</m:mi><m:mn>5</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:math></entry>
+    <entry>and</entry>
+    <entry><m:math><m:mfrac><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup></m:mrow></m:mfrac></m:math></entry>
+  </row>
+  <row>
+    <entry>What do they mean?</entry>
+    <entry><m:math><m:mfrac><m:mrow><m:mi>x</m:mi><m:mo>·</m:mo><m:mi>x</m:mi><m:mo>·</m:mo><m:mi>x</m:mi><m:mo>·</m:mo><m:mi>x</m:mi><m:mo>·</m:mo><m:mi>x</m:mi></m:mrow><m:mrow><m:mi>x</m:mi><m:mo>·</m:mo><m:mi>x</m:mi></m:mrow></m:mfrac></m:math></entry>
+    <entry/>
+    <entry><m:math><m:mfrac><m:mrow><m:mi>x</m:mi><m:mo>·</m:mo><m:mi>x</m:mi></m:mrow><m:mrow><m:mi>x</m:mi><m:mo>·</m:mo><m:mi>x</m:mi><m:mo>·</m:mo><m:mi>x</m:mi></m:mrow></m:mfrac></m:math></entry>
+  </row>
+  <row>
+    <entry>Use the Equivalent Fractions Property.</entry>
+    <entry><m:math><m:mfrac><m:mrow><m:menclose notation="updiagonalstrike"><m:mi>x</m:mi></m:menclose><m:mo>·</m:mo><m:menclose notation="updiagonalstrike"><m:mi>x</m:mi></m:menclose><m:mo>·</m:mo><m:mi>x</m:mi><m:mo>·</m:mo><m:mi>x</m:mi><m:mo>·</m:mo><m:mi>x</m:mi></m:mrow><m:mrow><m:menclose notation="updiagonalstrike"><m:mi>x</m:mi></m:menclose><m:mo>·</m:mo><m:menclose notation="updiagonalstrike"><m:mi>x</m:mi></m:menclose></m:mrow></m:mfrac></m:math></entry>
+    <entry/>
+    <entry><m:math><m:mfrac><m:mrow><m:menclose notation="updiagonalstrike"><m:mi>x</m:mi></m:menclose><m:mo>·</m:mo><m:menclose notation="updiagonalstrike"><m:mi>x</m:mi></m:menclose><m:mo>·</m:mo><m:mn>1</m:mn></m:mrow><m:mrow><m:menclose notation="updiagonalstrike"><m:mi>x</m:mi></m:menclose><m:mo>·</m:mo><m:menclose notation="updiagonalstrike"><m:mi>x</m:mi></m:menclose><m:mo>·</m:mo><m:mi>x</m:mi></m:mrow></m:mfrac></m:math></entry>
+  </row>
+  <row>
+    <entry>Simplify.</entry>
+    <entry><m:math><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup></m:math></entry>
+    <entry/>
+    <entry><m:math><m:mfrac><m:mn>1</m:mn><m:mi>x</m:mi></m:mfrac></m:math></entry>
+  </row>
+</tbody>
+</tgroup>
+</table><para id="fs-id1169596258488">Notice, in each case the bases were the same and we subtracted exponents.</para>
+<para id="fs-id1169596399182">When the larger exponent was in the numerator, we were left with factors in the numerator.</para>
+<para id="fs-id1169596373800">When the larger exponent was in the denominator, we were left with factors in the denominator—notice the numerator of 1.</para>
+<para id="fs-id1169596296705">We write:	</para>
+<equation id="fs-id1169596297593" class="unnumbered"><label/><m:math><m:mrow><m:mtable><m:mtr><m:mtd columnalign="center"><m:mfrac><m:mrow><m:msup><m:mi>x</m:mi><m:mn>5</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:mfrac><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup></m:mrow></m:mfrac></m:mtd></m:mtr><m:mtr><m:mtd columnalign="center"><m:msup><m:mi>x</m:mi><m:mrow><m:mn>5</m:mn><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow></m:msup></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:mfrac><m:mn>1</m:mn><m:mrow><m:msup><m:mi>x</m:mi><m:mrow><m:mn>3</m:mn><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mfrac></m:mtd></m:mtr><m:mtr><m:mtd columnalign="center"><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:mfrac><m:mn>1</m:mn><m:mi>x</m:mi></m:mfrac></m:mtd></m:mtr></m:mtable></m:mrow></m:math></equation>
+<para id="fs-id1169596347921">This leads to the <emphasis effect="italics">Quotient Property for Exponents</emphasis>.</para>
+<note id="fs-id1169596533211">
+<title>Quotient Property for Exponents</title>
+<para id="fs-id1169596229342">If <m:math><m:mi>a</m:mi></m:math> is a real number, <m:math><m:mrow><m:mi>a</m:mi><m:mo>≠</m:mo><m:mn>0</m:mn></m:mrow></m:math>, and <m:math><m:mrow><m:mi>m</m:mi><m:mspace width="0.2em"/><m:mtext>and</m:mtext><m:mspace width="0.2em"/><m:mi>n</m:mi></m:mrow></m:math> are whole numbers, then</para>
+<equation id="fs-id1169596263364" class="unnumbered"><label/><m:math><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>a</m:mi><m:mi>m</m:mi></m:msup></m:mrow><m:mrow><m:msup><m:mi>a</m:mi><m:mi>n</m:mi></m:msup></m:mrow></m:mfrac><m:mo>=</m:mo><m:msup><m:mi>a</m:mi><m:mrow><m:mi>m</m:mi><m:mo>−</m:mo><m:mi>n</m:mi></m:mrow></m:msup><m:mo>,</m:mo><m:mi>m</m:mi><m:mo>&gt;</m:mo><m:mi>n</m:mi><m:mspace width="0.5em"/><m:mtext>and</m:mtext><m:mspace width="0.5em"/><m:mfrac><m:mrow><m:msup><m:mi>a</m:mi><m:mi>m</m:mi></m:msup></m:mrow><m:mrow><m:msup><m:mi>a</m:mi><m:mi>n</m:mi></m:msup></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:msup><m:mi>a</m:mi><m:mrow><m:mi>n</m:mi><m:mo>−</m:mo><m:mi>m</m:mi></m:mrow></m:msup></m:mrow></m:mfrac><m:mo>,</m:mo><m:mi>n</m:mi><m:mo>&gt;</m:mo><m:mi>m</m:mi></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1169596368044">A couple of examples with numbers may help to verify this property.</para>
+<equation id="fs-id1169596348276" class="unnumbered"><label/><m:math><m:mrow><m:mtable><m:mtr><m:mtd columnalign="right"><m:mfrac><m:mrow><m:msup><m:mn>3</m:mn><m:mn>4</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mn>3</m:mn><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:msup><m:mn>3</m:mn><m:mrow><m:mn>4</m:mn><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow></m:msup></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mspace width="4em"/><m:mfrac><m:mrow><m:msup><m:mn>5</m:mn><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mn>5</m:mn><m:mn>3</m:mn></m:msup></m:mrow></m:mfrac></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mfrac><m:mn>1</m:mn><m:mrow><m:msup><m:mn>5</m:mn><m:mrow><m:mn>3</m:mn><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mfrac></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mfrac><m:mrow><m:mn>81</m:mn></m:mrow><m:mn>9</m:mn></m:mfrac></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:msup><m:mn>3</m:mn><m:mn>2</m:mn></m:msup></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mspace width="4em"/><m:mfrac><m:mrow><m:mn>25</m:mn></m:mrow><m:mrow><m:mn>125</m:mn></m:mrow></m:mfrac></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mfrac><m:mn>1</m:mn><m:mrow><m:msup><m:mn>5</m:mn><m:mn>1</m:mn></m:msup></m:mrow></m:mfrac></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mn>9</m:mn></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>9</m:mn><m:mo>✓</m:mo></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mspace width="4em"/><m:mfrac><m:mn>1</m:mn><m:mn>5</m:mn></m:mfrac></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mfrac><m:mn>1</m:mn><m:mn>5</m:mn></m:mfrac><m:mo>✓</m:mo></m:mtd></m:mtr></m:mtable></m:mrow></m:math></equation>
+<example id="fs-id1169596499202">
+<exercise id="fs-id1169596395709">
+<problem id="fs-id1169596395711">
+<para id="fs-id1169596391121">Simplify: <span class="token">ⓐ</span> <m:math><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>x</m:mi><m:mn>9</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mi>x</m:mi><m:mn>7</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mfrac><m:mrow><m:msup><m:mn>3</m:mn><m:mrow><m:mn>10</m:mn></m:mrow></m:msup></m:mrow><m:mrow><m:msup><m:mn>3</m:mn><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169596364357">
+<title>Solution</title>
+<para id="fs-id1169596399866">To simplify an expression with a quotient, we need to first compare the exponents in the numerator and denominator.</para>
+<list id="fs-id1168742140172" list-type="enumerated" number-style="arabic" class="circled"><item><span class="token">ⓐ</span><newline/>
+<table id="eip-id1172184527539" class="unnumbered unstyled can-break" summary="This figure has two columns, with written instructions on the left and math on the right. At the top of the figure, the instructions in the left column say “Since 9 is greater than 7, there are more factors of x in the numerator.” In the right column is x to the ninth power divided by x to the seventh power. One line down, the instructions in the left column say “Use Quotient Property,” which is defined as a to the m power over a to the n power equals a to the m minus n power. The right column contains x to the nine minus seventh power. One line down, the left column says “Simplify.” The right column contains x squared."><label/>
+<tgroup cols="2">
+<tbody>
+<row>
+<entry>Since 9 &gt; 7, there are more factors of <emphasis effect="italics">x</emphasis> in the numerator.</entry>
+<entry><media id="eip-id1172184527566" alt="x to the ninth power divided by x to the seventh power."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_06_05_001a_img_new.jpg"/></media></entry>
+</row>
+<row>
+<entry>Use the Quotient Property, <m:math><m:mrow><m:mfrac><m:msup><m:mi>a</m:mi><m:mi>m</m:mi></m:msup><m:mrow><m:msup><m:mi>a</m:mi><m:mi>n</m:mi></m:msup></m:mrow></m:mfrac><m:mo>=</m:mo><m:msup><m:mi>a</m:mi><m:mrow><m:mi>m</m:mi><m:mo>−</m:mo><m:mi>n</m:mi></m:mrow></m:msup></m:mrow></m:math>.</entry>
+<entry><media id="eip-id1172184527625" alt="x to the power of 9 minus 7."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_06_05_001b_img_new.jpg"/></media></entry>
+</row>
+<row>
+<entry>Simplify.</entry>
+<entry><media id="eip-id1172184642607" alt="x squared."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_06_05_001c_img_new.jpg"/></media></entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</item>
+<item><span class="token">ⓑ</span><newline/>
+<table id="eip-id1172189039496" class="unnumbered unstyled can-break" summary="This figure has two columns, with written instructions on the left and math on the right. At the top of the figure, the instructions in the left column say “Since 10 is greater than 2, there are more factors of 3 in the numerator.” In the right column is 3 to the tenth power divided by 3 squared. One line down, the instructions in the left column say “Use Quotient Property,” which is defined as a to the m power over a to the n power equals a to the m minus n power. The right column contains 3 to the ten minus second power. One line down, the left column says “Simplify.” The right column contains 3 to the eighth power."><label/>
+<tgroup cols="2">
+<tbody>
+<row>
+<entry>Since 10 &gt; 2, there are more factors of <emphasis effect="italics">x</emphasis> in the numerator.</entry>
+<entry><media id="eip-id1172189039523" alt="3 to the tenth power divided by 3 squared."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_06_05_002a_img_new.jpg"/></media></entry>
+</row>
+<row>
+<entry>Use the Quotient Property, <m:math><m:mrow><m:mfrac><m:msup><m:mi>a</m:mi><m:mi>m</m:mi></m:msup><m:mrow><m:msup><m:mi>a</m:mi><m:mi>n</m:mi></m:msup></m:mrow></m:mfrac><m:mo>=</m:mo><m:msup><m:mi>a</m:mi><m:mrow><m:mi>m</m:mi><m:mo>−</m:mo><m:mi>n</m:mi></m:mrow></m:msup></m:mrow></m:math>.</entry>
+<entry><media id="eip-id1172187510348" alt="3 to the power of 10 minus 2."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_06_05_002b_img_new.jpg"/></media></entry>
+</row>
+<row>
+<entry>Simplify.</entry>
+<entry><media id="eip-id1172187510365" alt="3 to the eighth power."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_06_05_002c_img_new.jpg"/></media></entry>
+</row>
+</tbody>
+</tgroup>
+</table><newline/>
+Notice that when the larger exponent is in the numerator, we are left with factors in the numerator.</item>
+</list></solution>
+</exercise>
+</example>
+<note id="fs-id1169596499585" class="try">
+<exercise id="fs-id1169596499588">
+<problem id="fs-id1169596499590">
+<para id="fs-id1169596499592">Simplify: <span class="token">ⓐ</span> <m:math><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>x</m:mi><m:mrow><m:mn>15</m:mn></m:mrow></m:msup></m:mrow><m:mrow><m:msup><m:mi>x</m:mi><m:mrow><m:mn>10</m:mn></m:mrow></m:msup></m:mrow></m:mfrac></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mfrac><m:mrow><m:msup><m:mn>6</m:mn><m:mrow><m:mn>14</m:mn></m:mrow></m:msup></m:mrow><m:mrow><m:msup><m:mn>6</m:mn><m:mn>5</m:mn></m:msup></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169596530725">
+<para id="fs-id1169596541000"><span class="token">ⓐ</span> <m:math><m:mrow><m:msup><m:mi>x</m:mi><m:mn>5</m:mn></m:msup></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:msup><m:mn>6</m:mn><m:mn>9</m:mn></m:msup></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1169596541022" class="try">
+<exercise id="fs-id1169596407580">
+<problem id="fs-id1169596407582">
+<para id="fs-id1169596407584">Simplify: <span class="token">ⓐ</span> <m:math><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>y</m:mi><m:mrow><m:mn>43</m:mn></m:mrow></m:msup></m:mrow><m:mrow><m:msup><m:mi>y</m:mi><m:mrow><m:mn>37</m:mn></m:mrow></m:msup></m:mrow></m:mfrac></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mfrac><m:mrow><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>15</m:mn></m:mrow></m:msup></m:mrow><m:mrow><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>7</m:mn></m:msup></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169596499808">
+<para id="fs-id1169596499810"><span class="token">ⓐ</span> <m:math><m:mrow><m:msup><m:mi>y</m:mi><m:mn>6</m:mn></m:msup></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>8</m:mn></m:msup></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<example id="fs-id1169596535574">
+<exercise id="fs-id1169596535576">
+<problem id="fs-id1169596535578">
+<para id="fs-id1169596370413">Simplify: <span class="token">ⓐ</span> <m:math><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>b</m:mi><m:mn>8</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mi>b</m:mi><m:mrow><m:mn>12</m:mn></m:mrow></m:msup></m:mrow></m:mfrac></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mfrac><m:mrow><m:msup><m:mn>7</m:mn><m:mn>3</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mn>7</m:mn><m:mn>5</m:mn></m:msup></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169596258577">
+<title>Solution</title>
+<para id="fs-id1169596258583">To simplify an expression with a quotient, we need to first compare the exponents in the numerator and denominator.</para>
+<list id="fs-id1168745238709" list-type="enumerated" number-style="arabic" class="circled"><item><span class="token">ⓐ</span><newline/>
+<table id="eip-id1172187811030" class="unnumbered unstyled can-break" summary="This figure has two columns, with written instructions on the left and math on the right. At the top of the figure, the instructions in the left column say “Since 12 is greater than 8, there are more factors of b in the denominator.” In the right column is b to the eighth power divided b to the twelfth power. One line down, the instructions in the left column say “Use Quotient Property,” which is defined as a to the m power over a to the n power equals 1 divided by a to the n minus m power. The right column contains 1 divided by b to the twelve minus eighth power. One line down, the left column says “Simplify.” The right column contains 1 divided by b to the fourth power."><label/>
+<tgroup cols="2">
+<tbody>
+<row>
+<entry>Since 12 &gt; 8, there are more factors of <emphasis effect="italics">b</emphasis> in the denominator.</entry>
+<entry><media id="eip-id1172184496560" alt="b to the eighth power divided b to the twelfth power."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_06_05_003a_img_new.jpg"/></media></entry>
+</row>
+<row>
+<entry>Use the Quotient Property, <m:math><m:mrow><m:mfrac><m:msup><m:mi>a</m:mi><m:mi>m</m:mi></m:msup><m:mrow><m:msup><m:mi>a</m:mi><m:mi>n</m:mi></m:msup></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mo>1</m:mo><m:mrow><m:msup><m:mi>a</m:mi><m:mrow><m:mi>n</m:mi><m:mo>−</m:mo><m:mi>m</m:mi></m:mrow></m:msup></m:mrow></m:mfrac></m:mrow></m:math>.</entry>
+<entry><media id="eip-id1172184496629" alt="1 divided by b to the power of 12 minus 8."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_06_05_003b_img_new.jpg"/></media></entry>
+</row>
+<row>
+<entry>Simplify.</entry>
+<entry><media id="eip-id1172184496646" alt="1 divided by b to the fourth power."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_06_05_003c_img_new.jpg"/></media></entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</item>
+<item><span class="token">ⓑ</span><newline/>
+<table id="eip-id1172185594182" class="unnumbered unstyled can-break" summary="This figure has two columns, with written instructions on the left and math on the right. At the top of the figure, the instructions in the left column say “Since 5 is greater than 3, there are more factors of b in the denominator.” In the right column is 7 cubed divided 7 to the fifth power. One line down, the instructions in the left column say “Use Quotient Property,” which is defined as a to the m power over a to the n power equals 1 divided by a to the n minus m power. The right column contains 1 divided by 7 to the five minus third power. One line down, the left column says “Simplify.” The right column contains 1 divided by 7 squared. One line down, the left column says “Simplify” again. The right column contains 1 forty ninth."><label/>
+<tgroup cols="2">
+<tbody>
+<row>
+<entry>Since 5 &gt; 3, there are more factors of 3 in the denominator.</entry>
+<entry><media id="eip-id1172185594208" alt="7 cubed divided by 7 to the fifth power."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_06_05_004a_img_new.jpg"/></media></entry>
+</row>
+<row>
+<entry>Use the Quotient Property, <m:math><m:mrow><m:mfrac><m:msup><m:mi>a</m:mi><m:mi>m</m:mi></m:msup><m:mrow><m:msup><m:mi>a</m:mi><m:mi>n</m:mi></m:msup></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mo>1</m:mo><m:mrow><m:msup><m:mi>a</m:mi><m:mrow><m:mi>n</m:mi><m:mo>−</m:mo><m:mi>m</m:mi></m:mrow></m:msup></m:mrow></m:mfrac></m:mrow></m:math>.</entry>
+<entry><media id="eip-id1172182557346" alt="1 divided by 7 to the power of 5 minus 3."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_06_05_004b_img_new.jpg"/></media></entry>
+</row>
+<row>
+<entry>Simplify.</entry>
+<entry><media id="eip-id1172182557363" alt="1 divided by 7 squared."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_06_05_004c_img_new.jpg"/></media></entry>
+</row>
+<row>
+<entry>Simplify.</entry>
+<entry><media id="eip-id1172187655614" alt="1 forty-ninth."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_06_05_004d_img_new.jpg"/></media></entry>
+</row>
+</tbody>
+</tgroup>
+</table><newline/>
+Notice that when the larger exponent is in the denominator, we are left with factors in the denominator.</item>
+</list></solution>
+</exercise>
+</example>
+<note id="fs-id1169596370488" class="try">
+<exercise id="fs-id1169596499283">
+<problem id="fs-id1169596499285">
+<para id="fs-id1169596499288">Simplify: <span class="token">ⓐ</span> <m:math><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>x</m:mi><m:mrow><m:mn>18</m:mn></m:mrow></m:msup></m:mrow><m:mrow><m:msup><m:mi>x</m:mi><m:mrow><m:mn>22</m:mn></m:mrow></m:msup></m:mrow></m:mfrac></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mfrac><m:mrow><m:msup><m:mrow><m:mn>12</m:mn></m:mrow><m:mrow><m:mn>15</m:mn></m:mrow></m:msup></m:mrow><m:mrow><m:msup><m:mrow><m:mn>12</m:mn></m:mrow><m:mrow><m:mn>30</m:mn></m:mrow></m:msup></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169596497100">
+<para id="fs-id1169596497102"><span class="token">ⓐ</span> <m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:msup><m:mi>x</m:mi><m:mn>4</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:msup><m:mrow><m:mn>12</m:mn></m:mrow><m:mrow><m:mn>15</m:mn></m:mrow></m:msup></m:mrow></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1169596567672" class="try">
+<exercise id="fs-id1169596567676">
+<problem id="fs-id1169596567678">
+<para id="fs-id1169596567680">Simplify: <span class="token">ⓐ</span> <m:math><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>m</m:mi><m:mn>7</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mi>m</m:mi><m:mrow><m:mn>15</m:mn></m:mrow></m:msup></m:mrow></m:mfrac></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mfrac><m:mrow><m:msup><m:mn>9</m:mn><m:mn>8</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mn>9</m:mn><m:mrow><m:mn>19</m:mn></m:mrow></m:msup></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169596497596">
+<para id="fs-id1169596362017"><span class="token">ⓐ</span> <m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:msup><m:mi>m</m:mi><m:mn>8</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:msup><m:mn>9</m:mn><m:mrow><m:mn>11</m:mn></m:mrow></m:msup></m:mrow></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<para id="fs-id1169596362049">Notice the difference in the two previous examples:</para>
+<list id="fs-id1169596497125" list-type="bulleted" bullet-style="bullet">
+<item>If we start with more factors in the numerator, we will end up with factors in the numerator.</item>
+<item>If we start with more factors in the denominator, we will end up with factors in the denominator.</item>
+</list>
+<para id="fs-id1168741858901"><newline/></para>
+<para id="fs-id1169596497136">The first step in simplifying an expression using the Quotient Property for Exponents is to determine whether the exponent is larger in the numerator or the denominator.</para>
+<example id="fs-id1169596497141">
+<exercise id="fs-id1169596497143">
+<problem id="fs-id1169596497146">
+<para id="fs-id1169596497148">Simplify: <span class="token">ⓐ</span> <m:math><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>a</m:mi><m:mn>5</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mi>a</m:mi><m:mn>9</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>x</m:mi><m:mrow><m:mn>11</m:mn></m:mrow></m:msup></m:mrow><m:mrow><m:msup><m:mi>x</m:mi><m:mn>7</m:mn></m:msup></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169596368228">
+<title>Solution</title>
+<list id="fs-id1168745238154" list-type="enumerated" number-style="arabic" class="circled"><item><span class="token">ⓐ</span> Is the exponent of <m:math><m:mrow><m:mi>a</m:mi></m:mrow></m:math> larger in the numerator or denominator? Since 9 &gt; 5, there are more <m:math><m:mrow><m:mi>a</m:mi><m:mo>'</m:mo><m:mtext>s</m:mtext></m:mrow></m:math> in the denominator and so we will end up with factors in the denominator.<newline/>
+<table id="eip-id1172182558549" class="unnumbered unstyled can-break" summary="This figure has two columns, with written instructions on the left and math on the right. At the top of the figure, the right column contains a to the fifth power divided by a to the ninth power. One line down, the instructions in the left column say “Use Quotient Property,” which is defined as a to the m power over a to the n power equals 1 divided by a to the n minus m power. The right column contains 1 divided by a to the nine minus fifth power. One line down, the left column says “Simplify.” The right column contains 1 divided by a to the fourth power."><label/>
+<tgroup cols="2">
+<tbody>
+<row>
+<entry/>
+<entry><media id="eip-id1172182558568" alt="a to the fifth power divided by a to the ninth power."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_06_05_009a_img_new.jpg"/></media></entry>
+</row>
+<row>
+<entry>Use the Quotient Property, <m:math><m:mrow><m:mfrac><m:msup><m:mi>a</m:mi><m:mi>m</m:mi></m:msup><m:mrow><m:msup><m:mi>a</m:mi><m:mi>n</m:mi></m:msup></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mo>1</m:mo><m:mrow><m:msup><m:mi>a</m:mi><m:mrow><m:mi>n</m:mi><m:mo>−</m:mo><m:mi>m</m:mi></m:mrow></m:msup></m:mrow></m:mfrac></m:mrow></m:math>.</entry>
+<entry><media id="eip-id1172186035890" alt="1 divided by a to the power of 9 minus 5."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_06_05_009b_img_new.jpg"/></media></entry>
+</row>
+<row>
+<entry>Simplify.</entry>
+<entry><media id="eip-id1172186035906" alt="1 divided by a to the fourth power."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_06_05_009c_img_new.jpg"/></media></entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</item>
+<item><span class="token">ⓑ</span> Notice there are more factors of <m:math><m:mrow><m:mi>x</m:mi></m:mrow></m:math> in the numerator, since 11 &gt; 7. So we will end up with factors in the numerator.<newline/>
+<table id="eip-id1172187685760" class="unnumbered unstyled can-break" summary="This figure has two columns, with written instructions on the left and math on the right. At the top of the figure, the right column contains x to the eleventh power divided by x to the seventh power. One line down, the instructions in the left column say “Use Quotient Property,” which is defined as a to the m power over a to the n power equals a to the m minus n power. The right column contains x to the eleven minus seventh power. One line down, the left column says “Simplify.” The right column contains x to the fourth power."><label/>
+<tgroup cols="2">
+<tbody>
+<row>
+<entry/>
+<entry><media id="eip-id1172182253196" alt="x to the eleventh power divided by x to the seventh power."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_06_05_010a_img_new.jpg"/></media></entry>
+</row>
+<row>
+<entry>Use the Quotient Property, <m:math><m:mrow><m:mfrac><m:msup><m:mi>a</m:mi><m:mi>m</m:mi></m:msup><m:mrow><m:msup><m:mi>a</m:mi><m:mi>n</m:mi></m:msup></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mo>1</m:mo><m:mrow><m:msup><m:mi>a</m:mi><m:mrow><m:mi>n</m:mi><m:mo>−</m:mo><m:mi>m</m:mi></m:mrow></m:msup></m:mrow></m:mfrac></m:mrow></m:math>.</entry>
+<entry><media id="eip-id1172182253264" alt="x to the power of 11 minus 7."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_06_05_010b_img_new.jpg"/></media></entry>
+</row>
+<row>
+<entry>Simplify.</entry>
+<entry><media id="eip-id1172182253281" alt="x to the fourth power."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_06_05_010c_img_new.jpg"/></media></entry>
+</row>
+</tbody>
+</tgroup>
+</table></item>
+</list></solution>
+</exercise>
+</example>
+<note id="fs-id1169596407628" class="try">
+<exercise id="fs-id1169596407632">
+<problem id="fs-id1169596407634">
+<para id="fs-id1169596407636">Simplify: <span class="token">ⓐ</span> <m:math><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>b</m:mi><m:mrow><m:mn>19</m:mn></m:mrow></m:msup></m:mrow><m:mrow><m:msup><m:mi>b</m:mi><m:mrow><m:mn>11</m:mn></m:mrow></m:msup></m:mrow></m:mfrac></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>z</m:mi><m:mn>5</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mi>z</m:mi><m:mrow><m:mn>11</m:mn></m:mrow></m:msup></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169596364173">
+<para id="fs-id1169596364175"><span class="token">ⓐ</span> <m:math><m:mrow><m:msup><m:mi>b</m:mi><m:mn>8</m:mn></m:msup></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:msup><m:mi>z</m:mi><m:mn>6</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1169596299467" class="try">
+<exercise id="fs-id1169596299470">
+<problem id="fs-id1169596299472">
+<para id="fs-id1169596299474">Simplify: <span class="token">ⓐ</span> <m:math><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>p</m:mi><m:mn>9</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mi>p</m:mi><m:mrow><m:mn>17</m:mn></m:mrow></m:msup></m:mrow></m:mfrac></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>w</m:mi><m:mrow><m:mn>13</m:mn></m:mrow></m:msup></m:mrow><m:mrow><m:msup><m:mi>w</m:mi><m:mn>9</m:mn></m:msup></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169596314884">
+<para id="fs-id1169596314886"><span class="token">ⓐ</span> <m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:msup><m:mi>p</m:mi><m:mn>8</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:msup><m:mi>w</m:mi><m:mn>4</m:mn></m:msup></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+</section><section id="fs-id1169596373082"><title>Simplify Expressions with an Exponent of Zero</title><para id="fs-id1169596373087">A special case of the Quotient Property is when the exponents of the numerator and denominator are equal, such as an expression like <m:math><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>a</m:mi><m:mi>m</m:mi></m:msup></m:mrow><m:mrow><m:msup><m:mi>a</m:mi><m:mi>m</m:mi></m:msup></m:mrow></m:mfrac></m:mrow></m:math>. From your earlier work with fractions, you know that:</para>
+<equation id="fs-id1169596531318" class="unnumbered"><label/><m:math><m:mrow><m:mfrac><m:mn>2</m:mn><m:mn>2</m:mn></m:mfrac><m:mo>=</m:mo><m:mn>1</m:mn><m:mspace width="2em"/><m:mfrac><m:mrow><m:mn>17</m:mn></m:mrow><m:mrow><m:mn>17</m:mn></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>1</m:mn><m:mspace width="2em"/><m:mfrac><m:mrow><m:mn>−43</m:mn></m:mrow><m:mrow><m:mn>−43</m:mn></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math></equation>
+<para id="fs-id1169596522381">In words, a number divided by itself is 1. So, <m:math><m:mrow><m:mfrac><m:mi>x</m:mi><m:mi>x</m:mi></m:mfrac><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math>, for any <m:math><m:mrow><m:mi>x</m:mi><m:mspace width="0.2em"/><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>≠</m:mo><m:mn>0</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math>, since any number divided by itself is 1.</para>
+<para id="fs-id1169596522415">The Quotient Property for Exponents shows us how to simplify <m:math><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>a</m:mi><m:mi>m</m:mi></m:msup></m:mrow><m:mrow><m:msup><m:mi>a</m:mi><m:mi>n</m:mi></m:msup></m:mrow></m:mfrac></m:mrow></m:math> when <m:math><m:mrow><m:mi>m</m:mi><m:mo>&gt;</m:mo><m:mi>n</m:mi></m:mrow></m:math> and when <m:math><m:mrow><m:mi>n</m:mi><m:mo>&lt;</m:mo><m:mi>m</m:mi></m:mrow></m:math> by subtracting exponents. What if <m:math><m:mrow><m:mi>m</m:mi><m:mo>=</m:mo><m:mi>n</m:mi></m:mrow></m:math>?</para>
+<para id="fs-id1169596362502">Consider <m:math><m:mrow><m:mfrac><m:mn>8</m:mn><m:mn>8</m:mn></m:mfrac></m:mrow></m:math>, which we know is 1.</para>
+
+<table id="eip-158" summary="." class="unnumbered unstyled">
+<tgroup cols="2"><tbody>
+<row>
+  <entry/>
+  <entry><m:math><m:mtable><m:mtr><m:mtd columnalign="center"><m:mfrac><m:mn>8</m:mn><m:mn>8</m:mn></m:mfrac><m:mo>=</m:mo><m:mn>1</m:mn></m:mtd></m:mtr></m:mtable></m:math></entry>
+</row>
+<row>
+  <entry>Write <m:math><m:mn>8</m:mn></m:math> as <m:math><m:msup><m:mn>2</m:mn><m:mn>3</m:mn></m:msup></m:math>.</entry>
+  <entry><m:math><m:mtable><m:mtr><m:mtd columnalign="center"><m:mfrac><m:mrow><m:msup><m:mn>2</m:mn><m:mn>3</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mn>2</m:mn><m:mn>3</m:mn></m:msup></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>1</m:mn></m:mtd></m:mtr></m:mtable></m:math></entry>
+</row>
+<row>
+  <entry>Subtract exponents.</entry>
+  <entry><m:math><m:mtable><m:mtr><m:mtd columnalign="center"><m:msup><m:mn>2</m:mn><m:mrow><m:mn>3</m:mn><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow></m:msup><m:mo>=</m:mo><m:mn>1</m:mn></m:mtd></m:mtr></m:mtable></m:math></entry>
+</row>
+<row>
+  <entry>Simplify.</entry>
+  <entry><m:math><m:mtable><m:mtr><m:mtd columnalign="center"><m:msup><m:mn>2</m:mn><m:mn>0</m:mn></m:msup><m:mo>=</m:mo><m:mn>1</m:mn></m:mtd></m:mtr></m:mtable></m:math></entry>
+</row>
+</tbody>
+
+</tgroup>
+</table><para id="fs-id1169596534031">Now we will simplify <m:math><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>a</m:mi><m:mi>m</m:mi></m:msup></m:mrow><m:mrow><m:msup><m:mi>a</m:mi><m:mi>m</m:mi></m:msup></m:mrow></m:mfrac></m:mrow></m:math> in two ways to lead us to the definition of the zero exponent. In general, for <m:math><m:mrow><m:mi>a</m:mi><m:mo>≠</m:mo><m:mn>0</m:mn></m:mrow></m:math>:</para>
+<media id="fs-id1169596534061" alt="This figure is divided into two columns. At the top of the figure, the left and right columns both contain a to the m power divided by a to the m power. In the next row, the left column contains a to the m minus m power. The right column contains the fraction m factors of a divided by m factors of a, represented in the numerator and denominator by a times a followed by an ellipsis. All the as in the numerator and denominator are canceled out. In the bottom row, the left column contains a to the zero power. The right column contains 1.">
+<image mime-type="image/jpeg" src="../../media/CNX_ElemAlg_Figure_06_05_005_img_new.jpg"/>
+</media>
+<para id="fs-id1169596534074">We see <m:math><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>a</m:mi><m:mi>m</m:mi></m:msup></m:mrow><m:mrow><m:msup><m:mi>a</m:mi><m:mi>m</m:mi></m:msup></m:mrow></m:mfrac></m:mrow></m:math> simplifies to <m:math><m:mrow><m:msup><m:mi>a</m:mi><m:mn>0</m:mn></m:msup></m:mrow></m:math> and to 1. So <m:math><m:mrow><m:msup><m:mi>a</m:mi><m:mn>0</m:mn></m:msup><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math>.</para>
+<note id="fs-id1169596531077">
+<title>Zero Exponent</title>
+<para id="fs-id1169596531378">If <m:math><m:mrow><m:mi>a</m:mi></m:mrow></m:math> is a non-zero number, then <m:math><m:mrow><m:msup><m:mi>a</m:mi><m:mn>0</m:mn></m:msup><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math>.</para>
+<para id="fs-id1169596531400">Any nonzero number raised to the zero power is 1.</para>
+</note>
+<para id="fs-id1169596531404">In this text, we assume any variable that we raise to the zero power is not zero.</para>
+<example id="fs-id1169596531407"><exercise id="fs-id1169596531409">
+<problem id="fs-id1169596531411">
+<para id="fs-id1169596531413">Simplify: <span class="token">ⓐ</span> <m:math><m:mrow><m:msup><m:mn>9</m:mn><m:mn>0</m:mn></m:msup></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:msup><m:mi>n</m:mi><m:mn>0</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169596397936">
+<title>Solution</title>
+<para id="fs-id1169596397941">The definition says any non-zero number raised to the zero power is 1.</para>
+<table id="eip-501" summary="." class="unnumbered unstyled">
+<tgroup cols="2"><tbody>
+<row>
+  <entry><span class="token">ⓐ</span>
+<newline/>Use the definition of the zero exponent.</entry>
+  <entry><m:math><m:mtable>
+  	<m:mtr><m:mtd><m:msup><m:mn>9</m:mn><m:mn>0</m:mn></m:msup></m:mtd></m:mtr>
+  	<m:mtr><m:mtd><m:mn>1</m:mn></m:mtd></m:mtr>
+  </m:mtable></m:math></entry>
+</row>	
+<row>
+  <entry><span class="token">ⓑ</span>
+<newline/>Use the definition of the zero exponent.</entry>
+  <entry><m:math><m:mtable>
+  	<m:mtr><m:mtd><m:msup><m:mi>n</m:mi><m:mn>0</m:mn></m:msup></m:mtd></m:mtr>
+  	<m:mtr><m:mtd><m:mn>1</m:mn></m:mtd></m:mtr>
+  </m:mtable></m:math></entry>
+</row>
+</tbody>
+
+</tgroup>
+</table>
+</solution>
+</exercise>
+</example><note id="fs-id1169596529728" class="try">
+<exercise id="fs-id1169596529731">
+<problem id="fs-id1169596529733">
+<para id="fs-id1169596529735">Simplify: <span class="token">ⓐ</span> <m:math><m:mrow><m:msup><m:mn>15</m:mn><m:mn>0</m:mn></m:msup></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:msup><m:mi>m</m:mi><m:mn>0</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169596533793">
+<para id="fs-id1169596533796"><span class="token">ⓐ</span> 1 <span class="token">ⓑ</span> 1</para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1169596533802" class="try">
+<exercise id="fs-id1169596533805">
+<problem id="fs-id1169596533807">
+<para id="fs-id1169596533809">Simplify: <span class="token">ⓐ</span> <m:math><m:mrow><m:msup><m:mi>k</m:mi><m:mn>0</m:mn></m:msup></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:msup><m:mrow><m:mn>29</m:mn></m:mrow><m:mn>0</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169596453819">
+<para id="fs-id1169596453821"><span class="token">ⓐ</span> 1 <span class="token">ⓑ</span> 1</para>
+</solution>
+</exercise>
+</note>
+<para id="fs-id1169596453827">Now that we have defined the zero exponent, we can expand all the Properties of Exponents to include whole number exponents.</para>
+<para id="fs-id1169596453832">What about raising an expression to the zero power? Let’s look at <m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mi>x</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>0</m:mn></m:msup></m:mrow></m:math>. We can use the product to a power rule to rewrite this expression.</para>
+<table id="eip-649" summary=".">
+<tgroup cols="2"><tbody>
+<row>
+  <entry/>
+  <entry><m:math><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mi>x</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>0</m:mn></m:msup></m:math></entry>
+</row>
+<row>
+  <entry>Use the product to a power rule.</entry>
+  <entry><m:math><m:msup><m:mn>2</m:mn><m:mn>0</m:mn></m:msup><m:msup><m:mi>x</m:mi><m:mn>0</m:mn></m:msup></m:math></entry>
+</row>
+<row>
+  <entry>Use the zero exponent property.</entry>
+  <entry><m:math><m:mn>1</m:mn><m:mo>·</m:mo><m:mn>1</m:mn></m:math></entry>
+</row>
+<row>
+  <entry>Simplify.</entry>
+  <entry><m:math><m:mn>1</m:mn></m:math></entry>
+</row>
+</tbody>
+
+</tgroup>
+</table><para id="fs-id1169596530788">This tells us that any nonzero expression raised to the zero power is one.</para>
+<example id="fs-id1169596530791"><exercise id="fs-id1169596530793">
+<problem id="fs-id1169596530795">
+<para id="fs-id1169596530797">Simplify: <span class="token">ⓐ</span> <m:math><m:mrow><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>5</m:mn><m:mi>b</m:mi><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>0</m:mn></m:msup></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−4</m:mn><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:mi>b</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>0</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169596445483">
+<title>Solution</title>
+<table id="eip-509" summary="." class="unnumbered unstyled">
+<tgroup cols="2"><tbody>
+<row>
+  <entry><span class="token">ⓐ</span></entry>
+  <entry><m:math><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>5</m:mn><m:mi>b</m:mi><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>0</m:mn></m:msup></m:math></entry>
+</row>
+<row>
+  <entry>Use the definition of the zero exponent.</entry>
+  <entry><m:math><m:mn>1</m:mn></m:math></entry>
+</row>
+<row>
+  <entry><span class="token">ⓑ</span></entry>
+  <entry><m:math><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−4</m:mn><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:mi>b</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>0</m:mn></m:msup></m:math></entry>
+</row>
+<row>
+  <entry>Use the definition of the zero exponent.</entry>
+  <entry><m:math><m:mn>1</m:mn></m:math></entry>
+</row>
+</tbody>
+</tgroup>
+</table></solution>
+</exercise></example><note id="fs-id1169596348894" class="try">
+<exercise id="fs-id1169596348897">
+<problem id="fs-id1169596348899">
+<para id="fs-id1169596348902">Simplify: <span class="token">ⓐ</span> <m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>11</m:mn><m:mi>z</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>0</m:mn></m:msup></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−11</m:mn><m:mi>p</m:mi><m:msup><m:mi>q</m:mi><m:mn>3</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>0</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169596311020">
+<para id="fs-id1169596311022"><span class="token">ⓐ</span> <m:math><m:mn>1</m:mn></m:math> <span class="token">ⓑ</span> <m:math><m:mn>1</m:mn></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1169596311036" class="try">
+<exercise id="fs-id1169596311040">
+<problem id="fs-id1169596378229">
+<para id="fs-id1169596378231">Simplify: <span class="token">ⓐ</span> <m:math><m:mrow><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>−6</m:mn><m:mi>d</m:mi><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>0</m:mn></m:msup></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:msup><m:mrow><m:mo>(</m:mo><m:mn>−8</m:mn><m:msup><m:mi>m</m:mi><m:mn>2</m:mn></m:msup><m:msup><m:mi>n</m:mi><m:mn>3</m:mn></m:msup><m:mo>)</m:mo></m:mrow><m:mn>0</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169596395644">
+<para id="fs-id1169596395646"><span class="token">ⓐ</span> <m:math><m:mn>1</m:mn></m:math> <span class="token">ⓑ</span> <m:math><m:mn>1</m:mn></m:math></para>
+</solution>
+</exercise>
+</note>
+</section><section id="fs-id1169596395661"><title>Simplify Expressions Using the Quotient to a Power Property</title><para id="fs-id1169596395666">Now we will look at an example that will lead us to the Quotient to a Power Property.</para>
+
+<table id="eip-873" summary="." class="unnumbered unstyled">
+<tgroup cols="2"><tbody>
+<row>
+  <entry/>
+  <entry><m:math><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mi>x</m:mi><m:mi>y</m:mi></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>3</m:mn></m:msup></m:math></entry>
+</row>
+<row>
+  <entry>This means:</entry>
+  <entry><m:math><m:mfrac><m:mi>x</m:mi><m:mi>y</m:mi></m:mfrac><m:mo>·</m:mo><m:mfrac><m:mi>x</m:mi><m:mi>y</m:mi></m:mfrac><m:mo>·</m:mo><m:mfrac><m:mi>x</m:mi><m:mi>y</m:mi></m:mfrac></m:math></entry>
+</row>
+<row>
+  <entry>Multiply the fractions.</entry>
+  <entry><m:math><m:mfrac><m:mrow><m:mi>x</m:mi><m:mo>·</m:mo><m:mi>x</m:mi><m:mo>·</m:mo><m:mi>x</m:mi></m:mrow><m:mrow><m:mi>y</m:mi><m:mo>·</m:mo><m:mi>y</m:mi><m:mo>·</m:mo><m:mi>y</m:mi></m:mrow></m:mfrac></m:math></entry>
+</row>
+<row>
+  <entry>Write with exponents.</entry>
+  <entry><m:math><m:mfrac><m:mrow><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mi>y</m:mi><m:mn>3</m:mn></m:msup></m:mrow></m:mfrac></m:math></entry>
+</row>
+</tbody>
+
+</tgroup>
+</table><para id="fs-id1169596395595">Notice that the exponent applies to both the numerator and the denominator.</para>
+
+
+<table id="eip-602" summary="." class="unnumbered unstyled">
+<tgroup cols="2"><tbody>
+<row>
+  <entry>We write:</entry>
+  <entry><m:math><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mi>x</m:mi><m:mi>y</m:mi></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>3</m:mn></m:msup></m:math></entry>
+</row>
+<row>
+  <entry/>
+  <entry><m:math><m:mfrac><m:mrow><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mi>y</m:mi><m:mn>3</m:mn></m:msup></m:mrow></m:mfrac></m:math></entry>
+</row>
+</tbody>
+</tgroup>
+</table><para id="fs-id1169596435748">This leads to the <emphasis effect="italics">Quotient to a Power Property for Exponents</emphasis>.</para>
+<note id="fs-id1169596435757">
+<title>Quotient to a Power Property for Exponents</title>
+<para id="fs-id1169596435762">If <m:math><m:mi>a</m:mi></m:math> and <m:math><m:mi>b</m:mi></m:math> are real numbers, <m:math><m:mrow><m:mi>b</m:mi><m:mo>≠</m:mo><m:mn>0</m:mn></m:mrow></m:math>, and <m:math><m:mi>m</m:mi></m:math> is a counting number, then</para>
+<equation id="fs-id1169596376628" class="unnumbered"><label/><m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mi>a</m:mi><m:mi>b</m:mi></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mi>m</m:mi></m:msup><m:mo>=</m:mo><m:mfrac><m:mrow><m:msup><m:mi>a</m:mi><m:mi>m</m:mi></m:msup></m:mrow><m:mrow><m:msup><m:mi>b</m:mi><m:mi>m</m:mi></m:msup></m:mrow></m:mfrac></m:mrow></m:math></equation>
+<para id="fs-id1169596376667">To raise a fraction to a power, raise the numerator and denominator to that power.</para>
+</note>
+<para id="fs-id1169596376672">An example with numbers may help you understand this property:</para>
+<equation id="fs-id1169596376675" class="unnumbered"><label/><m:math><m:mrow><m:mtable><m:mtr><m:mtd columnalign="right"><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mn>2</m:mn><m:mn>3</m:mn></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>3</m:mn></m:msup></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mfrac><m:mrow><m:msup><m:mn>2</m:mn><m:mn>3</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mn>3</m:mn><m:mn>3</m:mn></m:msup></m:mrow></m:mfrac></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mfrac><m:mn>2</m:mn><m:mn>3</m:mn></m:mfrac><m:mo>·</m:mo><m:mfrac><m:mn>2</m:mn><m:mn>3</m:mn></m:mfrac><m:mo>·</m:mo><m:mfrac><m:mn>2</m:mn><m:mn>3</m:mn></m:mfrac></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mfrac><m:mn>8</m:mn><m:mrow><m:mn>27</m:mn></m:mrow></m:mfrac></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mfrac><m:mn>8</m:mn><m:mrow><m:mn>27</m:mn></m:mrow></m:mfrac></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mfrac><m:mn>8</m:mn><m:mrow><m:mn>27</m:mn></m:mrow></m:mfrac><m:mo>✓</m:mo></m:mtd></m:mtr></m:mtable></m:mrow></m:math></equation>
+<example id="fs-id1169596457347">
+<exercise id="fs-id1169596457349">
+<problem id="fs-id1169596457351">
+<para id="fs-id1169596457353">Simplify: <span class="token">ⓐ</span> <m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mn>3</m:mn><m:mn>7</m:mn></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mi>b</m:mi><m:mn>3</m:mn></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>4</m:mn></m:msup></m:mrow></m:math> <span class="token">ⓒ</span> <m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mi>k</m:mi><m:mi>j</m:mi></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>3</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169596529554">
+<title>Solution</title>
+<para id="fs-id1166424879263"><span class="token">ⓐ</span><newline/>
+<table id="eip-id1172187678566" class="unnumbered unstyled" summary="This figure has two columns, with written instructions on the left and math on the right. At the top of the figure, the right column contains 3 sevenths in parentheses squared. One line down, the instructions in the left column say “Use Quotient to a Power Property,” which is defined as a divided by b in parentheses to the m power equals a to the m power divided by b to the m power. The right column contains 3 squared divided by 7 squared. One line down, the left column says “Simplify.” The right column contains 9 forty ninths."><label/>
+<tgroup cols="2">
+<tbody>
+<row>
+<entry/>
+<entry><media id="eip-id1172187678585" alt="3 sevenths squared."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_06_05_006a_img_new.jpg"/></media></entry>
+</row>
+<row>
+<entry>Use the Quotient Property, <m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mi>a</m:mi><m:mi>b</m:mi></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mi>m</m:mi></m:msup><m:mo>=</m:mo><m:mfrac><m:mrow><m:msup><m:mi>a</m:mi><m:mi>m</m:mi></m:msup></m:mrow><m:mrow><m:msup><m:mi>b</m:mi><m:mi>m</m:mi></m:msup></m:mrow></m:mfrac></m:mrow></m:math>.</entry>
+<entry><media id="eip-id1172187674036" alt="3 squared divided by 7 squared."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_06_05_006b_img_new.jpg"/></media></entry>
+</row>
+<row>
+<entry>Simplify.</entry>
+<entry><media id="eip-id1172187674053" alt="9 forty-ninths."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_06_05_006c_img_new.jpg"/></media></entry>
+</row>
+</tbody>
+</tgroup>
+</table><newline/>
+<span class="token">ⓑ</span><newline/>
+<table id="eip-id1172182558335" class="unnumbered unstyled" summary="This figure has two columns, with written instructions on the left and math on the right. At the top of the figure, the right column contains b divided by 3 in parentheses squared. One line down, the instructions in the left column say “Use Quotient to a Power Property,” which is defined as a divided by b in parentheses to the m power equals a to the m power divided by b to the m power. The right column contains b to the fourth power divided by 3 to the fourth power. One line down, the left column says “Simplify.” The right column contains b to the fourth power divided by 81."><label/>
+<tgroup cols="2">
+<tbody>
+<row>
+<entry/>
+<entry><media id="eip-id1172182558354" alt="b thirds to the fourth power."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_06_05_007a_img_new.jpg"/></media></entry>
+</row>
+<row>
+<entry>Use the Quotient Property, <m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mi>a</m:mi><m:mi>b</m:mi></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mi>m</m:mi></m:msup><m:mo>=</m:mo><m:mfrac><m:mrow><m:msup><m:mi>a</m:mi><m:mi>m</m:mi></m:msup></m:mrow><m:mrow><m:msup><m:mi>b</m:mi><m:mi>m</m:mi></m:msup></m:mrow></m:mfrac></m:mrow></m:math>.</entry>
+<entry><media id="eip-id1172182556553" alt="b to the fourth power divided by 3 to the fourth power."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_06_05_007b_img_new.jpg"/></media></entry>
+</row>
+<row>
+<entry>Simplify.</entry>
+<entry><media id="eip-id1172182556570" alt="b to the fourth power divided by 81."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_06_05_007c_img_new.jpg"/></media></entry>
+</row>
+</tbody>
+</tgroup>
+</table><newline/>
+<span class="token">ⓒ</span><newline/>
+<table id="eip-id1172182556719" class="unnumbered unstyled" summary="This figure has two columns, with written instructions on the left and math on the right. At the top of the figure, the right column contains k divided by j in parentheses cubed. One line down, the instructions in the left column say “Raise the numerator and denominator to the third power.” The right column contains k cubed divided by j cubed."><label/>
+<tgroup cols="2">
+<tbody>
+<row>
+<entry/>
+<entry><media id="eip-id1172182556739" alt="k divided by j, in parentheses, cubed."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_06_05_008a_img_new.jpg"/></media></entry>
+</row>
+<row>
+<entry>Raise the numerator and denominator to the third power.</entry>
+<entry><media id="eip-id1172182556756" alt="k cubed divided by j cubed."><image mime-type="image/png" src="../../media/CNX_ElemAlg_Figure_06_05_008b_img_new.jpg"/></media></entry>
+</row>
+</tbody>
+</tgroup>
+</table></para>
+</solution>
+</exercise>
+</example>
+<note id="fs-id1169596381182" class="try">
+<exercise id="fs-id1169596381186">
+<problem id="fs-id1169596381189">
+<para id="fs-id1169596381191">Simplify: <span class="token">ⓐ</span> <m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mn>5</m:mn><m:mn>8</m:mn></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mi>p</m:mi><m:mrow><m:mn>10</m:mn></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>4</m:mn></m:msup></m:mrow></m:math> <span class="token">ⓒ</span> <m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mi>m</m:mi><m:mi>n</m:mi></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>7</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169596386730">
+<para id="fs-id1169596386732"><span class="token">ⓐ</span> <m:math><m:mrow><m:mfrac><m:mrow><m:mn>25</m:mn></m:mrow><m:mrow><m:mn>64</m:mn></m:mrow></m:mfrac></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>p</m:mi><m:mn>4</m:mn></m:msup></m:mrow><m:mrow><m:mn>10,000</m:mn></m:mrow></m:mfrac></m:mrow></m:math> <span class="token">ⓒ</span> <m:math><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>m</m:mi><m:mn>7</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mi>n</m:mi><m:mn>7</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1169596365182" class="try">
+<exercise id="fs-id1169596365186">
+<problem id="fs-id1169596365188">
+<para id="fs-id1169596365190">Simplify: <span class="token">ⓐ</span> <m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>3</m:mn></m:msup></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:mn>−2</m:mn></m:mrow><m:mi>q</m:mi></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>3</m:mn></m:msup></m:mrow></m:math> <span class="token">ⓒ</span> <m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mi>w</m:mi><m:mi>x</m:mi></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>4</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169596372296">
+<para id="fs-id1169596372298"><span class="token">ⓐ</span> <m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>27</m:mn></m:mrow></m:mfrac></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mfrac><m:mrow><m:mn>−8</m:mn></m:mrow><m:mrow><m:msup><m:mi>q</m:mi><m:mn>3</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:math> <span class="token">ⓒ</span> <m:math><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>w</m:mi><m:mn>4</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mi>x</m:mi><m:mn>4</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+</section><section id="fs-id1169596361363">
+<title>Simplify Expressions by Applying Several Properties</title>
+<para id="fs-id1169596361368">We’ll now summarize all the properties of exponents so they are all together to refer to as we simplify expressions using several properties. Notice that they are now defined for whole number exponents.</para>
+<note id="fs-id1169596361375"><title>Summary of Exponent Properties</title><para id="fs-id1169596361381">If <m:math><m:mrow><m:mi>a</m:mi><m:mspace width="0.2em"/><m:mtext>and</m:mtext><m:mspace width="0.2em"/><m:mi>b</m:mi></m:mrow></m:math> are real numbers, and <m:math><m:mrow><m:mi>m</m:mi><m:mspace width="0.2em"/><m:mtext>and</m:mtext><m:mspace width="0.2em"/><m:mi>n</m:mi></m:mrow></m:math> are whole numbers, then</para>
+<table id="eip-3" summary="." class="unnumbered unstyled">
+<tgroup cols="2"><tbody>
+<row>
+  <entry><emphasis>Product Property</emphasis></entry>
+  <entry><m:math><m:msup><m:mi>a</m:mi><m:mi>m</m:mi></m:msup><m:mo>·</m:mo><m:msup><m:mi>a</m:mi><m:mi>n</m:mi></m:msup><m:mo>=</m:mo><m:msup><m:mi>a</m:mi><m:mrow><m:mi>m</m:mi><m:mo>+</m:mo><m:mi>n</m:mi></m:mrow></m:msup></m:math></entry>
+</row>
+<row>
+  <entry><emphasis>Power Property</emphasis></entry>
+  <entry><m:math><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:msup><m:mi>a</m:mi><m:mi>m</m:mi></m:msup><m:mo stretchy="false">)</m:mo></m:mrow><m:mi>n</m:mi></m:msup><m:mo>=</m:mo><m:msup><m:mi>a</m:mi><m:mrow><m:mi>m</m:mi><m:mo>·</m:mo><m:mi>n</m:mi></m:mrow></m:msup></m:math></entry>
+</row>
+<row>
+  <entry><emphasis>Product to a Power</emphasis></entry>
+  <entry><m:math><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>a</m:mi><m:mi>b</m:mi><m:mo stretchy="false">)</m:mo></m:mrow><m:mi>m</m:mi></m:msup><m:mo>=</m:mo><m:msup><m:mi>a</m:mi><m:mi>m</m:mi></m:msup><m:msup><m:mi>b</m:mi><m:mi>m</m:mi></m:msup></m:math></entry>
+</row>
+<row>
+  <entry><emphasis>Quotient Property</emphasis></entry>
+  <entry><m:math><m:mtable>
+  	<m:mtr><m:mtd columnalign="right"><m:mfrac><m:mrow><m:msup><m:mi>a</m:mi><m:mi>m</m:mi></m:msup></m:mrow><m:mrow><m:msup><m:mi>b</m:mi><m:mi>m</m:mi></m:msup></m:mrow></m:mfrac></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:msup><m:mi>a</m:mi><m:mrow><m:mi>m</m:mi><m:mo>−</m:mo><m:mi>n</m:mi></m:mrow></m:msup><m:mo>,</m:mo><m:mi>a</m:mi><m:mo>≠</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mi>m</m:mi><m:mo>&gt;</m:mo><m:mi>n</m:mi></m:mtd></m:mtr>
+  	<m:mtr><m:mtd columnalign="right"><m:mfrac><m:mrow><m:msup><m:mi>a</m:mi><m:mi>m</m:mi></m:msup></m:mrow><m:mrow><m:msup><m:mi>a</m:mi><m:mi>n</m:mi></m:msup></m:mrow></m:mfrac></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mfrac><m:mn>1</m:mn><m:mrow><m:msup><m:mi>a</m:mi><m:mrow><m:mi>n</m:mi><m:mo>−</m:mo><m:mi>m</m:mi></m:mrow></m:msup></m:mrow></m:mfrac><m:mo>,</m:mo><m:mi>a</m:mi><m:mo>≠</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mi>n</m:mi><m:mo>&gt;</m:mo><m:mi>m</m:mi></m:mtd></m:mtr>
+  </m:mtable></m:math></entry>
+</row>
+<row>
+  <entry><emphasis>Zero Exponent Definition</emphasis></entry>
+  <entry><m:math><m:msup><m:mi>a</m:mi><m:mi>o</m:mi></m:msup><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mi>a</m:mi><m:mo>≠</m:mo><m:mn>0</m:mn></m:math></entry>
+</row>
+<row>
+  <entry><emphasis>Quotient to a Power Property</emphasis></entry>
+  <entry><m:math><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mi>a</m:mi><m:mi>b</m:mi></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mi>m</m:mi></m:msup><m:mo>=</m:mo><m:mfrac><m:mrow><m:msup><m:mi>a</m:mi><m:mi>m</m:mi></m:msup></m:mrow><m:mrow><m:msup><m:mi>b</m:mi><m:mi>m</m:mi></m:msup></m:mrow></m:mfrac><m:mo>,</m:mo><m:mi>b</m:mi><m:mo>≠</m:mo><m:mn>0</m:mn></m:math></entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</note><example id="fs-id1169596453965"><exercise id="fs-id1169596453967">
+<problem id="fs-id1169596453969">
+<para id="fs-id1169596453971">Simplify: <m:math><m:mrow><m:mfrac><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msup><m:mi>y</m:mi><m:mn>4</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mi>y</m:mi><m:mn>6</m:mn></m:msup></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169596454002">
+<title>Solution</title>
+<table id="eip-495" summary="." class="unnumbered unstyled">
+<tgroup cols="2"><tbody>
+<row>
+  <entry/>
+  <entry><m:math><m:mfrac><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msup><m:mi>y</m:mi><m:mn>4</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mi>y</m:mi><m:mn>6</m:mn></m:msup></m:mrow></m:mfrac></m:math></entry>
+</row>
+<row>
+  <entry>Multiply the exponents in the numerator.</entry>
+  <entry><m:math><m:mfrac><m:mrow><m:msup><m:mi>y</m:mi><m:mn>8</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mi>y</m:mi><m:mn>6</m:mn></m:msup></m:mrow></m:mfrac></m:math></entry>
+</row>
+<row>
+  <entry>Subtract the exponents.</entry>
+  <entry><m:math><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup></m:math></entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</solution>
+</exercise>
+</example><note id="fs-id1169596360692" class="try">
+<exercise id="fs-id1169596360695">
+<problem id="fs-id1169596360697">
+<para id="fs-id1169596360700">Simplify: <m:math><m:mrow><m:mfrac><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msup><m:mi>m</m:mi><m:mn>5</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>4</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mi>m</m:mi><m:mn>7</m:mn></m:msup></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169596360730">
+<para id="fs-id1169596360733"><m:math><m:mrow><m:msup><m:mi>m</m:mi><m:mrow><m:mn>13</m:mn></m:mrow></m:msup></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1169596360746" class="try">
+<exercise id="fs-id1169596360751">
+<problem id="fs-id1169596360753">
+<para id="fs-id1169596360755">Simplify: <m:math><m:mrow><m:mfrac><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msup><m:mi>k</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>6</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mi>k</m:mi><m:mn>7</m:mn></m:msup></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169596438585">
+<para id="fs-id1169596438587"><m:math><m:mrow><m:msup><m:mi>k</m:mi><m:mn>5</m:mn></m:msup></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<example id="fs-id1169596438600"><exercise id="fs-id1169596438602">
+<problem id="fs-id1169596438604">
+<para id="fs-id1169596438606">Simplify: <m:math><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>b</m:mi><m:mrow><m:mn>12</m:mn></m:mrow></m:msup></m:mrow><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>6</m:mn></m:msup></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169596368124">
+<title>Solution</title>
+<table id="eip-953" summary="." class="unnumbered unstyled">
+<tgroup cols="2"><tbody>
+<row>
+  <entry/>
+  <entry><m:math><m:mfrac><m:mrow><m:msup><m:mi>b</m:mi><m:mrow><m:mn>12</m:mn></m:mrow></m:msup></m:mrow><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>6</m:mn></m:msup></m:mrow></m:mfrac></m:math></entry>
+</row>
+<row>
+  <entry>Multiply the exponents in the numerator.</entry>
+  <entry><m:math><m:mfrac><m:mrow><m:msup><m:mi>b</m:mi><m:mrow><m:mn>12</m:mn></m:mrow></m:msup></m:mrow><m:mrow><m:msup><m:mi>b</m:mi><m:mrow><m:mn>12</m:mn></m:mrow></m:msup></m:mrow></m:mfrac></m:math></entry>
+</row>
+<row>
+  <entry>Subtract the exponents.</entry>
+  <entry><m:math><m:msup><m:mi>b</m:mi><m:mn>0</m:mn></m:msup></m:math></entry>
+</row>
+<row>
+  <entry>Simplify.</entry>
+  <entry><m:math><m:mn>1</m:mn></m:math></entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</solution>
+</exercise>
+</example><note id="fs-id1169596403196" class="try">
+<exercise id="fs-id1169596403200">
+<problem id="fs-id1169596403203">
+<para id="fs-id1169596403205">Simplify: <m:math><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>n</m:mi><m:mrow><m:mn>12</m:mn></m:mrow></m:msup></m:mrow><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msup><m:mi>n</m:mi><m:mn>3</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>4</m:mn></m:msup></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169596388044">
+<para id="fs-id1169596388046">1</para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1169596388052" class="try">
+<exercise id="fs-id1169596388056">
+<problem id="fs-id1169596388058">
+<para id="fs-id1169596388060">Simplify: <m:math><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>x</m:mi><m:mrow><m:mn>15</m:mn></m:mrow></m:msup></m:mrow><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>5</m:mn></m:msup></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169596388092">
+<para id="fs-id1169596388095">1</para>
+</solution>
+</exercise>
+</note>
+<example id="fs-id1169596388101"><exercise id="fs-id1169596388103">
+<problem id="fs-id1169596388105">
+<para id="fs-id1169596388107">Simplify: <m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>y</m:mi><m:mn>9</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mi>y</m:mi><m:mn>4</m:mn></m:msup></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169596399219">
+<title>Solution</title>
+<table id="eip-257" summary="." class="unnumbered unstyled">
+<tgroup cols="2"><tbody>
+<row>
+  <entry/>
+  <entry><m:math><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>y</m:mi><m:mn>9</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mi>y</m:mi><m:mn>4</m:mn></m:msup></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:math></entry>
+</row>
+<row>
+  <entry>Remember parentheses come before exponents. 
+  	<newline/>Notice the bases are the same, so we can simplify 
+  	<newline/>inside the parentheses. Subtract the exponents.</entry>
+  <entry><m:math><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msup><m:mi>y</m:mi><m:mn>5</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:math></entry>
+</row>
+<row>
+  <entry>Multiply the exponents.</entry>
+  <entry><m:math><m:msup><m:mi>y</m:mi><m:mrow><m:mn>10</m:mn></m:mrow></m:msup></m:math></entry>
+</row>
+</tbody>
+
+</tgroup>
+</table>
+</solution>
+</exercise>
+</example><note id="fs-id1169596529821" class="try">
+<exercise id="fs-id1169596529825">
+<problem id="fs-id1169596529827">
+<para id="fs-id1169596529829">Simplify: <m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>r</m:mi><m:mn>5</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mi>r</m:mi><m:mn>3</m:mn></m:msup></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>4</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169596276589">
+<para id="fs-id1169596276591"><m:math><m:mrow><m:msup><m:mi>r</m:mi><m:mn>8</m:mn></m:msup></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1169596276604" class="try">
+<exercise id="fs-id1169596276608">
+<problem id="fs-id1169596276610">
+<para id="fs-id1169596276612">Simplify: <m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>v</m:mi><m:mn>6</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mi>v</m:mi><m:mn>4</m:mn></m:msup></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>3</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169596276643">
+<para id="fs-id1169596276645"><m:math><m:mrow><m:msup><m:mi>v</m:mi><m:mn>6</m:mn></m:msup></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<example id="fs-id1169596531810"><exercise id="fs-id1169596531812">
+<problem id="fs-id1169596531814">
+<para id="fs-id1169596531816">Simplify: <m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>j</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mi>k</m:mi><m:mn>3</m:mn></m:msup></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>4</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169596531847">
+<title>Solution</title>
+<para id="fs-id1169596531852">Here we cannot simplify inside the parentheses first, since the bases are not the same.</para>
+<table id="eip-629" summary="." class="unnumbered unstyled">
+<tgroup cols="2"><tbody>
+<row>
+  <entry/>
+  <entry><m:math><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>j</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mi>k</m:mi><m:mn>3</m:mn></m:msup></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>4</m:mn></m:msup></m:math></entry>
+</row>
+<row>
+  <entry>Raise the numberator and denominator to the third power
+  	<newline/>using the Quotient to a Power Property, <m:math><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mi>a</m:mi><m:mi>b</m:mi></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mi>m</m:mi></m:msup><m:mo>=</m:mo><m:mfrac><m:mrow><m:msup><m:mi>a</m:mi><m:mi>m</m:mi></m:msup></m:mrow><m:mrow><m:msup><m:mi>b</m:mi><m:mi>m</m:mi></m:msup></m:mrow></m:mfrac></m:math>.</entry>
+  <entry><m:math> </m:math></entry>
+</row>
+<row>
+  <entry>Use the Powert Property and simplify.</entry>
+  <entry><m:math><m:mfrac><m:mrow><m:msup><m:mi>j</m:mi><m:mn>8</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mi>k</m:mi><m:mrow><m:mn>12</m:mn></m:mrow></m:msup></m:mrow></m:mfrac></m:math></entry>
+</row>
+</tbody>
+
+</tgroup>
+</table>
+
+</solution>
+</exercise></example><note id="fs-id1169596369579" class="try">
+<exercise id="fs-id1169596369583">
+<problem id="fs-id1169596369585">
+<para id="fs-id1169596381042">Simplify: <m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>a</m:mi><m:mn>3</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>4</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169596381073">
+<para id="fs-id1169596381075"><m:math><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>a</m:mi><m:mrow><m:mn>12</m:mn></m:mrow></m:msup></m:mrow><m:mrow><m:msup><m:mi>b</m:mi><m:mn>8</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1169596381097" class="try">
+<exercise id="fs-id1169596381102">
+<problem id="fs-id1169596381104">
+<para id="fs-id1169596381106">Simplify: <m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>q</m:mi><m:mn>7</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mi>r</m:mi><m:mn>5</m:mn></m:msup></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>3</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169596402096">
+<para id="fs-id1169596402098"><m:math><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>q</m:mi><m:mrow><m:mn>21</m:mn></m:mrow></m:msup></m:mrow><m:mrow><m:msup><m:mi>r</m:mi><m:mrow><m:mn>15</m:mn></m:mrow></m:msup></m:mrow></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<example id="fs-id1169596402122"><exercise id="fs-id1169596402124">
+<problem id="fs-id1169596402126">
+<para id="fs-id1169596402128">Simplify: <m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:mn>2</m:mn><m:msup><m:mi>m</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>5</m:mn><m:mi>n</m:mi></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>4</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169596402160">
+<title>Solution</title>
+<table id="eip-682" summary="." class="unnumbered unstyled">
+<tgroup cols="2"><tbody>
+<row>
+  <entry/>
+  <entry><m:math><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:mn>2</m:mn><m:msup><m:mi>m</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>5</m:mn><m:mi>n</m:mi></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>4</m:mn></m:msup></m:math></entry>
+</row>
+<row>
+  <entry>Raise the numberator and denominator to the fourth power,
+  	<newline/>using the Quotient to a Power Property, <m:math><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mi>a</m:mi><m:mi>b</m:mi></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mi>m</m:mi></m:msup><m:mo>=</m:mo><m:mfrac><m:mrow><m:msup><m:mi>a</m:mi><m:mi>m</m:mi></m:msup></m:mrow><m:mrow><m:msup><m:mi>b</m:mi><m:mi>m</m:mi></m:msup></m:mrow></m:mfrac></m:math>.</entry>
+  <entry><m:math><m:mfrac><m:mrow><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:msup><m:mi>m</m:mi><m:mn>2</m:mn></m:msup><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>4</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>5</m:mn><m:mi>n</m:mi><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>4</m:mn></m:msup></m:mrow></m:mfrac></m:math></entry>
+</row>
+<row>
+  <entry>Raise each factor to the fourth power.</entry>
+  <entry><m:math><m:mfrac><m:mrow><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:msup><m:mi>m</m:mi><m:mn>2</m:mn></m:msup><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>4</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>5</m:mn><m:mi>n</m:mi><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>4</m:mn></m:msup></m:mrow></m:mfrac></m:math></entry>
+</row>
+<row>
+  <entry>Use the Power Property and simplify.</entry>
+  <entry><m:math><m:mfrac><m:mrow><m:mn>16</m:mn><m:msup><m:mi>m</m:mi><m:mn>8</m:mn></m:msup></m:mrow><m:mrow><m:mn>625</m:mn><m:msup><m:mi>n</m:mi><m:mn>4</m:mn></m:msup></m:mrow></m:mfrac></m:math></entry>
+</row>
+</tbody>
+
+</tgroup>
+</table>
+
+</solution>
+</exercise></example><note id="fs-id1169596375225" class="try">
+<exercise id="fs-id1169596375229">
+<problem id="fs-id1169596375231">
+<para id="fs-id1169596375233">Simplify: <m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:mn>7</m:mn><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup></m:mrow><m:mrow><m:mn>9</m:mn><m:mi>y</m:mi></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169596375265">
+<para id="fs-id1169596375268"><m:math><m:mrow><m:mfrac><m:mrow><m:mn>49</m:mn><m:msup><m:mi>x</m:mi><m:mn>6</m:mn></m:msup></m:mrow><m:mrow><m:mn>81</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1169596372417" class="try">
+<exercise id="fs-id1169596372420">
+<problem id="fs-id1169596372422">
+<para id="fs-id1169596372424">Simplify: <m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:mn>3</m:mn><m:msup><m:mi>x</m:mi><m:mn>4</m:mn></m:msup></m:mrow><m:mrow><m:mn>7</m:mn><m:mi>y</m:mi></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169596372456">
+<para id="fs-id1169596372458"><m:math><m:mrow><m:mfrac><m:mrow><m:mn>9</m:mn><m:msup><m:mi>x</m:mi><m:mn>8</m:mn></m:msup></m:mrow><m:mrow><m:mn>49</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<example id="fs-id1169596372484"><exercise id="fs-id1169596372486">
+<problem id="fs-id1169596372488">
+<para id="fs-id1169596372490">Simplify: <m:math><m:mrow><m:mfrac><m:mrow><m:msup><m:mrow><m:mo>(</m:mo><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup><m:mo>)</m:mo></m:mrow><m:mn>4</m:mn></m:msup><m:msup><m:mrow><m:mo>(</m:mo><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>)</m:mo></m:mrow><m:mn>5</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mrow><m:mo>(</m:mo><m:msup><m:mi>x</m:mi><m:mn>6</m:mn></m:msup><m:mo>)</m:mo></m:mrow><m:mn>5</m:mn></m:msup></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169596320246">
+<title>Solution</title>
+<table id="eip-119" summary="." class="unnumbered unstyled">
+<tgroup cols="2"><tbody>
+<row>
+  <entry/>
+  <entry><m:math><m:mfrac><m:mrow><m:msup><m:mrow><m:mo>(</m:mo><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup><m:mo>)</m:mo></m:mrow><m:mn>4</m:mn></m:msup><m:msup><m:mrow><m:mo>(</m:mo><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>)</m:mo></m:mrow><m:mn>5</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mrow><m:mo>(</m:mo><m:msup><m:mi>x</m:mi><m:mn>6</m:mn></m:msup><m:mo>)</m:mo></m:mrow><m:mn>5</m:mn></m:msup></m:mrow></m:mfrac></m:math></entry>
+</row>
+<row>
+  <entry>Use the Power Property, <m:math><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msup><m:mi>a</m:mi><m:mi>m</m:mi></m:msup></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mi>n</m:mi></m:msup><m:mo>=</m:mo><m:msup><m:mi>a</m:mi><m:mrow><m:mi>m</m:mi><m:mo>·</m:mo><m:mi>n</m:mi></m:mrow></m:msup></m:math>.</entry>
+  <entry><m:math><m:mfrac><m:mrow><m:mo>(</m:mo><m:msup><m:mi>x</m:mi><m:mrow><m:mn>12</m:mn></m:mrow></m:msup><m:mo>)</m:mo><m:mo>(</m:mo><m:msup><m:mi>x</m:mi><m:mrow><m:mn>10</m:mn></m:mrow></m:msup><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:msup><m:mi>x</m:mi><m:mrow><m:mn>30</m:mn></m:mrow></m:msup><m:mo>)</m:mo></m:mrow></m:mfrac></m:math></entry>
+</row>
+<row>
+  <entry>Add the exponents in the numerator.</entry>
+  <entry><m:math><m:mfrac><m:mrow><m:msup><m:mi>x</m:mi><m:mrow><m:mn>22</m:mn></m:mrow></m:msup></m:mrow><m:mrow><m:msup><m:mi>x</m:mi><m:mrow><m:mn>30</m:mn></m:mrow></m:msup></m:mrow></m:mfrac></m:math></entry>
+</row>
+<row>
+  <entry>Use the Quotient Property, <m:math><m:mfrac><m:mrow><m:msup><m:mi>a</m:mi><m:mi>m</m:mi></m:msup></m:mrow><m:mrow><m:msup><m:mi>a</m:mi><m:mi>n</m:mi></m:msup></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:msup><m:mi>a</m:mi><m:mrow><m:mi>n</m:mi><m:mo>−</m:mo><m:mi>m</m:mi></m:mrow></m:msup></m:mrow></m:mfrac></m:math>.</entry>
+  <entry><m:math><m:mfrac><m:mn>1</m:mn><m:mrow><m:msup><m:mi>x</m:mi><m:mn>8</m:mn></m:msup></m:mrow></m:mfrac></m:math></entry>
+</row>
+</tbody>
+
+</tgroup>
+</table></solution>
+</exercise></example><note id="fs-id1169596386224" class="try">
+<exercise id="fs-id1169596386227">
+<problem id="fs-id1169596386229">
+<para id="fs-id1169596386231">Simplify: <m:math><m:mrow><m:mfrac><m:mrow><m:msup><m:mrow><m:mo>(</m:mo><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:mo>)</m:mo></m:mrow><m:mn>3</m:mn></m:msup><m:msup><m:mrow><m:mo>(</m:mo><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:mo>)</m:mo></m:mrow><m:mn>4</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mrow><m:mo>(</m:mo><m:msup><m:mi>a</m:mi><m:mn>4</m:mn></m:msup><m:mo>)</m:mo></m:mrow><m:mn>5</m:mn></m:msup></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169596386294">
+<para id="fs-id1169596386296"><m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:msup><m:mi>a</m:mi><m:mn>6</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1169596386314" class="try">
+<exercise id="fs-id1169596386318">
+<problem id="fs-id1169596386320">
+<para id="fs-id1169596386322">Simplify: <m:math><m:mrow><m:mfrac><m:mrow><m:msup><m:mrow><m:mo>(</m:mo><m:msup><m:mi>p</m:mi><m:mn>3</m:mn></m:msup><m:mo>)</m:mo></m:mrow><m:mn>4</m:mn></m:msup><m:msup><m:mrow><m:mo>(</m:mo><m:msup><m:mi>p</m:mi><m:mn>5</m:mn></m:msup><m:mo>)</m:mo></m:mrow><m:mn>3</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mrow><m:mo>(</m:mo><m:msup><m:mi>p</m:mi><m:mn>7</m:mn></m:msup><m:mo>)</m:mo></m:mrow><m:mn>6</m:mn></m:msup></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169596530653">
+<para id="fs-id1169596530655"><m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:msup><m:mi>p</m:mi><m:mrow><m:mn>15</m:mn></m:mrow></m:msup></m:mrow></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<example id="fs-id1169596530673"><exercise id="fs-id1169596530675">
+<problem id="fs-id1169596530677">
+<para id="fs-id1169596530679">Simplify: <m:math><m:mrow><m:mfrac><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>10</m:mn><m:msup><m:mi>p</m:mi><m:mn>3</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>5</m:mn><m:mi>p</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>3</m:mn></m:msup><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:msup><m:mi>p</m:mi><m:mn>5</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>4</m:mn></m:msup></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169596407750">
+<title>Solution</title>
+<table id="eip-836" summary="." class="unnumbered unstyled">
+<tgroup cols="2"><tbody>
+<row>
+  <entry/>
+  <entry><m:math><m:mfrac><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>10</m:mn><m:msup><m:mi>p</m:mi><m:mn>3</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>5</m:mn><m:mi>p</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>3</m:mn></m:msup><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:msup><m:mi>p</m:mi><m:mn>5</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>4</m:mn></m:msup></m:mrow></m:mfrac></m:math></entry>
+</row>
+<row>
+  <entry>Use the Product to a Power Property, <m:math><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>a</m:mi><m:mi>b</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mi>m</m:mi></m:msup><m:mo>=</m:mo><m:msup><m:mi>a</m:mi><m:mi>m</m:mi></m:msup><m:msup><m:mi>b</m:mi><m:mi>m</m:mi></m:msup></m:math>.</entry>
+  <entry><m:math><m:mfrac><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>10</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msup><m:mi>p</m:mi><m:mn>3</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mn>5</m:mn><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>3</m:mn></m:msup><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mi>p</m:mi><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>3</m:mn></m:msup><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mn>2</m:mn><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>4</m:mn></m:msup><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msup><m:mi>p</m:mi><m:mn>5</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>4</m:mn></m:msup></m:mrow></m:mfrac></m:math></entry>
+</row>
+<row>
+  <entry>Use the Power Property, <m:math><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msup><m:mi>a</m:mi><m:mi>m</m:mi></m:msup></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mi>n</m:mi></m:msup><m:mo>=</m:mo><m:msup><m:mi>a</m:mi><m:mrow><m:mi>m</m:mi><m:mo>·</m:mo><m:mi>n</m:mi></m:mrow></m:msup></m:math>.</entry>
+  <entry><m:math><m:mfrac><m:mrow><m:mn>100</m:mn><m:msup><m:mi>p</m:mi><m:mn>6</m:mn></m:msup></m:mrow><m:mrow><m:mn>125</m:mn><m:msup><m:mi>p</m:mi><m:mn>3</m:mn></m:msup><m:mo>·</m:mo><m:mn>16</m:mn><m:msup><m:mi>p</m:mi><m:mrow><m:mn>20</m:mn></m:mrow></m:msup></m:mrow></m:mfrac></m:math></entry>
+</row>
+<row>
+  <entry>Add the exponents in the denominator.</entry>
+  <entry><m:math><m:mfrac><m:mrow><m:mn>100</m:mn><m:msup><m:mi>p</m:mi><m:mn>6</m:mn></m:msup></m:mrow><m:mrow><m:mn>125</m:mn><m:mo>·</m:mo><m:mn>16</m:mn><m:msup><m:mi>p</m:mi><m:mrow><m:mn>23</m:mn></m:mrow></m:msup></m:mrow></m:mfrac></m:math></entry>
+</row>
+<row>
+  <entry>Use the Quotient Property, <m:math><m:mfrac><m:mrow><m:msup><m:mi>a</m:mi><m:mi>m</m:mi></m:msup></m:mrow><m:mrow><m:msup><m:mi>a</m:mi><m:mi>n</m:mi></m:msup></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:msup><m:mi>a</m:mi><m:mrow><m:mi>n</m:mi><m:mo>−</m:mo><m:mi>m</m:mi></m:mrow></m:msup></m:mrow></m:mfrac></m:math>.</entry>
+  <entry><m:math><m:mfrac><m:mrow><m:mn>100</m:mn></m:mrow><m:mrow><m:mn>125</m:mn><m:mo>·</m:mo><m:mn>16</m:mn><m:msup><m:mi>p</m:mi><m:mrow><m:mn>17</m:mn></m:mrow></m:msup></m:mrow></m:mfrac></m:math></entry>
+</row>
+<row>
+  <entry>Simplify.</entry>
+  <entry><m:math><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>20</m:mn><m:msup><m:mi>p</m:mi><m:mrow><m:mn>17</m:mn></m:mrow></m:msup></m:mrow></m:mfrac></m:math></entry>
+</row>
+</tbody>
+
+</tgroup>
+</table>
+
+</solution>
+</exercise></example><note id="fs-id1169596435798" class="try">
+<exercise id="fs-id1169596435802">
+<problem id="fs-id1169596435804">
+<para id="fs-id1169596435806">Simplify: <m:math><m:mrow><m:mfrac><m:mrow><m:msup><m:mrow><m:mo>(</m:mo><m:mn>3</m:mn><m:msup><m:mi>r</m:mi><m:mn>3</m:mn></m:msup><m:mo>)</m:mo></m:mrow><m:mn>2</m:mn></m:msup><m:msup><m:mrow><m:mo>(</m:mo><m:msup><m:mi>r</m:mi><m:mn>3</m:mn></m:msup><m:mo>)</m:mo></m:mrow><m:mn>7</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mrow><m:mo>(</m:mo><m:msup><m:mi>r</m:mi><m:mn>3</m:mn></m:msup><m:mo>)</m:mo></m:mrow><m:mn>3</m:mn></m:msup></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169596435871">
+<para id="fs-id1169596435873"><m:math><m:mrow><m:mn>9</m:mn><m:msup><m:mi>r</m:mi><m:mrow><m:mn>18</m:mn></m:mrow></m:msup></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1169596435889" class="try">
+<exercise id="fs-id1169596435894">
+<problem id="fs-id1169596435896">
+<para id="fs-id1169596435898">Simplify: <m:math><m:mrow><m:mfrac><m:mrow><m:msup><m:mrow><m:mo>(</m:mo><m:mn>2</m:mn><m:msup><m:mi>x</m:mi><m:mn>4</m:mn></m:msup><m:mo>)</m:mo></m:mrow><m:mn>5</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mrow><m:mo>(</m:mo><m:mn>4</m:mn><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup><m:mo>)</m:mo></m:mrow><m:mn>2</m:mn></m:msup><m:msup><m:mrow><m:mo>(</m:mo><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup><m:mo>)</m:mo></m:mrow><m:mn>5</m:mn></m:msup></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169596500737">
+<para id="fs-id1169596500739"><m:math><m:mrow><m:mfrac><m:mn>2</m:mn><m:mi>x</m:mi></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+</section>
+<section id="fs-id1169596500753">
+<title>Divide Monomials</title>
+<para id="fs-id1169596500758">You have now been introduced to all the properties of exponents and used them to simplify expressions. Next, you’ll see how to use these properties to divide monomials. Later, you’ll use them to divide polynomials.</para>
+<example id="fs-id1169596500764"><exercise id="fs-id1169596500766">
+<problem id="fs-id1169596500768">
+<para id="fs-id1169596500770">Find the quotient: <m:math><m:mrow><m:mn>56</m:mn><m:msup><m:mi>x</m:mi><m:mn>7</m:mn></m:msup><m:mo>÷</m:mo><m:mn>8</m:mn><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169596500794">
+<title>Solution</title>
+<table id="eip-59" summary="." class="unnumbered unstyled">
+<tgroup cols="2"><tbody>
+<row>
+  <entry/>
+  <entry><m:math><m:mn>56</m:mn><m:msup><m:mi>x</m:mi><m:mn>7</m:mn></m:msup><m:mo>÷</m:mo><m:mn>8</m:mn><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup></m:math></entry>
+</row>
+<row>
+  <entry>Rewrite as a fraction.</entry>
+  <entry><m:math><m:mfrac><m:mrow><m:mn>56</m:mn><m:msup><m:mi>x</m:mi><m:mn>7</m:mn></m:msup></m:mrow><m:mrow><m:mn>8</m:mn><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup></m:mrow></m:mfrac></m:math></entry>
+</row>
+<row>
+  <entry>Use fraction multiplication.</entry>
+  <entry><m:math><m:mfrac><m:mrow><m:mn>56</m:mn></m:mrow><m:mn>8</m:mn></m:mfrac><m:mo>⋅</m:mo><m:mfrac><m:mrow><m:msup><m:mi>x</m:mi><m:mn>7</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup></m:mrow></m:mfrac></m:math></entry>
+</row>
+<row>
+  <entry>Simplify and use the Quotient Property.</entry>
+  <entry><m:math><m:mn>7</m:mn><m:msup><m:mi>x</m:mi><m:mn>4</m:mn></m:msup></m:math></entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</solution>
+</exercise>
+</example><note id="fs-id1169596541112" class="try">
+<exercise id="fs-id1169596541116">
+<problem id="fs-id1169596541118">
+<para id="fs-id1169596541121">Find the quotient: <m:math><m:mrow><m:mn>42</m:mn><m:msup><m:mi>y</m:mi><m:mn>9</m:mn></m:msup><m:mo>÷</m:mo><m:mn>6</m:mn><m:msup><m:mi>y</m:mi><m:mn>3</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169596541144">
+<para id="fs-id1169596541146"><m:math><m:mrow><m:mn>7</m:mn><m:msup><m:mi>y</m:mi><m:mn>6</m:mn></m:msup></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1169596541161" class="try">
+<exercise id="fs-id1169596541165">
+<problem id="fs-id1169596541167">
+<para id="fs-id1169596541170">Find the quotient: <m:math><m:mrow><m:mn>48</m:mn><m:msup><m:mi>z</m:mi><m:mn>8</m:mn></m:msup><m:mo>÷</m:mo><m:mn>8</m:mn><m:msup><m:mi>z</m:mi><m:mn>2</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169596541193">
+<para id="fs-id1169596541195"><m:math><m:mrow><m:mn>6</m:mn><m:msup><m:mi>z</m:mi><m:mn>6</m:mn></m:msup></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<example id="fs-id1169596541210"><exercise id="fs-id1169596541212">
+<problem id="fs-id1169596541214">
+<para id="fs-id1169596541216">Find the quotient: <m:math><m:mrow><m:mfrac><m:mrow><m:mn>45</m:mn><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:msup><m:mi>b</m:mi><m:mn>3</m:mn></m:msup></m:mrow><m:mrow><m:mn>−5</m:mn><m:mi>a</m:mi><m:msup><m:mi>b</m:mi><m:mn>5</m:mn></m:msup></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169596361008">
+<title>Solution</title>
+<table id="eip-170" summary="." class="unnumbered unstyled">
+<tgroup cols="2"><tbody>
+<row>
+  <entry/>
+  <entry><m:math><m:mfrac><m:mrow><m:mn>45</m:mn><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:msup><m:mi>b</m:mi><m:mn>3</m:mn></m:msup></m:mrow><m:mrow><m:mn>−5</m:mn><m:mi>a</m:mi><m:msup><m:mi>b</m:mi><m:mn>5</m:mn></m:msup></m:mrow></m:mfrac></m:math></entry>
+</row>
+<row>
+  <entry>Use fraction multiplication.</entry>
+  <entry><m:math><m:mfrac><m:mrow><m:mn>45</m:mn></m:mrow><m:mrow><m:mn>−5</m:mn></m:mrow></m:mfrac><m:mo>·</m:mo><m:mfrac><m:mrow><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mi>a</m:mi></m:mfrac><m:mo>·</m:mo><m:mfrac><m:mrow><m:msup><m:mi>b</m:mi><m:mn>3</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mi>b</m:mi><m:mn>5</m:mn></m:msup></m:mrow></m:mfrac></m:math></entry>
+</row>
+<row>
+  <entry>Simplify and use the Quotient Property.</entry>
+  <entry><m:math><m:mn>−9</m:mn><m:mo>·</m:mo><m:mi>a</m:mi><m:mo>·</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:math></entry>
+</row>
+<row>
+  <entry>Multiply.</entry>
+  <entry><m:math><m:mo>−</m:mo><m:mfrac><m:mrow><m:mn>9</m:mn><m:mi>a</m:mi></m:mrow><m:mrow><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:math></entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+
+</solution>
+</exercise></example><note id="fs-id1169596288714" class="try">
+<exercise id="fs-id1169596288718">
+<problem id="fs-id1169596288720">
+<para id="fs-id1169596288722">Find the quotient: <m:math><m:mrow><m:mfrac><m:mrow><m:mn>−72</m:mn><m:msup><m:mi>a</m:mi><m:mn>7</m:mn></m:msup><m:msup><m:mi>b</m:mi><m:mn>3</m:mn></m:msup></m:mrow><m:mrow><m:mn>8</m:mn><m:msup><m:mi>a</m:mi><m:mrow><m:mn>12</m:mn></m:mrow></m:msup><m:msup><m:mi>b</m:mi><m:mn>4</m:mn></m:msup></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169596288759">
+<para id="fs-id1169596288761"><m:math><m:mrow><m:mo>−</m:mo><m:mfrac><m:mn>9</m:mn><m:mrow><m:msup><m:mi>a</m:mi><m:mn>5</m:mn></m:msup><m:mi>b</m:mi></m:mrow></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1169596555126" class="try">
+<exercise id="fs-id1169596555130">
+<problem id="fs-id1169596555133">
+<para id="fs-id1169596555135">Find the quotient: <m:math><m:mrow><m:mfrac><m:mrow><m:mn>−63</m:mn><m:msup><m:mi>c</m:mi><m:mn>8</m:mn></m:msup><m:msup><m:mi>d</m:mi><m:mn>3</m:mn></m:msup></m:mrow><m:mrow><m:mn>7</m:mn><m:msup><m:mi>c</m:mi><m:mrow><m:mn>12</m:mn></m:mrow></m:msup><m:msup><m:mi>d</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169596555171">
+<para id="fs-id1169596555173"><m:math><m:mrow><m:mfrac><m:mrow><m:mn>−9</m:mn><m:mi>d</m:mi></m:mrow><m:mrow><m:msup><m:mi>c</m:mi><m:mn>4</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<example id="fs-id1169596555193"><exercise id="fs-id1169596555196">
+<problem id="fs-id1169596555198">
+<para id="fs-id1169596555200">Find the quotient: <m:math><m:mrow><m:mfrac><m:mrow><m:mn>24</m:mn><m:msup><m:mi>a</m:mi><m:mn>5</m:mn></m:msup><m:msup><m:mi>b</m:mi><m:mn>3</m:mn></m:msup></m:mrow><m:mrow><m:mn>48</m:mn><m:mi>a</m:mi><m:msup><m:mi>b</m:mi><m:mn>4</m:mn></m:msup></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169596555232">
+<title>Solution</title>
+<table id="eip-374" summary="." class="unnumbered unstyled">
+<tgroup cols="2"><tbody>
+<row>
+  <entry/>
+  <entry><m:math><m:mfrac><m:mrow><m:mn>24</m:mn><m:msup><m:mi>a</m:mi><m:mn>5</m:mn></m:msup><m:msup><m:mi>b</m:mi><m:mn>3</m:mn></m:msup></m:mrow><m:mrow><m:mn>48</m:mn><m:mi>a</m:mi><m:msup><m:mi>b</m:mi><m:mn>4</m:mn></m:msup></m:mrow></m:mfrac></m:math></entry>
+</row>
+<row>
+  <entry>Use fraction multiplication.</entry>
+  <entry><m:math><m:mfrac><m:mrow><m:mn>24</m:mn></m:mrow><m:mrow><m:mn>48</m:mn></m:mrow></m:mfrac><m:mo>·</m:mo><m:mfrac><m:mrow><m:msup><m:mi>a</m:mi><m:mn>5</m:mn></m:msup></m:mrow><m:mi>a</m:mi></m:mfrac><m:mo>·</m:mo><m:mfrac><m:mrow><m:msup><m:mi>b</m:mi><m:mn>3</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mi>b</m:mi><m:mn>4</m:mn></m:msup></m:mrow></m:mfrac></m:math></entry>
+</row>
+<row>
+  <entry>Simplify and use the Quotient Property.</entry>
+  <entry><m:math><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mo>·</m:mo><m:msup><m:mi>a</m:mi><m:mn>4</m:mn></m:msup><m:mo>·</m:mo><m:mfrac><m:mn>1</m:mn><m:mi>b</m:mi></m:mfrac></m:math></entry>
+</row>
+<row>
+  <entry>Multiply.</entry>
+  <entry><m:math><m:mfrac><m:mrow><m:msup><m:mi>a</m:mi><m:mn>4</m:mn></m:msup></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>b</m:mi></m:mrow></m:mfrac></m:math></entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</solution>
+</exercise>
+</example><note id="fs-id1169596463637" class="try">
+<exercise id="fs-id1169596463641">
+<problem id="fs-id1169596463643">
+<para id="fs-id1169596463645">Find the quotient: <m:math><m:mrow><m:mfrac><m:mrow><m:mn>16</m:mn><m:msup><m:mi>a</m:mi><m:mn>7</m:mn></m:msup><m:msup><m:mi>b</m:mi><m:mn>6</m:mn></m:msup></m:mrow><m:mrow><m:mn>24</m:mn><m:mi>a</m:mi><m:msup><m:mi>b</m:mi><m:mn>8</m:mn></m:msup></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169596463677">
+<para id="fs-id1169596463679"><m:math><m:mrow><m:mfrac><m:mrow><m:mn>2</m:mn><m:msup><m:mi>a</m:mi><m:mn>6</m:mn></m:msup></m:mrow><m:mrow><m:mn>3</m:mn><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1169596463705" class="try">
+<exercise id="fs-id1169596463709">
+<problem id="fs-id1169596463711">
+<para id="fs-id1169596463713">Find the quotient: <m:math><m:mrow><m:mfrac><m:mrow><m:mn>27</m:mn><m:msup><m:mi>p</m:mi><m:mn>4</m:mn></m:msup><m:msup><m:mi>q</m:mi><m:mn>7</m:mn></m:msup></m:mrow><m:mrow><m:mn>−45</m:mn><m:msup><m:mi>p</m:mi><m:mrow><m:mn>12</m:mn></m:mrow></m:msup><m:mi>q</m:mi></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169596439843">
+<para id="fs-id1169596439845"><m:math><m:mrow><m:mo>−</m:mo><m:mfrac><m:mrow><m:mn>3</m:mn><m:msup><m:mi>q</m:mi><m:mn>6</m:mn></m:msup></m:mrow><m:mrow><m:mn>5</m:mn><m:msup><m:mi>p</m:mi><m:mn>8</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<para id="fs-id1169596439872">Once you become familiar with the process and have practiced it step by step several times, you may be able to simplify a fraction in one step.</para>
+<example id="fs-id1169596439877"><exercise id="fs-id1169596439879">
+<problem id="fs-id1169596439881">
+<para id="fs-id1169596439883">Find the quotient: <m:math><m:mrow><m:mfrac><m:mrow><m:mn>14</m:mn><m:msup><m:mi>x</m:mi><m:mn>7</m:mn></m:msup><m:msup><m:mi>y</m:mi><m:mrow><m:mn>12</m:mn></m:mrow></m:msup></m:mrow><m:mrow><m:mn>21</m:mn><m:msup><m:mi>x</m:mi><m:mrow><m:mn>11</m:mn></m:mrow></m:msup><m:msup><m:mi>y</m:mi><m:mn>6</m:mn></m:msup></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169596439921">
+<title>Solution</title>
+<para id="fs-id1169596439926">Be very careful to simplify <m:math><m:mrow><m:mfrac><m:mrow><m:mn>14</m:mn></m:mrow><m:mrow><m:mn>21</m:mn></m:mrow></m:mfrac></m:mrow></m:math> by dividing out a common factor, and to simplify the variables by subtracting their exponents.</para>
+<table id="eip-850" summary="." class="unnumbered unstyled">
+<tgroup cols="2"><tbody>
+<row>
+  <entry/>
+  <entry><m:math><m:mfrac><m:mrow><m:mn>14</m:mn><m:msup><m:mi>x</m:mi><m:mn>7</m:mn></m:msup><m:msup><m:mi>y</m:mi><m:mrow><m:mn>12</m:mn></m:mrow></m:msup></m:mrow><m:mrow><m:mn>21</m:mn><m:msup><m:mi>x</m:mi><m:mrow><m:mn>11</m:mn></m:mrow></m:msup><m:msup><m:mi>y</m:mi><m:mn>6</m:mn></m:msup></m:mrow></m:mfrac></m:math></entry>
+</row>
+<row>
+  <entry>Simplify and use the Quotient Property.</entry>
+  <entry><m:math><m:mfrac><m:mrow><m:mn>2</m:mn><m:msup><m:mi>y</m:mi><m:mn>6</m:mn></m:msup></m:mrow><m:mrow><m:mn>3</m:mn><m:msup><m:mi>x</m:mi><m:mn>4</m:mn></m:msup></m:mrow></m:mfrac></m:math></entry>
+</row>
+</tbody>
+
+</tgroup>
+</table>
+</solution>
+</exercise>
+</example><note id="fs-id1169596429441" class="try">
+<exercise id="fs-id1169596429445">
+<problem id="fs-id1169596429447">
+<para id="fs-id1169596429449">Find the quotient: <m:math><m:mrow><m:mfrac><m:mrow><m:mn>28</m:mn><m:msup><m:mi>x</m:mi><m:mn>5</m:mn></m:msup><m:msup><m:mi>y</m:mi><m:mrow><m:mn>14</m:mn></m:mrow></m:msup></m:mrow><m:mrow><m:mn>49</m:mn><m:msup><m:mi>x</m:mi><m:mn>9</m:mn></m:msup><m:msup><m:mi>y</m:mi><m:mrow><m:mn>12</m:mn></m:mrow></m:msup></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169596429486">
+<para id="fs-id1169596429489"><m:math><m:mrow><m:mfrac><m:mrow><m:mn>4</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>7</m:mn><m:msup><m:mi>x</m:mi><m:mn>4</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1169596382951" class="try">
+<exercise id="fs-id1169596382956">
+<problem id="fs-id1169596382958">
+<para id="fs-id1169596382960">Find the quotient: <m:math><m:mrow><m:mfrac><m:mrow><m:mn>30</m:mn><m:msup><m:mi>m</m:mi><m:mn>5</m:mn></m:msup><m:msup><m:mi>n</m:mi><m:mrow><m:mn>11</m:mn></m:mrow></m:msup></m:mrow><m:mrow><m:mn>48</m:mn><m:msup><m:mi>m</m:mi><m:mrow><m:mn>10</m:mn></m:mrow></m:msup><m:msup><m:mi>n</m:mi><m:mrow><m:mn>14</m:mn></m:mrow></m:msup></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169596382998">
+<para id="fs-id1169596383000"><m:math><m:mrow><m:mfrac><m:mn>5</m:mn><m:mrow><m:mn>8</m:mn><m:msup><m:mi>m</m:mi><m:mn>5</m:mn></m:msup><m:msup><m:mi>n</m:mi><m:mn>3</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<para id="fs-id1169596383025">In all examples so far, there was no work to do in the numerator or denominator before simplifying the fraction. In the next example, we’ll first find the product of two monomials in the numerator before we simplify the fraction. This follows the order of operations. Remember, a fraction bar is a grouping symbol.</para>
+<example id="fs-id1169596383036"><exercise id="fs-id1169596383038">
+<problem id="fs-id1169596383040">
+<para id="fs-id1169596383042">Find the quotient: <m:math><m:mrow><m:mfrac><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>6</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:msup><m:mi>y</m:mi><m:mn>3</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>5</m:mn><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3</m:mn><m:msup><m:mi>x</m:mi><m:mn>4</m:mn></m:msup><m:msup><m:mi>y</m:mi><m:mn>5</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169596457885">
+<title>Solution</title>
+<table id="eip-598" summary="." class="unnumbered unstyled">
+<tgroup cols="2"><tbody>
+<row>
+  <entry/>
+  <entry><m:math><m:mfrac><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>6</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:msup><m:mi>y</m:mi><m:mn>3</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>5</m:mn><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3</m:mn><m:msup><m:mi>x</m:mi><m:mn>4</m:mn></m:msup><m:msup><m:mi>y</m:mi><m:mn>5</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:mfrac></m:math></entry>
+</row>
+<row>
+  <entry>Simplify the numerator.</entry>
+  <entry><m:math><m:mfrac><m:mrow><m:mn>30</m:mn><m:msup><m:mi>x</m:mi><m:mn>5</m:mn></m:msup><m:msup><m:mi>y</m:mi><m:mn>5</m:mn></m:msup></m:mrow><m:mrow><m:mn>3</m:mn><m:msup><m:mi>x</m:mi><m:mn>4</m:mn></m:msup><m:msup><m:mi>y</m:mi><m:mn>5</m:mn></m:msup></m:mrow></m:mfrac></m:math></entry>
+</row>
+<row>
+  <entry>Simplify.</entry>
+  <entry><m:math><m:mn>10</m:mn><m:mi>x</m:mi></m:math></entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+
+</solution>
+</exercise></example><note id="fs-id1169596499428" class="try">
+<exercise id="fs-id1169596499432">
+<problem id="fs-id1169596499434">
+<para id="fs-id1169596499437">Find the quotient: <m:math><m:mrow><m:mfrac><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>6</m:mn><m:msup><m:mi>a</m:mi><m:mn>4</m:mn></m:msup><m:msup><m:mi>b</m:mi><m:mn>5</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>4</m:mn><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:msup><m:mi>b</m:mi><m:mn>5</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mn>12</m:mn><m:msup><m:mi>a</m:mi><m:mn>5</m:mn></m:msup><m:msup><m:mi>b</m:mi><m:mn>8</m:mn></m:msup></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169596499497">
+<para id="fs-id1169596499500"><m:math><m:mrow><m:mn>2</m:mn><m:mi>a</m:mi><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1169596215910" class="try">
+<exercise id="fs-id1169596215913">
+<problem id="fs-id1169596215915">
+<para id="fs-id1169596215917">Find the quotient: <m:math><m:mrow><m:mfrac><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−12</m:mn><m:msup><m:mi>x</m:mi><m:mn>6</m:mn></m:msup><m:msup><m:mi>y</m:mi><m:mn>9</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−4</m:mn><m:msup><m:mi>x</m:mi><m:mn>5</m:mn></m:msup><m:msup><m:mi>y</m:mi><m:mn>8</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mn>−12</m:mn><m:msup><m:mi>x</m:mi><m:mrow><m:mn>10</m:mn></m:mrow></m:msup><m:msup><m:mi>y</m:mi><m:mrow><m:mn>12</m:mn></m:mrow></m:msup></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169596215980">
+<para id="fs-id1169596215982"><m:math><m:mrow><m:mn>−4</m:mn><m:mi>x</m:mi><m:msup><m:mi>y</m:mi><m:mn>5</m:mn></m:msup></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1169596216000" class="media-2">
+<para id="fs-id1169596216004">Access these online resources for additional instruction and practice with dividing monomials:</para>
+<list id="fs-id1169596216008" display="block">
+<item><link url="https://openstax.org/l/25RationalExp">Rational Expressions</link></item>
+<item><link url="https://openstax.org/l/25DivideMono">Dividing Monomials</link></item>
+<item><link url="https://openstax.org/l/25DivideMono2">Dividing Monomials 2</link></item>
+</list>
+</note>
+</section>
+<section id="fs-id1169596530853" class="key-concepts">
+<title>Key Concepts</title>
+<list id="fs-id1169596530860" list-type="bulleted" bullet-style="bullet">
+<item><emphasis effect="bold">Quotient Property for Exponents:</emphasis>
+<list id="fs-id1169596530872" list-type="bulleted" bullet-style="open-circle">
+<item>If <m:math><m:mi>a</m:mi></m:math> is a real number, <m:math><m:mrow><m:mi>a</m:mi><m:mo>≠</m:mo><m:mn>0</m:mn></m:mrow></m:math>, and <m:math><m:mrow><m:mi>m</m:mi><m:mo>,</m:mo><m:mi>n</m:mi></m:mrow></m:math> are whole numbers, then:<newline/>
+<m:math><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>a</m:mi><m:mi>m</m:mi></m:msup></m:mrow><m:mrow><m:msup><m:mi>a</m:mi><m:mi>n</m:mi></m:msup></m:mrow></m:mfrac><m:mo>=</m:mo><m:msup><m:mi>a</m:mi><m:mrow><m:mi>m</m:mi><m:mo>−</m:mo><m:mi>n</m:mi></m:mrow></m:msup><m:mo>,</m:mo><m:mi>m</m:mi><m:mo>&gt;</m:mo><m:mi>n</m:mi><m:mspace width="0.5em"/><m:mtext>and</m:mtext><m:mspace width="0.5em"/><m:mfrac><m:mrow><m:msup><m:mi>a</m:mi><m:mi>m</m:mi></m:msup></m:mrow><m:mrow><m:msup><m:mi>a</m:mi><m:mi>n</m:mi></m:msup></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:msup><m:mi>a</m:mi><m:mrow><m:mi>m</m:mi><m:mo>−</m:mo><m:mi>n</m:mi></m:mrow></m:msup></m:mrow></m:mfrac><m:mo>,</m:mo><m:mi>n</m:mi><m:mo>&gt;</m:mo><m:mi>m</m:mi></m:mrow></m:math></item></list></item>
+<item><emphasis effect="bold">Zero Exponent</emphasis>
+<list id="fs-id1169596398934" list-type="bulleted" bullet-style="open-circle">
+<item>If <m:math><m:mi>a</m:mi></m:math> is a non-zero number, then <m:math><m:mrow><m:msup><m:mi>a</m:mi><m:mn>0</m:mn></m:msup><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math>.<newline/><newline/></item></list></item>
+<item><emphasis effect="bold">Quotient to a Power Property for Exponents</emphasis>:
+<list id="fs-id1169596398967" list-type="bulleted" bullet-style="open-circle">
+<item>If <m:math><m:mi>a</m:mi></m:math> and <m:math><m:mi>b</m:mi></m:math> are real numbers, <m:math><m:mrow><m:mi>b</m:mi><m:mo>≠</m:mo><m:mn>0</m:mn><m:mo>,</m:mo></m:mrow></m:math> and <m:math><m:mi>m</m:mi></m:math> is a counting number, then:<newline/>
+<m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mi>a</m:mi><m:mi>b</m:mi></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mi>m</m:mi></m:msup><m:mo>=</m:mo><m:mfrac><m:mrow><m:msup><m:mi>a</m:mi><m:mi>m</m:mi></m:msup></m:mrow><m:mrow><m:msup><m:mi>b</m:mi><m:mi>m</m:mi></m:msup></m:mrow></m:mfrac></m:mrow></m:math></item>
+<item>To raise a fraction to a power, raise the numerator and denominator to that power.<newline/><newline/></item></list></item>
+<item><emphasis effect="bold">Summary of Exponent Properties</emphasis>
+<list id="fs-id1169596498071" list-type="bulleted" bullet-style="open-circle">
+<item>If <m:math><m:mrow><m:mi>a</m:mi><m:mo>,</m:mo><m:mi>b</m:mi></m:mrow></m:math> are real numbers and <m:math><m:mrow><m:mi>m</m:mi><m:mo>,</m:mo><m:mi>n</m:mi></m:mrow></m:math> are whole numbers, then<newline/>
+<m:math><m:mrow><m:mtable><m:mtr><m:mtd columnalign="left"><m:mtext mathvariant="bold">Product Property</m:mtext></m:mtd><m:mtd/><m:mtd columnalign="right"><m:msup><m:mi>a</m:mi><m:mi>m</m:mi></m:msup><m:mo>·</m:mo><m:msup><m:mi>a</m:mi><m:mi>n</m:mi></m:msup></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:msup><m:mi>a</m:mi><m:mrow><m:mi>m</m:mi><m:mo>+</m:mo><m:mi>n</m:mi></m:mrow></m:msup></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext mathvariant="bold">Power Property</m:mtext></m:mtd><m:mtd/><m:mtd columnalign="right"><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msup><m:mi>a</m:mi><m:mi>m</m:mi></m:msup></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mi>n</m:mi></m:msup></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:msup><m:mi>a</m:mi><m:mrow><m:mi>m</m:mi><m:mo>·</m:mo><m:mi>n</m:mi></m:mrow></m:msup></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext mathvariant="bold">Product to a Power</m:mtext></m:mtd><m:mtd/><m:mtd columnalign="right"><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>a</m:mi><m:mi>b</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mi>m</m:mi></m:msup></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:msup><m:mi>a</m:mi><m:mi>m</m:mi></m:msup><m:msup><m:mi>b</m:mi><m:mi>m</m:mi></m:msup></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext mathvariant="bold">Quotient Property</m:mtext></m:mtd><m:mtd/><m:mtd columnalign="right"><m:mfrac><m:mrow><m:msup><m:mi>a</m:mi><m:mi>m</m:mi></m:msup></m:mrow><m:mrow><m:msup><m:mi>b</m:mi><m:mi>m</m:mi></m:msup></m:mrow></m:mfrac></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:msup><m:mi>a</m:mi><m:mrow><m:mi>m</m:mi><m:mo>−</m:mo><m:mi>n</m:mi></m:mrow></m:msup><m:mo>,</m:mo><m:mi>a</m:mi><m:mo>≠</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mi>m</m:mi><m:mo>&gt;</m:mo><m:mi>n</m:mi></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mfrac><m:mrow><m:msup><m:mi>a</m:mi><m:mi>m</m:mi></m:msup></m:mrow><m:mrow><m:msup><m:mi>a</m:mi><m:mi>n</m:mi></m:msup></m:mrow></m:mfrac></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mfrac><m:mn>1</m:mn><m:mrow><m:msup><m:mi>a</m:mi><m:mrow><m:mi>n</m:mi><m:mo>−</m:mo><m:mi>m</m:mi></m:mrow></m:msup></m:mrow></m:mfrac><m:mo>,</m:mo><m:mi>a</m:mi><m:mo>≠</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mi>n</m:mi><m:mo>&gt;</m:mo><m:mi>m</m:mi></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext mathvariant="bold">Zero Exponent Definition</m:mtext></m:mtd><m:mtd/><m:mtd columnalign="right"><m:msup><m:mi>a</m:mi><m:mi>o</m:mi></m:msup></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>1</m:mn><m:mo>,</m:mo><m:mi>a</m:mi><m:mo>≠</m:mo><m:mn>0</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext mathvariant="bold">Quotient to a Power Property</m:mtext></m:mtd><m:mtd/><m:mtd columnalign="right"><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mi>a</m:mi><m:mi>b</m:mi></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mi>m</m:mi></m:msup></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mfrac><m:mrow><m:msup><m:mi>a</m:mi><m:mi>m</m:mi></m:msup></m:mrow><m:mrow><m:msup><m:mi>b</m:mi><m:mi>m</m:mi></m:msup></m:mrow></m:mfrac><m:mo>,</m:mo><m:mi>b</m:mi><m:mo>≠</m:mo><m:mn>0</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:math></item>
+</list>
+</item>
+</list></section>
+<section id="fs-id1169596411011" class="section-exercises">
+<section id="fs-id1169596411015" class="practice-perfect">
+<title>Practice Makes Perfect</title>
+<para id="fs-id1169596411020"><emphasis effect="bold">Simplify Expressions Using the Quotient Property for Exponents</emphasis></para>
+<para id="fs-id1168741783233">In the following exercises, simplify.</para>
+<exercise id="fs-id1169596411028">
+<problem id="fs-id1169596411030">
+<para id="fs-id1169596411032"><span class="token">ⓐ</span> <m:math><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>x</m:mi><m:mrow><m:mn>18</m:mn></m:mrow></m:msup></m:mrow><m:mrow><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mfrac><m:mrow><m:msup><m:mn>5</m:mn><m:mrow><m:mn>12</m:mn></m:mrow></m:msup></m:mrow><m:mrow><m:msup><m:mn>5</m:mn><m:mn>3</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1169596411096">
+<problem id="fs-id1169596411098">
+<para id="fs-id1169596411100"><span class="token">ⓐ</span> <m:math><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>y</m:mi><m:mrow><m:mn>20</m:mn></m:mrow></m:msup></m:mrow><m:mrow><m:msup><m:mi>y</m:mi><m:mrow><m:mn>10</m:mn></m:mrow></m:msup></m:mrow></m:mfrac></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mfrac><m:mrow><m:msup><m:mn>7</m:mn><m:mrow><m:mn>16</m:mn></m:mrow></m:msup></m:mrow><m:mrow><m:msup><m:mn>7</m:mn><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169596387875">
+<para id="fs-id1169596387877"><span class="token">ⓐ</span> <m:math><m:mrow><m:msup><m:mi>y</m:mi><m:mrow><m:mn>10</m:mn></m:mrow></m:msup></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:msup><m:mn>7</m:mn><m:mrow><m:mn>14</m:mn></m:mrow></m:msup></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1169596387901">
+<problem id="fs-id1169596387903">
+<para id="fs-id1169596387905"><span class="token">ⓐ</span> <m:math><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>p</m:mi><m:mrow><m:mn>21</m:mn></m:mrow></m:msup></m:mrow><m:mrow><m:msup><m:mi>p</m:mi><m:mn>7</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mfrac><m:mrow><m:msup><m:mn>4</m:mn><m:mrow><m:mn>16</m:mn></m:mrow></m:msup></m:mrow><m:mrow><m:msup><m:mn>4</m:mn><m:mn>4</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1169596387970">
+<problem id="fs-id1169596387972">
+<para id="fs-id1169596387974"><span class="token">ⓐ</span> <m:math><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>u</m:mi><m:mrow><m:mn>24</m:mn></m:mrow></m:msup></m:mrow><m:mrow><m:msup><m:mi>u</m:mi><m:mn>3</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mfrac><m:mrow><m:msup><m:mn>9</m:mn><m:mrow><m:mn>15</m:mn></m:mrow></m:msup></m:mrow><m:mrow><m:msup><m:mn>9</m:mn><m:mn>5</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169596380691">
+<para id="fs-id1169596380693"><span class="token">ⓐ</span> <m:math><m:mrow><m:msup><m:mi>u</m:mi><m:mrow><m:mn>21</m:mn></m:mrow></m:msup></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:msup><m:mn>9</m:mn><m:mrow><m:mn>10</m:mn></m:mrow></m:msup></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1169596380716">
+<problem id="fs-id1169596380718">
+<para id="fs-id1169596380720"><span class="token">ⓐ</span> <m:math><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>q</m:mi><m:mrow><m:mn>18</m:mn></m:mrow></m:msup></m:mrow><m:mrow><m:msup><m:mi>q</m:mi><m:mrow><m:mn>36</m:mn></m:mrow></m:msup></m:mrow></m:mfrac></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mfrac><m:mrow><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1169596380792">
+<problem id="fs-id1169596380794">
+<para id="fs-id1169596380796"><span class="token">ⓐ</span> <m:math><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>t</m:mi><m:mrow><m:mn>10</m:mn></m:mrow></m:msup></m:mrow><m:mrow><m:msup><m:mi>t</m:mi><m:mrow><m:mn>40</m:mn></m:mrow></m:msup></m:mrow></m:mfrac></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mfrac><m:mrow><m:msup><m:mn>8</m:mn><m:mn>3</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mn>8</m:mn><m:mn>5</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169596447737">
+<para id="fs-id1169596447739"><span class="token">ⓐ</span> <m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:msup><m:mi>t</m:mi><m:mrow><m:mn>30</m:mn></m:mrow></m:msup></m:mrow></m:mfrac></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>64</m:mn></m:mrow></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1169596447767">
+<problem id="fs-id1169596447769">
+<para id="fs-id1169596447771"><span class="token">ⓐ</span> <m:math><m:mrow><m:mfrac><m:mi>b</m:mi><m:mrow><m:msup><m:mi>b</m:mi><m:mn>9</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mfrac><m:mn>4</m:mn><m:mrow><m:msup><m:mn>4</m:mn><m:mn>6</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1169596447832">
+<problem id="fs-id1169596447834">
+<para id="fs-id1169596447836"><span class="token">ⓐ</span> <m:math><m:mrow><m:mfrac><m:mi>x</m:mi><m:mrow><m:msup><m:mi>x</m:mi><m:mn>7</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mfrac><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169596533070">
+<para id="fs-id1169596533073"><span class="token">ⓐ</span> <m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:msup><m:mi>x</m:mi><m:mn>6</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>100</m:mn></m:mrow></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+<para id="fs-id1169596533100"><emphasis effect="bold">Simplify Expressions with Zero Exponents</emphasis></para>
+<para id="fs-id1168741893847">In the following exercises, simplify.</para>
+<exercise id="fs-id1169596533107">
+<problem id="fs-id1169596533109">
+<para id="fs-id1169596533111"><newline/><span class="token">ⓐ</span> <m:math><m:mrow><m:msup><m:mrow><m:mn>20</m:mn></m:mrow><m:mn>0</m:mn></m:msup></m:mrow></m:math><newline/>
+<span class="token">ⓑ</span> <m:math><m:mrow><m:msup><m:mi>b</m:mi><m:mn>0</m:mn></m:msup></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1169596533140">
+<problem id="fs-id1169596533143">
+<para id="fs-id1169596533145"><newline/><span class="token">ⓐ</span> <m:math><m:mrow><m:msup><m:mrow><m:mn>13</m:mn></m:mrow><m:mn>0</m:mn></m:msup></m:mrow></m:math><newline/>
+<span class="token">ⓑ</span> <m:math><m:mrow><m:msup><m:mi>k</m:mi><m:mn>0</m:mn></m:msup></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169596533166">
+<para id="fs-id1169596533168"><span class="token">ⓐ</span> 1 <span class="token">ⓑ</span> 1</para>
+</solution>
+</exercise>
+<exercise id="fs-id1169596533174">
+<problem id="fs-id1169596533176">
+<para id="fs-id1169596533178"><newline/><span class="token">ⓐ</span> <m:math><m:mrow><m:mtext>−</m:mtext><m:msup><m:mrow><m:mn>27</m:mn></m:mrow><m:mn>0</m:mn></m:msup></m:mrow></m:math><newline/>
+<span class="token">ⓑ</span> <m:math><m:mrow><m:mtext>−</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:msup><m:mrow><m:mn>27</m:mn></m:mrow><m:mn>0</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1169596364865">
+<problem id="fs-id1169596364867">
+<para id="fs-id1169596364869"><newline/><span class="token">ⓐ</span> <m:math><m:mrow><m:mtext>−</m:mtext><m:msup><m:mrow><m:mn>15</m:mn></m:mrow><m:mn>0</m:mn></m:msup></m:mrow></m:math><newline/>
+<span class="token">ⓑ</span> <m:math><m:mrow><m:mtext>−</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:msup><m:mrow><m:mn>15</m:mn></m:mrow><m:mn>0</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169596364902">
+<para id="fs-id1169596364905"><span class="token">ⓐ</span> <m:math><m:mrow><m:mn>−1</m:mn></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mn>−1</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1169596364920">
+<problem id="fs-id1169596364922">
+<para id="fs-id1169596364925"><newline/><span class="token">ⓐ</span> <m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>25</m:mn><m:mi>x</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>0</m:mn></m:msup></m:mrow></m:math><newline/>
+<span class="token">ⓑ</span> <m:math><m:mrow><m:mn>25</m:mn><m:msup><m:mi>x</m:mi><m:mn>0</m:mn></m:msup></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1169596364965">
+<problem id="fs-id1169596364967">
+<para id="fs-id1169596364969"><newline/><span class="token">ⓐ</span> <m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>6</m:mn><m:mi>y</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>0</m:mn></m:msup></m:mrow></m:math><newline/>
+<span class="token">ⓑ</span> <m:math><m:mrow><m:mn>6</m:mn><m:msup><m:mi>y</m:mi><m:mn>0</m:mn></m:msup></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169596378072">
+<para id="fs-id1169596378074"><span class="token">ⓐ</span> 1 <span class="token">ⓑ</span> 6</para>
+</solution>
+</exercise>
+<exercise id="fs-id1169596378080">
+<problem id="fs-id1169596378082">
+<para id="fs-id1169596378084"><newline/><span class="token">ⓐ</span> <m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>12</m:mn><m:mi>x</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>0</m:mn></m:msup></m:mrow></m:math><newline/>
+<span class="token">ⓑ</span> <m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−56</m:mn><m:msup><m:mi>p</m:mi><m:mn>4</m:mn></m:msup><m:msup><m:mi>q</m:mi><m:mn>3</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>0</m:mn></m:msup></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1169596378140">
+<problem id="fs-id1169596378142">
+<para id="fs-id1169596378144"><newline/><span class="token">ⓐ</span> <m:math><m:mrow><m:mn>7</m:mn><m:msup><m:mi>y</m:mi><m:mn>0</m:mn></m:msup></m:mrow></m:math><m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>17</m:mn><m:mi>y</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>0</m:mn></m:msup></m:mrow></m:math><newline/>
+<span class="token">ⓑ</span> <m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−93</m:mn><m:msup><m:mi>c</m:mi><m:mn>7</m:mn></m:msup><m:msup><m:mi>d</m:mi><m:mrow><m:mn>15</m:mn></m:mrow></m:msup></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>0</m:mn></m:msup></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169596457087">
+<para id="fs-id1169596457089"><span class="token">ⓐ</span> 7 <span class="token">ⓑ</span> 1</para>
+</solution>
+</exercise>
+<exercise id="fs-id1169596457095">
+<problem id="fs-id1169596457097">
+<para id="fs-id1169596457099"><newline/><span class="token">ⓐ</span> <m:math><m:mrow><m:mn>12</m:mn><m:msup><m:mi>n</m:mi><m:mn>0</m:mn></m:msup><m:mo>−</m:mo><m:mn>18</m:mn><m:msup><m:mi>m</m:mi><m:mn>0</m:mn></m:msup></m:mrow></m:math><newline/>
+<span class="token">ⓑ</span> <m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>12</m:mn><m:mi>n</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>0</m:mn></m:msup><m:mo>−</m:mo><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>18</m:mn><m:mi>m</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>0</m:mn></m:msup></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1169596457172">
+<problem id="fs-id1169596457174">
+<para id="fs-id1169596457176"><newline/><span class="token">ⓐ</span> <m:math><m:mrow><m:mn>15</m:mn><m:msup><m:mi>r</m:mi><m:mn>0</m:mn></m:msup><m:mo>−</m:mo><m:mn>22</m:mn><m:msup><m:mi>s</m:mi><m:mn>0</m:mn></m:msup></m:mrow></m:math><newline/>
+<span class="token">ⓑ</span> <m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>15</m:mn><m:mi>r</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>0</m:mn></m:msup><m:mo>−</m:mo><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>22</m:mn><m:mi>s</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>0</m:mn></m:msup></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169596406512">
+<para id="fs-id1169596406515"><span class="token">ⓐ</span> <m:math><m:mrow><m:mn>−7</m:mn></m:mrow></m:math> <span class="token">ⓑ</span> 0</para>
+</solution>
+</exercise>
+<para id="fs-id1169596406526"><emphasis effect="bold">Simplify Expressions Using the Quotient to a Power Property</emphasis></para>
+<para id="fs-id1168745572221">In the following exercises, simplify.</para>
+<exercise id="fs-id1169596406532">
+<problem id="fs-id1169596406534">
+<para id="fs-id1169596406536"><span class="token">ⓐ</span> <m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mn>3</m:mn><m:mn>4</m:mn></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>3</m:mn></m:msup></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mi>p</m:mi><m:mn>2</m:mn></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>5</m:mn></m:msup></m:mrow></m:math> <span class="token">ⓒ</span> <m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mi>x</m:mi><m:mi>y</m:mi></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>6</m:mn></m:msup></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1169596406646">
+<problem id="fs-id1169596379807">
+<para id="fs-id1169596379809"><span class="token">ⓐ</span> <m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mn>2</m:mn><m:mn>5</m:mn></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mi>x</m:mi><m:mn>3</m:mn></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>4</m:mn></m:msup></m:mrow></m:math> <span class="token">ⓒ</span> <m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mi>a</m:mi><m:mi>b</m:mi></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>5</m:mn></m:msup></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169596379870">
+<para id="fs-id1169596379873"><span class="token">ⓐ</span> <m:math><m:mrow><m:mfrac><m:mn>4</m:mn><m:mrow><m:mn>25</m:mn></m:mrow></m:mfrac></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>x</m:mi><m:mn>4</m:mn></m:msup></m:mrow><m:mrow><m:mn>81</m:mn></m:mrow></m:mfrac></m:mrow></m:math> <span class="token">ⓒ</span> <m:math><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>a</m:mi><m:mn>5</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mi>b</m:mi><m:mn>5</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1169596379918">
+<problem id="fs-id1169596379920">
+<para id="fs-id1169596379922"><span class="token">ⓐ</span> <m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mi>a</m:mi><m:mrow><m:mn>3</m:mn><m:mi>b</m:mi></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>4</m:mn></m:msup></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mn>5</m:mn><m:mrow><m:mn>4</m:mn><m:mi>m</m:mi></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1169596411933">
+<problem id="fs-id1169596411935">
+<para id="fs-id1169596411937"><span class="token">ⓐ</span> <m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mi>x</m:mi><m:mrow><m:mn>2</m:mn><m:mi>y</m:mi></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>3</m:mn></m:msup></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>3</m:mn><m:mi>q</m:mi></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>4</m:mn></m:msup></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169596411986">
+<para id="fs-id1169596411988"><span class="token">ⓐ</span> <m:math><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup></m:mrow><m:mrow><m:mn>8</m:mn><m:msup><m:mi>y</m:mi><m:mn>3</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mfrac><m:mrow><m:mn>10,000</m:mn></m:mrow><m:mrow><m:mn>81</m:mn><m:msup><m:mi>q</m:mi><m:mn>4</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+<para id="fs-id1169596531103"><emphasis effect="bold">Simplify Expressions by Applying Several Properties</emphasis></para>
+<para id="fs-id1168741799118">In the following exercises, simplify.</para>
+<exercise id="fs-id1169596531109">
+<problem id="fs-id1169596531111">
+<para id="fs-id1169596531113"><m:math><m:mrow><m:mfrac><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>3</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mi>a</m:mi><m:mn>4</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1169596531157">
+<problem id="fs-id1169596531159">
+<para id="fs-id1169596531161"><m:math><m:mrow><m:mfrac><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msup><m:mi>p</m:mi><m:mn>3</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>4</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mi>p</m:mi><m:mn>5</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169596531191">
+<para id="fs-id1169596531193"><m:math><m:mrow><m:msup><m:mi>p</m:mi><m:mn>7</m:mn></m:msup></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1169596531205">
+<problem id="fs-id1169596531207">
+<para id="fs-id1169596531209"><m:math><m:mrow><m:mfrac><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msup><m:mi>y</m:mi><m:mn>3</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>4</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mi>y</m:mi><m:mrow><m:mn>10</m:mn></m:mrow></m:msup></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1169596455663">
+<problem id="fs-id1169596455665">
+<para id="fs-id1169596455667"><m:math><m:mrow><m:mfrac><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msup><m:mi>x</m:mi><m:mn>4</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>5</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mi>x</m:mi><m:mrow><m:mn>15</m:mn></m:mrow></m:msup></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169596455698">
+<para id="fs-id1169596455700"><m:math><m:mrow><m:msup><m:mi>x</m:mi><m:mn>5</m:mn></m:msup></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1169596455712">
+<problem id="fs-id1169596455714">
+<para id="fs-id1169596455716"><m:math><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>u</m:mi><m:mn>6</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msup><m:mi>u</m:mi><m:mn>3</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1169596455754">
+<problem id="fs-id1169596455756">
+<para id="fs-id1169596455758"><m:math><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>v</m:mi><m:mrow><m:mn>20</m:mn></m:mrow></m:msup></m:mrow><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msup><m:mi>v</m:mi><m:mn>4</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>5</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169596455789">
+<para id="fs-id1169596455791">1</para>
+</solution>
+</exercise>
+<exercise id="fs-id1169596455796">
+<problem id="fs-id1169596455798">
+<para id="fs-id1169596455801"><m:math><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>m</m:mi><m:mrow><m:mn>12</m:mn></m:mrow></m:msup></m:mrow><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msup><m:mi>m</m:mi><m:mn>8</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>3</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1169596365029">
+<problem id="fs-id1169596365031">
+<para id="fs-id1169596365033"><m:math><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>n</m:mi><m:mn>8</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msup><m:mi>n</m:mi><m:mn>6</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>4</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169596365063">
+<para id="fs-id1169596365065"><m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:msup><m:mi>n</m:mi><m:mrow><m:mn>16</m:mn></m:mrow></m:msup></m:mrow></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1169596365082">
+<problem id="fs-id1169596365085">
+<para id="fs-id1169596365087"><m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>p</m:mi><m:mn>9</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mi>p</m:mi><m:mn>3</m:mn></m:msup></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>5</m:mn></m:msup></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1169596365132">
+<problem id="fs-id1169596383420">
+<para id="fs-id1169596383423"><m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>q</m:mi><m:mn>8</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mi>q</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>3</m:mn></m:msup></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169596383452">
+<para id="fs-id1169596383455"><m:math><m:mrow><m:msup><m:mi>q</m:mi><m:mrow><m:mn>18</m:mn></m:mrow></m:msup></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1169596383467">
+<problem id="fs-id1169596383470">
+<para id="fs-id1169596383472"><m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mi>r</m:mi><m:mn>6</m:mn></m:msup></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>3</m:mn></m:msup></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1169596383521">
+<problem id="fs-id1169596383523">
+<para id="fs-id1169596383525"><m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>m</m:mi><m:mn>4</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mi>m</m:mi><m:mn>7</m:mn></m:msup></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>4</m:mn></m:msup></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169596383555">
+<para id="fs-id1169596383557"><m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:msup><m:mi>m</m:mi><m:mrow><m:mn>12</m:mn></m:mrow></m:msup></m:mrow></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1169596533875">
+<problem id="fs-id1169596533877">
+<para id="fs-id1169596533879"><m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mi>p</m:mi><m:mrow><m:msup><m:mi>r</m:mi><m:mrow><m:mn>11</m:mn></m:mrow></m:msup></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1169596533929">
+<problem id="fs-id1169596533931">
+<para id="fs-id1169596533933"><m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mi>a</m:mi><m:mrow><m:msup><m:mi>b</m:mi><m:mn>6</m:mn></m:msup></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>3</m:mn></m:msup></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169596533959">
+<para id="fs-id1169596533961"><m:math><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>a</m:mi><m:mn>3</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mi>b</m:mi><m:mrow><m:mn>18</m:mn></m:mrow></m:msup></m:mrow></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1169596533982">
+<problem id="fs-id1169596533985">
+<para id="fs-id1169596533987"><m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>w</m:mi><m:mn>5</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>8</m:mn></m:msup></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1169596535940">
+<problem id="fs-id1169596535942">
+<para id="fs-id1169596535944"><m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>y</m:mi><m:mn>4</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mi>z</m:mi><m:mrow><m:mn>10</m:mn></m:mrow></m:msup></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>5</m:mn></m:msup></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169596535975">
+<para id="fs-id1169596535977"><m:math><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>y</m:mi><m:mrow><m:mn>20</m:mn></m:mrow></m:msup></m:mrow><m:mrow><m:msup><m:mi>z</m:mi><m:mrow><m:mn>50</m:mn></m:mrow></m:msup></m:mrow></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1169596536000">
+<problem id="fs-id1169596536002">
+<para id="fs-id1169596536004"><m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:mn>2</m:mn><m:msup><m:mi>j</m:mi><m:mn>3</m:mn></m:msup></m:mrow><m:mrow><m:mn>3</m:mn><m:mi>k</m:mi></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>4</m:mn></m:msup></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1169596536063">
+<problem id="fs-id1169596536065">
+<para id="fs-id1169596536067"><m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:mn>3</m:mn><m:msup><m:mi>m</m:mi><m:mn>5</m:mn></m:msup></m:mrow><m:mrow><m:mn>5</m:mn><m:mi>n</m:mi></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>3</m:mn></m:msup></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169596383096">
+<para id="fs-id1169596383099"><m:math><m:mrow><m:mfrac><m:mrow><m:mn>27</m:mn><m:msup><m:mi>m</m:mi><m:mrow><m:mn>15</m:mn></m:mrow></m:msup></m:mrow><m:mrow><m:mn>125</m:mn><m:msup><m:mi>n</m:mi><m:mn>3</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1169596383124">
+<problem id="fs-id1169596383126">
+<para id="fs-id1169596383128"><m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:mn>3</m:mn><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>4</m:mn><m:msup><m:mi>d</m:mi><m:mn>6</m:mn></m:msup></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>3</m:mn></m:msup></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1169596383194">
+<problem id="fs-id1169596383196">
+<para id="fs-id1169596383198"><m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:mn>5</m:mn><m:msup><m:mi>u</m:mi><m:mn>7</m:mn></m:msup></m:mrow><m:mrow><m:mn>2</m:mn><m:msup><m:mi>v</m:mi><m:mn>3</m:mn></m:msup></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>4</m:mn></m:msup></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169596390816">
+<para id="fs-id1169596390818"><m:math><m:mrow><m:mfrac><m:mrow><m:mn>625</m:mn><m:msup><m:mi>u</m:mi><m:mrow><m:mn>28</m:mn></m:mrow></m:msup></m:mrow><m:mrow><m:mn>16</m:mn><m:msup><m:mi>v</m:mi><m:mrow><m:msup><m:mrow/><m:mrow><m:mn>12</m:mn></m:mrow></m:msup></m:mrow></m:msup></m:mrow></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1169596390848">
+<problem id="fs-id1169596390850">
+<para id="fs-id1169596390852"><m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>k</m:mi><m:mn>2</m:mn></m:msup><m:msup><m:mi>k</m:mi><m:mn>8</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mi>k</m:mi><m:mn>3</m:mn></m:msup></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1169596390902">
+<problem id="fs-id1169596390904">
+<para id="fs-id1169596390906"><m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>j</m:mi><m:mn>2</m:mn></m:msup><m:msup><m:mi>j</m:mi><m:mn>5</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mi>j</m:mi><m:mn>4</m:mn></m:msup></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>3</m:mn></m:msup></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169596390942">
+<para id="fs-id1169596390944"><m:math><m:mrow><m:msup><m:mi>j</m:mi><m:mn>9</m:mn></m:msup></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1169596390955">
+<problem id="fs-id1169596390958">
+<para id="fs-id1169596390960"><m:math><m:mrow><m:mfrac><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msup><m:mi>t</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>5</m:mn></m:msup><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msup><m:mi>t</m:mi><m:mn>4</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msup><m:mi>t</m:mi><m:mn>3</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>7</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1169596380590">
+<problem id="fs-id1169596380592">
+<para id="fs-id1169596380594"><m:math><m:mrow><m:mfrac><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msup><m:mi>q</m:mi><m:mn>3</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>6</m:mn></m:msup><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msup><m:mi>q</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>3</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msup><m:mi>q</m:mi><m:mn>4</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>8</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169596380651">
+<para id="fs-id1169596380653"><m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:msup><m:mi>q</m:mi><m:mn>8</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1169596380669">
+<problem id="fs-id1169596380671">
+<para id="fs-id1169596378910"><m:math><m:mrow><m:mfrac><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−2</m:mn><m:msup><m:mi>p</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>4</m:mn></m:msup><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3</m:mn><m:msup><m:mi>p</m:mi><m:mn>4</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−6</m:mn><m:msup><m:mi>p</m:mi><m:mn>3</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1169596378990">
+<problem id="fs-id1169596378992">
+<para id="fs-id1169596378994"><m:math><m:mrow><m:mfrac><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−2</m:mn><m:msup><m:mi>k</m:mi><m:mn>3</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>6</m:mn><m:msup><m:mi>k</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>4</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>9</m:mn><m:msup><m:mi>k</m:mi><m:mn>4</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169596379058">
+<para id="fs-id1169596379060"><m:math><m:mrow><m:mn>64</m:mn><m:msup><m:mi>k</m:mi><m:mn>6</m:mn></m:msup></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1169596373266">
+<problem id="fs-id1169596373268">
+<para id="fs-id1169596373270"><m:math><m:mrow><m:mfrac><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−4</m:mn><m:msup><m:mi>m</m:mi><m:mn>3</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>5</m:mn><m:msup><m:mi>m</m:mi><m:mn>4</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>3</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−10</m:mn><m:msup><m:mi>m</m:mi><m:mn>6</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>3</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1169596373345">
+<problem id="fs-id1169596373347">
+<para id="fs-id1169596373349"><m:math><m:mrow><m:mfrac><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−10</m:mn><m:msup><m:mi>n</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>3</m:mn></m:msup><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>4</m:mn><m:msup><m:mi>n</m:mi><m:mn>5</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:msup><m:mi>n</m:mi><m:mn>8</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169596397696">
+<para id="fs-id1169596397698"><m:math><m:mrow><m:mn>−4,000</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<para id="fs-id1169596397707"><emphasis effect="bold">Divide Monomials</emphasis></para>
+<para id="fs-id1168745578183">In the following exercises, divide the monomials.</para>
+<exercise id="fs-id1169596397714">
+<problem id="fs-id1169596397716">
+<para id="fs-id1169596397718"><m:math><m:mrow><m:mn>56</m:mn><m:msup><m:mi>b</m:mi><m:mn>8</m:mn></m:msup><m:mo>÷</m:mo><m:mi> </m:mi><m:mn>7</m:mn><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1169596397759">
+<problem id="fs-id1169596397761">
+<para id="fs-id1169596397763"><m:math><m:mrow><m:mn>63</m:mn><m:msup><m:mi>v</m:mi><m:mrow><m:mn>10</m:mn></m:mrow></m:msup><m:mo>÷</m:mo><m:mi> </m:mi><m:mn>9</m:mn><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169596397789">
+<para id="fs-id1169596397791"><m:math><m:mrow><m:mn>7</m:mn><m:msup><m:mi>v</m:mi><m:mn>8</m:mn></m:msup></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1169596397805">
+<problem id="fs-id1169596397807">
+<para id="fs-id1169596397809"><m:math><m:mrow><m:mn>−88</m:mn><m:msup><m:mi>y</m:mi><m:mrow><m:mn>15</m:mn></m:mrow></m:msup><m:mo>÷</m:mo><m:mi> </m:mi><m:mn>8</m:mn><m:msup><m:mi>y</m:mi><m:mn>3</m:mn></m:msup></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1169596459749">
+<problem id="fs-id1169596459751">
+<para id="fs-id1169596459753"><m:math><m:mrow><m:mn>−72</m:mn><m:msup><m:mi>u</m:mi><m:mrow><m:mn>12</m:mn></m:mrow></m:msup><m:mo>÷</m:mo><m:mi> </m:mi><m:mn>1</m:mn><m:mn>2</m:mn><m:msup><m:mi>u</m:mi><m:mn>4</m:mn></m:msup></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169596459781">
+<para id="fs-id1169596459784"><m:math><m:mrow><m:mn>−6</m:mn><m:msup><m:mi>u</m:mi><m:mn>8</m:mn></m:msup></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1169596459798">
+<problem id="fs-id1169596459800">
+<para id="fs-id1169596459802"><m:math><m:mrow><m:mfrac><m:mrow><m:mn>45</m:mn><m:msup><m:mi>a</m:mi><m:mn>6</m:mn></m:msup><m:msup><m:mi>b</m:mi><m:mn>8</m:mn></m:msup></m:mrow><m:mrow><m:mn>−15</m:mn><m:msup><m:mi>a</m:mi><m:mrow><m:mn>10</m:mn></m:mrow></m:msup><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1169596459864">
+<problem id="fs-id1169596459866">
+<para id="fs-id1169596459868"><m:math><m:mrow><m:mfrac><m:mrow><m:mn>54</m:mn><m:msup><m:mi>x</m:mi><m:mn>9</m:mn></m:msup><m:msup><m:mi>y</m:mi><m:mn>3</m:mn></m:msup></m:mrow><m:mrow><m:mn>−18</m:mn><m:msup><m:mi>x</m:mi><m:mn>6</m:mn></m:msup><m:msup><m:mi>y</m:mi><m:mrow><m:mn>15</m:mn></m:mrow></m:msup></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169596459904">
+<para id="fs-id1169596459906"><m:math><m:mrow><m:mo>−</m:mo><m:mfrac><m:mrow><m:mn>3</m:mn><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mi>y</m:mi><m:mrow><m:mn>12</m:mn></m:mrow></m:msup></m:mrow></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1169596379670">
+<problem id="fs-id1169596379673">
+<para id="fs-id1169596379675"><m:math><m:mrow><m:mfrac><m:mrow><m:mn>15</m:mn><m:msup><m:mi>r</m:mi><m:mn>4</m:mn></m:msup><m:msup><m:mi>s</m:mi><m:mn>9</m:mn></m:msup></m:mrow><m:mrow><m:mn>18</m:mn><m:msup><m:mi>r</m:mi><m:mn>9</m:mn></m:msup><m:msup><m:mi>s</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1169596379736">
+<problem id="fs-id1169596379738">
+<para id="fs-id1169596379740"><m:math><m:mrow><m:mfrac><m:mrow><m:mn>20</m:mn><m:msup><m:mi>m</m:mi><m:mn>8</m:mn></m:msup><m:msup><m:mi>n</m:mi><m:mn>4</m:mn></m:msup></m:mrow><m:mrow><m:mn>30</m:mn><m:msup><m:mi>m</m:mi><m:mn>5</m:mn></m:msup><m:msup><m:mi>n</m:mi><m:mn>9</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169596379774">
+<para id="fs-id1169596379776"><m:math><m:mrow><m:mfrac><m:mrow><m:mn>−2</m:mn><m:msup><m:mi>m</m:mi><m:mn>3</m:mn></m:msup></m:mrow><m:mrow><m:mn>3</m:mn><m:msup><m:mi>n</m:mi><m:mn>5</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1169596379801">
+<problem id="fs-id1169596379803">
+<para id="fs-id1169596379805"><m:math><m:mrow><m:mfrac><m:mrow><m:mn>18</m:mn><m:msup><m:mi>a</m:mi><m:mn>4</m:mn></m:msup><m:msup><m:mi>b</m:mi><m:mn>8</m:mn></m:msup></m:mrow><m:mrow><m:mn>−27</m:mn><m:msup><m:mi>a</m:mi><m:mn>9</m:mn></m:msup><m:msup><m:mi>b</m:mi><m:mn>5</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1169596384590">
+<problem id="fs-id1169596384592">
+<para id="fs-id1169596384595"><m:math><m:mrow><m:mfrac><m:mrow><m:mn>45</m:mn><m:msup><m:mi>x</m:mi><m:mn>5</m:mn></m:msup><m:msup><m:mi>y</m:mi><m:mn>9</m:mn></m:msup></m:mrow><m:mrow><m:mn>−60</m:mn><m:msup><m:mi>x</m:mi><m:mn>8</m:mn></m:msup><m:msup><m:mi>y</m:mi><m:mn>6</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169596384629">
+<para id="fs-id1169596384631"><m:math><m:mrow><m:mfrac><m:mrow><m:mn>−3</m:mn><m:msup><m:mi>y</m:mi><m:mn>3</m:mn></m:msup></m:mrow><m:mrow><m:mn>4</m:mn><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1169596384656">
+<problem id="fs-id1169596384658">
+<para id="fs-id1169596384660"><m:math><m:mrow><m:mfrac><m:mrow><m:mn>64</m:mn><m:msup><m:mi>q</m:mi><m:mrow><m:mn>11</m:mn></m:mrow></m:msup><m:msup><m:mi>r</m:mi><m:mn>9</m:mn></m:msup><m:msup><m:mi>s</m:mi><m:mn>3</m:mn></m:msup></m:mrow><m:mrow><m:mn>48</m:mn><m:msup><m:mi>q</m:mi><m:mn>6</m:mn></m:msup><m:msup><m:mi>r</m:mi><m:mn>8</m:mn></m:msup><m:msup><m:mi>s</m:mi><m:mn>5</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1169596496965">
+<problem id="fs-id1169596496967">
+<para id="fs-id1169596496969"><m:math><m:mrow><m:mfrac><m:mrow><m:mn>65</m:mn><m:msup><m:mi>a</m:mi><m:mrow><m:mn>10</m:mn></m:mrow></m:msup><m:msup><m:mi>b</m:mi><m:mn>8</m:mn></m:msup><m:msup><m:mi>c</m:mi><m:mn>5</m:mn></m:msup></m:mrow><m:mrow><m:mn>42</m:mn><m:msup><m:mi>a</m:mi><m:mn>7</m:mn></m:msup><m:msup><m:mi>b</m:mi><m:mn>6</m:mn></m:msup><m:msup><m:mi>c</m:mi><m:mn>8</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169596497015">
+<para id="fs-id1169596497017"><m:math><m:mrow><m:mfrac><m:mrow><m:mn>65</m:mn><m:msup><m:mi>a</m:mi><m:mn>3</m:mn></m:msup><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>42</m:mn><m:msup><m:mi>c</m:mi><m:mn>3</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1169596497047">
+<problem id="fs-id1169596497049">
+<para id="fs-id1169596497051"><m:math><m:mrow><m:mfrac><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>10</m:mn><m:msup><m:mi>m</m:mi><m:mn>5</m:mn></m:msup><m:msup><m:mi>n</m:mi><m:mn>4</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>5</m:mn><m:msup><m:mi>m</m:mi><m:mn>3</m:mn></m:msup><m:msup><m:mi>n</m:mi><m:mn>6</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mn>25</m:mn><m:msup><m:mi>m</m:mi><m:mn>7</m:mn></m:msup><m:msup><m:mi>n</m:mi><m:mn>5</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1169596540856">
+<problem id="fs-id1169596540858">
+<para id="fs-id1169596540860"><m:math><m:mrow><m:mfrac><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−18</m:mn><m:msup><m:mi>p</m:mi><m:mn>4</m:mn></m:msup><m:msup><m:mi>q</m:mi><m:mn>7</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−6</m:mn><m:msup><m:mi>p</m:mi><m:mn>3</m:mn></m:msup><m:msup><m:mi>q</m:mi><m:mn>8</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mn>−36</m:mn><m:msup><m:mi>p</m:mi><m:mrow><m:mn>12</m:mn></m:mrow></m:msup><m:msup><m:mi>q</m:mi><m:mrow><m:mn>10</m:mn></m:mrow></m:msup></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169596540923">
+<para id="fs-id1169596540925"><m:math><m:mrow><m:mfrac><m:mrow><m:mn>−3</m:mn><m:msup><m:mi>q</m:mi><m:mn>5</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mi>p</m:mi><m:mn>5</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1169596540948">
+<problem id="fs-id1169596540950">
+<para id="fs-id1169596540952"><m:math><m:mrow><m:mfrac><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>6</m:mn><m:msup><m:mi>a</m:mi><m:mn>4</m:mn></m:msup><m:msup><m:mi>b</m:mi><m:mn>3</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>4</m:mn><m:mi>a</m:mi><m:msup><m:mi>b</m:mi><m:mn>5</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>12</m:mn><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:mi>b</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msup><m:mi>a</m:mi><m:mn>3</m:mn></m:msup><m:mi>b</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1169596567565">
+<problem id="fs-id1169596567567">
+<para id="fs-id1169596567569"><m:math><m:mrow><m:mfrac><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>4</m:mn><m:msup><m:mi>u</m:mi><m:mn>2</m:mn></m:msup><m:msup><m:mi>v</m:mi><m:mn>5</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>15</m:mn><m:msup><m:mi>u</m:mi><m:mn>3</m:mn></m:msup><m:mi>v</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>12</m:mn><m:msup><m:mi>u</m:mi><m:mn>3</m:mn></m:msup><m:mi>v</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msup><m:mi>u</m:mi><m:mn>4</m:mn></m:msup><m:mi>v</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169596567643">
+<para id="fs-id1169596567645"><m:math><m:mrow><m:mfrac><m:mrow><m:mn>5</m:mn><m:msup><m:mi>v</m:mi><m:mn>4</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mi>u</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+<para id="fs-id1169596410134"><emphasis effect="bold">Mixed Practice</emphasis></para>
+<exercise id="fs-id1169596410140">
+<problem id="fs-id1169596410142">
+<para id="fs-id1169596410144"><newline/><span class="token">ⓐ</span> <m:math><m:mrow><m:mn>24</m:mn><m:msup><m:mi>a</m:mi><m:mn>5</m:mn></m:msup><m:mo>+</m:mo><m:mn>2</m:mn><m:msup><m:mi>a</m:mi><m:mn>5</m:mn></m:msup></m:mrow></m:math><newline/>
+<span class="token">ⓑ</span> <m:math><m:mrow><m:mn>24</m:mn><m:msup><m:mi>a</m:mi><m:mn>5</m:mn></m:msup><m:mo>−</m:mo><m:mn>2</m:mn><m:msup><m:mi>a</m:mi><m:mn>5</m:mn></m:msup></m:mrow></m:math><newline/>
+<span class="token">ⓒ</span> <m:math><m:mrow><m:mn>24</m:mn><m:msup><m:mi>a</m:mi><m:mn>5</m:mn></m:msup><m:mo>·</m:mo><m:mn>2</m:mn><m:msup><m:mi>a</m:mi><m:mn>5</m:mn></m:msup></m:mrow></m:math><newline/>
+<span class="token">ⓓ</span> <m:math><m:mrow><m:mn>24</m:mn><m:msup><m:mi>a</m:mi><m:mn>5</m:mn></m:msup><m:mo>÷</m:mo><m:mn>2</m:mn><m:msup><m:mi>a</m:mi><m:mn>5</m:mn></m:msup></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1169596410270">
+<problem id="fs-id1169596410272">
+<para id="fs-id1169596410274"><newline/><span class="token">ⓐ</span> <m:math><m:mrow><m:mn>15</m:mn><m:msup><m:mi>n</m:mi><m:mrow><m:mn>10</m:mn></m:mrow></m:msup><m:mo>+</m:mo><m:mn>3</m:mn><m:msup><m:mi>n</m:mi><m:mrow><m:mn>10</m:mn></m:mrow></m:msup></m:mrow></m:math><newline/>
+<span class="token">ⓑ</span> <m:math><m:mrow><m:mn>15</m:mn><m:msup><m:mi>n</m:mi><m:mrow><m:mn>10</m:mn></m:mrow></m:msup><m:mo>−</m:mo><m:mn>3</m:mn><m:msup><m:mi>n</m:mi><m:mrow><m:mn>10</m:mn></m:mrow></m:msup></m:mrow></m:math><newline/>
+<span class="token">ⓒ</span> <m:math><m:mrow><m:mn>15</m:mn><m:msup><m:mi>n</m:mi><m:mrow><m:mn>10</m:mn></m:mrow></m:msup><m:mo>·</m:mo><m:mn>3</m:mn><m:msup><m:mi>n</m:mi><m:mrow><m:mn>10</m:mn></m:mrow></m:msup></m:mrow></m:math><newline/>
+<span class="token">ⓓ</span> <m:math><m:mrow><m:mn>15</m:mn><m:msup><m:mi>n</m:mi><m:mrow><m:mn>10</m:mn></m:mrow></m:msup><m:mo>÷</m:mo><m:mn>3</m:mn><m:msup><m:mi>n</m:mi><m:mrow><m:mn>10</m:mn></m:mrow></m:msup></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169596363390">
+<para id="fs-id1169596363392"><span class="token">ⓐ</span> <m:math><m:mrow><m:mn>18</m:mn><m:msup><m:mi>n</m:mi><m:mrow><m:mn>10</m:mn></m:mrow></m:msup></m:mrow></m:math><newline/>
+<span class="token">ⓑ</span> <m:math><m:mrow><m:mn>12</m:mn><m:msup><m:mi>n</m:mi><m:mrow><m:mn>10</m:mn></m:mrow></m:msup></m:mrow></m:math><newline/>
+<span class="token">ⓒ</span> <m:math><m:mrow><m:mn>45</m:mn><m:msup><m:mi>n</m:mi><m:mrow><m:mn>20</m:mn></m:mrow></m:msup></m:mrow></m:math><newline/>
+<span class="token">ⓓ</span> 5</para>
+</solution>
+</exercise>
+<exercise id="fs-id1169596363434">
+<problem id="fs-id1169596363436">
+<para id="fs-id1169596363438"><newline/><span class="token">ⓐ</span> <m:math><m:mrow><m:msup><m:mi>p</m:mi><m:mn>4</m:mn></m:msup><m:mo>·</m:mo><m:msup><m:mi>p</m:mi><m:mn>6</m:mn></m:msup></m:mrow></m:math><newline/>
+<span class="token">ⓑ</span> <m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msup><m:mi>p</m:mi><m:mn>4</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>6</m:mn></m:msup></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1169596382444">
+<problem id="fs-id1169596382446">
+<para id="fs-id1169596382448"><newline/><span class="token">ⓐ</span> <m:math><m:mrow><m:msup><m:mi>q</m:mi><m:mn>5</m:mn></m:msup><m:mo>·</m:mo><m:msup><m:mi>q</m:mi><m:mn>3</m:mn></m:msup></m:mrow></m:math><newline/>
+<span class="token">ⓑ</span> <m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msup><m:mi>q</m:mi><m:mn>5</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>3</m:mn></m:msup></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169596382487">
+<para id="fs-id1169596382489"><span class="token">ⓐ</span> <m:math><m:mrow><m:msup><m:mi>q</m:mi><m:mn>8</m:mn></m:msup></m:mrow></m:math><newline/>
+<span class="token">ⓑ</span> <m:math><m:mrow><m:msup><m:mi>q</m:mi><m:mrow><m:mn>15</m:mn></m:mrow></m:msup></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1169596382512">
+<problem id="fs-id1169596382514">
+<para id="fs-id1169596382516"><newline/><span class="token">ⓐ</span> <m:math><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>y</m:mi><m:mn>3</m:mn></m:msup></m:mrow><m:mi>y</m:mi></m:mfrac></m:mrow></m:math><newline/>
+<span class="token">ⓑ</span> <m:math><m:mrow><m:mfrac><m:mi>y</m:mi><m:mrow><m:msup><m:mi>y</m:mi><m:mn>3</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1169596382573">
+<problem id="fs-id1169596382575">
+<para id="fs-id1169596382577"><newline/><span class="token">ⓐ</span> <m:math><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>z</m:mi><m:mn>6</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mi>z</m:mi><m:mn>5</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:math><newline/>
+<span class="token">ⓑ</span> <m:math><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>z</m:mi><m:mn>5</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mi>z</m:mi><m:mn>6</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169596400296">
+<para id="fs-id1169596400299"><span class="token">ⓐ</span> <m:math><m:mi>z</m:mi></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mi>z</m:mi></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1169596400316">
+<problem id="fs-id1169596400318">
+<para id="fs-id1169596400320"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>8</m:mn><m:msup><m:mi>x</m:mi><m:mn>5</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>9</m:mn><m:mi>x</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>÷</m:mo><m:mn>6</m:mn><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1169596400376">
+<problem id="fs-id1169596400378">
+<para id="fs-id1169596400380"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>4</m:mn><m:mi>y</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>12</m:mn><m:msup><m:mi>y</m:mi><m:mn>7</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>÷</m:mo><m:mn>8</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169596400419">
+<para id="fs-id1169596400422"><m:math><m:mrow><m:mn>6</m:mn><m:msup><m:mi>y</m:mi><m:mn>6</m:mn></m:msup></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1169596366570">
+<problem id="fs-id1169596366572">
+<para id="fs-id1169596366574"><m:math><m:mrow><m:mfrac><m:mrow><m:mn>27</m:mn><m:msup><m:mi>a</m:mi><m:mn>7</m:mn></m:msup></m:mrow><m:mrow><m:mn>3</m:mn><m:msup><m:mi>a</m:mi><m:mn>3</m:mn></m:msup></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mrow><m:mn>54</m:mn><m:msup><m:mi>a</m:mi><m:mn>9</m:mn></m:msup></m:mrow><m:mrow><m:mn>9</m:mn><m:msup><m:mi>a</m:mi><m:mn>5</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1169596366634">
+<problem id="fs-id1169596366636">
+<para id="fs-id1169596366638"><m:math><m:mrow><m:mfrac><m:mrow><m:mn>32</m:mn><m:msup><m:mi>c</m:mi><m:mrow><m:mn>11</m:mn></m:mrow></m:msup></m:mrow><m:mrow><m:mn>4</m:mn><m:msup><m:mi>c</m:mi><m:mn>5</m:mn></m:msup></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mrow><m:mn>42</m:mn><m:msup><m:mi>c</m:mi><m:mn>9</m:mn></m:msup></m:mrow><m:mrow><m:mn>6</m:mn><m:msup><m:mi>c</m:mi><m:mn>3</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169596366683">
+<para id="fs-id1169596366685"><m:math><m:mrow><m:mn>15</m:mn><m:msup><m:mi>c</m:mi><m:mn>6</m:mn></m:msup></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1169596366699">
+<problem id="fs-id1169596366701">
+<para id="fs-id1169596366703"><m:math><m:mrow><m:mfrac><m:mrow><m:mn>32</m:mn><m:msup><m:mi>y</m:mi><m:mn>5</m:mn></m:msup></m:mrow><m:mrow><m:mn>8</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>−</m:mo><m:mfrac><m:mrow><m:mn>60</m:mn><m:msup><m:mi>y</m:mi><m:mrow><m:mn>10</m:mn></m:mrow></m:msup></m:mrow><m:mrow><m:mn>5</m:mn><m:msup><m:mi>y</m:mi><m:mn>7</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1169596357808">
+<problem id="fs-id1169596357810">
+<para id="fs-id1169596357812"><m:math><m:mrow><m:mfrac><m:mrow><m:mn>48</m:mn><m:msup><m:mi>x</m:mi><m:mn>6</m:mn></m:msup></m:mrow><m:mrow><m:mn>6</m:mn><m:msup><m:mi>x</m:mi><m:mn>4</m:mn></m:msup></m:mrow></m:mfrac><m:mo>−</m:mo><m:mfrac><m:mrow><m:mn>35</m:mn><m:msup><m:mi>x</m:mi><m:mn>9</m:mn></m:msup></m:mrow><m:mrow><m:mn>7</m:mn><m:msup><m:mi>x</m:mi><m:mn>7</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169596357856">
+<para id="fs-id1169596357858"><m:math><m:mrow><m:mn>3</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1169596357872">
+<problem id="fs-id1169596357874">
+<para id="fs-id1169596357876"><m:math><m:mrow><m:mfrac><m:mrow><m:mn>63</m:mn><m:msup><m:mi>r</m:mi><m:mn>6</m:mn></m:msup><m:msup><m:mi>s</m:mi><m:mn>3</m:mn></m:msup></m:mrow><m:mrow><m:mn>9</m:mn><m:msup><m:mi>r</m:mi><m:mn>4</m:mn></m:msup><m:msup><m:mi>s</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>−</m:mo><m:mfrac><m:mrow><m:mn>72</m:mn><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup><m:msup><m:mi>s</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>6</m:mn><m:mi>s</m:mi></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1169596372571">
+<problem id="fs-id1169596372573">
+<para id="fs-id1169596372575"><m:math><m:mrow><m:mfrac><m:mrow><m:mn>56</m:mn><m:msup><m:mi>y</m:mi><m:mn>4</m:mn></m:msup><m:msup><m:mi>z</m:mi><m:mn>5</m:mn></m:msup></m:mrow><m:mrow><m:mn>7</m:mn><m:msup><m:mi>y</m:mi><m:mn>3</m:mn></m:msup><m:msup><m:mi>z</m:mi><m:mn>3</m:mn></m:msup></m:mrow></m:mfrac><m:mo>−</m:mo><m:mfrac><m:mrow><m:mn>45</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:msup><m:mi>z</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>5</m:mn><m:mi>y</m:mi></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169596372631">
+<para id="fs-id1169596372634"><m:math><m:mrow><m:mtext>−</m:mtext><m:mi>y</m:mi><m:msup><m:mi>z</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math></para>
+</solution>
+</exercise>
+</section>
+<section id="fs-id1169596372651" class="everyday">
+<title>Everyday Math</title>
+<exercise id="fs-id1169596372656">
+<problem id="fs-id1169596372658">
+<para id="fs-id1169596372660"><emphasis effect="bold">Memory</emphasis> One megabyte is approximately <m:math><m:mrow><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>6</m:mn></m:msup></m:mrow></m:math> bytes. One gigabyte is approximately <m:math><m:mrow><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>9</m:mn></m:msup></m:mrow></m:math> bytes. How many megabytes are in one gigabyte?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1169596372702">
+<problem id="fs-id1169596372704">
+<para id="fs-id1169596372706"><emphasis effect="bold">Memory</emphasis> One gigabyte is approximately <m:math><m:mrow><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>9</m:mn></m:msup></m:mrow></m:math> bytes. One terabyte is approximately <m:math><m:mrow><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>12</m:mn></m:mrow></m:msup></m:mrow></m:math> bytes. How many gigabytes are in one terabyte?</para>
+</problem>
+<solution id="fs-id1169596372734">
+<para id="fs-id1169596372736"><m:math><m:mrow><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup></m:mrow></m:math></para>
+</solution>
+</exercise>
+</section>
+<section id="fs-id1169596398077" class="writing">
+<title>Writing Exercises</title>
+<exercise id="fs-id1169596398083">
+<problem id="fs-id1169596398085">
+<para id="fs-id1169596398087">Jennifer thinks the quotient <m:math><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>a</m:mi><m:mrow><m:mn>24</m:mn></m:mrow></m:msup></m:mrow><m:mrow><m:msup><m:mi>a</m:mi><m:mn>6</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:math> simplifies to <m:math><m:mrow><m:msup><m:mi>a</m:mi><m:mn>4</m:mn></m:msup></m:mrow></m:math>. What is wrong with her reasoning?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1169596398126">
+<problem id="fs-id1169596398128">
+<para id="fs-id1169596398130">Maurice simplifies the quotient <m:math><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>d</m:mi><m:mn>7</m:mn></m:msup></m:mrow><m:mi>d</m:mi></m:mfrac></m:mrow></m:math> by writing <m:math><m:mrow><m:mfrac><m:mrow><m:msup><m:mrow><m:menclose notation="updiagonalstrike">
+<m:mi>d</m:mi></m:menclose></m:mrow><m:mn>7</m:mn></m:msup></m:mrow><m:mrow><m:menclose notation="updiagonalstrike">
+<m:mi>d</m:mi></m:menclose></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>7</m:mn></m:mrow></m:math>. What is wrong with his reasoning?</para>
+</problem>
+<solution id="fs-id1169596398175">
+<para id="fs-id1169596398177">Answers will vary.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1169596398183">
+<problem id="fs-id1169596398185">
+<para id="fs-id1169596398187">When Drake simplified <m:math><m:mrow><m:mtext>−</m:mtext><m:msup><m:mn>3</m:mn><m:mn>0</m:mn></m:msup></m:mrow></m:math> and <m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>0</m:mn></m:msup></m:mrow></m:math> he got the same answer. Explain how using the Order of Operations correctly gives different answers.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1169596398230">
+<problem id="fs-id1169596398232">
+<para id="fs-id1169596398234">Robert thinks <m:math><m:mrow><m:msup><m:mi>x</m:mi><m:mn>0</m:mn></m:msup></m:mrow></m:math> simplifies to 0. What would you say to convince Robert he is wrong?</para>
+</problem>
+<solution id="fs-id1169596404748">
+<para id="fs-id1169596404750">Answers will vary.</para>
+</solution>
+</exercise>
+</section>
+<section id="fs-id1169596404756">
+<title>Self Check</title>
+<para id="fs-id1168742196537"><span class="token">ⓐ</span> After completing the exercises, use this checklist to evaluate your mastery of the objectives of this section.</para>
+<media id="fs-id1169596404778" alt="This is a table that has six rows and four columns. In the first row, which is a header row, the cells read from left to right “I can…,” “Confidently,” “With some help,” and “No-I don’t get it!” The first column below “I can…” reads “simplify expressions using the Quotient Property for Exponents,” “simplify expressions with zero exponents,” “simplify expressions using the Quotient to a Power Property,” “simplify expressions by applying several properties,” and “divide monomials.” The rest of the cells are blank.">
+<image mime-type="image/jpeg" src="../../media/CNX_ElemAlg_Figure_06_05_201_img_new.jpg"/>
+</media>
+<para id="fs-id1168741898268"><span class="token">ⓑ</span> On a scale of 1-10, how would you rate your mastery of this section in light of your responses on the checklist? How can you improve this?</para>
+</section>
+</section>
+</content>
+</document>

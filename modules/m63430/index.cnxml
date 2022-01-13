@@ -1,0 +1,881 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Use Radicals in Functions</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m63430</md:content-id>
+  <md:title>Use Radicals in Functions</md:title>
+  <md:abstract>By the end of this section, you will be able to:
+<list>
+<item>Evaluate a radical function</item>
+<item>Find the domain of a radical function</item>
+<item>Graph radical functions</item>
+</list></md:abstract>
+  <md:uuid>d5887b1b-5ca2-40b7-99c3-43f38b1a5425</md:uuid>
+</metadata>
+
+<content>
+<note id="fs-id1169145658240" class="be-prepared">
+<para id="fs-id1169147769294">Before you get started, take this readiness quiz.</para>
+<list id="fs-id1169143746917" list-type="enumerated" number-style="arabic">
+<item>Solve: <m:math><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>≥</m:mo><m:mn>0</m:mn><m:mo>.</m:mo></m:mrow></m:math><newline/>
+If you missed this problem, review <link target-id="fs-id1167835419716" document="m63312"/>.</item>
+<item>For <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>4</m:mn><m:mo>,</m:mo></m:mrow></m:math> evaluate <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mn>2</m:mn><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mn>0</m:mn><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math><newline/>
+If you missed this problem, review <link target-id="fs-id1167836521479" document="m63324"/>.</item>
+<item>Graph <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msqrt><m:mi>x</m:mi></m:msqrt><m:mo>.</m:mo></m:mrow></m:math> State the domain and range of the function in interval notation.<newline/>
+If you missed this problem, review <link target-id="fs-id1167829930477" document="m63325"/>.</item>
+</list>
+</note>
+<section id="fs-id1169145644347">
+<title>Evaluate a Radical Function</title>
+<para id="fs-id1169147750184">In this section we will extend our previous work with functions to include radicals. If a function is defined by a radical expression, we call it a <term>radical function</term>.</para>
+<para id="fs-id1169143574637">The square root function is <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mroot><m:mi>x</m:mi><m:mrow/></m:mroot><m:mo>.</m:mo></m:mrow></m:math></para>
+<para id="fs-id1169145658807">The cube root function is <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mroot><m:mi>x</m:mi><m:mn>3</m:mn></m:mroot><m:mo>.</m:mo></m:mrow></m:math></para>
+<note id="fs-id1169147959288">
+<title>Radical Function</title>
+<para id="fs-id1169145732376">A <emphasis effect="bold">radical function</emphasis> is a function that is defined by a radical expression.</para>
+</note>
+<para id="fs-id1169145640177">To evaluate a radical function, we find the value of <emphasis effect="italics">f</emphasis>(<emphasis effect="italics">x</emphasis>) for a given value of <emphasis effect="italics">x</emphasis> just as we did in our previous work with functions.</para>
+<example id="fs-id1169147834542">
+<exercise id="fs-id1169148054498">
+<problem id="fs-id1169147763493">
+<para id="fs-id1169147767920">For the function <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msqrt><m:mrow><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:msqrt><m:mo>,</m:mo></m:mrow></m:math> find <span class="token">ⓐ</span> <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mn>5</m:mn><m:mo>)</m:mo></m:mrow></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169147759005">
+<para id="fs-id1169147864033"><span class="token">ⓐ</span><newline/>
+<m:math><m:mrow><m:mtable>
+<m:mtr><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mspace width="3em"/><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:msqrt><m:mrow><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:msqrt></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mtext>To evaluate</m:mtext><m:mspace width="0.2em"/><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mn>5</m:mn><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mtext>substitute 5 for</m:mtext><m:mspace width="0.2em"/><m:mi>x</m:mi><m:mo>.</m:mo></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mspace width="3em"/><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mn>5</m:mn><m:mo>)</m:mo></m:mrow></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:msqrt><m:mrow><m:mn>2</m:mn><m:mo>·</m:mo><m:mn>5</m:mn><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:msqrt></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mtext>Simplify.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mspace width="3em"/><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mn>5</m:mn><m:mo>)</m:mo></m:mrow></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:msqrt><m:mrow><m:mn>9</m:mn></m:mrow></m:msqrt></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mtext>Take the square root.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mspace width="3em"/><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mn>5</m:mn><m:mo>)</m:mo></m:mrow></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>3</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:math></para><para id="fs-id1169143231118"><span class="token">ⓑ</span><newline/>
+<m:math><m:mrow><m:mtable>
+<m:mtr><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mspace width="1.5em"/><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:msqrt><m:mrow><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:msqrt></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mtext>To evaluate</m:mtext><m:mspace width="0.2em"/><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mtext>substitute</m:mtext><m:mspace width="0.2em"/><m:mn>−2</m:mn><m:mspace width="0.2em"/><m:mtext>for</m:mtext><m:mspace width="0.2em"/><m:mi>x</m:mi><m:mo>.</m:mo></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mspace width="1.5em"/><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:msqrt><m:mrow><m:mn>2</m:mn><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:msqrt></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mtext>Simplify.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mspace width="1.5em"/><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:msqrt><m:mrow><m:mn>−5</m:mn></m:mrow></m:msqrt></m:mtd></m:mtr></m:mtable></m:mrow></m:math></para>
+<para id="fs-id1169148229400">Since the square root of a negative number is not a real number, the function does not have a value at <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>−2</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+</solution>
+</exercise>
+</example>
+<note id="fs-id1169145620857" class="try">
+<exercise id="fs-id1169147879034">
+<problem id="fs-id1169148248313">
+<para id="fs-id1169148063652">For the function <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msqrt><m:mrow><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow></m:msqrt><m:mo>,</m:mo></m:mrow></m:math> find <span class="token">ⓐ</span> <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mn>6</m:mn><m:mo>)</m:mo></m:mrow></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mn>0</m:mn><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169145498016">
+<para id="fs-id1169141299498"><span class="token">ⓐ</span> <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mn>6</m:mn><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>4</m:mn></m:mrow></m:math> <span class="token">ⓑ</span> no value at <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1169147796778" class="try">
+<exercise id="fs-id1169147765727">
+<problem id="fs-id1169147859022">
+<para id="fs-id1169145988381">For the function <m:math><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msqrt><m:mrow><m:mn>5</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>5</m:mn></m:mrow></m:msqrt><m:mo>,</m:mo></m:mrow></m:math> find <span class="token">ⓐ</span> <m:math><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mn>4</m:mn><m:mo>)</m:mo></m:mrow></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169145623485">
+<para id="fs-id1169145586011"><span class="token">ⓐ</span> <m:math><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mn>4</m:mn><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>5</m:mn></m:mrow></m:math> <span class="token">ⓑ</span> no value at <m:math><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mn>−3</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<para id="fs-id1169147987998">We follow the same procedure to evaluate cube roots.</para>
+<example id="fs-id1169145664723">
+<exercise id="fs-id1169147820779">
+<problem id="fs-id1169147877799">
+<para id="fs-id1169145715326">For the function <m:math><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mroot><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>6</m:mn></m:mrow><m:mrow><m:mn>3</m:mn></m:mrow></m:mroot><m:mo>,</m:mo></m:mrow></m:math> find <span class="token">ⓐ</span> <m:math><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>14</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169147745183">
+<para id="fs-id1169148207457"><span class="token">ⓐ</span><newline/>
+<m:math><m:mrow><m:mtable>
+<m:mtr><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mspace width="0.5em"/><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mroot><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>6</m:mn></m:mrow><m:mrow><m:mn>3</m:mn></m:mrow></m:mroot></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mtext>To evaluate</m:mtext><m:mspace width="0.2em"/><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>14</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mtext>substitute 14 for</m:mtext><m:mspace width="0.2em"/><m:mi>x</m:mi><m:mo>.</m:mo></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mspace width="0.5em"/><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>14</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mroot><m:mrow><m:mn>14</m:mn><m:mo>−</m:mo><m:mn>6</m:mn></m:mrow><m:mrow><m:mn>3</m:mn></m:mrow></m:mroot></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mtext>Simplify.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mspace width="0.5em"/><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>14</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mroot><m:mn>8</m:mn><m:mrow><m:mn>3</m:mn></m:mrow></m:mroot></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mtext>Take the cube root.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mspace width="0.5em"/><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>14</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>2</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:math></para>
+<para id="fs-id1169143763234"><span class="token">ⓑ</span><newline/>
+<m:math><m:mrow><m:mtable>
+<m:mtr><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mroot><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>6</m:mn></m:mrow><m:mrow><m:mn>3</m:mn></m:mrow></m:mroot></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mtext>To evaluate</m:mtext><m:mspace width="0.2em"/><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mtext>substitute</m:mtext><m:mspace width="0.2em"/><m:mn>−2</m:mn><m:mspace width="0.2em"/><m:mtext>for</m:mtext><m:mspace width="0.2em"/><m:mi>x</m:mi><m:mo>.</m:mo></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mroot><m:mrow><m:mn>−2</m:mn><m:mo>−</m:mo><m:mn>6</m:mn></m:mrow><m:mrow><m:mn>3</m:mn></m:mrow></m:mroot></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mtext>Simplify.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mroot><m:mrow><m:mn>−8</m:mn></m:mrow><m:mrow><m:mn>3</m:mn></m:mrow></m:mroot></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mtext>Take the cube root.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>−2</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:math></para>
+</solution>
+</exercise>
+</example>
+<note id="fs-id1169143573107" class="try">
+<exercise id="fs-id1169147843527">
+<problem id="fs-id1169145575010">
+<para id="fs-id1169145714216">For the function <m:math><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mroot><m:mrow><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>4</m:mn></m:mrow><m:mrow><m:mn>3</m:mn></m:mrow></m:mroot><m:mo>,</m:mo></m:mrow></m:math> find <span class="token">ⓐ</span> <m:math><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mn>4</m:mn><m:mo>)</m:mo></m:mrow></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mn>1</m:mn><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169145644143">
+<para id="fs-id1169145779297"><span class="token">ⓐ</span> <m:math><m:mrow><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mn>4</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>2</m:mn></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>−1</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1169147833350" class="try">
+<exercise id="fs-id1169145733809">
+<problem id="fs-id1169147825232">
+<para id="fs-id1169148229294">For the function <m:math><m:mrow><m:mi>h</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mroot><m:mrow><m:mn>5</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow><m:mrow><m:mn>3</m:mn></m:mrow></m:mroot><m:mo>,</m:mo></m:mrow></m:math> find <span class="token">ⓐ</span> <m:math><m:mrow><m:mi>h</m:mi><m:mrow><m:mo>(</m:mo><m:mn>2</m:mn><m:mo>)</m:mo></m:mrow></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mi>h</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169147727895">
+<para id="fs-id1169143550222"><span class="token">ⓐ</span> <m:math><m:mrow><m:mi>h</m:mi><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>2</m:mn></m:mrow></m:math><newline/><span class="token">ⓑ</span> <m:math><m:mrow><m:mi>h</m:mi><m:mo stretchy="false">(</m:mo><m:mn>−5</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>−3</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<para id="fs-id1169148124976">The next example has fourth roots.</para>
+<example id="fs-id1169145667545">
+<exercise id="fs-id1169145620381">
+<problem id="fs-id1169147806731">
+<para id="fs-id1169145574634">For the function <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mroot><m:mrow><m:mn>5</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>4</m:mn></m:mrow><m:mrow><m:mn>4</m:mn></m:mrow></m:mroot><m:mo>,</m:mo></m:mrow></m:math> find <span class="token">ⓐ</span> <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mn>4</m:mn><m:mo>)</m:mo></m:mrow></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−12</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169148233330">
+<para id="fs-id1169148229060"><span class="token">ⓐ</span><newline/>
+<m:math><m:mrow><m:mtable>
+<m:mtr><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mspace width="3.5em"/><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mroot><m:mrow><m:mn>5</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>4</m:mn></m:mrow><m:mrow><m:mn>4</m:mn></m:mrow></m:mroot></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mtext>To evaluate</m:mtext><m:mspace width="0.2em"/><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mn>4</m:mn><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mtext>substitute 4 for</m:mtext><m:mspace width="0.2em"/><m:mi>x</m:mi><m:mo>.</m:mo></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mspace width="3.5em"/><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mn>4</m:mn><m:mo>)</m:mo></m:mrow></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mroot><m:mrow><m:mn>5</m:mn><m:mo>·</m:mo><m:mn>4</m:mn><m:mo>−</m:mo><m:mn>4</m:mn></m:mrow><m:mrow><m:mn>4</m:mn></m:mrow></m:mroot></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mtext>Simplify.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mspace width="3.5em"/><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mn>4</m:mn><m:mo>)</m:mo></m:mrow></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mroot><m:mrow><m:mn>16</m:mn></m:mrow><m:mrow><m:mn>4</m:mn></m:mrow></m:mroot></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mtext>Take the fourth root.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mspace width="3.5em"/><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mn>4</m:mn><m:mo>)</m:mo></m:mrow></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>2</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:math></para><para id="fs-id1169147841823"><span class="token">ⓑ</span><newline/>
+<m:math><m:mrow><m:mtable>
+<m:mtr><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mroot><m:mrow><m:mn>5</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>4</m:mn></m:mrow><m:mrow><m:mn>4</m:mn></m:mrow></m:mroot></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mtext>To evaluate</m:mtext><m:mspace width="0.2em"/><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−12</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mtext>substitute</m:mtext><m:mspace width="0.2em"/><m:mn>−12</m:mn><m:mspace width="0.2em"/><m:mtext>for</m:mtext><m:mspace width="0.2em"/><m:mi>x</m:mi><m:mi>.</m:mi></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−12</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mroot><m:mrow><m:mn>5</m:mn><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−12</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>−</m:mo><m:mn>4</m:mn></m:mrow><m:mrow><m:mn>4</m:mn></m:mrow></m:mroot></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mtext>Simplify.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−12</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mroot><m:mrow><m:mn>−64</m:mn></m:mrow><m:mrow><m:mn>4</m:mn></m:mrow></m:mroot></m:mtd></m:mtr></m:mtable></m:mrow></m:math></para>
+<para id="fs-id1169143638539">Since the fourth root of a negative number is not a real number, the function does not have a value at <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>−12</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+</solution>
+</exercise>
+</example>
+<note id="fs-id1169147731793" class="try">
+<exercise id="fs-id1169145946189">
+<problem id="fs-id1169147850137">
+<para id="fs-id1169147847536">For the function <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mroot><m:mrow><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn></m:mrow><m:mrow><m:mn>4</m:mn></m:mrow></m:mroot><m:mo>,</m:mo></m:mrow></m:math> find <span class="token">ⓐ</span> <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mn>4</m:mn><m:mo>)</m:mo></m:mrow></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169147806247">
+<para id="fs-id1169147774929"><span class="token">ⓐ</span> <m:math><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mn>4</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>2</m:mn></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mn>−1</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1169147707374" class="try">
+<exercise id="fs-id1169143317888">
+<problem id="fs-id1169147906250">
+<para id="fs-id1169147843734">For the function <m:math><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mroot><m:mrow><m:mn>5</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow><m:mrow><m:mn>4</m:mn></m:mrow></m:mroot><m:mo>,</m:mo></m:mrow></m:math> find <span class="token">ⓐ</span> <m:math><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>16</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mn>3</m:mn><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169147979561">
+<para id="fs-id1169142122817"><span class="token">ⓐ</span> <m:math><m:mrow><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mn>16</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>3</m:mn></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>2</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+</section>
+<section id="fs-id1169147775047">
+<title>Find the Domain of a Radical Function</title>
+<para id="fs-id1169147824778">To find the <term class="no-emphasis">domain</term> and <term class="no-emphasis">range</term> of radical functions, we use our properties of radicals. For a radical with an even index, we said the radicand had to be greater than or equal to zero as even roots of negative numbers are not real numbers. For an odd index, the radicand can be any real number. We restate the properties here for reference.</para>
+<note id="fs-id1169148047556">
+<title>Properties of <m:math><m:mrow><m:mroot><m:mi>a</m:mi><m:mi>n</m:mi></m:mroot></m:mrow></m:math></title>
+<para id="fs-id1169147835801">When <emphasis effect="italics">n</emphasis> is an <emphasis effect="bold">even</emphasis> number and:</para>
+<list id="fs-id1169147848685" list-type="bulleted" bullet-style="bullet">
+<item><m:math><m:mrow><m:mi>a</m:mi><m:mo>≥</m:mo><m:mn>0</m:mn><m:mo>,</m:mo></m:mrow></m:math> then <m:math><m:mrow><m:mroot><m:mi>a</m:mi><m:mi>n</m:mi></m:mroot></m:mrow></m:math> is a real number.</item>
+<item><m:math><m:mrow><m:mi>a</m:mi><m:mo>&lt;</m:mo><m:mn>0</m:mn><m:mo>,</m:mo></m:mrow></m:math> then <m:math><m:mrow><m:mroot><m:mi>a</m:mi><m:mi>n</m:mi></m:mroot></m:mrow></m:math> is not a real number.</item>
+</list>
+<para id="fs-id1169147763639">When <emphasis effect="italics">n</emphasis> is an <emphasis effect="bold">odd</emphasis> number, <m:math><m:mrow><m:mroot><m:mi>a</m:mi><m:mi>n</m:mi></m:mroot></m:mrow></m:math> is a real number for all values of <emphasis effect="italics">a</emphasis>.</para>
+</note>
+<para id="fs-id1169147865230">So, to find the domain of a radical function with even index, we set the radicand to be greater than or equal to zero. For an odd index radical, the radicand can be any real number.</para>
+<note id="fs-id1169147837500">
+<title>Domain of a Radical Function</title>
+<para id="fs-id1169147745047">When the <emphasis effect="bold">index</emphasis> of the radical is <emphasis effect="bold">even</emphasis>, the radicand must be greater than or equal to zero.</para>
+<para id="fs-id1169143550091">When the <emphasis effect="bold">index</emphasis> of the radical is <emphasis effect="bold">odd</emphasis>, the radicand can be any real number.</para>
+</note>
+<example id="fs-id1169145747305">
+<exercise id="fs-id1169145730306">
+<problem id="fs-id1169147711453">
+<para id="fs-id1169145620583">Find the domain of the function, <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msqrt><m:mrow><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>4</m:mn></m:mrow></m:msqrt><m:mo>.</m:mo></m:mrow></m:math> Write the domain in interval notation.</para>
+</problem>
+<solution id="fs-id1169145499784">
+<para id="fs-id1169147809361">Since the function, <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msqrt><m:mrow><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>4</m:mn></m:mrow></m:msqrt></m:mrow></m:math> has a radical with an index of 2, which is even, we know the radicand must be greater than or equal to 0. We set the radicand to be greater than or equal to 0 and then solve to find the domain.</para>
+<para id="fs-id1169147826910"><m:math><m:mrow><m:mtable>
+<m:mtr><m:mtd/><m:mtd/><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>4</m:mn></m:mtd><m:mtd columnalign="left"><m:mo>≥</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>0</m:mn></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mtext>Solve.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>3</m:mn><m:mi>x</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>≥</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>4</m:mn></m:mtd></m:mtr>
+<m:mtr><m:mtd/><m:mtd/><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mi>x</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>≥</m:mo></m:mtd><m:mtd columnalign="left"><m:mfrac><m:mn>4</m:mn><m:mn>3</m:mn></m:mfrac></m:mtd></m:mtr></m:mtable></m:mrow></m:math></para>
+<para id="fs-id1169143577542">The domain of <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msqrt><m:mrow><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>4</m:mn></m:mrow></m:msqrt></m:mrow></m:math> is all values <m:math><m:mrow><m:mi>x</m:mi><m:mo>≥</m:mo><m:mfrac><m:mn>4</m:mn><m:mn>3</m:mn></m:mfrac></m:mrow></m:math> and we write it in interval notation as <m:math><m:mrow><m:mrow><m:mo>[</m:mo><m:mrow><m:mfrac><m:mn>4</m:mn><m:mn>3</m:mn></m:mfrac><m:mo>,</m:mo><m:mi>∞</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</solution>
+</exercise>
+</example>
+<note id="fs-id1169145520198" class="try">
+<exercise id="fs-id1169145644630">
+<problem id="fs-id1169147959847">
+<para id="fs-id1169148210160">Find the domain of the function, <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msqrt><m:mrow><m:mn>6</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>5</m:mn></m:mrow></m:msqrt><m:mo>.</m:mo></m:mrow></m:math> Write the domain in interval notation.</para>
+</problem>
+<solution id="fs-id1169148037760">
+<para id="fs-id1169148251259"><m:math><m:mrow><m:mrow><m:mo>[</m:mo><m:mrow><m:mfrac><m:mn>5</m:mn><m:mn>6</m:mn></m:mfrac><m:mo>,</m:mo><m:mi>∞</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1169147909572" class="try">
+<exercise id="fs-id1169145550678">
+<problem id="fs-id1169147860226">
+<para id="fs-id1169148115867">Find the domain of the function, <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msqrt><m:mrow><m:mn>4</m:mn><m:mo>−</m:mo><m:mn>5</m:mn><m:mi>x</m:mi></m:mrow></m:msqrt><m:mo>.</m:mo></m:mrow></m:math> Write the domain in interval notation.</para>
+</problem>
+<solution id="fs-id1169147838012">
+<para id="fs-id1169147852288"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mtext>−</m:mtext><m:mi>∞</m:mi><m:mo>,</m:mo><m:mfrac><m:mn>4</m:mn><m:mn>5</m:mn></m:mfrac></m:mrow><m:mo>]</m:mo></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<example id="fs-id1169147764891">
+<exercise id="fs-id1169143601638">
+<problem id="fs-id1169145574085">
+<para id="fs-id1169145716676">Find the domain of the function, <m:math><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msqrt><m:mrow><m:mfrac><m:mn>6</m:mn><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:mfrac></m:mrow></m:msqrt><m:mo>.</m:mo></m:mrow></m:math> Write the domain in interval notation.</para>
+</problem>
+<solution id="fs-id1169148248332">
+<para id="fs-id1169147738757">Since the function, <m:math><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msqrt><m:mrow><m:mfrac><m:mn>6</m:mn><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:mfrac></m:mrow></m:msqrt></m:mrow></m:math> has a radical with an index of 2, which is even, we know the radicand must be greater than or equal to 0.</para>
+<para id="fs-id1169143330161">The radicand cannot be zero since the numerator is not zero.</para>
+<para id="fs-id1169145608090">For <m:math><m:mrow><m:mfrac><m:mn>6</m:mn><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:mfrac></m:mrow></m:math> to be greater than zero, the denominator must be positive since the numerator is positive. We know a positive divided by a positive is positive.</para>
+<para id="fs-id1169147731977">We set <m:math><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn><m:mo>&gt;</m:mo><m:mn>0</m:mn></m:mrow></m:math> and solve.</para>
+<para id="fs-id1169143487387"><m:math><m:mrow><m:mtable>
+<m:mtr><m:mtd/><m:mtd/><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mtd><m:mtd columnalign="left"><m:mo>&gt;</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>0</m:mn></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mtext>Solve.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mi>x</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>&gt;</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>1</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:math></para>
+<para id="fs-id1169145507872">Also, since the radicand is a fraction, we must realize that the denominator cannot be zero.</para>
+<para id="fs-id1169147817212">We solve <m:math><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> to find the value that must be eliminated from the domain.</para>
+<para id="fs-id1169147758791"><m:math><m:mrow><m:mtable>
+<m:mtr><m:mtd/><m:mtd/><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>0</m:mn></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mtext>Solve.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mi>x</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mtext>so</m:mtext><m:mspace width="0.2em"/><m:mi>x</m:mi><m:mo>≠</m:mo><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mtext>in the domain.</m:mtext></m:mtd></m:mtr></m:mtable></m:mrow></m:math></para>
+<para id="fs-id1169143578779">Putting this together we get the domain is <m:math><m:mrow><m:mi>x</m:mi><m:mo>&gt;</m:mo><m:mn>1</m:mn></m:mrow></m:math> and we write it as <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>,</m:mo><m:mi>∞</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</solution>
+</exercise>
+</example>
+<note id="fs-id1169145665511" class="try">
+<exercise id="fs-id1169147777460">
+<problem id="fs-id1169148224616">
+<para id="fs-id1169147875579">Find the domain of the function, <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msqrt><m:mrow><m:mfrac><m:mn>4</m:mn><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow></m:mfrac></m:mrow></m:msqrt><m:mo>.</m:mo></m:mrow></m:math> Write the domain in interval notation.</para>
+</problem>
+<solution id="fs-id1169148101058">
+<para id="fs-id1169147946981"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−3</m:mn><m:mo>,</m:mo><m:mi>∞</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1169147802653" class="try">
+<exercise id="fs-id1169147764968">
+<problem id="fs-id1169147965038">
+<para id="fs-id1169142263113">Find the domain of the function, <m:math><m:mrow><m:mi>h</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msqrt><m:mrow><m:mfrac><m:mn>9</m:mn><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>5</m:mn></m:mrow></m:mfrac></m:mrow></m:msqrt><m:mo>.</m:mo></m:mrow></m:math> Write the domain in interval notation.</para>
+</problem>
+<solution id="fs-id1169148211614">
+<para id="fs-id1169145505677"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>5</m:mn><m:mo>,</m:mo><m:mi>∞</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<para id="fs-id1169147962378">The next example involves a cube root and so will require different thinking.</para>
+<example id="fs-id1169147833926">
+<exercise id="fs-id1169147768127">
+<problem id="fs-id1169145621716">
+<para id="fs-id1169145580555">Find the domain of the function, <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mroot><m:mrow><m:mn>2</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow><m:mrow><m:mn>3</m:mn></m:mrow></m:mroot><m:mo>.</m:mo></m:mrow></m:math> Write the domain in interval notation.</para>
+</problem>
+<solution id="fs-id1169147700003">
+<para id="fs-id1169147947059">Since the function, <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mroot><m:mrow><m:mn>2</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow><m:mrow><m:mn>3</m:mn></m:mrow></m:mroot></m:mrow></m:math> has a radical with an index of 3, which is odd, we know the radicand can be any real number. This tells us the domain is any real number. In interval notation, we write <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mtext>−</m:mtext><m:mi>∞</m:mi><m:mo>,</m:mo><m:mi>∞</m:mi></m:mrow><m:mo>)</m:mo><m:mo>.</m:mo></m:mrow></m:mrow></m:math></para>
+<para id="fs-id1169147980456">The domain of <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mroot><m:mrow><m:mn>2</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow><m:mrow><m:mn>3</m:mn></m:mrow></m:mroot></m:mrow></m:math> is all real numbers and we write it in interval notation as <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mtext>−</m:mtext><m:mi>∞</m:mi><m:mo>,</m:mo><m:mi>∞</m:mi></m:mrow><m:mo>)</m:mo><m:mo>.</m:mo></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+</example>
+<note id="fs-id1169145733006" class="try">
+<exercise id="fs-id1169143502868">
+<problem id="fs-id1169147707473">
+<para id="fs-id1169147864365">Find the domain of the function, <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mroot><m:mrow><m:mn>3</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow><m:mrow><m:mn>3</m:mn></m:mrow></m:mroot><m:mo>.</m:mo></m:mrow></m:math> Write the domain in interval notation.</para>
+</problem>
+<solution id="fs-id1169147837932">
+<para id="fs-id1169145620600"><m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mtext>−</m:mtext><m:mi>∞</m:mi><m:mo>,</m:mo><m:mi>∞</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1169147827855" class="try">
+<exercise id="fs-id1169148077672">
+<problem id="fs-id1169148116396">
+<para id="fs-id1169145670713">Find the domain of the function, <m:math><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mroot><m:mrow><m:mn>5</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>4</m:mn></m:mrow><m:mrow><m:mn>3</m:mn></m:mrow></m:mroot><m:mo>.</m:mo></m:mrow></m:math> Write the domain in interval notation.</para>
+</problem>
+<solution id="fs-id1169147804280">
+<para id="fs-id1169147837605"><m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mtext>−</m:mtext><m:mi>∞</m:mi><m:mo>,</m:mo><m:mi>∞</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+</section>
+<section id="fs-id1169147772022">
+<title>Graph Radical Functions</title>
+<para id="fs-id1169148251663">Before we graph any radical function, we first find the <term class="no-emphasis">domain</term> of the function. For the function, <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msqrt><m:mrow><m:mi>x</m:mi></m:mrow></m:msqrt><m:mo>,</m:mo></m:mrow></m:math> the index is even, and so the radicand must be greater than or equal to 0.</para>
+<para id="fs-id1169145506488">This tells us the domain is <m:math><m:mrow><m:mi>x</m:mi><m:mo>≥</m:mo><m:mn>0</m:mn></m:mrow></m:math> and we write this in interval notation as <m:math><m:mrow><m:mrow><m:mo>[</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mi>∞</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+<para id="fs-id1169142400725">Previously we used point plotting to graph the function, <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msqrt><m:mrow><m:mi>x</m:mi></m:mrow></m:msqrt><m:mo>.</m:mo></m:mrow></m:math> We chose <emphasis effect="italics">x</emphasis>-values, substituted them in and then created a chart. Notice we chose points that are perfect squares in order to make taking the square root easier.</para>
+<media id="fs-id1169148231243" alt="The figure shows the square root function graph on the x y-coordinate plane. The x-axis of the plane runs from 0 to 7. The y-axis runs from 0 to 7. The function has a starting point at (0, 0) and goes through the points (1, 1) and (4, 2). A table is shown beside the graph with 3 columns and 5 rows. The first row is a header row with the expressions “x”, “f (x) = square root of x”, and “(x, f (x))”. The second row has the numbers 0, 0, and (0, 0). The third row has the numbers 1, 1, and (1, 1). The fourth row has the numbers 4, 2, and (4, 2). The fifth row has the numbers 9, 3, and (9, 3).">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_08_07_001_img_new.jpg"/>
+</media>
+<para id="fs-id1169147774393">Once we see the graph, we can find the range of the function. The <emphasis effect="italics">y</emphasis>-values of the function are greater than or equal to zero. The range then is <m:math><m:mrow><m:mrow><m:mo>[</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mi>∞</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+<example id="fs-id1169148132081">
+<exercise id="fs-id1169148072142">
+<problem id="fs-id1169147830798">
+<para id="fs-id1169145775018">For the function <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msqrt><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow></m:msqrt><m:mo>,</m:mo></m:mrow></m:math></para>
+<para id="fs-id1169145735236"><span class="token">ⓐ</span> find the domain  <span class="token">ⓑ</span> graph the function <span class="token">ⓒ</span> use the graph to determine the range.</para>
+</problem>
+<solution id="fs-id1169147709575">
+<para id="fs-id1169147959625"><span class="token">ⓐ</span> Since the radical has index 2, we know the radicand must be greater than or equal to zero. If <m:math><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mo>≥</m:mo><m:mn>0</m:mn><m:mo>,</m:mo></m:mrow></m:math> then <m:math><m:mrow><m:mi>x</m:mi><m:mo>≥</m:mo><m:mn>−3</m:mn><m:mo>.</m:mo></m:mrow></m:math> This tells us the domain is all values <m:math><m:mrow><m:mi>x</m:mi><m:mo>≥</m:mo><m:mn>−3</m:mn></m:mrow></m:math> and written in interval notation as <m:math><m:mrow><m:mrow><m:mo>[</m:mo><m:mrow><m:mn>−3</m:mn><m:mo>,</m:mo><m:mi>∞</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+<para id="fs-id1169147787156"><span class="token">ⓑ</span> To graph the function, we choose points in the interval <m:math><m:mrow><m:mrow><m:mo>[</m:mo><m:mrow><m:mn>−3</m:mn><m:mo>,</m:mo><m:mi>∞</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> that will also give us a radicand which will be easy to take the square root.</para>
+<media id="fs-id1169147716047" alt="The figure shows a square root function graph on the x y-coordinate plane. The x-axis of the plane runs from negative 3 to 3. The y-axis runs from 0 to 7. The function has a starting point at (negative 3, 0) and goes through the points (negative 2, 1) and (1, 2). A table is shown beside the graph with 3 columns and 5 rows. The first row is a header row with the expressions “x”, “f (x) = square root of the quantity x plus 3”, and “(x, f (x))”. The second row has the numbers negative 3, 0, and (negative 3, 0). The third row has the numbers negative 2, 1, and (negative 2, 1). The fourth row has the numbers 1, 2, and (1, 2). The fifth row has the numbers 6, 3, and (6, 3).">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_08_07_002_img_new.jpg"/>
+</media>
+<para id="fs-id1169147708185"><span class="token">ⓒ</span> Looking at the graph, we see the <emphasis effect="italics">y</emphasis>-values of the function are greater than or equal to zero. The range then is <m:math><m:mrow><m:mrow><m:mo>[</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mi>∞</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</solution>
+</exercise>
+</example>
+<note id="fs-id1169137906940" class="try">
+<exercise id="fs-id1169147826840">
+<problem id="fs-id1169148069963">
+<para id="fs-id1169147738653">For the function <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msqrt><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow></m:msqrt><m:mo>,</m:mo></m:mrow></m:math> <span class="token">ⓐ</span> find the domain  <span class="token">ⓑ</span> graph the function <span class="token">ⓒ</span> use the graph to determine the range.</para>
+</problem>
+<solution id="fs-id1169147834274">
+<para id="fs-id1169145696314"><span class="token">ⓐ</span> domain: <m:math><m:mrow><m:mrow><m:mo>[</m:mo><m:mrow><m:mn>−2</m:mn><m:mo>,</m:mo><m:mi>∞</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math><newline/>
+<span class="token">ⓑ</span><newline/>
+<media id="fs-id1169145660319" alt="The figure shows a square root function graph on the x y-coordinate plane. The x-axis of the plane runs from negative 2 to 6. The y-axis runs from 0 to 8. The function has a starting point at (negative 2, 0) and goes through the points (negative 1, 1) and (2, 2).">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_08_07_301_img_new.jpg"/>
+</media><newline/>
+<span class="token">ⓒ</span> range: <m:math><m:mrow><m:mrow><m:mo>[</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mi>∞</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1169145735224" class="try">
+<exercise id="fs-id1169145731036">
+<problem id="fs-id1169147774570">
+<para id="fs-id1169147836064">For the function <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msqrt><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow></m:msqrt><m:mo>,</m:mo></m:mrow></m:math> <span class="token">ⓐ</span> find the domain  <span class="token">ⓑ</span> graph the function <span class="token">ⓒ</span> use the graph to determine the range.</para>
+</problem>
+<solution id="fs-id1169145670796">
+<para id="fs-id1169147906599"><span class="token">ⓐ</span> domain: <m:math><m:mrow><m:mrow><m:mo>[</m:mo><m:mrow><m:mn>2</m:mn><m:mo>,</m:mo><m:mi>∞</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math><newline/>
+<span class="token">ⓑ</span><newline/>
+<media id="fs-id1169145969952" alt="The figure shows a square root function graph on the x y-coordinate plane. The x-axis of the plane runs from 0 to 8. The y-axis runs from 0 to 6. The function has a starting point at (2, 0) and goes through the points (3, 1) and (6, 2).">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_08_07_302_img_new.jpg"/>
+</media><newline/>
+<span class="token">ⓒ</span> range: <m:math><m:mrow><m:mrow><m:mo>[</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mi>∞</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<para id="fs-id1169147759371">In our previous work graphing functions, we graphed <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup></m:mrow></m:math> but we did not graph the function <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mroot><m:mi>x</m:mi><m:mrow><m:mn>3</m:mn></m:mrow></m:mroot><m:mo>.</m:mo></m:mrow></m:math> We will do this now in the next example.</para>
+<example id="fs-id1169147876087">
+<exercise id="fs-id1169147708819">
+<problem id="fs-id1169145844089">
+<para id="fs-id1169148237468">For the function <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mroot><m:mi>x</m:mi><m:mrow><m:mn>3</m:mn></m:mrow></m:mroot><m:mo>,</m:mo></m:mrow></m:math> <span class="token">ⓐ</span> find the domain  <span class="token">ⓑ</span> graph the function <span class="token">ⓒ</span> use the graph to determine the range.</para>
+</problem>
+<solution id="fs-id1169147808469">
+<para id="fs-id1169145643316"><span class="token">ⓐ</span> Since the radical has index 3, we know the radicand can be any real number. This tells us the domain is all real numbers and written in interval notation as <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mtext>−</m:mtext><m:mi>∞</m:mi><m:mo>,</m:mo><m:mi>∞</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+<para id="fs-id1169148054588"><span class="token">ⓑ</span> To graph the function, we choose points in the interval <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mtext>−</m:mtext><m:mi>∞</m:mi><m:mo>,</m:mo><m:mi>∞</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> that will also give us a radicand which will be easy to take the cube root.</para>
+<para id="fs-id1169145696412">
+<media id="fs-id1169147732107" alt="The figure shows the cube root function graph on the x y-coordinate plane. The x-axis of the plane runs from negative 10 to 10. The y-axis runs from negative 10 to 10. The function has a center point at (0, 0) and goes through the points (1, 1), (negative 1, negative 1), (8, 2), and (negative 8, negative 2). A table is shown beside the graph with 3 columns and 6 rows. The first row is a header row with the expressions “x”, “f (x) = cube root of x”, and “(x, f (x))”. The second row has the numbers negative 8, negative 2, and (negative 8, negative 2). The third row has the numbers negative 1, negative 1, and (negative 1, negative 1). The fourth row has the numbers 0, 0, and (0, 0). The fifth row has the numbers 1, 1, and (1, 1). The sixth row has the numbers 8, 2, and (8, 2).">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_08_07_003_img_new.jpg"/>
+</media></para>
+<para id="fs-id1169147846342"><span class="token">ⓒ</span> Looking at the graph, we see the <emphasis effect="italics">y</emphasis>-values of the function are all real numbers. The range then is <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mtext>−</m:mtext><m:mi>∞</m:mi><m:mo>,</m:mo><m:mi>∞</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</solution>
+</exercise>
+</example>
+<note id="fs-id1169147741965" class="try">
+<exercise id="fs-id1169147963259">
+<problem id="fs-id1169145924994">
+<para id="fs-id1169145924996">For the function <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mtext>−</m:mtext><m:mroot><m:mi>x</m:mi><m:mrow><m:mn>3</m:mn></m:mrow></m:mroot><m:mo>,</m:mo></m:mrow></m:math></para>
+<para id="fs-id1169147831008"><span class="token">ⓐ</span> find the domain  <span class="token">ⓑ</span> graph the function <span class="token">ⓒ</span> use the graph to determine the range.</para>
+</problem>
+<solution id="fs-id1169141300257">
+<para id="fs-id1169143448553"><span class="token">ⓐ</span> domain: <m:math><m:mrow><m:mtext>(</m:mtext><m:mo>−</m:mo><m:mi>∞</m:mi><m:mo>,</m:mo><m:mi>∞</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math><newline/>
+<span class="token">ⓑ</span><newline/>
+<media id="fs-id1169142133180" alt="The figure shows a cube root function graph on the x y-coordinate plane. The x-axis of the plane runs from negative 2 to 2. The y-axis runs from negative 2 to 2. The function has a center point at (0, 0) and goes through the points (1, negative 1) and (negative 1, 1).">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_08_07_303_img_new.jpg"/>
+</media><newline/>
+<span class="token">ⓒ</span> range: <m:math><m:mrow><m:mtext>(</m:mtext><m:mo>−</m:mo><m:mi>∞</m:mi><m:mo>,</m:mo><m:mi>∞</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1169147747631" class="try">
+<exercise id="fs-id1169147868760">
+<problem id="fs-id1169147868762">
+<para id="fs-id1169147877505">For the function <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mroot><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow><m:mrow><m:mn>3</m:mn></m:mrow></m:mroot><m:mo>,</m:mo></m:mrow></m:math></para>
+<para id="fs-id1169142417273"><span class="token">ⓐ</span> find the domain <span class="token">ⓑ</span> graph the function <span class="token">ⓒ</span> use the graph to determine the range.</para>
+</problem>
+<solution id="fs-id1169147983988">
+<para id="fs-id1169147983990"><span class="token">ⓐ</span> domain: <m:math><m:mrow><m:mtext>(</m:mtext><m:mo>−</m:mo><m:mi>∞</m:mi><m:mo>,</m:mo><m:mi>∞</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math><newline/>
+<span class="token">ⓑ</span><newline/>
+<media id="fs-id1169148076410" alt="The figure shows a cube root function graph on the x y-coordinate plane. The x-axis of the plane runs from negative 1 to 5. The y-axis runs from negative 3 to 3. The function has a center point at (2, 0) and goes through the points (1, negative 1) and (3, 2).">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_08_07_304_img_new.jpg"/>
+</media><newline/>
+<span class="token">ⓒ</span> range: <m:math><m:mrow><m:mtext>(</m:mtext><m:mo>−</m:mo><m:mi>∞</m:mi><m:mo>,</m:mo><m:mi>∞</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1169147978659" class="media-2">
+<para id="fs-id1169148126317">Access these online resources for additional instruction and practice with radical functions.</para>
+<list id="fs-id1169147948111" display="block">
+<item><link url="https://openstax.org/l/37RadFuncDom1">Domain of a Radical Function</link></item>
+<item><link url="https://openstax.org/l/37RadFuncDom2">Domain of a Radical Function 2</link></item>
+<item><link url="https://openstax.org/l/37RadFuncDom3">Finding Domain of a Radical Function</link></item>
+</list>
+</note>
+</section>
+<section id="fs-id1169147743296" class="key-concepts">
+<title>Key Concepts</title>
+<list id="fs-id1169145717081" list-type="bulleted" bullet-style="bullet">
+<item><emphasis effect="bold">Properties of <m:math><m:mrow><m:mroot><m:mi>a</m:mi><m:mi>n</m:mi></m:mroot></m:mrow></m:math></emphasis>
+<list id="fs-id1169141036816" list-type="bulleted" bullet-style="bullet">
+<item>When <emphasis effect="italics">n</emphasis> is an <emphasis effect="bold">even</emphasis> number and:<newline/>
+<m:math><m:mrow><m:mi>a</m:mi><m:mo>≥</m:mo><m:mn>0</m:mn><m:mo>,</m:mo></m:mrow></m:math> then <m:math><m:mrow><m:mroot><m:mi>a</m:mi><m:mi>n</m:mi></m:mroot></m:mrow></m:math> is a real number.<newline/>
+<m:math><m:mrow><m:mi>a</m:mi><m:mo>&lt;</m:mo><m:mn>0</m:mn><m:mo>,</m:mo></m:mrow></m:math> then <m:math><m:mrow><m:mroot><m:mi>a</m:mi><m:mi>n</m:mi></m:mroot></m:mrow></m:math> is not a real number.</item>
+<item>When <emphasis effect="italics">n</emphasis> is an <emphasis effect="bold">odd</emphasis> number, <m:math><m:mrow><m:mroot><m:mi>a</m:mi><m:mi>n</m:mi></m:mroot></m:mrow></m:math> is a real number for all values of <emphasis effect="italics">a</emphasis>.</item>
+</list></item>
+<item><emphasis effect="bold">Domain of a Radical Function</emphasis>
+<list id="fs-id1169145645013" list-type="bulleted" bullet-style="bullet">
+<item>When the <emphasis effect="bold">index</emphasis> of the radical is <emphasis effect="bold">even</emphasis>, the radicand must be greater than or equal to zero.</item>
+<item>When the <emphasis effect="bold">index</emphasis> of the radical is <emphasis effect="bold">odd</emphasis>, the radicand can be any real number.</item>
+</list></item>
+</list>
+</section>
+<section id="fs-id1169148097720" class="section-exercises">
+<section id="fs-id1169148231171" class="practice-perfect">
+<title>Practice Makes Perfect</title>
+<para id="fs-id1169148101448"><emphasis effect="bold">Evaluate a Radical Function</emphasis></para>
+<para id="fs-id1169148209532">In the following exercises, evaluate each function.</para>
+<exercise id="fs-id1169147743159">
+<problem id="fs-id1169145716402">
+<para id="fs-id1169145716404"><m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msqrt><m:mrow><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>4</m:mn></m:mrow></m:msqrt><m:mo>,</m:mo></m:mrow></m:math> find <span class="token">ⓐ</span> <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mn>5</m:mn><m:mo>)</m:mo></m:mrow></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mn>0</m:mn><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169147800145">
+<para id="fs-id1169142281310"><span class="token">ⓐ</span> <m:math><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mn>5</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>4</m:mn></m:mrow></m:math> <span class="token">ⓑ</span> no value at <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1169142480106">
+<problem id="fs-id1169148101052">
+<para id="fs-id1169148101054"><m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msqrt><m:mrow><m:mn>6</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>5</m:mn></m:mrow></m:msqrt><m:mo>,</m:mo></m:mrow></m:math> find <span class="token">ⓐ</span> <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mn>5</m:mn><m:mo>)</m:mo></m:mrow></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1169148207439">
+<problem id="fs-id1169147804241">
+<para id="fs-id1169145620467"><m:math><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msqrt><m:mrow><m:mn>6</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:msqrt><m:mo>,</m:mo></m:mrow></m:math> find <span class="token">ⓐ</span> <m:math><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mn>4</m:mn><m:mo>)</m:mo></m:mrow></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mn>8</m:mn><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169145507838">
+<para id="fs-id1169143580099"><span class="token">ⓐ</span> <m:math><m:mrow><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mn>4</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>5</m:mn></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mn>8</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>7</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1169147909782">
+<problem id="fs-id1169147865255">
+<para id="fs-id1169147865257"><m:math><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msqrt><m:mrow><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:msqrt><m:mo>,</m:mo></m:mrow></m:math> find <span class="token">ⓐ</span> <m:math><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mn>8</m:mn><m:mo>)</m:mo></m:mrow></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mn>5</m:mn><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1169145730224">
+<problem id="fs-id1169147758640">
+<para id="fs-id1169147758642"><m:math><m:mrow><m:mi>F</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msqrt><m:mrow><m:mn>3</m:mn><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>x</m:mi></m:mrow></m:msqrt><m:mo>,</m:mo></m:mrow></m:math> find <span class="token">ⓐ</span> <m:math><m:mrow><m:mi>F</m:mi><m:mrow><m:mo>(</m:mo><m:mn>1</m:mn><m:mo>)</m:mo></m:mrow></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mi>F</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−11</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169148235035">
+<para id="fs-id1169145505941"><span class="token">ⓐ</span> <m:math><m:mrow><m:mi>F</m:mi><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mi>F</m:mi><m:mo stretchy="false">(</m:mo><m:mn>−11</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>5</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1169145643246">
+<problem id="fs-id1169145643248">
+<para id="fs-id1169145644766"><m:math><m:mrow><m:mi>F</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msqrt><m:mrow><m:mn>8</m:mn><m:mo>−</m:mo><m:mn>4</m:mn><m:mi>x</m:mi></m:mrow></m:msqrt><m:mo>,</m:mo></m:mrow></m:math> find <span class="token">ⓐ</span> <m:math><m:mrow><m:mi>F</m:mi><m:mrow><m:mo>(</m:mo><m:mn>1</m:mn><m:mo>)</m:mo></m:mrow></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mi>F</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1169145844012">
+<problem id="fs-id1169148229326">
+<para id="fs-id1169148229328"><m:math><m:mrow><m:mi>G</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msqrt><m:mrow><m:mn>5</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:msqrt><m:mo>,</m:mo></m:mrow></m:math> find <span class="token">ⓐ</span> <m:math><m:mrow><m:mi>G</m:mi><m:mrow><m:mo>(</m:mo><m:mn>5</m:mn><m:mo>)</m:mo></m:mrow></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mi>G</m:mi><m:mrow><m:mo>(</m:mo><m:mn>2</m:mn><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169147863238">
+<para id="fs-id1169147863240"><span class="token">ⓐ</span> <m:math><m:mrow><m:mi>G</m:mi><m:mo stretchy="false">(</m:mo><m:mn>5</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>2</m:mn><m:msqrt><m:mn>6</m:mn></m:msqrt></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mi>G</m:mi><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>3</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1169147768758">
+<problem id="fs-id1169148208329">
+<para id="fs-id1169148208331"><m:math><m:mrow><m:mi>G</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msqrt><m:mrow><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:msqrt><m:mo>,</m:mo></m:mrow></m:math> find <span class="token">ⓐ</span> <m:math><m:mrow><m:mi>G</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>11</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mi>G</m:mi><m:mrow><m:mo>(</m:mo><m:mn>2</m:mn><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1169147719067">
+<problem id="fs-id1169147719070">
+<para id="fs-id1169147700129"><m:math><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mroot><m:mrow><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>4</m:mn></m:mrow><m:mrow><m:mn>3</m:mn></m:mrow></m:mroot><m:mo>,</m:mo></m:mrow></m:math> find <span class="token">ⓐ</span> <m:math><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mn>6</m:mn><m:mo>)</m:mo></m:mrow></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169147977948">
+<para id="fs-id1169147977950"><span class="token">ⓐ</span> <m:math><m:mrow><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mn>6</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>2</m:mn></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mn>−2</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>−2</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1169147949679">
+<problem id="fs-id1169145662638">
+<para id="fs-id1169145662640"><m:math><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mroot><m:mrow><m:mn>7</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow><m:mrow><m:mn>3</m:mn></m:mrow></m:mroot><m:mo>,</m:mo></m:mrow></m:math> find <span class="token">ⓐ</span> <m:math><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mn>4</m:mn><m:mo>)</m:mo></m:mrow></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1169148229958">
+<problem id="fs-id1169148229960">
+<para id="fs-id1169148229963"><m:math><m:mrow><m:mi>h</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mroot><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>4</m:mn></m:mrow><m:mrow><m:mn>3</m:mn></m:mrow></m:mroot><m:mo>,</m:mo></m:mrow></m:math> find <span class="token">ⓐ</span> <m:math><m:mrow><m:mi>h</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mi>h</m:mi><m:mrow><m:mo>(</m:mo><m:mn>6</m:mn><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169141298382">
+<para id="fs-id1169141298384"><span class="token">ⓐ</span> <m:math><m:mrow><m:mi>h</m:mi><m:mo stretchy="false">(</m:mo><m:mn>−2</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mi>h</m:mi><m:mo stretchy="false">(</m:mo><m:mn>6</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>2</m:mn><m:mroot><m:mn>4</m:mn><m:mn>3</m:mn></m:mroot></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1169148233516">
+<problem id="fs-id1169143534313">
+<para id="fs-id1169143534315"><m:math><m:mrow><m:mi>h</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mroot><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>4</m:mn></m:mrow><m:mrow><m:mn>3</m:mn></m:mrow></m:mroot><m:mo>,</m:mo></m:mrow></m:math> find <span class="token">ⓐ</span> <m:math><m:mrow><m:mi>h</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mi>h</m:mi><m:mo stretchy="false">(</m:mo><m:mn>6</m:mn><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1169147750980">
+<problem id="fs-id1169147750982">
+<para id="fs-id1169145843952">For the function <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mroot><m:mrow><m:mn>2</m:mn><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup></m:mrow><m:mrow><m:mn>4</m:mn></m:mrow></m:mroot><m:mo>,</m:mo></m:mrow></m:math> find <span class="token">ⓐ</span> <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mn>0</m:mn><m:mo>)</m:mo></m:mrow></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mn>2</m:mn><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169140999980">
+<para id="fs-id1169140999982"><span class="token">ⓐ</span> <m:math><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>2</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1169145578894">
+<problem id="fs-id1169147878606">
+<para id="fs-id1169147878608">For the function <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mroot><m:mrow><m:mn>3</m:mn><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup></m:mrow><m:mrow><m:mn>4</m:mn></m:mrow></m:mroot><m:mo>,</m:mo></m:mrow></m:math> find <span class="token">ⓐ</span> <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mn>0</m:mn><m:mo>)</m:mo></m:mrow></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mn>3</m:mn><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1169143303481">
+<problem id="fs-id1169143303483">
+<para id="fs-id1169143303485">For the function <m:math><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mroot><m:mrow><m:mn>4</m:mn><m:mo>−</m:mo><m:mn>4</m:mn><m:mi>x</m:mi></m:mrow><m:mrow><m:mn>4</m:mn></m:mrow></m:mroot><m:mo>,</m:mo></m:mrow></m:math> find <span class="token">ⓐ</span> <m:math><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mn>1</m:mn><m:mo>)</m:mo></m:mrow></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169143520298">
+<para id="fs-id1169145640196"><span class="token">ⓐ</span> <m:math><m:mrow><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mn>−3</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>2</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1169147966879">
+<problem id="fs-id1169143614137">
+<para id="fs-id1169143614139">For the function <m:math><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mroot><m:mrow><m:mn>8</m:mn><m:mo>−</m:mo><m:mn>4</m:mn><m:mi>x</m:mi></m:mrow><m:mrow><m:mn>4</m:mn></m:mrow></m:mroot><m:mo>,</m:mo></m:mrow></m:math> find <span class="token">ⓐ</span> <m:math><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−6</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mn>2</m:mn><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+</exercise>
+<para id="fs-id1169142246848"><emphasis effect="bold">Find the Domain of a Radical Function</emphasis></para>
+<para id="fs-id1169143520330">In the following exercises, find the domain of the function and write the domain in interval notation.</para>
+<exercise id="fs-id1169143520333">
+<problem id="fs-id1169143520335">
+<para id="fs-id1169143520337"><m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msqrt><m:mrow><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:msqrt></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169141036432">
+<para id="fs-id1169141036434"><m:math><m:mrow><m:mrow><m:mo>[</m:mo><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac><m:mo>,</m:mo><m:mi>∞</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1169148229556">
+<problem id="fs-id1169141030517">
+<para id="fs-id1169141030519"><m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msqrt><m:mrow><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow></m:msqrt></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1169147816115">
+<problem id="fs-id1169147816117">
+<para id="fs-id1169147816119"><m:math><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msqrt><m:mrow><m:mn>2</m:mn><m:mo>−</m:mo><m:mn>3</m:mn><m:mi>x</m:mi></m:mrow></m:msqrt></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169143492471">
+<para id="fs-id1169148230560"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mtext>−</m:mtext><m:mi>∞</m:mi><m:mo>,</m:mo><m:mfrac><m:mn>2</m:mn><m:mn>3</m:mn></m:mfrac></m:mrow><m:mo>]</m:mo></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1169143576214">
+<problem id="fs-id1169147849778">
+<para id="fs-id1169147849780"><m:math><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msqrt><m:mrow><m:mn>8</m:mn><m:mo>−</m:mo><m:mi>x</m:mi></m:mrow></m:msqrt></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1169142417344">
+<problem id="fs-id1169142417346">
+<para id="fs-id1169142417348"><m:math><m:mrow><m:mi>h</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msqrt><m:mrow><m:mfrac><m:mn>5</m:mn><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow></m:mfrac></m:mrow></m:msqrt></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169145747993">
+<para id="fs-id1169145747996"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mo>,</m:mo><m:mi>∞</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1169145494672">
+<problem id="fs-id1169145494674">
+<para id="fs-id1169145494676"><m:math><m:mrow><m:mi>h</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msqrt><m:mrow><m:mfrac><m:mn>6</m:mn><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow></m:mfrac></m:mrow></m:msqrt></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1169145621319">
+<problem id="fs-id1169143305828">
+<para id="fs-id1169143305830"><m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msqrt><m:mrow><m:mfrac><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow></m:mfrac></m:mrow></m:msqrt></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169148125882">
+<para id="fs-id1169148125884"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mtext>−</m:mtext><m:mi>∞</m:mi><m:mo>,</m:mo><m:mn>−3</m:mn></m:mrow><m:mo>]</m:mo></m:mrow><m:mo>∪</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mo>,</m:mo><m:mi>∞</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1169147878752">
+<problem id="fs-id1169147878754">
+<para id="fs-id1169141015076"><m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msqrt><m:mrow><m:mfrac><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn></m:mrow></m:mfrac></m:mrow></m:msqrt></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1169141298449">
+<problem id="fs-id1169141298451">
+<para id="fs-id1169141298453"><m:math><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mroot><m:mrow><m:mn>8</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow><m:mrow><m:mn>3</m:mn></m:mrow></m:mroot></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169147841328">
+<para id="fs-id1169147841330"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mtext>−</m:mtext><m:mi>∞</m:mi><m:mo>,</m:mo><m:mi>∞</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1169143581471">
+<problem id="fs-id1169143581474">
+<para id="fs-id1169143581476"><m:math><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mroot><m:mrow><m:mn>6</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>5</m:mn></m:mrow><m:mrow><m:mn>3</m:mn></m:mrow></m:mroot></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1169141036489">
+<problem id="fs-id1169141036492">
+<para id="fs-id1169141036494"><m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mroot><m:mrow><m:mn>4</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>16</m:mn></m:mrow><m:mrow><m:mn>3</m:mn></m:mrow></m:mroot></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169145494092">
+<para id="fs-id1169145494094"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mtext>−</m:mtext><m:mi>∞</m:mi><m:mo>,</m:mo><m:mi>∞</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1169143533398">
+<problem id="fs-id1169143533400">
+<para id="fs-id1169145608627"><m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mroot><m:mrow><m:mn>6</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>25</m:mn></m:mrow><m:mrow><m:mn>3</m:mn></m:mrow></m:mroot></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1169143614237">
+<problem id="fs-id1169143614239">
+<para id="fs-id1169143614154"><m:math><m:mrow><m:mi>F</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mroot><m:mrow><m:mn>8</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow><m:mn>4</m:mn></m:mroot></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169143305858">
+<para id="fs-id1169143305860"><m:math><m:mrow><m:mrow><m:mo>[</m:mo><m:mrow><m:mo>−</m:mo><m:mfrac><m:mn>3</m:mn><m:mn>8</m:mn></m:mfrac><m:mo>,</m:mo><m:mi>∞</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1169148097678">
+<problem id="fs-id1169148097680">
+<para id="fs-id1169148097682"><m:math><m:mrow><m:mi>F</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mroot><m:mrow><m:mn>10</m:mn><m:mo>−</m:mo><m:mn>7</m:mn><m:mi>x</m:mi></m:mrow><m:mrow><m:mn>4</m:mn></m:mrow></m:mroot></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1169145785903">
+<problem id="fs-id1169145785905">
+<para id="fs-id1169145785908"><m:math><m:mrow><m:mi>G</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mroot><m:mrow><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow><m:mn>5</m:mn></m:mroot></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169141015060">
+<para id="fs-id1169141015062"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mtext>−</m:mtext><m:mi>∞</m:mi><m:mo>,</m:mo><m:mi>∞</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1169147947981">
+<problem id="fs-id1169147947983">
+<para id="fs-id1169147947985"><m:math><m:mrow><m:mi>G</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mroot><m:mrow><m:mn>6</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow><m:mn>5</m:mn></m:mroot></m:mrow></m:math></para>
+</problem>
+</exercise>
+<para id="fs-id1169147878727"><emphasis effect="bold">Graph Radical Functions</emphasis></para>
+<para id="fs-id1169143681608">In the following exercises, <span class="token">ⓐ</span> find the domain of the function <span class="token">ⓑ</span> graph the function <span class="token">ⓒ</span> use the graph to determine the range.</para>
+<exercise id="fs-id1169143681624">
+<problem id="fs-id1169143681627">
+<para id="fs-id1169143681629"><m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msqrt><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:msqrt></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169148218613">
+<para id="fs-id1169148218615"><span class="token">ⓐ</span> domain: <m:math><m:mrow><m:mrow><m:mo>[</m:mo><m:mrow><m:mn>−1</m:mn><m:mo>,</m:mo><m:mi>∞</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math><newline/>
+<span class="token">ⓑ</span><newline/>
+<media id="fs-id1169148132216" alt="The figure shows a square root function graph on the x y-coordinate plane. The x-axis of the plane runs from negative 1 to 7. The y-axis runs from negative 2 to 10. The function has a starting point at (negative 1, 0) and goes through the points (0, 1) and (3, 2).">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_08_07_305_img_new.jpg"/>
+</media><newline/>
+<span class="token">ⓒ</span> <m:math><m:mrow><m:mrow><m:mo>[</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mi>∞</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1169148117665">
+<problem id="fs-id1169148117667">
+<para id="fs-id1169148117669"><m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msqrt><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:msqrt></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1169145720248">
+<problem id="fs-id1169145720250">
+<para id="fs-id1169145720252"><m:math><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msqrt><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn></m:mrow></m:msqrt></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169148125839">
+<para id="fs-id1169148125841"><span class="token">ⓐ</span> domain: <m:math><m:mrow><m:mrow><m:mo>[</m:mo><m:mrow><m:mn>−4</m:mn><m:mo>,</m:mo><m:mi>∞</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math><newline/>
+<span class="token">ⓑ</span><newline/>
+<media id="fs-id1169143614188" alt="The figure shows a square root function graph on the x y-coordinate plane. The x-axis of the plane runs from negative 4 to 4. The y-axis runs from negative 2 to 6. The function has a starting point at (negative 4, 0) and goes through the points (negative 3, 1) and (0, 2).">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_08_07_307_img_new.jpg"/>
+</media><newline/>
+<span class="token">ⓒ</span> <m:math><m:mrow><m:mrow><m:mo>[</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mi>∞</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1169141047999">
+<problem id="fs-id1169141048001">
+<para id="fs-id1169141048004"><m:math><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msqrt><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>4</m:mn></m:mrow></m:msqrt></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1169145925291">
+<problem id="fs-id1169145925293">
+<para id="fs-id1169145925295"><m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msqrt><m:mrow><m:mi>x</m:mi></m:mrow></m:msqrt><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169145925320">
+<para id="fs-id1169141472915"><span class="token">ⓐ</span> domain: <m:math><m:mrow><m:mrow><m:mo>[</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mi>∞</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math><newline/>
+<span class="token">ⓑ</span><newline/>
+<media id="fs-id1169141472943" alt="The figure shows a square root function graph on the x y-coordinate plane. The x-axis of the plane runs from 0 to 8. The y-axis runs from 0 to 8. The function has a starting point at (0, 2) and goes through the points (1, 3) and (4, 4).">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_08_07_309_img_new.jpg"/>
+</media><newline/>
+<span class="token">ⓒ</span> <m:math><m:mrow><m:mrow><m:mo>[</m:mo><m:mrow><m:mn>2</m:mn><m:mo>,</m:mo><m:mi>∞</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1169143637756">
+<problem id="fs-id1169143637759">
+<para id="fs-id1169143637761"><m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msqrt><m:mi>x</m:mi></m:msqrt><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1169148096679">
+<problem id="fs-id1169148096681">
+<para id="fs-id1169148096683"><m:math><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>2</m:mn><m:msqrt><m:mrow><m:mi>x</m:mi></m:mrow></m:msqrt></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169148096706">
+<para id="fs-id1169148096708"><span class="token">ⓐ</span> domain: <m:math><m:mrow><m:mrow><m:mo>[</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mi>∞</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math><newline/>
+<span class="token">ⓑ</span><newline/>
+<media id="fs-id1169141373744" alt="The figure shows a square root function graph on the x y-coordinate plane. The x-axis of the plane runs from 0 to 8. The y-axis runs from 0 to 8. The function has a starting point at (0, 0) and goes through the points (1, 2) and (4, 4).">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_08_07_311_img_new.jpg"/>
+</media><newline/>
+<span class="token">ⓒ</span> <m:math><m:mrow><m:mrow><m:mo>[</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mi>∞</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1169141373780">
+<problem id="fs-id1169148049774">
+<para id="fs-id1169148049776"><m:math><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>3</m:mn><m:msqrt><m:mi>x</m:mi></m:msqrt></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1169145573813">
+<problem id="fs-id1169145573815">
+<para id="fs-id1169145573817"><m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msqrt><m:mrow><m:mn>3</m:mn><m:mo>−</m:mo><m:mi>x</m:mi></m:mrow></m:msqrt></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169145748017">
+<para id="fs-id1169145748019"><span class="token">ⓐ</span> domain: <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mtext>−</m:mtext><m:mi>∞</m:mi><m:mo>,</m:mo><m:mn>3</m:mn></m:mrow><m:mo>]</m:mo></m:mrow></m:mrow></m:math><newline/>
+<span class="token">ⓑ</span><newline/>
+<media id="fs-id1169145748049" alt="The figure shows a square root function graph on the x y-coordinate plane. The x-axis of the plane runs from negative 6 to 4. The y-axis runs from 0 to 8. The function has a starting point at (3, 0) and goes through the points (2, 1), (negative 1, 2), and (negative 6, 3).">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_08_07_313_img_new.jpg"/>
+</media><newline/>
+<span class="token">ⓒ</span> <m:math><m:mrow><m:mrow><m:mo>[</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mi>∞</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1169143305900">
+<problem id="fs-id1169143305902">
+<para id="fs-id1169143305905"><m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msqrt><m:mrow><m:mn>4</m:mn><m:mo>−</m:mo><m:mi>x</m:mi></m:mrow></m:msqrt></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1169143519080">
+<problem id="fs-id1169143519082">
+<para id="fs-id1169143519085"><m:math><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mtext>−</m:mtext><m:msqrt><m:mrow><m:mi>x</m:mi></m:mrow></m:msqrt></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169143519108">
+<para id="fs-id1169143519110"><span class="token">ⓐ</span> domain: <m:math><m:mrow><m:mrow><m:mo>[</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mi>∞</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math><newline/>
+<span class="token">ⓑ</span><newline/>
+<media id="fs-id1169147797041" alt="The figure shows a square root function graph on the x y-coordinate plane. The x-axis of the plane runs from 0 to 8. The y-axis runs from negative 8 to 0. The function has a starting point at (0, 0) and goes through the points (1, negative 1) and (4, negative 2).">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_08_07_315_img_new.jpg"/>
+</media><newline/>
+<span class="token">ⓒ</span> <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mtext>−</m:mtext><m:mi>∞</m:mi><m:mo>,</m:mo><m:mn>0</m:mn></m:mrow><m:mo>]</m:mo></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1169147797078">
+<problem id="fs-id1169147797080">
+<para id="fs-id1169147797082"><m:math><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mtext>−</m:mtext><m:msqrt><m:mi>x</m:mi></m:msqrt><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1169145977421">
+<problem id="fs-id1169145977423">
+<para id="fs-id1169145977426"><m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mroot><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow><m:mrow><m:mn>3</m:mn></m:mrow></m:mroot></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169145977454">
+<para id="fs-id1169145977456"><span class="token">ⓐ</span> domain: <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mtext>−</m:mtext><m:mi>∞</m:mi><m:mo>,</m:mo><m:mi>∞</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math><newline/>
+<span class="token">ⓑ</span><newline/>
+<media id="fs-id1169145977630" alt="The figure shows a cube root function graph on the x y-coordinate plane. The x-axis of the plane runs from negative 4 to 4. The y-axis runs from negative 4 to 4. The function has a center point at (negative 1, 0) and goes through the points (negative 2, negative 1) and (0, 1).">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_08_07_317_img_new.jpg"/>
+</media><newline/>
+<span class="token">ⓒ</span> <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mtext>−</m:mtext><m:mi>∞</m:mi><m:mo>,</m:mo><m:mi>∞</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1169145977667">
+<problem id="fs-id1169145977670">
+<para id="fs-id1169145977672"><m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mroot><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow><m:mrow><m:mn>3</m:mn></m:mrow></m:mroot></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1169148062987">
+<problem id="fs-id1169148062989">
+<para id="fs-id1169148062991"><m:math><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mroot><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow><m:mrow><m:mn>3</m:mn></m:mrow></m:mroot></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169148063020">
+<para id="fs-id1169148063022"><span class="token">ⓐ</span> domain: <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mtext>−</m:mtext><m:mi>∞</m:mi><m:mo>,</m:mo><m:mi>∞</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math><newline/>
+<span class="token">ⓑ</span><newline/>
+<media id="fs-id1169147720433" alt="The figure shows a cube root function graph on the x y-coordinate plane. The x-axis of the plane runs from negative 4 to 4. The y-axis runs from negative 4 to 4. The function has a center point at (negative 4, 0) and goes through the points (negative 3, negative 1) and (negative 1, 1).">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_08_07_319_img_new.jpg"/>
+</media><newline/>
+<span class="token">ⓒ</span> <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mtext>−</m:mtext><m:mi>∞</m:mi><m:mo>,</m:mo><m:mi>∞</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1169147720471">
+<problem id="fs-id1169147720473">
+<para id="fs-id1169147720475"><m:math><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mroot><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow><m:mrow><m:mn>3</m:mn></m:mrow></m:mroot></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1169143316905">
+<problem id="fs-id1169143316907">
+<para id="fs-id1169143316909"><m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mroot><m:mi>x</m:mi><m:mrow><m:mn>3</m:mn></m:mrow></m:mroot><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169143316937">
+<para id="fs-id1169143316939"><span class="token">ⓐ</span> domain: <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mtext>−</m:mtext><m:mi>∞</m:mi><m:mo>,</m:mo><m:mi>∞</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math><newline/>
+<span class="token">ⓑ</span><newline/>
+<media id="fs-id1169143316969" alt="The figure shows a cube root function graph on the x y-coordinate plane. The x-axis of the plane runs from negative 4 to 4. The y-axis runs from negative 2 to 6. The function has a center point at (0, 3) and goes through the points (negative 1, 2) and (1, 4).">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_08_07_321_img_new.jpg"/>
+</media><newline/>
+<span class="token">ⓒ</span> <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mtext>−</m:mtext><m:mi>∞</m:mi><m:mo>,</m:mo><m:mi>∞</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1169141376312">
+<problem id="fs-id1169141376314">
+<para id="fs-id1169141376316"><m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mroot><m:mi>x</m:mi><m:mrow><m:mn>3</m:mn></m:mrow></m:mroot><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1169145579077">
+<problem id="fs-id1169145579079">
+<para id="fs-id1169145579081"><m:math><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mroot><m:mi>x</m:mi><m:mrow><m:mn>3</m:mn></m:mrow></m:mroot></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169145579105">
+<para id="fs-id1169145579107"><span class="token">ⓐ</span> domain: <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mtext>−</m:mtext><m:mi>∞</m:mi><m:mo>,</m:mo><m:mi>∞</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math><newline/>
+<span class="token">ⓑ</span><newline/>
+<media id="fs-id1169145579137" alt="The figure shows a cube root function graph on the x y-coordinate plane. The x-axis of the plane runs from negative 4 to 4. The y-axis runs from negative 4 to 4. The function has a center point at (0, 0) and goes through the points (1, 1) and (negative 1, negative 1).">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_08_07_323_img_new.jpg"/>
+</media><newline/>
+<span class="token">ⓒ</span> <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mtext>−</m:mtext><m:mi>∞</m:mi><m:mo>,</m:mo><m:mi>∞</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1169147987528">
+<problem id="fs-id1169147987530">
+<para id="fs-id1169147987532"><m:math><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mtext>−</m:mtext><m:mroot><m:mi>x</m:mi><m:mrow><m:mn>3</m:mn></m:mrow></m:mroot></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1169148063131">
+<problem id="fs-id1169148063133">
+<para id="fs-id1169148063135"><m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>2</m:mn><m:mroot><m:mi>x</m:mi><m:mrow><m:mn>3</m:mn></m:mrow></m:mroot></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169148063160">
+<para id="fs-id1169148063163"><span class="token">ⓐ</span> domain: <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mtext>−</m:mtext><m:mi>∞</m:mi><m:mo>,</m:mo><m:mi>∞</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math><newline/>
+<span class="token">ⓑ</span><newline/>
+<media id="fs-id1169148063192" alt="The figure shows a cube root function graph on the x y-coordinate plane. The x-axis of the plane runs from negative 4 to 4. The y-axis runs from negative 4 to 4. The function has a center point at (0, 0) and goes through the points (1, 2) and (negative 1, negative 2).">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_08_07_325_img_new.jpg"/>
+</media><newline/>
+<span class="token">ⓒ</span> <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mtext>−</m:mtext><m:mi>∞</m:mi><m:mo>,</m:mo><m:mi>∞</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1169147725430">
+<problem id="fs-id1169147725432">
+<para id="fs-id1169147725434"><m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>−2</m:mn><m:mroot><m:mi>x</m:mi><m:mrow><m:mn>3</m:mn></m:mrow></m:mroot></m:mrow></m:math></para>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1169148053100" class="writing">
+<title>Writing Exercises</title>
+<exercise id="fs-id1169148053107">
+<problem id="fs-id1169148053109">
+<para id="fs-id1169148053111">Explain how to find the domain of a fourth root function.</para>
+</problem>
+<solution id="fs-id1169148053115">
+<para id="fs-id1169148053117">Answers will vary.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1169148053123">
+<problem id="fs-id1169148053125">
+<para id="fs-id1169148053127">Explain how to find the domain of a fifth root function.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1169148053139">
+<problem id="fs-id1169148053141">
+<para id="fs-id1169148053143">Explain why <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mroot><m:mi>x</m:mi><m:mrow><m:mn>3</m:mn></m:mrow></m:mroot></m:mrow></m:math> is a function.</para>
+</problem>
+<solution id="fs-id1169148053161">
+<para id="fs-id1169148053163">Answers will vary.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1169148053168">
+<problem id="fs-id1169148053171">
+<para id="fs-id1169148053173">Explain why the process of finding the domain of a radical function with an even index is different from the process when the index is odd.</para>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1169148053187">
+<title>Self Check</title>
+<para id="fs-id1169148053192"><span class="token">ⓐ</span> After completing the exercises, use this checklist to evaluate your mastery of the objectives of this section.</para>
+<media id="fs-id1169143519206" alt="The table has 4 columns and 4 rows. The first row is a header row with the headers “I can…”, “Confidently”, “With some help.”, and “No – I don’t get it!”. The first column contains the phrases “evaluate a radical function”, “find the domain of a radical function”, and “graph a radical function”. The other columns are left blank so the learner can indicate their level of understanding.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_08_07_201_img_new.jpg"/>
+</media>
+<para id="fs-id1169148053206"><span class="token">ⓑ</span> What does this checklist tell you about your mastery of this section? What steps will you take to improve?</para>
+</section>
+</section>
+</content>
+<glossary>
+<definition id="fs-id1169143519223">
+<term>radical function</term>
+<meaning id="fs-id1169143519229">A radical function is a function that is defined by a radical expression.</meaning>
+</definition>
+</glossary>
+</document>

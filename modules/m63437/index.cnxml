@@ -1,0 +1,1083 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Ellipses</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m63437</md:content-id>
+  <md:title>Ellipses</md:title>
+  <md:abstract>By the end of this section, you will be able to:
+<list>
+<item>Graph an ellipse with center at the origin</item>
+<item>Find the equation of an ellipse with center at the origin</item>
+<item>Graph an ellipse with center not at the origin</item>
+<item>Solve application with ellipses</item>
+</list></md:abstract>
+  <md:uuid>4c350ea6-1dd0-4a11-a80a-9a5f02497a87</md:uuid>
+</metadata>
+
+<content>
+<note id="fs-id1163872103152" class="be-prepared">
+<para id="fs-id1163872387647">Before you get started, take this readiness quiz.</para>
+<list id="fs-id1163872108629" list-type="enumerated" number-style="arabic">
+<item>Graph <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow></m:math> using transformations.<newline/>
+If you missed this problem, review <link document="m63467" target-id="fs-id1169148912189"/>.</item>
+<item>Complete the square: <m:math><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>8</m:mn><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>8</m:mn><m:mo>.</m:mo></m:mrow></m:math><newline/>
+If you missed this problem, review <link document="m63459" target-id="fs-id1167829894368"/>.</item>
+<item>Write in standard form. <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>12</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>14</m:mn></m:mrow></m:math><newline/>
+If you missed this problem, review <link document="m63467" target-id="fs-id1169149374763"/>.</item>
+</list>
+</note>
+<section id="fs-id1163872520186">
+<title>Graph an Ellipse with Center at the Origin</title>
+<para id="fs-id1163872416455">The next conic section we will look at is an <term>ellipse</term>. We define an ellipse as all points in a plane where the sum of the distances from two fixed points is constant. Each of the given points is called a <emphasis effect="bold">focus</emphasis> of the ellipse.</para>
+<note id="fs-id1163872730452">
+<title>Ellipse</title>
+<para id="fs-id1163872721606">An <emphasis effect="bold">ellipse</emphasis> is all points in a plane where the sum of the distances from two fixed points is constant. Each of the fixed points is called a <emphasis effect="bold">focus</emphasis> of the ellipse.</para>
+<media id="fs-id1163872515324" alt="This figure shows a double cone intersected by a plane to form an ellipse.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_11_03_001_img.jpg"/>
+</media>
+</note>
+<para id="fs-id1163872009594">We can draw an ellipse by taking some fixed length of flexible string and attaching the ends to two thumbtacks. We use a pen to pull the string taut and rotate it around the two thumbtacks. The figure that results is an ellipse.</para>
+<media id="fs-id1163871857451" alt="This figure shows a pen attached to two strings, the other ends of which are attached to two thumbtacks. The strings are pulled taut and the pen is rotated to draw an ellipse. The thumbtacks are labeled F subscript 1 and F subscript 2.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_11_03_002_img.jpg"/>
+</media>
+<para id="fs-id1163868232249">A line drawn through the foci intersect the ellipse in two points. Each point is called a <emphasis effect="bold">vertex</emphasis> of the ellipse. The segment connecting the vertices is called the <emphasis effect="bold">major axis</emphasis>. The midpoint of the segment is called the <emphasis effect="bold">center</emphasis> of the ellipse. A segment perpendicular to the major axis that passes through the center and intersects the ellipse in two points is called the <emphasis effect="bold">minor axis</emphasis>.</para>
+<media id="fs-id1163866197380" alt="This figure shows two ellipses. In each, two points within the ellipse are labeled foci. A line drawn through the foci intersects the ellipse in two points. Each point is labeled a vertex. In The figure on the left, the segment connecting the vertices is called the major axis. A segment perpendicular to the major axis that passes through its midpoint and intersects the ellipse in two points is labeled minor axis. The major axis is longer than the minor axis. In The figure on the right, the segment through the foci, connecting the vertices is shorter and is labeled minor axis. Its midpoint is labeled center.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_11_03_003_img.jpg"/>
+</media>
+<para id="fs-id1163871867164">We mentioned earlier that our goal is to connect the geometry of a conic with algebra. Placing the ellipse on a rectangular coordinate system gives us that opportunity. In the figure, we placed the ellipse so the foci <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mtext>−</m:mtext><m:mi>c</m:mi><m:mo>,</m:mo><m:mn>0</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>c</m:mi><m:mo>,</m:mo><m:mn>0</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> are on the <emphasis effect="italics">x</emphasis>-axis and the center is the origin.</para>
+<media id="fs-id1163872705598" alt="The figure on the left shows an ellipse with its center at the origin of the coordinate axes and its foci at points minus (c, 0) and (c, 0). A segment connects (negative c, 0) to a point (x, y) on the ellipse. The segment is labeled d subscript 1. Another segment, labeled d subscript 2 connects (c, 0) to (x, y). The figure on the right shows an ellipse with center at the origin, foci (negative c, 0) and (c, 0) and vertices (negative a, 0) and (a, 0). The point where the ellipse intersects the y axis is labeled (0, b). The segments connecting (0, 0) to (c, 0), (c, 0) to (0, b) and (0, b) to (0, 0) form a tight angled triangle with sides c, a and b respectively. The equation is a squared equals b squared plus c squared.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_11_03_004_img.jpg"/>
+</media>
+<para id="fs-id1163871890058">The definition states the sum of the distance from the foci to a point <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>y</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> is constant. So <m:math><m:mrow><m:msub><m:mi>d</m:mi><m:mn>1</m:mn></m:msub><m:mo>+</m:mo><m:msub><m:mi>d</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math> is a constant that we will call <m:math><m:mrow><m:mn>2</m:mn><m:mi>a</m:mi></m:mrow></m:math> so, <m:math><m:mrow><m:msub><m:mi>d</m:mi><m:mn>1</m:mn></m:msub><m:mo>+</m:mo><m:msub><m:mi>d</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>a</m:mi><m:mo>.</m:mo></m:mrow></m:math> We will use the distance formula to lead us to an algebraic formula for an ellipse.</para>
+<equation id="fs-id1163872419619" class="unnumbered"><label/><m:math><m:mrow><m:mtable>
+<m:mtr><m:mtd columnalign="left"><m:mtable><m:mtr/><m:mtr/><m:mtr/><m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="left"><m:mtext>Use the distance formula to find</m:mtext><m:mspace width="0.2em"/><m:msub><m:mi>d</m:mi><m:mn>1</m:mn></m:msub><m:mo>,</m:mo><m:msub><m:mi>d</m:mi><m:mn>2</m:mn></m:msub><m:mo>.</m:mo></m:mtd></m:mtr></m:mtable></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:mtable><m:mtr><m:mtd columnalign="center"><m:msub><m:mi>d</m:mi><m:mn>1</m:mn></m:msub></m:mtd><m:mtd columnalign="left"><m:mo>+</m:mo></m:mtd><m:mtd columnalign="center"><m:msub><m:mi>d</m:mi><m:mn>2</m:mn></m:msub></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>2</m:mn><m:mi>a</m:mi></m:mtd></m:mtr><m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="left"><m:msqrt><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mtext>−</m:mtext><m:mi>c</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>0</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:msqrt></m:mtd><m:mtd columnalign="left"><m:mo>+</m:mo></m:mtd><m:mtd columnalign="left"><m:msqrt><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mi>c</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>0</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:msqrt></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>2</m:mn><m:mi>a</m:mi></m:mtd></m:mtr></m:mtable></m:mtd></m:mtr><m:mtr/><m:mtr/>
+<m:mtr><m:mtd columnalign="left"><m:mtable><m:mtr><m:mtd columnalign="left"><m:mtext>After eliminating radicals and simplifying,</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>we get:</m:mtext></m:mtd></m:mtr></m:mtable></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mfrac><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mrow><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mspace width="0.5em"/><m:mo>=</m:mo><m:mspace width="0.5em"/><m:mn>1</m:mn><m:mspace width="0.6em"/></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mtable><m:mtr><m:mtd columnalign="left"><m:mtext>To simplify the equation of the ellipse, we</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>let</m:mtext><m:mspace width="0.2em"/><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:mo>.</m:mo></m:mtd></m:mtr></m:mtable></m:mtd><m:mtd/><m:mtd/><m:mtd/></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mtable><m:mtr><m:mtd columnalign="left"><m:mtext>So, the equation of an ellipse centered at the</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>origin in standard form is:</m:mtext></m:mtd></m:mtr></m:mtable></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mfrac><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mrow><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mspace width="0.5em"/><m:mo>=</m:mo><m:mspace width="0.5em"/><m:mn>1</m:mn><m:mspace width="0.6em"/></m:mtd></m:mtr></m:mtable></m:mrow></m:math></equation>
+<para id="fs-id1163871567318">To graph the ellipse, it will be helpful to know the intercepts. We will find the <emphasis effect="italics">x</emphasis>-intercepts and <emphasis effect="italics">y</emphasis>-intercepts using the formula.</para>
+<equation id="fs-id1163872646544" class="unnumbered"><label/><m:math><m:mrow><m:mtable>
+<m:mtr><m:mtd columnalign="left">
+<m:mtable><m:mtr><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mspace width="0.5em"/><m:mtext mathvariant="bolditalics">y</m:mtext><m:mtext mathvariant="bold">-intercepts</m:mtext></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mtable><m:mtr><m:mtd columnalign="left"><m:mtext>Let</m:mtext><m:mspace width="0.2em"/><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>.</m:mo></m:mtd></m:mtr><m:mtr/><m:mtr/><m:mtr/><m:mtr/><m:mtr/><m:mtr/></m:mtable></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mtable><m:mtr><m:mtd columnalign="right"><m:mfrac><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mrow><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>1</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mfrac><m:mrow><m:msup><m:mn>0</m:mn><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mrow><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>1</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mfrac><m:mrow><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>1</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>y</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mo>±</m:mo><m:mi>b</m:mi></m:mtd></m:mtr></m:mtable></m:mtd></m:mtr></m:mtable></m:mtd><m:mtd/><m:mtd/>
+<m:mtd columnalign="left"><m:mtable><m:mtr><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mspace width="0.5em"/><m:mtext mathvariant="bolditalics">x</m:mtext><m:mtext mathvariant="bold">-intercepts</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtable><m:mtr><m:mtd columnalign="left"><m:mtext>Let</m:mtext><m:mspace width="0.2em"/><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>.</m:mo></m:mtd></m:mtr><m:mtr/><m:mtr/><m:mtr/><m:mtr/><m:mtr/><m:mtr/></m:mtable></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mtable><m:mtr><m:mtd columnalign="right"><m:mfrac><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mrow><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>1</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mfrac><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mrow><m:msup><m:mn>0</m:mn><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>1</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mfrac><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>1</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>x</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mo>±</m:mo><m:mi>a</m:mi></m:mtd></m:mtr></m:mtable></m:mtd></m:mtr></m:mtable></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mtext>The</m:mtext><m:mspace width="0.2em"/><m:mi>y</m:mi><m:mtext>-intercepts are</m:mtext><m:mspace width="0.2em"/><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mi>b</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mspace width="0.2em"/><m:mtext>and</m:mtext><m:mspace width="0.2em"/><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mtext>−</m:mtext><m:mi>b</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mtext>The</m:mtext><m:mspace width="0.2em"/><m:mi>x</m:mi><m:mtext>-intercepts are</m:mtext><m:mspace width="0.2em"/><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>a</m:mi><m:mo>,</m:mo><m:mn>0</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mspace width="0.2em"/><m:mtext>and</m:mtext><m:mspace width="0.2em"/><m:mrow><m:mo>(</m:mo><m:mrow><m:mtext>−</m:mtext><m:mi>a</m:mi><m:mo>,</m:mo><m:mn>0</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mtd></m:mtr></m:mtable></m:mrow></m:math></equation>
+<note id="fs-id1163871935632">
+<title>Standard Form of the Equation an Ellipse with Center <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mtext>​</m:mtext><m:mtext>​</m:mtext><m:mn>0</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></title>
+<para id="fs-id1163872096452">The standard form of the equation of an ellipse with center <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mtext>​</m:mtext><m:mtext>​</m:mtext><m:mn>0</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo></m:mrow></m:math> is</para>
+<equation id="fs-id1163872630602" class="unnumbered"><label/><m:math><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mrow><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math></equation>
+<para id="fs-id1163868452315">The <emphasis effect="italics">x</emphasis>-intercepts are <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>a</m:mi><m:mo>,</m:mo><m:mn>0</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> and <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mtext>−</m:mtext><m:mi>a</m:mi><m:mo>,</m:mo><m:mn>0</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+<para id="fs-id1163872541971">The <emphasis effect="italics">y</emphasis>-intercepts are <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mi>b</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> and <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mtext>−</m:mtext><m:mi>b</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+<media id="fs-id1163872938165" alt="Two figures show ellipses with their centers on the origin of the coordinate axes. They intersect the x axis at points (negative a, 0) and (a, 0) and the y axis at points (0, b) and (0, negative b). In the figure on the left the major axis of the ellipse is along the x axis and in the figure on the right, it is along the y axis.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_11_03_005_img.jpg"/>
+</media>
+</note>
+<para id="fs-id1163871911233">Notice that when the major axis is horizontal, the value of <emphasis effect="italics">a</emphasis> will be greater than the value of <emphasis effect="italics">b</emphasis> and when the major axis is vertical, the value of <emphasis effect="italics">b</emphasis> will be greater than the value of <emphasis effect="italics">a</emphasis>. We will use this information to graph an <term class="no-emphasis">ellipse</term> that is centered at the origin.</para>
+<table id="fs-id1163872513141" summary=".">
+<tgroup cols="3">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<thead>
+<row valign="top">
+<entry valign="middle" align="center" namest="c1" nameend="c3">Ellipse with Center <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>0</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="middle" align="center"><m:math><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mrow><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math></entry>
+<entry valign="middle" align="center"><m:math><m:mrow><m:mi>a</m:mi><m:mo>&gt;</m:mo><m:mi>b</m:mi></m:mrow></m:math></entry>
+<entry valign="middle" align="center"><m:math><m:mrow><m:mi>b</m:mi><m:mo>&gt;</m:mo><m:mi>a</m:mi></m:mrow></m:math></entry>
+</row>
+</thead>
+<tbody>
+<row valign="top">
+<entry valign="middle" align="center"><emphasis effect="bold">Major axis</emphasis></entry>
+<entry valign="middle" align="center">on the <emphasis effect="italics">x</emphasis>- axis.</entry>
+<entry valign="middle" align="center">on the <emphasis effect="italics">y</emphasis>-axis.</entry>
+</row>
+<row valign="top">
+<entry valign="middle" align="center"><emphasis effect="bold"><emphasis effect="italics">x</emphasis>-intercepts</emphasis></entry>
+<entry valign="middle" align="center" namest="c2" nameend="c3"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mtext>−</m:mtext><m:mi>a</m:mi><m:mo>,</m:mo><m:mn>0</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo></m:mrow></m:math><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>a</m:mi><m:mo>,</m:mo><m:mn>0</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="middle" align="center"><emphasis effect="bold"><emphasis effect="italics">y</emphasis>-intercepts</emphasis></entry>
+<entry valign="middle" align="center" namest="c2" nameend="c3"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mtext>−</m:mtext><m:mi>b</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo></m:mrow></m:math><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mi>b</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<example id="fs-id1163872731080">
+<title>How to Graph an Ellipse with Center (0, 0)</title>
+<exercise id="fs-id1163868248185">
+<problem id="fs-id1163872022977">
+<para id="fs-id1163872468441">Graph: <m:math><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mn>4</m:mn></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mrow><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mn>9</m:mn></m:mfrac><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1163872538228">
+<para id="fs-id1163872607263">
+<media id="fs-id1163872427329" alt="Step 1. Write the equation in standard form. It is in standard form x squared upon 6 plus y squared upon 9 equals 1.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_11_03_006a_img.jpg"/>
+</media>
+<media id="fs-id1163872399906" alt="Step 2. Determine whether the major axis is horizontal or vertical. Since 9 is greater than 4 and 9 is in the y squared term, the major axis is vertical.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_11_03_006b_img.jpg"/>
+</media>
+<media id="fs-id1163872642709" alt="Step 3. Find the endpoints of the major axis. The endpoints will be the y-intercepts. Since b squared is 9, b is plus or minus 3. The endpoints of the major axis are (0, 3) and (0, negative 3).">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_11_03_006c_img.jpg"/>
+</media>
+<media id="fs-id1163871870410" alt="Step 4. Find the endpoints of the minor axis. The endpoints will be the x-intercepts. Since a squared is 4, a is plus or minus 2. The endpoints of the minor axis are (2, 0) and (negative 2, 0).">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_11_03_006d_img.jpg"/>
+</media>
+<media id="fs-id1163872842289" alt="Step 5. Sketch the ellipse using the x and y intercepts. The graph shows an ellipse with center at (0, 0) and foci at (0, 3), (0, negative 3), (negative 2, 0), and (2, 0).">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_11_03_006e_img.jpg"/>
+</media></para>
+</solution>
+</exercise>
+</example>
+<note id="fs-id1163872473001" class="try">
+<exercise id="fs-id1163872449228">
+<problem id="fs-id1163872654950">
+<para id="fs-id1163872435556">Graph: <m:math><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mn>4</m:mn></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mrow><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>16</m:mn></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1163872667846">
+<para id="fs-id1163872026395">
+<media id="fs-id1163872543638" alt="This graph shows an ellipse with x intercepts (negative 2, 0) and (2, 0) and y intercepts (0, 4) and (0, negative 4).">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_11_03_302_img.jpg"/>
+</media>
+</para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1163872560939" class="try">
+<exercise id="fs-id1163872515144">
+<problem id="fs-id1163871870306">
+<para id="fs-id1163872727725">Graph: <m:math><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mn>9</m:mn></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mrow><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>16</m:mn></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1163872470405">
+<para id="fs-id1163872503039">
+<media id="fs-id1163871979084" alt="This graph shows an ellipse with x intercepts (negative 3, 0) and (3, 0) and y intercepts (0, 4) and (0, negative 4).">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_11_03_303_img.jpg"/>
+</media>
+</para>
+</solution>
+</exercise>
+</note>
+<para id="fs-id1163872513225">We summarize the steps for reference.</para>
+<note id="fs-id1163872664715" class="howto">
+<title>How to Graph an Ellipse with Center <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>0</m:mn></m:mrow><m:mo>)</m:mo><m:mo>.</m:mo></m:mrow></m:mrow></m:math></title>
+<list id="fs-id1163872554151" list-type="enumerated" number-style="arabic" class="stepwise">
+<item>Write the equation in standard form.</item>
+<item>Determine whether the major axis is horizontal or vertical.</item>
+<item>Find the endpoints of the major axis.</item>
+<item>Find the endpoints of the minor axis</item>
+<item>Sketch the ellipse.</item>
+</list>
+</note>
+<para id="fs-id1163871890228">Sometimes our equation will first need to be put in standard form.</para>
+<example id="fs-id1163872427815">
+<exercise id="fs-id1163872611858">
+<problem id="fs-id1163872539321">
+<para id="fs-id1163872391526">Graph <m:math><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>4</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>16</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1163868452816">
+<para id="fs-id1163872554574">
+<table id="fs-id1163872012967" class="unnumbered unstyled can-break" summary="The equation is x squared plus 4 y squared equals 16. We recognize this as the equation of an ellipse since both the x and y terms are squared and have different coefficients. To get the equation in standard form, divide both sides by 16 so that the right side of the equation is equal to 1. Simplify to get x squared upon 16 plus y squared upon 4 equals 1. The equation is in standard form. The ellipse is centered at the origin, (0, 0). Since 16 is greater than 4 and 16 is in the x squared term, the major axis is horizontal. a squared is 16, so a is plus or minus 4. The vertices are (4, 0) and (negative 4, 0). b squared is 4, so b is plus or minus 2. The endpoints of the minor axis are (0, 2) and (0, negative 2). Sketch the ellipse.">
+<label/>
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<tbody>
+<row valign="top">
+<entry valign="top" align="left">We recognize this as the equation of an<newline/>ellipse since both the <emphasis effect="italics">x</emphasis> and <emphasis effect="italics">y</emphasis> terms are<newline/>squared and have different coefficients.</entry>
+<entry valign="top" align="center"><m:math><m:mrow><m:mspace width="0.9em"/><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>4</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>16</m:mn></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">To get the equation in standard form, divide<newline/>both sides by 16 so that the equation is equal<newline/>to 1.</entry>
+<entry valign="top" align="center"><m:math><m:mrow><m:mspace width="0.61em"/><m:mfrac><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>16</m:mn></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mrow><m:mn>4</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>16</m:mn></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>16</m:mn></m:mrow><m:mrow><m:mn>16</m:mn></m:mrow></m:mfrac></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Simplify.</entry>
+<entry valign="top" align="center"><m:math><m:mrow><m:mspace width="0.67em"/><m:mfrac><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>16</m:mn></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mrow><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mn>4</m:mn></m:mfrac><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">The equation is in standard form.<newline/>The ellipse is centered at the origin.</entry>
+<entry valign="top" align="center">The center is <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>0</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Since <m:math><m:mrow><m:mn>16</m:mn><m:mo>&gt;</m:mo><m:mn>4</m:mn></m:mrow></m:math> and 16 is in the <m:math><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math> term,<newline/>the major axis is horizontal.</entry>
+<entry valign="top" align="left"/>
+</row>
+<row valign="top">
+<entry valign="top" align="left">  <m:math><m:mrow><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>16</m:mn><m:mo>,</m:mo><m:mi>a</m:mi><m:mo>=</m:mo><m:mo>±</m:mo><m:mn>4</m:mn></m:mrow></m:math><newline/>  <m:math><m:mrow><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>4</m:mn><m:mo>,</m:mo><m:mspace width="0.55em"/><m:mi>b</m:mi><m:mo>=</m:mo><m:mo>±</m:mo><m:mn>2</m:mn></m:mrow></m:math></entry>
+<entry valign="top" align="left">The vertices are <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>4</m:mn><m:mo>,</m:mo><m:mn>0</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−4</m:mn><m:mo>,</m:mo><m:mn>0</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math><newline/>The endpoints of the minor axis are<newline/><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>−2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Sketch the parabola.</entry>
+<entry valign="top" align="left"><media id="fs-id1163872562489" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_11_03_007a_img.jpg"/></media></entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</para>
+</solution>
+</exercise>
+</example>
+<note id="fs-id1163872840418" class="try">
+<exercise id="fs-id1163872388297">
+<problem id="fs-id1163872557543">
+<para id="fs-id1163872425484">Graph <m:math><m:mrow><m:mn>9</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>16</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>144</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1163872446494">
+<para id="fs-id1163872397595">
+<media id="fs-id1163872542325" alt="This graph shows an ellipse with x intercepts (negative 4, 0) and (4, 0) and y intercepts (0, 3) and (0, negative 3).">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_11_03_304_img.jpg"/>
+</media>
+</para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1163872691837" class="try">
+<exercise id="fs-id1163872437330">
+<problem id="fs-id1163872016439">
+<para id="fs-id1163872512504">Graph <m:math><m:mrow><m:mn>16</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>25</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>400</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1163872694456">
+<para id="fs-id1163868313592">
+<media id="fs-id1163871860728" alt="This graph shows an ellipse with x intercepts (negative 5, 0) and (5, 0) and y intercepts (0, 4) and (0, negative 4).">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_11_03_305_img.jpg"/>
+</media>
+</para>
+</solution>
+</exercise>
+</note>
+</section>
+<section id="fs-id1163872654447">
+<title>Find the Equation of an Ellipse with Center at the Origin</title>
+<para id="fs-id1163871865681">If we are given the graph of an <term class="no-emphasis">ellipse</term>, we can find the equation of the ellipse.</para>
+<example id="fs-id1163868321690">
+<exercise id="fs-id1163872829077">
+<problem id="fs-id1163872728911">
+<para id="fs-id1163872714191">Find the equation of the ellipse shown.</para>
+<media id="fs-id1163872544767" alt="This graph shows an ellipse with x intercepts (negative 4, 0) and (4, 0) and y intercepts (0, 3) and (0, negative 3).">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_11_03_008_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1163872446354">
+<para id="fs-id1163872420512"><m:math><m:mrow><m:mtable>
+<m:mtr><m:mtd columnalign="left"><m:mtable><m:mtr><m:mtd columnalign="left"><m:mtext>We recognize this as an ellipse that is</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>centered at the origin.</m:mtext></m:mtd></m:mtr></m:mtable></m:mtd><m:mtd/><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mfrac><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mrow><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>1</m:mn></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mtable><m:mtr><m:mtd columnalign="left"><m:mtext>Since the major axis is horizontal and the</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>distance from the center to the vertex is 4, we</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>know</m:mtext><m:mspace width="0.2em"/><m:mi>a</m:mi><m:mo>=</m:mo><m:mn>4</m:mn><m:mspace width="0.2em"/><m:mtext>and so</m:mtext><m:mspace width="0.2em"/><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>16</m:mn><m:mo>.</m:mo></m:mtd></m:mtr></m:mtable></m:mtd><m:mtd/><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mfrac><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>16</m:mn></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mrow><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>1</m:mn></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mtable><m:mtr><m:mtd columnalign="left"><m:mtext>The minor axis is vertical and the distance</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>from the center to the ellipse is 3, we know</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mi>b</m:mi><m:mo>=</m:mo><m:mn>3</m:mn><m:mspace width="0.2em"/><m:mtext>and so</m:mtext><m:mspace width="0.2em"/><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>9</m:mn><m:mo>.</m:mo></m:mtd></m:mtr></m:mtable></m:mtd><m:mtd/><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mfrac><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>16</m:mn></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mrow><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mn>9</m:mn></m:mfrac><m:mo>=</m:mo><m:mn>1</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:math></para>
+</solution>
+</exercise>
+</example>
+<note id="fs-id1163871618969" class="try">
+<exercise id="fs-id1163872750117">
+<problem id="fs-id1163872836610">
+<para id="fs-id1163872511100">Find the equation of the ellipse shown.</para>
+<media id="fs-id1163872565747" alt="This graph shows an ellipse with x intercepts (negative 2, 0) and (2, 0) and y intercepts (0, 5) and (0, negative 5).">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_11_03_009_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1163872556813">
+<para id="fs-id1163872638056"><m:math><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mn>4</m:mn></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mrow><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>25</m:mn></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1163871930788" class="try">
+<exercise id="fs-id1163872547351">
+<problem id="fs-id1163868453510">
+<para id="fs-id1163872607559">Find the equation of the ellipse shown.</para>
+<media id="fs-id1163872690626" alt="This graph shows an ellipse with x intercepts (negative 3, 0) and (3, 0) and y intercepts (0, 2) and (0, negative 2).">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_11_03_010_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1163871980514">
+<para id="fs-id1163872689651"><m:math><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mn>9</m:mn></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mrow><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mn>4</m:mn></m:mfrac><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+</section>
+<section id="fs-id1163872533788">
+<title>Graph an Ellipse with Center Not at the Origin</title>
+<para id="fs-id1163872643895">The ellipses we have looked at so far have all been centered at the origin. We will now look at ellipses whose center is <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>h</m:mi><m:mo>,</m:mo><m:mi>k</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+<para id="fs-id1163872545176">The equation is <m:math><m:mrow><m:mfrac><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mi>h</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>y</m:mi><m:mo>−</m:mo><m:mi>k</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math> and when <m:math><m:mrow><m:mi>a</m:mi><m:mo>&gt;</m:mo><m:mi>b</m:mi><m:mo>,</m:mo></m:mrow></m:math> the major axis is horizontal so the distance from the center to the vertex is <emphasis effect="italics">a</emphasis>. When <m:math><m:mrow><m:mi>b</m:mi><m:mo>&gt;</m:mo><m:mi>a</m:mi><m:mo>,</m:mo></m:mrow></m:math> the major axis is vertical so the distance from the center to the vertex is <emphasis effect="italics">b</emphasis>.</para>
+<note id="fs-id1163872729923">
+<title>Standard Form of the Equation an Ellipse with Center <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>h</m:mi><m:mo>,</m:mo><m:mi>k</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math>
+</title>
+<para id="fs-id1163872447153">The standard form of the equation of an ellipse with center <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>h</m:mi><m:mo>,</m:mo><m:mi>k</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo></m:mrow></m:math> is</para>
+<equation id="fs-id1163872564491" class="unnumbered"><label/><m:math><m:mrow><m:mfrac><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mi>h</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>y</m:mi><m:mo>−</m:mo><m:mi>k</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math></equation>
+<para id="fs-id1163871867293">When <m:math><m:mrow><m:mi>a</m:mi><m:mo>&gt;</m:mo><m:mi>b</m:mi><m:mo>,</m:mo></m:mrow></m:math> the major axis is horizontal so the distance from the center to the vertex is <emphasis effect="italics">a</emphasis>.</para>
+<para id="fs-id1163871881869">When <m:math><m:mrow><m:mi>b</m:mi><m:mo>&gt;</m:mo><m:mi>a</m:mi><m:mo>,</m:mo></m:mrow></m:math> the major axis is vertical so the distance from the center to the vertex is <emphasis effect="italics">b</emphasis>.</para>
+</note>
+<example id="fs-id1163872427883">
+<exercise id="fs-id1163872700016">
+<problem id="fs-id1163871999656">
+<para id="fs-id1163872463704">Graph: <m:math><m:mrow><m:mfrac><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow><m:mn>9</m:mn></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow><m:mn>4</m:mn></m:mfrac><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1163872017878">
+<para id="fs-id1163872466225">
+<table id="fs-id1163872729668" class="unnumbered unstyled" summary="The equation is open parentheses x minus 3 close parentheses squared upon 9 plus open parentheses y minus 1 close parentheses squared upon 4 equals 1. This is in standard form. The ellipse is centered at (h, k), which is (3, 1). Since 9 is greater than 4 and is in the x squared term, the major axis is horizontal. a squared is 9, so a is plus or minus 3. The distance from the center to the vertices is 3. b squared is 4, so b is plus or minus 2. The distance from the center to the endpoints of the minor axis is 2. Sketch the ellipse with point 3, 3, point 3, negative 3, point 6, 1) and (point 0, 1).">
+<label/>
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<tbody>
+<row valign="top">
+<entry valign="top" align="left">The equation is in standard form,<newline/><m:math><m:mrow><m:mfrac><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mi>h</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>y</m:mi><m:mo>−</m:mo><m:mi>k</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>.</m:mo></m:mrow></m:math></entry>
+<entry valign="top" align="center"><m:math><m:mrow><m:mfrac><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow><m:mn>9</m:mn></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow><m:mn>4</m:mn></m:mfrac><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">The ellipse is centered at <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>h</m:mi><m:mo>,</m:mo><m:mi>k</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></entry>
+<entry valign="top" align="center">The center is <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Since <m:math><m:mrow><m:mn>9</m:mn><m:mo>&gt;</m:mo><m:mn>4</m:mn></m:mrow></m:math> and 9 is in the <m:math><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math> term,<newline/>the major axis is horizontal.</entry>
+<entry valign="top" align="left"/>
+</row>
+<row valign="top">
+<entry valign="top" align="left">  <m:math><m:mrow><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>9</m:mn><m:mo>,</m:mo><m:mspace width="0.25em"/><m:mi>a</m:mi><m:mo>=</m:mo><m:mo>±</m:mo><m:mn>3</m:mn></m:mrow></m:math><newline/>  <m:math><m:mrow><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>4</m:mn><m:mo>,</m:mo><m:mspace width="0.25em"/><m:mi>b</m:mi><m:mo>=</m:mo><m:mo>±</m:mo><m:mn>2</m:mn></m:mrow></m:math></entry>
+<entry valign="top" align="left">The distance from the center to the vertices is 3.<newline/>The distance from the center to the endpoints of the<newline/>minor axis is 2.</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Sketch the ellipse.</entry>
+<entry valign="top" align="left"><media id="fs-id1163871925897" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_11_03_011a_img.jpg"/></media></entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</para>
+</solution>
+</exercise>
+</example>
+<note id="fs-id1163872516051" class="try">
+<exercise id="fs-id1163872456046">
+<problem id="fs-id1163872403700">
+<para id="fs-id1163872541264">Graph: <m:math><m:mrow><m:mfrac><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow><m:mn>4</m:mn></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>16</m:mn></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1163872643398">
+<para id="fs-id1163872737664">
+<media id="fs-id1163871993543" alt="This graph shows an ellipse with center at (negative 3, 5), vertices at (negative 3, 9) and (negative 3, 1) and endpoints of minor axis at (negative 5, 5) and (negative 1, 5).">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_11_03_306_img.jpg"/>
+</media>
+</para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1163872769827" class="try">
+<exercise id="fs-id1163871859210">
+<problem id="fs-id1163871617684">
+<para id="fs-id1163872545739">Graph: <m:math><m:mrow><m:mfrac><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>25</m:mn></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>16</m:mn></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1163872503302">
+<para id="fs-id1163872553944">
+<media id="fs-id1163872652811" alt="This graph shows an ellipse with center at 1, negative 3, vertices at (negative 4, negative 3) and (6, negative 3) and endpoints of minor axis at 1, 1) and (negative 1, negative 7).">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_11_03_307_img.jpg"/>
+</media>
+</para>
+</solution>
+</exercise>
+</note>
+<para id="fs-id1163872033617">If we look at the equations of <m:math><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mn>9</m:mn></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mrow><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mn>4</m:mn></m:mfrac><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math> and <m:math><m:mrow><m:mfrac><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow><m:mn>9</m:mn></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow><m:mn>4</m:mn></m:mfrac><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>,</m:mo></m:mrow></m:math> we see that they are both ellipses with <m:math><m:mrow><m:mi>a</m:mi><m:mo>=</m:mo><m:mn>3</m:mn></m:mrow></m:math> and <m:math><m:mrow><m:mi>b</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mo>.</m:mo></m:mrow></m:math> So they will have the same size and shape. They are different in that they do not have the same center.</para>
+<media id="fs-id1163872439917" alt="The equation in the first figure is x squared upon 9 plus y squared upon 4 equals 1. Here, a is 3 and b is 2. The ellipse is graphed with center at (0, 0). The equation on the right is open parentheses x minus 3 close parentheses squared upon 9 plus open parentheses y minus 1 close parentheses squared upon 4 equals 1. Here, too, a is 3 and b is 2, but the center is (3, 1). The ellipse is shown on the same graph along with the first ellipse. The center is shown to have moved 3 units right and 1 unit up.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_11_03_012_img.jpg"/>
+</media>
+<para id="fs-id1163872546473"/>
+<para id="fs-id1163871879747">Notice in the graph above that we could have graphed <m:math><m:mrow><m:mfrac><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow><m:mn>9</m:mn></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow><m:mn>4</m:mn></m:mfrac><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math> by translations. We moved the original ellipse to the right 3 units and then up 1 unit.</para>
+<media id="fs-id1163872872391" alt="This graph shows an ellipse translated from center (0, 0) to center (3, 1). The center has moved 3 units right and 1 unit up. The original ellipse has vertices at (negative 3, 0) and (3, 0) and endpoint of minor axis at (negative 2, 0) and (2, 0). The translated ellipse has vertices at (0, 1) and (6, 1) and endpoints of minor axis at (3, negative 1) and (3, 3).">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_11_03_013_img.jpg"/>
+</media>
+<para id="fs-id1163872436095">In the next example we will use the translation method to graph the ellipse.</para>
+<example id="fs-id1163872610918">
+<exercise id="fs-id1163872562232">
+<problem id="fs-id1163872467428">
+<para id="fs-id1163872566832">Graph <m:math><m:mrow><m:mfrac><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>16</m:mn></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>6</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow><m:mn>9</m:mn></m:mfrac><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math> by translation.</para>
+</problem>
+<solution id="fs-id1163872514246">
+<para id="fs-id1163872743794">This ellipse will have the same size and shape as <m:math><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>16</m:mn></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mrow><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mn>9</m:mn></m:mfrac><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math> whose center is <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>0</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math> We graph this ellipse first.<newline/>
+<table id="fs-id1163872740608" class="unnumbered unstyled can-break" summary="The center is 0, 0). Since 16 is greater than 9, the major axis is horizontal. a squared is 16, so a is plus or minus 4. The vertices are (4, 0) and (negative 4, 0). b squared is 9 so b is plus or minus 3. The endpoints of the minor axis are (0, 3) and (0, negative 3). Graph the ellipse. The original equation is in standard form where h is minus 4 and k is 6. The center of the translated ellipse will be (negative 4, 6). We translate the graph of the first ellipse four units to the left and then up 6 units. Verify that the center is (negative 4, 6). The new ellipse has the desired equation.">
+<label/>
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<tbody>
+<row valign="top">
+<entry valign="top" align="left">The center is <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>0</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></entry>
+<entry valign="top" align="center">Center <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>0</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Since <m:math><m:mrow><m:mn>16</m:mn><m:mo>&gt;</m:mo><m:mn>9</m:mn><m:mo>,</m:mo></m:mrow></m:math> the major axis is horizontal.</entry>
+<entry valign="top" align="left"/>
+</row>
+<row valign="top">
+<entry valign="top" align="left">  <m:math><m:mrow><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>16</m:mn><m:mo>,</m:mo><m:mi>a</m:mi><m:mo>=</m:mo><m:mo>±</m:mo><m:mn>4</m:mn></m:mrow></m:math><newline/>  <m:math><m:mrow><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>9</m:mn><m:mo>,</m:mo><m:mspace width="0.5em"/><m:mi>b</m:mi><m:mo>=</m:mo><m:mo>±</m:mo><m:mn>3</m:mn></m:mrow></m:math></entry>
+<entry valign="top" align="left">The vertices are <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>4</m:mn><m:mo>,</m:mo><m:mn>0</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−4</m:mn><m:mo>,</m:mo><m:mn>0</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math><newline/>The endpoints of the minor axis are<newline/><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>−3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Sketch the ellipse.</entry>
+<entry valign="top" align="left"><media id="fs-id1163871619081" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_11_03_014a_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">The original equation is in standard form,<newline/><m:math><m:mrow><m:mfrac><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mi>h</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>y</m:mi><m:mo>−</m:mo><m:mi>k</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>.</m:mo></m:mrow></m:math></entry>
+<entry valign="top" align="center"><m:math><m:mrow><m:mfrac><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>16</m:mn></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>6</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow><m:mn>9</m:mn></m:mfrac><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">The ellipse is centered at <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>h</m:mi><m:mo>,</m:mo><m:mi>k</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></entry>
+<entry valign="top" align="center">The center is <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−4</m:mn><m:mo>,</m:mo><m:mn>6</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">We translate the graph of <m:math><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>16</m:mn></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mrow><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mn>9</m:mn></m:mfrac><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math> four<newline/>units to the left and then up 6 units.<newline/>Verify that the center is <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−4</m:mn><m:mo>,</m:mo><m:mn>6</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math><newline/>The new ellipse is the ellipse whose equation<newline/>is<newline/><m:math><m:mrow><m:mfrac><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>16</m:mn></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>6</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow><m:mn>9</m:mn></m:mfrac><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>.</m:mo></m:mrow></m:math></entry>
+<entry valign="top" align="left"><media id="fs-id1163872534802" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_11_03_014b_img.jpg"/></media></entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</para>
+</solution>
+</exercise>
+</example>
+<note id="fs-id1163866197682" class="try">
+<exercise id="fs-id1163872502349">
+<problem id="fs-id1163872697273">
+<para id="fs-id1163872516184">Graph <m:math><m:mrow><m:mfrac><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow><m:mn>9</m:mn></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow><m:mn>4</m:mn></m:mfrac><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math> by translation.</para>
+</problem>
+<solution id="fs-id1163872388852">
+<para id="fs-id1163872692032">
+<media id="fs-id1163872628524" alt="This graph shows an ellipse with center (5, negative 4), vertices (2, negative 4) and (8, negative 4) and endpoints of minor axis (5, negative 2) and (5, negative 6).">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_11_03_308_img.jpg"/>
+</media>
+</para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1163872537590" class="try">
+<exercise id="fs-id1163872511084">
+<problem id="fs-id1163872569742">
+<para id="fs-id1163872013766">Graph <m:math><m:mrow><m:mfrac><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>6</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>16</m:mn></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>25</m:mn></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math> by translation.</para>
+</problem>
+<solution id="fs-id1163872037146">
+<para id="fs-id1163871496709">
+<media id="fs-id1163872426936" alt="This graph shows an ellipse with center (negative 6, negative 2), vertices (negative 6, 3) and (negative 6, negative 7) and endpoints of minor axis (negative 10, negative 2), and (negative 2, negative 2).">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_11_03_309_img.jpg"/>
+</media>
+</para>
+</solution>
+</exercise>
+</note>
+<para id="fs-id1163872666626">When an equation has both an <m:math><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math> and a <m:math><m:mrow><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math> with different coefficients, we verify that it is an ellipsis by putting it in standard form. We will then be able to graph the equation.</para>
+<example id="fs-id1163872570378">
+<exercise id="fs-id1163872721091">
+<problem id="fs-id1163872836545">
+<para id="fs-id1163871979313">Write the equation <m:math><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>4</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>24</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>24</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> in standard form and graph.</para>
+</problem>
+<solution id="fs-id1163872403290">
+<para id="fs-id1163872837027">We put the equation in standard form by completing the squares in both <emphasis effect="italics">x</emphasis> and <emphasis effect="italics">y</emphasis>.<newline/>
+<table id="fs-id1163872544200" class="unnumbered unstyled can-break" summary="Rewrite the equation grouping the x terms and y terms. Make the coefficients of x squared and y squared equal to 1. We get open parentheses x squared minus 4 x plus close parentheses plus 4 open parentheses y squared plus 6y plus close parentheses equals minus 24. Complete the squares by adding 4 to the first term and 9 to the second term. The right side becomes minus 24 plus 4 plus 36. Write as binomial squares open parentheses x minus 2 close parentheses squared plus 4 open parentheses y plus 3 close parentheses squared equals 16. Divide both sides by 16 to get 1 on the right. The equation is in standard form with h equal to 2 and k equal to minus 3. The center is (2, negative 3). Since 16 is greater than 4 and is in the x squared term, the major axis is horizontal. a squared is 16, so a is plus or minus 4. The distance from the center to the vertices is 4. b squared is 4, so b is plus or minus 2. The distance from the center to the endpoints of the minor axis is 2. Graph the ellipse. It will have the points (2, negative 1), (2, negative 5), (6, negative 3) and (negative 2, negative 3).">
+<label/>
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<tbody>
+<row valign="top">
+<entry valign="top" align="left"/>
+<entry valign="top" align="left"><m:math><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>4</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>24</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>24</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Rewrite grouping the <emphasis effect="italics">x</emphasis> terms and <emphasis effect="italics">y</emphasis> terms.</entry>
+<entry valign="top" align="left"><media id="fs-id1163872694288" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_11_03_015a_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Make the coefficients of <m:math><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math> and <m:math><m:mrow><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math> equal 1.</entry>
+<entry valign="top" align="left"><media id="fs-id1163872544205" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_11_03_015b_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Complete the squares.</entry>
+<entry valign="top" align="left"><media id="fs-id1163872479153" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_11_03_015c_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Write as binomial squares.</entry>
+<entry valign="top" align="left"><media id="fs-id1163872555298" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_11_03_015d_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Divide both sides by 16 to get 1 on the right.</entry>
+<entry valign="top" align="left"><media id="fs-id1163872623363" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_11_03_015e_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Simplify.</entry>
+<entry valign="top" align="left"><media id="fs-id1163871781907" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_11_03_015f_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">The equation is in standard form,<newline/><m:math><m:mrow><m:mfrac><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mi>h</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>y</m:mi><m:mo>−</m:mo><m:mi>k</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math></entry>
+<entry valign="top" align="left"><media id="fs-id1163872499717" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_11_03_015g_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">The ellipse is centered at <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>h</m:mi><m:mo>,</m:mo><m:mi>k</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></entry>
+<entry valign="top" align="center">The center is <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>−3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Since <m:math><m:mrow><m:mn>16</m:mn><m:mo>&gt;</m:mo><m:mn>4</m:mn></m:mrow></m:math> and 16 is in the <m:math><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math> term,<newline/>the major axis is horizontal.<newline/>  <m:math><m:mrow><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>16</m:mn><m:mo>,</m:mo><m:mi>a</m:mi><m:mo>=</m:mo><m:mo>±</m:mo><m:mn>4</m:mn></m:mrow></m:math><newline/>  <m:math><m:mrow><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>4</m:mn><m:mo>,</m:mo><m:mspace width="0.5em"/><m:mi>b</m:mi><m:mo>=</m:mo><m:mo>±</m:mo><m:mn>2</m:mn></m:mrow></m:math></entry>
+<entry valign="bottom" align="left">The distance from the center to the vertices is 4.<newline/>The distance from the center to the endpoints of<newline/>the minor axis is 2.</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Sketch the ellipse.</entry>
+<entry valign="top" align="left"><media id="fs-id1163872564752" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_11_03_015h_img.jpg"/></media></entry>
+</row>
+</tbody>
+</tgroup>
+</table></para>
+</solution>
+</exercise>
+</example>
+<note id="fs-id1163872611551" class="try">
+<exercise id="fs-id1163872012760">
+<problem id="fs-id1163872511507">
+<para id="fs-id1163872841104"><span class="token">ⓐ</span> Write the equation <m:math><m:mrow><m:mn>6</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>4</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>12</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>32</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>34</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> in standard form and <span class="token">ⓑ</span> graph.</para>
+</problem>
+<solution id="fs-id1163872464984">
+<para id="fs-id1163872456532"><span class="token">ⓐ</span> <m:math><m:mrow><m:mfrac><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow><m:mn>6</m:mn></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow><m:mn>9</m:mn></m:mfrac><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math><newline/>
+<span class="token">ⓑ</span><newline/>
+<media id="fs-id1163872529490" alt="This graph shows an ellipse with center (negative 1, 4), vertices minus (1, 1) and (negative 1, 7) and endpoints of minor axis approximately (negative 3.5, 4) and (approximately 1.5, 4).">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_11_03_310_img.jpg"/>
+</media>
+</para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1163872435902" class="try">
+<exercise id="fs-id1163872850405">
+<problem id="fs-id1163872467826">
+<para id="fs-id1163872660171"><span class="token">ⓐ</span> Write the equation <m:math><m:mrow><m:mn>4</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>16</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>6</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>9</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> in standard form and <span class="token">ⓑ</span>  graph.</para>
+</problem>
+<solution id="fs-id1163872409334">
+<para id="fs-id1163872197218"><span class="token">ⓐ</span> <m:math><m:mrow><m:mfrac><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow><m:mn>4</m:mn></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>16</m:mn></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math><newline/>
+<span class="token">ⓑ</span><newline/>
+<media id="fs-id1163872015767" alt="This graph shows an ellipse with center (2, 3), vertices (2, negative 1) and (2, 7) and endpoints of minor axis (0, 3) and (4, 3).">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_11_03_311_img.jpg"/>
+</media>
+</para>
+</solution>
+</exercise>
+</note>
+<section id="fs-id1171792588082"><title>Solve Application with Ellipses</title>
+<para id="fs-id1163872447476">The orbits of the planets around the sun follow elliptical paths.</para>
+<example id="fs-id1163872840276">
+<exercise id="fs-id1163871987196">
+<problem id="fs-id1163872513963">
+<para id="fs-id1163872529927">Pluto (a dwarf planet) moves in an elliptical orbit around the Sun. The closest Pluto gets to the Sun is approximately 30 astronomical units (AU) and the furthest is approximately 50 AU. The Sun is one of the foci of the elliptical orbit. Letting the ellipse center at the origin and labeling the axes in AU, the orbit will look like the figure below. Use the graph to write an equation for the elliptical orbit of Pluto.</para>
+<media id="fs-id1163872545123" alt="This graph shows an ellipse with center (0, 0) and vertices (negative 40, 0) and (40, 0). The sun is shown at point (10, 0). This is 30 units from the right vertex and 50 units from the left vertex.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_11_03_016_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1163868248157">
+<para id="fs-id1163866196994"><m:math><m:mrow><m:mtable>
+<m:mtr><m:mtd columnalign="left"><m:mtable><m:mtr><m:mtd columnalign="left"><m:mtext>We recognize this as an ellipse that is centered at the</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>origin.</m:mtext></m:mtd></m:mtr></m:mtable></m:mtd><m:mtd/><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mspace width="2.1em"/><m:mfrac><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mrow><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>1</m:mn></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mtable><m:mtr><m:mtd columnalign="left"><m:mtext>Since the major axis is horizontal and the distance from</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>the center to the vertex is 40, we know</m:mtext><m:mspace width="0.2em"/><m:mi>a</m:mi><m:mo>=</m:mo><m:mn>40</m:mn><m:mspace width="0.2em"/><m:mtext>and so</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>1600</m:mn><m:mo>.</m:mo></m:mtd></m:mtr></m:mtable></m:mtd><m:mtd/><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mspace width="1.1em"/><m:mfrac><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>1600</m:mn></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mrow><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>1</m:mn></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mtable><m:mtr><m:mtd columnalign="left"><m:mtext>The minor axis is vertical but the end points aren’t given.</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>To find</m:mtext><m:mspace width="0.2em"/><m:mi>b</m:mi><m:mspace width="0.2em"/><m:mtext>we will use the location of the Sun. Since the</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>Sun is a focus of the ellipse at the point</m:mtext><m:mspace width="0.2em"/><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>10</m:mn><m:mo>,</m:mo><m:mn>0</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mtext>we know</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mi>c</m:mi><m:mo>=</m:mo><m:mn>10</m:mn><m:mo>.</m:mo><m:mspace width="0.2em"/><m:mtext>Use this to solve for</m:mtext><m:mspace width="0.2em"/><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:mo>.</m:mo></m:mtd></m:mtr></m:mtable></m:mtd><m:mtd/><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mspace width="4.4em"/><m:mtable><m:mtr><m:mtd columnalign="left"><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:msup><m:mn>40</m:mn><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:msup><m:mn>10</m:mn><m:mn>2</m:mn></m:msup></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>1600</m:mn><m:mo>−</m:mo><m:mn>100</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>1500</m:mn></m:mtd></m:mtr></m:mtable></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mtext>Substitute</m:mtext><m:mspace width="0.2em"/><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>and</m:mtext><m:mspace width="0.2em"/><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>into the standard form of the ellipse.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mfrac><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>1600</m:mn></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mrow><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>1500</m:mn></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>1</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:math></para>
+</solution>
+</exercise>
+</example>
+<note id="fs-id1163872652849" class="try">
+<exercise id="fs-id1163872836806">
+<problem id="fs-id1163872023288">
+<para id="fs-id1163871756678">A planet moves in an elliptical orbit around its sun. The closest the planet gets to the sun is approximately 20 AU and the furthest is approximately 30 AU. The sun is one of the foci of the elliptical orbit. Letting the ellipse center at the origin and labeling the axes in AU, the orbit will look like the figure below. Use the graph to write an equation for the elliptical orbit of the planet.</para>
+<media id="fs-id1163871975450" alt="This graph shows an ellipse with center (0, 0) and vertices (negative 25, 0) and (25, 0). The sun is shown at point (5, 0). This is 20 units from the right vertex and 30 units from the left vertex.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_11_03_017_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1163872516912">
+<para id="fs-id1163872092443"><m:math><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>625</m:mn></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mrow><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>600</m:mn></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1163872436182" class="try">
+<exercise id="fs-id1163872740817">
+<problem id="fs-id1163872432940">
+<para id="fs-id1163872464205">A planet moves in an elliptical orbit around its sun. The closest the planet gets to the sun is approximately 20 AU and the furthest is approximately 50 AU. The sun is one of the foci of the elliptical orbit. Letting the ellipse center at the origin and labeling the axes in AU, the orbit will look like the figure below. Use the graph to write an equation for the elliptical orbit of the planet.</para>
+<media id="fs-id1163872514058" alt="This graph shows an ellipse with center (0, 0) and vertices (negative 35, 0) and (35, 0). The sun is shown at point (15, 0). This is 20 units from the right vertex and 50 units from the left vertex.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_11_03_018_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1163872665959">
+<para id="fs-id1163872713392"><m:math><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>1225</m:mn></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mrow><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>1000</m:mn></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1163872096564" class="media-2">
+<para id="fs-id1163872718869">Access these online resources for additional instructions and practice with ellipses.</para>
+<list id="fs-id1163872503067" display="block">
+<item><link url="https://openstax.org/l/37graphellipse1">Conic Sections: Graphing Ellipses Part 1</link></item>
+<item><link url="https://openstax.org/l/37graphellipse2">Conic Sections: Graphing Ellipses Part 2</link></item>
+<item><link url="https://openstax.org/l/37eqellipse">Equation for Ellipse From Graph</link></item>
+</list>
+</note>
+</section>
+</section>
+<section id="fs-id1163872697768" class="key-concepts">
+<title>Key Concepts</title>
+<list id="fs-id1163872096217" list-type="bulleted" bullet-style="bullet">
+<item><emphasis effect="bold">Ellipse:</emphasis> An <emphasis effect="bold">ellipse</emphasis> is all points in a plane where the sum of the distances from two fixed points is constant. Each of the fixed points is called a <emphasis effect="bold">focus</emphasis> of the ellipse.<newline/>
+<media id="fs-id1163872574755" alt="This figure shows two ellipses. In each, two points within the ellipse are labeled foci. A line drawn through the foci intersects the ellipse in two points. Each point is labeled a vertex. In The figure on the left, the segment connecting the vertices is called the major axis. A segment perpendicular to the major axis that passes through its midpoint and intersects the ellipse in two points is labeled minor axis. The major axis is longer than the minor axis. In The figure on the right, the segment through the foci, connecting the vertices is shorter and is labeled minor axis. Its midpoint is labeled center.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_11_03_020_img.jpg"/>
+</media><newline/>
+If we draw a line through the foci intersects the ellipse in two points—each is called a <emphasis effect="bold">vertex</emphasis> of the ellipse.<newline/>
+The segment connecting the vertices is called the <emphasis effect="bold">major axis</emphasis>.<newline/>
+The midpoint of the segment is called the <emphasis effect="bold">center</emphasis> of the ellipse.<newline/>
+A segment perpendicular to the major axis that passes through the center and intersects the ellipse in two points is called the <emphasis effect="bold">minor axis</emphasis>.</item>
+<item><emphasis effect="bold">Standard Form of the Equation an Ellipse with Center</emphasis> <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>0</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>:</m:mo></m:mrow></m:math> The standard form of the equation of an ellipse with center <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>0</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo></m:mrow></m:math> is<newline/>
+<equation id="fs-id1163872624303" class="unnumbered"><label/><m:math><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mrow><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math></equation><newline/>
+The <emphasis effect="italics">x</emphasis>-intercepts are <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>a</m:mi><m:mo>,</m:mo><m:mn>0</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> and <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mtext>−</m:mtext><m:mi>a</m:mi><m:mo>,</m:mo><m:mn>0</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math><newline/>
+The <emphasis effect="italics">y</emphasis>-intercepts are <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mi>b</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> and <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mtext>−</m:mtext><m:mi>b</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></item>
+<item><emphasis effect="bold">How to an Ellipse with Center</emphasis> <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>0</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math>
+<list id="fs-id1163871923665" list-type="enumerated" number-style="arabic" class="stepwise">
+<item>Write the equation in standard form.</item>
+<item>Determine whether the major axis is horizontal or vertical.</item>
+<item>Find the endpoints of the major axis.</item>
+<item>Find the endpoints of the minor axis</item>
+<item>Sketch the ellipse.</item>
+</list></item>
+<item><emphasis effect="bold">Standard Form of the Equation an Ellipse with Center</emphasis> <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>h</m:mi><m:mo>,</m:mo><m:mi>k</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>:</m:mo></m:mrow></m:math> The standard form of the equation of an ellipse with center <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>h</m:mi><m:mo>,</m:mo><m:mi>k</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo></m:mrow></m:math> is<newline/>
+<equation id="fs-id1163872575490" class="unnumbered"><label/><m:math><m:mrow><m:mfrac><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mi>h</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>y</m:mi><m:mo>−</m:mo><m:mi>k</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math></equation><newline/>
+When <m:math><m:mrow><m:mi>a</m:mi><m:mo>&gt;</m:mo><m:mi>b</m:mi><m:mo>,</m:mo></m:mrow></m:math> the major axis is horizontal so the distance from the center to the vertex is <emphasis effect="italics">a</emphasis>.<newline/>
+When <m:math><m:mrow><m:mi>b</m:mi><m:mo>&gt;</m:mo><m:mi>a</m:mi><m:mo>,</m:mo></m:mrow></m:math> the major axis is vertical so the distance from the center to the vertex is <emphasis effect="italics">b</emphasis>.</item>
+</list>
+</section>
+<section id="fs-id1163872769241" class="section-exercises">
+<section id="fs-id1163871876800" class="practice-perfect">
+<title>Practice Makes Perfect</title>
+<para id="fs-id1163872019091"><emphasis effect="bold">Graph an Ellipse with Center at the Origin</emphasis></para>
+<para id="fs-id1163872014059">In the following exercises, graph each ellipse.</para>
+<exercise id="fs-id1163872829148">
+<problem id="fs-id1163871883835">
+<para id="fs-id1163871890082"><m:math><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mn>4</m:mn></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mrow><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>25</m:mn></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1163872557100">
+<para id="fs-id1163871568491">
+<media id="fs-id1163872534088" alt="This graph shows an ellipse with center (0, 0), vertices (0, 5) and (0, negative 5) and endpoints of minor axis (2, 0) and (negative 2, 0).">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_11_03_312_img.jpg"/>
+</media>
+</para>
+</solution>
+</exercise>
+<exercise id="fs-id1163871997735">
+<problem id="fs-id1163872337696">
+<para id="fs-id1163872569434"><m:math><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mn>9</m:mn></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mrow><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>25</m:mn></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1163872709615">
+<problem id="fs-id1163872092335">
+<para id="fs-id1163872427624"><m:math><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>25</m:mn></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mrow><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>36</m:mn></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1163872742674">
+<para id="fs-id1163872025454">
+<media id="fs-id1163865785818" alt="This graph shows an ellipse with center (0, 0), vertices (0, 6) and (0, negative 6) and endpoints of minor axis (5, 0) and (negative 5, 0).">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_11_03_314_img.jpg"/>
+</media>
+</para>
+</solution>
+</exercise>
+<exercise id="fs-id1163872110892">
+<problem id="fs-id1163872427472">
+<para id="fs-id1163872103649"><m:math><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>16</m:mn></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mrow><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>36</m:mn></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1163872514193">
+<problem id="fs-id1163871980336">
+<para id="fs-id1163872768352"><m:math><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>36</m:mn></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mrow><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>16</m:mn></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1163871926860">
+<para id="fs-id1163871868047">
+<media id="fs-id1163868454052" alt="This graph shows an ellipse with center (0, 0), vertices (6, 0) and (negative 6, 0) and endpoints of minor axis (0, 4) and (0, negative 4).">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_11_03_316_img.jpg"/>
+</media>
+</para>
+</solution>
+</exercise>
+<exercise id="fs-id1163872531832">
+<problem id="fs-id1163872804309">
+<para id="fs-id1163872804311"><m:math><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>25</m:mn></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mrow><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mn>9</m:mn></m:mfrac><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1163872611075">
+<problem id="fs-id1163872560474">
+<para id="fs-id1163872560476"><m:math><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mfrac><m:mrow><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mn>4</m:mn></m:mfrac><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1163872531758">
+<para id="fs-id1163872531760">
+<media id="fs-id1163865733298" alt="This graph shows an ellipse with center (0, 0), vertices (0, 2) and (0, negative 2) and endpoints of minor axis (1, 0) and (negative 1, 0).">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_11_03_318_img.jpg"/>
+</media>
+</para>
+</solution>
+</exercise>
+<exercise id="fs-id1163872768883">
+<problem id="fs-id1163872822384">
+<para id="fs-id1163872542678"><m:math><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mn>9</m:mn></m:mfrac><m:mo>+</m:mo><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1163865848463">
+<problem id="fs-id1163865848465">
+<para id="fs-id1163872567928"><m:math><m:mrow><m:mn>4</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>25</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>100</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1163872511469">
+<para id="fs-id1163872018462">
+<media id="fs-id1163872569570" alt="This graph shows an ellipse with center (0, 0), vertices (5, 0) and (negative 5, 0) and endpoints of minor axis (0, 2) and (0, negative 2).">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_11_03_320_img.jpg"/>
+</media>
+</para>
+</solution>
+</exercise>
+<exercise id="fs-id1163872536189">
+<problem id="fs-id1163872024666">
+<para id="fs-id1163872024668"><m:math><m:mrow><m:mn>16</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>9</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>144</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1163871868040">
+<problem id="fs-id1163872719600">
+<para id="fs-id1163872705504"><m:math><m:mrow><m:mn>16</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>36</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>576</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1163871935344">
+<para id="fs-id1163871930790">
+<media id="fs-id1163871930792" alt="This graph shows an ellipse with center (0, 0), vertices (6, 0) and (negative 6, 0) and endpoints of minor axis (0, 4) and (0, negative 4).">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_11_03_322_img.jpg"/>
+</media>
+</para>
+</solution>
+</exercise>
+<exercise id="fs-id1163872768062">
+<problem id="fs-id1163872768064">
+<para id="fs-id1163872024700"><m:math><m:mrow><m:mn>9</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>25</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>225</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<para id="fs-id1163872554720"><emphasis effect="bold">Find the Equation of an Ellipse with Center at the Origin</emphasis></para>
+<para id="fs-id1163872394595">In the following exercises, find the equation of the ellipse shown in the graph.</para>
+<exercise id="fs-id1163868451657" class="material-set-2">
+<problem id="fs-id1163868451660">
+<para id="fs-id1163872420236"><newline/><media id="fs-id1163872420237" alt="This graph shows an ellipse with center (0, 0), vertices (0, 5) and (0, negative 5) and endpoints of minor axis (negative 3, 0) and (3, 0).">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_11_03_201_img.jpg"/>
+</media>
+</para>
+</problem>
+<solution id="fs-id1163872663250">
+<para id="fs-id1163872600785"><m:math><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mn>9</m:mn></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mrow><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>25</m:mn></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1163871710691" class="material-set-2">
+<problem id="fs-id1163871866782">
+<para id="fs-id1163871531511"><newline/><media id="fs-id1163871531512" alt="This graph shows an ellipse with center (0, 0), vertices (5, 0) and (negative 5, 0) and endpoints of minor axis (0, 2) and (0, negative 2).">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_11_03_202_img.jpg"/>
+</media>
+</para>
+</problem>
+</exercise>
+<exercise id="fs-id1163871874103" class="material-set-2">
+<problem id="fs-id1163872521543">
+<para id="fs-id1163872521545"><newline/><media id="fs-id1163872110551" alt="This graph shows an ellipse with center (0, 0), vertices (0, 4) and (0, negative 4) and endpoints of minor axis (negative 3, 0) and (3, 0).">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_11_03_203_img.jpg"/>
+</media>
+</para>
+</problem>
+<solution id="fs-id1163872514670">
+<para id="fs-id1163872709202"><m:math><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mn>9</m:mn></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mrow><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>16</m:mn></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1163872768251" class="material-set-2">
+<problem id="fs-id1163871992932">
+<para id="fs-id1163871934957"><newline/><media id="fs-id1163871934958" alt="This graph shows an ellipse with center (0, 0), vertices (0, 6) and (0, negative 6) and endpoints of minor axis (negative 4, 0) and (4, 0).">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_11_03_204_img.jpg"/>
+</media>
+</para>
+</problem>
+</exercise>
+<para id="fs-id1163872015114"><emphasis effect="bold">Graph an Ellipse with Center Not at the Origin</emphasis></para>
+<para id="fs-id1163872838237">In the following exercises, graph each ellipse.</para>
+<exercise id="fs-id1163872418395" class="material-set-2">
+<problem id="fs-id1163872418397">
+<para id="fs-id1163871987398"><m:math><m:mrow><m:mfrac><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow><m:mn>4</m:mn></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>6</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>25</m:mn></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1163871994520">
+<para id="fs-id1163871882692">
+<media id="fs-id1163872096387" alt="This graph shows an ellipse with center (negative 1, negative 6, vertices (negative 1, negative 1) and (negative 1, negative 11) and endpoints of minor axis (negative 3, negative 6) and (1, negative 6).">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_11_03_324_img.jpg"/>
+</media>
+</para>
+</solution>
+</exercise>
+<exercise id="fs-id1163872570186" class="material-set-2">
+<problem id="fs-id1163872533709">
+<para id="fs-id1163872533711"><m:math><m:mrow><m:mfrac><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>25</m:mn></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow><m:mn>9</m:mn></m:mfrac><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1163872842208" class="material-set-2">
+<problem id="fs-id1163872612895">
+<para id="fs-id1163872612897"><m:math><m:mrow><m:mfrac><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow><m:mn>4</m:mn></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow><m:mn>9</m:mn></m:mfrac><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1163872302554">
+<para id="fs-id1163871858288">
+<media id="fs-id1163872108528" alt="This graph shows an ellipse with center (negative 4, 2, vertices (negative 4, 5) and (negative 4, negative 1) and endpoints of minor axis (3, 1) and (negative 6, 2) and (negative 2, 2).">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_11_03_326_img.jpg"/>
+</media>
+</para>
+</solution>
+</exercise>
+<exercise id="fs-id1163872448776" class="material-set-2">
+<problem id="fs-id1163872720576">
+<para id="fs-id1163872720578"><m:math><m:mrow><m:mfrac><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow><m:mn>9</m:mn></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>16</m:mn></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<para id="fs-id1163871932647">In the following exercises, graph each equation by translation.</para>
+<exercise id="fs-id1163871783180" class="material-set-2">
+<problem id="fs-id1163872022197">
+<para id="fs-id1163872022200"><m:math><m:mrow><m:mfrac><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow><m:mn>4</m:mn></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>7</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>25</m:mn></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1163872708891">
+<para id="fs-id1163872708893">
+<media id="fs-id1163872799939" alt="This graph shows an ellipse with center (3, 7), vertices (3, 2) and (3, 12), and endpoints of minor axis (1, 7) and (5, 7).">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_11_03_328_img.jpg"/>
+</media>
+</para>
+</solution>
+</exercise>
+<exercise id="fs-id1163871882005" class="material-set-2">
+<problem id="fs-id1163872403279">
+<para id="fs-id1163872403281"><m:math><m:mrow><m:mfrac><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>6</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>16</m:mn></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow><m:mn>4</m:mn></m:mfrac><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1163871927127" class="material-set-2">
+<problem id="fs-id1163872453024">
+<para id="fs-id1163871985605"><m:math><m:mrow><m:mfrac><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow><m:mn>9</m:mn></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>25</m:mn></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1163872630902">
+<para id="fs-id1163872444387">
+<media id="fs-id1163872444389" alt="This graph shows an ellipse with center (5, negative 4), vertices (5, 1) and (5, negative 9) and endpoints of minor axis (2, negative 4) and (8, negative 4).">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_11_03_330_img.jpg"/>
+</media>
+</para>
+</solution>
+</exercise>
+<exercise id="fs-id1163872510998" class="material-set-2">
+<problem id="fs-id1163872014761">
+<para id="fs-id1163871378181"><m:math><m:mrow><m:mfrac><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>36</m:mn></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>16</m:mn></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<para id="fs-id1163872833573">In the following exercises, <span class="token">ⓐ</span> write the equation in standard form and <span class="token">ⓑ</span> graph.</para>
+<exercise id="fs-id1163872693587" class="material-set-2">
+<problem id="fs-id1163872573326">
+<para id="fs-id1163872553270"><m:math><m:mrow><m:mn>25</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>9</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>100</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>54</m:mn><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>44</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1163872660997">
+<para id="fs-id1163872034704"><span class="token">ⓐ</span> <m:math><m:mrow><m:mfrac><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow><m:mn>9</m:mn></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>25</m:mn></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math><newline/>
+<span class="token">ⓑ</span><newline/>
+<media id="fs-id1163871934818" alt="This graph shows an ellipse with center (2, 3), vertices (2, negative 2) and (2, 8) and endpoints of minor axis (negative 1, 3) and (5, 3).">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_11_03_332_img.jpg"/>
+</media>
+</para>
+</solution>
+</exercise>
+<exercise id="fs-id1163872841555" class="material-set-2">
+<problem id="fs-id1163871933662">
+<para id="fs-id1163872743279"><m:math><m:mrow><m:mn>4</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>25</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>8</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>100</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>4</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1163871704288" class="material-set-2">
+<problem id="fs-id1163872397377">
+<para id="fs-id1163872639909"><m:math><m:mrow><m:mn>4</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>25</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>24</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>64</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1163868452715">
+<para id="fs-id1163872446383"><span class="token">ⓐ</span> <m:math><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mn>4</m:mn></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mrow><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>25</m:mn></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math><newline/>
+<span class="token">ⓑ</span><newline/>
+<media id="fs-id1163872093634" alt="This graph shows an ellipse with center (3, 0), vertices (negative 2, 0) and (8, 0) and endpoints of minor axis (3, 2) and (3, negative 2).">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_11_03_334_img.jpg"/>
+</media>
+</para>
+</solution>
+</exercise>
+<exercise id="fs-id1163872515061" class="material-set-2">
+<problem id="fs-id1163872515063">
+<para id="fs-id1163872095366"><m:math><m:mrow><m:mn>9</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>4</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>56</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>160</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<para id="fs-id1163872469152">In the following exercises, graph the equation.</para>
+<exercise id="fs-id1163872400116">
+<problem id="fs-id1163872400118">
+<para id="fs-id1163872693934"><m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>−2</m:mn><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1163872093400">
+<para id="fs-id1163872446559">
+<media id="fs-id1163871349264" alt="This graph shows a parabola with vertex (2, 1) and y intercepts (0, 0) and (2, 0).">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_11_03_336_img.jpg"/>
+</media>
+</para>
+</solution>
+</exercise>
+<exercise id="fs-id1163866047685">
+<problem id="fs-id1163872467848">
+<para id="fs-id1163872559529"><m:math><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>49</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1163872600142">
+<problem id="fs-id1163872600144">
+<para id="fs-id1163872833517"><m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>4</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1163872243575">
+<para id="fs-id1163871868357">
+<media id="fs-id1163872742897" alt="This graph shows a circle with center (negative 5, negative 2) and a radius of 2 units.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_11_03_338_img.jpg"/>
+</media>
+</para>
+</solution>
+</exercise>
+<exercise id="fs-id1163872664239">
+<problem id="fs-id1163872646173">
+<para id="fs-id1163872666370"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mtext>−</m:mtext><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>8</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>15</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1163871756540">
+<problem id="fs-id1163872034683">
+<para id="fs-id1163872576509"><m:math><m:mrow><m:mfrac><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>16</m:mn></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow><m:mn>4</m:mn></m:mfrac><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1163871567468">
+<para id="fs-id1163865730462">
+<media id="fs-id1163865730465" alt="This graph shows an ellipse with center (negative 3, negative 1), vertices (1, negative 1) and (negative 7, negative 1) and endpoints of minor axis (negative 3, 1) and (negative 3, negative 3).">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_11_03_340_img.jpg"/>
+</media>
+</para>
+</solution>
+</exercise>
+<exercise id="fs-id1163872557744">
+<problem id="fs-id1163872630243">
+<para id="fs-id1163866226794"><m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>9</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1163872629661">
+<problem id="fs-id1163872629663">
+<para id="fs-id1163871930849"><m:math><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>25</m:mn></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mrow><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>36</m:mn></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1163872642609">
+<para id="fs-id1163872642611">
+<media id="fs-id1163866198996" alt="This graph shows an ellipse with center (0, 0), vertices (0, 6) and (0, negative 6) and endpoints of minor axis (negative 5, 0) and (5, 0).">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_11_03_342_img.jpg"/>
+</media>
+</para>
+</solution>
+</exercise>
+<exercise id="fs-id1163871866286">
+<problem id="fs-id1163871866288">
+<para id="fs-id1163872462579"><m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>4</m:mn><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>4</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1163871908392">
+<problem id="fs-id1163871908394">
+<para id="fs-id1163871859292"><m:math><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>64</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1163868434169">
+<para id="fs-id1163868434171">
+<media id="fs-id1163872532047" alt="This graph shows circle with center (0, 0) and with radius 8 units.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_11_03_344_img.jpg"/>
+</media>
+</para>
+</solution>
+</exercise>
+<exercise id="fs-id1163871870368">
+<problem id="fs-id1163871870370">
+<para id="fs-id1163872799994"><m:math><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mn>9</m:mn></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mrow><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>25</m:mn></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1163872560516">
+<problem id="fs-id1163872840603">
+<para id="fs-id1163872840605"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>6</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1163871731254">
+<para id="fs-id1163871731256">
+<media id="fs-id1163872033812" alt="This graph shows upward opening parabola. Its vertex has an x value of slightly less than 0 and a y value of slightly less than minus 1. A point on it is approximately at (negative 1, 3).">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_11_03_346_img.jpg"/>
+</media>
+</para>
+</solution>
+</exercise>
+<exercise id="fs-id1163872940076">
+<problem id="fs-id1163872729685">
+<para id="fs-id1163872729687"><m:math><m:mrow><m:mfrac><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow><m:mn>9</m:mn></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>25</m:mn></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<para id="fs-id1163872472137"><emphasis effect="bold">Solve Application with Ellipses</emphasis></para>
+<exercise id="fs-id1163871987462" class="material-set-2">
+<problem id="fs-id1163871987464">
+<para id="fs-id1163872562521">A planet moves in an elliptical orbit around its sun. The closest the planet gets to the sun is approximately 10 AU and the furthest is approximately 30 AU. The sun is one of the foci of the elliptical orbit. Letting the ellipse center at the origin and labeling the axes in AU, the orbit will look like the figure below. Use the graph to write an equation for the elliptical orbit of the planet.</para>
+<media id="fs-id1163872562525" alt="This graph shows an ellipse with center (0, 0), vertices (negative 20, 0) and (20, 0). The sun is shown at point (10, 0), which is 30 units from the left vertex and 10 units from the right vertex.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_11_03_205_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1163872548932">
+<para id="fs-id1163872105286"><m:math><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>400</m:mn></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mrow><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>300</m:mn></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1163872435929" class="material-set-2">
+<problem id="fs-id1163872435931">
+<para id="fs-id1163872404828">A planet moves in an elliptical orbit around its sun. The closest the planet gets to the sun is approximately 10 AU and the furthest is approximately 70 AU. The sun is one of the foci of the elliptical orbit. Letting the ellipse center at the origin and labeling the axes in AU, the orbit will look like the figure below. Use the graph to write an equation for the elliptical orbit of the planet.</para>
+<media id="fs-id1163872404831" alt="This graph shows an ellipse with center (0, 0), vertices (negative 40, 0) and (40, 0). The sun is shown at point (30, 0), which is 70 units from the left vertex and 10 units from the right vertex.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_11_03_206_img.jpg"/>
+</media>
+</problem>
+</exercise>
+<exercise id="fs-id1163871895792" class="material-set-2">
+<problem id="fs-id1163871895794">
+<para id="fs-id1163872556219">A comet moves in an elliptical orbit around a sun. The closest the comet gets to the sun is approximately 15 AU and the furthest is approximately 85 AU. The sun is one of the foci of the elliptical orbit. Letting the ellipse center at the origin and labeling the axes in AU, the orbit will look like the figure below. Use the graph to write an equation for the elliptical orbit of the comet.</para>
+<media id="fs-id1163872556221" alt="This graph shows an ellipse with center (0, 0), vertices (negative 50, 0) and (50, 0). The sun is shown at point (35, 0), which is 85 units from the left vertex and 15 units from the right vertex.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_11_03_207_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1163872561506">
+<para id="fs-id1163872561508"><m:math><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>2500</m:mn></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mrow><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>1275</m:mn></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1163872748963" class="material-set-2">
+<problem id="fs-id1163871704679">
+<para id="fs-id1163871704681">A comet moves in an elliptical orbit around a sun. The closest the comet gets to the sun is approximately 15 AU and the furthest is approximately 95 AU. The sun is one of the foci of the elliptical orbit. Letting the ellipse center at the origin and labeling the axes in AU, the orbit will look like the figure below. Use the graph to write an equation for the elliptical orbit of the comet.</para>
+<media id="fs-id1163872599043" alt="This graph shows an ellipse with center (0, 0), vertices (negative 55, 0) and (55, 0). The sun is shown at point (40, 0), which is 95 units from the left vertex and 15 units from the right vertex.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_11_03_208_img.jpg"/>
+</media>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1163863474708" class="writing">
+<title>Writing Exercises</title>
+<exercise id="fs-id1163871993197">
+<problem id="fs-id1163871993199">
+<para id="fs-id1163871977038">In your own words, define an ellipse and write the equation of an ellipse centered at the origin in standard form. Draw a sketch of the ellipse labeling the center, vertices and major and minor axes.</para>
+</problem>
+<solution id="fs-id1163871977040">
+<para id="fs-id1163872800713">Answers will vary.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1163872564055">
+<problem id="fs-id1163872011994">
+<para id="fs-id1163872011996">Explain in your own words how to get the axes from the equation in standard form.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1163872713558">
+<problem id="fs-id1163872713560">
+<para id="fs-id1163872546052">Compare and contrast the graphs of the equations <m:math><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mn>4</m:mn></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mrow><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mn>9</m:mn></m:mfrac><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math> and <m:math><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mn>9</m:mn></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mrow><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mn>4</m:mn></m:mfrac><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1163872713406">
+<para id="fs-id1163872713408">Answers will vary.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1163872020384">
+<problem id="fs-id1163872435908">
+<para id="fs-id1163872435910">Explain in your own words, the difference between a vertex and a focus of the ellipse.</para>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1163872095843">
+<title>Self Check</title>
+<para id="fs-id1163872402231"><span class="token">ⓐ</span> After completing the exercises, use this checklist to evaluate your mastery of the objectives of this section.</para>
+<media id="fs-id1163872548678" alt="This table has 4 columns 4 rows and a header row. The header row labels each column I can, confidently, with some help and no, I don’t get it. The first columns has the following statements: graph an ellipse with center at the origin, find the equation of an ellipse with center at the origin, graph an ellipse with center not at the origin, solve applications with ellipses. The remaining columns are blank.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_11_03_209_img.jpg"/>
+</media>
+<para id="fs-id1163871568158"><span class="token">ⓑ</span> What does this checklist tell you about your mastery of this section? What steps will you take to improve?</para>
+</section>
+</section>
+</content>
+<glossary>
+<definition id="fs-id1163871993300">
+<term>ellipse</term>
+<meaning id="fs-id1163872747198">An ellipse is all points in a plane where the sum of the distances from two fixed points is constant.</meaning>
+</definition>
+</glossary>
+</document>

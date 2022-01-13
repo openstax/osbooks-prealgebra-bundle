@@ -1,0 +1,2541 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Understand Slope of a Line</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m53185</md:content-id>
+  <md:title>Understand Slope of a Line</md:title>
+  <md:abstract>By the end of this section, you will be able to:
+<list><item>Use geoboards to model slope</item>
+<item>Find the slope of a line from its graph</item>
+<item>Find the slope of horizontal and vertical lines</item>
+<item>Use the slope formula to find the slope of a line between two points</item>
+<item>Graph a line given a point and the slope</item>
+<item>Solve slope applications</item></list></md:abstract>
+  <md:uuid>cdff4386-5dd5-48f8-9679-b31a0824b1a1</md:uuid>
+</metadata>
+
+<content>
+<note id="fs-id1655617" class="be-prepared">
+<para id="fs-id1531898">Before you get started, take this readiness quiz.</para>
+<list id="fs-id1628936" mark-suffix=")" list-type="enumerated" number-style="arabic"><item>Simplify: <m:math><m:mrow><m:mfrac><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:mn>4</m:mn></m:mrow><m:mrow><m:mn>8</m:mn><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math><newline/>
+If you missed this problem, review <link document="m53038" target-id="fs-id2649723"/>.</item>
+<item>Divide: <m:math><m:mrow><m:mfrac><m:mn>0</m:mn><m:mn>4</m:mn></m:mfrac><m:mo>,</m:mo><m:mfrac><m:mn>4</m:mn><m:mn>0</m:mn></m:mfrac><m:mo>.</m:mo></m:mrow></m:math><newline/>
+If you missed this problem, review <link document="m53106" target-id="fs-id1166497463421"/>.</item>
+<item>Simplify: <m:math><m:mrow><m:mfrac><m:mrow><m:mn>15</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:mfrac><m:mo>,</m:mo><m:mfrac><m:mrow><m:mn>−15</m:mn></m:mrow><m:mrow><m:mn>3</m:mn></m:mrow></m:mfrac><m:mo>,</m:mo><m:mfrac><m:mrow><m:mn>−15</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math><newline/>
+If you missed this problem, review <link document="m53038" target-id="fs-id2221954"/>.</item>
+</list></note>
+<para id="eip-111">As we’ve been graphing linear equations, we’ve seen that some lines slant up as they go from left to right and some lines slant down. Some lines are very steep and some lines are flatter. What determines whether a line slants up or down, and if its slant is steep or flat?</para><para id="eip-298">The steepness of the slant of a line is called the <term>slope of the line</term>. The concept of slope has many applications in the real world. The pitch of a roof and the grade of a highway or wheelchair ramp are just some examples in which you literally see slopes. And when you ride a bicycle, you feel the slope as you pump uphill or coast downhill.</para><section id="fs-id1394139">
+<title>Use Geoboards to Model Slope</title>
+<para id="eip-368">In this section, we will explore the concepts of slope.</para><para id="fs-id1624216">Using rubber bands on a <term class="no-emphasis">geoboard</term> gives a concrete way to model lines on a coordinate grid. By stretching a rubber band between two pegs on a geoboard, we can discover how to find the slope of a line. And when you ride a bicycle, you <emphasis effect="underline">feel</emphasis> the slope as you pump uphill or coast downhill. </para><note id="eip-237" class="manipulative-math">Doing the Manipulative Mathematics activity "Exploring Slope" will help you develop a better understanding of the slope of a line. </note><para id="eip-627">We’ll start by stretching a rubber band between two pegs to make a line as shown in <link target-id="CNX_BMath_Figure_11_04_001"/>.</para><figure id="CNX_BMath_Figure_11_04_001">
+<media id="fs-id1613932" alt="The figure shows a grid of evenly spaced dots. There are 5 rows and 5 columns. There is a rubber band style loop connecting the point in column 1 row 4 and the point in column 4 row 2.">
+<image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_11_04_001.jpg"/>
+</media>
+</figure>
+<para id="eip-35">Does it look like a line?</para><para id="fs-id1661794">Now we stretch one part of the rubber band straight up from the left peg and around a third peg to make the sides of a right triangle as shown in <link target-id="CNX_BMath_Figure_11_04_002"/>. We carefully make a <m:math><m:mrow><m:mn>90</m:mn><m:mo>°</m:mo></m:mrow></m:math> angle around the third peg, so that one side is vertical and the other is horizontal.</para>
+<figure id="CNX_BMath_Figure_11_04_002">
+<media id="fs-id1548383" alt="The figure shows a grid of evenly spaced dots. There are 5 rows and 5 columns. There is a rubber band style triangle connecting three of the three points at column 1 row 2, column 1 row 4,and column 4 row 2.">
+<image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_11_04_002.jpg"/>
+</media>
+</figure>
+<para id="fs-id1604939">To find the slope of the line, we measure the distance along the vertical and horizontal legs of the triangle. The vertical distance is called the <term><emphasis effect="italics">rise</emphasis></term> and the horizontal distance is called the <term><emphasis effect="italics">run</emphasis></term>, as shown in <link target-id="CNX_BMath_Figure_11_04_003"/>.</para><figure id="CNX_BMath_Figure_11_04_003">
+<media id="fs-id1375204" alt="This figure shows two arrows. The first arrow is vertical and is labeled “rise”. The second arrow begins at the end of the first arrow extending to the right and is labeled “run”.">
+<image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_11_04_003.jpg"/>
+</media>
+</figure>
+<para id="eip-513">To help remember the terms, it may help to think of the images shown in <link target-id="eip-id1170324331286"/>.</para><para id="eip-491"><figure id="eip-id1170324331286"><media id="fs-id1304" alt="...">
+<image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_11_04_004.jpg"/>
+</media>
+</figure></para><para id="fs-id1527931">On our geoboard, the rise is <m:math><m:mrow><m:mn>2</m:mn></m:mrow></m:math> units because the rubber band goes up <m:math><m:mrow><m:mn>2</m:mn></m:mrow></m:math> spaces on the vertical leg. See <link target-id="CNX_BMath_Figure_11_04_005"/>.</para>
+<para id="fs-id1627224">What is the run? Be sure to count the spaces between the pegs rather than the pegs themselves! The rubber band goes across <m:math><m:mrow><m:mn>3</m:mn></m:mrow></m:math> spaces on the horizontal leg, so the run is <m:math><m:mrow><m:mn>3</m:mn></m:mrow></m:math> units.</para>
+<figure id="CNX_BMath_Figure_11_04_005">
+<media id="fs-id1638266" alt="The figure shows a grid of evenly spaced dots. There are 5 rows and 5 columns. There is a rubber band style triangle connecting three of the three points at column 1 row 2, column 1 row 4, and column 4 row 2. The triangle has a rise of 2 units and a run of 3 units.">
+<image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_11_04_005.jpg"/>
+</media>
+</figure>
+<para id="fs-id1454884">The slope of a line is the ratio of the rise to the run. So the slope of our line is <m:math><m:mrow><m:mfrac><m:mn>2</m:mn><m:mn>3</m:mn></m:mfrac><m:mo>.</m:mo></m:mrow></m:math> In mathematics, the slope is always represented by the letter <m:math><m:mi>m</m:mi><m:mo>.</m:mo></m:math></para><note id="fs-id1357212">
+<title>Slope of a line</title>
+<para id="fs-id1527121">The slope of a line is <m:math><m:mrow><m:mi>m</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mtext>rise</m:mtext></m:mrow><m:mrow><m:mtext>run</m:mtext></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></para>
+<para id="fs-id1502251">The <term>rise</term> measures the vertical change and the <term>run</term> measures the horizontal change.</para></note>
+<para id="fs-id1662982">What is the slope of the line on the geoboard in <link target-id="CNX_BMath_Figure_11_04_005"/>?</para>
+<equation id="fs-id1171103501359" class="unnumbered"><label/><m:math><m:mrow><m:mspace width="1em"/><m:mi>m</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mtext>rise</m:mtext></m:mrow><m:mrow><m:mtext>run</m:mtext></m:mrow></m:mfrac></m:mrow></m:math></equation>
+<equation id="fs-id1171105284944" class="unnumbered"><label/><m:math><m:mrow><m:mi>m</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>2</m:mn><m:mn>3</m:mn></m:mfrac></m:mrow></m:math></equation>
+<equation id="fs-id1171105565012" class="unnumbered"><label/><m:math><m:mrow><m:mtext>The line has slope</m:mtext><m:mspace width="0.2em"/><m:mfrac><m:mn>2</m:mn><m:mn>3</m:mn></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1679385">When we work with geoboards, it is a good idea to get in the habit of starting at a peg on the left and connecting to a peg to the right. Then we stretch the rubber band to form a right triangle.</para>
+<para id="fs-id889198">If we start by going up the rise is positive, and if we stretch it down the rise is negative. We will count the run from left to right, just like you read this paragraph, so the run will be positive.</para><para id="eip-77">Since the slope formula has rise over run, it may be easier to always count out the rise first and then the run.</para><example id="fs-id1623736">
+<exercise id="fs-id1531876"><problem id="fs-id1679522">
+<para id="fs-id1645529">What is the slope of the line on the geoboard shown?</para>
+<media id="fs-id1531565" alt="The figure shows a grid of evenly spaced dots. There are 5 rows and 5 columns. There is a rubber band style loop connecting the point in column 1 row 5 and the point in column 5 row 2.">
+<image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_11_04_006.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1643934">
+<title>Solution</title>
+<para id="fs-id1577189">Use the definition of slope.</para>
+<para id="fs-id1171105210699"><m:math><m:mrow><m:mi>m</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mtext>rise</m:mtext></m:mrow><m:mrow><m:mtext>run</m:mtext></m:mrow></m:mfrac></m:mrow></m:math></para>
+<para id="fs-id1679015">Start at the left peg and make a right triangle by stretching the rubber band up and to the right to reach the second peg.</para>
+<para id="fs-id1667777">Count the rise and the run as shown.<newline/>
+<media id="fs-id1680146" alt="The figure shows a grid of evenly spaced dots. There are 5 rows and 5 columns. There is a rubber band style triangle connecting three of the three points at column 1 row 2, column 1 row 5,and column 5 row 2.">
+<image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_11_04_007.jpg"/>
+</media></para><para id="fs-id1678397"><m:math><m:mtable><m:mtr><m:mtd columnalign="left"><m:mtext>The rise is</m:mtext><m:mspace width="0.2em"/><m:mn>3</m:mn><m:mspace width="0.2em"/><m:mtext>units</m:mtext><m:mo>.</m:mo></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mi>m</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>3</m:mn><m:mrow><m:mtext>run</m:mtext></m:mrow></m:mfrac></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>The run is</m:mtext><m:mspace width="0.2em"/><m:mn>4</m:mn><m:mspace width="0.2em"/><m:mtext>units</m:mtext><m:mo>.</m:mo></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mi>m</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>3</m:mn><m:mn>4</m:mn></m:mfrac></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mtext>The slope is</m:mtext><m:mspace width="0.2em"/><m:mfrac><m:mn>3</m:mn><m:mn>4</m:mn></m:mfrac><m:mo>.</m:mo></m:mtd></m:mtr></m:mtable></m:math></para>
+</solution>
+</exercise></example>
+<note id="fs-id1404012" class="try">
+<exercise id="fs-id1298181">
+<problem id="fs-id1365983">
+<para id="fs-id1319791">What is the slope of the line on the geoboard shown?</para>
+<media id="fs-id1502356" alt="The figure shows a grid of evenly spaced dots. There are 5 rows and 5 columns. There is a rubber band style loop connecting the point in column 1 row 5 and the point in column 4 row 1.">
+<image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_11_04_008_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1401411">
+<para id="fs-id1525470"><m:math><m:mrow><m:mfrac><m:mn>4</m:mn><m:mn>3</m:mn></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1354748" class="try">
+<exercise id="fs-id1366172">
+<problem id="fs-id1326216">
+<para id="fs-id1313054">What is the slope of the line on the geoboard shown?</para>
+<media id="fs-id1312252" alt="The figure shows a grid of evenly spaced dots. There are 5 rows and 5 columns. There is a rubber band style loop connecting the point in column 1 row 4 and the point in column 5 row 3.">
+<image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_11_04_009_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1325601">
+<para id="fs-id1394352"><m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>4</m:mn></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<example id="fs-id1451570">
+<exercise id="fs-id1340889"><problem id="fs-id1396585">
+<para id="fs-id1325564">What is the slope of the line on the geoboard shown?</para>
+<media id="fs-id1547973" alt="The figure shows a grid of evenly spaced dots. There are 5 rows and 5 columns. There is a rubber band style loop connecting the point in column 1 row 3 and the point in column 4 row 4.">
+<image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_11_04_010.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1446499">
+<title>Solution</title>
+<para id="fs-id1436233">Use the definition of slope.</para>
+<para id="fs-id1171105561885"><m:math><m:mrow><m:mi>m</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mtext>rise</m:mtext></m:mrow><m:mrow><m:mtext>run</m:mtext></m:mrow></m:mfrac></m:mrow></m:math></para>
+<para id="fs-id1600309">Start at the left peg and make a right triangle by stretching the rubber band to the peg on the right. This time we need to stretch the rubber band down to make the vertical leg, so the rise is negative.<newline/>
+<media id="fs-id1326280" alt="The figure shows a grid of evenly spaced dots. There are 5 rows and 5 columns. There is a rubber band style triangle connecting three of the three points at column 1 row 3, column 1 row 4,and column 4 row 4.">
+<image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_11_04_011.jpg"/>
+</media></para><para id="fs-id1681568"><m:math><m:mtable><m:mtr><m:mtd columnalign="left"><m:mtext>The rise is</m:mtext><m:mspace width="0.2em"/><m:mn>−1</m:mn><m:mo>.</m:mo></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mi>m</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>−1</m:mn></m:mrow><m:mrow><m:mtext>run</m:mtext></m:mrow></m:mfrac></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>The run is</m:mtext><m:mspace width="0.2em"/><m:mn>3</m:mn><m:mo>.</m:mo></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mi>m</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>−1</m:mn></m:mrow><m:mrow><m:mn>3</m:mn></m:mrow></m:mfrac></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mi>m</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mtext>The slope is</m:mtext><m:mspace width="0.2em"/><m:mo>−</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac><m:mo>.</m:mo></m:mtd></m:mtr></m:mtable></m:math></para>
+</solution>
+</exercise></example>
+<note id="fs-id1500842" class="try">
+<exercise id="fs-id1530474">
+<problem id="fs-id892934">
+<para id="fs-id1393071">What is the slope of the line on the geoboard?</para>
+<media id="fs-id1514197" alt="The figure shows a grid of evenly spaced dots. There are 5 rows and 5 columns. There is a rubber band style loop connecting the point in column 1 row 2 and the point in column 4 row 4.">
+<image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_11_04_012_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1356307">
+<para id="fs-id1412345"><m:math><m:mrow><m:mo>−</m:mo><m:mfrac><m:mn>2</m:mn><m:mn>3</m:mn></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1394254" class="try">
+<exercise id="fs-id1455517">
+<problem id="fs-id1528328">
+<para id="fs-id1414955">What is the slope of the line on the geoboard?</para>
+<media id="fs-id1603901" alt="The figure shows a grid of evenly spaced dots. There are 5 rows and 5 columns. There is a rubber band style loop connecting the point in column 1 row 1 and the point in column 4 row 5.">
+<image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_11_04_013_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1455216">
+<para id="fs-id1426579"><m:math><m:mrow><m:mo>−</m:mo><m:mfrac><m:mn>4</m:mn><m:mn>3</m:mn></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<para id="eip-466">Notice that in the first example, the slope is positive and in the second example the slope is negative. Do you notice any difference in the two lines shown in <link target-id="eip-id1170322762398"/>.</para><para id="eip-660"><figure id="eip-id1170322762398"><media id="fs-id16001" alt="...">
+<image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_11_04_059.jpg"/>
+</media></figure></para><para id="eip-504">As you read from left to right, the line in Figure A, is going up; it has positive slope.  The line Figure B is going down; it has negative slope.</para><para id="eip-402"><figure id="eip-id1170323811815"><media id="fs-id1601201" alt="...">
+<image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_11_04_060_img.jpg"/>
+</media></figure></para><example id="fs-id1358114"><exercise id="fs-id1403625">
+<problem id="fs-id1608013">
+<para id="fs-id1354220">Use a geoboard to model a line with slope <m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1528673">
+<title>Solution</title>
+<para id="fs-id1342839">To model a line with a specific slope on a geoboard, we need to know the rise and the run.</para>
+<table id="eip-id1172468198215" class="unnumbered unstyled" summary=".">
+<label/><tgroup cols="2">
+ <tbody>
+  <row>
+    <entry>Use the slope formula.</entry>
+    <entry><m:math><m:mi>m</m:mi><m:mo>=</m:mo><m:mfrac><m:mtext>rise</m:mtext><m:mtext>run</m:mtext></m:mfrac></m:math></entry>
+  </row>
+  <row>
+    <entry>Replace <m:math><m:mi>m</m:mi></m:math> with <m:math><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:math>.</entry>
+
+    <entry><m:math><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mtext>rise</m:mtext><m:mtext>run</m:mtext></m:mfrac></m:math></entry>
+  </row>
+</tbody>
+
+</tgroup>
+</table>
+<para id="fs-id1655897">So, the rise is <m:math><m:mrow><m:mn>1</m:mn></m:mrow></m:math> unit and the run is <m:math><m:mrow><m:mn>2</m:mn></m:mrow></m:math> units.</para>
+<para id="fs-id1649567">Start at a peg in the lower left of the geoboard. Stretch the rubber band up <m:math><m:mrow><m:mn>1</m:mn></m:mrow></m:math> unit, and then right <m:math><m:mrow><m:mn>2</m:mn></m:mrow></m:math> units.<newline/>
+<media id="fs-id1327600" alt="The figure shows a grid of evenly spaced dots. There are 5 rows and 5 columns. There is a rubber band style triangle connecting three of the three points at column 1 row 3, column 1 row 4,and column 3 row 3.">
+<image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_11_04_014.jpg"/>
+</media></para>
+<para id="fs-id1611469">The hypotenuse of the right triangle formed by the rubber band represents a line with a slope of <m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></para>
+</solution>
+</exercise>
+</example><note id="fs-id1705550" class="try">
+<exercise id="fs-id1548329">
+<problem id="fs-id1313250">
+<para id="fs-id1646752">Use a geoboard to model a line with the given slope: <m:math><m:mrow><m:mi>m</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1602109"><para id="fs-id1171105378653"><newline/>
+<media id="fs-id1604667" alt="The figure shows a grid of evenly spaced dots. There are 5 rows and 5 columns. There is a rubber band style triangle connecting three of the three points at column 2 row 3, column 2 row 4,and column 5 row 3.">
+<image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_11_04_015_img.jpg"/>
+</media></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1664316" class="try">
+<exercise id="fs-id1516248">
+<problem id="fs-id1610242">
+<para id="fs-id539892">Use a geoboard to model a line with the given slope: <m:math><m:mrow><m:mi>m</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>3</m:mn><m:mn>2</m:mn></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1611554"><para id="fs-id1171105087255"><newline/>
+<media id="fs-id1640345" alt="The figure shows a grid of evenly spaced dots. There are 5 rows and 5 columns. There is a rubber band style triangle connecting three of the three points at column 1 row 1, column 1 row 4,and column 3 row 1.">
+<image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_11_04_016_img.jpg"/>
+</media></para>
+</solution>
+</exercise>
+</note>
+<example id="fs-id1680676">
+<exercise id="fs-id1662182"><problem id="fs-id1656003">
+<para id="fs-id1655755">Use a geoboard to model a line with slope <m:math><m:mrow><m:mfrac><m:mrow><m:mn>−1</m:mn></m:mrow><m:mrow><m:mn>4</m:mn></m:mrow></m:mfrac><m:mo>,</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1658528">
+<title>Solution</title>
+
+<table id="eip-id1172466948346" class="unnumbered unstyled" summary="."><label/>
+<tgroup cols="2"><tbody>
+  <row>
+    <entry>Use the slope formula.</entry>
+    <entry><m:math><m:mi>m</m:mi><m:mo>=</m:mo><m:mfrac><m:mtext>rise</m:mtext><m:mtext>run</m:mtext></m:mfrac></m:math></entry>
+  </row>
+  <row>
+    <entry>Replace <m:math><m:mi>m</m:mi></m:math> with <m:math><m:mn>−</m:mn><m:mfrac><m:mn>1</m:mn><m:mn>4</m:mn></m:mfrac></m:math>.</entry>
+
+    <entry><m:math><m:mn>−</m:mn><m:mfrac><m:mn>1</m:mn><m:mn>4</m:mn></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mtext>rise</m:mtext><m:mtext>run</m:mtext></m:mfrac></m:math></entry>
+  </row>
+</tbody>
+
+
+</tgroup>
+</table>
+<para id="fs-id1548969">So, the rise is <m:math><m:mrow><m:mn>−1</m:mn></m:mrow></m:math> and the run is <m:math><m:mrow><m:mn>4</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+<para id="fs-id1371764">Since the rise is negative, we choose a starting peg on the upper left that will give us room to count down. We stretch the rubber band down <m:math><m:mrow><m:mn>1</m:mn></m:mrow></m:math> unit, then to the right <m:math><m:mrow><m:mn>4</m:mn></m:mrow></m:math> units.<newline/>
+<media id="fs-id1649974" alt="The figure shows a grid of evenly spaced dots. There are 5 rows and 5 columns. There is a rubber band style triangle connecting three of the three points at column 1 row 2, column 1 row 3,and column 5 row 3.">
+<image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_11_04_017_img.jpg"/>
+</media></para>
+<para id="fs-id1331389">The hypotenuse of the right triangle formed by the rubber band represents a line whose slope is <m:math><m:mrow><m:mo>−</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>4</m:mn></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></para>
+</solution>
+</exercise></example>
+<note id="fs-id1605394" class="try">
+<exercise id="fs-id1667339">
+<problem id="fs-id1667195">
+<para id="fs-id1454811">Use a geoboard to model a line with the given slope: <m:math><m:mrow><m:mi>m</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>−3</m:mn></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1367048"><para id="fs-id1171105078597"><newline/>
+<media id="fs-id1381605" alt="The figure shows a grid of evenly spaced dots. There are 5 rows and 5 columns. There is a rubber band style triangle connecting three of the three points at column 2 row 3, column 2 row 5,and column 3 row 5.">
+<image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_11_04_018_img.jpg"/>
+</media></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1647213" class="try">
+<exercise id="fs-id1427981">
+<problem id="fs-id1548019">
+<para id="fs-id1528293">Use a geoboard to model a line with the given slope: <m:math><m:mrow><m:mi>m</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>−1</m:mn></m:mrow><m:mrow><m:mn>3</m:mn></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1294374"><para id="fs-id1171105550633"><newline/>
+<media id="fs-id1377343" alt="The figure shows a grid of evenly spaced dots. There are 5 rows and 5 columns. There is a rubber band style triangle connecting three of the three points at column 1 row 1, column 1 row 2,and column 4 row 2.">
+<image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_11_04_019_img.jpg"/>
+</media></para>
+</solution>
+</exercise>
+</note>
+</section>
+<section id="fs-id1656336">
+<title>Find the Slope of a Line from its Graph</title>
+<para id="fs-id1358451">Now we’ll look at some graphs on a <term class="no-emphasis">coordinate grid</term> to find their slopes. The method will be very similar to what we just modeled on our geoboards. </para><note id="eip-458" class="manipulative-math">Doing the Manipulative Mathematics activity "Slope of Lines Between Two Points" will help you develop a better understanding of how to find the slope of a line from its graph.</note><para id="fs-id1558378">To find the slope, we must count out the <term class="no-emphasis">rise</term> and the <term class="no-emphasis">run</term>. But where do we start? </para><para id="eip-757">We locate any two points on the line. We try to choose points with coordinates that are integers to make our calculations easier. We then start with the point on the left and sketch a right triangle, so we can count the rise and run.</para><example id="fs-id1525037">
+<exercise id="fs-id1394081"><problem id="fs-id1553825">
+<para id="fs-id1447838">Find the slope of the line shown:</para>
+<media id="fs-id1677684" alt="The graph shows the x y-coordinate plane. The x-axis runs from -1 to 6. The y-axis runs from -4 to 2. A line passes through the points “ordered pair 5,  1” and “ordered pair 0, -3”.">
+<image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_11_04_020.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1548111">
+<title>Solution</title>
+<para id="fs-id1607924">Locate two points on the graph, choosing points whose coordinates are integers. We will use <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>−3</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math> and <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>5</m:mn><m:mo>,</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo></m:mrow></m:math></para>
+<para id="fs-id1611238">Starting with the point on the left, <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>−3</m:mn><m:mo stretchy="false">)</m:mo><m:mo>,</m:mo></m:mrow></m:math> sketch a right triangle, going from the first point to the second point, <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>5</m:mn><m:mo>,</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo></m:mrow></m:math><newline/>
+</para><table id="eip-id1168466130951" class="unnumbered unstyled" summary="."><label/>
+<tgroup cols="2"><tbody>
+<row>
+<entry/><entry><media id="fs-id1365464" alt="The graph shows the x y-coordinate plane. The x-axis runs from -1 to 6. The y-axis runs from -4 to 2. A line passes through the points “ordered pair 5,  1” and “ordered pair 0, -3”. Two line segments form a triangle with the line. A horizontal line connects “ordered pair 0, 1” and “ordered pair 5,1 ”. A vertical line segment connects “ordered pair 0, -3” and “ordered pair 0, 1”.">
+<image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_11_04_021.jpg"/>
+</media></entry>
+</row>
+<row>
+<entry>Count the rise on the vertical leg of the triangle.</entry>
+<entry>The rise is 4 units.</entry>
+</row>
+ <row>
+ <entry>Count the run on the horizontal leg.</entry>
+ <entry>The run is 5 units.</entry>
+ </row>
+ <row>
+ <entry>Use the slope formula.</entry>
+ <entry><m:math><m:mi>m</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mtext>rise</m:mtext></m:mrow><m:mrow><m:mtext>run</m:mtext></m:mrow></m:mfrac></m:math></entry>
+</row>
+<row>
+<entry>Substitute the values of the rise and run.</entry>
+<entry><m:math><m:mi>m</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>4</m:mn></m:mrow><m:mrow><m:mn>5</m:mn></m:mrow></m:mfrac></m:math></entry>
+</row>
+<row>
+<entry/>
+<entry>The slope of the line is <m:math><m:mfrac><m:mrow><m:mn>4</m:mn></m:mrow><m:mrow><m:mn>5</m:mn></m:mrow></m:mfrac></m:math>.</entry>
+</row>
+</tbody>
+
+
+
+</tgroup>
+</table><para id="fs-id1556953">Notice that the slope is positive since the line slants upward from left to right.</para>
+</solution>
+</exercise></example>
+<note id="fs-id1386320" class="try">
+<exercise id="fs-id1374387"><problem id="fs-id1530073">
+<para id="fs-id1679741">Find the slope of the line:</para>
+<media id="fs-id1679892" alt="The graph shows the x y-coordinate plane. The x-axis runs from -8 to 1. The y-axis runs from -1 to 4. A line passes through the points “ordered pair -8,  1” and “ordered pair 0, 3”.">
+<image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_11_04_022_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1527565">
+<para id="fs-id1381498"><m:math><m:mrow><m:mfrac><m:mn>2</m:mn><m:mn>5</m:mn></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise></note>
+<note id="fs-id1433454" class="try">
+<exercise id="fs-id1451927">
+<problem id="fs-id1402898">
+<para id="fs-id1403294">Find the slope of the line:</para>
+<media id="fs-id1295549" alt="The graph shows the x y-coordinate plane. The x-axis runs from -2 to 6. The y-axis runs from -2 to 4. A line passes through the points “ordered pair 4,  2” and “ordered pair 0, -1”.">
+<image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_11_04_023_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1576894">
+<para id="fs-id1549136"><m:math><m:mrow><m:mfrac><m:mn>3</m:mn><m:mn>4</m:mn></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1610586" class="howto"><title>Find the slope from a graph.</title><list id="eip-id1168469837806" list-type="enumerated" number-style="arabic" class="stepwise"><item> Locate two points on the line whose coordinates are integers.</item>
+<item> Starting with the point on the left, sketch a right triangle, going from the first point to the second point.</item>
+<item> Count the rise and the run on the legs of the triangle.</item>
+<item> Take the ratio of rise to run to find the slope. <m:math><m:mrow><m:mi>m</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mtext>rise</m:mtext></m:mrow><m:mrow><m:mtext>run</m:mtext></m:mrow></m:mfrac></m:mrow></m:math></item></list></note><example id="fs-id1603589">
+<exercise id="fs-id1657452"><problem id="fs-id1603287">
+<para id="fs-id1705940">Find the slope of the line shown:</para>
+<media id="fs-id1614049" alt="The graph shows the x y-coordinate plane. The x-axis runs from -1 to 9. The y-axis runs from -1 to 7. A line passes through the points “ordered pair 4,  2” and “ordered pair 3, 3”.">
+<image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_11_04_024.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1358272">
+<title>Solution</title>
+<para id="fs-id1293318">Locate two points on the graph. Look for points with coordinates that are integers. We can choose any points, but we will use (0, 5) and (3, 3). Starting with the point on the left, sketch a right triangle, going from the first point to the second point.</para><table id="eip-id1168465988432" class="unnumbered unstyled" summary="."><label/>
+<tgroup cols="2"><tbody>
+<row><entry/>
+<entry><media id="fs-id1329203" alt="The graph shows the x y-coordinate plane. The x-axis runs from -1 to 9. The y-axis runs from -1 to 7. A line passes through the points “ordered pair 0,  5” and “ordered pair 3, 3”. Two line segments form a triangle with the line. A horizontal line connects “ordered pair 0, 3” and “ordered pair 3, 3 ”. A vertical line segment connects “ordered pair 0, 3” and “ordered pair 0, 5”. It is labeled “rise”. ">
+<image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_11_04_025.jpg"/>
+</media></entry>
+</row>
+<row>
+<entry>Count the rise – it is negative.</entry>
+<entry>The rise is −2.</entry>
+</row>
+ <row>
+ <entry>Count the run.</entry>
+ <entry>The run is 3.</entry>
+ </row>
+ <row>
+ <entry>Use the slope formula.</entry>
+ <entry><m:math><m:mi>m</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mtext>rise</m:mtext></m:mrow><m:mrow><m:mtext>run</m:mtext></m:mrow></m:mfrac></m:math></entry>
+</row>
+<row>
+<entry>Substitute the values of the rise and run.</entry>
+<entry><m:math><m:mi>m</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>−2</m:mn></m:mrow><m:mrow><m:mn>3</m:mn></m:mrow></m:mfrac></m:math></entry>
+</row>
+<row>
+<entry>Simplify.</entry>
+<entry><m:math><m:mi>m</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mrow><m:mn>2</m:mn></m:mrow><m:mrow><m:mn>3</m:mn></m:mrow></m:mfrac></m:math></entry>
+</row>
+<row>
+<entry/>
+<entry>The slope of the line is <m:math><m:mo>−</m:mo><m:mfrac><m:mrow><m:mn>2</m:mn></m:mrow><m:mrow><m:mn>3</m:mn></m:mrow></m:mfrac><m:mo>.</m:mo></m:math></entry>
+</row>
+</tbody>
+
+
+
+</tgroup>
+</table><para id="fs-id1364932">Notice that the slope is negative since the line slants downward from left to right.</para>
+<para id="fs-id1550091">What if we had chosen different points? Let’s find the slope of the line again, this time using different points. We will use the points <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>−3</m:mn><m:mo>,</m:mo><m:mn>7</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math> and <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>6</m:mn><m:mo>,</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo></m:mrow></m:math><newline/>
+<media id="fs-id1403467" alt="The graph shows the x y-coordinate plane. The x-axis runs from -1 to 9. The y-axis runs from -1 to 7. A line passes through the points “ordered pair 0, 5” and  “ordered pair 3, 3”.  .">
+<image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_11_04_043_img.jpg"/>
+</media></para><para id="fs-id1442834">Starting at <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>−3</m:mn><m:mo>,</m:mo><m:mn>7</m:mn><m:mo stretchy="false">)</m:mo><m:mo>,</m:mo></m:mrow></m:math> sketch a right triangle to <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>6</m:mn><m:mo>,</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo></m:mrow></m:math><newline/>
+</para><table id="eip-id1168469716067" class="unnumbered unstyled" summary="."><label/>
+<tgroup cols="2"><tbody>
+<row>
+<entry/><entry><media id="fs-id1650642" alt="The graph shows the x y-coordinate plane. The x-axis runs from -1 to 9. The y-axis runs from -1 to 7. A line passes through the points “ordered pair 0, 5” and  “ordered pair 3, 3”. Two line segments form a triangle with the line. A vertical line connects “ordered pair 0, 3” and “ordered pair 3, 3 ”.  A vertical line segment connects “ordered pair 0, 3” and “ordered pair 0, 5”.">
+<image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_11_04_044_img.jpg"/>
+</media></entry></row>
+<row>
+<entry>Count the rise.</entry>
+<entry>The rise is −6.</entry>
+</row>
+ <row>
+ <entry>Count the run.</entry>
+ <entry>The run is 9.</entry>
+ </row>
+ <row>
+ <entry>Use the slope formula.</entry>
+ <entry><m:math><m:mi>m</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mtext>rise</m:mtext></m:mrow><m:mrow><m:mtext>run</m:mtext></m:mrow></m:mfrac></m:math></entry>
+</row>
+<row>
+<entry>Substitute the values of the rise and run.</entry>
+<entry><m:math><m:mi>m</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>−6</m:mn></m:mrow><m:mrow><m:mn>9</m:mn></m:mrow></m:mfrac></m:math></entry>
+</row>
+<row>
+<entry>Simplify the fraction.</entry>
+<entry><m:math><m:mi>m</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mrow><m:mn>2</m:mn></m:mrow><m:mrow><m:mn>3</m:mn></m:mrow></m:mfrac></m:math></entry>
+</row>
+<row><entry/><entry>The slope of the line is <m:math><m:mrow><m:mo>−</m:mo><m:mfrac><m:mn>2</m:mn><m:mn>3</m:mn></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></entry></row>
+</tbody>
+
+
+
+</tgroup>
+</table><para id="fs-id1452931">It does not matter which points you use—the slope of the line is always the same. The slope of a line is constant!</para>
+</solution>
+</exercise></example>
+<note id="fs-id1430418" class="try">
+<exercise id="fs-id1341029"><problem id="fs-id1516499">
+<para id="fs-id1613083">Find the slope of the line:</para>
+<media id="fs-id1547750" alt="The graph shows the x y-coordinate plane. The x-axis runs from -1 to 5. The y-axis runs from -6 to 1. A line passes through the points “ordered pair 3,  -6” and “ordered pair 0, -2”.">
+<image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_11_04_026_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1403190">
+<para id="fs-id1318470"><m:math><m:mrow><m:mo>−</m:mo><m:mfrac><m:mn>4</m:mn><m:mn>3</m:mn></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise></note>
+<note id="fs-id1677575" class="try">
+<exercise id="fs-id1312391">
+<problem id="fs-id1678246">
+<para id="fs-id1330309">Find the slope of the line:</para>
+<media id="fs-id1428709" alt="The graph shows the x y-coordinate plane. The x-axis runs from -3 to 6. The y-axis runs from -3 to 2. A line passes through the points “ordered pair 5,  -2” and “ordered pair 0, 1”.">
+<image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_11_04_027_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1317720">
+<para id="fs-id1304577"><m:math><m:mrow><m:mo>−</m:mo><m:mfrac><m:mn>3</m:mn><m:mn>5</m:mn></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<para id="fs-id1681476">The lines in the previous examples had <m:math><m:mrow><m:mi>y</m:mi></m:mrow></m:math>-intercepts with integer values, so it was convenient to use the <term class="no-emphasis"><emphasis effect="italics">y</emphasis>-intercept</term> as one of the points we used to find the slope. In the next example, the <m:math><m:mrow><m:mi>y</m:mi></m:mrow></m:math>-intercept is a fraction. The calculations are easier if we use two points with integer coordinates.</para><example id="fs-id1658656">
+<exercise id="fs-id1659138"><problem id="fs-id1659140">
+<para id="fs-id1658879">Find the slope of the line shown:
+<media id="fs-id1659074" alt="The graph shows the x y-coordinate plane. The x-axis runs from 0 to 7. The y-axis runs from 0 to 8. A line passes through the points “ordered pair 2, 3” and “ordered pair 7, 6”.">
+<image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_11_04_045_img.jpg"/>
+</media></para>
+
+</problem>
+<solution id="fs-id1603768">
+<title>Solution</title>
+<para id="fs-id1663106"><table id="eip-id1170321819050" summary="..." class="unnumbered unstyled"><label/>
+<tgroup cols="2"><tbody>
+<row><entry>Locate two points on the graph whose coordinates are integers.</entry><entry><m:math><m:mo>(</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>3</m:mn><m:mo>)</m:mo></m:math> and <m:math><m:mo>(</m:mo><m:mn>7</m:mn><m:mo>,</m:mo><m:mn>6</m:mn><m:mo>)</m:mo></m:math></entry></row>
+<row>
+<entry>Which point is on the left?</entry>
+<entry><m:math><m:mo>(</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>3</m:mn><m:mo>)</m:mo></m:math></entry></row>
+<row><entry>Starting at <m:math><m:mo>(</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>3</m:mn><m:mo>)</m:mo></m:math>, sketch a right angle to <m:math><m:mo>(</m:mo><m:mn>7</m:mn><m:mo>,</m:mo><m:mn>6</m:mn><m:mo>)</m:mo></m:math> as shown below.</entry><entry/></row>
+</tbody>
+</tgroup>
+</table><newline/>
+</para>
+
+<table id="eip-id1168467128258" class="unnumbered unstyled" summary="."><label/>
+<tgroup cols="2"><tbody>
+<row>
+<entry/><entry><media id="fs-id1662244" alt="The graph shows the x y-coordinate plane. The x-axis runs from 0 to 7. The y-axis runs from 0 to 8. Two unlabeled points are drawn at  “ordered pair 2, 3” and  “ordered pair 7, 6”.  A line passes through the points. Two line segments form a triangle with the line. A vertical line connects “ordered pair 2, 3” and “ordered pair 2, 6 ”.  It is labeled “rise”. A horizontal line segment connects “ordered pair 2, 6” and “ordered pair 7, 6”. It is labeled “run”. ">
+<image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_11_04_046_img.jpg"/>
+</media></entry></row>
+<row>
+<entry>Count the rise.</entry>
+<entry>The rise is 3.</entry>
+</row>
+ <row>
+ <entry>Count the run.</entry>
+ <entry>The run is 5.</entry>
+ </row>
+ <row>
+ <entry>Use the slope formula.</entry>
+ <entry><m:math><m:mi>m</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mtext>rise</m:mtext></m:mrow><m:mrow><m:mtext>run</m:mtext></m:mrow></m:mfrac></m:math></entry>
+</row>
+<row>
+<entry>Substitute the values of the rise and run.</entry>
+<entry><m:math><m:mi>m</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>3</m:mn></m:mrow><m:mrow><m:mn>5</m:mn></m:mrow></m:mfrac></m:math></entry>
+</row>
+<row><entry/><entry>The slope of the line is <m:math><m:mrow><m:mfrac><m:mn>3</m:mn><m:mn>5</m:mn></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></entry></row>
+</tbody>
+
+</tgroup>
+</table></solution>
+</exercise></example>
+<note id="fs-id1658694" class="try">
+<exercise id="fs-id1658697">
+<problem id="fs-id1681418">
+<para id="fs-id1681420">Find the slope of the line:</para>
+<media id="fs-id1681423" alt="The graph shows the x y-coordinate plane. The x-axis runs from -4 to 2. The y-axis runs from -5 to 2. A line passes through the points “ordered pair -3, -4” and “ordered pair 1, 1”.">
+<image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_11_04_047_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1705437">
+<para id="fs-id1705439"><m:math><m:mrow><m:mfrac><m:mn>5</m:mn><m:mn>4</m:mn></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1681901" class="try">
+<exercise id="fs-id1603403">
+<problem id="fs-id1603405">
+<para id="fs-id1603408">Find the slope of the line:</para>
+<media id="fs-id1603411" alt="The graph shows the x y-coordinate plane. The x-axis runs from -1 to 4. The y-axis runs from -2 to 3. A line passes through the points “ordered pair 3, 2” and “ordered pair 1, -1”.">
+<image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_11_04_048_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1705739">
+<para id="fs-id1705741"><m:math><m:mrow><m:mfrac><m:mn>3</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+</section>
+<section id="fs-id1658904"><title>Find the Slope of Horizontal and Vertical Lines</title><para id="fs-id1705236">Do you remember what was special about horizontal and vertical lines? Their equations had just one variable.</para>
+<list id="fs-id1705241" list-type="bulleted" bullet-style="none"><item>horizontal line <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>b</m:mi><m:mo>;</m:mo></m:mrow></m:math> all the <m:math><m:mrow><m:mi>y</m:mi></m:mrow></m:math>-coordinates are the same.</item>
+<item>vertical line <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mi>a</m:mi><m:mo>;</m:mo></m:mrow></m:math> all the <m:math><m:mrow><m:mi>x</m:mi></m:mrow></m:math>-coordinates are the same.</item>
+</list><para id="fs-id1705173">So how do we find the slope of the horizontal line <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>4</m:mn><m:mo>?</m:mo></m:mrow></m:math> One approach would be to graph the horizontal line, find two points on it, and count the rise and the run. Let’s see what happens in <link target-id="CNX_BMath_Figure_11_04_028"/>. We’ll use the two points <m:math><m:mrow><m:mo>(</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mn>4</m:mn><m:mo>)</m:mo></m:mrow></m:math> and <m:math><m:mrow><m:mo>(</m:mo><m:mn>3</m:mn><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mn>4</m:mn><m:mo>)</m:mo></m:mrow></m:math> to count the rise and run.</para><figure id="CNX_BMath_Figure_11_04_028">
+<media id="fs-id1659117" alt="The graph shows the x y-coordinate plane. The x-axis runs from -1 to 5. The y-axis runs from -1 to 7. A horizontal line passes through the labeled points “ordered pair 0, 4” and “ordered pair 3, 4”.">
+<image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_11_04_028.jpg"/>
+</media>
+</figure>
+
+
+<table id="eip-id1168469889849" class="unnumbered unstyled" summary=".">
+<label/><tgroup cols="2">
+<tbody>
+<row>
+<entry>What is the rise?</entry>
+<entry>The rise is 0.</entry>
+</row>
+ <row>
+ <entry>What is the run?</entry>
+ <entry>The run is 3.</entry>
+ </row>
+ <row>
+ <entry>What is the slope?</entry>
+ <entry><m:math><m:mi>m</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mtext>rise</m:mtext></m:mrow><m:mrow><m:mtext>run</m:mtext></m:mrow></m:mfrac></m:math></entry>
+</row>
+<row>
+<entry/>
+<entry><m:math><m:mi>m</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>0</m:mn></m:mrow><m:mrow><m:mn>3</m:mn></m:mrow></m:mfrac></m:math></entry>
+</row>
+<row>
+<entry/>
+<entry><m:math><m:mi>m</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:math></entry>
+</row>
+</tbody>
+</tgroup>
+</table><para id="fs-id1706250">The slope of the horizontal line <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>4</m:mn></m:mrow></m:math> is <m:math><m:mrow><m:mn>0</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+<para id="fs-id1706270">All horizontal lines have slope <m:math><m:mrow><m:mn>0</m:mn></m:mrow></m:math>. When the <m:math><m:mrow><m:mi>y</m:mi></m:mrow></m:math>-coordinates are the same, the rise is <m:math><m:mrow><m:mn>0</m:mn></m:mrow></m:math>.</para><note id="fs-id1705811">
+<title>Slope of a Horizontal Line</title>
+<para id="fs-id1705817">The <term class="no-emphasis">slope</term> of a <term class="no-emphasis">horizontal line</term>, <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>b</m:mi><m:mo>,</m:mo></m:mrow></m:math> is <m:math><m:mrow><m:mn>0</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+</note>
+<para id="fs-id1705848">Now we’ll consider a vertical line, such as the line <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>3</m:mn></m:mrow></m:math>, shown in <link target-id="CNX_BMath_Figure_11_04_029"/>. We’ll use the two points <m:math><m:mrow><m:mo>(</m:mo><m:mn>3</m:mn><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mn>0</m:mn><m:mo>)</m:mo></m:mrow></m:math> and <m:math><m:mrow><m:mo>(</m:mo><m:mn>3</m:mn><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mn>2</m:mn><m:mo>)</m:mo></m:mrow></m:math> to count the rise and run.</para><figure id="CNX_BMath_Figure_11_04_029"><media id="fs-id1706921" alt="The graph shows the x y-coordinate plane. Both axes run from -5 to 5. A vertical line passes through the labeled points “ordered pair 3, 2” and “ordered pair 3, 0”.">
+<image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_11_04_029.jpg"/>
+</media>
+</figure>
+
+<table id="eip-id1168468686751" class="unnumbered unstyled" summary=".">
+<label/><tgroup cols="2">
+<tbody>
+<row>
+<entry>What is the rise?</entry>
+<entry>The rise is 2.</entry>
+</row>
+ <row>
+ <entry>What is the run?</entry>
+ <entry>The run is 0.</entry>
+ </row>
+ <row>
+ <entry>What is the slope?</entry>
+ <entry><m:math><m:mi>m</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mtext>rise</m:mtext></m:mrow><m:mrow><m:mtext>run</m:mtext></m:mrow></m:mfrac></m:math></entry>
+</row>
+<row>
+<entry/>
+<entry><m:math><m:mi>m</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>2</m:mn></m:mrow><m:mrow><m:mn>0</m:mn></m:mrow></m:mfrac></m:math></entry>
+</row>
+</tbody>
+</tgroup>
+</table><para id="fs-id1707009">But we can’t divide by <m:math><m:mrow><m:mn>0</m:mn><m:mo>.</m:mo></m:mrow></m:math> Division by <m:math><m:mrow><m:mn>0</m:mn></m:mrow></m:math> is undefined. So we say that the slope of the vertical line <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>3</m:mn></m:mrow></m:math> is undefined. The slope of all vertical lines is undefined, because the run is <m:math><m:mrow><m:mn>0</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+<note id="fs-id1707041">
+<title>Slope of a Vertical Line</title>
+<para id="fs-id1707047">The <term class="no-emphasis">slope</term> of a <term class="no-emphasis">vertical line</term>, <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mi>a</m:mi><m:mo>,</m:mo></m:mrow></m:math> is undefined.</para>
+</note>
+<example id="fs-id1707389">
+<exercise id="fs-id1707391">
+<problem id="fs-id1707393">
+<para id="fs-id1707395">Find the slope of each line: <list id="eip-id1164751688097" list-type="enumerated" number-style="arabic" class="circled"><item><span class="token">ⓐ</span><m:math><m:mspace width="0.2em"/><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>8</m:mn><m:mspace width="0.2em"/></m:math></item><item><span class="token">ⓑ</span><m:math><m:mspace width="0.2em"/><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−5</m:mn></m:math></item></list></para></problem>
+<solution id="fs-id1707432">
+<title>Solution</title>
+<para id="fs-id1707437"><span class="token">ⓐ</span><m:math><m:mspace width="0.2em"/><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>8</m:mn></m:math></para><para id="fs-id1707452">This is a vertical line, so its slope is undefined.</para>
+<para id="fs-id1707455"><span class="token">ⓑ</span><m:math><m:mspace width="0.2em"/><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−5</m:mn></m:math></para><para id="fs-id1707470">This is a horizontal line, so its slope is <m:math><m:mrow><m:mn>0</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+</solution>
+</exercise>
+</example>
+<note id="fs-id1707483" class="try">
+<exercise id="fs-id1707486">
+<problem id="fs-id1707488">
+<para id="fs-id1707490">Find the slope of the line: <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>−4</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1707506">
+<para id="fs-id1707508">undefined</para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1707514" class="try">
+<exercise id="fs-id1707518">
+<problem id="fs-id1707520">
+<para id="fs-id1707522">Find the slope of the line: <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>7</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1707537">
+<para id="fs-id1707539">0</para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1707546">
+<title>Quick Guide to the Slopes of Lines</title>
+<media id="fs-id1707551" alt="The figure shows 4 arrows. The first rises from left to right with the arrow point upwards. It is labeled “positive”. The second goes down from left to right with the arrow pointing downwards. It is labeled “negative”. The third is horizontal with arrow heads on both ends. It is labeled “zero”. The last is vertical with arrow heads on both ends. It is labeled “undefined.”">
+<image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_11_04_049_img.jpg"/>
+</media>
+</note>
+</section><section id="fs-id1707562"><title>Use the Slope Formula to find the Slope of a Line between Two Points</title><para id="fs-id1707568">Sometimes we need to find the slope of a line between two points and we might not have a graph to count out the rise and the run. We could plot the points on grid paper, then count out the rise and the run, but there is a way to find the slope without graphing.</para>
+<para id="fs-id1707573">Before we get to it, we need to introduce some new algebraic notation. We have seen that an <term class="no-emphasis">ordered pair</term> <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>y</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math> gives the coordinates of a point. But when we work with slopes, we use two points. How can the same symbol <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>y</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math> be used to represent two different points?</para>
+<para id="fs-id1707100">Mathematicians use <term class="no-emphasis">subscripts</term> to distinguish between the points. A subscript is a small number written to the right of, and a little lower than, a variable.</para><list id="fs-id1707109" bullet-style="none">
+<item><m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub><m:mo>,</m:mo><m:msub><m:mi>y</m:mi><m:mn>1</m:mn></m:msub><m:mo stretchy="false">)</m:mo><m:mspace width="0.2em"/><m:mtext>read</m:mtext><m:mspace width="0.2em"/><m:mi>x</m:mi><m:mspace width="0.2em"/><m:mtext>sub</m:mtext><m:mspace width="0.2em"/><m:mn>1</m:mn><m:mo>,</m:mo><m:mi>y</m:mi><m:mspace width="0.2em"/><m:mtext>sub</m:mtext><m:mspace width="0.2em"/><m:mn>1</m:mn></m:mrow></m:math></item>
+<item><m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:msub><m:mi>x</m:mi><m:mn>2</m:mn></m:msub><m:mo>,</m:mo><m:msub><m:mi>y</m:mi><m:mn>2</m:mn></m:msub><m:mo stretchy="false">)</m:mo><m:mspace width="0.2em"/><m:mtext>read</m:mtext><m:mspace width="0.2em"/><m:mi>x</m:mi><m:mspace width="0.2em"/><m:mtext>sub</m:mtext><m:mspace width="0.2em"/><m:mn>2</m:mn><m:mo>,</m:mo><m:mi>y</m:mi><m:mspace width="0.2em"/><m:mtext>sub</m:mtext><m:mspace width="0.2em"/><m:mn>2</m:mn></m:mrow></m:math></item>
+</list>
+<para id="fs-id1707220">We will use <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub><m:mo>,</m:mo><m:msub><m:mi>y</m:mi><m:mn>1</m:mn></m:msub><m:mo stretchy="false">)</m:mo></m:mrow></m:math> to identify the first point and <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:msub><m:mi>x</m:mi><m:mn>2</m:mn></m:msub><m:mo>,</m:mo><m:msub><m:mi>y</m:mi><m:mn>2</m:mn></m:msub><m:mo stretchy="false">)</m:mo></m:mrow></m:math> to identify the second point. If we had more than two points, we could use <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:msub><m:mi>x</m:mi><m:mn>3</m:mn></m:msub><m:mo>,</m:mo><m:msub><m:mi>y</m:mi><m:mn>3</m:mn></m:msub><m:mo stretchy="false">)</m:mo><m:mo>,</m:mo><m:mo stretchy="false">(</m:mo><m:msub><m:mi>x</m:mi><m:mn>4</m:mn></m:msub><m:mo>,</m:mo><m:msub><m:mi>y</m:mi><m:mn>4</m:mn></m:msub><m:mo stretchy="false">)</m:mo><m:mo>,</m:mo></m:mrow></m:math> and so on.</para>
+<para id="fs-id1707314">To see how the rise and run relate to the coordinates of the two points, let’s take another look at the slope of the line between the points <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math> and <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>7</m:mn><m:mo>,</m:mo><m:mn>6</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math> in <link target-id="CNX_BMath_Figure_11_04_030"/>.</para>
+<figure id="CNX_BMath_Figure_11_04_030"><media id="fs-id1707646" alt="The graph shows the x y-coordinate plane. The x-axis runs from 0 to 7. The y-axis runs from 0 to 7. A line runs through the labeled points 2, 3 and 7, 6. A line segment runs from the point 2, 3 to the unlabeled point 2, 6. It is labeled y sub 2 minus y sub 1, 6 minus 3, 3. A line segment runs from the point 7, 6 to the unlabeled point 2, 6.  It os labeled x sub 2 minus x sub 1, 7 minus 2, 5. ">
+<image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_11_04_030.jpg"/>
+</media>
+</figure><para id="fs-id1707656">Since we have two points, we will use subscript notation.</para>
+<equation id="fs-id1171105492974" class="unnumbered"><label/><m:math><m:mrow><m:mover><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub><m:mo>,</m:mo><m:msub><m:mi>y</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mover><m:mspace width="1.0em"/><m:mover><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>7</m:mn><m:mo>,</m:mo><m:mn>6</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:msub><m:mi>x</m:mi><m:mn>2</m:mn></m:msub><m:mo>,</m:mo><m:msub><m:mi>y</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:mover></m:mrow></m:math></equation><para id="fs-id1707721">On the graph, we counted the rise of <m:math><m:mrow><m:mn>3</m:mn><m:mo>.</m:mo></m:mrow></m:math> The rise can also be found by subtracting the <m:math><m:mrow><m:mi>y</m:mi><m:mtext>-coordinates</m:mtext></m:mrow></m:math> of the points.</para>
+<equation id="fs-id1171103687315" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd><m:msub><m:mi>y</m:mi><m:mn>2</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>y</m:mi><m:mn>1</m:mn></m:msub></m:mtd></m:mtr><m:mtr><m:mtd><m:mn>6</m:mn><m:mo>−</m:mo><m:mn>3</m:mn></m:mtd></m:mtr><m:mtr><m:mtd><m:mn>3</m:mn></m:mtd></m:mtr></m:mtable></m:math></equation>
+<para id="fs-id1707772">We counted a run of <m:math><m:mrow><m:mn>5</m:mn><m:mo>.</m:mo></m:mrow></m:math> The run can also be found by subtracting the <m:math><m:mrow><m:mi>x</m:mi><m:mtext>-coordinates</m:mtext><m:mo>.</m:mo></m:mrow></m:math></para>
+<equation id="fs-id1171098882915" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd><m:msub><m:mi>x</m:mi><m:mn>2</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub></m:mtd></m:mtr><m:mtr><m:mtd><m:mn>7</m:mn><m:mo>−</m:mo><m:mn>2</m:mn></m:mtd></m:mtr><m:mtr><m:mtd><m:mn>5</m:mn></m:mtd></m:mtr></m:mtable></m:math></equation>
+
+<table id="eip-id1168468520883" class="unnumbered unstyled" summary="."><label/>
+<tgroup cols="2"><tbody>
+<row>
+<entry>We know</entry>
+<entry><m:math><m:mi>m</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mtext>rise</m:mtext></m:mrow><m:mrow><m:mtext>run</m:mtext></m:mrow></m:mfrac></m:math></entry>
+</row>
+<row>
+<entry>So</entry>
+<entry><m:math><m:mi>m</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>3</m:mn></m:mrow><m:mrow><m:mn>5</m:mn></m:mrow></m:mfrac></m:math></entry>
+</row>
+ <row>
+ <entry>We rewrite the rise and run by putting in the coordinates.</entry>
+ <entry><m:math><m:mi>m</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>6</m:mn><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow><m:mrow><m:mn>7</m:mn><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow></m:mfrac></m:math></entry>
+ </row>
+ <row>
+ <entry>But 6 is the <m:math><m:mi>y</m:mi></m:math>-coordinate of the second point, <m:math><m:msub><m:mi>y</m:mi><m:mn>2</m:mn></m:msub></m:math><newline/> and 3 is the <m:math><m:mi>y</m:mi></m:math>-coordinate of the first point <m:math><m:msub><m:mi>y</m:mi><m:mn>1</m:mn></m:msub></m:math>.<newline/> So we can rewrite the rise using subscript notation.</entry>
+ <entry><m:math><m:mi>m</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>y</m:mi><m:mn>2</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>y</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mrow><m:mn>7</m:mn><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow></m:mfrac></m:math></entry>
+</row>
+<row>
+<entry>Also 7 is the <m:math><m:mi>x</m:mi></m:math>-coordinate of the second point, <m:math><m:msub><m:mi>x</m:mi><m:mn>2</m:mn></m:msub></m:math><newline/> and 2 is the <m:math><m:mi>x</m:mi></m:math>-coordinate of the first point <m:math><m:msub><m:mi>x</m:mi><m:mn>2</m:mn></m:msub></m:math>.<newline/> So we rewrite the run using subscript notation.</entry>
+<entry><m:math><m:mi>m</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>y</m:mi><m:mn>2</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>y</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>x</m:mi><m:mn>2</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mfrac></m:math></entry>
+</row>
+</tbody>
+
+
+
+</tgroup>
+</table><para id="fs-id1708140">We’ve shown that <m:math><m:mrow><m:mi>m</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>y</m:mi><m:mn>2</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>y</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>x</m:mi><m:mn>2</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mfrac></m:mrow></m:math> is really another version of <m:math><m:mrow><m:mi>m</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mtext>rise</m:mtext></m:mrow><m:mrow><m:mtext>run</m:mtext></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math> We can use this formula to find the slope of a line when we have two points on the line.</para>
+<note id="fs-id1708198">
+<title>Slope Formula</title>
+<para id="fs-id1708203">The <term class="no-emphasis">slope</term> of the line between two points <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub><m:mo>,</m:mo><m:msub><m:mi>y</m:mi><m:mn>1</m:mn></m:msub><m:mo stretchy="false">)</m:mo></m:mrow></m:math> and <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:msub><m:mi>x</m:mi><m:mn>2</m:mn></m:msub><m:mo>,</m:mo><m:msub><m:mi>y</m:mi><m:mn>2</m:mn></m:msub><m:mo stretchy="false">)</m:mo></m:mrow></m:math> is</para>
+<equation id="fs-id1171105223437" class="unnumbered"><label/><m:math><m:mrow><m:mi>m</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>y</m:mi><m:mn>2</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>y</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>x</m:mi><m:mn>2</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mfrac></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1708573">Say the formula to yourself to help you remember it:</para>
+<equation id="fs-id1171098363047" class="unnumbered"><label/><m:math><m:mtext>Slope is</m:mtext><m:mspace width="0.2em"/><m:mi>y</m:mi><m:mspace width="0.2em"/><m:mtext>of the second point minus</m:mtext><m:mspace width="0.2em"/><m:mi>y</m:mi><m:mspace width="0.2em"/><m:mtext>of the first point</m:mtext></m:math></equation>
+<equation id="fs-id1171105179892" class="unnumbered"><label/><m:math><m:mtext>over</m:mtext></m:math></equation>
+<equation id="fs-id1171103469439" class="unnumbered"><label/><m:math><m:mi>x</m:mi><m:mspace width="0.2em"/><m:mtext>of the second point minus</m:mtext><m:mspace width="0.2em"/><m:mi>x</m:mi><m:mspace width="0.2em"/><m:mtext>of the first point.</m:mtext></m:math></equation>
+<para id="fs-id1167905603606"><note id="eip-id1169891551338" class="manipulative-math">Doing the Manipulative Mathematics activity  “Slope of Lines Between Two Points” will help you develop a better understanding of how to find the slope of a line between two points.</note></para><example id="fs-id1708602">
+<exercise id="fs-id1708605"><problem id="fs-id1708607">
+<para id="fs-id1708609">Find the slope of the line between the points <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> and <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>4</m:mn><m:mo>,</m:mo><m:mn>5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1708646">
+<title>Solution</title>
+
+<table id="eip-id1168468461864" class="unnumbered unstyled" summary="."><label/>
+<tgroup cols="2"><tbody>
+<row>
+<entry>We’ll call <m:math><m:mo>(</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>2</m:mn><m:mo>)</m:mo></m:math> point #1 and <m:math><m:mo>(</m:mo><m:mn>4</m:mn><m:mo>,</m:mo><m:mn>5</m:mn><m:mo>)</m:mo></m:math>point #2.</entry>
+<entry><m:math><m:mover><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub><m:mo>,</m:mo><m:msub><m:mi>y</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mover><m:mspace width="0.2em"/><m:mtext>and</m:mtext><m:mspace width="0.2em"/><m:mover><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>4</m:mn><m:mo>,</m:mo><m:mn>5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:msub><m:mi>x</m:mi><m:mn>2</m:mn></m:msub><m:mo>,</m:mo><m:msub><m:mi>y</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:mover></m:math></entry>
+</row>
+<row>
+<entry>Use the slope formula.</entry>
+<entry><m:math><m:mi>m</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>y</m:mi><m:mn>2</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>y</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>x</m:mi><m:mn>2</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mfrac></m:math></entry>
+</row>
+ <row>
+ <entry>Substitute the values in the slope formula:</entry>
+ <entry/>
+ </row>
+ <row>
+ <entry><m:math><m:mi>y</m:mi><m:mspace width="0.2em"/></m:math> of the second point minus <m:math><m:mspace width="0.2em"/><m:mi>y</m:mi><m:mspace width="0.2em"/></m:math> of the first point</entry>
+ <entry><m:math><m:mi>m</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>5</m:mn><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow><m:mrow><m:msub><m:mi>x</m:mi><m:mn>2</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mfrac></m:math></entry>
+ </row>
+ <row>
+ <entry><m:math><m:mi>x</m:mi><m:mspace width="0.2em"/></m:math> of the second point minus <m:math><m:mspace width="0.2em"/><m:mi>x</m:mi><m:mspace width="0.2em"/></m:math> of the first point</entry>
+ <entry><m:math><m:mi>m</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>5</m:mn><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow><m:mrow><m:mn>4</m:mn><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:mfrac></m:math></entry>
+ </row>
+ <row>
+ <entry>Simplify the numerator and the denominator.</entry>
+ <entry><m:math><m:mi>m</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>3</m:mn></m:mrow><m:mrow><m:mn>3</m:mn></m:mrow></m:mfrac></m:math></entry>
+ </row>
+ <row>
+ <entry/>
+ <entry><m:math><m:mi>m</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:math></entry>
+ </row>
+</tbody>
+
+
+</tgroup>
+</table>
+
+<para id="fs-id1709005">Let’s confirm this by counting out the slope on the graph.<newline/>
+<media id="fs-id1709010" alt="The graph shows the x y-coordinate plane. The x-axis runs from -1 to 7. The y-axis runs from -1 to 7. Two labeled points are drawn at  “ordered pair 1, 2” and  “ordered pair 4, 5”.  A line passes through the points. Two line segments form a triangle with the line. A vertical line connects “ordered pair 1, 2” and “ordered pair 1, 5 ”.  It is labeled “rise”. A horizontal line segment connects “ordered pair 1, 5” and “ordered pair 4, 5”. It is labeled “run”. ">
+<image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_11_04_031.jpg"/>
+</media></para><para id="fs-id1709021">The rise is <m:math><m:mrow><m:mn>3</m:mn></m:mrow></m:math> and the run is <m:math><m:mrow><m:mn>3</m:mn><m:mo>,</m:mo></m:mrow></m:math> so</para>
+<para id="fs-id1171103712123"><m:math><m:mtable><m:mtr/><m:mtr><m:mtd columnalign="left"><m:mi>m</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mtext>rise</m:mtext></m:mrow><m:mrow><m:mtext>run</m:mtext></m:mrow></m:mfrac></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mi>m</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>3</m:mn><m:mn>3</m:mn></m:mfrac></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mi>m</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mtd></m:mtr></m:mtable></m:math></para>
+</solution>
+</exercise></example>
+<note id="fs-id1709455" class="try">
+<exercise id="fs-id1709459">
+<problem id="fs-id1709462">
+<para id="fs-id1709464">Find the slope of the line through the given points: <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>8</m:mn><m:mo>,</m:mo><m:mn>5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> and <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>6</m:mn><m:mo>,</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1709501">
+<para id="fs-id1709503">1</para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1709510" class="try">
+<exercise id="fs-id1709514">
+<problem id="fs-id1709516">
+<para id="fs-id1709518">Find the slope of the line through the given points: <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> and <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>5</m:mn><m:mo>,</m:mo><m:mn>9</m:mn></m:mrow><m:mo>)</m:mo><m:mtext>.</m:mtext></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1709553">
+<para id="fs-id1709555">1</para>
+</solution>
+</exercise>
+</note>
+<para id="eip-11">How do we know which point to call #1 and which to call #2? Let’s find the slope again, this time switching the names of the points to see what happens. Since we will now be counting the run from right to left, it will be negative.</para><table id="eip-id1168465988183" class="unnumbered unstyled" summary="."><label/>
+<tgroup cols="2"><tbody>
+<row>
+<entry>We’ll call <m:math><m:mo>(</m:mo><m:mn>4</m:mn><m:mo>,</m:mo><m:mn>5</m:mn><m:mo>)</m:mo></m:math> point #1 and <m:math><m:mo>(</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>2</m:mn><m:mo>)</m:mo></m:math> point #2.</entry>
+<entry><m:math><m:mover><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>4</m:mn><m:mo>,</m:mo><m:mn>5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub><m:mo>,</m:mo><m:msub><m:mi>y</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mover><m:mspace width="0.2em"/><m:mtext>and</m:mtext><m:mspace width="0.2em"/><m:mover><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:msub><m:mi>x</m:mi><m:mn>2</m:mn></m:msub><m:mo>,</m:mo><m:msub><m:mi>y</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:mover></m:math></entry>
+</row>
+<row>
+<entry>Use the slope formula.</entry>
+<entry><m:math><m:mi>m</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>y</m:mi><m:mn>2</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>y</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>x</m:mi><m:mn>2</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mfrac></m:math></entry>
+</row>
+ <row>
+ <entry>Substitute the values in the slope formula:</entry>
+ <entry/>
+ </row>
+ <row>
+ <entry><m:math><m:mi>y</m:mi><m:mspace width="0.2em"/></m:math> of the second point minus <m:math><m:mspace width="0.2em"/><m:mi>y</m:mi><m:mspace width="0.2em"/></m:math> of the first point</entry>
+ <entry><m:math><m:mi>m</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>2</m:mn><m:mo>−</m:mo><m:mn>5</m:mn></m:mrow><m:mrow><m:msub><m:mi>x</m:mi><m:mn>2</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mfrac></m:math></entry>
+ </row>
+ <row>
+ <entry><m:math><m:mi>x</m:mi><m:mspace width="0.2em"/></m:math> of the second point minus <m:math><m:mspace width="0.2em"/><m:mi>x</m:mi><m:mspace width="0.2em"/></m:math> of the first point</entry>
+ <entry><m:math><m:mi>m</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>2</m:mn><m:mo>−</m:mo><m:mn>5</m:mn></m:mrow><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:mn>4</m:mn></m:mrow></m:mfrac></m:math></entry>
+ </row>
+ <row>
+ <entry>Simplify the numerator and the denominator.</entry>
+ <entry><m:math><m:mi>m</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>−3</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:mfrac></m:math></entry>
+ </row>
+ <row>
+ <entry/>
+ <entry><m:math><m:mi>m</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:math></entry>
+ </row>
+</tbody>
+
+</tgroup>
+</table><para id="eip-635">The slope is the same no matter which order we use the points.</para><example id="fs-id1709562">
+<exercise id="fs-id1709564"><problem id="fs-id1709566">
+<para id="fs-id1709568">Find the slope of the line through the points <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−2</m:mn><m:mo>,</m:mo><m:mn>−3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> and <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−7</m:mn><m:mo>,</m:mo><m:mn>4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1709605">
+<title>Solution</title>
+
+<table id="eip-id1168469701671" class="unnumbered unstyled" summary="."><label/>
+<tgroup cols="2"><tbody>
+<row>
+<entry>We’ll call <m:math><m:mo>(</m:mo><m:mn>−2</m:mn><m:mo>,</m:mo><m:mn>−3</m:mn><m:mo>)</m:mo></m:math> point #1 and <m:math><m:mo>(</m:mo><m:mn>−7</m:mn><m:mo>,</m:mo><m:mn>4</m:mn><m:mo>)</m:mo></m:math> point #2.</entry>
+<entry><m:math><m:mover><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−2</m:mn><m:mo>,</m:mo><m:mn>−3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub><m:mo>,</m:mo><m:msub><m:mi>y</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mover><m:mspace width="0.2em"/><m:mtext>and</m:mtext><m:mspace width="0.2em"/><m:mover><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−7</m:mn><m:mo>,</m:mo><m:mn>4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:msub><m:mi>x</m:mi><m:mn>2</m:mn></m:msub><m:mo>,</m:mo><m:msub><m:mi>y</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:mover></m:math></entry>
+</row>
+<row>
+<entry>Use the slope formula.</entry>
+<entry><m:math><m:mi>m</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>y</m:mi><m:mn>2</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>y</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>x</m:mi><m:mn>2</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mfrac></m:math></entry>
+</row>
+ <row>
+ <entry>Substitute the values</entry>
+ <entry/>
+ </row>
+ <row>
+ <entry><m:math><m:mi>y</m:mi><m:mspace width="0.2em"/></m:math> of the second point minus <m:math><m:mspace width="0.2em"/><m:mi>y</m:mi><m:mspace width="0.2em"/></m:math> of the first point</entry>
+ <entry><m:math><m:mi>m</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>4</m:mn><m:mo>−</m:mo><m:mo>(</m:mo><m:mn>−3</m:mn><m:mo>)</m:mo></m:mrow><m:mrow><m:msub><m:mi>x</m:mi><m:mn>2</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mfrac></m:math></entry>
+ </row>
+ <row>
+ <entry><m:math><m:mi>x</m:mi><m:mspace width="0.2em"/></m:math> of the second point minus <m:math><m:mspace width="0.2em"/><m:mi>x</m:mi><m:mspace width="0.2em"/></m:math> of the first point</entry>
+ <entry><m:math><m:mi>m</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>4</m:mn><m:mo>−</m:mo><m:mo>(</m:mo><m:mn>−3</m:mn><m:mo>)</m:mo></m:mrow><m:mrow><m:mn>−7</m:mn><m:mo>−</m:mo><m:mo>(</m:mo><m:mn>−2</m:mn><m:mo>)</m:mo></m:mrow></m:mfrac></m:math></entry>
+ </row>
+ <row>
+ <entry>Simplify.</entry>
+ <entry><m:math><m:mi>m</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>7</m:mn></m:mrow><m:mrow><m:mn>−5</m:mn></m:mrow></m:mfrac></m:math></entry>
+ </row>
+ <row>
+ <entry/>
+ <entry><m:math><m:mi>m</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mrow><m:mn>7</m:mn></m:mrow><m:mrow><m:mn>5</m:mn></m:mrow></m:mfrac></m:math></entry>
+ </row>
+</tbody>
+
+</tgroup>
+</table>
+<para id="fs-id1711768">Let’s confirm this on the graph shown.<newline/>
+<media id="fs-id1711772" alt="The graph shows the x y-coordinate plane. The x-axis runs from -8 to 2. The y-axis runs from -6 to 5. Two unlabeled points are drawn at  “ordered pair -7, 4” and  “ordered pair -2, -3”.  A line passes through the points. Two line segments form a triangle with the line. A vertical line connects “ordered pair -7, 4” and “ordered pair -7, -3 ”.  It is labeled “rise”. A horizontal line segment connects “ordered pair -7, -3” and “ordered pair -2, -3”. It is labeled “run”. ">
+<image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_11_04_032.jpg"/>
+</media></para><para id="fs-id1171105544656"><m:math><m:mtable><m:mtr/><m:mtr/><m:mtr/><m:mtr><m:mtd><m:mspace width="0.1em"/><m:mi>m</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mtext>rise</m:mtext></m:mrow><m:mrow><m:mtext>run</m:mtext></m:mrow></m:mfrac></m:mtd></m:mtr><m:mtr><m:mtd><m:mi>m</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>−7</m:mn></m:mrow><m:mn>5</m:mn></m:mfrac></m:mtd></m:mtr><m:mtr><m:mtd><m:mspace width="0.3em"/><m:mi>m</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mn>7</m:mn><m:mn>5</m:mn></m:mfrac></m:mtd></m:mtr></m:mtable></m:math></para>
+</solution>
+</exercise></example>
+<note id="fs-id1711832" class="try">
+<exercise id="fs-id1711836">
+<problem id="fs-id1711838">
+<para id="fs-id1711840">Find the slope of the line through the pair of points: <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−3</m:mn><m:mo>,</m:mo><m:mn>4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> and <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>−1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1711877">
+<para id="fs-id1711880">−1</para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1711886" class="try">
+<exercise id="fs-id1711890">
+<problem id="fs-id1711892">
+<para id="fs-id1711894">Find the slope of the line through the pair of points: <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−2</m:mn><m:mo>,</m:mo><m:mn>6</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> and <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−3</m:mn><m:mo>,</m:mo><m:mn>−4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1711932">
+<para id="fs-id1711934">10</para>
+</solution>
+</exercise>
+</note>
+</section><section id="fs-id1711941">
+<title>Graph a Line Given a Point and the Slope</title>
+<para id="fs-id1711947">In this chapter, we graphed lines by plotting points, by using intercepts, and by recognizing horizontal and vertical lines.</para>
+<para id="fs-id1711951">Another method we can use to graph lines is the <term class="no-emphasis">point-slope method</term>. Sometimes, we will be given one point and the slope of the line, instead of its equation. When this happens, we use the definition of slope to draw the graph of the line.</para>
+<example id="fs-id1711961">
+<exercise id="fs-id1711963">
+<problem id="fs-id1711965">
+<para id="fs-id1711967">Graph the line passing through the point <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>−1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> whose slope is <m:math><m:mrow><m:mi>m</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>3</m:mn><m:mn>4</m:mn></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1712002">
+<title>Solution</title>
+<para id="fs-id1712007">Plot the given point, <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>−1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math><newline/>
+<media id="fs-id1712027" alt="The graph shows the x y-coordinate plane. The x-axis runs from -1 to 7. The y-axis runs from -3 to 4. A labeled point is drawn at “ordered pair 1, -1”.">
+<image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_11_04_050_img.jpg"/>
+</media></para>
+<para id="fs-id1712039">Use the slope formula <m:math><m:mi>m</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mtext>rise</m:mtext></m:mrow><m:mrow><m:mtext>run</m:mtext></m:mrow></m:mfrac></m:math> to identify the rise and the run.</para>
+<equation id="fs-id1167905996960" class="unnumbered"><label/><m:math><m:mrow><m:mtable><m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="left"><m:mspace width="0.8em"/><m:mi>m</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>3</m:mn><m:mn>4</m:mn></m:mfrac></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mfrac><m:mrow><m:mtext>rise</m:mtext></m:mrow><m:mrow><m:mtext>run</m:mtext></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mn>3</m:mn><m:mn>4</m:mn></m:mfrac></m:mtd></m:mtr><m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="left"><m:mspace width="0.2em"/><m:mtext>rise</m:mtext><m:mo>=</m:mo><m:mn>3</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mspace width="0.33em"/><m:mtext>run</m:mtext><m:mo>=</m:mo><m:mn>4</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:math></equation>
+<para id="fs-id1712138">Starting at the point we plotted, count out the rise and run to mark the second point. We count <m:math><m:mrow><m:mn>3</m:mn></m:mrow></m:math> units up and <m:math><m:mrow><m:mn>4</m:mn></m:mrow></m:math> units right.<newline/>
+<media id="fs-id1712153" alt="The graph shows the x y-coordinate plane. Both axes run from -5 to 5. Two line segments are drawn. A vertical line segment connects the points “ordered pair 1, -1” and “order pair “1, 2”. It is labeled “3”. A horizontal line segment starts at the top of the vertical line segment and goes to the right, connecting the points “ordered pair 1, 2” and “ordered pair 5, 2”. It is labeled “4”.">
+<image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_11_04_051_img.jpg"/>
+</media></para><para id="fs-id1712165">Then we connect the points with a line and draw arrows at the ends to show it continues.<newline/>
+<media id="fs-id1712169" alt="The graph shows the x y-coordinate plane. The x-axis runs from -3 to 5. The y-axis runs from -1 to 7. Two unlabeled points are drawn at  “ordered pair 1, -1” and  “ordered pair 5, 2”.  A line passes through the points. Two line segments form a triangle with the line. A vertical line connects “ordered pair 1, -1” and “ordered pair 1, 2 ”.  A horizontal line segment connects “ordered pair 1, 2” and “ordered pair 5, 2”.">
+<image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_11_04_033.jpg"/>
+</media></para><para id="fs-id1712181">We can check our line by starting at any point and counting up <m:math><m:mrow><m:mn>3</m:mn></m:mrow></m:math> and to the right <m:math><m:mrow><m:mn>4</m:mn><m:mo>.</m:mo></m:mrow></m:math> We should get to another point on the line.</para>
+</solution>
+</exercise>
+</example>
+<note id="fs-id1712200" class="try">
+<exercise id="fs-id1712204">
+<problem id="fs-id1712206">
+<para id="fs-id1712208">Graph the line passing through the point with the given slope:</para>
+<para id="fs-id1712212"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>−2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mi>m</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>4</m:mn><m:mn>3</m:mn></m:mfrac></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1712242"><para id="fs-id1171105186726"><newline/>
+<media id="fs-id1712244" alt="The graph shows the x y-coordinate plane. The x-axis runs from -12 to 12. The y-axis runs from -12 to 12. A line passes through the points “ordered pair -2, 3” and “ordered pair 8, 6”.">
+<image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_11_04_034_img.jpg"/>
+</media></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1712259" class="try">
+<exercise id="fs-id1712263">
+<problem id="fs-id1712265">
+<para id="fs-id1712267">Graph the line passing through the point with the given slope:</para>
+<para id="fs-id1712270"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−2</m:mn><m:mo>,</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mi>m</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>4</m:mn></m:mfrac></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1712300"><para id="fs-id1171105070052"><newline/>
+<media id="fs-id1712302" alt="The graph shows the x y-coordinate plane. The x-axis runs from -12 to 12. The y-axis runs from -12 to 12. A line passes through the points “ordered pair -2, 3” and “ordered pair 2, 4”.">
+<image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_11_04_035_img.jpg"/>
+</media></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1712317" class="howto"><title>Graph a line given a point and a slope.</title><list id="eip-id1168468510671" list-type="enumerated" number-style="arabic" class="stepwise"><item> Plot the given point.</item>
+<item> Use the slope formula to identify the rise and the run.</item>
+<item> Starting at the given point, count out the rise and run to mark the second point.</item>
+<item> Connect the points with a line.</item></list></note><example id="fs-id1712340">
+<exercise id="fs-id1712343">
+<problem id="fs-id1712345">
+<para id="fs-id1712347">Graph the line with <m:math><m:mrow><m:mi>y</m:mi></m:mrow></m:math>-intercept <m:math><m:mrow><m:mo>(</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>2</m:mn><m:mo>)</m:mo></m:mrow></m:math> and slope <m:math><m:mrow><m:mi>m</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mn>2</m:mn><m:mn>3</m:mn></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></para></problem>
+<solution id="fs-id1712388">
+<title>Solution</title>
+<para id="fs-id1712394">Plot the given point, the <m:math><m:mrow><m:mi>y</m:mi></m:mrow></m:math>-intercept <m:math><m:mrow><m:mo>(</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>2</m:mn><m:mo>)</m:mo><m:mo>.</m:mo></m:mrow></m:math><newline/>
+<media id="fs-id1712420" alt="The graph shows the x y-coordinate plane. The x-axis runs from -1 to 4. The y-axis runs from -1 to 3. The point “ordered pair 0, 2” is labeled.">
+<image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_11_04_052_img.jpg"/>
+</media></para><para id="fs-id1712432">Use the slope formula <m:math><m:mi>m</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mtext>rise</m:mtext></m:mrow><m:mrow><m:mtext>run</m:mtext></m:mrow></m:mfrac></m:math> to identify the rise and the run.</para>
+<equation id="fs-id1167905627008" class="unnumbered"><label/><m:math><m:mrow><m:mtable><m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="left"><m:mspace width="0.8em"/><m:mi>m</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mn>2</m:mn><m:mn>3</m:mn></m:mfrac></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mfrac><m:mrow><m:mtext>rise</m:mtext></m:mrow><m:mrow><m:mtext>run</m:mtext></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>−2</m:mn></m:mrow><m:mrow><m:mn>3</m:mn></m:mrow></m:mfrac></m:mtd></m:mtr><m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="left"><m:mspace width="0.2em"/><m:mtext>rise</m:mtext><m:mo>=</m:mo><m:mn>–2</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mspace width="0.3em"/><m:mtext>run</m:mtext><m:mo>=</m:mo><m:mn>3</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:math></equation>
+<para id="fs-id1712535">Starting at <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo><m:mo>,</m:mo></m:mrow></m:math> count the rise and the run and mark the second point.<newline/>
+<media id="fs-id1712559" alt="The graph shows the x y-coordinate plane. Both axes run from -5 to 5. A vertical line segment connects points at “ordered pair 0, 2” and “ordered pair 0, 0” and is labeled “down 2”. A horizontal line segment connects “ordered pair 0, 0” and “ordered pair 0, 3” and is labeled “right 3”.">
+<image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_11_04_053_img.jpg"/>
+</media></para><para id="fs-id1712570">Connect the points with a line.<newline/>
+<media id="fs-id1712574" alt="The graph shows the x y-coordinate plane. Both axes run from -5 to 5. Two labeled points are drawn at  “ordered pair 0, 2” and  “ordered pair 3, 0”.  A line passes through the points. Two line segments form a triangle with the line. A vertical line connects “ordered pair 0, 2” and “ordered pair 0, 0 ”.  A horizontal line segment connects “ordered pair 0, 0” and “ordered pair 3, 0”. ">
+<image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_11_04_036.jpg"/>
+</media></para></solution>
+</exercise>
+</example>
+<note id="fs-id1712589" class="try">
+<exercise id="fs-id1712593">
+<problem id="fs-id1712595">
+<para id="fs-id1712597">Graph the line with the given intercept and slope:</para>
+<para id="fs-id1712600"><m:math><m:mrow><m:mi>y</m:mi></m:mrow></m:math>-intercept <m:math><m:mrow><m:mn>4</m:mn><m:mo>,</m:mo><m:mi>m</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mn>5</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow></m:math></para></problem>
+<solution id="fs-id1712629"><para id="fs-id1171105170360"><newline/>
+<media id="fs-id1712631" alt="The graph shows the x y-coordinate plane. The x-axis runs from -12 to 12. The y-axis runs from -12 to 12. A line passes through the points “ordered pair 0, 4” and “ordered pair 4, -6”.">
+<image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_11_04_037_img.jpg"/>
+</media></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1712646" class="try">
+<exercise id="fs-id1712650">
+<problem id="fs-id1712653">
+<para id="fs-id1712655">Graph the line with the given intercept and slope:</para>
+<para id="fs-id1712658"><m:math><m:mrow><m:mi>x</m:mi></m:mrow></m:math>-intercept <m:math><m:mrow><m:mn>−3</m:mn><m:mo>,</m:mo><m:mi>m</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mn>3</m:mn><m:mn>4</m:mn></m:mfrac></m:mrow></m:math></para></problem>
+<solution id="fs-id1712687"><para id="fs-id1171105220632"><newline/>
+<media id="fs-id1712689" alt="The graph shows the x y-coordinate plane. The x-axis runs from -12 to 12. The y-axis runs from -12 to 12. A line passes through the points “ordered pair -3, 0” and “ordered pair 8, -8”.">
+<image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_11_04_038_img.jpg"/>
+</media></para>
+</solution>
+</exercise>
+</note>
+<example id="fs-id1712704">
+<exercise id="fs-id1712706"><problem id="fs-id1718314">
+<para id="fs-id1718316">Graph the line passing through the point <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>−1</m:mn><m:mo>,</m:mo><m:mn>−3</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math> whose slope is <m:math><m:mrow><m:mi>m</m:mi><m:mo>=</m:mo><m:mn>4</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1718350">
+<title>Solution</title>
+<para id="fs-id1718355">Plot the given point.<newline/>
+<media id="fs-id1718358" alt="The graph shows the x y-coordinate plane. Both axes run from -5 to 5. The point “ordered pair -1, -3” is labeled.">
+<image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_11_04_054_img.jpg"/>
+</media></para>
+
+<table id="eip-id1168469472029" class="unnumbered unstyled" summary=".">
+<label/><tgroup cols="2">
+<tbody>
+ <row>
+   <entry>Identify the rise and the run.</entry>
+   <entry><m:math><m:mi>m</m:mi><m:mo>=</m:mo><m:mn>4</m:mn></m:math></entry>
+ </row>
+ <row>
+   <entry>Write 4 as a fraction.</entry>
+   <entry><m:math><m:mfrac><m:mrow><m:mtext>rise</m:mtext></m:mrow><m:mrow><m:mtext>run</m:mtext></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>4</m:mn></m:mrow><m:mrow><m:mn>1</m:mn></m:mrow></m:mfrac></m:math></entry>
+ </row>
+ <row> 
+   <entry/>
+   <entry><m:math><m:mtext>rise</m:mtext><m:mo>=</m:mo><m:mn>4</m:mn><m:mspace width="0.2em"/><m:mtext>run</m:mtext><m:mo>=</m:mo><m:mn>1</m:mn></m:math></entry>
+ </row>
+</tbody>
+</tgroup>
+</table><para id="fs-id1718463">Count the rise and run.<newline/>
+<media id="fs-id1718466" alt="The graph shows the x y-coordinate plane. Both axes run from -5 to 5. The y-axis runs from -4 to 2. A vertical line segment connects points at “ordered pair -1,  -3” and “ordered pair -1, 1” and is labeled “up 4”. A horizontal line segment connects “ordered pair -1, 1” and “ordered pair 0, 1” and is labeled “over 1”.">
+<image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_11_04_055_img.jpg"/>
+</media></para><para id="fs-id1718477">Mark the second point. Connect the two points with a line.<newline/>
+<media id="fs-id1718480" alt="The graph shows the x y-coordinate plane. Both axes run from -5 to 5. Two labeled points are drawn at  “ordered pair -1, -3” and  “ordered pair -1, 1”.  A line passes through the points. Two line segments form a triangle with the line. A vertical line connects “ordered pair -1, -3” and “ordered pair -1, 1 ”. It is labeled “up 4” A horizontal line segment connects “ordered pair -1, 1” and “ordered pair 0, 1”. It is labeled “over 1”">
+<image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_11_04_056_img.jpg"/>
+</media></para></solution>
+</exercise></example>
+<note id="fs-id1718495" class="try">
+<exercise id="fs-id1718499">
+<problem id="fs-id1718501">
+<para id="fs-id1718503">Graph the line with the given intercept and slope: <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−2</m:mn><m:mo>,</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mi>m</m:mi><m:mo>=</m:mo><m:mn>3</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1718533"><para id="fs-id1171103471964"><newline/>
+<media id="fs-id1718535" alt="The graph shows the x y-coordinate plane. The x-axis runs from -7 to 7. The y-axis runs from -7 to 7. A line passes through the points “ordered pair -2, 1” and “ordered pair 0, 7”.">
+<image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_11_04_057_img.jpg"/>
+</media></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1718550" class="try">
+<exercise id="fs-id1718554">
+<problem id="fs-id1718556">
+<para id="fs-id1718558">Graph the line with the given intercept and slope: <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>4</m:mn><m:mo>,</m:mo><m:mn>−2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mi>m</m:mi><m:mo>=</m:mo><m:mn>−2</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1718588"><para id="fs-id1171101888337"><newline/>
+<media id="fs-id1718590" alt="The graph shows the x y-coordinate plane. The x-axis runs from -7 to 7. The y-axis runs from -7 to 7. A line passes through the points “ordered pair 0, 6” and “ordered pair 0, 3”.">
+<image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_11_04_058_img.jpg"/>
+</media></para>
+</solution>
+</exercise>
+</note>
+</section>
+<section id="fs-id1718606">
+<title>Solve Slope Applications</title>
+<para id="fs-id1718611">At the beginning of this section, we said there are many applications of slope in the real world. Let’s look at a few now.</para>
+<example id="fs-id1718616"><exercise id="fs-id1718618"><problem id="fs-id1718620">
+<para id="fs-id1718623">The pitch of a building’s roof is the slope of the roof. Knowing the pitch is important in climates where there is heavy snowfall. If the roof is too flat, the weight of the snow may cause it to collapse. What is the slope of the roof shown?</para>
+<media id="fs-id1718630" alt="This figure shows a house with a sloped roof. The roof on one half of the building is labeled “pitch of the roof”. There is a line segment with arrows at each end measuring the vertical length of the roof and is labeled “rise = 9 feet”. There is a line segment with arrows at each end measuring the horizontal length of the root and is labeled “run = 18 feet”.">
+<image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_11_04_039.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1718643">
+<title>Solution</title>
+<table id="eip-id1168469670624" class="unnumbered unstyled" summary="."><label/>
+<tgroup cols="2"><tbody>
+ <row>
+   <entry>Use the slope formula.</entry>
+   <entry><m:math><m:mi>m</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mtext>rise</m:mtext></m:mrow><m:mrow><m:mtext>run</m:mtext></m:mrow></m:mfrac></m:math></entry>
+ </row>
+ <row>
+   <entry>Substitute the values for rise and run.</entry>
+   <entry><m:math><m:mi>m</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mtext>9 ft</m:mtext></m:mrow><m:mrow><m:mtext>18 ft</m:mtext></m:mrow></m:mfrac></m:math></entry>
+ </row>
+ <row> 
+   <entry>Simplify.</entry>
+   <entry><m:math><m:mi>m</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>1</m:mn></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:mfrac></m:math></entry>
+ </row>
+ <row>
+   <entry/>
+   <entry>The slope of the roof is <m:math><m:mfrac><m:mrow><m:mn>1</m:mn></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:mfrac></m:math>.</entry>
+ </row>
+</tbody>
+
+
+</tgroup>
+</table></solution></exercise></example><note id="fs-id1718757" class="try">
+<exercise id="fs-id1718761">
+<problem id="fs-id1718763">
+<para id="fs-id1718765">Find the slope given rise and run: A roof with a rise <m:math><m:mrow><m:mo>=</m:mo><m:mn>14</m:mn></m:mrow></m:math> and run <m:math><m:mrow><m:mo>=</m:mo><m:mn>24</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1718786">
+<para id="fs-id1718788"><m:math><m:mrow><m:mfrac><m:mn>7</m:mn><m:mrow><m:mn>12</m:mn></m:mrow></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1718802" class="try">
+<exercise id="fs-id1718806">
+<problem id="fs-id1718808">
+<para id="fs-id1718810">Find the slope given rise and run: A roof with a rise <m:math><m:mrow><m:mo>=</m:mo><m:mn>15</m:mn></m:mrow></m:math> and run <m:math><m:mrow><m:mo>=</m:mo><m:mn>36</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1718830">
+<para id="fs-id1718832"><m:math><m:mrow><m:mfrac><m:mn>5</m:mn><m:mrow><m:mn>12</m:mn></m:mrow></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<para id="fs-id1718846">Have you ever thought about the sewage pipes going from your house to the street? Their slope is an important factor in how they take waste away from your house.</para>
+<example id="fs-id1718851">
+<exercise id="fs-id1718853"><problem id="fs-id1718855">
+<para id="fs-id1718857">Sewage pipes must slope down <m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>4</m:mn></m:mfrac></m:mrow></m:math> inch per foot in order to drain properly. What is the required slope?</para>
+<media id="fs-id1718873" alt="This figure shows a  right triangle. The short leg is vertical and is labeled “1 over 4 inch”. The long leg labeled “1 foot”.">
+<image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_11_04_042.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1718887">
+<title>Solution</title>
+
+
+<table id="eip-id1168469343232" class="unnumbered unstyled" summary="."><label/>
+<tgroup cols="2"><tbody>
+ <row>
+   <entry>Use the slope formula.</entry>
+   <entry><m:math><m:mi>m</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mtext>rise</m:mtext></m:mrow><m:mrow><m:mtext>run</m:mtext></m:mrow></m:mfrac></m:math></entry>
+ </row>
+ <row>
+   <entry/>
+   <entry><m:math><m:mi>m</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mo>−</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>4</m:mn></m:mfrac><m:mspace width="0.2em"/><m:mtext>in</m:mtext><m:mtext>.</m:mtext></m:mrow><m:mrow><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mtext>ft</m:mtext></m:mrow></m:mfrac></m:math></entry>
+ </row>
+ <row> 
+   <entry/>
+   <entry><m:math><m:mi>m</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mo>−</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>4</m:mn></m:mfrac><m:mspace width="0.2em"/><m:mtext>in</m:mtext><m:mtext>.</m:mtext></m:mrow><m:mrow><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mtext>ft</m:mtext></m:mrow></m:mfrac></m:math></entry>
+ </row>
+ <row>
+   <entry>Convert 1 foot to 12 inches.</entry>
+   <entry><m:math><m:mi>m</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mo>−</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>4</m:mn></m:mfrac><m:mspace width="0.2em"/><m:mtext>in</m:mtext><m:mtext>.</m:mtext></m:mrow><m:mrow><m:mn>12</m:mn><m:mspace width="0.2em"/><m:mtext>in.</m:mtext></m:mrow></m:mfrac></m:math></entry>
+ </row>
+ <row>
+   <entry>Simplify.</entry>
+   <entry><m:math><m:mi>m</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mrow><m:mn>1</m:mn></m:mrow><m:mrow><m:mn>48</m:mn></m:mrow></m:mfrac></m:math></entry>
+ </row>
+ <row>
+   <entry/>
+   <entry>The slope of the pipe is <m:math><m:mo>−</m:mo><m:mfrac><m:mrow><m:mn>1</m:mn></m:mrow><m:mrow><m:mn>48</m:mn></m:mrow></m:mfrac><m:mo>.</m:mo></m:math></entry>
+ </row>
+</tbody>
+
+</tgroup>
+</table></solution>
+</exercise></example>
+<note id="fs-id1719101" class="try">
+<exercise id="fs-id1719105">
+<problem id="fs-id1719107">
+<para id="fs-id1719109">Find the slope of the pipe: The pipe slopes down <m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac></m:mrow></m:math> inch per foot.</para>
+</problem>
+<solution id="fs-id1719122">
+<para id="fs-id1719124"><m:math><m:mrow><m:mo>−</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>36</m:mn></m:mrow></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1719140" class="try">
+<exercise id="fs-id1719144">
+<problem id="fs-id1719146">
+<para id="fs-id1719149">Find the slope of the pipe: The pipe slopes down <m:math><m:mrow><m:mfrac><m:mn>3</m:mn><m:mn>4</m:mn></m:mfrac></m:mrow></m:math> inch per yard.</para>
+</problem>
+<solution id="fs-id1719161">
+<para id="fs-id1719164"><m:math><m:mrow><m:mo>−</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>48</m:mn></m:mrow></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1719180" class="media-2"><title>ACCESS ADDITIONAL ONLINE RESOURCES</title><list id="fs-id1719187" display="block">
+<item><link url="http://www.openstax.org/l/24posslope">Determine Positive slope from a Graph</link></item>
+<item><link url="http://www.openstax.org/l/24negslope">Determine Negative slope from a Graph</link></item>
+<item><link url="http://www.openstax.org/l/24slopetwopts">Determine Slope from Two Points</link></item>
+</list>
+</note></section>
+<section id="fs-id1719213" class="key-concepts">
+<title>Key Concepts</title>
+<list id="eip-678"><item><emphasis>Find the slope from a graph</emphasis><list id="eip-id1170322684949" list-type="enumerated" number-style="arabic" class="stepwise"><item>Locate two points on the line whose coordinates are integers.</item>
+<item>Starting with the point on the left, sketch a right triangle, going from the first point to the second point.</item><item>Count the rise and the run on the legs of the triangle.</item>
+<item>Take the ratio of rise to run to find the slope, <m:math><m:mi>m</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mtext>rise</m:mtext></m:mrow><m:mrow><m:mtext>run</m:mtext></m:mrow></m:mfrac></m:math></item></list></item>
+<item><emphasis>Slope of a Horizontal Line</emphasis><list id="eip-id1170320559493"><item>The slope of a horizontal line, <m:math><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>b</m:mi></m:math>, is 0.</item></list></item>
+<item><emphasis>Slope of a Vertical Line</emphasis><list id="eip-id1170323909195"><item>The slope of a vertical line, <m:math><m:mi>x</m:mi><m:mo>=</m:mo><m:mi>a</m:mi></m:math>, is undefined.</item></list></item><item><emphasis>Slope Formula</emphasis><list id="eip-id1170322772650"><item>The slope of the line between two points <m:math><m:mo>(</m:mo><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub><m:mo>,</m:mo><m:msub><m:mi>y</m:mi><m:mn>1</m:mn></m:msub><m:mo>)</m:mo></m:math> and <m:math><m:mo>(</m:mo><m:msub><m:mi>x</m:mi><m:mn>2</m:mn></m:msub><m:mo>,</m:mo><m:msub><m:mi>y</m:mi><m:mn>2</m:mn></m:msub><m:mo>)</m:mo></m:math> is <m:math><m:mi>m</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>y</m:mi><m:mn>2</m:mn></m:msub><m:mo>-</m:mo><m:msub><m:mi>y</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>x</m:mi><m:mn>2</m:mn></m:msub><m:mo>-</m:mo><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mfrac></m:math></item></list></item>
+<item><emphasis>Graph a line given a point and a slope.</emphasis><list id="eip-id1170326457932" list-type="enumerated" number-style="arabic" class="stepwise"><item>Plot the given point.</item>
+<item>Use the slope formula to identify the rise and the run.</item>
+<item>Starting at the given point, count out the rise and run to mark the second point.</item>
+<item>Connect the points with a line.</item></list></item></list></section>
+<section id="fs-id1719342" class="section-exercises">
+<title>Section Exercises</title><section id="fs-id1719346" class="practice-perfect">
+<title>Practice Makes Perfect</title>
+<para id="fs-id1719352"><emphasis effect="bold">Use Geoboards to Model Slope</emphasis> </para><para id="eip-29">In the following exercises, find the slope modeled on each geoboard.</para><exercise id="fs-id1719359">
+<problem id="fs-id1719361">
+<media id="fs-id1719363" alt="The figure shows a grid of evenly spaced dots. There are 5 rows and 5 columns. There is a rubber band style loop connecting the point in column 1 row 3 and the point in column 5 row 2.">
+<image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_11_04_201_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1719376">
+<para id="fs-id1719378"><m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>4</m:mn></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1719390">
+<problem id="fs-id1719392">
+<media id="fs-id1719394" alt="The figure shows a grid of evenly spaced dots. There are 5 rows and 5 columns. There is a rubber band style loop connecting the point in column 2 row 4 and the point in column 5 row 2.">
+<image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_11_04_202_img.jpg"/>
+</media>
+</problem>
+</exercise>
+<exercise id="fs-id1719407">
+<problem id="fs-id1719409">
+<media id="fs-id1719412" alt="The figure shows a grid of evenly spaced dots. There are 5 rows and 5 columns. There is a rubber band style loop connecting the point in column 2 row 1 and the point in column 4 row 4.">
+<image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_11_04_203_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1719424">
+<para id="fs-id1719426"><m:math><m:mrow><m:mo>−</m:mo><m:mfrac><m:mn>3</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1719440">
+<problem id="fs-id1719442">
+<media id="fs-id1719444" alt="The figure shows a grid of evenly spaced dots. There are 5 rows and 5 columns. There is a rubber band style loop connecting the point in column 2 row 1 and the point in column 4 row 4.">
+<image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_11_04_204_img.jpg"/>
+</media>
+</problem>
+</exercise>
+<para id="fs-id1719458">In the following exercises, model each slope. Draw a picture to show your results.</para>
+<exercise id="fs-id1719461">
+<problem id="fs-id1719463">
+<para id="fs-id1719465"><m:math><m:mrow><m:mfrac><m:mn>2</m:mn><m:mn>3</m:mn></m:mfrac></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1719476">
+<para id="fs-id1171105193269"><newline/>
+<media id="fs-id1719478" alt="The figure shows a grid of evenly spaced dots. There are 5 rows and 5 columns. There is a rubber band style loop connecting the point in column 2 row 5 and the point in column 5 row 3.">
+<image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_11_04_205_img.jpg"/>
+</media></para>
+</solution>
+</exercise>
+<exercise id="fs-id1719491">
+<problem id="fs-id1719494">
+<para id="fs-id1719496"><m:math><m:mrow><m:mfrac><m:mn>3</m:mn><m:mn>4</m:mn></m:mfrac></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1719507">
+<problem id="fs-id1719510">
+<para id="fs-id1719512"><m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>4</m:mn></m:mfrac></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1719522">
+<para id="fs-id1171103548451"><newline/>
+<media id="fs-id1719524" alt="The figure shows a grid of evenly spaced dots. There are 5 rows and 5 columns. There is a rubber band style loop connecting the point in column 1 row 4 and the point in column 5 row 3.">
+<image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_11_04_207_img.jpg"/>
+</media></para>
+</solution>
+</exercise>
+<exercise id="fs-id1719538">
+<problem id="fs-id1719540">
+<para id="fs-id1719542"><m:math><m:mrow><m:mfrac><m:mn>4</m:mn><m:mn>3</m:mn></m:mfrac></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1719554">
+<problem id="fs-id1719556">
+<para id="fs-id1719558"><m:math><m:mrow><m:mo>−</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1719571">
+<para id="fs-id1171105503522"><newline/>
+<media id="fs-id1719573" alt="The figure shows a grid of evenly spaced dots. There are 5 rows and 5 columns. There is a rubber band style loop connecting the point in column 1 row 4 and the point in column 3 row 5.">
+<image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_11_04_209_img.jpg"/>
+</media></para>
+</solution>
+</exercise>
+<exercise id="fs-id1719587">
+<problem id="fs-id1719589">
+<para id="fs-id1719591"><m:math><m:mrow><m:mo>−</m:mo><m:mfrac><m:mn>3</m:mn><m:mn>4</m:mn></m:mfrac></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1719605">
+<problem id="fs-id1719607">
+<para id="fs-id1719609"><m:math><m:mrow><m:mo>−</m:mo><m:mfrac><m:mn>2</m:mn><m:mn>3</m:mn></m:mfrac></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1719622">
+<para id="fs-id1171103389034"><newline/>
+<media id="fs-id1719624" alt="The figure shows a grid of evenly spaced dots. There are 5 rows and 5 columns. There is a rubber band style loop connecting the point in column 1 row 2 and the point in column 4 row 4.">
+<image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_11_04_211_img.jpg"/>
+</media></para>
+</solution>
+</exercise>
+<exercise id="fs-id1719637">
+<problem id="fs-id1719640">
+<para id="fs-id1719642"><m:math><m:mrow><m:mo>−</m:mo><m:mfrac><m:mn>3</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow></m:math></para>
+</problem>
+</exercise>
+<para id="fs-id1719656"><emphasis effect="bold">Find the Slope of a Line from its Graph</emphasis> </para><para id="eip-384">In the following exercises, find the slope of each line shown.</para><exercise id="fs-id1719663">
+<problem id="fs-id1719665">
+<media id="fs-id1719667" alt="The graph shows the x y-coordinate plane. The x-axis runs from -10 to 10. The y-axis runs from -10 to 10. A line passes through the points “ordered pair 0, -4” and “ordered pair 10, 0”.">
+<image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_11_04_213_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1719680">
+<para id="fs-id1719682"><m:math><m:mrow><m:mfrac><m:mn>2</m:mn><m:mn>5</m:mn></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1719693">
+<problem id="fs-id1719696">
+<media id="fs-id1719698" alt="The graph shows the x y-coordinate plane. The x-axis runs from -10 to 10. The y-axis runs from -10 to 10. A line passes through the points “ordered pair 0, -5” and “ordered pair 3, 0”.">
+<image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_11_04_214_img.jpg"/>
+</media>
+</problem>
+</exercise>
+<exercise id="fs-id1719711">
+<problem id="fs-id1719713">
+<media id="fs-id1719715" alt="The graph shows the x y-coordinate plane. The x-axis runs from -12 to 12. The y-axis runs from -12 to 12. A line passes through the points “ordered pair 0, -1” and “ordered pair 1, 0”.">
+<image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_11_04_215_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1719728">
+<para id="fs-id1719730"><m:math><m:mrow><m:mfrac><m:mn>5</m:mn><m:mn>4</m:mn></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1719742"><problem id="fs-id1719744">
+<media id="fs-id1719746" alt="The graph shows the x y-coordinate plane. The x-axis runs from -10 to 10. The y-axis runs from -10 to 10. A line passes through the points “ordered pair 0, 3” and “ordered pair 6, 0”.">
+<image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_11_04_216_img.jpg"/>
+</media>
+</problem>
+</exercise><exercise id="fs-id1719759">
+<problem id="fs-id1719762">
+<media id="fs-id1719764" alt="The graph shows the x y-coordinate plane. The x-axis runs from -10 to 10. The y-axis runs from -10 to 10. A line passes through the points “ordered pair 0, 2” and “ordered pair 6, 0”.">
+<image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_11_04_217_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1719776">
+<para id="fs-id1719778"><m:math><m:mrow><m:mo>−</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1719792">
+<problem id="fs-id1719794">
+<media id="fs-id1719796" alt="The graph shows the x y-coordinate plane. The x-axis runs from -10 to 10. The y-axis runs from -10 to 10. A line passes through the points “ordered pair 0, 2” and “ordered pair 6, 0”.">
+<image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_11_04_218_img.jpg"/>
+</media>
+</problem>
+</exercise>
+<exercise id="fs-id1719810">
+<problem id="fs-id1719812">
+<media id="fs-id1719814" alt="The graph shows the x y-coordinate plane. The x-axis runs from -10 to 10. The y-axis runs from -10 to 10. A line passes through the points “ordered pair 0, 6” and “ordered pair 8, 0”.">
+<image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_11_04_219_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1719826">
+<para id="fs-id1719829"><m:math><m:mrow><m:mo>−</m:mo><m:mfrac><m:mn>3</m:mn><m:mn>4</m:mn></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1719842"><problem id="fs-id1719845">
+<media id="fs-id1719847" alt="The graph shows the x y-coordinate plane. The x-axis runs from -10 to 10. The y-axis runs from -10 to 10. A line passes through the points “ordered pair -1,  0” and “ordered pair 0, -1”.">
+<image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_11_04_220_img.jpg"/>
+</media>
+</problem>
+</exercise><exercise id="fs-id1719860"><problem id="fs-id1719862">
+<media id="fs-id1719864" alt="The graph shows the x y-coordinate plane. The x-axis runs from -10 to 10. The y-axis runs from -10 to 10. A line passes through the points “ordered pair -4,  0” and “ordered pair -4, 6”.">
+<image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_11_04_221_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1719877">
+<para id="fs-id1719879"><m:math><m:mrow><m:mfrac><m:mn>3</m:mn><m:mn>4</m:mn></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise><exercise id="fs-id1719891"><problem id="fs-id1719893">
+<media id="fs-id1719895" alt="The graph shows the x y-coordinate plane. The x-axis runs from -10 to 10. The y-axis runs from -10 to 10. A line passes through the points “ordered pair -2,  0” and “ordered pair 4, 4”.">
+<image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_11_04_222_img.jpg"/>
+</media>
+</problem>
+</exercise><exercise id="fs-id1719908"><problem id="fs-id1719911">
+<media id="fs-id1719913" alt="The graph shows the x y-coordinate plane. The x-axis runs from -10 to 10. A line passes through the points “ordered pair 0, 4” and “ordered pair 4, -6”.">
+<image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_11_04_223_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1719925">
+<para id="fs-id1719927"><m:math><m:mrow><m:mo>−</m:mo><m:mfrac><m:mn>5</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise><exercise id="fs-id1719941"><problem id="fs-id1719943">
+<media id="fs-id1719945" alt="The graph shows the x y-coordinate plane. The x-axis runs from -10 to 10. A line passes through the points “ordered pair -8, 8” and “ordered pair 8, -4”.">
+<image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_11_04_224_img.jpg"/>
+</media>
+</problem>
+</exercise><exercise id="fs-id1719959"><problem id="fs-id1719961">
+<media id="fs-id1719963" alt="The graph shows the x y-coordinate plane. The x-axis runs from -10 to 10. A line passes through the points “ordered pair 1,  4” and “ordered pair 7, 0”.">
+<image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_11_04_225_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1719976">
+<para id="fs-id1719978"><m:math><m:mrow><m:mo>−</m:mo><m:mfrac><m:mn>2</m:mn><m:mn>3</m:mn></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise><exercise id="fs-id1719992"><problem id="fs-id1719994">
+<media id="fs-id1719996" alt="The graph shows the x y-coordinate plane. The x-axis runs from -10 to 10. A line passes through the points “ordered pair 0,  3” and “ordered pair 7, 0”.">
+<image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_11_04_226_img.jpg"/>
+</media>
+</problem>
+</exercise><exercise id="fs-id1720009"><problem id="fs-id1720011">
+<media id="fs-id1720014" alt="The graph shows the x y-coordinate plane. The x-axis runs from -10 to 10. A line passes through the points “ordered pair 2, 0” and “ordered pair 10, 4”.">
+<image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_11_04_227_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1720026">
+<para id="fs-id1720028"><m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>4</m:mn></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise><exercise id="fs-id1720040"><problem id="fs-id1720042">
+<media id="fs-id1720044" alt="The graph shows the x y-coordinate plane. The x-axis runs from -10 to 10. A line passes through the points “ordered pair 6,  2” and “ordered pair 0, -3”.">
+<image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_11_04_228_img.jpg"/>
+</media>
+</problem>
+</exercise><para id="fs-id1720058"><emphasis effect="bold">Find the Slope of Horizontal and Vertical Lines</emphasis> </para><para id="eip-626">In the following exercises, find the slope of each line.</para><exercise id="fs-id1720065">
+<problem id="fs-id1720067">
+<para id="fs-id1720069"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>3</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1720081">
+<para id="fs-id1720083">0</para>
+</solution>
+</exercise>
+<exercise id="fs-id1720088">
+<problem id="fs-id1720090">
+<para id="fs-id1720093"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1720105">
+<problem id="fs-id1720108">
+<para id="fs-id1720110"><m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>4</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1720121">
+<para id="fs-id1720124">undefined</para>
+</solution>
+</exercise>
+<exercise id="fs-id1720129">
+<problem id="fs-id1720131">
+<para id="fs-id1720133"><m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>2</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1720146">
+<problem id="fs-id1720148">
+<para id="fs-id1720150"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−2</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1720162">
+<para id="fs-id1720164">0</para>
+</solution>
+</exercise>
+<exercise id="fs-id1720169">
+<problem id="fs-id1720172">
+<para id="fs-id1720174"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−3</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1720186">
+<problem id="fs-id1720189">
+<para id="fs-id1720191"><m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>−5</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1720202">
+<para id="fs-id1720205">undefined</para>
+</solution>
+</exercise>
+<exercise id="fs-id1720210">
+<problem id="fs-id1720212">
+<para id="fs-id1720214"><m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>−4</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<para id="fs-id1720227"><emphasis effect="bold">Use the Slope Formula to find the Slope of a Line between Two Points</emphasis> </para><para id="eip-453">In the following exercises, use the slope formula to find the slope of the line between each pair of points.</para><exercise id="fs-id1720235">
+<problem id="fs-id1720238">
+<para id="fs-id1720240"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>9</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1720273">
+<para id="fs-id1720275"><m:math><m:mrow><m:mfrac><m:mn>5</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1720287">
+<problem id="fs-id1720289">
+<para id="fs-id1720291"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>5</m:mn><m:mo>,</m:mo><m:mn>7</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1720325">
+<problem id="fs-id1720327">
+<para id="fs-id1720329"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>4</m:mn><m:mo>,</m:mo><m:mn>6</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1720362">
+<para id="fs-id1720364"><m:math><m:mrow><m:mfrac><m:mn>3</m:mn><m:mn>4</m:mn></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1720376">
+<problem id="fs-id1720378">
+<para id="fs-id1720380"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>5</m:mn><m:mo>,</m:mo><m:mn>4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1720415">
+<problem id="fs-id1720417">
+<para id="fs-id1720419"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>4</m:mn><m:mo>,</m:mo><m:mn>0</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1720452">
+<para id="fs-id1720454"><m:math><m:mrow><m:mo>−</m:mo><m:mfrac><m:mn>5</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1720468">
+<problem id="fs-id1720470">
+<para id="fs-id1720472"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>6</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>8</m:mn><m:mo>,</m:mo><m:mn>0</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1720506">
+<problem id="fs-id1720508">
+<para id="fs-id1720511"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−3</m:mn><m:mo>,</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>−5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1720544">
+<para id="fs-id1720546"><m:math><m:mrow><m:mo>−</m:mo><m:mfrac><m:mn>8</m:mn><m:mn>5</m:mn></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1720560">
+<problem id="fs-id1720562">
+<para id="fs-id1720564"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−2</m:mn><m:mo>,</m:mo><m:mn>4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>−1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1720598">
+<problem id="fs-id1720600">
+<para id="fs-id1720602"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−1</m:mn><m:mo>,</m:mo><m:mn>−2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1720635">
+<para id="fs-id1720638"><m:math><m:mrow><m:mfrac><m:mn>7</m:mn><m:mn>3</m:mn></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1720649">
+<problem id="fs-id1720651">
+<para id="fs-id1720654"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−2</m:mn><m:mo>,</m:mo><m:mn>−1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>6</m:mn><m:mo>,</m:mo><m:mn>5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1720688">
+<problem id="fs-id1720690">
+<para id="fs-id1720692"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>4</m:mn><m:mo>,</m:mo><m:mn>−5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>−2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1720725">
+<para id="fs-id1720727">−1</para>
+</solution>
+</exercise>
+<exercise id="fs-id1720732">
+<problem id="fs-id1720735">
+<para id="fs-id1720737"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>−6</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>−2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+</exercise>
+<para id="fs-id1720771"><emphasis effect="bold">Graph a Line Given a Point and the Slope</emphasis> </para><para id="eip-831">In the following exercises, graph the line given a point and the slope.</para><exercise id="fs-id1720778">
+<problem id="fs-id1720780">
+<para id="fs-id1720782"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>−2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>;</m:mo><m:mi>m</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>3</m:mn><m:mn>4</m:mn></m:mfrac></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1720812">
+<para id="fs-id1171103471945"><newline/>
+<media id="fs-id1720814" alt="The graph shows the x y-coordinate plane. The x-axis runs from -12 to 12. The y-axis runs from 12 to -12. A line passes through the points “ordered pair 5,  1” and “ordered pair 1, -2”">
+<image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_11_04_229_img.jpg"/>
+</media></para>
+</solution>
+</exercise>
+<exercise id="fs-id1720828">
+<problem id="fs-id1720830">
+<para id="fs-id1720832"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>−1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>;</m:mo><m:mi>m</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1720863">
+<problem id="fs-id1720865">
+<para id="fs-id1720867"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>;</m:mo><m:mi>m</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1720899">
+<para id="fs-id1171103583651"><newline/>
+<media id="fs-id1720902" alt="The graph shows the x y-coordinate plane. The x-axis runs from -12 to 12. The y-axis runs from 12 to -12. A line passes through the points “ordered pair 2, 5” and “ordered pair 5, 4”.">
+<image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_11_04_231_img.jpg"/>
+</media></para>
+</solution>
+</exercise>
+<exercise id="fs-id1720915">
+<problem id="fs-id1720917">
+<para id="fs-id1720919"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>;</m:mo><m:mi>m</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1720952">
+<problem id="fs-id1720954">
+<para id="fs-id1720957"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−3</m:mn><m:mo>,</m:mo><m:mn>4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>;</m:mo><m:mi>m</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mn>3</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1720989">
+<para id="fs-id1171105541211"><newline/>
+<media id="fs-id1720991" alt="The graph shows the x y-coordinate plane. The x-axis runs from -12 to 12. The y-axis runs from 12 to -12. A line passes through the points “ordered pair -3, 4” and “ordered pair -1, 1”.">
+<image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_11_04_233_img.jpg"/>
+</media></para>
+</solution>
+</exercise>
+<exercise id="fs-id1721004">
+<problem id="fs-id1721006">
+<para id="fs-id1721008"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−2</m:mn><m:mo>,</m:mo><m:mn>5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>;</m:mo><m:mi>m</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mn>5</m:mn><m:mn>4</m:mn></m:mfrac></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1721042">
+<problem id="fs-id1721044">
+<para id="fs-id1721046"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−1</m:mn><m:mo>,</m:mo><m:mn>−4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>;</m:mo><m:mi>m</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>4</m:mn><m:mn>3</m:mn></m:mfrac></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1721076">
+<para id="fs-id1171103387899"><newline/>
+<media id="fs-id1721078" alt="The graph shows the x y-coordinate plane. The x-axis runs from -12 to 12. The y-axis runs from 12 to -12. A line passes through the points “ordered pair 2,0” and “ordered pair -1, -4”.">
+<image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_11_04_235_img.jpg"/>
+</media></para>
+</solution>
+</exercise>
+<exercise id="fs-id1721091">
+<problem id="fs-id1721093">
+<para id="fs-id1721096"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−3</m:mn><m:mo>,</m:mo><m:mn>−5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>;</m:mo><m:mi>m</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>3</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1721126">
+<problem id="fs-id1721129">
+<para id="fs-id1721131"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>;</m:mo><m:mi>m</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mn>2</m:mn><m:mn>5</m:mn></m:mfrac></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1721163">
+<para id="fs-id1171103496226"><newline/>
+<media id="fs-id1721165" alt="The graph shows the x y-coordinate plane. The x-axis runs from -12 to 12. The y-axis runs from 12 to -12. A line passes through the points “ordered pair 0, 3” and “ordered pair 5, 1”.">
+<image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_11_04_237_img.jpg"/>
+</media></para>
+</solution>
+</exercise>
+<exercise id="fs-id1721178">
+<problem id="fs-id1721180">
+<para id="fs-id1721183"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>;</m:mo><m:mi>m</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mn>4</m:mn><m:mn>3</m:mn></m:mfrac></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1721216">
+<problem id="fs-id1721218">
+<para id="fs-id1721220"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−2</m:mn><m:mo>,</m:mo><m:mn>0</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>;</m:mo><m:mi>m</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>3</m:mn><m:mn>4</m:mn></m:mfrac></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1721250">
+<para id="fs-id1171103626415"><newline/>
+<media id="fs-id1721252" alt="The graph shows the x y-coordinate plane. The x-axis runs from -12 to 12. The y-axis runs from 12 to -12. A line passes through the points “ordered pair -2,0” and “ordered pair 2, 3”.">
+<image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_11_04_239_img.jpg"/>
+</media></para>
+</solution>
+</exercise>
+<exercise id="fs-id1721265">
+<problem id="fs-id1721268">
+<para id="fs-id1721270"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−1</m:mn><m:mo>,</m:mo><m:mn>0</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>;</m:mo><m:mi>m</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>5</m:mn></m:mfrac></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1721301">
+<problem id="fs-id1721303">
+<para id="fs-id1721305"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−3</m:mn><m:mo>,</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>;</m:mo><m:mi>m</m:mi><m:mo>=</m:mo><m:mn>2</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1721332">
+<para id="fs-id1171103399226"><newline/>
+<media id="fs-id1721334" alt="The graph shows the x y-coordinate plane. The x-axis runs from -12 to 12. The y-axis runs from 12 to -12. A line passes through the points “ordered pair -3, 3” and “ordered pair -2, 5”.">
+<image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_11_04_241_img.jpg"/>
+</media></para>
+</solution>
+</exercise>
+<exercise id="fs-id1721347">
+<problem id="fs-id1721349">
+<para id="fs-id1721351"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−4</m:mn><m:mo>,</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>;</m:mo><m:mi>m</m:mi><m:mo>=</m:mo><m:mn>4</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1721379">
+<problem id="fs-id1721381">
+<para id="fs-id1721383"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>;</m:mo><m:mi>m</m:mi><m:mo>=</m:mo><m:mn>−3</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1721410">
+<para id="fs-id1171105226543"><newline/>
+<media id="fs-id1721412" alt="The graph shows the x y-coordinate plane. The x-axis runs from -12 to 12. The y-axis runs from 12 to -12. A line passes through the points “ordered pair 1, 5” and “ordered pair 2, 2”.">
+<image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_11_04_243_img.jpg"/>
+</media></para>
+</solution>
+</exercise>
+<exercise id="fs-id1721426">
+<problem id="fs-id1721428">
+<para id="fs-id1721430"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>;</m:mo><m:mi>m</m:mi><m:mo>=</m:mo><m:mn>−1</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<para id="fs-id1721458"><emphasis effect="bold">Solve Slope Applications</emphasis> </para><para id="eip-622">In the following exercises, solve these slope applications.</para><exercise id="fs-id1721465">
+<problem id="fs-id1721467">
+<para id="fs-id1721469"><emphasis effect="bold">Slope of a roof</emphasis> A fairly easy way to determine the slope is to take a <m:math><m:mrow><m:mtext>12-inch</m:mtext></m:mrow></m:math> level and set it on one end on the roof surface. Then take a tape measure or ruler, and measure from the other end of the level down to the roof surface. You can use these measurements to calculate the slope of the roof. What is the slope of the roof in this picture?</para>
+<media id="fs-id1721484" alt="The figure shows a wood board at a diagonal representing a side-view slice of a pitched roof. A vertical line segment with arrows on both ends measures the vertical change in height of the roof and is labeled “4 inches”. A level tool is in a horizontal position above the board and above it is a line segment with arrows on both ends labeled “12 inches”.">
+<image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_11_04_245_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1721497">
+<para id="fs-id1721499"><m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1721511">
+<problem id="fs-id1721513">
+<para id="fs-id1721515">What is the slope of the roof shown?</para>
+<media id="fs-id1721518" alt="The figure shows a  diagonal side-view slice of a pitched roof. A ruler in vertical position is at the bottom of the roof segment and shows unit labels 1 through 8 and extends one further unit. A second ruler starts at the “7” label of the vertical ruler and extends horizontally until it hits the rising roof. The horizontal ruler has unit labels 1 through 11 and extends one further unit.">
+<image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_11_04_246_img.jpg"/>
+</media>
+</problem>
+</exercise>
+<exercise id="fs-id1721532"><problem id="fs-id1721534">
+<para id="fs-id1721536"><emphasis effect="bold">Road grade</emphasis> A local road has a grade of <m:math><m:mrow><m:mtext>6%</m:mtext><m:mo>.</m:mo></m:mrow></m:math> The grade of a road is its slope expressed as a percent.</para>
+<list id="eip-id1164755184614" list-type="enumerated" number-style="arabic" class="circled"><item><span class="token">ⓐ</span> Find the slope of the road as a fraction and then simplify the fraction.</item><item>
+<span class="token">ⓑ</span> What rise and run would reflect this slope or grade?</item></list></problem>
+<solution id="fs-id1721558">
+<para id="fs-id1721560"><span class="token">ⓐ</span><m:math><m:mspace width="0.2em"/><m:mfrac><m:mn>3</m:mn><m:mrow><m:mn>50</m:mn></m:mrow></m:mfrac><m:mspace width="0.2em"/></m:math><span class="token">ⓑ</span><m:math><m:mspace width="0.2em"/><m:mtext>rise</m:mtext><m:mo>=</m:mo><m:mn>3</m:mn><m:mo>;</m:mo><m:mspace width="0.2em"/><m:mtext>run</m:mtext><m:mo>=</m:mo><m:mn>50</m:mn></m:math></para>
+</solution>
+</exercise><exercise id="fs-id1721597"><problem id="fs-id1721600">
+<para id="fs-id1721602"><emphasis effect="bold">Highway grade</emphasis> A local road rises <m:math><m:mrow><m:mn>2</m:mn></m:mrow></m:math> feet for every <m:math><m:mrow><m:mn>50</m:mn></m:mrow></m:math> feet of highway.</para>
+<list id="eip-id1164754475678" list-type="enumerated" number-style="arabic" class="circled"><item><span class="token">ⓐ</span> What is the slope of the highway?</item><item>
+<span class="token">ⓑ</span> The grade of a highway is its slope expressed as a percent. What is the grade of this highway?</item></list></problem>
+</exercise></section>
+<section id="fs-id1721630" class="everyday">
+<title>Everyday Math</title>
+<exercise id="fs-id1721636"><problem id="fs-id1721638">
+<para id="fs-id1721640"><emphasis effect="bold">Wheelchair ramp</emphasis> The rules for wheelchair ramps require a maximum <m:math><m:mrow><m:mn>1</m:mn></m:mrow></m:math> inch rise for a <m:math><m:mrow><m:mn>12</m:mn></m:mrow></m:math> inch run.</para>
+<list id="eip-id1164753851389" list-type="enumerated" number-style="arabic" class="circled"><item><span class="token">ⓐ</span> How long must the ramp be to accommodate a <m:math><m:mrow><m:mtext>24-inch</m:mtext></m:mrow></m:math> rise to the door?</item><item>
+<span class="token">ⓑ</span> Draw a model of this ramp.</item></list></problem>
+<solution id="fs-id1721671">
+<para id="fs-id1721673"><list id="eip-id1164754705961" list-type="enumerated" number-style="arabic" class="circled"><item><span class="token">ⓐ</span> 288 inches (24 feet)</item><item><span class="token">ⓑ</span> Models will vary.</item></list></para></solution>
+</exercise><exercise id="fs-id1721678"><problem id="fs-id1721680">
+<para id="fs-id1721682"><emphasis effect="bold">Wheelchair ramp</emphasis> A <m:math><m:mrow><m:mtext>1-inch</m:mtext></m:mrow></m:math> rise for a <m:math><m:mrow><m:mtext>16-inch</m:mtext></m:mrow></m:math> run makes it easier for the wheelchair rider to ascend the ramp.</para>
+<list id="eip-id1164755178834" list-type="enumerated" number-style="arabic" class="circled"><item><span class="token">ⓐ</span> How long must the ramp be to easily accommodate a <m:math><m:mrow><m:mtext>24-inch</m:mtext></m:mrow></m:math> rise to the door?</item>
+<item><span class="token">ⓑ</span> Draw a model of this ramp.</item></list></problem>
+</exercise></section>
+<section id="fs-id1721715" class="writing">
+<title>Writing Exercises</title>
+<exercise id="fs-id1721721">
+<problem id="fs-id1721723">
+<para id="fs-id1721725">What does the sign of the slope tell you about a line?</para>
+</problem>
+<solution id="fs-id1721729">
+<para id="fs-id1721731">Answers will vary.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1721737">
+<problem id="fs-id1721739">
+<para id="fs-id1721741">How does the graph of a line with slope <m:math><m:mrow><m:mi>m</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow></m:math> differ from the graph of a line with slope <m:math><m:mrow><m:mi>m</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mo>?</m:mo></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1721770">
+<problem id="fs-id1721772">
+<para id="fs-id1721774">Why is the slope of a vertical line undefined?</para>
+</problem>
+<solution id="fs-id1721778">
+<para id="fs-id1721780">Answers will vary.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1721786">
+<problem id="fs-id1721788">
+<para id="fs-id1721790">Explain how you can graph a line given a point and its slope.</para>
+</problem>
+</exercise>
+</section><section id="eip-9"><title>Self Check</title><para id="eip-id1168466282655"><span class="token">ⓐ</span> After completing the exercises, use this checklist to evaluate your mastery of the objectives of this section.
+</para>
+
+
+<para id="eip-886"><figure id="eip-id1168466340519" class="unnumbered"><label/><media id="eip-id1168466340522" alt="."><image mime-type="image/jpg" src="../../media/CNX_BMath_Figure_AppB_069.jpg"/></media></figure></para><para id="eip-id1168466075811"><span class="token">ⓑ</span> On a scale of 1–10, how would you rate your mastery of this section in light of your responses on the checklist? How can you improve this?
+</para></section>
+</section>
+<section id="fs-id1721797" class="review-exercises">
+<title>Chapter Review Exercises</title>
+<section id="fs-id1721805">
+<title><link class="target-chapter" document="m53173">Use the Rectangular Coordinate System</link></title><para id="fs-id1721815"><emphasis effect="bold">Plot Points in a Rectangular Coordinate System</emphasis></para><para id="eip-690">In the following exercises, plot each point in a rectangular coordinate system.</para><exercise id="fs-id1721822">
+<problem id="fs-id1721825">
+<para id="fs-id1721827"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1721860">
+<para id="fs-id1171103716589"><newline/>
+<media id="fs-id1721862" alt="The graph shows the x y-coordinate plane. The x-axis runs from -6 to 6. The y-axis runs from 6 to -6. The points “ordered pair 1,3” and “ordered pair 3,1” are plotted.">
+<image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_11_04_247_img.jpg"/>
+</media></para>
+</solution>
+</exercise>
+<exercise id="fs-id1721875">
+<problem id="fs-id1721878">
+<para id="fs-id1721880"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>5</m:mn><m:mo>,</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+</exercise>
+<para id="fs-id1721928">In the following exercises, plot each point in a rectangular coordinate system and identify the quadrant in which the point is located.</para>
+<exercise id="fs-id1721933"><problem id="fs-id1721935">
+<list id="eip-id1164754705932" list-type="enumerated" number-style="arabic" class="circled"><item><span class="token">ⓐ</span><m:math><m:mrow><m:mspace width="0.2em"/><m:mo stretchy="false">(</m:mo><m:mn>−1</m:mn><m:mo>,</m:mo><m:mn>−5</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></item>
+<item><span class="token">ⓑ</span><m:math><m:mrow><m:mspace width="0.2em"/><m:mo stretchy="false">(</m:mo><m:mn>−3</m:mn><m:mo>,</m:mo><m:mn>4</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></item>
+<item><span class="token">ⓒ</span><m:math><m:mrow><m:mspace width="0.2em"/><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>−3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></item>
+<item><span class="token">ⓓ</span><m:math><m:mrow><m:mspace width="0.2em"/><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>,</m:mo><m:mfrac><m:mn>5</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></item></list></problem>
+<solution id="fs-id1722038">
+<para id="fs-id1722040"><list id="eip-id1164755184627" list-type="enumerated" number-style="arabic" class="circled"><item><span class="token">ⓐ</span> III</item><item><span class="token">ⓑ</span> II</item><item><span class="token">ⓒ</span> IV</item><item><span class="token">ⓐ</span> I</item></list></para></solution>
+</exercise><exercise id="fs-id1722046"><problem id="fs-id1722048">
+<list id="eip-id1164752668766" list-type="enumerated" number-style="arabic" class="circled"><item><span class="token">ⓐ</span><m:math><m:mrow><m:mspace width="0.2em"/><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>−2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></item>
+<item><span class="token">ⓑ</span><m:math><m:mrow><m:mspace width="0.2em"/><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−4</m:mn><m:mo>,</m:mo><m:mn>−1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></item>
+<item><span class="token">ⓒ</span><m:math><m:mrow><m:mspace width="0.2em"/><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−5</m:mn><m:mo>,</m:mo><m:mn>4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></item>
+<item><span class="token">ⓓ</span><m:math><m:mrow><m:mspace width="0.2em"/><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mo>,</m:mo><m:mfrac><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></item></list></problem>
+</exercise><para id="fs-id1722146"><emphasis effect="bold">Identify Points on a Graph</emphasis> </para><para id="eip-465">In the following exercises, name the ordered pair of each point shown in the rectangular coordinate system.</para><exercise id="fs-id1722154"><problem id="fs-id1722156">
+<media id="fs-id1722158" alt="The graph shows the x y-coordinate plane. The axes run from -7 to 7. “a” is plotted at 5, 3, “b” at 2, -1, “c” at -3,-2, and “d” at -1,4. ">
+<image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_11_04_249_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1722171">
+<para id="fs-id1722173"><list id="eip-id1164754280754" list-type="enumerated" number-style="arabic" class="circled"><item><span class="token">ⓐ</span> (5,3)</item><item><span class="token">ⓑ</span> (2,−1)</item><item><span class="token">ⓒ</span> (−3,−2)</item><item><span class="token">ⓓ</span> (−1,4)</item></list></para></solution>
+</exercise><exercise id="fs-id1722178"><problem id="fs-id1722180">
+<media id="fs-id1722182" alt="The graph shows the x y-coordinate plane. The axes run from -7 to 7. “a” is plotted at -2, 2, “b” at 3, 5, “c” at 4,-1, and “d” at -1,3.">
+<image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_11_04_250_img.jpg"/>
+</media>
+</problem>
+</exercise><exercise id="fs-id1722196"><problem id="fs-id1722198">
+<media id="fs-id1722200" alt="The graph shows the x y-coordinate plane. The axes run from -7 to 7. “a” is plotted at 2, 0, “b” at 0, -5, “c” at -4,0, and “d” at 0,3.">
+<image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_11_04_251_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1722212">
+<para id="fs-id1722215"><list id="eip-id1164752779442" list-type="enumerated" number-style="arabic" class="circled"><item><span class="token">ⓐ</span> (2,0)</item><item><span class="token">ⓑ</span> (0,−5)</item><item><span class="token">ⓒ</span> (−4,0)</item><item><span class="token">ⓓ</span> (0,3)</item></list></para></solution>
+</exercise><exercise id="fs-id1722221"><problem id="fs-id1722223">
+<media id="fs-id1722225" alt="The graph shows the x y-coordinate plane. The axes run from -7 to 7. “a” is plotted at 0, 4, “b” at 5, 0, “c” at 0,-1, and “d” at -3,0.">
+<image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_11_04_252_img.jpg"/>
+</media>
+</problem>
+</exercise><para id="fs-id1722239"><emphasis effect="bold">Verify Solutions to an Equation in Two Variables</emphasis> </para><para id="eip-227">In the following exercises, find the ordered pairs that are solutions to the given equation.</para><exercise id="fs-id1722247"><problem id="fs-id1722249">
+<para id="fs-id1722251"><m:math><m:mrow><m:mn>5</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>10</m:mn></m:mrow></m:math></para>
+<list id="eip-id1164755159729" list-type="enumerated" number-style="arabic" class="circled"><item><span class="token">ⓐ</span><m:math><m:mrow><m:mspace width="0.2em"/><m:mo stretchy="false">(</m:mo><m:mn>5</m:mn><m:mo>,</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></item>
+<item><span class="token">ⓑ</span><m:math><m:mrow><m:mspace width="0.2em"/><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>0</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></item>
+<item><span class="token">ⓒ</span><m:math><m:mrow><m:mspace width="0.2em"/><m:mo stretchy="false">(</m:mo><m:mn>4</m:mn><m:mo>,</m:mo><m:mn>−10</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></item></list></problem>
+<solution id="fs-id1722342">
+<para id="fs-id1722344"><span class="token">ⓑ</span>,<span class="token">ⓒ</span></para></solution>
+</exercise><exercise id="fs-id1722349"><problem id="fs-id1722351">
+<para id="fs-id1722353"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>6</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow></m:math></para>
+<list id="eip-id1164754503623" list-type="enumerated" number-style="arabic" class="circled"><item><span class="token">ⓐ</span><m:math><m:mrow><m:mspace width="0.2em"/><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>4</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></item>
+<item><span class="token">ⓑ</span><m:math><m:mrow><m:mspace width="0.2em"/><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac><m:mo>,</m:mo><m:mn>0</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></item>
+<item><span class="token">ⓒ</span><m:math><m:mrow><m:mspace width="0.2em"/><m:mo stretchy="false">(</m:mo><m:mn>6</m:mn><m:mo>,</m:mo><m:mn>−2</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></item></list></problem>
+</exercise><para id="fs-id1722446"><emphasis effect="bold">Complete a Table of Solutions to a Linear Equation in Two Variables</emphasis> </para><para id="eip-654">In the following exercises, complete the table to find solutions to each linear equation.</para><exercise id="fs-id1722457">
+<problem id="fs-id1722459">
+<para id="fs-id1722461"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:math></para>
+<table id="fs-id1722478" class="unnumbered" summary="This has 4 rows and 3 columns. The first row is a header row and it labels each column “x”, “y”, and “ordered pair x, y”. Under the column “x” are the values 0, 1, and -2."><label/>
+<tgroup cols="3"><colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<thead><row valign="top">
+<entry align="left"><m:math><m:mi>x</m:mi></m:math></entry>
+<entry align="left"><m:math><m:mi>y</m:mi></m:math></entry>
+<entry align="left"><m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>y</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math></entry>
+</row></thead>
+<tbody>
+
+<row valign="top">
+<entry align="left"><m:math><m:mn>0</m:mn></m:math></entry>
+<entry align="left"/>
+<entry align="left"/>
+</row>
+<row valign="top">
+<entry align="left"><m:math><m:mn>1</m:mn></m:math></entry>
+<entry align="left"/>
+<entry align="left"/>
+</row>
+<row valign="top">
+<entry align="left"><m:math><m:mrow><m:mn>−2</m:mn></m:mrow></m:math></entry>
+<entry align="left"/>
+<entry align="left"/>
+</row>
+</tbody>
+
+</tgroup>
+</table></problem>
+<solution id="fs-id1722620">
+<table id="fs-id1722622" class="unnumbered" summary="This table has 4 rows and 3 columns. The first row is a header row and it labels each column “x”, “y”, and “ordered pair x, y”. Under the column “x”,are the values 0, 1, -2. Under the column “y”,are the values -1, 3, and -9. Under the column “ordered pair x, y”,are the values “ordered pair 0, -1”, “ordered pair 1, 3”, and “ordered pair -2, -9”,."><label/>
+<tgroup cols="3"><colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/><thead><row valign="top">
+<entry align="left"><m:math><m:mi>x</m:mi></m:math></entry>
+<entry align="left"><m:math><m:mi>y</m:mi></m:math></entry>
+<entry align="left"><m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>y</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math></entry>
+</row></thead>
+<tbody>
+
+<row valign="top">
+<entry align="left"><m:math><m:mn>0</m:mn></m:math></entry>
+<entry align="left"><m:math><m:mrow><m:mn>−1</m:mn></m:mrow></m:math></entry>
+<entry align="left"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>−1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry align="left"><m:math><m:mn>1</m:mn></m:math></entry>
+<entry align="left"><m:math><m:mn>3</m:mn></m:math></entry>
+<entry align="left"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry align="left"><m:math><m:mrow><m:mn>−2</m:mn></m:mrow></m:math></entry>
+<entry align="left"><m:math><m:mrow><m:mn>−9</m:mn></m:mrow></m:math></entry>
+<entry align="left"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−2</m:mn><m:mo>,</m:mo><m:mn>−9</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+</row>
+</tbody>
+
+</tgroup>
+</table></solution>
+</exercise>
+<exercise id="fs-id1722821">
+<problem id="fs-id1722823">
+<para id="fs-id1722825"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow></m:math></para>
+<table id="fs-id1722847" class="unnumbered" summary="This has 4 rows and 3 columns. The first row is a header row and it labels each column “x”, “y”, and “ordered pair x, y”. Under the column “x”,are the values 0, 1, and -2."><label/>
+<tgroup cols="3"><colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/><thead><row valign="top">
+<entry align="left"><m:math><m:mi>x</m:mi></m:math></entry>
+<entry align="left"><m:math><m:mi>y</m:mi></m:math></entry>
+<entry align="left"><m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>y</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math></entry>
+</row></thead>
+<tbody>
+
+<row valign="top">
+<entry align="left"><m:math><m:mn>0</m:mn></m:math></entry>
+<entry align="left"/>
+<entry align="left"/>
+</row>
+<row valign="top">
+<entry align="left"><m:math><m:mn>1</m:mn></m:math></entry>
+<entry align="left"/>
+<entry align="left"/>
+</row>
+<row valign="top">
+<entry align="left"><m:math><m:mrow><m:mn>−2</m:mn></m:mrow></m:math></entry>
+<entry align="left"/>
+<entry align="left"/>
+</row>
+</tbody>
+
+</tgroup>
+</table></problem>
+</exercise>
+<exercise id="fs-id1722990">
+<problem id="fs-id1722992">
+<para id="fs-id1722994"><m:math><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>5</m:mn></m:mrow></m:math></para>
+<table id="fs-id1723011" class="unnumbered" summary="This table has 4 rows and 3 columns. The first row is a header row and it labels each column “x”, “y”, and “ordered pair x, y”. Under the column “x”,are the values 1 in the second row and -1 in the third row. Under the column “y”, is the value 0 in the first row."><label/>
+<tgroup cols="3"><colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/><thead><row valign="top">
+<entry align="left"><m:math><m:mi>x</m:mi></m:math></entry>
+<entry align="left"><m:math><m:mi>y</m:mi></m:math></entry>
+<entry align="left"><m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>y</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math></entry>
+</row></thead>
+<tbody>
+
+<row valign="top">
+<entry align="left"/>
+<entry align="left"><m:math><m:mn>0</m:mn></m:math></entry>
+<entry align="left"/>
+</row>
+<row valign="top">
+<entry align="left"><m:math><m:mn>1</m:mn></m:math></entry>
+<entry align="left"/>
+<entry align="left"/>
+</row>
+<row valign="top">
+<entry align="left"><m:math><m:mrow><m:mn>−1</m:mn></m:mrow></m:math></entry>
+<entry align="left"/>
+<entry align="left"/>
+</row>
+</tbody>
+
+</tgroup>
+</table></problem>
+<solution id="fs-id1723153">
+<table id="fs-id1723155" class="unnumbered" summary="This table has 4 rows and 3 columns. The first row is a header row and it labels each column “x”, “y”, and “ordered pair x, y”. Under the column “x”,are the values 5, 1, -1. Under the column “y”,are the values 0, 2, and 3. Under the column “ordered pair x, y”,are the values “ordered pair 5, 0”, “ordered pair 1, 2”, and “ordered pair -1, 3”,."><label/>
+<tgroup cols="3"><colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/><thead><row valign="top">
+<entry align="left"><m:math><m:mi>x</m:mi></m:math></entry>
+<entry align="left"><m:math><m:mi>y</m:mi></m:math></entry>
+<entry align="left"><m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>y</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math></entry>
+</row></thead>
+<tbody>
+
+<row valign="top">
+<entry align="left"><m:math><m:mn>5</m:mn></m:math></entry>
+<entry align="left"><m:math><m:mn>0</m:mn></m:math></entry>
+<entry align="left"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>5</m:mn><m:mo>,</m:mo><m:mn>0</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry align="left"><m:math><m:mn>1</m:mn></m:math></entry>
+<entry align="left"><m:math><m:mn>2</m:mn></m:math></entry>
+<entry align="left"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry align="left"><m:math><m:mrow><m:mn>−1</m:mn></m:mrow></m:math></entry>
+<entry align="left"><m:math><m:mn>3</m:mn></m:math></entry>
+<entry align="left"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−1</m:mn><m:mo>,</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+</row>
+</tbody>
+
+</tgroup>
+</table></solution>
+</exercise>
+<exercise id="fs-id1723352">
+<problem id="fs-id1723354">
+<para id="fs-id1723356"><m:math><m:mrow><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>6</m:mn></m:mrow></m:math></para>
+<table id="fs-id1723375" class="unnumbered" summary="his table has 4 rows and 3 columns. The first row is a header row and it labels each column “x”, “y”, and “ordered pair x, y”. Under the column “x”,are the values 0 in the first row and -2 in the third row. Under the column “y”, is the value 0 in the second row."><label/>
+<tgroup cols="3"><colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/><thead><row valign="top">
+<entry align="left"><m:math><m:mi>x</m:mi></m:math></entry>
+<entry align="left"><m:math><m:mi>y</m:mi></m:math></entry>
+<entry align="left"><m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>y</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math></entry>
+</row></thead>
+<tbody>
+
+<row valign="top">
+<entry align="left"><m:math><m:mn>0</m:mn></m:math></entry>
+<entry align="left"/>
+<entry align="left"/>
+</row>
+<row valign="top">
+<entry align="left"/>
+<entry align="left"><m:math><m:mn>0</m:mn></m:math></entry>
+<entry align="left"/>
+</row>
+<row valign="top">
+<entry align="left"><m:math><m:mrow><m:mn>−2</m:mn></m:mrow></m:math></entry>
+<entry align="left"/>
+<entry align="left"/>
+</row>
+</tbody>
+
+</tgroup>
+</table></problem>
+</exercise>
+<para id="fs-id1723518"><emphasis effect="bold">Find Solutions to a Linear Equation in Two Variables</emphasis> </para><para id="eip-612">In the following exercises, find three solutions to each linear equation.</para><exercise id="fs-id1723525">
+<problem id="fs-id1723527">
+<para id="fs-id1723529"><m:math><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>3</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1723545">
+<para id="fs-id1723548">Answers will vary.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1723553">
+<problem id="fs-id1723555">
+<para id="fs-id1723557"><m:math><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−4</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1723574">
+<problem id="fs-id1723576">
+<para id="fs-id1723578"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1723597">
+<para id="fs-id1723599">Answers will vary.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1723604">
+<problem id="fs-id1723606">
+<para id="fs-id1723608"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1723629">
+<title><link class="target-chapter" document="m53180">Graphing Linear Equations</link></title><para id="fs-id1723639"><emphasis effect="bold">Recognize the Relation Between the Solutions of an Equation and its Graph</emphasis> </para><para id="eip-783">In the following exercises, for each ordered pair, decide</para><para id="fs-id1723646"><list id="eip-id1164750437185" list-type="enumerated" number-style="arabic" class="circled"><item><span class="token">ⓐ</span> if the ordered pair is a solution to the equation.</item><item><span class="token">ⓑ</span> if the point is on the line.</item></list></para><exercise id="fs-id1723653"><problem id="fs-id1723655">
+<para id="fs-id1723657"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn></m:mrow></m:math></para>
+<list id="eip-id1164752671519" list-type="enumerated" number-style="arabic" class="circled"><item><span class="token">ⓐ</span><m:math><m:mrow><m:mspace width="0.2em"/><m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>4</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></item>
+<item><span class="token">ⓑ</span><m:math><m:mrow><m:mspace width="0.2em"/><m:mo stretchy="false">(</m:mo><m:mn>−1</m:mn><m:mo>,</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></item>
+<item><span class="token">ⓒ</span><m:math><m:mrow><m:mspace width="0.2em"/><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></item>
+<item><span class="token">ⓓ</span><m:math><m:mrow><m:mspace width="0.2em"/><m:mo stretchy="false">(</m:mo><m:mn>−2</m:mn><m:mo>,</m:mo><m:mn>6</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></item></list><media id="fs-id1723775" alt="The graph shows the x y-coordinate plane. The axes run from -7 to 7. A line passes through the points “ordered pair 0,  4” and “ordered pair 4, 0”.">
+<image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_11_04_253_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1723787">
+<para id="fs-id1723789"><list id="eip-id1164752712698" list-type="enumerated" number-style="arabic" class="circled"><item><span class="token">ⓐ</span> yes <span class="token">ⓑ</span> no <span class="token">ⓒ</span> yes <span class="token">ⓓ</span> yes</item><item><span class="token">ⓐ</span> yes <span class="token">ⓑ</span> no <span class="token">ⓒ</span> yes <span class="token">ⓓ</span> yes</item></list></para></solution>
+</exercise><exercise id="fs-id1723795"><problem id="fs-id1723797">
+<para id="fs-id1723799"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>2</m:mn><m:mn>3</m:mn></m:mfrac><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:math></para>
+<list id="eip-id1164752905652" list-type="enumerated" number-style="arabic" class="circled"><item><span class="token">ⓐ</span><m:math><m:mrow><m:mspace width="0.2em"/><m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>−1</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></item>
+<item><span class="token">ⓑ</span><m:math><m:mrow><m:mspace width="0.2em"/><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></item>
+<item><span class="token">ⓒ</span><m:math><m:mrow><m:mspace width="0.2em"/><m:mo stretchy="false">(</m:mo><m:mn>−3</m:mn><m:mo>,</m:mo><m:mn>−3</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></item>
+<item><span class="token">ⓓ</span><m:math><m:mrow><m:mspace width="0.2em"/><m:mo stretchy="false">(</m:mo><m:mn>6</m:mn><m:mo>,</m:mo><m:mn>4</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></item></list><media id="fs-id1723918" alt="The graph shows the x y-coordinate plane. The axes run from -7 to 7. A line passes through the points “ordered pair 0,  -1” and “ordered pair 3, 1”.">
+<image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_11_04_254_img.jpg"/>
+</media>
+</problem>
+</exercise><para id="fs-id1723931"><emphasis effect="bold">Graph a Linear Equation by Plotting Points</emphasis> </para><para id="eip-980">In the following exercises, graph by plotting points.</para><exercise id="fs-id1723939">
+<problem id="fs-id1723941">
+<para id="fs-id1723943"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1723961">
+<para id="fs-id1171103623143"><newline/>
+<media id="fs-id1723963" alt="The graph shows the x y-coordinate plane. Each axis runs from -6 to 6. A line passes through the points “ordered pair 1,  1” and “ordered pair 0, -3”.">
+<image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_11_04_255_img.jpg"/>
+</media></para></solution>
+</exercise>
+<exercise id="fs-id1723977">
+<problem id="fs-id1723979">
+<para id="fs-id1723981"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−3</m:mn><m:mi>x</m:mi></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1723996">
+<problem id="fs-id1723998">
+<para id="fs-id1724000"><m:math><m:mrow><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>7</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1724018">
+<para id="fs-id1171105282392"><newline/>
+<media id="fs-id1724020" alt="The graph shows the x y-coordinate plane. Each axis runs from -6 to 6.  A line passes through the points “ordered pair 1,  5” and “ordered pair 0, 7”.">
+<image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_11_04_257_img.jpg"/>
+</media></para></solution>
+</exercise>
+<para id="fs-id1724074"><emphasis effect="bold">Graph Vertical and Horizontal lines</emphasis> </para><para id="eip-55">In the following exercises, graph the vertical or horizontal lines.</para><exercise id="fs-id1724081">
+<problem id="fs-id1724084">
+<para id="fs-id1724086"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−2</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1724098">
+<problem id="fs-id1724101">
+<para id="fs-id1724103"><m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>3</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1724114">
+<para id="fs-id1171105208607"><newline/>
+<media id="fs-id1724117" alt="The graph shows the x y-coordinate plane. Each axis runs from -6 to 6. A vertical line passes through the point “ordered pair 0, 3”.">
+<image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_11_04_260_img.jpg"/>
+</media></para></solution>
+</exercise>
+</section>
+<section id="fs-id1724131">
+<title><link class="target-chapter" document="m53183">Graphing with Intercepts</link></title><para id="fs-id1724142"><emphasis effect="bold">Identify the Intercepts on a Graph</emphasis> </para><para id="eip-919">In the following exercises, find the <m:math><m:mrow><m:mi>x</m:mi><m:mtext>-</m:mtext></m:mrow></m:math> and <m:math><m:mrow><m:mi>y</m:mi><m:mtext>-intercepts</m:mtext><m:mo>.</m:mo></m:mrow></m:math></para><exercise id="fs-id1724164"><problem id="fs-id1724166">
+<media id="fs-id1724168" alt="The graph shows the x y-coordinate plane. The axes run from -7 to 7. A line passes through the points “ordered pair 0,  4” and “ordered pair -4, 0”.">
+<image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_11_04_261_img.jpg"/>
+</media>
+</problem>
+</exercise><exercise id="fs-id1724182">
+<problem id="fs-id1724184">
+<media id="fs-id1724186" alt="The graph shows the x y-coordinate plane. The x-axis runs from -1 to 6. The y-axis runs from -4 to 2. A line passes through the points “ordered pair 5,  1” and “ordered pair 0, -3”.">
+<image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_11_04_262_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1724198">
+<para id="fs-id1724200">(0,3) (3,0)</para>
+</solution>
+</exercise>
+<para id="fs-id1724206"><emphasis effect="bold">Find the Intercepts from an Equation of a Line</emphasis> </para><para id="eip-805">In the following exercises, find the intercepts.</para><exercise id="fs-id1724213">
+<problem id="fs-id1724215">
+<para id="fs-id1724217"><m:math><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>5</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1724234">
+<problem id="fs-id1724236">
+<para id="fs-id1724239"><m:math><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−1</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1724255">
+<para id="fs-id1724257">(−1,0) (0,1)</para>
+</solution>
+</exercise>
+<exercise id="fs-id1724262">
+<problem id="fs-id1724264">
+<para id="fs-id1724266"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>3</m:mn><m:mn>4</m:mn></m:mfrac><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>12</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1724289">
+<problem id="fs-id1724291">
+<para id="fs-id1724293"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>3</m:mn><m:mi>x</m:mi></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1724307">
+<para id="fs-id1724309">(0,0)</para>
+</solution>
+</exercise>
+<para id="fs-id1724314"><emphasis effect="bold">Graph a Line Using the Intercepts</emphasis> </para><para id="eip-540">In the following exercises, graph using the intercepts.</para><exercise id="fs-id1724322">
+<problem id="fs-id1724324">
+<para id="fs-id1724326"><m:math><m:mrow><m:mo>−</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>3</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1724347">
+<problem id="fs-id1724349">
+<para id="fs-id1724352"><m:math><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−2</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1724368">
+<para id="fs-id1171103450018"><newline/>
+<media id="fs-id1724370" alt="This answer graph shows the x y-coordinate plane. The x and y-axis each run from -6 to 6.  The equation x plus y equals -2 is  shown. A line passes through the intercepts with coordinates 0, –2 and –2, 0.">
+<image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_11_04_264_img.jpg"/>
+</media></para>
+</solution>
+</exercise>
+<para id="fs-id1724383"><emphasis effect="bold">Choose the Most Convenient Method to Graph a Line</emphasis> </para><para id="eip-576">In the following exercises, identify the most convenient method to graph each line.</para><exercise id="fs-id1724390">
+<problem id="fs-id1724393">
+<para id="fs-id1724395"><m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>5</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1724408">
+<problem id="fs-id1724410">
+<para id="fs-id1724412"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−3</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1724424">
+<para id="fs-id1724426">horizontal line</para>
+</solution>
+</exercise>
+<exercise id="fs-id1724431">
+<problem id="fs-id1724433">
+<para id="fs-id1724435"><m:math><m:mrow><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>5</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1724454">
+<problem id="fs-id1724457">
+<para id="fs-id1724459"><m:math><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>2</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1724475">
+<para id="fs-id1724477">intercepts</para>
+</solution>
+</exercise>
+<exercise id="fs-id1724482">
+<problem id="fs-id1724484">
+<para id="fs-id1724486"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1724509">
+<problem id="fs-id1724511">
+<para id="fs-id1724513"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>3</m:mn><m:mn>4</m:mn></m:mfrac><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1724534">
+<para id="fs-id1724537">plotting points</para>
+</solution>
+</exercise>
+</section>
+<section id="fs-id1724543">
+<title><link class="target-chapter" document="m53185">Understand Slope of a Line</link></title><para id="fs-id1724553"><emphasis effect="bold">Use Geoboards to Model Slope</emphasis> </para><para id="eip-580">In the following exercises, find the slope modeled on each geoboard.</para><exercise id="fs-id1724561">
+<problem id="fs-id1724563">
+<media id="fs-id1724565" alt="The figure shows a grid of evenly spaced dots. There are 5 rows and 5 columns. There is a rubber band style loop connecting the point in column 1 row 4 and the point in column 4 row 2.">
+<image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_11_04_265_img.jpg"/>
+</media>
+</problem>
+</exercise>
+<exercise id="fs-id1724578">
+<problem id="fs-id1724581">
+<media id="fs-id1724583" alt="The figure shows a grid of evenly spaced dots. There are 5 rows and 5 columns. There is a rubber band style loop connecting the point in column 1 row 5 and the point in column 4 row 1.">
+<image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_11_04_266_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1724595">
+<para id="fs-id1724597"><m:math><m:mrow><m:mfrac><m:mn>4</m:mn><m:mn>3</m:mn></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1724609">
+<problem id="fs-id1724611">
+<media id="fs-id1724613" alt="The figure shows a grid of evenly spaced dots. There are 5 rows and 5 columns. There is a rubber band style loop connecting the point in column 1 row 3 and the point in column 4 row 4.">
+<image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_11_04_267_img.jpg"/>
+</media>
+</problem>
+</exercise>
+<exercise id="fs-id1724627">
+<problem id="fs-id1724629">
+<media id="fs-id1724631" alt="The figure shows a grid of evenly spaced dots. There are 5 rows and 5 columns. There is a rubber band style loop connecting the point in column 1 row 2 and the point in column 4 row 4.">
+<image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_11_04_268_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1724643">
+<para id="fs-id1724646"><m:math><m:mrow><m:mo>−</m:mo><m:mfrac><m:mn>2</m:mn><m:mn>3</m:mn></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+<para id="fs-id1724659">In the following exercises, model each slope. Draw a picture to show your results.</para>
+<exercise id="fs-id1724663">
+<problem id="fs-id1724665">
+<para id="fs-id1724667"><m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1724679">
+<problem id="fs-id1724681">
+<para id="fs-id1724683"><m:math><m:mrow><m:mfrac><m:mn>3</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1724694">
+<para id="fs-id1171105192652"><newline/>
+<media id="fs-id1724696" alt="The figure shows a grid of evenly spaced dots. There are 5 rows and 5 columns. There is a rubber band style loop connecting the point in column 1 row 5 and the point in column 3 row 2.">
+<image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_11_04_270_img.jpg"/>
+</media></para>
+</solution>
+</exercise>
+<exercise id="fs-id1724709">
+<problem id="fs-id1724711">
+<para id="fs-id1724713"><m:math><m:mrow><m:mo>−</m:mo><m:mfrac><m:mn>2</m:mn><m:mn>3</m:mn></m:mfrac></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1724727">
+<problem id="fs-id1724729">
+<para id="fs-id1724732"><m:math><m:mrow><m:mo>−</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1724744">
+<para id="fs-id1171105183378"><newline/>
+<media id="fs-id1724746" alt="The figure shows a grid of evenly spaced dots. There are 5 rows and 5 columns. There is a rubber band style loop connecting the point in column 1 row 2 and the point in column 3 row 3.">
+<image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_11_04_272_img.jpg"/>
+</media></para>
+</solution>
+</exercise>
+<para id="fs-id1724760"><emphasis effect="bold">Find the Slope of a Line from its Graph</emphasis> </para><para id="eip-75">In the following exercises, find the slope of each line shown.</para><exercise id="fs-id1724767"><problem id="fs-id1724769">
+<media id="fs-id1724772" alt="The graph shows the x y-coordinate plane. The axes run from -7 to 7. A line passes through the points “ordered pair 0,  0” and “ordered pair 2, -6”.">
+<image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_11_04_273_img.jpg"/>
+</media>
+</problem>
+</exercise><exercise id="fs-id1724785"><problem id="fs-id1724787">
+<media id="fs-id1724789" alt="The graph shows the x y-coordinate plane. The axes run from -7 to 7. A line passes through the points “ordered pair 0,  4” and “ordered pair -4, 0”.">
+<image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_11_04_274_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1724802">
+<para id="fs-id1724804">1</para>
+</solution>
+</exercise><exercise id="fs-id1724809"><problem id="fs-id1724811">
+<media id="fs-id1724813" alt="The graph shows the x y-coordinate plane. The axes run from -7 to 7. A line passes through the points “ordered pair -4,  -4” and “ordered pair 5, -1”.">
+<image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_11_04_275_img.jpg"/>
+</media>
+</problem>
+</exercise><exercise id="fs-id1724827"><problem id="fs-id1724829">
+<media id="fs-id1724831" alt="The graph shows the x y-coordinate plane. The axes run from -7 to 7. A line passes through the points “ordered pair -3,  6” and “ordered pair 5, 2”.">
+<image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_11_04_276_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1724844">
+<para id="fs-id1724846"><m:math><m:mrow><m:mo>−</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise><para id="fs-id1724860"><emphasis effect="bold">Find the Slope of Horizontal and Vertical Lines</emphasis> </para><para id="eip-583">In the following exercises, find the slope of each line.</para><exercise id="fs-id1724867">
+<problem id="fs-id1724869">
+<para id="fs-id1724871"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>2</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1724884">
+<problem id="fs-id1724886">
+<para id="fs-id1724888"><m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>5</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1724900">
+<para id="fs-id1724902">undefined</para>
+</solution>
+</exercise>
+<exercise id="fs-id1724907">
+<problem id="fs-id1724910">
+<para id="fs-id1724912"><m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>−3</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1724924">
+<problem id="fs-id1724927">
+<para id="fs-id1724929"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−1</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1724940">
+<para id="fs-id1724943">0</para>
+</solution>
+</exercise>
+<para id="fs-id1724948"><emphasis effect="bold">Use the Slope Formula to find the Slope of a Line between Two Points</emphasis> </para><para id="eip-419">In the following exercises, use the slope formula to find the slope of the line between each pair of points.</para><exercise id="fs-id1724956">
+<problem id="fs-id1724958">
+<para id="fs-id1724961"><m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:mo>,</m:mo><m:mo stretchy="false">(</m:mo><m:mn>4</m:mn><m:mo>,</m:mo><m:mn>5</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1724998">
+<problem id="fs-id1725001">
+<para id="fs-id1725003"><m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>−1</m:mn><m:mo>,</m:mo><m:mn>−1</m:mn><m:mo stretchy="false">)</m:mo><m:mo>,</m:mo><m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>−5</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1725042">
+<para id="fs-id1725044">−4</para>
+</solution>
+</exercise>
+<exercise id="fs-id1725049">
+<problem id="fs-id1725051">
+<para id="fs-id1725053"><m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>5</m:mn><m:mo stretchy="false">)</m:mo><m:mo>,</m:mo><m:mo stretchy="false">(</m:mo><m:mn>4</m:mn><m:mo>,</m:mo><m:mn>−1</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1725091">
+<problem id="fs-id1725093">
+<para id="fs-id1725096"><m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>−5</m:mn><m:mo>,</m:mo><m:mn>−2</m:mn><m:mo stretchy="false">)</m:mo><m:mo>,</m:mo><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1725134">
+<para id="fs-id1725137"><m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+<para id="fs-id1725148"><emphasis effect="bold">Graph a Line Given a Point and the Slope</emphasis> </para><para id="eip-718">In the following exercises, graph the line given a point and the slope.</para><exercise id="fs-id1725156">
+<problem id="fs-id1725158">
+<para id="fs-id1725160"><m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>−2</m:mn><m:mo stretchy="false">)</m:mo><m:mo>;</m:mo><m:mi>m</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>5</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1725193">
+<problem id="fs-id1725195">
+<para id="fs-id1725197"><m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>−3</m:mn><m:mo>,</m:mo><m:mn>4</m:mn><m:mo stretchy="false">)</m:mo><m:mo>;</m:mo><m:mi>m</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1725233">
+<para id="fs-id1171105077428"><newline/>
+<media id="fs-id1725235" alt="The graph shows the x y-coordinate plane. The x-axis runs from -6 to 6. The y-axis runs from -4 to 2. A line passes through the points “ordered pair -3,  4” and “ordered pair 1, 3”.">
+<image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_11_04_278_img.jpg"/>
+</media></para></solution>
+</exercise>
+<para id="fs-id1725249"><emphasis effect="bold">Solve Slope Applications</emphasis> </para><para id="eip-1">In the following exercise, solve the slope application.</para><exercise id="fs-id1725256">
+<problem id="fs-id1725258">
+<para id="fs-id1725260">A roof has rise <m:math><m:mrow><m:mn>10</m:mn></m:mrow></m:math> feet and run <m:math><m:mrow><m:mn>15</m:mn></m:mrow></m:math> feet. What is its slope?</para>
+</problem>
+</exercise>
+<para id="fs-id1171105212408"><newline/></para>
+</section>
+</section>
+<section id="fs-id1725312" class="practice-test">
+<title>Chapter Practice Test</title>
+<exercise id="fs-id1725320"><problem id="fs-id1725322">
+<para id="fs-id1725324">Plot and label these points:</para>
+<list id="eip-id1164752955290" list-type="enumerated" number-style="arabic" class="circled"><item><span class="token">ⓐ</span><m:math><m:mspace width="0.2em"/><m:mo>(</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>5</m:mn><m:mo>)</m:mo></m:math></item>
+<item><span class="token">ⓑ</span><m:math><m:mrow><m:mspace width="0.2em"/><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−1</m:mn><m:mo>,</m:mo><m:mn>−3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></item>
+<item><span class="token">ⓒ</span><m:math><m:mrow><m:mspace width="0.2em"/><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−4</m:mn><m:mo>,</m:mo><m:mn>0</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></item>
+<item><span class="token">ⓓ</span><m:math><m:mrow><m:mspace width="0.2em"/><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>−5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></item>
+<item><span class="token">ⓔ</span><m:math><m:mrow><m:mspace width="0.2em"/><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−2</m:mn><m:mo>,</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></item></list></problem>
+
+
+<solution id="fs-id1725440">
+<para id="fs-id1171105512311"><newline/>
+<media id="fs-id1725442" alt="The graph shows the x y-coordinate plane. The axes extend from -6 to 6. a is plotted at 2, 5, b at -1, -3, c at -4, 0, d at 3, -5, and e at -2,1.">
+<image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_11_04_279_img.jpg"/>
+</media></para>
+</solution>
+</exercise><exercise id="fs-id1725455"><problem id="fs-id1725457">
+<para id="fs-id1725460">Name the ordered pair for each point shown.</para>
+<media id="fs-id1725463" alt="The graph shows the x y-coordinate plane. The axes extend from -7 to 7. A is plotted at -4, 1, B at 3, 2, C at 0, -2, D at -1, -4, and E at 4,-3.">
+<image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_11_04_280_img.jpg"/>
+</media>
+</problem>
+</exercise><exercise id="fs-id1725476"><problem id="fs-id1725478">
+<para id="fs-id1725480">Find the <m:math><m:mrow><m:mi>x</m:mi><m:mtext>-intercept</m:mtext></m:mrow></m:math> and <m:math><m:mrow><m:mi>y</m:mi><m:mtext>-intercept</m:mtext></m:mrow></m:math> on the line shown.</para>
+<media id="fs-id1725499" alt=" The graph shows the x y-coordinate plane. The x-axis runs from -7 to 7. The y-axis runs from -7 to 7. A line passes through the points “ordered pair 4,  0” and “ordered pair 0, -2”.">
+<image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_11_04_281_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1725511">
+<para id="fs-id1725513">(4,0), (0,−2)</para>
+</solution>
+</exercise><exercise id="fs-id1725518">
+<problem id="fs-id1725521">
+<para id="fs-id1725523">Find the <m:math><m:mrow><m:mi>x</m:mi><m:mtext>-intercept</m:mtext></m:mrow></m:math> and <m:math><m:mrow><m:mi>y</m:mi><m:mtext>-intercept</m:mtext></m:mrow></m:math> of the equation <m:math><m:mrow><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>6</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1725560">
+<problem id="fs-id1725562">
+<para id="fs-id1725564">Is <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> a solution to the equation <m:math><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>12</m:mn><m:mo>?</m:mo></m:mrow></m:math> How do you know?</para>
+</problem>
+<solution id="fs-id1725603">
+<para id="fs-id1725605">no; 1 + 4 · 3 ≠ 12</para>
+</solution>
+</exercise>
+<exercise id="fs-id1725610">
+<problem id="fs-id1725612">
+<para id="fs-id1725614">Complete the table to find four solutions to the equation <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+<table id="fs-id1725635" class="unnumbered" summary="This  has 5 rows and 3 columns. The first row is a header row and it labels each column “x”, “y”, and  “ordered pair x, y”. Under the column “x”,are the values  0, 1, 3, and -2. ">
+<label/>
+<tgroup cols="3">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<tbody>
+<row valign="top">
+<entry align="left"><m:math><m:mi>x</m:mi></m:math></entry>
+<entry align="left"><m:math><m:mi>y</m:mi></m:math></entry>
+<entry align="left"><m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>y</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry align="left"><m:math><m:mn>0</m:mn></m:math></entry>
+<entry align="left"/>
+<entry align="left"/>
+</row>
+<row valign="top">
+<entry align="left"><m:math><m:mn>1</m:mn></m:math></entry>
+<entry align="left"/>
+<entry align="left"/>
+</row>
+<row valign="top">
+<entry align="left"><m:math><m:mn>3</m:mn></m:math></entry>
+<entry align="left"/>
+<entry align="left"/>
+</row>
+<row valign="top">
+<entry align="left"><m:math><m:mrow><m:mn>−2</m:mn></m:mrow></m:math></entry>
+<entry align="left"/>
+<entry align="left"/>
+</row>
+</tbody>
+</tgroup>
+</table>
+</problem>
+</exercise>
+<exercise id="fs-id1725798">
+<problem id="fs-id1725800">
+<para id="fs-id1725802">Complete the table to find three solutions to the equation <m:math><m:mrow><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>8</m:mn></m:mrow></m:math></para>
+<table id="fs-id1725820" class="unnumbered" summary="This table has 4 rows and 3 columns. The first row is a header row and it labels each column “x”, “y”, and  “ordered pair x, y”. Under the column “x”,are the values 0 in the first row and 3 in the  third row. Under the column “y”, is the value 0 in the second row.">
+<label/>
+<tgroup cols="3">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<tbody>
+<row valign="top">
+<entry align="left"><m:math><m:mi>x</m:mi></m:math></entry>
+<entry align="left"><m:math><m:mi>y</m:mi></m:math></entry>
+<entry align="left"><m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>y</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry align="left"><m:math><m:mn>0</m:mn></m:math></entry>
+<entry align="left"/>
+<entry align="left"/>
+</row>
+<row valign="top">
+<entry align="left"/>
+<entry align="left"><m:math><m:mn>0</m:mn></m:math></entry>
+<entry align="left"/>
+</row>
+<row valign="top">
+<entry align="left"><m:math><m:mn>3</m:mn></m:math></entry>
+<entry align="left"/>
+<entry align="left"/>
+</row>
+</tbody>
+</tgroup>
+</table>
+</problem>
+<solution id="fs-id1725961">
+<table id="fs-id1725963" class="unnumbered" summary="This table has 4 rows and 3 columns. The first row is a header row and it labels each column “x”, “y”, and  “ordered pair x, y”. Under the column “x”,are the values 0, 2, 3. Under the column “y”,are the values  8, 0, and -4. Under the column “ordered pair x, y”,are the values “ordered pair  0,  8”, “ordered pair 2,  0”, and “ordered pair 3, -4”,.">
+<label/>
+<tgroup cols="3">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<tbody>
+<row valign="top">
+<entry align="left"><m:math><m:mi>x</m:mi></m:math></entry>
+<entry align="left"><m:math><m:mi>y</m:mi></m:math></entry>
+<entry align="left"><m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>y</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry align="left"><m:math><m:mn>0</m:mn></m:math></entry>
+<entry align="left"><m:math><m:mn>8</m:mn></m:math></entry>
+<entry align="left"><m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>8</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry align="left"><m:math><m:mn>2</m:mn></m:math></entry>
+<entry align="left"><m:math><m:mn>0</m:mn></m:math></entry>
+<entry align="left"><m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>0</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry align="left"><m:math><m:mn>3</m:mn></m:math></entry>
+<entry align="left"><m:math><m:mrow><m:mn>−4</m:mn></m:mrow></m:math></entry>
+<entry align="left"><m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>−4</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</solution>
+</exercise>
+<para id="fs-id1726166">In the following exercises, find three solutions to each equation and then graph each line.</para>
+<exercise id="fs-id1726170">
+<problem id="fs-id1726172">
+<para id="fs-id1726174"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−3</m:mn><m:mi>x</m:mi></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1726189">
+<problem id="fs-id1726191">
+<para id="fs-id1726193"><m:math><m:mrow><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−6</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1726213">
+<para id="fs-id1171103602483"><newline/>
+<media id="fs-id1726216" alt=" The graph shows the x y-coordinate plane. The x-axis runs from -6 to 6. The y-axis runs from -6 to 6. A line passes through the points “ordered pair 0,  -2” and “ordered pair -3, 0”.">
+<image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_11_04_283_img.jpg"/>
+</media></para>
+</solution>
+</exercise>
+<para id="fs-id1726229">In the following exercises, find the slope of each line.</para>
+<exercise id="fs-id1726232"><problem id="fs-id1726234">
+<media id="fs-id1726236" alt="The graph shows the x y-coordinate plane. The axes run from -7 to 7. The y-axis runs from -5 to -4. A line passes through the points “ordered pair 6,  4” and “ordered pair 0, -3”.">
+<image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_11_04_284_img.jpg"/>
+</media>
+</problem>
+</exercise><exercise id="fs-id1726250"><problem id="fs-id1726252">
+<media id="fs-id1726254" alt="The graph shows the x y-coordinate plane. The axes run from -7 to 7. A line passes through the points “ordered pair 3,  0” and “ordered pair 1, 5”.">
+<image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_11_04_285_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1726267">
+<para id="fs-id1726269"><m:math><m:mrow><m:mo>−</m:mo><m:mfrac><m:mn>5</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise><exercise id="fs-id1726283">
+<problem id="fs-id1726285">
+<para id="fs-id1726287">Use the slope formula to find the slope of the line between <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>−4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> and <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>5</m:mn><m:mo>,</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1726325">
+<problem id="fs-id1726327">
+<para id="fs-id1726330">Find the slope of the line <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1726344">
+<para id="fs-id1726347">0</para>
+</solution>
+</exercise>
+<exercise id="fs-id1726352">
+<problem id="fs-id1726354">
+<para id="fs-id1726356">Graph the line passing through <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> with slope <m:math><m:mrow><m:mi>m</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>3</m:mn><m:mn>2</m:mn></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1726391">
+<problem id="fs-id1726394">
+<para id="fs-id1726396">A bicycle route climbs <m:math><m:mrow><m:mn>20</m:mn></m:mrow></m:math> feet for <m:math><m:mrow><m:mn>1,000</m:mn></m:mrow></m:math> feet of horizontal distance. What is the slope of the route?</para>
+</problem>
+<solution id="fs-id1726411">
+<para id="fs-id1726413"><m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>50</m:mn></m:mrow></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise></section>
+</content>
+<glossary>
+<definition id="fs-id1726430">
+<term>slope of a line</term>
+<meaning id="fs-id1726435">The slope of a line is <m:math><m:mi>m</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mtext>rise</m:mtext></m:mrow><m:mrow><m:mtext>run</m:mtext></m:mrow></m:mfrac></m:math>. The rise measures the vertical change and the run measures the horizontal change.</meaning>
+</definition>
+</glossary>
+</document>

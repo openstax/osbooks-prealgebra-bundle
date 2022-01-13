@@ -1,0 +1,1619 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Factor Quadratic Trinomials with Leading Coefficient Other than 1</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m60182</md:content-id>
+  <md:title>Factor Quadratic Trinomials with Leading Coefficient Other than 1</md:title>
+  <md:abstract><para>By the end of this section, you will be able to:</para>
+<list>
+<item>Recognize a preliminary strategy to factor polynomials completely</item>
+<item>Factor trinomials of the form <m:math><m:mrow><m:mi>a</m:mi><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>b</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>c</m:mi></m:mrow></m:math> with a GCF</item>
+<item>Factor trinomials using trial and error</item>
+<item>Factor trinomials using the ‘ac’ method</item>
+</list></md:abstract>
+  <md:uuid>9ed2c78a-ebd9-4fbd-815b-bc725e4ac70f</md:uuid>
+</metadata>
+
+<content>
+<note id="fs-id1168345427134" class="be-prepared">
+<para id="fs-id1168345543397">Before you get started, take this readiness quiz.</para>
+<list id="fs-id1168345421221" list-type="enumerated" number-style="arabic">
+<item>Find the GCF of <m:math><m:mrow><m:mn>45</m:mn><m:msup><m:mi>p</m:mi><m:mn>2</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>and</m:mtext><m:mspace width="0.2em"/><m:mn>30</m:mn><m:msup><m:mi>p</m:mi><m:mn>6</m:mn></m:msup></m:mrow></m:math>.<newline/>
+If you missed this problem, review <link document="m60295" target-id="fs-id1168345342784"/>.</item>
+<item>Multiply <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>4</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>5</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math>.<newline/>
+If you missed this problem, review <link document="m60190" target-id="fs-id1169596555576"/>.</item>
+<item>Combine like terms <m:math><m:mrow><m:mn>12</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>5</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>9</m:mn></m:mrow></m:math>.<newline/>
+If you missed this problem, review <link document="m60247" target-id="fs-id1170654940588"/>.</item>
+</list>
+</note>
+<section id="fs-id1168345454864">
+<title>Recognize a Preliminary Strategy for Factoring</title>
+<para id="fs-id1168345252437">Let’s summarize where we are so far with factoring polynomials. In the first two sections of this chapter, we used three methods of factoring: factoring the GCF, factoring by grouping, and factoring a trinomial by “undoing” FOIL. More methods will follow as you continue in this chapter, as well as later in your studies of algebra.</para>
+<para id="fs-id1168341852348">How will you know when to use each factoring method? As you learn more methods of factoring, how will you know when to apply each method and not get them confused? It will help to organize the factoring methods into a strategy that can guide you to use the correct method.</para>
+<para id="fs-id1168345422027">As you start to factor a polynomial, always ask first, “Is there a greatest common factor?” If there is, factor it first.</para>
+<para id="fs-id1168345558297">The next thing to consider is the type of polynomial. How many terms does it have? Is it a binomial? A trinomial? Or does it have more than three terms?</para>
+<para id="fs-id1168345426468">If it is a trinomial where the leading coefficient is one, <m:math><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>b</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>c</m:mi></m:mrow></m:math>, use the “undo FOIL” method.</para>
+<para id="fs-id1168341853057">If it has more than three terms, try the grouping method. This is the only method to use for polynomials of more than three terms.</para>
+<para id="fs-id1168345509706">Some polynomials cannot be factored. They are called “prime.”</para>
+<para id="fs-id1168345256709">Below we summarize the methods we have so far. These are detailed in <link target-id="fs-id1168345439769">Choose a strategy to factor polynomials completely</link>.</para>
+<media id="fs-id1168341961240" alt="This figure lists strategies for factoring polynomials. At the top of the figure is G C F, where factoring always starts. From there, the figure has three branches. The first is binomial, the second is trinomial with the form x ^ 2 + b x +c, and the third is “more than three terms”, which is labeled with grouping.">
+<image mime-type="image/jpeg" src="../../media/CNX_Elem Alg_Figure_07_03_001_img_new.jpg"/>
+</media>
+<note id="fs-id1168345439769" class="howto">
+<title>Choose a strategy to factor polynomials completely.</title>
+<list id="fs-id1168746658049" list-type="enumerated" number-style="arabic" class="stepwise">
+<item>Is there a greatest common factor?
+<list id="fs-id1168341906999" list-type="bulleted" bullet-style="bullet">
+<item>Factor it out.</item>
+</list></item>
+<item>Is the polynomial a binomial, trinomial, or are there more than three terms?
+<list id="fs-id1168345398438" list-type="bulleted" bullet-style="bullet">
+<item>If it is a binomial, right now we have no method to factor it.</item>
+<item>If it is a trinomial of the form <m:math><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>b</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>c</m:mi></m:mrow></m:math>: Undo FOIL <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mspace width="1em"/></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mspace width="1em"/></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></item>
+<item>If it has more than three terms: Use the grouping method.</item>
+</list></item>
+<item>Check by multiplying the factors.</item>
+</list>
+</note>
+<para id="fs-id1168345623078">Use the preliminary strategy to completely factor a polynomial. A polynomial is factored completely if, other than monomials, all of its factors are prime.</para>
+<example id="fs-id1168345435723">
+<exercise id="fs-id1168345520324">
+<problem id="fs-id1168345746515">
+<para id="fs-id1168345276764">Identify the best method to use to factor each polynomial.</para>
+<list id="fs-id1168746548144" list-type="enumerated" number-style="arabic" class="circled">
+<item><span class="token">ⓐ</span> <m:math><m:mrow><m:mn>6</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>72</m:mn></m:mrow></m:math></item>
+<item><span class="token">ⓑ</span> <m:math><m:mrow><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>10</m:mn><m:mi>r</m:mi><m:mo>−</m:mo><m:mn>24</m:mn></m:mrow></m:math></item>
+<item><span class="token">ⓒ</span> <m:math><m:mrow><m:msup><m:mi>p</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>5</m:mn><m:mi>p</m:mi><m:mo>+</m:mo><m:mi>p</m:mi><m:mi>q</m:mi><m:mo>+</m:mo><m:mn>5</m:mn><m:mi>q</m:mi></m:mrow></m:math></item>
+</list>
+</problem>
+<solution id="fs-id1168341960786">
+<title>Solution</title>
+<list id="fs-id1168744266304" list-type="enumerated" number-style="arabic" class="circled">
+<item><span class="token">ⓐ</span><newline/>
+<m:math><m:mtable><m:mtr><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mn>6</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>72</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>Is there a greatest common factor?</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mtext>Yes, 6.</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>Factor out the 6.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mn>6</m:mn><m:mrow><m:mo>(</m:mo><m:mrow><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>12</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>Is it a binomial, trinomial, or are there</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mtext>Binomial, we have no method to factor</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>more than 3 terms?</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mtext>binomials yet.</m:mtext></m:mtd></m:mtr></m:mtable></m:math><newline/><newline/></item>
+<item><span class="token">ⓑ</span><newline/>
+<m:math><m:mtable><m:mtr><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>10</m:mn><m:mi>r</m:mi><m:mo>−</m:mo><m:mn>24</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>Is there a greatest common factor?</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mtext>No, there is no common factor.</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>Is it a binomial, trinomial, or are there</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mtext>Trinomial, with leading coefficient 1, so</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>more than three terms?</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mtext>“undo” FOIL.</m:mtext></m:mtd></m:mtr></m:mtable></m:math><newline/><newline/></item>
+<item><span class="token">ⓒ</span><newline/>
+<m:math><m:mtable><m:mtr><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:msup><m:mi>p</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>5</m:mn><m:mi>p</m:mi><m:mo>+</m:mo><m:mi>p</m:mi><m:mi>q</m:mi><m:mo>+</m:mo><m:mn>5</m:mn><m:mi>q</m:mi></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>Is there a greatest common factor?</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mtext>No, there is no common factor.</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>Is it a binomial, trinomial, or are there</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mtext>More than three terms, so factor using</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>more than three terms?</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mtext>grouping.</m:mtext></m:mtd></m:mtr></m:mtable></m:math></item>
+</list>
+</solution>
+</exercise>
+</example>
+<note id="fs-id1168345210136" class="try">
+<exercise id="fs-id1168345431576">
+<problem id="fs-id1168341977747">
+<para id="fs-id1168345260449">Identify the best method to use to factor each polynomial:</para>
+<list id="fs-id1168746331553" list-type="enumerated" number-style="arabic" class="circled">
+<item><span class="token">ⓐ</span> <m:math><m:mrow><m:mn>4</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>32</m:mn></m:mrow></m:math></item>
+<item><span class="token">ⓑ</span> <m:math><m:mrow><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>10</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>21</m:mn></m:mrow></m:math></item>
+<item><span class="token">ⓒ</span> <m:math><m:mrow><m:mi>y</m:mi><m:mi>z</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>z</m:mi><m:mo>+</m:mo><m:mn>6</m:mn></m:mrow></m:math></item>
+</list>
+</problem>
+<solution id="fs-id1168345253264">
+<para id="fs-id1168345579987"><span class="token">ⓐ</span> no method <span class="token">ⓑ</span> undo using FOIL <span class="token">ⓒ</span> factor with grouping</para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1168345517599" class="try">
+<exercise id="fs-id1168345453432">
+<problem id="fs-id1168345407862">
+<para id="fs-id1168345529779">Identify the best method to use to factor each polynomial:</para>
+<list id="fs-id1168746657849" list-type="enumerated" number-style="arabic" class="circled">
+<item><span class="token">ⓐ</span> <m:math><m:mrow><m:mi>a</m:mi><m:mi>b</m:mi><m:mo>+</m:mo><m:mi>a</m:mi><m:mo>+</m:mo><m:mn>4</m:mn><m:mi>b</m:mi><m:mo>+</m:mo><m:mn>4</m:mn></m:mrow></m:math></item>
+<item><span class="token">ⓑ</span> <m:math><m:mrow><m:mn>3</m:mn><m:msup><m:mi>k</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>15</m:mn></m:mrow></m:math></item>
+<item><span class="token">ⓒ</span> <m:math><m:mrow><m:msup><m:mi>p</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>9</m:mn><m:mi>p</m:mi><m:mo>+</m:mo><m:mn>8</m:mn></m:mrow></m:math></item>
+</list>
+</problem>
+<solution id="fs-id1168342104230">
+<para id="fs-id1168345384975"><span class="token">ⓐ</span> factor using grouping <span class="token">ⓑ</span> no method <span class="token">ⓒ</span> undo using FOIL</para>
+</solution>
+</exercise>
+</note>
+</section>
+<section id="fs-id1168345292595">
+<title>Factor Trinomials of the form <emphasis effect="italics">ax</emphasis><sup>2</sup> + <emphasis effect="italics">bx</emphasis> + <emphasis effect="italics">c</emphasis> with a GCF</title>
+<para id="fs-id1168345370390">Now that we have organized what we’ve covered so far, we are ready to factor trinomials whose leading coefficient is not 1, trinomials of the form <m:math><m:mrow><m:mi>a</m:mi><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>b</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>c</m:mi></m:mrow></m:math>.</para>
+<para id="fs-id1168345297304">Remember to always check for a GCF first! Sometimes, after you factor the GCF, the leading coefficient of the trinomial becomes 1 and you can factor it by the methods in the last section. Let’s do a few examples to see how this works.</para>
+<para id="fs-id1168345574651">Watch out for the signs in the next two examples.</para>
+<example id="fs-id1168345330140">
+<exercise id="fs-id1168345390125">
+<problem id="fs-id1168345436701">
+<para id="fs-id1168345409131">Factor completely: <m:math><m:mrow><m:mn>2</m:mn><m:msup><m:mi>n</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>8</m:mn><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>42</m:mn></m:mrow></m:math>.</para>
+</problem>
+<solution id="fs-id1168345441370">
+<title>Solution</title>
+<para id="fs-id1168345416513">Use the preliminary strategy.</para>
+<para id="fs-id1168345384356"><m:math><m:mtable><m:mtr><m:mtd columnalign="left"><m:mtext>Is there a greatest common factor?</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mn>2</m:mn><m:msup><m:mi>n</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>8</m:mn><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>42</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mspace width="2.5em"/><m:mtext>Yes, GCF = 2. Factor it out.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mn>2</m:mn><m:mrow><m:mo>(</m:mo><m:mrow><m:msup><m:mi>n</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>4</m:mn><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>21</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>Inside the parentheses, is it a binomial, trinomial, or are there</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd/></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>more than three terms?</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd/></m:mtr><m:mtr><m:mtd columnalign="left"><m:mspace width="2.5em"/><m:mtext>It is a trinomial whose coefficient is 1, so undo FOIL.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mn>2</m:mn><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>n</m:mi><m:mspace width="1em"/></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>n</m:mi><m:mspace width="1em"/></m:mrow><m:mo>)</m:mo></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mspace width="2.5em"/><m:mtext>Use 3 and</m:mtext><m:mspace width="0.2em"/><m:mn>−7</m:mn><m:mspace width="0.2em"/><m:mtext>as the last terms of the binomials.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mn>2</m:mn><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>n</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>7</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mtd></m:mtr></m:mtable></m:math></para>
+<table id="fs-id1168345366985" class="unnumbered" summary="This table has two columns. The first column is labeled factors of −21 and the second column is labeled sum of factors. The first row has the factors 1, −21 and the sum 1 + (-21) = −20. The second row has the factors 3, −7 and the sum 3 + (-7) = −4. This row is marked with an asterisk.">
+<label/>
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<thead>
+<row valign="top">
+<entry align="center" valign="top">Factors of <m:math><m:mrow><m:mn>−21</m:mn></m:mrow></m:math></entry>
+<entry align="center" valign="top">Sum of factors</entry>
+</row>
+</thead>
+<tbody>
+<row valign="top">
+<entry align="center" valign="top"><m:math><m:mrow><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>−21</m:mn></m:mrow></m:math></entry>
+<entry align="center" valign="top"><m:math><m:mrow><m:mn>1</m:mn><m:mo>+</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−21</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>−20</m:mn></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry align="center" valign="top"><m:math><m:mrow><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>−7</m:mn></m:mrow></m:math></entry>
+<entry align="center" valign="top"><m:math><m:mrow><m:mn>3</m:mn><m:mo>+</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−7</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>−4</m:mn><m:mtext>*</m:mtext></m:mrow></m:math></entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<para id="fs-id1168345384351">Check.</para>
+<para id="fs-id1168345240508"><m:math><m:mrow><m:mspace width="2.5em"/><m:mn>2</m:mn><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>n</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>7</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+<para id="fs-id1168341968046"><m:math><m:mrow><m:mspace width="2.5em"/><m:mn>2</m:mn><m:mo stretchy="false">(</m:mo><m:msup><m:mi>n</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>7</m:mn><m:mi>n</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>21</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para>
+<para id="fs-id1168345300888"><m:math><m:mrow><m:mspace width="2.5em"/><m:mn>2</m:mn><m:mo stretchy="false">(</m:mo><m:msup><m:mi>n</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>4</m:mn><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>21</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para>
+<para id="fs-id1168342082257"><m:math><m:mrow><m:mspace width="2.5em"/><m:mn>2</m:mn><m:msup><m:mi>n</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>8</m:mn><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>42</m:mn><m:mspace width="0.2em"/><m:mo>✓</m:mo></m:mrow></m:math></para>
+</solution>
+</exercise>
+</example>
+<note id="fs-id1168345241699" class="try">
+<exercise id="fs-id1168345377311">
+<problem id="fs-id1168345419206">
+<para id="fs-id1168345328049">Factor completely: <m:math><m:mrow><m:mn>4</m:mn><m:msup><m:mi>m</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>4</m:mn><m:mi>m</m:mi><m:mo>−</m:mo><m:mn>8</m:mn></m:mrow></m:math>.</para>
+</problem>
+<solution id="fs-id1168345644039">
+<para id="fs-id1168345270147"><m:math><m:mrow><m:mn>4</m:mn><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>m</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>m</m:mi><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1168345283164" class="try">
+<exercise id="fs-id1168345375154">
+<problem id="fs-id1168345300941">
+<para id="fs-id1168341973299">Factor completely: <m:math><m:mrow><m:mn>5</m:mn><m:msup><m:mi>k</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>15</m:mn><m:mi>k</m:mi><m:mo>−</m:mo><m:mn>50</m:mn></m:mrow></m:math>.</para>
+</problem>
+<solution id="fs-id1168345456078">
+<para id="fs-id1168345744922"><m:math><m:mrow><m:mn>5</m:mn><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>k</m:mi><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>k</m:mi><m:mo>−</m:mo><m:mn>5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<example id="fs-id1168345274691">
+<exercise id="fs-id1168345452003">
+<problem id="fs-id1168345194847">
+<para id="fs-id1168345399458">Factor completely: <m:math><m:mrow><m:mn>4</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>36</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>56</m:mn></m:mrow></m:math>.</para>
+</problem>
+<solution id="fs-id1168345292397">
+<title>Solution</title>
+<para id="fs-id1168345195185">Use the preliminary strategy.</para>
+<para id="fs-id1168345448172"><m:math><m:mtable><m:mtr><m:mtd columnalign="left"><m:mtext>Is there a greatest common factor?</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mn>4</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>36</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>56</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mspace width="2.5em"/><m:mtext>Yes, GCF = 4. Factor it.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mn>4</m:mn><m:mrow><m:mo>(</m:mo><m:mrow><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>9</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>14</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>Inside the parentheses, is it a binomial, trinomial, or are</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd/></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>there more than three terms?</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd/></m:mtr><m:mtr><m:mtd columnalign="left"><m:mspace width="2.5em"/><m:mtext>It is a trinomial whose coefficient is 1. So undo FOIL.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mn>4</m:mn><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>y</m:mi><m:mspace width="1.5em"/></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>y</m:mi><m:mspace width="1.5em"/></m:mrow><m:mo>)</m:mo></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>Use a table like the one below to find two numbers that multiply to</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd/></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>14</m:mn><m:mspace width="0.2em"/><m:mtext>and add to</m:mtext><m:mspace width="0.2em"/><m:mn>−9</m:mn><m:mo>.</m:mo></m:mtd><m:mtd/><m:mtd/><m:mtd/></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>Both factors of 14 must be negative.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mn>4</m:mn><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>7</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mtd></m:mtr></m:mtable></m:math></para>
+<table id="fs-id1168345196542" class="unnumbered" summary="This table has two columns. The first column is labeled factors of 14 and the second column is labeled sum of factors. The first row has the factors negative 1, negative 14 and the sum negative 1 + (negative 14) = negative 15. The second row has the factors negative 2, negative 7 and the sum negative 2 + (negative 7) = negative 9. This row is labeled with an asterisk.">
+<label/>
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<thead>
+<row valign="top">
+<entry align="center" valign="top">Factors of <m:math><m:mrow><m:mn>14</m:mn></m:mrow></m:math></entry>
+<entry align="center" valign="top">Sum of factors</entry>
+</row>
+</thead>
+<tbody>
+<row valign="top">
+<entry align="center" valign="top"><m:math><m:mrow><m:mn>−1</m:mn><m:mo>,</m:mo><m:mn>−14</m:mn></m:mrow></m:math></entry>
+<entry align="center" valign="top"><m:math><m:mrow><m:mn>−1</m:mn><m:mo>+</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−14</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>−15</m:mn></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry align="center" valign="top"><m:math><m:mrow><m:mn>−2</m:mn><m:mo>,</m:mo><m:mn>−7</m:mn></m:mrow></m:math></entry>
+<entry align="center" valign="top"><m:math><m:mrow><m:mn>−2</m:mn><m:mo>+</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−7</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>−9</m:mn><m:mtext>*</m:mtext></m:mrow></m:math></entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<para id="fs-id1168345406929">Check.</para>
+<para id="fs-id1168345385569"><m:math><m:mrow><m:mspace width="2.5em"/><m:mn>4</m:mn><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>7</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+<para id="fs-id1168345544326"><m:math><m:mrow><m:mspace width="2.5em"/><m:mn>4</m:mn><m:mo stretchy="false">(</m:mo><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>7</m:mn><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>14</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para>
+<para id="fs-id1168345292166"><m:math><m:mrow><m:mspace width="2.5em"/><m:mn>4</m:mn><m:mo stretchy="false">(</m:mo><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>9</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>14</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para>
+<para id="fs-id1168345436262"><m:math><m:mrow><m:mspace width="2.5em"/><m:mn>4</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>36</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>42</m:mn><m:mspace width="0.2em"/><m:mo>✓</m:mo></m:mrow></m:math></para>
+</solution>
+</exercise>
+</example>
+<note id="fs-id1168345405398" class="try">
+<exercise id="fs-id1168345357376">
+<problem id="fs-id1168345527976">
+<para id="fs-id1168342101728">Factor completely: <m:math><m:mrow><m:mn>3</m:mn><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>9</m:mn><m:mi>r</m:mi><m:mo>+</m:mo><m:mn>6</m:mn></m:mrow></m:math>.</para>
+</problem>
+<solution id="fs-id1168345679609">
+<para id="fs-id1168345287119"><m:math><m:mrow><m:mn>3</m:mn><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>r</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>r</m:mi><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1168345287123" class="try">
+<exercise id="fs-id1168345636315">
+<problem id="fs-id1168345276631">
+<para id="fs-id1168345450758">Factor completely: <m:math><m:mrow><m:mn>2</m:mn><m:msup><m:mi>t</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>10</m:mn><m:mi>t</m:mi><m:mo>+</m:mo><m:mn>12</m:mn></m:mrow></m:math>.</para>
+</problem>
+<solution id="fs-id1168345688103">
+<para id="fs-id1168342101495"><m:math><m:mrow><m:mn>2</m:mn><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>t</m:mi><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>t</m:mi><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<para id="fs-id1168341952458">In the next example the GCF will include a variable.</para>
+<example id="fs-id1168345223960">
+<exercise id="fs-id1168345325188">
+<problem id="fs-id1168345211928">
+<para id="fs-id1168345726218">Factor completely: <m:math><m:mrow><m:mn>4</m:mn><m:msup><m:mi>u</m:mi><m:mn>3</m:mn></m:msup><m:mo>+</m:mo><m:mn>16</m:mn><m:msup><m:mi>u</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>20</m:mn><m:mi>u</m:mi></m:mrow></m:math>.</para>
+</problem>
+<solution id="fs-id1168345406106">
+<title>Solution</title>
+<para id="fs-id1168345676367">Use the preliminary strategy.</para>
+<para id="fs-id1168345417992"><m:math><m:mtable><m:mtr><m:mtd columnalign="left"><m:mtext>Is there a greatest common factor?</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mn>4</m:mn><m:msup><m:mi>u</m:mi><m:mn>3</m:mn></m:msup><m:mo>+</m:mo><m:mn>16</m:mn><m:msup><m:mi>u</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>20</m:mn><m:mi>u</m:mi></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mspace width="2.5em"/><m:mtext>Yes, GCF = 4</m:mtext><m:mi>u</m:mi><m:mo>.</m:mo><m:mspace width="0.2em"/><m:mtext>Factor it.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mn>4</m:mn><m:mi>u</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:msup><m:mi>u</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>4</m:mn><m:mi>u</m:mi><m:mo>−</m:mo><m:mn>5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>Binomial, trinomial, or more than three terms?</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd/></m:mtr><m:mtr><m:mtd columnalign="left"><m:mspace width="2.5em"/><m:mtext>It is a trinomial. So “undo FOIL.”</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mn>4</m:mn><m:mi>u</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>u</m:mi><m:mspace width="1em"/></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>u</m:mi><m:mspace width="1em"/></m:mrow><m:mo>)</m:mo></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>Use a table like the table below to find two numbers that</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mn>4</m:mn><m:mi>u</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>u</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>u</m:mi><m:mo>+</m:mo><m:mn>5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>multiply to</m:mtext><m:mspace width="0.2em"/><m:mn>−5</m:mn><m:mspace width="0.2em"/><m:mtext>and add to</m:mtext><m:mspace width="0.2em"/><m:mn>4</m:mn><m:mo>.</m:mo></m:mtd><m:mtd/><m:mtd/><m:mtd/></m:mtr></m:mtable></m:math></para>
+<table id="fs-id1168341977775" class="unnumbered" summary="This table has two columns. The first column is labeled factors of negative 5 and the second column is labeled sum of factors. The first row has the factors negative 1, 5 and the sum negative 1 + 5 = 4. This row is labeled with an asterisk. The second row has the factors 1, −5 and has the sum 1 + (negative 5) = negative 4.">
+<label/>
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<thead>
+<row valign="top">
+<entry align="center" valign="top">Factors of <m:math><m:mrow><m:mn>−5</m:mn></m:mrow></m:math></entry>
+<entry align="center" valign="top">Sum of factors</entry>
+</row>
+</thead>
+<tbody>
+<row valign="top">
+<entry align="center" valign="top"><m:math><m:mrow><m:mn>−1</m:mn><m:mo>,</m:mo><m:mn>5</m:mn></m:mrow></m:math></entry>
+<entry align="center" valign="top"><m:math><m:mrow><m:mn>−1</m:mn><m:mo>+</m:mo><m:mn>5</m:mn><m:mo>=</m:mo><m:mn>4</m:mn><m:mtext>*</m:mtext></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry align="center" valign="top"><m:math><m:mrow><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>−5</m:mn></m:mrow></m:math></entry>
+<entry align="center" valign="top"><m:math><m:mrow><m:mn>1</m:mn><m:mo>+</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>−4</m:mn></m:mrow></m:math></entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<para id="fs-id1168345667824">Check.</para>
+<para id="fs-id1168345667827"><m:math><m:mrow><m:mspace width="2.5em"/><m:mn>4</m:mn><m:mi>u</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>u</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>u</m:mi><m:mo>+</m:mo><m:mn>5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+<para id="fs-id1168345517696"><m:math><m:mrow><m:mspace width="2.5em"/><m:mn>4</m:mn><m:mi>u</m:mi><m:mo stretchy="false">(</m:mo><m:msup><m:mi>u</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>5</m:mn><m:mi>u</m:mi><m:mo>−</m:mo><m:mi>u</m:mi><m:mo>−</m:mo><m:mn>5</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para>
+<para id="fs-id1168345685162"><m:math><m:mrow><m:mspace width="2.5em"/><m:mn>4</m:mn><m:mi>u</m:mi><m:mo stretchy="false">(</m:mo><m:msup><m:mi>u</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>4</m:mn><m:mi>u</m:mi><m:mo>−</m:mo><m:mn>5</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para>
+<para id="fs-id1168342180694"><m:math><m:mrow><m:mspace width="2.5em"/><m:mn>4</m:mn><m:msup><m:mi>u</m:mi><m:mn>3</m:mn></m:msup><m:mo>+</m:mo><m:mn>16</m:mn><m:msup><m:mi>u</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>20</m:mn><m:mi>u</m:mi><m:mspace width="0.2em"/><m:mo>✓</m:mo></m:mrow></m:math></para>
+</solution>
+</exercise>
+</example>
+<note id="fs-id1168345343263" class="try">
+<exercise id="fs-id1168345343266">
+<problem id="fs-id1168345343268">
+<para id="fs-id1168341862285">Factor completely: <m:math><m:mrow><m:mn>5</m:mn><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup><m:mo>+</m:mo><m:mn>15</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>20</m:mn><m:mi>x</m:mi></m:mrow></m:math>.</para>
+</problem>
+<solution id="fs-id1168341918063">
+<para id="fs-id1168345646373"><m:math><m:mrow><m:mn>5</m:mn><m:mi>x</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1168345635896" class="try">
+<exercise id="fs-id1168345635899">
+<problem id="fs-id1168345635901">
+<para id="fs-id1168341874699">Factor completely: <m:math><m:mrow><m:mn>6</m:mn><m:msup><m:mi>y</m:mi><m:mn>3</m:mn></m:msup><m:mo>+</m:mo><m:mn>18</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>60</m:mn><m:mi>y</m:mi></m:mrow></m:math>.</para>
+</problem>
+<solution id="fs-id1168341911654">
+<para id="fs-id1168341911656"><m:math><m:mrow><m:mn>6</m:mn><m:mi>y</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+</section>
+<section id="fs-id1168345406634">
+<title>Factor Trinomials using Trial and Error</title>
+<para id="fs-id1168345406639">What happens when the leading coefficient is not 1 and there is no GCF? There are several methods that can be used to factor these trinomials. First we will use the Trial and Error method.</para>
+<para id="fs-id1168342122506">Let’s factor the trinomial <m:math><m:mrow><m:mn>3</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>5</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow></m:math>.</para>
+<para id="fs-id1168341963182">From our earlier work we expect this will factor into two binomials.</para>
+<equation id="fs-id1168341963185" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd columnalign="center"><m:mn>3</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>5</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="center"><m:mrow><m:mo>(</m:mo><m:mrow><m:mspace width="1em"/></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mspace width="1em"/></m:mrow><m:mo>)</m:mo></m:mrow></m:mtd></m:mtr></m:mtable></m:math></equation>
+<para id="fs-id1168341963235">We know the first terms of the binomial factors will multiply to give us <m:math><m:mrow><m:mn>3</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math>. The only factors of <m:math><m:mrow><m:mn>3</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math> are <m:math><m:mrow><m:mn>1</m:mn><m:mi>x</m:mi><m:mo>,</m:mo><m:mn>3</m:mn><m:mi>x</m:mi></m:mrow></m:math>. We can place them in the binomials.</para>
+<media id="fs-id1168345409588" alt="This figure has the polynomial 3 x^ 2 +5 x +2. Underneath there are two terms, 1 x, and 3 x. Below these are the two factors x and (3 x) being shown multiplied.">
+<image mime-type="image/jpeg" src="../../media/CNX_Elem Alg_Figure_07_03_002_img_new.jpg"/>
+</media>
+<para id="fs-id1168341963165">Check. Does <m:math><m:mrow><m:mn>1</m:mn><m:mi>x</m:mi><m:mo>·</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>3</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math>?</para>
+<para id="fs-id1168345424398">We know the last terms of the binomials will multiply to 2. Since this trinomial has all positive terms, we only need to consider positive factors. The only factors of 2 are 1 and 2. But we now have two cases to consider as it will make a difference if we write 1, 2, or 2, 1.</para>
+<media id="fs-id1168345424403" alt="This figure demonstrates the possible factors of the polynomial 3x^2 +5x +2. The polynomial is written twice. Underneath both, there are the terms 1x, 3x under the 3x^2. Also, there are the factors 1,2 under the 2 term. At the bottom of the figure there are two possible factorizations of the polynomial. The first is (x + 1)(3x + 2) and the next is (x + 2)(3x + 1).">
+<image mime-type="image/jpeg" src="../../media/CNX_Elem Alg_Figure_07_03_003_img_new.jpg"/>
+</media>
+<para id="fs-id1168345456560">Which factors are correct? To decide that, we multiply the inner and outer terms.</para>
+<media id="fs-id1168345424405" alt="This figure demonstrates the possible factors of the polynomial 3 x^ 2 + 5 x +2. The polynomial is written twice. Underneath both, there are the terms 1 x, 3 x under the 3 x ^ 2. Also, there are the factors 1, 2 under the 2 term. At the bottom of the figure there are two possible factorizations of the polynomial. The first is (x + 1)(3 x + 2). Underneath this factorization are the products 3 x from multiplying the middle terms 1 and 3 x. Also there is the product of 2 x from multiplying the outer terms x and 2. These products of 3 x and 2 x add to 5 x. Underneath the second factorization are the products 6 x from multiplying the middle terms 2 and 3 x. Also there is the product of 1 x from multiplying the outer terms x and 1. These two products of 6 x and 1 x add to 7 x.">
+<image mime-type="image/jpeg" src="../../media/CNX_Elem Alg_Figure_07_03_004_img_new.jpg"/>
+</media>
+<para id="fs-id1168341902334">Since the middle term of the trinomial is 5<emphasis effect="italics">x</emphasis>, the factors in the first case will work. Let’s FOIL to check.</para>
+<equation id="fs-id1168341902341" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd columnalign="left"><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>3</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>3</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>5</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mspace width="0.2em"/><m:mo>✓</m:mo></m:mtd></m:mtr></m:mtable></m:math></equation>
+<para id="fs-id1168342101296">Our result of the factoring is:</para>
+<equation id="fs-id1168342101299" class="unnumbered"><label/><m:math><m:mtable><m:mtr/><m:mtr><m:mtd columnalign="left"><m:mn>3</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>5</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mtd></m:mtr></m:mtable></m:math></equation>
+<example id="fs-id1168345473320">
+<title>How to Factor Trinomials of the Form <m:math><m:mrow><m:mi>a</m:mi><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>b</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>c</m:mi></m:mrow></m:math> Using Trial and Error</title>
+<exercise id="fs-id1168345473322">
+<problem id="fs-id1168345473325">
+<para id="fs-id1168342135036">Factor completely: <m:math><m:mrow><m:mn>3</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>22</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>7</m:mn></m:mrow></m:math>.</para>
+</problem>
+<solution id="fs-id1168345659536">
+<title>Solution</title>
+<media id="fs-id1168341973858" alt="This table summarizes the steps for factoring 3 y ^ 2 + 22 y + 7. The first row states write the trinomial in descending order. The polynomial is written 3 y ^ 2 +22 y + 7.">
+<image mime-type="image/jpeg" src="../../media/CNX_Elem Alg_Figure_07_03_005a_img_new.jpg"/>
+</media>
+<media id="fs-id1168341973868" alt="The second row states find all the factor pairs of the first term. The only pairs listed are 1 y, 3 y. Then, since there is only one pair, they are in the parentheses written (1 y ) and (3 y ).">
+<image mime-type="image/jpeg" src="../../media/CNX_Elem Alg_Figure_07_03_005b_img_new.jpg"/>
+</media>
+<media id="fs-id1168341973880" alt="The third row states “find all the factored pairs of the third term”. It also states the only factors of 7 are 1 and 7.">
+<image mime-type="image/jpeg" src="../../media/CNX_Elem Alg_Figure_07_03_005c_img_new.jpg"/>
+</media>
+<media id="fs-id1168345454911" alt="The fourth row states test all the possible combinations of the factors until the correct product is found. The possible factors are shown (y + 1)(3 y + 7) and (y + 7)(3y + 1). Under each factor is the products of the outer terms and the inner terms. For the first it is 7y and 3y. For the second it is 21 y and y. The combination (y + 7)(3 y + 1) is the correct factoring.">
+<image mime-type="image/jpeg" src="../../media/CNX_Elem Alg_Figure_07_03_005d_img_new.jpg"/>
+</media>
+<media id="fs-id1168345454923" alt="The last row states to check by multiplying. The product of (y + 7)(3 y + 1) is shown as 3 y ^ 2 + 22 y + 7.">
+<image mime-type="image/jpeg" src="../../media/CNX_Elem Alg_Figure_07_03_005e_img_new.jpg"/>
+</media>
+</solution>
+</exercise>
+</example>
+<note id="fs-id1168345445593" class="try">
+<exercise id="fs-id1168345445597">
+<problem id="fs-id1168345445599">
+<para id="fs-id1168345445601">Factor completely: <m:math><m:mrow><m:mn>2</m:mn><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>5</m:mn><m:mi>a</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow></m:math>.</para>
+</problem>
+<solution id="fs-id1168345404824">
+<para id="fs-id1168345404826"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>a</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mi>a</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1168342122674" class="try">
+<exercise id="fs-id1168342122677">
+<problem id="fs-id1168342122679">
+<para id="fs-id1168345406021">Factor completely: <m:math><m:mrow><m:mn>4</m:mn><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>5</m:mn><m:mi>b</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:math>.</para>
+</problem>
+<solution id="fs-id1168345406045">
+<para id="fs-id1168345406048"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>b</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>4</m:mn><m:mi>b</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1168345638588" class="howto">
+<title>Factor trinomials of the form <m:math><m:mrow><m:mi>a</m:mi><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>b</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>c</m:mi></m:mrow></m:math> using trial and error.</title>
+<list id="fs-id1168746659151" list-type="enumerated" number-style="arabic" class="stepwise">
+<item>Write the trinomial in descending order of degrees.</item>
+<item>Find all the factor pairs of the first term.</item>
+<item>Find all the factor pairs of the third term.</item>
+<item>Test all the possible combinations of the factors until the correct product is found.</item>
+<item>Check by multiplying.</item>
+</list>
+</note>
+<para id="fs-id1168345405086">When the middle term is negative and the last term is positive, the signs in the binomials must both be negative.</para>
+<example id="fs-id1168342171040">
+<exercise id="fs-id1168342171042">
+<problem id="fs-id1168342171044">
+<para id="fs-id1168342171046">Factor completely: <m:math><m:mrow><m:mn>6</m:mn><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>13</m:mn><m:mi>b</m:mi><m:mo>+</m:mo><m:mn>5</m:mn></m:mrow></m:math>.</para>
+</problem>
+<solution id="fs-id1168342171071">
+<title>Solution</title>
+<para id="fs-id1168345578445"><table id="eip-id1172186676969" class="unnumbered unstyled has-images" summary="This figure shows the steps of factoring 6 b ^ 2 minus 13 b + 5. The first row states the trinomial is in descending order. The second row states find the factors of the first term. It has 1 b, 6 b and 2 b, 3 b under the first term. The third row states find the factors of the last term. consider the signs. Under the last term negative 1, negative 5 are listed."><label/>
+<tgroup cols="2"><tbody>
+  <row>
+    <entry>The trinomial is already in descending order.</entry>
+    <entry><media id="eip-id1172186676989" alt="."><image mime-type="image/png" src="../../media/CNX_Elem Alg_Figure_07_03_006a_img_new.jpg"/></media></entry>
+  </row>
+  <row>
+    <entry>Find the factors of the first term.</entry>
+    <entry><media id="eip-id1172185583517" alt="."><image mime-type="image/png" src="../../media/CNX_Elem Alg_Figure_07_03_006b_img_new.jpg"/></media></entry>
+  </row>
+  <row>
+    <entry>Find the factors of the last term. Consider the signs. Since the last term, 5 is positive its factors must both be positive or both be negative. The coefficient of the middle term is negative, so we use the negative factors.</entry>
+    <entry><media id="eip-id1172185583536" alt="."><image mime-type="image/png" src="../../media/CNX_Elem Alg_Figure_07_03_006c_img_new.jpg"/></media></entry>
+  </row>
+ </tbody>
+
+</tgroup>
+</table></para><para id="fs-id1168345578457">Consider all the combinations of factors.</para>
+<table id="fs-id1168345578471" class="unnumbered" summary="The heading of this table is 6 b ^ 2 minus 13 b + 5. This table has two columns. The first column is labeled possible factors and the second column is labeled product. The first row has the factors (b – 1)(6 b – 5) and the product 6 b ^ 2 minus 11 b + 5. The second row has the factors (b – 5)(6 b minus 1) and has the product 6 b ^ 2 minus 31 b + 5. The third row has the factors (2b – 1)(3 b minus 5) and has the product 6 b ^ 2 minus13 b + 5. This row has an asterisk. The last row has the factors (2b – 5)(3b – 1) and has the product 6 b ^ 2 minus 17 b + 5.">
+<label/>
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<thead>
+<row valign="top">
+<entry align="center" valign="top" namest="c1" nameend="c2"><m:math><m:mrow><m:mn>6</m:mn><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>13</m:mn><m:mi>b</m:mi><m:mo>+</m:mo><m:mn>5</m:mn></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry align="center" valign="top">Possible factors</entry>
+<entry align="center" valign="top">Product</entry>
+</row>
+</thead>
+<tbody>
+<row valign="top">
+<entry align="center" valign="top"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>b</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>6</m:mn><m:mi>b</m:mi><m:mo>−</m:mo><m:mn>5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+<entry align="center" valign="top"><m:math><m:mrow><m:mn>6</m:mn><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>11</m:mn><m:mi>b</m:mi><m:mo>+</m:mo><m:mn>5</m:mn></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry align="center" valign="top"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>b</m:mi><m:mo>−</m:mo><m:mn>5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>6</m:mn><m:mi>b</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+<entry align="center" valign="top"><m:math><m:mrow><m:mn>6</m:mn><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>31</m:mn><m:mi>b</m:mi><m:mo>+</m:mo><m:mn>5</m:mn></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry align="center" valign="top"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mi>b</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3</m:mn><m:mi>b</m:mi><m:mo>−</m:mo><m:mn>5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+<entry align="center" valign="top"><m:math><m:mrow><m:mn>6</m:mn><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>13</m:mn><m:mi>b</m:mi><m:mo>+</m:mo><m:mn>5</m:mn></m:mrow></m:math>
+*</entry>
+</row>
+<row valign="top">
+<entry align="center" valign="top"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mi>b</m:mi><m:mo>−</m:mo><m:mn>5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3</m:mn><m:mi>b</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+<entry align="center" valign="top"><m:math><m:mrow><m:mn>6</m:mn><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>17</m:mn><m:mi>b</m:mi><m:mo>+</m:mo><m:mn>5</m:mn></m:mrow></m:math></entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<para id="fs-id1167266419510"><m:math><m:mtable><m:mtr><m:mtd columnalign="left"><m:mtext>The correct factors are those whose product</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd/></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>is the original trinomial.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:mspace width="10em"/><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mi>b</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3</m:mn><m:mi>b</m:mi><m:mo>−</m:mo><m:mn>5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mtd></m:mtr><m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="left"><m:mtext>Check by multiplying.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd/></m:mtr><m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="left"><m:mspace width="2.5em"/><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mi>b</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3</m:mn><m:mi>b</m:mi><m:mo>−</m:mo><m:mn>5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mtd><m:mtd/><m:mtd/><m:mtd/></m:mtr><m:mtr><m:mtd columnalign="left"><m:mspace width="2.5em"/><m:mn>6</m:mn><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>10</m:mn><m:mi>b</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:mi>b</m:mi><m:mo>+</m:mo><m:mn>5</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd/></m:mtr><m:mtr><m:mtd columnalign="left"><m:mspace width="2.5em"/><m:mn>6</m:mn><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>13</m:mn><m:mi>b</m:mi><m:mo>+</m:mo><m:mn>5</m:mn><m:mspace width="0.2em"/><m:mo>✓</m:mo></m:mtd><m:mtd/><m:mtd/><m:mtd/></m:mtr></m:mtable></m:math></para></solution>
+</exercise>
+</example>
+<note id="fs-id1168345405463" class="try">
+<exercise id="fs-id1168345405466">
+<problem id="fs-id1168345405468">
+<para id="fs-id1168345405471">Factor completely: <m:math><m:mrow><m:mn>8</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>13</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow></m:math>.</para>
+</problem>
+<solution id="fs-id1168345404857">
+<para id="fs-id1168345404859"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1168345404896" class="try">
+<exercise id="fs-id1168345404900">
+<problem id="fs-id1168345404902">
+<para id="fs-id1168345404904">Factor completely: <m:math><m:mrow><m:mn>10</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>37</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>7</m:mn></m:mrow></m:math>.</para>
+</problem>
+<solution id="fs-id1168342167547">
+<para id="fs-id1168342167549"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>7</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>5</m:mn><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<para id="fs-id1168342167586">When we factor an expression, we always look for a greatest common factor first. If the expression does not have a greatest common factor, there cannot be one in its factors either. This may help us eliminate some of the possible factor combinations.</para>
+<example id="fs-id1168342167592">
+<exercise id="fs-id1168342167594">
+<problem id="fs-id1168342167596">
+<para id="fs-id1168342167598">Factor completely: <m:math><m:mrow><m:mn>14</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>47</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>7</m:mn></m:mrow></m:math>.</para>
+</problem>
+<solution id="fs-id1168342167622">
+<title>Solution</title>
+<para id="fs-id1168341926124"><table id="eip-id1172189042179" class="unnumbered unstyled" summary="This figure has the steps to factor 14 x ^ 2 minus 47 x minus 7. The first row states the trinomial is in descending order and lists the trinomial. The second row states to find the factors of the first term. Under the first term the factors are written. They are 1 x, 14 x and 2 x, 7 x. The last row states to find the factors of the last term and consider the signs. under the last term are the factors 1, negative 7 and negative 1, 7."><label/>
+<tgroup cols="2"><tbody>
+  <row>
+    <entry>The trinomial is already in descending order.</entry>
+    <entry><media id="eip-id1172185778060" alt="."><image mime-type="image/png" src="../../media/CNX_Elem Alg_Figure_07_03_007a_img_new.jpg"/></media></entry>
+  </row>
+  <row>
+    <entry>Find the factors of the first term.</entry>
+    <entry><media id="eip-id1172185778076" alt="."><image mime-type="image/png" src="../../media/CNX_Elem Alg_Figure_07_03_007b_img_new.jpg"/></media></entry>
+  </row>
+  <row>
+    <entry>Find the factors of the last term. Consider the signs. Since it is negative, one factor must be positive and one negative.</entry>
+    <entry><media id="eip-id1172185778094" alt="."><image mime-type="image/png" src="../../media/CNX_Elem Alg_Figure_07_03_007c_img_new.jpg"/></media></entry>
+  </row>
+ </tbody>
+
+</tgroup>
+</table></para><para id="fs-id1168341926138">Consider all the combinations of factors. We use each pair of the factors of <m:math><m:mrow><m:mn>14</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math> with each pair of factors of <m:math><m:mrow><m:mn>−7</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+<table id="fs-id1168341926164" class="unnumbered" summary="This table has three columns. The first column is labeled factors of 14 x ^ 2. The second column is labeled “Pairs with” and the third column is labeled “factors of negative 7”. In the next row are the factors x, and 14 x. These factors pair with and 1, and negative 7, which are in the third column. In the next row are the factors x, 14 x which pair with negative 1 and 7 as indicated in the third column. In the next row down are the factors 2 x and 7 x, which pair with 1 and negative 7 as indicated in the third column. In the last row are the factors 2 x, 7 x, which pair with and negative 1 and 7 as indicated in the third column.">
+<label/>
+<tgroup cols="3">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<thead>
+<row valign="top">
+<entry valign="top" align="left">Factors of <m:math><m:mrow><m:mn>14</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math></entry>
+<entry valign="top" align="left">Pair with</entry>
+<entry valign="top" align="left">Factors of <m:math><m:mrow><m:mn>−7</m:mn></m:mrow></m:math></entry>
+</row>
+</thead>
+<tbody>
+<row valign="top">
+<entry valign="top" align="left"><m:math><m:mi>x</m:mi></m:math>, <m:math><m:mrow><m:mn>14</m:mn><m:mi>x</m:mi></m:mrow></m:math></entry>
+<entry valign="top" align="left"/>
+<entry valign="top" align="left"><m:math><m:mn>1</m:mn></m:math>, <m:math><m:mrow><m:mn>−7</m:mn></m:mrow></m:math><newline/>
+<m:math><m:mrow><m:mn>−7</m:mn></m:mrow></m:math>, <m:math><m:mn>1</m:mn></m:math><newline/>
+(reverse order)</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left"><m:math><m:mi>x</m:mi></m:math>, <m:math><m:mrow><m:mn>14</m:mn><m:mi>x</m:mi></m:mrow></m:math></entry>
+<entry valign="top" align="left"/>
+<entry valign="top" align="left"><m:math><m:mrow><m:mn>−1</m:mn></m:mrow></m:math>, <m:math><m:mn>7</m:mn></m:math><newline/>
+<m:math><m:mn>7</m:mn></m:math>, <m:math><m:mrow><m:mn>−1</m:mn></m:mrow></m:math><newline/>
+(reverse order)</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left"><m:math><m:mrow><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>,</m:mo><m:mn>7</m:mn><m:mi>x</m:mi></m:mrow></m:math></entry>
+<entry valign="top" align="left"/>
+<entry valign="top" align="left"><m:math><m:mn>1</m:mn></m:math>, <m:math><m:mrow><m:mn>−7</m:mn></m:mrow></m:math><newline/>
+<m:math><m:mrow><m:mn>−7</m:mn></m:mrow></m:math>, <m:math><m:mn>1</m:mn></m:math><newline/>
+(reverse order)</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left"><m:math><m:mrow><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>,</m:mo><m:mn>7</m:mn><m:mi>x</m:mi></m:mrow></m:math></entry>
+<entry valign="top" align="left"/>
+<entry valign="top" align="left"><m:math><m:mrow><m:mn>−1</m:mn></m:mrow></m:math>, <m:math><m:mn>7</m:mn></m:math><newline/>
+<m:math><m:mn>7</m:mn></m:math>, <m:math><m:mrow><m:mn>−1</m:mn></m:mrow></m:math><newline/>
+(reverse order)</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<para id="fs-id1168345687714">These pairings lead to the following eight combinations.</para>
+<media id="fs-id1168345687732" alt="This table has the heading 14 x ^ 2 – 47 x minus 7. This table has two columns. The first column is labeled “possible factors” and the second column is labeled “product”. The first column lists all the combinations of possible factors and the second column has the products. In the first row under “possible factors” it reads (x+1) and (14 x minus 7). Under product, in the next column, it says “not an option”. In the next row down, it shows (x minus 7) and (14 x plus 1). In the next row down, it shows (x minus 1) and (14 x plus 7). Next to this in the product column, it says “not an option.” The next row down under “possible factors”, it has the equation (x plus 7 and 14 x minus 1. Next to this in the product column it has 14 x ^2 plus 97 x minus 7. The next row down under possible factors, it has 2 x plus 1 and 7 x minus 7. Next to this under the product column, is says “not an option”. The next row down reads 2 x minus 7 and 7x plus 1. Next to this under the product column, it has 14 x ^2 minus 47 x minus 7 with the asterisk following the 7. The next row down reads 2 x minus 1 and 7 x plus 7. Next to this in the product column it reads “not an option”. The final row reads 2 x plus 7 and 7 x minus 1. Next to this in the product column it reads 14, x, ^ 2 plus 47 x minus 7. Next to the table is a box with four arrows point to each “not an option” row. The reason given in the textbox is “if the trinomial has no common factors, then neither factor can contain a common factor. That means that each of these combinations is not an option.”">
+<image mime-type="image/jpeg" src="../../media/CNX_Elem Alg_Figure_07_03_008_img_new.jpg"/>
+</media>
+<para id="fs-id1168345687722"><m:math><m:mtable><m:mtr><m:mtd columnalign="left"><m:mtext>The correct factors are those whose product is the</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:mspace width="10em"/><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>7</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>7</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>original trinomial.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd/></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>Check by multiplying.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd/></m:mtr><m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="left"><m:mspace width="2.5em"/><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>7</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>7</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mtd><m:mtd/><m:mtd/><m:mtd/></m:mtr><m:mtr><m:mtd columnalign="left"><m:mspace width="2.5em"/><m:mn>14</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>49</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>7</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd/></m:mtr><m:mtr><m:mtd columnalign="left"><m:mspace width="2.5em"/><m:mn>14</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>47</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>7</m:mn><m:mspace width="0.2em"/><m:mo>✓</m:mo></m:mtd><m:mtd/><m:mtd/><m:mtd/></m:mtr></m:mtable></m:math></para></solution>
+</exercise>
+</example>
+<note id="fs-id1168345439686" class="try">
+<exercise id="fs-id1168345439690">
+<problem id="fs-id1168345439692">
+<para id="fs-id1168345439694">Factor completely: <m:math><m:mrow><m:mn>8</m:mn><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>3</m:mn><m:mi>a</m:mi><m:mo>−</m:mo><m:mn>5</m:mn></m:mrow></m:math>.</para>
+</problem>
+<solution id="fs-id1168345687053">
+<para id="fs-id1168345687055"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>a</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>8</m:mn><m:mi>a</m:mi><m:mo>+</m:mo><m:mn>5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1168345687091" class="try">
+<exercise id="fs-id1168345687094">
+<problem id="fs-id1168345687096">
+<para id="fs-id1168345687098">Factor completely: <m:math><m:mrow><m:mn>6</m:mn><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mi>b</m:mi><m:mo>−</m:mo><m:mn>15</m:mn></m:mrow></m:math>.</para>
+</problem>
+<solution id="fs-id1168345687120">
+<para id="fs-id1168345687123"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mi>b</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3</m:mn><m:mi>b</m:mi><m:mo>−</m:mo><m:mn>5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<example id="fs-id1168341912907">
+<exercise id="fs-id1168341912909">
+<problem id="fs-id1168341912912">
+<para id="fs-id1168341912914">Factor completely: <m:math><m:mrow><m:mn>18</m:mn><m:msup><m:mi>n</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>37</m:mn><m:mi>n</m:mi><m:mo>+</m:mo><m:mn>15</m:mn></m:mrow></m:math>.</para>
+</problem>
+<solution id="fs-id1168341912938">
+<title>Solution</title>
+<para id="fs-id1168341912944"><table id="eip-id1172182573704" class="unnumbered unstyled" summary="This figure lists the steps for factoring 18 n ^ 2 minus 37 n +15. The first row states the trinomial is in descending order and lists the trinomial. The second row states to find the factors of the first term. Under the first term the possible combinations of factors are listed as 1 n times18 n and 2 n times 9 n, and 3 n times 6 n. The third row states to find factors of the last term and consider the signs. Under the last term are the possible combinations of factors negative 1 times negative 15 and negative 3 times negative 5."><label/>
+<tgroup cols="2"><tbody>
+  <row>
+    <entry>The trinomial is already in descending order.</entry>
+    <entry><m:math><m:mrow><m:mn>18</m:mn><m:msup><m:mi>n</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>37</m:mn><m:mi>n</m:mi><m:mo>+</m:mo><m:mn>15</m:mn></m:mrow></m:math></entry>
+  </row>
+  <row>
+    <entry>Find the factors of the first term.</entry>
+    <entry><media id="eip-id1172182573741" alt="."><image mime-type="image/png" src="../../media/CNX_Elem Alg_Figure_07_03_009b_img_new.jpg"/></media></entry>
+  </row>
+  <row>
+    <entry>Find the factors of the last term. Consider the signs. Since 15 is positive and the coefficient of the middle term is negative, we use the negative facotrs.</entry>
+    <entry><media id="eip-id1172186679664" alt="."><image mime-type="image/png" src="../../media/CNX_Elem Alg_Figure_07_03_009c_img_new.jpg"/></media></entry>
+  </row>
+ </tbody>
+
+</tgroup>
+</table></para><para id="fs-id1168341912958">Consider all the combinations of factors.</para>
+<para id="fs-id1168341912961"><media id="fs-id1168341912969" alt="This table has the heading 18 n ^ 2 – 37n + 15. This table has two columns. The first column is labeled possible factors and the second column is labeled product. The first column lists all the combinations of possible factors and the second column has the products. Eight rows list the product is not an option. There is a textbox giving the reason for no option. The reason in the textbox is “if the trinomial has no common factors, then neither factor can contain a common factor”. The row containing the factors (2n – 3)(9n – 5) with the product 18n^2 minus 37 n + 15 has an asterisk.">
+<image mime-type="image/jpeg" src="../../media/CNX_Elem Alg_Figure_07_03_010_img_new.jpg"/>
+</media></para>
+<para id="fs-id1168341912966"><m:math><m:mtable><m:mtr><m:mtd columnalign="left"><m:mtext>The correct factors are those whose product is</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:mspace width="10em"/><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>9</m:mn><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>the original trinomial.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd/></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>Check by multiplying.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd/></m:mtr><m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="left"><m:mspace width="2.5em"/><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>9</m:mn><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mtd><m:mtd/><m:mtd/><m:mtd/></m:mtr><m:mtr><m:mtd columnalign="left"><m:mspace width="2.5em"/><m:mn>18</m:mn><m:msup><m:mi>n</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>10</m:mn><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>27</m:mn><m:mi>n</m:mi><m:mo>+</m:mo><m:mn>15</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd/></m:mtr><m:mtr><m:mtd columnalign="left"><m:mspace width="2.5em"/><m:mn>18</m:mn><m:msup><m:mi>n</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>37</m:mn><m:mi>n</m:mi><m:mo>+</m:mo><m:mn>15</m:mn><m:mspace width="0.2em"/><m:mo>✓</m:mo></m:mtd><m:mtd/><m:mtd/><m:mtd/></m:mtr></m:mtable></m:math></para></solution>
+</exercise>
+</example>
+<note id="fs-id1168345508145" class="try">
+<exercise id="fs-id1168345508148">
+<problem id="fs-id1168345508150">
+<para id="fs-id1168345508152">Factor completely: <m:math><m:mrow><m:mn>18</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>10</m:mn></m:mrow></m:math>.</para>
+</problem>
+<solution id="fs-id1168345636869">
+<para id="fs-id1168345636871"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>6</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1168345636909" class="try">
+<exercise id="fs-id1168345636912">
+<problem id="fs-id1168345636914">
+<para id="fs-id1168345636916">Factor completely: <m:math><m:mrow><m:mn>30</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>53</m:mn><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>21</m:mn></m:mrow></m:math>.</para>
+</problem>
+<solution id="fs-id1168345636941">
+<para id="fs-id1168345636943"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>10</m:mn><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>21</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<para id="fs-id1168345435068">Don’t forget to look for a GCF first.</para>
+<example id="fs-id1168345435071">
+<exercise id="fs-id1168345435073">
+<problem id="fs-id1168345435075">
+<para id="fs-id1168345435077">Factor completely: <m:math><m:mrow><m:mn>10</m:mn><m:msup><m:mi>y</m:mi><m:mn>4</m:mn></m:msup><m:mo>+</m:mo><m:mn>55</m:mn><m:msup><m:mi>y</m:mi><m:mn>3</m:mn></m:msup><m:mo>+</m:mo><m:mn>60</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math>.</para>
+</problem>
+<solution id="fs-id1168345435110">
+<title>Solution</title>
+<para id="fs-id1168345435116"><table id="eip-id1172184396592" class="unnumbered unstyled" summary="This figure points out the trinomial has a greatest common factor and to factor it first. The polynomial is 10 y ^ 4 + 55 y cubed + 60 y squared. The greatest common factor is 5 y squared. The next row states to factor the trinomial and has 5 y squared [2 y squared + 11 y +12] with possible factors y, 2 y under the first term and 1,12 and 2, 6 and 3, 4 under the last term."><label/>
+<tgroup cols="2"><tbody>
+  <row>
+    <entry/>
+    <entry><m:math><m:mrow><m:mn>10</m:mn><m:msup><m:mi>y</m:mi><m:mn>4</m:mn></m:msup><m:mo>+</m:mo><m:mn>55</m:mn><m:msup><m:mi>y</m:mi><m:mn>3</m:mn></m:msup><m:mo>+</m:mo><m:mn>60</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math></entry>
+  </row>
+  <row>
+    <entry>Notice the greatest common factor, and factor it first.</entry>
+    <entry><m:math><m:mrow><m:mn>15</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>(</m:mo><m:mn>2</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>11</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>12</m:mn><m:mo>)</m:mo></m:mrow></m:math></entry>
+  </row>
+  <row>
+    <entry>Factor the trinomial.</entry>
+    <entry><media id="eip-id1172184396689" alt="."><image mime-type="image/png" src="../../media/CNX_Elem Alg_Figure_07_03_011a_img_new.jpg"/></media></entry>
+  </row>
+ </tbody>
+
+</tgroup>
+</table></para><para id="fs-id1168345435128">Consider all the combinations.</para>
+<para id="fs-id1168345545801"><media id="fs-id1168345545810" alt="This table has the heading 2 y squared + 11 y + 12 This table has two columns. The first column is labeled “possible factors” and the second column is labeled “product”. The first column lists all the combinations of possible factors and the second column has the products. Four rows list the product is not an option. There is a textbox giving the reason for no option. The reason in the textbox is “if the trinomial has no common factors, then neither factor can contain a common factor”. The row containing the factors (y + 4)(2y + 3) with the product 2 y squared + 11 y + 12 has an asterisk.">
+<image mime-type="image/jpeg" src="../../media/CNX_Elem Alg_Figure_07_03_012_img_new.jpg"/>
+</media></para>
+<para id="fs-id1168345545817"><m:math><m:mtable><m:mtr><m:mtd columnalign="left"><m:mtext>The correct factors are those whose product</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:mspace width="5em"/><m:mn>5</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>is the original trinomial. Remember to include</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd/></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>the factor</m:mtext><m:mspace width="0.2em"/><m:mn>5</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>.</m:mo></m:mtd><m:mtd/><m:mtd/><m:mtd/></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>Check by multiplying.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd/></m:mtr><m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="left"><m:mspace width="2.5em"/><m:mn>5</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mtd><m:mtd/><m:mtd/><m:mtd/></m:mtr><m:mtr><m:mtd columnalign="left"><m:mspace width="2.5em"/><m:mn>5</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>8</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>12</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mtd><m:mtd/><m:mtd/><m:mtd/></m:mtr><m:mtr><m:mtd columnalign="left"><m:mspace width="2.5em"/><m:mn>10</m:mn><m:msup><m:mi>y</m:mi><m:mn>4</m:mn></m:msup><m:mo>+</m:mo><m:mn>55</m:mn><m:msup><m:mi>y</m:mi><m:mn>3</m:mn></m:msup><m:mo>+</m:mo><m:mn>60</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mspace width="0.2em"/><m:mo>✓</m:mo></m:mtd><m:mtd/><m:mtd/><m:mtd/></m:mtr></m:mtable></m:math></para>
+</solution>
+</exercise></example>
+<note id="fs-id1168345635752" class="try">
+<exercise id="fs-id1168345635756">
+<problem id="fs-id1168345635758">
+<para id="fs-id1168345635760">Factor completely: <m:math><m:mrow><m:mn>15</m:mn><m:msup><m:mi>n</m:mi><m:mn>3</m:mn></m:msup><m:mo>−</m:mo><m:mn>85</m:mn><m:msup><m:mi>n</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>100</m:mn><m:mi>n</m:mi></m:mrow></m:math>.</para>
+</problem>
+<solution id="fs-id1168345635790">
+<para id="fs-id1168345635792"><m:math><m:mrow><m:mn>5</m:mn><m:mi>n</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3</m:mn><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1168345671242" class="try">
+<exercise id="fs-id1168345671245">
+<problem id="fs-id1168345671247">
+<para id="fs-id1168345671249">Factor completely: <m:math><m:mrow><m:mn>56</m:mn><m:msup><m:mi>q</m:mi><m:mn>3</m:mn></m:msup><m:mo>+</m:mo><m:mn>320</m:mn><m:msup><m:mi>q</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>96</m:mn><m:mi>q</m:mi></m:mrow></m:math>.</para>
+</problem>
+<solution id="fs-id1168345671279">
+<para id="fs-id1168345671281"><m:math><m:mrow><m:mn>8</m:mn><m:mi>q</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>q</m:mi><m:mo>+</m:mo><m:mn>6</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>7</m:mn><m:mi>q</m:mi><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+</section>
+<section id="fs-id1168345487612">
+<title>Factor Trinomials using the “ac” Method</title>
+<para id="fs-id1168345487617">Another way to factor trinomials of the form <m:math><m:mrow><m:mi>a</m:mi><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>b</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>c</m:mi></m:mrow></m:math> is the “ac” method. (The “ac” method is sometimes called the grouping method.) The “ac” method is actually an extension of the methods you used in the last section to factor trinomials with leading coefficient one. This method is very structured (that is step-by-step), and it always works!</para>
+<example id="fs-id1168345487650">
+<title>How to Factor Trinomials Using the “ac” Method</title>
+<exercise id="fs-id1168345487652">
+<problem id="fs-id1168345487654">
+<para id="fs-id1168345487659">Factor: <m:math><m:mrow><m:mn>6</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>7</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow></m:math>.</para>
+</problem>
+<solution id="fs-id1168345487684">
+<title>Solution</title>
+<media id="fs-id1168345487689" alt="This table lists the steps for factoring 6 x ^ 2 + 7 x + 2. The first step is to factor the GCF. This polynomial has none.">
+<image mime-type="image/jpeg" src="../../media/CNX_Elem Alg_Figure_07_03_013a_img_new.jpg"/>
+</media>
+<media id="fs-id1168345445700" alt="The second row states to find the product a c. Then, it lists a c as 6 times 2 = 12.">
+<image mime-type="image/jpeg" src="../../media/CNX_Elem Alg_Figure_07_03_013b_img_new.jpg"/>
+</media>
+<media id="fs-id1168345445716" alt="The third step is to find two numbers m and n in which m times n = a c and m + n = b. The middle column reads, “find two numbers that add to 7. Both factors must be positive”. The numbers are 3 and 4. 3 times 4 is 12 and 3 + 4 is 7.">
+<image mime-type="image/jpeg" src="../../media/CNX_Elem Alg_Figure_07_03_013c_img_new.jpg"/>
+</media>
+<media id="fs-id1168345445726" alt="The next step is to split the middle term using m and n. That is, to write 7 x as 3 x + 4 x. Therefore, 6 x ^ 2 + 7 x + 2 is rewritten as 6 x ^ 2 +3 x + 4 x + 2.">
+<image mime-type="image/jpeg" src="../../media/CNX_Elem Alg_Figure_07_03_013d_img_new.jpg"/>
+</media>
+<media id="fs-id1168345445739" alt="The next step is to factor by grouping. 3 x(2 x + 1) + 2(2 x + 1) then factor again (2 x + 1)(3 x + 2).">
+<image mime-type="image/jpeg" src="../../media/CNX_Elem Alg_Figure_07_03_013e_img_new.jpg"/>
+</media>
+<media id="fs-id1168345445751" alt="The last step is to check by multiplying. Multiply the factors (2 x + 1)(3 x + 2) to get 6 x ^ 2 + 7 x + 2.">
+<image mime-type="image/jpeg" src="../../media/CNX_Elem Alg_Figure_07_03_013f_img_new.jpg"/>
+</media>
+</solution>
+</exercise>
+</example>
+<note id="fs-id1168345445767" class="try">
+<exercise id="fs-id1168345445771">
+<problem id="fs-id1168345445773">
+<para id="fs-id1168345445775">Factor: <m:math><m:mrow><m:mn>6</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>13</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow></m:math>.</para>
+</problem>
+<solution id="fs-id1168345517372">
+<para id="fs-id1168345517374"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>6</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1168345517410" class="try">
+<exercise id="fs-id1168345517414">
+<problem id="fs-id1168345517416">
+<para id="fs-id1168345517418">Factor: <m:math><m:mrow><m:mn>4</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>8</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow></m:math>.</para>
+</problem>
+<solution id="fs-id1168345517443">
+<para id="fs-id1168345517445"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1168345437973" class="howto">
+<title>Factor trinomials of the form using the “ac” method.</title>
+<list id="fs-id1168744047302" list-type="enumerated" number-style="arabic" class="stepwise">
+<item>Factor any GCF.</item>
+<item>Find the product ac.</item>
+<item>Find two numbers <emphasis effect="italics">m</emphasis> and <emphasis effect="italics">n</emphasis> that:<newline/>
+<m:math><m:mtable><m:mtr><m:mtd columnalign="left"><m:mtext>Multiply to</m:mtext><m:mspace width="0.2em"/><m:mi>a</m:mi><m:mi>c</m:mi></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mi>m</m:mi><m:mo>·</m:mo><m:mi>n</m:mi><m:mo>=</m:mo><m:mi>a</m:mi><m:mo>·</m:mo><m:mi>c</m:mi></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>Add to</m:mtext><m:mspace width="0.2em"/><m:mi>b</m:mi></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mi>m</m:mi><m:mo>+</m:mo><m:mi>n</m:mi><m:mo>=</m:mo><m:mi>b</m:mi></m:mtd></m:mtr></m:mtable></m:math></item>
+<item>Split the middle term using <emphasis effect="italics">m</emphasis> and <emphasis effect="italics">n</emphasis>:
+<para id="fs-id1167270899144"><media id="fs-id1169749464428" alt="This figure shows two equations. The top equation reads a times x squared plus b times x plus c. Under this, is the equation a times x squared plus m times x plus n times x plus c. Above the m times x plus n times x is a bracket with b times x above it.">
+<image mime-type="image/jpeg" src="../../media/CNX_ElemAlg_Figure_07_03_018_img_new.jpg"/>
+</media></para></item>
+<item>Factor by grouping.</item>
+<item>Check by multiplying the factors.</item>
+</list>
+</note>
+<para id="fs-id1168342179445">When the third term of the trinomial is negative, the factors of the third term will have opposite signs.</para>
+<example id="fs-id1168342179449">
+<exercise id="fs-id1168342179451">
+<problem id="fs-id1168342179453">
+<para id="fs-id1168342179455">Factor: <m:math><m:mrow><m:mn>8</m:mn><m:msup><m:mi>u</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>17</m:mn><m:mi>u</m:mi><m:mo>−</m:mo><m:mn>21</m:mn></m:mrow></m:math>.</para>
+</problem>
+<solution id="fs-id1168342179480">
+<title>Solution</title>
+<para id="fs-id1168342179485"><table id="eip-id1172187628830" class="unnumbered unstyled" summary="This figure starts the a c method for factoring 8 u squared minus 17 u minus 21. First, the question is there a greatest common factor, which is answered no. Then, find a c, which is 8(negative 21) that multiplies to negative 168."><label/>
+<tgroup cols="3"><tbody>
+  <row>
+    <entry>Is there a greatest common factor? No.</entry>
+    <entry/>
+    <entry><media id="eip-id1172187628851" alt="."><image mime-type="image/png" src="../../media/CNX_Elem Alg_Figure_07_03_014a_img_new.jpg"/></media></entry>
+  </row>
+  <row>
+    <entry>Find <m:math><m:mi>a</m:mi><m:mo>⋅</m:mo><m:mi>c</m:mi></m:math>.</entry>
+    <entry><m:math><m:mi>a</m:mi><m:mo>⋅</m:mo><m:mi>c</m:mi></m:math></entry>
+    <entry/>
+  </row>
+  <row>
+    <entry/>
+    <entry><m:math><m:mn>8</m:mn><m:mo>(</m:mo><m:mn>−21</m:mn><m:mo>)</m:mo></m:math></entry>
+    <entry/>
+  </row>
+  <row>
+    <entry/>
+    <entry><m:math><m:mn>−168</m:mn></m:math></entry>
+    <entry/>
+  </row>
+ </tbody>
+</tgroup>
+</table></para><para id="fs-id1168342179500">Find two numbers that multiply to <m:math><m:mrow><m:mn>−168</m:mn></m:mrow></m:math> and add to <m:math><m:mrow><m:mn>−17</m:mn></m:mrow></m:math>. The larger factor must be negative.</para>
+<table id="fs-id1168342179514" class="unnumbered" summary="This table has two columns. The first column is factors of negative 168 and the second column is sum of factors. The first row has the factors 1, negative 168 and the sum negative 167. The second row has the factors 2, negative 84 and the sum negative 82. The third row has the factors 3, negative 56 and the sum negative 53. The fourth row has the factors 4, negative 42 and the sum negative 38. The fifth row has the factors 6, negative 28 and the sum negative 22. The sixth row has the factors 7, negative 24 and the sum negative 17. This row has an asterisk. The last row has the factors of 8, negative 21 and the sum negative 13.">
+<label/>
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<thead>
+<row valign="top">
+<entry align="center" valign="top">Factors of <m:math><m:mrow><m:mn>−168</m:mn></m:mrow></m:math></entry>
+<entry align="center" valign="top">Sum of factors</entry>
+</row>
+</thead>
+<tbody>
+<row valign="top">
+<entry align="center" valign="top"><m:math><m:mrow><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>−168</m:mn></m:mrow></m:math></entry>
+<entry align="center" valign="top"><m:math><m:mrow><m:mn>1</m:mn><m:mo>+</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−168</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>−167</m:mn></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry align="center" valign="top"><m:math><m:mrow><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>−84</m:mn></m:mrow></m:math></entry>
+<entry align="center" valign="top"><m:math><m:mrow><m:mn>2</m:mn><m:mo>+</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−84</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>−82</m:mn></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry align="center" valign="top"><m:math><m:mrow><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>−56</m:mn></m:mrow></m:math></entry>
+<entry align="center" valign="top"><m:math><m:mrow><m:mn>3</m:mn><m:mo>+</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−56</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>−53</m:mn></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry align="center" valign="top"><m:math><m:mrow><m:mn>4</m:mn><m:mo>,</m:mo><m:mn>−42</m:mn></m:mrow></m:math></entry>
+<entry align="center" valign="top"><m:math><m:mrow><m:mn>4</m:mn><m:mo>+</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−42</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>−38</m:mn></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry align="center" valign="top"><m:math><m:mrow><m:mn>6</m:mn><m:mo>,</m:mo><m:mn>−28</m:mn></m:mrow></m:math></entry>
+<entry align="center" valign="top"><m:math><m:mrow><m:mn>6</m:mn><m:mo>+</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−28</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>−22</m:mn></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry align="center" valign="top"><m:math><m:mrow><m:mn>7</m:mn><m:mo>,</m:mo><m:mn>−24</m:mn></m:mrow></m:math></entry>
+<entry align="center" valign="top"><m:math><m:mrow><m:mn>7</m:mn><m:mo>+</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−24</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>−17</m:mn><m:mtext>*</m:mtext></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry align="center" valign="top"><m:math><m:mrow><m:mn>8</m:mn><m:mo>,</m:mo><m:mn>−21</m:mn></m:mrow></m:math></entry>
+<entry align="center" valign="top"><m:math><m:mrow><m:mn>8</m:mn><m:mo>+</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−21</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>−13</m:mn></m:mrow></m:math></entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<para id="fs-id1168345512290"><m:math><m:mtable><m:mtr><m:mtd columnalign="left"><m:mtext>Split the middle term using</m:mtext><m:mspace width="0.2em"/><m:mn>7</m:mn><m:mi>u</m:mi><m:mspace width="0.2em"/><m:mtext>and</m:mtext><m:mspace width="0.2em"/><m:mn>−24</m:mn><m:mi>u</m:mi><m:mo>.</m:mo></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:mspace width="2em"/><m:mn>8</m:mn><m:msup><m:mi>u</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:munder><m:mrow><m:mn>17</m:mn></m:mrow><m:mtext>↙</m:mtext></m:munder><m:munder><m:mi>u</m:mi><m:mtext>↘</m:mtext></m:munder><m:mo>−</m:mo><m:mn>21</m:mn></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:mspace width="2em"/><m:munder><m:mrow><m:mn>8</m:mn><m:msup><m:mi>u</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>7</m:mn><m:mi>u</m:mi></m:mrow><m:mo stretchy="true">⎵</m:mo></m:munder><m:mspace width="0.2em"/><m:munder><m:mrow><m:mn>−24</m:mn><m:mi>u</m:mi><m:mo>−</m:mo><m:mn>21</m:mn></m:mrow><m:mo stretchy="true">⎵</m:mo></m:munder></m:mtd></m:mtr><m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="left"><m:mtext>Factor by grouping.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:mspace width="2em"/><m:mi>u</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>8</m:mn><m:mi>u</m:mi><m:mo>+</m:mo><m:mn>7</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>−</m:mo><m:mn>3</m:mn><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>8</m:mn><m:mi>u</m:mi><m:mo>+</m:mo><m:mn>7</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:mspace width="2em"/><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>8</m:mn><m:mi>u</m:mi><m:mo>+</m:mo><m:mn>7</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>u</m:mi><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>Check by multiplying.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd/></m:mtr><m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="left"><m:mspace width="2.5em"/><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>8</m:mn><m:mi>u</m:mi><m:mo>+</m:mo><m:mn>7</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>u</m:mi><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mtd><m:mtd/><m:mtd/><m:mtd/></m:mtr><m:mtr><m:mtd columnalign="left"><m:mspace width="2.5em"/><m:mn>8</m:mn><m:msup><m:mi>u</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>24</m:mn><m:mi>u</m:mi><m:mo>+</m:mo><m:mn>7</m:mn><m:mi>u</m:mi><m:mo>−</m:mo><m:mn>21</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd/></m:mtr><m:mtr><m:mtd columnalign="left"><m:mspace width="2.5em"/><m:mn>8</m:mn><m:msup><m:mi>u</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>17</m:mn><m:mi>u</m:mi><m:mo>−</m:mo><m:mn>21</m:mn><m:mspace width="0.2em"/><m:mo>✓</m:mo></m:mtd><m:mtd/><m:mtd/><m:mtd/></m:mtr></m:mtable></m:math></para>
+</solution>
+</exercise>
+</example>
+<note id="fs-id1168345687804" class="try">
+<exercise id="fs-id1168345687808">
+<problem id="fs-id1168345687810">
+<para id="fs-id1168345687812">Factor: <m:math><m:mrow><m:mn>20</m:mn><m:msup><m:mi>h</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>13</m:mn><m:mi>h</m:mi><m:mo>−</m:mo><m:mn>15</m:mn></m:mrow></m:math>.</para>
+</problem>
+<solution id="fs-id1168345687837">
+<para id="fs-id1168345687839"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>4</m:mn><m:mi>h</m:mi><m:mo>−</m:mo><m:mn>5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>5</m:mn><m:mi>h</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1168342101771" class="try">
+<exercise id="fs-id1168342101775">
+<problem id="fs-id1168342101777">
+<para id="fs-id1168342101779">Factor: <m:math><m:mrow><m:mn>6</m:mn><m:msup><m:mi>g</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>19</m:mn><m:mi>g</m:mi><m:mo>−</m:mo><m:mn>20</m:mn></m:mrow></m:math>.</para>
+</problem>
+<solution id="fs-id1168342101804">
+<para id="fs-id1168342101806"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>q</m:mi><m:mo>+</m:mo><m:mn>4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>6</m:mn><m:mi>q</m:mi><m:mo>−</m:mo><m:mn>5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<example id="fs-id1168342101841">
+<exercise id="fs-id1168342101843">
+<problem id="fs-id1168342101846">
+<para id="fs-id1168342101848">Factor: <m:math><m:mrow><m:mn>2</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>6</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>5</m:mn></m:mrow></m:math>.</para>
+</problem>
+<solution id="fs-id1168345670128">
+<title>Solution</title>
+<para id="fs-id1168345670133"><table id="eip-id1172188075481" class="unnumbered unstyled" summary="This figure starts the a c method for factoring 2 x squared +6 x + 5. There is no greatest common factor. The next step is to find ac. This is listed as 2 (5) which is 10."><label/>
+<tgroup cols="2"><tbody>
+  <row>
+    <entry>Is there a greatest common factor? No.</entry>
+    <entry><media id="eip-id1172188075501" alt="."><image mime-type="image/png" src="../../media/CNX_Elem Alg_Figure_07_03_015a_img_new.jpg"/></media></entry>
+  </row>
+  <row>
+    <entry>Find <m:math><m:mi>a</m:mi><m:mo>⋅</m:mo><m:mi>c</m:mi></m:math>.</entry>
+    <entry><m:math><m:mi>a</m:mi><m:mo>⋅</m:mo><m:mi>c</m:mi></m:math></entry>
+  </row>
+  <row>
+    <entry/>
+    <entry><m:math><m:mn>2</m:mn><m:mo>(</m:mo><m:mn>5</m:mn><m:mo>)</m:mo></m:math></entry>
+  </row>
+  <row>
+    <entry/>
+    <entry><m:math><m:mn>10</m:mn></m:math></entry>
+  </row>
+ </tbody>
+
+</tgroup>
+</table></para><para id="fs-id1168345670147">Find two numbers that multiply to 10 and add to 6.</para>
+<table id="fs-id1168345670158" class="unnumbered" summary="This table has two columns. The first column is labeled factors of 10 and the second column is labeled sum of factors. In the first row are the factors 1, 10 and the sum 11. In the second row are the factors 2, 5 and the sum 7.">
+<label/>
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<thead>
+<row valign="top">
+<entry align="center" valign="top">Factors of <m:math><m:mrow><m:mn>10</m:mn></m:mrow></m:math></entry>
+<entry align="center" valign="top">Sum of factors</entry>
+</row>
+</thead>
+<tbody>
+<row valign="top">
+<entry align="center" valign="top"><m:math><m:mrow><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>10</m:mn></m:mrow></m:math></entry>
+<entry align="center" valign="top"><m:math><m:mrow><m:mn>1</m:mn><m:mo>+</m:mo><m:mn>10</m:mn><m:mo>=</m:mo><m:mn>11</m:mn></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry align="center" valign="top">2, 5</entry>
+<entry align="center" valign="top"><m:math><m:mrow><m:mn>2</m:mn><m:mo>+</m:mo><m:mn>5</m:mn><m:mo>=</m:mo><m:mn>7</m:mn></m:mrow></m:math></entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<para id="fs-id1168345500190">There are no factors that multiply to 10 and add to 6. The polynomial is prime.</para>
+</solution>
+</exercise>
+</example>
+<note id="fs-id1168345500196" class="try">
+<exercise id="fs-id1168345500200">
+<problem id="fs-id1168345500203">
+<para id="fs-id1168345500205">Factor: <m:math><m:mrow><m:mn>10</m:mn><m:msup><m:mi>t</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>19</m:mn><m:mi>t</m:mi><m:mo>−</m:mo><m:mn>15</m:mn></m:mrow></m:math>.</para>
+</problem>
+<solution id="fs-id1168345500229">
+<para id="fs-id1168345500231"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mi>t</m:mi><m:mo>+</m:mo><m:mn>5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>5</m:mn><m:mi>t</m:mi><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1168345656455" class="try">
+<exercise id="fs-id1168345656459">
+<problem id="fs-id1168345656461">
+<para id="fs-id1168345656464">Factor: <m:math><m:mrow><m:mn>3</m:mn><m:msup><m:mi>u</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>8</m:mn><m:mi>u</m:mi><m:mo>+</m:mo><m:mn>5</m:mn></m:mrow></m:math>.</para>
+</problem>
+<solution id="fs-id1168345656488">
+<para id="fs-id1168345656490"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>u</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3</m:mn><m:mi>u</m:mi><m:mo>+</m:mo><m:mn>5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<para id="fs-id1168345656525">Don’t forget to look for a common factor!</para>
+<example id="fs-id1168345656530">
+<exercise id="fs-id1168345656532">
+<problem id="fs-id1168345656534">
+<para id="fs-id1168345656536">Factor: <m:math><m:mrow><m:mn>10</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>55</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>70</m:mn></m:mrow></m:math>.</para>
+</problem>
+<solution id="fs-id1168345556838">
+<title>Solution</title>
+<para id="fs-id1168345556844"><table id="eip-id1172184484431" class="unnumbered unstyled" summary="This table lists the steps for factoring 10 y ^ 2 minus 55 y + 70. The first row states there is a GCF of 5. The second row factors out the 5 and states to keep the factor of 5 throughout the problem. The factoring is 5(2 y squared minus 11 y + 14). The third row states the trinomial inside of the parentheses has a leading coefficient that is not 1. The fourth row factors the trinomial. It is 5(y minus 2)(2 y minus 7). The last row checks the factoring by multiplying all three factors. 5(y minus 2)(2 y minus 7) which is 10 y squared  minus 55 y + 70."><label/>
+<tgroup cols="2"><tbody>
+  <row>
+    <entry>Is there a greatest common factor? Yes. The GCF is 5.</entry>
+    <entry><media id="eip-id1172184484451" alt="."><image mime-type="image/png" src="../../media/CNX_Elem Alg_Figure_07_03_016a_img_new.jpg"/></media></entry>
+  </row>
+  <row>
+    <entry>Factor it. Be careful to keep the factor of 5 all the way through the solution!</entry>
+    <entry><media id="eip-id1172184484468" alt="."><image mime-type="image/png" src="../../media/CNX_Elem Alg_Figure_07_03_016b_img_new.jpg"/></media></entry>
+  </row>
+  <row>
+    <entry>The trinomial inside the parentheses has a leading coefficient that is not 1.</entry>
+    <entry><media id="eip-id1172184484485" alt="."><image mime-type="image/png" src="../../media/CNX_Elem Alg_Figure_07_03_016c_img_new.jpg"/></media></entry>
+  </row>
+  <row>
+    <entry>Factor the trinomial.</entry>
+    <entry><media id="eip-id1172184484502" alt="."><image mime-type="image/png" src="../../media/CNX_Elem Alg_Figure_07_03_016d_img_new.jpg"/></media></entry>
+  </row>
+  <row>
+    <entry>Check by mulitplying all three factors.</entry>
+    <entry/>
+  </row>
+  <row>
+    <entry><m:math><m:mrow><m:mn>5</m:mn><m:mo>(</m:mo><m:mn>2</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>4</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>14</m:mn><m:mo>)</m:mo></m:mrow></m:math></entry>
+    <entry/>
+  </row>
+  <row>
+    <entry><m:math><m:mrow><m:mn>5</m:mn><m:mo>(</m:mo><m:mn>2</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>11</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>14</m:mn><m:mo>)</m:mo></m:mrow></m:math></entry>
+    <entry/>
+  </row>
+  <row>
+    <entry><m:math><m:mrow><m:mn>10</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>55</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>70</m:mn><m:mo>✓</m:mo></m:mrow></m:math></entry>
+    <entry/>
+  </row>
+ </tbody>
+
+</tgroup>
+</table></para></solution>
+</exercise>
+</example>
+<note id="fs-id1168345556864" class="try">
+<exercise id="fs-id1168345556868">
+<problem id="fs-id1168345556870">
+<para id="fs-id1168345556872">Factor: <m:math><m:mrow><m:mn>16</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>32</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>12</m:mn></m:mrow></m:math>.</para>
+</problem>
+<solution id="fs-id1168345556897">
+<para id="fs-id1168345556899"><m:math><m:mrow><m:mn>4</m:mn><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1168345621205" class="try">
+<exercise id="fs-id1168345621210">
+<problem id="fs-id1168345621212">
+<para id="fs-id1168345621214">Factor: <m:math><m:mrow><m:mn>18</m:mn><m:msup><m:mi>w</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>39</m:mn><m:mi>w</m:mi><m:mo>+</m:mo><m:mn>18</m:mn></m:mrow></m:math>.</para>
+</problem>
+<solution id="fs-id1168345621238">
+<para id="fs-id1168345621240"><m:math><m:mrow><m:mn>3</m:mn><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3</m:mn><m:mi>w</m:mi><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mi>w</m:mi><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<para id="fs-id1168345621280">We can now update the Preliminary Factoring Strategy, as shown in <link target-id="CNX_ElemAlg_Figure_07_03_017_img"/> and detailed in <link target-id="fs-id1168345693120">Choose a strategy to factor polynomials completely (updated)</link>, to include trinomials of the form <m:math><m:mrow><m:mi>a</m:mi><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>b</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>c</m:mi></m:mrow></m:math>. Remember, some polynomials are prime and so they cannot be factored.</para>
+<figure id="CNX_ElemAlg_Figure_07_03_017_img">
+<media id="fs-id1168345693108" alt="This figure has the strategy for factoring polynomials. At the top of the figure is GCF. Below this, there are three options. The first is binomial. The second is trinomial. Under trinomial there are x squared + b x + c and a x squared + b x +c. The two methods here are trial and error and the “a c” method. The third option is for more than three terms. It is grouping.">
+<image mime-type="image/jpeg" src="../../media/CNX_Elem Alg_Figure_07_03_017_img_new.jpg"/>
+</media>
+</figure>
+<note id="fs-id1168345693120" class="howto">
+<title>Choose a strategy to factor polynomials completely (updated).</title>
+<list id="fs-id1168746270877" list-type="enumerated" number-style="arabic" class="stepwise">
+<item>Is there a greatest common factor?
+<list id="fs-id1168345693138" list-type="bulleted" bullet-style="bullet">
+<item>Factor it.</item>
+</list></item>
+<item>Is the polynomial a binomial, trinomial, or are there more than three terms?
+<list id="fs-id1168345693155" list-type="bulleted" bullet-style="bullet">
+<item>If it is a binomial, right now we have no method to factor it.</item>
+<item>If it is a trinomial of the form <m:math><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>b</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>c</m:mi></m:mrow></m:math><newline/>
+Undo FOIL <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mspace width="1em"/></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mspace width="1em"/></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math>.</item>
+<item>If it is a trinomial of the form <m:math><m:mrow><m:mi>a</m:mi><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>b</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>c</m:mi></m:mrow></m:math><newline/>
+Use Trial and Error or the “ac” method.</item>
+<item>If it has more than three terms<newline/>
+Use the grouping method.</item>
+</list></item>
+<item>Check by multiplying the factors.</item>
+</list>
+</note>
+<note id="fs-id1168345556742" class="media-2">
+<para id="fs-id1168345556746">Access these online resources for additional instruction and practice with factoring trinomials of the form <m:math><m:mrow><m:mi>a</m:mi><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>b</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>c</m:mi></m:mrow></m:math>.</para>
+<list id="fs-id1168345556771" display="block">
+<item><link url="https://openstax.org/l/25FactorTrinom">Factoring Trinomials, a is not 1</link></item>
+</list>
+</note>
+</section>
+<section id="fs-id1168345556785" class="key-concepts">
+<title>Key Concepts</title>
+<list id="fs-id1168345556792" list-type="bulleted" bullet-style="bullet">
+<item><emphasis effect="bold">Factor Trinomials of the Form <m:math><m:mrow><m:mi>a</m:mi><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>b</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>c</m:mi></m:mrow></m:math> using Trial and Error:</emphasis> See <link target-id="fs-id1168345473320"/>.
+<list id="fs-id1168744121784" list-type="enumerated" number-style="arabic" class="stepwise">
+<item>Write the trinomial in descending order of degrees.</item>
+<item>Find all the factor pairs of the first term.</item>
+<item>Find all the factor pairs of the third term.</item>
+<item>Test all the possible combinations of the factors until the correct product is found.</item>
+<item>Check by multiplying.</item>
+</list></item>
+<item><emphasis effect="bold">Factor Trinomials of the Form <m:math><m:mrow><m:mi>a</m:mi><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>b</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>c</m:mi></m:mrow></m:math> Using the “ac” Method:</emphasis> See <link target-id="fs-id1168345487650"/>.
+<list id="fs-id1168736648890" list-type="enumerated" number-style="arabic" class="stepwise"><item>Factor any GCF.</item>
+<item>Find the product ac.</item>
+<item>Find two numbers <emphasis effect="italics">m</emphasis> and <emphasis effect="italics">n</emphasis> that:<newline/>
+<m:math><m:mtable><m:mtr><m:mtd columnalign="left"><m:mtext>Multiply to</m:mtext><m:mspace width="0.2em"/><m:mi>a</m:mi><m:mi>c</m:mi></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mi>m</m:mi><m:mo>·</m:mo><m:mi>n</m:mi><m:mo>=</m:mo><m:mi>a</m:mi><m:mo>·</m:mo><m:mi>c</m:mi></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>Add to</m:mtext><m:mspace width="0.2em"/><m:mi>b</m:mi></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mi>m</m:mi><m:mo>+</m:mo><m:mi>n</m:mi><m:mo>=</m:mo><m:mi>b</m:mi></m:mtd></m:mtr></m:mtable></m:math></item>
+<item>Split the middle term using <emphasis effect="italics">m</emphasis> and <emphasis effect="italics">n</emphasis>:<newline/>
+<media id="fs-id1169752138557" alt="This figure shows two equations. The top equation reads a times x squared plus b times x plus c. Under this, is the equation a times x squared plus m times x plus n times x plus c. Above the m times x plus n times x is a bracket with b times x above it.">
+<image mime-type="image/jpeg" src="../../media/CNX_ElemAlg_Figure_07_03_019_img_new.jpg"/>
+</media></item>
+<item>Factor by grouping.</item>
+<item>Check by multiplying the factors.</item>
+</list></item>
+<item><emphasis effect="bold">Choose a strategy to factor polynomials completely (updated):</emphasis>
+<list id="fs-id1168743408231" list-type="enumerated" number-style="arabic" class="stepwise">
+<item>Is there a greatest common factor? Factor it.</item>
+<item>Is the polynomial a binomial, trinomial, or are there more than three terms?<newline/>
+If it is a binomial, right now we have no method to factor it.<newline/>
+If it is a trinomial of the form <m:math><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>b</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>c</m:mi></m:mrow></m:math><newline/>
+   Undo FOIL <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mspace width="1em"/></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mspace width="1em"/></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math>.<newline/>
+If it is a trinomial of the form <m:math><m:mrow><m:mi>a</m:mi><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>b</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>c</m:mi></m:mrow></m:math><newline/>
+   Use Trial and Error or the “ac” method.<newline/>
+If it has more than three terms<newline/>
+   Use the grouping method.</item>
+<item>Check by multiplying the factors.</item>
+</list></item>
+</list>
+</section>
+<section id="fs-id1168345311466" class="section-exercises">
+<section id="fs-id1168345311470" class="practice-perfect">
+<title>Practice Makes Perfect</title>
+<para id="fs-id1168345311475"><emphasis effect="bold">Recognize a Preliminary Strategy to Factor Polynomials Completely</emphasis></para>
+<para id="fs-id1168744119382">In the following exercises, identify the best method to use to factor each polynomial.</para>
+<exercise id="fs-id1168345311483">
+<problem id="fs-id1168345311486">
+<list id="fs-id1168743407581" list-type="enumerated" number-style="arabic" class="circled">
+<item><span class="token">ⓐ</span> <m:math><m:mrow><m:mn>10</m:mn><m:msup><m:mi>q</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>50</m:mn></m:mrow></m:math></item>
+<item><span class="token">ⓑ</span> <m:math><m:mrow><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>5</m:mn><m:mi>a</m:mi><m:mo>−</m:mo><m:mn>14</m:mn></m:mrow></m:math></item>
+<item><span class="token">ⓒ</span> <m:math><m:mrow><m:mi>u</m:mi><m:mi>v</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>u</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>v</m:mi><m:mo>+</m:mo><m:mn>6</m:mn></m:mrow></m:math></item>
+</list>
+</problem>
+<solution id="fs-id1168345405252">
+<para id="fs-id1168345405254"><span class="token">ⓐ</span> factor the GCF, binomial <span class="token">ⓑ</span> Undo FOIL <span class="token">ⓒ</span> factor by grouping</para>
+</solution>
+</exercise>
+<exercise id="fs-id1168345405259">
+<problem id="fs-id1168345405261">
+<list id="fs-id1168746399939" list-type="enumerated" number-style="arabic" class="circled">
+<item><span class="token">ⓐ</span> <m:math><m:mrow><m:msup><m:mi>n</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>10</m:mn><m:mi>n</m:mi><m:mo>+</m:mo><m:mn>24</m:mn></m:mrow></m:math></item>
+<item><span class="token">ⓑ</span> <m:math><m:mrow><m:mn>8</m:mn><m:msup><m:mi>u</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>16</m:mn></m:mrow></m:math></item>
+<item><span class="token">ⓒ</span> <m:math><m:mrow><m:mi>p</m:mi><m:mi>q</m:mi><m:mo>+</m:mo><m:mn>5</m:mn><m:mi>p</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>q</m:mi><m:mo>+</m:mo><m:mn>10</m:mn></m:mrow></m:math></item>
+</list>
+</problem>
+</exercise>
+<exercise id="fs-id1168342082279">
+<problem id="fs-id1168342082281">
+<list id="fs-id1168746399719" list-type="enumerated" number-style="arabic" class="circled">
+<item><span class="token">ⓐ</span> <m:math><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>21</m:mn></m:mrow></m:math></item>
+<item><span class="token">ⓑ</span> <m:math><m:mrow><m:mi>a</m:mi><m:mi>b</m:mi><m:mo>+</m:mo><m:mn>10</m:mn><m:mi>b</m:mi><m:mo>+</m:mo><m:mn>4</m:mn><m:mi>a</m:mi><m:mo>+</m:mo><m:mn>40</m:mn></m:mrow></m:math></item>
+<item><span class="token">ⓒ</span> <m:math><m:mrow><m:mn>6</m:mn><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>24</m:mn></m:mrow></m:math></item>
+</list>
+</problem>
+<solution id="fs-id1168342082349">
+<para id="fs-id1168342082351"><span class="token">ⓐ</span> undo FOIL <span class="token">ⓑ</span> factor by grouping <span class="token">ⓒ</span> factor the GCF, binomial</para>
+</solution>
+</exercise>
+<exercise id="fs-id1168342082357">
+<problem id="fs-id1168342082359">
+<list id="fs-id1168744381666" list-type="enumerated" number-style="arabic" class="circled">
+<item><span class="token">ⓐ</span> <m:math><m:mrow><m:mn>20</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>100</m:mn></m:mrow></m:math></item>
+<item><span class="token">ⓑ</span> <m:math><m:mrow><m:mi>u</m:mi><m:mi>v</m:mi><m:mo>+</m:mo><m:mn>6</m:mn><m:mi>u</m:mi><m:mo>+</m:mo><m:mn>4</m:mn><m:mi>v</m:mi><m:mo>+</m:mo><m:mn>24</m:mn></m:mrow></m:math></item>
+<item><span class="token">ⓒ</span> <m:math><m:mrow><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>8</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>15</m:mn></m:mrow></m:math></item>
+</list>
+</problem>
+</exercise>
+<para id="fs-id1168345578278"><emphasis effect="bold">Factor Trinomials of the form <m:math><m:mrow><m:mi>a</m:mi><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>b</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>c</m:mi></m:mrow></m:math> with a GCF</emphasis></para>
+<para id="fs-id1168744360162">In the following exercises, factor completely.</para>
+<exercise id="fs-id1168345578307">
+<problem id="fs-id1168345578309">
+<para id="fs-id1168345578311"><m:math><m:mrow><m:mn>5</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>35</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>30</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168345578335">
+<para id="fs-id1168345578337"><m:math><m:mrow><m:mn>5</m:mn><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>6</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1168345545154">
+<problem id="fs-id1168345545157">
+<para id="fs-id1168345545159"><m:math><m:mrow><m:mn>12</m:mn><m:msup><m:mi>s</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>24</m:mn><m:mi>s</m:mi><m:mo>+</m:mo><m:mn>12</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1168345545222">
+<problem id="fs-id1168345545224">
+<para id="fs-id1168345545226"><m:math><m:mrow><m:mn>2</m:mn><m:msup><m:mi>z</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>z</m:mi><m:mo>−</m:mo><m:mn>24</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168345520398">
+<para id="fs-id1168345520400"><m:math><m:mrow><m:mn>2</m:mn><m:mo stretchy="false">(</m:mo><m:mi>z</m:mi><m:mo>−</m:mo><m:mn>4</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mi>z</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1168345520438">
+<problem id="fs-id1168345520440">
+<para id="fs-id1168345520442"><m:math><m:mrow><m:mn>3</m:mn><m:msup><m:mi>u</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>12</m:mn><m:mi>u</m:mi><m:mo>−</m:mo><m:mn>36</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1168345520506">
+<problem id="fs-id1168345520508">
+<para id="fs-id1168345520510"><m:math><m:mrow><m:mn>7</m:mn><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>63</m:mn><m:mi>v</m:mi><m:mo>+</m:mo><m:mn>56</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168345549052">
+<para id="fs-id1168345549054"><m:math><m:mrow><m:mn>7</m:mn><m:mo stretchy="false">(</m:mo><m:mi>v</m:mi><m:mo>−</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mi>v</m:mi><m:mo>−</m:mo><m:mn>8</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1168345549091">
+<problem id="fs-id1168345549093">
+<para id="fs-id1168345549095"><m:math><m:mrow><m:mn>5</m:mn><m:msup><m:mi>w</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>30</m:mn><m:mi>w</m:mi><m:mo>+</m:mo><m:mn>45</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1168345549159">
+<problem id="fs-id1168345549161">
+<para id="fs-id1168345486795"><m:math><m:mrow><m:msup><m:mi>p</m:mi><m:mn>3</m:mn></m:msup><m:mo>−</m:mo><m:mn>8</m:mn><m:msup><m:mi>p</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>20</m:mn><m:mi>p</m:mi></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168345486821">
+<para id="fs-id1168345486824"><m:math><m:mrow><m:mi>p</m:mi><m:mo stretchy="false">(</m:mo><m:mi>p</m:mi><m:mo>−</m:mo><m:mn>10</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mi>p</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1168345486861">
+<problem id="fs-id1168345486864">
+<para id="fs-id1168345486866"><m:math><m:mrow><m:msup><m:mi>q</m:mi><m:mn>3</m:mn></m:msup><m:mo>−</m:mo><m:mn>5</m:mn><m:msup><m:mi>q</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>24</m:mn><m:mi>q</m:mi></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1168345476113">
+<problem id="fs-id1168345476115">
+<para id="fs-id1168345476118"><m:math><m:mrow><m:mn>3</m:mn><m:msup><m:mi>m</m:mi><m:mn>3</m:mn></m:msup><m:mo>−</m:mo><m:mn>21</m:mn><m:msup><m:mi>m</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>30</m:mn><m:mi>m</m:mi></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168345476146">
+<para id="fs-id1168345476148"><m:math><m:mrow><m:mn>3</m:mn><m:mi>m</m:mi><m:mo stretchy="false">(</m:mo><m:mi>m</m:mi><m:mo>−</m:mo><m:mn>5</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mi>m</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1168345476188">
+<problem id="fs-id1168345476191">
+<para id="fs-id1168345476193"><m:math><m:mrow><m:mn>11</m:mn><m:msup><m:mi>n</m:mi><m:mn>3</m:mn></m:msup><m:mo>−</m:mo><m:mn>55</m:mn><m:msup><m:mi>n</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>44</m:mn><m:mi>n</m:mi></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1168345462367">
+<problem id="fs-id1168345462369">
+<para id="fs-id1168345462371"><m:math><m:mrow><m:mn>5</m:mn><m:msup><m:mi>x</m:mi><m:mn>4</m:mn></m:msup><m:mo>+</m:mo><m:mn>10</m:mn><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup><m:mo>−</m:mo><m:mn>75</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168345462403">
+<para id="fs-id1168345462405"><m:math><m:mrow><m:mn>5</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>5</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1168345462448">
+<problem id="fs-id1168345462450">
+<para id="fs-id1168345462452"><m:math><m:mrow><m:mn>6</m:mn><m:msup><m:mi>y</m:mi><m:mn>4</m:mn></m:msup><m:mo>+</m:mo><m:mn>12</m:mn><m:msup><m:mi>y</m:mi><m:mn>3</m:mn></m:msup><m:mo>−</m:mo><m:mn>48</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math></para>
+</problem>
+</exercise>
+<para id="fs-id1168345508224"><emphasis effect="bold">Factor Trinomials Using Trial and Error</emphasis></para>
+<para id="fs-id1168743400546">In the following exercises, factor.</para>
+<exercise id="fs-id1168345508231">
+<problem id="fs-id1168345508234">
+<para id="fs-id1168345508236"><m:math><m:mrow><m:mn>2</m:mn><m:msup><m:mi>t</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>7</m:mn><m:mi>t</m:mi><m:mo>+</m:mo><m:mn>5</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168345508259">
+<para id="fs-id1168345508261"><m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mi>t</m:mi><m:mo>+</m:mo><m:mn>5</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1168345530504">
+<problem id="fs-id1168345530506">
+<para id="fs-id1168345530508"><m:math><m:mrow><m:mn>5</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>16</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>11</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1168345530572">
+<problem id="fs-id1168345530574">
+<para id="fs-id1168345530576"><m:math><m:mrow><m:mn>11</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>34</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168345530599">
+<para id="fs-id1168345530601"><m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>11</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1168345691553">
+<problem id="fs-id1168345691555">
+<para id="fs-id1168345691557"><m:math><m:mrow><m:mn>7</m:mn><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>50</m:mn><m:mi>b</m:mi><m:mo>+</m:mo><m:mn>7</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1168345691621">
+<problem id="fs-id1168345691623">
+<para id="fs-id1168345691625"><m:math><m:mrow><m:mn>4</m:mn><m:msup><m:mi>w</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>5</m:mn><m:mi>w</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168345691648">
+<para id="fs-id1168345691650"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>4</m:mn><m:mi>w</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>w</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1168342101335">
+<problem id="fs-id1168342101337">
+<para id="fs-id1168342101339"><m:math><m:mrow><m:mn>5</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>17</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>6</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1168342101399">
+<problem id="fs-id1168342101401">
+<para id="fs-id1168342101403"><m:math><m:mrow><m:mn>6</m:mn><m:msup><m:mi>p</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>19</m:mn><m:mi>p</m:mi><m:mo>+</m:mo><m:mn>10</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168342101427">
+<para id="fs-id1168342101429"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3</m:mn><m:mi>p</m:mi><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mi>p</m:mi><m:mo>−</m:mo><m:mn>5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1168345436714">
+<problem id="fs-id1168345436716">
+<para id="fs-id1168345436719"><m:math><m:mrow><m:mn>21</m:mn><m:msup><m:mi>m</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>29</m:mn><m:mi>m</m:mi><m:mo>+</m:mo><m:mn>10</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1168345436780">
+<problem id="fs-id1168345436783">
+<para id="fs-id1168345436785"><m:math><m:mrow><m:mn>4</m:mn><m:msup><m:mi>q</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>7</m:mn><m:mi>q</m:mi><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168345436808">
+<para id="fs-id1168345436810"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>4</m:mn><m:mi>q</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>q</m:mi><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1168345485858">
+<problem id="fs-id1168345485860">
+<para id="fs-id1168345485862"><m:math><m:mrow><m:mn>10</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>53</m:mn><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>11</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1168345485924">
+<problem id="fs-id1168345485926">
+<para id="fs-id1168345485928"><m:math><m:mrow><m:mn>4</m:mn><m:msup><m:mi>p</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>17</m:mn><m:mi>p</m:mi><m:mo>−</m:mo><m:mn>15</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168345485952">
+<para id="fs-id1168345485954"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>4</m:mn><m:mi>p</m:mi><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>p</m:mi><m:mo>+</m:mo><m:mn>5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1168345494064">
+<problem id="fs-id1168345494066">
+<para id="fs-id1168345494069"><m:math><m:mrow><m:mn>6</m:mn><m:msup><m:mi>u</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>5</m:mn><m:mi>u</m:mi><m:mo>−</m:mo><m:mn>14</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1168345494128">
+<problem id="fs-id1168345494130">
+<para id="fs-id1168345494133"><m:math><m:mrow><m:mn>16</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>32</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>16</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168345494156">
+<para id="fs-id1168345494158"><m:math><m:mrow><m:mn>16</m:mn><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1168345643791">
+<problem id="fs-id1168345643793">
+<para id="fs-id1168345643795"><m:math><m:mrow><m:mn>81</m:mn><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>153</m:mn><m:mi>a</m:mi><m:mo>−</m:mo><m:mn>18</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1168345643857">
+<problem id="fs-id1168345643859">
+<para id="fs-id1168345643861"><m:math><m:mrow><m:mn>30</m:mn><m:msup><m:mi>q</m:mi><m:mn>3</m:mn></m:msup><m:mo>+</m:mo><m:mn>140</m:mn><m:msup><m:mi>q</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>80</m:mn><m:mi>q</m:mi></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168345643890">
+<para id="fs-id1168345643892"><m:math><m:mrow><m:mn>10</m:mn><m:mi>q</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3</m:mn><m:mi>q</m:mi><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>q</m:mi><m:mo>+</m:mo><m:mn>4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1168345512106">
+<problem id="fs-id1168345512108">
+<para id="fs-id1168345512111"><m:math><m:mrow><m:mn>5</m:mn><m:msup><m:mi>y</m:mi><m:mn>3</m:mn></m:msup><m:mo>+</m:mo><m:mn>30</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>35</m:mn><m:mi>y</m:mi></m:mrow></m:math></para>
+</problem>
+</exercise>
+<para id="fs-id1168345512178"><emphasis effect="bold">Factor Trinomials using the ‘ac’ Method</emphasis></para>
+<para id="fs-id1168744089711">In the following exercises, factor.</para>
+<exercise id="fs-id1168345512185">
+<problem id="fs-id1168345512187">
+<para id="fs-id1168345512189"><m:math><m:mrow><m:mn>5</m:mn><m:msup><m:mi>n</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>21</m:mn><m:mi>n</m:mi><m:mo>+</m:mo><m:mn>4</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168345512213">
+<para id="fs-id1168345512215"><m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>5</m:mn><m:mi>n</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mi>n</m:mi><m:mo>+</m:mo><m:mn>4</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1168341863092">
+<problem id="fs-id1168341863094">
+<para id="fs-id1168341863096"><m:math><m:mrow><m:mn>8</m:mn><m:msup><m:mi>w</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>25</m:mn><m:mi>w</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1168341863156">
+<problem id="fs-id1168341863158">
+<para id="fs-id1168341863160"><m:math><m:mrow><m:mn>9</m:mn><m:msup><m:mi>z</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>15</m:mn><m:mi>z</m:mi><m:mo>+</m:mo><m:mn>4</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168341863183">
+<para id="fs-id1168341863185"><m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mi>z</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mi>z</m:mi><m:mo>+</m:mo><m:mn>4</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1168341915239">
+<problem id="fs-id1168341915242">
+<para id="fs-id1168341915244"><m:math><m:mrow><m:mn>3</m:mn><m:msup><m:mi>m</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>26</m:mn><m:mi>m</m:mi><m:mo>+</m:mo><m:mn>48</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1168341915307">
+<problem id="fs-id1168341915309">
+<para id="fs-id1168341915311"><m:math><m:mrow><m:mn>4</m:mn><m:msup><m:mi>k</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>16</m:mn><m:mi>k</m:mi><m:mo>+</m:mo><m:mn>15</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168341915335">
+<para id="fs-id1168341915337"><m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mi>k</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mi>k</m:mi><m:mo>−</m:mo><m:mn>5</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1168345438707">
+<problem id="fs-id1168345438710">
+<para id="fs-id1168345438712"><m:math><m:mrow><m:mn>4</m:mn><m:msup><m:mi>q</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>9</m:mn><m:mi>q</m:mi><m:mo>+</m:mo><m:mn>5</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1168345438775">
+<problem id="fs-id1168345438777">
+<para id="fs-id1168345438779"><m:math><m:mrow><m:mn>5</m:mn><m:msup><m:mi>s</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>9</m:mn><m:mi>s</m:mi><m:mo>+</m:mo><m:mn>4</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168345438803">
+<para id="fs-id1168345438805"><m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>5</m:mn><m:mi>s</m:mi><m:mo>−</m:mo><m:mn>4</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mi>s</m:mi><m:mo>−</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1168345637013">
+<problem id="fs-id1168345637015">
+<para id="fs-id1168345637017"><m:math><m:mrow><m:mn>4</m:mn><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>20</m:mn><m:mi>r</m:mi><m:mo>+</m:mo><m:mn>25</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1168345637083">
+<problem id="fs-id1168345637085">
+<para id="fs-id1168345637087"><m:math><m:mrow><m:mn>6</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>15</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168345637108">
+<para id="fs-id1168345637110"><m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>5</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1168341865084">
+<problem id="fs-id1168341865086">
+<para id="fs-id1168341865088"><m:math><m:mrow><m:mn>6</m:mn><m:msup><m:mi>p</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>p</m:mi><m:mo>−</m:mo><m:mn>22</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1168341865150">
+<problem id="fs-id1168341865152">
+<para id="fs-id1168341865154"><m:math><m:mrow><m:mn>2</m:mn><m:msup><m:mi>n</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>27</m:mn><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>45</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168341865178">
+<para id="fs-id1168341865180"><m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mi>n</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>15</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1168342214495">
+<problem id="fs-id1168342214497">
+<para id="fs-id1168342214499"><m:math><m:mrow><m:mn>12</m:mn><m:msup><m:mi>z</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>41</m:mn><m:mi>z</m:mi><m:mo>−</m:mo><m:mn>11</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1168342214565">
+<problem id="fs-id1168342214567">
+<para id="fs-id1168342214569"><m:math><m:mrow><m:mn>3</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>5</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168342214593">
+<para id="fs-id1168342214595">prime</para>
+</solution>
+</exercise>
+<exercise id="fs-id1168342214600">
+<problem id="fs-id1168342214602">
+<para id="fs-id1168345724081"><m:math><m:mrow><m:mn>4</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>15</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>6</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1168345724112">
+<problem id="fs-id1168345724114">
+<para id="fs-id1168345724116"><m:math><m:mrow><m:mn>60</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>290</m:mn><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>50</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168345724140">
+<para id="fs-id1168345724142"><m:math><m:mrow><m:mn>10</m:mn><m:mo stretchy="false">(</m:mo><m:mn>6</m:mn><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>5</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1168345724182">
+<problem id="fs-id1168345724184">
+<para id="fs-id1168345724186"><m:math><m:mrow><m:mn>6</m:mn><m:msup><m:mi>u</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>46</m:mn><m:mi>u</m:mi><m:mo>−</m:mo><m:mn>16</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1168341925700">
+<problem id="fs-id1168341925702">
+<para id="fs-id1168341925704"><m:math><m:mrow><m:mn>48</m:mn><m:msup><m:mi>z</m:mi><m:mn>3</m:mn></m:msup><m:mo>−</m:mo><m:mn>102</m:mn><m:msup><m:mi>z</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>45</m:mn><m:mi>z</m:mi></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168341925733">
+<para id="fs-id1168341925735"><m:math><m:mrow><m:mn>3</m:mn><m:mi>z</m:mi><m:mo stretchy="false">(</m:mo><m:mn>8</m:mn><m:mi>z</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mi>z</m:mi><m:mo>−</m:mo><m:mn>5</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1168341925779">
+<problem id="fs-id1168341925782">
+<para id="fs-id1168341925784"><m:math><m:mrow><m:mn>90</m:mn><m:msup><m:mi>n</m:mi><m:mn>3</m:mn></m:msup><m:mo>+</m:mo><m:mn>42</m:mn><m:msup><m:mi>n</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>216</m:mn><m:mi>n</m:mi></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1168341910323">
+<problem id="fs-id1168341910325">
+<para id="fs-id1168341910327"><m:math><m:mrow><m:mn>16</m:mn><m:msup><m:mi>s</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>40</m:mn><m:mi>s</m:mi><m:mo>+</m:mo><m:mn>24</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168341910351">
+<para id="fs-id1168341910353"><m:math><m:mrow><m:mn>8</m:mn><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mi>s</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>s</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1168341910389">
+<problem id="fs-id1168341910391">
+<para id="fs-id1168341910394"><m:math><m:mrow><m:mn>24</m:mn><m:msup><m:mi>p</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>160</m:mn><m:mi>p</m:mi><m:mo>+</m:mo><m:mn>96</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1168341861567">
+<problem id="fs-id1168341861569">
+<para id="fs-id1168341861571"><m:math><m:mrow><m:mn>48</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>12</m:mn><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>36</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168341861595">
+<para id="fs-id1168341861597"><m:math><m:mrow><m:mn>12</m:mn><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>4</m:mn><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1168341861633">
+<problem id="fs-id1168341861635">
+<para id="fs-id1168341861638"><m:math><m:mrow><m:mn>30</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>105</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>60</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<para id="fs-id1168341848731"><emphasis effect="bold">Mixed Practice</emphasis></para>
+<para id="fs-id1168736648952">In the following exercises, factor.</para>
+<exercise id="fs-id1168341848738">
+<problem id="fs-id1168341848740">
+<para id="fs-id1168341848743"><m:math><m:mrow><m:mn>12</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>29</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>14</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168341848766">
+<para id="fs-id1168341848768"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>4</m:mn><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>7</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3</m:mn><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1168341848804">
+<problem id="fs-id1168341848807">
+<para id="fs-id1168341848809"><m:math><m:mrow><m:mn>12</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>36</m:mn><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>24</m:mn><m:mi>z</m:mi></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1168341869787">
+<problem id="fs-id1168341869789">
+<para id="fs-id1168341869792"><m:math><m:mrow><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mi>a</m:mi><m:mo>−</m:mo><m:mn>20</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168341869811">
+<para id="fs-id1168341869813"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>a</m:mi><m:mo>−</m:mo><m:mn>5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>a</m:mi><m:mo>+</m:mo><m:mn>4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1168341869845">
+<problem id="fs-id1168341869847">
+<para id="fs-id1168341869849"><m:math><m:mrow><m:msup><m:mi>m</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mi>m</m:mi><m:mo>−</m:mo><m:mn>12</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1168341915512">
+<problem id="fs-id1168341915514">
+<para id="fs-id1168341915516"><m:math><m:mrow><m:mn>6</m:mn><m:msup><m:mi>n</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>5</m:mn><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>4</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168341915540">
+<para id="fs-id1168341915542"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3</m:mn><m:mi>n</m:mi><m:mo>+</m:mo><m:mn>4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1168341915578">
+<problem id="fs-id1168341915580">
+<para id="fs-id1168341915582"><m:math><m:mrow><m:mn>12</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>37</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>21</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1168341843291">
+<problem id="fs-id1168341843293">
+<para id="fs-id1168341843296"><m:math><m:mrow><m:mn>2</m:mn><m:msup><m:mi>p</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>4</m:mn><m:mi>p</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168341843319">
+<para id="fs-id1168341843321">prime</para>
+</solution>
+</exercise>
+<exercise id="fs-id1168341843326">
+<problem id="fs-id1168341843329">
+<para id="fs-id1168341843331"><m:math><m:mrow><m:mn>3</m:mn><m:msup><m:mi>q</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>6</m:mn><m:mi>q</m:mi><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1168341843362">
+<problem id="fs-id1168341843364">
+<para id="fs-id1168341843366"><m:math><m:mrow><m:mn>13</m:mn><m:msup><m:mi>z</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>39</m:mn><m:mi>z</m:mi><m:mo>−</m:mo><m:mn>26</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168341843389">
+<para id="fs-id1168341843392"><m:math><m:mrow><m:mn>13</m:mn><m:mrow><m:mo>(</m:mo><m:mrow><m:msup><m:mi>z</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>z</m:mi><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1168341843422">
+<problem id="fs-id1168341843425">
+<para id="fs-id1168345406425"><m:math><m:mrow><m:mn>5</m:mn><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>25</m:mn><m:mi>r</m:mi><m:mo>+</m:mo><m:mn>30</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1168345406486">
+<problem id="fs-id1168345406489">
+<para id="fs-id1168345406491"><m:math><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>28</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168345406512">
+<para id="fs-id1168345406514"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>7</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1168345406546">
+<problem id="fs-id1168345406548">
+<para id="fs-id1168345406550"><m:math><m:mrow><m:mn>6</m:mn><m:msup><m:mi>u</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>7</m:mn><m:mi>u</m:mi><m:mo>−</m:mo><m:mn>5</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1168341915391">
+<problem id="fs-id1168341915394">
+<para id="fs-id1168341915396"><m:math><m:mrow><m:mn>3</m:mn><m:msup><m:mi>p</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>21</m:mn><m:mi>p</m:mi></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168341915415">
+<para id="fs-id1168341915417"><m:math><m:mrow><m:mn>3</m:mn><m:mi>p</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>p</m:mi><m:mo>+</m:mo><m:mn>7</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1168341915440">
+<problem id="fs-id1168341915443">
+<para id="fs-id1168341915445"><m:math><m:mrow><m:mn>7</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>21</m:mn><m:mi>x</m:mi></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1168345685193">
+<problem id="fs-id1168345685196">
+<para id="fs-id1168345685198"><m:math><m:mrow><m:mn>6</m:mn><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>30</m:mn><m:mi>r</m:mi><m:mo>+</m:mo><m:mn>36</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168345685221">
+<para id="fs-id1168345685223"><m:math><m:mrow><m:mn>6</m:mn><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>r</m:mi><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>r</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1168345685257">
+<problem id="fs-id1168345685260">
+<para id="fs-id1168345685262"><m:math><m:mrow><m:mn>18</m:mn><m:msup><m:mi>m</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>15</m:mn><m:mi>m</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1168345685326">
+<problem id="fs-id1168345685328">
+<para id="fs-id1168345685330"><m:math><m:mrow><m:mn>24</m:mn><m:msup><m:mi>n</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>20</m:mn><m:mi>n</m:mi><m:mo>+</m:mo><m:mn>4</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168345689951">
+<para id="fs-id1168345689953"><m:math><m:mrow><m:mn>4</m:mn><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mi>n</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3</m:mn><m:mi>n</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1168345689991">
+<problem id="fs-id1168345689994">
+<para id="fs-id1168345689996"><m:math><m:mrow><m:mn>4</m:mn><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>5</m:mn><m:mi>a</m:mi><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1168345690027">
+<problem id="fs-id1168345690029">
+<para id="fs-id1168345690031"><m:math><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>24</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168345690052">
+<para id="fs-id1168345690054"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>6</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1168341862101">
+<problem id="fs-id1168341862104">
+<para id="fs-id1168341862106"><m:math><m:mrow><m:mn>2</m:mn><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>7</m:mn><m:mi>b</m:mi><m:mo>+</m:mo><m:mn>4</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1168341862138" class="everyday">
+<title>Everyday Math</title>
+<exercise id="fs-id1168341862143">
+<problem id="fs-id1168341862145">
+<para id="fs-id1168341862147"><emphasis effect="bold">Height of a toy rocket</emphasis> The height of a toy rocket launched with an initial speed of 80 feet per second from the balcony of an apartment building is related to the number of seconds, <emphasis effect="italics">t</emphasis>, since it is launched by the trinomial <m:math><m:mrow><m:mn>−16</m:mn><m:msup><m:mi>t</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>80</m:mn><m:mi>t</m:mi><m:mo>+</m:mo><m:mn>96</m:mn></m:mrow></m:math>. Completely factor the trinomial.</para>
+</problem>
+<solution id="fs-id1168341862186">
+<para id="fs-id1168341862188"><m:math><m:mrow><m:mn>−16</m:mn><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>t</m:mi><m:mo>−</m:mo><m:mn>6</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>t</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1168341862222">
+<problem id="fs-id1168341862224">
+<para id="fs-id1168341862226"><emphasis effect="bold">Height of a beach ball</emphasis> The height of a beach ball tossed up with an initial speed of 12 feet per second from a height of 4 feet is related to the number of seconds, <emphasis effect="italics">t</emphasis>, since it is tossed by the trinomial <m:math><m:mrow><m:mn>−16</m:mn><m:msup><m:mi>t</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>12</m:mn><m:mi>t</m:mi><m:mo>+</m:mo><m:mn>4</m:mn></m:mrow></m:math>. Completely factor the trinomial.</para>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1168345427830" class="writing">
+<title>Writing Exercises</title>
+<exercise id="fs-id1168345427836">
+<problem id="fs-id1168345427838">
+<para id="fs-id1168345427840">List, in order, all the steps you take when using the “ac” method to factor a trinomial of the form <m:math><m:mrow><m:mi>a</m:mi><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>b</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>c</m:mi><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168345427867">
+<para id="fs-id1168345427869">Answers may vary.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1168345427874">
+<problem id="fs-id1168345427876">
+<para id="fs-id1168345427878">How is the “ac” method similar to the “undo FOIL” method? How is it different?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1168345427891">
+<problem id="fs-id1168345427893">
+<para id="fs-id1168345427895">What are the questions, in order, that you ask yourself as you start to factor a polynomial? What do you need to do as a result of the answer to each question?</para>
+</problem>
+<solution id="fs-id1168345427901">
+<para id="fs-id1168345427903">Answers may vary.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1168345427909">
+<problem id="fs-id1168345542017">
+<para id="fs-id1168345542019">On your paper draw the chart that summarizes the factoring strategy. Try to do it without looking at the book. When you are done, look back at the book to finish it or verify it.</para>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1168345542034">
+<title>Self Check</title>
+<para id="fs-id1168345542043"><span class="token">ⓐ</span> After completing the exercises, use this checklist to evaluate your mastery of the objectives of this section.</para>
+<media id="fs-id1168345542055" alt="This table has the following statements all to be preceded by “I can…”. The first row is “recognize a preliminary strategy to factor polynomials completely”. The second row is “factor trinomials of the form a x ^ 2 + b x + c with a GCF”. The third row is “factor trinomials using trial and error”. And the fourth row is “factor trinomials using the “ac” method”. In the columns beside these statements are the headers, “confidently”, “with some help”, and “no-I don’t get it!”.">
+<image mime-type="image/jpeg" src="../../media/CNX_Elem Alg_Figure_07_03_201_img_new.jpg"/>
+</media>
+<para id="fs-id1168345542063"><span class="token">ⓑ</span> What does this checklist tell you about your mastery of this section? What steps will you take to improve?</para>
+</section>
+</section>
+</content>
+<glossary>
+<definition id="fs-id1168345542075">
+<term>prime polynomials</term>
+<meaning id="fs-id1168345542080">Polynomials that cannot be factored are prime polynomials.</meaning>
+</definition>
+</glossary>
+</document>
