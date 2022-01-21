@@ -1,0 +1,1478 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Geometric Sequences and Series</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m81419</md:content-id>
+  <md:title>Geometric Sequences and Series</md:title>
+  <md:abstract><para>By the end of this section, you will be able to:</para><list>
+<item>Determine if a sequence is geometric</item>
+<item>Find the general term (nth term) of a geometric sequence</item>
+<item>Find the sum of the first <m:math><m:mi>n</m:mi></m:math> terms of a geometric sequence</item>
+<item>Find the sum of an infinite geometric series</item>
+<item>Apply geometric sequences and series in the real world</item>
+</list></md:abstract>
+  <md:uuid>2f5b3bc9-ccfe-42a1-b18e-7aab5baf9079</md:uuid>
+</metadata>
+
+<content>
+<note id="fs-id1167834528308" class="be-prepared">
+<para id="fs-id1167832015931">Before you get started, take this readiness quiz.<emphasis effect="italics"/></para>
+<exercise id="fs-idm311413680">
+<problem id="fs-idm237393232">
+<para id="fs-idm211603104">Simplify: <m:math><m:mrow><m:mfrac><m:mrow><m:mn>24</m:mn></m:mrow><m:mrow><m:mn>32</m:mn></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math><newline/>
+If you missed this problem, review <link target-id="fs-id1167836620030" document="m81359"/>.</para>
+</problem>
+<solution id="fs-idm190602880">
+<para id="fs-idm282469056"><m:math><m:mrow><m:mfrac><m:mn>3</m:mn><m:mn>4</m:mn></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-idm226287536" class="be-prepared">
+<exercise id="fs-idm187187424">
+<problem id="fs-idm307193824">
+<para id="fs-idm241988384">Evaluate: <span class="token">ⓐ</span> <m:math><m:mrow><m:msup><m:mn>3</m:mn><m:mn>4</m:mn></m:msup></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>4</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math><newline/>
+If you missed this problem, review <link target-id="fs-id1167834536158" document="m81423"/>.</para>
+</problem>
+<solution id="fs-idm304460240">
+<para id="fs-idm225393264"><span class="token">ⓐ</span> 81; <span class="token">ⓑ</span> <m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>16</m:mn></m:mrow></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-idm185516464" class="be-prepared">
+<exercise id="fs-idm288731184">
+<problem id="fs-idm223400416">
+<para id="fs-idm214197360">If <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>4</m:mn><m:mo>·</m:mo><m:msup><m:mn>3</m:mn><m:mi>x</m:mi></m:msup><m:mo>,</m:mo></m:mrow></m:math> find <span class="token">ⓐ</span> <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mn>1</m:mn><m:mo>)</m:mo></m:mrow></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mn>2</m:mn><m:mo>)</m:mo></m:mrow></m:mrow></m:math> <span class="token">ⓒ</span> <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mn>3</m:mn><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math><newline/>
+If you missed this problem, review <link target-id="fs-id1167829859398" document="m81373"/>.</para>
+</problem>
+<solution id="fs-idm228556176">
+<para id="fs-idm226286448"><span class="token">ⓐ</span> 12; <span class="token">ⓑ</span> 36; <span class="token">ⓒ</span> 108</para>
+</solution>
+</exercise>
+</note>
+<section id="fs-id1167834193892">
+<title>Determine if a Sequence is Geometric</title>
+<para id="fs-id1167835334993">We are now ready to look at the second special type of sequence, the geometric sequence.</para>
+<para id="fs-id1167835355580">A sequence is called a <term>geometric sequence</term> if the ratio between consecutive terms is always the same. The ratio between consecutive terms in a geometric sequence is <emphasis effect="italics">r</emphasis>, the <term>common ratio</term>, where <emphasis effect="italics">n</emphasis> is greater than or equal to two.</para><note id="fs-id1167835347830">
+<title>Geometric Sequence</title>
+<para id="fs-id1167835319982">A <emphasis effect="bold">geometric sequence</emphasis> is a sequence where the ratio between consecutive terms is always the same.</para>
+<para id="fs-id1167835511293">The ratio between consecutive terms, <m:math><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>a</m:mi><m:mi>n</m:mi></m:msub></m:mrow><m:mrow><m:msub><m:mi>a</m:mi><m:mrow><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:msub></m:mrow></m:mfrac><m:mo>,</m:mo></m:mrow></m:math> is <emphasis effect="italics">r</emphasis>, the <emphasis effect="bold">common ratio</emphasis>. <emphasis effect="italics">n</emphasis> is greater than or equal to two.</para></note>
+<para id="fs-id1167834099621">Consider these sequences.</para>
+<media id="fs-id1167831883125" alt="This figure shows two sets of sequences where r is the common ratio.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_12_03_001_img.jpg"/>
+</media>
+<example id="fs-id1167835381313">
+<exercise id="fs-id1167832057866">
+<problem id="fs-id1167835361068">
+<para id="fs-id1167835217802">Determine if each sequence is geometric. If so, indicate the common ratio.</para>
+<para id="fs-id1167831920432"><span class="token">ⓐ</span> <m:math><m:mrow><m:mn>4</m:mn><m:mo>,</m:mo><m:mn>8</m:mn><m:mo>,</m:mo><m:mn>16</m:mn><m:mo>,</m:mo><m:mn>32</m:mn><m:mo>,</m:mo><m:mn>64</m:mn><m:mo>,</m:mo><m:mn>128</m:mn><m:mtext>,</m:mtext><m:mspace width="0.2em"/><m:mtext>…</m:mtext></m:mrow></m:math></para>
+<para id="fs-id1167835330694"><span class="token">ⓑ</span> <m:math><m:mrow><m:mn>−2</m:mn><m:mo>,</m:mo><m:mn>6</m:mn><m:mo>,</m:mo><m:mn>−12</m:mn><m:mo>,</m:mo><m:mn>36</m:mn><m:mo>,</m:mo><m:mn>−72</m:mn><m:mo>,</m:mo><m:mn>216</m:mn><m:mtext>,</m:mtext><m:mspace width="0.2em"/><m:mtext>…</m:mtext></m:mrow></m:math></para>
+<para id="fs-id1167831821941"><span class="token">ⓒ</span> <m:math><m:mrow><m:mn>27</m:mn><m:mo>,</m:mo><m:mn>9</m:mn><m:mo>,</m:mo><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac><m:mo>,</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>9</m:mn></m:mfrac><m:mtext>,</m:mtext><m:mspace width="0.2em"/><m:mtext>…</m:mtext></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167835360295">
+<para id="fs-id1167830702675">To determine if the sequence is geometric, we find the ratio of the consecutive terms shown.</para>
+<para id="fs-id1167834432782"><span class="token">ⓐ</span><newline/>
+<table id="fs-idm311568032" class="unnumbered unstyled" summary="No Summary">
+<label/>
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<tbody>
+<row valign="top">
+<entry valign="middle" align="left">Find the ratio of the consecutive terms.</entry>
+<entry valign="middle" align="left"><m:math><m:mrow><m:mspace width="7em"/><m:mtable><m:mtr><m:mtd columnalign="center"><m:mn>4</m:mn><m:mo>,</m:mo></m:mtd><m:mtd/><m:mtd columnalign="center"><m:mn>8</m:mn><m:mo>,</m:mo></m:mtd><m:mtd/><m:mtd columnalign="center"><m:mn>16</m:mn><m:mo>,</m:mo></m:mtd><m:mtd/><m:mtd columnalign="center"><m:mn>32</m:mn><m:mo>,</m:mo></m:mtd><m:mtd/><m:mtd columnalign="center"><m:mn>64</m:mn><m:mo>,</m:mo></m:mtd><m:mtd/><m:mtd columnalign="center"><m:mn>128</m:mn><m:mo>,</m:mo><m:mtext>…</m:mtext></m:mtd></m:mtr><m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="center"><m:mfrac><m:mn>8</m:mn><m:mn>4</m:mn></m:mfrac></m:mtd><m:mtd/><m:mtd columnalign="center"><m:mfrac><m:mrow><m:mn>16</m:mn></m:mrow><m:mn>8</m:mn></m:mfrac></m:mtd><m:mtd/><m:mtd columnalign="center"><m:mfrac><m:mrow><m:mn>32</m:mn></m:mrow><m:mrow><m:mn>16</m:mn></m:mrow></m:mfrac></m:mtd><m:mtd/><m:mtd columnalign="center"><m:mfrac><m:mrow><m:mn>64</m:mn></m:mrow><m:mrow><m:mn>32</m:mn></m:mrow></m:mfrac></m:mtd><m:mtd/><m:mtd columnalign="center"><m:mfrac><m:mrow><m:mn>128</m:mn></m:mrow><m:mrow><m:mn>64</m:mn></m:mrow></m:mfrac></m:mtd><m:mtd/><m:mtd/></m:mtr><m:mtr><m:mtd columnalign="center"><m:mn>2</m:mn></m:mtd><m:mtd/><m:mtd columnalign="center"><m:mn>2</m:mn></m:mtd><m:mtd/><m:mtd columnalign="center"><m:mn>2</m:mn></m:mtd><m:mtd/><m:mtd columnalign="center"><m:mn>2</m:mn></m:mtd><m:mtd/><m:mtd columnalign="center"><m:mn>2</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="middle" align="left"/>
+<entry valign="middle" align="left">The sequence is geometric. The common ratio is <m:math><m:mrow><m:mi>r</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mo>.</m:mo></m:mrow></m:math></entry>
+</row>
+</tbody>
+</tgroup>
+</table></para>
+<para id="fs-id1167834064474"><span class="token">ⓑ</span><newline/>
+<table id="fs-idm364827792" class="unnumbered unstyled" summary="No Summary">
+<label/>
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<tbody>
+<row valign="top">
+<entry valign="middle" align="left">Find the ratio of the consecutive terms.</entry>
+<entry valign="middle" align="left"><m:math><m:mrow><m:mspace width="7em"/><m:mtable><m:mtr><m:mtd columnalign="center"><m:mn>−2</m:mn><m:mo>,</m:mo></m:mtd><m:mtd/><m:mtd columnalign="center"><m:mn>6</m:mn><m:mo>,</m:mo></m:mtd><m:mtd/><m:mtd columnalign="center"><m:mn>−12</m:mn><m:mo>,</m:mo></m:mtd><m:mtd/><m:mtd columnalign="center"><m:mn>36</m:mn><m:mo>,</m:mo></m:mtd><m:mtd/><m:mtd columnalign="center"><m:mn>−72</m:mn><m:mo>,</m:mo></m:mtd><m:mtd/><m:mtd columnalign="center"><m:mn>216</m:mn><m:mo>,</m:mo><m:mtext>…</m:mtext></m:mtd></m:mtr><m:mtr/><m:mtr/>
+<m:mtr><m:mtd columnalign="center"><m:mfrac><m:mrow><m:mn>6</m:mn></m:mrow><m:mrow><m:mn>−2</m:mn></m:mrow></m:mfrac></m:mtd><m:mtd/><m:mtd columnalign="center"><m:mfrac><m:mrow><m:mn>−12</m:mn></m:mrow><m:mrow><m:mn>6</m:mn></m:mrow></m:mfrac></m:mtd><m:mtd/><m:mtd columnalign="center"><m:mfrac><m:mrow><m:mn>36</m:mn></m:mrow><m:mrow><m:mn>−12</m:mn></m:mrow></m:mfrac></m:mtd><m:mtd/><m:mtd columnalign="center"><m:mfrac><m:mrow><m:mn>−72</m:mn></m:mrow><m:mrow><m:mn>36</m:mn></m:mrow></m:mfrac></m:mtd><m:mtd/><m:mtd columnalign="center"><m:mfrac><m:mrow><m:mn>216</m:mn></m:mrow><m:mrow><m:mn>−72</m:mn></m:mrow></m:mfrac></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="center"><m:mn>−3</m:mn></m:mtd><m:mtd/><m:mtd columnalign="center"><m:mn>−2</m:mn></m:mtd><m:mtd/><m:mtd columnalign="center"><m:mn>−3</m:mn></m:mtd><m:mtd/><m:mtd columnalign="center"><m:mn>−2</m:mn></m:mtd><m:mtd/><m:mtd columnalign="center"><m:mn>−3</m:mn></m:mtd><m:mtd/><m:mtd/></m:mtr></m:mtable></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="middle" align="left"/>
+<entry valign="middle" align="left">The sequence is not geometric. There is no common ratio.</entry>
+</row>
+</tbody>
+</tgroup>
+</table></para>
+<para id="fs-id1167826783812"><span class="token">ⓒ</span><newline/>
+<table id="fs-idm334837664" class="unnumbered unstyled" summary="No Summary">
+<label/>
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<tbody>
+<row valign="top">
+<entry valign="middle" align="left"/>
+<entry valign="middle" align="left"><m:math><m:mrow><m:mspace width="9em"/><m:mn>27</m:mn><m:mo>,</m:mo><m:mn>9</m:mn><m:mo>,</m:mo><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac><m:mo>,</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>9</m:mn></m:mfrac><m:mtext>,</m:mtext><m:mspace width="0.2em"/><m:mtext>…</m:mtext></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Find the ratio of the consecutive terms.</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mspace width="9em"/><m:mtable><m:mtr><m:mtd columnalign="left"><m:mfrac><m:mn>9</m:mn><m:mrow><m:mn>27</m:mn></m:mrow></m:mfrac></m:mtd><m:mtd columnalign="left"><m:mfrac><m:mn>3</m:mn><m:mn>9</m:mn></m:mfrac></m:mtd><m:mtd columnalign="left"><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac></m:mtd><m:mtd columnalign="left"><m:mfrac><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac></m:mrow><m:mn>1</m:mn></m:mfrac></m:mtd><m:mtd columnalign="left"><m:mfrac><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>9</m:mn></m:mfrac></m:mrow><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac></m:mrow></m:mfrac></m:mtd></m:mtr><m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="left"><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac></m:mtd><m:mtd columnalign="left"><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac></m:mtd><m:mtd columnalign="left"><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac></m:mtd><m:mtd columnalign="left"><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac></m:mtd><m:mtd columnalign="left"><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac></m:mtd></m:mtr></m:mtable></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="middle" align="left"/>
+<entry valign="middle" align="left">The sequence is geometric. The common ratio is <m:math><m:mrow><m:mi>r</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></entry>
+</row>
+</tbody>
+</tgroup>
+</table></para>
+</solution>
+</exercise>
+</example>
+<note id="fs-id1167834063343" class="try">
+<exercise id="fs-id1167831117502" class="material-set-2">
+<problem id="fs-id1167835229282">
+<para id="fs-id1167835191878">Determine if each sequence is geometric. If so indicate the common ratio.</para>
+<para id="fs-id1167835377480"><span class="token">ⓐ</span> <m:math><m:mrow><m:mn>7</m:mn><m:mo>,</m:mo><m:mn>21</m:mn><m:mo>,</m:mo><m:mn>63</m:mn><m:mo>,</m:mo><m:mn>189</m:mn><m:mo>,</m:mo><m:mn>567</m:mn><m:mo>,</m:mo><m:mn>1,701</m:mn><m:mtext>,</m:mtext><m:mspace width="0.2em"/><m:mtext>…</m:mtext></m:mrow></m:math></para>
+<para id="fs-id1167835274798"><span class="token">ⓑ</span> <m:math><m:mrow><m:mn>64</m:mn><m:mo>,</m:mo><m:mn>16</m:mn><m:mo>,</m:mo><m:mn>4</m:mn><m:mo>,</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>4</m:mn></m:mfrac><m:mo>,</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>16</m:mn></m:mrow></m:mfrac><m:mtext>,</m:mtext><m:mspace width="0.2em"/><m:mtext>…</m:mtext></m:mrow></m:math></para>
+<para id="fs-id1167835379498"><span class="token">ⓒ</span> <m:math><m:mrow><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>4</m:mn><m:mo>,</m:mo><m:mn>12</m:mn><m:mo>,</m:mo><m:mn>48</m:mn><m:mo>,</m:mo><m:mn>240</m:mn><m:mo>,</m:mo><m:mn>1,440</m:mn><m:mtext>,</m:mtext><m:mspace width="0.2em"/><m:mtext>…</m:mtext></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167835329154">
+<para id="fs-id1167835279634"><span class="token">ⓐ</span> The sequence is geometric with common ratio <m:math><m:mrow><m:mi>r</m:mi><m:mo>=</m:mo><m:mn>3</m:mn><m:mo>.</m:mo></m:mrow></m:math> <span class="token">ⓑ</span> The sequence is geometric with common ratio <m:math><m:mrow><m:mi>r</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>4</m:mn></m:mfrac><m:mo>.</m:mo></m:mrow></m:math> <span class="token">ⓒ</span> The sequence is not geometric. There is no common ratio.</para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1167835318621" class="try">
+<exercise id="fs-id1167831883059" class="material-set-2">
+<problem id="fs-id1167834161552">
+<para id="fs-id1167832051758">Determine if each sequence is geometric. If so indicate the common ratio.</para>
+<para id="fs-id1167835349793"><span class="token">ⓐ</span> <m:math><m:mrow><m:mn>−150</m:mn><m:mo>,</m:mo><m:mn>−30</m:mn><m:mo>,</m:mo><m:mn>−15</m:mn><m:mo>,</m:mo><m:mn>−5</m:mn><m:mo>,</m:mo><m:mo>−</m:mo><m:mfrac><m:mn>5</m:mn><m:mn>2</m:mn></m:mfrac><m:mo>,</m:mo><m:mn>0</m:mn><m:mtext>,</m:mtext><m:mspace width="0.2em"/><m:mtext>…</m:mtext></m:mrow></m:math></para>
+<para id="fs-id1167835254948"><span class="token">ⓑ</span> <m:math><m:mrow><m:mn>5</m:mn><m:mo>,</m:mo><m:mn>10</m:mn><m:mo>,</m:mo><m:mn>20</m:mn><m:mo>,</m:mo><m:mn>40</m:mn><m:mo>,</m:mo><m:mn>80</m:mn><m:mo>,</m:mo><m:mn>160</m:mn><m:mtext>,</m:mtext><m:mspace width="0.2em"/><m:mtext>…</m:mtext></m:mrow></m:math></para>
+<para id="fs-id1167835326248"><span class="token">ⓒ</span> <m:math><m:mrow><m:mn>8</m:mn><m:mo>,</m:mo><m:mn>4</m:mn><m:mo>,</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mo>,</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>4</m:mn></m:mfrac><m:mtext>,</m:mtext><m:mspace width="0.2em"/><m:mtext>…</m:mtext></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167835329145">
+<para id="fs-id1167835367791"><span class="token">ⓐ</span> The sequence is not geometric. There is no common ratio. <span class="token">ⓑ</span> The sequence is geometric with common ratio <m:math><m:mrow><m:mi>r</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mo>.</m:mo></m:mrow></m:math> <span class="token">ⓒ</span> The sequence is geometric with common ratio <m:math><m:mrow><m:mi>r</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<para id="fs-id1167835363007">If we know the first term, <m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub><m:mo>,</m:mo></m:mrow></m:math> and the common ratio, <emphasis effect="italics">r</emphasis>, we can list a finite number of terms of the sequence.</para>
+<example id="fs-id1167835244433">
+<exercise id="fs-id1167831923581">
+<problem id="fs-id1167835342807">
+<para id="fs-id1167835341879">Write the first five terms of the sequence where the first term is 3 and the common ratio is <m:math><m:mrow><m:mi>r</m:mi><m:mo>=</m:mo><m:mn>−2</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167835192426">
+<para id="fs-id1167834195479">We start with the first term and multiply it by the common ratio. Then we multiply that result by the common ratio to get the next term, and so on.</para>
+<equation id="fs-id1167835327493" class="unnumbered"><label/><m:math><m:mrow><m:mtable><m:mtr><m:mtd columnalign="center"><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:msub><m:mi>a</m:mi><m:mn>2</m:mn></m:msub></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:msub><m:mi>a</m:mi><m:mn>3</m:mn></m:msub></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:msub><m:mi>a</m:mi><m:mn>4</m:mn></m:msub></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:msub><m:mi>a</m:mi><m:mn>5</m:mn></m:msub></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="center"><m:mn>3</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:mn>3</m:mn><m:mo>·</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:mo/><m:mn>−6</m:mn><m:mo>·</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:mo/><m:mn>12</m:mn><m:mo>·</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:mo/><m:mn>−24</m:mn><m:mo>·</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mtd></m:mtr>
+<m:mtr><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:mn>−6</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:mn>12</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:mn>−24</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:mn>48</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:math></equation>
+<para id="fs-id1167834382518">The sequence is <m:math><m:mrow><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>−6</m:mn><m:mo>,</m:mo><m:mn>12</m:mn><m:mo>,</m:mo><m:mn>−24</m:mn><m:mo>,</m:mo><m:mn>48</m:mn><m:mtext>,</m:mtext><m:mspace width="0.2em"/><m:mtext>…</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+</example>
+<note id="fs-id1167835376295" class="try">
+<exercise id="fs-id1167835336301" class="material-set-2">
+<problem id="fs-id1167835333321">
+<para id="fs-id1167834423418">Write the first five terms of the sequence where the first term is 7 and the common ratio is <m:math><m:mrow><m:mi>r</m:mi><m:mo>=</m:mo><m:mn>−3</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167835328162">
+<para id="fs-id1167835309022"><m:math><m:mrow><m:mn>7</m:mn><m:mo>,</m:mo><m:mn>−21</m:mn><m:mo>,</m:mo><m:mn>63</m:mn><m:mo>,</m:mo><m:mn>−189</m:mn><m:mo>,</m:mo><m:mn>567</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1167835596436" class="try">
+<exercise id="fs-id1167831871527" class="material-set-2">
+<problem id="fs-id1167832054519">
+<para id="fs-id1167830702608">Write the first five terms of the sequence where the first term is 6 and the common ratio is <m:math><m:mrow><m:mi>r</m:mi><m:mo>=</m:mo><m:mn>−4</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167834345379">
+<para id="fs-id1167835190400"><m:math><m:mrow><m:mn>6</m:mn><m:mo>,</m:mo><m:mn>−24</m:mn><m:mo>,</m:mo><m:mn>96</m:mn><m:mo>,</m:mo><m:mn>−384</m:mn><m:mo>,</m:mo><m:mn>1536</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+</section>
+<section id="fs-id1167830703616">
+<title>Find the General Term (<emphasis effect="italics">n</emphasis>th Term) of a Geometric Sequence</title>
+<para id="fs-id1167835344412">Just as we found a formula for the general term of a sequence and an arithmetic sequence, we can also find a formula for the general term of a geometric sequence.</para>
+<para id="fs-id1167835186301">Let’s write the first few terms of the sequence where the first term is <m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> and the common ratio is <emphasis effect="italics">r</emphasis>. We will then look for a pattern.</para>
+<media id="fs-id1167835254432" alt="This figure shows an image of a geometric sequence.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_12_03_002_img.jpg"/>
+</media>
+<para id="fs-id1167835284923">As we look for a pattern in the five terms above, we see that each of the terms starts with <m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub><m:mo>.</m:mo></m:mrow></m:math></para>
+<para id="fs-id1167835305520">The first term, <m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub><m:mo>,</m:mo></m:mrow></m:math> is not multiplied by any <emphasis effect="italics">r</emphasis>. In the second term, the <m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> is multiplied by <emphasis effect="italics">r</emphasis>. In the third term, the <m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> is multiplied by <emphasis effect="italics">r</emphasis> two times (<m:math><m:mrow><m:mi>r</m:mi><m:mo>·</m:mo><m:mi>r</m:mi></m:mrow></m:math> or <m:math><m:mrow><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math>). In the fourth term, the <m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> is multiplied by <emphasis effect="italics">r</emphasis> three times (<m:math><m:mrow><m:mi>r</m:mi><m:mo>·</m:mo><m:mi>r</m:mi><m:mo>·</m:mo><m:mi>r</m:mi></m:mrow></m:math> or <m:math><m:mrow><m:msup><m:mi>r</m:mi><m:mn>3</m:mn></m:msup></m:mrow></m:math>) and in the fifth term, the <m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> is multiplied by <emphasis effect="italics">r</emphasis> four times. In each term, the number of times <m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> is multiplied by <emphasis effect="italics">r</emphasis> is one less than the number of the term. This leads us to the following</para>
+<equation id="fs-id1167834062313" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub><m:msup><m:mi>r</m:mi><m:mrow><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:msup></m:mrow></m:math></equation>
+<note id="fs-id1167831104046">
+<title>General Term (<emphasis effect="italics">n</emphasis>th term) of a Geometric Sequence</title>
+<para id="fs-id1167834556056">The general term of a geometric sequence with first term <m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> and the common ratio <emphasis effect="italics">r</emphasis> is</para>
+<equation id="fs-id1167835329706" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub><m:msup><m:mi>r</m:mi><m:mrow><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:msup></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1167835610070">We will use this formula in the next example to find the fourteenth term of a sequence.</para>
+<example id="fs-id1167835381619">
+<exercise id="fs-id1167835344414">
+<problem id="fs-id1167834244317">
+<para id="fs-id1167831908827">Find the fourteenth term of a sequence where the first term is 64 and the common ratio is <m:math><m:mrow><m:mi>r</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167835262981">
+<para id="fs-id1167835305367">
+<table id="fs-idm315140416" class="unnumbered unstyled" summary="No Summary">
+<label/>
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<tbody>
+<row valign="top">
+<entry valign="middle" align="left">To find the fourteenth term, <m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mrow><m:mn>14</m:mn></m:mrow></m:msub><m:mo>,</m:mo></m:mrow></m:math><newline/>use the formula with <m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mn>64</m:mn></m:mrow></m:math> and <m:math><m:mrow><m:mi>r</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></entry>
+<entry valign="middle" align="left"><m:math><m:mrow><m:mspace width="4.5em"/><m:msub><m:mi>a</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub><m:msup><m:mi>r</m:mi><m:mrow><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:msup></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="middle" align="left">Substitute in the values.</entry>
+<entry valign="middle" align="left"><m:math><m:mrow><m:mspace width="4em"/><m:msub><m:mi>a</m:mi><m:mrow><m:mn>14</m:mn></m:mrow></m:msub><m:mo>=</m:mo><m:mn>64</m:mn><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mn>14</m:mn><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:msup></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="middle" align="left">Simplify.</entry>
+<entry valign="middle" align="left"><m:math><m:mrow><m:mspace width="4em"/><m:msub><m:mi>a</m:mi><m:mrow><m:mn>14</m:mn></m:mrow></m:msub><m:mo>=</m:mo><m:mn>64</m:mn><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mn>13</m:mn></m:mrow></m:msup></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="middle" align="left"/>
+<entry valign="middle" align="left"><m:math><m:mrow><m:mspace width="4em"/><m:msub><m:mi>a</m:mi><m:mrow><m:mn>14</m:mn></m:mrow></m:msub><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>128</m:mn></m:mrow></m:mfrac></m:mrow></m:math></entry>
+</row>
+</tbody>
+</tgroup>
+</table></para>
+</solution>
+</exercise>
+</example>
+<note id="fs-id1167835362393" class="try">
+<exercise id="fs-id1167835419129" class="material-set-2">
+<problem id="fs-id1167835379554">
+<para id="fs-id1167834505260">Find the thirteenth term of a sequence where the first term is 81 and the common ratio is <m:math><m:mrow><m:mi>r</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167835311178">
+<para id="fs-id1167835308084"><m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>6,561</m:mn></m:mrow></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1167835309913" class="try">
+<exercise id="fs-id1167834190053" class="material-set-2">
+<problem id="fs-id1167835321621">
+<para id="fs-id1167835420376">Find the twelfth term of a sequence where the first term is 256 and the common ratio is <m:math><m:mrow><m:mi>r</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>4</m:mn></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167835512909">
+<para id="fs-id1167835420442"><m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>16,384</m:mn></m:mrow></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<para id="fs-id1167835376509">Sometimes we do not know the common ratio and we must use the given information to find it before we find the requested term.</para>
+<example id="fs-id1167835421548">
+<exercise id="fs-id1167832041513">
+<problem id="fs-id1167835320178">
+<para id="fs-id1167835285033">Find the twelfth term of the sequence 3, 6, 12, 24, 48, 96, … Find the general term for the sequence.</para>
+</problem>
+<solution id="fs-id1167831239723">
+<para id="fs-id1167835231455">To find the twelfth term, we use the formula, <m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub><m:msup><m:mi>r</m:mi><m:mrow><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:msup><m:mo>,</m:mo></m:mrow></m:math> and so we need to first determine <m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> and the common ratio <emphasis effect="italics">r</emphasis>.</para>
+<para id="fs-id1167835330266">
+<table id="fs-idm342157248" class="unnumbered unstyled" summary="No Summary">
+<label/>
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<tbody>
+<row valign="top">
+<entry valign="middle" align="left"/>
+<entry valign="middle" align="left"><m:math><m:mrow><m:mspace width="3em"/><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>6</m:mn><m:mo>,</m:mo><m:mn>12</m:mn><m:mo>,</m:mo><m:mn>24</m:mn><m:mo>,</m:mo><m:mn>48</m:mn><m:mo>,</m:mo><m:mn>96</m:mn><m:mtext>,</m:mtext><m:mspace width="0.2em"/><m:mtext>…</m:mtext></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="middle" align="left">The first term is three.</entry>
+<entry valign="middle" align="left"><m:math><m:mrow><m:mspace width="3em"/><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mn>3</m:mn></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="middle" align="left">Find the common ratio.</entry>
+<entry valign="middle" align="left"><m:math><m:mrow><m:mspace width="3em"/><m:mtable><m:mtr><m:mtd columnalign="left"><m:mfrac><m:mn>6</m:mn><m:mn>3</m:mn></m:mfrac></m:mtd><m:mtd columnalign="left"><m:mfrac><m:mrow><m:mn>12</m:mn></m:mrow><m:mn>6</m:mn></m:mfrac></m:mtd><m:mtd columnalign="left"><m:mfrac><m:mrow><m:mn>24</m:mn></m:mrow><m:mrow><m:mn>12</m:mn></m:mrow></m:mfrac></m:mtd><m:mtd columnalign="left"><m:mfrac><m:mrow><m:mn>48</m:mn></m:mrow><m:mrow><m:mn>24</m:mn></m:mrow></m:mfrac></m:mtd><m:mtd columnalign="left"><m:mfrac><m:mrow><m:mn>96</m:mn></m:mrow><m:mrow><m:mn>48</m:mn></m:mrow></m:mfrac></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>2</m:mn></m:mtd><m:mtd columnalign="left"><m:mn>2</m:mn></m:mtd><m:mtd columnalign="left"><m:mn>2</m:mn></m:mtd><m:mtd columnalign="left"><m:mn>2</m:mn></m:mtd><m:mtd columnalign="left"><m:mn>2</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="middle" align="left"/>
+<entry valign="middle" align="left">The common ratio is <m:math><m:mrow><m:mi>r</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mo>.</m:mo></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="middle" align="left">To find the twelfth term, <m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mrow><m:mn>12</m:mn></m:mrow></m:msub><m:mo>,</m:mo></m:mrow></m:math> use the<newline/>formula with <m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mn>3</m:mn><m:mspace width="0.2em"/><m:mtext>and</m:mtext><m:mspace width="0.2em"/><m:mi>r</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mo>.</m:mo></m:mrow></m:math></entry>
+<entry valign="middle" align="left"><m:math><m:mrow><m:mspace width="3em"/><m:msub><m:mi>a</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub><m:msup><m:mi>r</m:mi><m:mrow><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:msup></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="middle" align="left">Substitute in the values.</entry>
+<entry valign="middle" align="left"><m:math><m:mrow><m:mspace width="3em"/><m:msub><m:mi>a</m:mi><m:mrow><m:mn>12</m:mn></m:mrow></m:msub><m:mo>=</m:mo><m:mn>3</m:mn><m:mo>·</m:mo><m:msup><m:mn>2</m:mn><m:mrow><m:mn>12</m:mn><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:msup></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="middle" align="left">Simplify.</entry>
+<entry valign="middle" align="left"><m:math><m:mrow><m:mspace width="3em"/><m:msub><m:mi>a</m:mi><m:mrow><m:mn>12</m:mn></m:mrow></m:msub><m:mo>=</m:mo><m:mn>3</m:mn><m:mo>·</m:mo><m:msup><m:mn>2</m:mn><m:mrow><m:mn>11</m:mn></m:mrow></m:msup></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="middle" align="left"/>
+<entry valign="middle" align="left"><m:math><m:mrow><m:mspace width="3em"/><m:msub><m:mi>a</m:mi><m:mrow><m:mn>12</m:mn></m:mrow></m:msub><m:mo>=</m:mo><m:mn>6,144</m:mn></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="middle" align="left">Find the general term.</entry>
+<entry valign="middle" align="left"><m:math><m:mrow><m:mspace width="3em"/><m:msub><m:mi>a</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub><m:msup><m:mi>r</m:mi><m:mrow><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:msup></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="middle" align="left">We use the formula with <m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mn>3</m:mn><m:mspace width="0.2em"/><m:mtext>and</m:mtext><m:mspace width="0.2em"/><m:mi>r</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mo>.</m:mo></m:mrow></m:math></entry>
+<entry valign="middle" align="left"><m:math><m:mrow><m:mspace width="3em"/><m:msub><m:mi>a</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:mn>3</m:mn><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:msup></m:mrow></m:math></entry>
+</row>
+</tbody>
+</tgroup>
+</table></para>
+</solution>
+</exercise>
+</example>
+<note id="fs-id1167835342731" class="try">
+<exercise id="fs-id1167831882438" class="material-set-2">
+<problem id="fs-id1167835331260">
+<para id="fs-id1167834423135">Find the ninth term of the sequence 6, 18, 54, 162, 486, 1,458, … Then find the general term for the sequence.</para>
+</problem>
+<solution id="fs-id1167835339159">
+<para id="fs-id1167835309361"><m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mn>9</m:mn></m:msub><m:mo>=</m:mo><m:mn>39,366</m:mn><m:mo>.</m:mo></m:mrow></m:math> The general term is <m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:mn>6</m:mn><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:msup><m:mo>.</m:mo></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1167835479971" class="try">
+<exercise id="fs-id1167835332959" class="material-set-2">
+<problem id="fs-id1167835332531">
+<para id="fs-id1167832054099">Find the eleventh term of the sequence 7, 14, 28, 56, 112, 224, … Then find the general term for the sequence.</para>
+</problem>
+<solution id="fs-id1167835259048">
+<para id="fs-id1167835171107"><m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mrow><m:mn>11</m:mn></m:mrow></m:msub><m:mo>=</m:mo><m:mn>7,168</m:mn><m:mo>.</m:mo></m:mrow></m:math> The general term is <m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:mn>7</m:mn><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:msup><m:mo>.</m:mo></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+</section>
+<section id="fs-id1167835307999">
+<title>Find the Sum of the First <emphasis effect="italics">n</emphasis> Terms of a Geometric Sequence</title>
+<para id="fs-id1167832056860">We found the sum of both general sequences and arithmetic sequence. We will now do the same for geometric sequences. The sum,<m:math><m:mrow><m:msub><m:mi>S</m:mi><m:mi>n</m:mi></m:msub><m:mo>,</m:mo></m:mrow></m:math> of the first <emphasis effect="italics">n</emphasis> terms of a geometric sequence is written as <m:math><m:mrow><m:msub><m:mi>S</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub><m:mo>+</m:mo><m:msub><m:mi>a</m:mi><m:mn>2</m:mn></m:msub><m:mo>+</m:mo><m:msub><m:mi>a</m:mi><m:mn>3</m:mn></m:msub><m:mo>+</m:mo><m:mn>...</m:mn><m:mo>+</m:mo><m:msub><m:mi>a</m:mi><m:mi>n</m:mi></m:msub><m:mo>.</m:mo></m:mrow></m:math> We can write this sum by starting with the first term, <m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub><m:mo>,</m:mo></m:mrow></m:math> and keep multiplying by <emphasis effect="italics">r</emphasis> to get the next term as:</para>
+<equation id="fs-id1167834192587" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>S</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub><m:mo>+</m:mo><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub><m:mi>r</m:mi><m:mo>+</m:mo><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>...</m:mn><m:mo>+</m:mo><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub><m:msup><m:mi>r</m:mi><m:mrow><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:msup></m:mrow></m:math></equation>
+<para id="fs-id1167831881158">Let’s also multiply both sides of the equation by <emphasis effect="italics">r</emphasis>.</para>
+<equation id="fs-id1167835419647" class="unnumbered"><label/><m:math><m:mrow><m:mi>r</m:mi><m:msub><m:mi>S</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub><m:mi>r</m:mi><m:mo>+</m:mo><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub><m:msup><m:mi>r</m:mi><m:mn>3</m:mn></m:msup><m:mo>+</m:mo><m:mn>...</m:mn><m:mo>+</m:mo><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub><m:msup><m:mi>r</m:mi><m:mi>n</m:mi></m:msup></m:mrow></m:math></equation>
+<para id="fs-id1167831882929">Next, we subtract these equations. We will see that when we subtract, all but the first term of the top equation and the last term of the bottom equation subtract to zero.</para>
+<para id="fs-idm371483712"><table id="fs-idm415294976" class="unnumbered unstyled" summary=".">
+<label/>
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<tbody>
+<row>
+<entry/>
+<entry align="center"><m:math><m:mrow><m:mtable><m:mtr><m:mtd columnalign="center"><m:munder accentunder="true"><m:mrow><m:mtable><m:mtr><m:mtd columnalign="right"><m:mspace width="2.2em"/><m:msub><m:mi>S</m:mi><m:mi>n</m:mi></m:msub></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub><m:mo>+</m:mo><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub><m:mi>r</m:mi><m:mo>+</m:mo><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub><m:msup><m:mi>r</m:mi><m:mn>3</m:mn></m:msup><m:mo>+</m:mo><m:mo>…</m:mo><m:mo>+</m:mo><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub><m:msup><m:mi>r</m:mi><m:mrow><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:msup></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mspace width="2.2em"/><m:mi>r</m:mi><m:msub><m:mi>S</m:mi><m:mi>n</m:mi></m:msub></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mspace width="2.1em"/><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub><m:mi>r</m:mi><m:mo>+</m:mo><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub><m:msup><m:mi>r</m:mi><m:mn>3</m:mn></m:msup><m:mo>+</m:mo><m:mo>…</m:mo><m:mo>+</m:mo><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub><m:msup><m:mi>r</m:mi><m:mrow><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:msup><m:mo>+</m:mo><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub><m:msup><m:mi>r</m:mi><m:mi>n</m:mi></m:msup></m:mtd></m:mtr></m:mtable></m:mrow><m:mtext>____________________________________________________</m:mtext></m:munder></m:mtd></m:mtr><m:mtr/><m:mtr><m:mtd columnalign="left"><m:msub><m:mi>S</m:mi><m:mi>n</m:mi></m:msub><m:mo>−</m:mo><m:mi>r</m:mi><m:msub><m:mi>S</m:mi><m:mi>n</m:mi></m:msub><m:mspace width="0.5em"/><m:mo>=</m:mo><m:mspace width="0.5em"/><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub><m:mspace width="16.2em"/><m:msub><m:mtext mathvariant="italic">−a</m:mtext><m:mn>1</m:mn></m:msub><m:msup><m:mi>r</m:mi><m:mi>n</m:mi></m:msup></m:mtd></m:mtr></m:mtable></m:mrow></m:math></entry>
+</row>
+<row>
+<entry align="left">We factor both sides.</entry>
+<entry align="center"><m:math><m:mrow><m:msub><m:mi>S</m:mi><m:mi>n</m:mi></m:msub><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:mi>r</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:msup><m:mi>r</m:mi><m:mi>n</m:mi></m:msup></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+</row>
+<row>
+<entry align="left">To obtain the formula for <m:math><m:mrow><m:msub><m:mi>S</m:mi><m:mi>n</m:mi></m:msub><m:mo>,</m:mo></m:mrow></m:math><newline/>divide both sides by <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mo>−</m:mo><m:mi>r</m:mi><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo></m:mrow></m:math></entry>
+<entry align="center"><m:math><m:mrow><m:msub><m:mi>S</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:msup><m:mi>r</m:mi><m:mi>n</m:mi></m:msup></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:mi>r</m:mi></m:mrow></m:mfrac></m:mrow></m:math></entry>
+</row>
+</tbody>
+</tgroup>
+</table></para>
+<note id="fs-id1167835596184">
+<title>Sum of the First <emphasis effect="italics">n</emphasis> Terms of a Geometric Series</title>
+<para id="fs-id1167834448999">The sum, <m:math><m:mrow><m:msub><m:mi>S</m:mi><m:mi>n</m:mi></m:msub><m:mo>,</m:mo></m:mrow></m:math> of the first <emphasis effect="italics">n</emphasis> terms of a geometric sequence is</para>
+<equation id="fs-id1167835347299" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>S</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:msup><m:mi>r</m:mi><m:mi>n</m:mi></m:msup></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:mi>r</m:mi></m:mrow></m:mfrac></m:mrow></m:math></equation>
+<para id="fs-id1167834132911">where <m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> is the first term and <emphasis effect="italics">r</emphasis> is the common ratio, and <emphasis effect="italics">r</emphasis> is not equal to one.</para>
+</note>
+<para id="fs-id1167834190372">We apply this formula in the next example where the first few terms of the sequence are given. Notice the sum of a geometric sequence typically gets very large when the common ratio is greater than one.</para>
+<example id="fs-id1167834423311">
+<exercise id="fs-id1167834423313">
+<problem id="fs-id1167834183932">
+<para id="fs-id1167834183934">Find the sum of the first 20 terms of the geometric sequence 7, 14, 28, 56, 112, 224, …</para>
+</problem>
+<solution id="fs-id1167835512761">
+<para id="fs-id1167835512763">To find the sum, we will use the formula <m:math><m:mrow><m:msub><m:mi>S</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:msup><m:mi>r</m:mi><m:mi>n</m:mi></m:msup></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:mi>r</m:mi></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math> We know <m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mn>7</m:mn><m:mo>,</m:mo></m:mrow></m:math><m:math><m:mrow><m:mi>r</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mo>,</m:mo></m:mrow></m:math> and <m:math><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>20</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+<para id="fs-id1167828421539">
+<table id="fs-idm360962896" class="unnumbered unstyled" summary="No Summary">
+<label/>
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<tbody>
+<row valign="top">
+<entry valign="middle" align="left">Knowing <m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mn>7</m:mn><m:mo>,</m:mo><m:mi>r</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mo>,</m:mo></m:mrow></m:math> and <m:math><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>20</m:mn><m:mo>,</m:mo></m:mrow></m:math><newline/>use the sum formula.</entry>
+<entry valign="middle" align="left"><m:math><m:mrow><m:mspace width="4em"/><m:msub><m:mi>S</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:msup><m:mi>r</m:mi><m:mi>n</m:mi></m:msup></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:mi>r</m:mi></m:mrow></m:mfrac></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="middle" align="left">Substitute in the values.</entry>
+<entry valign="middle" align="left"><m:math><m:mrow><m:mspace width="4em"/><m:msub><m:mi>S</m:mi><m:mrow><m:mn>20</m:mn></m:mrow></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>7</m:mn><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:msup><m:mn>2</m:mn><m:mrow><m:mn>20</m:mn></m:mrow></m:msup></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow></m:mfrac></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="middle" align="left">Simplify.</entry>
+<entry valign="middle" align="left"><m:math><m:mrow><m:mspace width="4em"/><m:msub><m:mi>S</m:mi><m:mrow><m:mn>20</m:mn></m:mrow></m:msub><m:mo>=</m:mo><m:mn>7,340,025</m:mn></m:mrow></m:math></entry>
+</row>
+</tbody>
+</tgroup>
+</table></para>
+</solution>
+</exercise>
+</example>
+<note id="fs-id1167835320140" class="try">
+<exercise id="fs-id1167835320143" class="material-set-2">
+<problem id="fs-id1167831923146">
+<para id="fs-id1167831923148">Find the sum of the first 20 terms of the geometric sequence 3, 6, 12, 24, 48, 96, …</para>
+</problem>
+<solution id="fs-id1167826873960">
+<para id="fs-id1167826873962"><m:math><m:mrow><m:mn>3,145,725</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1167835420590" class="try">
+<exercise id="fs-id1167835420593" class="material-set-2">
+<problem id="fs-id1167835321865">
+<para id="fs-id1167835321867">Find the sum of the first 20 terms of the geometric sequence 6, 18, 54, 162, 486, 1,458, …</para>
+</problem>
+<solution id="fs-id1167834526499">
+<para id="fs-id1167834506131"><m:math><m:mrow><m:mn>10,460,353,200</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<para id="fs-id1167831893024">In the next example, we are given the sum in summation notation. While adding all the terms might be possible, most often it is easiest to use the formula to find the sum of the first <emphasis effect="italics">n</emphasis> terms.</para>
+<para id="fs-id1167835362294">To use the formula, we need <emphasis effect="italics">r</emphasis>. We can find it by writing out the first few terms of the sequence and find their ratio. Another option is to realize that in summation notation, a sequence is written in the form <m:math><m:mrow><m:mstyle displaystyle="true"><m:munderover><m:mo>∑</m:mo><m:mrow><m:mi>i</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow><m:mi>k</m:mi></m:munderover><m:mrow><m:mi>a</m:mi><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mi>r</m:mi><m:mo>)</m:mo></m:mrow></m:mrow><m:mi>i</m:mi></m:msup></m:mrow></m:mstyle><m:mo>,</m:mo></m:mrow></m:math> where <emphasis effect="italics">r</emphasis> is the common ratio.</para>
+<example id="fs-id1167835258731">
+<exercise id="fs-id1167835258733">
+<problem id="fs-id1167835355708">
+<para id="fs-id1167835355710">Find the sum: <m:math><m:mrow><m:mstyle displaystyle="true"><m:munderover><m:mo>∑</m:mo><m:mrow><m:mi>i</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow><m:mrow><m:mn>15</m:mn></m:mrow></m:munderover><m:mrow><m:mn>2</m:mn><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mn>3</m:mn><m:mo>)</m:mo></m:mrow></m:mrow><m:mi>i</m:mi></m:msup></m:mrow></m:mstyle><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167830703944">
+<para id="fs-id1167830703946">To find the sum, we will use the formula <m:math><m:mrow><m:msub><m:mi>S</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:msup><m:mi>r</m:mi><m:mi>n</m:mi></m:msup></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:mi>r</m:mi></m:mrow></m:mfrac><m:mo>,</m:mo></m:mrow></m:math> which requires <m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> and <emphasis effect="italics">r</emphasis>. We will write out a few of the terms, so we can get the needed information.</para>
+<table id="fs-id1167834194712" summary="To find the sum of 2 times 3 to the power of i from 1 to 15, we write out the first few terms as 2 times g times 3 to the power of 1, 2 times g times 3 to the power of 2, 2 times g times 3 to the power of 3, ellipsis, 6, 18, 54. Next, identify a which equals 6. Then find the common ratio of r equals 3, by dividing 18 by 6, 54 divided by 18 or the sum of 2 times 3 i from i equals 1 to 15. Knowing that a equals 6 and r equals 3 and n equals 15, we use the sum formula of s sub n equals a sub 1 times 1 minus r to the power of n divided by 1 minus r. Next we substitute the values to get s sub 15 times 6 times 1 minus 3 to the power of 15 divided by 1 minus 3, and simplify to s sub 15 equals 43,046,718." class="unnumbered unstyled"><label/>
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<tbody>
+<row>
+<entry/>
+<entry align="left">
+<media id="fs-id1167835301538" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_12_03_005a_img.jpg"/>
+</media>
+</entry>
+</row>
+<row>
+<entry valign="top" align="left">Write out the first few terms.</entry>
+<entry align="left">
+<media id="fs-id1167835304628" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_12_03_005b_img.jpg"/>
+</media>
+</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Identify <m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math>.</entry>
+<entry valign="top" align="left"><media id="fs-id1167835350831" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_12_03_005c_img.jpg"/>
+</media>
+</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left"><newline/>Find the common ratio.</entry>
+<entry valign="top" align="left"><newline/><media id="fs-id1167835344520" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_12_03_005d_img.jpg"/>
+</media>
+</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left"><newline/>Knowing <m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mn>6</m:mn><m:mo>,</m:mo></m:mrow></m:math><m:math><m:mrow><m:mi>r</m:mi><m:mo>=</m:mo><m:mn>3</m:mn><m:mo>,</m:mo></m:mrow></m:math> and <m:math><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>15</m:mn><m:mo>,</m:mo></m:mrow></m:math><newline/>use the sum formula.</entry>
+<entry valign="top" align="left"><newline/><media id="fs-id1167830703668" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_12_03_005e_img.jpg"/>
+</media>
+</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Substitute in the values.</entry>
+<entry valign="top" align="left"><media id="fs-id1167834539536" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_12_03_005f_img.jpg"/>
+</media>
+</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Simplify.</entry>
+<entry valign="top" align="left"><media id="fs-id1167832031206" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_12_03_005g_img.jpg"/>
+</media>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</solution>
+</exercise>
+</example>
+<note id="fs-id1167835305616" class="try">
+<exercise id="fs-id1167831887724" class="material-set-2">
+<problem id="fs-id1167831887726">
+<para id="fs-id1167826996403">Find the sum: <m:math><m:mrow><m:mstyle displaystyle="true"><m:munderover><m:mo>∑</m:mo><m:mrow><m:mi>i</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow><m:mrow><m:mn>15</m:mn></m:mrow></m:munderover><m:mrow><m:mn>6</m:mn><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mn>2</m:mn><m:mo>)</m:mo></m:mrow></m:mrow><m:mi>i</m:mi></m:msup></m:mrow></m:mstyle><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167826997262">
+<para id="fs-id1167826997264"><m:math><m:mrow><m:mn>393,204</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1167835234453" class="try">
+<exercise id="fs-id1167835234456" class="material-set-2">
+<problem id="fs-id1167835234458">
+<para id="fs-id1167835370353">Find the sum: <m:math><m:mrow><m:mstyle displaystyle="true"><m:munderover><m:mo>∑</m:mo><m:mrow><m:mi>i</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow><m:mrow><m:mn>10</m:mn></m:mrow></m:munderover><m:mrow><m:mn>5</m:mn><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mn>2</m:mn><m:mo>)</m:mo></m:mrow></m:mrow><m:mi>i</m:mi></m:msup></m:mrow></m:mstyle><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167832053532">
+<para id="fs-id1167832053534"><m:math><m:mrow><m:mn>10,230</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+</section>
+<section id="fs-id1167835257875">
+<title>Find the Sum of an Infinite Geometric Series</title>
+<para id="fs-id1167835337442">If we take a geometric sequence and add the terms, we have a sum that is called a geometric series. An <term>infinite geometric series</term> is an infinite sum whose first term is <m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> and common ratio is <emphasis effect="italics">r</emphasis> and is written</para>
+<equation id="fs-id1167832056775" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub><m:mo>+</m:mo><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub><m:mi>r</m:mi><m:mo>+</m:mo><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mo>…</m:mo><m:mo>+</m:mo><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub><m:msup><m:mi>r</m:mi><m:mrow><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:msup><m:mo>+</m:mo><m:mo>…</m:mo></m:mrow></m:math></equation>
+<note id="fs-id1167826814040">
+<title>Infinite Geometric Series</title>
+<para id="fs-id1167835186380">An <emphasis effect="bold">infinite geometric series</emphasis> is an infinite sum whose first term is <m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> and common ratio is <emphasis effect="italics">r</emphasis> and is written</para>
+<equation id="fs-id1167835181241" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub><m:mo>+</m:mo><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub><m:mi>r</m:mi><m:mo>+</m:mo><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mo>…</m:mo><m:mo>+</m:mo><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub><m:msup><m:mi>r</m:mi><m:mrow><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:msup><m:mo>+</m:mo><m:mo>…</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1167834179822">We know how to find the sum of the first <emphasis effect="italics">n</emphasis> terms of a geometric series using the formula, <m:math><m:mrow><m:msub><m:mi>S</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:msup><m:mi>r</m:mi><m:mi>n</m:mi></m:msup></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:mi>r</m:mi></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math> But how do we find the sum of an infinite sum?</para>
+<para id="fs-id1167835304128">Let’s look at the infinite geometric series <m:math><m:mrow><m:mn>3</m:mn><m:mo>+</m:mo><m:mn>6</m:mn><m:mo>+</m:mo><m:mn>12</m:mn><m:mo>+</m:mo><m:mn>24</m:mn><m:mo>+</m:mo><m:mn>48</m:mn><m:mo>+</m:mo><m:mn>96</m:mn><m:mo>+</m:mo><m:mo>…</m:mo><m:mo>.</m:mo></m:mrow></m:math> Each term gets larger and larger so it makes sense that the sum of the infinite number of terms gets larger. Let’s look at a few partial sums for this series. We see <m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mn>3</m:mn></m:mrow></m:math> and <m:math><m:mrow><m:mi>r</m:mi><m:mo>=</m:mo><m:mn>2</m:mn></m:mrow></m:math></para>
+<equation id="fs-id1167834556398" class="unnumbered"><label/><m:math><m:mrow><m:mtable><m:mtr><m:mtd columnalign="right"><m:msub><m:mi>S</m:mi><m:mi>n</m:mi></m:msub></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mfrac><m:mrow><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:msup><m:mi>r</m:mi><m:mi>n</m:mi></m:msup></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:mi>r</m:mi></m:mrow></m:mfrac></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mspace width="2em"/><m:msub><m:mi>S</m:mi><m:mi>n</m:mi></m:msub></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mfrac><m:mrow><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:msup><m:mi>r</m:mi><m:mi>n</m:mi></m:msup></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:mi>r</m:mi></m:mrow></m:mfrac></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mspace width="2em"/><m:msub><m:mi>S</m:mi><m:mi>n</m:mi></m:msub></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mfrac><m:mrow><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:msup><m:mi>r</m:mi><m:mi>n</m:mi></m:msup></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:mi>r</m:mi></m:mrow></m:mfrac></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="right"><m:msub><m:mi>S</m:mi><m:mrow><m:mn>10</m:mn></m:mrow></m:msub></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mfrac><m:mrow><m:mn>3</m:mn><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:msup><m:mn>2</m:mn><m:mrow><m:mn>10</m:mn></m:mrow></m:msup></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow></m:mfrac></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mspace width="2em"/><m:msub><m:mi>S</m:mi><m:mrow><m:mn>30</m:mn></m:mrow></m:msub></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mfrac><m:mrow><m:mn>3</m:mn><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:msup><m:mn>2</m:mn><m:mrow><m:mn>30</m:mn></m:mrow></m:msup></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow></m:mfrac></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mspace width="2em"/><m:msub><m:mi>S</m:mi><m:mrow><m:mn>50</m:mn></m:mrow></m:msub></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mfrac><m:mrow><m:mn>3</m:mn><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:msup><m:mn>2</m:mn><m:mrow><m:mn>50</m:mn></m:mrow></m:msup></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow></m:mfrac></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="right"><m:msub><m:mi>S</m:mi><m:mrow><m:mn>10</m:mn></m:mrow></m:msub></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>3,069</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mspace width="2em"/><m:msub><m:mi>S</m:mi><m:mrow><m:mn>30</m:mn></m:mrow></m:msub></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>3,221,225,469</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mspace width="2em"/><m:msub><m:mi>S</m:mi><m:mrow><m:mn>50</m:mn></m:mrow></m:msub></m:mtd><m:mtd columnalign="left"><m:mo>≈</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>3.38</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>15</m:mn></m:mrow></m:msup></m:mtd></m:mtr></m:mtable></m:mrow></m:math></equation>
+<para id="fs-id1167834239128">As <emphasis effect="italics">n</emphasis> gets larger and larger, the sum gets larger and larger. This is true when <m:math><m:mrow><m:mrow><m:mo>|</m:mo><m:mi>r</m:mi><m:mo>|</m:mo></m:mrow><m:mo>≥</m:mo><m:mn>1</m:mn></m:mrow></m:math> and we call the series divergent. We cannot find a sum of an infinite geometric series when <m:math><m:mrow><m:mrow><m:mo>|</m:mo><m:mi>r</m:mi><m:mo>|</m:mo></m:mrow><m:mo>≥</m:mo><m:mn>1</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+<para id="fs-id1167835361492">Let’s look at an infinite geometric series whose common ratio is a fraction less than one,<newline/><m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>4</m:mn></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>8</m:mn></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>16</m:mn></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>32</m:mn></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>64</m:mn></m:mrow></m:mfrac><m:mo>+</m:mo><m:mo>…</m:mo></m:mrow></m:math>. Here the terms get smaller and smaller as <emphasis effect="italics">n</emphasis> gets larger. Let’s look at a few finite sums for this series. We see <m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow></m:math> and <m:math><m:mrow><m:mi>r</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></para>
+<equation id="fs-id1167831920231" class="unnumbered"><label/><m:math><m:mrow><m:mtable><m:mtr><m:mtd columnalign="right"><m:msub><m:mi>S</m:mi><m:mi>n</m:mi></m:msub></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mfrac><m:mrow><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:msup><m:mi>r</m:mi><m:mi>n</m:mi></m:msup></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:mi>r</m:mi></m:mrow></m:mfrac></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mspace width="2em"/><m:msub><m:mi>S</m:mi><m:mi>n</m:mi></m:msub></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mfrac><m:mrow><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:msup><m:mi>r</m:mi><m:mi>n</m:mi></m:msup></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:mi>r</m:mi></m:mrow></m:mfrac></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mspace width="2em"/><m:msub><m:mi>S</m:mi><m:mi>n</m:mi></m:msub></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mfrac><m:mrow><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:msup><m:mi>r</m:mi><m:mi>n</m:mi></m:msup></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:mi>r</m:mi></m:mrow></m:mfrac></m:mtd></m:mtr><m:mtr/><m:mtr/>
+<m:mtr><m:mtd columnalign="right"><m:msub><m:mi>S</m:mi><m:mrow><m:mn>10</m:mn></m:mrow></m:msub></m:mtd><m:mtd columnalign="right"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mfrac><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mn>10</m:mn></m:mrow></m:msup></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow></m:mfrac></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mspace width="2em"/><m:msub><m:mi>S</m:mi><m:mrow><m:mn>20</m:mn></m:mrow></m:msub></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mfrac><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mn>20</m:mn></m:mrow></m:msup></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow></m:mfrac></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mspace width="2em"/><m:msub><m:mi>S</m:mi><m:mrow><m:mn>30</m:mn></m:mrow></m:msub></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mfrac><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mn>30</m:mn></m:mrow></m:msup></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow></m:mfrac></m:mtd></m:mtr><m:mtr/><m:mtr/>
+<m:mtr><m:mtd columnalign="right"><m:msub><m:mi>S</m:mi><m:mrow><m:mn>10</m:mn></m:mrow></m:msub></m:mtd><m:mtd columnalign="left"><m:mo>≈</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>.9990234375</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mspace width="2em"/><m:msub><m:mi>S</m:mi><m:mrow><m:mn>20</m:mn></m:mrow></m:msub></m:mtd><m:mtd columnalign="left"><m:mo>≈</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>0.9999990463</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mspace width="2em"/><m:msub><m:mi>S</m:mi><m:mrow><m:mn>30</m:mn></m:mrow></m:msub></m:mtd><m:mtd columnalign="left"><m:mo>≈</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>0.9999999991</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:math></equation>
+<para id="fs-id1167835360242">Notice the sum gets larger and larger but also gets closer and closer to one. When <m:math><m:mrow><m:mrow><m:mo>|</m:mo><m:mi>r</m:mi><m:mo>|</m:mo></m:mrow><m:mo>&lt;</m:mo><m:mn>1</m:mn><m:mo>,</m:mo></m:mrow></m:math> the expression <m:math><m:mrow><m:msup><m:mi>r</m:mi><m:mi>n</m:mi></m:msup></m:mrow></m:math> gets smaller and smaller. In this case, we call the series convergent. As <emphasis effect="italics">n</emphasis> approaches infinity, (gets infinitely large), <m:math><m:mrow><m:msup><m:mi>r</m:mi><m:mi>n</m:mi></m:msup></m:mrow></m:math> gets closer and closer to zero. In our sum formula, we can replace the <m:math><m:mrow><m:msup><m:mi>r</m:mi><m:mi>n</m:mi></m:msup></m:mrow></m:math> with zero and then we get a formula for the sum, <emphasis effect="italics">S</emphasis>, for an infinite geometric series when <m:math><m:mrow><m:mrow><m:mo>|</m:mo><m:mi>r</m:mi><m:mo>|</m:mo></m:mrow><m:mo>&lt;</m:mo><m:mn>1</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+<equation id="fs-id1167835319436" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:msub><m:mi>S</m:mi><m:mi>n</m:mi></m:msub></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mfrac><m:mrow><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:msup><m:mi>r</m:mi><m:mi>n</m:mi></m:msup></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:mi>r</m:mi></m:mrow></m:mfrac></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:msub><m:mi>S</m:mi><m:mrow/></m:msub></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mfrac><m:mrow><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:mn>0</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:mi>r</m:mi></m:mrow></m:mfrac></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:msub><m:mi>S</m:mi><m:mrow/></m:msub></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mfrac><m:mrow><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:mi>r</m:mi></m:mrow></m:mfrac></m:mtd></m:mtr></m:mtable></m:math></equation>
+<para id="fs-id1167834535304">This formula gives us the sum of the infinite geometric sequence. Notice the <emphasis effect="italics">S</emphasis> does not have the subscript <emphasis effect="italics">n</emphasis> as in <m:math><m:mrow><m:msub><m:mi>S</m:mi><m:mi>n</m:mi></m:msub></m:mrow></m:math> as we are not adding a finite number of terms.</para>
+<note id="fs-id1167834423773">
+<title>Sum of an Infinite Geometric Series</title>
+<para id="fs-id1167835333251">For an infinite geometric series whose first term is <m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> and common ratio <emphasis effect="italics">r</emphasis>,</para>
+<para id="fs-id1167834439193"><m:math><m:mrow><m:mspace width="1.5em"/><m:mtext>If</m:mtext><m:mspace width="0.2em"/><m:mrow><m:mo>|</m:mo><m:mi>r</m:mi><m:mo>|</m:mo></m:mrow><m:mo>&lt;</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mtext>the sum is</m:mtext></m:mrow></m:math></para>
+<equation id="fs-id1167834227337" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>S</m:mi><m:mrow/></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:mi>r</m:mi></m:mrow></m:mfrac></m:mrow></m:math></equation>
+<para id="fs-id1167834433655"><m:math><m:mrow><m:mspace width="1.5em"/><m:mtext>If</m:mtext><m:mspace width="0.2em"/><m:mrow><m:mo>|</m:mo><m:mi>r</m:mi><m:mo>|</m:mo></m:mrow><m:mo>≥</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mtext>the infinite geometric series does not have a sum. We say the series diverges.</m:mtext></m:mrow></m:math></para>
+</note>
+<example id="fs-id1167835332145">
+<exercise id="fs-id1167835332147">
+<problem id="fs-id1167835332149">
+<para id="fs-id1167830699561">Find the sum of the infinite geometric series <m:math><m:mrow><m:mn>54</m:mn><m:mo>+</m:mo><m:mn>18</m:mn><m:mo>+</m:mo><m:mn>6</m:mn><m:mo>+</m:mo><m:mn>2</m:mn><m:mo>+</m:mo><m:mfrac><m:mn>2</m:mn><m:mn>3</m:mn></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>2</m:mn><m:mn>9</m:mn></m:mfrac><m:mo>+</m:mo><m:mo>…</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167835279973">
+<para id="fs-id1167834244263">To find the sum, we first have to verify that the common ratio <m:math><m:mrow><m:mrow><m:mo>|</m:mo><m:mi>r</m:mi><m:mo>|</m:mo></m:mrow><m:mo>&lt;</m:mo><m:mn>1</m:mn></m:mrow></m:math> and then we can use the sum formula <m:math><m:mrow><m:msub><m:mi>S</m:mi><m:mrow/></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:mi>r</m:mi></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></para>
+<para id="fs-id1167835362129">
+<table id="fs-idm293613136" class="unnumbered unstyled" summary="No Summary">
+<label/>
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<tbody>
+<row valign="top">
+<entry valign="middle" align="left">Find the common ratio.</entry>
+<entry valign="middle" align="left"><m:math><m:mrow><m:mspace width="3.5em"/><m:mi>r</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>18</m:mn></m:mrow><m:mrow><m:mn>54</m:mn></m:mrow></m:mfrac><m:mspace width="2em"/><m:mi>r</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>6</m:mn><m:mrow><m:mn>18</m:mn></m:mrow></m:mfrac><m:mo>…</m:mo></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="middle" align="left"/>
+<entry valign="middle" align="left"><m:math><m:mrow><m:mspace width="3.5em"/><m:mi>r</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac><m:mspace width="2.5em"/><m:mi>r</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac><m:mspace width="1.5em"/><m:mrow><m:mo>|</m:mo><m:mi>r</m:mi><m:mo>|</m:mo></m:mrow><m:mo>&lt;</m:mo><m:mn>1</m:mn></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="middle" align="left">Identify <m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub><m:mo>.</m:mo></m:mrow></m:math></entry>
+<entry valign="middle" align="left"><m:math><m:mrow><m:mspace width="3em"/><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mn>54</m:mn></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="middle" align="left">Knowing <m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mn>54</m:mn><m:mo>,</m:mo><m:mi>r</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac><m:mo>,</m:mo></m:mrow></m:math><newline/>use the sum formula.</entry>
+<entry valign="middle" align="left"><m:math><m:mrow><m:mspace width="3.5em"/><m:msub><m:mi>S</m:mi><m:mrow/></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:mi>r</m:mi></m:mrow></m:mfrac></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="middle" align="left">Substitute in the values.</entry>
+<entry valign="middle" align="left"><m:math><m:mrow><m:mspace width="3.5em"/><m:msub><m:mi>S</m:mi><m:mrow/></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>54</m:mn></m:mrow><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac></m:mrow></m:mfrac></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="middle" align="left">Simplify.</entry>
+<entry valign="middle" align="left"><m:math><m:mrow><m:mspace width="3.5em"/><m:msub><m:mi>S</m:mi><m:mrow/></m:msub><m:mo>=</m:mo><m:mn>81</m:mn></m:mrow></m:math></entry>
+</row>
+</tbody>
+</tgroup>
+</table></para>
+</solution>
+</exercise>
+</example>
+<note id="fs-id1167835358229" class="try">
+<exercise id="fs-id1167835358232" class="material-set-2">
+<problem id="fs-id1167835358234">
+<para id="fs-id1167834537774">Find the sum of the infinite geometric series <m:math><m:mrow><m:mn>48</m:mn><m:mo>+</m:mo><m:mn>24</m:mn><m:mo>+</m:mo><m:mn>12</m:mn><m:mo>+</m:mo><m:mn>6</m:mn><m:mo>+</m:mo><m:mn>3</m:mn><m:mo>+</m:mo><m:mfrac><m:mn>3</m:mn><m:mn>2</m:mn></m:mfrac><m:mo>+</m:mo><m:mo>…</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167830699598">
+<para id="fs-id1167830699600">96</para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1167830703303" class="try">
+<exercise id="fs-id1167830703306" class="material-set-2">
+<problem id="fs-id1167830703716">
+<para id="fs-id1167830703718">Find the sum of the infinite geometric series <m:math><m:mrow><m:mn>64</m:mn><m:mo>+</m:mo><m:mn>16</m:mn><m:mo>+</m:mo><m:mn>4</m:mn><m:mo>+</m:mo><m:mn>1</m:mn><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>4</m:mn></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>16</m:mn></m:mrow></m:mfrac><m:mo>+</m:mo><m:mo>…</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167835330186">
+<para id="fs-id1167835330189"><m:math><m:mrow><m:mfrac><m:mrow><m:mn>256</m:mn></m:mrow><m:mn>3</m:mn></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<para id="fs-id1167835596706">An interesting use of infinite geometric series is to write a repeating decimal as a fraction.</para>
+<example id="fs-id1167835596709">
+<exercise id="fs-id1167835596711">
+<problem id="fs-id1167831872304">
+<para id="fs-id1167831872306">Write the repeating decimal <m:math><m:mrow><m:mn>0.</m:mn><m:mover><m:mn>5</m:mn><m:mo>–</m:mo></m:mover></m:mrow></m:math> as a fraction.</para>
+</problem>
+<solution id="fs-id1167831910908">
+<para id="fs-id1167831910910">
+<table id="fs-idm311384496" class="unnumbered unstyled" summary="No Summary">
+<label/>
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<tbody>
+<row valign="top">
+<entry valign="middle" align="left">Rewrite the <m:math><m:mrow><m:mn>0.</m:mn><m:mover><m:mn>5</m:mn><m:mo>–</m:mo></m:mover></m:mrow></m:math> showing the repeating five.</entry>
+<entry valign="middle" align="left"><m:math><m:mrow><m:mspace width="1.2em"/><m:mn>0.5555555555555</m:mn><m:mtext>…</m:mtext></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="middle" align="left">Use place value to rewrite this as a sum.</entry>
+<entry valign="middle" align="left"><m:math><m:mrow><m:mspace width="1em"/><m:mn>0.5</m:mn><m:mo>+</m:mo><m:mn>0.05</m:mn><m:mo>+</m:mo><m:mn>0.005</m:mn><m:mo>+</m:mo><m:mn>0.0005</m:mn><m:mo>+</m:mo><m:mo>...</m:mo></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="middle" align="left">This is an infinite geometric series.</entry>
+<entry valign="middle" align="left"/>
+</row>
+<row valign="top">
+<entry valign="middle" align="left">Find the common ratio.</entry>
+<entry valign="middle" align="left"><m:math><m:mrow><m:mspace width="1.2em"/><m:mi>r</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>0.05</m:mn></m:mrow><m:mrow><m:mn>0.5</m:mn></m:mrow></m:mfrac><m:mspace width="1.2em"/><m:mi>r</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>0.005</m:mn></m:mrow><m:mrow><m:mn>0.05</m:mn></m:mrow></m:mfrac><m:mo>…</m:mo></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="middle" align="left"/>
+<entry valign="middle" align="left"><m:math><m:mrow><m:mspace width="1.2em"/><m:mi>r</m:mi><m:mo>=</m:mo><m:mn>0.1</m:mn><m:mspace width="1.7em"/><m:mi>r</m:mi><m:mo>=</m:mo><m:mn>0.1</m:mn><m:mspace width="1.5em"/><m:mrow><m:mo>|</m:mo><m:mi>r</m:mi><m:mo>|</m:mo></m:mrow><m:mo>&lt;</m:mo><m:mn>1</m:mn></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="middle" align="left">Identify <m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub><m:mo>.</m:mo></m:mrow></m:math></entry>
+<entry valign="middle" align="left"><m:math><m:mrow><m:mspace width="0.7em"/><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mn>0.5</m:mn></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="middle" align="left">Knowing <m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mn>0.5</m:mn><m:mo>,</m:mo><m:mi>r</m:mi><m:mo>=</m:mo><m:mn>0.1</m:mn><m:mo>,</m:mo></m:mrow></m:math><newline/>use the sum formula.</entry>
+<entry valign="middle" align="left"><m:math><m:mrow><m:mspace width="1em"/><m:msub><m:mi>S</m:mi><m:mrow/></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:mi>r</m:mi></m:mrow></m:mfrac></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="middle" align="left">Substitute in the values.</entry>
+<entry valign="middle" align="left"><m:math><m:mrow><m:mspace width="1em"/><m:msub><m:mi>S</m:mi><m:mrow/></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>0.5</m:mn></m:mrow><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:mn>0.1</m:mn></m:mrow></m:mfrac></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="middle" align="left">Simplify.</entry>
+<entry valign="middle" align="left"><m:math><m:mrow><m:mspace width="1em"/><m:msub><m:mi>S</m:mi><m:mrow/></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>0.5</m:mn></m:mrow><m:mrow><m:mn>0.9</m:mn></m:mrow></m:mfrac></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="middle" align="left">Multiply numerator and denominator by 10.</entry>
+<entry valign="middle" align="left"><m:math><m:mrow><m:mspace width="1em"/><m:msub><m:mi>S</m:mi><m:mrow/></m:msub><m:mo>=</m:mo><m:mfrac><m:mn>5</m:mn><m:mn>9</m:mn></m:mfrac></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="middle" align="left">We are asked to find the fraction form.</entry>
+<entry valign="middle" align="left"><m:math><m:mrow><m:mn>0.</m:mn><m:mover><m:mn>5</m:mn><m:mo>–</m:mo></m:mover><m:mo>=</m:mo><m:mfrac><m:mn>5</m:mn><m:mn>9</m:mn></m:mfrac></m:mrow></m:math></entry>
+</row>
+</tbody>
+</tgroup>
+</table></para>
+</solution>
+</exercise>
+</example>
+<note id="fs-id1167826804626" class="try">
+<exercise id="fs-id1167826804630" class="material-set-2">
+<problem id="fs-id1167826804632">
+<para id="fs-id1167826804634">Write the repeating decimal <m:math><m:mrow><m:mn>0.</m:mn><m:mover><m:mn>4</m:mn><m:mo>–</m:mo></m:mover></m:mrow></m:math> as a fraction.</para>
+</problem>
+<solution id="fs-id1167826997310">
+<para id="fs-id1167826997312"><m:math><m:mrow><m:mfrac><m:mn>4</m:mn><m:mn>9</m:mn></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1167831025316" class="try">
+<exercise id="fs-id1167835254045" class="material-set-2">
+<problem id="fs-id1167835254047">
+<para id="fs-id1167835254049">Write the repeating decimal <m:math><m:mrow><m:mn>0.</m:mn><m:mover><m:mn>8</m:mn><m:mo>–</m:mo></m:mover></m:mrow></m:math> as a fraction.</para>
+</problem>
+<solution id="fs-id1167835300386">
+<para id="fs-id1167834430745"><m:math><m:mrow><m:mfrac><m:mn>8</m:mn><m:mn>9</m:mn></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+</section>
+<section id="fs-id1167831923398">
+<title>Apply Geometric Sequences and Series in the Real World</title>
+<para id="fs-id1167831923403">One application of geometric sequences has to do with consumer spending. If a tax rebate is given to each household, the effect on the economy is many times the amount of the individual rebate.</para>
+<example id="fs-id1167834301246">
+<exercise id="fs-id1167834301249">
+<problem id="fs-id1167834301251">
+<para id="fs-id1167834301253">The government has decided to give a $1,000 tax rebate to each household in order to stimulate the economy. The government statistics say that each household will spend 80% of the rebate in goods and services. The businesses and individuals who benefitted from that 80% will then spend 80% of what they received and so on. The result is called the multiplier effect. What is the total effect of the rebate on the economy?</para>
+</problem>
+<solution id="fs-id1167835320121">
+<para id="fs-id1167835320123">Every time money goes into the economy, 80% of it is spent and is then in the economy to be spent. Again, 80% of this money is spent in the economy again. This situation continues and so leads us to an infinite geometric series.</para>
+<equation id="fs-id1167835319221" class="unnumbered"><label/><m:math><m:mrow><m:mn>1000</m:mn><m:mo>+</m:mo><m:mn>1000</m:mn><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0.8</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mn>1000</m:mn><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0.8</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mo>…</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167834301186">Here the first term is 1,000, <m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mn>1000</m:mn><m:mo>.</m:mo></m:mrow></m:math> The common ratio is <m:math><m:mrow><m:mn>0.8</m:mn><m:mo>,</m:mo></m:mrow></m:math><m:math><m:mrow><m:mi>r</m:mi><m:mo>=</m:mo><m:mn>0.8</m:mn><m:mo>.</m:mo></m:mrow></m:math> We can evaluate this sum since <m:math><m:mrow><m:mn>0.8</m:mn><m:mo>&lt;</m:mo><m:mn>1</m:mn><m:mo>.</m:mo></m:mrow></m:math> We use the formula for the sum on an infinite geometric series.</para>
+<para id="fs-id1167826782561"><table id="fs-idm167156272" class="unnumbered unstyled" summary=".">
+<label/>
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<tbody>
+<row>
+<entry/>
+<entry valign="top" align="left"><m:math><m:mrow><m:mtable><m:mtr><m:mtd columnalign="right"><m:mspace width="3em"/><m:msub><m:mi>S</m:mi><m:mrow/></m:msub></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mfrac><m:mrow><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:mi>r</m:mi></m:mrow></m:mfrac></m:mtd></m:mtr></m:mtable></m:mrow></m:math></entry>
+</row>
+<row>
+<entry valign="top" align="left">
+Substitute in the values, <m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mn>1,000</m:mn></m:mrow></m:math> and <m:math><m:mrow><m:mi>r</m:mi><m:mo>=</m:mo><m:mn>0.8</m:mn><m:mo>.</m:mo></m:mrow></m:math></entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mtable><m:mtr><m:mtd columnalign="right"><m:mspace width="3em"/><m:msub><m:mi>S</m:mi><m:mrow/></m:msub></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mfrac><m:mrow><m:mn>1,000</m:mn></m:mrow><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:mn>0.8</m:mn></m:mrow></m:mfrac></m:mtd></m:mtr></m:mtable></m:mrow></m:math></entry>
+</row>
+<row>
+<entry valign="top" align="left">Evaluate.</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mtable><m:mtr><m:mtd columnalign="right"><m:mspace width="3em"/><m:msub><m:mi>S</m:mi><m:mrow/></m:msub></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>5,000</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:math></entry></row>
+</tbody>
+</tgroup>
+</table>
+</para>
+<para id="fs-id1167835509966">The total effect of the $1,000 received by each household will be a $5,000 growth in the economy.</para>
+</solution>
+</exercise>
+</example>
+<note id="fs-id1167834214080" class="try">
+<exercise id="fs-id1167834214083" class="material-set-2">
+<problem id="fs-id1167834214085">
+<para id="fs-id1167834189673">What is the total effect on the economy of a government tax rebate of $1,000 to each household in order to stimulate the economy if each household will spend 90% of the rebate in goods and services?</para>
+</problem>
+<solution id="fs-id1167834189679">
+<para id="fs-id1167834189681"><m:math><m:mrow><m:mtext>$</m:mtext><m:mn>10,000</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1167834185503" class="try">
+<exercise id="fs-id1167832053317" class="material-set-2">
+<problem id="fs-id1167832053319">
+<para id="fs-id1167832053322">What is the total effect on the economy of a government tax rebate of $500 to each household in order to stimulate the economy if each household will spend 85% of the rebate in goods and services?</para>
+</problem>
+<solution id="fs-id1167834119867">
+<para id="fs-id1167834119869"><m:math><m:mrow><m:mtext>$</m:mtext><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>333.33</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<para id="fs-id1167834195816">We have looked at a compound interest formula where a principal, <emphasis effect="italics">P</emphasis>, is invested at an interest rate, <emphasis effect="italics">r</emphasis>, for <emphasis effect="italics">t</emphasis> years. The new balance, <emphasis effect="italics">A</emphasis>, is <m:math><m:mrow><m:mi>A</m:mi><m:mo>=</m:mo><m:mi>P</m:mi><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>+</m:mo><m:mfrac><m:mi>r</m:mi><m:mi>n</m:mi></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mi>n</m:mi><m:mi>t</m:mi></m:mrow></m:msup></m:mrow></m:math> when interest is compounded <emphasis effect="italics">n</emphasis> times a year. This formula applies when a lump sum was invested upfront and tells us the value after a certain time period.</para>
+<para id="fs-id1167826803871">An <term>annuity</term> is an investment that is a sequence of equal periodic deposits. We will be looking at annuities that pay the interest at the time of the deposits. As we develop the formula for the value of an annuity, we are going to let <m:math><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>.</m:mo></m:mrow></m:math> That means there is one deposit per year.</para>
+<table id="fs-idm340364672" class="unnumbered unstyled" summary="No Summary">
+<label/>
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<tbody>
+<row valign="top">
+<entry valign="middle" align="left"/>
+<entry valign="middle" align="left"><m:math><m:mrow><m:mspace width="4em"/><m:mi>A</m:mi><m:mo>=</m:mo><m:mi>P</m:mi><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>+</m:mo><m:mfrac><m:mi>r</m:mi><m:mi>n</m:mi></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mi>n</m:mi><m:mi>t</m:mi></m:mrow></m:msup></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="middle" align="left">Let <m:math><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>.</m:mo></m:mrow></m:math></entry>
+<entry valign="middle" align="left"><m:math><m:mrow><m:mspace width="4em"/><m:mi>A</m:mi><m:mo>=</m:mo><m:mi>P</m:mi><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>+</m:mo><m:mfrac><m:mi>r</m:mi><m:mn>1</m:mn></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mn>1</m:mn><m:mi>t</m:mi></m:mrow></m:msup></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="middle" align="left">Simplify.</entry>
+<entry valign="middle" align="left"><m:math><m:mrow><m:mspace width="4em"/><m:mi>A</m:mi><m:mo>=</m:mo><m:mi>P</m:mi><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>+</m:mo><m:mi>r</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mi>t</m:mi></m:msup></m:mrow></m:math></entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<para id="fs-id1167835346948">Suppose <emphasis effect="italics">P</emphasis> dollars is invested at the end of each year. One year later that deposit is worth <m:math><m:mrow><m:mi>P</m:mi><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>+</m:mo><m:mi>r</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>1</m:mn></m:msup></m:mrow></m:math> dollars, and another year later it is worth <m:math><m:mrow><m:mi>P</m:mi><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>+</m:mo><m:mi>r</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math> dollars. After <emphasis effect="italics">t</emphasis> years, it will be worth <m:math><m:mrow><m:mi>A</m:mi><m:mo>=</m:mo><m:mi>P</m:mi><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>+</m:mo><m:mi>r</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mi>t</m:mi></m:msup></m:mrow></m:math> dollars.</para>
+<table id="fs-id1167835320056" summary="This figure shows a table with four rows and four columns. The first row is the header row, beginning at the second column and reads “End of year 1”, “End of year 2,” and “End of year 3”. In the first column, second row, the “first deposit P at end of year one” is P, the amount 1 year later is P times 1 plus r, Amount 2 years later is P times 1 plus 2 squared. The “2nd deposit P at end of year 2” is P, and the amount 1 year later is P times 1 plus 2, and the “3rd deposit P at end of year 3” is P." class="unnumbered">
+<tgroup cols="4">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<colspec colnum="4" colname="c4"/>
+<thead>
+<row valign="top">
+<entry/>
+<entry valign="top" align="left">End of year 1</entry>
+<entry valign="top" align="left">End of year 2</entry>
+<entry valign="top" align="left">End of year 3</entry>
+</row>
+</thead>
+<tbody>
+<row valign="top">
+<entry valign="top" align="left">First Deposit <emphasis effect="italics">P</emphasis><newline/>@ end of year 1</entry>
+<entry valign="middle" align="center"><emphasis effect="italics">P</emphasis></entry>
+<entry valign="middle" align="center">Amount 1 year later<newline/><m:math><m:mrow><m:mi>P</m:mi><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>+</m:mo><m:mi>r</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>1</m:mn></m:msup></m:mrow></m:math></entry>
+<entry valign="middle" align="center">Amount 2 years later<newline/>
+<m:math><m:mrow><m:mi>P</m:mi><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>+</m:mo><m:mi>r</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">2nd Deposit <emphasis effect="italics">P</emphasis><newline/>@ end of year 2</entry>
+<entry/>
+<entry valign="middle" align="center"><emphasis effect="italics">P</emphasis></entry>
+<entry valign="middle" align="center">Amount 1 year later<newline/><m:math><m:mrow><m:mi>P</m:mi><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>+</m:mo><m:mi>r</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>1</m:mn></m:msup></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">3<sup>rd</sup> Deposit <emphasis effect="italics">P</emphasis><newline/>@ end of year 3</entry>
+<entry/>
+<entry/>
+<entry valign="middle" align="center"><emphasis effect="italics">P</emphasis></entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<para id="fs-id1167835589642">After three years, the value of the annuity is</para>
+<media id="fs-id1167835589645" alt="P plus P times the quantity 1 plus r in parentheses, to the first power, plus P times the quantity 1 plus r, in parentheses, squared. This equals the money deposited at the end of year three, plus the money deposited at the end of year two, plus the money deposited at the end of year 1.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_12_03_003_img.jpg"/>
+</media>
+<para id="fs-id1167834132853">This a sum of the terms of a geometric sequence where the first term is <emphasis effect="italics">P</emphasis> and the common ratio is <m:math><m:mrow><m:mn>1</m:mn><m:mo>+</m:mo><m:mi>r</m:mi><m:mo>.</m:mo></m:mrow></m:math> We substitute these values into the sum formula. Be careful, we have two different uses of <emphasis effect="italics">r</emphasis>. The <emphasis effect="italics">r</emphasis> in the sum formula is the common ratio of the sequence. In this case, that is <m:math><m:mrow><m:mn>1</m:mn><m:mo>+</m:mo><m:mi>r</m:mi></m:mrow></m:math> where <emphasis effect="italics">r</emphasis> is the interest rate.</para>
+<table id="fs-idm343665600" class="unnumbered unstyled" summary="No Summary">
+<label/>
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<tbody>
+<row valign="top">
+<entry valign="middle" align="left"/>
+<entry valign="middle" align="left"><m:math><m:mrow><m:mspace width="4em"/><m:msub><m:mi>S</m:mi><m:mi>t</m:mi></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:msup><m:mi>r</m:mi><m:mi>t</m:mi></m:msup></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:mi>r</m:mi></m:mrow></m:mfrac></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="middle" align="left">Substitute in the values.</entry>
+<entry valign="middle" align="left"><m:math><m:mrow><m:mspace width="4em"/><m:msub><m:mi>S</m:mi><m:mi>t</m:mi></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>P</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>+</m:mo><m:mi>r</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mi>t</m:mi></m:msup></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>+</m:mo><m:mi>r</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:mfrac></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="middle" align="left">Simplify.</entry>
+<entry valign="middle" align="left"><m:math><m:mrow><m:mspace width="4em"/><m:msub><m:mi>S</m:mi><m:mi>t</m:mi></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>P</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>+</m:mo><m:mi>r</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mi>t</m:mi></m:msup></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mtext>−</m:mtext><m:mi>r</m:mi></m:mrow></m:mfrac></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="middle" align="left"/>
+<entry valign="middle" align="left"><m:math><m:mrow><m:mspace width="4em"/><m:msub><m:mi>S</m:mi><m:mi>t</m:mi></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>P</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>+</m:mo><m:mi>r</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mi>t</m:mi></m:msup><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mi>r</m:mi></m:mrow></m:mfrac></m:mrow></m:math></entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<para id="fs-id1167830703697">Remember our premise was that one deposit was made at the end of each year.</para>
+<para id="fs-id1167830703700">We can adapt this formula for <emphasis effect="italics">n</emphasis> deposits made per year and the interest is compounded <emphasis effect="italics">n</emphasis> times a year.</para>
+<note id="fs-id1167835319194">
+<title>Value of an Annuity with Interest Compounded <m:math><m:mi>n</m:mi></m:math> Times a Year</title>
+<para id="fs-id1167826783275">For a principal, <emphasis effect="italics">P</emphasis>, invested at the end of a compounding period, with an interest rate, <emphasis effect="italics">r</emphasis>, which is compounded <emphasis effect="italics">n</emphasis> times a year, the new balance, <emphasis effect="italics">A,</emphasis> after <emphasis effect="italics">t</emphasis> years, is</para>
+<equation id="fs-id1167826781214" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>A</m:mi><m:mi>t</m:mi></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>P</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>+</m:mo><m:mfrac><m:mi>r</m:mi><m:mi>n</m:mi></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mi>n</m:mi><m:mi>t</m:mi></m:mrow></m:msup><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mfrac><m:mi>r</m:mi><m:mi>n</m:mi></m:mfrac></m:mrow></m:mfrac></m:mrow></m:math></equation>
+</note>
+<example id="fs-id1167826780675">
+<exercise id="fs-id1167826780677">
+<problem id="fs-id1167826780679">
+<para id="fs-id1167826780681">New parents decide to invest $100 per month in an annuity for their baby daughter. The account will pay 5% interest per year which is compounded monthly. How much will be in the child’s account at her eighteenth birthday?</para>
+</problem>
+<solution id="fs-id1167826873522">
+<para id="fs-id1167826873525">To find the Annuity formula, <m:math><m:mrow><m:msub><m:mi>A</m:mi><m:mi>t</m:mi></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>P</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>+</m:mo><m:mfrac><m:mi>r</m:mi><m:mi>n</m:mi></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mi>n</m:mi><m:mi>t</m:mi></m:mrow></m:msup><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mfrac><m:mi>r</m:mi><m:mi>n</m:mi></m:mfrac></m:mrow></m:mfrac><m:mo>,</m:mo></m:mrow></m:math> we need to identify <emphasis effect="italics">P</emphasis>, <emphasis effect="italics">r</emphasis>, <emphasis effect="italics">n</emphasis>, and <emphasis effect="italics">t</emphasis>.</para>
+<para id="fs-id1167831911113">
+<table id="fs-idm348587296" class="unnumbered unstyled" summary="No Summary">
+<label/>
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<tbody>
+<row valign="top">
+<entry valign="middle" align="left">Identify <emphasis effect="italics">P</emphasis>, the amount invested each month.</entry>
+<entry valign="middle" align="left"><m:math><m:mrow><m:mspace width="2.3em"/><m:mi>P</m:mi><m:mo>=</m:mo><m:mn>100</m:mn></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="middle" align="left">Identify <emphasis effect="italics">r</emphasis>, the annual interest rate, in decimal form.</entry>
+<entry valign="middle" align="left"><m:math><m:mrow><m:mspace width="2.5em"/><m:mi>r</m:mi><m:mo>=</m:mo><m:mn>0.05</m:mn></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="middle" align="left">Identify <emphasis effect="italics">n</emphasis>,<newline/>the number of times the deposit<newline/>will be made and the interest compounded<newline/>each year.</entry>
+<entry valign="middle" align="left"><m:math><m:mrow><m:mspace width="2.5em"/><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>12</m:mn></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="middle" align="left">Identify <emphasis effect="italics">t</emphasis>, the number of years.</entry>
+<entry valign="middle" align="left"><m:math><m:mrow><m:mspace width="2.5em"/><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>18</m:mn></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="middle" align="left">Knowing <m:math><m:mrow><m:mi>P</m:mi><m:mo>=</m:mo><m:mn>100</m:mn><m:mo>,</m:mo><m:mi>r</m:mi><m:mo>=</m:mo><m:mn>0.05</m:mn><m:mo>,</m:mo><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>12</m:mn><m:mspace width="0.2em"/><m:mtext>and</m:mtext></m:mrow></m:math><newline/><m:math><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>18</m:mn><m:mo>,</m:mo></m:mrow></m:math> use the sum formula.</entry>
+<entry valign="middle" align="left"><m:math><m:mrow><m:mspace width="2em"/><m:msub><m:mi>A</m:mi><m:mi>t</m:mi></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>P</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>+</m:mo><m:mfrac><m:mi>r</m:mi><m:mi>n</m:mi></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mi>n</m:mi><m:mi>t</m:mi></m:mrow></m:msup><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mfrac><m:mi>r</m:mi><m:mi>n</m:mi></m:mfrac></m:mrow></m:mfrac></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="middle" align="left">Substitute in the values.</entry>
+<entry valign="middle" align="left"><m:math><m:mrow><m:mspace width="2em"/><m:msub><m:mi>A</m:mi><m:mi>t</m:mi></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>100</m:mn><m:mrow><m:mo>(</m:mo><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>+</m:mo><m:mfrac><m:mrow><m:mn>0.05</m:mn></m:mrow><m:mrow><m:mn>12</m:mn></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mn>12</m:mn><m:mo>·</m:mo><m:mn>18</m:mn></m:mrow></m:msup><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mfrac><m:mrow><m:mn>0.05</m:mn></m:mrow><m:mrow><m:mn>12</m:mn></m:mrow></m:mfrac></m:mrow></m:mfrac></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="middle" align="left">Use the calculator to evaluate. Be sure to<newline/>use parentheses as needed.</entry>
+<entry valign="middle" align="left"><m:math><m:mrow><m:mspace width="2em"/><m:msub><m:mi>A</m:mi><m:mi>t</m:mi></m:msub><m:mo>=</m:mo><m:mn>34,920.20</m:mn></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="middle" align="left"/>
+<entry valign="middle" align="left"><m:math><m:mrow><m:mspace width="2em"/></m:mrow></m:math>The child will have $34,920.20 when she turns<newline/><m:math><m:mrow><m:mspace width="2em"/></m:mrow></m:math>18.</entry>
+</row>
+</tbody>
+</tgroup>
+</table></para>
+</solution>
+</exercise>
+</example>
+<note id="fs-id1167834535642" class="try">
+<exercise id="fs-id1167834535646" class="material-set-2">
+<problem id="fs-id1167834535648">
+<para id="fs-id1167834535650">New grandparents decide to invest $200 per month in an annuity for their grandson. The account will pay 5% interest per year which is compounded monthly. How much will be in the child’s account at his twenty-first birthday?</para>
+</problem>
+<solution id="fs-id1167826874157">
+<para id="fs-id1167826874159"><m:math><m:mrow><m:mtext>$</m:mtext><m:mn>88,868.36</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1167826874171" class="try">
+<exercise id="fs-id1167826874175" class="material-set-2">
+<problem id="fs-id1167826874177">
+<para id="fs-id1167826874180">Arturo just got his first full-time job after graduating from college at age 27. He decided to invest $200 per month in an IRA (an annuity). The interest on the annuity is 8%, which is compounded monthly. How much will be in the Arturo’s account when he retires at his sixty-seventh birthday?</para>
+</problem>
+<solution id="fs-id1167826874184">
+<para id="fs-id1167831921078"><m:math><m:mrow><m:mtext>$</m:mtext><m:mn>698,201.57</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1167831921090" class="media-2">
+<para id="fs-id1167831921094">Access these online resources for additional instruction and practice with sequences.</para>
+<list id="fs-id1167831921097" display="block">
+<item><link url="https://openstax.org/l/37GeomSequence">Geometric Sequences</link></item>
+<item><link url="https://openstax.org/l/37GeometricSer">Geometric Series</link></item>
+<item><link url="https://openstax.org/l/37FutValAnnGeoS">Future Value Annuities and Geometric Series</link></item>
+<item><link url="https://openstax.org/l/37AppGeomSerTax">Application of a Geometric Series: Tax Rebate</link></item>
+</list>
+</note>
+</section>
+<section id="fs-id1167826779289" class="key-concepts">
+<title>Key Concepts</title>
+<list id="fs-id1167826779296" list-type="bulleted" bullet-style="bullet">
+<item><emphasis effect="bold">General Term (<emphasis effect="italics">n</emphasis>th term) of a Geometric Sequence:</emphasis> The general term of a geometric sequence with first term <m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> and the common ratio <emphasis effect="italics">r</emphasis> is<newline/>
+<equation id="fs-id1167831923027" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub><m:msup><m:mi>r</m:mi><m:mrow><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:msup></m:mrow></m:math></equation></item>
+<item><emphasis effect="bold">Sum of the First <emphasis effect="italics">n</emphasis> Terms of a Geometric Series:</emphasis> The sum, <m:math><m:mrow><m:msub><m:mi>S</m:mi><m:mi>n</m:mi></m:msub><m:mo>,</m:mo></m:mrow></m:math> of the <emphasis effect="italics">n</emphasis> terms of a geometric sequence is<newline/>
+<equation id="fs-id1167830924142" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>S</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:msup><m:mi>r</m:mi><m:mi>n</m:mi></m:msup></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:mi>r</m:mi></m:mrow></m:mfrac></m:mrow></m:math></equation><newline/>
+where <m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> is the first term and <emphasis effect="italics">r</emphasis> is the common ratio.</item>
+<item><emphasis effect="bold">Infinite Geometric Series:</emphasis> An infinite geometric series is an infinite sum whose first term is <m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> and common ratio is <emphasis effect="italics">r</emphasis> and is written<newline/>
+<equation id="fs-id1167835370588" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub><m:mo>+</m:mo><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub><m:mi>r</m:mi><m:mo>+</m:mo><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mo>…</m:mo><m:mo>+</m:mo><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub><m:msup><m:mi>r</m:mi><m:mrow><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:msup><m:mo>+</m:mo><m:mo>…</m:mo></m:mrow></m:math></equation></item>
+<item><emphasis effect="bold">Sum of an Infinite Geometric Series:</emphasis> For an infinite geometric series whose first term is <m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> and common ratio <emphasis effect="italics">r</emphasis>,<newline/>
+<m:math><m:mrow><m:mtable><m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="left"><m:mspace width="1.5em"/><m:mtext>If</m:mtext><m:mspace width="0.2em"/><m:mrow><m:mo>|</m:mo><m:mi>r</m:mi><m:mo>|</m:mo></m:mrow><m:mo>&lt;</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mtext>the sum is</m:mtext></m:mtd></m:mtr>
+<m:mtr/><m:mtr><m:mtd columnalign="left"><m:mspace width="5em"/><m:msub><m:mi>S</m:mi><m:mrow/></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:mi>r</m:mi></m:mrow></m:mfrac></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mspace width="1.5em"/><m:mtext>We say the series converges.</m:mtext></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mspace width="1.5em"/><m:mtext>If</m:mtext><m:mspace width="0.2em"/><m:mrow><m:mo>|</m:mo><m:mi>r</m:mi><m:mo>|</m:mo></m:mrow><m:mo>≥</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mtext>the infinite geometric series does not have a sum. We say the series diverges.</m:mtext></m:mtd></m:mtr></m:mtable></m:mrow></m:math>
+</item>
+<item><emphasis effect="bold">Value of an Annuity with Interest Compounded</emphasis> <m:math><m:mi>n</m:mi></m:math> <emphasis effect="bold">Times a Year:</emphasis> For a principal, <emphasis effect="italics">P</emphasis>, invested at the end of a compounding period, with an interest rate, <emphasis effect="italics">r</emphasis>, which is compounded <emphasis effect="italics">n</emphasis> times a year, the new balance, <emphasis effect="italics">A</emphasis>, after <emphasis effect="italics">t</emphasis> years, is<newline/>
+<equation id="fs-id1167826874367" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>A</m:mi><m:mi>t</m:mi></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>P</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>+</m:mo><m:mfrac><m:mi>r</m:mi><m:mi>n</m:mi></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mi>n</m:mi><m:mi>t</m:mi></m:mrow></m:msup><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mfrac><m:mi>r</m:mi><m:mi>n</m:mi></m:mfrac></m:mrow></m:mfrac></m:mrow></m:math></equation></item>
+</list>
+</section>
+<section id="fs-id1167826781174" class="section-exercises">
+<section id="fs-id1167826781178" class="practice-perfect">
+<title>Practice Makes Perfect</title>
+<para id="fs-id1167826781185"><emphasis effect="bold">Determine if a Sequence is Geometric</emphasis></para>
+<para id="fs-id1167826781192">In the following exercises, determine if the sequence is geometric, and if so, indicate the common ratio.</para>
+<exercise id="fs-id1167826781196" class="material-set-2">
+<problem id="fs-id1167826781198">
+<para id="fs-id1167826781200"><m:math><m:mrow><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>12</m:mn><m:mo>,</m:mo><m:mn>48</m:mn><m:mo>,</m:mo><m:mn>192</m:mn><m:mo>,</m:mo><m:mn>768</m:mn><m:mo>,</m:mo><m:mn>3072</m:mn><m:mtext>,</m:mtext><m:mspace width="0.2em"/><m:mtext>…</m:mtext></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167826874977">
+<para id="fs-id1167826874980">The sequence is geometric with common ratio <m:math><m:mrow><m:mi>r</m:mi><m:mo>=</m:mo><m:mn>4</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167834131052" class="material-set-2">
+<problem id="fs-id1167834131054">
+<para id="fs-id1167834131056"><m:math><m:mrow><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>10</m:mn><m:mo>,</m:mo><m:mn>50</m:mn><m:mo>,</m:mo><m:mn>250</m:mn><m:mo>,</m:mo><m:mn>1250</m:mn><m:mo>,</m:mo><m:mn>6250</m:mn><m:mtext>,</m:mtext><m:mspace width="0.2em"/><m:mtext>…</m:mtext></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167834129937" class="material-set-2">
+<problem id="fs-id1167834129939">
+<para id="fs-id1167834129941"><m:math><m:mrow><m:mn>72</m:mn><m:mo>,</m:mo><m:mn>36</m:mn><m:mo>,</m:mo><m:mn>18</m:mn><m:mo>,</m:mo><m:mn>9</m:mn><m:mo>,</m:mo><m:mfrac><m:mn>9</m:mn><m:mn>2</m:mn></m:mfrac><m:mtext>,</m:mtext><m:mfrac><m:mn>9</m:mn><m:mn>4</m:mn></m:mfrac><m:mtext>,</m:mtext><m:mspace width="0.2em"/><m:mtext>…</m:mtext></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167826782007">
+<para id="fs-id1167826782009">The sequence is geometric with common ratio <m:math><m:mrow><m:mi>r</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167826779330" class="material-set-2">
+<problem id="fs-id1167826779332">
+<para id="fs-id1167826779334"><m:math><m:mrow><m:mn>54</m:mn><m:mo>,</m:mo><m:mn>18</m:mn><m:mo>,</m:mo><m:mn>6</m:mn><m:mo>,</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mfrac><m:mn>2</m:mn><m:mn>3</m:mn></m:mfrac><m:mo>,</m:mo><m:mfrac><m:mn>2</m:mn><m:mn>9</m:mn></m:mfrac><m:mtext>,</m:mtext><m:mspace width="0.2em"/><m:mtext>…</m:mtext></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167834134986" class="material-set-2">
+<problem id="fs-id1167834134988">
+<para id="fs-id1167834132866"><m:math><m:mrow><m:mn>−3</m:mn><m:mo>,</m:mo><m:mn>6</m:mn><m:mo>,</m:mo><m:mn>−12</m:mn><m:mo>,</m:mo><m:mn>24</m:mn><m:mo>,</m:mo><m:mn>−48</m:mn><m:mo>,</m:mo><m:mn>96</m:mn><m:mtext>,</m:mtext><m:mspace width="0.2em"/><m:mtext>…</m:mtext></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167834132899">
+<para id="fs-id1167834132901">The sequence is geometric with a common ratio <m:math><m:mrow><m:mi>r</m:mi><m:mo>=</m:mo><m:mn>−2</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167826781227" class="material-set-2">
+<problem id="fs-id1167826781229">
+<para id="fs-id1167826781231"><m:math><m:mrow><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>−6</m:mn><m:mo>,</m:mo><m:mn>18</m:mn><m:mo>,</m:mo><m:mn>−54</m:mn><m:mo>,</m:mo><m:mn>162</m:mn><m:mo>,</m:mo><m:mn>−486</m:mn><m:mtext>,</m:mtext><m:mspace width="0.2em"/><m:mtext>…</m:mtext></m:mrow></m:math></para>
+</problem>
+</exercise>
+<para id="fs-id1167826804650">In the following exercises, determine if each sequence is arithmetic, geometric or neither. If arithmetic, indicate the common difference. If geometric, indicate the common ratio.</para>
+<exercise id="fs-id1167826804654" class="material-set-2">
+<problem id="fs-id1167826804657">
+<para id="fs-id1167826804659"><m:math><m:mrow><m:mn>48</m:mn><m:mo>,</m:mo><m:mn>24</m:mn><m:mo>,</m:mo><m:mn>12</m:mn><m:mo>,</m:mo><m:mn>6</m:mn><m:mo>,</m:mo><m:mn>3</m:mn><m:mo>,</m:mo><m:mfrac><m:mn>3</m:mn><m:mn>2</m:mn></m:mfrac><m:mtext>,</m:mtext><m:mspace width="0.2em"/><m:mtext>…</m:mtext></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167831920168">
+<para id="fs-id1167831920170">The sequence is geometric with common ratio <m:math><m:mrow><m:mi>r</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167831920189" class="material-set-2">
+<problem id="fs-id1167831920191">
+<para id="fs-id1167831920193"><m:math><m:mrow><m:mn>12</m:mn><m:mo>,</m:mo><m:mn>6</m:mn><m:mo>,</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>−6</m:mn><m:mo>,</m:mo><m:mn>−12</m:mn><m:mo>,</m:mo><m:mn>−18</m:mn><m:mtext>,</m:mtext><m:mspace width="0.2em"/><m:mtext>…</m:mtext></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167834130791" class="material-set-2">
+<problem id="fs-id1167834130793">
+<para id="fs-id1167834130795"><m:math><m:mrow><m:mn>−7</m:mn><m:mo>,</m:mo><m:mn>−2</m:mn><m:mo>,</m:mo><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>8</m:mn><m:mo>,</m:mo><m:mn>13</m:mn><m:mo>,</m:mo><m:mn>18</m:mn><m:mtext>,</m:mtext><m:mspace width="0.2em"/><m:mtext>…</m:mtext></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167826874238">
+<para id="fs-id1167826874240">The sequence is arithmetic with common difference <m:math><m:mrow><m:mi>d</m:mi><m:mo>=</m:mo><m:mn>5</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167826874256" class="material-set-2">
+<problem id="fs-id1167826874258">
+<para id="fs-id1167826874261"><m:math><m:mrow><m:mn>5</m:mn><m:mo>,</m:mo><m:mn>9</m:mn><m:mo>,</m:mo><m:mn>13</m:mn><m:mo>,</m:mo><m:mn>17</m:mn><m:mo>,</m:mo><m:mn>21</m:mn><m:mtext>,</m:mtext><m:mn>25</m:mn><m:mtext>,</m:mtext><m:mspace width="0.2em"/><m:mtext>…</m:mtext></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167826874330" class="material-set-2">
+<problem id="fs-id1167826874332">
+<para id="fs-id1167826874334"><m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mo>,</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>4</m:mn></m:mfrac><m:mo>,</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>8</m:mn></m:mfrac><m:mo>,</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>16</m:mn></m:mrow></m:mfrac><m:mo>,</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>32</m:mn></m:mrow></m:mfrac><m:mo>,</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>64</m:mn></m:mrow></m:mfrac><m:mtext>,</m:mtext><m:mspace width="0.2em"/><m:mtext>…</m:mtext></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167834131662">
+<para id="fs-id1167834131665">The sequence is geometric with common ratio <m:math><m:mrow><m:mi>r</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167834131291" class="material-set-2">
+<problem id="fs-id1167834131293">
+<para id="fs-id1167834131296"><m:math><m:mrow><m:mn>4</m:mn><m:mo>,</m:mo><m:mn>8</m:mn><m:mo>,</m:mo><m:mn>12</m:mn><m:mo>,</m:mo><m:mn>24</m:mn><m:mo>,</m:mo><m:mn>48</m:mn><m:mo>,</m:mo><m:mn>96</m:mn><m:mtext>,</m:mtext><m:mspace width="0.2em"/><m:mtext>…</m:mtext></m:mrow></m:math></para>
+</problem>
+</exercise>
+<para id="fs-id1167834131336">In the following exercises, write the first five terms of each geometric sequence with the given first term and common ratio.</para>
+<exercise id="fs-id1167834131340" class="material-set-2">
+<problem id="fs-id1167834426073">
+<para id="fs-id1167834426075"><m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mn>4</m:mn></m:mrow></m:math> and <m:math><m:mrow><m:mi>r</m:mi><m:mo>=</m:mo><m:mn>3</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167834426099">
+<para id="fs-id1167834426101"><m:math><m:mrow><m:mn>4</m:mn><m:mo>,</m:mo><m:mn>12</m:mn><m:mo>,</m:mo><m:mn>36</m:mn><m:mo>,</m:mo><m:mn>108</m:mn><m:mo>,</m:mo><m:mn>324</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167834426127" class="material-set-2">
+<problem id="fs-id1167834426129">
+<para id="fs-id1167826873630"><m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mn>9</m:mn></m:mrow></m:math> and <m:math><m:mrow><m:mi>r</m:mi><m:mo>=</m:mo><m:mn>2</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167826873683" class="material-set-2">
+<problem id="fs-id1167826873685">
+<para id="fs-id1167826873687"><m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mn>−4</m:mn></m:mrow></m:math> and <m:math><m:mrow><m:mi>r</m:mi><m:mo>=</m:mo><m:mn>−2</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167826873914">
+<para id="fs-id1167826873917"><m:math><m:mrow><m:mn>−4</m:mn><m:mo>,</m:mo><m:mn>8</m:mn><m:mo>,</m:mo><m:mn>−16</m:mn><m:mo>,</m:mo><m:mn>32</m:mn><m:mo>,</m:mo><m:mn>−64</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167826873942" class="material-set-2">
+<problem id="fs-id1167826873944">
+<para id="fs-id1167826873946"><m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mn>−5</m:mn></m:mrow></m:math> and <m:math><m:mrow><m:mi>r</m:mi><m:mo>=</m:mo><m:mn>−3</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167831921233" class="material-set-2">
+<problem id="fs-id1167831921235">
+<para id="fs-id1167831921237"><m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mn>27</m:mn></m:mrow></m:math> and <m:math><m:mrow><m:mi>r</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167834300898">
+<para id="fs-id1167834300900"><m:math><m:mrow><m:mn>27</m:mn><m:mo>,</m:mo><m:mn>9</m:mn><m:mo>,</m:mo><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167834300929" class="material-set-2">
+<problem id="fs-id1167834300931">
+<para id="fs-id1167834300933"><m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mn>64</m:mn></m:mrow></m:math> and <m:math><m:mrow><m:mi>r</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>4</m:mn></m:mfrac></m:mrow></m:math></para>
+</problem>
+</exercise>
+<para id="fs-id1167835575778"><emphasis effect="bold">Find the General Term (<emphasis effect="italics">n</emphasis>th Term) of a Geometric Sequence</emphasis></para>
+<para id="fs-id1167835575788">In the following exercises, find the indicated term of a sequence where the first term and the common ratio is given.</para>
+<exercise id="fs-id1167835575792" class="material-set-2">
+<problem id="fs-id1167835575794">
+<para id="fs-id1167835575796">Find <m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mrow><m:mn>11</m:mn></m:mrow></m:msub></m:mrow></m:math> given <m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mn>8</m:mn></m:mrow></m:math> and <m:math><m:mrow><m:mi>r</m:mi><m:mo>=</m:mo><m:mn>3</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167834130848">
+<para id="fs-id1167834130850"><m:math><m:mrow><m:mn>472,392</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167834130858" class="material-set-2">
+<problem id="fs-id1167834130861">
+<para id="fs-id1167834130863">Find <m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mrow><m:mn>13</m:mn></m:mrow></m:msub></m:mrow></m:math> given <m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mn>7</m:mn></m:mrow></m:math> and <m:math><m:mrow><m:mi>r</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167834131420" class="material-set-2">
+<problem id="fs-id1167834131422">
+<para id="fs-id1167834131425">Find <m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mrow><m:mn>10</m:mn></m:mrow></m:msub></m:mrow></m:math> given <m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mn>−6</m:mn></m:mrow></m:math> and <m:math><m:mrow><m:mi>r</m:mi><m:mo>=</m:mo><m:mn>−2</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167834131462">
+<para id="fs-id1167834131464">3,072</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167834131469" class="material-set-2">
+<problem id="fs-id1167826803921">
+<para id="fs-id1167826803923">Find <m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mrow><m:mn>15</m:mn></m:mrow></m:msub></m:mrow></m:math> given <m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mn>−4</m:mn></m:mrow></m:math> and <m:math><m:mrow><m:mi>r</m:mi><m:mo>=</m:mo><m:mn>−3</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167826803971" class="material-set-2">
+<problem id="fs-id1167826803974">
+<para id="fs-id1167826803976">Find <m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mrow><m:mn>10</m:mn></m:mrow></m:msub></m:mrow></m:math> given <m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mn>100,000</m:mn></m:mrow></m:math> and <m:math><m:mrow><m:mi>r</m:mi><m:mo>=</m:mo><m:mn>0.1</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167826803772">
+<para id="fs-id1167826803774"><m:math><m:mrow><m:mn>0.0001</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167826803783" class="material-set-2">
+<problem id="fs-id1167826803785">
+<para id="fs-id1167826803787">Find <m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mn>8</m:mn></m:msub></m:mrow></m:math> given <m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mn>1,000,000</m:mn></m:mrow></m:math> and <m:math><m:mrow><m:mi>r</m:mi><m:mo>=</m:mo><m:mn>0.01</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+</exercise>
+<para id="fs-id1167831920930">In the following exercises, find the indicated term of the given sequence. Find the general term for the sequence.</para>
+<exercise id="fs-id1167831920935" class="material-set-2">
+<problem id="fs-id1167831920937">
+<para id="fs-id1167831920939">Find <m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mn>9</m:mn></m:msub></m:mrow></m:math> of the sequence, <m:math><m:mrow><m:mn>9</m:mn><m:mo>,</m:mo><m:mn>18</m:mn><m:mo>,</m:mo><m:mn>36</m:mn><m:mo>,</m:mo><m:mn>72</m:mn><m:mo>,</m:mo><m:mn>144</m:mn><m:mo>,</m:mo><m:mn>288</m:mn><m:mtext>,</m:mtext><m:mspace width="0.2em"/><m:mtext>…</m:mtext></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167831920982">
+<para id="fs-id1167831920984"><m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mn>9</m:mn></m:msub><m:mo>=</m:mo><m:mn>2,304</m:mn><m:mo>.</m:mo></m:mrow></m:math> The general term is <m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:mn>9</m:mn><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:msup><m:mo>.</m:mo></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167826780616" class="material-set-2">
+<problem id="fs-id1167826780618">
+<para id="fs-id1167826780621">Find <m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mrow><m:mn>12</m:mn></m:mrow></m:msub></m:mrow></m:math> of the sequence, <m:math><m:mrow><m:mn>5</m:mn><m:mo>,</m:mo><m:mn>15</m:mn><m:mo>,</m:mo><m:mn>45</m:mn><m:mo>,</m:mo><m:mn>135</m:mn><m:mo>,</m:mo><m:mn>405</m:mn><m:mo>,</m:mo><m:mn>1215</m:mn><m:mtext>,</m:mtext><m:mspace width="0.2em"/><m:mtext>…</m:mtext></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167826781153" class="material-set-2">
+<problem id="fs-id1167826781156">
+<para id="fs-id1167826873547">Find <m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mrow><m:mn>15</m:mn></m:mrow></m:msub></m:mrow></m:math> of the sequence, <m:math><m:mrow><m:mn>−486</m:mn><m:mo>,</m:mo><m:mn>162</m:mn><m:mo>,</m:mo><m:mn>−54</m:mn><m:mo>,</m:mo><m:mn>18</m:mn><m:mo>,</m:mo><m:mn>−6</m:mn><m:mo>,</m:mo><m:mn>2</m:mn><m:mtext>,</m:mtext><m:mspace width="0.2em"/><m:mtext>…</m:mtext></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167826873590">
+<para id="fs-id1167826873592"><m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mrow><m:mn>15</m:mn></m:mrow></m:msub><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mn>2</m:mn><m:mrow><m:mn>19</m:mn><m:mo>,</m:mo><m:mn>683</m:mn></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math> The general term is <m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:mn>−486</m:mn><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mo>−</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:msup><m:mo>.</m:mo></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167831832232" class="material-set-2">
+<problem id="fs-id1167831832234">
+<para id="fs-id1167831832236">Find <m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mrow><m:mn>16</m:mn></m:mrow></m:msub></m:mrow></m:math> of the sequence, <m:math><m:mrow><m:mn>224</m:mn><m:mo>,</m:mo><m:mn>−112</m:mn><m:mo>,</m:mo><m:mn>56</m:mn><m:mo>,</m:mo><m:mn>−28</m:mn><m:mo>,</m:mo><m:mn>14</m:mn><m:mo>,</m:mo><m:mn>−7</m:mn><m:mtext>,</m:mtext><m:mspace width="0.2em"/><m:mtext>…</m:mtext></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167834135062" class="material-set-2">
+<problem id="fs-id1167834135064">
+<para id="fs-id1167834135066">Find <m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mrow><m:mn>10</m:mn></m:mrow></m:msub></m:mrow></m:math> of the sequence, <m:math><m:mrow><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>0.1</m:mn><m:mo>,</m:mo><m:mn>0.01</m:mn><m:mo>,</m:mo><m:mn>0.001</m:mn><m:mo>,</m:mo><m:mn>0.0001</m:mn><m:mo>,</m:mo><m:mn>0.00001</m:mn><m:mtext>,</m:mtext><m:mspace width="0.2em"/><m:mtext>…</m:mtext></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167826873765">
+<para id="fs-id1167826873768"><m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mrow><m:mn>10</m:mn></m:mrow></m:msub><m:mo>=</m:mo><m:mn>0.000000001</m:mn><m:mo>.</m:mo></m:mrow></m:math> The general term is <m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>0.1</m:mn><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:msup><m:mo>.</m:mo></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167826873819" class="material-set-2">
+<problem id="fs-id1167826873821">
+<para id="fs-id1167826873823">Find <m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mn>9</m:mn></m:msub></m:mrow></m:math> of the sequence, <m:math><m:mrow><m:mn>1000</m:mn><m:mo>,</m:mo><m:mn>100</m:mn><m:mo>,</m:mo><m:mn>10</m:mn><m:mo>,</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>0.1</m:mn><m:mo>,</m:mo><m:mn>0.01</m:mn><m:mtext>,</m:mtext><m:mspace width="0.2em"/><m:mtext>…</m:mtext></m:mrow></m:math></para>
+</problem>
+</exercise>
+<para id="fs-id1167834229030"><emphasis effect="bold">Find the Sum of the First <emphasis effect="italics">n</emphasis> terms of a Geometric Sequence</emphasis></para>
+<para id="fs-id1167834426134">In the following exercises, find the sum of the first fifteen terms of each geometric sequence.</para>
+<exercise id="fs-id1167834426138" class="material-set-2">
+<problem id="fs-id1167834426140">
+<para id="fs-id1167834426142"><m:math><m:mrow><m:mn>8</m:mn><m:mo>,</m:mo><m:mn>24</m:mn><m:mo>,</m:mo><m:mn>72</m:mn><m:mo>,</m:mo><m:mn>216</m:mn><m:mo>,</m:mo><m:mn>648</m:mn><m:mo>,</m:mo><m:mn>1944</m:mn><m:mtext>,</m:mtext><m:mspace width="0.2em"/><m:mtext>…</m:mtext></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167834426176">
+<para id="fs-id1167834426178"><m:math><m:mrow><m:mn>57,395,624</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167834426186" class="material-set-2">
+<problem id="fs-id1167834426188">
+<para id="fs-id1167834426190"><m:math><m:mrow><m:mn>7</m:mn><m:mo>,</m:mo><m:mn>14</m:mn><m:mo>,</m:mo><m:mn>28</m:mn><m:mo>,</m:mo><m:mn>56</m:mn><m:mo>,</m:mo><m:mn>112</m:mn><m:mo>,</m:mo><m:mn>224</m:mn><m:mtext>,</m:mtext><m:mspace width="0.2em"/><m:mtext>…</m:mtext></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167834238707" class="material-set-2">
+<problem id="fs-id1167834238709">
+<para id="fs-id1167834238711"><m:math><m:mrow><m:mn>−6</m:mn><m:mo>,</m:mo><m:mn>12</m:mn><m:mo>,</m:mo><m:mn>−24</m:mn><m:mo>,</m:mo><m:mn>48</m:mn><m:mo>,</m:mo><m:mn>−96</m:mn><m:mo>,</m:mo><m:mn>192</m:mn><m:mtext>,</m:mtext><m:mspace width="0.2em"/><m:mtext>…</m:mtext></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167834238744">
+<para id="fs-id1167834238746"><m:math><m:mrow><m:mn>−65,538</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167834238755" class="material-set-2">
+<problem id="fs-id1167834238757">
+<para id="fs-id1167834238759"><m:math><m:mrow><m:mn>−4</m:mn><m:mo>,</m:mo><m:mn>12</m:mn><m:mo>,</m:mo><m:mn>−36</m:mn><m:mo>,</m:mo><m:mn>108</m:mn><m:mo>,</m:mo><m:mn>−324</m:mn><m:mo>,</m:mo><m:mn>972</m:mn><m:mtext>,</m:mtext><m:mspace width="0.2em"/><m:mtext>…</m:mtext></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167831922348" class="material-set-2">
+<problem id="fs-id1167831922350">
+<para id="fs-id1167831922352"><m:math><m:mrow><m:mn>81</m:mn><m:mo>,</m:mo><m:mn>27</m:mn><m:mo>,</m:mo><m:mn>9</m:mn><m:mo>,</m:mo><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac><m:mtext>,</m:mtext><m:mspace width="0.2em"/><m:mtext>…</m:mtext></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167831922389">
+<para id="fs-id1167831922391"><m:math><m:mrow><m:mfrac><m:mrow><m:mn>7,174,453</m:mn></m:mrow><m:mrow><m:mn>59,049</m:mn></m:mrow></m:mfrac><m:mo>≈</m:mo><m:mn>121.5</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167831922409" class="material-set-2">
+<problem id="fs-id1167831922411">
+<para id="fs-id1167831922413"><m:math><m:mrow><m:mn>256</m:mn><m:mo>,</m:mo><m:mn>64</m:mn><m:mo>,</m:mo><m:mn>16</m:mn><m:mo>,</m:mo><m:mn>4</m:mn><m:mo>,</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>4</m:mn></m:mfrac><m:mo>,</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>16</m:mn></m:mrow></m:mfrac><m:mtext>,</m:mtext><m:mspace width="0.2em"/><m:mtext>…</m:mtext></m:mrow></m:math></para>
+</problem>
+</exercise>
+<para id="fs-id1167834065710">In the following exercises, find the sum of the geometric sequence.</para>
+<exercise id="fs-id1167834065713" class="material-set-2">
+<problem id="fs-id1167834065715">
+<para id="fs-id1167834065718"><m:math><m:mrow><m:mstyle displaystyle="true"><m:munderover><m:mo>∑</m:mo><m:mrow><m:mi>i</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow><m:mrow><m:mn>15</m:mn></m:mrow></m:munderover><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mn>2</m:mn><m:mo>)</m:mo></m:mrow></m:mrow><m:mi>i</m:mi></m:msup></m:mrow></m:mstyle></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167834065753">
+<para id="fs-id1167834065755"><m:math><m:mrow><m:mn>65,534</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167834065763" class="material-set-2">
+<problem id="fs-id1167834065765">
+<para id="fs-id1167834539334"><m:math><m:mrow><m:mstyle displaystyle="true"><m:munderover><m:mo>∑</m:mo><m:mrow><m:mi>i</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow><m:mrow><m:mn>10</m:mn></m:mrow></m:munderover><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mn>3</m:mn><m:mo>)</m:mo></m:mrow></m:mrow><m:mi>i</m:mi></m:msup></m:mrow></m:mstyle></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167834539380" class="material-set-2">
+<problem id="fs-id1167834539382">
+<para id="fs-id1167834539384"><m:math><m:mrow><m:mstyle displaystyle="true"><m:munderover><m:mo>∑</m:mo><m:mrow><m:mi>i</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow><m:mn>9</m:mn></m:munderover><m:mrow><m:mn>4</m:mn><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mn>2</m:mn><m:mo>)</m:mo></m:mrow></m:mrow><m:mi>i</m:mi></m:msup></m:mrow></m:mstyle></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167834539421">
+<para id="fs-id1167834539423"><m:math><m:mrow><m:mn>4088</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167834539431" class="material-set-2">
+<problem id="fs-id1167834539433">
+<para id="fs-id1167834130609"><m:math><m:mrow><m:mstyle displaystyle="true"><m:munderover><m:mo>∑</m:mo><m:mrow><m:mi>i</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow><m:mn>8</m:mn></m:munderover><m:mrow><m:mn>5</m:mn><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mn>3</m:mn><m:mo>)</m:mo></m:mrow></m:mrow><m:mi>i</m:mi></m:msup></m:mrow></m:mstyle></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167834130656" class="material-set-2">
+<problem id="fs-id1167834130658">
+<para id="fs-id1167834130660"><m:math><m:mrow><m:mstyle displaystyle="true"><m:munderover><m:mo>∑</m:mo><m:mrow><m:mi>i</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow><m:mrow><m:mn>10</m:mn></m:mrow></m:munderover><m:mrow><m:mn>9</m:mn><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mi>i</m:mi></m:msup></m:mrow></m:mstyle></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167834130702">
+<para id="fs-id1167834130704"><m:math><m:mrow><m:mfrac><m:mrow><m:mn>29,524</m:mn></m:mrow><m:mrow><m:mn>6561</m:mn></m:mrow></m:mfrac><m:mo>≈</m:mo><m:mn>4.5</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167826788454" class="material-set-2">
+<problem id="fs-id1167826788456">
+<para id="fs-id1167826788458"><m:math><m:mrow><m:mstyle displaystyle="true"><m:munderover><m:mo>∑</m:mo><m:mrow><m:mi>i</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow><m:mrow><m:mn>15</m:mn></m:mrow></m:munderover><m:mrow><m:mn>4</m:mn><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mi>i</m:mi></m:msup></m:mrow></m:mstyle></m:mrow></m:math></para>
+</problem>
+</exercise>
+<para id="fs-id1167826788520"><emphasis effect="bold">Find the Sum of an Infinite Geometric Series</emphasis></para>
+<para id="fs-id1167826788526">In the following exercises, find the sum of each infinite geometric series.</para>
+<exercise id="fs-id1167826788529" class="material-set-2">
+<problem id="fs-id1167826788532">
+<para id="fs-id1167826788534"><m:math><m:mrow><m:mn>1</m:mn><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>9</m:mn></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>27</m:mn></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>81</m:mn></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>243</m:mn></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>729</m:mn></m:mrow></m:mfrac><m:mo>+</m:mo><m:mo>…</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167830705562">
+<para id="fs-id1167830705565"><m:math><m:mrow><m:mfrac><m:mn>3</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167830705576" class="material-set-2">
+<problem id="fs-id1167830705578">
+<para id="fs-id1167830705581"><m:math><m:mrow><m:mn>1</m:mn><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>4</m:mn></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>8</m:mn></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>16</m:mn></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>32</m:mn></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>64</m:mn></m:mrow></m:mfrac><m:mo>+</m:mo><m:mo>…</m:mo></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167835483697" class="material-set-2">
+<problem id="fs-id1167835483699">
+<para id="fs-id1167835483701"><m:math><m:mrow><m:mn>6</m:mn><m:mo>−</m:mo><m:mn>2</m:mn><m:mo>+</m:mo><m:mfrac><m:mn>2</m:mn><m:mn>3</m:mn></m:mfrac><m:mo>−</m:mo><m:mfrac><m:mn>2</m:mn><m:mn>9</m:mn></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>2</m:mn><m:mrow><m:mn>27</m:mn></m:mrow></m:mfrac><m:mo>−</m:mo><m:mfrac><m:mn>2</m:mn><m:mrow><m:mn>81</m:mn></m:mrow></m:mfrac><m:mo>+</m:mo><m:mo>…</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167835483749">
+<para id="fs-id1167835483751"><m:math><m:mrow><m:mfrac><m:mn>9</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167835483763" class="material-set-2">
+<problem id="fs-id1167835364543">
+<para id="fs-id1167835364545"><m:math><m:mrow><m:mn>−4</m:mn><m:mo>+</m:mo><m:mn>2</m:mn><m:mo>−</m:mo><m:mn>1</m:mn><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mo>−</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>4</m:mn></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>8</m:mn></m:mfrac><m:mo>−</m:mo><m:mo>…</m:mo></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167835364604" class="material-set-2">
+<problem id="fs-id1167835364606">
+<para id="fs-id1167835364608"><m:math><m:mrow><m:mn>6</m:mn><m:mo>+</m:mo><m:mn>12</m:mn><m:mo>+</m:mo><m:mn>24</m:mn><m:mo>+</m:mo><m:mn>48</m:mn><m:mo>+</m:mo><m:mn>96</m:mn><m:mo>+</m:mo><m:mn>192</m:mn><m:mo>+</m:mo><m:mo>…</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167835364641">
+<para id="fs-id1167835364644">no sum as <m:math><m:mrow><m:mi>r</m:mi><m:mo>≥</m:mo><m:mn>1</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167830703805" class="material-set-2">
+<problem id="fs-id1167830703807">
+<para id="fs-id1167830703809"><m:math><m:mrow><m:mn>5</m:mn><m:mo>+</m:mo><m:mn>15</m:mn><m:mo>+</m:mo><m:mn>45</m:mn><m:mo>+</m:mo><m:mn>135</m:mn><m:mo>+</m:mo><m:mn>405</m:mn><m:mo>+</m:mo><m:mn>1215</m:mn><m:mo>+</m:mo><m:mo>…</m:mo></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167830703858" class="material-set-2">
+<problem id="fs-id1167830703860">
+<para id="fs-id1167830703862"><m:math><m:mrow><m:mn>1,024</m:mn><m:mo>+</m:mo><m:mn>512</m:mn><m:mo>+</m:mo><m:mn>256</m:mn><m:mo>+</m:mo><m:mn>128</m:mn><m:mo>+</m:mo><m:mn>64</m:mn><m:mo>+</m:mo><m:mn>32</m:mn><m:mo>+</m:mo><m:mo>…</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167830703896">
+<para id="fs-id1167830703898">2,048</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167830703903" class="material-set-2">
+<problem id="fs-id1167830703905">
+<para id="fs-id1167826781468"><m:math><m:mrow><m:mn>6,561</m:mn><m:mo>+</m:mo><m:mn>2187</m:mn><m:mo>+</m:mo><m:mn>729</m:mn><m:mo>+</m:mo><m:mn>243</m:mn><m:mo>+</m:mo><m:mn>81</m:mn><m:mo>+</m:mo><m:mn>27</m:mn><m:mo>+</m:mo><m:mo>…</m:mo></m:mrow></m:math></para>
+</problem>
+</exercise>
+<para id="fs-id1167826781509">In the following exercises, write each repeating decimal as a fraction.</para>
+<exercise id="fs-id1167826781512" class="material-set-2">
+<problem id="fs-id1167826781514">
+<para id="fs-id1167826781516"><m:math><m:mrow><m:mn>0.</m:mn><m:mover accent="true"><m:mn>3</m:mn><m:mo>–</m:mo></m:mover></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167826781532">
+<para id="fs-id1167826781534"><m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167826781546" class="material-set-2">
+<problem id="fs-id1167826781548">
+<para id="fs-id1167826781550"><m:math><m:mrow><m:mn>0.</m:mn><m:mover accent="true"><m:mn>6</m:mn><m:mo>–</m:mo></m:mover></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167835595830" class="material-set-2">
+<problem id="fs-id1167835595832">
+<para id="fs-id1167835595834"><m:math><m:mrow><m:mn>0.</m:mn><m:mover accent="true"><m:mn>7</m:mn><m:mo>–</m:mo></m:mover></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167835595851">
+<para id="fs-id1167835595853"><m:math><m:mrow><m:mfrac><m:mn>7</m:mn><m:mn>9</m:mn></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167835595865" class="material-set-2">
+<problem id="fs-id1167835595867">
+<para id="fs-id1167835595869"><m:math><m:mrow><m:mn>0.</m:mn><m:mover accent="true"><m:mn>2</m:mn><m:mo>–</m:mo></m:mover></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167835595900" class="material-set-2">
+<problem id="fs-id1167835595902">
+<para id="fs-id1167835595904"><m:math><m:mrow><m:mn>0.</m:mn><m:mover accent="true"><m:mrow><m:mn>45</m:mn></m:mrow><m:mo>—</m:mo></m:mover></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167835595922">
+<para id="fs-id1167835595924"><m:math><m:mrow><m:mfrac><m:mn>5</m:mn><m:mrow><m:mn>11</m:mn></m:mrow></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167835595937" class="material-set-2">
+<problem id="fs-id1167834130898">
+<para id="fs-id1167834130900"><m:math><m:mrow><m:mn>0.</m:mn><m:mover accent="true"><m:mrow><m:mn>27</m:mn></m:mrow><m:mo>—</m:mo></m:mover></m:mrow></m:math></para>
+</problem>
+</exercise>
+<para id="fs-id1167834130933"><emphasis effect="bold">Apply Geometric Sequences and Series in the Real World</emphasis></para>
+<para id="fs-id1167834130939">In the following exercises, solve the problem.</para>
+<exercise id="fs-id1167834130942" class="material-set-2">
+<problem id="fs-id1167834130944">
+<para id="fs-id1167834130946">Find the total effect on the economy of each government tax rebate to each household in order to stimulate the economy if each household will spend the indicated percent of the rebate in goods and services.</para>
+<table id="fs-id1167834130950" class="unnumbered" summary=".">
+<tgroup cols="4">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<colspec colnum="4" colname="c4"/>
+<thead>
+<row valign="top">
+<entry/>
+<entry valign="top" align="left">Tax rebate to each household</entry>
+<entry valign="top" align="left">Percent spent on goods and services</entry>
+<entry valign="top" align="left">Total Effect on the economy</entry>
+</row>
+</thead>
+<tbody>
+<row valign="top">
+<entry valign="top" align="left"><span class="token">ⓐ</span></entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mtext>$</m:mtext><m:mn>1,000</m:mn></m:mrow></m:math></entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mn>85</m:mn><m:mtext>%</m:mtext></m:mrow></m:math></entry>
+<entry/>
+</row>
+<row valign="top">
+<entry valign="top" align="left"><span class="token">ⓑ</span></entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mtext>$</m:mtext><m:mn>1,000</m:mn></m:mrow></m:math></entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mn>75</m:mn><m:mtext>%</m:mtext></m:mrow></m:math></entry>
+<entry/>
+</row>
+<row valign="top">
+<entry valign="top" align="left"><span class="token">ⓒ</span></entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mtext>$</m:mtext><m:mn>1,500</m:mn></m:mrow></m:math></entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mn>90</m:mn><m:mtext>%</m:mtext></m:mrow></m:math></entry>
+<entry/>
+</row>
+<row valign="top">
+<entry valign="top" align="left"><span class="token">ⓓ</span></entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mtext>$</m:mtext><m:mn>1,500</m:mn></m:mrow></m:math></entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mn>80</m:mn><m:mtext>%</m:mtext></m:mrow></m:math></entry>
+<entry/>
+</row>
+</tbody>
+</tgroup>
+</table>
+</problem>
+<solution id="fs-id1167831896586">
+<para id="fs-id1167831896589"><span class="token">ⓐ</span> <m:math><m:mrow><m:mtext>$</m:mtext><m:mn>6666.67</m:mn></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mtext>$</m:mtext><m:mn>4000</m:mn></m:mrow></m:math> <span class="token">ⓒ</span> <m:math><m:mrow><m:mtext>$</m:mtext><m:mn>15,000</m:mn></m:mrow></m:math> <span class="token">ⓒ</span> <m:math><m:mrow><m:mtext>$</m:mtext><m:mn>7500</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167831896637" class="material-set-2">
+<problem id="fs-id1167831896639">
+<para id="fs-id1167831896642">New grandparents decide to invest <m:math><m:mrow><m:mtext>$</m:mtext><m:mn>100</m:mn></m:mrow></m:math> per month in an annuity for their grandchild. The account will pay <m:math><m:mrow><m:mn>6</m:mn><m:mtext>%</m:mtext></m:mrow></m:math> interest per year which is compounded monthly (12 times a year). How much will be in the child’s account at their twenty-first birthday?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167834062587" class="material-set-2">
+<problem id="fs-id1167834062589">
+<para id="fs-id1167834062591">Berenice just got her first full-time job after graduating from college at age 30. She decided to invest <m:math><m:mrow><m:mtext>$</m:mtext><m:mn>500</m:mn></m:mrow></m:math> per quarter in an IRA (an annuity). The interest on the annuity is <m:math><m:mrow><m:mn>7</m:mn><m:mtext>%</m:mtext></m:mrow></m:math> which is compounded quarterly (4 times a year). How much will be in the Berenice’s account when she retires at age 65?</para>
+</problem>
+<solution id="fs-id1167834062613">
+<para id="fs-id1167834062615"><m:math><m:mrow><m:mtext>$</m:mtext><m:mn>295,581.88</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167834062626" class="material-set-2">
+<problem id="fs-id1167834062628">
+<para id="fs-id1167834062630">Alice wants to purchase a home in about five years. She is depositing <m:math><m:mrow><m:mtext>$</m:mtext><m:mn>500</m:mn></m:mrow></m:math> a month into an annuity that earns <m:math><m:mrow><m:mn>5</m:mn><m:mtext>%</m:mtext></m:mrow></m:math> per year that is compounded monthly (12 times a year). How much will Alice have for her down payment in five years?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167834062663" class="material-set-2">
+<problem id="fs-id1167834062665">
+<para id="fs-id1167834062667">Myra just got her first full-time job after graduating from college. She plans to get a master’s degree, and so is depositing <m:math><m:mrow><m:mtext>$</m:mtext><m:mn>2,500</m:mn></m:mrow></m:math> a year from her year-end bonus into an annuity. The annuity pays <m:math><m:mrow><m:mn>6.5</m:mn><m:mtext>%</m:mtext></m:mrow></m:math> per year and is compounded yearly. How much will she have saved in five years to pursue her master’s degree?</para>
+</problem>
+<solution id="fs-id1167834062690">
+<para id="fs-id1167834062692"><m:math><m:mrow><m:mtext>$</m:mtext><m:mn>14,234.10</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+</section>
+<section id="fs-id1167835321466" class="writing">
+<title>Writing Exercises</title>
+<exercise id="fs-id1167835321473" class="material-set-2">
+<problem id="fs-id1167835321476">
+<para id="fs-id1167835321478">In your own words, explain how to determine whether a sequence is geometric.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167835321489" class="material-set-2">
+<problem id="fs-id1167835321492">
+<para id="fs-id1167835321494">In your own words, explain how to find the general term of a geometric sequence.</para>
+</problem>
+<solution id="fs-id1167835321498">
+<para id="fs-id1167835321500">Answers will vary.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167835321505" class="material-set-2">
+<problem id="fs-id1167835321508">
+<para id="fs-id1167835321510">In your own words, explain the difference between a geometric sequence and a geometric series.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167835321522" class="material-set-2">
+<problem id="fs-id1167835321524">
+<para id="fs-id1167835321527">In your own words, explain how to determine if an infinite geometric series has a sum and how to find it.</para>
+</problem>
+<solution id="fs-id1167835321532">
+<para id="fs-id1167835321534">Answers will vary.</para>
+</solution>
+</exercise>
+</section>
+<section id="fs-id1167835321540">
+<title>Self Check</title>
+<media id="fs-id1167835321553" alt="This figure shows seven rows and four columns. The first row is the header row and reads, “I can”, “Confidently”, “With some help”, and “No, I don’t get it. The first column reads, “Determine if a sequence is geometric”, “Find the general term (nth term) of a”, “Geometric sequence”, “Find the sum of an Infinite geometric series”, Use geometric sequences to solve applications”. The remaining columns are blank.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_12_03_201_img.jpg"/>
+</media>
+<para id="fs-id1167835321561"><span class="token">ⓐ</span> After completing the exercises, use this checklist to evaluate your mastery of the objectives of this section.</para>
+<para id="fs-id1167835321570"><span class="token">ⓑ</span> What does this checklist tell you about your mastery of this section? What steps will you take to improve?</para>
+</section>
+</section>
+</content>
+<glossary>
+<definition id="fs-id1167835321583"><term>annuity</term>
+<meaning id="fs-id1167835321588">An annuity is an investment that is a sequence of equal periodic deposits.</meaning>
+</definition>
+<definition id="fs-id1167835468374"><term>common ratio</term>
+<meaning id="fs-id1167835468378">The ratio between consecutive terms in a geometric sequence, <m:math><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>a</m:mi><m:mi>n</m:mi></m:msub></m:mrow><m:mrow><m:msub><m:mi>a</m:mi><m:mrow><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:msub></m:mrow></m:mfrac><m:mo>,</m:mo></m:mrow></m:math> is <emphasis effect="italics">r</emphasis>, the common ratio, where <emphasis effect="italics">n</emphasis> is greater than or equal to two.</meaning>
+</definition>
+<definition id="fs-id1167835468417"><term>geometric sequence</term>
+<meaning id="fs-id1167835468421">A geometric sequence is a sequence where the ratio between consecutive terms is always the same</meaning>
+</definition>
+<definition id="fs-id1167835468427"><term>infinite geometric series</term>
+<meaning id="fs-id1167835468431">An infinite geometric series is an infinite sum infinite geometric sequence.</meaning>
+</definition>
+</glossary>
+</document>

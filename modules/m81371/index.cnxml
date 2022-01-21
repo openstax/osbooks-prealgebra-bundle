@@ -1,0 +1,1460 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Find the Equation of a Line</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m81371</md:content-id>
+  <md:title>Find the Equation of a Line</md:title>
+  <md:abstract><para>By the end of this section, you will be able to:</para><list>
+<item>Find an equation of the line given the slope and <m:math><m:mrow><m:mi>y</m:mi><m:mtext>-intercept</m:mtext></m:mrow></m:math></item>
+<item>Find an equation of the line given the slope and a point</item>
+<item>Find an equation of the line given two points</item>
+<item>Find an equation of a line parallel to a given line</item>
+<item>Find an equation of a line perpendicular to a given line</item>
+</list></md:abstract>
+  <md:uuid>b7d62225-c09f-478e-8c1d-df46042de0b0</md:uuid>
+</metadata>
+
+<content>
+<note id="fs-id1167836287977" class="be-prepared">
+<para id="fs-id1167836532223">Before you get started, take this readiness quiz.</para>
+<exercise id="fs-idm383106592">
+<problem id="fs-idm366891328">
+<para id="fs-idm346237504">Solve: <m:math><m:mrow><m:mfrac><m:mn>2</m:mn><m:mn>5</m:mn></m:mfrac><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>15</m:mn><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo></m:mrow></m:math><newline/>
+If you missed this problem, review <link target-id="fs-id1167829789060" document="m81360"/>.</para>
+</problem>
+<solution id="fs-idm543673936">
+<para id="fs-idm372463360"><m:math><m:mrow><m:mfrac><m:mn>2</m:mn><m:mn>5</m:mn></m:mfrac><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>6</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-idm543864704" class="be-prepared">
+<exercise id="fs-idm382480192">
+<problem id="fs-idm399604944">
+<para id="fs-idm355052704">Simplify: <m:math><m:mrow><m:mn>−3</m:mn><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mrow><m:mo>(</m:mo><m:mn>−2</m:mn><m:mo>)</m:mo></m:mrow></m:mrow><m:mo>)</m:mo><m:mo>.</m:mo></m:mrow></m:mrow></m:math><newline/>
+If you missed this problem, review <link target-id="fs-id1167829741770" document="m81360"/>.</para>
+</problem>
+<solution id="fs-idm397191664">
+<para id="fs-idm365586880"><m:math><m:mrow><m:mo>−</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>6</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-idm541791728" class="be-prepared">
+<exercise id="fs-idm383780720">
+<problem id="fs-idm371406336">
+<para id="fs-idm345562304">Solve for <emphasis effect="italics">y</emphasis>: <m:math><m:mrow><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:mo>=</m:mo><m:mn>−2</m:mn><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math><newline/>
+If you missed this problem, review <link target-id="fs-id1167835229496" document="m81364"/>.</para>
+</problem>
+<solution id="fs-idm372285888">
+<para id="fs-idm531544128"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<para id="fs-id1167836628511">How do online companies know that “you may also like” a particular item based on something you just ordered? How can economists know how a rise in the minimum wage will affect the unemployment rate? How do medical researchers create drugs to target cancer cells? How can traffic engineers predict the effect on your commuting time of an increase or decrease in gas prices? It’s all mathematics.</para>
+<para id="fs-id1167836300272">The physical sciences, social sciences, and the business world are full of situations that can be modeled with linear equations relating two variables. To create a mathematical model of a linear relation between two variables, we must be able to find the equation of the line. In this section, we will look at several ways to write the equation of a line. The specific method we use will be determined by what information we are given.</para>
+<section id="fs-id1167836601891">
+<title>Find an Equation of the Line Given the Slope and <emphasis effect="italics">y</emphasis>-Intercept</title>
+<para id="fs-id1167829650554">We can easily determine the slope and intercept of a line if the equation is written in slope-intercept form, <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>m</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>b</m:mi><m:mo>.</m:mo></m:mrow></m:math> Now we will do the reverse—we will start with the slope and <emphasis effect="italics">y</emphasis>-intercept and use them to find the equation of the line.</para>
+<example id="fs-id1167833054952">
+<exercise id="fs-id1167836640431">
+<problem id="fs-id1167833021115">
+<para id="fs-id1167836706728">Find the equation of a line with slope <m:math><m:mrow><m:mn>−9</m:mn></m:mrow></m:math> and <emphasis effect="italics">y</emphasis>-intercept <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>−4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167829717392">
+<para id="fs-id1167829645042">Since we are given the slope and <emphasis effect="italics">y</emphasis>-intercept of the line, we can substitute the needed values into the slope-intercept form, <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>m</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>b</m:mi><m:mo>.</m:mo></m:mrow></m:math></para>
+<table id="fs-id1167836686077" class="unnumbered unstyled" summary="Name the slope. m equals negative 9. Name the y-intercept. The y-intercept is (0, negative 4). Substitute the values into y equals m x plus b. y equals negative 9 x plus negative 4. The m and negative 4 are both emphasized in red. The b and negative 4 are both emphasized in blue. This simplifies to y equals negative 9 x minus 4.">
+<label/>
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<tbody>
+<row>
+<entry valign="top" align="left">Name the slope.</entry>
+<entry valign="top" align="left">
+<media id="fs-id1167836341614" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_03_001a_img.jpg"/>
+</media>
+</entry>
+</row>
+<row>
+<entry valign="top" align="left">Name the <emphasis effect="italics">y</emphasis>-intercept.</entry>
+<entry valign="top" align="left"><media id="fs-id1167836522816" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_03_001b_img.jpg"/>
+</media>
+</entry>
+</row>
+<row>
+<entry valign="top" align="left">Substitute the values into <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>m</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>b</m:mi><m:mo>.</m:mo></m:mrow></m:math></entry>
+<entry valign="top" align="left"><media id="fs-id1167836615581" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_03_001c_img.jpg"/>
+</media>
+</entry>
+</row>
+<row>
+<entry/>
+<entry valign="top" align="left"><media id="fs-id1167829599074" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_03_001d_img.jpg"/>
+</media>
+</entry>
+</row>
+<row>
+<entry/>
+<entry valign="top" align="left"><media id="fs-id1167833050669" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_03_001e_img.jpg"/>
+</media>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</solution>
+</exercise>
+</example>
+<note id="fs-id1167836614830" class="try">
+<exercise id="fs-id1167836730567">
+<problem id="fs-id1167833020885">
+<para id="fs-id1167829905530">Find the equation of a line with slope <m:math><m:mrow><m:mfrac><m:mn>2</m:mn><m:mn>5</m:mn></m:mfrac></m:mrow></m:math> and <emphasis effect="italics">y</emphasis>-intercept <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836688878">
+<para id="fs-id1167833365618"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>2</m:mn><m:mn>5</m:mn></m:mfrac><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1167829614246" class="try">
+<exercise id="fs-id1167833257642">
+<problem id="fs-id1167836556216">
+<para id="fs-id1167824652508">Find the equation of a line with slope <m:math><m:mrow><m:mn>−1</m:mn></m:mrow></m:math> and <emphasis effect="italics">y</emphasis>-intercept <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>−3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836692872">
+<para id="fs-id1167836546955"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mtext>−</m:mtext><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<para id="fs-id1167836415102">Sometimes, the slope and intercept need to be determined from the graph.</para>
+<example id="fs-id1167836450394">
+<exercise id="fs-id1167825091753">
+<problem id="fs-id1167836608164">
+<para id="fs-id1167829597566">Find the equation of the line shown in the graph.</para>
+<media id="fs-id1167830123714" alt="This figure has a graph of a straight line on the x y-coordinate plane. The x and y-axes run from negative 8 to 8. The line goes through the points (negative 3, negative 6), (0, negative 4), (3, negative 2), and (6, 0).">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_03_002_img_new.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1167836526766">
+<para id="fs-id1167826130705">We need to find the slope and <emphasis effect="italics">y</emphasis>-intercept of the line from the graph so we can substitute the needed values into the slope-intercept form, <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>m</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>b</m:mi><m:mo>.</m:mo></m:mrow></m:math></para>
+<para id="fs-id1167833310695">To find the slope, we choose two points on the graph.</para>
+<para id="fs-id1167830077375">The <emphasis effect="italics">y</emphasis>-intercept is <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>−4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> and the graph passes through <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>−2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+<table id="fs-id1167829860698" class="unnumbered unstyled" summary="Find the slope, by counting the rise and run. m equals rise divided by run. m equals 2 divided by 3. Find the y-intercept. y-intercept is (0, negative 4). Substitute the values into y equals m x plus b. y equals 2 divided by 3 x minus 4. The m and 2 divided by 3 are both emphasized in red. The b and negative 4 are emphasized in blue.">
+<label/>
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<tbody>
+<row>
+<entry valign="top" align="left">Find the slope, by counting the rise and run.</entry>
+<entry valign="top" align="left"><media id="fs-id1167836615805" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_03_003a_img.jpg"/>
+</media>
+</entry>
+</row>
+<row>
+<entry/>
+<entry valign="top" align="left"><media id="fs-id1167829594439" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_03_003b_img.jpg"/>
+</media>
+</entry>
+</row>
+<row>
+<entry valign="top" align="left">Find the <emphasis effect="italics">y</emphasis>-intercept.</entry>
+<entry valign="top" align="left"><media id="fs-id1167836560229" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_03_003c_img.jpg"/>
+</media>
+</entry>
+</row>
+<row>
+<entry valign="top" align="left">Substitute the values into <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>m</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>b</m:mi><m:mo>.</m:mo></m:mrow></m:math></entry>
+<entry valign="top" align="left"><media id="fs-id1167826171770" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_03_003d_img.jpg"/>
+</media>
+</entry>
+</row>
+<row>
+<entry/>
+<entry valign="top" align="left"><media id="fs-id1167836513064" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_03_003e_img.jpg"/>
+</media>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</solution>
+</exercise>
+</example>
+<note id="fs-id1167836536600" class="try">
+<exercise id="fs-id1167836318591">
+<problem id="fs-id1167836321281">
+<para id="fs-id1167836628664">Find the equation of the line shown in the graph.</para>
+<media id="fs-id1167824700008" alt="This figure has a graph of a straight line on the x y-coordinate plane. The x and y-axes run from negative 8 to 8. The line goes through the points (negative 5, negative 2), (0, 1), and (5, 4).">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_03_004_img_new.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1167829690492">
+<para id="fs-id1167836333597"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>3</m:mn><m:mn>5</m:mn></m:mfrac><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1167833056308" class="try">
+<exercise id="fs-id1167836624567">
+<problem id="fs-id1167826025447">
+<para id="fs-id1167829595577">Find the equation of the line shown in the graph.</para>
+<media id="fs-id1167836607892" alt="This figure has a graph of a straight line on the x y-coordinate plane. The x and y-axes run from negative 8 to 8. The line goes through the points (0, negative 5), (3, negative 1), and (6, 3).">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_03_005_img_new.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1167824735214">
+<para id="fs-id1167832956878"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>4</m:mn><m:mn>3</m:mn></m:mfrac><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>5</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+</section>
+<section id="fs-id1167829791300">
+<title>Find an Equation of the Line Given the Slope and a Point</title>
+<para id="fs-id1167825913830">Finding an equation of a line using the slope-intercept form of the equation works well when you are given the slope and <emphasis effect="italics">y</emphasis>-intercept or when you read them off a graph. But what happens when you have another point instead of the <emphasis effect="italics">y</emphasis>-intercept?</para>
+<para id="fs-id1167836433751">We are going to use the slope formula to derive another form of an equation of the line.</para>
+<para id="fs-id1167836619863">Suppose we have a line that has slope <emphasis effect="italics">m</emphasis> and that contains some specific point <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub><m:mo>,</m:mo><m:msub><m:mi>y</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> and some other point, which we will just call <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>y</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math> We can write the slope of this line and then change it to a different form.</para>
+<table id="fs-idm375555536" class="unnumbered unstyled" summary="No Summary">
+<label/>
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<tbody>
+<row valign="top">
+<entry valign="middle" align="left"/>
+<entry valign="middle" align="left"><m:math><m:mrow><m:mspace width="3.2em"/><m:mi>m</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>y</m:mi><m:mo>−</m:mo><m:msub><m:mi>y</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mfrac></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="middle" align="left">Multiply both sides of the equation by <m:math><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub><m:mo>.</m:mo></m:mrow></m:math></entry>
+<entry valign="middle" align="left"><m:math><m:mrow><m:mi>m</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:mi>y</m:mi><m:mo>−</m:mo><m:msub><m:mi>y</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="middle" align="left">Simplify.</entry>
+<entry valign="middle" align="left"><m:math><m:mrow><m:mi>m</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>y</m:mi><m:mo>−</m:mo><m:msub><m:mi>y</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="middle" align="left">Rewrite the equation with the <m:math><m:mrow><m:mi>y</m:mi></m:mrow></m:math> terms on the left.</entry>
+<entry valign="middle" align="left"><m:math><m:mrow><m:mspace width="1.4em"/><m:mi>y</m:mi><m:mo>−</m:mo><m:msub><m:mi>y</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mi>m</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<para id="fs-id1167833008035">This format is called the <term>point-slope form</term> of an equation of a line.</para>
+<note id="fs-id1167824764782">
+<title>Point-slope Form of an Equation of a Line</title>
+<para id="fs-id1167829811866">The <emphasis effect="bold">point-slope form</emphasis> of an equation of a line with slope <emphasis effect="italics">m</emphasis> and containing the point <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub><m:mo>,</m:mo><m:msub><m:mi>y</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> is:</para>
+<equation id="fs-id1171792805591" class="unnumbered"><label/><m:math><m:mrow><m:mi>y</m:mi><m:mo>−</m:mo><m:msub><m:mi>y</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mi>m</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub><m:mo stretchy="false">)</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1167829936919">We can use the point-slope form of an equation to find an equation of a line when we know the slope and at least one point. Then, we will rewrite the equation in slope-intercept form. Most applications of linear equations use the the slope-intercept form.</para>
+<example id="fs-id1167836554239">
+<title>How to Find an Equation of a Line Given a Point and the Slope</title>
+<exercise id="fs-id1167833379832">
+<problem id="fs-id1167826204850">
+<para id="fs-id1167836600443">Find an equation of a line with slope <m:math><m:mrow><m:mi>m</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac></m:mrow></m:math> that contains the point <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>6</m:mn><m:mo>,</m:mo><m:mn>−4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math> Write the equation in slope-intercept form.</para>
+</problem>
+<solution id="fs-id1167836543755">
+<media id="fs-id1167832940173" alt="Step 1 is to identify the slope. The slope is given. m equals negative 1 divided by 3.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_03_007a_img_new.jpg"/>
+</media>
+<media id="fs-id1167826077317" alt="Step 2 is to identify the point. The point is given. x 1 is 6 and y 1 is negative 4.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_03_007b_img_new.jpg"/>
+</media>
+<media id="fs-id1167832926786" alt="Step 3 is to substitute the values into the point-slope form y minus y 1 equals m times the quantity x minus x 1 in parentheses. y minus negative 4 equals negative 1 divided by 3 times the quantity x minus 6 in parentheses. This simplifies to y plus 4 equals negative 1 divided by 3 times x plus 2.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_03_007c_img_new.jpg"/>
+</media>
+<media id="fs-id1167836357296" alt="Step 4 is to write the equation in slope-intercept form. y equals negative 1 divided by 3 times x minus 2.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_03_007d_img_new.jpg"/>
+</media>
+</solution>
+</exercise>
+</example>
+<note id="fs-id1167826102710" class="try">
+<exercise id="fs-id1167836789252">
+<problem id="fs-id1167826204767">
+<para id="fs-id1167836728250">Find the equation of a line with slope <m:math><m:mrow><m:mi>m</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mn>2</m:mn><m:mn>5</m:mn></m:mfrac></m:mrow></m:math> and containing the point <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>10</m:mn><m:mo>,</m:mo><m:mn>−5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167829807832">
+<para id="fs-id1167829860129"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mn>2</m:mn><m:mn>5</m:mn></m:mfrac><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1167832939589" class="try">
+<exercise id="fs-id1167832956627">
+<problem id="fs-id1167836800483">
+<para id="fs-id1167836294992">Find the equation of a line with slope <m:math><m:mrow><m:mi>m</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mn>3</m:mn><m:mn>4</m:mn></m:mfrac><m:mo>,</m:mo></m:mrow></m:math> and containing the point <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>4</m:mn><m:mo>,</m:mo><m:mn>−7</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167829627970">
+<para id="fs-id1167833052972"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mn>3</m:mn><m:mn>4</m:mn></m:mfrac><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>4</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<para id="fs-id1167824704952">We list the steps for easy reference.</para>
+<note id="fs-id1167826205373" class="howto">
+<title>To find an equation of a line given the slope and a point.</title>
+<list id="fs-id1167825011557" list-type="enumerated" number-style="arabic" class="stepwise">
+<item>Identify the slope.</item>
+<item>Identify the point.</item>
+<item>Substitute the values into the point-slope form, <m:math><m:mrow><m:mi>y</m:mi><m:mo>−</m:mo><m:msub><m:mi>y</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mi>m</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></item>
+<item>Write the equation in slope-intercept form.</item>
+</list>
+</note>
+<example id="fs-id1167836502652">
+<exercise id="fs-id1167836607675">
+<problem id="fs-id1167833186433">
+<para id="fs-id1167824976173">Find an equation of a horizontal line that contains the point <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−2</m:mn><m:mo>,</m:mo><m:mn>−6</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math> Write the equation in slope-intercept form.</para>
+</problem>
+<solution id="fs-id1167829784999">
+<para id="fs-id1167833081974">Every horizontal line has slope 0. We can substitute the slope and points into the point-slope form, <m:math><m:mrow><m:mi>y</m:mi><m:mo>−</m:mo><m:msub><m:mi>y</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mi>m</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+<table id="fs-id1167833326479" class="unnumbered unstyled" summary="Identify the slope. m equals 0. Identify the point. x 1 is negative 2 and y 1 is negative 6. Substitute the values into y minus y 1 equals m times the quantity x minus x 1 in parentheses. y minus negative 6 equals 0 times the quantity x minus negative 2 in parentheses. This simplifies to y plus 6 equals 0 or y equals negative 6. Write in slope-intercept form. It is in y-form, but could be written y equals 0 x minus 6. Did we end up with the form of a horizontal line y equals a?">
+<label/>
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<tbody>
+<row>
+<entry valign="top" align="left">Identify the slope.</entry>
+<entry valign="top" align="left"><media id="fs-id1167836689589" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_03_008a_img.jpg"/>
+</media>
+</entry>
+</row>
+<row>
+<entry valign="top" align="left">Identify the point.</entry>
+<entry valign="top" align="left"><media id="fs-id1167824734208" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_03_008b_img.jpg"/>
+</media>
+</entry>
+</row>
+<row>
+<entry valign="top" align="left">Substitute the values into <m:math><m:mrow><m:mi>y</m:mi><m:mo>−</m:mo><m:msub><m:mi>y</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mi>m</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></entry>
+<entry valign="top" align="left"><media id="fs-id1167836775057" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_03_008c_img.jpg"/>
+</media>
+</entry>
+</row>
+<row>
+<entry/>
+<entry valign="top" align="left"><media id="fs-id1167833329257" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_03_008d_img.jpg"/>
+</media>
+</entry>
+</row>
+<row>
+<entry valign="top" align="left">Simplify.</entry>
+<entry valign="top" align="left"><media id="fs-id1167833328934" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_03_008e_img.jpg"/>
+</media>
+</entry>
+</row>
+<row>
+<entry/>
+<entry valign="top" align="left"><media id="fs-id1167822996903" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_03_008f_img.jpg"/>
+</media>
+</entry>
+</row>
+<row>
+<entry valign="top" align="left">Write in slope-intercept form.</entry>
+<entry valign="top" align="left">It is in <emphasis effect="italics">y</emphasis>-form, but could be written <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>6</m:mn><m:mo>.</m:mo></m:mrow></m:math></entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<para id="fs-id1167833025091">Did we end up with the form of a horizontal line, <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>b</m:mi><m:mo>?</m:mo></m:mrow></m:math></para>
+</solution>
+</exercise>
+</example>
+<note id="fs-id1167824811964" class="try">
+<exercise id="fs-id1167836509248">
+<problem id="fs-id1167833009418">
+<para id="fs-id1167836356562">Find the equation of a horizontal line containing the point <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−3</m:mn><m:mo>,</m:mo><m:mn>8</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167833377584">
+<para id="fs-id1167829752219"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>8</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1167836409181" class="try">
+<exercise id="fs-id1167833158283">
+<problem id="fs-id1167836312136">
+<para id="fs-id1167829719636">Find the equation of a horizontal line containing the point <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−1</m:mn><m:mo>,</m:mo><m:mn>4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167829595237">
+<para id="fs-id1167836625469"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>4</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+</section>
+<section id="fs-id1167836335402">
+<title>Find an Equation of the Line Given Two Points</title>
+<para id="fs-id1167836398532">When real-world data is collected, a linear model can be created from two data points. In the next example we’ll see how to find an equation of a line when just two points are given.</para>
+<para id="fs-id1167836595901">So far, we have two options for finding an equation of a line: slope-intercept or point-slope. When we start with two points, it makes more sense to use the point-slope form.</para>
+<para id="fs-id1167826130820">But then we need the slope. Can we find the slope with just two points? Yes. Then, once we have the slope, we can use it and one of the given points to find the equation.</para>
+<example id="fs-id1167829715551">
+<title>How to Find the Equation of a Line Given Two Points</title>
+<exercise id="fs-id1167829893884">
+<problem id="fs-id1167823013300">
+<para id="fs-id1167836329684">Find an equation of a line that contains the points <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−3</m:mn><m:mo>,</m:mo><m:mn>−1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> and <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>−2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> Write the equation in slope-intercept form.</para>
+</problem>
+<solution id="fs-id1167836611614">
+<media id="fs-id1167829853073" alt="Step 1 is to find the slope using the given points. Find the slope of the line through (negative 3, negative 1) and (2, and negative 2). m equals the quotient of y 2 minus y 1 in parentheses and x 2 minus x 1 in parentheses. m equals the quotient of negative 2 minus negative 1 in parentheses and 2 minus negative 3 in parentheses. m equals negative 1 divided by 5.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_03_009a_img_new.jpg"/>
+</media>
+<media id="fs-id1167829720040" alt="Step 2 is to identify the point. Choose either point. x 1 is 2 and y 1 is negative 2.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_03_009b_img_new.jpg"/>
+</media>
+<media id="fs-id1167825836127" alt="Step 3 is to substitute the values into the point-slope form y minus y 1 equals m times the quantity x minus x 1 in parentheses. y minus negative 2 equals negative 1 divided by 5 times the quantity x minus 2 in parentheses. This simplifies to y plus 2 equals negative 1 divided by 5 times x plus 2 divided by 5.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_03_009c_img_new.jpg"/>
+</media>
+<media id="fs-id1167829619192" alt="Step 4 is to write the equation in slope-intercept form. y equals negative 1 divided by 5 times x minus 8 divided by 5.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_03_009d_img_new.jpg"/>
+</media>
+</solution>
+</exercise>
+</example>
+<note id="fs-id1167836534523" class="try">
+<exercise id="fs-id1167836433959">
+<problem id="fs-id1167824653042">
+<para id="fs-id1167823012200">Find the equation of a line containing the points <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−2</m:mn><m:mo>,</m:mo><m:mn>−4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> and <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>−3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167829692284">
+<para id="fs-id1167836415614"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac><m:mi>x</m:mi><m:mo>−</m:mo><m:mfrac><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1167836730055" class="try">
+<exercise id="fs-id1167829893622">
+<problem id="fs-id1167836640506">
+<para id="fs-id1167836683962">Find the equation of a line containing the points <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−4</m:mn><m:mo>,</m:mo><m:mn>−3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> and <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>−5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836575727">
+<para id="fs-id1167833096636"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mn>2</m:mn><m:mn>5</m:mn></m:mfrac><m:mi>x</m:mi><m:mo>−</m:mo><m:mfrac><m:mrow><m:mn>23</m:mn></m:mrow><m:mn>5</m:mn></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<para id="fs-id1167836433564">The steps are summarized here.</para>
+<note id="fs-id1167836293926" class="howto">
+<title>To find an equation of a line given two points.</title>
+<list id="fs-id1167832980824" list-type="enumerated" number-style="arabic" class="stepwise">
+<item>Find the slope using the given points. <m:math><m:mrow><m:mi>m</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>y</m:mi><m:mn>2</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>y</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>x</m:mi><m:mn>2</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mfrac></m:mrow></m:math></item>
+<item>Choose one point.</item>
+<item>Substitute the values into the point-slope form: <m:math><m:mrow><m:mi>y</m:mi><m:mo>−</m:mo><m:msub><m:mi>y</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mi>m</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></item>
+<item>Write the equation in slope-intercept form.</item>
+</list>
+</note>
+<example id="fs-id1167836596902">
+<exercise id="fs-id1167833009830">
+<problem id="fs-id1167836296453">
+<para id="fs-id1167836544330">Find an equation of a line that contains the points <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−3</m:mn><m:mo>,</m:mo><m:mn>5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> and <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−3</m:mn><m:mo>,</m:mo><m:mn>4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math> Write the equation in slope-intercept form.</para>
+</problem>
+<solution id="fs-id1167826170314">
+<para id="fs-id1167836800401">Again, the first step will be to find the slope.</para>
+<table id="fs-idm654099024" class="unnumbered unstyled" summary="No Summary">
+<label/>
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<tbody>
+<row valign="top">
+<entry valign="middle" align="left">Find the slope of the line through <m:math><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−3</m:mn><m:mo>,</m:mo><m:mn>5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:math> and <m:math><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−3</m:mn><m:mo>,</m:mo><m:mn>4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:math></entry>
+<entry valign="middle" align="left"><m:math><m:mrow><m:mi>m</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>y</m:mi><m:mn>2</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>y</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>x</m:mi><m:mn>2</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mfrac></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="middle" align="left"/>
+<entry valign="middle" align="left"><m:math><m:mrow><m:mi>m</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>4</m:mn><m:mo>−</m:mo><m:mn>5</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn><m:mo>−</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:mfrac></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="middle" align="left"/>
+<entry valign="middle" align="left"><m:math><m:mrow><m:mi>m</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>−1</m:mn></m:mrow><m:mrow><m:mn>0</m:mn></m:mrow></m:mfrac></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="middle" align="left"/>
+<entry valign="middle" align="left">The slope is undefined.</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<para id="fs-id1167833397134">This tells us it is a vertical line. Both of our points have an <emphasis effect="italics">x</emphasis>-coordinate of <m:math><m:mrow><m:mn>3</m:mn><m:mo>.</m:mo></m:mrow></m:math> So our equation of the line is <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>−3</m:mn><m:mo>.</m:mo></m:mrow></m:math> Since there is no <emphasis effect="italics">y</emphasis>, we cannot write it in slope-intercept form.</para>
+<para id="fs-id1167833381342">You may want to sketch a graph using the two given points. Does your graph agree with our conclusion that this is a vertical line?</para>
+</solution>
+</exercise>
+</example>
+<note id="fs-id1167836544022" class="try">
+<exercise id="fs-id1167836313537">
+<problem id="fs-id1167836520875">
+<para id="fs-id1167836485974">Find the equation of a line containing the points <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>5</m:mn><m:mo>,</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> and <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>5</m:mn><m:mo>,</m:mo><m:mn>−4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836701061">
+<para id="fs-id1167829752657"><m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>5</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1167836532553" class="try">
+<exercise id="fs-id1167836619179">
+<problem id="fs-id1167833407674">
+<para id="fs-id1167836646048">Find the equation of a line containing the points <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−4</m:mn><m:mo>,</m:mo><m:mn>4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> and <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−4</m:mn><m:mo>,</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para></problem>
+<solution id="fs-id1167833023052">
+<para id="fs-id1167836289656"><m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>−4</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<para id="fs-id1167836614877">We have seen that we can use either the slope-intercept form or the point-slope form to find an equation of a line. Which form we use will depend on the information we are given.</para>
+<table id="fs-id1167836293795" class="unnumbered" summary="The table is titled To Write and Equation of a Line. It has three columns labeled “If given,” “Use,”, and “Form.” The first row shows that if the slope and y intercept are given, use the slope-intercept form, which is y equals mx plus b. The second row shows that if the slope and a point are given, use the point-slope form, which is y minus y sub 1 equals m times the quantity x minus x sub 1.">
+<tgroup cols="3">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<thead>
+<row>
+<entry valign="middle" align="center" namest="c1" nameend="c3">To Write an Equation of a Line</entry>
+</row>
+</thead>
+<tbody><row>
+<entry valign="middle" align="left"><emphasis effect="bold">If given:</emphasis></entry>
+<entry valign="middle" align="left"><emphasis effect="bold">Use:</emphasis></entry>
+<entry valign="middle" align="left"><emphasis effect="bold">Form:</emphasis></entry>
+</row>
+<row>
+<entry valign="middle" align="left">Slope and <emphasis effect="italics">y</emphasis>-intercept</entry>
+<entry valign="middle" align="left">slope-intercept</entry>
+<entry valign="middle" align="left"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>m</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>b</m:mi></m:mrow></m:math></entry>
+</row>
+<row>
+<entry valign="middle" align="left">Slope and a point</entry>
+<entry valign="middle" align="left">point-slope</entry>
+<entry valign="middle" align="left"><m:math><m:mrow><m:mi>y</m:mi><m:mo>−</m:mo><m:msub><m:mi>y</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mi>m</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+</row>
+<row>
+<entry valign="middle" align="left">Two points</entry>
+<entry valign="middle" align="left">point-slope</entry>
+<entry valign="middle" align="left"><m:math><m:mrow><m:mi>y</m:mi><m:mo>−</m:mo><m:msub><m:mi>y</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mi>m</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</section>
+<section id="fs-id1167829694242">
+<title>Find an Equation of a Line Parallel to a Given Line</title>
+<para id="fs-id1167833047491">Suppose we need to find an equation of a line that passes through a specific point and is parallel to a given line. We can use the fact that parallel lines have the same slope. So we will have a point and the slope—just what we need to use the point-slope equation.</para>
+<para id="fs-id1167836312500">First, let’s look at this graphically.</para>
+<para id="fs-id1167829716102">This graph shows <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:mo>.</m:mo></m:mrow></m:math> We want to graph a line parallel to this line and passing through the point <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−2</m:mn><m:mo>,</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+<media id="fs-id1167836320481" alt="This figure has a graph of a straight line and a point on the x y-coordinate plane. The x and y-axes run from negative 8 to 8. The line goes through the points (0, negative 3), (1, negative 1), and (2, 1). The point (negative 2, 1) is plotted. The line does not go through the point (negative 2, 1).">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_03_010_img_new.jpg"/>
+</media>
+<para id="fs-id1167836697298">We know that parallel lines have the same slope. So the second line will have the same slope as <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:mo>.</m:mo></m:mrow></m:math> That slope is <m:math><m:mrow><m:msub><m:mi>m</m:mi><m:mo>∥</m:mo></m:msub><m:mo>=</m:mo><m:mn>2</m:mn><m:mo>.</m:mo></m:mrow></m:math> We’ll use the notation <m:math><m:mrow><m:msub><m:mi>m</m:mi><m:mo>∥</m:mo></m:msub></m:mrow></m:math> to represent the slope of a line parallel to a line with slope <emphasis effect="italics">m</emphasis>. (Notice that the subscript || looks like two parallel lines.)</para>
+<para id="fs-id1167829743890">The second line will pass through <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−2</m:mn><m:mo>,</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> and have <m:math><m:mrow><m:mi>m</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+<para id="fs-id1167836289727">To graph the line, we start at<m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−2</m:mn><m:mo>,</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> and count out the rise and run.</para>
+<para id="fs-id1167836700923">With <m:math><m:mrow><m:mi>m</m:mi><m:mo>=</m:mo><m:mn>2</m:mn></m:mrow></m:math> (or <m:math><m:mrow><m:mi>m</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>2</m:mn><m:mn>1</m:mn></m:mfrac></m:mrow></m:math>), we count out the rise 2 and the run 1. We draw the line, as shown in the graph.</para>
+<media id="fs-id1167829713321" alt="This figure has a graph of a two straight lines on the x y-coordinate plane. The x and y-axes run from negative 8 to 8. The first line goes through the points (0, negative 3), (1, negative 1), and (2, 1). The points (negative 2, 1) and (negative 1, 3) are plotted. The second line goes through the points (negative 2, 1) and (negative 1, 3).">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_03_011_img_new.jpg"/>
+</media>
+<para id="fs-id1167829696351">Do the lines appear parallel? Does the second line pass through<m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−2</m:mn><m:mo>,</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>?</m:mo></m:mrow></m:math></para>
+<para id="fs-id1167836305436">We were asked to graph the line, now let’s see how to do this algebraically.</para>
+<para id="fs-id1167836493048">We can use either the slope-intercept form or the point-slope form to find an equation of a line. Here we know one point and can find the slope. So we will use the point-slope form.</para>
+<example id="fs-id1167836300038">
+<title>How to Find the Equation of a Line Parallel to a Given Line and a Point</title>
+<exercise id="fs-id1167836414960">
+<problem id="fs-id1167836410330">
+<para id="fs-id1167836596689">Find an equation of a line parallel to <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow></m:math> that contains the point <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−2</m:mn><m:mo>,</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math> Write the equation in slope-intercept form.</para>
+</problem>
+<solution id="fs-id1167836623976">
+<media id="fs-id1167836686744" alt="Step 1 is to find the slope of the given line. The line is in slope-intercept form, y equals 2 x minus 3. m equals 2.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_03_012a_img_new.jpg"/>
+</media>
+<media id="fs-id1167836508752" alt="Step 2 is to find the slope of the parallel line. Parallel lines have the same slope. m equals 2.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_03_012b_img_new.jpg"/>
+</media>
+<media id="fs-id1167836313488" alt="Step 3 is to identify the point. The given point is (negative 2, 1). x 1 is negative 2 and y 1 is 1.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_03_012c_img_new.jpg"/>
+</media>
+<media id="fs-id1167829596586" alt="Step 4 is to substitute the values into the point-slope form y minus y 1 equals m times the quantity x minus x 1 in parentheses. y minus 1 equals 2 times the quantity x minus negative 2 in parentheses. This simplifies to y minus 1 equals 2 x plus 4.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_03_012d_img_new.jpg"/>
+</media>
+<media id="fs-id1167836635332" alt="Step 5 is to write the equation in slope-intercept form. y equals 2 x plus 5.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_03_012e_img_new.jpg"/>
+</media>
+<para id="fs-id1167833061296">Look at graph with the parallel lines shown previously. Does this equation make sense? What is the <emphasis effect="italics">y</emphasis>-intercept of the line? What is the slope?</para>
+</solution>
+</exercise>
+</example>
+<note id="fs-id1167836580165" class="try">
+<exercise id="fs-id1167836611133">
+<problem id="fs-id1167829894247">
+<para id="fs-id1167829683684">Find an equation of a line parallel to the line <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:math> that contains the point <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>4</m:mn><m:mo>,</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math> Write the equation in slope-intercept form.</para>
+</problem>
+<solution id="fs-id1167825660367">
+<para id="fs-id1167836349436"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>10</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1167832999699" class="try">
+<exercise id="fs-id1167836628180">
+<problem id="fs-id1167833224723">
+<para id="fs-id1167824732116">Find an equation of a line parallel to the line <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow></m:math> that contains the point <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>6</m:mn><m:mo>,</m:mo><m:mn>4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+<para id="fs-id1167836327026">Write the equation in slope-intercept form.</para>
+</problem>
+<solution id="fs-id1167836289214">
+<para id="fs-id1167836538340"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1167836367818" class="howto">
+<title>Find an equation of a line parallel to a given line.</title>
+<list id="fs-id1167829879306" list-type="enumerated" number-style="arabic" class="stepwise">
+<item>Find the slope of the given line.</item>
+<item>Find the slope of the parallel line.</item>
+<item>Identify the point.</item>
+<item>Substitute the values into the point-slope form: <m:math><m:mrow><m:mi>y</m:mi><m:mo>−</m:mo><m:msub><m:mi>y</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mi>m</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></item>
+<item>Write the equation in slope-intercept form.</item>
+</list>
+</note>
+</section>
+<section id="fs-id1167836513856">
+<title>Find an Equation of a Line Perpendicular to a Given Line</title>
+<para id="fs-id1167826204724">Now, let’s consider perpendicular lines. Suppose we need to find a line passing through a specific point and which is perpendicular to a given line. We can use the fact that perpendicular lines have slopes that are negative reciprocals. We will again use the point-slope equation, like we did with parallel lines.</para>
+<para id="fs-id1167829834014">This graph shows <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:mo>.</m:mo></m:mrow></m:math> Now, we want to graph a line perpendicular to this line and passing through <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−2</m:mn><m:mo>,</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+<media id="fs-id1167829578789" alt="This figure has a graph of a straight line and a point on the x y-coordinate plane. The x and y-axes run from negative 8 to 8. The line goes through the points (0, negative 3), (1, negative 1), and (2, 1). The point (negative 2, 1) is plotted. The line does not go through the point (negative 2, 1).">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_03_012_img_new.jpg"/>
+</media>
+<para id="fs-id1167836534688">We know that perpendicular lines have slopes that are negative reciprocals.</para>
+<para id="fs-id1167836553112">We’ll use the notation <m:math><m:mrow><m:msub><m:mi>m</m:mi><m:mo>⊥</m:mo></m:msub></m:mrow></m:math> to represent the slope of a line perpendicular to a line with slope <emphasis effect="italics">m</emphasis>. (Notice that the subscript <m:math><m:mo>⊥</m:mo></m:math> looks like the right angles made by two perpendicular lines.)</para>
+<equation id="fs-id1167833022890" class="unnumbered"><label/><m:math><m:mrow><m:mtable><m:mtr><m:mtd columnalign="left"><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mtext>perpendicular line</m:mtext></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mi>m</m:mi><m:mo>=</m:mo><m:mn>2</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:msub><m:mi>m</m:mi><m:mo>⊥</m:mo></m:msub><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mtd></m:mtr></m:mtable></m:mrow></m:math></equation>
+<para id="fs-id1167836575849">We now know the perpendicular line will pass through <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−2</m:mn><m:mo>,</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> with <m:math><m:mrow><m:msub><m:mi>m</m:mi><m:mo>⊥</m:mo></m:msub><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></para>
+<para id="fs-id1167829627541">To graph the line, we will start at <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−2</m:mn><m:mo>,</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> and count out the rise <m:math><m:mrow><m:mn>−1</m:mn></m:mrow></m:math> and the run 2. Then we draw the line.</para>
+<media id="fs-id1167830095268" alt="This figure has a graph of two perpendicular straight lines on the x y-coordinate plane. The x and y-axes run from negative 8 to 8. The first line goes through the points (0, negative 3), (1, negative 1), and (2, 1). The points (negative 2, 1) and (0, 0) are plotted. A right triangle is drawn connecting the points (negative 2, 1), (negative 2, 0), and (0, 0). The second line goes through the points (negative 2, 1) and (0, 0).">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_03_013_img_new.jpg"/>
+</media>
+<para id="fs-id1167836296407">Do the lines appear perpendicular? Does the second line pass through<m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−2</m:mn><m:mo>,</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>?</m:mo></m:mrow></m:math></para>
+<para id="fs-id1167829627933">We were asked to graph the line, now, let’s see how to do this algebraically.</para>
+<para id="fs-id1167825703151">We can use either the slope-intercept form or the point-slope form to find an equation of a line. In this example we know one point, and can find the slope, so we will use the point-slope form.</para>
+<example id="fs-id1167829737780">
+<title>How to Find the Equation of a Line Perpendicular to a Given Line and a Point</title>
+<exercise id="fs-id1167833338703">
+<problem id="fs-id1167836570858">
+<para id="fs-id1167836790223">Find an equation of a line perpendicular to <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow></m:math> that contains the point <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−2</m:mn><m:mo>,</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math> Write the equation in slope-intercept form.</para>
+</problem>
+<solution id="fs-id1167836539459">
+<media id="fs-id1167836527833" alt="Step 1 is to find the slope of the given line. The line is in slope-intercept form, y equals 2 x minus 3. m equals 2.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_03_014a_img_new.jpg"/>
+</media>
+<media id="fs-id1167836286660" alt="Step 2 is to find the slope of the perpendicular line. The slopes of perpendicular lines are negative reciprocals. m equals negative 1 divided by 2">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_03_014b_img_new.jpg"/>
+</media>
+<media id="fs-id1167836731058" alt="Step 3 is to identify the point. The given point is (negative 2, 1). x 1 is negative 2 and y 1 is 1.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_03_014c_img_new.jpg"/>
+</media>
+<media id="fs-id1167832940562" alt="Step 4 is to substitute the values into the point-slope form y minus y 1 equals m times the quantity x minus x 1 in parentheses. y minus 1 equals negative 1 divided by 2 times the quantity x minus negative 2 in parentheses. This simplifies to y minus 1 equals negative 1 divided by 2 times the quantity x plus 2 in parentheses. This further simplifies to y minus 1 equals negative 1 divided by 2 times x minus 1.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_03_014d_img_new.jpg"/>
+</media>
+<media id="fs-id1167836321997" alt="Step 5 is to write the equation in slope-intercept form. y equals negative 1 divided by 2 times x.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_03_014e_img_new.jpg"/>
+</media>
+</solution>
+</exercise>
+</example>
+<note id="fs-id1167836510503" class="try">
+<exercise id="fs-id1167833364838">
+<problem id="fs-id1167836615040">
+<para id="fs-id1167836399749">Find an equation of a line perpendicular to the line <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:math> that contains the point <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>4</m:mn><m:mo>,</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math> Write the equation in slope-intercept form.</para>
+</problem>
+<solution id="fs-id1167830093016">
+<para id="fs-id1167832940087"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac><m:mi>x</m:mi><m:mo>+</m:mo><m:mfrac><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1167829739244" class="try">
+<exercise id="fs-id1167832930300">
+<problem id="fs-id1167836390247">
+<para id="fs-id1167836790119">Find an equation of a line perpendicular to the line <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow></m:math> that contains the point <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>6</m:mn><m:mo>,</m:mo><m:mn>4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math> Write the equation in slope-intercept form.</para>
+</problem>
+<solution id="fs-id1167836681139">
+<para id="fs-id1167829590431"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>16</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1167836513068" class="howto">
+<title>Find an equation of a line perpendicular to a given line.</title>
+<list id="fs-id1167833369074" list-type="enumerated" number-style="arabic" class="stepwise">
+<item>Find the slope of the given line.</item>
+<item>Find the slope of the perpendicular line.</item>
+<item>Identify the point.</item>
+<item>Substitute the values into the point-slope form, <m:math><m:mrow><m:mi>y</m:mi><m:mo>−</m:mo><m:msub><m:mi>y</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mi>m</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></item>
+<item>Write the equation in slope-intercept form.</item>
+</list>
+</note>
+<example id="fs-id1167833061157">
+<exercise id="fs-id1167833382937">
+<problem id="fs-id1167836329294">
+<para id="fs-id1167836630433">Find an equation of a line perpendicular to <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>5</m:mn></m:mrow></m:math> that contains the point <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>−2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math> Write the equation in slope-intercept form.</para>
+</problem>
+<solution id="fs-id1167836340178">
+<para id="fs-id1167836549844">Again, since we know one point, the point-slope option seems more promising than the slope-intercept option. We need the slope to use this form, and we know the new line will be perpendicular to <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>5</m:mn><m:mo>.</m:mo></m:mrow></m:math> This line is vertical, so its perpendicular will be horizontal. This tells us the <m:math><m:mrow><m:msub><m:mi>m</m:mi><m:mo>⊥</m:mo></m:msub><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+<table id="fs-idm354968896" class="unnumbered unstyled" summary="No Summary">
+<label/>
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<tbody>
+<row valign="top">
+<entry valign="middle" align="left">Identify the point.</entry>
+<entry valign="middle" align="center"><m:math><m:mrow><m:mspace width="1.5em"/><m:mo>(</m:mo><m:mrow><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>−2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="middle" align="left">Identify the slope of the perpendicular line.</entry>
+<entry valign="middle" align="center"><m:math><m:mrow><m:mspace width="0.5em"/><m:msub><m:mi>m</m:mi><m:mo>⊥</m:mo></m:msub><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="middle" align="left">Substitute the values into <m:math><m:mrow><m:mi>y</m:mi><m:mo>−</m:mo><m:msub><m:mi>y</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mi>m</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mo>)</m:mo><m:mo>.</m:mo></m:mrow></m:mrow></m:math></entry>
+<entry valign="middle" align="center"><m:math><m:mrow><m:mspace width="3.3em"/><m:mi>y</m:mi><m:mo>−</m:mo><m:msub><m:mi>y</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mi>m</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="middle" align="left"/>
+<entry valign="middle" align="center"><m:math><m:mrow><m:mspace width="1.5em"/><m:mi>y</m:mi><m:mo>−</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>0</m:mn><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="middle" align="left">Simplify.</entry>
+<entry valign="middle" align="center"><m:math><m:mrow><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="middle" align="left"/>
+<entry valign="middle" align="center"><m:math><m:mrow><m:mspace width="2.5em"/><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−2</m:mn></m:mrow></m:math></entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<para id="fs-id1167836533799">Sketch the graph of both lines. On your graph, do the lines appear to be perpendicular?</para>
+</solution>
+</exercise>
+</example>
+<note id="fs-id1167836520482" class="try">
+<exercise id="fs-id1167829750618">
+<problem id="fs-id1167833274749">
+<para id="fs-id1167836429672">Find an equation of a line that is perpendicular to the line <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>4</m:mn></m:mrow></m:math> that contains the point <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>4</m:mn><m:mo>,</m:mo><m:mn>−5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math>. Write the equation in slope-intercept form.</para>
+</problem>
+<solution id="fs-id1167836486854">
+<para id="fs-id1167836433816"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−5</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1167833020343" class="try">
+<exercise id="fs-id1167836319645">
+<problem id="fs-id1167829628068">
+<para id="fs-id1167836701558">Find an equation of a line that is perpendicular to the line <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>2</m:mn></m:mrow></m:math> that contains the point <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>−1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math> Write the equation in slope-intercept form.</para>
+</problem>
+<solution id="fs-id1167829594832">
+<para id="fs-id1167832935722"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−1</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<para id="fs-id1167829789981">In <link target-id="fs-id1167833061157"/>, we used the point-slope form to find the equation. We could have looked at this in a different way.</para>
+<para id="fs-id1167836539730">We want to find a line that is perpendicular to <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>5</m:mn></m:mrow></m:math> that contains the point <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>−2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math> This graph shows us the line<m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>5</m:mn></m:mrow></m:math> and the point <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>−2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+<media id="fs-id1167836477510" alt="This figure has a graph of a straight vertical line and a point on the x y-coordinate plane. The x and y-axes run from negative 8 to 8. The line goes through the points (5, 0), (5, 1), and (5, 2). The point (3, negative 2) is plotted. The line does not go through the point (3, negative 2).">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_03_015_img_new.jpg"/>
+</media>
+<para id="fs-id1167826206025">We know every line perpendicular to a vertical line is horizontal, so we will sketch the horizontal line through <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>−2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+<media id="fs-id1167836550296" alt="This figure has a graph of a straight vertical line and a straight horizontal line on the x y-coordinate plane. The x and y-axes run from negative 8 to 8. The vertical line goes through the points (5, 0), (5, 1), and (5, 2). The horizontal line goes through the points (negative 2, negative 2), (0, negative 2), (3, negative 2), and (6, negative 2).">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_03_016_img_new.jpg"/>
+</media>
+<para id="fs-id1167829690001">Do the lines appear perpendicular?</para>
+<para id="fs-id1167836418683">If we look at a few points on this horizontal line, we notice they all have <emphasis effect="italics">y</emphasis>-coordinates of <m:math><m:mrow><m:mn>−2</m:mn><m:mo>.</m:mo></m:mrow></m:math> So, the equation of the line perpendicular to the vertical line <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>5</m:mn></m:mrow></m:math> is <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−2</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+<example id="fs-id1167836554451">
+<exercise id="fs-id1167833257675">
+<problem id="fs-id1167829807866">
+<para id="fs-id1167829743413">Find an equation of a line that is perpendicular to <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−3</m:mn></m:mrow></m:math> that contains the point <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−3</m:mn><m:mo>,</m:mo><m:mn>5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math> Write the equation in slope-intercept form.</para>
+</problem>
+<solution id="fs-id1167824651086">
+<para id="fs-id1167829812775">The line <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−3</m:mn></m:mrow></m:math> is a horizontal line. Any line perpendicular to it must be vertical, in the form <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mi>a</m:mi><m:mo>.</m:mo></m:mrow></m:math> Since the perpendicular line is vertical and passes through <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−3</m:mn><m:mo>,</m:mo><m:mn>5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo></m:mrow></m:math> every point on it has an <emphasis effect="italics">x</emphasis>-coordinate of <m:math><m:mrow><m:mn>−3</m:mn><m:mo>.</m:mo></m:mrow></m:math> The equation of the perpendicular line is <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>−3</m:mn></m:mrow></m:math></para>
+<para id="fs-id1167833020048">You may want to sketch the lines. Do they appear perpendicular?</para>
+</solution>
+</exercise>
+</example>
+<note id="fs-id1167836610994" class="try">
+<exercise id="fs-id1167836310492">
+<problem id="fs-id1167836415129">
+<para id="fs-id1167836700045">Find an equation of a line that is perpendicular to the line <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math> that contains the point <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−5</m:mn><m:mo>,</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math> Write the equation in slope-intercept form.</para>
+</problem>
+<solution id="fs-id1167833379801">
+<para id="fs-id1167836515773"><m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>−5</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1167829786398" class="try">
+<exercise id="fs-id1167836594788">
+<problem id="fs-id1167826205784">
+<para id="fs-id1167829691675">Find an equation of a line that is perpendicular to the line <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−5</m:mn></m:mrow></m:math> that contains the point <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−4</m:mn><m:mo>,</m:mo><m:mn>−5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math> Write the equation in slope-intercept form.</para>
+</problem>
+<solution id="fs-id1167829748611">
+<para id="fs-id1167836612514"><m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>−4</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1167833202337" class="media-2">
+<para id="fs-id1167836554915">Access these online resources for additional instruction and practice with finding the equation of a line.</para>
+<list id="fs-id1167836558410" display="block">
+<item><link url="https://openstax.org/l/37slopeycept">Write an Equation of Line Given its slope and Y-Intercept</link></item>
+<item><link url="https://openstax.org/l/37slopepoint">Using Point Slope Form to Write the Equation of a Line, Find the equation given slope and point</link></item>
+<item><link url="https://openstax.org/l/37twoptspline">Find the equation given two points</link></item>
+<item><link url="https://openstax.org/l/37perpenpara">Find the equation of perpendicular and parallel lines</link></item>
+</list>
+</note>
+</section>
+<section id="fs-id1167836539487" class="key-concepts">
+<title>Key Concepts</title>
+<list id="fs-id1167833290521" list-type="bulleted" bullet-style="bullet">
+<item><emphasis effect="bold">How to find an equation of a line given the slope and a point.</emphasis>
+<list id="fs-id1167829746878" list-type="enumerated" number-style="arabic" class="stepwise">
+<item>Identify the slope.</item>
+<item>Identify the point.</item>
+<item>Substitute the values into the point-slope form, <m:math><m:mrow><m:mi>y</m:mi><m:mo>−</m:mo><m:msub><m:mi>y</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mi>m</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></item>
+<item>Write the equation in slope-intercept form.<newline/><newline/><newline/><newline/></item>
+</list></item>
+<item><emphasis effect="bold">How to find an equation of a line given two points.</emphasis>
+<list id="fs-id1167836516510" list-type="enumerated" number-style="arabic" class="stepwise">
+<item>Find the slope using the given points. <m:math><m:mrow><m:mi>m</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>y</m:mi><m:mn>2</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>y</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>x</m:mi><m:mn>2</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mfrac></m:mrow></m:math></item>
+<item>Choose one point.</item>
+<item>Substitute the values into the point-slope form: <m:math><m:mrow><m:mi>y</m:mi><m:mo>−</m:mo><m:msub><m:mi>y</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mi>m</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></item>
+<item>Write the equation in slope-intercept form.<newline/>
+<table id="fs-id1167829579861" class="unnumbered" summary="The table is titled To Write and Equation of a Line. It has three columns labeled “If given,” “Use,”, and “Form.” The first row shows that if the slope and y intercept are given, use the slope-intercept form, which is y equals mx plus b. The second row shows that if the slope and a point are given, use the point-slope form, which is y minus y sub 1 equals m times the quantity x minus x sub 1.">
+<tgroup cols="3">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<thead>
+<row>
+<entry valign="middle" align="center" namest="c1" nameend="c3">To Write an Equation of a Line</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle" align="left"><emphasis effect="bold">If given:</emphasis></entry>
+<entry valign="middle" align="left"><emphasis effect="bold">Use:</emphasis></entry>
+<entry valign="middle" align="left"><emphasis effect="bold">Form:</emphasis></entry>
+</row>
+<row>
+<entry valign="middle" align="left">Slope and <emphasis effect="italics">y</emphasis>-intercept</entry>
+<entry valign="middle" align="left"><emphasis effect="bold">slope-intercept</emphasis></entry>
+<entry valign="middle" align="left"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>m</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>b</m:mi></m:mrow></m:math></entry>
+</row>
+<row>
+<entry valign="middle" align="left">Slope and a point</entry>
+<entry valign="middle" align="left"><emphasis effect="bold">point-slope</emphasis></entry>
+<entry valign="middle" align="left"><m:math><m:mrow><m:mi>y</m:mi><m:mo>−</m:mo><m:msub><m:mi>y</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mi>m</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+</row>
+<row>
+<entry valign="middle" align="left">Two points</entry>
+<entry valign="middle" align="left"><emphasis effect="bold">point-slope</emphasis></entry>
+<entry valign="middle" align="left"><m:math><m:mrow><m:mi>y</m:mi><m:mo>−</m:mo><m:msub><m:mi>y</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mi>m</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</item></list></item>
+<item><emphasis effect="bold">How to find an equation of a line parallel to a given line.</emphasis>
+<list id="fs-id1167836325992" list-type="enumerated" number-style="arabic" class="stepwise">
+<item>Find the slope of the given line.</item>
+<item>Find the slope of the parallel line.</item>
+<item>Identify the point.</item>
+<item>Substitute the values into the point-slope form: <m:math><m:mrow><m:mi>y</m:mi><m:mo>−</m:mo><m:msub><m:mi>y</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mi>m</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></item>
+<item>Write the equation in slope-intercept form</item>
+</list></item>
+<item><emphasis effect="bold">How to find an equation of a line perpendicular to a given line.</emphasis>
+<list id="fs-id1167836287222" list-type="enumerated" number-style="arabic" class="stepwise">
+<item>Find the slope of the given line.</item>
+<item>Find the slope of the perpendicular line.</item>
+<item>Identify the point.</item>
+<item>Substitute the values into the point-slope form, <m:math><m:mrow><m:mi>y</m:mi><m:mo>−</m:mo><m:msub><m:mi>y</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mi>m</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></item>
+<item>Write the equation in slope-intercept form.</item>
+</list>
+</item></list>
+</section>
+<section id="fs-id1167836706806" class="section-exercises">
+<section id="fs-id1167829589591" class="practice-perfect">
+<title>Practice Makes Perfect</title>
+<para id="fs-id1167836715608"><emphasis effect="bold">Find an Equation of the Line Given the Slope and <emphasis effect="italics">y</emphasis>-Intercept</emphasis></para>
+<para id="fs-id1167836415908">In the following exercises, find the equation of a line with given slope and <emphasis effect="italics">y</emphasis>-intercept. Write the equation in slope-intercept form.</para>
+<exercise id="fs-id1167829753548">
+<problem id="fs-id1167829714595">
+<para id="fs-id1167836319403">slope 3 and<newline/><m:math><m:mrow><m:mi>y</m:mi></m:mrow></m:math>-intercept <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167829695346">
+<para id="fs-id1167829749967"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>5</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167826097524">
+<problem id="fs-id1167833051126">
+<para id="fs-id1167833240421">slope 8 and<newline/><emphasis effect="italics">y</emphasis>-intercept <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>−6</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167829579132">
+<problem id="fs-id1167826205064">
+<para id="fs-id1167833310065">slope <m:math><m:mrow><m:mn>−3</m:mn></m:mrow></m:math> and<newline/><m:math><m:mrow><m:mi>y</m:mi></m:mrow></m:math>-intercept <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>−1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167833379389">
+<para id="fs-id1167836558333"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−3</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167829810647">
+<problem id="fs-id1167829906500">
+<para id="fs-id1167836547898">slope <m:math><m:mrow><m:mn>−1</m:mn></m:mrow></m:math> and<newline/><m:math><m:mrow><m:mi>y</m:mi></m:mrow></m:math>-intercept <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167836387436">
+<problem id="fs-id1167836349166">
+<para id="fs-id1167833056712">slope <m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>5</m:mn></m:mfrac></m:mrow></m:math> and<newline/><m:math><m:mrow><m:mi>y</m:mi></m:mrow></m:math>-intercept <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>−5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836551668">
+<para id="fs-id1167829715758"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>5</m:mn></m:mfrac><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>5</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167824767097">
+<problem id="fs-id1167829930762">
+<para id="fs-id1167836561278">slope <m:math><m:mrow><m:mo>−</m:mo><m:mfrac><m:mn>3</m:mn><m:mn>4</m:mn></m:mfrac></m:mrow></m:math> and<newline/><m:math><m:mrow><m:mi>y</m:mi></m:mrow></m:math>-intercept <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>−2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167829712261">
+<problem id="fs-id1167836447386">
+<para id="fs-id1167836626157">slope 0 and<newline/><m:math><m:mrow><m:mi>y</m:mi></m:mrow></m:math>-intercept <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>−1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836456484">
+<para id="fs-id1167836287662"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−1</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167829711770">
+<problem id="fs-id1167836432947">
+<para id="fs-id1167829921553">slope <m:math><m:mrow><m:mn>−4</m:mn></m:mrow></m:math> and<newline/><m:math><m:mrow><m:mi>y</m:mi></m:mrow></m:math>-intercept <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>0</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+</exercise>
+<para id="fs-id1167833059421">In the following exercises, find the equation of the line shown in each graph. Write the equation in slope-intercept form.</para>
+<exercise id="fs-id1167836544522" class="material-set-2">
+<problem id="fs-id1167836626384">
+<para id="fs-id1167833271997"><newline/><media id="fs-id1167833271998" alt="This figure has a graph of a straight line on the x y-coordinate plane. The x and y-axes run from negative 10 to 10. The line goes through the points (0, negative 5), (1, negative 2), and (2, 1).">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_03_201_img_new.jpg"/>
+</media></para>
+</problem>
+<solution id="fs-id1167829598941">
+<para id="fs-id1167829853948"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>5</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167833349591" class="material-set-2">
+<problem id="fs-id1167836507156">
+<para id="fs-id1167836288754"><newline/><media id="fs-id1167836288755" alt="This figure has a graph of a straight line on the x y-coordinate plane. The x and y-axes run from negative 10 to 10. The line goes through the points (0, 4), (1, 2), and (2, 0).">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_03_202_img_new.jpg"/>
+</media></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167836440491" class="material-set-2">
+<problem id="fs-id1167829580573">
+<para id="fs-id1167824839801"><newline/><media id="fs-id1167824839802" alt="This figure has a graph of a straight line on the x y-coordinate plane. The x and y-axes run from negative 10 to 10. The line goes through the points (0, negative 3), (2, negative 2), and (6, 0).">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_03_203_img_new.jpg"/>
+</media></para>
+</problem>
+<solution id="fs-id1167836550635">
+<para id="fs-id1167836607064"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167833361650" class="material-set-2">
+<problem id="fs-id1167832936934">
+<para id="fs-id1167833256684"><newline/><media id="fs-id1167836520071" alt="This figure has a graph of a straight line on the x y-coordinate plane. The x and y-axes run from negative 10 to 10. The line goes through the points (0, 2), (4, 5), and (8, 8).">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_03_204_img_new.jpg"/>
+</media></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167836417359" class="material-set-2">
+<problem id="fs-id1167833128976">
+<para id="fs-id1167833018360"><newline/><media id="fs-id1167833018362" alt="This figure has a graph of a straight line on the x y-coordinate plane. The x and y-axes run from negative 10 to 10. The line goes through the points (0, 3), (3, negative 1), and (6, negative 5).">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_03_205_img_new.jpg"/>
+</media></para>
+</problem>
+<solution id="fs-id1167826177601">
+<para id="fs-id1167836613599"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mn>4</m:mn><m:mn>3</m:mn></m:mfrac><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167836485683" class="material-set-2">
+<problem id="fs-id1167829597028">
+<para id="fs-id1167832927168"><newline/><media id="fs-id1167833050769" alt="This figure has a graph of a straight line on the x y-coordinate plane. The x and y-axes run from negative 10 to 10. The line goes through the points (0, negative 1), (2, negative 4), and (4, negative 7).">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_03_206_img_new.jpg"/>
+</media></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167833274590" class="material-set-2">
+<problem id="fs-id1167829811991">
+<para id="fs-id1167836321760"><newline/><media id="fs-id1167836321761" alt="This figure has a graph of a horizontal straight line on the x y-coordinate plane. The x and y-axes run from negative 10 to 10. The line goes through the points (0, negative 2), (1, negative 2), and (2, negative 2).">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_03_207_img_new.jpg"/>
+</media></para>
+</problem>
+<solution id="fs-id1167829754778">
+<para id="fs-id1167836429456"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−2</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167836609306" class="material-set-2">
+<problem id="fs-id1167832976669">
+<para id="fs-id1167833339044"><newline/><media id="fs-id1167833339046" alt="This figure has a graph of a horizontal straight line on the x y-coordinate plane. The x and y-axes run from negative 10 to 10. The line goes through the points (0, 6), (1, 6), and (2, 6).">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_03_208_img_new.jpg"/>
+</media></para>
+</problem>
+</exercise>
+<para id="fs-id1167836529707"><emphasis effect="bold">Find an Equation of the Line Given the Slope and a Point</emphasis></para>
+<para id="fs-id1167833380664">In the following exercises, find the equation of a line with given slope and containing the given point. Write the equation in slope-intercept form.</para>
+<exercise id="fs-id1167833407507">
+<problem id="fs-id1167836731148">
+<para id="fs-id1167829681166"><m:math><m:mrow><m:mi>m</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>5</m:mn><m:mn>8</m:mn></m:mfrac><m:mo>,</m:mo></m:mrow></m:math> point <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>8</m:mn><m:mo>,</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167829783810">
+<para id="fs-id1167836558580"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>5</m:mn><m:mn>8</m:mn></m:mfrac><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167833047536">
+<problem id="fs-id1167836615924">
+<para id="fs-id1167836792953"><m:math><m:mrow><m:mi>m</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>5</m:mn><m:mn>6</m:mn></m:mfrac><m:mo>,</m:mo></m:mrow></m:math> point <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>6</m:mn><m:mo>,</m:mo><m:mn>7</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167836509627">
+<problem id="fs-id1167829594543">
+<para id="fs-id1167824737321"><m:math><m:mrow><m:mi>m</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mn>3</m:mn><m:mn>5</m:mn></m:mfrac><m:mo>,</m:mo></m:mrow></m:math> point <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>10</m:mn><m:mo>,</m:mo><m:mn>−5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167829720125">
+<para id="fs-id1167836688498"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mn>3</m:mn><m:mn>5</m:mn></m:mfrac><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167829811645">
+<problem id="fs-id1167836363112">
+<para id="fs-id1167829751544"><m:math><m:mrow><m:mi>m</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mn>3</m:mn><m:mn>4</m:mn></m:mfrac><m:mo>,</m:mo></m:mrow></m:math> point <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>8</m:mn><m:mo>,</m:mo><m:mn>−5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167826077523">
+<problem id="fs-id1167829749598">
+<para id="fs-id1167829689340"><m:math><m:mrow><m:mi>m</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mn>3</m:mn><m:mn>2</m:mn></m:mfrac><m:mo>,</m:mo></m:mrow></m:math> point <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−4</m:mn><m:mo>,</m:mo><m:mn>−3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167829599864">
+<para id="fs-id1167836561099"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mn>3</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>9</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167836699450">
+<problem id="fs-id1167824732204">
+<para id="fs-id1167824773429"><m:math><m:mrow><m:mi>m</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mn>5</m:mn><m:mn>2</m:mn></m:mfrac><m:mo>,</m:mo></m:mrow></m:math> point <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−8</m:mn><m:mo>,</m:mo><m:mn>−2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167833269887">
+<problem id="fs-id1167836729979">
+<para id="fs-id1167836729981"><m:math><m:mrow><m:mi>m</m:mi><m:mo>=</m:mo><m:mn>−7</m:mn><m:mo>,</m:mo></m:mrow></m:math> point <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−1</m:mn><m:mo>,</m:mo><m:mn>−3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836610073">
+<para id="fs-id1167836610075"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−7</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>10</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167833056175">
+<problem id="fs-id1167836510358">
+<para id="fs-id1167836576450"><m:math><m:mrow><m:mi>m</m:mi><m:mo>=</m:mo><m:mn>−4</m:mn><m:mo>,</m:mo></m:mrow></m:math> point <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−2</m:mn><m:mo>,</m:mo><m:mn>−3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167829597969">
+<problem id="fs-id1167829597972">
+<para id="fs-id1167836567138">Horizontal line containing <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−2</m:mn><m:mo>,</m:mo><m:mn>5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167829754568">
+<para id="fs-id1167829785045"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>5</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167836495293">
+<problem id="fs-id1167836495295">
+<para id="fs-id1167829620386">Horizontal line containing <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−2</m:mn><m:mo>,</m:mo><m:mn>−3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167826083425">
+<problem id="fs-id1167826083427">
+<para id="fs-id1167829905739">Horizontal line containing <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−1</m:mn><m:mo>,</m:mo><m:mn>−7</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167833379180">
+<para id="fs-id1167836602221"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−7</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167829620802">
+<problem id="fs-id1167829620804">
+<para id="fs-id1167824740609">Horizontal line containing <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>4</m:mn><m:mo>,</m:mo><m:mn>−8</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+</exercise>
+<para id="fs-id1167833303310"><emphasis effect="bold">Find an Equation of the Line Given Two Points</emphasis></para>
+<para id="fs-id1167829651567">In the following exercises, find the equation of a line containing the given points. Write the equation in slope-intercept form.</para>
+<exercise id="fs-id1167829880329">
+<problem id="fs-id1167829880331">
+<para id="fs-id1167836518535"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>6</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> and <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>5</m:mn><m:mo>,</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836543899">
+<para id="fs-id1167836543902"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mtext>−</m:mtext><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>8</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167832940554">
+<problem id="fs-id1167829691245">
+<para id="fs-id1167836689328"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>4</m:mn><m:mo>,</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> and <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>8</m:mn><m:mo>,</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167836526101">
+<problem id="fs-id1167836526103">
+<para id="fs-id1167836792213"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−3</m:mn><m:mo>,</m:mo><m:mn>−4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> and <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>5</m:mn><m:mo>,</m:mo><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836292965">
+<para id="fs-id1167829595244"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>4</m:mn></m:mfrac><m:mi>x</m:mi><m:mo>−</m:mo><m:mfrac><m:mrow><m:mn>13</m:mn></m:mrow><m:mn>4</m:mn></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167829597670">
+<problem id="fs-id1167833356319">
+<para id="fs-id1167833329138"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−5</m:mn><m:mo>,</m:mo><m:mn>−3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> and <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>4</m:mn><m:mo>,</m:mo><m:mn>−6</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167833311141">
+<problem id="fs-id1167833311143">
+<para id="fs-id1167836415243"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−1</m:mn><m:mo>,</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> and <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−6</m:mn><m:mo>,</m:mo><m:mn>−7</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167829756066">
+<para id="fs-id1167824764624"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>5</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167829726391">
+<problem id="fs-id1167832982215">
+<para id="fs-id1167832982217"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−2</m:mn><m:mo>,</m:mo><m:mn>8</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> and <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−4</m:mn><m:mo>,</m:mo><m:mn>−6</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167833009732">
+<problem id="fs-id1167829753956">
+<para id="fs-id1167836506442"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> and <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>−3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167824617257">
+<para id="fs-id1167833076770"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mn>7</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167824737272">
+<problem id="fs-id1167836434306">
+<para id="fs-id1167829786961"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>−2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> and <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−5</m:mn><m:mo>,</m:mo><m:mn>−3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167836524732">
+<problem id="fs-id1167836524735">
+<para id="fs-id1167825702449"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>7</m:mn><m:mo>,</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> and <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>7</m:mn><m:mo>,</m:mo><m:mn>−2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167826131285">
+<para id="fs-id1167826131287"><m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>7</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167836322984">
+<problem id="fs-id1167836418558">
+<para id="fs-id1167836418560"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−2</m:mn><m:mo>,</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> and <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−2</m:mn><m:mo>,</m:mo><m:mn>−4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167829894553">
+<problem id="fs-id1167826206606">
+<para id="fs-id1167826206608"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>−4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> and <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>5</m:mn><m:mo>,</m:mo><m:mn>−4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167824607152">
+<para id="fs-id1167824607154"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−4</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167824590416">
+<problem id="fs-id1167833309132">
+<para id="fs-id1167833309135"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−6</m:mn><m:mo>,</m:mo><m:mn>−3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> and <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−1</m:mn><m:mo>,</m:mo><m:mn>−3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+</exercise>
+<para id="fs-id1167836756855"><emphasis effect="bold">Find an Equation of a Line Parallel to a Given Line</emphasis></para>
+<para id="fs-id1167836738196">In the following exercises, find an equation of a line parallel to the given line and contains the given point. Write the equation in slope-intercept form.</para>
+<exercise id="fs-id1167836567374">
+<problem id="fs-id1167829893821">
+<para id="fs-id1167829893823">line <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mo>,</m:mo></m:mrow></m:math><newline/>point <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167832945777">
+<para id="fs-id1167833272217"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167836598894">
+<problem id="fs-id1167829741274">
+<para id="fs-id1167829741276">line <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−3</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn><m:mo>,</m:mo></m:mrow></m:math><newline/>point <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>−3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167836787998">
+<problem id="fs-id1167829810536">
+<para id="fs-id1167829810538">line <m:math><m:mrow><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>6</m:mn><m:mo>,</m:mo></m:mrow></m:math><newline/>point <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>0</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167833382488">
+<para id="fs-id1167833382490"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>6</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167829749845">
+<problem id="fs-id1167829749847">
+<para id="fs-id1167836596678">line <m:math><m:mrow><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>6</m:mn><m:mo>,</m:mo></m:mrow></m:math><newline/>point <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167833019832">
+<problem id="fs-id1167833019834">
+<para id="fs-id1167836717185">line <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>−4</m:mn><m:mo>,</m:mo></m:mrow></m:math><newline/>point <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−3</m:mn><m:mo>,</m:mo><m:mn>−5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167833058199">
+<para id="fs-id1167829624480"><m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>−3</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167836486058">
+<problem id="fs-id1167836486060">
+<para id="fs-id1167836531943">line <m:math><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo></m:mrow></m:math><newline/>point <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>−2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167836391229">
+<problem id="fs-id1167836391231">
+<para id="fs-id1167829619310">line <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>5</m:mn><m:mo>,</m:mo></m:mrow></m:math><newline/>point <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>−2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836609836">
+<para id="fs-id1167836609838"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−2</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167829811153">
+<problem id="fs-id1167824590420">
+<para id="fs-id1167824590422">line <m:math><m:mrow><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo></m:mrow></m:math><newline/>point <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>−3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+</exercise>
+<para id="fs-id1167829621585"><emphasis effect="bold">Find an Equation of a Line Perpendicular to a Given Line</emphasis></para>
+<para id="fs-id1167836526732">In the following exercises, find an equation of a line perpendicular to the given line and contains the given point. Write the equation in slope-intercept form.</para>
+<exercise id="fs-id1167829752070">
+<problem id="fs-id1167833361655">
+<para id="fs-id1167833361658">line <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mo>,</m:mo></m:mrow></m:math><newline/>point <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167833047531">
+<para id="fs-id1167836417222"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167836608786">
+<problem id="fs-id1167836608788">
+<para id="fs-id1167829923321">line <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mtext>−</m:mtext><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>5</m:mn><m:mo>,</m:mo></m:mrow></m:math><newline/>point <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167836701461">
+<problem id="fs-id1167836732331">
+<para id="fs-id1167836732333">line <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>3</m:mn><m:mn>4</m:mn></m:mfrac><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mo>,</m:mo></m:mrow></m:math><newline/>point <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−3</m:mn><m:mo>,</m:mo><m:mn>4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836312930">
+<para id="fs-id1167829744039"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mn>4</m:mn><m:mn>3</m:mn></m:mfrac><m:mi>x</m:mi></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167836613635">
+<problem id="fs-id1167829596047">
+<para id="fs-id1167829596049">line <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>2</m:mn><m:mn>3</m:mn></m:mfrac><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>4</m:mn><m:mo>,</m:mo></m:mrow></m:math><newline/>point <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>−4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167836612285">
+<problem id="fs-id1167829787371">
+<para id="fs-id1167829787373">line <m:math><m:mrow><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>8</m:mn><m:mo>,</m:mo></m:mrow></m:math><newline/>point <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>4</m:mn><m:mo>,</m:mo><m:mn>−1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167829693456">
+<para id="fs-id1167836731791"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mn>3</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>5</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167832977098">
+<problem id="fs-id1167832977101">
+<para id="fs-id1167833175512">line <m:math><m:mrow><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>5</m:mn><m:mo>,</m:mo></m:mrow></m:math><newline/>point <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−3</m:mn><m:mo>,</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167836518806">
+<problem id="fs-id1167836518808">
+<para id="fs-id1167824735838">line <m:math><m:mrow><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>5</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>6</m:mn><m:mo>,</m:mo></m:mrow></m:math><newline/>point <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>0</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836439631">
+<para id="fs-id1167836567424"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>5</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>x</m:mi></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167829908672">
+<problem id="fs-id1167829908674">
+<para id="fs-id1167829714449">line <m:math><m:mrow><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>5</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−3</m:mn><m:mo>,</m:mo></m:mrow></m:math><newline/>point <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>0</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167830059063">
+<problem id="fs-id1167830059065">
+<para id="fs-id1167822966262">line <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>3</m:mn><m:mo>,</m:mo></m:mrow></m:math><newline/>point <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167833361699">
+<para id="fs-id1167833361701"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>4</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167836496973">
+<problem id="fs-id1167829745657">
+<para id="fs-id1167829745659">line <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>−5</m:mn><m:mo>,</m:mo></m:mrow></m:math><newline/>point <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>−2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167836729396">
+<problem id="fs-id1167836729398">
+<para id="fs-id1167826077209">line <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>7</m:mn><m:mo>,</m:mo></m:mrow></m:math><newline/>point <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−3</m:mn><m:mo>,</m:mo><m:mn>−4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167833059151">
+<para id="fs-id1167833082323"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−4</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167836327353">
+<problem id="fs-id1167826205702">
+<para id="fs-id1167826205704">line <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>−1</m:mn><m:mo>,</m:mo></m:mrow></m:math><newline/>point <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−4</m:mn><m:mo>,</m:mo><m:mn>0</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167836538674">
+<problem id="fs-id1167836538676">
+<para id="fs-id1167836538678">line <m:math><m:mrow><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo></m:mrow></m:math><newline/>point <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−2</m:mn><m:mo>,</m:mo><m:mn>−4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167833008898">
+<para id="fs-id1167833008900"><m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>−2</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167826130658">
+<problem id="fs-id1167826130660">
+<para id="fs-id1167833369088">line <m:math><m:mrow><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>6</m:mn><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo></m:mrow></m:math><newline/>point <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−5</m:mn><m:mo>,</m:mo><m:mn>−3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167829807550">
+<problem id="fs-id1167829807552">
+<para id="fs-id1167836611143">line <emphasis effect="italics">y</emphasis>-axis,<newline/>point <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836598022">
+<para id="fs-id1167836598024"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>4</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167836389046">
+<problem id="fs-id1167836389048">
+<para id="fs-id1167833274080">line <emphasis effect="italics">y</emphasis>-axis,<newline/>point <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+</exercise>
+<para id="fs-id1171791101176"><emphasis effect="bold">Mixed Practice</emphasis></para>
+<para id="fs-id1167832977157">In the following exercises, find the equation of each line. Write the equation in slope-intercept form.</para>
+<exercise id="fs-id1167829879476">
+<problem id="fs-id1167829879478">
+<para id="fs-id1167829879480">Containing the points <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>4</m:mn><m:mo>,</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> and <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>8</m:mn><m:mo>,</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836728415">
+<para id="fs-id1167836728417"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>5</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167830123660">
+<problem id="fs-id1167830123662">
+<para id="fs-id1167836728914">Containing the points <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−2</m:mn><m:mo>,</m:mo><m:mn>0</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> and <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−3</m:mn><m:mo>,</m:mo><m:mn>−2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167829624584">
+<problem id="fs-id1167833061186">
+<para id="fs-id1167833061188"><m:math><m:mrow><m:mi>m</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>6</m:mn></m:mfrac><m:mo>,</m:mo></m:mrow></m:math> containing point <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>6</m:mn><m:mo>,</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167833061247">
+<para id="fs-id1167833061249"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>6</m:mn></m:mfrac><m:mi>x</m:mi></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167833049256">
+<problem id="fs-id1167836507510">
+<para id="fs-id1167836507512"><m:math><m:mrow><m:mi>m</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>5</m:mn><m:mn>6</m:mn></m:mfrac><m:mo>,</m:mo></m:mrow></m:math> containing point <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>6</m:mn><m:mo>,</m:mo><m:mn>7</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167836533232">
+<problem id="fs-id1167836533234">
+<para id="fs-id1167833338169">Parallel to the line <m:math><m:mrow><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>6</m:mn><m:mo>,</m:mo></m:mrow></m:math> containing point <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>−3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167833047237">
+<para id="fs-id1167833047239"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mn>4</m:mn><m:mn>3</m:mn></m:mfrac><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167836664674">
+<problem id="fs-id1167836664676">
+<para id="fs-id1167836476792">Parallel to the line <m:math><m:mrow><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>6</m:mn><m:mo>,</m:mo></m:mrow></m:math> containing point <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167836714016">
+<problem id="fs-id1167836714018">
+<para id="fs-id1167829849933"><m:math><m:mrow><m:mi>m</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mn>3</m:mn><m:mn>4</m:mn></m:mfrac><m:mo>,</m:mo></m:mrow></m:math> containing point <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>8</m:mn><m:mo>,</m:mo><m:mn>−5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167829696829">
+<para id="fs-id1167829696832"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mn>3</m:mn><m:mn>4</m:mn></m:mfrac><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167829720221">
+<problem id="fs-id1167829579270">
+<para id="fs-id1167829579272"><m:math><m:mrow><m:mi>m</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mn>3</m:mn><m:mn>5</m:mn></m:mfrac><m:mo>,</m:mo></m:mrow></m:math> containing point <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>10</m:mn><m:mo>,</m:mo><m:mn>−5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167833128553">
+<problem id="fs-id1167833128555">
+<para id="fs-id1167833128557">Perpendicular to the line <m:math><m:mrow><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>1</m:mn><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo></m:mrow></m:math> point <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−2</m:mn><m:mo>,</m:mo><m:mn>6</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836596745">
+<para id="fs-id1167836596747"><m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>−2</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167833339135">
+<problem id="fs-id1167833339137">
+<para id="fs-id1167829590713">Perpendicular to the line <emphasis effect="italics">y</emphasis>-axis, point <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−6</m:mn><m:mo>,</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167836756601">
+<problem id="fs-id1167836756604">
+<para id="fs-id1167836756606">Parallel to the line <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>−3</m:mn><m:mo>,</m:mo></m:mrow></m:math> containing point <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−2</m:mn><m:mo>,</m:mo><m:mn>−1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167829787446">
+<para id="fs-id1167836572789"><m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>−2</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167825986925">
+<problem id="fs-id1167825986927">
+<para id="fs-id1167825986929">Parallel to the line <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>−4</m:mn><m:mo>,</m:mo></m:mrow></m:math> containing point <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−3</m:mn><m:mo>,</m:mo><m:mn>−5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167829931362">
+<problem id="fs-id1167832951124">
+<para id="fs-id1167832951126">Containing the points <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−3</m:mn><m:mo>,</m:mo><m:mn>−4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> and <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>−5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167833366682">
+<para id="fs-id1167833366684"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>5</m:mn></m:mfrac><m:mi>x</m:mi><m:mo>−</m:mo><m:mfrac><m:mrow><m:mn>23</m:mn></m:mrow><m:mn>5</m:mn></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167836309284">
+<problem id="fs-id1167829787935">
+<para id="fs-id1167829787938">Containing the points <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−5</m:mn><m:mo>,</m:mo><m:mn>−3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> and <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>4</m:mn><m:mo>,</m:mo><m:mn>−6</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167833407736">
+<problem id="fs-id1167836673451">
+<para id="fs-id1167836673453">Perpendicular to the line <m:math><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>5</m:mn><m:mo>,</m:mo></m:mrow></m:math> point <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−2</m:mn><m:mo>,</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167833345909">
+<para id="fs-id1167833345912"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167836623550">
+<problem id="fs-id1167836518250">
+<para id="fs-id1167836518252">Perpendicular to the line <m:math><m:mrow><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>,</m:mo></m:mrow></m:math> point <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>0</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1167836690259" class="writing">
+<title>Writing Exercises</title>
+<exercise id="fs-id1167824976247">
+<problem id="fs-id1167836600645">
+<para id="fs-id1167836600647">Why are all horizontal lines parallel?</para>
+</problem>
+<solution id="fs-id1167836363428">
+<para id="fs-id1167836363430">Answers will vary.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167836484625">
+<problem id="fs-id1167836484628">
+<para id="fs-id1167836362164">Explain in your own words why the slopes of two perpendicular lines must have opposite signs.</para>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1167824732320">
+<title>Self Check</title>
+<para id="fs-id1167824732325"><span class="token">ⓐ</span> After completing the exercises, use this checklist to evaluate your mastery of the objectives of this section.</para>
+<media id="fs-id1167824648924" alt="The figure shows a table with six rows and four columns. The first row is a header row and it labels each column. The first column header is “I can…”, the second is “confidently”, the third is “with some help”, “no minus I don’t get it!”. Under the first column are the phrases “find the equation of the line given the slope and y-intercept”, “find an equation of the line given the slope and a point”, “find an equation of the line given two points”, “find an equation of a line parallel to a given line”, and “find an equation of a line perpendicular to a given line”. Under the second, third, fourth columns are blank spaces where the learner can check what level of mastery they have achieved.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_03_209_img_new.jpg"/>
+</media>
+<para id="fs-id1167829748644"><span class="token">ⓑ</span> What does this checklist tell you about your mastery of this section? What steps will you take to improve?</para>
+</section>
+</section>
+</content>
+<glossary>
+<definition id="fs-id1167836545346"><term>point-slope form</term><meaning id="fs-id1167836545350">The point-slope form of an equation of a line with slope <emphasis effect="italics">m</emphasis> and containing the point <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub><m:mo>,</m:mo><m:msub><m:mi>y</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> is <m:math><m:mrow><m:mi>y</m:mi><m:mo>−</m:mo><m:msub><m:mi>y</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mi>m</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></meaning></definition>
+</glossary>
+</document>

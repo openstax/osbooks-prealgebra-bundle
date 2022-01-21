@@ -1,0 +1,1197 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Solve Systems of Equations Using Determinants</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m81431</md:content-id>
+  <md:title>Solve Systems of Equations Using Determinants</md:title>
+  <md:abstract><para>By the end of this section, you will be able to:</para>
+<list>
+<item>Evaluate the determinant of a <m:math><m:mrow><m:mn>2</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mn>2</m:mn></m:mrow></m:math> matrix</item>
+<item>Evaluate the determinant of a <m:math><m:mrow><m:mn>3</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mn>3</m:mn></m:mrow></m:math> matrix</item>
+<item>Use Cramer’s Rule to solve systems of equations</item>
+<item>Solve applications using determinants</item>
+</list></md:abstract>
+  <md:uuid>7426d422-4f55-40d9-9fe3-0d78b5f05709</md:uuid>
+</metadata>
+
+<content>
+<note id="fs-id1167835309939" class="be-prepared">
+<para id="fs-id1167826995899">Before you get started, take this readiness quiz.</para>
+<exercise id="fs-idm340511664">
+<problem id="fs-idm358373120">
+<para id="fs-idm350983632">Simplify: <m:math><m:mrow><m:mn>5</m:mn><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>−</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mn>1</m:mn><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math><newline/>
+If you missed this problem, review <link target-id="fs-id1167834556092" document="m81423"/>.</para>
+</problem>
+<solution id="fs-idm352093008">
+<para id="fs-idm479851216"><m:math><m:mrow><m:mo>−</m:mo><m:mn>6</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-idm328833408" class="be-prepared">
+<exercise id="fs-idm319052416">
+<problem id="fs-idm327260448">
+<para id="fs-idm323632656">Simplify: <m:math><m:mrow><m:mn>−3</m:mn><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>8</m:mn><m:mo>−</m:mo><m:mn>10</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>6</m:mn><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>−</m:mo><m:mn>4</m:mn><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−3</m:mn><m:mo>−</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math><newline/>
+If you missed this problem, review <link target-id="fs-id1167834536158" document="m81423"/>.</para>
+</problem>
+<solution id="fs-idm348499808">
+<para id="fs-idm363845968"><m:math><m:mrow><m:mo>−</m:mo><m:mn>4</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-idm347549520" class="be-prepared">
+<exercise id="fs-idm317673808">
+<problem id="fs-idm299014864">
+<para id="fs-idm313740720">Simplify: <m:math><m:mrow><m:mfrac><m:mrow><m:mn>−12</m:mn></m:mrow><m:mrow><m:mn>−8</m:mn></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math><newline/>
+If you missed this problem, review <link target-id="fs-id1167834536325" document="m81423"/>.</para>
+</problem>
+<solution id="fs-idm312776336">
+<para id="fs-idm325122032"><m:math><m:mrow><m:mfrac><m:mn>3</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<para id="fs-id1167835421208">In this section we will learn of another method to solve systems of linear equations called Cramer’s rule. Before we can begin to use the rule, we need to learn some new definitions and notation.</para>
+<section id="fs-id1167834517668">
+<title>Evaluate the Determinant of a <m:math><m:mrow><m:mn>2</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mn>2</m:mn></m:mrow></m:math> Matrix</title>
+<para id="fs-id1167835287688">If a matrix has the same number of rows and columns, we call it a <term>square matrix</term>. Each square matrix has a real number associated with it called its <term>determinant</term>. To find the determinant of the square matrix <m:math><m:mrow><m:mrow><m:mo>[</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mi>a</m:mi><m:mspace width="1.5em"/><m:mi>b</m:mi></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mi>c</m:mi><m:mspace width="1.5em"/><m:mi>d</m:mi></m:mtd></m:mtr></m:mtable><m:mo>]</m:mo></m:mrow><m:mo>,</m:mo></m:mrow></m:math> we first write it as <m:math><m:mrow><m:mrow><m:mo>|</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mi>a</m:mi><m:mspace width="1.5em"/><m:mi>b</m:mi></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mi>c</m:mi><m:mspace width="1.5em"/><m:mi>d</m:mi></m:mtd></m:mtr></m:mtable><m:mo>|</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math> To get the real number value of the determinate we subtract the products of the diagonals, as shown.</para>
+<media id="fs-id1167834079545" alt="A 2 by 2 determinant is show, with its first row being a, b and second one being c, d. These values are written between two vertical lines instead of brackets as in the case of matrices. Two arrows are shown, one from a to d, the other from c to b. This determinant is equal to ad minus bc.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_04_06_001_img_new.jpg"/>
+</media>
+<note id="fs-id1167835374978">
+<title>Determinant</title>
+<para id="fs-id1167834532264">The determinant of any square matrix <m:math><m:mrow><m:mrow><m:mo>[</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mi>a</m:mi><m:mspace width="1.5em"/><m:mi>b</m:mi></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mi>c</m:mi><m:mspace width="1.5em"/><m:mi>d</m:mi></m:mtd></m:mtr></m:mtable><m:mo>]</m:mo></m:mrow><m:mo>,</m:mo></m:mrow></m:math> where <emphasis effect="italics">a, b, c,</emphasis> and <emphasis effect="italics">d</emphasis> are real numbers, is</para>
+<equation id="fs-id1167835301633" class="unnumbered"><label/><m:math><m:mrow><m:mrow><m:mo>|</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mi>a</m:mi><m:mspace width="1.5em"/><m:mi>b</m:mi></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mi>c</m:mi><m:mspace width="1.5em"/><m:mi>d</m:mi></m:mtd></m:mtr></m:mtable><m:mo>|</m:mo></m:mrow><m:mo>=</m:mo><m:mi>a</m:mi><m:mi>d</m:mi><m:mo>−</m:mo><m:mi>b</m:mi><m:mi>c</m:mi></m:mrow></m:math></equation>
+</note>
+<example id="fs-id1167835193012">
+<exercise id="fs-id1167832058394">
+<problem id="fs-id1167835369363">
+<para id="fs-id1167834432835">Evaluate the determinate of <span class="token">ⓐ</span> <m:math><m:mrow><m:mrow><m:mo>[</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mn>4</m:mn><m:mspace width="1.5em"/><m:mn>−2</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>3</m:mn><m:mspace width="1.5em"/><m:mn>−1</m:mn></m:mtd></m:mtr></m:mtable><m:mo>]</m:mo></m:mrow></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mrow><m:mo>[</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mn>−3</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−4</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>−2</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>0</m:mn></m:mtd></m:mtr></m:mtable><m:mo>]</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167832042643">
+<para id="fs-id1167834191139"><span class="token">ⓐ</span><newline/>
+<table id="fs-id1167834462960" class="unnumbered unstyled" summary="Row 1 of the 2 by 2 matrix is 4, minus 2. Row 2 is 3, minus 1. The same is written in determinant form with diagonal arrows. Subtracting the products of the diagonals, we get 4 times minus 1 minus 3 times minus 2. We simplify to get 2.">
+<label/>
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<tbody>
+<row valign="top">
+<entry valign="top" align="left"/>
+<entry valign="top" align="left"><media id="fs-id1167826994044" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_04_06_002a_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="bottom" align="left">Write the determinant.</entry>
+<entry valign="bottom" align="left"><media id="fs-id1167832074051" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_04_06_002b_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Subtract the products of the diagonals.</entry>
+<entry valign="top" align="left"><media id="fs-id1167830704243" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_04_06_002c_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Simplify.</entry>
+<entry valign="top" align="left"><media id="fs-id1167834309193" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_04_06_002d_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Simplify.</entry>
+<entry valign="top" align="left"><media id="fs-id1167831846606" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_04_06_002e_img.jpg"/></media></entry>
+</row>
+</tbody>
+</tgroup>
+</table><newline/><newline/>
+<span class="token">ⓑ</span><newline/>
+<table id="fs-id1167835282892" class="unnumbered unstyled" summary="Row 1 of the 2 by 2 matrix is minus 3, minus 4. Row 2 is minus 2, 0. The same is written in determinant form with diagonal arrows. Subtracting the products of the diagonals, we get minus 3 times 0 minus minus 2 times minus 4. We simplify to get minus 8.">
+<label/>
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<tbody>
+<row valign="top">
+<entry valign="top" align="left"/>
+<entry valign="top" align="left"><media id="fs-id1167835174892" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_04_06_003a_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="bottom" align="left">Write the determinant.</entry>
+<entry valign="bottom" align="left"><media id="fs-id1167832066568" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_04_06_003b_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Subtract the products of the diagonals.</entry>
+<entry valign="top" align="left"><media id="fs-id1167826997005" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_04_06_003c_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Simplify.</entry>
+<entry valign="top" align="left"><media id="fs-id1167835226257" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_04_06_003d_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Simplify.</entry>
+<entry valign="top" align="left"><media id="fs-id1167835253835" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_04_06_003e_img.jpg"/></media></entry>
+</row>
+</tbody>
+</tgroup>
+</table></para>
+</solution>
+</exercise>
+</example>
+<note id="fs-id1167835280362" class="try">
+<exercise id="fs-id1167834536041">
+<problem id="fs-id1167835422303">
+<para id="fs-id1167832057952">Evaluate the determinate of <span class="token">ⓐ</span> <m:math><m:mrow><m:mrow><m:mo>[</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mn>5</m:mn><m:mspace width="1.5em"/><m:mn>−3</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>2</m:mn><m:mspace width="1.5em"/><m:mn>−4</m:mn></m:mtd></m:mtr></m:mtable><m:mo>]</m:mo></m:mrow></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mrow><m:mo>[</m:mo><m:mtable><m:mtr><m:mtd columnalign="right"><m:mn>−4</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−6</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mn>0</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>7</m:mn></m:mtd></m:mtr></m:mtable><m:mo>]</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167835208370">
+<para id="fs-id1167831912980"><span class="token">ⓐ</span> <m:math><m:mrow><m:mn>−14</m:mn><m:mo>;</m:mo></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mn>−28</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1167832055377" class="try">
+<exercise id="fs-id1167834373486">
+<problem id="fs-id1167827902584">
+<para id="fs-id1167834357131">Evaluate the determinate of <span class="token">ⓐ</span> <m:math><m:mrow><m:mrow><m:mo>[</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mn>−1</m:mn><m:mspace width="1.5em"/><m:mn>3</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>−2</m:mn><m:mspace width="1.5em"/><m:mn>4</m:mn></m:mtd></m:mtr></m:mtable><m:mo>]</m:mo></m:mrow></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mrow><m:mo>[</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mn>−7</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−3</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>−5</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>0</m:mn></m:mtd></m:mtr></m:mtable><m:mo>]</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167826938221">
+<para id="fs-id1167834423524"><span class="token">ⓐ</span> 2 <span class="token">ⓑ</span> <m:math><m:mrow><m:mn>−15</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+</section>
+<section id="fs-id1167835350146">
+<title>Evaluate the Determinant of a <m:math><m:mrow><m:mn>3</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mn>3</m:mn></m:mrow></m:math> Matrix</title>
+<para id="fs-id1167835498954">To evaluate the determinant of a <m:math><m:mrow><m:mn>3</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mn>3</m:mn></m:mrow></m:math> matrix, we have to be able to evaluate the <term>minor of an entry</term> in the determinant. The minor of an entry is the <m:math><m:mrow><m:mn>2</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mn>2</m:mn></m:mrow></m:math> determinant found by eliminating the row and column in the <m:math><m:mrow><m:mn>3</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mn>3</m:mn></m:mrow></m:math> determinant that contains the entry.</para>
+<note id="fs-id1167834124754">
+<title>Minor of an entry in <m:math><m:mrow><m:mn>3</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mn>3</m:mn></m:mrow></m:math> a Determinant</title>
+<para id="fs-id1167832065959">The <emphasis effect="bold">minor of an entry</emphasis> in a <m:math><m:mrow><m:mn>3</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mn>3</m:mn></m:mrow></m:math> determinant is the <m:math><m:mrow><m:mn>2</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mn>2</m:mn></m:mrow></m:math> determinant found by eliminating the row and column in the <m:math><m:mrow><m:mn>3</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mn>3</m:mn></m:mrow></m:math> determinant that contains the entry.</para>
+</note>
+<para id="fs-id1167835338688">To find the minor of entry <m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub><m:mo>,</m:mo></m:mrow></m:math> we eliminate the row and column which contain it. So we eliminate the first row and first column. Then we write the <m:math><m:mrow><m:mn>2</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mn>2</m:mn></m:mrow></m:math> determinant that remains.</para>
+<media id="fs-id1167834423592" alt="The first row of the 3 by 3 determinant is a1, b1, c1. Row 2 is a2, b2, c2. Row 3 is a3, b3, c3. a1 is highlighted. Lines strike out the first row and the first column. What remains is called minor of a1. It is shown as a separate determinant whose first row is b2, c2 and second row is b3, c3.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_04_06_004_img_new.jpg"/>
+</media>
+<para id="fs-id1167835306351">To find the minor of entry <m:math><m:mrow><m:msub><m:mi>b</m:mi><m:mn>2</m:mn></m:msub><m:mo>,</m:mo></m:mrow></m:math> we eliminate the row and column that contain it. So we eliminate the 2<sup>nd</sup> row and 2<sup>nd</sup> column. Then we write the <m:math><m:mrow><m:mn>2</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mn>2</m:mn></m:mrow></m:math> determinant that remains.</para>
+<media id="fs-id1167832124422" alt="The first row of the 3 by 3 determinant is a1, b1, c1. Row 2 is a2, b2, c2. Row 3 is a3, b3, c3. b2 is highlighted. Lines strike out the second row and second column. What remains is minor of b2. It is written as a separate determinant whose first row is a1, c1 and second row is a3, c3.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_04_06_005_img_new.jpg"/>
+</media>
+<example id="fs-id1167832052293">
+<exercise id="fs-id1167831887447">
+<problem id="fs-id1167830769653">
+<para id="fs-id1167834189749">For the determinant <m:math><m:mrow><m:mrow><m:mo>|</m:mo><m:mtable><m:mtr><m:mtd columnalign="right"><m:mn>4</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−2</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>3</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mn>1</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>0</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−3</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mn>−2</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−4</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>2</m:mn></m:mtd></m:mtr></m:mtable><m:mo>|</m:mo></m:mrow><m:mo>,</m:mo></m:mrow></m:math> find and then evaluate the minor of <span class="token">ⓐ</span> <m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:msub><m:mi>b</m:mi><m:mn>3</m:mn></m:msub></m:mrow></m:math> <span class="token">ⓒ</span> <m:math><m:mrow><m:msub><m:mi>c</m:mi><m:mn>2</m:mn></m:msub><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167834238985">
+<para id="fs-id1167830954156"><span class="token">ⓐ</span><newline/>
+<table id="fs-id1167835166304" class="unnumbered unstyled" summary="The first row of the 3 by 3 determinant is 4, minus 2, 3. Row 2 is 1, 0, minus 3. Row 3 is minus 2, minus 4, 2. Eliminating the row and column containing a1, we get the minor of a1. This 2 by 2 determinant has row 1: 0, minus 3 and row 2: minus 4, 2. Evaluate and simplify to get minus 12.">
+<label/>
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<tbody>
+<row valign="top">
+<entry valign="top" align="left"/>
+<entry valign="top" align="left"><media id="fs-id1167834502674" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_04_06_006a_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="bottom" align="left">Eliminate the row and column that contains <m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub><m:mo>.</m:mo></m:mrow></m:math></entry>
+<entry valign="bottom" align="left"><media id="fs-id1167835254642" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_04_06_006b_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Write the <m:math><m:mrow><m:mn>2</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mn>2</m:mn></m:mrow></m:math> determinant that remains.</entry>
+<entry valign="top" align="left"><media id="fs-id1167831890624" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_04_06_006c_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Evaluate.</entry>
+<entry valign="top" align="left"><media id="fs-id1167834048843" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_04_06_006d_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Simplify.</entry>
+<entry valign="top" align="left"><media id="fs-id1167834099451" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_04_06_006e_img.jpg"/></media></entry>
+</row>
+</tbody>
+</tgroup>
+</table><newline/><newline/>
+<span class="token">ⓑ</span><newline/>
+<table id="fs-id1167835322096" class="unnumbered unstyled" summary="The 3 by 3 matrix has row 1: 4, minus 2, 3, row 2: 1, 0, minus 3 and row 3: minus 2, minus 4, 2. Eliminating the row and column containing b3, we get minor of b3 with row 1: 4, 3 and row 2: 1, minus 3. Evaluate and simplify to get minus 15.">
+<label/>
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<tbody>
+<row valign="top">
+<entry valign="bottom" align="left">Eliminate the row and column that contains <m:math><m:mrow><m:msub><m:mi>b</m:mi><m:mn>3</m:mn></m:msub><m:mo>.</m:mo></m:mrow></m:math></entry>
+<entry valign="bottom" align="left"><media id="fs-id1167831893602" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_04_06_007a_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Write the <m:math><m:mrow><m:mn>2</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mn>2</m:mn></m:mrow></m:math> determinant that remains.</entry>
+<entry valign="top" align="left"><media id="fs-id1167835342689" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_04_06_007b_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Evaluate.</entry>
+<entry valign="top" align="left"><media id="fs-id1167834474237" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_04_06_007c_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Simplify.</entry>
+<entry valign="top" align="left"><media id="fs-id1167835267322" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_04_06_007d_img.jpg"/></media></entry>
+</row>
+</tbody>
+</tgroup>
+</table><newline/><newline/>
+<span class="token">ⓒ</span><newline/>
+<table id="fs-id1167835303369" class="unnumbered unstyled can-break" summary="The 3 by 3 matrix has row 1: 4, minus 2, 3, row 2: 1, 0, minus 3 and row 3: minus 2, minus 4, 2. Eliminating the row and column containing c2, we get minor of c2 with row 1: 4, minus 2 and row 2: minus 2, 4. Evaluate and simplify to get 12">
+<label/>
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<tbody>
+<row valign="top">
+<entry valign="top" align="left"/>
+<entry valign="top" align="left"><media id="fs-id1167831883033" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_04_06_008a_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="bottom" align="left">Eliminate the row and column that contains <m:math><m:mrow><m:msub><m:mi>c</m:mi><m:mn>2</m:mn></m:msub><m:mo>.</m:mo></m:mrow></m:math></entry>
+<entry valign="bottom" align="left"><media id="fs-id1167832058516" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_04_06_008b_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Write the <m:math><m:mrow><m:mn>2</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mn>2</m:mn></m:mrow></m:math> determinant that remains.</entry>
+<entry valign="top" align="left"><media id="fs-id1167835348052" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_04_06_008c_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Evaluate.</entry>
+<entry valign="top" align="left"><media id="fs-id1167826778954" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_04_06_008d_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Simplify.</entry>
+<entry valign="top" align="left"><media id="fs-id1167834535422" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_04_06_008e_img.jpg"/></media></entry>
+</row>
+</tbody>
+</tgroup>
+</table></para>
+</solution>
+</exercise>
+</example>
+<note id="fs-id1167830865964" class="try">
+<exercise id="fs-id1167834423084">
+<problem id="fs-id1167834098196">
+<para id="fs-id1167835310588">For the determinant <m:math><m:mrow><m:mrow><m:mo>|</m:mo><m:mtable><m:mtr><m:mtd columnalign="right"><m:mn>1</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−1</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>4</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mn>0</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>2</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−1</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mn>−2</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−3</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>3</m:mn></m:mtd></m:mtr></m:mtable><m:mo>|</m:mo></m:mrow><m:mo>,</m:mo></m:mrow></m:math> find and then evaluate the minor of <span class="token">ⓐ</span> <m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:msub><m:mi>b</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math> <span class="token">ⓒ</span> <m:math><m:mrow><m:msub><m:mi>c</m:mi><m:mn>3</m:mn></m:msub><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167834429082">
+<para id="fs-id1167834059406"><span class="token">ⓐ</span> 3 <span class="token">ⓑ</span> 11 <span class="token">ⓒ</span> 2</para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1167826864846" class="try">
+<exercise id="fs-id1167831037153">
+<problem id="fs-id1167835367305">
+<para id="fs-id1167834238946">For the determinant <m:math><m:mrow><m:mrow><m:mo>|</m:mo><m:mtable><m:mtr><m:mtd columnalign="right"><m:mn>−2</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−1</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>0</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mn>3</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>0</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−1</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mn>−1</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−2</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>3</m:mn></m:mtd></m:mtr></m:mtable><m:mo>|</m:mo></m:mrow><m:mo>,</m:mo></m:mrow></m:math> find and then evaluate the minor of <span class="token">ⓐ</span> <m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:msub><m:mi>b</m:mi><m:mn>3</m:mn></m:msub></m:mrow></m:math> <span class="token">ⓒ</span> <m:math><m:mrow><m:msub><m:mi>c</m:mi><m:mn>2</m:mn></m:msub><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167834532254">
+<para id="fs-id1167834340084"><span class="token">ⓐ</span> <m:math><m:mrow><m:mn>−3</m:mn></m:mrow></m:math> <span class="token">ⓑ</span> 2 <span class="token">ⓒ</span> 3</para>
+</solution>
+</exercise>
+</note>
+<para id="fs-id1167835352856">We are now ready to evaluate a <m:math><m:mrow><m:mn>3</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mn>3</m:mn></m:mrow></m:math> determinant. To do this we expand by minors, which allows us to evaluate the <m:math><m:mrow><m:mn>3</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mn>3</m:mn></m:mrow></m:math> determinant using <m:math><m:mrow><m:mn>2</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mn>2</m:mn></m:mrow></m:math> determinants—which we already know how to evaluate!</para>
+<para id="fs-id1167835326066">To evaluate a <m:math><m:mrow><m:mn>3</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mn>3</m:mn></m:mrow></m:math> determinant by expanding by minors along the first row, we use the following pattern:</para>
+<media id="fs-id1167834449187" alt="A 3 by 3 determinant is equal to a1 times minor of a1 minus b1 times minor of b1 plus c1 times minor of c1.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_04_06_009_img_new.jpg"/>
+</media>
+<para id="fs-id1167835422374">Remember, to find the minor of an entry we eliminate the row and column that contains the entry.</para>
+<note id="fs-id1167834397786">
+<title>Expanding by Minors along the First Row to Evaluate a <m:math><m:mrow><m:mn>3</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mn>3</m:mn></m:mrow></m:math> Determinant</title>
+<para id="fs-id1167830865570">To evaluate a <m:math><m:mrow><m:mn>3</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mn>3</m:mn></m:mrow></m:math> determinant by <emphasis effect="bold">expanding by minors along the first row</emphasis>, the following pattern:</para>
+<media id="fs-id1167835234815" alt="A 3 by 3 determinant is equal to a1 times minor of a1 minus b1 times minor of b1 plus c1 times minor of c1.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_04_06_021_img.jpg"/>
+</media>
+</note>
+<example id="fs-id1167835310230">
+<exercise id="fs-id1167835231574">
+<problem id="fs-id1167834179990">
+<para id="fs-id1167835336341">Evaluate the determinant <m:math><m:mrow><m:mrow><m:mo>|</m:mo><m:mtable><m:mtr><m:mtd columnalign="right"><m:mn>2</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−3</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−1</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mn>3</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>2</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>0</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mn>−1</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−1</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−2</m:mn></m:mtd></m:mtr></m:mtable><m:mo>|</m:mo></m:mrow></m:mrow></m:math> by expanding by minors along the first row.</para>
+</problem>
+<solution id="fs-id1167835375360">
+<para id="fs-id1167832031130"><table id="fs-id1167826808290" class="unnumbered unstyled" summary="The first row of the determinant is 2, minus 3, minus 1. Row 2 is 3, 2, 0. Row 3 is minus 1, minus 1, minus 2. Expanding by minors, we get 2 times minor of 2 minus 3 times minor of 3 plus minus 1 times minor of minus 1. Evaluating each determinant and simplifying, we get minus 25.">
+<label/>
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<tbody>
+<row valign="top">
+<entry valign="top" align="left"/>
+<entry valign="top" align="left"><media id="fs-id1167835336567" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_04_06_010a_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Expand by minors along the first row</entry>
+<entry valign="top" align="left"><media id="fs-id1167835369420" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_04_06_010b_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Evaluate each determinant.</entry>
+<entry valign="top" align="left"><media id="fs-id1167834196236" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_04_06_010c_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Simplify.</entry>
+<entry valign="top" align="left"><media id="fs-id1167835305817" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_04_06_010d_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Simplify.</entry>
+<entry valign="top" align="left"><media id="fs-id1167830696631" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_04_06_010e_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Simplify.</entry>
+<entry valign="top" align="left"><media id="fs-id1167835328645" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_04_06_010f_img.jpg"/></media></entry>
+</row>
+</tbody>
+</tgroup>
+</table></para>
+</solution>
+</exercise>
+</example>
+<note id="fs-id1167835327661" class="try">
+<exercise id="fs-id1167835418958">
+<problem id="fs-id1167834523938">
+<para id="fs-id1167834376483">Evaluate the determinant <m:math><m:mrow><m:mrow><m:mo>|</m:mo><m:mtable><m:mtr><m:mtd columnalign="right"><m:mn>3</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−2</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>4</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mn>0</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−1</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−2</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mn>2</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>3</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−1</m:mn></m:mtd></m:mtr></m:mtable><m:mo>|</m:mo></m:mrow><m:mo>,</m:mo></m:mrow></m:math> by expanding by minors along the first row.</para>
+</problem>
+<solution id="fs-id1167831025428">
+<para id="fs-id1167835300734">37</para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1167834387531" class="try">
+<exercise id="fs-id1167835354006">
+<problem id="fs-id1167835214250">
+<para id="fs-id1167835530640">Evaluate the determinant <m:math><m:mrow><m:mrow><m:mo>|</m:mo><m:mtable><m:mtr><m:mtd columnalign="right"><m:mn>3</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−2</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−2</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mn>2</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−1</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>4</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mn>−1</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>0</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−3</m:mn></m:mtd></m:mtr></m:mtable><m:mo>|</m:mo></m:mrow><m:mo>,</m:mo></m:mrow></m:math> by expanding by minors along the first row.</para>
+</problem>
+<solution id="fs-id1167834438855">
+<para id="fs-id1167835361021">7</para>
+</solution>
+</exercise>
+</note>
+<para id="fs-id1167835236159">To evaluate a <m:math><m:mrow><m:mn>3</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mn>3</m:mn></m:mrow></m:math> determinant we can expand by minors using any row or column. Choosing a row or column other than the first row sometimes makes the work easier.</para>
+<para id="fs-id1167830697049">When we expand by any row or column, we must be careful about the sign of the terms in the expansion. To determine the sign of the terms, we use the following sign pattern chart.</para>
+<equation id="fs-id1167834192154" class="unnumbered"><label/><m:math><m:mrow><m:mrow><m:mo>|</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mo>+</m:mo><m:mspace width="1.5em"/><m:mo>−</m:mo><m:mspace width="1.5em"/><m:mo>+</m:mo></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mo>−</m:mo><m:mspace width="1.5em"/><m:mo>+</m:mo><m:mspace width="1.5em"/><m:mo>−</m:mo></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mo>+</m:mo><m:mspace width="1.5em"/><m:mo>−</m:mo><m:mspace width="1.5em"/><m:mo>+</m:mo></m:mtd></m:mtr></m:mtable><m:mo>|</m:mo></m:mrow></m:mrow></m:math></equation>
+<note id="fs-id1167834383296">
+<title>Sign Pattern</title>
+<para id="fs-id1167830698084">When expanding by minors using a row or column, the sign of the terms in the expansion follow the following pattern.</para>
+<equation id="fs-id1167835310672" class="unnumbered"><label/><m:math><m:mrow><m:mrow><m:mo>|</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mo>+</m:mo><m:mspace width="1.5em"/><m:mo>−</m:mo><m:mspace width="1.5em"/><m:mo>+</m:mo></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mo>−</m:mo><m:mspace width="1.5em"/><m:mo>+</m:mo><m:mspace width="1.5em"/><m:mo>−</m:mo></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mo>+</m:mo><m:mspace width="1.5em"/><m:mo>−</m:mo><m:mspace width="1.5em"/><m:mo>+</m:mo></m:mtd></m:mtr></m:mtable><m:mo>|</m:mo></m:mrow></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1167834429687">Notice that the sign pattern in the first row matches the signs between the terms in the expansion by the first row.</para>
+<media id="fs-id1167834555240" alt="A 3 by 3 determinant has row 1: plus, minus, plus, row 2: minus, plus, minus and row 3: plus, minus, plus. The three signs in the first row each point to a minor determinant in the expansion of a 3 by 3 determinant. Plus points to minor of a1, minus to the minor of b1 and plus to the minor of c1.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_04_06_011_img_new.jpg"/>
+</media>
+<para id="fs-id1167835367678">Since we can expand by any row or column, how do we decide which row or column to use? Usually we try to pick a row or column that will make our calculation easier. If the determinant contains a 0, using the row or column that contains the 0 will make the calculations easier.</para>
+<example id="fs-id1167834186369">
+<exercise id="fs-id1167835533969">
+<problem id="fs-id1167834257993">
+<para id="fs-id1167835350318">Evaluate the determinant <m:math><m:mrow><m:mrow><m:mo>|</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mn>4</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−1</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−3</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>3</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>0</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>2</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>5</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−4</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−3</m:mn></m:mtd></m:mtr></m:mtable><m:mo>|</m:mo></m:mrow></m:mrow></m:math> by expanding by minors.</para>
+</problem>
+<solution id="fs-id1167830699122">
+<para id="fs-id1167835331737">To expand by minors, we look for a row or column that will make our calculations easier. Since 0 is in the second row and second column, expanding by either of those is a good choice. Since the second row has fewer negatives than the second column, we will expand by the second row.</para>
+<para id="fs-id1167831964588"><table id="fs-id1167832056052" class="unnumbered unstyled" summary="A 3 by 3 determinant has row 1 4, minus 1, minus 3, row 2: 3, 0, 2 and row 3 5, minus 4, minus 3. The second row is highlighted. Expand using the second row. Be careful of the signs. The middle row is minus, plus, minus. Expanding, we get minus 3 times minor of 3 plus 0 times minor of 0 minus 2 times minor of 2. Evaluating each minor determinant and simplifying, we get 49.">
+<label/>
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<tbody>
+<row valign="top">
+<entry valign="top" align="left"/>
+<entry valign="top" align="left"><media id="fs-id1167834524204" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_04_06_012a_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Expand using the second row.</entry>
+<entry valign="top" align="left"/>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Be careful of the signs.</entry>
+<entry valign="top" align="left"><media id="fs-id1167835326516" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_04_06_012b_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Evaluate each determinant.</entry>
+<entry valign="top" align="left"><media id="fs-id1167835511115" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_04_06_012c_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Simplify.</entry>
+<entry valign="top" align="left"><media id="fs-id1167826783686" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_04_06_012d_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Simplify.</entry>
+<entry valign="top" align="left"><media id="fs-id1167835337580" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_04_06_012e_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Add.</entry>
+<entry valign="top" align="left"><media id="fs-id1167835420254" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_04_06_012f_img.jpg"/></media></entry>
+</row>
+</tbody>
+</tgroup>
+</table></para>
+</solution>
+</exercise>
+</example>
+<note id="fs-id1167826784031" class="try">
+<exercise id="fs-id1167834429462">
+<problem id="fs-id1167831922992">
+<para id="fs-id1167835284588">Evaluate the determinant <m:math><m:mrow><m:mrow><m:mo>|</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mn>2</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−1</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−3</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>0</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>3</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−4</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>3</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−4</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−3</m:mn></m:mtd></m:mtr></m:mtable><m:mo>|</m:mo></m:mrow></m:mrow></m:math> by expanding by minors.</para>
+</problem>
+<solution id="fs-id1167835213837">
+<para id="fs-id1167826849510"><m:math><m:mrow><m:mn>−11</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1167835366417" class="try">
+<exercise id="fs-id1167831970277">
+<problem id="fs-id1167835216554">
+<para id="fs-id1167835479732">Evaluate the determinant <m:math><m:mrow><m:mrow><m:mo>|</m:mo><m:mtable><m:mtr><m:mtd columnalign="right"><m:mn>−2</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−1</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−3</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mn>−1</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>2</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>2</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mn>4</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−4</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>0</m:mn></m:mtd></m:mtr></m:mtable><m:mo>|</m:mo></m:mrow></m:mrow></m:math> by expanding by minors.</para>
+</problem>
+<solution id="fs-id1167831833355">
+<para id="fs-id1167826799095"><m:math><m:mrow><m:mn>−12</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+</section>
+<section id="fs-id1167834431184">
+<title>Use Cramer’s Rule to Solve Systems of Equations</title>
+<para id="fs-id1167835173740">Cramer’s Rule is a method of solving systems of equations using determinants. It can be derived by solving the general form of the systems of equations by elimination. Here we will demonstrate the rule for both systems of two equations with two variables and for systems of three equations with three variables.</para>
+<para id="fs-id1167835328055">Let’s start with the systems of two equations with two variables.</para>
+<note id="fs-id1167831180556">
+<title>Cramer’s Rule for Solving a System of Two Equations</title>
+<para id="fs-id1167835231793">For the system of equations <m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub><m:mi>x</m:mi><m:mo>+</m:mo><m:msub><m:mi>b</m:mi><m:mn>1</m:mn></m:msub><m:mi>y</m:mi><m:mo>=</m:mo><m:msub><m:mi>k</m:mi><m:mn>1</m:mn></m:msub></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:msub><m:mi>a</m:mi><m:mn>2</m:mn></m:msub><m:mi>x</m:mi><m:mo>+</m:mo><m:msub><m:mi>b</m:mi><m:mn>2</m:mn></m:msub><m:mi>y</m:mi><m:mo>=</m:mo><m:msub><m:mi>k</m:mi><m:mn>2</m:mn></m:msub></m:mtd></m:mtr></m:mtable></m:mrow><m:mo>,</m:mo></m:mrow></m:math> the solution <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>y</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> can be determined by</para>
+<media id="fs-id1167835420544" alt="x is Dx upon D and y is Dy upon D where D is determinant with row 1: a1, b1 and row 2 a2, b2, use coefficients of the variables; Dx is determinant with row 1: k1, b1 and row 2: k2, b2, replace the x coefficients with the consonants; Dy is determinant with row 1: a1, k1 and row 2: a2, k2, replace the y coefficients with constants">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_04_06_013_img_new.jpg"/>
+</media>
+</note>
+<para id="fs-id1167834099327">Notice that to form the determinant <emphasis effect="italics">D</emphasis>, we use take the coefficients of the variables.</para>
+<media id="fs-id1167830838415" alt="The equations are a1x plus b1y equals k1 and a2x plus b2y equals k2. Here, a1, a2, b1, b2 are coefficients. The determinant is D with row 1: a1, b1 and row 2: a2, b2. Column 1 has coefficients of x and column 2 has coefficients of">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_04_06_014_img_new.jpg"/>
+</media>
+<para id="fs-id1167835181009">Notice that to form the determinant <m:math><m:mrow><m:msub><m:mi>D</m:mi><m:mi>x</m:mi></m:msub></m:mrow></m:math> and <m:math><m:mrow><m:msub><m:mi>D</m:mi><m:mi>y</m:mi></m:msub><m:mo>,</m:mo></m:mrow></m:math> we substitute the constants for the coefficients of the variable we are finding.</para>
+<media id="fs-id1167835575810" alt="The equations are a1x plus b1y equals k1 and a2x plus b2y equals k2. Here, a1, a2, b1, b2 are coefficients. The determinant is Dx has row 1: k1, b1 and row 2: k2, b2. Here columns 1 and 2 re constants and coefficients of y respectively. Determinant Dy has row 1: a1, k1 and row 2: a2, k2. Here, columns 1 and 2 are coefficients of x and constants respectively.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_04_06_015_img_new.jpg"/>
+</media>
+<example id="fs-id1167834137622">
+<title>How to Solve a System of Equations Using Cramer’s Rule</title>
+<exercise id="fs-id1167835225995">
+<problem id="fs-id1167826782724">
+<para id="fs-id1167834526137">Solve using Cramer’s Rule: <m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−4</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−6</m:mn></m:mtd></m:mtr></m:mtable></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167835629178">
+<media id="fs-id1167826782312" alt="The equations are 2x plus y equals minus 4 and 3x minus 2y equals minus 6. Step 1. Evaluate the determinant D, using the coefficients of the variables. Determinant D has row 1: 2, 1 and row 2: 3, minus 2. So, D is minus 7.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_04_06_016a_img_new.jpg"/>
+</media>
+<media id="fs-id1167835215728" alt="Step 2. Evaluate the determinant Dx. Use the constants in place of the x coefficients. We replace the coefficients of x, 2 and 3, with the constants, negative 4 and negative 6. We get Dx equal to 14.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_04_06_016b_img_new.jpg"/>
+</media>
+<media id="fs-id1167835274917" alt="Step 3. Evaluate the determinant Dy. Use the constants in place of the y coefficients. We replace the coefficients of y, 1 and 2, with the constants, negative 4 and negative 6. We get Dy equal to 0.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_04_06_016c_img_new.jpg"/>
+</media>
+<media id="fs-id1167834066299" alt="Step 4. Find x and y. Substituting values of D, Dx and Dy in the equations x equal to Dx upon D and y equal to Dy upon D, we get x equal to minus 2 and y equal to 0.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_04_06_016d_img_new.jpg"/>
+</media>
+<media id="fs-id1167835419109" alt="Step 5. Write the solution as an ordered pair minus 2, 0.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_04_06_016e_img_new.jpg"/>
+</media>
+<media id="fs-id1167834396909" alt="Step 6. Check that the ordered pair is a solution to both original equations.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_04_06_016f_img_new.jpg"/>
+</media>
+</solution>
+</exercise>
+</example>
+<note id="fs-id1167835389726" class="try">
+<exercise id="fs-id1167831115647">
+<problem id="fs-id1167835267209">
+<para id="fs-id1167835264828">Solve using Cramer’s rule: <m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−3</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>6</m:mn></m:mtd></m:mtr></m:mtable></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167831922888">
+<para id="fs-id1167834279222"><m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mfrac><m:mrow><m:mn>15</m:mn></m:mrow><m:mn>7</m:mn></m:mfrac><m:mo>,</m:mo><m:mfrac><m:mrow><m:mn>24</m:mn></m:mrow><m:mn>7</m:mn></m:mfrac><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1167834065903" class="try">
+<exercise id="fs-id1167834161540">
+<problem id="fs-id1167835264028">
+<para id="fs-id1167835511096">Solve using Cramer’s rule: <m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mtext>−</m:mtext><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>2</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−4</m:mn></m:mtd></m:mtr></m:mtable></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167835423282">
+<para id="fs-id1167834279427"><m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>−2</m:mn><m:mo>,</m:mo><m:mn>0</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1167834431139" class="howto">
+<title>Solve a system of two equations using Cramer’s rule.</title>
+<list id="fs-id1167828401841" list-type="enumerated" number-style="arabic" class="stepwise">
+<item>Evaluate the determinant <emphasis effect="italics">D</emphasis>, using the coefficients of the variables.</item>
+<item>Evaluate the determinant <m:math><m:mrow><m:msub><m:mi>D</m:mi><m:mi>x</m:mi></m:msub><m:mo>.</m:mo></m:mrow></m:math> Use the constants in place of the <emphasis effect="italics">x</emphasis> coefficients.</item>
+<item>Evaluate the determinant <m:math><m:mrow><m:msub><m:mi>D</m:mi><m:mi>y</m:mi></m:msub><m:mo>.</m:mo></m:mrow></m:math> Use the constants in place of the <emphasis effect="italics">y</emphasis> coefficients.</item>
+<item>Find <emphasis effect="italics">x</emphasis> and <emphasis effect="italics">y</emphasis>. <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>D</m:mi><m:mi>x</m:mi></m:msub></m:mrow><m:mi>D</m:mi></m:mfrac><m:mo>,</m:mo></m:mrow></m:math> <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>D</m:mi><m:mi>y</m:mi></m:msub></m:mrow><m:mi>D</m:mi></m:mfrac></m:mrow></m:math></item>
+<item>Write the solution as an ordered pair.</item>
+<item>Check that the ordered pair is a solution to both original equations.</item>
+</list>
+</note>
+<para id="fs-id1167826778974">To solve a system of three equations with three variables with Cramer’s Rule, we basically do what we did for a system of two equations. However, we now have to solve for three variables to get the solution. The determinants are also going to be <m:math><m:mrow><m:mn>3</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mn>3</m:mn></m:mrow></m:math> which will make our work more interesting!</para>
+<note id="fs-id1167835352342">
+<title>Cramer’s Rule for Solving a System of Three Equations</title>
+<para id="fs-id1167835319418">For the system of equations <m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub><m:mi>x</m:mi><m:mo>+</m:mo><m:msub><m:mi>b</m:mi><m:mn>1</m:mn></m:msub><m:mi>y</m:mi><m:mo>+</m:mo><m:msub><m:mi>c</m:mi><m:mn>1</m:mn></m:msub><m:mi>z</m:mi><m:mo>=</m:mo><m:msub><m:mi>k</m:mi><m:mn>1</m:mn></m:msub></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:msub><m:mi>a</m:mi><m:mn>2</m:mn></m:msub><m:mi>x</m:mi><m:mo>+</m:mo><m:msub><m:mi>b</m:mi><m:mn>2</m:mn></m:msub><m:mi>y</m:mi><m:mo>+</m:mo><m:msub><m:mi>c</m:mi><m:mn>2</m:mn></m:msub><m:mi>z</m:mi><m:mo>=</m:mo><m:msub><m:mi>k</m:mi><m:mn>2</m:mn></m:msub></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:msub><m:mi>a</m:mi><m:mn>3</m:mn></m:msub><m:mi>x</m:mi><m:mo>+</m:mo><m:msub><m:mi>b</m:mi><m:mn>3</m:mn></m:msub><m:mi>y</m:mi><m:mo>+</m:mo><m:msub><m:mi>c</m:mi><m:mn>3</m:mn></m:msub><m:mi>z</m:mi><m:mo>=</m:mo><m:msub><m:mi>k</m:mi><m:mn>3</m:mn></m:msub></m:mtd></m:mtr></m:mtable></m:mrow><m:mo>,</m:mo></m:mrow></m:math> the solution <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>y</m:mi><m:mo>,</m:mo><m:mi>z</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> can be determined by</para>
+<media id="fs-id1167830865955" alt="x is Dx upon D, y is Dy upon D and z is Dz upon D, where D is determinant with row 1: a1, b1, c1, row 2: a2, b2, c2, row 3: a3, b3, c3, use coefficients of the variables; Dx is determinant with row 1: k1, b1, c1, row 2: k2, b2, c2 and rwo 3: k3, b3, c3, replace the x coefficients with the consonants; Dy is determinant with row 1: a1, k1, c1, row 2: a2, k2, c2 and row 3: a3, k3, c3, replace the y coefficients with constants; Dz is determinant with row 1: a1, b1, k1; row 2: a2, b2, k2, row 3: a3, b3, k3; replace the z coefficients with constants.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_04_06_017_img_new.jpg"/>
+</media>
+</note>
+<example id="fs-id1167835240630">
+<exercise id="fs-id1167834279802">
+<problem id="fs-id1167835416019">
+<para id="fs-id1167835345728">Solve the system of equations using Cramer’s Rule: <m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>5</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>4</m:mn><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>5</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>5</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>3</m:mn></m:mtd></m:mtr></m:mtable></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167835233369">
+<para id="fs-id1167835311186"><table id="fs-id1167835311187" class="unnumbered unstyled can-break" summary="Evaluate the determinant D. D has row 1: 3, minus 5, 4. Row 2 is 5, 2, 1. Row 3 is 2, 3, minus 2. Expand by minors using column 1. Column 1 has the signs plus minus plus. D is 3 times first minor minus 5 times second minor plus 2 times third minor where the first minor has row 1: 2, 1 and row 2: 3, minus 2; second minor has row 1: minus 5, 4 and row 2: 3, minus 2; third minor has row 1: minus 5, 4 and row 2: 2, 1. Evaluate the determinants and simplify to get D equal to minus 37. To evaluate the determinant Dx, use the constants to replace the coefficients of x. Expand by minors using column 1. Evaluate and simplify to get Dx equal to minus 74. To evaluate the determinant Dy, use the constants to replace the coefficients of y. Expand by minors using column 2. Evaluate and simplify to get Dy equal to 111. To evaluate the determinant Dz, use the constants to replace the coefficients of z. Expand by minors using column 3. Evaluate and simplify to get Dz equal to 148. Find x, y, z and write the ordered triple 2, minus 3, minus 4. Check."><label/>
+<tgroup cols="2"><colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<tbody>
+<row valign="top">
+<entry valign="top" align="left">Evaluate the determinant <emphasis effect="italics">D</emphasis>.</entry>
+<entry valign="top" align="left"><media id="fs-id1167826801782" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_04_06_018d_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Expand by minors using column 1.</entry>
+<entry valign="top" align="left"/>
+</row>
+<row valign="top">
+<entry valign="top" align="left"><media id="fs-id1167835504018" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_04_06_018a_img.jpg"/></media></entry>
+<entry valign="top" align="left"><media id="fs-id1167835235110" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_04_06_018e_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Evaluate the determinants.</entry>
+<entry valign="top" align="left"><media id="fs-id1167834279238" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_04_06_018f_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Simplify.</entry>
+<entry valign="top" align="left"><media id="fs-id1167832152001" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_04_06_018g_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Simplify.</entry>
+<entry valign="top" align="left"><media id="fs-id1167826938247" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_04_06_018h_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Simplify.</entry>
+<entry valign="top" align="left"><media id="fs-id1167834131323" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_04_06_018i_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Evaluate the determinant <m:math><m:mrow><m:msub><m:mi>D</m:mi><m:mi>x</m:mi></m:msub><m:mo>.</m:mo></m:mrow></m:math> Use the<newline/>constants to replace the coefficients of <emphasis effect="italics">x</emphasis>.</entry>
+<entry valign="top" align="left"><media id="fs-id1167835305033" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_04_06_018j_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Expand by minors using column 1.</entry>
+<entry valign="top" align="left"><media id="fs-id1167835634609" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_04_06_018k_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Evaluate the determinants.</entry>
+<entry valign="top" align="left"><media id="fs-id1167831825107" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_04_06_018l_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Simplify.</entry>
+<entry valign="top" align="left"><media id="fs-id1167834556769" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_04_06_018m_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Simplify.</entry>
+<entry valign="top" align="left"><media id="fs-id1167834517442" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_04_06_018n_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Evaluate the determinant <m:math><m:mrow><m:msub><m:mi>D</m:mi><m:mi>y</m:mi></m:msub><m:mo>.</m:mo></m:mrow></m:math> Use the<newline/>constants to replace the coefficients of <emphasis effect="italics">y</emphasis>.</entry>
+<entry valign="top" align="left"><media id="fs-id1167835376143" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_04_06_018o_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left"><media id="fs-id1167834408455" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_04_06_018b_img.jpg"/></media></entry>
+<entry valign="top" align="left"><media id="fs-id1167826798788" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_04_06_018p_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Evaluate the determinants.</entry>
+<entry valign="top" align="left"><media id="fs-id1167835335956" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_04_06_018q_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Simplify.</entry>
+<entry valign="top" align="left"><media id="fs-id1167831959318" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_04_06_018r_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Simplify.</entry>
+<entry valign="top" align="left"><media id="fs-id1167835327732" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_04_06_018s_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Simplify.</entry>
+<entry valign="top" align="left"><media id="fs-id1167835259317" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_04_06_018t_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Evaluate the determinant <m:math><m:mrow><m:msub><m:mi>D</m:mi><m:mi>z</m:mi></m:msub><m:mo>.</m:mo></m:mrow></m:math> Use the<newline/>constants to replace the coefficients of <emphasis effect="italics">z</emphasis>.</entry>
+<entry valign="top" align="left"><media id="fs-id1167835423151" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_04_06_018u_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left"><media id="fs-id1167834587839" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_04_06_018c_img.jpg"/></media></entry>
+<entry valign="top" align="left"><media id="fs-id1167830898572" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_04_06_018v_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Evaluate the determinants.</entry>
+<entry valign="top" align="left"><media id="fs-id1167835367199" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_04_06_018w_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Simplify.</entry>
+<entry valign="top" align="left"><media id="fs-id1167834423610" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_04_06_018x_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Simplify.</entry>
+<entry valign="top" align="left"><media id="fs-id1167835325481" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_04_06_018y_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Simplify.</entry>
+<entry valign="top" align="left"><media id="fs-id1167835237771" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_04_06_018z_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Find <emphasis effect="italics">x</emphasis>, <emphasis effect="italics">y</emphasis>, and <emphasis effect="italics">z</emphasis>.</entry>
+<entry valign="top" align="left"><media id="fs-id1167830697629" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_04_06_018aa_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Substitute in the values.</entry>
+<entry valign="top" align="left"><media id="fs-id1167835340509" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_04_06_018bb_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Simplify.</entry>
+<entry valign="top" align="left"><media id="fs-id1167832052669" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_04_06_018cc_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Write the solution as an ordered triple.</entry>
+<entry valign="top" align="left"><media id="fs-id1167835330774" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_04_06_018dd_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="bottom" align="left">Check that the ordered triple is a solution<newline/>to <emphasis effect="bold">all three</emphasis> original equations.</entry>
+<entry valign="bottom" align="left">We leave the check to you.</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left"/>
+<entry valign="top" align="left">The solution is <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>−3</m:mn><m:mo>,</m:mo><m:mn>−4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></entry>
+</row>
+</tbody>
+
+</tgroup>
+</table></para>
+</solution>
+</exercise>
+</example>
+<note id="fs-id1167835167506" class="try">
+<exercise id="fs-id1167835358592">
+<problem id="fs-id1167835192469">
+<para id="fs-id1167835323641">Solve the system of equations using Cramer’s Rule: <m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>8</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>−5</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>5</m:mn><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>−1</m:mn></m:mtd></m:mtr></m:mtable></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167835363688">
+<para id="fs-id1167831893121"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−9</m:mn><m:mo>,</m:mo><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>−1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1167834433665" class="try">
+<exercise id="fs-id1167835308933">
+<problem id="fs-id1167826783812">
+<para id="fs-id1167835421498">Solve the system of equations using Cramer’s Rule: <m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>6</m:mn><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>−3</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>6</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>−6</m:mn></m:mtd></m:mtr></m:mtable></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167834183850">
+<para id="fs-id1167835165883"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−6</m:mn><m:mo>,</m:mo><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>−2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<para id="fs-id1167835344810">Cramer’s rule does not work when the value of the <emphasis effect="italics">D</emphasis> determinant is 0, as this would mean we would be dividing by 0. But when <m:math><m:mrow><m:mi>D</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo></m:mrow></m:math> the system is either inconsistent or dependent.</para>
+<para id="fs-id1167835310719">When the value of <m:math><m:mrow><m:mi>D</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> and <m:math><m:mrow><m:msub><m:mi>D</m:mi><m:mi>x</m:mi></m:msub><m:mo>,</m:mo><m:msub><m:mi>D</m:mi><m:mi>y</m:mi></m:msub></m:mrow></m:math> and <m:math><m:mrow><m:msub><m:mi>D</m:mi><m:mi>z</m:mi></m:msub></m:mrow></m:math> are all zero, the system is consistent and dependent and there are infinitely many solutions.</para>
+<para id="fs-id1167831040599">When the value of <m:math><m:mrow><m:mi>D</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> and <m:math><m:mrow><m:msub><m:mi>D</m:mi><m:mi>x</m:mi></m:msub><m:mo>,</m:mo><m:msub><m:mi>D</m:mi><m:mi>y</m:mi></m:msub></m:mrow></m:math> and <m:math><m:mrow><m:msub><m:mi>D</m:mi><m:mi>z</m:mi></m:msub></m:mrow></m:math> are not all zero, the system is inconsistent and there is no solution.</para>
+<note id="fs-id1167835253988">
+<title>Dependent and Inconsistent Systems of Equations</title>
+<para id="fs-id1167835325469">For any system of equations, where the <emphasis effect="bold">value of the determinant</emphasis> <m:math><m:mrow><m:mi>D</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo></m:mrow></m:math><newline/>
+<m:math><m:mrow><m:mtable><m:mtr><m:mtd columnalign="left"><m:mtext mathvariant="bold">Value of determinants</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mtext mathvariant="bold">Type of system</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mtext mathvariant="bold">Solution</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mi>D</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mspace width="0.2em"/><m:mtext>and</m:mtext><m:mspace width="0.2em"/><m:msub><m:mi>D</m:mi><m:mi>x</m:mi></m:msub><m:mo>,</m:mo><m:msub><m:mi>D</m:mi><m:mi>y</m:mi></m:msub><m:mspace width="0.2em"/><m:mtext>and</m:mtext><m:mspace width="0.2em"/><m:msub><m:mi>D</m:mi><m:mi>z</m:mi></m:msub><m:mspace width="0.2em"/><m:mtext>are all zero</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mtext>consistent and dependent</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mtext>infinitely many solutions</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mi>D</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mspace width="0.2em"/><m:mtext>and</m:mtext><m:mspace width="0.2em"/><m:msub><m:mi>D</m:mi><m:mi>x</m:mi></m:msub><m:mo>,</m:mo><m:msub><m:mi>D</m:mi><m:mi>y</m:mi></m:msub><m:mspace width="0.2em"/><m:mtext>and</m:mtext><m:mspace width="0.2em"/><m:msub><m:mi>D</m:mi><m:mi>z</m:mi></m:msub><m:mspace width="0.2em"/><m:mtext>are not all zero</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mtext>inconsistent</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mtext>no solution</m:mtext></m:mtd></m:mtr></m:mtable></m:mrow></m:math></para>
+</note>
+<para id="fs-id1168757812384">In the next example, we will use the values of the determinants to find the solution of the system.</para>
+<example id="fs-id1167834537639">
+<exercise id="fs-id1167827943773">
+<problem id="fs-id1167834094605">
+<para id="fs-id1167834246685">Solve the system of equations using Cramer’s rule : <m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="right"><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>4</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mn>−2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>6</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>3</m:mn></m:mtd></m:mtr></m:mtable></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167835306172">
+<para id="fs-id1167831923781"><m:math><m:mrow><m:mtable><m:mtr><m:mtd/><m:mtd/><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="right"><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>4</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mtext>−</m:mtext><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>6</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>3</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mtable><m:mtr><m:mtd columnalign="left"><m:mtext>Evaluate the determinant</m:mtext><m:mspace width="0.2em"/><m:mi>D</m:mi><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mtext>using the</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>coefficients of the variables.</m:mtext></m:mtd></m:mtr></m:mtable></m:mtd><m:mtd/><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mi>D</m:mi><m:mo>=</m:mo><m:mrow><m:mo>|</m:mo><m:mtable><m:mtr><m:mtd columnalign="right"><m:mn>1</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>3</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mn>−2</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−6</m:mn></m:mtd></m:mtr></m:mtable><m:mo>|</m:mo></m:mrow></m:mtd></m:mtr>
+<m:mtr><m:mtd/><m:mtd/><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mi>D</m:mi><m:mo>=</m:mo><m:mn>−6</m:mn><m:mo>−</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mo>−</m:mo><m:mn>6</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd/><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mi>D</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:math></para>
+<para id="fs-id1167831881762">We cannot use Cramer’s Rule to solve this system. But by looking at the value of the determinants <m:math><m:mrow><m:msub><m:mi>D</m:mi><m:mi>x</m:mi></m:msub></m:mrow></m:math> and <m:math><m:mrow><m:msub><m:mi>D</m:mi><m:mi>y</m:mi></m:msub><m:mo>,</m:mo></m:mrow></m:math> we can determine whether the system is dependent or inconsistent.</para>
+<para id="fs-id1167832058741"><m:math><m:mrow><m:mtable><m:mtr><m:mtd columnalign="left"><m:mtext>Evaluate the determinant</m:mtext><m:mspace width="0.2em"/><m:msub><m:mi>D</m:mi><m:mi>x</m:mi></m:msub><m:mo>.</m:mo></m:mtd><m:mtd/><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mspace width="3.5em"/><m:msub><m:mi>D</m:mi><m:mi>x</m:mi></m:msub><m:mo>=</m:mo><m:mrow><m:mo>|</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mn>4</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>3</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>3</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−6</m:mn></m:mtd></m:mtr></m:mtable><m:mo>|</m:mo></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd/><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mspace width="3.5em"/><m:msub><m:mi>D</m:mi><m:mi>x</m:mi></m:msub><m:mo>=</m:mo><m:mn>−24</m:mn><m:mo>−</m:mo><m:mn>9</m:mn></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd/><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mspace width="3.5em"/><m:msub><m:mi>D</m:mi><m:mi>x</m:mi></m:msub><m:mo>=</m:mo><m:mn>-33</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:math></para>
+<para id="fs-id1167834524879">Since all the determinants are not zero, the system is inconsistent. There is no solution.</para>
+</solution>
+</exercise>
+</example>
+<note id="fs-id1167832075354" class="try">
+<exercise id="fs-id1167831835395">
+<problem id="fs-id1167834555551">
+<para id="fs-id1167835194834">Solve the system of equations using Cramer’s rule: <m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>8</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>8</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>6</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>14</m:mn></m:mtd></m:mtr></m:mtable></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167826941225">
+<para id="fs-id1167834537917">no solution</para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1167835339843" class="try">
+<exercise id="fs-id1167835362814">
+<problem id="fs-id1167835363740">
+<para id="fs-id1167835310829">Solve the system of equations using Cramer’s rule: <m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>−3</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>4</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>6</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>8</m:mn></m:mtd></m:mtr></m:mtable></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167835352006">
+<para id="fs-id1167835207369">infinite solutions</para>
+</solution>
+</exercise>
+</note>
+</section>
+<section id="fs-id1167831092182">
+<title>Solve Applications using Determinants</title>
+<para id="fs-id1167835417818">An interesting application of determinants allows us to test if points are collinear. Three points <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub><m:mo>,</m:mo><m:msub><m:mi>y</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo></m:mrow></m:math> <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msub><m:mi>x</m:mi><m:mn>2</m:mn></m:msub><m:mo>,</m:mo><m:msub><m:mi>y</m:mi><m:mn>2</m:mn></m:msub></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> and <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msub><m:mi>x</m:mi><m:mn>3</m:mn></m:msub><m:mo>,</m:mo><m:msub><m:mi>y</m:mi><m:mn>3</m:mn></m:msub></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> are collinear if and only if the determinant below is zero.</para>
+<equation id="fs-id1167835623297" class="unnumbered"><label/><m:math><m:mrow><m:mrow><m:mo>|</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub><m:mspace width="1.5em"/><m:msub><m:mi>y</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:mspace width="1.5em"/><m:mn>1</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:msub><m:mi>x</m:mi><m:mn>2</m:mn></m:msub><m:mspace width="1.5em"/><m:msub><m:mi>y</m:mi><m:mn>2</m:mn></m:msub><m:mspace width="1.5em"/><m:mn>1</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:msub><m:mi>x</m:mi><m:mn>3</m:mn></m:msub><m:mspace width="1.5em"/><m:msub><m:mi>y</m:mi><m:mn>3</m:mn></m:msub><m:mspace width="1.5em"/><m:mn>1</m:mn></m:mtd></m:mtr></m:mtable><m:mo>|</m:mo></m:mrow><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></equation>
+<note id="fs-id1167835345043">
+<title>Test for Collinear Points</title>
+<para id="fs-id1167835190915">Three points <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub><m:mo>,</m:mo><m:msub><m:mi>y</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo></m:mrow></m:math> <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msub><m:mi>x</m:mi><m:mn>2</m:mn></m:msub><m:mo>,</m:mo><m:msub><m:mi>y</m:mi><m:mn>2</m:mn></m:msub></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> and <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msub><m:mi>x</m:mi><m:mn>3</m:mn></m:msub><m:mo>,</m:mo><m:msub><m:mi>y</m:mi><m:mn>3</m:mn></m:msub></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> are collinear if and only if</para>
+<equation id="fs-id1167835575471" class="unnumbered"><label/><m:math><m:mrow><m:mrow><m:mo>|</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub><m:mspace width="1.5em"/><m:msub><m:mi>y</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:mspace width="1.5em"/><m:mn>1</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:msub><m:mi>x</m:mi><m:mn>2</m:mn></m:msub><m:mspace width="1.5em"/><m:msub><m:mi>y</m:mi><m:mn>2</m:mn></m:msub><m:mspace width="1.5em"/><m:mn>1</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:msub><m:mi>x</m:mi><m:mn>3</m:mn></m:msub><m:mspace width="1.5em"/><m:msub><m:mi>y</m:mi><m:mn>3</m:mn></m:msub><m:mspace width="1.5em"/><m:mn>1</m:mn></m:mtd></m:mtr></m:mtable><m:mo>|</m:mo></m:mrow><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1167832075915">We will use this property in the next example.</para>
+<example id="fs-id1167835337787">
+<exercise id="fs-id1167835468588">
+<problem id="fs-id1167835230111">
+<para id="fs-id1167831824215">Determine whether the points <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>5</m:mn><m:mo>,</m:mo><m:mn>−5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo></m:mrow></m:math> <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>4</m:mn><m:mo>,</m:mo><m:mn>−3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo></m:mrow></m:math> and <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>−1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> are collinear.</para>
+</problem>
+<solution id="fs-id1167832054072">
+<para id="fs-id1167834494991"><table id="fs-id1167834494992" class="unnumbered unstyled" summary="The 3 by 3 determinant has the last column with all ones. Substitute the values into the determinant. We get row 1: 5, minus 5, 1, row 2: 4, minus 3, 1 and row 3: 3, minus 1, 1. Evaluate the determinant by expanding by minors using column 3. Evaluate the determinants. Simplify to get D equal to 0. The value of the determinate is 0, so the points are collinear.">
+<label/>
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<tbody>
+<row valign="top">
+<entry valign="top" align="left"/>
+<entry valign="top" align="left"><media id="fs-id1167834161471" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_04_06_019a_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Substitute the values into the determinant.<newline/><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>5</m:mn><m:mo>,</m:mo><m:mn>−5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo></m:mrow></m:math> <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>4</m:mn><m:mo>,</m:mo><m:mn>−3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo></m:mrow></m:math> and <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>−1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+<entry valign="top" align="left"><media id="fs-id1167830704055" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_04_06_019b_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Evaluate the determinant by expanding<newline/>by minors using column 3.</entry>
+<entry valign="top" align="left"><media id="fs-id1167832052912" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_04_06_019c_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Evaluate the determinants.</entry>
+<entry valign="top" align="left"><media id="fs-id1167835363686" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_04_06_019d_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Simplify.</entry>
+<entry valign="top" align="left"><media id="fs-id1167834382391" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_04_06_019e_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Simplify.</entry>
+<entry valign="top" align="left"><media id="fs-id1167835510774" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_04_06_019f_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left"/>
+<entry valign="top" align="left">The value of the determinate is 0, so the<newline/>points are collinear.</entry>
+</row>
+</tbody>
+</tgroup>
+</table></para>
+</solution>
+</exercise>
+</example>
+<note id="fs-id1167826871537" class="try">
+<exercise id="fs-id1167831023875">
+<problem id="fs-id1167831066155">
+<para id="fs-id1167832052184">Determine whether the points <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>−2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo></m:mrow></m:math> <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>5</m:mn><m:mo>,</m:mo><m:mn>−3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo></m:mrow></m:math> and <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>−1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> are collinear.</para>
+</problem>
+<solution id="fs-id1167835318449">
+<para id="fs-id1167828326434">yes</para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1167832066110" class="try">
+<exercise id="fs-id1167835304607">
+<problem id="fs-id1167835346877">
+<para id="fs-id1167835329140">Determine whether the points <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−4</m:mn><m:mo>,</m:mo><m:mn>−1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo></m:mrow></m:math> <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−6</m:mn><m:mo>,</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo></m:mrow></m:math> and <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−2</m:mn><m:mo>,</m:mo><m:mn>−4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> are collinear.</para>
+</problem>
+<solution id="fs-id1167834064114">
+<para id="fs-id1167831836301">yes</para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1167834196491" class="media-2">
+<para id="fs-id1167834244267">Access these online resources for additional instruction and practice with solving systems of linear inequalities by graphing.</para>
+<list id="fs-id1167830963112" display="block">
+<item><link url="https://www.openstax.org/l/37syslinineqgph">Solving Systems of Linear Inequalities by Graphing</link></item>
+<item><link url="https://www.openstax.org/l/37syslineqs">Systems of Linear Inequalities</link></item>
+</list>
+</note>
+</section>
+<section id="fs-id1167831833252" class="key-concepts">
+<title>Key Concepts</title>
+<list id="fs-id1167835300769" list-type="bulleted" bullet-style="bullet">
+<item><emphasis effect="bold">Determinant:</emphasis> The determinant of any square matrix <m:math><m:mrow><m:mrow><m:mo>[</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mi>a</m:mi><m:mspace width="1.5em"/><m:mi>b</m:mi></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mi>c</m:mi><m:mspace width="1.5em"/><m:mi>d</m:mi></m:mtd></m:mtr></m:mtable><m:mo>]</m:mo></m:mrow><m:mo>,</m:mo></m:mrow></m:math> where <emphasis effect="italics">a, b, c,</emphasis> and <emphasis effect="italics">d</emphasis> are real numbers, is<newline/>
+<equation id="fs-id1167830704326" class="unnumbered"><label/><m:math><m:mrow><m:mrow><m:mo>|</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mi>a</m:mi><m:mspace width="1.5em"/><m:mi>b</m:mi></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mi>c</m:mi><m:mspace width="1.5em"/><m:mi>d</m:mi></m:mtd></m:mtr></m:mtable><m:mo>|</m:mo></m:mrow><m:mo>=</m:mo><m:mi>a</m:mi><m:mi>d</m:mi><m:mo>−</m:mo><m:mi>b</m:mi><m:mi>c</m:mi></m:mrow></m:math></equation></item>
+<item><emphasis effect="bold">Expanding by Minors along the First Row to Evaluate a 3 × 3 Determinant:</emphasis> To evaluate a <m:math><m:mrow><m:mn>3</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mn>3</m:mn></m:mrow></m:math> determinant by expanding by minors along the first row, the following pattern:<newline/>
+<media id="fs-id1167835303268" alt="A 3 by 3 determinant is equal to a1 times minor of a1 minus b1 times minor of b1 plus c1 times minor of c1.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_04_06_022_img_new.jpg"/>
+</media>
+</item>
+<item><emphasis effect="bold">Sign Pattern:</emphasis> When expanding by minors using a row or column, the sign of the terms in the expansion follow the following pattern.<newline/>
+<equation id="fs-id1167834132743" class="unnumbered"><label/><m:math><m:mrow><m:mrow><m:mo>|</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mo>+</m:mo><m:mspace width="1.5em"/><m:mo>−</m:mo><m:mspace width="1.5em"/><m:mo>+</m:mo></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mo>−</m:mo><m:mspace width="1.5em"/><m:mo>+</m:mo><m:mspace width="1.5em"/><m:mo>−</m:mo></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mo>+</m:mo><m:mspace width="1.5em"/><m:mo>−</m:mo><m:mspace width="1.5em"/><m:mo>+</m:mo></m:mtd></m:mtr></m:mtable><m:mo>|</m:mo></m:mrow></m:mrow></m:math></equation></item>
+<item><emphasis effect="bold">Cramer’s Rule:</emphasis> For the system of equations <m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub><m:mi>x</m:mi><m:mo>+</m:mo><m:msub><m:mi>b</m:mi><m:mn>1</m:mn></m:msub><m:mi>y</m:mi><m:mo>=</m:mo><m:msub><m:mi>k</m:mi><m:mn>1</m:mn></m:msub></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:msub><m:mi>a</m:mi><m:mn>2</m:mn></m:msub><m:mi>x</m:mi><m:mo>+</m:mo><m:msub><m:mi>b</m:mi><m:mn>2</m:mn></m:msub><m:mi>y</m:mi><m:mo>=</m:mo><m:msub><m:mi>k</m:mi><m:mn>2</m:mn></m:msub></m:mtd></m:mtr></m:mtable></m:mrow><m:mo>,</m:mo></m:mrow></m:math> the solution <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>y</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> can be determined by<newline/>
+<media id="fs-id1167832015822" alt="x is Dx upon D and y is Dy upon D where D is determinant with row 1: a1, b1 and row 2 a2, b2, use coefficients of the variables; Dx is determinant with row 1: k1, b1 and row 2: k2, b2, replace the x coefficients with the consonants; Dy is determinant with row 1: a1, k1 and row 2: a2, k2, replace the y coefficients with constants.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_04_06_023_img_new.jpg"/>
+</media><newline/>
+Notice that to form the determinant <emphasis effect="italics">D</emphasis>, we use take the coefficients of the variables.</item>
+<item><emphasis effect="bold">How to solve a system of two equations using Cramer’s rule.</emphasis>
+<list id="fs-id1167835239369" list-type="enumerated" number-style="arabic" class="stepwise">
+<item>Evaluate the determinant <emphasis effect="italics">D</emphasis>, using the coefficients of the variables.</item>
+<item>Evaluate the determinant <m:math><m:mrow><m:msub><m:mi>D</m:mi><m:mi>x</m:mi></m:msub><m:mo>.</m:mo></m:mrow></m:math> Use the constants in place of the <emphasis effect="italics">x</emphasis> coefficients.</item>
+<item>Evaluate the determinant <m:math><m:mrow><m:msub><m:mi>D</m:mi><m:mi>y</m:mi></m:msub><m:mo>.</m:mo></m:mrow></m:math> Use the constants in place of the <emphasis effect="italics">y</emphasis> coefficients.</item>
+<item>Find <emphasis effect="italics">x</emphasis> and <emphasis effect="italics">y</emphasis>. <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>D</m:mi><m:mi>x</m:mi></m:msub></m:mrow><m:mi>D</m:mi></m:mfrac><m:mo>,</m:mo></m:mrow></m:math> <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>D</m:mi><m:mi>y</m:mi></m:msub></m:mrow><m:mi>D</m:mi></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></item>
+<item>Write the solution as an ordered pair.</item>
+<item>Check that the ordered pair is a solution to <emphasis effect="bold">both</emphasis> original equations.</item>
+<item><emphasis effect="bold">Dependent and Inconsistent Systems of Equations:</emphasis> For any system of equations, where the <emphasis effect="bold">value of the determinant</emphasis> <m:math><m:mrow><m:mi>D</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo></m:mrow></m:math><newline/>
+<m:math><m:mrow><m:mtable><m:mtr><m:mtd columnalign="left"><m:mtext mathvariant="bold">Value of determinants</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mtext mathvariant="bold">Type of system</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mtext mathvariant="bold">Solution</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mi>D</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mspace width="0.2em"/><m:mtext>and</m:mtext><m:mspace width="0.2em"/><m:msub><m:mi>D</m:mi><m:mi>x</m:mi></m:msub><m:mo>,</m:mo><m:msub><m:mi>D</m:mi><m:mi>y</m:mi></m:msub><m:mspace width="0.2em"/><m:mtext>and</m:mtext><m:mspace width="0.2em"/><m:msub><m:mi>D</m:mi><m:mi>z</m:mi></m:msub><m:mspace width="0.2em"/><m:mtext>are all zero</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mtext>consistent and dependent</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mtext>infinitely many solutions</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mi>D</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mspace width="0.2em"/><m:mtext>and</m:mtext><m:mspace width="0.2em"/><m:msub><m:mi>D</m:mi><m:mi>x</m:mi></m:msub><m:mo>,</m:mo><m:msub><m:mi>D</m:mi><m:mi>y</m:mi></m:msub><m:mspace width="0.2em"/><m:mtext>and</m:mtext><m:mspace width="0.2em"/><m:msub><m:mi>D</m:mi><m:mi>z</m:mi></m:msub><m:mspace width="0.2em"/><m:mtext>are not all zero</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mtext>inconsistent</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mtext>no solution</m:mtext></m:mtd></m:mtr></m:mtable></m:mrow></m:math></item>
+<item><emphasis effect="bold">Test for Collinear Points:</emphasis> Three points <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub><m:mo>,</m:mo><m:msub><m:mi>y</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo></m:mrow></m:math> <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msub><m:mi>x</m:mi><m:mn>2</m:mn></m:msub><m:mo>,</m:mo><m:msub><m:mi>y</m:mi><m:mn>2</m:mn></m:msub></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo></m:mrow></m:math> and <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msub><m:mi>x</m:mi><m:mn>3</m:mn></m:msub><m:mo>,</m:mo><m:msub><m:mi>y</m:mi><m:mn>3</m:mn></m:msub></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> are collinear if and only if<newline/>
+<equation id="fs-id1167826997386" class="unnumbered"><label/><m:math><m:mrow><m:mrow><m:mo>|</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub><m:mspace width="1.5em"/><m:msub><m:mi>y</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:mspace width="1.5em"/><m:mn>1</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:msub><m:mi>x</m:mi><m:mn>2</m:mn></m:msub><m:mspace width="1.5em"/><m:msub><m:mi>y</m:mi><m:mn>2</m:mn></m:msub><m:mspace width="1.5em"/><m:mn>1</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:msub><m:mi>x</m:mi><m:mn>3</m:mn></m:msub><m:mspace width="1.5em"/><m:msub><m:mi>y</m:mi><m:mn>3</m:mn></m:msub><m:mspace width="1.5em"/><m:mn>1</m:mn></m:mtd></m:mtr></m:mtable><m:mo>|</m:mo></m:mrow><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></equation></item>
+</list></item>
+</list>
+</section>
+<section id="fs-id1167835419241" class="section-exercises">
+<section id="fs-id1167832015675" class="practice-perfect">
+<title>Practice Makes Perfect</title>
+<para id="fs-id1167834345575"><emphasis effect="bold">Evaluate the Determinant of a 2 × 2 Matrix</emphasis></para>
+<para id="fs-id1167834190283">In the following exercises, evaluate the determinate of each square matrix.</para>
+<exercise id="fs-id1167835381468" class="material-set-2">
+<problem id="fs-id1167834403205">
+<para id="fs-id1167834556820"><m:math><m:mrow><m:mrow><m:mo>[</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mn>6</m:mn><m:mspace width="1.5em"/><m:mn>−2</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>3</m:mn><m:mspace width="1.5em"/><m:mn>−1</m:mn></m:mtd></m:mtr></m:mtable><m:mo>]</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167835511346" class="material-set-2">
+<problem id="fs-id1167835333670">
+<para id="fs-id1167835362153"><m:math><m:mrow><m:mrow><m:mo>[</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mn>−4</m:mn><m:mspace width="1.5em"/><m:mn>8</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>−3</m:mn><m:mspace width="1.5em"/><m:mn>5</m:mn></m:mtd></m:mtr></m:mtable><m:mo>]</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167826778783">
+<para id="fs-id1167835339455">4</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167834395430" class="material-set-2">
+<problem id="fs-id1167835378837">
+<para id="fs-id1167835326831"><m:math><m:mrow><m:mrow><m:mo>[</m:mo><m:mtable><m:mtr><m:mtd columnalign="right"><m:mn>−3</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>5</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mn>0</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−4</m:mn></m:mtd></m:mtr></m:mtable><m:mo>]</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167834395742" class="material-set-2">
+<problem id="fs-id1167834396530">
+<para id="fs-id1167835281881"><m:math><m:mrow><m:mrow><m:mo>[</m:mo><m:mtable><m:mtr><m:mtd columnalign="right"><m:mn>−2</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>0</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mn>7</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−5</m:mn></m:mtd></m:mtr></m:mtable><m:mo>]</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167835378046">
+<para id="fs-id1167835353456">10</para>
+</solution>
+</exercise>
+<para id="fs-id1167835321872"><emphasis effect="bold">Evaluate the Determinant of a 3 × 3 Matrix</emphasis></para>
+<para id="fs-id1167834505764">In the following exercises, find and then evaluate the indicated minors.</para>
+<exercise id="fs-id1167835595008" class="material-set-2">
+<problem id="fs-id1167835609663">
+<para id="fs-id1167835329320"><m:math><m:mrow><m:mrow><m:mo>|</m:mo><m:mtable><m:mtr><m:mtd columnalign="right"><m:mn>3</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−1</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>4</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mn>−1</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>0</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−2</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mn>−4</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>1</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>5</m:mn></m:mtd></m:mtr></m:mtable><m:mo>|</m:mo></m:mrow></m:mrow></m:math><newline/>Find the minor <span class="token">ⓐ</span> <m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:msub><m:mi>b</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math> <span class="token">ⓒ</span> <m:math><m:mrow><m:msub><m:mi>c</m:mi><m:mn>3</m:mn></m:msub></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167835237643" class="material-set-2">
+<problem id="fs-id1167831833282">
+<para id="fs-id1167831882030"><m:math><m:mrow><m:mrow><m:mo>|</m:mo><m:mtable><m:mtr><m:mtd columnalign="right"><m:mn>−1</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−3</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>2</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mn>4</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−2</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−1</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mn>−2</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>0</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−3</m:mn></m:mtd></m:mtr></m:mtable><m:mo>|</m:mo></m:mrow></m:mrow></m:math><newline/>Find the minor <span class="token">ⓐ</span> <m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:msub><m:mi>b</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> <span class="token">ⓒ</span> <m:math><m:mrow><m:msub><m:mi>c</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167834182338">
+<para id="fs-id1167835367765"><span class="token">ⓐ</span> 6  <span class="token">ⓑ</span> <m:math><m:mrow><m:mn>−14</m:mn></m:mrow></m:math> <span class="token">ⓒ</span> <m:math><m:mrow><m:mn>−6</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167834372737" class="material-set-2">
+<problem id="fs-id1167835283519">
+<para id="fs-id1167835257388"><m:math><m:mrow><m:mrow><m:mo>|</m:mo><m:mtable><m:mtr><m:mtd columnalign="right"><m:mn>2</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−3</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−4</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mn>−1</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>2</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−3</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mn>0</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−1</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−2</m:mn></m:mtd></m:mtr></m:mtable><m:mo>|</m:mo></m:mrow></m:mrow></m:math><newline/>Find the minor <span class="token">ⓐ</span> <m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:msub><m:mi>b</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math> <span class="token">ⓒ</span> <m:math><m:mrow><m:msub><m:mi>c</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167826994627" class="material-set-2">
+<problem id="fs-id1167834463841">
+<para id="fs-id1167834512660"><m:math><m:mrow><m:mrow><m:mo>|</m:mo><m:mtable><m:mtr><m:mtd columnalign="right"><m:mn>−2</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−2</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>3</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mn>1</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−3</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>0</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mn>−2</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>3</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−2</m:mn></m:mtd></m:mtr></m:mtable><m:mo>|</m:mo></m:mrow></m:mrow></m:math><newline/>Find the minor <span class="token">ⓐ</span> <m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mn>3</m:mn></m:msub></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:msub><m:mi>b</m:mi><m:mn>3</m:mn></m:msub></m:mrow></m:math> <span class="token">ⓒ</span> <m:math><m:mrow><m:msub><m:mi>c</m:mi><m:mn>3</m:mn></m:msub></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167835509678">
+<para id="fs-id1167835377182"><span class="token">ⓐ</span> 9  <span class="token">ⓑ</span> <m:math><m:mrow><m:mn>−3</m:mn></m:mrow></m:math> <span class="token">ⓒ</span> 8</para>
+</solution>
+</exercise>
+<para id="fs-id1167830865847">In the following exercises, evaluate each determinant by expanding by minors along the first row.</para>
+<exercise id="fs-id1167834185930" class="material-set-2">
+<problem id="fs-id1167830961579">
+<para id="fs-id1167835585208"><m:math><m:mrow><m:mrow><m:mo>|</m:mo><m:mtable><m:mtr><m:mtd columnalign="right"><m:mn>−2</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>3</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−1</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mn>−1</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>2</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−2</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mn>3</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>1</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−3</m:mn></m:mtd></m:mtr></m:mtable><m:mo>|</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167835309557" class="material-set-2">
+<problem id="fs-id1167835233219">
+<para id="fs-id1167832153428"><m:math><m:mrow><m:mrow><m:mo>|</m:mo><m:mtable><m:mtr><m:mtd columnalign="right"><m:mn>4</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−1</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−2</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mn>−3</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−2</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>1</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mn>−2</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−5</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>7</m:mn></m:mtd></m:mtr></m:mtable><m:mo>|</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167834061982">
+<para id="fs-id1167832074771"><m:math><m:mrow><m:mn>−77</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167835370962" class="material-set-2">
+<problem id="fs-id1167835309883">
+<para id="fs-id1167835319884"><m:math><m:mrow><m:mrow><m:mo>|</m:mo><m:mtable><m:mtr><m:mtd columnalign="right"><m:mn>−2</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−3</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−4</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mn>5</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−6</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>7</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mn>−1</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>2</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>0</m:mn></m:mtd></m:mtr></m:mtable><m:mo>|</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167835510649" class="material-set-2">
+<problem id="fs-id1167835186869">
+<para id="fs-id1167832042307"><m:math><m:mrow><m:mrow><m:mo>|</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mn>1</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>3</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−2</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>5</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−6</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>4</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>0</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−2</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−1</m:mn></m:mtd></m:mtr></m:mtable><m:mo>|</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167830962352">
+<para id="fs-id1167831071407">49</para>
+</solution>
+</exercise>
+<para id="fs-id1167831921120">In the following exercises, evaluate each determinant by expanding by minors.</para>
+<exercise id="fs-id1167831919481" class="material-set-2">
+<problem id="fs-id1167834234224">
+<para id="fs-id1167835496226"><m:math><m:mrow><m:mrow><m:mo>|</m:mo><m:mtable><m:mtr><m:mtd columnalign="right"><m:mn>−5</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−1</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−4</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mn>4</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>0</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−3</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mn>2</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−2</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>6</m:mn></m:mtd></m:mtr></m:mtable><m:mo>|</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167834552380" class="material-set-2">
+<problem id="fs-id1167835417704">
+<para id="fs-id1167835305417"><m:math><m:mrow><m:mrow><m:mo>|</m:mo><m:mtable><m:mtr><m:mtd columnalign="right"><m:mn>4</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−1</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>3</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mn>3</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−2</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>2</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mn>−1</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>0</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>4</m:mn></m:mtd></m:mtr></m:mtable><m:mo>|</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167830699189">
+<para id="fs-id1167834120481"><m:math><m:mrow><m:mn>−24</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167835200448" class="material-set-2">
+<problem id="fs-id1167835200450">
+<para id="fs-id1167834377196"><m:math><m:mrow><m:mrow><m:mo>|</m:mo><m:mtable><m:mtr><m:mtd columnalign="right"><m:mn>3</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>5</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>4</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mn>−1</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>3</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>0</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mn>−2</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>6</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>1</m:mn></m:mtd></m:mtr></m:mtable><m:mo>|</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167835331651" class="material-set-2">
+<problem id="fs-id1167834433398">
+<para id="fs-id1167834433400"><m:math><m:mrow><m:mrow><m:mo>|</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mn>2</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−4</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−3</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>5</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−1</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−4</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>3</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>2</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>0</m:mn></m:mtd></m:mtr></m:mtable><m:mo>|</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167835416340">
+<para id="fs-id1167835380178">25</para>
+</solution>
+</exercise>
+<para id="fs-id1167835344963"><emphasis effect="bold">Use Cramer’s Rule to Solve Systems of Equations</emphasis></para>
+<para id="fs-id1167835301822">In the following exercises, solve each system of equations using Cramer’s Rule.</para>
+<exercise id="fs-id1167835340758">
+<problem id="fs-id1167835340760">
+<para id="fs-id1167835367493"><m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mn>−2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>3</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>12</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167826783768">
+<problem id="fs-id1167832226433">
+<para id="fs-id1167832226435"><m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−5</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−4</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167826972439">
+<para id="fs-id1167834090753"><m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>7</m:mn><m:mo>,</m:mo><m:mn>6</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167835595911">
+<problem id="fs-id1167835595913">
+<para id="fs-id1167831890391"><m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−9</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>5</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>4</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167835321848">
+<problem id="fs-id1167835341103">
+<para id="fs-id1167835166217"><m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−4</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−6</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167834191310">
+<para id="fs-id1167834191312"><m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>−2</m:mn><m:mo>,</m:mo><m:mn>0</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167834064990">
+<problem id="fs-id1167834191302">
+<para id="fs-id1167834191305"><m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−5</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−4</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167835364450">
+<problem id="fs-id1167832151802">
+<para id="fs-id1167832151804"><m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−9</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>5</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>4</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167832123911">
+<para id="fs-id1167832056865"><m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>−3</m:mn><m:mo>,</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167831985621">
+<problem id="fs-id1167831985623">
+<para id="fs-id1167835306116"><m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mn>5</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−1</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>2</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167835333914">
+<problem id="fs-id1167835344196">
+<para id="fs-id1167835344198"><m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>8</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−3</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>5</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−3</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167835166504">
+<para id="fs-id1167835334618"><m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>−9</m:mn><m:mo>,</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167826977931">
+<problem id="fs-id1167834536117">
+<para id="fs-id1167834536120"><m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mn>6</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>5</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>3</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>4</m:mn><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>5</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>−1</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167831911605">
+<problem id="fs-id1167831911607">
+<para id="fs-id1167834133506"><m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>7</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>5</m:mn><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>4</m:mn><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>3</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>−7</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167826874676">
+<para id="fs-id1167832066827"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−3</m:mn><m:mo>,</m:mo><m:mn>−5</m:mn><m:mo>,</m:mo><m:mn>4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167835381001">
+<problem id="fs-id1167834372362">
+<para id="fs-id1167834372365"><m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>5</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>8</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>4</m:mn><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>7</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>−3</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167826998295">
+<problem id="fs-id1167834222347">
+<para id="fs-id1167834222349"><m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mn>11</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>9</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>−9</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>7</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>5</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>−7</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>−3</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167835333189">
+<para id="fs-id1167835333191"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>−3</m:mn><m:mo>,</m:mo><m:mn>−2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167835280485">
+<problem id="fs-id1167835280487">
+<para id="fs-id1167835328954"><m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>4</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>−2</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>5</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>3</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167835514390">
+<problem id="fs-id1167835514392">
+<para id="fs-id1167835347394"><m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>5</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>4</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>3</m:mn><m:mi>y</m:mi><m:mo>−</m:mo><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>3</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>−3</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167831910832">
+<para id="fs-id1167831910834"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−3</m:mn><m:mo>,</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167826978776">
+<problem id="fs-id1167826978778">
+<para id="fs-id1167834423452"><m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>−1</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>5</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−6</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>7</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167830700950">
+<problem id="fs-id1167830700953">
+<para id="fs-id1167834537019"><m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>−3</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>5</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>−6</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−8</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167834097907">
+<para id="fs-id1167834097909"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−2</m:mn><m:mo>,</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>−3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167834448666">
+<problem id="fs-id1167834448668">
+<para id="fs-id1167831824788"><m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>3</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>6</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>9</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167834511117">
+<problem id="fs-id1167835380593">
+<para id="fs-id1167835380595"><m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>4</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−1</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>−3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>12</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>3</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167834279753">
+<para id="fs-id1167835198380">infinitely many solutions</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167835381796">
+<problem id="fs-id1167835381799">
+<para id="fs-id1167835339290"><m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mn>−3</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>4</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>6</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−16</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167835373726">
+<problem id="fs-id1167835304051">
+<para id="fs-id1167835304053"><m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>2</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>20</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>15</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>5</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167835384472">
+<para id="fs-id1167835384474">inconsistent</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167835338037">
+<problem id="fs-id1167832138614">
+<para id="fs-id1167832138616"><m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>−1</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mi>y</m:mi><m:mo>−</m:mo><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>−</m:mtext><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167835182047">
+<problem id="fs-id1167835361539">
+<para id="fs-id1167835361541"><m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>12</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>y</m:mi><m:mo>+</m:mo><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>9</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>20</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167835233028">
+<para id="fs-id1167835595821">inconsistent</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167835350684">
+<problem id="fs-id1167835350686">
+<para id="fs-id1167835330672"><m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>−2</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>y</m:mi><m:mo>−</m:mo><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>−12</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>6</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167835595999">
+<problem id="fs-id1167835596001">
+<para id="fs-id1167832056877"><m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="right"><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>7</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>4</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>5</m:mn><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>7</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167835419656">
+<para id="fs-id1167835419658">infinitely many solutions</para>
+</solution>
+</exercise>
+<para id="fs-id1167831880636"><emphasis effect="bold">Solve Applications Using Determinants</emphasis></para>
+<para id="fs-id1167835479157">In the following exercises, determine whether the given points are collinear.</para>
+<exercise id="fs-id1167835479160" class="material-set-2">
+<problem id="fs-id1167834061136">
+<para id="fs-id1167834061138"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo></m:mrow></m:math> <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>0</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo></m:mrow></m:math> and <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−2</m:mn><m:mo>,</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167835594906" class="material-set-2">
+<problem id="fs-id1167835216894">
+<para id="fs-id1167835216896"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>−5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo></m:mrow></m:math> <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−2</m:mn><m:mo>,</m:mo><m:mn>−2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo></m:mrow></m:math> and <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>−8</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167834432218">
+<para id="fs-id1167834432220">yes</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167835369186" class="material-set-2">
+<problem id="fs-id1167834252714">
+<para id="fs-id1167834252717"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>4</m:mn><m:mo>,</m:mo><m:mn>−3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo></m:mrow></m:math> <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>6</m:mn><m:mo>,</m:mo><m:mn>−4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo></m:mrow></m:math> and <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>−2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167826997297" class="material-set-2">
+<problem id="fs-id1167835369200">
+<para id="fs-id1167835369202"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−2</m:mn><m:mo>,</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo></m:mrow></m:math> <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−4</m:mn><m:mo>,</m:mo><m:mn>4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo></m:mrow></m:math> and <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>−2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167831883455">
+<para id="fs-id1167831883457">yes</para>
+</solution>
+</exercise>
+</section>
+<section id="fs-id1167835181788" class="writing">
+<title>Writing Exercises</title>
+<exercise id="fs-id1167826880150">
+<problem id="fs-id1167835361504">
+<para id="fs-id1167835361506">Explain the difference between a square matrix and its determinant. Give an example of each.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167835381763">
+<problem id="fs-id1167835381765">
+<para id="fs-id1167835341254">Explain what is meant by the minor of an entry in a square matrix.</para>
+</problem>
+<solution id="fs-id1167834191834">
+<para id="fs-id1167834191836">Answers will vary.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167834065724">
+<problem id="fs-id1167834065726">
+<para id="fs-id1167834079227">Explain how to decide which row or column you will use to expand a <m:math><m:mrow><m:mn>3</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mn>3</m:mn></m:mrow></m:math> determinant.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167835333796">
+<problem id="fs-id1167835333799">
+<para id="fs-id1167831887863">Explain the steps for solving a system of equations using Cramer’s rule.</para>
+</problem>
+<solution id="fs-id1167831879999">
+<para id="fs-id1167831880001">Answers will vary.</para>
+</solution>
+</exercise>
+</section>
+<section id="fs-id1167834228167">
+<title>Self Check</title>
+<para id="fs-id1167834432226"><span class="token">ⓐ</span> After completing the exercises, use this checklist to evaluate your mastery of the objectives of this section.</para>
+<media id="fs-id1167832134028" alt="This table has 4 columns, 4 rows and a header row. The header row labels each column: I ca, confidently, with some help and no, I don’t get it. The first column has the following statements: Evaluate the Determinant of a 2 by 2 Matrix, Evaluate the Determinant of a 3 by 3 Matrix, Use Cramer’s Rule to Solve Systems of Equations, Solve Applications Using Determinants. The remaining columns are blank.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_04_06_201_img_new.jpg"/>
+</media>
+<para id="fs-id1167835371530"><span class="token">ⓑ</span> After reviewing this checklist, what will you do to become confident for all objectives?</para>
+</section>
+</section>
+</content>
+<glossary>
+<definition id="fs-id1167832060300">
+<term>determinant</term>
+<meaning id="fs-id1167835254636">Each square matrix has a real number associated with it called its determinant.</meaning>
+</definition>
+<definition id="fs-id1167834517583">
+<term>minor of an entry in a <m:math><m:mrow><m:mn>3</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mn>3</m:mn></m:mrow></m:math> determinant</term>
+<meaning id="fs-id1167834156744">The minor of an entry in a <m:math><m:mrow><m:mn>3</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mn>3</m:mn></m:mrow></m:math> determinant is the <m:math><m:mrow><m:mn>2</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mn>2</m:mn></m:mrow></m:math> determinant found by eliminating the row and column in the <m:math><m:mrow><m:mn>3</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mn>3</m:mn></m:mrow></m:math> determinant that contains the entry.</meaning>
+</definition>
+<definition id="fs-id1167832055147">
+<term>square matrix</term>
+<meaning id="fs-id1167831959509">A square matrix is a matrix with the same number of rows and columns.</meaning>
+</definition>
+</glossary>
+</document>

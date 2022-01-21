@@ -1,0 +1,2120 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Solve Exponential and Logarithmic Equations</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m81450</md:content-id>
+  <md:title>Solve Exponential and Logarithmic Equations</md:title>
+  <md:abstract><para>By the end of this section, you will be able to:</para>
+<list>
+<item>Solve logarithmic equations using the properties of logarithms</item>
+<item>Solve exponential equations using logarithms</item>
+<item>Use exponential models in applications</item>
+</list></md:abstract>
+  <md:uuid>5058068c-0746-4f7d-b995-311859e1010e</md:uuid>
+</metadata>
+
+<content>
+<note id="fs-id1167836515763" class="be-prepared">
+<para id="fs-id1167829690860">Before you get started, take this readiness quiz.</para>
+<exercise id="fs-idm220045088">
+<problem id="fs-idm221093664">
+<para id="fs-idm167635312">Solve: <m:math><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>16</m:mn><m:mo>.</m:mo></m:mrow></m:math><newline/>
+If you missed this problem, review <link target-id="fs-id1167836547919" document="m81390"/>.</para>
+</problem>
+<solution id="fs-idm294516736">
+<para id="fs-idm284460256"><m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>4</m:mn><m:mo>,</m:mo><m:mspace width="0.5em"/><m:mi>x</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>4</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-idm227873200" class="be-prepared">
+<exercise id="fs-idm274587456">
+<problem id="fs-idm292834960">
+<para id="fs-idm190850720">Solve: <m:math><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>5</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>6</m:mn><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>.</m:mo></m:mrow></m:math><newline/>
+If you missed this problem, review <link target-id="fs-id1167836625705" document="m81390"/>.</para>
+</problem>
+<solution id="fs-idm192569632">
+<para id="fs-idm202623744"><m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mspace width="0.5em"/><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>3</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-idm209988848" class="be-prepared">
+<exercise id="fs-idm283305008">
+<problem id="fs-idm174460688">
+<para id="fs-idm201280848">Solve: <m:math><m:mrow><m:mi>x</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>6</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>5</m:mn><m:mo>.</m:mo></m:mrow></m:math><newline/>
+If you missed this problem, review <link target-id="fs-id1167829580432" document="m81390"/>.</para>
+</problem>
+<solution id="fs-idm193167840">
+<para id="fs-idm192414976"><m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>5</m:mn><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<section id="fs-id1167824734415">
+<title>Solve Logarithmic Equations Using the Properties of Logarithms</title>
+<para id="fs-id1167829833145">In the section on logarithmic functions, we solved some equations by rewriting the equation in exponential form. Now that we have the properties of logarithms, we have additional methods we can use to solve logarithmic equations.</para>
+<para id="fs-id1167836608383">If our equation has two logarithms we can use a property that says that if <m:math><m:mrow><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mi>a</m:mi></m:msub><m:mi>M</m:mi><m:mo>=</m:mo><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mi>a</m:mi></m:msub><m:mi>N</m:mi></m:mrow></m:math> then it is true that <m:math><m:mrow><m:mi>M</m:mi><m:mo>=</m:mo><m:mi>N</m:mi><m:mo>.</m:mo></m:mrow></m:math> This is the <term>One-to-One Property of Logarithmic Equations</term>.</para>
+<note id="fs-id1167836538026">
+<title>One-to-One Property of Logarithmic Equations</title>
+<para id="fs-id1167836353231">For <m:math><m:mrow><m:mi>M</m:mi><m:mo>&gt;</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mi>N</m:mi><m:mo>&gt;</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mtext>a</m:mtext><m:mtext>&gt;</m:mtext><m:mn>0</m:mn><m:mo>,</m:mo></m:mrow></m:math> and <m:math><m:mrow><m:mtext>a</m:mtext><m:mo>≠</m:mo><m:mn>1</m:mn></m:mrow></m:math> is any real number:</para>
+<equation id="fs-id1167836481074" class="unnumbered"><label/><m:math><m:mrow><m:mtext>If</m:mtext><m:mspace width="0.2em"/><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mi>a</m:mi></m:msub><m:mi>M</m:mi><m:mo>=</m:mo><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mi>a</m:mi></m:msub><m:mi>N</m:mi><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mtext>then</m:mtext><m:mspace width="0.2em"/><m:mi>M</m:mi><m:mo>=</m:mo><m:mi>N</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1167836625685">To use this property, we must be certain that both sides of the equation are written with the same base.</para>
+<para id="fs-id1167833058686">Remember that logarithms are defined only for positive real numbers. Check your results in the original equation. You may have obtained a result that gives a logarithm of zero or a negative number.</para>
+<example id="fs-id1167833048425">
+<exercise id="fs-id1167826170198">
+<problem id="fs-id1167836386277">
+<para id="fs-id1167824741441">Solve: <m:math><m:mrow><m:mn>2</m:mn><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>5</m:mn></m:msub><m:mi>x</m:mi><m:mo>=</m:mo><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>5</m:mn></m:msub><m:mn>81</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167833052508">
+<table id="fs-idm355453088" class="unnumbered unstyled" summary=".">
+<label/>
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<tbody>
+<row>
+<entry/>
+<entry><m:math><m:mrow><m:mspace width="0.3em"/><m:mn>2</m:mn><m:mspace width="0.2em"/><m:msub><m:mrow><m:mi>log</m:mi></m:mrow><m:mn>5</m:mn></m:msub><m:mi>x</m:mi><m:mspace width="0.2em"/><m:mo>=</m:mo><m:mspace width="0.2em"/><m:msub><m:mrow><m:mi>log</m:mi></m:mrow><m:mn>5</m:mn></m:msub><m:mn>81</m:mn></m:mrow></m:math></entry>
+</row>
+<row>
+<entry>Use the Power Property.</entry>
+<entry><m:math><m:mspace width="0.2em"/><m:mrow><m:msub><m:mrow><m:mi>log</m:mi></m:mrow><m:mn>5</m:mn></m:msub><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mspace width="0.2em"/><m:mo>=</m:mo><m:mspace width="0.2em"/><m:msub><m:mrow><m:mi>log</m:mi></m:mrow><m:mn>5</m:mn></m:msub><m:mn>81</m:mn></m:mrow></m:math></entry>
+</row>
+<row>
+<entry>Use the One-to-One Property, if <m:math><m:mrow><m:msub><m:mrow><m:mi>log</m:mi></m:mrow><m:mi>a</m:mi></m:msub><m:mi>M</m:mi><m:mo>=</m:mo><m:msub><m:mrow><m:mi>log</m:mi></m:mrow><m:mi>a</m:mi></m:msub><m:mi>N</m:mi></m:mrow></m:math>, then <m:math><m:mrow><m:mi>M</m:mi><m:mo>=</m:mo><m:mi>N</m:mi></m:mrow></m:math></entry>
+<entry><m:math><m:mspace width="2.1em"/><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mspace width="0.2em"/><m:mo>=</m:mo><m:mspace width="0.2em"/><m:mn>81</m:mn></m:mrow></m:math>.</entry>
+</row>
+<row>
+<entry>Solve using the Square Root Property.</entry>
+<entry><m:math><m:mspace width="2.8em"/><m:mrow><m:mi>x</m:mi><m:mspace width="0.2em"/><m:mo>=</m:mo><m:mspace width="0.2em"/><m:mtext>±</m:mtext><m:mn>9</m:mn></m:mrow></m:math></entry>
+</row>
+<row>
+<entry>We eliminate <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>−9</m:mn></m:mrow></m:math> as we cannot take the logarithm of a negative number.</entry>
+<entry><m:math><m:mspace width="2.9em"/><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>9</m:mn><m:mo>,</m:mo><m:mspace width="0.2em"/><m:menclose notation="updiagonalstrike"><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>−9</m:mn></m:mrow></m:menclose></m:mrow></m:math></entry>
+</row>
+<row>
+<entry>Check.</entry>
+<entry/>
+</row>
+<row>
+<entry><m:math><m:mrow><m:mtable><m:mtr/><m:mtr><m:mtd columnalign="left"><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>9</m:mn></m:mtd><m:mtd columnalign="right"><m:mn>2</m:mn><m:msub><m:mrow><m:mi>log</m:mi></m:mrow><m:mn>5</m:mn></m:msub><m:mi>x</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:msub><m:mrow><m:mi>log</m:mi></m:mrow><m:mn>5</m:mn></m:msub><m:mn>81</m:mn></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="right"><m:mn>2</m:mn><m:msub><m:mrow><m:mi>log</m:mi></m:mrow><m:mn>5</m:mn></m:msub><m:mn>9</m:mn></m:mtd><m:mtd columnalign="left"><m:mover><m:mo>=</m:mo><m:mo>?</m:mo></m:mover></m:mtd><m:mtd columnalign="left"><m:msub><m:mrow><m:mi>log</m:mi></m:mrow><m:mn>5</m:mn></m:msub><m:mn>81</m:mn></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="right"><m:msub><m:mrow><m:mi>log</m:mi></m:mrow><m:mn>5</m:mn></m:msub><m:msup><m:mn>9</m:mn><m:mn>2</m:mn></m:msup></m:mtd><m:mtd columnalign="left"><m:mover><m:mo>=</m:mo><m:mo>?</m:mo></m:mover></m:mtd><m:mtd columnalign="left"><m:msub><m:mrow><m:mi>log</m:mi></m:mrow><m:mn>5</m:mn></m:msub><m:mn>81</m:mn></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="right"><m:msub><m:mrow><m:mi>log</m:mi></m:mrow><m:mn>5</m:mn></m:msub><m:mn>81</m:mn></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:msub><m:mrow><m:mi>log</m:mi></m:mrow><m:mn>5</m:mn></m:msub><m:mn>81</m:mn><m:mo>✓</m:mo></m:mtd></m:mtr></m:mtable></m:mrow></m:math></entry>
+<entry/>
+</row>
+</tbody>
+</tgroup>
+</table>
+</solution>
+</exercise>
+</example>
+<note id="fs-id1167836480334" class="try">
+<exercise id="fs-id1167836553141">
+<problem id="fs-id1167836407988">
+<para id="fs-id1167836613460">Solve: <m:math><m:mrow><m:mn>2</m:mn><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>3</m:mn></m:msub><m:mi>x</m:mi><m:mo>=</m:mo><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>3</m:mn></m:msub><m:mn>36</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836532264">
+<para id="fs-id1167833048288"><m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>6</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1167836522213" class="try">
+<exercise id="fs-id1167836699100">
+<problem id="fs-id1167836606851">
+<para id="fs-id1167836310450">Solve: <m:math><m:mrow><m:mn>3</m:mn><m:mtext>log</m:mtext><m:mspace width="0.2em"/><m:mi>x</m:mi><m:mo>=</m:mo><m:mtext>log</m:mtext><m:mn>64</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836685177">
+<para id="fs-id1167836754910"><m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>4</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<para id="fs-id1167829743293">Another strategy to use to solve logarithmic equations is to condense sums or differences into a single logarithm.</para>
+<example id="fs-id1167829694818">
+<exercise id="fs-id1167836699842">
+<problem id="fs-id1167829686008">
+<para id="fs-id1167833158364">Solve: <m:math><m:mrow><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>3</m:mn></m:msub><m:mi>x</m:mi><m:mo>+</m:mo><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>3</m:mn></m:msub><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>8</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>2</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836315184">
+<table id="fs-idm362293904" class="unnumbered unstyled" summary=".">
+<label/>
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<tbody>
+<row>
+<entry/>
+<entry><m:math><m:mrow><m:msub><m:mrow><m:mi>log</m:mi></m:mrow><m:mn>3</m:mn></m:msub><m:mi>x</m:mi><m:mo>+</m:mo><m:msub><m:mrow><m:mi>log</m:mi></m:mrow><m:mn>3</m:mn></m:msub><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>8</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mspace width="0.2em"/><m:mo>=</m:mo><m:mspace width="0.2em"/><m:mn>2</m:mn></m:mrow></m:math></entry>
+</row>
+<row>
+<entry>Use the Product Property, <m:math><m:mrow><m:msub><m:mrow><m:mi>log</m:mi></m:mrow><m:mi>a</m:mi></m:msub><m:mi>M</m:mi><m:mo>+</m:mo><m:msub><m:mrow><m:mi>log</m:mi></m:mrow><m:mi>a</m:mi></m:msub><m:mi>N</m:mi><m:mo>=</m:mo><m:msub><m:mrow><m:mi>log</m:mi></m:mrow><m:mi>a</m:mi></m:msub><m:mi>M</m:mi><m:mo>⋅</m:mo><m:mi>N</m:mi></m:mrow></m:math>.</entry>
+<entry><m:math><m:mspace width="3em"/><m:mrow><m:msub><m:mrow><m:mi>log</m:mi></m:mrow><m:mn>3</m:mn></m:msub><m:mi>x</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>8</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mspace width="0.2em"/><m:mo>=</m:mo><m:mspace width="0.2em"/><m:mn>2</m:mn></m:mrow></m:math></entry>
+</row>
+<row>
+<entry>Rewrite in exponential form.</entry>
+<entry><m:math><m:mspace width="7.5em"/><m:mrow><m:msup><m:mn>3</m:mn><m:mn>2</m:mn></m:msup><m:mspace width="0.2em"/><m:mo>=</m:mo><m:mspace width="0.2em"/><m:mi>x</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>8</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+</row>
+<row>
+<entry>Simplify.</entry>
+<entry><m:math><m:mspace width="8em"/><m:mrow><m:mn>9</m:mn><m:mspace width="0.2em"/><m:mo>=</m:mo><m:mspace width="0.2em"/><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>8</m:mn><m:mi>x</m:mi></m:mrow></m:math></entry>
+</row>
+<row>
+<entry>Subtract 9 from each side.</entry>
+<entry><m:math><m:mspace width="8em"/><m:mrow><m:mn>0</m:mn><m:mspace width="0.2em"/><m:mo>=</m:mo><m:mspace width="0.2em"/><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>8</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>9</m:mn></m:mrow></m:math></entry>
+</row>
+<row>
+<entry>Factor.</entry>
+<entry><m:math><m:mspace width="8em"/><m:mrow><m:mn>0</m:mn><m:mspace width="0.2em"/><m:mo>=</m:mo><m:mspace width="0.2em"/><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>9</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+</row>
+<row>
+<entry>Use the Zero-Product Property.</entry>
+<entry><m:math><m:mspace width="6.5em"/><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>9</m:mn><m:mspace width="0.2em"/><m:mo>=</m:mo><m:mspace width="0.2em"/><m:mn>0</m:mn><m:mo>,</m:mo><m:mspace width="1em"/><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></entry>
+</row>
+<row>
+<entry>Solve each equation.</entry>
+<entry><m:math><m:mrow><m:mspace width="8.5em"/><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>9</m:mn><m:mo>,</m:mo><m:mspace width="2.5em"/><m:menclose notation="updiagonalstrike"><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>−1</m:mn></m:mrow></m:menclose></m:mrow></m:math></entry>
+</row>
+<row>
+<entry>Check.</entry>
+<entry/>
+</row>
+<row>
+<entry><m:math><m:mrow><m:mtable><m:mtr><m:mtd columnalign="left"><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>−1</m:mn></m:mtd><m:mtd columnalign="right"><m:msub><m:mrow><m:mi>log</m:mi></m:mrow><m:mn>3</m:mn></m:msub><m:mi>x</m:mi><m:mo>+</m:mo><m:msub><m:mrow><m:mi>log</m:mi></m:mrow><m:mn>3</m:mn></m:msub><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>8</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mspace width="0.2em"/><m:mo>=</m:mo><m:mspace width="0.2em"/><m:mn>2</m:mn></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="right"><m:msub><m:mrow><m:mi>log</m:mi></m:mrow><m:mn>3</m:mn></m:msub><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:msub><m:mrow><m:mi>log</m:mi></m:mrow><m:mn>3</m:mn></m:msub><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−1</m:mn><m:mn>−8</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mspace width="0.2em"/><m:mover><m:mo>=</m:mo><m:mo>?</m:mo></m:mover><m:mspace width="0.2em"/><m:mn>2</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:math></entry>
+<entry/>
+</row>
+<row>
+<entry>We cannot take the log of a negative number.</entry>
+<entry/>
+</row>
+<row>
+<entry><m:math><m:mrow><m:mtable><m:mtr><m:mtd columnalign="left"><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>9</m:mn></m:mtd><m:mtd columnalign="right"><m:msub><m:mrow><m:mi>log</m:mi></m:mrow><m:mn>3</m:mn></m:msub><m:mi>x</m:mi><m:mo>+</m:mo><m:msub><m:mrow><m:mi>log</m:mi></m:mrow><m:mn>3</m:mn></m:msub><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>8</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mspace width="0.2em"/><m:mo>=</m:mo><m:mspace width="0.2em"/><m:mn>2</m:mn><m:mspace width="0.8em"/></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="right"><m:msub><m:mrow><m:mi>log</m:mi></m:mrow><m:mn>3</m:mn></m:msub><m:mn>9</m:mn><m:mo>+</m:mo><m:msub><m:mrow><m:mi>log</m:mi></m:mrow><m:mn>3</m:mn></m:msub><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>9</m:mn><m:mo>−</m:mo><m:mn>8</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mspace width="0.2em"/><m:mover><m:mo>=</m:mo><m:mo>?</m:mo></m:mover><m:mspace width="0.2em"/><m:mn>2</m:mn><m:mspace width="0.8em"/></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="right"><m:mn>2</m:mn><m:mo>+</m:mo><m:mn>0</m:mn><m:mspace width="0.2em"/><m:mover><m:mo>=</m:mo><m:mo>?</m:mo></m:mover><m:mspace width="0.2em"/><m:mn>2</m:mn><m:mspace width="0.8em"/></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="right"><m:mn>2</m:mn><m:mspace width="0.2em"/><m:mo>=</m:mo><m:mspace width="0.2em"/><m:mn>2</m:mn><m:mo>✓</m:mo></m:mtd></m:mtr></m:mtable></m:mrow></m:math></entry>
+<entry/>
+</row>
+</tbody>
+</tgroup>
+</table>
+</solution>
+</exercise>
+</example>
+<note id="fs-id1167836775014" class="try">
+<exercise id="fs-id1167836558185">
+<problem id="fs-id1167829739198">
+<para id="fs-id1167836663185">Solve: <m:math><m:mrow><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>2</m:mn></m:msub><m:mi>x</m:mi><m:mo>+</m:mo><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>2</m:mn></m:msub><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>3</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167829878870">
+<para id="fs-id1167824578843"><m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>4</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1167836356299" class="try">
+<exercise id="fs-id1167836341066">
+<problem id="fs-id1167836429436">
+<para id="fs-id1167836640459">Solve: <m:math><m:mrow><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>2</m:mn></m:msub><m:mi>x</m:mi><m:mo>+</m:mo><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>2</m:mn></m:msub><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>6</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>4</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836800483">
+<para id="fs-id1167836539596"><m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>8</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<para id="fs-id1167836282817">When there are logarithms on both sides, we condense each side into a single logarithm. Remember to use the Power Property as needed.</para>
+<example id="fs-id1167836409269">
+<exercise id="fs-id1167829930477">
+<problem id="fs-id1167836393210">
+<para id="fs-id1167829719636">Solve: <m:math><m:mrow><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>4</m:mn></m:msub><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>6</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>−</m:mo><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>4</m:mn></m:msub><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mtext>−</m:mtext><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>4</m:mn></m:msub><m:mi>x</m:mi><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167833066472">
+<table id="fs-idm318851920" class="unnumbered unstyled" summary=".">
+<label/>
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<tbody>
+<row>
+<entry/>
+<entry align="right"><m:math><m:mrow><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>4</m:mn></m:msub><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>6</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>−</m:mo><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>4</m:mn></m:msub><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mtext>−</m:mtext><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>4</m:mn></m:msub><m:mi>x</m:mi></m:mrow></m:math></entry>
+</row>
+<row>
+<entry>Use the Quotient Property on the left side and the Power Property on the right.</entry>
+<entry align="right"><m:math><m:mrow><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>4</m:mn></m:msub><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>6</m:mn></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>5</m:mn></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>4</m:mn></m:msub><m:msup><m:mi>x</m:mi><m:mrow><m:mn>−1</m:mn></m:mrow></m:msup></m:mrow></m:math></entry>
+</row>
+<row>
+<entry>Rewrite <m:math><m:mrow><m:msup><m:mi>x</m:mi><m:mrow><m:mn>−1</m:mn></m:mrow></m:msup><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mi>x</m:mi></m:mfrac></m:mrow></m:math>.</entry>
+<entry align="right"><m:math><m:mrow><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>4</m:mn></m:msub><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>6</m:mn></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>5</m:mn></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>4</m:mn></m:msub><m:mfrac><m:mn>1</m:mn><m:mi>x</m:mi></m:mfrac></m:mrow><m:mspace width="0.3em"/></m:math></entry>
+</row>
+<row>
+<entry>Use the One-to-One Property, if <m:math><m:mrow><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mi>a</m:mi></m:msub><m:mi>M</m:mi><m:mo>=</m:mo><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mi>a</m:mi></m:msub><m:mi>N</m:mi></m:mrow></m:math>, then <m:math><m:mrow><m:mi>M</m:mi><m:mo>=</m:mo><m:mi>N</m:mi></m:mrow></m:math>.</entry>
+<entry align="right"><m:math><m:mrow><m:mfrac><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>6</m:mn></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>5</m:mn></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mi>x</m:mi></m:mfrac><m:mspace width="2.2em"/></m:mrow></m:math></entry>
+</row>
+<row>
+<entry>Solve the rational equation.</entry>
+<entry align="right"><m:math><m:mrow><m:mi>x</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>6</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>5</m:mn></m:mrow></m:math></entry>
+</row>
+<row>
+<entry>Distribute.</entry>
+<entry align="right"><m:math><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>6</m:mn><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>5</m:mn></m:mrow></m:math></entry>
+</row>
+<row>
+<entry>Write in standard form.</entry>
+<entry align="right"><m:math><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>5</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow><m:mspace width="2.2em"/></m:math></entry>
+</row>
+<row>
+<entry>Factor.</entry>
+<entry align="right"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow><m:mspace width="2.2em"/></m:math></entry>
+</row>
+<row>
+<entry>Use the Zero-Product Property.</entry>
+<entry align="right"><m:math><m:mrow><m:mspace width="17em"/><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>5</m:mn><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mspace width="2em"/><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></entry>
+</row>
+<row>
+<entry>Solve each equation.</entry>
+<entry align="right"><m:math><m:mrow><m:mspace width="22.9em"/><m:menclose notation="updiagonalstrike"><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>−5</m:mn></m:mrow></m:menclose><m:mo>,</m:mo><m:mspace width="2.8em"/><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math></entry>
+</row>
+<row>
+<entry>Check.</entry>
+<entry/>
+</row>
+<row>
+<entry>We leave the check for you.</entry>
+<entry/>
+</row>
+</tbody>
+</tgroup>
+</table>
+</solution>
+</exercise>
+</example>
+<note id="fs-id1167829596791" class="try">
+<exercise id="fs-id1167833239897">
+<problem id="fs-id1167836389919">
+<para id="fs-id1167836325800">Solve: <m:math><m:mrow><m:mtext>log</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>−</m:mo><m:mtext>log</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mtext>−</m:mtext><m:mtext>log</m:mtext><m:mspace width="0.2em"/><m:mi>x</m:mi><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836318933">
+<para id="fs-id1167836628710"><m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>3</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1167836391927" class="try">
+<exercise id="fs-id1167829687245">
+<problem id="fs-id1167833018842">
+<para id="fs-id1167836329278">Solve: <m:math><m:mrow><m:mtext>log</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>−</m:mo><m:mtext>log</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>16</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mtext>log</m:mtext><m:mfrac><m:mn>1</m:mn><m:mi>x</m:mi></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836800640">
+<para id="fs-id1167836623006"><m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>8</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+</section>
+<section id="fs-id1167830087819">
+<title>Solve Exponential Equations Using Logarithms</title>
+<para id="fs-id1167833061527">In the section on exponential functions, we solved some equations by writing both sides of the equation with the same base. Next we wrote a new equation by setting the exponents equal.</para>
+<para id="fs-id1167836282486">It is not always possible or convenient to write the expressions with the same base. In that case we often take the common logarithm or natural logarithm of both sides once the exponential is isolated.</para>
+<example id="fs-id1167833048425a"><exercise id="fs-id1167836493218">
+<problem id="fs-id1167836663906">
+<para id="fs-id1167836525290">Solve <m:math><m:mrow><m:msup><m:mn>5</m:mn><m:mi>x</m:mi></m:msup><m:mo>=</m:mo><m:mn>11</m:mn><m:mo>.</m:mo></m:mrow></m:math> Find the exact answer and then approximate it to three decimal places.</para>
+</problem>
+<solution id="fs-id1167836282919">
+<table id="eip-idm259332160" class="unnumbered unstyled" summary="."><label/>
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<tbody>
+<row>
+<entry/>
+<entry valign="top" align="left"><m:math><m:mrow><m:mspace width="1.3em"/><m:mtable><m:mtr><m:mtd columnalign="right"><m:msup><m:mn>5</m:mn><m:mi>x</m:mi></m:msup></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>11</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:math></entry>
+</row>
+<row>
+<entry valign="top" align="left">Since the exponential is isolated, take the logarithm of both sides.<newline/>Use the Power Property to get the <m:math><m:mrow><m:mi>x</m:mi></m:mrow></m:math> as a factor, not an exponent.<newline/><newline/>Solve for <m:math><m:mrow><m:mi>x</m:mi><m:mo>.</m:mo></m:mrow></m:math> Find the exact answer.<newline/><newline/>Approximate the answer.</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mtable><m:mtr><m:mtd columnalign="right"><m:mtext>log</m:mtext><m:msup><m:mn>5</m:mn><m:mi>x</m:mi></m:msup></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mtext>log</m:mtext><m:mn>11</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>x</m:mi><m:mtext>log</m:mtext><m:mn>5</m:mn></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mtext>log</m:mtext><m:mn>11</m:mn></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="right"><m:mi>x</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mfrac><m:mrow><m:mtext>log</m:mtext><m:mn>11</m:mn></m:mrow><m:mrow><m:mtext>log</m:mtext><m:mn>5</m:mn></m:mrow></m:mfrac></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="right"><m:mi>x</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>≈</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>1.490</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:math></entry>
+</row>
+<row>
+<entry valign="top" align="left" namest="c1" nameend="c2">Since <m:math><m:mrow><m:msup><m:mn>5</m:mn><m:mn>1</m:mn></m:msup><m:mo>=</m:mo><m:mn>5</m:mn></m:mrow></m:math> and <m:math><m:mrow><m:msup><m:mn>5</m:mn><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>25</m:mn><m:mo>,</m:mo></m:mrow></m:math> does it makes sense that <m:math><m:mrow><m:msup><m:mn>5</m:mn><m:mrow><m:mn>1.490</m:mn></m:mrow></m:msup><m:mo>≈</m:mo><m:mn>11</m:mn><m:mo>?</m:mo></m:mrow></m:math></entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</solution>
+</exercise>
+</example>
+<note id="fs-id1167836526505" class="try">
+<exercise id="fs-id1167829748215">
+<problem id="fs-id1167836418899">
+<para id="fs-id1167836376954">Solve <m:math><m:mrow><m:msup><m:mn>7</m:mn><m:mi>x</m:mi></m:msup><m:mo>=</m:mo><m:mn>43</m:mn><m:mo>.</m:mo></m:mrow></m:math> Find the exact answer and then approximate it to three decimal places.</para>
+</problem>
+<solution id="fs-id1167836539753">
+<para id="fs-id1167836292673"><m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mtext>log</m:mtext><m:mn>43</m:mn></m:mrow><m:mrow><m:mtext>log</m:mtext><m:mn>7</m:mn></m:mrow></m:mfrac><m:mo>≈</m:mo><m:mn>1.933</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1167836652606" class="try">
+<exercise id="fs-id1167836328612">
+<problem id="fs-id1167836286599">
+<para id="fs-id1167836701513">Solve <m:math><m:mrow><m:msup><m:mn>8</m:mn><m:mi>x</m:mi></m:msup><m:mo>=</m:mo><m:mn>98</m:mn><m:mo>.</m:mo></m:mrow></m:math> Find the exact answer and then approximate it to three decimal places.</para>
+</problem>
+<solution id="fs-id1167833379554">
+<para id="fs-id1167836800668"><m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mtext>log</m:mtext><m:mn>98</m:mn></m:mrow><m:mrow><m:mtext>log</m:mtext><m:mn>8</m:mn></m:mrow></m:mfrac><m:mo>≈</m:mo><m:mn>2.205</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<para id="fs-id1167829599807">When we take the logarithm of both sides we will get the same result whether we use the common or the natural logarithm (try using the natural log in the last example. Did you get the same result?) When the exponential has base <emphasis effect="italics">e</emphasis>, we use the natural logarithm.</para>
+<example id="fs-id1167836476962">
+<exercise id="fs-id1167833339450">
+<problem id="fs-id1167830077396">
+<para id="fs-id1167836550075">Solve <m:math><m:mrow><m:mn>3</m:mn><m:msup><m:mi>e</m:mi><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow></m:msup><m:mo>=</m:mo><m:mn>24</m:mn><m:mo>.</m:mo></m:mrow></m:math> Find the exact answer and then approximate it to three decimal places.</para>
+</problem>
+<solution id="fs-id1167829811103">
+<table id="fs-idm305129104" class="unnumbered unstyled" summary=".">
+<label/>
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<tbody>
+<row>
+<entry/>
+<entry align="right"><m:math><m:mrow><m:mn>3</m:mn><m:msup><m:mi>e</m:mi><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mo>=</m:mo><m:mspace width="0.2em"/><m:mn>24</m:mn></m:mrow><m:mspace width="2.1em"/></m:math></entry>
+</row>
+<row>
+<entry>Isolate the exponential by dividing both sides by 3.</entry>
+<entry align="right"><m:math><m:mrow><m:msup><m:mi>e</m:mi><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mo>=</m:mo><m:mspace width="0.2em"/><m:mn>8</m:mn></m:mrow><m:mspace width="2.6em"/></m:math></entry>
+</row>
+<row>
+<entry>Take the natural logarithm of both sides.</entry>
+<entry align="right"><m:math><m:mrow><m:mtext>ln</m:mtext><m:mspace width="0.2em"/><m:msup><m:mi>e</m:mi><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mo>=</m:mo><m:mspace width="0.2em"/><m:mtext>ln</m:mtext><m:mn>8</m:mn></m:mrow><m:mspace width="1.8em"/></m:math></entry>
+</row>
+<row>
+<entry>Use the Power Property to get the <m:math><m:mrow><m:mi>x</m:mi></m:mrow></m:math> as a factor, not an exponent.</entry>
+<entry align="right"><m:math><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mtext>ln</m:mtext><m:mspace width="0.2em"/><m:mi>e</m:mi><m:mspace width="0.2em"/><m:mo>=</m:mo><m:mspace width="0.2em"/><m:mtext>ln</m:mtext><m:mn>8</m:mn><m:mspace width="1.8em"/></m:math></entry>
+</row>
+<row>
+<entry>Use the property <m:math><m:mrow><m:mtext>ln</m:mtext><m:mspace width="0.2em"/><m:mi>e</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math> to simplify.</entry>
+<entry align="right"><m:math><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mspace width="0.2em"/><m:mo>=</m:mo><m:mspace width="0.2em"/><m:mtext>ln</m:mtext><m:mn>8</m:mn></m:mrow><m:mspace width="1.8em"/></m:math></entry>
+</row>
+<row>
+<entry>Solve the equation. Find the exact answer.</entry>
+<entry align="right"><m:math><m:mrow><m:mi>x</m:mi><m:mspace width="0.2em"/><m:mo>=</m:mo><m:mspace width="0.2em"/><m:mtext>ln</m:mtext><m:mn>8</m:mn><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow></m:math></entry>
+</row>
+<row>
+<entry>Approximate the answer.</entry>
+<entry align="right"><m:math><m:mrow><m:mi>x</m:mi><m:mspace width="0.2em"/><m:mo>≈</m:mo><m:mspace width="0.2em"/><m:mn>0.079</m:mn></m:mrow><m:mspace width="0.8em"/></m:math></entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</solution>
+</exercise>
+</example>
+<note id="fs-id1167836605234" class="try">
+<exercise id="fs-id1167829790352">
+<problem id="fs-id1167830093543">
+<para id="fs-id1167836480248">Solve <m:math><m:mrow><m:mn>2</m:mn><m:msup><m:mi>e</m:mi><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow></m:msup><m:mo>=</m:mo><m:mn>18</m:mn><m:mo>.</m:mo></m:mrow></m:math> Find the exact answer and then approximate it to three decimal places.</para>
+</problem>
+<solution id="fs-id1167826189014">
+<para id="fs-id1167829787153"><m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mtext>ln</m:mtext><m:mn>9</m:mn><m:mo>+</m:mo><m:mn>2</m:mn><m:mo>≈</m:mo><m:mn>4.197</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1167836535460" class="try">
+<exercise id="fs-id1167836626751">
+<problem id="fs-id1167836554684">
+<para id="fs-id1167836521104">Solve <m:math><m:mrow><m:mn>5</m:mn><m:msup><m:mi>e</m:mi><m:mrow><m:mn>2</m:mn><m:mi>x</m:mi></m:mrow></m:msup><m:mo>=</m:mo><m:mn>25</m:mn><m:mo>.</m:mo></m:mrow></m:math> Find the exact answer and then approximate it to three decimal places.</para>
+</problem>
+<solution id="fs-id1167836319415">
+<para id="fs-id1167836542285"><m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mtext>ln</m:mtext><m:mn>5</m:mn></m:mrow><m:mn>2</m:mn></m:mfrac><m:mo>≈</m:mo><m:mn>0.805</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+</section>
+<section id="fs-id1167836538850">
+<title>Use Exponential Models in Applications</title>
+<para id="fs-id1167836576219">In previous sections we were able to solve some applications that were modeled with exponential equations. Now that we have so many more options to solve these equations, we are able to solve more applications.</para>
+<para id="fs-id1167829744449">We will again use the Compound Interest Formulas and so we list them here for reference.</para>
+<note id="fs-id1167825885751">
+<title>Compound Interest</title>
+<para id="fs-id1167829828529">For a principal, <emphasis effect="italics">P</emphasis>, invested at an interest rate, <emphasis effect="italics">r</emphasis>, for <emphasis effect="italics">t</emphasis> years, the new balance, <emphasis effect="italics">A</emphasis> is:</para>
+<equation id="fs-id1167836595131" class="unnumbered"><label/><m:math><m:mrow><m:mtable><m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="left"><m:mspace width="5em"/><m:mi>A</m:mi><m:mo>=</m:mo><m:mi>P</m:mi><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>+</m:mo><m:mfrac><m:mi>r</m:mi><m:mi>n</m:mi></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mi>n</m:mi><m:mi>t</m:mi></m:mrow></m:msup></m:mtd><m:mtd/><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mtext>when compounded</m:mtext><m:mspace width="0.2em"/><m:mi>n</m:mi><m:mspace width="0.2em"/><m:mtext>times a year.</m:mtext></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mspace width="5em"/><m:mi>A</m:mi><m:mo>=</m:mo><m:mi>P</m:mi><m:msup><m:mi>e</m:mi><m:mrow><m:mi>r</m:mi><m:mi>t</m:mi></m:mrow></m:msup></m:mtd><m:mtd/><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mtext>when compounded continuously.</m:mtext></m:mtd></m:mtr></m:mtable></m:mrow></m:math></equation>
+</note>
+<example id="fs-id1167829579698">
+<exercise id="fs-id1167825924104">
+<problem id="fs-id1167832940087">
+<para id="fs-id1167829711718">Jermael’s parents put $10,000 in investments for his college expenses on his first birthday. They hope the investments will be worth $50,000 when he turns 18. If the interest compounds continuously, approximately what rate of growth will they need to achieve their goal?</para>
+</problem>
+<solution id="fs-id1167836731592">
+<table id="fs-idm305135184" class="unnumbered unstyled" summary=".">
+<label/>
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<tbody>
+<row>
+<entry/>
+<entry><m:math><m:mspace width="4em"/><m:mrow><m:mi>A</m:mi><m:mo>=</m:mo><m:mtext>$</m:mtext><m:mn>50,000</m:mn></m:mrow></m:math></entry>
+</row>
+<row>
+<entry/>
+<entry><m:math><m:mspace width="4em"/><m:mrow><m:mi>P</m:mi><m:mo>=</m:mo><m:mtext>$</m:mtext><m:mn>10,000</m:mn></m:mrow></m:math></entry>
+</row>
+<row>
+<entry>Identify the variables in the formula</entry>
+<entry><m:math><m:mspace width="4em"/><m:mrow><m:mi>r</m:mi><m:mo>=</m:mo><m:mo>?</m:mo></m:mrow></m:math></entry>
+</row>
+<row>
+<entry/>
+<entry><m:math><m:mspace width="4em"/><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>17</m:mn><m:mspace width="0.2em"/><m:mtext>years</m:mtext></m:mrow></m:math></entry>
+</row>
+<row>
+<entry/>
+<entry><m:math><m:mspace width="4em"/><m:mrow><m:mi>A</m:mi><m:mo>=</m:mo><m:mi>P</m:mi><m:msup><m:mi>e</m:mi><m:mrow><m:mi>r</m:mi><m:mi>t</m:mi></m:mrow></m:msup></m:mrow></m:math></entry>
+</row>
+<row>
+<entry>Substitute the values into the formula.</entry>
+<entry><m:math><m:mspace width="1.8em"/><m:mrow><m:mn>50,000</m:mn><m:mo>=</m:mo><m:mn>10,000</m:mn><m:msup><m:mi>e</m:mi><m:mrow><m:mi>r</m:mi><m:mo>·</m:mo><m:mn>17</m:mn></m:mrow></m:msup></m:mrow></m:math></entry>
+</row>
+<row>
+<entry>Solve for <m:math><m:mrow><m:mi>r</m:mi><m:mo>.</m:mo></m:mrow></m:math> Divide each side by 10,000.</entry>
+<entry><m:math><m:mspace width="4em"/><m:mrow><m:mn>5</m:mn><m:mo>=</m:mo><m:msup><m:mi>e</m:mi><m:mrow><m:mn>17</m:mn><m:mi>r</m:mi></m:mrow></m:msup></m:mrow></m:math></entry>
+</row>
+<row>
+<entry>Take the natural log of each side.</entry>
+<entry><m:math><m:mspace width="3.2em"/><m:mrow><m:mtext>ln</m:mtext><m:mn>5</m:mn><m:mo>=</m:mo><m:mtext>ln</m:mtext><m:mspace width="0.2em"/><m:msup><m:mi>e</m:mi><m:mrow><m:mn>17</m:mn><m:mi>r</m:mi></m:mrow></m:msup></m:mrow></m:math></entry>
+</row>
+<row>
+<entry>Use the Power Property.</entry>
+<entry><m:math><m:mspace width="3.2em"/><m:mrow><m:mtext>ln</m:mtext><m:mn>5</m:mn><m:mo>=</m:mo><m:mn>17</m:mn><m:mi>r</m:mi><m:mtext>ln</m:mtext><m:mspace width="0.2em"/><m:mi>e</m:mi></m:mrow></m:math></entry>
+</row>
+<row>
+<entry>Simplify.</entry>
+<entry><m:math><m:mspace width="3.2em"/><m:mrow><m:mtext>ln</m:mtext><m:mn>5</m:mn><m:mo>=</m:mo><m:mn>17</m:mn><m:mi>r</m:mi></m:mrow></m:math></entry>
+</row>
+<row>
+<entry>Divide each side by 17.</entry>
+<entry><m:math><m:mspace width="3.2em"/><m:mrow><m:mfrac><m:mrow><m:mtext>ln</m:mtext><m:mn>5</m:mn></m:mrow><m:mrow><m:mn>17</m:mn></m:mrow></m:mfrac><m:mo>=</m:mo><m:mi>r</m:mi></m:mrow></m:math></entry>
+</row>
+<row>
+<entry>Approximate the answer.</entry>
+<entry><m:math><m:mspace width="4em"/><m:mrow><m:mi>r</m:mi><m:mo>≈</m:mo><m:mn>0.095</m:mn></m:mrow></m:math></entry>
+</row>
+<row>
+<entry>Convert to a percentage.</entry>
+<entry><m:math><m:mspace width="4em"/><m:mrow><m:mi>r</m:mi><m:mo>≈</m:mo><m:mn>9.5</m:mn><m:mtext>%</m:mtext></m:mrow></m:math></entry>
+</row>
+<row>
+<entry/>
+<entry>They need the rate of growth to be approximately <m:math><m:mrow><m:mn>9.5</m:mn><m:mtext>%</m:mtext></m:mrow></m:math>.</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</solution>
+</exercise>
+</example>
+<note id="fs-id1167829833604" class="try">
+<exercise id="fs-id1167833053710">
+<problem id="fs-id1167836340653">
+<para id="fs-id1167836683566">Hector invests <m:math><m:mrow><m:mtext>$</m:mtext><m:mn>10,000</m:mn></m:mrow></m:math> at age 21. He hopes the investments will be worth <m:math><m:mrow><m:mtext>$</m:mtext><m:mn>150,000</m:mn></m:mrow></m:math> when he turns 50. If the interest compounds continuously, approximately what rate of growth will he need to achieve his goal?</para>
+</problem>
+<solution id="fs-id1167836687966">
+<para id="fs-id1167836689409"><m:math><m:mrow><m:mi>r</m:mi><m:mo>≈</m:mo><m:mn>9.3</m:mn><m:mtext>%</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1167829693253" class="try">
+<exercise id="fs-id1167833279849">
+<problem id="fs-id1167836511411">
+<para id="fs-id1167836492497">Rachel invests <m:math><m:mrow><m:mtext>$</m:mtext><m:mn>15,000</m:mn></m:mrow></m:math> at age 25. She hopes the investments will be worth <m:math><m:mrow><m:mtext>$</m:mtext><m:mn>90,000</m:mn></m:mrow></m:math> when she turns 40. If the interest compounds continuously, approximately what rate of growth will she need to achieve her goal?</para>
+</problem>
+<solution id="fs-id1167836283273">
+<para id="fs-id1167836342509"><m:math><m:mrow><m:mi>r</m:mi><m:mo>≈</m:mo><m:mn>11.9</m:mn><m:mtext>%</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<para id="fs-id1167829717569">We have seen that growth and decay are modeled by exponential functions. For growth and decay we use the formula <m:math><m:mrow><m:mi>A</m:mi><m:mo>=</m:mo><m:msub><m:mi>A</m:mi><m:mn>0</m:mn></m:msub><m:msup><m:mi>e</m:mi><m:mrow><m:mi>k</m:mi><m:mi>t</m:mi></m:mrow></m:msup><m:mo>.</m:mo></m:mrow></m:math> Exponential growth has a positive rate of growth or growth constant, <m:math><m:mi>k</m:mi></m:math>, and <term class="no-emphasis">exponential decay</term> has a negative rate of growth or decay constant, <emphasis effect="italics">k</emphasis>.</para>
+<note id="fs-id1167836310526">
+<title>Exponential Growth and Decay</title>
+<para id="fs-id1167836596447">For an original amount, <m:math><m:mrow><m:msub><m:mi>A</m:mi><m:mn>0</m:mn></m:msub><m:mo>,</m:mo></m:mrow></m:math> that grows or decays at a rate, <emphasis effect="italics">k</emphasis>, for a certain time, <emphasis effect="italics">t</emphasis>, the final amount, <emphasis effect="italics">A</emphasis>, is:</para>
+<equation id="fs-id1167829596715" class="unnumbered"><label/><m:math><m:mrow><m:mi>A</m:mi><m:mo>=</m:mo><m:msub><m:mi>A</m:mi><m:mn>0</m:mn></m:msub><m:msup><m:mi>e</m:mi><m:mrow><m:mi>k</m:mi><m:mi>t</m:mi></m:mrow></m:msup></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1167833054020">We can now solve applications that give us enough information to determine the rate of growth. We can then use that rate of growth to predict other situations.</para>
+<example id="fs-id1167836560112">
+<exercise id="fs-id1167836334941">
+<problem id="fs-id1167836292947">
+<para id="fs-id1167836329342">Researchers recorded that a certain bacteria population grew from 100 to 300 in 3 hours. At this rate of growth, how many bacteria will there be 24 hours from the start of the experiment?</para>
+</problem>
+<solution id="fs-id1167833197301">
+<para id="fs-id1167836558664">This problem requires two main steps. First we must find the unknown rate, <emphasis effect="italics">k</emphasis>. Then we use that value of <emphasis effect="italics">k</emphasis> to help us find the unknown number of bacteria.</para>
+<table id="fs-idm306160192" class="unnumbered unstyled" summary=".">
+<label/>
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<tbody>
+<row>
+<entry valign="middle">Identify the variables in the formula.</entry>
+<entry><m:math><m:mrow><m:mtable><m:mtr><m:mtd columnalign="right"><m:mi>A</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>300</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:msub><m:mi>A</m:mi><m:mn>0</m:mn></m:msub></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>100</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>k</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mo>?</m:mo></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>t</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>3</m:mn><m:mspace width="0.2em"/><m:mtext>hours</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>A</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:msub><m:mi>A</m:mi><m:mn>0</m:mn></m:msub><m:msup><m:mi>e</m:mi><m:mrow><m:mi>k</m:mi><m:mi>t</m:mi></m:mrow></m:msup></m:mtd></m:mtr></m:mtable></m:mrow></m:math></entry>
+</row>
+<row>
+<entry>Substitute the values in the formula.</entry>
+<entry><m:math><m:mrow><m:mspace width="0.1em"/><m:mn>300</m:mn><m:mo>=</m:mo><m:mn>100</m:mn><m:msup><m:mi>e</m:mi><m:mrow><m:mi>k</m:mi><m:mo>·</m:mo><m:mn>3</m:mn></m:mrow></m:msup></m:mrow></m:math></entry>
+</row>
+<row>
+<entry>Solve for <m:math><m:mrow><m:mi>k</m:mi></m:mrow></m:math>. Divide each side by 100.</entry>
+<entry><m:math><m:mrow><m:mspace width="1.15em"/><m:mn>3</m:mn><m:mo>=</m:mo><m:msup><m:mi>e</m:mi><m:mrow><m:mn>3</m:mn><m:mi>k</m:mi></m:mrow></m:msup></m:mrow></m:math></entry>
+</row>
+<row>
+<entry>Take the natural log of each side.</entry>
+<entry><m:math><m:mrow><m:mspace width="0.4em"/><m:mtext>ln</m:mtext><m:mn>3</m:mn><m:mo>=</m:mo><m:mtext>ln</m:mtext><m:mspace width="0.2em"/><m:msup><m:mi>e</m:mi><m:mrow><m:mn>3</m:mn><m:mi>k</m:mi></m:mrow></m:msup></m:mrow></m:math></entry>
+</row>
+<row>
+<entry>Use the Power Property.</entry>
+<entry><m:math><m:mrow><m:mspace width="0.4em"/><m:mtext>ln</m:mtext><m:mn>3</m:mn><m:mo>=</m:mo><m:mn>3</m:mn><m:mi>k</m:mi><m:mtext>ln</m:mtext><m:mspace width="0.2em"/><m:mi>e</m:mi></m:mrow></m:math></entry>
+</row>
+<row>
+<entry>Simplify.</entry>
+<entry><m:math><m:mrow><m:mspace width="0.4em"/><m:mtext>ln</m:mtext><m:mn>3</m:mn><m:mo>=</m:mo><m:mn>3</m:mn><m:mi>k</m:mi></m:mrow></m:math></entry>
+</row>
+<row>
+<entry>Divide each side by 3.</entry>
+<entry><m:math><m:mrow><m:mspace width="0.3em"/><m:mfrac><m:mrow><m:mtext>ln</m:mtext><m:mn>3</m:mn></m:mrow><m:mn>3</m:mn></m:mfrac><m:mo>=</m:mo><m:mi>k</m:mi></m:mrow></m:math></entry>
+</row>
+<row>
+<entry>Approximate the answer.</entry>
+<entry><m:math><m:mrow><m:mspace width="1.15em"/><m:mi>k</m:mi><m:mo>≈</m:mo><m:mn>0.366</m:mn></m:mrow></m:math></entry>
+</row>
+<row>
+<entry valign="middle">We use this rate of growth to predict the number of bacteria there will be in 24 hours.</entry>
+<entry><m:math><m:mrow><m:mtable><m:mtr><m:mtd columnalign="right"><m:mi>A</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mo>?</m:mo></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:msub><m:mi>A</m:mi><m:mn>0</m:mn></m:msub></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>100</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>k</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mfrac><m:mrow><m:mtext>ln</m:mtext><m:mn>3</m:mn></m:mrow><m:mn>3</m:mn></m:mfrac></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>t</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>24</m:mn><m:mspace width="0.2em"/><m:mtext>hours</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>A</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:msub><m:mi>A</m:mi><m:mn>0</m:mn></m:msub><m:msup><m:mi>e</m:mi><m:mrow><m:mi>k</m:mi><m:mi>t</m:mi></m:mrow></m:msup></m:mtd></m:mtr></m:mtable></m:mrow></m:math></entry>
+</row>
+<row>
+<entry>Substitute in the values.</entry>
+<entry><m:math><m:mrow><m:mi>A</m:mi><m:mo>=</m:mo><m:mn>100</m:mn><m:msup><m:mi>e</m:mi><m:mrow><m:mfrac><m:mrow><m:mtext>ln</m:mtext><m:mn>3</m:mn></m:mrow><m:mn>3</m:mn></m:mfrac><m:mo>·</m:mo><m:mn>24</m:mn></m:mrow></m:msup></m:mrow></m:math></entry>
+</row>
+<row>
+<entry>Evaluate.</entry>
+<entry><m:math><m:mrow><m:mi>A</m:mi><m:mo>≈</m:mo><m:mn>656,100</m:mn></m:mrow></m:math></entry>
+</row>
+<row>
+<entry/>
+<entry>At this rate of growth, they can expect 656,100 bacteria.</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</solution>
+</exercise>
+</example>
+<note id="fs-id1167836424013" class="try">
+<exercise id="fs-id1167836621950">
+<problem id="fs-id1167836625298">
+<para id="fs-id1167836386300">Researchers recorded that a certain bacteria population grew from 100 to 500 in 6 hours. At this rate of growth, how many bacteria will there be 24 hours from the start of the experiment?</para>
+</problem>
+<solution id="fs-id1167829692752">
+<para id="fs-id1167829624601">There will be 62,500 bacteria.</para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1167829714483" class="try">
+<exercise id="fs-id1167826092379">
+<problem id="fs-id1167836625385">
+<para id="fs-id1167829718907">Researchers recorded that a certain bacteria population declined from 700,000 to 400,000 in 5 hours after the administration of medication. At this rate of decay, how many bacteria will there be 24 hours from the start of the experiment?</para>
+</problem>
+<solution id="fs-id1167836390110">
+<para id="fs-id1167829833596">There will be 47,700 bacteria.</para>
+</solution>
+</exercise>
+</note>
+<para id="fs-id1167836283717">Radioactive substances decay or decompose according to the exponential decay formula. The amount of time it takes for the substance to decay to half of its original amount is called the <term class="no-emphasis">half-life</term> of the substance.</para>
+<para id="fs-id1167833396850">Similar to the previous example, we can use the given information to determine the constant of decay, and then use that constant to answer other questions.</para>
+<example id="fs-id1167836622538">
+<exercise id="fs-id1167836456386">
+<problem id="fs-id1167833024381">
+<para id="fs-id1167829695054">The half-life of radium-226 is 1,590 years. How much of a 100 mg sample will be left in 500 years?</para>
+</problem>
+<solution id="fs-id1167833257674">
+<para id="fs-id1167836596810">This problem requires two main steps. First we must find the decay constant <emphasis effect="italics">k</emphasis>. If we start with 100-mg, at the half-life there will be 50-mg remaining. We will use this information to find <emphasis effect="italics">k</emphasis>. Then we use that value of <emphasis effect="italics">k</emphasis> to help us find the amount of sample that will be left in 500 years.</para>
+<table id="fs-idm293615632" class="unnumbered unstyled" summary=".">
+<label/>
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<tbody>
+<row>
+<entry valign="middle">Identify the variables in the formula.</entry>
+<entry><m:math><m:mrow><m:mspace width="0.2em"/><m:mtable><m:mtr><m:mtd columnalign="right"><m:mi>A</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>50</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:msub><m:mi>A</m:mi><m:mn>0</m:mn></m:msub></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>100</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>k</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mo>?</m:mo></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>t</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>1590</m:mn><m:mtext>years</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>A</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:msub><m:mi>A</m:mi><m:mn>0</m:mn></m:msub><m:msup><m:mi>e</m:mi><m:mrow><m:mi>k</m:mi><m:mi>t</m:mi></m:mrow></m:msup></m:mtd></m:mtr></m:mtable></m:mrow></m:math></entry>
+</row>
+<row>
+<entry>Substitute the values in the formula.</entry>
+<entry><m:math><m:mrow><m:mspace width="0.88em"/><m:mn>50</m:mn><m:mo>=</m:mo><m:mn>100</m:mn><m:msup><m:mi>e</m:mi><m:mrow><m:mi>k</m:mi><m:mo>·</m:mo><m:mn>1590</m:mn></m:mrow></m:msup></m:mrow></m:math></entry>
+</row>
+<row>
+<entry>Solve for <m:math><m:mrow><m:mi>k</m:mi></m:mrow></m:math>. Divide each side by 100.</entry>
+<entry><m:math><m:mrow><m:mspace width="0.7em"/><m:mn>0.5</m:mn><m:mo>=</m:mo><m:msup><m:mi>e</m:mi><m:mrow><m:mn>1590</m:mn><m:mi>k</m:mi></m:mrow></m:msup></m:mrow></m:math></entry>
+</row>
+<row>
+<entry>Take the natural log of each side.</entry>
+<entry><m:math><m:mrow><m:mtext>ln</m:mtext><m:mn>0.5</m:mn><m:mo>=</m:mo><m:mtext>ln</m:mtext><m:mspace width="0.2em"/><m:msup><m:mi>e</m:mi><m:mrow><m:mn>1590</m:mn><m:mi>k</m:mi></m:mrow></m:msup></m:mrow></m:math></entry>
+</row>
+<row>
+<entry>Use the Power Property.</entry>
+<entry><m:math><m:mrow><m:mtext>ln</m:mtext><m:mn>0.5</m:mn><m:mo>=</m:mo><m:mn>1590</m:mn><m:mi>k</m:mi><m:mtext>ln</m:mtext><m:mspace width="0.2em"/><m:mi>e</m:mi></m:mrow></m:math></entry>
+</row>
+<row>
+<entry>Simplify.</entry>
+<entry><m:math><m:mrow><m:mtext>ln</m:mtext><m:mn>0.5</m:mn><m:mo>=</m:mo><m:mn>1590</m:mn><m:mi>k</m:mi></m:mrow></m:math></entry>
+</row>
+<row>
+<entry>Divide each side by 1590.</entry>
+<entry><m:math><m:mrow><m:mfrac><m:mrow><m:mtext>ln</m:mtext><m:mn>0.5</m:mn></m:mrow><m:mrow><m:mn>1590</m:mn></m:mrow></m:mfrac><m:mo>=</m:mo><m:mi>k</m:mi><m:mspace width="0.2em"/><m:mtext>exact answer</m:mtext></m:mrow></m:math></entry>
+</row>
+<row>
+<entry valign="middle">We use this rate of growth to predict the amount that will be left in 500 years.</entry>
+<entry><m:math><m:mrow><m:mspace width="0.5em"/><m:mtable><m:mtr><m:mtd columnalign="right"><m:mi>A</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mo>?</m:mo></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:msub><m:mi>A</m:mi><m:mn>0</m:mn></m:msub></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>100</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>k</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mfrac><m:mrow><m:mtext>ln</m:mtext><m:mn>0.5</m:mn></m:mrow><m:mrow><m:mn>1590</m:mn></m:mrow></m:mfrac></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>t</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>500</m:mn><m:mtext>years</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>A</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:msub><m:mi>A</m:mi><m:mn>0</m:mn></m:msub><m:msup><m:mi>e</m:mi><m:mrow><m:mi>k</m:mi><m:mi>t</m:mi></m:mrow></m:msup></m:mtd></m:mtr></m:mtable></m:mrow></m:math></entry>
+</row>
+<row>
+<entry>Substitute in the values.</entry>
+<entry><m:math><m:mrow><m:mi>A</m:mi><m:mo>=</m:mo><m:mn>100</m:mn><m:msup><m:mi>e</m:mi><m:mrow><m:mfrac><m:mrow><m:mtext>ln</m:mtext><m:mn>0.5</m:mn></m:mrow><m:mrow><m:mn>1590</m:mn></m:mrow></m:mfrac><m:mo>·</m:mo><m:mn>500</m:mn></m:mrow></m:msup></m:mrow></m:math></entry>
+</row>
+<row>
+<entry>Evaluate.</entry>
+<entry><m:math><m:mrow><m:mi>A</m:mi><m:mo>≈</m:mo><m:mn>80.4</m:mn><m:mspace width="0.2em"/><m:mtext>mg</m:mtext></m:mrow></m:math></entry>
+</row>
+<row>
+<entry/>
+<entry>In 500 years there would be approximately 80.4 mg remaining.</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</solution>
+</exercise>
+</example>
+<note id="fs-id1167829748610" class="try">
+<exercise id="fs-id1167829752750">
+<problem id="fs-id1167836529276">
+<para id="fs-id1167829745733">The half-life of magnesium-27 is 9.45 minutes. How much of a 10-mg sample will be left in 6 minutes?</para>
+</problem>
+<solution id="fs-id1167833058894">
+<para id="fs-id1167829597898">There will be 6.44 mg left.</para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1167829579862" class="try">
+<exercise id="fs-id1167826131849">
+<problem id="fs-id1167836334457">
+<para id="fs-id1167833270315">The half-life of radioactive iodine is 60 days. How much of a 50-mg sample will be left in 40 days?</para>
+</problem>
+<solution id="fs-id1167836322988">
+<para id="fs-id1167829748029">There will be 31.5 mg left.</para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1167836640470" class="media-2">
+<para id="fs-id1167836416359">Access these online resources for additional instruction and practice with solving exponential and logarithmic equations.</para>
+<list id="fs-id1167836310290" display="block">
+<item><link url="https://openstax.org/l/37Solvelog">Solving Logarithmic Equations</link></item>
+<item><link url="https://openstax.org/l/37sSolvelogeqs2">Solving Logarithm Equations</link></item>
+<item><link url="https://openstax.org/l/37Solveforrate">Finding the rate or time in a word problem on exponential growth or decay</link></item>
+<item><link url="https://openstax.org/l/37Solveforrate2">Finding the rate or time in a word problem on exponential growth or decay</link></item>
+</list>
+</note>
+</section>
+<section id="fs-id1167836296829" class="key-concepts">
+<title>Key Concepts</title>
+<list id="fs-id1167836508989" list-type="bulleted" bullet-style="bullet">
+<item><emphasis effect="bold">One-to-One Property of Logarithmic Equations:</emphasis> For <m:math><m:mrow><m:mi>M</m:mi><m:mo>&gt;</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mi>N</m:mi><m:mo>&gt;</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mi>a</m:mi><m:mspace width="0.2em"/><m:mtext>&gt;</m:mtext><m:mspace width="0.2em"/><m:mn>0</m:mn><m:mo>,</m:mo></m:mrow></m:math> and <m:math><m:mrow><m:mtext>a</m:mtext><m:mo>≠</m:mo><m:mn>1</m:mn></m:mrow></m:math> is any real number:<newline/>
+<equation id="fs-id1167829785807" class="unnumbered"><label/><m:math><m:mrow><m:mtext>If</m:mtext><m:mspace width="0.2em"/><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mi>a</m:mi></m:msub><m:mi>M</m:mi><m:mo>=</m:mo><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mi>a</m:mi></m:msub><m:mi>N</m:mi><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mtext>then</m:mtext><m:mspace width="0.2em"/><m:mi>M</m:mi><m:mo>=</m:mo><m:mi>N</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation></item>
+<item><emphasis effect="bold">Compound Interest:</emphasis><newline/>
+For a principal, <emphasis effect="italics">P</emphasis>, invested at an interest rate, <emphasis effect="italics">r</emphasis>, for <emphasis effect="italics">t</emphasis> years, the new balance, <emphasis effect="italics">A</emphasis>, is:<newline/>
+<equation id="fs-id1167836389870" class="unnumbered"><label/><m:math><m:mrow><m:mtable><m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="left"><m:mspace width="5em"/><m:mi>A</m:mi><m:mo>=</m:mo><m:mi>P</m:mi><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>+</m:mo><m:mfrac><m:mi>r</m:mi><m:mi>n</m:mi></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mi>n</m:mi><m:mi>t</m:mi></m:mrow></m:msup></m:mtd><m:mtd/><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mtext>when compounded</m:mtext><m:mspace width="0.2em"/><m:mi>n</m:mi><m:mspace width="0.2em"/><m:mtext>times a year.</m:mtext></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mspace width="5em"/><m:mi>A</m:mi><m:mo>=</m:mo><m:mi>P</m:mi><m:msup><m:mi>e</m:mi><m:mrow><m:mi>r</m:mi><m:mi>t</m:mi></m:mrow></m:msup></m:mtd><m:mtd/><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mtext>when compounded continuously.</m:mtext></m:mtd></m:mtr></m:mtable></m:mrow></m:math></equation></item>
+<item><emphasis effect="bold">Exponential Growth and Decay:</emphasis> For an original amount, <m:math><m:mrow><m:msub><m:mi>A</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math> that grows or decays at a rate, <emphasis effect="italics">r</emphasis>, for a certain time <emphasis effect="italics">t</emphasis>, the final amount, <emphasis effect="italics">A</emphasis>, is <m:math><m:mrow><m:mi>A</m:mi><m:mo>=</m:mo><m:msub><m:mi>A</m:mi><m:mn>0</m:mn></m:msub><m:msup><m:mi>e</m:mi><m:mrow><m:mi>r</m:mi><m:mi>t</m:mi></m:mrow></m:msup><m:mo>.</m:mo></m:mrow></m:math></item>
+</list>
+</section>
+<section id="fs-id1167836704823" class="section-exercises">
+<title>Section Exercises</title><section id="fs-id1167836625616" class="practice-perfect">
+<title>Practice Makes Perfect</title>
+<para id="fs-id1167833017853"><emphasis effect="bold">Solve Logarithmic Equations Using the Properties of Logarithms</emphasis></para>
+<para id="fs-id1167836312202">In the following exercises, solve for <emphasis effect="italics">x</emphasis>.</para>
+<exercise id="fs-id1167836540322" class="material-set-2">
+<problem id="fs-id1167836333948">
+<para id="fs-id1167824720948"><m:math><m:mrow><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>4</m:mn></m:msub><m:mn>64</m:mn><m:mo>=</m:mo><m:mn>2</m:mn><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>4</m:mn></m:msub><m:mi>x</m:mi></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167829711891" class="material-set-2">
+<problem id="fs-id1167836449760">
+<para id="fs-id1167836574907"><m:math><m:mrow><m:mtext>log</m:mtext><m:mn>49</m:mn><m:mo>=</m:mo><m:mn>2</m:mn><m:mtext>log</m:mtext><m:mspace width="0.2em"/><m:mi>x</m:mi></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167833058827">
+<para id="fs-id1167836362607"><m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>7</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167836296368" class="material-set-2">
+<problem id="fs-id1167836522793">
+<para id="fs-id1167836340251"><m:math><m:mrow><m:mn>3</m:mn><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>3</m:mn></m:msub><m:mi>x</m:mi><m:mo>=</m:mo><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>3</m:mn></m:msub><m:mn>27</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167836492779" class="material-set-2">
+<problem id="fs-id1167836705066">
+<para id="fs-id1167826172468"><m:math><m:mrow><m:mn>3</m:mn><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>6</m:mn></m:msub><m:mi>x</m:mi><m:mo>=</m:mo><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>6</m:mn></m:msub><m:mn>64</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836707029">
+<para id="fs-id1167836363091"><m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>4</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167836363557" class="material-set-2">
+<problem id="fs-id1167829650584">
+<para id="fs-id1167836549401"><m:math><m:mrow><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>5</m:mn></m:msub><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>5</m:mn></m:msub><m:mn>10</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167836328255" class="material-set-2">
+<problem id="fs-id1167836406950">
+<para id="fs-id1167836602066"><m:math><m:mrow><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>3</m:mn></m:msub><m:mrow><m:mo>(</m:mo><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>3</m:mn></m:msub><m:mn>4</m:mn><m:mi>x</m:mi></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836447821">
+<para id="fs-id1167836530062"><m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>,</m:mo></m:mrow></m:math>
+<m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>3</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167836553822" class="material-set-2">
+<problem id="fs-id1167833380878">
+<para id="fs-id1167836692515"><m:math><m:mrow><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>3</m:mn></m:msub><m:mi>x</m:mi><m:mo>+</m:mo><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>3</m:mn></m:msub><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>2</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167829739028" class="material-set-2">
+<problem id="fs-id1167836662451">
+<para id="fs-id1167836553016"><m:math><m:mrow><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>4</m:mn></m:msub><m:mi>x</m:mi><m:mo>+</m:mo><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>4</m:mn></m:msub><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>3</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167829877908">
+<para id="fs-id1167836417359"><m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>8</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167836525020" class="material-set-2">
+<problem id="fs-id1167829714169">
+<para id="fs-id1167836287190"><m:math><m:mrow><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>2</m:mn></m:msub><m:mi>x</m:mi><m:mo>+</m:mo><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>2</m:mn></m:msub><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>2</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167832926139" class="material-set-2">
+<problem id="fs-id1167836294962">
+<para id="fs-id1167836528225"><m:math><m:mrow><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>3</m:mn></m:msub><m:mi>x</m:mi><m:mo>+</m:mo><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>3</m:mn></m:msub><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>6</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>3</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167833369871">
+<para id="fs-id1167829720667"><m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>3</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167836689423" class="material-set-2">
+<problem id="fs-id1167836283027">
+<para id="fs-id1167836692500"><m:math><m:mrow><m:mtext>log</m:mtext><m:mspace width="0.2em"/><m:mi>x</m:mi><m:mo>+</m:mo><m:mtext>log</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167829808900" class="material-set-2">
+<problem id="fs-id1167836523446">
+<para id="fs-id1167836529727"><m:math><m:mrow><m:mtext>log</m:mtext><m:mspace width="0.2em"/><m:mi>x</m:mi><m:mo>+</m:mo><m:mtext>log</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>15</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>2</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167833397178">
+<para id="fs-id1167833009812"><m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>20</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167829691959" class="material-set-2">
+<problem id="fs-id1167829942467">
+<para id="fs-id1167833021015"><m:math><m:mrow><m:mtext>log</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>−</m:mo><m:mtext>log</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>5</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>12</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mtext>−</m:mtext><m:mtext>log</m:mtext><m:mspace width="0.2em"/><m:mi>x</m:mi></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167833086629" class="material-set-2">
+<problem id="fs-id1167829737809">
+<para id="fs-id1167836611580"><m:math><m:mrow><m:mtext>log</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>−</m:mo><m:mtext>log</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mtext>log</m:mtext><m:mfrac><m:mn>1</m:mn><m:mi>x</m:mi></m:mfrac></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167833114713">
+<para id="fs-id1167829597970"><m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>3</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167833158857" class="material-set-2">
+<problem id="fs-id1167836664882">
+<para id="fs-id1167836664885"><m:math><m:mrow><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>5</m:mn></m:msub><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>5</m:mn></m:msub><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>6</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>5</m:mn></m:msub><m:mn>10</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167836613595" class="material-set-2">
+<problem id="fs-id1167836613597">
+<para id="fs-id1167836524691"><m:math><m:mrow><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>5</m:mn></m:msub><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>5</m:mn></m:msub><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>5</m:mn></m:msub><m:mn>7</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836535298">
+<para id="fs-id1167836535301"><m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>6</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167833212955" class="material-set-2">
+<problem id="fs-id1167829593549">
+<para id="fs-id1167833086870"><m:math><m:mrow><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>3</m:mn></m:msub><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>3</m:mn></m:msub><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>3</m:mn></m:msub><m:mn>3</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167836560798" class="material-set-2">
+<problem id="fs-id1167836619463">
+<para id="fs-id1167829880329"><m:math><m:mrow><m:mtext>log</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>5</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mtext>log</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mtext>log</m:mtext><m:mn>2</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836703869">
+<para id="fs-id1167829681159"><m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>5</m:mn><m:mn>3</m:mn></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+<para id="fs-id1167836433957"><emphasis effect="bold">Solve Exponential Equations Using Logarithms</emphasis></para>
+<para id="fs-id1167829717259">In the following exercises, solve each exponential equation. Find the exact answer and then approximate it to three decimal places.</para>
+<exercise id="fs-id1167836717073" class="material-set-2">
+<problem id="fs-id1167836717075">
+<para id="fs-id1167836542583"><m:math><m:mrow><m:msup><m:mn>3</m:mn><m:mi>x</m:mi></m:msup><m:mo>=</m:mo><m:mn>89</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167829850924" class="material-set-2">
+<problem id="fs-id1167829850926">
+<para id="fs-id1167833046919"><m:math><m:mrow><m:msup><m:mn>2</m:mn><m:mi>x</m:mi></m:msup><m:mo>=</m:mo><m:mn>74</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167829809288">
+<para id="fs-id1167829809291"><m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mtext>log</m:mtext><m:mn>74</m:mn></m:mrow><m:mrow><m:mtext>log</m:mtext><m:mn>2</m:mn></m:mrow></m:mfrac><m:mo>≈</m:mo><m:mn>6.209</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167836392322" class="material-set-2">
+<problem id="fs-id1167836392324">
+<para id="fs-id1167836398666"><m:math><m:mrow><m:msup><m:mn>5</m:mn><m:mi>x</m:mi></m:msup><m:mo>=</m:mo><m:mn>110</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167836673452" class="material-set-2">
+<problem id="fs-id1167836673454">
+<para id="fs-id1167836319820"><m:math><m:mrow><m:msup><m:mn>4</m:mn><m:mi>x</m:mi></m:msup><m:mo>=</m:mo><m:mn>112</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167829789901">
+<para id="fs-id1167829789903"><m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mtext>log</m:mtext><m:mn>112</m:mn></m:mrow><m:mrow><m:mtext>log</m:mtext><m:mn>4</m:mn></m:mrow></m:mfrac><m:mo>≈</m:mo><m:mn>3.404</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167830095267" class="material-set-2">
+<problem id="fs-id1167836580198">
+<para id="fs-id1167836580200"><m:math><m:mrow><m:msup><m:mi>e</m:mi><m:mi>x</m:mi></m:msup><m:mo>=</m:mo><m:mn>16</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167829788713" class="material-set-2">
+<problem id="fs-id1167829788715">
+<para id="fs-id1167833224569"><m:math><m:mrow><m:msup><m:mi>e</m:mi><m:mi>x</m:mi></m:msup><m:mo>=</m:mo><m:mn>8</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836444939">
+<para id="fs-id1167833328927"><m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mtext>ln</m:mtext><m:mn>8</m:mn><m:mo>≈</m:mo><m:mn>2.079</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167836440934" class="material-set-2">
+<problem id="fs-id1167825835938">
+<para id="fs-id1167825835940"><m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mi>x</m:mi></m:msup><m:mo>=</m:mo><m:mn>6</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167829691244" class="material-set-2">
+<problem id="fs-id1167836550478">
+<para id="fs-id1167836550480"><m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mi>x</m:mi></m:msup><m:mo>=</m:mo><m:mn>8</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167829624481">
+<para id="fs-id1167836341913"><m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mtext>log</m:mtext><m:mn>8</m:mn></m:mrow><m:mrow><m:mtext>log</m:mtext><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac></m:mrow></m:mfrac><m:mo>≈</m:mo><m:mtext>−</m:mtext><m:mn>1.893</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167836495341" class="material-set-2">
+<problem id="fs-id1167826076320">
+<para id="fs-id1167826076322"><m:math><m:mrow><m:mn>4</m:mn><m:msup><m:mi>e</m:mi><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:msup><m:mo>=</m:mo><m:mn>16</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167836684568" class="material-set-2">
+<problem id="fs-id1167829853188">
+<para id="fs-id1167829853190"><m:math><m:mrow><m:mn>3</m:mn><m:msup><m:mi>e</m:mi><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow></m:msup><m:mo>=</m:mo><m:mn>9</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167829692250">
+<para id="fs-id1167829692252"><m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mtext>ln</m:mtext><m:mn>3</m:mn><m:mo>−</m:mo><m:mn>2</m:mn><m:mo>≈</m:mo><m:mtext>−</m:mtext><m:mn>0.901</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167833407464" class="material-set-2">
+<problem id="fs-id1167836318307">
+<para id="fs-id1167836318309"><m:math><m:mrow><m:mn>6</m:mn><m:msup><m:mi>e</m:mi><m:mrow><m:mn>2</m:mn><m:mi>x</m:mi></m:mrow></m:msup><m:mo>=</m:mo><m:mn>24</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167829811073" class="material-set-2">
+<problem id="fs-id1167829811075">
+<para id="fs-id1167833024196"><m:math><m:mrow><m:mn>2</m:mn><m:msup><m:mi>e</m:mi><m:mrow><m:mn>3</m:mn><m:mi>x</m:mi></m:mrow></m:msup><m:mo>=</m:mo><m:mn>32</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167829853168">
+<para id="fs-id1167829853170"><m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mtext>ln</m:mtext><m:mn>16</m:mn></m:mrow><m:mn>3</m:mn></m:mfrac><m:mo>≈</m:mo><m:mn>0.924</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167836553274" class="material-set-2">
+<problem id="fs-id1167836553277">
+<para id="fs-id1167836705696"><m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>4</m:mn></m:mfrac><m:msup><m:mi>e</m:mi><m:mi>x</m:mi></m:msup><m:mo>=</m:mo><m:mn>3</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167829878936" class="material-set-2">
+<problem id="fs-id1167829878939">
+<para id="fs-id1167833364299"><m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac><m:msup><m:mi>e</m:mi><m:mi>x</m:mi></m:msup><m:mo>=</m:mo><m:mn>2</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167829753359">
+<para id="fs-id1167833059147"><m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mtext>ln</m:mtext><m:mn>6</m:mn><m:mo>≈</m:mo><m:mn>1.792</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167829783770" class="material-set-2">
+<problem id="fs-id1167833142626">
+<para id="fs-id1167833142628"><m:math><m:mrow><m:msup><m:mi>e</m:mi><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:msup><m:mo>+</m:mo><m:mn>2</m:mn><m:mo>=</m:mo><m:mn>16</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167836366804" class="material-set-2">
+<problem id="fs-id1167836366806">
+<para id="fs-id1167836366808"><m:math><m:mrow><m:msup><m:mi>e</m:mi><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:msup><m:mo>+</m:mo><m:mn>4</m:mn><m:mo>=</m:mo><m:mn>12</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836485695">
+<para id="fs-id1167836625123"><m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mtext>ln</m:mtext><m:mn>8</m:mn><m:mo>+</m:mo><m:mn>1</m:mn><m:mo>≈</m:mo><m:mn>3.079</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<para id="fs-id1167833059312">In the following exercises, solve each equation.</para>
+<exercise id="fs-id1167836729968" class="material-set-2">
+<problem id="fs-id1167836729970">
+<para id="fs-id1167836729972"><m:math><m:mrow><m:msup><m:mn>3</m:mn><m:mrow><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:msup><m:mo>=</m:mo><m:mn>81</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167829812757" class="material-set-2">
+<problem id="fs-id1167829748151">
+<para id="fs-id1167829748153"><m:math><m:mrow><m:msup><m:mn>6</m:mn><m:mrow><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>17</m:mn></m:mrow></m:msup><m:mo>=</m:mo><m:mn>216</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836686858">
+<para id="fs-id1167836698505"><m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>5</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167830004629" class="material-set-2">
+<problem id="fs-id1167830004632">
+<para id="fs-id1167830004634"><m:math><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>e</m:mi><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:msup></m:mrow><m:mrow><m:msup><m:mi>e</m:mi><m:mrow><m:mn>14</m:mn></m:mrow></m:msup></m:mrow></m:mfrac><m:mo>=</m:mo><m:msup><m:mi>e</m:mi><m:mrow><m:mn>5</m:mn><m:mi>x</m:mi></m:mrow></m:msup></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167836492335" class="material-set-2">
+<problem id="fs-id1167836492337">
+<para id="fs-id1167836492339"><m:math><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>e</m:mi><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:msup></m:mrow><m:mrow><m:msup><m:mi>e</m:mi><m:mi>x</m:mi></m:msup></m:mrow></m:mfrac><m:mo>=</m:mo><m:msup><m:mi>e</m:mi><m:mrow><m:mn>20</m:mn></m:mrow></m:msup></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167829787226">
+<para id="fs-id1167836514128"><m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>−4</m:mn><m:mo>,</m:mo><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>5</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167825791209" class="material-set-2">
+<problem id="fs-id1167825791211">
+<para id="fs-id1167833051036"><m:math><m:mrow><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mi>a</m:mi></m:msub><m:mn>64</m:mn><m:mo>=</m:mo><m:mn>2</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167836672305" class="material-set-2">
+<problem id="fs-id1167836672307">
+<para id="fs-id1167836672310"><m:math><m:mrow><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mi>a</m:mi></m:msub><m:mn>81</m:mn><m:mo>=</m:mo><m:mn>4</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836326683">
+<para id="fs-id1167836353165"><m:math><m:mrow><m:mi>a</m:mi><m:mo>=</m:mo><m:mn>3</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167829738622" class="material-set-2">
+<problem id="fs-id1167829738624">
+<para id="fs-id1167829738626"><m:math><m:mrow><m:mtext>ln</m:mtext><m:mspace width="0.2em"/><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>−8</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167832926942" class="material-set-2">
+<problem id="fs-id1167836626754">
+<para id="fs-id1167836626757"><m:math><m:mrow><m:mtext>ln</m:mtext><m:mspace width="0.2em"/><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>9</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167833051521">
+<para id="fs-id1167836433721"><m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:msup><m:mi>e</m:mi><m:mn>9</m:mn></m:msup></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167836366376" class="material-set-2">
+<problem id="fs-id1167836366378">
+<para id="fs-id1167836339984"><m:math><m:mrow><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>5</m:mn></m:msub><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>8</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>2</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167829752166" class="material-set-2">
+<problem id="fs-id1167829752168">
+<para id="fs-id1167829811150"><m:math><m:mrow><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>4</m:mn></m:msub><m:mo stretchy="false">(</m:mo><m:mn>7</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>15</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>3</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836614713">
+<para id="fs-id1167832999054"><m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>7</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167836545825" class="material-set-2">
+<problem id="fs-id1167836545827">
+<para id="fs-id1167836545829"><m:math><m:mrow><m:mtext>ln</m:mtext><m:mspace width="0.2em"/><m:msup><m:mi>e</m:mi><m:mrow><m:mn>5</m:mn><m:mi>x</m:mi></m:mrow></m:msup><m:mo>=</m:mo><m:mn>30</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167836315108" class="material-set-2">
+<problem id="fs-id1167836315110">
+<para id="fs-id1167824781343"><m:math><m:mrow><m:mtext>ln</m:mtext><m:mspace width="0.2em"/><m:msup><m:mi>e</m:mi><m:mrow><m:mn>6</m:mn><m:mi>x</m:mi></m:mrow></m:msup><m:mo>=</m:mo><m:mn>18</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167833022512">
+<para id="fs-id1167833022514"><m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>3</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167829752269" class="material-set-2">
+<problem id="fs-id1167829752271">
+<para id="fs-id1167829599798"><m:math><m:mrow><m:mn>3</m:mn><m:mtext>log</m:mtext><m:mspace width="0.2em"/><m:mi>x</m:mi><m:mo>=</m:mo><m:mtext>log</m:mtext><m:mn>125</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167829685951" class="material-set-2">
+<problem id="fs-id1167829685953">
+<para id="fs-id1167824735186"><m:math><m:mrow><m:mn>7</m:mn><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>3</m:mn></m:msub><m:mi>x</m:mi><m:mo>=</m:mo><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>3</m:mn></m:msub><m:mn>128</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836283313">
+<para id="fs-id1167836283315"><m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>2</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167836486060" class="material-set-2">
+<problem id="fs-id1167836486062">
+<para id="fs-id1167829930527"><m:math><m:mrow><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>6</m:mn></m:msub><m:mi>x</m:mi><m:mo>+</m:mo><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>6</m:mn></m:msub><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>5</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>6</m:mn></m:msub><m:mn>24</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167829687093" class="material-set-2">
+<problem id="fs-id1167836511175">
+<para id="fs-id1167836511177"><m:math><m:mrow><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>9</m:mn></m:msub><m:mi>x</m:mi><m:mo>+</m:mo><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>9</m:mn></m:msub><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>4</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>9</m:mn></m:msub><m:mn>12</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167833329698">
+<para id="fs-id1167833329701"><m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>6</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167829746746" class="material-set-2">
+<problem id="fs-id1167824734295">
+<para id="fs-id1167824734297"><m:math><m:mrow><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>2</m:mn></m:msub><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>−</m:mo><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>2</m:mn></m:msub><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>9</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mtext>−</m:mtext><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>2</m:mn></m:msub><m:mi>x</m:mi></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167833021347" class="material-set-2">
+<problem id="fs-id1167833021349">
+<para id="fs-id1167836509934"><m:math><m:mrow><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>6</m:mn></m:msub><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>−</m:mo><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>6</m:mn></m:msub><m:mo stretchy="false">(</m:mo><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>10</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>6</m:mn></m:msub><m:mfrac><m:mn>1</m:mn><m:mi>x</m:mi></m:mfrac></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167829580081">
+<para id="fs-id1167826172535"><m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>5</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<para id="fs-id1167836612664">In the following exercises, solve for <emphasis effect="italics">x</emphasis>, giving an exact answer as well as an approximation to three decimal places.</para>
+<exercise id="fs-id1167829930921" class="material-set-2">
+<problem id="fs-id1167829930923">
+<para id="fs-id1167829930925"><m:math><m:mrow><m:msup><m:mn>6</m:mn><m:mi>x</m:mi></m:msup><m:mo>=</m:mo><m:mn>91</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167829579275" class="material-set-2">
+<problem id="fs-id1167830076920">
+<para id="fs-id1167830076922"><m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mi>x</m:mi></m:msup><m:mo>=</m:mo><m:mn>10</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836532888">
+<para id="fs-id1167836532891"><m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mtext>log</m:mtext><m:mn>10</m:mn></m:mrow><m:mrow><m:mtext>log</m:mtext><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow></m:mfrac><m:mo>≈</m:mo><m:mtext>−</m:mtext><m:mn>3.322</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167836574163" class="material-set-2">
+<problem id="fs-id1167836283089">
+<para id="fs-id1167836283091"><m:math><m:mrow><m:mn>7</m:mn><m:msup><m:mi>e</m:mi><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow></m:msup><m:mo>=</m:mo><m:mn>35</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167833138597" class="material-set-2">
+<problem id="fs-id1167836597307">
+<para id="fs-id1167836597310"><m:math><m:mrow><m:mn>8</m:mn><m:msup><m:mi>e</m:mi><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>5</m:mn></m:mrow></m:msup><m:mo>=</m:mo><m:mn>56</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836300416">
+<para id="fs-id1167836300419"><m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mtext>ln</m:mtext><m:mn>7</m:mn><m:mo>−</m:mo><m:mn>5</m:mn><m:mo>≈</m:mo><m:mtext>−</m:mtext><m:mn>3.054</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<para id="fs-id1167836599649"><emphasis effect="bold">Use Exponential Models in Applications</emphasis></para>
+<para id="fs-id1167833060232">In the following exercises, solve.</para>
+<exercise id="fs-id1167833060235" class="material-set-2">
+<problem id="fs-id1167836423701">
+<para id="fs-id1167836423703">Sung Lee invests <m:math><m:mrow><m:mtext>$</m:mtext><m:mn>5,000</m:mn></m:mrow></m:math> at age 18. He hopes the investments will be worth <m:math><m:mrow><m:mtext>$</m:mtext><m:mn>10,000</m:mn></m:mrow></m:math> when he turns 25. If the interest compounds continuously, approximately what rate of growth will he need to achieve his goal? Is that a reasonable expectation?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167824720477" class="material-set-2">
+<problem id="fs-id1167836790491">
+<para id="fs-id1167836790494">Alice invests <m:math><m:mrow><m:mtext>$</m:mtext><m:mn>15,000</m:mn></m:mrow></m:math> at age 30 from the signing bonus of her new job. She hopes the investments will be worth <m:math><m:mrow><m:mtext>$</m:mtext><m:mn>30,000</m:mn></m:mrow></m:math> when she turns 40. If the interest compounds continuously, approximately what rate of growth will she need to achieve her goal?</para>
+</problem>
+<solution id="fs-id1167836521773">
+<para id="fs-id1167836521775"><m:math><m:mrow><m:mn>6.9</m:mn><m:mtext>%</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167829750479" class="material-set-2">
+<problem id="fs-id1167829750481">
+<para id="fs-id1167829741414">Coralee invests <m:math><m:mrow><m:mtext>$</m:mtext><m:mn>5,000</m:mn></m:mrow></m:math> in an account that compounds interest monthly and earns <m:math><m:mrow><m:mn>7</m:mn><m:mtext>%</m:mtext><m:mo>.</m:mo></m:mrow></m:math> How long will it take for her money to double?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167836449696" class="material-set-2">
+<problem id="fs-id1167836523436">
+<para id="fs-id1167836523438">Simone invests <m:math><m:mrow><m:mtext>$</m:mtext><m:mn>8,000</m:mn></m:mrow></m:math> in an account that compounds interest quarterly and earns <m:math><m:mrow><m:mn>5</m:mn><m:mtext>%</m:mtext><m:mo>.</m:mo></m:mrow></m:math> How long will it take for his money to double?</para>
+</problem>
+<solution id="fs-id1167829861375">
+<para id="fs-id1167833022379">13.9 years</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167833022384" class="material-set-2">
+<problem id="fs-id1167836423650">
+<para id="fs-id1167836423652">Researchers recorded that a certain bacteria population declined from 100,000 to 100 in 24 hours. At this rate of decay, how many bacteria will there be in 16 hours?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167836666624" class="material-set-2">
+<problem id="fs-id1167836700312">
+<para id="fs-id1167836700314">Researchers recorded that a certain bacteria population declined from 800,000 to 500,000 in 6 hours after the administration of medication. At this rate of decay, how many bacteria will there be in 24 hours?</para>
+</problem>
+<solution id="fs-id1167836549760">
+<para id="fs-id1167836549762">122,070 bacteria</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167826157593" class="material-set-2">
+<problem id="fs-id1167826157595">
+<para id="fs-id1167836703894">A virus takes 6 days to double its original population <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>A</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:msub><m:mi>A</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math> How long will it take to triple its population?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167833082025" class="material-set-2">
+<problem id="fs-id1167829811107">
+<para id="fs-id1167829811109">A bacteria doubles its original population in 24 hours <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>A</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:msub><m:mi>A</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math> How big will its population be in 72 hours?</para>
+</problem>
+<solution id="fs-id1167836333877">
+<para id="fs-id1167836619869">8 times as large as the original population</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167836619875" class="material-set-2">
+<problem id="fs-id1167836688138">
+<para id="fs-id1167836688141">Carbon-14 is used for archeological carbon dating. Its half-life is 5,730 years. How much of a 100-gram sample of Carbon-14 will be left in 1000 years?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167833060223" class="material-set-2">
+<problem id="fs-id1167833053639">
+<para id="fs-id1167833053641">Radioactive technetium-99m is often used in diagnostic medicine as it has a relatively short half-life but lasts long enough to get the needed testing done on the patient. If its half-life is 6 hours, how much of the radioactive material form a 0.5 ml injection will be in the body in 24 hours?</para>
+</problem>
+<solution id="fs-id1167836363515">
+<para id="fs-id1167833053644">0.03 ml</para>
+</solution>
+</exercise>
+</section>
+<section id="fs-id1167829692353" class="writing">
+<title>Writing Exercises</title>
+<exercise id="fs-id1167836503868" class="material-set-2">
+<problem id="fs-id1167836629141">
+<para id="fs-id1167836629143">Explain the method you would use to solve these equations: <m:math><m:mrow><m:msup><m:mn>3</m:mn><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:msup><m:mo>=</m:mo><m:mn>81</m:mn><m:mo>,</m:mo></m:mrow></m:math>
+<m:math><m:mrow><m:msup><m:mn>3</m:mn><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:msup><m:mo>=</m:mo><m:mn>75</m:mn><m:mo>.</m:mo></m:mrow></m:math> Does your method require logarithms for both equations? Why or why not?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167833060684" class="material-set-2">
+<problem id="fs-id1167833059029">
+<para id="fs-id1167833059031">What is the difference between the equation for exponential growth versus the equation for exponential decay?</para>
+</problem>
+<solution id="fs-id1167836326715">
+<para id="fs-id1167836326717">Answers will vary.</para>
+</solution>
+</exercise>
+</section>
+<section id="fs-id1167833378531">
+<title>Self Check</title>
+<para id="fs-id1167836407000"><span class="token">ⓐ</span> After completing the exercises, use this checklist to evaluate your mastery of the objectives of this section.</para>
+<media id="fs-id1167836673393" alt="This table has four rows and four columns. The first row, which serves as a header, reads I can…, Confidently, With some help, and No—I don’t get it. The first column below the header row reads solve logarithmic equations using the properties of logarithms, solve exponential equations using logarithms, and use exponential models in applications. The rest of the cells are blank.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_10_05_201_img.jpg"/>
+</media>
+<para id="fs-id1167833022130"><span class="token">ⓑ</span> After looking at the checklist, do you think you are well-prepared for the next section? Why or why not?</para>
+</section>
+</section>
+<section id="fs-id1167829741443" class="review-exercises"><title>Chapter Review Exercises</title><section id="fs-id1167829812701">
+<title><link document="m81408">Finding Composite and Inverse Functions</link></title>
+<para id="fs-id1167836686665"><emphasis effect="bold">Find and Evaluate Composite Functions</emphasis></para>
+<para id="fs-id1167836731481">In the following exercises, for each pair of functions, find <span class="token">ⓐ</span> (<emphasis effect="italics">f</emphasis> ∘ <emphasis effect="italics">g</emphasis>)(<emphasis effect="italics">x</emphasis>), <span class="token">ⓑ</span> (<emphasis effect="italics">g</emphasis> ∘ <emphasis effect="italics">f</emphasis>)(<emphasis effect="italics">x</emphasis>), and <span class="token">ⓒ</span> (<emphasis effect="italics">f</emphasis> · <emphasis effect="italics">g</emphasis>)(<emphasis effect="italics">x</emphasis>).</para>
+<exercise id="fs-id1167836282827" class="material-set-2">
+<problem id="fs-id1167836282829">
+<para id="fs-id1167836406979"><m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>7</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow></m:math> and<newline/><m:math><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>5</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167836543802" class="material-set-2">
+<problem id="fs-id1167836312575">
+<para id="fs-id1167836312577"><m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>4</m:mn><m:mi>x</m:mi></m:mrow></m:math> and<newline/><m:math><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>x</m:mi></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836574924">
+<para id="fs-id1167830123457"><span class="token">ⓐ</span>
+<m:math><m:mrow><m:mn>4</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>12</m:mn><m:mi>x</m:mi></m:mrow></m:math>
+<span class="token">ⓑ</span>
+<m:math><m:mrow><m:mn>16</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>12</m:mn><m:mi>x</m:mi></m:mrow></m:math>
+<span class="token">ⓒ</span>
+<m:math><m:mrow><m:mn>4</m:mn><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup><m:mo>+</m:mo><m:mn>12</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math></para>
+</solution>
+</exercise>
+<para id="fs-id1167836616110">In the following exercises, evaluate the composition.</para>
+<exercise id="fs-id1167836616113" class="material-set-2">
+<problem id="fs-id1167836571213">
+<para id="fs-id1167836571215">For functions<newline/><m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>3</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow></m:math> and<newline/><m:math><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:mo>,</m:mo></m:mrow></m:math> find<newline/><span class="token">ⓐ</span>
+<m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>f</m:mi><m:mo>∘</m:mo><m:mi>g</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math><newline/><span class="token">ⓑ</span>
+<m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>g</m:mi><m:mo>∘</m:mo><m:mi>f</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math><newline/><span class="token">ⓒ</span>
+<m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>f</m:mi><m:mo>∘</m:mo><m:mi>f</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167836509384" class="material-set-2">
+<problem id="fs-id1167836509386">
+<para id="fs-id1167836555009">For functions<newline/><m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>2</m:mn><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup><m:mo>+</m:mo><m:mn>5</m:mn></m:mrow></m:math> and<newline/><m:math><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>3</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>7</m:mn><m:mo>,</m:mo></m:mrow></m:math> find<newline/><span class="token">ⓐ</span>
+<m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>f</m:mi><m:mo>∘</m:mo><m:mi>g</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math><newline/><span class="token">ⓑ</span>
+<m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>g</m:mi><m:mo>∘</m:mo><m:mi>f</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math><newline/><span class="token">ⓒ</span>
+<m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>g</m:mi><m:mo>∘</m:mo><m:mi>g</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mn>1</m:mn><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836705144">
+<para id="fs-id1167829749635"><span class="token">ⓐ</span>
+<m:math><m:mrow><m:mn>−123</m:mn></m:mrow></m:math>
+<span class="token">ⓑ</span> 356 <span class="token">ⓒ</span> 41</para>
+</solution>
+</exercise>
+<para id="fs-id1167833082796"><emphasis effect="bold">Determine Whether a Function is One-to-One</emphasis></para>
+<para id="fs-id1167836800369">In the following exercises, for each set of ordered pairs, determine if it represents a function and if so, is the function one-to-one.</para>
+<exercise id="fs-id1167829579886" class="material-set-2">
+<problem id="fs-id1167829579888">
+<para id="fs-id1167829579891"><m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−3</m:mn><m:mo>,</m:mo><m:mn>−5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−2</m:mn><m:mo>,</m:mo><m:mn>−4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−1</m:mn><m:mo>,</m:mo><m:mn>−3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>−2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo></m:mrow></m:mrow></m:mrow></m:math><newline/><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−1</m:mn><m:mo>,</m:mo><m:mn>−1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−2</m:mn><m:mo>,</m:mo><m:mn>0</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−3</m:mn><m:mo>,</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mo>}</m:mo></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167830077361" class="material-set-2">
+<problem id="fs-id1167836688921">
+<para id="fs-id1167836688924"><m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−3</m:mn><m:mo>,</m:mo><m:mn>0</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−2</m:mn><m:mo>,</m:mo><m:mn>−2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−1</m:mn><m:mo>,</m:mo><m:mn>0</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo></m:mrow></m:mrow></m:mrow></m:math><newline/><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>−1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mo>}</m:mo></m:math></para>
+</problem>
+<solution id="fs-id1167833138136">
+<para id="fs-id1167833138138">Function; not one-to-one</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167836731994" class="material-set-2">
+<problem id="fs-id1167836731997">
+<para id="fs-id1167829831838"><m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−3</m:mn><m:mo>,</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−2</m:mn><m:mo>,</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−1</m:mn><m:mo>,</m:mo><m:mn>−1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>−3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo></m:mrow></m:mrow></m:mrow></m:math><newline/><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>−5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>−4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>−2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mo>}</m:mo></m:math></para>
+</problem>
+</exercise>
+<para id="fs-id1167836684082">In the following exercises, determine whether each graph is the graph of a function and if so, is it one-to-one.</para>
+<exercise id="fs-id1167836684086" class="material-set-2">
+<problem id="fs-id1167829627596">
+<para id="fs-id1167829627598"><span class="token">ⓐ</span><newline/>
+<media id="fs-id1167829789458" alt="This figure shows a line from (negative 6, negative 2) up to (negative 1, 3) and then down from there to (6, negative 4).">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_10_05_202_img.jpg"/>
+</media><newline/>
+<span class="token">ⓑ</span><newline/>
+<media id="fs-id1167824704511" alt="This figure shows a line from (6, 5) down to (0, negative 1) and then down from there to (5, negative 6).">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_10_05_203_img.jpg"/>
+</media></para>
+</problem>
+<solution id="fs-id1167829720519">
+<para id="fs-id1167829720522"><span class="token">ⓐ</span> Function; not one-to-one <span class="token">ⓑ</span> Not a function</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167829905522" class="material-set-2">
+<problem id="fs-id1167833365660">
+<para id="fs-id1167833365662"><span class="token">ⓐ</span><newline/>
+<media id="fs-id1167836623118" alt="This figure shows a curved line from (negative 6, negative 2) up to the origin and then continuing up from there to (6, 2).">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_10_05_204_img.jpg"/>
+</media><newline/>
+<span class="token">ⓑ</span><newline/>
+<media id="fs-id1167832940308" alt="This figure shows a circle of radius 2 with center at the origin.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_10_05_205_img.jpg"/>
+</media></para>
+</problem>
+</exercise>
+<para id="fs-id1167836557964"><emphasis effect="bold">Find the Inverse of a Function</emphasis></para>
+<para id="fs-id1167836508845">In the following exercise, find the inverse of the function. Determine the domain and range of the inverse function.</para>
+<exercise id="fs-id1167836378207" class="material-set-2">
+<problem id="fs-id1167836378209">
+<para id="fs-id1167836630613"><m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−3</m:mn><m:mo>,</m:mo><m:mn>10</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−2</m:mn><m:mo>,</m:mo><m:mn>5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−1</m:mn><m:mo>,</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mo>}</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836282428">
+<para id="fs-id1167829748772">Inverse function: <m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>10</m:mn><m:mo>,</m:mo><m:mn>−3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>5</m:mn><m:mo>,</m:mo><m:mn>−2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>−1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>0</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mo>}</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math> Domain: <m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mrow><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>5</m:mn><m:mo>,</m:mo><m:mn>10</m:mn></m:mrow><m:mo>}</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math> Range: <m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mrow><m:mn>−3</m:mn><m:mo>,</m:mo><m:mn>−2</m:mn><m:mo>,</m:mo><m:mn>−1</m:mn><m:mo>,</m:mo><m:mn>0</m:mn></m:mrow><m:mo>}</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</solution>
+</exercise>
+<para id="fs-id1167833066279">In the following exercise, graph the inverse of the one-to-one function shown.</para>
+<exercise id="fs-id1167833066282" class="material-set-2">
+<problem id="fs-id1167829905417">
+<media id="fs-id1167829905420" alt="This figure shows a line segment from (negative 4, negative 2) up to (negative 2, 1) then up to (2, 2) and then up to (3, 4).">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_10_05_206_img.jpg"/>
+</media>
+</problem>
+</exercise>
+<para id="fs-id1167824733103">In the following exercises, verify that the functions are inverse functions.</para>
+<exercise id="fs-id1167836410492" class="material-set-2">
+<problem id="fs-id1167836410494">
+<para id="fs-id1167836410497"><m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>7</m:mn></m:mrow></m:math> and<newline/><m:math><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>7</m:mn></m:mrow><m:mn>3</m:mn></m:mfrac></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167829789010">
+<para id="fs-id1167833019454"><m:math><m:mrow><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>x</m:mi><m:mo>,</m:mo></m:mrow></m:math> and <m:math><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>x</m:mi><m:mo>,</m:mo></m:mrow></m:math> so they are inverses.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167829834007" class="material-set-2">
+<problem id="fs-id1167836756594">
+<para id="fs-id1167836756596"><m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>9</m:mn></m:mrow></m:math> and<newline/><m:math><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>9</m:mn></m:mrow><m:mn>2</m:mn></m:mfrac></m:mrow></m:math></para>
+</problem>
+</exercise>
+<para id="fs-id1167836559951">In the following exercises, find the inverse of each function.</para>
+<exercise id="fs-id1167836300386" class="material-set-2">
+<problem id="fs-id1167836300388">
+<para id="fs-id1167829783538"><m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>6</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>11</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167829597284">
+<para id="fs-id1167829597286"><m:math><m:mrow><m:msup><m:mi>f</m:mi><m:mrow><m:mn>−1</m:mn></m:mrow></m:msup><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>11</m:mn></m:mrow><m:mn>6</m:mn></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167836532270" class="material-set-2">
+<problem id="fs-id1167836532272">
+<para id="fs-id1167829614481"><m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup><m:mo>+</m:mo><m:mn>13</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167836548931" class="material-set-2">
+<problem id="fs-id1167826131737">
+<para id="fs-id1167826131739"><m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>5</m:mn></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167829748016">
+<para id="fs-id1167833385973"><m:math><m:mrow><m:msup><m:mi>f</m:mi><m:mrow><m:mn>−1</m:mn></m:mrow></m:msup><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mi>x</m:mi></m:mfrac><m:mo>−</m:mo><m:mn>5</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167836548014" class="material-set-2">
+<problem id="fs-id1167836548016">
+<para id="fs-id1167836548018"><m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mroot><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow><m:mn>5</m:mn></m:mroot></m:mrow></m:math></para>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1167824740926">
+<title><link document="m81409">Evaluate and Graph Exponential Functions</link></title>
+<para id="fs-id1167833309919"><emphasis effect="bold">Graph Exponential Functions</emphasis></para>
+<para id="fs-id1167833309924">In the following exercises, graph each of the following functions.</para>
+<exercise id="fs-id1167836705566" class="material-set-2">
+<problem id="fs-id1167836705569">
+<para id="fs-id1167836608140"><m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msup><m:mn>4</m:mn><m:mi>x</m:mi></m:msup></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167833364773">
+<para id="fs-id1167833364775"><media id="fs-id1167833412844" alt="This figure shows an exponential line passing through the points (negative 1, 1 over 4), (0, 1), and (1, 4).">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_10_05_302_img.jpg"/>
+</media></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167833007800" class="material-set-2">
+<problem id="fs-id1167833239840">
+<para id="fs-id1167833239842"><m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>5</m:mn></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mi>x</m:mi></m:msup></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167829739032" class="material-set-2">
+<problem id="fs-id1167829739035">
+<para id="fs-id1167829739037"><m:math><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0.75</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mi>x</m:mi></m:msup></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836294238">
+<para id="fs-id1167836294240"><media id="fs-id1167836294242" alt="This figure shows an exponential line passing through the points (negative 1, 4 over 3), (0, 1), and (1, 3 over 4).">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_10_05_304_img.jpg"/>
+</media></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167829930037" class="material-set-2">
+<problem id="fs-id1167826157626">
+<para id="fs-id1167826157628"><m:math><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msup><m:mn>3</m:mn><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167836730553" class="material-set-2">
+<problem id="fs-id1167836730555">
+<para id="fs-id1167836730557"><m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>2.3</m:mn><m:mo stretchy="false">)</m:mo></m:mrow><m:mi>x</m:mi></m:msup><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836508944">
+<para id="fs-id1167836508946"><media id="fs-id1167836508947" alt="This figure shows an exponential line passing through the points (negative 1, negative 59 over 23), (0, negative 2), and (1, negative7 over 10).">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_10_05_306_img.jpg"/>
+</media></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167829908778" class="material-set-2">
+<problem id="fs-id1167829908780">
+<para id="fs-id1167836704709"><m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msup><m:mi>e</m:mi><m:mi>x</m:mi></m:msup><m:mo>+</m:mo><m:mn>5</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167836447670" class="material-set-2">
+<problem id="fs-id1167836526334">
+<para id="fs-id1167836526336"><m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mtext>−</m:mtext><m:msup><m:mi>e</m:mi><m:mi>x</m:mi></m:msup></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836664657">
+<para id="fs-id1167836664659"><media id="fs-id1167836664660" alt="This figure shows an exponential line passing through the points (negative 1, negative 1 over e), (0, negative 1), and (1, negative e).">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_10_05_308_img.jpg"/>
+</media></para>
+</solution>
+</exercise>
+<para id="fs-id1167829830349"><emphasis effect="bold">Solve Exponential Equations</emphasis></para>
+<para id="fs-id1167836662528">In the following exercises, solve each equation.</para>
+<exercise id="fs-id1167836662531" class="material-set-2">
+<problem id="fs-id1167836621246">
+<para id="fs-id1167836621248"><m:math><m:mrow><m:msup><m:mn>3</m:mn><m:mrow><m:mn>5</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>6</m:mn></m:mrow></m:msup><m:mo>=</m:mo><m:mn>81</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167833139187" class="material-set-2">
+<problem id="fs-id1167833139189">
+<para id="fs-id1167836399074"><m:math><m:mrow><m:msup><m:mn>2</m:mn><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:msup><m:mo>=</m:mo><m:mn>16</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836527116">
+<para id="fs-id1167836527118"><m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>−2</m:mn><m:mo>,</m:mo><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>2</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167824740894" class="material-set-2">
+<problem id="fs-id1167829756448">
+<para id="fs-id1167829756450"><m:math><m:mrow><m:msup><m:mn>9</m:mn><m:mi>x</m:mi></m:msup><m:mo>=</m:mo><m:mn>27</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167836547320" class="material-set-2">
+<problem id="fs-id1167836547322">
+<para id="fs-id1167836378060"><m:math><m:mrow><m:msup><m:mn>5</m:mn><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>x</m:mi></m:mrow></m:msup><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>5</m:mn></m:mfrac></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167829930773">
+<para id="fs-id1167836538344"><m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>−1</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167824736146" class="material-set-2">
+<problem id="fs-id1167824736148">
+<para id="fs-id1167824736151"><m:math><m:mrow><m:msup><m:mi>e</m:mi><m:mrow><m:mn>4</m:mn><m:mi>x</m:mi></m:mrow></m:msup><m:mo>·</m:mo><m:msup><m:mi>e</m:mi><m:mn>7</m:mn></m:msup><m:mo>=</m:mo><m:msup><m:mi>e</m:mi><m:mrow><m:mn>19</m:mn></m:mrow></m:msup></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167833381583" class="material-set-2">
+<problem id="fs-id1167836387842">
+<para id="fs-id1167836387844"><m:math><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>e</m:mi><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:msup></m:mrow><m:mrow><m:msup><m:mi>e</m:mi><m:mrow><m:mn>15</m:mn></m:mrow></m:msup></m:mrow></m:mfrac><m:mo>=</m:mo><m:msup><m:mi>e</m:mi><m:mrow><m:mn>2</m:mn><m:mi>x</m:mi></m:mrow></m:msup></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836627207">
+<para id="fs-id1167836688216"><m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>−3</m:mn><m:mo>,</m:mo><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>5</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<para id="fs-id1167836623998"><emphasis effect="bold">Use Exponential Models in Applications</emphasis></para>
+<para id="fs-id1167833087120">In the following exercises, solve.</para>
+<exercise id="fs-id1167833087123" class="material-set-2">
+<problem id="fs-id1167836481210">
+<para id="fs-id1167836481212">Felix invested <m:math><m:mrow><m:mtext>$</m:mtext><m:mn>12,000</m:mn></m:mrow></m:math> in a savings account. If the interest rate is <m:math><m:mrow><m:mn>4</m:mn><m:mtext>%</m:mtext></m:mrow></m:math> how much will be in the account in 12 years by each method of compounding?</para>
+<para id="fs-id1167829743989"><span class="token">ⓐ</span> compound quarterly<newline/><span class="token">ⓑ</span> compound monthly<newline/><span class="token">ⓒ</span> compound continuously.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167836694228" class="material-set-2">
+<problem id="fs-id1167836694230">
+<para id="fs-id1167836330954">Sayed deposits <m:math><m:mrow><m:mtext>$</m:mtext><m:mn>20,000</m:mn></m:mrow></m:math> in an investment account. What will be the value of his investment in 30 years if the investment is earning <m:math><m:mrow><m:mn>7</m:mn><m:mtext>%</m:mtext></m:mrow></m:math> per year and is compounded continuously?</para>
+</problem>
+<solution id="fs-id1167836546029">
+<para id="fs-id1167836546031"><m:math><m:mrow><m:mtext>$</m:mtext><m:mn>163,323.40</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167833018636" class="material-set-2">
+<problem id="fs-id1167833018638">
+<para id="fs-id1167836606842">A researcher at the Center for Disease Control and Prevention is studying the growth of a bacteria. She starts her experiment with 150 of the bacteria that grows at a rate of <m:math><m:mrow><m:mn>15</m:mn><m:mtext>%</m:mtext></m:mrow></m:math> per hour. She will check on the bacteria every 24 hours. How many bacteria will he find in 24 hours?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167836321627" class="material-set-2">
+<problem id="fs-id1167836321629">
+<para id="fs-id1167836697085">In the last five years the population of the United States has grown at a rate of <m:math><m:mrow><m:mn>0.7</m:mn><m:mtext>%</m:mtext></m:mrow></m:math> per year to about 318,900,000. If this rate continues, what will be the population in 5 more years?</para>
+</problem>
+<solution id="fs-id1167836620571">
+<para id="fs-id1167833136730">330,259,000</para>
+</solution>
+</exercise>
+</section>
+<section id="fs-id1167836400065">
+<title><link document="m81410">Evaluate and Graph Logarithmic Functions</link></title>
+<para id="fs-id1167836789030"><emphasis effect="bold">Convert Between Exponential and Logarithmic Form</emphasis></para>
+<para id="fs-id1167836526067">In the following exercises, convert from exponential to logarithmic form.</para>
+<exercise id="fs-id1167836526070" class="material-set-2">
+<problem id="fs-id1167833396908">
+<para id="fs-id1167833396910"><m:math><m:mrow><m:msup><m:mn>5</m:mn><m:mn>4</m:mn></m:msup><m:mo>=</m:mo><m:mn>625</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167836529236" class="material-set-2">
+<problem id="fs-id1167836529238">
+<para id="fs-id1167836529240"><m:math><m:mrow><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>1,000</m:mn></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836541869">
+<para id="fs-id1167836541871"><m:math><m:mrow><m:mtext>log</m:mtext><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>1,000</m:mn></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>−3</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167829718972" class="material-set-2">
+<problem id="fs-id1167829718974">
+<para id="fs-id1167829579425"><m:math><m:mrow><m:msup><m:mrow><m:mn>63</m:mn></m:mrow><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>5</m:mn></m:mfrac></m:mrow></m:msup><m:mo>=</m:mo><m:mroot><m:mrow><m:mn>63</m:mn></m:mrow><m:mn>5</m:mn></m:mroot></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167833339269" class="material-set-2">
+<problem id="fs-id1167836539112">
+<para id="fs-id1167836539114"><m:math><m:mrow><m:msup><m:mi>e</m:mi><m:mi>y</m:mi></m:msup><m:mo>=</m:mo><m:mn>16</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167832926118">
+<para id="fs-id1167836418179"><m:math><m:mrow><m:mtext>ln</m:mtext><m:mn>16</m:mn><m:mo>=</m:mo><m:mi>y</m:mi></m:mrow></m:math></para>
+</solution>
+</exercise>
+<para id="fs-id1167836406654">In the following exercises, convert each logarithmic equation to exponential form.</para>
+<exercise id="fs-id1167836406657" class="material-set-2">
+<problem id="fs-id1167833138299">
+<para id="fs-id1167833138301"><m:math><m:mrow><m:mn>7</m:mn><m:mo>=</m:mo><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>2</m:mn></m:msub><m:mn>128</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167836507795" class="material-set-2">
+<problem id="fs-id1167836507797">
+<para id="fs-id1167836507799"><m:math><m:mrow><m:mn>5</m:mn><m:mo>=</m:mo><m:mtext>log</m:mtext><m:mn>100,000</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836557934">
+<para id="fs-id1167836557936"><m:math><m:mrow><m:mn>100000</m:mn><m:mo>=</m:mo><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>5</m:mn></m:msup></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167836494094" class="material-set-2">
+<problem id="fs-id1167836494096">
+<para id="fs-id1167836494098"><m:math><m:mrow><m:mn>4</m:mn><m:mo>=</m:mo><m:mtext>ln</m:mtext><m:mspace width="0.2em"/><m:mi>x</m:mi></m:mrow></m:math></para>
+</problem>
+</exercise>
+<para id="fs-id1167836527666"><emphasis effect="bold">Evaluate Logarithmic Functions</emphasis></para>
+<para id="fs-id1167833345053">In the following exercises, solve for <emphasis effect="italics">x</emphasis>.</para>
+<exercise id="fs-id1167833047270" class="material-set-2">
+<problem id="fs-id1167833048514">
+<para id="fs-id1167833048516"><m:math><m:mrow><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mi>x</m:mi></m:msub><m:mn>125</m:mn><m:mo>=</m:mo><m:mn>3</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167832926772">
+<para id="fs-id1167832926774"><m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>5</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167836450385" class="material-set-2">
+<problem id="fs-id1167836450388">
+<para id="fs-id1167833009320"><m:math><m:mrow><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>7</m:mn></m:msub><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>−2</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167833412859" class="material-set-2">
+<problem id="fs-id1167833412861">
+<para id="fs-id1167833412863"><m:math><m:mrow><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow></m:msub><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>16</m:mn></m:mrow></m:mfrac><m:mo>=</m:mo><m:mi>x</m:mi></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167824590424">
+<para id="fs-id1167829807232"><m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>4</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<para id="fs-id1167833366683">In the following exercises, find the exact value of each logarithm without using a calculator.</para>
+<exercise id="fs-id1167833366686" class="material-set-2">
+<problem id="fs-id1167836697625">
+<para id="fs-id1167836697627"><m:math><m:mrow><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>2</m:mn></m:msub><m:mn>32</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167832999733" class="material-set-2">
+<problem id="fs-id1167836624706">
+<para id="fs-id1167836624708"><m:math><m:mrow><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>8</m:mn></m:msub><m:mn>1</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836544112">
+<para id="fs-id1167836544114">0</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167833380079" class="material-set-2">
+<problem id="fs-id1167829878810">
+<para id="fs-id1167829878813"><m:math><m:mrow><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>3</m:mn></m:msub><m:mfrac><m:mn>1</m:mn><m:mn>9</m:mn></m:mfrac></m:mrow></m:math></para>
+</problem>
+</exercise>
+<para id="fs-id1167829624400"><emphasis effect="bold">Graph Logarithmic Functions</emphasis></para>
+<para id="fs-id1167836561092">In the following exercises, graph each logarithmic function.</para>
+<exercise id="fs-id1167833224439" class="material-set-2">
+<problem id="fs-id1167833224441">
+<para id="fs-id1167833224443"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>5</m:mn></m:msub><m:mi>x</m:mi></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167826024966">
+<para id="fs-id1167826024968"><media id="fs-id1167829894410" alt="This figure shows a logarithmic line passing through the points (1 over 5, negative 1), (1, 0), and (5, 1).">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_10_05_309_img.jpg"/>
+</media></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167836788171" class="material-set-2">
+<problem id="fs-id1167833129141">
+<para id="fs-id1167833129143"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>4</m:mn></m:mfrac></m:mrow></m:msub><m:mi>x</m:mi></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167833021603" class="material-set-2">
+<problem id="fs-id1167833021606">
+<para id="fs-id1167836787724"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mrow><m:mn>0.8</m:mn></m:mrow></m:msub><m:mi>x</m:mi></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167829830399">
+<para id="fs-id1167829830402"><media id="fs-id1167829830403" alt="This figure shows a logarithmic line passing through the points (4 over 5, 1), (1, 0), and (5 over 4, negative 1).">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_10_05_311_img.jpg"/>
+</media></para>
+</solution>
+</exercise>
+<para id="fs-id1167836441454"><emphasis effect="bold">Solve Logarithmic Equations</emphasis></para>
+<para id="fs-id1167829748397">In the following exercises, solve each logarithmic equation.</para>
+<exercise id="fs-id1167829748400" class="material-set-2">
+<problem id="fs-id1167824578794">
+<para id="fs-id1167824578796"><m:math><m:mrow><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mi>a</m:mi></m:msub><m:mn>36</m:mn><m:mo>=</m:mo><m:mn>5</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167833379436" class="material-set-2">
+<problem id="fs-id1167833379438">
+<para id="fs-id1167833379440"><m:math><m:mrow><m:mtext>ln</m:mtext><m:mspace width="0.2em"/><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>−3</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167825992930">
+<para id="fs-id1167825992933"><m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:msup><m:mi>e</m:mi><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167829720687" class="material-set-2">
+<problem id="fs-id1167836341404">
+<para id="fs-id1167836341406"><m:math><m:mrow><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>2</m:mn></m:msub><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>5</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>7</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>3</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167836442218" class="material-set-2">
+<problem id="fs-id1167836442220">
+<para id="fs-id1167833334871"><m:math><m:mrow><m:mtext>ln</m:mtext><m:mspace width="0.2em"/><m:msup><m:mi>e</m:mi><m:mrow><m:mn>3</m:mn><m:mi>x</m:mi></m:mrow></m:msup><m:mo>=</m:mo><m:mn>24</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167829807907">
+<para id="fs-id1167836556389"><m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>8</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167826171758" class="material-set-2">
+<problem id="fs-id1167836561156">
+<para id="fs-id1167836561158"><m:math><m:mrow><m:mtext>log</m:mtext><m:mo stretchy="false">(</m:mo><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>21</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>2</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<para id="fs-id1167833270626"><emphasis effect="bold">Use Logarithmic Models in Applications</emphasis></para>
+<exercise id="fs-id1167833270632" class="material-set-2">
+<problem id="fs-id1167833270914">
+<para id="fs-id1167833270916">What is the decibel level of a train whistle with intensity <m:math><m:mrow><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup></m:mrow></m:math> watts per square inch?</para>
+</problem>
+<solution id="fs-id1167833232427">
+<para id="fs-id1167833232429">90 dB</para>
+</solution>
+</exercise>
+</section>
+<section id="fs-id1167836511866">
+<title><link document="m81411">Use the Properties of Logarithms</link></title>
+<para id="fs-id1167824734610"><emphasis effect="bold">Use the Properties of Logarithms</emphasis></para>
+<para id="fs-id1167824734616">In the following exercises, use the properties of logarithms to evaluate.</para>
+<exercise id="fs-id1167836326121" class="material-set-2">
+<problem id="fs-id1167836326123">
+<para id="fs-id1167836326125"><span class="token">ⓐ</span>
+<m:math><m:mrow><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>7</m:mn></m:msub><m:mn>1</m:mn></m:mrow></m:math>
+<span class="token">ⓑ</span>
+<m:math><m:mrow><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mrow><m:mn>12</m:mn></m:mrow></m:msub><m:mn>12</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167824736264" class="material-set-2">
+<problem id="fs-id1167824736266">
+<para id="fs-id1167829756339"><span class="token">ⓐ</span>
+<m:math><m:mrow><m:msup><m:mn>5</m:mn><m:mrow><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>5</m:mn></m:msub><m:mn>13</m:mn></m:mrow></m:msup></m:mrow></m:math>
+<span class="token">ⓑ</span>
+<m:math><m:mrow><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>3</m:mn></m:msub><m:msup><m:mn>3</m:mn><m:mrow><m:mn>−9</m:mn></m:mrow></m:msup></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836624685">
+<para id="fs-id1167836624687"><span class="token">ⓐ</span> 13 <span class="token">ⓑ</span>
+<m:math><m:mrow><m:mn>−9</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167829942493" class="material-set-2">
+<problem id="fs-id1167829942495">
+<para id="fs-id1167829942497"><span class="token">ⓐ</span>
+<m:math><m:mrow><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mtext>log</m:mtext><m:msqrt><m:mn>5</m:mn></m:msqrt></m:mrow></m:msup></m:mrow></m:math>
+<span class="token">ⓑ</span>
+<m:math><m:mrow><m:mtext>log</m:mtext><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167836561167" class="material-set-2">
+<problem id="fs-id1167836561169">
+<para id="fs-id1167836561171"><span class="token">ⓐ</span>
+<m:math><m:mrow><m:msup><m:mi>e</m:mi><m:mrow><m:mtext>ln</m:mtext><m:mn>8</m:mn></m:mrow></m:msup></m:mrow></m:math>
+<span class="token">ⓑ</span>
+<m:math><m:mrow><m:mtext>ln</m:mtext><m:mspace width="0.2em"/><m:msup><m:mi>e</m:mi><m:mn>5</m:mn></m:msup></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836665469">
+<para id="fs-id1167836665471"><span class="token">ⓐ</span> 8 <span class="token">ⓑ</span> 5</para>
+</solution>
+</exercise>
+<para id="fs-id1167836515366">In the following exercises, use the Product Property of Logarithms to write each logarithm as a sum of logarithms. Simplify if possible.</para>
+<exercise id="fs-id1167836515370" class="material-set-2">
+<problem id="fs-id1167836512284">
+<para id="fs-id1167836512286"><m:math><m:mrow><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>4</m:mn></m:msub><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>64</m:mn><m:mi>x</m:mi><m:mi>y</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167836664471" class="material-set-2">
+<problem id="fs-id1167836664473">
+<para id="fs-id1167836664475"><m:math><m:mrow><m:mtext>log</m:mtext><m:mn>10,000</m:mn><m:mi>m</m:mi></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836441357">
+<para id="fs-id1167836441359"><m:math><m:mrow><m:mn>4</m:mn><m:mo>+</m:mo><m:mtext>log</m:mtext><m:mi>m</m:mi></m:mrow></m:math></para>
+</solution>
+</exercise>
+<para id="fs-id1167833334865">In the following exercises, use the Quotient Property of Logarithms to write each logarithm as a sum of logarithms. Simplify, if possible.</para>
+<exercise id="fs-id1167829784678" class="material-set-2">
+<problem id="fs-id1167829784680">
+<para id="fs-id1167829784683"><m:math><m:mrow><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>7</m:mn></m:msub><m:mfrac><m:mrow><m:mn>49</m:mn></m:mrow><m:mi>y</m:mi></m:mfrac></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167825998318" class="material-set-2">
+<problem id="fs-id1167825998321">
+<para id="fs-id1167836544552"><m:math><m:mrow><m:mtext>ln</m:mtext><m:mfrac><m:mrow><m:msup><m:mi>e</m:mi><m:mn>5</m:mn></m:msup></m:mrow><m:mn>2</m:mn></m:mfrac></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836399020">
+<para id="fs-id1167829859286"><m:math><m:mrow><m:mn>5</m:mn><m:mo>−</m:mo><m:mtext>ln</m:mtext><m:mn>2</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<para id="fs-id1167833263939">In the following exercises, use the Power Property of Logarithms to expand each logarithm. Simplify, if possible.</para>
+<exercise id="fs-id1167836705077" class="material-set-2">
+<problem id="fs-id1167836705079">
+<para id="fs-id1167836705081"><m:math><m:mrow><m:mtext>log</m:mtext><m:msup><m:mi>x</m:mi><m:mrow><m:mn>−9</m:mn></m:mrow></m:msup></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167833142410" class="material-set-2">
+<problem id="fs-id1167833142412">
+<para id="fs-id1167833142414"><m:math><m:mrow><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>4</m:mn></m:msub><m:mroot><m:mi>z</m:mi><m:mn>7</m:mn></m:mroot></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836389267">
+<para id="fs-id1167836389269"><m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>7</m:mn></m:mfrac><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>4</m:mn></m:msub><m:mi>z</m:mi></m:mrow></m:math></para>
+</solution>
+</exercise>
+<para id="fs-id1167836512470">In the following exercises, use properties of logarithms to write each logarithm as a sum of logarithms. Simplify if possible.</para>
+<exercise id="fs-id1167836512475" class="material-set-2">
+<problem id="fs-id1167836512477">
+<para id="fs-id1167836518611"><m:math><m:mrow><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>3</m:mn></m:msub><m:mrow><m:mo>(</m:mo><m:mrow><m:msqrt><m:mn>4</m:mn></m:msqrt><m:msup><m:mi>x</m:mi><m:mn>7</m:mn></m:msup><m:msup><m:mi>y</m:mi><m:mn>8</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167833270649" class="material-set-2">
+<problem id="fs-id1167833270651">
+<para id="fs-id1167833270654"><m:math><m:mrow><m:msub><m:mrow><m:mi>log</m:mi></m:mrow><m:mn>5</m:mn></m:msub><m:mfrac><m:mrow><m:mn>8</m:mn><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:msup><m:mi>b</m:mi><m:mn>6</m:mn></m:msup><m:mi>c</m:mi></m:mrow><m:mrow><m:msup><m:mi>d</m:mi><m:mn>3</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167833364310">
+<para id="fs-id1167833364312"><m:math><m:mrow><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>5</m:mn></m:msub><m:mn>8</m:mn><m:mo>+</m:mo><m:mn>2</m:mn><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>5</m:mn></m:msub><m:mi>a</m:mi><m:mo>+</m:mo><m:mn>6</m:mn><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>5</m:mn></m:msub><m:mi>b</m:mi></m:mrow></m:math><newline/><m:math><m:mrow><m:mo>+</m:mo><m:mspace width="0.2em"/><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>5</m:mn></m:msub><m:mi>c</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>5</m:mn></m:msub><m:mi>d</m:mi></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167836616072" class="material-set-2">
+<problem id="fs-id1167836616074">
+<para id="fs-id1167829614262"><m:math><m:mrow><m:mtext>ln</m:mtext><m:mfrac><m:mrow><m:msqrt><m:mrow><m:mn>3</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:msqrt></m:mrow><m:mrow><m:msup><m:mi>z</m:mi><m:mn>4</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167833053264" class="material-set-2">
+<problem id="fs-id1167833053266">
+<para id="fs-id1167833053268"><m:math><m:mrow><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>6</m:mn></m:msub><m:mroot><m:mrow><m:mfrac><m:mrow><m:mn>7</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>6</m:mn><m:msup><m:mi>y</m:mi><m:mn>3</m:mn></m:msup><m:msup><m:mi>z</m:mi><m:mn>5</m:mn></m:msup></m:mrow></m:mfrac></m:mrow><m:mn>3</m:mn></m:mroot></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836399000">
+<para id="fs-id1167836399002"><m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac><m:mrow><m:mo>(</m:mo><m:mrow><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>6</m:mn></m:msub><m:mn>7</m:mn><m:mo>+</m:mo><m:mn>2</m:mn><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>6</m:mn></m:msub><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn><m:mo>−</m:mo><m:mn>3</m:mn><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>6</m:mn></m:msub><m:mi>y</m:mi></m:mrow></m:mrow></m:mrow></m:math><newline/><m:math><m:mrow><m:mo>−</m:mo><m:mspace width="0.2em"/><m:mn>5</m:mn><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>6</m:mn></m:msub><m:mi>z</m:mi></m:mrow><m:mo>)</m:mo></m:math></para>
+</solution>
+</exercise>
+<para id="fs-id1167824754734">In the following exercises, use the Properties of Logarithms to condense the logarithm. Simplify if possible.</para>
+<exercise id="fs-id1167824754738" class="material-set-2">
+<problem id="fs-id1167824754740">
+<para id="fs-id1167824754742"><m:math><m:mrow><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>2</m:mn></m:msub><m:mn>56</m:mn><m:mo>−</m:mo><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>2</m:mn></m:msub><m:mn>7</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167833256276" class="material-set-2">
+<problem id="fs-id1167833256278">
+<para id="fs-id1167824774113"><m:math><m:mrow><m:mn>3</m:mn><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>3</m:mn></m:msub><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>7</m:mn><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>3</m:mn></m:msub><m:mi>y</m:mi></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167824578289">
+<para id="fs-id1167824578291"><m:math><m:mrow><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>3</m:mn></m:msub><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup><m:msup><m:mi>y</m:mi><m:mn>7</m:mn></m:msup></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167829861871" class="material-set-2">
+<problem id="fs-id1167829861873">
+<para id="fs-id1167829861875"><m:math><m:mrow><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>5</m:mn></m:msub><m:mrow><m:mo>(</m:mo><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>16</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>−</m:mo><m:mn>2</m:mn><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>5</m:mn></m:msub><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167833279829" class="material-set-2">
+<problem id="fs-id1167833279831">
+<para id="fs-id1167833279833"><m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>4</m:mn></m:mfrac><m:mtext>log</m:mtext><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mtext>log</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167832937107">
+<para id="fs-id1167832937109"><m:math><m:mrow><m:mtext>log</m:mtext><m:mfrac><m:mrow><m:mroot><m:mi>y</m:mi><m:mn>4</m:mn></m:mroot></m:mrow><m:mrow><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+<para id="fs-id1167824658640"><emphasis effect="bold">Use the Change-of-Base Formula</emphasis></para>
+<para id="fs-id1167824658645">In the following exercises, rounding to three decimal places, approximate each logarithm.</para>
+<exercise id="fs-id1167824658648" class="material-set-2">
+<problem id="fs-id1167824658650">
+<para id="fs-id1167824658653"><m:math><m:mrow><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>5</m:mn></m:msub><m:mn>97</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167836524679" class="material-set-2">
+<problem id="fs-id1167836524681">
+<para id="fs-id1167836524683"><m:math><m:mrow><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mrow><m:msqrt><m:mn>3</m:mn></m:msqrt></m:mrow></m:msub><m:mn>16</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836666257">
+<para id="fs-id1167836666259">5.047</para>
+</solution>
+</exercise>
+</section>
+<section id="fs-id1167836666265">
+<title><link document="m81450">Solve Exponential and Logarithmic Equations</link></title>
+<para id="fs-id1167836666274"><emphasis effect="bold">Solve Logarithmic Equations Using the Properties of Logarithms</emphasis></para>
+<para id="fs-id1167824764577">In the following exercises, solve for <emphasis effect="italics">x</emphasis>.</para>
+<exercise id="fs-id1167824764584" class="material-set-2">
+<problem id="fs-id1167824764586">
+<para id="fs-id1167824764588"><m:math><m:mrow><m:mn>3</m:mn><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>5</m:mn></m:msub><m:mi>x</m:mi><m:mo>=</m:mo><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>5</m:mn></m:msub><m:mn>216</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167836625734" class="material-set-2">
+<problem id="fs-id1167836625736">
+<para id="fs-id1167824780919"><m:math><m:mrow><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>2</m:mn></m:msub><m:mi>x</m:mi><m:mo>+</m:mo><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>2</m:mn></m:msub><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>3</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167824781550">
+<para id="fs-id1167824781552"><m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>4</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167824781565" class="material-set-2">
+<problem id="fs-id1167824781567">
+<para id="fs-id1167825681104"><m:math><m:mrow><m:mtext>log</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>−</m:mo><m:mtext>log</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mtext>−</m:mtext><m:mtext>log</m:mtext><m:mspace width="0.2em"/><m:mi>x</m:mi></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167829931114" class="material-set-2">
+<problem id="fs-id1167829931116">
+<para id="fs-id1167829931119"><m:math><m:mrow><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>4</m:mn></m:msub><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>4</m:mn></m:msub><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>5</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>4</m:mn></m:msub><m:mn>8</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167833020801">
+<para id="fs-id1167833020804"><m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>3</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167833020816" class="material-set-2">
+<problem id="fs-id1167833020818">
+<para id="fs-id1167833020821"><m:math><m:mrow><m:mtext>ln</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mtext>ln</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mtext>ln</m:mtext><m:mn>2</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<para id="fs-id1167836418848"><emphasis effect="bold">Solve Exponential Equations Using Logarithms</emphasis></para>
+<para id="fs-id1167836418853">In the following exercises, solve each exponential equation. Find the exact answer and then approximate it to three decimal places.</para>
+<exercise id="fs-id1167836418858" class="material-set-2">
+<problem id="fs-id1167836418860">
+<para id="fs-id1167829720485"><m:math><m:mrow><m:msup><m:mn>2</m:mn><m:mi>x</m:mi></m:msup><m:mo>=</m:mo><m:mn>101</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167829720500">
+<para id="fs-id1167829720502"><m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mtext>log</m:mtext><m:mn>101</m:mn></m:mrow><m:mrow><m:mtext>log</m:mtext><m:mn>2</m:mn></m:mrow></m:mfrac><m:mo>≈</m:mo><m:mn>6.658</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167836432704" class="material-set-2">
+<problem id="fs-id1167836432706">
+<para id="fs-id1167836432708"><m:math><m:mrow><m:msup><m:mi>e</m:mi><m:mi>x</m:mi></m:msup><m:mo>=</m:mo><m:mn>23</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167836406793" class="material-set-2">
+<problem id="fs-id1167836406795">
+<para id="fs-id1167836406797"><m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mi>x</m:mi></m:msup><m:mo>=</m:mo><m:mn>7</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167829812735">
+<para id="fs-id1167829812737"><m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mtext>log</m:mtext><m:mn>7</m:mn></m:mrow><m:mrow><m:mtext>log</m:mtext><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac></m:mrow></m:mfrac><m:mo>≈</m:mo><m:mtext>−</m:mtext><m:mn>1.771</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167836526294" class="material-set-2">
+<problem id="fs-id1167836526296">
+<para id="fs-id1167836526298"><m:math><m:mrow><m:mn>7</m:mn><m:msup><m:mi>e</m:mi><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow></m:msup><m:mo>=</m:mo><m:mn>28</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167824733140" class="material-set-2">
+<problem id="fs-id1167824733142">
+<para id="fs-id1167824733145"><m:math><m:mrow><m:msup><m:mi>e</m:mi><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>4</m:mn></m:mrow></m:msup><m:mo>+</m:mo><m:mn>8</m:mn><m:mo>=</m:mo><m:mn>23</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167829785672">
+<para id="fs-id1167829785674"><m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mtext>ln</m:mtext><m:mn>15</m:mn><m:mo>+</m:mo><m:mn>4</m:mn><m:mo>≈</m:mo><m:mn>6.708</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<para id="fs-id1167833024465"><emphasis effect="bold">Use Exponential Models in Applications</emphasis></para>
+<exercise id="fs-id1167833024470" class="material-set-2">
+<problem id="fs-id1167833024472">
+<para id="fs-id1167833024474">Jerome invests <m:math><m:mrow><m:mtext>$</m:mtext><m:mn>18,000</m:mn></m:mrow></m:math> at age 17. He hopes the investments will be worth <m:math><m:mrow><m:mtext>$</m:mtext><m:mn>30,000</m:mn></m:mrow></m:math> when he turns 26. If the interest compounds continuously, approximately what rate of growth will he need to achieve his goal? Is that a reasonable expectation?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167833086856" class="material-set-2">
+<problem id="fs-id1167833086858">
+<para id="fs-id1167833086860">Elise invests <m:math><m:mrow><m:mtext>$</m:mtext><m:mn>4500</m:mn></m:mrow></m:math> in an account that compounds interest monthly and earns <m:math><m:mrow><m:mn>6</m:mn><m:mtext>%</m:mtext><m:mo>.</m:mo></m:mrow></m:math> How long will it take for her money to double?</para>
+</problem>
+<solution id="fs-id1167832926096">
+<para id="fs-id1167832926098">11.6 years</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167832926104" class="material-set-2">
+<problem id="fs-id1167832926106">
+<para id="fs-id1167832926108">Researchers recorded that a certain bacteria population grew from 100 to 300 in 8 hours. At this rate of growth, how many bacteria will there be in 24 hours?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167833385671" class="material-set-2">
+<problem id="fs-id1167833385674">
+<para id="fs-id1167833385676">Mouse populations can double in 8 months <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>A</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:msub><m:mi>A</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math> How long will it take for a mouse population to triple?</para>
+</problem>
+<solution id="fs-id1167825857072">
+<para id="fs-id1167825857074">12.7 months</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167825857079" class="material-set-2">
+<problem id="fs-id1167825857081">
+<para id="fs-id1167825857083">The half-life of radioactive iodine is 60 days. How much of a 50 mg sample will be left in 40 days?</para>
+</problem>
+</exercise>
+</section>
+</section><section id="fs-id1167833071677" class="practice-test">
+<title>Practice Test</title>
+<exercise id="fs-id1167833071683" class="material-set-2">
+<problem id="fs-id1167833071685">
+<para id="fs-id1167833071687">For the functions, <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>6</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:math> and <m:math><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>8</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:mo>,</m:mo></m:mrow></m:math> find <span class="token">ⓐ</span> <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>f</m:mi><m:mo>∘</m:mo><m:mi>g</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>g</m:mi><m:mo>∘</m:mo><m:mi>f</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo></m:mrow></m:math> and <span class="token">ⓒ</span> <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>f</m:mi><m:mo>·</m:mo><m:mi>g</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167829745978">
+<para id="fs-id1167829745980"><span class="token">ⓐ</span> <m:math><m:mrow><m:mn>48</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>17</m:mn></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mn>48</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>5</m:mn></m:mrow></m:math><newline/><span class="token">ⓒ</span> <m:math><m:mrow><m:mn>48</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>10</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167829620952" class="material-set-2">
+<problem id="fs-id1167829620954">
+<para id="fs-id1167829620956">Determine if the following set of ordered pairs represents a function and if so, is the function one-to-one. <m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−2</m:mn><m:mo>,</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−1</m:mn><m:mo>,</m:mo><m:mn>−3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>−2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>−3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mo>}</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167836532824" class="material-set-2">
+<problem id="fs-id1167836532826">
+<para id="fs-id1167836532828">Determine whether each graph is the graph of a function and if so, is it one-to-one.</para>
+<para id="fs-id1167836532832"><span class="token">ⓐ</span><newline/>
+<media id="fs-id1167836532838" alt="This figure shows a parabola opening to the right with vertex (negative 3, 0).">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_10_05_207_img.jpg"/>
+</media><newline/>
+<span class="token">ⓑ</span><newline/>
+<media id="fs-id1167836554287" alt="This figure shows an exponential line passing through the points (negative 1, 1 over 2), (0, 1), and (1, 2).">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_10_05_208_img.jpg"/>
+</media></para>
+</problem>
+<solution id="fs-id1167836554298">
+<para id="fs-id1167836554300"><span class="token">ⓐ</span> Not a function <span class="token">ⓑ</span> One-to-one function</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167836554313" class="material-set-2">
+<problem id="fs-id1167836554315">
+<para id="fs-id1167829690386">Graph, on the same coordinate system, the inverse of the one-to-one function shown.</para>
+<media id="fs-id1167829690389" alt="This figure shows a line segment passing from the point (negative 3, 3) to (negative 1, 2) to (0, negative 2) to (2, negative 4).">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_10_05_209_img.jpg"/>
+</media>
+</problem>
+</exercise>
+<exercise id="fs-id1167829690415" class="material-set-2">
+<problem id="fs-id1167824578308">
+<para id="fs-id1167824578310">Find the inverse of the function <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msup><m:mi>x</m:mi><m:mn>5</m:mn></m:msup><m:mo>−</m:mo><m:mn>9</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167826077492">
+<para id="fs-id1167826077494"><m:math><m:mrow><m:msup><m:mi>f</m:mi><m:mrow><m:mn>−1</m:mn></m:mrow></m:msup><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mroot><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>9</m:mn></m:mrow><m:mn>5</m:mn></m:mroot></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167832940223" class="material-set-2">
+<problem id="fs-id1167832940225">
+<para id="fs-id1167832940227">Graph the function <m:math><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msup><m:mn>2</m:mn><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow></m:msup><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167833135460" class="material-set-2">
+<problem id="fs-id1167833135462">
+<para id="fs-id1167833135464">Solve the equation <m:math><m:mrow><m:msup><m:mn>2</m:mn><m:mrow><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>4</m:mn></m:mrow></m:msup><m:mo>=</m:mo><m:mn>64</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167829595824">
+<para id="fs-id1167829595826"><m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>5</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167833138613" class="material-set-2">
+<problem id="fs-id1167833138615">
+<para id="fs-id1167833138617">Solve the equation <m:math><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>e</m:mi><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:msup></m:mrow><m:mrow><m:msup><m:mi>e</m:mi><m:mn>4</m:mn></m:msup></m:mrow></m:mfrac><m:mo>=</m:mo><m:msup><m:mi>e</m:mi><m:mrow><m:mn>3</m:mn><m:mi>x</m:mi></m:mrow></m:msup><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167833381670" class="material-set-2">
+<problem id="fs-id1167833381672">
+<para id="fs-id1167833381674">Megan invested <m:math><m:mrow><m:mtext>$</m:mtext><m:mn>21,000</m:mn></m:mrow></m:math> in a savings account. If the interest rate is <m:math><m:mrow><m:mn>5</m:mn><m:mtext>%</m:mtext><m:mo>,</m:mo></m:mrow></m:math> how much will be in the account in 8 years by each method of compounding?<newline/><span class="token">ⓐ</span> compound quarterly<newline/><span class="token">ⓑ</span> compound monthly<newline/><span class="token">ⓒ</span> compound continuously.</para>
+</problem>
+<solution id="fs-id1167836543923">
+<para id="fs-id1167836543925"><span class="token">ⓐ</span>
+<m:math><m:mrow><m:mtext>$</m:mtext><m:mn>31,250.74</m:mn></m:mrow></m:math>
+<span class="token">ⓑ</span>
+<m:math><m:mrow><m:mtext>$</m:mtext><m:mn>31,302.29</m:mn></m:mrow></m:math>
+<span class="token">ⓒ</span>
+<m:math><m:mrow><m:mtext>$</m:mtext><m:mn>31,328.32</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167836524806" class="material-set-2">
+<problem id="fs-id1167836524808">
+<para id="fs-id1167836524810">Convert the equation from exponential to logarithmic form: <m:math><m:mrow><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−2</m:mn></m:mrow></m:msup><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>100</m:mn></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167825791231" class="material-set-2">
+<problem id="fs-id1167825791234">
+<para id="fs-id1167825791236">Convert the equation from logarithmic equation to exponential form: <m:math><m:mrow><m:mn>3</m:mn><m:mo>=</m:mo><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>7</m:mn></m:msub><m:mn>343</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167825791255">
+<para id="fs-id1167825791257"><m:math><m:mrow><m:mn>343</m:mn><m:mo>=</m:mo><m:msup><m:mn>7</m:mn><m:mn>3</m:mn></m:msup></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167836685014" class="material-set-2">
+<problem id="fs-id1167836685016">
+<para id="fs-id1167836685019">Solve for <emphasis effect="italics">x</emphasis>: <m:math><m:mrow><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>5</m:mn></m:msub><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>−3</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167829715448" class="material-set-2">
+<problem id="fs-id1167829715450">
+<para id="fs-id1167832999569">Evaluate <m:math><m:mrow><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mrow><m:mn>11</m:mn></m:mrow></m:msub><m:mn>1</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167832999587">
+<para id="fs-id1167832999589">0</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167832999594" class="material-set-2">
+<problem id="fs-id1167832999596">
+<para id="fs-id1167832999598">Evaluate <m:math><m:mrow><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>4</m:mn></m:msub><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>64</m:mn></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167829696087" class="material-set-2">
+<problem id="fs-id1167829696089">
+<para id="fs-id1167833346757">Graph the function<newline/><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>3</m:mn></m:msub><m:mi>x</m:mi><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167833346778">
+<para id="fs-id1167833346781"><newline/><media id="fs-id1167833346782" alt="This figure shows a logarithmic line passing through (1 over 3, 1), (1, 0), and (3, 1).">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_10_05_314_img.jpg"/>
+</media></para></solution>
+</exercise>
+<exercise id="fs-id1167833202342" class="material-set-2">
+<problem id="fs-id1167833202344">
+<para id="fs-id1167833202347">Solve for <emphasis effect="italics">x</emphasis>:<newline/><m:math><m:mrow><m:mtext>log</m:mtext><m:mo stretchy="false">(</m:mo><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>39</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167833257748" class="material-set-2">
+<problem id="fs-id1167833257750">
+<para id="fs-id1167829718202">What is the decibel level of a small fan with intensity <m:math><m:mrow><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−8</m:mn></m:mrow></m:msup></m:mrow></m:math> watts per square inch?</para>
+</problem>
+<solution id="fs-id1167829718217">
+<para id="fs-id1167829718219">40 dB</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167829718224" class="material-set-2">
+<problem id="fs-id1167829718226">
+<para id="fs-id1167829718228">Evaluate each. <span class="token">ⓐ</span>
+<m:math><m:mrow><m:msup><m:mn>6</m:mn><m:mrow><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>6</m:mn></m:msub><m:mn>17</m:mn></m:mrow></m:msup></m:mrow></m:math><newline/><span class="token">ⓑ</span>
+<m:math><m:mrow><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>9</m:mn></m:msub><m:msup><m:mn>9</m:mn><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup></m:mrow></m:math></para>
+</problem>
+</exercise>
+<para id="fs-id1167833020790">In the following exercises, use properties of logarithms to write each expression as a sum of logarithms, simplifying if possible.</para>
+<exercise id="fs-id1167833020794" class="material-set-2">
+<problem id="fs-id1167833020796">
+<para id="fs-id1167829715042"><m:math><m:mrow><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>5</m:mn></m:msub><m:mn>25</m:mn><m:mi>a</m:mi><m:mi>b</m:mi></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167829715060">
+<para id="fs-id1167829715062"><m:math><m:mrow><m:mn>2</m:mn><m:mo>+</m:mo><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>5</m:mn></m:msub><m:mi>a</m:mi><m:mo>+</m:mo><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>5</m:mn></m:msub><m:mi>b</m:mi></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167826129204" class="material-set-2">
+<problem id="fs-id1167826129206">
+<para id="fs-id1167826129208"><m:math><m:mrow><m:mtext>ln</m:mtext><m:mfrac><m:mrow><m:msup><m:mi>e</m:mi><m:mrow><m:mn>12</m:mn></m:mrow></m:msup></m:mrow><m:mn>8</m:mn></m:mfrac></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167829609082" class="material-set-2">
+<problem id="fs-id1167829609084">
+<para id="fs-id1167829609086"><m:math><m:mrow><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>2</m:mn></m:msub><m:mroot><m:mrow><m:mfrac><m:mrow><m:mn>5</m:mn><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup></m:mrow><m:mrow><m:mn>16</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:msup><m:mi>z</m:mi><m:mn>7</m:mn></m:msup></m:mrow></m:mfrac></m:mrow><m:mn>4</m:mn></m:mroot></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167821865253">
+<para id="fs-id1167829666470"><m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>4</m:mn></m:mfrac><m:mrow><m:mo>(</m:mo><m:mrow><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>2</m:mn></m:msub><m:mn>5</m:mn><m:mo>+</m:mo><m:mn>3</m:mn><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>2</m:mn></m:msub><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>4</m:mn><m:mo>−</m:mo><m:mn>2</m:mn><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>2</m:mn></m:msub><m:mi>y</m:mi></m:mrow></m:mrow></m:mrow></m:math><newline/><m:math><m:mrow><m:mo>−</m:mo><m:mspace width="0.2em"/><m:mn>7</m:mn><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>2</m:mn></m:msub><m:mi>z</m:mi></m:mrow><m:mo>)</m:mo></m:math></para>
+</solution>
+</exercise>
+<para id="fs-id1167836495428">In the following exercises, use the Properties of Logarithms to condense the logarithm, simplifying if possible.</para>
+<exercise id="fs-id1167836495432" class="material-set-2">
+<problem id="fs-id1167836495435">
+<para id="fs-id1167836495437"><m:math><m:mrow><m:mn>5</m:mn><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>4</m:mn></m:msub><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>4</m:mn></m:msub><m:mi>y</m:mi></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167829830396" class="material-set-2">
+<problem id="fs-id1167829830398">
+<para id="fs-id1167836537610"><m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>6</m:mn></m:mfrac><m:mtext>log</m:mtext><m:mspace width="0.2em"/><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:mtext>log</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167833239526">
+<para id="fs-id1167833239528"><m:math><m:mrow><m:mtext>log</m:mtext><m:mfrac><m:mrow><m:mroot><m:mi>x</m:mi><m:mn>6</m:mn></m:mroot></m:mrow><m:mrow><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>5</m:mn><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>3</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167829909638" class="material-set-2">
+<problem id="fs-id1167829909641">
+<para id="fs-id1167829909643">Rounding to three decimal places, approximate <m:math><m:mrow><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>4</m:mn></m:msub><m:mn>73</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167829738760" class="material-set-2">
+<problem id="fs-id1167829738762">
+<para id="fs-id1167829738764">Solve for <emphasis effect="italics">x</emphasis>:<newline/><m:math><m:mrow><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>7</m:mn></m:msub><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>7</m:mn></m:msub><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>7</m:mn></m:msub><m:mn>24</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167829689296">
+<para id="fs-id1167829650633"><m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>6</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<para id="fs-id1167829650646">In the following exercises, solve each exponential equation. Find the exact answer and then approximate it to three decimal places.</para>
+<exercise id="fs-id1167829650650" class="material-set-2">
+<problem id="fs-id1167829650652">
+<para id="fs-id1167829650654"><m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>5</m:mn></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mi>x</m:mi></m:msup><m:mo>=</m:mo><m:mn>9</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167833239458" class="material-set-2">
+<problem id="fs-id1167833239460">
+<para id="fs-id1167833239462"><m:math><m:mrow><m:mn>5</m:mn><m:msup><m:mi>e</m:mi><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>4</m:mn></m:mrow></m:msup><m:mo>=</m:mo><m:mn>40</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167826172031">
+<para id="fs-id1167826172034"><m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mtext>ln</m:mtext><m:mn>8</m:mn><m:mo>+</m:mo><m:mn>4</m:mn><m:mo>≈</m:mo><m:mn>6.079</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167826172057" class="material-set-2">
+<problem id="fs-id1167833239490">
+<para id="fs-id1167833239492">Jacob invests $14,000 in an account that compounds interest quarterly and earns <m:math><m:mrow><m:mn>4</m:mn><m:mtext>%</m:mtext><m:mo>.</m:mo></m:mrow></m:math> How long will it take for his money to double?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167833239517" class="material-set-2">
+<problem id="fs-id1167833239519">
+<para id="fs-id1167833239522">Researchers recorded that a certain bacteria population grew from 500 to 700 in 5 hours. At this rate of growth, how many bacteria will there be in 20 hours?</para>
+</problem>
+<solution id="fs-id1167829893318">
+<para id="fs-id1167829893320">1,921 bacteria</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167829893326" class="material-set-2">
+<problem id="fs-id1167829893328">
+<para id="fs-id1167829893330">A certain beetle population can double in 3 months <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>A</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:msub><m:mi>A</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math> How long will it take for that beetle population to triple?</para>
+</problem>
+</exercise>
+</section>
+</content>
+</document>

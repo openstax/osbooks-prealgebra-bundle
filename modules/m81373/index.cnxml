@@ -1,0 +1,1353 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Relations and Functions</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m81373</md:content-id>
+  <md:title>Relations and Functions</md:title>
+  <md:abstract><para>By the end of this section, you will be able to:</para>
+<list>
+<item>Find the domain and range of a relation</item>
+<item>Determine if a relation is a function</item>
+<item>Find the value of a function</item>
+</list></md:abstract>
+  <md:uuid>59fe6dc4-6e09-4a88-aa1c-b5f72bd79a20</md:uuid>
+</metadata>
+
+<content>
+<note id="fs-id1167836299681" class="be-prepared">
+<para id="fs-id1167829627915">Before you get started, take this readiness quiz.</para>
+<exercise id="fs-idm394340496">
+<problem id="fs-idm544080880">
+<para id="fs-idm404379184">Evaluate <m:math><m:mrow><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>5</m:mn></m:mrow></m:math> when <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>−2</m:mn></m:mrow></m:math>.<newline/>
+If you missed this problem, review <link target-id="fs-id1167836530265" document="m81422"/>.</para>
+</problem>
+<solution id="fs-idm397777984">
+<para id="fs-idm543864704"><m:math><m:mrow><m:mo>−</m:mo><m:mn>11</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-idm404421072" class="be-prepared">
+<exercise id="fs-idm404402304">
+<problem id="fs-idm407107008">
+<para id="fs-idm388488080">Evaluate <m:math><m:mrow><m:mn>2</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow></m:math> when <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mi>a</m:mi><m:mo>.</m:mo></m:mrow></m:math><newline/>
+If you missed this problem, review <link target-id="fs-id1167836530265" document="m81422"/>.</para>
+</problem>
+<solution id="fs-idm373175664">
+<para id="fs-idm379550496"><m:math><m:mrow><m:mn>2</m:mn><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mi>a</m:mi><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-idm387231616" class="be-prepared">
+<exercise id="fs-idm384140160">
+<problem id="fs-idm364755472">
+<para id="fs-idm544046000">Simplify: <m:math><m:mrow><m:mn>7</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn><m:mo>−</m:mo><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>5.</m:mn></m:mrow></m:math><newline/>
+If you missed this problem, review <link target-id="fs-id1167836652573" document="m81422"/>.</para>
+</problem>
+<solution id="fs-idm397191664">
+<para id="fs-idm396654576"><m:math><m:mrow><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<section id="fs-id1167829789538">
+<title>Find the Domain and Range of a Relation</title>
+<para id="fs-id1167836538118">As we go about our daily lives, we have many data items or quantities that are paired to our names. Our social security number, student ID number, email address, phone number and our birthday are matched to our name. There is a relationship between our name and each of those items.</para>
+<para id="fs-id1167829921677">When your professor gets her class roster, the names of all the students in the class are listed in one column and then the student ID number is likely to be in the next column. If we think of the correspondence as a set of ordered pairs, where the first element is a student name and the second element is that student’s ID number, we call this a <term>relation</term>.</para>
+<equation id="fs-id1167836418492" class="unnumbered"><label/><m:math><m:mrow><m:mtext>(Student name, Student ID #)</m:mtext></m:mrow></m:math></equation>
+<para id="fs-id1167836547061">The set of all the names of the students in the class is called the <term>domain</term> of the relation and the set of all student ID numbers paired with these students is the range of the relation.</para>
+<para id="fs-id1167833059636">There are many similar situations where one variable is paired or matched with another. The set of ordered pairs that records this matching is a relation.</para>
+<note id="fs-id1167836378970">
+<title>Relation</title>
+<para id="fs-id1167824735594">A <emphasis effect="bold">relation</emphasis> is any set of ordered pairs,<m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>y</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math> All the <emphasis effect="italics">x</emphasis>-values in the ordered pairs together make up the <emphasis effect="bold">domain</emphasis>. All the <emphasis effect="italics">y</emphasis>-values in the ordered pairs together make up the <emphasis effect="bold">range</emphasis>.</para>
+</note>
+<example id="fs-id1167836692527">
+<exercise id="fs-id1167836327016">
+<problem id="fs-id1167833385954">
+<para id="fs-id1167826194732">For the relation <m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>9</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>4</m:mn><m:mo>,</m:mo><m:mn>16</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>5</m:mn><m:mo>,</m:mo><m:mn>25</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mo>}</m:mo></m:mrow><m:mo>:</m:mo></m:mrow></m:math></para>
+<para id="fs-id1167836619755"><span class="token">ⓐ</span> Find the domain of the relation.</para>
+<para id="fs-id1167833356505"><span class="token">ⓑ</span> Find the range of the relation.</para>
+</problem>
+<solution id="fs-id1167824765140">
+<para id="fs-id1167836597346"><m:math><m:mrow><m:mspace width="21em"/><m:mrow><m:mo>{</m:mo><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>9</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>4</m:mn><m:mo>,</m:mo><m:mn>16</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>5</m:mn><m:mo>,</m:mo><m:mn>25</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mo>}</m:mo></m:mrow></m:mrow></m:math></para>
+<para id="fs-id1167829691118"><span class="token">ⓐ</span> The domain is the set of all <emphasis effect="italics">x</emphasis>-values of the relation. <m:math><m:mrow><m:mspace width="3.3em"/><m:mrow><m:mo>{</m:mo><m:mrow><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>4</m:mn><m:mo>,</m:mo><m:mn>5</m:mn></m:mrow><m:mo>}</m:mo></m:mrow></m:mrow></m:math></para>
+<para id="fs-id1167829593929"><span class="token">ⓑ</span> The range is the set of all <emphasis effect="italics">y</emphasis>-values of the relation. <m:math><m:mrow><m:mspace width="4em"/><m:mrow><m:mo>{</m:mo><m:mrow><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>4</m:mn><m:mo>,</m:mo><m:mn>9</m:mn><m:mo>,</m:mo><m:mn>16</m:mn><m:mo>,</m:mo><m:mn>25</m:mn></m:mrow><m:mo>}</m:mo></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+</example>
+<note id="fs-id1167836629801" class="try">
+<exercise id="fs-id1167833272898">
+<problem id="fs-id1167826169765">
+<para id="fs-id1167829597566">For the relation <m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>8</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>27</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>4</m:mn><m:mo>,</m:mo><m:mn>64</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>5</m:mn><m:mo>,</m:mo><m:mn>125</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mo>}</m:mo></m:mrow><m:mo>:</m:mo></m:mrow></m:math></para>
+<para id="fs-id1167836550500"><span class="token">ⓐ</span> Find the domain of the relation.</para>
+<para id="fs-id1167833202428"><span class="token">ⓑ</span> Find the range of the relation.</para>
+</problem>
+<solution id="fs-id1167836618853">
+<para id="fs-id1167836492201"><span class="token">ⓐ</span> <m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mrow><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>4</m:mn><m:mo>,</m:mo><m:mn>5</m:mn></m:mrow><m:mo>}</m:mo></m:mrow></m:mrow></m:math><newline/><span class="token">ⓑ</span> <m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mrow><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>8</m:mn><m:mo>,</m:mo><m:mn>27</m:mn><m:mo>,</m:mo><m:mn>64</m:mn><m:mo>,</m:mo><m:mn>125</m:mn></m:mrow><m:mo>}</m:mo></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1167833021555" class="try">
+<exercise id="fs-id1167836688426">
+<problem id="fs-id1167829614386">
+<para id="fs-id1167836360520">For the relation <m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>6</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>9</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>4</m:mn><m:mo>,</m:mo><m:mn>12</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>5</m:mn><m:mo>,</m:mo><m:mn>15</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mo>}</m:mo></m:mrow><m:mo>:</m:mo></m:mrow></m:math></para>
+<para id="fs-id1167833290815"><span class="token">ⓐ</span> Find the domain of the relation.</para>
+<para id="fs-id1167825702514"><span class="token">ⓑ</span> Find the range of the relation.</para>
+</problem>
+<solution id="fs-id1167829812976">
+<para id="fs-id1167833346148"><span class="token">ⓐ</span> <m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mrow><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>4</m:mn><m:mo>,</m:mo><m:mn>5</m:mn></m:mrow><m:mo>}</m:mo></m:mrow></m:mrow></m:math><newline/><span class="token">ⓑ</span> <m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mrow><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>6</m:mn><m:mo>,</m:mo><m:mn>9</m:mn><m:mo>,</m:mo><m:mn>12</m:mn><m:mo>,</m:mo><m:mn>15</m:mn></m:mrow><m:mo>}</m:mo></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1167836509402">
+<title>Mapping</title>
+<para id="fs-id1167824927876">A <term>mapping</term> is sometimes used to show a relation. The arrows show the pairing of the elements of the domain with the elements of the range.</para>
+</note>
+<example id="fs-id1167829683746">
+<exercise id="fs-id1167824735214">
+<problem id="fs-id1167836525923">
+<para id="fs-id1167833412571">Use the <emphasis effect="bold">mapping</emphasis> of the relation shown to <span class="token">ⓐ</span> list the ordered pairs of the relation, <span class="token">ⓑ</span> find the domain of the relation, and <span class="token">ⓒ</span> find the range of the relation.</para>
+<media id="fs-id1167833364760" alt="This figure shows two table that each have one column. The table on the left has the header “Name” and lists the names “Alison”, “Penelope”, “June”, “Gregory”, “Geoffrey”, “Lauren”, “Stephen”, “Alice”, “Liz”, “Danny”. The table on the right has the header “Birthday” and lists the dates “January 12”, “February 3”, “April 25”, “May 10”, “May 23”, “July 24”, “August 2”, and “September 15”. There is one arrow for each name in the Name table that starts at the name and points toward a date in the Birthday table. While most dates have only one arrow pointing to them, there are two arrows pointing to July 24: one from Stephen and one from Liz.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_05_001_img_new.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1167836417183">
+<para id="fs-id1167836327324"><span class="token">ⓐ</span> The arrow shows the matching of the person to their birthday. We create ordered pairs with the person’s name as the <emphasis effect="italics">x</emphasis>-value and their birthday as the <emphasis effect="italics">y</emphasis>-value.</para>
+<para id="fs-id1167833008731">{(Alison, April 25), (Penelope, May 23), (June, August 2), (Gregory, September 15), (Geoffrey, January 12), (Lauren, May 10), (Stephen, July 24), (Alice, February 3), (Liz, August 2), (Danny, July 24)}</para>
+<para id="fs-id1167836788581"><span class="token">ⓑ</span> The domain is the set of all <emphasis effect="italics">x</emphasis>-values of the relation.</para>
+<para id="fs-id1167836648651">{Alison, Penelope, June, Gregory, Geoffrey, Lauren, Stephen, Alice, Liz, Danny}</para>
+<para id="fs-id1167836689824"><span class="token">ⓒ</span> The range is the set of all <emphasis effect="italics">y</emphasis>-values of the relation.</para>
+<para id="fs-id1167836326011">{January 12, February 3, April 25, May 10, May 23, July 24, August 2, September 15}</para>
+</solution>
+</exercise>
+</example>
+<note id="fs-id1167836340432" class="try">
+<exercise id="fs-id1167824700008">
+<problem id="fs-id1167829714243">
+<para id="fs-id1167829614511">Use the mapping of the relation shown to <span class="token">ⓐ</span> list the ordered pairs of the relation <span class="token">ⓑ</span> find the domain of the relation <span class="token">ⓒ</span> find the range of the relation.</para>
+<media id="fs-id1167836333597" alt="This figure shows two table that each have one column. The table on the left has the header “Name” and lists the names “Khanh Nguyen”, “Abigail Brown”, “Sumantha Mishal”, and “Jose Hern and ez”. The table on the right has the header “Student ID #” and lists the codes “a b 56781”, “j h 47983”, “k n 68413”, and “s m 32479”. There is one arrow for each name in the Name table that starts at the name and points toward a code in the student ID table. The first arrow goes from Khanh Nguyen to k n 68413. The second arrow goes from Abigail Brown to a b 56781. The third arrow goes from Sumantha Mishal to s m 32479. The fourth arrow goes from Jose Hern and ez to j h 47983.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_05_002_img_new.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1167836554322">
+<para id="fs-id1167836539147"><span class="token">ⓐ</span> (Khanh Nguyen, kn68413), (Abigail Brown, ab56781), (Sumantha Mishal, sm32479), (Jose Hern and ez, jh47983) <span class="token">ⓑ</span> {Khanh Nguyen, Abigail Brown, Sumantha Mishal, Jose Hern and ez} <span class="token">ⓒ</span> {kn68413, ab56781, sm32479, jh47983}</para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1167824754892" class="try">
+<exercise id="fs-id1167836663646">
+<problem id="fs-id1167829716810">
+<para id="fs-id1167836731398">Use the mapping of the relation shown to <span class="token">ⓐ</span> list the ordered pairs of the relation <span class="token">ⓑ</span> find the domain of the relation <span class="token">ⓒ</span> find the range of the relation.</para>
+<media id="fs-id1167833385478" alt="This figure shows two table that each have one column. The table on the left has the header “Name” and lists the names “Maria”, “Arm and o”, “Cynthia”, “Kelly”, and “Rachel”. The table on the right has the header “Birthday” and lists the dates “January 18”, “March 15”, “November 6”, and “December 8”. There is one arrow for each name in the Name table that starts at the name and points toward a date in the Birthday table. The first arrow goes from Maria to November 6. The second arrow goes from Arm and o to a January 18. The third arrow goes from Cynthia to December 8. The fourth arrow goes from Kelly to March 15. The fifth arrow goes from Rachel to November 6.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_05_003_img_new.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1167829750633">
+<para id="fs-id1167829860129"><span class="token">ⓐ</span> (Maria, November 6), (Arm and o, January 18), (Cynthia, December 8), (Kelly, March 15), (Rachel, November 6) <span class="token">ⓑ</span> {Maria, Arm and o, Cynthia, Kelly, Rachel} <span class="token">ⓒ</span> {November 6, January 18, December 8, March 15}</para>
+</solution>
+</exercise>
+</note>
+<para id="fs-id1167836532042">A graph is yet another way that a relation can be represented. The set of ordered pairs of all the points plotted is the relation. The set of all <emphasis effect="italics">x</emphasis>-coordinates is the domain of the relation and the set of all <emphasis effect="italics">y</emphasis>-coordinates is the range. Generally we write the numbers in ascending order for both the domain and range.</para>
+<example id="fs-id1167833057329">
+<exercise id="fs-id1167829877976">
+<problem id="fs-id1167836450184">
+<para id="fs-id1167829681249">Use the graph of the relation to <span class="token">ⓐ</span> list the ordered pairs of the relation <span class="token">ⓑ</span> find the domain of the relation <span class="token">ⓒ</span> find the range of the relation.</para>
+<media id="fs-id1167836673420" alt="The figure shows the graph of some points on the x y-coordinate plane. The x and y-axes run from negative 6 to 6. The points (negative 3, 4), (negative 3, negative 1), (0, 3), (1, 5), (2, negative 2), and (4, negative 2).">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_05_004_img_new.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1167833329257">
+<para id="fs-id1167836613766"><span class="token">ⓐ</span> The ordered pairs of the relation are: <m:math><m:mrow><m:mspace width="7.6em"/><m:mrow><m:mo>{</m:mo><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−3</m:mn><m:mo>,</m:mo><m:mn>−1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>4</m:mn><m:mo>,</m:mo><m:mn>−2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>−2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−3</m:mn><m:mo>,</m:mo><m:mn>4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mo>}</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+<para id="fs-id1167836429436"><span class="token">ⓑ</span> The domain is the set of all <emphasis effect="italics">x</emphasis>-values of the relation: <m:math><m:mrow><m:mspace width="2.2em"/><m:mrow><m:mo>{</m:mo><m:mrow><m:mn>−3</m:mn><m:mo>,</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>4</m:mn></m:mrow><m:mo>}</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+<para id="fs-id1167833137637">Notice that while <m:math><m:mrow><m:mn>−3</m:mn></m:mrow></m:math> repeats, it is only listed once.</para>
+<para id="fs-id1167833364739"><span class="token">ⓒ</span> The range is the set of all <emphasis effect="italics">y</emphasis>-values of the relation: <m:math><m:mrow><m:mspace width="2.9em"/><m:mrow><m:mo>{</m:mo><m:mrow><m:mn>−2</m:mn><m:mo>,</m:mo><m:mn>−1</m:mn><m:mo>,</m:mo><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>4</m:mn><m:mo>,</m:mo><m:mn>5</m:mn></m:mrow><m:mo>}</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+<para id="fs-id1167833050654">Notice that while <m:math><m:mrow><m:mn>−2</m:mn></m:mrow></m:math> repeats, it is only listed once.</para>
+</solution>
+</exercise>
+</example>
+<note id="fs-id1167829750323" class="try">
+<exercise id="fs-id1167829850985">
+<problem id="fs-id1167829879283">
+<para id="fs-id1167824773962">Use the graph of the relation to <span class="token">ⓐ</span> list the ordered pairs of the relation <span class="token">ⓑ</span> find the domain of the relation <span class="token">ⓒ</span> find the range of the relation.</para>
+<media id="fs-id1167836341066" alt="The figure shows the graph of some points on the x y-coordinate plane. The x and y-axes run from negative 6 to 6. The points (negative 3, 3), (negative 2, 2), (negative 1, 0), (0, negative 1), (2, negative 2), and (4, negative 4).">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_05_005_img_new.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1167836419079">
+<para id="fs-id1167833051815"><span class="token">ⓐ</span> <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−3</m:mn><m:mo>,</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−2</m:mn><m:mo>,</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−1</m:mn><m:mo>,</m:mo><m:mn>0</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo></m:mrow></m:math><newline/><m:math><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>−1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>−2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>4</m:mn><m:mo>,</m:mo><m:mn>−4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:math><newline/><span class="token">ⓑ</span> <m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mrow><m:mn>−3</m:mn><m:mo>,</m:mo><m:mn>−2</m:mn><m:mo>,</m:mo><m:mn>−1</m:mn><m:mo>,</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>4</m:mn></m:mrow><m:mo>}</m:mo></m:mrow></m:mrow></m:math><newline/><span class="token">ⓒ</span> <m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mrow><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>−1</m:mn><m:mo>,</m:mo><m:mn>−2</m:mn><m:mo>,</m:mo><m:mn>−4</m:mn></m:mrow><m:mo>}</m:mo></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1167829738598" class="try">
+<exercise id="fs-id1167833056928">
+<problem id="fs-id1167836485775">
+<para id="fs-id1167833050002">Use the graph of the relation to <span class="token">ⓐ</span> list the ordered pairs of the relation <span class="token">ⓑ</span> find the domain of the relation <span class="token">ⓒ</span> find the range of the relation.</para>
+<media id="fs-id1167833049956" alt="The figure shows the graph of some points on the x y-coordinate plane. The x and y-axes run from negative 6 to 6. The points (negative 3, 5), (negative 3, 0), (negative 3, negative 6), (negative 1, negative 2), (1, 2), and (4, negative 4).">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_05_006_img_new.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1167833021407">
+<para id="fs-id1167836503993"><span class="token">ⓐ</span> <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−3</m:mn><m:mo>,</m:mo><m:mn>0</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−3</m:mn><m:mo>,</m:mo><m:mn>5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−3</m:mn><m:mo>,</m:mo><m:mn>−6</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo></m:mrow></m:math><newline/><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−1</m:mn><m:mo>,</m:mo><m:mn>−2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>4</m:mn><m:mo>,</m:mo><m:mn>−4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math><newline/><span class="token">ⓑ</span> <m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mrow><m:mn>−3</m:mn><m:mo>,</m:mo><m:mn>−1</m:mn><m:mo>,</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>4</m:mn></m:mrow><m:mo>}</m:mo></m:mrow></m:mrow></m:math><newline/><span class="token">ⓒ</span> <m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mrow><m:mn>−6</m:mn><m:mo>,</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>5</m:mn><m:mo>,</m:mo><m:mn>−2</m:mn><m:mo>,</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>−4</m:mn></m:mrow><m:mo>}</m:mo></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+</section>
+<section id="fs-id1167836610583">
+<title>Determine if a Relation is a Function</title>
+<para id="fs-id1167826171759">A special type of relation, called a <term>function</term>, occurs extensively in mathematics. A function is a relation that assigns to each element in its domain exactly one element in the range. For each ordered pair in the relation, each <emphasis effect="italics">x</emphasis>-value is matched with only one <emphasis effect="italics">y</emphasis>-value.</para>
+<note id="fs-id1167836614987">
+<title>Function</title>
+<para id="fs-id1167829714644">A <emphasis effect="bold">function</emphasis> is a relation that assigns to each element in its domain exactly one element in the range.</para>
+</note>
+<para id="fs-id1167836532939">The birthday example from <link target-id="fs-id1167829683746"/> helps us understand this definition. Every person has a birthday but no one has two birthdays. It is okay for two people to share a birthday. It is okay that Danny and Stephen share July 24<sup>th</sup> as their birthday and that June and Liz share August 2<sup>nd</sup>. Since each person has exactly one birthday, the relation in <link target-id="fs-id1167829683746"/> is a function.</para>
+<para id="fs-id1167836601426">The relation shown by the graph in <link target-id="fs-id1167833057329"/> includes the ordered pairs <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−3</m:mn><m:mo>,</m:mo><m:mn>−1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> and <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−3</m:mn><m:mo>,</m:mo><m:mn>4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math> Is that okay in a function? No, as this is like one person having two different birthdays.</para>
+<example id="fs-id1167829719636">
+<exercise id="fs-id1167824733092">
+<problem id="fs-id1167826132575">
+<para id="fs-id1167836456488">Use the set of ordered pairs to (i) determine whether the relation is a function (ii) find the domain of the relation (iii) find the range of the relation.</para>
+<para id="fs-id1167836518420"><span class="token">ⓐ</span> <m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−3</m:mn><m:mo>,</m:mo><m:mn>27</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−2</m:mn><m:mo>,</m:mo><m:mn>8</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−1</m:mn><m:mo>,</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>0</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>8</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>27</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mo>}</m:mo></m:mrow></m:mrow></m:math></para>
+<para id="fs-id1167824735617"><span class="token">ⓑ</span> <m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>9</m:mn><m:mo>,</m:mo><m:mn>−3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>4</m:mn><m:mo>,</m:mo><m:mn>−2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>−1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>0</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>4</m:mn><m:mo>,</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>9</m:mn><m:mo>,</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mo>}</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167833052137">
+<para id="fs-id1167836511265"><span class="token">ⓐ</span> <m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−3</m:mn><m:mo>,</m:mo><m:mn>27</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−2</m:mn><m:mo>,</m:mo><m:mn>8</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−1</m:mn><m:mo>,</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>0</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>8</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>27</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mo>}</m:mo></m:mrow></m:mrow></m:math></para>
+<para id="fs-id1167836691895">(i) Each <emphasis effect="italics">x</emphasis>-value is matched with only one <emphasis effect="italics">y</emphasis>-value. So this relation is a function.</para>
+<para id="fs-id1167836543761">(ii) The domain is the set of all <emphasis effect="italics">x</emphasis>-values in the relation.<newline/>The domain is: <m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mrow><m:mn>−3</m:mn><m:mo>,</m:mo><m:mn>−2</m:mn><m:mo>,</m:mo><m:mn>−1</m:mn><m:mo>,</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>3</m:mn></m:mrow><m:mo>}</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+<para id="fs-id1167836282463">(iii) The range is the set of all <emphasis effect="italics">y</emphasis>-values in the relation. Notice we do not list range values twice.<newline/>The range is: <m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mrow><m:mn>27</m:mn><m:mo>,</m:mo><m:mn>8</m:mn><m:mo>,</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>0</m:mn></m:mrow><m:mo>}</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+<para id="fs-id1167824735962"><span class="token">ⓑ</span> <m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>9</m:mn><m:mo>,</m:mo><m:mn>−3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>4</m:mn><m:mo>,</m:mo><m:mn>−2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>−1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>0</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>4</m:mn><m:mo>,</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>9</m:mn><m:mo>,</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mo>}</m:mo></m:mrow></m:mrow></m:math></para>
+<para id="fs-id1167833223866">(i) The <emphasis effect="italics">x</emphasis>-value 9 is matched with two <emphasis effect="italics">y</emphasis>-values, both 3 and <m:math><m:mrow><m:mn>−3</m:mn><m:mo>.</m:mo></m:mrow></m:math> So this relation is not a function.</para>
+<para id="fs-id1167836552428">(ii) The domain is the set of all <emphasis effect="italics">x</emphasis>-values in the relation. Notice we do not list domain values twice.<newline/>The domain is: <m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>4</m:mn><m:mo>,</m:mo><m:mn>9</m:mn></m:mrow><m:mo>}</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+<para id="fs-id1167836507848">(iii) The range is the set of all <emphasis effect="italics">y</emphasis>-values in the relation.<newline/>The range is: <m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mrow><m:mn>−3</m:mn><m:mo>,</m:mo><m:mn>−2</m:mn><m:mo>,</m:mo><m:mn>−1</m:mn><m:mo>,</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>3</m:mn></m:mrow><m:mo>}</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</solution>
+</exercise>
+</example>
+<note id="fs-id1167829742590" class="try">
+<exercise id="fs-id1167836356655">
+<problem id="fs-id1167836544009">
+<para id="fs-id1167833060073">Use the set of ordered pairs to (i) determine whether the relation is a function (ii) find the domain of the relation (iii) find the range of the function.</para>
+<para id="fs-id1167832951108"><span class="token">ⓐ</span> <m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−3</m:mn><m:mo>,</m:mo><m:mn>−6</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−2</m:mn><m:mo>,</m:mo><m:mn>−4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−1</m:mn><m:mo>,</m:mo><m:mn>−2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>0</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>6</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mo>}</m:mo></m:mrow></m:mrow></m:math></para>
+<para id="fs-id1167833380236"><span class="token">ⓑ</span> <m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>8</m:mn><m:mo>,</m:mo><m:mn>−4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>4</m:mn><m:mo>,</m:mo><m:mn>−2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>−1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>0</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>4</m:mn><m:mo>,</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>8</m:mn><m:mo>,</m:mo><m:mn>4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mo>}</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836352889">
+<para id="fs-id1167826188989"><span class="token">ⓐ</span> Yes; <m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mrow><m:mn>−3</m:mn><m:mo>,</m:mo><m:mn>−2</m:mn><m:mo>,</m:mo><m:mn>−1</m:mn><m:mo>,</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>3</m:mn></m:mrow><m:mo>}</m:mo></m:mrow><m:mo>;</m:mo></m:mrow></m:math><newline/><m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mrow><m:mn>−6</m:mn><m:mo>,</m:mo><m:mn>−4</m:mn><m:mo>,</m:mo></m:mrow></m:mrow><m:mn>−2</m:mn><m:mo>,</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>4</m:mn><m:mo>,</m:mo><m:mn>6</m:mn></m:mrow><m:mo>}</m:mo></m:math><newline/><span class="token">ⓑ</span> No; <m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>4</m:mn><m:mo>,</m:mo><m:mn>8</m:mn></m:mrow><m:mo>}</m:mo></m:mrow><m:mo>;</m:mo></m:mrow></m:math><newline/><m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mrow><m:mn>−4</m:mn><m:mo>,</m:mo><m:mn>−2</m:mn><m:mo>,</m:mo><m:mn>−1</m:mn><m:mo>,</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>4</m:mn></m:mrow><m:mo>}</m:mo></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1167836362682" class="try">
+<exercise id="fs-id1167836533244">
+<problem id="fs-id1167836717454">
+<para id="fs-id1167836550940">Use the set of ordered pairs to (i) determine whether the relation is a function (ii) find the domain of the relation (iii) find the range of the relation.</para>
+<para id="fs-id1167836598862"><span class="token">ⓐ</span> <m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>27</m:mn><m:mo>,</m:mo><m:mn>−3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>8</m:mn><m:mo>,</m:mo><m:mn>−2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>−1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>0</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>8</m:mn><m:mo>,</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>27</m:mn><m:mo>,</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mo>}</m:mo></m:mrow></m:mrow></m:math></para>
+<para id="fs-id1167836310540"><span class="token">ⓑ</span> <m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>7</m:mn><m:mo>,</m:mo><m:mn>−3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−5</m:mn><m:mo>,</m:mo><m:mn>−4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>8</m:mn><m:mo>,</m:mo><m:mn>−0</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>0</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−6</m:mn><m:mo>,</m:mo><m:mn>4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−2</m:mn><m:mo>,</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−1</m:mn><m:mo>,</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mo>}</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836298199">
+<para id="fs-id1167836798080"><span class="token">ⓐ</span> No; <m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>8</m:mn><m:mo>,</m:mo><m:mn>27</m:mn></m:mrow><m:mo>}</m:mo></m:mrow><m:mo>;</m:mo></m:mrow></m:math><newline/><m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mrow><m:mn>−3</m:mn><m:mo>,</m:mo><m:mn>−2</m:mn><m:mo>,</m:mo><m:mn>−1</m:mn><m:mo>,</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>3</m:mn></m:mrow><m:mo>}</m:mo></m:mrow></m:mrow></m:math><newline/><span class="token">ⓑ</span> Yes; <m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mrow><m:mn>7</m:mn><m:mo>,</m:mo><m:mn>−5</m:mn><m:mo>,</m:mo><m:mn>8</m:mn><m:mo>,</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>−6</m:mn><m:mo>,</m:mo><m:mn>−2</m:mn><m:mo>,</m:mo><m:mn>−1</m:mn></m:mrow><m:mo>}</m:mo></m:mrow><m:mo>;</m:mo></m:mrow></m:math><newline/><m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mrow><m:mn>−3</m:mn><m:mo>,</m:mo><m:mn>−4</m:mn><m:mo>,</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>4</m:mn><m:mo>,</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>3</m:mn></m:mrow><m:mo>}</m:mo></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<example id="fs-id1167836539582">
+<exercise id="fs-id1167829586801">
+<problem id="fs-id1167836684155">
+<para id="fs-id1167833059664">Use the mapping to <span class="token">ⓐ</span> determine whether the relation is a function <span class="token">ⓑ</span> find the domain of the relation <span class="token">ⓒ</span> find the range of the relation.</para>
+<media id="fs-id1167829942558" alt="This figure shows two table that each have one column. The table on the left has the header “Name” and lists the names “Lydia”, “Eugene”, “Janet”, “Rick”, and “Marty”. The table on the right has the header “Phone number” and lists the numbers “321-549-3327 home”, “427-658-2314 cell”, “321-964-7324 cell”, “684-358-7961 home”, “684-369-7231 cell”, and “798-367-8541 cell”. There are arrows that start at a name and points toward a number in the phone number table. The first arrow goes from Lydia to 321-549-3327 home. The second arrow goes from Lydia to a 321-964-7324 cell. The third arrow goes from Eugene to 427-658-2314 cell. The fourth arrow goes from Janet to 427-658-2314 cell. The fifth arrow goes from Rick to 798-367-8541 cell. The sixth arrow goes from Marty to 684-358-7961 home. The seventh arrow goes from Marty to 684-369-7231 cell.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_05_007_img_new.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1167836698471">
+<para id="fs-id1167825703151"><span class="token">ⓐ</span> Both Lydia and Marty have two phone numbers. So each <emphasis effect="italics">x</emphasis>-value is not matched with only one <emphasis effect="italics">y</emphasis>-value. So this relation is not a function.</para>
+<para id="fs-id1167833369757"><span class="token">ⓑ</span> The domain is the set of all <emphasis effect="italics">x</emphasis>-values in the relation. The domain is: {Lydia, Eugene, Janet, Rick, Marty}</para>
+<para id="fs-id1167830076911"><span class="token">ⓒ</span> The range is the set of all <emphasis effect="italics">y</emphasis>-values in the relation. The range is:</para>
+<para id="fs-id1167836576219"><m:math><m:mrow><m:mo>{</m:mo><m:mn>321-549-3327</m:mn><m:mo>,</m:mo></m:mrow></m:math> <m:math><m:mrow><m:mn>427-658-2314</m:mn><m:mo>,</m:mo></m:mrow></m:math> <m:math><m:mrow><m:mn>321-964-7324</m:mn><m:mo>,</m:mo></m:mrow></m:math> <m:math><m:mrow><m:mn>684-358-7961</m:mn><m:mo>,</m:mo></m:mrow></m:math> <m:math><m:mrow><m:mn>684-369-7231</m:mn><m:mo>,</m:mo></m:mrow></m:math> <m:math><m:mrow><m:mn>798-367-8541</m:mn><m:mo>}</m:mo></m:mrow></m:math></para>
+</solution>
+</exercise>
+</example>
+<note id="fs-id1167836378848" class="try">
+<exercise id="fs-id1167833397170">
+<problem id="fs-id1167836361517">
+<para id="fs-id1167836520781">Use the mapping to <span class="token">ⓐ</span> determine whether the relation is a function <span class="token">ⓑ</span> find the domain of the relation <span class="token">ⓒ</span> find the range of the relation.</para>
+<media id="fs-id1167836392154" alt="This figure shows two table that each have one column. The table on the left has the header “Network” and lists the television stations “NBC”, “HGTV”, and “HBO”. The table on the right has the header “Program” and lists the television shows “Ellen Degeneres Show”, “Law and Order”, “Tonight Show”, “Property Brothers”, “House Hunters”, “Love it or List it”, “Game of Thrones”, “True Detective”, and “Sesame Street”. There are arrows that start at a network in the first table and point toward a program in the second table. The first arrow goes from NBC to Ellen Degeneres Show. The second arrow goes from NBC to Law and Order. The third arrow goes from NBC to Tonight Show. The fourth arrow goes from HGTV to Property Brothers. The fifth arrow goes from HGTV to House Hunters. The sixth arrow goes from HGTV to Love it or List it. The seventh arrow goes from HBO to Game of Thrones. The eighth arrow goes from HBO to True Detective. The ninth arrow goes from HBO to Sesame Street.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_05_008_img_new.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1167836388771">
+<para id="fs-id1167829830534"><span class="token">ⓐ</span> no <span class="token">ⓑ</span> {NBC, HGTV, HBO} <span class="token">ⓒ</span> {Ellen Degeneres Show, Law and Order, Tonight Show, Property Brothers, House Hunters, Love it or List it, Game of Thrones, True Detective, Sesame Street}</para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1167836511080" class="try">
+<exercise id="fs-id1167836606033">
+<problem id="fs-id1167829579633">
+<para id="fs-id1167833386907">Use the mapping to <span class="token">ⓐ</span> determine whether the relation is a function <span class="token">ⓑ</span> find the domain of the relation <span class="token">ⓒ</span> find the range of the relation.</para>
+<media id="fs-id1167836282707" alt="This figure shows two table that each have one column. The table on the left has the header “Name” and lists the names “Neal”, “Krystal”, “Kelvin”, “George”, “Christa”, and “Mike”. The table on the right has the header “Phone number” and lists the numbers “123-567-4389 work”, “231-378-5941 cell”, “753-469-9731 cell”, “567-534-2970 work”, “684-369-7231 cell”, “798-367-8541 cell”, and “639-847-6971 cell”. There are arrows that start at a name and points toward a number in the phone number table. The first arrow goes from Neal to 753-469-9731 cell. The second arrow goes from Krystal to a 684-369-7231 cell. The third arrow goes from Kelvin to 231-378-5941 cell. The fourth arrow goes from George to 123-567-4389 work. The fifth arrow goes from George to 639-847-6971 cell. The sixth arrow goes from Christa to 567-534-2970 work. The seventh arrow goes from Mike to 567-534-2970 work. The eighth arrow goes from Mike to 798-367-8541 cell.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_05_009_img_new.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1167836754813">
+<para id="fs-id1167836407181"><span class="token">ⓐ</span> No <span class="token">ⓑ</span> {Neal, Krystal, Kelvin, George, Christa, Mike} <span class="token">ⓒ</span> {123-567-4839 work, 231-378-5941 cell, 743-469-9731 cell, 567-534-2970 work, 684-369-7231 cell, 798-367-8541 cell, 639-847-6971 cell}</para>
+</solution>
+</exercise>
+</note>
+<para id="fs-id1167836568027">In algebra, more often than not, functions will be represented by an equation. It is easiest to see if the equation is a function when it is solved for <emphasis effect="italics">y</emphasis>. If each value of <emphasis effect="italics">x</emphasis> results in only one value of <emphasis effect="italics">y</emphasis>, then the equation defines a function.</para>
+<example id="fs-id1167836683566">
+<exercise id="fs-id1167836561265">
+<problem id="fs-id1167836506912">
+<para id="fs-id1167829681109">Determine whether each equation is a function. Assume <m:math><m:mi>x</m:mi></m:math> is the independent variable.</para>
+<para id="fs-id1167833303503"><span class="token">ⓐ</span> <m:math><m:mrow><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>7</m:mn></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:math> <span class="token">ⓒ</span> <m:math><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>3</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836398976">
+<para id="fs-id1167829599793"><span class="token">ⓐ</span> <m:math><m:mrow><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>7</m:mn></m:mrow></m:math></para>
+<para id="fs-id1167832926075">For each value of <emphasis effect="italics">x</emphasis>, we multiply it by <m:math><m:mrow><m:mn>−2</m:mn></m:mrow></m:math> and then add 7 to get the <emphasis effect="italics">y</emphasis>-value</para>
+<table id="fs-id1167836429672" class="unnumbered unstyled" summary="y = negative 2 x plus 7. For example, if x = 3. y = negative 2 times 3 plus 7. y = 1.">
+<label/>
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<tbody>
+<row>
+<entry/>
+<entry valign="top" align="left"><media id="fs-id1167836495341" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_05_010a_img.jpg"/>
+</media>
+</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">For example, if <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>3</m:mn><m:mo>:</m:mo><m:mspace width="2em"/></m:mrow></m:math></entry>
+<entry valign="top" align="left"><media id="fs-id1167836619694" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_05_010b_img.jpg"/>
+</media>
+</entry>
+</row>
+<row valign="top">
+<entry/>
+<entry valign="top" align="left"><media id="fs-id1167836326343" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_05_010c_img.jpg"/>
+</media>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<para id="fs-id1167833056514">We have that when <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>3</m:mn><m:mo>,</m:mo></m:mrow></m:math> then <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>.</m:mo></m:mrow></m:math> It would work similarly for any value of <emphasis effect="italics">x</emphasis>. Since each value of <emphasis effect="italics">x</emphasis>, corresponds to only one value of <emphasis effect="italics">y</emphasis> the equation defines a function.</para>
+<para id="fs-id1167836447354"><span class="token">ⓑ</span> <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:math></para>
+<para id="fs-id1167829712213">For each value of <emphasis effect="italics">x</emphasis>, we square it and then add 1 to get the <emphasis effect="italics">y</emphasis>-value.</para>
+<table id="fs-id1167836533787" class="unnumbered unstyled" summary="y = x squared plus 1. For example, if x = 2. y = 2 squared plus 1. y = 5.">
+<label/>
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<tbody>
+<row>
+<entry/>
+<entry valign="top" align="left"><media id="fs-id1167836547666" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_05_011a_img.jpg"/>
+</media>
+</entry>
+</row>
+<row>
+<entry valign="top" align="left">For example, if <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mo>:</m:mo><m:mspace width="2em"/></m:mrow></m:math></entry>
+<entry valign="top" align="left"><media id="fs-id1167836616301" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_05_011b_img.jpg"/>
+</media>
+</entry>
+</row>
+<row>
+<entry/>
+<entry valign="top" align="left"><media id="fs-id1167836510387" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_05_011c_img.jpg"/>
+</media>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<para id="fs-id1167829936815">We have that when <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mo>,</m:mo></m:mrow></m:math> then <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>5</m:mn><m:mo>.</m:mo></m:mrow></m:math> It would work similarly for any value of <emphasis effect="italics">x</emphasis>. Since each value of <emphasis effect="italics">x</emphasis>, corresponds to only one value of <emphasis effect="italics">y</emphasis> the equation defines a function.</para>
+<para id="fs-id1167836515845"><span class="token">ⓒ</span><newline/>
+<table id="fs-id1167829596595" class="unnumbered unstyled" summary="x plus y squared = 3. Isolate the y term. y squared = negative x plus 3. Let’s substitute x = 2. y squared = negative 2 plus 3. y squared = 1.">
+<label/>
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<tbody>
+<row>
+<entry/>
+<entry valign="top" align="left"><media id="fs-id1167829789899" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_05_012a_img.jpg"/>
+</media>
+</entry>
+</row>
+<row>
+<entry valign="top" align="left">Isolate the <emphasis effect="italics">y</emphasis> term.</entry>
+<entry valign="top" align="left"><media id="fs-id1167833356461" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_05_012b_img.jpg"/>
+</media>
+</entry>
+</row>
+<row>
+<entry valign="top" align="left">Let’s substitute <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mo>.</m:mo></m:mrow></m:math></entry>
+<entry valign="top" align="left"><media id="fs-id1167836618915" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_05_012c_img.jpg"/>
+</media>
+</entry>
+</row>
+<row>
+<entry/>
+<entry valign="top" align="left"><media id="fs-id1167836296194" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_05_012d_img.jpg"/>
+</media>
+</entry>
+</row>
+<row>
+<entry>This give us two values for <emphasis effect="italics">y</emphasis>.</entry>
+<entry valign="top" align="center"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−1</m:mn></m:mrow></m:math></entry>
+</row>
+</tbody>
+</tgroup>
+</table></para>
+<para id="fs-id1167836539656">We have shown that when <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mo>,</m:mo></m:mrow></m:math> then <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math> and <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−1</m:mn><m:mo>.</m:mo></m:mrow></m:math> It would work similarly for any value of <emphasis effect="italics">x</emphasis>. Since each value of <emphasis effect="italics">x</emphasis> does not corresponds to only one value of <emphasis effect="italics">y</emphasis> the equation does not define a function.</para>
+</solution>
+</exercise>
+</example>
+<note id="fs-id1167833379684" class="try">
+<exercise id="fs-id1167836585298">
+<problem id="fs-id1167836356048">
+<para id="fs-id1167829716494">Determine whether each equation is a function.</para>
+<para id="fs-id1167836713610"><span class="token">ⓐ</span> <m:math><m:mrow><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−3</m:mn></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math> <span class="token">ⓒ</span> <m:math><m:mrow><m:mi>y</m:mi><m:mo>−</m:mo><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>2</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167829811714">
+<para id="fs-id1167833255910"><span class="token">ⓐ</span> yes <span class="token">ⓑ</span> no <span class="token">ⓒ</span> yes</para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1167833369174" class="try">
+<exercise id="fs-id1167829579861">
+<problem id="fs-id1167836614714">
+<para id="fs-id1167836730830">Determine whether each equation is a function.</para>
+<para id="fs-id1167836621950"><span class="token">ⓐ</span> <m:math><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>4</m:mn></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>7</m:mn></m:mrow></m:math> <span class="token">ⓒ</span> <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>5</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>4</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836289689">
+<para id="fs-id1167829859295"><span class="token">ⓐ</span> no <span class="token">ⓑ</span> yes <span class="token">ⓒ</span> yes</para>
+</solution>
+</exercise>
+</note>
+</section>
+<section id="fs-id1167824731607">
+<title>Find the Value of a Function</title>
+<para id="fs-id1167836315013">It is very convenient to name a function and most often we name it <emphasis effect="italics">f</emphasis>, <emphasis effect="italics">g</emphasis>, <emphasis effect="italics">h</emphasis>, <emphasis effect="italics">F</emphasis>, <emphasis effect="italics">G</emphasis>, or <emphasis effect="italics">H</emphasis>. In any function, for each <emphasis effect="italics">x</emphasis>-value from the domain we get a corresponding <emphasis effect="italics">y</emphasis>-value in the range. For the function <emphasis effect="italics">f</emphasis>, we write this range value <emphasis effect="italics">y</emphasis> as <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math> This is called function notation and is read <emphasis effect="italics">f</emphasis> of <emphasis effect="italics">x</emphasis> or the value of <emphasis effect="italics">f</emphasis> at <emphasis effect="italics">x</emphasis>. In this case the parentheses does not indicate multiplication.</para>
+<note id="fs-id1167824735502">
+<title>Function Notation</title>
+<para id="fs-id1167836379405">For the function <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para>
+<equation id="fs-id1167829590438" class="unnumbered"><label/><m:math><m:mrow><m:mtable><m:mtr><m:mtd columnalign="left"><m:mi>f</m:mi><m:mspace width="0.2em"/><m:mtext>is the name of the function</m:mtext></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mi>x</m:mi><m:mspace width="0.2em"/><m:mtext>is the domain value</m:mtext></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mspace width="0.2em"/><m:mtext>is the range value</m:mtext><m:mspace width="0.2em"/><m:mi>y</m:mi><m:mspace width="0.2em"/><m:mtext>corresponding to the value</m:mtext><m:mspace width="0.2em"/><m:mi>x</m:mi></m:mtd></m:mtr></m:mtable></m:mrow></m:math></equation>
+<para id="fs-id1167829743148">We read <m:math><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math> as <emphasis effect="italics">f</emphasis> of <emphasis effect="italics">x</emphasis> or the value of <emphasis effect="italics">f</emphasis> at <emphasis effect="italics">x</emphasis>.</para>
+</note>
+<para id="fs-id1167833186483">We call <emphasis effect="italics">x</emphasis> the independent variable as it can be any value in the domain. We call <emphasis effect="italics">y</emphasis> the dependent variable as its value depends on <emphasis effect="italics">x</emphasis>.</para>
+<note id="fs-id1167829620795">
+<title>Independent and Dependent Variables</title>
+<para id="fs-id1167836548512">For the function <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>,</m:mo></m:mrow></m:math></para>
+<equation id="fs-id1167836732021" class="unnumbered"><label/><m:math><m:mrow><m:mtable><m:mtr><m:mtd columnalign="left"><m:mi>x</m:mi><m:mspace width="0.2em"/><m:mtext>is the independent variable as it can be any value in the domain</m:mtext></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mi>y</m:mi><m:mspace width="0.2em"/><m:mtext>the dependent variable as its value depends on</m:mtext><m:mspace width="0.2em"/><m:mi>x</m:mi></m:mtd></m:mtr></m:mtable></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1167836362234">Much as when you first encountered the variable <emphasis effect="italics">x</emphasis>, function notation may be rather unsettling. It seems strange because it is new. You will feel more comfortable with the notation as you use it.</para>
+<para id="fs-id1167833051398">Let’s look at the equation <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>5</m:mn><m:mo>.</m:mo></m:mrow></m:math> To find the value of <emphasis effect="italics">y</emphasis> when <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mo>,</m:mo></m:mrow></m:math> we know to substitute <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>2</m:mn></m:mrow></m:math> into the equation and then simplify.</para>
+<table id="fs-id1167833202337" class="unnumbered unstyled" summary="y = 4 x minus 5. Let x = 2. y = 4 times 2 minus 5. y = 3.">
+<label/>
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<tbody>
+<row>
+<entry/>
+<entry valign="top" align="left"><media id="fs-id1167836353205" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_05_013a_img.jpg"/>
+</media>
+</entry>
+</row>
+<row>
+<entry valign="top" align="left">Let <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mo>.</m:mo></m:mrow></m:math></entry>
+<entry valign="top" align="left"><media id="fs-id1167836433912" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_05_013b_img.jpg"/>
+</media>
+</entry>
+</row>
+<row>
+<entry/>
+<entry valign="top" align="left"><media id="fs-id1167832926879" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_05_013c_img.jpg"/>
+</media>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<para id="fs-id1167829718470">The value of the function at <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>2</m:mn></m:mrow></m:math> is 3.</para>
+<para id="fs-id1167836560949">We do the same thing using function notation, the equation <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>5</m:mn></m:mrow></m:math> can be written as <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>5</m:mn><m:mo>.</m:mo></m:mrow></m:math> To find the value when <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mo>,</m:mo></m:mrow></m:math> we write:</para>
+<table id="fs-id1167836326537" class="unnumbered unstyled" summary="f of x = 4 x minus 5. Let x = 2. f of 2 = 4 times 2 minus 5. f of 2 = 3.">
+<label/>
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<tbody>
+<row>
+<entry/>
+<entry valign="top" align="left"><media id="fs-id1167836447887" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_05_014a_img.jpg"/>
+</media>
+</entry>
+</row>
+<row>
+<entry valign="top" align="left">Let <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mo>.</m:mo></m:mrow></m:math></entry>
+<entry valign="top" align="left"><media id="fs-id1167836314769" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_05_014b_img.jpg"/>
+</media>
+</entry>
+</row>
+<row>
+<entry/>
+<entry valign="top" align="left"><media id="fs-id1167836399865" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_05_014c_img.jpg"/>
+</media>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<para id="fs-id1167836456485">The value of the function at <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>2</m:mn></m:mrow></m:math> is 3.</para>
+<para id="fs-id1167836629682">This process of finding the value of <m:math><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math> for a given value of <emphasis effect="italics">x</emphasis> is called <emphasis effect="italics">evaluating the function.</emphasis></para>
+
+<example id="fs-id1167836521479">
+<exercise id="fs-id1167836596680">
+<problem id="fs-id1167833224521">
+<para id="fs-id1167833369207">For the function <m:math><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>2</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn><m:mo>,</m:mo></m:mrow></m:math> evaluate the function.</para>
+<para id="fs-id1167836416554"><span class="token">ⓐ</span> <m:math><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mn>−2</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math> <span class="token">ⓒ</span> <m:math><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>a</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167829756296">
+<para id="fs-id1167829590752"><span class="token">ⓐ</span><newline/>
+<table id="fs-id1167836507536" class="unnumbered unstyled" summary="f of x = 2 x squared plus 3 x minus 1. To evaluate f of 3, substitute 3 for x. f of 3 = 2 times 3 squared plus 3 times 3 minus 1. Simplify. f of 3 = 2 times 9 plus 3 times 3 minus 1. f of 3 = 18 plus 9 minus 1. f of 3 = 26.">
+<label/>
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<tbody>
+<row>
+<entry/>
+<entry valign="top" align="left"><media id="fs-id1167836293439" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_05_015a_img.jpg"/>
+</media>
+</entry>
+</row>
+<row>
+<entry valign="top" align="left">To evaluate <m:math><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo><m:mo>,</m:mo></m:mrow></m:math> substitute 3 for <emphasis effect="italics">x</emphasis>.</entry>
+<entry valign="top" align="left"><media id="fs-id1167832999716" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_05_015b_img.jpg"/>
+</media>
+</entry>
+</row>
+<row>
+<entry valign="top" align="left">Simplify.</entry>
+<entry valign="top" align="left"><media id="fs-id1167836520086" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_05_015c_img.jpg"/>
+</media>
+</entry>
+</row>
+<row>
+<entry/>
+<entry valign="top" align="left"><media id="fs-id1167832980523" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_05_015d_img.jpg"/>
+</media>
+</entry>
+</row>
+<row>
+<entry/>
+<entry valign="top" align="left"><media id="fs-id1167829852974" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_05_015e_img.jpg"/>
+</media>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table></para>
+<para id="fs-id1167836775152"><span class="token">ⓑ</span><newline/>
+<table id="fs-id1167829740069" class="unnumbered unstyled" summary="f of x = 2 x squared plus 3 x minus 1. To evaluate f of negative 2, substitute negative 2 for x. f of negative 2 = 2 times the quantity negative 2 in parentheses squared plus 3 times negative 2 minus 1. Simplify. f of negative 2 = 2 times 4 plus negative 6 minus 1. f of negative 2 = 1.">
+<label/>
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<colspec colnum="4" colname="c4"/>
+<tbody>
+<row>
+<entry/>
+<entry/>
+<entry valign="top" align="left"><media id="fs-id1167829853948" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_05_016b_img.jpg"/>
+</media>
+</entry>
+</row>
+<row>
+<entry valign="top" align="left"><media id="fs-id1171792372816" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_05_016a_img.jpg"/>
+</media>
+</entry>
+<entry/>
+<entry valign="top" align="left"><media id="fs-id1167829694507" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_05_016c_img.jpg"/>
+</media>
+</entry>
+</row>
+<row>
+<entry valign="top" align="left">Simplify.</entry>
+<entry/>
+<entry valign="top" align="left"><media id="fs-id1167829715540" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_05_016d_img.jpg"/>
+</media>
+</entry>
+</row>
+<row>
+<entry/>
+<entry/>
+<entry valign="top" align="left"><media id="fs-id1167836532685" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_05_016e_img.jpg"/>
+</media>
+</entry>
+</row>
+<row>
+<entry/>
+<entry/>
+<entry valign="top" align="left"><media id="fs-id1167829695370" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_05_016f_img.jpg"/>
+</media>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table></para>
+<para id="fs-id1167836601841"><span class="token">ⓒ</span><newline/>
+<table id="fs-id1167836600305" class="unnumbered unstyled" summary="f of x = 2 x squared plus 3 x minus 1. To evaluate f of a, substitute a for x. f of a = 2 times a squared plus 3 times a minus 1. Simplify. f of a = 2 a squared plus 3 a minus 1.">
+<label/>
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<tbody>
+<row>
+<entry/>
+<entry valign="top" align="left"><media id="fs-id1167836685384" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_05_017a_img.jpg"/>
+</media>
+</entry>
+</row>
+<row>
+<entry valign="top" align="left">To evaluate <m:math><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>a</m:mi><m:mo stretchy="false">)</m:mo><m:mo>,</m:mo></m:mrow></m:math> substitute <emphasis effect="italics">a</emphasis> for <emphasis effect="italics">x</emphasis>.</entry>
+<entry valign="top" align="left"><media id="fs-id1167836362257" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_05_017b_img.jpg"/>
+</media>
+</entry>
+</row>
+<row>
+<entry valign="top" align="left">Simplify.</entry>
+<entry valign="top" align="left"><media id="fs-id1167836320903" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_05_017c_img.jpg"/>
+</media>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table></para>
+</solution>
+</exercise>
+</example>
+
+<note id="fs-id1167836388368" class="try">
+<exercise id="fs-id1167836648690">
+<problem id="fs-id1167836520515">
+<para id="fs-id1167836363586">For the function <m:math><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>3</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo>,</m:mo></m:mrow></m:math> evaluate the function.</para>
+<para id="fs-id1167836625930"><span class="token">ⓐ</span> <m:math><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mn>−1</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math> <span class="token">ⓒ</span> <m:math><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167833135306">
+<para id="fs-id1167825884792"><span class="token">ⓐ</span> <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mn>3</m:mn><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>22</m:mn></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>6</m:mn></m:mrow></m:math> <span class="token">ⓒ</span> <m:math><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>3</m:mn><m:msup><m:mi>t</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>t</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1167824578714" class="try">
+<exercise id="fs-id1167836729386">
+<problem id="fs-id1167833269886">
+<para id="fs-id1167833269888">For the function <m:math><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>2</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:mo>,</m:mo></m:mrow></m:math> evaluate the function.</para>
+<para id="fs-id1167829579645"><span class="token">ⓐ</span> <m:math><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mn>−3</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math> <span class="token">ⓒ</span> <m:math><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>h</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167829783753">
+<para id="fs-id1167836732807"><span class="token">ⓐ</span> <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mn>2</m:mn><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>13</m:mn></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>3</m:mn></m:mrow></m:math><newline/><span class="token">ⓒ</span> <m:math><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>h</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>2</m:mn><m:msup><m:mi>h</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>4</m:mn><m:mi>h</m:mi><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<para id="fs-id1167836518536">In the last example, we found <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:mrow></m:math> for a constant value of <emphasis effect="italics">x</emphasis>. In the next example, we are asked to find <m:math><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:mrow></m:math> with values of <emphasis effect="italics">x</emphasis> that are variables. We still follow the same procedure and substitute the variables in for the <emphasis effect="italics">x</emphasis>.</para>
+
+<example id="fs-id1167829859398">
+<exercise id="fs-id1167833137652">
+<problem id="fs-id1167836619820">
+<para id="fs-id1167836619822">For the function <m:math><m:mrow><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>5</m:mn><m:mo>,</m:mo></m:mrow></m:math> evaluate the function.</para>
+<para id="fs-id1167836320931"><span class="token">ⓐ</span> <m:math><m:mrow><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:msup><m:mi>h</m:mi><m:mn>2</m:mn></m:msup><m:mo stretchy="false">)</m:mo></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math> <span class="token">ⓒ</span> <m:math><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mn>2</m:mn><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167833397154">
+<para id="fs-id1167836754871"><span class="token">ⓐ</span><newline/>
+<table id="fs-id1171790386499" class="unnumbered unstyled" summary="g of x = 3 x minus 5. To evaluate g of h squared, substitute h squared for x. g of h squared = 3 times h squared minus 5. Simplify. g of h squared = 3 h squared minus 5.">
+<label/>
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<tbody>
+<row>
+<entry/>
+<entry/>
+<entry/>
+<entry valign="top" align="left"><media id="fs-id1171792580809" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_05_018a_img_new.jpg"/></media></entry>
+</row>
+<row>
+<entry valign="top" align="left">To evaluate <m:math><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:msup><m:mi>h</m:mi><m:mn>2</m:mn></m:msup><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo></m:mrow></m:math> substitute <m:math><m:mrow><m:msup><m:mi>h</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math> for <emphasis effect="italics">x</emphasis>.</entry>
+<entry/>
+<entry/>
+<entry valign="top" align="left"><media id="fs-id1171790163372" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_05_018b_img_new.jpg"/></media></entry>
+</row>
+<row>
+<entry/>
+<entry/>
+<entry/>
+<entry valign="top" align="left"><media id="fs-id1171792588637" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_05_018c_img_new.jpg"/></media></entry>
+</row>
+</tbody>
+</tgroup>
+</table></para>
+<para id="fs-id1167836556251"><span class="token">ⓑ</span><newline/>
+<table id="fs-id1171792580965" class="unnumbered unstyled" summary="g of x = 3 x minus 5. To evaluate g of the quantity x plus 2, substitute x plus 2 for x. g of x plus 2 = 3 times the quantity x plus 2 in parentheses minus 5. Simplify. g of x plus 2 = 3 x plus 6 minus 5. g of x plus 2 = 3 x plus 1.">
+<label/>
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<tbody>
+<row>
+<entry/>
+<entry valign="top" align="left"><media id="fs-id1171792545190" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_05_019a_img_new.jpg"/></media></entry>
+</row>
+<row>
+<entry valign="top" align="left">To evaluate <m:math><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo></m:mrow></m:math> substitute <m:math><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow></m:math> for <emphasis effect="italics">x</emphasis>.</entry>
+<entry valign="top" align="left"><media id="fs-id1171792543055" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_05_019b_img_new.jpg"/></media></entry>
+</row>
+<row>
+<entry valign="top" align="left">Simplify.</entry>
+<entry valign="top" align="left"><media id="fs-id1171792802121" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_05_019c_img_new.jpg"/></media></entry>
+</row>
+<row>
+<entry/>
+<entry valign="top" align="left"><media id="fs-id1171790304229" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_05_019d_img_new.jpg"/></media></entry>
+</row>
+</tbody>
+</tgroup>
+</table></para>
+<para id="fs-id1167836448921"><span class="token">ⓒ</span><newline/>
+<table id="fs-id1167836606104" class="unnumbered unstyled" summary="g of x = 3 x minus 5. To evaluate g of x plus g of 2, first find g of 2. g of 2 = 3 times 2 minus 5. g of 2 = 1. Now find g of x plus g of 2. g of x plus g of 2 = 3 x minus 5 plus 1. The 3 x minus 5 is from g of x and the 1 is from the g of 2. Simplify. g of x plus g of 2 = 3 x minus 4.">
+<label/>
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<tbody>
+<row>
+<entry/>
+<entry/>
+<entry valign="top" align="left"><media id="fs-id1167829839522" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_05_020b_img.jpg"/>
+</media>
+</entry>
+</row>
+<row>
+<entry valign="top" align="left">To evaluate <m:math><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mn>2</m:mn><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo></m:mrow></m:math> first find <m:math><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mn>2</m:mn><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></entry>
+<entry/>
+<entry valign="top" align="left"><media id="fs-id1167836635207" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_05_020c_img.jpg"/>
+</media>
+</entry>
+</row>
+<row>
+<entry/>
+<entry/>
+<entry valign="top" align="left"><media id="fs-id1167829685715" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_05_020d_img.jpg"/>
+</media>
+</entry>
+</row>
+<row>
+<entry valign="top" align="left"><media id="fs-id1167836693279" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_05_020a_img.jpg"/>
+</media>
+</entry>
+<entry/>
+<entry valign="top" align="left"><media id="fs-id1167836322927" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_05_020e_img.jpg"/>
+</media>
+</entry>
+</row>
+<row>
+<entry valign="top" align="left">Simplify.</entry>
+<entry/>
+<entry valign="top" align="left"><media id="fs-id1167824734809" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_05_020f_img.jpg"/>
+</media>
+</entry>
+</row>
+<row>
+<entry/>
+<entry/>
+<entry valign="top" align="left"><media id="fs-id1167836539801" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_05_020g_img.jpg"/>
+</media>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table></para>
+<para id="fs-id1167832981642">Notice the difference between part <span class="token">ⓑ</span> and <span class="token">ⓒ</span>. We get <m:math><m:mrow><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:math> and <m:math><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mn>2</m:mn><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>4</m:mn><m:mo>.</m:mo></m:mrow></m:math> So we see that <m:math><m:mrow><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo><m:mo>≠</m:mo><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mn>2</m:mn><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</solution>
+</exercise>
+</example>
+
+<note id="fs-id1167836730594" class="try">
+<exercise id="fs-id1167832940643">
+<problem id="fs-id1167829788685">
+<para id="fs-id1167829788687">For the function <m:math><m:mrow><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>7</m:mn><m:mo>,</m:mo></m:mrow></m:math> evaluate the function.</para>
+<para id="fs-id1167829906594"><span class="token">ⓐ</span> <m:math><m:mrow><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:msup><m:mi>m</m:mi><m:mn>2</m:mn></m:msup><m:mo stretchy="false">)</m:mo></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math> <span class="token">ⓒ</span> <m:math><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>−</m:mo><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mn>3</m:mn><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836624292">
+<para id="fs-id1167836554185"><span class="token">ⓐ</span> <m:math><m:mrow><m:mn>4</m:mn><m:msup><m:mi>m</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>7</m:mn></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>19</m:mn></m:mrow></m:math><newline/><span class="token">ⓒ</span> <m:math><m:mrow><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>12</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1167825766170" class="try">
+<exercise id="fs-id1167829850925">
+<problem id="fs-id1167829850927">
+<para id="fs-id1167836293432">For the function <m:math><m:mrow><m:mi>h</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo>,</m:mo></m:mrow></m:math> evaluate the function.</para>
+<para id="fs-id1167823012018"><span class="token">ⓐ</span> <m:math><m:mrow><m:mi>h</m:mi><m:mo stretchy="false">(</m:mo><m:msup><m:mi>k</m:mi><m:mn>2</m:mn></m:msup><m:mo stretchy="false">)</m:mo></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mi>h</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math> <span class="token">ⓒ</span> <m:math><m:mrow><m:mi>h</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mi>h</m:mi><m:mrow><m:mo>(</m:mo><m:mn>1</m:mn><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167829743779">
+<para id="fs-id1167829717717"><span class="token">ⓐ</span> <m:math><m:mrow><m:mn>2</m:mn><m:msup><m:mi>k</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow></m:math><newline/><span class="token">ⓒ</span> <m:math><m:mrow><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<para id="fs-id1167836283159">Many everyday situations can be modeled using functions.</para>
+<example id="fs-id1167833158753">
+<exercise id="fs-id1167833158755">
+<problem id="fs-id1167836533836">
+<para id="fs-id1167836533838">The number of unread emails in Sylvia’s account is 75. This number grows by 10 unread emails a day. The function <m:math><m:mrow><m:mi>N</m:mi><m:mrow><m:mo>(</m:mo><m:mi>t</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>75</m:mn><m:mo>+</m:mo><m:mn>10</m:mn><m:mi>t</m:mi></m:mrow></m:math> represents the relation between the number of emails, <emphasis effect="italics">N</emphasis>, and the time, <emphasis effect="italics">t</emphasis>, measured in days.</para>
+<para id="fs-id1167836442406"><span class="token">ⓐ</span> Determine the independent and dependent variable.</para>
+<para id="fs-id1167833061546"><span class="token">ⓑ</span> Find <m:math><m:mrow><m:mi>N</m:mi><m:mrow><m:mo>(</m:mo><m:mn>5</m:mn><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math> Explain what this result means.</para>
+</problem>
+<solution id="fs-id1167829715383">
+<para id="fs-id1167829715385"><span class="token">ⓐ</span> The number of unread emails is a function of the number of days. The number of unread emails, <emphasis effect="italics">N</emphasis>, depends on the number of days, <emphasis effect="italics">t</emphasis>. Therefore, the variable <emphasis effect="italics">N</emphasis>, is the dependent variable and the variable <m:math><m:mi>t</m:mi></m:math> is the independent variable.</para>
+<para id="fs-id1167833347223"><span class="token">ⓑ</span> Find <m:math><m:mrow><m:mi>N</m:mi><m:mrow><m:mo>(</m:mo><m:mn>5</m:mn><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math> Explain what this result means.</para>
+<table id="fs-id1167829709312" class="unnumbered unstyled" summary="N of t = 75 plus 10 t. Substitute in t = 5. N of 5 = 75 plus 10 times 5. Simplify. N of 5 = 75 plus 50. N of 5 = 125.">
+<label/>
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<tbody>
+<row>
+<entry/>
+<entry valign="top" align="left"><media id="fs-id1167829850506" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_05_021a_img.jpg"/>
+</media>
+</entry>
+</row>
+<row>
+<entry valign="top" align="left">Substitute in <m:math><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>5</m:mn><m:mo>.</m:mo></m:mrow></m:math></entry>
+<entry valign="top" align="left"><media id="fs-id1167832971244" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_05_021b_img.jpg"/>
+</media></entry>
+</row>
+<row>
+<entry valign="top" align="left">Simplify.</entry>
+<entry valign="top" align="left"><media id="fs-id1167833270224" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_05_021c_img.jpg"/>
+</media>
+</entry>
+</row>
+<row>
+<entry/>
+<entry valign="top" align="left"><media id="fs-id1167833309949" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_05_021d_img.jpg"/>
+</media>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<para id="fs-id1167833413059">Since 5 is the number of days, <m:math><m:mrow><m:mi>N</m:mi><m:mrow><m:mo>(</m:mo><m:mn>5</m:mn><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo></m:mrow></m:math> is the number of unread emails after 5 days. After 5 days, there are 125 unread emails in the account.</para>
+</solution>
+</exercise>
+</example>
+<note id="fs-id1167833369424" class="try">
+<exercise id="fs-id1167833227116">
+<problem id="fs-id1167836507876">
+<para id="fs-id1167836507878">The number of unread emails in Bryan’s account is 100. This number grows by 15 unread emails a day. The function <m:math><m:mrow><m:mi>N</m:mi><m:mrow><m:mo>(</m:mo><m:mi>t</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>100</m:mn><m:mo>+</m:mo><m:mn>15</m:mn><m:mi>t</m:mi></m:mrow></m:math> represents the relation between the number of emails, <emphasis effect="italics">N</emphasis>, and the time, <emphasis effect="italics">t</emphasis>, measured in days.</para>
+<para id="fs-id1167836360895"><span class="token">ⓐ</span> Determine the independent and dependent variable.</para>
+<para id="fs-id1167829619314"><span class="token">ⓑ</span> Find <m:math><m:mrow><m:mi>N</m:mi><m:mrow><m:mo>(</m:mo><m:mn>7</m:mn><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math> Explain what this result means.</para>
+</problem>
+<solution id="fs-id1167836622270">
+<para id="fs-id1167836622272"><span class="token">ⓐ</span> <emphasis effect="italics">t</emphasis> IND; <emphasis effect="italics">N</emphasis> DEP <span class="token">ⓑ</span> 205; the number of unread emails in Bryan’s account on the seventh day.</para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1167836481611" class="try">
+<exercise id="fs-id1167829786754">
+<problem id="fs-id1167824735581">
+<para id="fs-id1167824735583">The number of unread emails in Anthony’s account is 110. This number grows by 25 unread emails a day. The function <m:math><m:mrow><m:mi>N</m:mi><m:mrow><m:mo>(</m:mo><m:mi>t</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>110</m:mn><m:mo>+</m:mo><m:mn>25</m:mn><m:mi>t</m:mi></m:mrow></m:math> represents the relation between the number of emails, <emphasis effect="italics">N</emphasis>, and the time, <emphasis effect="italics">t</emphasis>, measured in days.</para>
+<para id="fs-id1167829743199"><span class="token">ⓐ</span> Determine the independent and dependent variable.</para>
+<para id="fs-id1167836575515"><span class="token">ⓑ</span> Find <m:math><m:mrow><m:mi>N</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>14</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math> Explain what this result means.</para>
+</problem>
+<solution id="fs-id1167829749847">
+<para id="fs-id1167836656679"><span class="token">ⓐ</span> <emphasis effect="italics">t</emphasis> IND; <emphasis effect="italics">N</emphasis> DEP <span class="token">ⓑ</span> 460; the number of unread emails in Anthony’s account on the fourteenth day</para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1167833128952" class="media-2">
+<para id="fs-id1167836508744">Access this online resource for additional instruction and practice with relations and functions.</para>
+<list id="fs-id1167836508748" display="block">
+<item><link url="https://openstax.org/l/37introfunction">Introduction to Functions</link></item>
+</list>
+</note>
+</section>
+<section id="fs-id1167829711772" class="key-concepts">
+<title>Key Concepts</title>
+<list id="fs-id1167836294674" list-type="bulleted" bullet-style="bullet">
+<item><emphasis effect="bold">Function Notation:</emphasis> For the function <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math>
+<list id="fs-id1167829810537" list-type="bulleted" bullet-style="open-circle">
+<item><emphasis effect="italics">f</emphasis> is the name of the function</item>
+<item><emphasis effect="italics">x</emphasis> is the domain value</item>
+<item><m:math><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math> is the range value <emphasis effect="italics">y</emphasis> corresponding to the value <emphasis effect="italics">x</emphasis><newline/>
+We read <m:math><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math> as <emphasis effect="italics">f</emphasis> of <emphasis effect="italics">x</emphasis> or the value of <emphasis effect="italics">f</emphasis> at <emphasis effect="italics">x</emphasis>.</item></list></item>
+<item><emphasis effect="bold">Independent and Dependent Variables:</emphasis> For the function <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>,</m:mo></m:mrow></m:math>
+<list id="fs-id1167836715045" list-type="bulleted" bullet-style="open-circle">
+<item><emphasis effect="italics">x</emphasis> is the independent variable as it can be any value in the domain</item>
+<item><emphasis effect="italics">y</emphasis> is the dependent variable as its value depends on <emphasis effect="italics">x</emphasis></item>
+</list></item>
+</list>
+</section>
+<section id="fs-id1167826170977" class="section-exercises">
+<section id="fs-id1167826189010" class="practice-perfect">
+<title>Practice Makes Perfect</title>
+<para id="fs-id1167833041789"><emphasis effect="bold">Find the Domain and Range of a Relation</emphasis></para>
+<para id="fs-id1167836701331">In the following exercises, for each relation <span class="token">ⓐ</span> find the domain of the relation <span class="token">ⓑ</span> find the range of the relation.</para>
+<exercise id="fs-id1167836694560" class="material-set-2">
+<problem id="fs-id1167833129254">
+<para id="fs-id1167833129256"><m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>8</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>12</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>4</m:mn><m:mo>,</m:mo><m:mn>16</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo></m:mrow></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>5</m:mn><m:mo>,</m:mo><m:mn>20</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>}</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836615948">
+<para id="fs-id1167836615950"><span class="token">ⓐ</span> {1, 2, 3, 4, 5} <span class="token">ⓑ</span> {4, 8, 12, 16, 20}</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167829738657" class="material-set-2">
+<problem id="fs-id1167836729077">
+<para id="fs-id1167836729080"><m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>−2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>−4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>−6</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>4</m:mn><m:mo>,</m:mo><m:mn>−8</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo></m:mrow></m:mrow></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>5</m:mn><m:mo>,</m:mo><m:mn>−10</m:mn><m:mo>)</m:mo><m:mo>}</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167836289174" class="material-set-2">
+<problem id="fs-id1167836289176">
+<para id="fs-id1167833021591"><m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>7</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>5</m:mn><m:mo>,</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>7</m:mn><m:mo>,</m:mo><m:mn>9</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−2</m:mn><m:mo>,</m:mo><m:mn>−3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−2</m:mn><m:mo>,</m:mo><m:mn>8</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mo>}</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167829713369">
+<para id="fs-id1167829713371"><span class="token">ⓐ</span> {1, 5, 7, −2} <span class="token">ⓑ</span> {7, 3, 9, −3, 8}</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167836513003" class="material-set-2">
+<problem id="fs-id1167836686245">
+<para id="fs-id1167836686247"><m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>11</m:mn><m:mo>,</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−2</m:mn><m:mo>,</m:mo><m:mn>−7</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>4</m:mn><m:mo>,</m:mo><m:mn>−8</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>4</m:mn><m:mo>,</m:mo><m:mn>17</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−6</m:mn><m:mo>,</m:mo><m:mn>9</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mo>}</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+</exercise>
+<para id="fs-id1167836309438">In the following exercises, use the mapping of the relation to <span class="token">ⓐ</span> list the ordered pairs of the relation, <span class="token">ⓑ</span> find the domain of the relation, and <span class="token">ⓒ</span> find the range of the relation.</para>
+<exercise id="fs-id1167824736897" class="material-set-2">
+<problem id="fs-id1167829693412">
+<para id="fs-id1167829693414"><newline/><media id="fs-id1167829693415" alt="This figure shows two table that each have one column. The table on the left has the header “Name” and lists the names “Rebecca”, “Jennifer”, “John”, “Hector”, “Luis”, “Ebony”, “Raphael”, “Meredith”, “Karen”, and “Joseph”. The table on the right has the header “Birthday” and lists the dates “January 18”, “February 15”, “April 1”, “April 7”, “June 23”, “July 30”, “August 19”, and “November 6”. There are arrows starting at names in the Name table and pointing towards dates in the Birthday table. The first arrow goes from Rebecca to January 18. The second arrow goes from Jennifer to April 1. The third arrow goes from John to January 18. The fourth arrow goes from Hector to June 23. The fifth arrow goes from Luis to February 15. The sixth arrow goes from Ebony to April 7. The seventh arrow goes from Raphael to November 6. The eighth arrow goes from Meredith to August 19. The ninth arrow goes from Karen to August 19. The tenth arrow goes from Joseph to July 30.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_05_201_img_new.jpg"/>
+</media>
+</para>
+</problem>
+<solution id="fs-id1167836558109">
+<para id="fs-id1167833369090"><span class="token">ⓐ</span> (Rebecca, January 18), (Jennifer, April 1), (John, January 18), (Hector, June 23), (Luis, February 15), (Ebony, April 7), (Raphael, November 6), (Meredith, August 19), (Karen, August 19), (Joseph, July 30)<newline/><span class="token">ⓑ</span> {Rebecca, Jennifer, John, Hector, Luis, Ebony, Raphael, Meredith, Karen, Joseph}<newline/><span class="token">ⓒ</span> {January 18, April 1, June 23, February 15, April 7, November 6, August 19, July 30}</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167836600990" class="material-set-2">
+<problem id="fs-id1167829614614">
+<para id="fs-id1167829614616"><newline/><media id="fs-id1167829614618" alt="This figure shows two table that each have one column. The table on the left has the header “Name” and lists the names “Amy”, “Carol”, “Devon”, “Harrison”, “Jackson”, “Labron”, “Mason”, “Natalie”, “Paul”, and “Sylvester”. The table on the right has the header “Birthday” and lists the dates “January 5”, “January 7”, “February 14”, “March 1”, “April 7”, “May 30”, “July 20”, “August 1”, “November 13”, and “November 26”. There are arrows starting at names in the Name table and pointing towards dates in the Birthday table. The first arrow goes from Amy to February 14. The second arrow goes from Carol to May 30. The third arrow goes from Devon to January 5. The fourth arrow goes from Harrison to January 7. The fifth arrow goes from Jackson to November 26. The sixth arrow goes from Labron to April 7. The seventh arrow goes from Mason to July 20. The eighth arrow goes from Natalie to March 1. The ninth arrow goes from Paul to August 1. The tenth arrow goes from Sylvester to November 13.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_05_202_img_new.jpg"/>
+</media>
+</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167833128978" class="material-set-2">
+<problem id="fs-id1167833128980">
+<para id="fs-id1167836511320">For a woman of height <m:math><m:mrow><m:mn>5</m:mn><m:mo>′</m:mo><m:mn>4</m:mn><m:mo>″</m:mo></m:mrow></m:math> the mapping below shows the corresponding Body Mass Index (BMI). The body mass index is a measurement of body fat based on height and weight. A BMI of <m:math><m:mrow><m:mn>18.5</m:mn><m:mo>–</m:mo><m:mn>24.9</m:mn></m:mrow></m:math> is considered healthy.</para>
+<media id="fs-id1167829850494" alt="This figure shows two table that each have one column. The table on the left has the header “Weight (lbs)” and lists the numbers plus 100, 110, 120, 130, 140, 150, and 160. The table on the right has the header “BMI” and lists the numbers 18. 9, 22. 3, 17. 2, 24. 0, 25. 7, 20. 6, and 27. 5. There are arrows starting at numbers in the weight table and pointing towards numbers in the BMI table. The first arrow goes from plus 100 to 17. 2. The second arrow goes from 110 to 18. 9. The third arrow goes from 120 to 20. 6. The fourth arrow goes from 130 to 22. 3. The fifth arrow goes from 140 to 24. 0. The sixth arrow goes from 150 to 25. 7. The seventh arrow goes from 160 to 27. 5.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_05_203_img_new.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1167836410493">
+<para id="fs-id1167836410496"><span class="token">ⓐ</span> (+100, 17. 2), (110, 18.9), (120, 20.6), (130, 22.3), (140, 24.0), (150, 25.7), (160, 27.5) <span class="token">ⓑ</span> {+100, 110, 120, 130, 140, 150, 160,} <span class="token">ⓒ</span> {17.2, 18.9, 20.6, 22.3, 24.0, 25.7, 27.5}</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167829590523" class="material-set-2">
+<problem id="fs-id1167829590525">
+<para id="fs-id1167829590527">For a man of height <m:math><m:mrow><m:mn>5</m:mn><m:mo>′</m:mo><m:mn>11</m:mn><m:mo>′</m:mo><m:mo>′</m:mo></m:mrow></m:math> the mapping below shows the corresponding Body Mass Index (BMI). The body mass index is a measurement of body fat based on height and weight. A BMI of <m:math><m:mrow><m:mn>18.5</m:mn><m:mo>–</m:mo><m:mn>24.9</m:mn></m:mrow></m:math> is considered healthy.<newline/>
+<media id="fs-id1167836328549" alt="This figure shows two table that each have one column. The table on the left has the header “Weight (lbs)” and lists the numbers 130, 140, 150, 160, 170, 180, 190, and 200. The table on the right has the header “BMI” and lists the numbers 22. 3, 19. 5, 20. 9, 27. 9, 25. 1, 26. 5, 23. 7, and 18. 1. There are arrows starting at numbers in the weight table and pointing towards numbers in the BMI table. The first arrow goes from 130 to 18. 1. The second arrow goes from 140 to 19. 5. The third arrow goes from 150 to 20. 9. The fourth arrow goes from 160 to 22. 3. The fifth arrow goes from 170 to 23. 7. The sixth arrow goes from 180 to 25. 1. The seventh arrow goes from 190 to 26. 5. The eighth arrow goes from 200 to 27. 9.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_05_204_img_new.jpg"/>
+</media></para>
+</problem>
+</exercise>
+<para id="fs-id1167825791209">In the following exercises, use the graph of the relation to <span class="token">ⓐ</span> list the ordered pairs of the relation <span class="token">ⓑ</span> find the domain of the relation <span class="token">ⓒ</span> find the range of the relation.</para>
+<exercise id="fs-id1167836621459" class="material-set-2">
+<problem id="fs-id1167836623116">
+<para id="fs-id1167836623118"><newline/><media id="fs-id1167836623119" alt="The figure shows the graph of some points on the x y-coordinate plane. The x and y-axes run from negative 6 to 6. The points (negative 3, 4), (negative 3, negative 1), (0, negative 3), (2, 3), (4, negative 1), and (4, negative 3).">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_05_205_img_new.jpg"/>
+</media></para>
+</problem>
+<solution id="fs-id1167836448402">
+<para id="fs-id1167836448404"><span class="token">ⓐ</span> (2, 3), (4, −3), (−2, −1), (−3, 4), (4, −1), (0, −3) <span class="token">ⓑ</span> {−3, −2, 0, 2, 4}<newline/><span class="token">ⓒ</span> {−3, −1, 3, 4}</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167833274699" class="material-set-2">
+<problem id="fs-id1167833274701">
+<para id="fs-id1167836599639"><newline/><media id="fs-id1167836599640" alt="The figure shows the graph of some points on the x y-coordinate plane. The x and y-axes run from negative 6 to 6. The points (negative 3, 4), (negative 3, negative 4), (negative 2, 0), (negative 1, 3), (1, 5), and (4, negative 2).">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_05_206_img_new.jpg"/>
+</media></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167836707143" class="material-set-2">
+<problem id="fs-id1167836524480">
+<para id="fs-id1167836524482"><newline/><media id="fs-id1167836524483" alt="The figure shows the graph of some points on the x y-coordinate plane. The x and y-axes run from negative 6 to 6. The points (negative 1, 4), (negative 1, negative 4), (0, 3), (0, negative 3), (1, 4), and (1, negative 4).">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_05_207_img_new.jpg"/>
+</media></para>
+</problem>
+<solution id="fs-id1167829861860">
+<para id="fs-id1167829861862"><span class="token">ⓐ</span> (1, 4), (1, −4), (−1, 4), (−1, −4), (0, 3), (0, −3) <span class="token">ⓑ</span> {−1, 0, 1} <span class="token">ⓒ</span> {−4, −3, 3,4}</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167836509162" class="material-set-2">
+<problem id="fs-id1167836509164">
+<para id="fs-id1167836546295"><newline/><media id="fs-id1167836546296" alt="The figure shows the graph of some points on the x y-coordinate plane. The x and y-axes run from negative 10 to 10. The points (negative 2, negative 6), (negative 2, negative 3), (0, 0), (0. 5, 1. 5), (1, 3), and (3, 6).">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_05_208_img_new.jpg"/>
+</media></para>
+</problem>
+</exercise>
+<para id="fs-id1167836513559"><emphasis effect="bold">Determine if a Relation is a Function</emphasis></para>
+<para id="fs-id1167833060894">In the following exercises, use the set of ordered pairs to <span class="token">ⓐ</span> determine whether the relation is a function, <span class="token">ⓑ</span> find the domain of the relation, and <span class="token">ⓒ</span> find the range of the relation.</para>
+<exercise id="fs-id1167829666517" class="material-set-2">
+<problem id="fs-id1167833059308">
+<para id="fs-id1167833059310"><m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−3</m:mn><m:mo>,</m:mo><m:mn>9</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−2</m:mn><m:mo>,</m:mo><m:mn>4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−1</m:mn><m:mo>,</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo></m:mrow></m:mrow></m:mrow></m:math><newline/><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>0</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo></m:mrow><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>9</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>}</m:mo></m:math></para>
+</problem>
+<solution id="fs-id1167833137411">
+<para id="fs-id1167833137413"><span class="token">ⓐ</span> yes <span class="token">ⓑ</span> {−3, −2, −1, 0, 1, 2, 3} <span class="token">ⓒ</span> {9, 4, 1, 0}</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167836688996" class="material-set-2">
+<problem id="fs-id1167836688998">
+<para id="fs-id1167836689000"><m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>9</m:mn><m:mo>,</m:mo><m:mn>−3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>4</m:mn><m:mo>,</m:mo><m:mn>−2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>−1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo></m:mrow></m:mrow></m:mrow></m:math><newline/><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>0</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo></m:mrow><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>4</m:mn><m:mo>,</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>9</m:mn><m:mo>,</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>}</m:mo></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167829745706" class="material-set-2">
+<problem id="fs-id1167829745708">
+<para id="fs-id1167829745710"><m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−3</m:mn><m:mo>,</m:mo><m:mn>27</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−2</m:mn><m:mo>,</m:mo><m:mn>8</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−1</m:mn><m:mo>,</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo></m:mrow></m:mrow></m:mrow></m:math><newline/><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>0</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo></m:mrow><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>8</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>27</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mo>}</m:mo></m:math></para>
+</problem>
+<solution id="fs-id1167836529454">
+<para id="fs-id1167829853364"><span class="token">ⓐ</span> yes <span class="token">ⓑ</span> {−3, −2, −1, 0, 1, 2, 3} <span class="token">ⓒ</span> 0, 1, 8, 27}</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167833138708" class="material-set-2">
+<problem id="fs-id1167833138710">
+<para id="fs-id1167826077064"><m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−3</m:mn><m:mo>,</m:mo><m:mn>−27</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−2</m:mn><m:mo>,</m:mo><m:mn>−8</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−1</m:mn><m:mo>,</m:mo><m:mn>−1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo></m:mrow></m:mrow></m:mrow></m:math><newline/><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>0</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>8</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>27</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>}</m:mo></m:math></para></problem>
+</exercise>
+<para id="fs-id1167836552752">In the following exercises, use the mapping to <span class="token">ⓐ</span> determine whether the relation is a function, <span class="token">ⓑ</span> find the domain of the function, and <span class="token">ⓒ</span> find the range of the function.</para>
+<exercise id="fs-id1167829742787" class="material-set-2">
+<problem id="fs-id1167829742789">
+<para id="fs-id1167829742791"><newline/><media id="fs-id1167833056754" alt="This figure shows two table that each have one column. The table on the left has the header “Number” and lists the numbers negative 3, negative 2, negative 1, 0, 1, 2, and 3. The table on the right has the header “Absolute Value” and lists the numbers 0, 1, 2, and 3. There are arrows starting at numbers in the number table and pointing towards numbers in the absolute value table. The first arrow goes from negative 3 to 3. The second arrow goes from negative 2 to 2. The third arrow goes from negative 1 to 1. The fourth arrow goes from 0 to 0. The fifth arrow goes from 1 to 1. The sixth arrow goes from 2 to 2. The seventh arrow goes from 3 to 3.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_05_209_img_new.jpg"/>
+</media></para>
+</problem>
+<solution id="fs-id1167829749063">
+<para id="fs-id1167829749065"><span class="token">ⓐ</span> yes <span class="token">ⓑ</span> {−3, −2, −1, 0, 1, 2, 3} <span class="token">ⓒ</span> {0, 1, 2, 3}</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167829741614" class="material-set-2">
+<problem id="fs-id1167829741616">
+<para id="fs-id1167829908273"><newline/><media id="fs-id1167829908274" alt="This figure shows two table that each have one column. The table on the left has the header “Number” and lists the numbers negative 3, negative 2, negative 1, 0, 1, 2, and 3. The table on the right has the header “Square” and lists the numbers 0, 1, 4, and 9. There are arrows starting at numbers in the number table and pointing towards numbers in the square table. The first arrow goes from negative 3 to 9. The second arrow goes from negative 2 to 4. The third arrow goes from negative 1 to 1. The fourth arrow goes from 0 to 0. The fifth arrow goes from 1 to 1. The sixth arrow goes from 2 to 4. The seventh arrow goes from 3 to 9.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_05_210_img_new.jpg"/>
+</media>
+</para></problem>
+</exercise>
+<exercise id="fs-id1167836697708" class="material-set-2">
+<problem id="fs-id1167836697710">
+<para id="fs-id1167832930330"><newline/><media id="fs-id1167832930332" alt="This figure shows two table that each have one column. The table on the left has the header “Name” and lists the names “Jenny”, “R and y”, “Dennis”, “Emily”, and “Raul”. The table on the right has the header “Email” and lists the email addresses RHern and ez@state. edu, JKim@gmail.com, Raul@gmail.com, ESmith@state. edu, DBrown@aol.com, jenny@aol.com, and R and y@gmail.com. There are arrows starting at names in the name table and pointing towards addresses in the email table. The first arrow goes from Jenny to JKim@gmail.com. The second arrow goes from Jenny to jenny@aol.com. The third arrow goes from R and y to R and y@gmail.com. The fourth arrow goes from Dennis to DBrown@aol.com. The fifth arrow goes from Emily to ESmith@state. edu. The sixth arrow goes from Raul to RHern and ez@state. edu. The seventh arrow goes from Raul to Raul@gmail.com.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_05_211_img_new.jpg"/>
+</media></para>
+</problem>
+<solution id="fs-id1167824737653">
+<para id="fs-id1167829579270"><span class="token">ⓐ</span> no <span class="token">ⓑ</span> {Jenny, R and y, Dennis, Emily, Raul} <span class="token">ⓒ</span> {RHern and ez@state.edu, JKim@gmail.com, Raul@gmail.com, ESmith@state.edu, DBroen@aol.com, jenny@aol.cvom, R and y@gmail.com}</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167833024527" class="material-set-2">
+<problem id="fs-id1167833256809">
+<para id="fs-id1167833256811"><newline/><media id="fs-id1167833256812" alt="This figure shows two table that each have one column. The table on the left has the header “Name” and lists the names “Jon”, “Rachel”, “Matt”, “Leslie”, “Chris”, “Beth”, and “Liz”. The table on the right has the header “Email” and lists the email addresses chrisg@gmail.com, lizzie@aol.com, jong@gmail.com, mattg@gmail.com, Rachel@state. edu, leslie@aol.com, and bethc@gmail.com. There are arrows starting at names in the name table and pointing towards addresses in the email table. The first arrow goes from Jon to jong@gmail.com. The second arrow goes from Rachel to Rachel@state. edu. The third arrow goes from Matt to mattg@gmail.com. The fourth arrow goes from Leslie to leslie@aol.com. The fifth arrow goes from Chris to chrisg@gmail.com. The sixth arrow goes from Beth to bethc@gmail.com. The seventh arrow goes from Liz to lizzie@aol.com.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_05_212_img_new.jpg"/>
+</media></para>
+</problem>
+</exercise>
+<para id="fs-id1167836705602">In the following exercises, determine whether each equation is a function.</para>
+<exercise id="fs-id1167836705606">
+<problem id="fs-id1167836525998">
+<para id="fs-id1167836526000"><newline/><span class="token">ⓐ</span> <m:math><m:mrow><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−3</m:mn></m:mrow></m:math><newline/><span class="token">ⓑ</span> <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math><newline/><span class="token">ⓒ</span> <m:math><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>−5</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836609321">
+<para id="fs-id1167836650178"><span class="token">ⓐ</span> yes <span class="token">ⓑ</span> yes <span class="token">ⓒ</span> no</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167836480280">
+<problem id="fs-id1167829828558">
+<para id="fs-id1167829828560"><newline/><span class="token">ⓐ</span> <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>5</m:mn></m:mrow></m:math><newline/><span class="token">ⓑ</span> <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup></m:mrow></m:math><newline/><span class="token">ⓒ</span> <m:math><m:mrow><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>4</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167836526018">
+<problem id="fs-id1167836526020">
+<para id="fs-id1167836526022"><newline/><span class="token">ⓐ</span> <m:math><m:mrow><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup><m:mo>=</m:mo><m:mn>2</m:mn></m:mrow></m:math><newline/><span class="token">ⓑ</span> <m:math><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>3</m:mn></m:mrow></m:math><newline/><span class="token">ⓒ</span> <m:math><m:mrow><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>6</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167833135088">
+<para id="fs-id1167833135090"><span class="token">ⓐ</span> yes <span class="token">ⓑ</span> no <span class="token">ⓒ</span> yes</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167833212947">
+<problem id="fs-id1167833212949">
+<para id="fs-id1167836521932"><newline/><span class="token">ⓐ</span> <m:math><m:mrow><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>4</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>8</m:mn></m:mrow></m:math><newline/><span class="token">ⓑ</span> <m:math><m:mrow><m:mn>−4</m:mn><m:mo>=</m:mo><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mi>y</m:mi></m:mrow></m:math><newline/><span class="token">ⓒ</span> <m:math><m:mrow><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mtext>−</m:mtext><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>5</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<para id="fs-id1167836714017"><emphasis effect="bold">Find the Value of a Function</emphasis></para>
+<para id="fs-id1167829717540">In the following exercises, evaluate the function: <span class="token">ⓐ</span> <m:math><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mn>−1</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math> <span class="token">ⓒ</span> <m:math><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>a</m:mi><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo></m:mrow></m:math></para>
+<exercise id="fs-id1167823013283">
+<problem id="fs-id1167823013285">
+<para id="fs-id1167823013287"><m:math><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>5</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167829624155">
+<para id="fs-id1167829624157"><span class="token">ⓐ</span> <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mn>2</m:mn><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>7</m:mn></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>−8</m:mn></m:mrow></m:math> <span class="token">ⓒ</span> <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>a</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>5</m:mn><m:mi>a</m:mi><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167829590640">
+<problem id="fs-id1167829747302">
+<para id="fs-id1167829747304"><m:math><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167829744293">
+<problem id="fs-id1167829744295">
+<para id="fs-id1167836423791"><m:math><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>−4</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167833047067">
+<para id="fs-id1167836690281"><span class="token">ⓐ</span> <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mn>2</m:mn><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>−6</m:mn></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>6</m:mn></m:mrow></m:math> <span class="token">ⓒ</span> <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>a</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>−4</m:mn><m:mi>a</m:mi><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167836391029">
+<problem id="fs-id1167836391032">
+<para id="fs-id1167836391034"><m:math><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>−6</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167829877909">
+<problem id="fs-id1167836575834">
+<para id="fs-id1167836575836"><m:math><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167824737178">
+<para id="fs-id1167836692744"><span class="token">ⓐ</span> <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mn>2</m:mn><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>5</m:mn></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>5</m:mn></m:mrow></m:math><newline/><span class="token">ⓒ</span> <m:math><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>a</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mi>a</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167836787728">
+<problem id="fs-id1167829789882">
+<para id="fs-id1167829789884"><m:math><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167836574347">
+<problem id="fs-id1167836574349">
+<para id="fs-id1167829695807"><m:math><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>2</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167829689462">
+<para id="fs-id1167829689464"><span class="token">ⓐ</span> <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mn>2</m:mn><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>9</m:mn></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>6</m:mn></m:mrow></m:math><newline/><span class="token">ⓒ</span> <m:math><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>a</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>2</m:mn><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mi>a</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167829877536">
+<problem id="fs-id1167836791925">
+<para id="fs-id1167836791928"><m:math><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>3</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<para id="fs-id1167836575175">In the following exercises, evaluate the function: <span class="token">ⓐ</span> <m:math><m:mrow><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:msup><m:mi>h</m:mi><m:mn>2</m:mn></m:msup><m:mo stretchy="false">)</m:mo></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math> <span class="token">ⓒ</span> <m:math><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mn>2</m:mn><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+<exercise id="fs-id1167829595951">
+<problem id="fs-id1167829595953">
+<para id="fs-id1167826132424"><m:math><m:mrow><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836575320">
+<para id="fs-id1167836575323"><span class="token">ⓐ</span> <m:math><m:mrow><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:msup><m:mi>h</m:mi><m:mn>2</m:mn></m:msup><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>2</m:mn><m:msup><m:mi>h</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:math><newline/><span class="token">ⓑ</span> <m:math><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>5</m:mn></m:mrow></m:math><newline/><span class="token">ⓒ</span> <m:math><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mn>2</m:mn><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>6</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167836399733">
+<problem id="fs-id1167836399735">
+<para id="fs-id1167833208016"><m:math><m:mrow><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>5</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>8</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167833054462">
+<problem id="fs-id1167833054464">
+<para id="fs-id1167829651167"><m:math><m:mrow><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>−3</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167829754538">
+<para id="fs-id1167829754540"><span class="token">ⓐ</span> <m:math><m:mrow><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:msup><m:mi>h</m:mi><m:mn>2</m:mn></m:msup><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>−3</m:mn><m:msup><m:mi>h</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow></m:math><newline/><span class="token">ⓑ</span> <m:math><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>−3</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>8</m:mn></m:mrow></m:math><newline/><span class="token">ⓒ</span> <m:math><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mn>2</m:mn><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>−3</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>10</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167829924597">
+<problem id="fs-id1167829924599">
+<para id="fs-id1167829924601"><m:math><m:mrow><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>−8</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167836613442">
+<problem id="fs-id1167836613444">
+<para id="fs-id1167836613446"><m:math><m:mrow><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>3</m:mn><m:mo>−</m:mo><m:mi>x</m:mi></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167824976320">
+<para id="fs-id1167836553636"><span class="token">ⓐ</span> <m:math><m:mrow><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:msup><m:mi>h</m:mi><m:mn>2</m:mn></m:msup><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>3</m:mn><m:mo>−</m:mo><m:msup><m:mi>h</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math><newline/><span class="token">ⓑ</span> <m:math><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>−</m:mo><m:mi>x</m:mi></m:mrow></m:math><newline/><span class="token">ⓒ</span> <m:math><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mn>2</m:mn><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>4</m:mn><m:mo>−</m:mo><m:mi>x</m:mi></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167833381469">
+<problem id="fs-id1167829860145">
+<para id="fs-id1167829860148"><m:math><m:mrow><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>7</m:mn><m:mo>−</m:mo><m:mn>5</m:mn><m:mi>x</m:mi></m:mrow></m:math></para>
+</problem>
+</exercise>
+<para id="fs-id1167826171384">In the following exercises, evaluate the function.</para>
+<exercise id="fs-id1167826025131">
+<problem id="fs-id1167826025133">
+<para id="fs-id1167826025135"><m:math><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>3</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>5</m:mn><m:mi>x</m:mi><m:mo>;</m:mo></m:mrow></m:math> <m:math><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167829879609">
+<para id="fs-id1167829879611">2</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167833240212">
+<problem id="fs-id1167833240214">
+<para id="fs-id1167826206218"><m:math><m:mrow><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>4</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>;</m:mo></m:mrow></m:math> <m:math><m:mrow><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167829713382">
+<problem id="fs-id1167829713384">
+<para id="fs-id1167829713386"><m:math><m:mrow><m:mi>F</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>2</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo>;</m:mo></m:mrow></m:math><newline/><m:math><m:mrow><m:mi>F</m:mi><m:mo stretchy="false">(</m:mo><m:mn>−1</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167829651457">
+<para id="fs-id1167829651459">6</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167833382456">
+<problem id="fs-id1167833382458">
+<para id="fs-id1167833382460"><m:math><m:mrow><m:mi>G</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>3</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>5</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mo>;</m:mo></m:mrow></m:math><newline/><m:math><m:mrow><m:mi>G</m:mi><m:mo stretchy="false">(</m:mo><m:mn>−2</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167833052040">
+<problem id="fs-id1167833052042">
+<para id="fs-id1167833052044"><m:math><m:mrow><m:mi>h</m:mi><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>2</m:mn><m:mrow><m:mo>|</m:mo><m:mrow><m:mi>t</m:mi><m:mo>−</m:mo><m:mn>5</m:mn></m:mrow><m:mo>|</m:mo></m:mrow><m:mo>+</m:mo><m:mn>4</m:mn><m:mo>;</m:mo></m:mrow></m:math> <m:math><m:mrow><m:mi>h</m:mi><m:mo stretchy="false">(</m:mo><m:mn>−4</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167824976354">
+<para id="fs-id1167824976356">22</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167836649081">
+<problem id="fs-id1167836649083">
+<para id="fs-id1167836649085"><m:math><m:mrow><m:mi>h</m:mi><m:mo stretchy="false">(</m:mo><m:mi>y</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>3</m:mn><m:mrow><m:mo>|</m:mo><m:mrow><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow><m:mo>|</m:mo></m:mrow><m:mo>−</m:mo><m:mn>3</m:mn><m:mo>;</m:mo></m:mrow></m:math> <m:math><m:mrow><m:mi>h</m:mi><m:mo stretchy="false">(</m:mo><m:mn>−4</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167829906037">
+<problem id="fs-id1167829906040">
+<para id="fs-id1167829906042"><m:math><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:mfrac><m:mo>;</m:mo></m:mrow></m:math> <m:math><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167829579006">
+<para id="fs-id1167829579008">4</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167833309035">
+<problem id="fs-id1167833309037">
+<para id="fs-id1167833309039"><m:math><m:mrow><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow></m:mfrac><m:mo>;</m:mo></m:mrow></m:math> <m:math><m:mrow><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mn>4</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para>
+</problem>
+</exercise>
+<para id="fs-id1167836409828">In the following exercises, solve.</para>
+<exercise id="fs-id1167836409832" class="material-set-2">
+<problem id="fs-id1167833386164">
+<para id="fs-id1167833386167">The number of unwatched shows in Sylvia’s DVR is 85. This number grows by 20 unwatched shows per week. The function <m:math><m:mrow><m:mi>N</m:mi><m:mrow><m:mo>(</m:mo><m:mi>t</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>85</m:mn><m:mo>+</m:mo><m:mn>20</m:mn><m:mi>t</m:mi></m:mrow></m:math> represents the relation between the number of unwatched shows, <emphasis effect="italics">N</emphasis>, and the time, <emphasis effect="italics">t</emphasis>, measured in weeks.</para>
+<para id="fs-id1167824737629"><span class="token">ⓐ</span> Determine the independent and dependent variable.</para>
+<para id="fs-id1167836697913"><span class="token">ⓑ</span> Find <m:math><m:mrow><m:mi>N</m:mi><m:mrow><m:mo>(</m:mo><m:mn>4</m:mn><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math> Explain what this result means</para>
+</problem>
+<solution id="fs-id1167833378063">
+<para id="fs-id1167832935494"><span class="token">ⓐ</span> <emphasis effect="italics">t</emphasis> IND; <emphasis effect="italics">N</emphasis> DEP<newline/><span class="token">ⓑ</span> <m:math><m:mrow><m:mi>N</m:mi><m:mrow><m:mo>(</m:mo><m:mn>4</m:mn><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>165</m:mn></m:mrow></m:math> the number of unwatched shows in Sylvia’s DVR at the fourth week. </para>
+</solution>
+</exercise>
+<exercise id="fs-id1167825884747" class="material-set-2">
+<problem id="fs-id1167825884749">
+<para id="fs-id1167825884751">Every day a new puzzle is downloaded into Ken’s account. Right now he has 43 puzzles in his account. The function <m:math><m:mrow><m:mi>N</m:mi><m:mrow><m:mo>(</m:mo><m:mi>t</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>43</m:mn><m:mo>+</m:mo><m:mi>t</m:mi></m:mrow></m:math> represents the relation between the number of puzzles, <emphasis effect="italics">N</emphasis>, and the time, <emphasis effect="italics">t</emphasis>, measured in days.</para>
+<para id="fs-id1167829620296"><span class="token">ⓐ</span> Determine the independent and dependent variable.</para>
+<para id="fs-id1167829620303"><span class="token">ⓑ</span> Find <m:math><m:mrow><m:mi>N</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>30</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math> Explain what this result means.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167833380107" class="material-set-2">
+<problem id="fs-id1167836574149">
+<para id="fs-id1167836574151">The daily cost to the printing company to print a book is modeled by the function <m:math><m:mrow><m:mi>C</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>3.25</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1500</m:mn></m:mrow></m:math> where <emphasis effect="italics">C</emphasis> is the total daily cost in dollars and <emphasis effect="italics">x</emphasis> is the number of books printed.</para>
+<para id="fs-id1167833196806"><span class="token">ⓐ</span> Determine the independent and dependent variable.</para>
+<para id="fs-id1167826077595"><span class="token">ⓑ</span> Find <m:math><m:mrow><m:mi>C</m:mi><m:mrow><m:mo>(</m:mo><m:mn>0</m:mn><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math> Explain what this result means.</para>
+<para id="fs-id1167829831994"><span class="token">ⓒ</span> Find <m:math><m:mrow><m:mi>C</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1000</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math> Explain what this result means.</para>
+</problem>
+<solution id="fs-id1167836406944">
+<para id="fs-id1167836406946"><span class="token">ⓐ</span> <emphasis effect="italics">x</emphasis> IND; <emphasis effect="italics">C</emphasis> DEP<newline/><span class="token">ⓑ</span> <m:math><m:mrow><m:mi>N</m:mi><m:mrow><m:mo>(</m:mo><m:mn>0</m:mn><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>1500</m:mn></m:mrow></m:math> the daily cost if no books are printed<newline/><span class="token">ⓒ</span> <m:math><m:mrow><m:mi>N</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1000</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>4750</m:mn></m:mrow></m:math> the daily cost of printing 1000 books</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167829749356" class="material-set-2">
+<problem id="fs-id1167829749358">
+<para id="fs-id1167829749361">The daily cost to the manufacturing company is modeled by the function <m:math><m:mrow><m:mi>C</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>7.25</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2500</m:mn></m:mrow></m:math> where <m:math><m:mrow><m:mi>C</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:mrow></m:math> is the total daily cost and <emphasis effect="italics">x</emphasis> is the number of items manufactured.</para>
+<para id="fs-id1167829879667"><span class="token">ⓐ</span> Determine the independent and dependent variable.</para>
+<para id="fs-id1167833272975"><span class="token">ⓑ</span> Find <m:math><m:mrow><m:mi>C</m:mi><m:mrow><m:mo>(</m:mo><m:mn>0</m:mn><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math> Explain what this result means.</para>
+<para id="fs-id1167836494341"><span class="token">ⓒ</span> Find <m:math><m:mrow><m:mi>C</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1000</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math> Explain what this result means.</para>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1167829756260" class="writing">
+<title>Writing Exercises</title>
+<exercise id="fs-id1167829756267">
+<problem id="fs-id1167829878963">
+<para id="fs-id1167829878966">In your own words, explain the difference between a relation and a function.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167829878971">
+<problem id="fs-id1167833054106">
+<para id="fs-id1167833054108">In your own words, explain what is meant by domain and range.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167833054114">
+<problem id="fs-id1167836755007">
+<para id="fs-id1167836755009">Is every relation a function? Is every function a relation?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167836755014">
+<problem id="fs-id1167829718391">
+<para id="fs-id1167829718394">How do you find the value of a function?</para>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1167829783756">
+<title>Self Check</title>
+<para id="fs-id1167829783762"><span class="token">ⓐ</span> After completing the exercises, use this checklist to evaluate your mastery of the objectives of this section.</para>
+<media id="fs-id1167836607305" alt="The figure shows a table with four rows and four columns. The first row is a header row and it labels each column. The first column header is “I can…”, the second is “confidently”, the third is “with some help”, “no minus I don’t get it!”. Under the first column are the phrases “find the domain and range of a relation”, “determine if a relation is a function”, and “find the value of a function”. Under the second, third, fourth columns are blank spaces where the learner can check what level of mastery they have achieved.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_05_213_img_new.jpg"/>
+</media>
+<para id="fs-id1167836607297"><span class="token">ⓑ</span> After looking at the checklist, do you think you are well-prepared for the next section? Why or why not?</para>
+</section>
+</section>
+</content>
+<glossary>
+<definition id="fs-id1167829808856"><term>domain of a relation</term><meaning id="fs-id1167836729545">The domain of a relation is all the <emphasis effect="italics">x</emphasis>-values in the ordered pairs of the relation.</meaning>
+</definition>
+<definition id="fs-id1167833327007"><term>function</term><meaning id="fs-id1167833327010">A function is a relation that assigns to each element in its domain exactly one element in the range.</meaning>
+</definition>
+<definition id="fs-id1167833327015"><term>mapping</term><meaning id="fs-id1167833382797">A mapping is sometimes used to show a relation. The arrows show the pairing of the elements of the domain with the elements of the range.</meaning>
+</definition>
+<definition id="fs-id1167833382803"><term>range of a relation</term><meaning id="fs-id1167832978259">The range of a relation is all the <emphasis effect="italics">y-</emphasis>values in the ordered pairs of the relation.</meaning>
+</definition>
+<definition id="fs-id1167833175472"><term>relation</term><meaning id="fs-id1167833175475">A relation is any set of ordered pairs,<m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>y</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math> All the <emphasis effect="italics">x</emphasis>-values in the ordered pairs together make up the domain. All the <emphasis effect="italics">y</emphasis>-values in the ordered pairs together make up the range.</meaning>
+</definition>
+</glossary>
+</document>

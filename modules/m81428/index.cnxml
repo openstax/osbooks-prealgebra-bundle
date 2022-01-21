@@ -1,0 +1,776 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Solve Systems of Equations with Three Variables</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m81428</md:content-id>
+  <md:title>Solve Systems of Equations with Three Variables</md:title>
+  <md:abstract><para>By the end of this section, you will be able to:</para>
+<list>
+<item>Determine whether an ordered triple is a solution of a system of three linear equations with three variables</item>
+<item>Solve a system of linear equations with three variables</item>
+<item>Solve applications using systems of linear equations with three variables</item>
+</list></md:abstract>
+  <md:uuid>6a681928-6850-4e59-a054-1bf35c38b627</md:uuid>
+</metadata>
+
+<content>
+<note id="fs-id1167829709277" class="be-prepared">
+<para id="fs-id1167833311246">Before you get started, take this readiness quiz.</para>
+<exercise id="fs-idm325521168">
+<problem id="fs-idm301338960">
+<para id="fs-idm352738912">Evaluate <m:math><m:mrow><m:mn>5</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>z</m:mi></m:mrow></m:math> when <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>−2</m:mn><m:mo>,</m:mo></m:mrow></m:math> <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−4</m:mn><m:mo>,</m:mo></m:mrow></m:math> and <m:math><m:mrow><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>3</m:mn><m:mo>.</m:mo></m:mrow></m:math><newline/>
+If you missed this problem, review <link target-id="fs-id1167832053133" document="m81423"/>.</para>
+</problem>
+<solution id="fs-idm352493264">
+<para id="fs-idm352601376"><m:math><m:mn>7</m:mn></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-idm301326080" class="be-prepared">
+<exercise id="fs-idm316706496">
+<problem id="fs-idm480036368">
+<para id="fs-idm346792784">Classify the equations as a conditional equation, an identity, or a contradiction and then state the solution. <m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−11</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>9</m:mn></m:mtd></m:mtr></m:mtable></m:mrow><m:mo>.</m:mo></m:mrow></m:math><newline/>
+If you missed this problem, review <link target-id="fs-id1167836666645" document="m81362"/>.</para>
+</problem>
+<solution id="fs-idm336255120">
+<para id="fs-idm344681328">conditional; one solution</para>
+</solution>
+</exercise>
+</note>
+<note id="fs-idm325665696" class="be-prepared">
+<exercise id="fs-idm348499808">
+<problem id="fs-idm320668592">
+<para id="fs-idm317684384">Classify the equations as a conditional equation, an identity, or a contradiction and then state the solution. <m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mn>7</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>8</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>4</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>5</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>27</m:mn></m:mtd></m:mtr></m:mtable></m:mrow><m:mo>.</m:mo></m:mrow></m:math><newline/>
+If you missed this problem, review <link target-id="fs-id1167826211749" document="m81362"/>.</para>
+</problem>
+<solution id="fs-idm355354032">
+<para id="fs-idm356176624">conditional; one solution</para>
+</solution>
+</exercise>
+</note>
+<section id="fs-id1167836729743">
+<title>Determine Whether an Ordered Triple is a Solution of a System of Three Linear Equations with Three Variables</title>
+<para id="fs-id1167836543656">In this section, we will extend our work of solving a system of linear equations. So far we have worked with <term class="no-emphasis">systems of equations</term> with two equations and two variables. Now we will work with systems of three equations with three variables. But first let's review what we already know about solving equations and systems involving up to two variables.</para>
+<para id="fs-id1167836542288">We learned earlier that the graph of a <term class="no-emphasis">linear equation</term>, <m:math><m:mrow><m:mi>a</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>b</m:mi><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>c</m:mi><m:mo>,</m:mo></m:mrow></m:math> is a line. Each point on the line, an ordered pair <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>y</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo></m:mrow></m:math> is a solution to the equation. For a system of two equations with two variables, we graph two lines. Then we can see that all the points that are solutions to each equation form a line. And, by finding what the lines have in common, we’ll find the solution to the system.</para>
+<para id="fs-id1167829690735">Most linear equations in one variable have one solution, but we saw that some equations, called contradictions, have no solutions and for other equations, called identities, all numbers are solutions</para>
+<para id="fs-id1167833311012">We know when we solve a system of two linear equations represented by a graph of two lines in the same plane, there are three possible cases, as shown.</para>
+<media id="fs-id1167829598038" alt="Figure shows three graphs. In the first one, two lines intersect. Intersecting lines have one point in common. There is one solution to this system. The graph is labeled Consistent Independent. In the second graph, two lines are parallel. Parallel lines have no points in common. There is no solution to this system. The graph is labeled inconsistent. In the third graph, there is just one line. Both equations give the same line. Because we have just one line, there are infinitely many solutions. It is labeled consistent dependent.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_04_04_001_img_new.jpg"/>
+</media>
+<para id="fs-id1167836608495">Similarly, for a linear equation with three variables <m:math><m:mrow><m:mi>a</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>b</m:mi><m:mi>y</m:mi><m:mo>+</m:mo><m:mi>c</m:mi><m:mi>z</m:mi><m:mo>=</m:mo><m:mi>d</m:mi><m:mo>,</m:mo></m:mrow></m:math> every solution to the equation is an ordered triple, <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>y</m:mi><m:mo>,</m:mo><m:mi>z</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math>, that makes the equation true.</para><note id="fs-id1167836321732">
+<title>Linear Equation in Three Variables</title>
+<para id="fs-id1167833129160">A linear equation with three variables, where <emphasis effect="italics">a, b, c,</emphasis> and <emphasis effect="italics">d</emphasis> are real numbers and <emphasis effect="italics">a, b</emphasis>, and <emphasis effect="italics">c</emphasis> are not all 0, is of the form</para>
+<equation id="fs-id1167836601622" class="unnumbered"><label/><m:math><m:mrow><m:mi>a</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>b</m:mi><m:mi>y</m:mi><m:mo>+</m:mo><m:mi>c</m:mi><m:mi>z</m:mi><m:mo>=</m:mo><m:mi>d</m:mi></m:mrow></m:math></equation>
+<para id="fs-id1167833047411">Every solution to the equation is an ordered triple, <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>y</m:mi><m:mo>,</m:mo><m:mi>z</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> that makes the equation true.</para>
+</note>
+<para id="fs-id1167836502713">All the points that are solutions to one equation form a plane in three-dimensional space. And, by finding what the planes have in common, we’ll find the solution to the system.</para>
+<para id="fs-id1167829809276">When we solve a system of three linear equations represented by a graph of three planes in space, there are three possible cases.</para>
+<media id="fs-id1167829690706" alt="Eight figures are shown. The first one shows three intersecting planes with one point in common. It is labeled Consistent system and Independent equations. The second figure has three parallel planes with no points in common. It is labeled Inconsistent system. In the third figure two planes are coincident and parallel to the third plane. The planes have no points in common. In the fourth figure, two planes are parallel and each intersects the third plane. The planes have no points in common. In the fifth figure, each plane intersects the other two, but all three share no points. The planes have no points in common. In the sixth figure, three planes intersect in one line. There is just one line, so there are infinitely many solutions. In the seventh figure, two planes are coincident and intersect the third plane in a line. There is just one line, so there are infinitely many solutions. In the last figure, three planes are coincident. There is just one plane, so there are infinitely many solutions.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_04_04_002h_img_new.jpg"/>
+</media>
+<media id="fs-id1171790367628" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_04_04_002a_img_new.jpg"/>
+</media>
+<media id="fs-id1167826129302" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_04_04_002b_img_new.jpg"/>
+</media>
+<media id="fs-id1167829830109" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_04_04_002c_img_new.jpg"/>
+</media>
+<media id="fs-id1171792823031" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_04_04_002d_img_new.jpg"/>
+</media>
+<media id="fs-id1171790368377" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_04_04_002e_img_new.jpg"/>
+</media>
+<media id="fs-id1171790448102" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_04_04_002f_img_new.jpg"/>
+</media>
+<media id="fs-id1171792480661" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_04_04_002g_img_new.jpg"/>
+</media>
+<para id="fs-id1167836561085">To solve a system of three linear equations, we want to find the values of the variables that are solutions to all three equations. In other words, we are looking for the ordered triple <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>y</m:mi><m:mo>,</m:mo><m:mi>z</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> that makes all three equations true. These are called the <term>solutions of the system of three linear equations with three variables</term>.</para>
+<note id="fs-id1167829752800">
+<title>Solutions of a System of Linear Equations with Three Variables</title>
+<para id="fs-id1167833381624">Solutions of a system of equations are the values of the variables that make all the equations true. A solution is represented by an <term>ordered triple</term> <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>y</m:mi><m:mo>,</m:mo><m:mi>z</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</note>
+<para id="fs-id1167836440360">To determine if an ordered triple is a solution to a system of three equations, we substitute the values of the variables into each equation. If the ordered triple makes all three equations true, it is a solution to the system.</para>
+<example id="fs-id1167832929828">
+<exercise id="fs-id1167829619748">
+<problem id="fs-id1167836553422">
+<para id="fs-id1167836333599">Determine whether the ordered triple is a solution to the system: <m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mi>x</m:mi><m:mo>−</m:mo><m:mi>y</m:mi><m:mo>+</m:mo><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>2</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mi>y</m:mi><m:mo>−</m:mo><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>−6</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>−3</m:mn></m:mtd></m:mtr></m:mtable></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+<para id="fs-id1167836494346"><span class="token">ⓐ</span> <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>−2</m:mn><m:mo>,</m:mo><m:mn>−1</m:mn><m:mo>,</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>−4</m:mn><m:mo>,</m:mo><m:mn>−3</m:mn><m:mo>,</m:mo><m:mn>4</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167829785610">
+<para id="fs-id1167836392160"><span class="token">ⓐ</span><newline/>
+<media id="fs-id1167836512836" alt="The equations are x minus y plus z equals 2, 2x minus y minus z equals minus 6 and 2x plus 2y plus z equals minus 3. Substituting minus 2 for x, minus 1 for y and 3 for z into all three equations, we find that all three hold true. Hence, minus 2, minus 1, 3 is a solution.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_04_04_003_img_new.jpg"/>
+</media>
+</para>
+<para id="fs-id1167833382620"><span class="token">ⓑ</span><newline/>
+<media id="fs-id1167825009206" alt="The equations are x minus y plus z equals 2, 2x minus y minus z equals minus 6 and 2x plus 2y plus z equals minus 3. Substituting minus minus 4 for x, minus 3 for y and 4 for z into all three equations, we find that all three hold true. Hence, minus 4, minus 3, 4 is not a solution.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_04_04_004_img_new.jpg"/>
+</media></para>
+</solution>
+</exercise>
+</example>
+<note id="fs-id1167836572810" class="try">
+<exercise id="fs-id1167836543515">
+<problem id="fs-id1167836528199">
+<para id="fs-id1167829744537">Determine whether the ordered triple is a solution to the system: <m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>y</m:mi><m:mo>+</m:mo><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>2</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>−3</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>4</m:mn></m:mtd></m:mtr></m:mtable></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+<para id="fs-id1167829621248"><span class="token">ⓐ</span> <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>−3</m:mn><m:mo>,</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>4</m:mn><m:mo>,</m:mo><m:mn>−1</m:mn><m:mo>,</m:mo><m:mn>−5</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836622967">
+<para id="fs-id1167822971291"><span class="token">ⓐ</span> yes <span class="token">ⓑ</span> no</para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1167836628976" class="try">
+<exercise id="fs-id1167833139268">
+<problem id="fs-id1167829599455">
+<para id="fs-id1167829690831">Determine whether the ordered triple is a solution to the system: <m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>−5</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mo>−</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mi>y</m:mi><m:mo>−</m:mo><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mtd></m:mtr></m:mtable></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+<para id="fs-id1167836650229"><span class="token">ⓐ</span> <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>−2</m:mn><m:mo>,</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>−2</m:mn><m:mo>,</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167829714944">
+<para id="fs-id1167836546570"><span class="token">ⓐ</span> no  <span class="token">ⓑ</span> yes</para>
+</solution>
+</exercise>
+</note>
+</section>
+<section id="fs-id1167836293725">
+<title>Solve a System of Linear Equations with Three Variables</title>
+<para id="fs-id1167836287881">To solve a system of linear equations with three variables, we basically use the same techniques we used with systems that had two variables. We start with two pairs of equations and in each pair we eliminate the same variable. This will then give us a system of equations with only two variables and then we know how to solve that system!</para>
+<para id="fs-id1167833023923">Next, we use the values of the two variables we just found to go back to the original equation and find the third variable. We write our answer as an ordered triple and then check our results.</para>
+<example id="fs-id1167833350276">
+<title>How to Solve a System of Equations With Three Variables by Elimination</title>
+<exercise id="fs-id1167836729945">
+<problem id="fs-id1167836619755">
+<para id="fs-id1167829712854">Solve the system by elimination: <m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>3</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>y</m:mi><m:mo>+</m:mo><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>4</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>−1</m:mn></m:mtd></m:mtr></m:mtable></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167833369162">
+<para id="fs-id1167836576133">
+<media id="fs-id1167833335338" alt="The equations are x minus 2y plus z equals 3, 2x plus y plus z equals 4 and 3x plus 4y plus 3z equals minus 1. Step 1 is to write the equations in standard form. They are. If any coefficients are fractions, clear them. There are none.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_04_04_005a_img_new.jpg"/>
+</media>
+<media id="fs-id1167825830021" alt="Step 2 is to eliminate the same variable from two equations. Decide which variable you will eliminate. We can eliminate the y’s from equations 1 and 2 by multiplying equation 2 by 2. Work with a pair of equations to eliminate the chosen variable. Multiply one or both equations so that the coefficients of that variable are opposites. Add the equations resulting from Step 2 to eliminate one variable. The new equation we get is 5x plus 3z equals 11.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_04_04_005b_img_new.jpg"/>
+</media>
+<media id="fs-id1167836688878" alt="Step 3 is to repeat step 2 using two other equations and eliminate the same variable as in step 2. We can again eliminate the y’s using the equations 1, 3 by multiplying equation 1 by 2. Add the new equations and the result will be 5x plus 5z equals 5.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_04_04_005c_img_new.jpg"/>
+</media>
+<media id="fs-id1167836292792" alt="Step 4. The two new equations form a system of two equations with two variables. Solve this system. Eliminating x, we get z equal to minus 3. Substituting this in one of the new equations, we get x equal to 4.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_04_04_005d_img_new.jpg"/>
+</media>
+<media id="fs-id1167826172504" alt="Step 5 is to use the values of the two variables found in step 4 to find the third variable. Substituting values of x and z in one of the original equations, we get y equal to minus 1.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_04_04_005e_img_new.jpg"/>
+</media>
+<media id="fs-id1167836611284" alt="Step 6 is to write the solution as an ordered triple 4, minus 1, minus 3.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_04_04_005f_img_new.jpg"/>
+</media>
+<media id="fs-id1167829790585" alt="Step 7 is to check that the ordered triple is a solution to all three original equations. It makes all three equations true.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_04_04_005g_img_new.jpg"/>
+</media>
+</para>
+</solution>
+</exercise>
+</example>
+<note id="fs-id1167829752373" class="try">
+<exercise id="fs-id1167836621335">
+<problem id="fs-id1167829908545">
+<para id="fs-id1167830077067">Solve the system by elimination: <m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>y</m:mi><m:mo>−</m:mo><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>2</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mtd></m:mtr></m:mtable></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167833021838">
+<para id="fs-id1167822193559"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>−1</m:mn><m:mo>,</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1167836295067" class="try">
+<exercise id="fs-id1167836356451">
+<problem id="fs-id1167833076732">
+<para id="fs-id1167822890955">Solve the system by elimination: <m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>y</m:mi><m:mo>+</m:mo><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>−1</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>2</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>y</m:mi><m:mo>−</m:mo><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mtd></m:mtr></m:mtable></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167829744332">
+<para id="fs-id1167826170389"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−2</m:mn><m:mo>,</m:mo><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<para id="fs-id1167836389649">The steps are summarized here.</para>
+<note id="fs-id1167836665602" class="howto">
+<title>Solve a system of linear equations with three variables.</title>
+<list id="fs-id1167836598867" list-type="enumerated" number-style="arabic" class="stepwise">
+<item>Write the equations in standard form
+<list id="fs-id1167836728212" list-type="bulleted" bullet-style="bullet">
+<item>If any coefficients are fractions, clear them.</item>
+</list></item>
+<item>Eliminate the same variable from two equations.
+<list id="fs-id1167836706262" list-type="bulleted" bullet-style="bullet">
+<item>Decide which variable you will eliminate.</item>
+<item>Work with a pair of equations to eliminate the chosen variable.</item>
+<item>Multiply one or both equations so that the coefficients of that variable are opposites.</item>
+<item>Add the equations resulting from Step 2 to eliminate one variable</item>
+</list></item>
+<item>Repeat Step 2 using two other equations and eliminate the same variable as in Step 2.</item>
+<item>The two new equations form a system of two equations with two variables. Solve this system.</item>
+<item>Use the values of the two variables found in Step 4 to find the third variable.</item>
+<item>Write the solution as an ordered triple.</item>
+<item>Check that the ordered triple is a solution to <emphasis effect="bold">all three</emphasis> original equations.</item>
+</list>
+</note>
+<example id="fs-id1167833050653">
+<exercise id="fs-id1167832936787">
+<problem id="fs-id1167833020621">
+<para id="fs-id1167833381373">Solve: <m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>4</m:mn><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>3</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>−3</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−5</m:mn></m:mtd></m:mtr></m:mtable></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167829593667">
+<equation id="fs-id1171784163338" class="unnumbered"><label/><m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>4</m:mn><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mspace width="1em"/><m:mrow><m:mo>(</m:mo><m:mn>1</m:mn><m:mo>)</m:mo></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>3</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>−3</m:mn><m:mspace width="0.3em"/><m:mrow><m:mo>(</m:mo><m:mn>2</m:mn><m:mo>)</m:mo></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−5</m:mn><m:mspace width="0.3em"/><m:mrow><m:mo>(</m:mo><m:mn>3</m:mn><m:mo>)</m:mo></m:mrow></m:mtd></m:mtr></m:mtable></m:mrow></m:mrow></m:math></equation>
+<para id="fs-id1167836611848">We can eliminate <m:math><m:mi>z</m:mi></m:math> from equations (1) and (2) by multiplying equation (2) by 2 and then adding the resulting equations.</para>
+<para id="fs-id1167836514596"><media id="fs-id1167826206324" alt="The equations are 3 x minus 4 equals 0, 3y plus 2 z equals minus 3 and 2 x plus 3 y equals minus 5. Multiply equation 2 by 2 and add to equation 1. We get 3 x plus 6 y equals minus 6.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_04_04_006a_img_new.jpg"/>
+</media>
+</para>
+<para id="fs-id1167829784503">Notice that equations (3) and (4) both have the variables <m:math><m:mi>x</m:mi></m:math> and <m:math><m:mi>y</m:mi></m:math>. We will solve this new system for <m:math><m:mi>x</m:mi></m:math> and <m:math><m:mi>y</m:mi></m:math>.</para>
+<para id="fs-id1167826172240">
+<media id="fs-id1167829906127" alt="Multiply equation 3 by minus 2 and add that to equation 4. We get x equal to minus 4.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_04_04_006b_img_new.jpg"/>
+</media>
+</para>
+<para id="fs-id1167829810622">To solve for <emphasis effect="italics">y</emphasis>, we substitute <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>−4</m:mn></m:mrow></m:math> into equation (3).</para>
+<para id="fs-id1167836549293">
+<media id="fs-id1167833369395" alt="Substitute minus 4 into equation 3 and solve for y. We get y equal to 1.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_04_04_006c_img_new.jpg"/>
+</media>
+</para>
+<para id="fs-id1167836714302">We now have <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>−4</m:mn></m:mrow></m:math> and <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>.</m:mo></m:mrow></m:math> We need to solve for <emphasis effect="italics">z</emphasis>. We can substitute <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>−4</m:mn></m:mrow></m:math> into equation (1) to find <emphasis effect="italics">z</emphasis>.</para>
+<para id="fs-id1167833047380"><media id="fs-id1167836399311" alt="Substituting minus 4 into equation 1 for x, we get z equal to minus 3.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_04_04_006d_img_new.jpg"/>
+</media>
+</para>
+<para id="fs-id1167832978282">We write the solution as an ordered triple. <m:math><m:mrow><m:mspace width="6em"/><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−4</m:mn><m:mo>,</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>−3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+<para id="fs-id1167836573935">We check that the solution makes all three equations true.</para>
+<para id="fs-id1167829720656"><m:math><m:mrow><m:mtable>
+<m:mtr><m:mtd columnalign="left"><m:mtable><m:mtr><m:mtd columnalign="right"><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>4</m:mn><m:mi>z</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>0</m:mn><m:mrow><m:mo>(</m:mo><m:mn>1</m:mn><m:mo>)</m:mo></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mn>3</m:mn><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>−</m:mo><m:mn>4</m:mn><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mtd><m:mtd columnalign="left"><m:mover><m:mo>=</m:mo><m:mo>?</m:mo></m:mover></m:mtd><m:mtd columnalign="left"><m:mn>0</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mn>0</m:mn></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>0</m:mn><m:mo>✓</m:mo></m:mtd></m:mtr></m:mtable></m:mtd><m:mtd/><m:mtd/>
+<m:mtd columnalign="left"><m:mtable><m:mtr><m:mtd columnalign="right"><m:mn>3</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>z</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>−3</m:mn><m:mrow><m:mo>(</m:mo><m:mn>2</m:mn><m:mo>)</m:mo></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mn>3</m:mn><m:mrow><m:mo>(</m:mo><m:mn>1</m:mn><m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mn>2</m:mn><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mtd><m:mtd columnalign="left"><m:mover><m:mo>=</m:mo><m:mo>?</m:mo></m:mover></m:mtd><m:mtd columnalign="left"><m:mo>−</m:mo><m:mn>3</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mn>−3</m:mn></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>−3</m:mn><m:mo>✓</m:mo></m:mtd></m:mtr></m:mtable></m:mtd><m:mtd/><m:mtd/>
+<m:mtd columnalign="left"><m:mtable><m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="left"><m:mtable><m:mtr><m:mtd columnalign="right"><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>y</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>−5</m:mn><m:mrow><m:mo>(</m:mo><m:mn>3</m:mn><m:mo>)</m:mo></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mn>2</m:mn><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mn>3</m:mn><m:mrow><m:mo>(</m:mo><m:mn>1</m:mn><m:mo>)</m:mo></m:mrow></m:mtd><m:mtd columnalign="left"><m:mover><m:mo>=</m:mo><m:mo>?</m:mo></m:mover></m:mtd><m:mtd columnalign="left"><m:mo>−</m:mo><m:mn>5</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mn>−5</m:mn></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>−5</m:mn><m:mo>✓</m:mo></m:mtd></m:mtr></m:mtable></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>The solution is</m:mtext><m:mspace width="0.2em"/><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−4</m:mn><m:mo>,</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>−3</m:mn></m:mrow><m:mo>)</m:mo><m:mo>.</m:mo></m:mrow></m:mtd></m:mtr></m:mtable></m:mtd></m:mtr></m:mtable></m:mrow></m:math></para>
+</solution>
+</exercise>
+</example>
+<note id="fs-id1167836514694" class="try">
+<exercise id="fs-id1167832940114">
+<problem id="fs-id1167836293890">
+<para id="fs-id1167833382031">Solve: <m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>4</m:mn><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>−1</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>2</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>6</m:mn></m:mtd></m:mtr></m:mtable></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836704561">
+<para id="fs-id1167836620807"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−3</m:mn><m:mo>,</m:mo><m:mn>4</m:mn><m:mo>,</m:mo><m:mn>−2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1167825782333" class="try">
+<exercise id="fs-id1167836627315">
+<problem id="fs-id1167833382121">
+<para id="fs-id1167833138643">Solve: <m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>−5</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>3</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>7</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>6</m:mn></m:mtd></m:mtr></m:mtable></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836434358">
+<para id="fs-id1167836522895"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−2</m:mn><m:mo>,</m:mo><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>−1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<para id="fs-id1167833138169">When we solve a system and end up with no variables and a false statement, we know there are no solutions and that the system is inconsistent. The next example shows a system of equations that is inconsistent.</para>
+<example id="fs-id1167829704831">
+<exercise id="fs-id1167836576093">
+<problem id="fs-id1167836376006">
+<para id="fs-id1167829878516">Solve the system of equations: <m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>−1</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>2</m:mn></m:mtd></m:mtr></m:mtable></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836624752">
+<equation id="fs-id1171791597904" class="unnumbered"><label/><m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>−1</m:mn><m:mspace width="0.3em"/><m:mrow><m:mo>(</m:mo><m:mn>1</m:mn><m:mo>)</m:mo></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mspace width="1.5em"/><m:mrow><m:mo>(</m:mo><m:mn>2</m:mn><m:mo>)</m:mo></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mspace width="1em"/><m:mrow><m:mo>(</m:mo><m:mn>3</m:mn><m:mo>)</m:mo></m:mrow></m:mtd></m:mtr></m:mtable></m:mrow></m:mrow></m:math></equation>
+<para id="fs-id1167836691731">Use equation (1) and (2) to eliminate <emphasis effect="italics">z</emphasis>.</para>
+<para id="fs-id1167836533216">
+<media id="fs-id1167833021780" alt="The equations are x plus 2y minus 3z equals minus 1, x minus 3y plus z equals 1 and 2x minus y minus 2z equals 2.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_04_04_007a_img_new.jpg"/>
+</media>
+</para>
+<para id="fs-id1167836378444">Use (2) and (3) to eliminate <m:math><m:mi>z</m:mi></m:math> again.</para>
+<para id="fs-id1167833196797">
+<media id="fs-id1167829719422" alt="Multiplying equation 2 by 3 and adding it to equation 1, we get equation 4, 4x minus 7y equals 2. Multiplying equation 2 by 2 and adding it to equation 3, we get equation 5, 4x minus 7y equals 4.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_04_04_007b_img_new.jpg"/>
+</media>
+</para>
+<para id="fs-id1167836521885">Use (4) and (5) to eliminate a variable.</para>
+<para id="fs-id1167836399398">
+<media id="fs-id1167826205784" alt="Equations 4 and 5 both have 2 variables. Multiply equation 5 by minus 1 and add it to equation 4. We get 0 equal to minus 2, which is false.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_04_04_007c_img_new.jpg"/>
+</media></para>
+<para id="fs-id1167824731658">There is no solution.</para>
+<para id="fs-id1167836550235">We are left with a false statement and this tells us the system is inconsistent and has no solution.</para>
+</solution>
+</exercise>
+</example>
+<note id="fs-id1167836407993" class="try">
+<exercise id="fs-id1167836334898">
+<problem id="fs-id1167833066750">
+<para id="fs-id1167836755457">Solve the system of equations: <m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>6</m:mn><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>5</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mo>−</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>3</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>4</m:mn><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mtd></m:mtr></m:mtable></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836788456">
+<para id="fs-id1167829984082">no solution</para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1167829791296" class="try">
+<exercise id="fs-id1167830095268">
+<problem id="fs-id1167833057146">
+<para id="fs-id1167836481206">Solve the system of equations: <m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>6</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>7</m:mn><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mtd></m:mtr></m:mtable></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836574853">
+<para id="fs-id1167836456023">no solution</para>
+</solution>
+</exercise>
+</note>
+<para id="fs-id1167830004605">When we solve a system and end up with no variables but a true statement, we know there are infinitely many solutions. The system is consistent with dependent equations. Our solution will show how two of the variables depend on the third.</para>
+<example id="fs-id1167836510584">
+<exercise id="fs-id1167836398862">
+<problem id="fs-id1167836544330">
+<para id="fs-id1167836534914">Solve the system of equations: <m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>−</m:mo><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>7</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>4</m:mn><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>11</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>4</m:mn></m:mtd></m:mtr></m:mtable></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836286713">
+<equation id="fs-id1171791735385" class="unnumbered"><label/><m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>−</m:mo><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mspace width="1.7em"/><m:mrow><m:mo>(</m:mo><m:mn>1</m:mn><m:mo>)</m:mo></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>7</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>4</m:mn><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>11</m:mn><m:mspace width="0.3em"/><m:mrow><m:mo>(</m:mo><m:mn>2</m:mn><m:mo>)</m:mo></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>4</m:mn><m:mspace width="1.7em"/><m:mrow><m:mo>(</m:mo><m:mn>3</m:mn><m:mo>)</m:mo></m:mrow></m:mtd></m:mtr></m:mtable></m:mrow></m:mrow></m:math></equation>
+<para id="fs-id1167833139042">Use equation (1) and (3) to eliminate <emphasis effect="italics">x</emphasis>.</para>
+<para id="fs-id1167836406682">
+<media id="fs-id1167836508275" alt="The equations are x plus 2y minus z equals 1, 2x plus 7y plus 4z equals 11 and x plus 3y plus z equals 4. Multiply equation 1 with minus 1 and add it to equation 3. We get equation 4, y plus 2z equals 3.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_04_04_008a_img_new.jpg"/>
+</media>
+</para>
+<para id="fs-id1167833022192">Use equation (1) and (2) to eliminate <emphasis effect="italics">x</emphasis> again.</para>
+<para id="fs-id1167829893720">
+<media id="fs-id1167826171290" alt="Multiply equation 1 with minus 2 and add it to equation 2. We get equation 5, 3y plus 6z equals 9.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_04_04_008b_img_new.jpg"/>
+</media>
+</para>
+<para id="fs-id1167836327517">Use equation (4) and (5) to eliminate <m:math><m:mi>y</m:mi></m:math>.</para>
+<para id="fs-id1167836789117">
+<media id="fs-id1171789696361" alt="Multiply equation 4 with minus 3 and add it to equation 5. We get 0 equal to 0. There are infinite many solutions. Solving equation 4 for y, we get y equal to minus 2z plus 3. Substituting this into equation 1, we get x equal to 5z minus 5. The true statement 0 equal to 0 tells us that this is a dependent system that has infinitely many solutions. The solutions are of the form x, y, z where x is 5z minus 5, y is minus 2z plus 3 and z is any real number.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_04_04_008c_img_new.jpg"/>
+</media>
+<table id="fs-id1167824774013" class="unnumbered unstyled" summary="">
+<label/>
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<tbody>
+<row valign="top">
+<entry valign="top" align="left"/>
+<entry valign="top" align="left">There are infinitely many solutions.</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Solve equation (4) for <emphasis effect="italics">y</emphasis>.</entry>
+<entry valign="top" align="left">Represent the solution showing how <emphasis effect="italics">x</emphasis> and <emphasis effect="italics">y</emphasis> are dependent on <emphasis effect="italics">z</emphasis>.<newline/><m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>z</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>3</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>y</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>−2</m:mn><m:mi>z</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mtd></m:mtr></m:mtable></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Use equation (1) to solve for <emphasis effect="italics">x</emphasis>.</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mspace width="4em"/><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>−</m:mo><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Substitute <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−2</m:mn><m:mi>z</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mo>.</m:mo></m:mrow></m:math></entry>
+<entry valign="top" align="left"><m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mo stretchy="false">(</m:mo><m:mn>−2</m:mn><m:mi>z</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo><m:mo>−</m:mo><m:mi>z</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>1</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>4</m:mn><m:mi>z</m:mi><m:mo>+</m:mo><m:mn>6</m:mn><m:mo>−</m:mo><m:mi>z</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>1</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>5</m:mn><m:mi>z</m:mi><m:mo>+</m:mo><m:mn>6</m:mn></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>1</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>x</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>5</m:mn><m:mi>z</m:mi><m:mo>−</m:mo><m:mn>5</m:mn></m:mtd></m:mtr></m:mtable></m:math></entry>
+</row>
+</tbody>
+</tgroup>
+</table></para>
+<para id="fs-id1167836360117">The true statement <m:math><m:mrow><m:mn>0</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> tells us that this is a dependent system that has infinitely many solutions. The solutions are of the form <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>y</m:mi><m:mo>,</m:mo><m:mi>z</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> where <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>5</m:mn><m:mi>z</m:mi><m:mo>−</m:mo><m:mn>5</m:mn><m:mo>;</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−2</m:mn><m:mi>z</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow></m:math>and <emphasis effect="italics">z</emphasis> is any real number.</para>
+</solution>
+</exercise>
+</example>
+<note id="fs-id1167829907255" class="try">
+<exercise id="fs-id1167829796752">
+<problem id="fs-id1167829718219">
+<para id="fs-id1167836492090">Solve the system by equations: <m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>y</m:mi><m:mo>−</m:mo><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>6</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>6</m:mn><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>9</m:mn></m:mtd></m:mtr></m:mtable></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167829861781">
+<para id="fs-id1167836531064">infinitely many solutions<m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>,</m:mo><m:mn>3</m:mn><m:mo>,</m:mo><m:mi>z</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> where <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mi>z</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:mo>;</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>3</m:mn><m:mo>;</m:mo><m:mi>z</m:mi></m:mrow></m:math> is any real number</para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1167829596043" class="try">
+<exercise id="fs-id1167836530163">
+<problem id="fs-id1167836339987">
+<para id="fs-id1167829719789">Solve the system by equations: <m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mi>x</m:mi><m:mo>−</m:mo><m:mi>y</m:mi><m:mo>−</m:mo><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mo>−</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>−4</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>7</m:mn><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mtd></m:mtr></m:mtable></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836666754">
+<para id="fs-id1167833086865">infinitely many solutions <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>y</m:mi><m:mo>,</m:mo><m:mi>z</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> where<m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>5</m:mn><m:mi>z</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mo>;</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>4</m:mn><m:mi>z</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:mo>;</m:mo><m:mi>z</m:mi></m:mrow></m:math> is any real number</para>
+</solution>
+</exercise>
+</note>
+</section>
+<section id="fs-id1167836539512">
+<title>Solve Applications using Systems of Linear Equations with Three Variables</title>
+<para id="fs-id1167833086461">Applications that are modeled by a systems of equations can be solved using the same techniques we used to solve the systems. Many of the application are just extensions to three variables of the types we have solved earlier.</para>
+<example id="fs-id1167836622870">
+<exercise id="fs-id1167833227340">
+<problem id="fs-id1167829624534">
+<para id="fs-id1167836366635">The community college theater department sold three kinds of tickets to its latest play production. The adult tickets sold for $15, the student tickets for $10 and the child tickets for $8. The theater department was thrilled to have sold 250 tickets and brought in $2,825 in one night. The number of student tickets sold is twice the number of adult tickets sold. How many of each type did the department sell?</para>
+</problem>
+<solution id="fs-id1167829693376">
+<para id="fs-id1167829753231"><table id="fs-id1167829812971" class="unnumbered unstyled can-break" summary="We will use a chart to organize information. The type is adult, student and child. The numbers for these are x, y and z respectively and the total is 250. The values for these are 15, 10 and 8 respectively. The total values are 15x, 10y and 8z respectively, the total being 2825. Number of students is twice number of adults. So y is 2x. We rewrite as 2x minus y equals 0. The system of equations is x plus y plus z equals 250, 15x plus 10y plus 8z is 2825 and minus 2x plus y is 0. Multiply equation 1 by minus 8 and add it to equation 2. We get 7x plus 2y equals 825. Multiply equation 3 with minus 2 and add it to equation 4. Solving for x, we get x equal to 75. Substituting this into equation 3, we get y equal to 150. Substituting values of x and y in equation 1, we get z equal to 25. The theater department sold 75 adult tickets, 150 student tickets, and 25 child tickets.">
+<label/>
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<tbody>
+<row valign="top">
+<entry valign="top" align="left">We will use a chart to organize the information.</entry>
+<entry valign="top" align="left"><media id="fs-id1167836693208" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_04_04_009a_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Number of students is twice number of adults.</entry>
+<entry valign="top" align="left"/>
+</row>
+<row valign="top">
+<entry valign="bottom" align="left">Rewrite the equation in standard form.</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mtable><m:mtr><m:mtd columnalign="right"><m:mi>y</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>2</m:mn><m:mi>x</m:mi></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mi>y</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>0</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left" namest="c1" nameend="c2"><media id="fs-id1167836449342" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_04_04_009b_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Use equations (1) and (2) to eliminate <emphasis effect="italics">z</emphasis>.</entry>
+<entry valign="top" align="left"/>
+</row>
+<row valign="top">
+<entry valign="top" align="left" namest="c1" nameend="c2"><media id="fs-id1167836576219" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_04_04_009c_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Use (3) and (4) to eliminate <m:math><m:mi>y</m:mi><m:mo>.</m:mo></m:math></entry>
+<entry valign="top" align="left"/>
+</row>
+<row valign="top">
+<entry valign="top" align="left" namest="c1" nameend="c2"><media id="fs-id1167836545039" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_04_04_009d_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Solve for <emphasis effect="italics">x</emphasis>.</entry>
+<entry valign="top" align="left"><m:math><m:mspace width="1.3em"/><m:mrow><m:mo> </m:mo><m:mi>x</m:mi><m:mspace width="3.6em"/><m:mo>=</m:mo><m:mn>75</m:mn></m:mrow></m:math> adult tickets</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Use equation (3) to find <emphasis effect="italics">y</emphasis>.</entry>
+<entry valign="top" align="left"><m:math><m:mspace width="3.4em"/><m:mrow><m:mn>−2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Substitute <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>75</m:mn><m:mo>.</m:mo></m:mrow></m:math></entry>
+<entry valign="top" align="left"><m:math><m:mspace width="1.7em"/><m:mrow><m:mtable><m:mtr><m:mtd columnalign="right"><m:mn>−2</m:mn><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>75</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mi>y</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>0</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mn>−150</m:mn><m:mo>+</m:mo><m:mi>y</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>0</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>y</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>150</m:mn><m:mspace width="0.2em"/><m:mtext>student tickets</m:mtext></m:mtd></m:mtr></m:mtable></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Use equation (1) to find <emphasis effect="italics">z</emphasis>.</entry>
+<entry valign="top" align="left"><m:math><m:mspace width="3.1em"/><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>y</m:mi><m:mo>+</m:mo><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>250</m:mn></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Substitute in the values<newline/><m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>75</m:mn><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>150</m:mn><m:mo>.</m:mo></m:mrow></m:math></entry>
+<entry valign="top" align="left"><newline/><m:math><m:mspace width="1em"/><m:mrow><m:mtable><m:mtr><m:mtd columnalign="right"><m:mn>75</m:mn><m:mo>+</m:mo><m:mn>150</m:mn><m:mo>+</m:mo><m:mi>z</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>250</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mn>225</m:mn><m:mo>+</m:mo><m:mi>z</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>250</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>z</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>25</m:mn><m:mspace width="0.2em"/><m:mtext>child tickets</m:mtext></m:mtd></m:mtr></m:mtable></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Write the solution.</entry>
+<entry valign="top" align="left">The theater department sold 75 adult tickets,<newline/>150 student tickets, and 25 child tickets.</entry>
+</row>
+</tbody>
+</tgroup>
+</table></para>
+</solution>
+</exercise>
+</example>
+<note id="fs-id1167833279849" class="try">
+<exercise id="fs-id1167829651324">
+<problem id="fs-id1167836449776">
+<para id="fs-id1167832976579">The community college fine arts department sold three kinds of tickets to its latest dance presentation. The adult tickets sold for $20, the student tickets for $12 and the child tickets for $10.The fine arts department was thrilled to have sold 350 tickets and brought in $4,650 in one night. The number of child tickets sold is the same as the number of adult tickets sold. How many of each type did the department sell?</para>
+</problem>
+<solution id="fs-id1167829811278">
+<para id="fs-id1167829715922">The fine arts department sold 75 adult tickets, 200 student tickets, and 75 child tickets.</para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1167836330695" class="try">
+<exercise id="fs-id1167836486854">
+<problem id="fs-id1167829904743">
+<para id="fs-id1167836522074">The community college soccer team sold three kinds of tickets to its latest game. The adult tickets sold for $10, the student tickets for $8 and the child tickets for $5. The soccer team was thrilled to have sold 600 tickets and brought in $4,900 for one game. The number of adult tickets is twice the number of child tickets. How many of each type did the soccer team sell?</para>
+</problem>
+<solution id="fs-id1167836627190">
+<para id="fs-id1167825872620">The soccer team sold 200 adult tickets, 300 student tickets, and 100 child tickets.</para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1167836509791" class="media-2">
+<para id="fs-id1167829831129">Access this online resource for additional instruction and practice with solving a linear system in three variables with no or infinite solutions.</para>
+<list id="fs-id1169146669576" display="block">
+<item><link url="https://openstax.org/l/37linsys3var">Solving a Linear System in Three Variables with No or Infinite Solutions</link></item>
+<item><link url="https://openstax.org/l/37variableapp">3 Variable Application</link></item>
+</list>
+</note>
+</section>
+<section id="fs-id1167829738436" class="key-concepts">
+<title>Key Concepts</title>
+<list id="fs-id1167836774761" list-type="bulleted" bullet-style="bullet">
+<item><emphasis effect="bold">Linear Equation in Three Variables:</emphasis> A linear equation with three variables, where <emphasis effect="italics">a, b, c</emphasis>, and <emphasis effect="italics">d</emphasis> are real numbers and <emphasis effect="italics">a, b,</emphasis> and <emphasis effect="italics">c</emphasis> are not all 0, is of the form<newline/>
+<equation id="fs-id1167829743566" class="unnumbered"><label/><m:math><m:mrow><m:mi>a</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>b</m:mi><m:mi>y</m:mi><m:mo>+</m:mo><m:mi>c</m:mi><m:mi>z</m:mi><m:mo>=</m:mo><m:mi>d</m:mi></m:mrow></m:math></equation><newline/>
+Every solution to the equation is an ordered triple, <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>y</m:mi><m:mo>,</m:mo><m:mi>z</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> that makes the equation true.</item>
+<item><emphasis effect="bold">How to solve a system of linear equations with three variables.</emphasis>
+<list id="fs-id1167833365883" list-type="enumerated" number-style="arabic" class="stepwise">
+<item>Write the equations in standard form<newline/>
+If any coefficients are fractions, clear them.</item>
+<item>Eliminate the same variable from two equations.<newline/>
+Decide which variable you will eliminate.<newline/>
+Work with a pair of equations to eliminate the chosen variable.<newline/>
+Multiply one or both equations so that the coefficients of that variable are opposites.<newline/>
+Add the equations resulting from Step 2 to eliminate one variable</item>
+<item>Repeat Step 2 using two other equations and eliminate the same variable as in Step 2.</item>
+<item>The two new equations form a system of two equations with two variables. Solve this system.</item>
+<item>Use the values of the two variables found in Step 4 to find the third variable.</item>
+<item>Write the solution as an ordered triple.</item>
+<item>Check that the ordered triple is a solution to <emphasis effect="bold">all three</emphasis> original equations.</item>
+</list></item>
+</list>
+</section>
+<section id="fs-id1167829906194" class="section-exercises">
+<section id="fs-id1167829634077" class="practice-perfect">
+<title>Practice Makes Perfect</title>
+<para id="fs-id1167830096283"><emphasis effect="bold">Determine Whether an Ordered Triple is a Solution of a System of Three Linear Equations with Three Variables</emphasis></para>
+<para id="fs-id1167829936718">In the following exercises, determine whether the ordered triple is a solution to the system.</para>
+<exercise id="fs-id1167836501642" class="material-set-2">
+<problem id="fs-id1167833086359">
+<para id="fs-id1167836507118"><m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>6</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>3</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>4</m:mn><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>2</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>3</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:mrow></m:math></para>
+<para id="fs-id1167836706047"><span class="token">ⓐ</span> <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>4</m:mn><m:mo>,</m:mo><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>7</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167836510397" class="material-set-2">
+<problem id="fs-id1167824748848">
+<para id="fs-id1167829651306"><m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mo>−</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mspace width="0.2em"/><m:mtext/><m:mspace width="0.2em"/><m:mi>y</m:mi><m:mo>+</m:mo><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>−4</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mo>−</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mspace width="0.2em"/><m:mtext/><m:mspace width="0.2em"/><m:mi>y</m:mi><m:mo>−</m:mo><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>−1</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:mrow></m:math></para>
+<para id="fs-id1167836287729"><span class="token">ⓐ</span> <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>−5</m:mn><m:mo>,</m:mo><m:mn>−7</m:mn><m:mo>,</m:mo><m:mn>4</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>5</m:mn><m:mo>,</m:mo><m:mn>7</m:mn><m:mo>,</m:mo><m:mn>4</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836573198">
+<para id="fs-id1167829807906"><span class="token">ⓐ</span> no <span class="token">ⓑ</span> yes</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167833136684" class="material-set-2">
+<problem id="fs-id1167836407132">
+<para id="fs-id1167833021377"><m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>10</m:mn><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>−8</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>2</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>5</m:mn><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>3</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:mrow></m:math></para>
+<para id="fs-id1167833046978"><span class="token">ⓐ</span> <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>7</m:mn><m:mo>,</m:mo><m:mn>12</m:mn><m:mo>,</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167836686650" class="material-set-2">
+<problem id="fs-id1167836378109">
+<para id="fs-id1167836686455"><m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>y</m:mi><m:mo>−</m:mo><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>15</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mi>y</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>2</m:mn><m:mn>3</m:mn></m:mfrac><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>−2</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:mrow></m:math></para>
+<para id="fs-id1167829741854"><span class="token">ⓐ</span> <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−6</m:mn><m:mo>,</m:mo><m:mn>5</m:mn><m:mo>,</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>5</m:mn><m:mo>,</m:mo><m:mfrac><m:mn>4</m:mn><m:mn>3</m:mn></m:mfrac><m:mo>,</m:mo><m:mn>−3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167829696536">
+<para id="fs-id1167829598072"><span class="token">ⓐ</span> no <span class="token">ⓑ</span> no</para>
+</solution>
+</exercise>
+<para id="fs-id1167829713554"><emphasis effect="bold">Solve a System of Linear Equations with Three Variables</emphasis></para>
+<para id="fs-id1167836433959">In the following exercises, solve the system of equations.</para>
+<exercise id="fs-id1167833327314">
+<problem id="fs-id1167836390323">
+<para id="fs-id1167836738284"><m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mn>5</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>5</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mo>−</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>6</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>5</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167833086748">
+<problem id="fs-id1167824740545">
+<para id="fs-id1167829872202"><m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mn>6</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>5</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>3</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>4</m:mn><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>5</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>−1</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167829749058">
+<para id="fs-id1167836516626"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>4</m:mn><m:mo>,</m:mo><m:mn>5</m:mn><m:mo>,</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167836392614">
+<problem id="fs-id1167824774411">
+<para id="fs-id1167829594499"><m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>5</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>8</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>4</m:mn><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>7</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>−3</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167836493253">
+<problem id="fs-id1167836288151">
+<para id="fs-id1167829717239"><m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mn>5</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>−5</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mi>y</m:mi><m:mo>−</m:mo><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>4</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>−7</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167824764689">
+<para id="fs-id1167836703915"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>7</m:mn><m:mo>,</m:mo><m:mn>12</m:mn><m:mo>,</m:mo><m:mn>−2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167836477516">
+<problem id="fs-id1167836508453">
+<para id="fs-id1167836552744"><m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>5</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>4</m:mn><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>5</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>5</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>3</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167829878819">
+<problem id="fs-id1167836547728">
+<para id="fs-id1167836691963"><m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>7</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>5</m:mn><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>4</m:mn><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>3</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>−7</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167826170426">
+<para id="fs-id1167829930733"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−3</m:mn><m:mo>,</m:mo><m:mn>−5</m:mn><m:mo>,</m:mo><m:mn>4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167830013969">
+<problem id="fs-id1167836481012">
+<para id="fs-id1167833025488"><m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>8</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>−5</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>5</m:mn><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>−1</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167832999524">
+<problem id="fs-id1167836532597">
+<para id="fs-id1167829716811"><m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mn>11</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>9</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>−9</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>7</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>5</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>−7</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>−3</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167832925579">
+<para id="fs-id1167829786231"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>−3</m:mn><m:mo>,</m:mo><m:mn>−2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167836689151">
+<problem id="fs-id1167824774450">
+<para id="fs-id1167836515372"><m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac><m:mi>x</m:mi><m:mo>−</m:mo><m:mi>y</m:mi><m:mo>−</m:mo><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mi>x</m:mi><m:mo>+</m:mo><m:mfrac><m:mn>5</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>y</m:mi><m:mo>+</m:mo><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>−2</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>−4</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167836614091">
+<problem id="fs-id1167829711744">
+<para id="fs-id1167836705310"><m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mi>x</m:mi><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>y</m:mi><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mfrac><m:mn>1</m:mn><m:mn>5</m:mn></m:mfrac><m:mi>x</m:mi><m:mo>−</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>5</m:mn></m:mfrac><m:mi>y</m:mi><m:mo>+</m:mo><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac><m:mi>x</m:mi><m:mo>−</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>−1</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836300586">
+<para id="fs-id1167836415047"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>6</m:mn><m:mo>,</m:mo><m:mn>−9</m:mn><m:mo>,</m:mo><m:mn>−3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167836598004">
+<problem id="fs-id1167833272219">
+<para id="fs-id1167830077526"><m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mi>x</m:mi><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>−1</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>y</m:mi><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>x</m:mi><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac><m:mi>y</m:mi><m:mo>−</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>−1</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167836510914">
+<problem id="fs-id1167836732591">
+<para id="fs-id1167829787685"><m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac><m:mi>x</m:mi><m:mo>−</m:mo><m:mi>y</m:mi><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>4</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mfrac><m:mn>2</m:mn><m:mn>3</m:mn></m:mfrac><m:mi>x</m:mi><m:mo>+</m:mo><m:mfrac><m:mn>5</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>4</m:mn><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mi>x</m:mi><m:mo>−</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>y</m:mi><m:mo>+</m:mo><m:mfrac><m:mn>3</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>2</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167829745800">
+<para id="fs-id1167836597056"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>−4</m:mn><m:mo>,</m:mo><m:mn>−2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167836362489">
+<problem id="fs-id1167836552028">
+<para id="fs-id1167836585257"><m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>4</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>−2</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>5</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>3</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167829748029">
+<problem id="fs-id1167829905146">
+<para id="fs-id1167836508175"><m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>5</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>4</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>3</m:mn><m:mi>y</m:mi><m:mo>−</m:mo><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>3</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>−3</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167829580059">
+<para id="fs-id1167836549784"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−3</m:mn><m:mo>,</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167829807670">
+<problem id="fs-id1167833138383">
+<para id="fs-id1167829686513"><m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>−1</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>5</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−6</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>7</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167829740446">
+<problem id="fs-id1167833329016">
+<para id="fs-id1167829989579"><m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>−3</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>5</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>−6</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−8</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836542169">
+<para id="fs-id1167836387902"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−2</m:mn><m:mo>,</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>−3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167836532846">
+<problem id="fs-id1167829744480">
+<para id="fs-id1167836545984"><m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>7</m:mn><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>6</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167829811216">
+<problem id="fs-id1167836447777">
+<para id="fs-id1167836299522"><m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>y</m:mi><m:mo>−</m:mo><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>2</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mi>x</m:mi><m:mo>−</m:mo><m:mi>y</m:mi><m:mo>+</m:mo><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>5</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836664947">
+<para id="fs-id1167833397142">no solution</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167829850954">
+<problem id="fs-id1167829844151">
+<para id="fs-id1167833009058"><m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>12</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>y</m:mi><m:mo>+</m:mo><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>9</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>20</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167836524317">
+<problem id="fs-id1167829893475">
+<para id="fs-id1167825791285"><m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>−8</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>9</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>7</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167833240113">
+<para id="fs-id1167836507837"><m:math><m:mrow><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>203</m:mn><m:mn>16</m:mn></m:mfrac><m:mo>;</m:mo></m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>–25</m:mn><m:mn>16</m:mn></m:mfrac><m:mo>;</m:mo><m:mi>z</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>–231</m:mn><m:mn>16</m:mn></m:mfrac><m:mo>;</m:mo></m:mrow>
+</m:math></para></solution>
+</exercise>
+<exercise id="fs-id1167829930558">
+<problem id="fs-id1167836292764">
+<para id="fs-id1167836635633"><m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>4</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>3</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>−7</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167836318721">
+<problem id="fs-id1167836318723">
+<para id="fs-id1167825836140"><m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>3</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>−7</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>4</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167829593597">
+<para id="fs-id1167829593599"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>y</m:mi><m:mo>,</m:mo><m:mi>z</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> where <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>5</m:mn><m:mi>z</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mo>;</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−3</m:mn><m:mi>z</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo>;</m:mo><m:mi>z</m:mi></m:mrow></m:math> is any real number</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167833135136">
+<problem id="fs-id1167832961255">
+<para id="fs-id1167832961257"><m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>−1</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mi>y</m:mi><m:mo>−</m:mo><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mo>−</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167829598896">
+<problem id="fs-id1167836693792">
+<para id="fs-id1167836693795"><m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>7</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>4</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>5</m:mn><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>7</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167833290526">
+<para id="fs-id1167833290529"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>y</m:mi><m:mo>,</m:mo><m:mi>z</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> where <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>5</m:mn><m:mi>z</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mo>;</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>4</m:mn><m:mi>z</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:mo>;</m:mo><m:mi>z</m:mi></m:mrow></m:math> is any real number</para>
+</solution>
+</exercise>
+<para id="fs-id1167836448592"><emphasis effect="bold">Solve Applications using Systems of Linear Equations with Three Variables</emphasis></para>
+<para id="fs-id1167836501809">In the following exercises, solve the given problem.</para>
+<exercise id="fs-id1167836501812" class="material-set-2">
+<problem id="fs-id1167836501814">
+<para id="fs-id1167833114798">The sum of the measures of the angles of a triangle is 180. The sum of the measures of the second and third angles is twice the measure of the first angle. The third angle is twelve more than the second. Find the measures of the three angles.</para></problem>
+</exercise>
+<exercise id="fs-id1167836561270" class="material-set-2">
+<problem id="fs-id1167836561272">
+<para id="fs-id1167829712734">The sum of the measures of the angles of a triangle is 180. The sum of the measures of the second and third angles is three times the measure of the first angle. The third angle is fifteen more than the second. Find the measures of the three angles.</para></problem>
+<solution id="fs-id1167836625011">
+<para id="fs-id1167836625013">45 degrees, 60 degrees, 75 degrees</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167836556299" class="material-set-2">
+<problem id="fs-id1167836556301">
+<para id="fs-id1167836556303">After watching a major musical production at the theater, the patrons can purchase souvenirs. If a family purchases 4 t-shirts, the video, and 1 stuffed animal, their total is $135.</para><para id="fs-id1167836618962">A couple buys 2 t-shirts, the video, and 3 stuffed animals for their nieces and spends $115. Another couple buys 2 t-shirts, the video, and 1 stuffed animal and their total is $85. What is the cost of each item?</para></problem>
+</exercise>
+<exercise id="fs-id1167836525390" class="material-set-2">
+<problem id="fs-id1167830077435">
+<para id="fs-id1167830077437">The church youth group is selling snacks to raise money to attend their convention. Amy sold 2 pounds of candy, 3 boxes of cookies and 1 can of popcorn for a total sales of $65. Brian sold 4 pounds of candy, 6 boxes of cookies and 3 cans of popcorn for a total sales of $140. Paulina sold 8 pounds of candy, 8 boxes of cookies and 5 cans of popcorn for a total sales of $250. What is the cost of each item?</para></problem>
+<solution id="fs-id1167830077439">
+<para id="fs-id1167836694284">$20, $5, $10</para></solution>
+</exercise>
+</section>
+<section id="fs-id1167829905105" class="writing">
+<title>Writing Exercises</title>
+<exercise id="fs-id1167829807546">
+<problem id="fs-id1167829807548">
+<para id="fs-id1167829807550">In your own words explain the steps to solve a system of linear equations with three variables by elimination.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167833047500">
+<problem id="fs-id1167836518239">
+<para id="fs-id1167836518241">How can you tell when a system of three linear equations with three variables has no solution? Infinitely many solutions?</para>
+</problem>
+<solution id="fs-id1167836578708">
+<para id="fs-id1167836578710">Answers will vary.</para>
+</solution>
+</exercise>
+</section>
+<section id="fs-id1167836387211">
+<title>Self Check</title>
+<para id="fs-id1167836477611"><span class="token">ⓐ</span> After completing the exercises, use this checklist to evaluate your mastery of the objectives of this section.</para>
+<media id="fs-id1167836705926" alt="This table has 4 columns, 3 rows and a header row. The header row labels each column I can, confidently, with some help and no, I don’t get it. The first row contains the following statements: determine whether an ordered triple is a solution of a system of three linear equations with three variables, solve a system of linear equations with three variables, solve applications using systems of linear equations with three variables. The remaining columns are blank.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_04_04_201_img_new.jpg"/>
+</media>
+<para id="fs-id1167829596900"><span class="token">ⓑ</span> On a scale of 1-10, how would you rate your mastery of this section in light of your responses on the checklist? How can you improve this?</para>
+</section>
+</section>
+</content>
+<glossary>
+<definition id="fs-id1167829719698">
+<term>solutions of a system of linear equations with three variables</term>
+<meaning id="fs-id1167825830106">The solutions of a system of equations are the values of the variables that make all the equations true; a solution is represented by an ordered triple <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>y</m:mi><m:mo>,</m:mo><m:mi>z</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></meaning>
+</definition>
+</glossary>
+</document>

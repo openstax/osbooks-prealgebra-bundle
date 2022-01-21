@@ -1,0 +1,1434 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Distance and Midpoint Formulas; Circles</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m81452</md:content-id>
+  <md:title>Distance and Midpoint Formulas; Circles</md:title>
+  <md:abstract><para>By the end of this section, you will be able to:</para>
+<list>
+<item>Use the Distance Formula</item>
+<item>Use the Midpoint Formula</item>
+<item>Write the equation of a circle in standard form</item>
+<item>Graph a circle</item>
+</list></md:abstract>
+  <md:uuid>481bcd2d-93f7-480e-a6bd-1c71ae29a17f</md:uuid>
+</metadata>
+
+<content>
+<note id="fs-id1169148200557" class="be-prepared">
+<para id="fs-id1169145525871">Before you get started, take this readiness quiz.</para>
+<exercise id="fs-idm365604592">
+<problem id="fs-idm518061376">
+<para id="fs-idm341506512">Find the length of the hypotenuse of a right triangle whose legs are 12 and 16 inches.<newline/>
+If you missed this problem, review <link document="m81364" target-id="fs-id1167832054640"/>.</para>
+</problem>
+<solution id="fs-idm341064608">
+<para id="fs-idm502977824"><m:math><m:mrow><m:mn>20</m:mn><m:mspace width="0.2em"/><m:mtext>inches</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-idm344855504" class="be-prepared">
+<exercise id="fs-idm375997136">
+<problem id="fs-idm500314080">
+<para id="fs-idm499866432">Factor: <m:math><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>18</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>81</m:mn><m:mo>.</m:mo></m:mrow></m:math><newline/>
+If you missed this problem, review <link document="m81388" target-id="fs-id1167835345249"/>.</para>
+</problem>
+<solution id="fs-idm366073984">
+<para id="fs-idm370804288"><m:math><m:mrow><m:msup><m:mrow><m:mfenced><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>9</m:mn></m:mrow></m:mfenced></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-idm368439168" class="be-prepared">
+<exercise id="fs-idm345457328">
+<problem id="fs-idm499717440">
+<para id="fs-idm372728560">Solve by completing the square: <m:math><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>12</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>12</m:mn><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>.</m:mo></m:mrow></m:math><newline/>
+If you missed this problem, review <link document="m81449" target-id="fs-id1167836717133"/>.</para>
+</problem>
+<solution id="fs-idm502897904">
+<para id="fs-idm327529552"><m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>6</m:mn><m:mo>±</m:mo><m:mn>4</m:mn><m:msqrt><m:mn>3</m:mn></m:msqrt></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<para id="fs-id1169147816562">In this chapter we will be looking at the conic sections, usually called the conics, and their properties. The conics are curves that result from a plane intersecting a double cone—two cones placed point-to-point. Each half of a double cone is called a nappe.</para>
+<media id="fs-id1169148185329" alt="This figure shows two cones placed point to point. They are labeled nappes.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_11_01_001_img.jpg"/>
+</media>
+<para id="fs-id1169147842107">There are four conics—the <term>circle</term>, <term>parabola</term>, <term>ellipse</term>, and <term>hyperbola</term>. The next figure shows how the plane intersecting the double cone results in each curve.</para>
+<media id="fs-id1169147855585" alt="Each of these four figures shows a double cone intersected by a plane. In the first figure, the plane is perpendicular to the axis of the cones and intersects the bottom cone to form a circle. In the second figure, the plane is at an angle to the axis and intersects the bottom cone in such a way that it intersects the base as well. Thus, the curve formed by the intersection is open at both ends. This is labeled parabola. In the third figure, the plane is at an angle to the axis and intersects the bottom cone in such a way that it does not intersect the base of the cone. Thus, the curve formed by the intersection is a closed loop, labeled ellipse. In the fourth figure, the plane is parallel to the axis, intersecting both cones. This is labeled hyperbola.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_11_01_002_img.jpg"/>
+</media>
+<para id="fs-id1169148059884">Each of the curves has many applications that affect your daily life, from your cell phone to acoustics and navigation systems. In this section we will look at the properties of a circle.</para>
+<section id="fs-id1169145970589">
+<title>Use the Distance Formula</title>
+<para id="fs-id1169145507316">We have used the Pythagorean Theorem to find the lengths of the sides of a right triangle. Here we will use this theorem again to find distances on the rectangular coordinate system. By finding distance on the rectangular coordinate system, we can make a connection between the geometry of a conic and algebra—which opens up a world of opportunities for application.</para>
+<para id="fs-id1169143579500">Our first step is to develop a formula to find distances between points on the rectangular coordinate system. We will plot the points and create a right triangle much as we did when we found slope in <link document="m81368">Graphs and Functions</link>. We then take it one step further and use the Pythagorean Theorem to find the length of the hypotenuse of the triangle—which is the distance between the points.</para>
+<example id="fs-id1169145493144">
+<exercise id="fs-id1169147716157">
+<problem id="fs-id1169143581458">
+<para id="fs-id1169148237153">Use the rectangular coordinate system to find the distance between the points <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>6</m:mn><m:mo>,</m:mo><m:mn>4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> and <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169147777899">
+<para id="fs-id1169143581210">
+<table id="fs-id1169148200270" class="unnumbered unstyled can-break" summary="Plot the two points 2, 1 and 6, 4. Connect the two points with a line d. Draw a right triangle as if you were going to find slope of that line. Find the length of each leg. The rise is 3 and the length is 4. Use the Pythagorean Theorem to find d, the distance between the two points. 3 squared plus 4 squared is d squared. Simplifying, we get 25 equals d squared. Use the Square Root Property, d is 5 or minus 5. Since distance, d is positive, we can eliminate minus 5. The distance between the points 6, 4 and 2, 1 is 5.">
+<label/>
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<tbody>
+<row valign="top">
+<entry valign="top" align="left">Plot the two points. Connect the two points<newline/>with a line.<newline/>
+Draw a right triangle as if you were going to<newline/>find slope.</entry>
+<entry valign="top" align="left"><media id="fs-id1169146012839" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_11_01_003a_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Find the length of each leg.</entry>
+<entry valign="top" align="left"><media id="fs-id1169148229923" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_11_01_003b_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Use the Pythagorean Theorem to find <emphasis effect="italics">d</emphasis>, the<newline/>distance between the two points.</entry>
+<entry valign="top" align="center"><m:math><m:mrow><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Substitute in the values.</entry>
+<entry valign="top" align="center"><m:math><m:mrow><m:msup><m:mn>3</m:mn><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mn>4</m:mn><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:msup><m:mi>d</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Simplify.</entry>
+<entry valign="top" align="center"><m:math><m:mrow><m:mspace width="0.3em"/><m:mn>9</m:mn><m:mo>+</m:mo><m:mn>16</m:mn><m:mo>=</m:mo><m:msup><m:mi>d</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left"/>
+<entry valign="top" align="center"><m:math><m:mrow><m:mspace width="2em"/><m:mn>25</m:mn><m:mo>=</m:mo><m:msup><m:mi>d</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Use the Square Root Property.</entry>
+<entry valign="top" align="center"><m:math><m:mrow><m:mspace width="1em"/><m:mi>d</m:mi><m:mo>=</m:mo><m:mn>5</m:mn><m:mspace width="2em"/><m:menclose notation="updiagonalstrike"><m:mrow><m:mi>d</m:mi><m:mo>=</m:mo><m:mn>−5</m:mn></m:mrow></m:menclose></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Since distance, <emphasis effect="italics">d</emphasis> is positive, we can eliminate<newline/><m:math><m:mrow><m:mi>d</m:mi><m:mo>=</m:mo><m:mn>−5</m:mn><m:mo>.</m:mo></m:mrow></m:math></entry>
+<entry valign="top" align="left">The distance between the points <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>6</m:mn><m:mo>,</m:mo><m:mn>4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> and<newline/><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> is 5.</entry>
+</row>
+</tbody>
+</tgroup>
+</table></para>
+</solution>
+</exercise>
+</example>
+<note id="fs-id1169145575143" class="try">
+<exercise id="fs-id1169143305917">
+<problem id="fs-id1169147736126">
+<para id="fs-id1169147744813">Use the rectangular coordinate system to find the distance between the points <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>6</m:mn><m:mo>,</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> and <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>−2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169148224762">
+<para id="fs-id1169147738791"><m:math><m:mrow><m:mi>d</m:mi><m:mo>=</m:mo><m:mn>5</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1169145606508" class="try">
+<exercise id="fs-id1169147867018">
+<problem id="fs-id1169147906326">
+<para id="fs-id1169145747745">Use the rectangular coordinate system to find the distance between the points <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>5</m:mn><m:mo>,</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> and <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−3</m:mn><m:mo>,</m:mo><m:mn>−3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169142297030">
+<para id="fs-id1169145844237"><m:math><m:mrow><m:mi>d</m:mi><m:mo>=</m:mo><m:mn>10</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<media id="fs-id1169147731429" alt="Figure shows a graph with a right triangle. The hypotenuse connects two points, (2, 1) and (6, 4). These are respectively labeled (x1, y1) and (x2, y2). The rise is y2 minus y1, which is 4 minus 1 equals 3. The run is x2 minus x1, which is 6 minus 2 equals 4.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_11_01_004_img.jpg"/>
+</media>
+<para id="fs-id1169147861248">The method we used in the last example leads us to the formula to find the distance between the two points <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub><m:mo>,</m:mo><m:msub><m:mi>y</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> and <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msub><m:mi>x</m:mi><m:mn>2</m:mn></m:msub><m:mo>,</m:mo><m:msub><m:mi>y</m:mi><m:mn>2</m:mn></m:msub></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+<para id="fs-id1169142417464">When we found the length of the horizontal leg we subtracted <m:math><m:mrow><m:mn>6</m:mn><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow></m:math> which is <m:math><m:mrow><m:msub><m:mi>x</m:mi><m:mn>2</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub><m:mo>.</m:mo></m:mrow></m:math></para>
+<para id="fs-id1169147808000">When we found the length of the vertical leg we subtracted <m:math><m:mrow><m:mn>4</m:mn><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:math> which is <m:math><m:mrow><m:msub><m:mi>y</m:mi><m:mn>2</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>y</m:mi><m:mn>1</m:mn></m:msub><m:mo>.</m:mo></m:mrow></m:math></para>
+<para id="fs-id1169145721702">If the triangle had been in a different position, we may have subtracted <m:math><m:mrow><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>x</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math> or <m:math><m:mrow><m:msub><m:mi>y</m:mi><m:mn>1</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>y</m:mi><m:mn>2</m:mn></m:msub><m:mo>.</m:mo></m:mrow></m:math> The expressions <m:math><m:mrow><m:msub><m:mi>x</m:mi><m:mn>2</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> and <m:math><m:mrow><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>x</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math> vary only in the sign of the resulting number. To get the positive value-since distance is positive- we can use absolute value. So to generalize we will say <m:math><m:mrow><m:mrow><m:mo>|</m:mo><m:mrow><m:msub><m:mi>x</m:mi><m:mn>2</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mo>|</m:mo></m:mrow></m:mrow></m:math> and <m:math><m:mrow><m:mrow><m:mo>|</m:mo><m:mrow><m:msub><m:mi>y</m:mi><m:mn>2</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>y</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mo>|</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+<para id="fs-id1169148114458">In the Pythagorean Theorem, we substitute the general expressions <m:math><m:mrow><m:mrow><m:mo>|</m:mo><m:mrow><m:msub><m:mi>x</m:mi><m:mn>2</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mo>|</m:mo></m:mrow></m:mrow></m:math> and <m:math><m:mrow><m:mrow><m:mo>|</m:mo><m:mrow><m:msub><m:mi>y</m:mi><m:mn>2</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>y</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mo>|</m:mo></m:mrow></m:mrow></m:math> rather than the numbers.</para>
+<para id="fs-idm302368608">
+<table id="fs-idm330475120" class="unnumbered unstyled" summary=".">
+<label/>
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<tbody>
+<row>
+<entry/>
+<entry><m:math><m:mspace width="4.7em"/><m:mrow><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math></entry>
+</row>
+<row>
+<entry>Substitute in the values.</entry>
+<entry><m:math><m:mspace width="1em"/><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mrow><m:mo>|</m:mo><m:mrow><m:msub><m:mi>x</m:mi><m:mn>2</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mo>|</m:mo></m:mrow></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mrow><m:mo>|</m:mo><m:mrow><m:msub><m:mi>y</m:mi><m:mn>2</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>y</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mo>|</m:mo></m:mrow></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:msup><m:mi>d</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math></entry>
+</row>
+<row>
+<entry>Squaring the expressions makes them positive, so we eliminate the absolute value bars.</entry>
+<entry><m:math><m:mspace width="1em"/><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msub><m:mi>x</m:mi><m:mn>2</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msub><m:mi>y</m:mi><m:mn>2</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>y</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:msup><m:mi>d</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math></entry>
+</row>
+<row>
+<entry>Use the Square Root Property.</entry>
+<entry><m:math><m:mspace width="4.5em"/><m:mrow><m:mi>d</m:mi><m:mo>=</m:mo><m:mo>±</m:mo><m:msqrt><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msub><m:mi>x</m:mi><m:mn>2</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msub><m:mi>y</m:mi><m:mn>2</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>y</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:msqrt></m:mrow></m:math></entry>
+</row>
+<row>
+<entry>Distance is positive, so eliminate the negative value.</entry>
+<entry><m:math><m:mspace width="4.5em"/><m:mrow><m:mi>d</m:mi><m:mo>=</m:mo><m:msqrt><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msub><m:mi>x</m:mi><m:mn>2</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msub><m:mi>y</m:mi><m:mn>2</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>y</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:msqrt></m:mrow></m:math></entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</para>
+<para id="fs-id1169147707484">This is the Distance Formula we use to find the distance <emphasis effect="italics">d</emphasis> between the two points <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub><m:mo>,</m:mo><m:msub><m:mi>y</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> and <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msub><m:mi>x</m:mi><m:mn>2</m:mn></m:msub><m:mo>,</m:mo><m:msub><m:mi>y</m:mi><m:mn>2</m:mn></m:msub></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+<note id="fs-id1169148205827">
+<title>Distance Formula</title>
+<para id="fs-id1169145619990">The distance <emphasis effect="italics">d</emphasis> between the two points <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub><m:mo>,</m:mo><m:msub><m:mi>y</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> and <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msub><m:mi>x</m:mi><m:mn>2</m:mn></m:msub><m:mo>,</m:mo><m:msub><m:mi>y</m:mi><m:mn>2</m:mn></m:msub></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> is</para>
+<equation id="fs-id1169147875872" class="unnumbered"><label/><m:math><m:mrow><m:mi>d</m:mi><m:mo>=</m:mo><m:msqrt><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msub><m:mi>x</m:mi><m:mn>2</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msub><m:mi>y</m:mi><m:mn>2</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>y</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:msqrt></m:mrow></m:math></equation>
+</note>
+<example id="fs-id1169145759684">
+<exercise id="fs-id1169145520291">
+<problem id="fs-id1169148234513">
+<para id="fs-id1169148198413">Use the Distance Formula to find the distance between the points <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−5</m:mn><m:mo>,</m:mo><m:mn>−3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> and <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>7</m:mn><m:mo>,</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169147827536">
+<para id="fs-idm335747440">
+<table id="fs-idm338899280" class="unnumbered unstyled" summary=".">
+<label/>
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<tbody>
+<row>
+<entry>Write the Distance Formula.</entry>
+<entry><m:math><m:mrow><m:mi>d</m:mi><m:mo>=</m:mo><m:msqrt><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msub><m:mi>x</m:mi><m:mn>2</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msub><m:mi>y</m:mi><m:mn>2</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>y</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:msqrt></m:mrow></m:math></entry>
+</row>
+<row>
+<entry>Label the points, <m:math><m:mrow><m:mo>(</m:mo><m:mrow><m:mover><m:mrow><m:mn>−5</m:mn><m:mo>,</m:mo><m:mn>−3</m:mn></m:mrow><m:mrow><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub><m:mo>,</m:mo><m:msub><m:mi>y</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow></m:mover></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mo>(</m:mo><m:mrow><m:mover><m:mrow><m:mn>7</m:mn><m:mo>,</m:mo><m:mn>2</m:mn></m:mrow><m:mrow><m:msub><m:mi>x</m:mi><m:mn>2</m:mn></m:msub><m:mo>,</m:mo><m:msub><m:mi>y</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow></m:mover></m:mrow><m:mo>)</m:mo></m:math> and substitute.</entry>
+<entry><m:math><m:mrow><m:mi>d</m:mi><m:mo>=</m:mo><m:msqrt><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>7</m:mn><m:mo>−</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mo>−</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:msqrt></m:mrow></m:math></entry>
+</row>
+<row>
+<entry/>
+<entry/>
+</row>
+<row>
+<entry>Simplify.</entry>
+<entry><m:math><m:mrow><m:mi>d</m:mi><m:mo>=</m:mo><m:msqrt><m:mrow><m:msup><m:mrow><m:mn>12</m:mn></m:mrow><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mn>5</m:mn><m:mn>2</m:mn></m:msup></m:mrow></m:msqrt></m:mrow></m:math></entry>
+</row>
+<row>
+<entry/>
+<entry><m:math><m:mrow><m:mi>d</m:mi><m:mo>=</m:mo><m:msqrt><m:mrow><m:mn>144</m:mn><m:mo>+</m:mo><m:mn>25</m:mn></m:mrow></m:msqrt></m:mrow></m:math></entry>
+</row>
+<row>
+<entry/>
+<entry><m:math><m:mrow><m:mi>d</m:mi><m:mo>=</m:mo><m:msqrt><m:mrow><m:mn>169</m:mn></m:mrow></m:msqrt></m:mrow></m:math></entry>
+</row>
+<row>
+<entry/>
+<entry><m:math><m:mrow><m:mi>d</m:mi><m:mo>=</m:mo><m:mn>13</m:mn></m:mrow></m:math></entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</para>
+</solution>
+</exercise>
+</example>
+<note id="fs-id1169145640392" class="try">
+<exercise id="fs-id1169147866518">
+<problem id="fs-id1169147741886">
+<para id="fs-id1169147865168">Use the Distance Formula to find the distance between the points <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−4</m:mn><m:mo>,</m:mo><m:mn>−5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> and <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>5</m:mn><m:mo>,</m:mo><m:mn>7</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169145607126">
+<para id="fs-id1169142139024"><m:math><m:mrow><m:mi>d</m:mi><m:mo>=</m:mo><m:mn>15</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1169148116600" class="try">
+<exercise id="fs-id1169147740077">
+<problem id="fs-id1169147905423">
+<para id="fs-id1169147910306">Use the Distance Formula to find the distance between the points <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−2</m:mn><m:mo>,</m:mo><m:mn>−5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> and <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−14</m:mn><m:mo>,</m:mo><m:mn>−10</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169147709970">
+<para id="fs-id1169147986537"><m:math><m:mrow><m:mi>d</m:mi><m:mo>=</m:mo><m:mn>13</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<example id="fs-id1169147835469">
+<exercise id="fs-id1169147745025">
+<problem id="fs-id1169147966820">
+<para id="fs-id1169145736696">Use the Distance Formula to find the distance between the points <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>10</m:mn><m:mo>,</m:mo><m:mn>−4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> and <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−1</m:mn><m:mo>,</m:mo><m:mn>5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math> Write the answer in exact form and then find the decimal approximation, rounded to the nearest tenth if needed.</para>
+</problem>
+<solution id="fs-id1169145673020">
+<para id="fs-idm319401136">
+<table id="fs-idm343067008" class="unnumbered unstyled" summary=".">
+<label/>
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<tbody>
+<row>
+<entry>Write the Distance Formula.</entry>
+<entry><m:math><m:mrow><m:mi>d</m:mi><m:mo>=</m:mo><m:msqrt><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msub><m:mi>x</m:mi><m:mn>2</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msub><m:mi>y</m:mi><m:mn>2</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>y</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:msqrt></m:mrow></m:math></entry>
+</row>
+<row>
+<entry>Label the points, <m:math><m:mrow><m:mo>(</m:mo><m:mrow><m:mover><m:mrow><m:mn>10</m:mn><m:mo>,</m:mo><m:mn>−4</m:mn></m:mrow><m:mrow><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub><m:mo>,</m:mo><m:msub><m:mi>y</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow></m:mover></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mover><m:mrow><m:mn>−1</m:mn><m:mo>,</m:mo><m:mn>5</m:mn></m:mrow><m:mrow><m:msub><m:mi>x</m:mi><m:mn>2</m:mn></m:msub><m:mo>,</m:mo><m:msub><m:mi>y</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow></m:mover></m:mrow><m:mo>)</m:mo></m:mrow></m:math> and substitute.</entry>
+<entry><m:math><m:mrow><m:mi>d</m:mi><m:mo>=</m:mo><m:msqrt><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−1</m:mn><m:mo>−</m:mo><m:mn>10</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>5</m:mn><m:mo>−</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:msqrt></m:mrow></m:math></entry>
+</row>
+<row>
+<entry>Simplify.</entry>
+<entry><m:math><m:mrow><m:mi>d</m:mi><m:mo>=</m:mo><m:msqrt><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−11</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mn>9</m:mn><m:mn>2</m:mn></m:msup></m:mrow></m:msqrt></m:mrow></m:math></entry>
+</row>
+<row>
+<entry/>
+<entry><m:math><m:mrow><m:mi>d</m:mi><m:mo>=</m:mo><m:msqrt><m:mrow><m:mn>121</m:mn><m:mo>+</m:mo><m:mn>81</m:mn></m:mrow></m:msqrt></m:mrow></m:math></entry>
+</row>
+<row>
+<entry/>
+<entry><m:math><m:mrow><m:mi>d</m:mi><m:mo>=</m:mo><m:msqrt><m:mrow><m:mn>202</m:mn></m:mrow></m:msqrt></m:mrow></m:math></entry>
+</row>
+<row>
+<entry>Since 202 is not a perfect square, we can leave the answer in exact form or find a decimal approximation.</entry>
+<entry><m:math><m:mrow><m:mtable><m:mtr><m:mtd columnalign="left"><m:mi>d</m:mi><m:mo>=</m:mo><m:msqrt><m:mrow><m:mn>202</m:mn></m:mrow></m:msqrt></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mspace width="1em"/><m:mtext>or</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mi>d</m:mi><m:mo>≈</m:mo><m:mn>14.2</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:math></entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</para>
+</solution>
+</exercise>
+</example>
+<note id="fs-id1169147804549" class="try">
+<exercise id="fs-id1169141522177">
+<problem id="fs-id1169147850654">
+<para id="fs-id1169147820803">Use the Distance Formula to find the distance between the points <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−4</m:mn><m:mo>,</m:mo><m:mn>−5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> and <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math> Write the answer in exact form and then find the decimal approximation, rounded to the nearest tenth if needed.</para>
+</problem>
+<solution id="fs-id1169143580607">
+<para id="fs-id1169142418173"><m:math><m:mrow><m:mi>d</m:mi><m:mo>=</m:mo><m:msqrt><m:mrow><m:mn>130</m:mn></m:mrow></m:msqrt><m:mo>,</m:mo><m:mi>d</m:mi><m:mo>≈</m:mo><m:mn>11.4</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1169147750284" class="try">
+<exercise id="fs-id1169145672269">
+<problem id="fs-id1169148199563">
+<para id="fs-id1169147710918">Use the Distance Formula to find the distance between the points <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−2</m:mn><m:mo>,</m:mo><m:mn>−5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> and <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−3</m:mn><m:mo>,</m:mo><m:mn>−4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math> Write the answer in exact form and then find the decimal approximation, rounded to the nearest tenth if needed.</para>
+</problem>
+<solution id="fs-id1169145733064">
+<para id="fs-id1169147831329"><m:math><m:mrow><m:mi>d</m:mi><m:mo>=</m:mo><m:msqrt><m:mn>2</m:mn></m:msqrt><m:mo>,</m:mo><m:mi>d</m:mi><m:mo>≈</m:mo><m:mn>1.4</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+</section>
+<section id="fs-id1169145607214">
+<title>Use the Midpoint Formula</title>
+<para id="fs-id1169148054583">It is often useful to be able to find the midpoint of a segment. For example, if you have the endpoints of the diameter of a circle, you may want to find the center of the circle which is the midpoint of the diameter. To find the midpoint of a line segment, we find the average of the <emphasis effect="italics">x</emphasis>-coordinates and the average of the <emphasis effect="italics">y</emphasis>-coordinates of the endpoints.</para>
+<note id="fs-id1169147910624">
+<title>Midpoint Formula</title>
+<para id="fs-id1169145578907">The midpoint of the line segment whose endpoints are the two points <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub><m:mo>,</m:mo><m:msub><m:mi>y</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> and <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msub><m:mi>x</m:mi><m:mn>2</m:mn></m:msub><m:mo>,</m:mo><m:msub><m:mi>y</m:mi><m:mn>2</m:mn></m:msub></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> is</para>
+<equation id="fs-id1169145682904" class="unnumbered"><label/><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub><m:mo>+</m:mo><m:msub><m:mi>x</m:mi><m:mn>2</m:mn></m:msub></m:mrow><m:mn>2</m:mn></m:mfrac><m:mo>,</m:mo><m:mfrac><m:mrow><m:msub><m:mi>y</m:mi><m:mn>1</m:mn></m:msub><m:mo>+</m:mo><m:msub><m:mi>y</m:mi><m:mn>2</m:mn></m:msub></m:mrow><m:mn>2</m:mn></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></equation>
+<para id="fs-id1169145760029">To find the midpoint of a line segment, we find the average of the <emphasis effect="italics">x</emphasis>-coordinates and the average of the <emphasis effect="italics">y</emphasis>-coordinates of the endpoints.</para>
+</note>
+<example id="fs-id1169147741999">
+<exercise id="fs-id1169147964168">
+<problem id="fs-id1169145735350">
+<para id="fs-id1169148132847">Use the Midpoint Formula to find the midpoint of the line segments whose endpoints are <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−5</m:mn><m:mo>,</m:mo><m:mn>−4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> and <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>7</m:mn><m:mo>,</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math> Plot the endpoints and the midpoint on a rectangular coordinate system.</para>
+</problem>
+<solution id="fs-id1169147962947">
+<para id="fs-id1169147963387">
+<table id="fs-id1169147706573" class="unnumbered unstyled can-break" summary="Write the Midpoint Formula. The x coordinate is open parentheses x subscript 1 plus x subscript 2 close parentheses upon 2 and the y coordinate is open parentheses y subscript 1 plus y subscript 2 close parentheses upon 2. Label the points: (negative 5, negative 4) is (x subscript 1, y subscript 1) and (7, 2) is (x subscript 2, y subscript 2). Substituting these values in the formula and simplifying, we get (1, negative 1). This is the midpoint of the segment. Plot the endpoints and midpoint.">
+<label/>
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<tbody>
+<row valign="top">
+<entry valign="top" align="left">Write the Midpoint Formula.</entry>
+<entry valign="top" align="center"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub><m:mo>+</m:mo><m:msub><m:mi>x</m:mi><m:mn>2</m:mn></m:msub></m:mrow><m:mn>2</m:mn></m:mfrac><m:mo>,</m:mo><m:mfrac><m:mrow><m:msub><m:mi>y</m:mi><m:mn>1</m:mn></m:msub><m:mo>+</m:mo><m:msub><m:mi>y</m:mi><m:mn>2</m:mn></m:msub></m:mrow><m:mn>2</m:mn></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Label the points, <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mover><m:mrow><m:mn>−5</m:mn><m:mo>,</m:mo><m:mn>−4</m:mn></m:mrow><m:mrow><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub><m:mo>,</m:mo><m:msub><m:mi>y</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow></m:mover></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mover><m:mrow><m:mn>7</m:mn><m:mo>,</m:mo><m:mn>2</m:mn></m:mrow><m:mrow><m:msub><m:mi>x</m:mi><m:mn>2</m:mn></m:msub><m:mo>,</m:mo><m:msub><m:mi>y</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow></m:mover></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math><newline/>and substitute.</entry>
+<entry valign="top" align="center"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:mn>−5</m:mn><m:mo>+</m:mo><m:mn>7</m:mn></m:mrow><m:mn>2</m:mn></m:mfrac><m:mo>,</m:mo><m:mfrac><m:mrow><m:mn>−4</m:mn><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow><m:mn>2</m:mn></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Simplify.</entry>
+<entry valign="top" align="center"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mn>2</m:mn><m:mn>2</m:mn></m:mfrac><m:mo>,</m:mo><m:mfrac><m:mrow><m:mn>−2</m:mn></m:mrow><m:mn>2</m:mn></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left"/>
+<entry valign="top" align="center"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>−1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math><newline/>The midpoint of the segment is the point<newline/><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>−1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Plot the endpoints and midpoint.</entry>
+<entry valign="top" align="left"><media id="fs-id1169147808232" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_11_01_005a_img.jpg"/></media></entry>
+</row>
+</tbody>
+</tgroup>
+</table></para>
+</solution>
+</exercise>
+</example>
+<note id="fs-id1169145573908" class="try">
+<exercise id="fs-id1169145545027">
+<problem id="fs-id1169147868541">
+<para id="fs-id1169147873376">Use the Midpoint Formula to find the midpoint of the line segments whose endpoints are <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−3</m:mn><m:mo>,</m:mo><m:mn>−5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> and <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>5</m:mn><m:mo>,</m:mo><m:mn>7</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math> Plot the endpoints and the midpoint on a rectangular coordinate system.</para>
+</problem>
+<solution id="fs-id1169147816772">
+<para id="fs-id1169145496997">
+<media id="fs-id1169147806145" alt="This graph shows a line segment with endpoints (negative 3, negative 5) and (5, 7) and midpoint (1, negative 1).">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_11_01_301_img.jpg"/>
+</media>
+</para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1169147949370" class="try">
+<exercise id="fs-id1169147946079">
+<problem id="fs-id1169147719363">
+<para id="fs-id1169147715352">Use the Midpoint Formula to find the midpoint of the line segments whose endpoints are <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−2</m:mn><m:mo>,</m:mo><m:mn>−5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> and <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>6</m:mn><m:mo>,</m:mo><m:mn>−1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math> Plot the endpoints and the midpoint on a rectangular coordinate system.</para>
+</problem>
+<solution id="fs-id1169148054409">
+<para id="fs-id1169147747416">
+<media id="fs-id1169147832930" alt="This graph shows a line segment with endpoints (negative 2, negative 5) and (6, negative 1) and midpoint (2, negative 3).">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_11_01_302_img.jpg"/>
+</media>
+</para>
+</solution>
+</exercise>
+</note>
+<para id="fs-id1169147852268">Both the Distance Formula and the Midpoint Formula depend on two points, <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub><m:mo>,</m:mo><m:msub><m:mi>y</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> and <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msub><m:mi>x</m:mi><m:mn>2</m:mn></m:msub><m:mo>,</m:mo><m:msub><m:mi>y</m:mi><m:mn>2</m:mn></m:msub></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math> It is easy to confuse which formula requires addition and which subtraction of the coordinates. If we remember where the formulas come from, is may be easier to remember the formulas.</para>
+<media id="fs-id1169148098752" alt="The distance formula is d equals square root of open parentheses x2 minus x1 close parentheses squared plus open parentheses y2 minus y1 close parentheses squared end of root. This is labeled subtract the coordinates. The midpoint formula is open parentheses open parentheses x1 plus x2 close parentheses upon 2 comma open parentheses y1 plus y2 close parentheses upon 2 close parentheses. This is labeled add the coordinates.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_11_01_006_img.jpg"/>
+</media>
+</section>
+<section id="fs-id1169147770758">
+<title>Write the Equation of a Circle in Standard Form</title>
+<para id="fs-id1169147744283">As we mentioned, our goal is to connect the geometry of a conic with algebra. By using the coordinate plane, we are able to do this easily.</para>
+<media id="fs-id1169147743751" alt="This figure shows a double cone and an intersecting plane, which form a circle.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_11_01_007_img.jpg"/>
+</media>
+<para id="fs-id1169147768104">We define a <term class="no-emphasis">circle</term> as all points in a plane that are a fixed distance from a given point in the plane. The given point is called the <emphasis effect="italics">center,</emphasis> <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>h</m:mi><m:mo>,</m:mo><m:mi>k</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo></m:mrow></m:math> and the fixed distance is called the <emphasis effect="italics">radius</emphasis>, <emphasis effect="italics">r</emphasis>, of the circle.</para>
+<note id="fs-id1169147824880">
+<title>Circle</title>
+<para id="fs-id1169148081096">A circle is all points in a plane that are a fixed distance from a given point in the plane. The given point is called the <emphasis effect="bold">center</emphasis>, <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>h</m:mi><m:mo>,</m:mo><m:mi>k</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo></m:mrow></m:math> and the fixed distance is called the <emphasis effect="bold">radius</emphasis>, <emphasis effect="italics">r</emphasis>, of the circle.</para>
+</note>
+<para id="fs-id1169147864175">
+<table id="fs-id1169145604491" class="unnumbered unstyled" summary="We look at a circle in the rectangular coordinate system. The radius is the distance from the center, (h, k) to a point on the circle, x, y. To derive the equation of a circle, we can use the distance formula with the point (h, k), point x, y and the distance, r. The distance formula is d equals square root of open parentheses x subscript 2 minus x subscript 1 close parentheses squared plus open parentheses y subscript 2 minus y subscript 1 close parentheses squared. Substituting the values and squaring both sides, we get r squared equals open parentheses x minus h close parentheses squared plus open parentheses y minus k close parentheses squared. This is the standard form of the equation of a circle with center, (h, k) and radius, r.">
+<label/>
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<tbody>
+<row valign="top">
+<entry valign="top" align="left">We look at a circle in the rectangular coordinate system.<newline/>The radius is the distance from the center, <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>h</m:mi><m:mo>,</m:mo><m:mi>k</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo></m:mrow></m:math> to a<newline/>point on the circle, <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>y</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></entry>
+<entry valign="top" align="left"><media id="fs-id1169147836169" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_11_01_008a_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">To derive the equation of a circle, we can use the<newline/>distance formula with the points <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>h</m:mi><m:mo>,</m:mo><m:mi>k</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo></m:mrow></m:math> <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>y</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> and the<newline/>distance, <emphasis effect="italics">r</emphasis>.</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mspace width="0.55em"/><m:mi>d</m:mi><m:mo>=</m:mo><m:msqrt><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msub><m:mi>x</m:mi><m:mn>2</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msub><m:mi>y</m:mi><m:mn>2</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>y</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:msqrt></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Substitute the values.</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mspace width="0.55em"/><m:mi>r</m:mi><m:mo>=</m:mo><m:msqrt><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mi>h</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>y</m:mi><m:mo>−</m:mo><m:mi>k</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:msqrt></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Square both sides.</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mi>h</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>y</m:mi><m:mo>−</m:mo><m:mi>k</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math></entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</para>
+<para id="fs-id1169147949966">This is the standard form of the equation of a circle with center, <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>h</m:mi><m:mo>,</m:mo><m:mi>k</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo></m:mrow></m:math> and radius, <emphasis effect="italics">r</emphasis>.</para>
+<note id="fs-id1169148226694">
+<title>Standard Form of the Equation a Circle</title>
+<para id="fs-id1169147965627">The standard form of the equation of a circle with center, <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>h</m:mi><m:mo>,</m:mo><m:mi>k</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo></m:mrow></m:math> and radius, <emphasis effect="italics">r</emphasis>, is</para>
+<media id="fs-id1169148236417" alt="Figure shows circle with center at (h, k) and a radius of r. A point on the circle is labeled x, y. The formula is open parentheses x minus h close parentheses squared plus open parentheses y minus k close parentheses squared equals r squared.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_11_01_009_img.jpg"/>
+</media>
+</note>
+<example id="fs-id1169147850691">
+<exercise id="fs-id1169147960917">
+<problem id="fs-id1169147878438">
+<para id="fs-id1169141471969">Write the standard form of the equation of the circle with radius 3 and center <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>0</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169143519404">
+<para id="fs-id1169148198356">
+<table id="fs-id1169145578312" class="unnumbered unstyled" summary="Use the standard form of the equation of a circle open parentheses x minus h close parentheses squared plus open parentheses y minus k close parentheses squared equals r squared. Substitute values r equals 3, h equals 0 and k equals 0 and simplify. We get x squared plus y squared equals 9.">
+<label/>
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<tbody>
+<row valign="top">
+<entry valign="top" align="left">Use the standard form of the equation of a circle</entry>
+<entry valign="top" align="center"><m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mi>h</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>y</m:mi><m:mo>−</m:mo><m:mi>k</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Substitute in the values <m:math><m:mrow><m:mi>r</m:mi><m:mo>=</m:mo><m:mn>3</m:mn><m:mo>,</m:mo><m:mi>h</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo></m:mrow></m:math> and <m:math><m:mrow><m:mi>k</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>.</m:mo></m:mrow></m:math></entry>
+<entry valign="top" align="center"><m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>0</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>0</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:msup><m:mn>3</m:mn><m:mn>2</m:mn></m:msup></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="center"><media id="fs-id1169147966141" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_11_01_010a_img.jpg"/></media></entry>
+<entry valign="top" align="center"/>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Simplify.</entry>
+<entry valign="top" align="center"><m:math><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>9</m:mn></m:mrow></m:math></entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</para>
+</solution>
+</exercise>
+</example>
+<note id="fs-id1169141221624" class="try">
+<exercise id="fs-id1169143581314">
+<problem id="fs-id1169147735234">
+<para id="fs-id1169147977838">Write the standard form of the equation of the circle with a radius of 6 and center <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>0</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169148107155">
+<para id="fs-id1169145661491"><m:math><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>36</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1169148048744" class="try">
+<exercise id="fs-id1169147776946">
+<problem id="fs-id1169145670517">
+<para id="fs-id1169147988048">Write the standard form of the equation of the circle with a radius of 8 and center <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>0</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169147910234">
+<para id="fs-id1169141408493"><m:math><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>64</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<para id="fs-id1169148096774">In the last example, the center was <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>0</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math> Notice what happened to the equation. Whenever the center is <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>0</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo></m:mrow></m:math> the standard form becomes <m:math><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math></para>
+<example id="fs-id1169142400561">
+<exercise id="fs-id1169147783920">
+<problem id="fs-id1169147796580">
+<para id="fs-id1169145659535">Write the standard form of the equation of the circle with radius 2 and center <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−1</m:mn><m:mo>,</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169147860258">
+<para id="fs-id1169143613555">
+<table id="fs-id1169148106355" class="unnumbered unstyled" summary="Use the standard form of the equation of a circle open parentheses x minus h close parentheses squared plus open parentheses y minus k close parentheses squared equals r squared. Substitute values r equals 2, h equals minus 1 and k equals 3 and simplify. We get open parentheses x plus 1 close parentheses squared plus open parentheses y minus 3 close parentheses squared equals 4.">
+<label/>
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<tbody>
+<row valign="top">
+<entry valign="top" align="left">Use the standard form of the equation of a<newline/>circle.</entry>
+<entry valign="top" align="center"><m:math><m:mrow><m:mspace width="1.3em"/><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mi>h</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>y</m:mi><m:mo>−</m:mo><m:mi>k</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Substitute in the values.</entry>
+<entry valign="top" align="center"><m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:msup><m:mn>2</m:mn><m:mn>2</m:mn></m:msup></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="center"><media id="fs-id1169143614174" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_11_01_011a_img.jpg"/></media></entry>
+<entry valign="top" align="center"/>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Simplify.</entry>
+<entry valign="top" align="center"><m:math><m:mrow><m:mspace width="0.9em"/><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>4</m:mn></m:mrow></m:math></entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</para>
+</solution>
+</exercise>
+</example>
+<note id="fs-id1169145547944" class="try">
+<exercise id="fs-id1169145641242">
+<problem id="fs-id1169148125779">
+<para id="fs-id1169142122853">Write the standard form of the equation of the circle with a radius of 7 and center <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>−4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169141036780">
+<para id="fs-id1169143550446"><m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>49</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1169147960170" class="try">
+<exercise id="fs-id1169147830913">
+<problem id="fs-id1169145670704">
+<para id="fs-id1169147855102">Write the standard form of the equation of the circle with a radius of 9 and center <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−3</m:mn><m:mo>,</m:mo><m:mn>−5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169145733485">
+<para id="fs-id1169148123884"><m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>81</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<para id="fs-id1165926756510">In the next example, the radius is not given. To calculate the radius, we use the Distance Formula with the two given points.</para>
+<example id="fs-id1169148225258">
+<exercise id="fs-id1169148129294">
+<problem id="fs-id1169145600806">
+<para id="fs-id1169147862928">Write the standard form of the equation of the circle with center <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> that also contains the point <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−2</m:mn><m:mo>,</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+<media id="fs-id1169147846364" alt="This graph shows circle with center at (2, 4, radius 5 and a point on the circle minus 2, 1.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_11_01_012_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1169147860192">
+<para id="fs-id1169143505614">The radius is the distance from the center to any point on the circle so we can use the distance formula to calculate it. We will use the center <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> and point <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−2</m:mn><m:mo>,</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+<para id="fs-idm325137712">
+<table id="fs-idm325137456" class="unnumbered unstyled" summary=".">
+<label/>
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<tbody>
+<row>
+<entry>Use the Distance Formula to find the radius.</entry>
+<entry><m:math><m:mspace width="4em"/><m:mrow><m:mi>r</m:mi><m:mo>=</m:mo><m:msqrt><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msub><m:mi>x</m:mi><m:mn>2</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msub><m:mi>y</m:mi><m:mn>2</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>y</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:msqrt></m:mrow></m:math></entry>
+</row>
+<row>
+<entry>Substitute the values. <m:math><m:mrow><m:mo>(</m:mo><m:mrow><m:mover><m:mrow><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>4</m:mn></m:mrow><m:mrow><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub><m:mo>,</m:mo><m:msub><m:mi>y</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mover></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mover><m:mrow><m:mn>−2</m:mn><m:mo>,</m:mo><m:mn>1</m:mn></m:mrow><m:mrow><m:msub><m:mi>x</m:mi><m:mn>2</m:mn></m:msub><m:mo>,</m:mo><m:msub><m:mi>y</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow></m:mover></m:mrow><m:mo>)</m:mo></m:mrow></m:math></entry>
+<entry><m:math><m:mspace width="4em"/><m:mrow><m:mi>r</m:mi><m:mo>=</m:mo><m:msqrt><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−2</m:mn><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:mn>4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:msqrt></m:mrow></m:math></entry>
+</row>
+<row>
+<entry>Simplify.</entry>
+<entry><m:math><m:mspace width="4em"/><m:mrow><m:mi>r</m:mi><m:mo>=</m:mo><m:msqrt><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:msqrt></m:mrow></m:math></entry>
+</row>
+<row>
+<entry/>
+<entry><m:math><m:mspace width="4em"/><m:mrow><m:mi>r</m:mi><m:mo>=</m:mo><m:msqrt><m:mrow><m:mn>16</m:mn><m:mo>+</m:mo><m:mn>9</m:mn></m:mrow></m:msqrt></m:mrow></m:math></entry>
+</row>
+<row>
+<entry/>
+<entry><m:math><m:mspace width="4em"/><m:mrow><m:mi>r</m:mi><m:mo>=</m:mo><m:msqrt><m:mrow><m:mn>25</m:mn></m:mrow></m:msqrt></m:mrow></m:math></entry>
+</row>
+<row>
+<entry/>
+<entry><m:math><m:mspace width="4em"/><m:mrow><m:mi>r</m:mi><m:mo>=</m:mo><m:mn>5</m:mn></m:mrow></m:math></entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</para>
+<para id="fs-id1169147766768">Now that we know the radius, <m:math><m:mrow><m:mi>r</m:mi><m:mo>=</m:mo><m:mn>5</m:mn><m:mo>,</m:mo></m:mrow></m:math> and the center, <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo></m:mrow></m:math> we can use the standard form of the equation of a circle to find the equation.</para>
+<para id="fs-idm328916896">
+<table id="fs-idm328916640" class="unnumbered unstyled" summary=".">
+<label/>
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<tbody>
+<row>
+<entry>Use the standard form of the equation of a circle.</entry>
+<entry><m:math><m:mspace width="2em"/><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mi>h</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>y</m:mi><m:mo>−</m:mo><m:mi>k</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math></entry>
+</row>
+<row>
+<entry>Substitute in the values.</entry>
+<entry><m:math><m:mspace width="2em"/><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:msup><m:mn>5</m:mn><m:mn>2</m:mn></m:msup></m:mrow></m:math></entry>
+</row>
+<row>
+<entry>Simplify.</entry>
+<entry><m:math><m:mspace width="2em"/><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>25</m:mn></m:mrow></m:math></entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</para>
+</solution>
+</exercise>
+</example>
+<note id="fs-id1169147961696" class="try">
+<exercise id="fs-id1169141545535">
+<problem id="fs-id1169141545537">
+<para id="fs-id1169148231312">Write the standard form of the equation of the circle with center <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> that also contains the point <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−2</m:mn><m:mo>,</m:mo><m:mn>−2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169147828007">
+<para id="fs-id1169147828010"><m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>25</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1169145685239" class="try">
+<exercise id="fs-id1169147857828">
+<problem id="fs-id1169147865098">
+<para id="fs-id1169148116139">Write the standard form of the equation of the circle with center <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>7</m:mn><m:mo>,</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> that also contains the point <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−1</m:mn><m:mo>,</m:mo><m:mn>−5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169147802857">
+<para id="fs-id1169145714523"><m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>7</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>100</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+</section>
+<section id="fs-id1169145661367">
+<title>Graph a Circle</title>
+<para id="fs-id1169145779995">Any equation of the form <m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mi>h</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>y</m:mi><m:mo>−</m:mo><m:mi>k</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math> is the standard form of the equation of a <term class="no-emphasis">circle</term> with center, <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>h</m:mi><m:mo>,</m:mo><m:mi>k</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo></m:mrow></m:math> and radius, <emphasis effect="italics">r.</emphasis> We can then graph the circle on a rectangular coordinate system.</para>
+<para id="fs-id1169145497610">Note that the standard form calls for subtraction from <emphasis effect="italics">x</emphasis> and <emphasis effect="italics">y</emphasis>. In the next example, the equation has <m:math><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mo>,</m:mo></m:mrow></m:math> so we need to rewrite the addition as subtraction of a negative.</para>
+<example id="fs-id1169147796682">
+<exercise id="fs-id1169147796684">
+<problem id="fs-id1169147859261">
+<para id="fs-id1169145536462">Find the center and radius, then graph the circle: <m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>9</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169143728478">
+<para id="fs-id1169147767588">
+<table id="fs-id1169147767591" class="unnumbered unstyled" summary="The equation is open parentheses x plus 2 close parentheses squared plus open parentheses y minus 1 close parentheses squared equals 9. Using the standard form of the equation of a circle open parentheses x minus h close parentheses squared plus open parentheses y minus k close parentheses squared equals r squared, we identify h equals minus 2, k equals 1 and r equals 3. Graph the circle with center at (negative 2, 1) and a radius of 3.">
+<label/>
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<tbody>
+<row valign="top">
+<entry valign="top" align="left"/>
+<entry valign="top" align="left"><media id="fs-id1169147836568" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_11_01_013a_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Use the standard form of the equation of a circle.<newline/>Identify the center, <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>h</m:mi><m:mo>,</m:mo><m:mi>k</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> and radius, <emphasis effect="italics">r</emphasis>.</entry>
+<entry valign="top" align="left"><media id="fs-id1169147910798" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_11_01_013b_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left"/>
+<entry valign="top" align="center">Center: <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−2</m:mn><m:mo>,</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> radius: 3</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Graph the circle.</entry>
+<entry valign="top" align="left"><media id="fs-id1169147966350" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_11_01_013c_img.jpg"/></media></entry>
+</row>
+</tbody>
+</tgroup>
+</table></para>
+</solution>
+</exercise>
+</example>
+<note id="fs-id1169147982714" class="try">
+<exercise id="fs-id1169147981600">
+<problem id="fs-id1169147725527">
+<para id="fs-id1169141408690"><span class="token">ⓐ</span> Find the center and radius, then <span class="token">ⓑ</span> graph the circle: <m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>4</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169148252442">
+<para id="fs-id1169147962214"><span class="token">ⓐ</span> The circle is centered at <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>−4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> with a radius of 2.<newline/>
+<span class="token">ⓑ</span><newline/>
+<media id="fs-id1169145664917" alt="This graph shows a circle with center at (3, negative 4) and a radius of 2.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_11_01_303_img.jpg"/>
+</media>
+</para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1169147906249" class="try">
+<exercise id="fs-id1169147774851">
+<problem id="fs-id1169147745679">
+<para id="fs-id1169147745681"><span class="token">ⓐ</span> Find the center and radius, then <span class="token">ⓑ</span> graph the circle: <m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>16</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169147835324">
+<para id="fs-id1169147837255"><span class="token">ⓐ</span> The circle is centered at <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> with a radius of 4.<newline/>
+<span class="token">ⓑ</span><newline/>
+<media id="fs-id1169141172340" alt="This graph shows circle with center at (3, 1) and a radius of 4.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_11_01_304_img.jpg"/>
+</media>
+</para>
+</solution>
+</exercise>
+</note>
+<para id="fs-id1169147850924">To find the center and radius, we must write the equation in standard form. In the next example, we must first get the coefficient of <m:math><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>,</m:mo><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math> to be one.</para>
+<example id="fs-id1169147700684">
+<exercise id="fs-id1169147709341">
+<problem id="fs-id1169147709344">
+<para id="fs-id1169148232309">Find the center and radius and then graph the circle, <m:math><m:mrow><m:mn>4</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>4</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>64</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169147867713">
+<para id="fs-id1169147806568">
+<table id="fs-id1169143576710" class="unnumbered unstyled can-break" summary="The equation is 4 x squared plus 4 y squared equals 64. Dividing each side by 4, we get x squared plus y squared equals 16. Using the standard form of equation for a circle, we identify center (0, 0) and a radius of 4. Finally, we graph the circle.">
+<label/>
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<tbody>
+<row valign="top">
+<entry valign="top" align="left"/>
+<entry valign="top" align="left"><media id="fs-id1169147843223" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_11_01_014a_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Divide each side by 4.</entry>
+<entry valign="top" align="left"><media id="fs-id1169142357711" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_11_01_014b_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Use the standard form of the equation of a circle.<newline/>Identify the center, <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>h</m:mi><m:mo>,</m:mo><m:mi>k</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> and radius, <emphasis effect="italics">r</emphasis>.</entry>
+<entry valign="top" align="left"><media id="fs-id1169145499822" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_11_01_014c_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left"/>
+<entry valign="top" align="center">Center: <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>0</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> radius: 4</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Graph the circle.</entry>
+<entry valign="top" align="left"><media id="fs-id1169143482144" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_11_01_014d_img.jpg"/></media></entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</para>
+</solution>
+</exercise>
+</example>
+<note id="fs-id1169141171400" class="try">
+<exercise id="fs-id1169147731417">
+<problem id="fs-id1169147758129">
+<para id="fs-id1169147758131"><span class="token">ⓐ</span> Find the center and radius, then <span class="token">ⓑ</span> graph the circle: <m:math><m:mrow><m:mn>3</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>3</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>27</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169141522355">
+<para id="fs-id1169147722169"><span class="token">ⓐ</span> The circle is centered at <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>0</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> with a radius of 3.<newline/>
+<span class="token">ⓑ</span><newline/>
+<media id="fs-id1169147837044" alt="This graph shows circle with center at (0, 0) and a radius of 3.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_11_01_305_img.jpg"/>
+</media>
+</para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1169145578206" class="try">
+<exercise id="fs-id1169145578210">
+<problem id="fs-id1169147868659">
+<para id="fs-id1169147868661"><span class="token">ⓐ</span> Find the center and radius, then <span class="token">ⓑ</span> graph the circle: <m:math><m:mrow><m:mn>5</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>5</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>125</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169147825280">
+<para id="fs-id1169147825282"><span class="token">ⓐ</span> The circle is centered at <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>0</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> with a radius of 5.<newline/>
+<span class="token">ⓑ</span><newline/>
+<media id="fs-id1169143662101" alt="This graph shows circle with center at (0, 0) and a radius of 5.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_11_01_306_img.jpg"/>
+</media>
+</para>
+</solution>
+</exercise>
+</note>
+<para id="fs-id1169141172490">If we expand the equation from <link target-id="fs-id1169147796682"/>, <m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>9</m:mn><m:mo>,</m:mo></m:mrow></m:math> the equation of the circle looks very different.</para>
+<para id="fs-idm348385056">
+<table id="fs-idm348384800" class="unnumbered unstyled" summary=".">
+<label/>
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<tbody>
+<row>
+<entry/>
+<entry align="right"><m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>9</m:mn></m:mrow></m:math></entry>
+</row>
+<row>
+<entry>Square the binomials.</entry>
+<entry align="right"><m:math><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn><m:mo>+</m:mo><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo>=</m:mo><m:mn>9</m:mn></m:mrow></m:math></entry>
+</row>
+<row>
+<entry>Arrange the terms in descending degree order, and get zero on the right</entry>
+<entry align="right"><m:math><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>4</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</para>
+<para id="fs-id1169147720045">This form of the equation is called the general form of the equation of the <term class="no-emphasis">circle</term>.</para>
+<note id="fs-id1169145597004">
+<title>General Form of the Equation of a Circle</title>
+<para id="fs-id1169143534113">The general form of the equation of a circle is</para>
+<equation id="fs-id1169147855326" class="unnumbered"><label/><m:math><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>a</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>b</m:mi><m:mi>y</m:mi><m:mo>+</m:mo><m:mi>c</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1169147860469">If we are given an equation in general form, we can change it to standard form by completing the squares in both <emphasis effect="italics">x</emphasis> and <emphasis effect="italics">y</emphasis>. Then we can graph the circle using its center and radius.</para>
+<example id="fs-id1169148232419">
+<exercise id="fs-id1169148232422">
+<problem id="fs-id1169145982855">
+<para id="fs-id1169145982857"><span class="token">ⓐ</span> Find the center and radius, then <span class="token">ⓑ</span> graph the circle: <m:math><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>6</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>4</m:mn><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169148063181">
+<para id="fs-id1169148063183">We need to rewrite this general form into standard form in order to find the center and radius.<newline/>
+<table id="fs-id1169148099878" class="unnumbered unstyled can-break" summary="The equation is x squared plus y squared minus 4 x minus 6 y plus 4 equals 0. Group the x terms and y terms and collect the constants on the right side. Complete the squares by adding 4 and 9 on both sides. The equation becomes x squared minus 4 x plus 4 plus y squared minus 6y plus 9 equals minus 4 plus 4 plus 9. Rewrite as binomial squares open parentheses x minus 2 close parentheses squared plus open parentheses y minus 3 close parentheses squared equals 9. Identify the center (2, 3) and a radius of 3. Graph the circle.">
+<label/>
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<tbody>
+<row valign="top">
+<entry valign="top" align="left"/>
+<entry valign="top" align="left"><media id="fs-id1169147860413" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_11_01_015a_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Group the <emphasis effect="italics">x</emphasis>-terms and <emphasis effect="italics">y</emphasis>-terms.<newline/>Collect the constants on the right side.</entry>
+<entry valign="top" align="left"><media id="fs-id1169148207026" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_11_01_015b_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Complete the squares.</entry>
+<entry valign="top" align="left"><media id="fs-id1169147832652" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_11_01_015c_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Rewrite as binomial squares.</entry>
+<entry valign="top" align="left"><media id="fs-id1169141238753" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_11_01_015d_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Identify the center and radius.</entry>
+<entry valign="top" align="center">Center: <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> radius: 3</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Graph the circle.</entry>
+<entry valign="top" align="left"><media id="fs-id1169148099528" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_11_01_015e_img.jpg"/></media></entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</para>
+</solution>
+</exercise>
+</example>
+<note id="fs-id1169145716835" class="try">
+<exercise id="fs-id1169141031135">
+<problem id="fs-id1169141031137">
+<para id="fs-id1169148060252"><span class="token">ⓐ</span> Find the center and radius, then <span class="token">ⓑ</span> graph the circle: <m:math><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>6</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>8</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>9</m:mn><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169148071420">
+<para id="fs-id1169148071422"><span class="token">ⓐ</span> The circle is centered at <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mtext>3</m:mtext><m:mo>,</m:mo><m:mtext>4</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> with a radius of 4.<newline/>
+<span class="token">ⓑ</span><newline/>
+<media id="fs-id1169147777831" alt="This graph shows circle with center at (3, 4) and a radius of 4.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_11_01_307_img.jpg"/>
+</media>
+</para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1169147935412" class="try">
+<exercise id="fs-id1169148115168">
+<problem id="fs-id1169148115170">
+<para id="fs-id1169143763476"><span class="token">ⓐ</span> Find the center and radius, then <span class="token">ⓑ</span> graph the circle: <m:math><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>6</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169143442555">
+<para id="fs-id1169147963304"><span class="token">ⓐ</span> The circle is centered at <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mtext>−</m:mtext><m:mtext>3</m:mtext><m:mo>,</m:mo><m:mtext>1</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> with a radius of 3.<newline/>
+<span class="token">ⓑ</span><newline/>
+<media id="fs-id1169147849082" alt="This graph shows circle with center at (negative 3, 1) and a radius of 3.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_11_01_308_img.jpg"/>
+</media>
+</para>
+</solution>
+</exercise>
+</note>
+<para id="fs-id1169145545022">In the next example, there is a <emphasis effect="italics">y</emphasis>-term and a <m:math><m:mrow><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math>-term. But notice that there is no <emphasis effect="italics">x</emphasis>-term, only an <m:math><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math>-term. We have seen this before and know that it means <emphasis effect="italics">h</emphasis> is 0. We will need to complete the square for the <emphasis effect="italics">y</emphasis> terms, but not for the <emphasis effect="italics">x</emphasis> terms.</para>
+<example id="fs-id1169145669033">
+<exercise id="fs-id1169145669035">
+<problem id="fs-id1169145608091">
+<para id="fs-id1169145608093"><span class="token">ⓐ</span> Find the center and radius, then <span class="token">ⓑ</span> graph the circle: <m:math><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>8</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169148231288">
+<para id="fs-id1169148231290">We need to rewrite this general form into standard form in order to find the center and radius.<newline/>
+<table id="fs-id1169147750696" class="unnumbered unstyled can-break" summary="The equation is x squared plus y squared plus 8 y equals 0. Group the x terms and y terms. There are no constants to collect on the right side. Add 16 on both sides to complete the square term y squared plus 8 y. Rewrite as binomial squares. The center is (0, negative 4) and radius is 4. Graph the circle.">
+<label/>
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<tbody>
+<row valign="top">
+<entry valign="top" align="left"/>
+<entry valign="top" align="left"><media id="fs-id1169148211519" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_11_01_016a_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Group the <emphasis effect="italics">x</emphasis>-terms and <emphasis effect="italics">y</emphasis>-terms.</entry>
+<entry valign="top" align="left"><media id="fs-id1169145645275" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_11_01_016b_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">There are no constants to collect on the<newline/>right side.</entry>
+<entry valign="top" align="left"/>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Complete the square for <m:math><m:mrow><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>8</m:mn><m:mi>y</m:mi><m:mo>.</m:mo></m:mrow></m:math></entry>
+<entry valign="top" align="left"><media id="fs-id1169143763644" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_11_01_016c_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Rewrite as binomial squares.</entry>
+<entry valign="top" align="left"><media id="fs-id1169147746020" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_11_01_016d_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Identify the center and radius.</entry>
+<entry valign="top" align="center">Center: <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>−4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> radius: 4</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Graph the circle.</entry>
+<entry valign="top" align="left"><media id="fs-id1169147836113" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_11_01_016e_img.jpg"/></media></entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</para>
+</solution>
+</exercise>
+</example>
+<note id="fs-id1169145730864" class="try">
+<exercise id="fs-id1169147712428">
+<problem id="fs-id1169147712430">
+<para id="fs-id1169145672392"><span class="token">ⓐ</span> Find the center and radius, then <span class="token">ⓑ</span> graph the circle: <m:math><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169147721994">
+<para id="fs-id1169147721996"><span class="token">ⓐ</span> The circle is centered at <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>0</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> with a radius of 2.<newline/>
+<span class="token">ⓑ</span><newline/>
+<media id="fs-id1169147873387" alt="This graph shows circle with center at (1, 0) and a radius of 2.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_11_01_309_img.jpg"/>
+</media>
+</para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1169145496484" class="try">
+<exercise id="fs-id1169147810598">
+<problem id="fs-id1169147810601">
+<para id="fs-id1169147709373"><span class="token">ⓐ</span> Find the center and radius, then <span class="token">ⓑ</span> graph the circle: <m:math><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>12</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>11</m:mn><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169145574492">
+<para id="fs-id1169145574494"><span class="token">ⓐ</span> The circle is centered at <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>6</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> with a radius of 5.<newline/>
+<span class="token">ⓑ</span><newline/>
+<media id="fs-id1169145777347" alt="This graph shows circle with center at (0, 6) and a radius of 5.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_11_01_310_img.jpg"/>
+</media>
+</para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1169145977482" class="media-2">
+<para id="fs-id1169145579605">Access these online resources for additional instructions and practice with using the distance and midpoint formulas, and graphing circles.</para>
+<list id="fs-id1169141299165" list-type="bulleted" bullet-style="bullet">
+<item><link url="https://openstax.org/l/37distmidcircle">Distance-Midpoint Formulas and Circles</link></item>
+<item><link url="https://openstax.org/l/37distmid2pts">Finding the Distance and Midpoint Between Two Points</link></item>
+<item><link url="https://openstax.org/l/37stformcircle">Completing the Square to Write Equation in Standard Form of a Circle</link></item>
+</list>
+</note>
+</section>
+<section id="fs-id1169147960019" class="key-concepts">
+<title>Key Concepts</title>
+<list id="fs-id1169147737903" list-type="bulleted" bullet-style="bullet">
+<item><emphasis effect="bold">Distance Formula:</emphasis> The distance <emphasis effect="italics">d</emphasis> between the two points <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub><m:mo>,</m:mo><m:msub><m:mi>y</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> and <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msub><m:mi>x</m:mi><m:mn>2</m:mn></m:msub><m:mo>,</m:mo><m:msub><m:mi>y</m:mi><m:mn>2</m:mn></m:msub></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> is<newline/>
+<equation id="fs-id1169145661301" class="unnumbered"><label/><m:math><m:mrow><m:mi>d</m:mi><m:mo>=</m:mo><m:msqrt><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msub><m:mi>x</m:mi><m:mn>2</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msub><m:mi>y</m:mi><m:mn>2</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>y</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:msqrt></m:mrow></m:math></equation></item>
+<item><emphasis effect="bold">Midpoint Formula:</emphasis> The midpoint of the line segment whose endpoints are the two points <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub><m:mo>,</m:mo><m:msub><m:mi>y</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> and <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msub><m:mi>x</m:mi><m:mn>2</m:mn></m:msub><m:mo>,</m:mo><m:msub><m:mi>y</m:mi><m:mn>2</m:mn></m:msub></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> is<newline/>
+<equation id="fs-id1169148100172" class="unnumbered"><label/><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub><m:mo>+</m:mo><m:msub><m:mi>x</m:mi><m:mn>2</m:mn></m:msub></m:mrow><m:mn>2</m:mn></m:mfrac><m:mo>,</m:mo><m:mfrac><m:mrow><m:msub><m:mi>y</m:mi><m:mn>1</m:mn></m:msub><m:mo>+</m:mo><m:msub><m:mi>y</m:mi><m:mn>2</m:mn></m:msub></m:mrow><m:mn>2</m:mn></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></equation><newline/>
+To find the midpoint of a line segment, we find the average of the <emphasis effect="italics">x</emphasis>-coordinates and the average of the <emphasis effect="italics">y</emphasis>-coordinates of the endpoints.</item>
+<item><emphasis effect="bold">Circle:</emphasis> A circle is all points in a plane that are a fixed distance from a fixed point in the plane. The given point is called the <emphasis effect="italics">center,</emphasis> <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>h</m:mi><m:mo>,</m:mo><m:mi>k</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo></m:mrow></m:math> and the fixed distance is called the <emphasis effect="italics">radius, r,</emphasis> of the circle.</item>
+<item><emphasis effect="bold">Standard Form of the Equation a Circle:</emphasis> The standard form of the equation of a circle with center, <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>h</m:mi><m:mo>,</m:mo><m:mi>k</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo></m:mrow></m:math> and radius, <emphasis effect="italics">r,</emphasis> is<newline/>
+<media id="fs-id1169145639520" alt="Figure shows circle with center at (h, k) and a radius of r. A point on the circle is labeled x, y. The formula is open parentheses x minus h close parentheses squared plus open parentheses y minus k close parentheses squared equals r squared.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_11_01_017_img.jpg"/>
+</media></item>
+<item><emphasis effect="bold">General Form of the Equation of a Circle:</emphasis> The general form of the equation of a circle is<newline/>
+<equation id="fs-id1169148233474" class="unnumbered"><label/><m:math><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>a</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>b</m:mi><m:mi>y</m:mi><m:mo>+</m:mo><m:mi>c</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></equation></item>
+</list>
+</section>
+<section id="fs-id1169145601807" class="section-exercises">
+<section id="fs-id1169145506799" class="practice-perfect">
+<title>Practice Makes Perfect</title>
+<para id="fs-id1169148208240"><emphasis effect="bold">Use the Distance Formula</emphasis></para>
+<para id="fs-id1169143506078">In the following exercises, find the distance between the points. Write the answer in exact form and then find the decimal approximation, rounded to the nearest tenth if needed.</para>
+<exercise id="fs-id1169147845456">
+<problem id="fs-id1169147845458">
+<para id="fs-id1169141298655"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>0</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> and <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>5</m:mn><m:mo>,</m:mo><m:mn>4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169145536183">
+<para id="fs-id1169145536185"><m:math><m:mrow><m:mi>d</m:mi><m:mo>=</m:mo><m:mn>5</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1169145778721">
+<problem id="fs-id1169147809343">
+<para id="fs-id1169147809345"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−4</m:mn><m:mo>,</m:mo><m:mn>−3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> and <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1169147739242">
+<problem id="fs-id1169147739244">
+<para id="fs-id1169148081777"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−4</m:mn><m:mo>,</m:mo><m:mn>−3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> and <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>8</m:mn><m:mo>,</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169143660939">
+<para id="fs-id1169143660941">13</para>
+</solution>
+</exercise>
+<exercise id="fs-id1169143659178">
+<problem id="fs-id1169147855200">
+<para id="fs-id1169147855202"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−7</m:mn><m:mo>,</m:mo><m:mn>−3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> and <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>8</m:mn><m:mo>,</m:mo><m:mn>5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1169145760210">
+<problem id="fs-id1169141500543">
+<para id="fs-id1169141500545"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−1</m:mn><m:mo>,</m:mo><m:mn>4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> and <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>0</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169147982282">
+<para id="fs-id1169147982284">5</para>
+</solution>
+</exercise>
+<exercise id="fs-id1169147960782">
+<problem id="fs-id1169147960784">
+<para id="fs-id1169147960524"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−1</m:mn><m:mo>,</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> and <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>5</m:mn><m:mo>,</m:mo><m:mn>−5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1169145614088">
+<problem id="fs-id1169145614090">
+<para id="fs-id1169145614092"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>−4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> and <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>6</m:mn><m:mo>,</m:mo><m:mn>8</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169143317903">
+<para id="fs-id1169143317905">13</para>
+</solution>
+</exercise>
+<exercise id="fs-id1169147855655">
+<problem id="fs-id1169145674218">
+<para id="fs-id1169145674220"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−8</m:mn><m:mo>,</m:mo><m:mn>−2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> and <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>7</m:mn><m:mo>,</m:mo><m:mn>6</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1169147962933">
+<problem id="fs-id1169147962936">
+<para id="fs-id1169147988290"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−3</m:mn><m:mo>,</m:mo><m:mn>−5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> and <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169148231252">
+<para id="fs-id1169148231254"><m:math><m:mrow><m:mi>d</m:mi><m:mo>=</m:mo><m:mn>3</m:mn><m:msqrt><m:mn>5</m:mn></m:msqrt><m:mo>,</m:mo><m:mi>d</m:mi><m:mo>≈</m:mo><m:mn>6.7</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1169145526198">
+<problem id="fs-id1169145526200">
+<para id="fs-id1169145735103"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−1</m:mn><m:mo>,</m:mo><m:mn>−2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> and <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−3</m:mn><m:mo>,</m:mo><m:mn>4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1169145493751">
+<problem id="fs-id1169148249795">
+<para id="fs-id1169148249797"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>−1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> and <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>7</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169147797011">
+<para id="fs-id1169148207801"><m:math><m:mrow><m:mi>d</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:msqrt><m:mrow><m:mn>17</m:mn></m:mrow></m:msqrt><m:mo>,</m:mo><m:mi>d</m:mi><m:mo>≈</m:mo><m:mn>8.2</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1169143637830">
+<problem id="fs-id1169147873390">
+<para id="fs-id1169147873392"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−4</m:mn><m:mo>,</m:mo><m:mn>−5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> and <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>7</m:mn><m:mo>,</m:mo><m:mn>4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+</exercise>
+<para id="fs-id1169147981703"><emphasis effect="bold">Use the Midpoint Formula</emphasis></para>
+<para id="fs-id1169147825927">In the following exercises, <span class="token">ⓐ</span> find the midpoint of the line segments whose endpoints are given and <span class="token">ⓑ</span> plot the endpoints and the midpoint on a rectangular coordinate system.</para>
+<exercise id="fs-id1169147935246" class="material-set-2">
+<problem id="fs-id1169147935248">
+<para id="fs-id1169145577358"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>−5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> and <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>4</m:mn><m:mo>,</m:mo><m:mn>−3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169147849887">
+<para id="fs-id1169147849889"><span class="token">ⓐ</span> Midpoint: <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>−4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math><newline/>
+<span class="token">ⓑ</span><newline/>
+<media id="fs-id1169143574297" alt="This graph shows line segment with endpoints (0, negative 5) and (4, negative 3) and midpoint (2, negative 4).">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_11_01_311_img.jpg"/>
+</media>
+</para>
+</solution>
+</exercise>
+<exercise id="fs-id1169147700121" class="material-set-2">
+<problem id="fs-id1169147700123">
+<para id="fs-id1169147700125"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−2</m:mn><m:mo>,</m:mo><m:mn>−6</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> and <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>6</m:mn><m:mo>,</m:mo><m:mn>−2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1169147825975" class="material-set-2">
+<problem id="fs-id1169147840099">
+<para id="fs-id1169147840101"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>−1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> and <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>4</m:mn><m:mo>,</m:mo><m:mn>−2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169147707833">
+<para id="fs-id1169147776056"><span class="token">ⓐ</span> Midpoint: <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3</m:mn><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mo>,</m:mo><m:mn>−1</m:mn><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math><newline/>
+<span class="token">ⓑ</span><newline/>
+<media id="fs-id1169147983031" alt="This graph shows line segment with endpoints (3, negative 1) and (4, negative 2) and midpoint (3 and a half, negative 1 and a half).">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_11_01_313_img.jpg"/>
+</media>
+</para>
+</solution>
+</exercise>
+<exercise id="fs-id1169143659157" class="material-set-2">
+<problem id="fs-id1169143659159">
+<para id="fs-id1169143659161"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−3</m:mn><m:mo>,</m:mo><m:mn>−3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> and <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>6</m:mn><m:mo>,</m:mo><m:mn>−1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+</exercise>
+<para id="fs-id1169148200511"><emphasis effect="bold">Write the Equation of a Circle in Standard Form</emphasis></para>
+<para id="fs-id1169147837518">In the following exercises, write the standard form of the equation of the circle with the given radius and center <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>0</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+<exercise id="fs-id1169147806757" class="material-set-2">
+<problem id="fs-id1169148107175">
+<para id="fs-id1169148107177">Radius: 7</para>
+</problem>
+<solution id="fs-id1169147878807">
+<para id="fs-id1169147878810"><m:math><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>49</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1169142479956" class="material-set-2">
+<problem id="fs-id1169142479958">
+<para id="fs-id1169142479961">Radius: 9</para>
+</problem>
+</exercise>
+<exercise id="fs-id1169143686441" class="material-set-2">
+<problem id="fs-id1169143686443">
+<para id="fs-id1169145734173">Radius: <m:math><m:mrow><m:msqrt><m:mn>2</m:mn></m:msqrt></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169145520570">
+<para id="fs-id1169145520572"><m:math><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>2</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1169141036387" class="material-set-2">
+<problem id="fs-id1169141036389">
+<para id="fs-id1169141264477">Radius: <m:math><m:mrow><m:msqrt><m:mn>5</m:mn></m:msqrt></m:mrow></m:math></para>
+</problem>
+</exercise>
+<para id="fs-id1169147857763">In the following exercises, write the standard form of the equation of the circle with the given radius and center</para>
+<exercise id="fs-id1169147851663" class="material-set-2">
+<problem id="fs-id1169147851665">
+<para id="fs-id1169143580024">Radius: 1, center: <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169147759733">
+<para id="fs-id1169147759735"><m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1169143380550" class="material-set-2">
+<problem id="fs-id1169147734671">
+<para id="fs-id1169147734673">Radius: 10, center: <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−2</m:mn><m:mo>,</m:mo><m:mn>6</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1169145716238" class="material-set-2">
+<problem id="fs-id1169145716241">
+<para id="fs-id1169145716243">Radius: <m:math><m:mrow><m:mn>2.5</m:mn><m:mo>,</m:mo></m:mrow></m:math> center: <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1.5</m:mn><m:mo>,</m:mo><m:mn>−3.5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169147876835">
+<para id="fs-id1169147819644"><m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1.5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>3.5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>6.25</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1169148185356" class="material-set-2">
+<problem id="fs-id1169148185358">
+<para id="fs-id1169147833498">Radius: <m:math><m:mrow><m:mn>1.5</m:mn><m:mo>,</m:mo></m:mrow></m:math> center: <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−5.5</m:mn><m:mo>,</m:mo><m:mn>−6.5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+</exercise>
+<para id="fs-id1169148132049">For the following exercises, write the standard form of the equation of the circle with the given center with point on the circle.</para>
+<exercise id="fs-id1169148132053" class="material-set-2">
+<problem id="fs-id1169148200547">
+<para id="fs-id1169148200549">Center <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>−2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> with point <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>6</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169147768219">
+<para id="fs-id1169143662778"><m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>64</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1169147862548" class="material-set-2">
+<problem id="fs-id1169147862550">
+<para id="fs-id1169147858336">Center <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>6</m:mn><m:mo>,</m:mo><m:mn>−6</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> with point <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>−3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1169147742617" class="material-set-2">
+<problem id="fs-id1169147742619">
+<para id="fs-id1169147866448">Center <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>4</m:mn><m:mo>,</m:mo><m:mn>4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> with point <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169147878186">
+<para id="fs-id1169147878188"><m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>8</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1169145544916" class="material-set-2">
+<problem id="fs-id1169145544918">
+<para id="fs-id1169145544921">Center <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−5</m:mn><m:mo>,</m:mo><m:mn>6</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> with point <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−2</m:mn><m:mo>,</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+</exercise>
+<para id="fs-id1169148037424"><emphasis effect="bold">Graph a Circle</emphasis></para>
+<para id="fs-id1169148037429">In the following exercises, <span class="token">ⓐ</span> find the center and radius, then <span class="token">ⓑ</span> graph each circle.</para>
+<exercise id="fs-id1169145780272">
+<problem id="fs-id1169148084941">
+<para id="fs-id1169148084944"><m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169145493485">
+<para id="fs-id1169145493487"><span class="token">ⓐ</span> The circle is centered at <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−5</m:mn><m:mo>,</m:mo><m:mn>−3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> with a radius of 1.<newline/>
+<span class="token">ⓑ</span><newline/>
+<media id="fs-id1169145728541" alt="This graph shows a circle with center at (negative 5, negative 3) and a radius of 1.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_11_01_315_img.jpg"/>
+</media>
+</para>
+</solution>
+</exercise>
+<exercise id="fs-id1169147963087">
+<problem id="fs-id1169147963089">
+<para id="fs-id1169147963091"><m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>9</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1169143580870">
+<problem id="fs-id1169143580873">
+<para id="fs-id1169143580875"><m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>16</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169145620168">
+<para id="fs-id1169143459000"><span class="token">ⓐ</span> The circle is centered at <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>4</m:mn><m:mo>,</m:mo><m:mn>−2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> with a radius of 4.<newline/>
+<span class="token">ⓑ</span><newline/>
+<media id="fs-id1169145663017" alt="This graph shows circle with center at (4, negative 2) and a radius of 4.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_11_01_317_img.jpg"/>
+</media>
+</para>
+</solution>
+</exercise>
+<exercise id="fs-id1169147824357">
+<problem id="fs-id1169147824359">
+<para id="fs-id1169148103813"><m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>4</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1169143581746">
+<problem id="fs-id1169147879538">
+<para id="fs-id1169147879540"><m:math><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>25</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169147767026">
+<para id="fs-id1169145668600"><span class="token">ⓐ</span> The circle is centered at <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>−2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> with a radius of 5.<newline/>
+<span class="token">ⓑ</span><newline/>
+<media id="fs-id1169148125063" alt="This graph shows circle with center at (negative 2, 5) and a radius of 5.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_11_01_319_img.jpg"/>
+</media>
+</para>
+</solution>
+</exercise>
+<exercise id="fs-id1169147848673">
+<problem id="fs-id1169147848675">
+<para id="fs-id1169147848677"><m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>36</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1169145720376">
+<problem id="fs-id1169143575137">
+<para id="fs-id1169143575139"><m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1.5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>2.5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>0.25</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169145777437">
+<para id="fs-id1169145777439"><span class="token">ⓐ</span> The circle is centered at <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1.5</m:mn><m:mo>,</m:mo><m:mn>−2.5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> with a radius of <m:math><m:mrow><m:mn>0.5</m:mn><m:mo>.</m:mo></m:mrow></m:math><newline/>
+<span class="token">ⓑ</span><newline/>
+<media id="fs-id1169147725203" alt="This graph shows circle with center at (1.5, 2.5) and a radius of 0.5">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_11_01_321_img.jpg"/>
+</media>
+</para>
+</solution>
+</exercise>
+<exercise id="fs-id1169145579182">
+<problem id="fs-id1169145579184">
+<para id="fs-id1169145579187"><m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mfrac><m:mn>9</m:mn><m:mn>4</m:mn></m:mfrac></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1169145731596">
+<problem id="fs-id1169145731598">
+<para id="fs-id1169147741233"><m:math><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>64</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169147707766">
+<para id="fs-id1169147707768"><span class="token">ⓐ</span> The circle is centered at <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>0</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> with a radius of 8.<newline/>
+<span class="token">ⓑ</span><newline/>
+<media id="fs-id1169147770825" alt="This graph shows circle with center at (0, 0) and a radius of 8.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_11_01_323_img.jpg"/>
+</media>
+</para>
+</solution>
+</exercise>
+<exercise id="fs-id1169145578236">
+<problem id="fs-id1169145578238">
+<para id="fs-id1169145578240"><m:math><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>49</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1169145577421">
+<problem id="fs-id1169145660340">
+<para id="fs-id1169145660342"><m:math><m:mrow><m:mn>2</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>2</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>8</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169145733520">
+<para id="fs-id1169145733522"><span class="token">ⓐ</span> The circle is centered at <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>0</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> with a radius of 2.<newline/>
+<span class="token">ⓑ</span><newline/>
+<media id="fs-id1169148133834" alt="This graph shows circle with center at (0, 0) and a radius of 2.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_11_01_325_img.jpg"/>
+</media>
+</para>
+</solution>
+</exercise>
+<exercise id="fs-id1169147854265">
+<problem id="fs-id1169147854268">
+<para id="fs-id1169147854270"><m:math><m:mrow><m:mn>6</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>6</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>216</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<para id="fs-id1169147965199">In the following exercises, <span class="token">ⓐ</span> identify the center and radius and <span class="token">ⓑ</span> graph.</para>
+<exercise id="fs-id1169143575851">
+<problem id="fs-id1169143575853">
+<para id="fs-id1169148081242"><m:math><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>6</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>9</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169147967370">
+<para id="fs-id1169147967372"><span class="token">ⓐ</span> Center: <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−1</m:mn><m:mo>,</m:mo><m:mn>−3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo></m:mrow></m:math> radius: 1<newline/>
+<span class="token">ⓑ</span><newline/>
+<media id="fs-id1169147875802" alt="This graph shows circle with center at (negative 1, negative 3) and a radius of 1.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_11_01_327_img.jpg"/>
+</media>
+</para>
+</solution>
+</exercise>
+<exercise id="fs-id1169143579426">
+<problem id="fs-id1169143579428">
+<para id="fs-id1169143579430"><m:math><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>6</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>8</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1169147864093">
+<problem id="fs-id1169147864095">
+<para id="fs-id1169147864098"><m:math><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>10</m:mn><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>7</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169145730625">
+<para id="fs-id1169145730628"><span class="token">ⓐ</span> Center: <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>−5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo></m:mrow></m:math> radius: 6<newline/>
+<span class="token">ⓑ</span><newline/>
+<media id="fs-id1169147758639" alt="This graph shows circle with center at (2, negative 5) and a radius of 6.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_11_01_329_img.jpg"/>
+</media>
+</para>
+</solution>
+</exercise>
+<exercise id="fs-id1169148063172">
+<problem id="fs-id1169147804002">
+<para id="fs-id1169147804005"><m:math><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>12</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>14</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>21</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1169145663824">
+<problem id="fs-id1169145663826">
+<para id="fs-id1169147856895"><m:math><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>6</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>5</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169147960756">
+<para id="fs-id1169147960758"><span class="token">ⓐ</span> Center: <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>−3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo></m:mrow></m:math> radius: 2<newline/>
+<span class="token">ⓑ</span><newline/>
+<media id="fs-id1169147879986" alt="This graph shows circle with center at (0, negative 3) and a radius of 2.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_11_01_331_img.jpg"/>
+</media>
+</para>
+</solution>
+</exercise>
+<exercise id="fs-id1169147805025">
+<problem id="fs-id1169147741808">
+<para id="fs-id1169147741810"><m:math><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>10</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1169148231447">
+<problem id="fs-id1169143580427">
+<para id="fs-id1169143580429"><m:math><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169147856831">
+<para id="fs-id1169147856833"><span class="token">ⓐ</span> Center: <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−2</m:mn><m:mo>,</m:mo><m:mn>0</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo></m:mrow></m:math> radius: 2 <newline/>
+<span class="token">ⓑ</span><newline/>
+<media id="fs-id1169147794371" alt="This graph shows circle with center at (negative 2, 0) and a radius of 2.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_11_01_333_img.jpg"/>
+</media>
+</para>
+</solution>
+</exercise>
+<exercise id="fs-id1169145493979">
+<problem id="fs-id1169145605845">
+<para id="fs-id1169145605847"><m:math><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>14</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>13</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1169147873338" class="writing">
+<title>Writing Exercises</title>
+<exercise id="fs-id1169147764974">
+<problem id="fs-id1169147864549">
+<para id="fs-id1169147864551">Explain the relationship between the distance formula and the equation of a circle.</para>
+</problem>
+<solution id="fs-id1169143575555">
+<para id="fs-id1169143575557">Answers will vary.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1169147878929">
+<problem id="fs-id1169147878931">
+<para id="fs-id1169145731327">Is a circle a function? Explain why or why not.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1169148208053">
+<problem id="fs-id1169147965394">
+<para id="fs-id1169147965396">In your own words, state the definition of a circle.</para>
+</problem>
+<solution id="fs-id1169143349074">
+<para id="fs-id1169143349076">Answers will vary.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1169148072593">
+<problem id="fs-id1169148072595">
+<para id="fs-id1169147830310">In your own words, explain the steps you would take to change the general form of the equation of a circle to the standard form.</para>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1169145499937">
+<title>Self Check</title>
+<para id="fs-id1169147851532"><span class="token">ⓐ</span> After completing the exercises, use this checklist to evaluate your mastery of the objectives of this section.</para>
+<media id="fs-id1169147834300" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_11_01_201_img.jpg"/>
+</media>
+<para id="fs-id1169147708321"><span class="token">ⓑ</span> If most of your checks were:</para>
+<para id="fs-id1169145644689">…confidently. Congratulations! You have achieved the objectives in this section. Reflect on the study skills you used so that you can continue to use them. What did you do to become confident of your ability to do these things? Be specific.</para>
+<para id="fs-id1169147978241">…with some help. This must be addressed quickly because topics you do not master become potholes in your road to success. In math every topic builds upon previous work. It is important to make sure you have a strong foundation before you move on. Whom can you ask for help?Your fellow classmates and instructor are good resources. Is there a place on campus where math tutors are available? Can your study skills be improved?</para>
+<para id="fs-id1169143575150">…no - I don’t get it! This is a warning sign and you must not ignore it. You should get help right away or you will quickly be overwhelmed. See your instructor as soon as you can to discuss your situation. Together you can come up with a plan to get you the help you need.</para>
+</section>
+</section>
+</content>
+<glossary>
+<definition id="fs-id1169145731792">
+<term>circle</term>
+<meaning id="fs-id1169147879662">A circle is all points in a plane that are a fixed distance from a fixed point in the plane.</meaning>
+</definition>
+</glossary>
+</document>

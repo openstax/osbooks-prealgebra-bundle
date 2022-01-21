@@ -1,0 +1,958 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Solve Systems of Equations Using Matrices</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m81429</md:content-id>
+  <md:title>Solve Systems of Equations Using Matrices</md:title>
+  <md:abstract><para>By the end of this section, you will be able to:</para>
+<list>
+<item>Write the augmented matrix for a system of equations</item>
+<item>Use row operations on a matrix</item>
+<item>Solve systems of equations using matrices</item>
+</list></md:abstract>
+  <md:uuid>2f299a81-c08f-4445-a007-7f84b7ad19bd</md:uuid>
+</metadata>
+
+<content>
+<note id="fs-id1167836546274" class="be-prepared">
+<para id="fs-id1167836578744">Before you get started, take this readiness quiz.</para>
+<exercise id="fs-idm275996992">
+<problem id="fs-idm273790544">
+<para id="fs-idm226906416">Solve: <m:math><m:mrow><m:mn>3</m:mn><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo><m:mo>+</m:mo><m:mn>4</m:mn><m:mo>=</m:mo><m:mn>4</m:mn><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:mo>+</m:mo><m:mn>9</m:mn><m:mo>.</m:mo></m:mrow></m:math><newline/>
+If you missed this problem, review <link target-id="fs-id1167836432956" document="m81362"/>.</para>
+</problem>
+<solution id="fs-idm227162576">
+<para id="fs-idm271391216"><m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-idm239267920" class="be-prepared">
+<exercise id="fs-idm241757280">
+<problem id="fs-idm272812528">
+<para id="fs-idm220413056">Solve: <m:math><m:mrow><m:mn>0.25</m:mn><m:mi>p</m:mi><m:mo>+</m:mo><m:mn>0.25</m:mn><m:mo stretchy="false">(</m:mo><m:mi>p</m:mi><m:mo>+</m:mo><m:mn>4</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>5.20</m:mn><m:mo>.</m:mo></m:mrow></m:math><newline/>
+If you missed this problem, review <link target-id="fs-id1167836399284" document="m81362"/>.</para>
+</problem>
+<solution id="fs-idm273604160">
+<para id="fs-idm275948640"><m:math><m:mrow><m:mi>p</m:mi><m:mo>=</m:mo><m:mn>8.4</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-idm276634256" class="be-prepared">
+<exercise id="fs-idm274152112">
+<problem id="fs-idm264761312">
+<para id="fs-idm272018544">Evaluate when <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>−2</m:mn></m:mrow></m:math> and <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>3</m:mn><m:mtext>:</m:mtext><m:mspace width="0.2em"/><m:mn>2</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mi>x</m:mi><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math><newline/>
+If you missed this problem, review <link target-id="fs-id1167832053133" document="m81423"/>.</para>
+</problem>
+<solution id="fs-idm221916112">
+<para id="fs-idm265466176"><m:math><m:mrow><m:mn>41</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<section id="fs-id1167836398812"><title>Write the Augmented Matrix for a System of Equations</title><para id="fs-id1167836731941">Solving a system of equations can be a tedious operation where a simple mistake can wreak havoc on finding the solution. An alternative method which uses the basic procedures of elimination but with notation that is simpler is available. The method involves using a <term>matrix</term>. A matrix is a rectangular array of numbers arranged in rows and columns.</para>
+<note id="fs-id1167826205478">
+<title>Matrix</title>
+<para id="fs-id1167836508293">A <emphasis effect="bold">matrix</emphasis> is a rectangular array of numbers arranged in rows and columns.</para>
+<para id="fs-id1167833048299">A matrix with <emphasis effect="italics">m</emphasis> rows and <emphasis effect="italics">n</emphasis> columns has order <m:math><m:mrow><m:mi>m</m:mi><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mi>n</m:mi><m:mo>.</m:mo></m:mrow></m:math> The matrix on the left below has 2 rows and 3 columns and so it has order <m:math><m:mrow><m:mn>2</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mn>3</m:mn><m:mo>.</m:mo></m:mrow></m:math> We say it is a 2 by 3 matrix.</para>
+<media id="fs-id1167833202428" alt="Figure shows two matrices. The one on the left has the numbers minus 3, minus 2 and 2 in the first row and the numbers minus 1, 4 and 5 in the second row. The rows and columns are enclosed within brackets. Thus, it has 2 rows and 3 columns. It is labeled 2 cross 3 or 2 by 3 matrix. The matrix on the right is similar but with 3 rows and 4 columns. It is labeled 3 by 4 matrix.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_04_05_001_img_new.jpg"/>
+</media>
+<para id="fs-id1167836693648">Each number in the matrix is called an element or entry in the matrix.</para>
+</note>
+<para id="fs-id1167836508919">We will use a matrix to represent a system of linear equations. We write each equation in standard form and the coefficients of the variables and the constant of each equation becomes a row in the matrix. Each column then would be the coefficients of one of the variables in the system or the constants. A vertical line replaces the equal signs. We call the resulting matrix the augmented matrix for the system of equations.</para>
+<media id="fs-id1167833055966" alt="The equations are 3x plus y equals minus 3 and 2x plus 3y equals 6. A 2 by 3 matrix is shown. The first row is 3, 1, minus 3. The second row is 2, 3, 6. The first column is labeled coefficients of x. The second column is labeled coefficients of y and the third is labeled constants.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_04_05_002_img_Errata.jpg"/>
+</media>
+<para id="fs-id1167829807716">Notice the first column is made up of all the coefficients of <emphasis effect="italics">x</emphasis>, the second column is the all the coefficients of <emphasis effect="italics">y</emphasis>, and the third column is all the constants.</para>
+<example id="fs-id1167836598326">
+<exercise id="fs-id1167829685776">
+<problem id="fs-id1167836510894">
+<para id="fs-id1167836573732">Write each system of linear equations as an augmented matrix:</para>
+<para id="fs-id1167833397292"><span class="token">ⓐ</span> <m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mn>5</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−1</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mn>6</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>5</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>3</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>4</m:mn><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>5</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>−1</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836610644">
+<para id="fs-id1167836486232"><span class="token">ⓐ</span> The second equation is not in standard form. We rewrite the second equation in standard form.</para>
+<equation id="fs-id1167833056775" class="unnumbered"><label/><m:math><m:mrow><m:mtable><m:mtr><m:mtd columnalign="right"><m:mi>y</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mn>−2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>y</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>−2</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:math></equation>
+<para id="fs-id1167829853949">We replace the second equation with its standard form. In the augmented matrix, the first equation gives us the first row and the second equation gives us the second row. The vertical line replaces the equal signs.</para>
+<para id="fs-id1167836288021">
+<media id="fs-id1167836664093" alt="The equations are 3x plus y equals minus 3 and 2x plus 3y equals 6. A 2 by 3 matrix is shown. The first row is 3, 1, minus 3. The second row is 2, 3, 6. The first column is labeled coefficients of x. The second column is labeled coefficients of y and the third is labeled constants.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_04_05_003_img_new.jpg"/>
+</media></para>
+<para id="fs-id1167825836573"><span class="token">ⓑ</span> All three equations are in standard form. In the augmented matrix the first equation gives us the first row, the second equation gives us the second row, and the third equation gives us the third row. The vertical line replaces the equal signs.</para>
+<para id="fs-id1167833047684"><media id="fs-id1167822916222" alt="The equations are 6x minus 5y plus 2z equals 3, 2x plus y minus 4z equals 5 and 3x minus 3y plus z equals minus 1. A 4 by 3 matrix is shown whose first row is 6, minus 5, 2, 3. Its second row is 2, 1, minus 4, 5. Its third row is 3, minus 3, 1 and minus 1. Its first three columns are labeled x, y and z respectively.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_04_05_004_img_new.jpg"/>
+</media></para>
+</solution>
+</exercise>
+</example>
+<note id="fs-id1167833059065" class="try">
+<exercise id="fs-id1167829692719">
+<problem id="fs-id1167836774865">
+<para id="fs-id1167829743626">Write each system of linear equations as an augmented matrix:</para>
+<para id="fs-id1167836522302"><span class="token">ⓐ</span> <m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>8</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−3</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>−5</m:mn><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>3</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>5</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>8</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>4</m:mn><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>7</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>−3</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836292577">
+<para id="fs-id1167833310842"><newline/><span class="token">ⓐ</span> <m:math><m:mrow><m:mrow><m:mo>[</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mn>3</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mn>8</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−3</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>2</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mn>5</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−3</m:mn></m:mtd></m:mtr></m:mtable><m:mo>]</m:mo></m:mrow></m:mrow></m:math><newline/><span class="token">ⓑ</span> <m:math><m:mrow><m:mrow><m:mo>[</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mn>2</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−5</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mn>3</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>8</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>3</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−1</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mn>4</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>7</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>1</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>3</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mn>2</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−3</m:mn></m:mtd></m:mtr></m:mtable><m:mo>]</m:mo></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1167829829156" class="try">
+<exercise id="fs-id1167833366592">
+<problem id="fs-id1167836285466">
+<para id="fs-id1167836546221">Write each system of linear equations as an augmented matrix:</para>
+<para id="fs-id1167829753078"><span class="token">ⓐ</span> <m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mn>11</m:mn><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>−9</m:mn><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>5</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>7</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>5</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−1</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mn>5</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>−5</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mi>y</m:mi><m:mo>−</m:mo><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>4</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>−7</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836527130">
+<para id="fs-id1167829598310"><newline/><span class="token">ⓐ</span> <m:math><m:mrow><m:mrow><m:mo>[</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mn>11</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mn>9</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−5</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>7</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mn>5</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−1</m:mn></m:mtd></m:mtr></m:mtable><m:mo>]</m:mo></m:mrow></m:mrow></m:math><newline/><span class="token">ⓑ</span> <m:math><m:mrow><m:mrow><m:mo>[</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mn>5</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−3</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>2</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−5</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>2</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−1</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−1</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>4</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>3</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−2</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>2</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−7</m:mn></m:mtd></m:mtr></m:mtable><m:mo>]</m:mo></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<para id="fs-id1167833335409">It is important as we solve systems of equations using matrices to be able to go back and forth between the system and the matrix. The next example asks us to take the information in the matrix and write the system of equations.</para>
+<example id="fs-id1167829908050">
+<exercise id="fs-id1167829721061">
+<problem id="fs-id1167829579076">
+<para id="fs-id1167829877945">Write the system of equations that corresponds to the augmented matrix:</para>
+<para id="fs-id1167836692043"><m:math><m:mrow><m:mrow><m:mo>[</m:mo><m:mrow><m:mrow><m:mtable><m:mtr><m:mtd columnalign="right"><m:mn>4</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−3</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>3</m:mn></m:mtd><m:mtd/><m:mtd/></m:mtr><m:mtr><m:mtd columnalign="right"><m:mn>1</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>2</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−1</m:mn></m:mtd><m:mtd/><m:mtd/></m:mtr><m:mtr><m:mtd columnalign="right"><m:mn>−2</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−1</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>3</m:mn></m:mtd><m:mtd/><m:mtd/></m:mtr></m:mtable><m:mo>|</m:mo></m:mrow></m:mrow></m:mrow><m:mrow><m:mtable><m:mtr><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−1</m:mn></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>2</m:mn></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−4</m:mn></m:mtd></m:mtr></m:mtable><m:mo>]</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167833335007">
+<para id="fs-id1167836287881">We remember that each row corresponds to an equation and that each entry is a coefficient of a variable or the constant. The vertical line replaces the equal sign. Since this matrix is a <m:math><m:mrow><m:mn>4</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mn>3</m:mn></m:mrow></m:math>, we know it will translate into a system of three equations with three variables.</para>
+<para id="fs-id1167836635123">
+<media id="fs-id1167823183143" alt="A 3 by 4 matrix is shown. Its first row is 4, minus 3, 3, minus 1. Its second row is 1, 2, minus 1, 2. Its third row is minus 2, minus 1, 3, minus 4. The three equations are 4x minus 3y plus 3z equals minus 1, x plus 2y minus z equals 2 and minus 2x minus y plus 3z equals minus 4.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_04_05_005_img_new.jpg"/>
+</media>
+</para>
+</solution>
+</exercise>
+</example>
+<note id="fs-id1167824755056" class="try">
+<exercise id="fs-id1167826188018">
+<problem id="fs-id1167836392160">
+<para id="fs-id1167836743351">Write the system of equations that corresponds to the augmented matrix: <m:math><m:mrow><m:mrow><m:mo>[</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mn>1</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−1</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>2</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>3</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>2</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>1</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−2</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>1</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>4</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−1</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>2</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>0</m:mn></m:mtd></m:mtr></m:mtable><m:mo>]</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167829785610">
+<para id="fs-id1167833350368"><m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mspace width="0.2em"/><m:mtext/><m:mspace width="0.2em"/><m:mi>x</m:mi><m:mo>−</m:mo><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>3</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mspace width="0.2em"/><m:mtext/><m:mspace width="0.2em"/><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1167824617356" class="try">
+<exercise id="fs-id1167836497729">
+<problem id="fs-id1167836693299">
+<para id="fs-id1167836691914">Write the system of equations that corresponds to the augmented matrix: <m:math><m:mrow><m:mrow><m:mo>[</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mn>1</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mn>1</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>1</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>4</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>2</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mn>3</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−1</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>8</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>1</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mn>1</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−1</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>3</m:mn></m:mtd></m:mtr></m:mtable><m:mo>]</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167829717165">
+<para id="fs-id1167836293044"><m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mspace width="0.2em"/><m:mtext/><m:mspace width="0.2em"/><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>y</m:mi><m:mo>+</m:mo><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>4</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>y</m:mi><m:mo>−</m:mo><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>8</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mspace width="0.8em"/><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>y</m:mi><m:mo>−</m:mo><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>3</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+</section><section id="fs-id1167836434321">
+<title>Use Row Operations on a Matrix</title>
+<para id="fs-id1167829715551">Once a system of equations is in its augmented matrix form, we will perform operations on the rows that will lead us to the solution.</para>
+<para id="fs-id1167829784535">To solve by elimination, it doesn’t matter which order we place the equations in the system. Similarly, in the matrix we can interchange the rows.</para>
+<para id="fs-id1167836393210">When we solve by elimination, we often multiply one of the equations by a constant. Since each row represents an equation, and we can multiply each side of an equation by a constant, similarly we can multiply each entry in a row by any real number except 0.</para>
+<para id="fs-id1167836399311">In elimination, we often add a multiple of one row to another row. In the matrix we can replace a row with its sum with a multiple of another row.</para>
+<para id="fs-id1167836538695">These actions are called row operations and will help us use the matrix to solve a system of equations.</para>
+<note id="fs-id1167833061563">
+<title>Row Operations</title>
+<para id="fs-id1167836456012">In a matrix, the following operations can be performed on any row and the resulting matrix will be equivalent to the original matrix.</para>
+<list id="fs-id1167829624876" list-type="enumerated" number-style="arabic">
+<item>Interchange any two rows.</item>
+<item>Multiply a row by any real number except 0.</item>
+<item>Add a nonzero multiple of one row to another row.</item>
+</list>
+</note>
+<para id="fs-id1167836515322">Performing these operations is easy to do but all the arithmetic can result in a mistake. If we use a system to record the row operation in each step, it is much easier to go back and check our work.</para>
+<para id="fs-id1167824732306">We use capital letters with subscripts to represent each row. We then show the operation to the left of the new matrix. To show interchanging a row:</para>
+<media id="fs-id1167829807711" alt="A 2 by 3 matrix is shown. Its first row, labeled R2 is 2, minus 1, 2. Its second row, labeled R1 is 5, minus 3, minus 1.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_04_05_006_img_new.jpg"/>
+</media>
+<para id="fs-id1167833129901">To multiply row 2 by <m:math><m:mrow><m:mn>−3</m:mn></m:mrow></m:math>:</para>
+<media id="fs-id1167836541327" alt="A 2 by 3 matrix is shown. Its first row is 5, minus 3, minus 1. Its second row is 2, minus 1, 2. An arrow point from this matrix to another one on the right. The first row of the new matrix is the same. The second row is preceded by minus 3 R2. It is minus 6, 3, minus 6.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_04_05_007_img_new.jpg"/>
+</media>
+<para id="fs-id1167836558970">To multiply row 2 by <m:math><m:mrow><m:mn>−3</m:mn></m:mrow></m:math> and add it to row 1:</para>
+<media id="fs-id1167829829286" alt="A 2 by 3 matrix is shown. Its first row is 5, minus 3, minus 1. Its second row is 2, minus 1, 2. An arrow point from this matrix to another one on the right. The first row of the new matrix is preceded by minus 3 R2 plus R1. It is minus 1, 0, minus 7. The second row is 2, minus 1, 2.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_04_05_008_img_new.jpg"/>
+</media>
+<example id="fs-id1167833350263">
+<exercise id="fs-id1167824780787">
+<problem id="fs-id1167836499275">
+<para id="fs-id1167826205547">Perform the indicated operations on the augmented matrix:</para>
+<para id="fs-id1167829748933"><span class="token">ⓐ</span> Interchange rows 2 and 3.</para>
+<para id="fs-id1167833024294"><span class="token">ⓑ</span> Multiply row 2 by 5.</para>
+<para id="fs-id1167829739413"><span class="token">ⓒ</span> Multiply row 3 by <m:math><m:mrow><m:mn>−2</m:mn></m:mrow></m:math> and add to row 1.</para>
+<equation id="fs-id1171792520714" class="unnumbered"><label/><m:math><m:mrow><m:mrow><m:mo>[</m:mo><m:mrow><m:mrow><m:mtable><m:mtr><m:mtd columnalign="left"><m:mn>6</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−5</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>2</m:mn></m:mtd><m:mtd/><m:mtd/></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>2</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>1</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−4</m:mn></m:mtd><m:mtd/><m:mtd/></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>3</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−3</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>1</m:mn></m:mtd><m:mtd/><m:mtd/></m:mtr></m:mtable><m:mo>|</m:mo></m:mrow></m:mrow></m:mrow><m:mrow><m:mtable><m:mtr><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>3</m:mn></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>5</m:mn></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−1</m:mn></m:mtd></m:mtr></m:mtable><m:mo>]</m:mo></m:mrow></m:mrow></m:math></equation>
+</problem>
+<solution id="fs-id1167836645967">
+<para id="fs-id1167833024483"><span class="token">ⓐ</span> We interchange rows 2 and 3.<newline/>
+<media id="fs-id1167824669254" alt="Two 3 by 4 matrices are shown. In the one on the left, the first row is 6, minus 5, 2, 3. The second row is 2, 1, minus 4, 5. The third row is 3, minus 3, 1, minus 1. The second matrix is similar except that rows 2 and 3 are interchanged.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_04_05_009_img_new.jpg"/>
+</media>
+</para>
+<para id="fs-id1167836328953"><span class="token">ⓑ</span> We multiply row 2 by 5.<newline/>
+<media id="fs-id1167836313537" alt="Two 3 by 4 matrices are shown. In the one on the left, the first row is 6, minus 5, 2, 3. The second row is 2, 1, minus 4, 5. The third row is 3, minus 3, 1, minus 1. The second matrix is similar to the first except that row 2, preceded by 5 R2, is 10, 5, minus 20, 25.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_04_05_010_img_new.jpg"/>
+</media>
+</para>
+<para id="fs-id1167829712000"><span class="token">ⓒ</span> We multiply row 3 by <m:math><m:mrow><m:mn>−2</m:mn></m:mrow></m:math> and add to row 1.<newline/>
+<media id="fs-id1167836292453" alt="In the 3 by 4 matrix, the first row is 6, minus 5, 2, 3. The second row is 2, 1, minus 4, 5. The third row is 3, minus 3, 1, minus 1. Performing the operation minus 2 R3 plus R1 on the first row, the first row becomes 6 plus minus 2 times 3, minus 5 plus minus 2 times minus 3, 2 plus minus 2 times 1 and 3 plus minus 2 times minus 1. This becomes 0, 1, 0, 5. The remaining 2 rows of the new matrix are the same.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_04_05_011_img_new.jpg"/>
+</media>
+</para>
+</solution>
+</exercise>
+</example>
+<note id="fs-id1167829786590" class="try">
+<exercise id="fs-id1167836335371">
+<problem id="fs-id1167829594338">
+<para id="fs-id1167825993101">Perform the indicated operations sequentially on the augmented matrix:</para>
+<para id="fs-id1167829688134"><span class="token">ⓐ</span> Interchange rows 1 and 3.</para>
+<para id="fs-id1167836334004"><span class="token">ⓑ</span> Multiply row 3 by 3.</para>
+<para id="fs-id1167825691607"><span class="token">ⓒ</span> Multiply row 3 by 2 and add to row 2.</para>
+<para id="fs-id1167833224470"><m:math><m:mrow><m:mrow><m:mo>[</m:mo><m:mrow><m:mrow><m:mtable><m:mtr><m:mtd columnalign="right"><m:mn>5</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−2</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−2</m:mn></m:mtd><m:mtd/><m:mtd/></m:mtr><m:mtr><m:mtd columnalign="right"><m:mn>4</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−1</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−4</m:mn></m:mtd><m:mtd/><m:mtd/></m:mtr><m:mtr><m:mtd columnalign="right"><m:mn>−2</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>3</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>0</m:mn></m:mtd><m:mtd/><m:mtd/></m:mtr></m:mtable><m:mo>|</m:mo></m:mrow></m:mrow></m:mrow><m:mrow><m:mtable><m:mtr><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−2</m:mn></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>4</m:mn></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−1</m:mn></m:mtd></m:mtr></m:mtable><m:mo>]</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167829693376">
+<para id="fs-id1167829627951"><newline/><span class="token">ⓐ</span> <m:math><m:mrow><m:mrow><m:mo>[</m:mo><m:mtable><m:mtr><m:mtd columnalign="right"><m:mn>−2</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>3</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>0</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−2</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mn>4</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−1</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−4</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>4</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mn>5</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−2</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−2</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−2</m:mn></m:mtd></m:mtr></m:mtable><m:mo>]</m:mo></m:mrow></m:mrow></m:math>
+<newline/><span class="token">ⓑ</span> <m:math><m:mrow><m:mrow><m:mo>[</m:mo><m:mtable><m:mtr><m:mtd columnalign="right"><m:mn>−2</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>3</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>0</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−2</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mn>4</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−1</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−4</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>4</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>15</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−6</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−6</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−6</m:mn></m:mtd></m:mtr></m:mtable><m:mo>]</m:mo></m:mrow></m:mrow></m:math>
+<newline/><span class="token">ⓒ</span> <m:math><m:mrow><m:mrow><m:mo>[</m:mo><m:mtable><m:mtr><m:mtd columnalign="right"><m:mn>−2</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>3</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>0</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−2</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd/></m:mtr><m:mtr><m:mtd columnalign="right"><m:mn>3</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>4</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−13</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−16</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−8</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mn>15</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−6</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−6</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−6</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd/></m:mtr></m:mtable><m:mo>]</m:mo></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1167826172223" class="try">
+<exercise id="fs-id1167836366482">
+<problem id="fs-id1167836732417">
+<para id="fs-id1167836477875">Perform the indicated operations on the augmented matrix:</para>
+<para id="fs-id1167836300769"><span class="token">ⓐ</span> Interchange rows 1 and 2,</para>
+<para id="fs-id1167836611076"><span class="token">ⓑ</span> Multiply row 1 by 2,</para>
+<para id="fs-id1167829859334"><span class="token">ⓒ</span> Multiply row 2 by 3 and add to row 1.</para>
+<para id="fs-id1167836352756"><m:math><m:mrow><m:mrow><m:mo>[</m:mo><m:mrow><m:mrow><m:mtable><m:mtr><m:mtd columnalign="left"><m:mn>2</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−3</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−2</m:mn></m:mtd><m:mtd/><m:mtd/></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>4</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>1</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−3</m:mn></m:mtd><m:mtd/><m:mtd/></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>5</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>0</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>4</m:mn></m:mtd><m:mtd/><m:mtd/></m:mtr></m:mtable><m:mo>|</m:mo></m:mrow></m:mrow></m:mrow><m:mrow><m:mtable><m:mtr><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−4</m:mn></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>2</m:mn></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−1</m:mn></m:mtd></m:mtr></m:mtable><m:mo>]</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167829841016">
+<para id="fs-id1167829833519"><newline/><span class="token">ⓐ</span> <m:math><m:mrow><m:mrow><m:mo>[</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mn>4</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>1</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−3</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>2</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>2</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−3</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−2</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−4</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>5</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>0</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>4</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−1</m:mn></m:mtd></m:mtr></m:mtable><m:mo>]</m:mo></m:mrow></m:mrow></m:math><newline/><span class="token">ⓑ</span> <m:math><m:mrow><m:mrow><m:mo>[</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mn>8</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>2</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−6</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>4</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>2</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−3</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−2</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−4</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>5</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>0</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>4</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−1</m:mn></m:mtd></m:mtr></m:mtable><m:mo>]</m:mo></m:mrow></m:mrow></m:math><newline/><span class="token">ⓒ</span> <m:math><m:mrow><m:mrow><m:mo>[</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mn>14</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−7</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−12</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−8</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>2</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−3</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−2</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−4</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>5</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>0</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>4</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−1</m:mn></m:mtd></m:mtr></m:mtable><m:mo>]</m:mo></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<para id="fs-id1167836515290">Now that we have practiced the row operations, we will look at an augmented matrix and figure out what operation we will use to reach a goal. This is exactly what we did when we did elimination. We decided what number to multiply a row by in order that a variable would be eliminated when we added the rows together.</para>
+<para id="fs-id1167833377541">Given this system, what would you do to eliminate <emphasis effect="italics">x</emphasis>?</para>
+<media id="fs-id1167829786049" alt="The two equations are x minus y equals 2 and 4x minus 8y equals 0. Multiplying the first by minus 4, we get minus 4x plus 4y equals minus 8. Adding this to the second equation we get minus 4y equals minus 8.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_04_05_012_img_new.jpg"/>
+</media>
+<para id="fs-id1167836540507">This next example essentially does the same thing, but to the matrix.</para>
+<example id="fs-id1167836409774">
+<exercise id="fs-id1167824731658">
+<problem id="fs-id1167836319795">
+<para id="fs-id1167836768391">Perform the needed row operation that will get the first entry in row 2 to be zero in the augmented matrix: <m:math><m:mrow><m:mrow> <m:mo>[</m:mo><m:mrow><m:mrow><m:mtable><m:mtr><m:mtd columnalign="left"><m:mn>1</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−1</m:mn></m:mtd><m:mtd/><m:mtd/></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>4</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−8</m:mn></m:mtd><m:mtd/><m:mtd/></m:mtr></m:mtable><m:mo>|</m:mo></m:mrow></m:mrow></m:mrow><m:mrow><m:mtable><m:mtr><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>2</m:mn></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>0</m:mn></m:mtd></m:mtr></m:mtable><m:mo>]</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836624582">
+<para id="fs-id1167829624231">To make the 4 a 0, we could multiply row 1 by <m:math><m:mrow><m:mn>−4</m:mn></m:mrow></m:math> and then add it to row 2.</para>
+<para id="fs-id1167829694692"><media id="fs-id1167833365764" alt="The 2 by 3 matrix is 1, minus 1, 2 and 4, minus 8, 0. Performing the operation minus 4R1 plus R2 on row 2, the second row of the new matrix becomes 0, minus 4, minus 8. The first row remains the same.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_04_05_013_img_new.jpg"/>
+</media>
+</para>
+</solution>
+</exercise>
+</example>
+<note id="fs-id1167836524340" class="try">
+<exercise id="fs-id1167836630643">
+<problem id="fs-id1167833279820">
+<para id="fs-id1167833196797">Perform the needed row operation that will get the first entry in row 2 to be zero in the augmented matrix: <m:math><m:mrow><m:mrow><m:mo>[</m:mo><m:mrow><m:mrow><m:mtable><m:mtr><m:mtd columnalign="left"><m:mn>1</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−1</m:mn></m:mtd><m:mtd/><m:mtd/></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>3</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−6</m:mn></m:mtd><m:mtd/><m:mtd/></m:mtr></m:mtable><m:mo>|</m:mo></m:mrow></m:mrow></m:mrow><m:mrow><m:mtable><m:mtr><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>2</m:mn></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>2</m:mn></m:mtd></m:mtr></m:mtable><m:mo>]</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167833310074">
+<para id="fs-id1167833025573"><m:math><m:mrow><m:mrow><m:mo>[</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mn>1</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−1</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>2</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>0</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−3</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−4</m:mn></m:mtd></m:mtr></m:mtable><m:mo>]</m:mo></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1167836531933" class="try">
+<exercise id="fs-id1167829831866">
+<problem id="fs-id1167833202534">
+<para id="fs-id1167829586303">Perform the needed row operation that will get the first entry in row 2 to be zero in the augmented matrix: <m:math><m:mrow><m:mrow><m:mo>[</m:mo><m:mrow><m:mrow><m:mtable><m:mtr><m:mtd columnalign="right"><m:mn>1</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−1</m:mn></m:mtd><m:mtd/><m:mtd/></m:mtr><m:mtr><m:mtd columnalign="right"><m:mn>−2</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−3</m:mn></m:mtd><m:mtd/><m:mtd/></m:mtr></m:mtable><m:mo>|</m:mo></m:mrow></m:mrow></m:mrow><m:mrow><m:mtable><m:mtr><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>3</m:mn></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>2</m:mn></m:mtd></m:mtr></m:mtable><m:mo>]</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836535460">
+<para id="fs-id1167833057231"><m:math><m:mrow><m:mrow><m:mo>[</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mn>1</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−1</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>3</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>0</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−5</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>8</m:mn></m:mtd></m:mtr></m:mtable><m:mo>]</m:mo></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+</section>
+<section id="fs-id1167836539512">
+<title>Solve Systems of Equations Using Matrices</title>
+<para id="fs-id1167833338960">To solve a system of equations using matrices, we transform the augmented matrix into a matrix in <term>row-echelon form</term> using row operations. For a consistent and independent system of equations, its <term class="no-emphasis">augmented matrix</term> is in row-echelon form when to the left of the vertical line, each entry on the diagonal is a 1 and all entries below the diagonal are zeros.</para>
+<note id="fs-id1167836363886">
+<title>Row-Echelon Form</title>
+<para id="fs-id1167829578768">For a consistent and independent system of equations, its augmented matrix is in <emphasis effect="bold">row-echelon form</emphasis> when to the left of the vertical line, each entry on the diagonal is a 1 and all entries below the diagonal are zeros.</para>
+<media id="fs-id1167829627933" alt="A 2 by 3 matrix is shown on the left. Its first row is 1, a, b. Its second row is 0, 1, c. An arrow points diagonally down and right, overlapping both the 1s in the matrix. A 3 by 4 matrix is shown on the right. Its first row is 1, a, b, d. Its second row is 0, 1, c, e. Its third row is 0, 0, 1, f. An arrow points diagonally down and right, overlapping all the 1s in the matrix. a, b, c, d, e, f are real numbers.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_04_05_014_img_new.jpg"/>
+</media>
+</note>
+<para id="fs-id1167836295110">Once we get the augmented matrix into row-echelon form, we can write the equivalent system of equations and read the value of at least one variable. We then substitute this value in another equation to continue to solve for the other variables. This process is illustrated in the next example.</para>
+<example id="fs-id1167829692902">
+<title>How to Solve a System of Equations Using a Matrix</title>
+<exercise id="fs-id1167829743345">
+<problem id="fs-id1167822916232">
+<para id="fs-id1167830093682">Solve the system of equations using a matrix: <m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>5</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mtd></m:mtr></m:mtable></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167822996975">
+<para id="fs-id1167824765384">
+<media id="fs-id1167836525799" alt="The equations are 3x plus 4y equals 5 and x plus 2y equals 1. Step 1. Write the augmented matrix for the system of equations. We get a 2 by 3 matrix with first row 3, 4, 5 and second row 1, 2, 1.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_04_05_015a_img_new.jpg"/>
+</media>
+<media id="fs-id1167829828529" alt="Step 2. Using row operations get the entry in row 1, column 1 to be 1. Interchange rows R1 and R2.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_04_05_015b_img_new.jpg"/>
+</media>
+<media id="fs-id1167833382010" alt="Step 3. Using row operations, get zeros in column 1 below the 1. Multiply row 1 by minus 3 and add it to row 2. Row 2 becomes 0, minus 2, 2.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_04_05_015c_img_new.jpg"/>
+</media>
+<media id="fs-id1167836692585" alt="Step 4. Using row operations, get the entry in row 2, column 2 to be 1. Multiply row 2 by minus half. Row 2 becomes 0, 1, minus 1.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_04_05_015d_img_new.jpg"/>
+</media>
+<media id="fs-id1167833021336" alt="Step 5. Continue the process until the matrix is in row-echelon form. The matrix is now in row-echelon form.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_04_05_015e_img_new.jpg"/>
+</media>
+<media id="fs-id1167836713900" alt="Step 6. Write the corresponding system of equations. We get x plus 2y equals 1 and y equals minus 1.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_04_05_015f_img_new.jpg"/>
+</media>
+<media id="fs-id1167836688662" alt="Step 7. Use substitution to find the remaining variables. Substitute y equals negative 1 into x plus 2y equals 1. X plus 2 times negative 1 equals 1. X minus 2 equals 1. We get x equal to 3.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_04_05_015g_img_new.jpg"/>
+</media>
+<media id="fs-id1167832930182" alt="Step 8. Write the solution as an ordered pair or triple. Ordered pair is (3, negative 1).">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_04_05_015h_img_new.jpg"/>
+</media>
+<media id="fs-id1167836542466" alt="Step 9. Check that the solution makes the original equations true.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_04_05_015i_img_new.jpg"/>
+</media>
+</para>
+</solution>
+</exercise>
+</example>
+<note id="fs-id1167829628068" class="try">
+<exercise id="fs-id1167833019610">
+<problem id="fs-id1167836513068">
+<para id="fs-id1167836484478">Solve the system of equations using a matrix: <m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>7</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>6</m:mn></m:mtd></m:mtr></m:mtable></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836533019">
+<para id="fs-id1167825823995">The solution is <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>4</m:mn><m:mo>,</m:mo><m:mn>−1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1167836621323" class="try">
+<exercise id="fs-id1167836518516">
+<problem id="fs-id1167836575707">
+<para id="fs-id1167824852264">Solve the system of equations using a matrix: <m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−4</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mi>x</m:mi><m:mo>−</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−2</m:mn></m:mtd></m:mtr></m:mtable></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167833061157">
+<para id="fs-id1167836552453">The solution is <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−2</m:mn><m:mo>,</m:mo><m:mn>0</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<para id="fs-id1167833227319">The steps are summarized here.</para>
+<note id="fs-id1167833023848" class="howto">
+<title>Solve a system of equations using matrices.</title>
+<list id="fs-id1167836485160" list-type="enumerated" number-style="arabic" class="stepwise">
+<item>Write the augmented matrix for the system of equations.</item>
+<item>Using row operations get the entry in row 1, column 1 to be 1.</item>
+<item>Using row operations, get zeros in column 1 below the 1.</item>
+<item>Using row operations, get the entry in row 2, column 2 to be 1.</item>
+<item>Continue the process until the matrix is in row-echelon form.</item>
+<item>Write the corresponding system of equations.</item>
+<item>Use substitution to find the remaining variables.</item>
+<item>Write the solution as an ordered pair or triple.</item>
+<item>Check that the solution makes the original equations true.</item>
+</list>
+</note>
+<para id="fs-id1167833058881">Here is a visual to show the order for getting the 1’s and 0’s in the proper position for row-echelon form.</para>
+<media id="fs-id1167836295125" alt="The figure shows 3 steps for a 2 by 3 matrix and 6 steps for a 3 by 4 matrix. For the former, step 1 is to get a 1 in row 1 column 1. Step to is to get a 0 is row 2 column 1. Step 3 is to get a 1 in row 2 column 2. For a 3 by 4 matrix, step 1 is to get a 1 in row 1 column 1. Step 2 is to get a 0 in row 2 column 1. Step 3 is to get a 0 in row 3 column 1. Step 4 is to get a 1 in row 2 column 2. Step 5 is to get a 0 in row 3 column 2. Step 6 is to get a 1 in row 3 column 3.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_04_05_016_img_new.jpg"/>
+</media>
+<para id="fs-id1168757403507">We use the same procedure when the system of equations has three equations.</para>
+<example id="fs-id1167832984010">
+<exercise id="fs-id1167829812225">
+<problem id="fs-id1167833378931">
+<para id="fs-id1167829690073">Solve the system of equations using a matrix: <m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>8</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>−5</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>5</m:mn><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>−1</m:mn></m:mtd></m:mtr></m:mtable></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836334150">
+<para id="fs-id1167829830466"><table id="fs-id1167829714495" class="unnumbered unstyled can-break" summary="The equations are 3x plus 8y plus 2z equals minus 5, 2x plus 5y minus 3z equals 0, x plus 2y minus 2z equals minus 1. Write the augmented matrix for the equations. Row 1 is 3, 8, 2, minus 5. Row 2 is 2, 5, minus 3, 0. Row 3 is 1, 2, minus 2, minus 1. Interchange row 1 and 3 to get the entry in row 1, column 1 to be 1. Use operation minus 2R1 plus R2 on row 2. Use operation minus 3R1 plus R3 on row 3. Use operation minus 2R2 plus R3 on row 3. Use operation 1 upon 6 R3 on row 3. The matrix is now in row-echelon form. The corresponding system of equations is x plus 2y minus 2z equals minus 1, y plus z equals 2 and z equals minus 1. Using substitution, we get y equal to 3 and x equal to minus 9. The solution is minus 9, 3, minus 1. Check that the original equations hold true.">
+<label/>
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<tbody>
+<row valign="top">
+<entry valign="top" align="left"/>
+<entry valign="top" align="left"><media id="fs-id1167836309310" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_04_05_017a_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Write the augmented matrix for the equations.</entry>
+<entry valign="top" align="left"><media id="fs-id1167836520781" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_04_05_017b_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Interchange row 1 and 3 to get the entry in<newline/>row 1, column 1 to be 1.</entry>
+<entry valign="top" align="left"><media id="fs-id1167836329209" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_04_05_017c_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Using row operations, get zeros in column 1 below the 1.</entry>
+<entry valign="top" align="left"><media id="fs-id1167836531979" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_04_05_017d_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left"/>
+<entry valign="top" align="left"><media id="fs-id1167836340874" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_04_05_017e_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">The entry in row 2, column 2 is now 1.</entry>
+<entry valign="top" align="left"/>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Continue the process until the matrix<newline/>is in row-echelon form.</entry>
+<entry valign="top" align="left"><media id="fs-id1167823026715" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_04_05_017f_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left"/>
+<entry valign="top" align="left"><media id="fs-id1167829748610" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_04_05_017g_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">The matrix is now in row-echelon form.</entry>
+<entry valign="top" align="left"><media id="fs-id1167829744236" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_04_05_017h_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Write the corresponding system of equations.</entry>
+<entry valign="top" align="left"><media id="fs-id1167824852333" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_04_05_017i_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Use substitution to find the remaining variables.</entry>
+<entry valign="top" align="left"><media id="fs-id1167824740544" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_04_05_017k_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left"/>
+<entry valign="top" align="left"><media id="fs-id1167829624548" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_04_05_017l_img.jpg"/></media><newline/><media id="fs-id1167836333804" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_04_05_017m_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Write the solution as an ordered pair or triple.</entry>
+<entry valign="top" align="left"><media id="fs-id1167836477846" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_04_05_017n_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Check that the solution makes the original equations true.</entry>
+<entry valign="top" align="left">We leave the check for you.</entry>
+</row>
+</tbody>
+</tgroup>
+</table></para>
+</solution>
+</exercise>
+</example>
+<note id="fs-id1167829807014" class="try">
+<exercise id="fs-id1167836548820">
+<problem id="fs-id1167833380079">
+<para id="fs-id1167829599508">Solve the system of equations using a matrix: <m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>5</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>8</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>4</m:mn><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>7</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>−3</m:mn></m:mtd></m:mtr></m:mtable></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167833020740">
+<para id="fs-id1167829709377"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>6</m:mn><m:mo>,</m:mo><m:mn>−1</m:mn><m:mo>,</m:mo><m:mn>−3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1167833009146" class="try">
+<exercise id="fs-id1167836685150">
+<problem id="fs-id1167836388313">
+<para id="fs-id1167836330398">Solve the system of equations using a matrix: <m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="right"><m:mn>−3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>y</m:mi><m:mo>+</m:mo><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>−4</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mtext>−</m:mtext><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mi>y</m:mi><m:mo>−</m:mo><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>−1</m:mn></m:mtd></m:mtr></m:mtable></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836299894">
+<para id="fs-id1167833024271"><m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>5</m:mn><m:mo>,</m:mo><m:mn>7</m:mn><m:mo>,</m:mo><m:mn>4</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<para id="fs-id1167833158290">So far our work with matrices has only been with systems that are consistent and independent, which means they have exactly one solution. Let’s now look at what happens when we use a matrix for a dependent or inconsistent system.</para>
+<example id="fs-id1167836693828">
+<exercise id="fs-id1167836357145">
+<problem id="fs-id1167836697732">
+<para id="fs-id1167829688774">Solve the system of equations using a matrix: <m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>5</m:mn><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mtd></m:mtr></m:mtable><m:mo>.</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167826172431">
+<para id="fs-id1167836788189"><table id="fs-id1167836320619" class="unnumbered unstyled can-break" summary="The equations are x plus y plus 3z equals 0, x plus 3y plus 5z equals 0 and 2x plus 4z equals 1. The first row of the augmented matrix is 1, 1, 3, 0. Row 2 is 1, 3, 5, 0. Row 3 is 2, 0, 4, 1. Use row operation minus 1R1 plus R2 on row 2. Use operation minus 2R1 plus R3 on row 3. Use operation half R2 on row 2. Use operation 2R2 plus R3. The corresponding equations are x plus y plus 3z equals 0, y plus z equals 0 and 0 not equal to 1.">
+<label/>
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<tbody>
+<row valign="top">
+<entry valign="top" align="left"/>
+<entry valign="top" align="left"><media id="fs-id1167829693728" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_04_05_018a_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Write the augmented matrix for the equations.</entry>
+<entry valign="top" align="left"><media id="fs-id1167836552968" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_04_05_018b_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">The entry in row 1, column 1 is 1.</entry>
+<entry valign="top" align="left"/>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Using row operations, get zeros in column 1 below the 1.</entry>
+<entry valign="top" align="left"><media id="fs-id1167836697832" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_04_05_018c_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left"/>
+<entry valign="top" align="left"><media id="fs-id1167836628663" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_04_05_018d_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Continue the process until the matrix is in row-echelon form.</entry>
+<entry valign="top" align="left"><media id="fs-id1167836339886" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_04_05_018e_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Multiply row 2 by 2 and add it to row 3.</entry>
+<entry valign="top" align="left"><media id="fs-id1167836605395" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_04_05_018f_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">At this point, we have all zeros on the left of row 3.</entry>
+<entry valign="top" align="left"/>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Write the corresponding system of equations.</entry>
+<entry valign="top" align="left"><media id="fs-id1167829597744" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_04_05_018g_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left" namest="c1" nameend="c2">Since <m:math><m:mrow><m:mn>0</m:mn><m:mo>≠</m:mo><m:mn>1</m:mn></m:mrow></m:math> we have a false statement. Just as when we solved a system using other methods, this tells us we have an inconsistent system. There is no solution.</entry>
+</row>
+</tbody>
+</tgroup>
+</table></para>
+</solution>
+</exercise>
+</example>
+<note id="fs-id1167836691963" class="try">
+<exercise id="fs-id1167836507507">
+<problem id="fs-id1167836558556">
+<para id="fs-id1167836656607">Solve the system of equations using a matrix: <m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mn>−2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>y</m:mi><m:mo>−</m:mo><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>2</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mi>x</m:mi><m:mo>−</m:mo><m:mi>y</m:mi><m:mo>+</m:mo><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>5</m:mn></m:mtd></m:mtr></m:mtable></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836697856">
+<para id="fs-id1167836556734">no solution</para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1167836597057" class="try">
+<exercise id="fs-id1167836699123">
+<problem id="fs-id1167836684155">
+<para id="fs-id1167836311815">Solve the system of equations using a matrix: <m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>−2</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>y</m:mi><m:mo>−</m:mo><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>−12</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>6</m:mn></m:mtd></m:mtr></m:mtable></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836585335">
+<para id="fs-id1167829686514">no solution</para>
+</solution>
+</exercise>
+</note>
+<para id="fs-id1167833019836">The last system was inconsistent and so had no solutions. The next example is dependent and has infinitely many solutions.</para>
+<example id="fs-id1167836555721">
+<exercise id="fs-id1167832925613">
+<problem id="fs-id1167836535076">
+<para id="fs-id1167829807672">Solve the system of equations using a matrix: <m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>7</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>4</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>5</m:mn><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>7</m:mn></m:mtd></m:mtr></m:mtable></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836484491">
+<para id="fs-id1167836701230"><table id="fs-id1167836701231" class="unnumbered unstyled can-break" summary="The equations are x minus 2y plus 3z equals 1, x plus y minus 3z equals 7 and 3x minus 4y plus 5z equals 7. The augmented matrix is: row 1: 1, minus 2, 3, 1, row 2: 1, 1, minus 3, 7, row 3: 3, minus 4, 5, 7. Use operation minus 1R1 plus R2 on row 2. use operation minus 3 R1 plus R3 on row 3. Use operation 1 upon 3 R2 on row 2. Use operation minus 2R2 plus R3 on row 3. The corresponding equations are x minus 2y plus 3z is 1, y minus 2z is 2 and 0 is 0. Since 0 is 0 we have a true statement. Just as when we solved by substitution, this tells us we have a dependent system. There are infinitely many solutions. Solving for y in second equation, we get y equal to 2z plus 2. Substituting this in the first equation, we get x equal to z plus 5. The system has infinitely many solutions x, y, z where x is z plus 5 and y is 2z plus 2 and z is any real number.">
+<label/>
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<tbody>
+<row valign="top">
+<entry valign="top" align="left"/>
+<entry valign="top" align="left"><media id="fs-id1167836662838" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_04_05_019a_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Write the augmented matrix for the equations.</entry>
+<entry valign="top" align="left"><media id="fs-id1167836352824" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_04_05_019b_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">The entry in row 1, column 1 is 1.</entry>
+<entry valign="top" align="left"/>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Using row operations, get zeros in column 1 below the 1.</entry>
+<entry valign="top" align="left"><media id="fs-id1167836529008" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_04_05_019c_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left"/>
+<entry valign="top" align="left"><media id="fs-id1167836705310" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_04_05_019d_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Continue the process until the matrix is in row-echelon form.</entry>
+<entry valign="top" align="left"><media id="fs-id1167833256119" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_04_05_019e_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left"> Multiply row 2 by <m:math><m:mrow><m:mn>−2</m:mn></m:mrow></m:math> and add it to row 3.</entry>
+<entry valign="top" align="left"><media id="fs-id1167829741959" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_04_05_019f_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">At this point, we have all zeros in the bottom row.</entry>
+<entry valign="top" align="left"/>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Write the corresponding system of equations.</entry>
+<entry valign="top" align="left"><media id="fs-id1167833245758" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_04_05_019g_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left" namest="c1" nameend="c2">Since <m:math><m:mrow><m:mn>0</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> we have a true statement. Just as when we solved by substitution, this tells us we have a dependent system. There are infinitely many solutions.</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Solve for <emphasis effect="italics">y</emphasis> in terms of <emphasis effect="italics">z</emphasis> in the second equation.</entry>
+<entry valign="top" align="left"><media id="fs-id1167836493258" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_04_05_019h_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Solve the first equation for <emphasis effect="italics">x</emphasis> in terms of <emphasis effect="italics">z</emphasis>.</entry>
+<entry valign="top" align="left"><media id="fs-id1167836707050" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_04_05_019i_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Substitute <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>z</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mo>.</m:mo></m:mrow></m:math></entry>
+<entry valign="top" align="left"><media id="fs-id1167829720122" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_04_05_019j_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Simplify.</entry>
+<entry valign="top" align="left"><media id="fs-id1167829721214" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_04_05_019k_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Simplify.</entry>
+<entry valign="top" align="left"><media id="fs-id1167836649335" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_04_05_019l_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Simplify.</entry>
+<entry valign="top" align="left"><media id="fs-id1167829720944" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_04_05_019m_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left" namest="c1" nameend="c2">The system has infinitely many solutions <m:math><m:mo>(</m:mo><m:mfrac><m:mn>8</m:mn><m:mn>5</m:mn></m:mfrac><m:mo>,</m:mo><m:mo>-</m:mo><m:mfrac><m:mn>42</m:mn><m:mn>5</m:mn></m:mfrac><m:mo>,</m:mo><m:mo>-</m:mo><m:mfrac><m:mn>24</m:mn><m:mn>5</m:mn></m:mfrac><m:mo>)</m:mo></m:math></entry>
+</row>
+</tbody>
+</tgroup>
+</table></para>
+</solution>
+</exercise>
+</example>
+<note id="fs-id1167833207815" class="try">
+<exercise id="fs-id1167829692179">
+<problem id="fs-id1167836600243">
+<para id="fs-id1167829745733">Solve the system of equations using a matrix: <m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>y</m:mi><m:mo>−</m:mo><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>6</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>6</m:mn><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>9</m:mn></m:mtd></m:mtr></m:mtable></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836293696">
+<para id="fs-id1167836618915">infinitely many solutions <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>y</m:mi><m:mo>,</m:mo><m:mi>z</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mtext>,</m:mtext></m:mrow></m:math> where <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mi>z</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:mo>;</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>3</m:mn><m:mo>;</m:mo><m:mi>z</m:mi></m:mrow></m:math> is any real number.</para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1167836315181" class="try">
+<exercise id="fs-id1167836349086">
+<problem id="fs-id1167836310628">
+<para id="fs-id1167833158281">Solve the system of equations using a matrix: <m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mi>x</m:mi><m:mo>−</m:mo><m:mi>y</m:mi><m:mo>−</m:mo><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mtext>−</m:mtext><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>−4</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>7</m:mn><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mtd></m:mtr></m:mtable></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167829843556">
+<para id="fs-id1167833059149">infinitely many solutions <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>y</m:mi><m:mo>,</m:mo><m:mi>z</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mtext>,</m:mtext></m:mrow></m:math> where <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>5</m:mn><m:mi>z</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mo>;</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>4</m:mn><m:mi>z</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:mo>;</m:mo><m:mi>z</m:mi></m:mrow></m:math> is any real number.</para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1167829748849" class="media-2">
+<para id="fs-id1167833274200">Access this online resource for additional instruction and practice with Gaussian Elimination.</para>
+<list id="fs-id1169145728353" display="block">
+<item><link url="https://openstax.org/l/37GaussElim">Gaussian Elimination</link></item>
+</list>
+</note>
+</section>
+<section id="fs-id1167836626308" class="key-concepts">
+<title>Key Concepts</title>
+<list id="fs-id1167836293453" list-type="bulleted" bullet-style="bullet">
+<item><emphasis effect="bold">Matrix:</emphasis> A matrix is a rectangular array of numbers arranged in rows and columns. A matrix with <emphasis effect="italics">m</emphasis> rows and <emphasis effect="italics">n</emphasis> columns has <emphasis effect="italics">order</emphasis> <m:math><m:mrow><m:mi>m</m:mi><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mi>n</m:mi><m:mo>.</m:mo></m:mrow></m:math> The matrix on the left below has 2 rows and 3 columns and so it has order <m:math><m:mrow><m:mn>2</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mn>3</m:mn><m:mo>.</m:mo></m:mrow></m:math> We say it is a 2 by 3 matrix.<newline/>
+<media id="fs-id1167833385766" alt="Figure shows two matrices. The one on the left has the numbers minus 3, minus 2 and 2 in the first row and the numbers minus 1, 4 and 5 in the second row. The rows and columns are enclosed within brackets. Thus, it has 2 rows and 3 columns. It is labeled 2 cross 3 or 2 by 3 matrix. The matrix on the right is similar but with 3 rows and 4 columns. It is labeled 3 by 4 matrix.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_04_05_020_img_new.jpg"/>
+</media><newline/>
+Each number in the matrix is called an <emphasis effect="italics">element</emphasis> or <emphasis effect="italics">entry</emphasis> in the matrix.</item>
+<item><emphasis effect="bold">Row Operations:</emphasis> In a matrix, the following operations can be performed on any row and the resulting matrix will be equivalent to the original matrix.
+<list id="fs-id1167836613366" list-type="bulleted" bullet-style="bullet">
+<item>Interchange any two rows</item>
+<item>Multiply a row by any real number except 0</item>
+<item>Add a nonzero multiple of one row to another row</item>
+</list></item>
+<item><emphasis effect="bold">Row-Echelon Form:</emphasis> For a consistent and independent system of equations, its augmented matrix is in row-echelon form when to the left of the vertical line, each entry on the diagonal is a 1 and all entries below the diagonal are zeros.<newline/>
+<media id="fs-id1167833316687" alt="Figure shows two matrices. The one on the left has the numbers minus 3, minus 2 and 2 in the first row and the numbers minus 1, 4 and 5 in the second row. The rows and columns are enclosed within brackets. Thus, it has 2 rows and 3 columns. It is labeled 2 cross 3 or 2 by 3 matrix. The matrix on the right is similar but with 3 rows and 4 columns. It is labeled 3 by 4 matrix.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_04_05_021_img_new.jpg"/>
+</media>
+</item>
+<item><emphasis effect="bold">How to solve a system of equations using matrices.</emphasis>
+<list id="fs-id1167836386945" list-type="enumerated" number-style="arabic" class="stepwise">
+<item>Write the augmented matrix for the system of equations.</item>
+<item>Using row operations get the entry in row 1, column 1 to be 1.</item>
+<item>Using row operations, get zeros in column 1 below the 1.</item>
+<item>Using row operations, get the entry in row 2, column 2 to be 1.</item>
+<item>Continue the process until the matrix is in row-echelon form.</item>
+<item>Write the corresponding system of equations.</item>
+<item>Use substitution to find the remaining variables.</item>
+<item>Write the solution as an ordered pair or triple.</item>
+<item>Check that the solution makes the original equations true.</item>
+</list></item>
+</list>
+</section>
+<section id="fs-id1167833025558" class="section-exercises">
+<section id="fs-id1167836449701" class="practice-perfect">
+<title>Practice Makes Perfect</title>
+<para id="fs-id1167836547542"><emphasis effect="bold">Write the Augmented Matrix for a System of Equations</emphasis></para>
+<para id="fs-id1167826171377">In the following exercises, write each system of linear equations as an augmented matrix.</para>
+<exercise id="fs-id1167836523331">
+<problem id="fs-id1167829844031">
+<para id="fs-id1167836620562"><newline/><span class="token">ⓐ</span> <m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−1</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>5</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:mrow></m:math><newline/><span class="token">ⓑ</span> <m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−2</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>7</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>−6</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167836502030">
+<problem id="fs-id1167833338855">
+<para id="fs-id1167836579407"><newline/><span class="token">ⓐ</span> <m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−5</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>2</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:mrow></m:math><newline/><span class="token">ⓑ</span> <m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>−</m:mo><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>−2</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>−2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>5</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>5</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>−1</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167824781184">
+<para id="fs-id1167836515997"><newline/><span class="token">ⓐ</span> <m:math><m:mrow><m:mrow><m:mo>[</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mn>2</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>4</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−5</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>3</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−2</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>2</m:mn></m:mtd></m:mtr></m:mtable><m:mo>]</m:mo></m:mrow></m:mrow></m:math><newline/><span class="token">ⓑ</span> <m:math><m:mrow><m:mrow><m:mo>[</m:mo><m:mtable><m:mtr><m:mtd columnalign="right"><m:mn>3</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−2</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−1</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−2</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mn>−2</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>1</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>0</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>5</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mn>5</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>4</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>1</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−1</m:mn></m:mtd></m:mtr></m:mtable><m:mo>]</m:mo></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167829739049">
+<problem id="fs-id1167829714126">
+<para id="fs-id1167833361725"><newline/><span class="token">ⓐ</span> <m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−4</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>=</m:mo><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>2</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:mrow></m:math><newline/><span class="token">ⓑ</span> <m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>4</m:mn><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>−2</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>5</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>5</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>7</m:mn><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>−8</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167833009852">
+<problem id="fs-id1167829598294">
+<para id="fs-id1167836364054"><newline/><span class="token">ⓐ</span> <m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>5</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−3</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>3</m:mn><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:mrow></m:math><newline/><span class="token">ⓑ</span> <m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>−3</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mn>−2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>4</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mtext>−</m:mtext><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>4</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>5</m:mn><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>−2</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836607370">
+<para id="fs-id1167825830228"><newline/><span class="token">ⓐ</span> <m:math><m:mrow><m:mrow><m:mo>[</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mn>2</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−5</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−3</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>4</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−3</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−1</m:mn></m:mtd></m:mtr></m:mtable><m:mo>]</m:mo></m:mrow></m:mrow></m:math><newline/><span class="token">ⓑ</span> <m:math><m:mrow><m:mrow><m:mo>[</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mn>4</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>3</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−2</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−3</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mn>−2</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>1</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−3</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>4</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>−1</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−4</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>5</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−2</m:mn></m:mtd></m:mtr></m:mtable><m:mo>]</m:mo></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+<para id="fs-id1167833082484">Write the system of equations that corresponds to the augmented matrix.</para><exercise id="fs-id1167836391699">
+<problem id="fs-id1167829788432">
+<para id="fs-id1167829787229"><m:math><m:mrow><m:mrow><m:mo>[</m:mo><m:mrow><m:mrow><m:mtable><m:mtr><m:mtd columnalign="left"><m:mn>2</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−1</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>1</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−3</m:mn></m:mtd></m:mtr></m:mtable><m:mspace width="0.5em"/><m:mo>|</m:mo><m:mspace width="0.5em"/></m:mrow></m:mrow></m:mrow><m:mrow><m:mtable><m:mtr><m:mtd columnalign="right"><m:mn>4</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mn>2</m:mn></m:mtd></m:mtr></m:mtable><m:mo>]</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167829692032">
+<problem id="fs-id1167836722566">
+<para id="fs-id1167836706030"><m:math><m:mrow><m:mrow> <m:mo>[</m:mo><m:mrow><m:mrow><m:mtable><m:mtr><m:mtd columnalign="left"><m:mn>2</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−4</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>3</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−3</m:mn></m:mtd></m:mtr></m:mtable><m:mspace width="0.5em"/><m:mo>|</m:mo><m:mspace width="0.5em"/></m:mrow></m:mrow></m:mrow><m:mrow><m:mtable><m:mtr><m:mtd columnalign="right"><m:mn>−2</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mn>−1</m:mn></m:mtd></m:mtr></m:mtable><m:mo>]</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836417217">
+<para id="fs-id1167836542591"><m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>4</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−2</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−1</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167836448155">
+<problem id="fs-id1167833207785">
+<para id="fs-id1167836626772"><m:math><m:mrow><m:mrow><m:mo>[</m:mo><m:mrow><m:mrow><m:mtable><m:mtr><m:mtd columnalign="left"><m:mn>1</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>0</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−3</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>1</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−2</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>0</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>0</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−1</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>2</m:mn></m:mtd></m:mtr></m:mtable><m:mspace width="0.5em"/><m:mo>|</m:mo><m:mspace width="0.5em"/></m:mrow></m:mrow></m:mrow><m:mrow><m:mtable><m:mtr><m:mtd columnalign="right"><m:mn>−1</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mn>−2</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mn>3</m:mn></m:mtd></m:mtr></m:mtable><m:mo>]</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167829832302">
+<problem id="fs-id1167836732801">
+<para id="fs-id1167832971477"><m:math><m:mrow><m:mrow><m:mo>[</m:mo><m:mrow><m:mrow><m:mtable><m:mtr><m:mtd columnalign="left"><m:mn>2</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−2</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>0</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>0</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>2</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−1</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>3</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>0</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−1</m:mn></m:mtd></m:mtr></m:mtable><m:mspace width="0.5em"/><m:mo>|</m:mo><m:mspace width="0.5em"/></m:mrow></m:mrow></m:mrow><m:mrow><m:mtable><m:mtr><m:mtd columnalign="right"><m:mn>−1</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mn>2</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mn>−2</m:mn></m:mtd></m:mtr></m:mtable><m:mo>]</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836722460">
+<para id="fs-id1167836627860"><m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−1</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>−</m:mo><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>2</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>−2</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+<para id="fs-id1167829688535"><emphasis effect="bold">Use Row Operations on a Matrix</emphasis></para>
+<para id="fs-id1167836613644">In the following exercises, perform the indicated operations on the augmented matrices.</para>
+<exercise id="fs-id1167836622536">
+<problem id="fs-id1167836287993">
+<para id="fs-id1167836367083"><m:math><m:mrow><m:mrow><m:mo>[</m:mo><m:mrow><m:mrow><m:mtable><m:mtr><m:mtd columnalign="left"><m:mn>6</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−4</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>3</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−2</m:mn></m:mtd></m:mtr></m:mtable><m:mspace width="0.5em"/><m:mo>|</m:mo><m:mspace width="0.5em"/></m:mrow></m:mrow></m:mrow><m:mrow><m:mtable><m:mtr><m:mtd columnalign="right"><m:mn>3</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mn>1</m:mn></m:mtd></m:mtr></m:mtable><m:mo>]</m:mo></m:mrow></m:mrow></m:math></para>
+<para id="fs-id1167829690924"><span class="token">ⓐ</span> Interchange rows 1 and 2</para>
+<para id="fs-id1167836296936"><span class="token">ⓑ</span> Multiply row 2 by 3</para>
+<para id="fs-id1167836540243"><span class="token">ⓒ</span> Multiply row 2 by <m:math><m:mrow><m:mn>−2</m:mn></m:mrow></m:math> and add row 1 to it.</para></problem>
+</exercise>
+<exercise id="fs-id1167836538567">
+<problem id="fs-id1167829696382">
+<para id="fs-id1167833014865"><m:math><m:mrow><m:mrow><m:mo>[</m:mo><m:mrow><m:mrow><m:mtable><m:mtr><m:mtd columnalign="left"><m:mn>4</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−6</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>3</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>2</m:mn></m:mtd></m:mtr></m:mtable><m:mspace width="0.5em"/><m:mo>|</m:mo></m:mrow></m:mrow></m:mrow><m:mspace width="0.5em"/><m:mrow><m:mtable><m:mtr><m:mtd columnalign="right"><m:mn>−3</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mn>1</m:mn></m:mtd></m:mtr></m:mtable><m:mo>]</m:mo></m:mrow></m:mrow></m:math></para>
+<para id="fs-id1167836650085"><span class="token">ⓐ</span> Interchange rows 1 and 2</para>
+<para id="fs-id1167836627418"><span class="token">ⓑ</span> Multiply row 1 by 4</para>
+<para id="fs-id1167836362828"><span class="token">ⓒ</span> Multiply row 2 by 3 and add row 1 to it.</para></problem>
+<solution id="fs-id1167836418067">
+<para id="fs-id1167833054679"><newline/><span class="token">ⓐ</span> <m:math><m:mrow><m:mrow><m:mo>[</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mn>3</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>2</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>1</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>4</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−6</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−3</m:mn></m:mtd></m:mtr></m:mtable><m:mo>]</m:mo></m:mrow></m:mrow></m:math><newline/><span class="token">ⓑ</span> <m:math><m:mrow><m:mrow><m:mo>[</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mn>12</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>8</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>4</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>4</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−6</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−3</m:mn></m:mtd></m:mtr></m:mtable><m:mo>]</m:mo></m:mrow></m:mrow></m:math><newline/><span class="token">ⓒ</span> <m:math><m:mrow><m:mrow><m:mo>[</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mn>12</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>8</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>4</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>24</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−10</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−5</m:mn></m:mtd></m:mtr></m:mtable><m:mo>]</m:mo></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167836706572">
+<problem id="fs-id1167829695986">
+<para id="fs-id1167836625455"><m:math><m:mrow><m:mrow><m:mo>[</m:mo><m:mrow><m:mrow><m:mtable><m:mtr><m:mtd columnalign="left"><m:mn>4</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−12</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−8</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>4</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−2</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−3</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>−6</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>2</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−1</m:mn></m:mtd></m:mtr></m:mtable><m:mspace width="0.5em"/><m:mo>|</m:mo><m:mspace width="0.5em"/></m:mrow></m:mrow></m:mrow><m:mrow><m:mtable><m:mtr><m:mtd columnalign="right"><m:mn>16</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mn>−1</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mn>−1</m:mn></m:mtd></m:mtr></m:mtable><m:mo>]</m:mo></m:mrow></m:mrow></m:math></para><para id="fs-id1167829620875"><span class="token">ⓐ</span> Interchange rows 2 and 3</para>
+<para id="fs-id1167836624764"><span class="token">ⓑ</span> Multiply row 1 by 4</para>
+<para id="fs-id1167833361899"><span class="token">ⓒ</span> Multiply row 2 by <m:math><m:mrow><m:mn>−2</m:mn></m:mrow></m:math> and add to row 3.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167829811863">
+<problem id="fs-id1167829752192">
+<para id="fs-id1167833380181"><m:math><m:mrow><m:mrow><m:mo>[</m:mo><m:mrow><m:mrow><m:mtable><m:mtr><m:mtd columnalign="left"><m:mn>6</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−5</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>2</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>2</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>1</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−4</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>3</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−3</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>1</m:mn></m:mtd></m:mtr></m:mtable><m:mspace width="0.5em"/><m:mo>|</m:mo><m:mspace width="0.5em"/></m:mrow></m:mrow></m:mrow><m:mrow><m:mtable><m:mtr><m:mtd columnalign="right"><m:mn>3</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mn>5</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mn>−1</m:mn></m:mtd></m:mtr></m:mtable><m:mo>]</m:mo></m:mrow></m:mrow></m:math></para>
+<para id="fs-id1167829579826"><span class="token">ⓐ</span> Interchange rows 2 and 3</para>
+<para id="fs-id1167830077562"><span class="token">ⓑ</span> Multiply row 2 by 5</para>
+<para id="fs-id1167824704572"><span class="token">ⓒ</span> Multiply row 3 by <m:math><m:mrow><m:mn>−2</m:mn></m:mrow></m:math> and add to row 1.</para>
+</problem>
+<solution id="fs-id1167836629682">
+<para id="fs-id1167833021198"><newline/><span class="token">ⓐ</span> <m:math><m:mrow><m:mfenced close="]" open="["><m:mrow><m:mtable equalrows="true" equalcolumns="true"><m:mtr><m:mtd><m:mn>6</m:mn></m:mtd><m:mtd><m:mrow><m:mo>−</m:mo><m:mn>5</m:mn></m:mrow></m:mtd><m:mtd><m:mn>2</m:mn></m:mtd><m:mtd><m:mn>3</m:mn></m:mtd></m:mtr><m:mtr><m:mtd><m:mn>3</m:mn></m:mtd><m:mtd><m:mrow><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow></m:mtd><m:mtd><m:mn>1</m:mn></m:mtd><m:mtd><m:mrow><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd><m:mn>2</m:mn></m:mtd><m:mtd><m:mn>1</m:mn></m:mtd><m:mtd><m:mrow><m:mo>−</m:mo><m:mn>4</m:mn></m:mrow></m:mtd><m:mtd><m:mn>5</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:mfenced></m:mrow></m:math><newline/><span class="token">ⓑ</span> <m:math><m:mrow><m:mfenced close="]" open="["><m:mrow><m:mtable equalrows="true" equalcolumns="true"><m:mtr><m:mtd><m:mn>6</m:mn></m:mtd><m:mtd><m:mrow><m:mo>−</m:mo><m:mn>5</m:mn></m:mrow></m:mtd><m:mtd><m:mn>2</m:mn></m:mtd><m:mtd><m:mn>3</m:mn></m:mtd></m:mtr><m:mtr><m:mtd><m:mrow><m:mn>15</m:mn></m:mrow></m:mtd><m:mtd><m:mrow><m:mo>−</m:mo><m:mn>15</m:mn></m:mrow></m:mtd><m:mtd><m:mn>5</m:mn></m:mtd><m:mtd><m:mrow><m:mo>−</m:mo><m:mn>5</m:mn></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd><m:mn>2</m:mn></m:mtd><m:mtd><m:mn>1</m:mn></m:mtd><m:mtd><m:mrow><m:mo>−</m:mo><m:mn>4</m:mn></m:mrow></m:mtd><m:mtd><m:mn>5</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:mfenced></m:mrow></m:math><newline/><span class="token">ⓒ</span> <m:math><m:mrow><m:mfenced close="]" open="["><m:mrow><m:mtable equalrows="true" equalcolumns="true"><m:mtr><m:mtd><m:mn>2</m:mn></m:mtd><m:mtd><m:mrow><m:mo>−</m:mo><m:mn>7</m:mn></m:mrow></m:mtd><m:mtd><m:mrow><m:mn>10</m:mn></m:mrow></m:mtd><m:mtd><m:mrow><m:mo>−</m:mo><m:mn>7</m:mn></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd><m:mrow><m:mn>15</m:mn></m:mrow></m:mtd><m:mtd><m:mrow><m:mo>−</m:mo><m:mn>15</m:mn></m:mrow></m:mtd><m:mtd><m:mn>5</m:mn></m:mtd><m:mtd><m:mrow><m:mo>−</m:mo><m:mn>5</m:mn></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd><m:mn>2</m:mn></m:mtd><m:mtd><m:mn>1</m:mn></m:mtd><m:mtd><m:mrow><m:mo>−</m:mo><m:mn>4</m:mn></m:mrow></m:mtd><m:mtd><m:mn>5</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:mfenced></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167824578322">
+<problem id="fs-id1167836626591">
+<para id="fs-id1167836570727">Perform the needed row operation that will get the first entry in row 2 to be zero in the augmented matrix: <m:math><m:mrow><m:mrow><m:mo>[</m:mo><m:mrow><m:mrow><m:mtable><m:mtr><m:mtd columnalign="right"><m:mn>1</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>2</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mn>−3</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−4</m:mn></m:mtd></m:mtr></m:mtable><m:mspace width="0.5em"/><m:mo>|</m:mo><m:mspace width="0.5em"/></m:mrow></m:mrow></m:mrow><m:mrow><m:mtable><m:mtr><m:mtd columnalign="right"><m:mn>5</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mn>−1</m:mn></m:mtd></m:mtr></m:mtable><m:mo>]</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167830123185">
+<problem id="fs-id1167830123187">
+<para id="fs-id1167824649012">Perform the needed row operations that will get the first entry in both row 2 and row 3 to be zero in the augmented matrix: <m:math><m:mrow><m:mrow><m:mo>[</m:mo><m:mrow><m:mrow><m:mtable><m:mtr><m:mtd columnalign="left"><m:mn>1</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−2</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>3</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>3</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−1</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−2</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>2</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−3</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−4</m:mn></m:mtd></m:mtr></m:mtable><m:mspace width="0.5em"/><m:mo>|</m:mo><m:mspace width="0.5em"/></m:mrow></m:mrow></m:mrow><m:mrow><m:mtable><m:mtr><m:mtd columnalign="right"><m:mn>−4</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mn>5</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mn>−1</m:mn></m:mtd></m:mtr></m:mtable><m:mo>]</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836693318">
+<para id="fs-id1167832977161"><m:math><m:mrow><m:mrow><m:mo>[</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mn>1</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−2</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>3</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−4</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>0</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>5</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−11</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>17</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>0</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>1</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−10</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>7</m:mn></m:mtd></m:mtr></m:mtable><m:mo>]</m:mo></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+<para id="fs-id1167832982042"><emphasis effect="bold">Solve Systems of Equations Using Matrices</emphasis></para>
+<para id="fs-id1167836601156">In the following exercises, solve each system of equations using a matrix.</para>
+<exercise id="fs-id1167836573324">
+<problem id="fs-id1167836684975">
+<para id="fs-id1167836440482"><m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>2</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mi>x</m:mi><m:mo>−</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−2</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167833007373">
+<problem id="fs-id1167829683972">
+<para id="fs-id1167836498172"><m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>2</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mi>x</m:mi><m:mo>−</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>2</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836791945">
+<para id="fs-id1167833019264"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>−1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167826170390">
+<problem id="fs-id1167836476890">
+<para id="fs-id1167836476893"><m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="right"><m:mtext>−</m:mtext><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−2</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−4</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167833135703">
+<problem id="fs-id1167829689486">
+<para id="fs-id1167829712505"><m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="right"><m:mn>−2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>3</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>12</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836486319">
+<para id="fs-id1167836704893"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+<para id="fs-id1167833139215">In the following exercises, solve each system of equations using a matrix.</para>
+<exercise id="fs-id1167836609807">
+<problem id="fs-id1167836609809">
+<para id="fs-id1167836611716"><m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>19</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mn>−3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>−15</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>y</m:mi><m:mo>+</m:mo><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167836576451">
+<problem id="fs-id1167836539251">
+<para id="fs-id1167836293793"><m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>−3</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mtext>−</m:mtext><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>−</m:mo><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>10</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>y</m:mi><m:mo>+</m:mo><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>5</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836629902">
+<para id="fs-id1167836629904"><m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>−2</m:mn><m:mo>,</m:mo><m:mn>5</m:mn><m:mo>,</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167836635577">
+<problem id="fs-id1167836635580">
+<para id="fs-id1167836627750"><m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>6</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>3</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>2</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>3</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167836614234">
+<problem id="fs-id1167836614236">
+<para id="fs-id1167836444948"><m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>7</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>5</m:mn><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>4</m:mn><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>3</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>−7</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836573792">
+<para id="fs-id1167836573794"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−3</m:mn><m:mo>,</m:mo><m:mn>−5</m:mn><m:mo>,</m:mo><m:mn>4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167829850155">
+<problem id="fs-id1167829850157">
+<para id="fs-id1167833047400"><m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>4</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>−2</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>5</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>3</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167836614876">
+<problem id="fs-id1167836323333">
+<para id="fs-id1167836323335"><m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>5</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>4</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>3</m:mn><m:mi>y</m:mi><m:mo>−</m:mo><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>3</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>−3</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167829650628">
+<para id="fs-id1167829650630"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−3</m:mn><m:mo>,</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167829756030">
+<problem id="fs-id1167829756032">
+<para id="fs-id1167836376309"><m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>−1</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>5</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−6</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>7</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167833059137">
+<problem id="fs-id1167829694210">
+<para id="fs-id1167829694212"><m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>−3</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>5</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>−6</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−8</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167829686580">
+<para id="fs-id1167829686583"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−2</m:mn><m:mo>,</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>−3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167833047842">
+<problem id="fs-id1167833047844">
+<para id="fs-id1167832945824"><m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>12</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>y</m:mi><m:mo>+</m:mo><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>9</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>20</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167836620917">
+<problem id="fs-id1167836299361">
+<para id="fs-id1167836299363"><m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>6</m:mn><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>5</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mtext>−</m:mtext><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>3</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>4</m:mn><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836448269">
+<para id="fs-id1167836613179">no solution</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167836547142">
+<problem id="fs-id1167836547144">
+<para id="fs-id1167836528457"><m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>−1</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>2</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167836510303">
+<problem id="fs-id1167836689350">
+<para id="fs-id1167836689352"><m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mn>−2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>7</m:mn><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>6</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836571645">
+<para id="fs-id1167836433934">no solution</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167836480343">
+<problem id="fs-id1167836480345">
+<para id="fs-id1167833380056"><m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mi>x</m:mi><m:mo>−</m:mo><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>−4</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>2</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mn>−3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>6</m:mn><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>12</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167836531630">
+<problem id="fs-id1167836531632">
+<para id="fs-id1167833056352"><m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="right"><m:mtext>−</m:mtext><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>14</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mtext>−</m:mtext><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>−4</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>6</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836683544">
+<para id="fs-id1167836683546">infinitely many solutions <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>y</m:mi><m:mo>,</m:mo><m:mi>z</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> where <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>z</m:mi><m:mo>+</m:mo><m:mn>4</m:mn><m:mo>;</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>z</m:mi><m:mo>−</m:mo><m:mn>6</m:mn><m:mo>;</m:mo><m:mi>z</m:mi></m:mrow></m:math> is any real number</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167833022411">
+<problem id="fs-id1167829719183">
+<para id="fs-id1167829719185"><m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>−1</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mi>y</m:mi><m:mo>−</m:mo><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mtext>−</m:mtext><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167836730415">
+<problem id="fs-id1167836730417">
+<para id="fs-id1167836516759"><m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>4</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>3</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mn>−2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>−7</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836515229">
+<para id="fs-id1167829833990">infinitely many solutions <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>y</m:mi><m:mo>,</m:mo><m:mi>z</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> where <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>5</m:mn><m:mi>z</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mo>;</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−3</m:mn><m:mi>z</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo>;</m:mo><m:mi>z</m:mi></m:mrow></m:math> is any real number</para>
+</solution>
+</exercise>
+</section>
+<section id="fs-id1167833047439" class="writing">
+<title>Writing Exercises</title>
+<exercise id="fs-id1167833142303">
+<problem id="fs-id1167833142305">
+<para id="fs-id1167836334886">Solve the system of equations <m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>10</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mi>x</m:mi><m:mo>−</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>6</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:mrow></m:math> <span class="token">ⓐ</span> by graphing and <span class="token">ⓑ</span> by substitution. <span class="token">ⓒ</span> Which method do you prefer? Why?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167829651171">
+<problem id="fs-id1167829651173">
+<para id="fs-id1167829716737">Solve the system of equations <m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>12</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mi>x</m:mi><m:mo>=</m:mo><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>8</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:mrow></m:math> by substitution and explain all your steps in words.</para>
+</problem>
+<solution id="fs-id1167826206613">
+<para id="fs-id1167826206615">Answers will vary.</para>
+</solution>
+</exercise>
+</section>
+<section id="fs-id1167836319947">
+<title>Self Check</title>
+<para id="fs-id1167833129255"><span class="token">ⓐ</span> After completing the exercises, use this checklist to evaluate your mastery of the objectives of this section.</para>
+<media id="fs-id1167832994494" alt="This table has 4 columns 5 rows and a header row. The header row labels each column I can, confidently, with some help and no, I don’t get it. The first column has the following statements: Write the augmented matrix for a system of equations, Use row operations on a matrix, Solve systems of equations using matrices, Write the augmented matrix for a system of equations, Use row operations on a matrix. The remaining columns are blank.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_04_05_201_img_new.jpg"/>
+</media>
+<para id="fs-id1167836732668"><span class="token">ⓑ</span> After looking at the checklist, do you think you are well-prepared for the next section? Why or why not?</para>
+</section>
+</section>
+</content>
+<glossary>
+<definition id="fs-id1167832999650">
+<term>matrix</term>
+<meaning id="fs-id1167836282956">A matrix is a rectangular array of numbers arranged in rows and columns.</meaning>
+</definition>
+<definition id="fs-id1167836289514">
+<term>row-echelon form</term>
+<meaning id="fs-id1167836510587">A matrix is in row-echelon form when to the left of the vertical line, each entry on the diagonal is a 1 and all entries below the diagonal are zeros.</meaning>
+</definition>
+</glossary>
+</document>

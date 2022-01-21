@@ -1,0 +1,1824 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Solve Rational Inequalities</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m81441</md:content-id>
+  <md:title>Solve Rational Inequalities</md:title>
+  <md:abstract><para>By the end of this section, you will be able to:</para>
+<list>
+<item>Solve rational inequalities</item>
+<item>Solve an inequality with rational functions</item>
+</list></md:abstract>
+  <md:uuid>74088145-486c-473d-a07e-3dbb3fe2c6d2</md:uuid>
+</metadata>
+
+<content>
+<note id="fs-id1167832010437" class="be-prepared">
+<para id="fs-id1167834535475">Before you get started, take this readiness quiz.</para>
+<exercise id="fs-idm355393488">
+<problem id="fs-idm348422336">
+<para id="fs-idm317032416">Find the value of <m:math><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>5</m:mn></m:mrow></m:math> when <span class="token">ⓐ</span> <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>6</m:mn></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>−3</m:mn></m:mrow></m:math> <span class="token">ⓒ</span> <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>5</m:mn><m:mo>.</m:mo></m:mrow></m:math><newline/>
+If you missed this problem, review <link target-id="fs-id1167836530265" document="m81422"/>.</para>
+</problem>
+<solution id="fs-idm341643808">
+<para id="fs-idm317532096"><span class="token">ⓐ</span> 1; <span class="token">ⓑ</span> −8; <span class="token">ⓒ</span> 0</para>
+</solution>
+</exercise>
+</note>
+<note id="fs-idm346748512" class="be-prepared">
+<exercise id="fs-idm361333040">
+<problem id="fs-idm355911136">
+<para id="fs-idm320566992">Solve: <m:math><m:mrow><m:mn>8</m:mn><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>&lt;</m:mo><m:mn>12</m:mn><m:mo>.</m:mo></m:mrow></m:math><newline/>
+If you missed this problem, review <link target-id="fs-id1167835324646" document="m81366"/>.</para>
+</problem>
+<solution id="fs-idm318371968">
+<para id="fs-idm316134320"><m:math><m:mrow><m:mi>x</m:mi><m:mo>&gt;</m:mo><m:mn>−2</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-idm335727296" class="be-prepared">
+<exercise id="fs-idm327360464">
+<problem id="fs-idm346765440">
+<para id="fs-idm342081152">Write in interval notation: <m:math><m:mrow><m:mn>−3</m:mn><m:mo>≤</m:mo><m:mi>x</m:mi><m:mo>&lt;</m:mo><m:mn>5</m:mn><m:mo>.</m:mo></m:mrow></m:math><newline/>
+If you missed this problem, review <link target-id="fs-id1167835524181" document="m81366"/>.</para>
+</problem>
+<solution id="fs-idm351752976">
+<para id="fs-idm336707696"><m:math><m:mrow><m:mo stretchy="false">[</m:mo><m:mn>−3</m:mn><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mn>5</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<section id="fs-id1167826998368">
+<title>Solve Rational Inequalities</title>
+<para id="fs-id1167834061460">We learned to solve linear inequalities after learning to solve linear equations. The techniques were very much the same with one major exception. When we multiplied or divided by a negative number, the inequality sign reversed.</para>
+<para id="fs-id1167826994454">Having just learned to solve rational equations we are now ready to solve rational inequalities. A <term>rational inequality</term> is an inequality that contains a rational expression.</para>
+<note id="fs-id1167835390175">
+<title>Rational Inequality</title>
+<para id="fs-id1167835338652">A <emphasis effect="bold">rational inequality</emphasis> is an inequality that contains a rational expression.</para>
+</note>
+<para id="fs-id1167834058919">Inequalities such as <m:math><m:mrow><m:mfrac><m:mn>3</m:mn><m:mrow><m:mn>2</m:mn><m:mi>x</m:mi></m:mrow></m:mfrac><m:mo>&gt;</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mspace width="0.5em"/><m:mfrac><m:mrow><m:mn>2</m:mn><m:mi>x</m:mi></m:mrow><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow></m:mfrac><m:mo>&lt;</m:mo><m:mn>4</m:mn><m:mo>,</m:mo><m:mspace width="0.5em"/><m:mfrac><m:mrow><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>6</m:mn></m:mrow></m:mfrac><m:mo>≥</m:mo><m:mi>x</m:mi><m:mo>,</m:mo></m:mrow></m:math> and <m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>4</m:mn></m:mfrac><m:mo>−</m:mo><m:mfrac><m:mn>2</m:mn><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>≤</m:mo><m:mfrac><m:mn>3</m:mn><m:mi>x</m:mi></m:mfrac></m:mrow></m:math> are rational inequalities as they each contain a rational expression.</para>
+<para id="fs-id1167835341662">When we solve a rational inequality, we will use many of the techniques we used solving linear inequalities. We especially must remember that when we multiply or divide by a negative number, the inequality sign must reverse.</para>
+<para id="fs-id1167835354144">Another difference is that we must carefully consider what value might make the rational expression undefined and so must be excluded.</para>
+<para id="fs-id1167834191238">When we solve an equation and the result is <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>3</m:mn><m:mo>,</m:mo></m:mrow></m:math> we know there is one solution, which is 3.</para>
+<para id="fs-id1167835515515">When we solve an inequality and the result is <m:math><m:mrow><m:mi>x</m:mi><m:mo>&gt;</m:mo><m:mn>3</m:mn><m:mo>,</m:mo></m:mrow></m:math> we know there are many solutions. We graph the result to better help show all the solutions, and we start with 3. Three becomes a <term>critical point</term> and then we decide whether to shade to the left or right of it. The numbers to the right of 3 are larger than 3, so we shade to the right.</para>
+<media id="fs-id1167831882511" alt="This figure shows the solution, the interval 3 to infinity, of the inequality x is greater than 3 on a number line. The values range from negative 5 to 5 on the number line. The inequality is modeled by an open parenthesis at the critical point 3 and shading the right.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_07_06_001_img_new.jpg"/>
+</media>
+<para id="fs-id1167835358450">To solve a rational inequality, we first must write the inequality with only one quotient on the left and 0 on the right.</para>
+<para id="fs-id1167835277282">Next we determine the critical points to use to divide the number line into intervals. A <emphasis effect="bold">critical point</emphasis> is a number which make the rational expression zero or undefined.</para>
+<para id="fs-id1167831883353">We then will evaluate the factors of the numerator and denominator, and find the quotient in each interval. This will identify the interval, or intervals, that contains all the solutions of the rational inequality.</para>
+<para id="fs-id1167834186143">We write the solution in interval notation being careful to determine whether the endpoints are included.</para>
+<example id="fs-id1167835200478">
+<exercise id="fs-id1167834194894">
+<problem id="fs-id1167834095300">
+<para id="fs-id1167831872191">Solve and write the solution in interval notation: <m:math><m:mrow><m:mfrac><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow></m:mfrac><m:mo>≥</m:mo><m:mn>0</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167835489259">
+<para id="fs-id1167835423426"><emphasis effect="bold">Step 1.</emphasis> Write the inequality as one quotient on the left and zero on the right.</para>
+<para id="fs-id1167826799368">Our inequality is in this form. <m:math><m:mrow><m:mspace width="5em"/><m:mfrac><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow></m:mfrac><m:mo>≥</m:mo><m:mn>0</m:mn></m:mrow></m:math></para>
+<para id="fs-id1167834525164"><emphasis effect="bold">Step 2.</emphasis> Determine the critical points—the points where the rational expression will be zero or undefined.</para>
+<para id="fs-id1167831838506">The rational expression will be zero when the numerator is zero. Since <m:math><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> when <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>,</m:mo></m:mrow></m:math> then <m:math><m:mn>1</m:mn></m:math> is a critical point.</para>
+<para id="fs-id1167835341311">The rational expression will be undefined when the denominator is zero. Since <m:math><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> when <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>−3</m:mn><m:mo>,</m:mo></m:mrow></m:math> then <m:math><m:mrow><m:mn>−3</m:mn></m:mrow></m:math> is a critical point.</para>
+<para id="fs-id1167826880318">The critical points are 1 and <m:math><m:mrow><m:mn>−3</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+<para id="fs-id1167834505421"><emphasis effect="bold">Step 3.</emphasis> Use the critical points to divide the number line into intervals.</para>
+<media id="fs-id1167834190549" alt="This figure shows a number line divided into three intervals by its critical points marked at negative 3 and 0.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_07_06_002_img_new.jpg"/>
+</media>
+<para id="fs-id1167835370621">The number line is divided into three intervals:</para>
+<para id="fs-id1165927646021"><m:math><m:mrow><m:mspace width="10.3em"/><m:mrow><m:mo>(</m:mo><m:mrow><m:mtext>−</m:mtext><m:mi>∞</m:mi><m:mo>,</m:mo><m:mn>−3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mspace width="5em"/><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−3</m:mn><m:mo>,</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mspace width="5.5em"/><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>,</m:mo><m:mi>∞</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+<para id="fs-id1167834196002"><emphasis effect="bold">Step 4.</emphasis> Test a value in each interval. Above the number line show the sign of each factor of the rational expression in each interval. Below the number line show the sign of the quotient.</para>
+<para id="fs-id1167835254103">To find the sign of each factor in an interval, we choose any point in that interval and use it as a test point. Any point in the interval will give the expression the same sign, so we can choose any point in the interval.</para>
+<equation id="fs-id1167835320815" class="unnumbered"><label/><m:math><m:mrow><m:mtext mathvariant="bold">Interval</m:mtext><m:mspace width="0.2em"/><m:mrow><m:mstyle mathvariant="bold"><m:mo>(</m:mo><m:mrow><m:mtext>−</m:mtext><m:mi>∞</m:mi><m:mo>,</m:mo><m:mn>−3</m:mn></m:mrow><m:mo>)</m:mo></m:mstyle></m:mrow></m:mrow></m:math></equation>
+<para id="fs-id1167832116048">The number <m:math><m:mrow><m:mn>−4</m:mn></m:mrow></m:math> is in the interval <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mtext>−</m:mtext><m:mi>∞</m:mi><m:mo>,</m:mo><m:mn>−3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math> Test <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>−4</m:mn></m:mrow></m:math> in the expression in the numerator and the denominator.</para>
+<media id="fs-id1167835376324" alt="This figure labels the expression, x minus 1, as the “numerator”. It shows that when negative 4 is substituted into the expression for x, the result is negative 5. It labels the result as “negative”. It also labels the expression, x plus 3, as “the denominator”. It shows that when negative 4 is substituted into the expression for x, the result is negative 1. It labels the result “negative”."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_07_06_007_img_new.jpg"/>
+</media>
+<para id="fs-id1167835362637">Above the number line, mark the factor <m:math><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:math> negative and mark the factor <m:math><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow></m:math> negative.</para>
+<para id="fs-id1167835524209">Since a negative divided by a negative is positive, mark the quotient positive in the interval <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mtext>−</m:mtext><m:mi>∞</m:mi><m:mo>,</m:mo><m:mn>−3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+<media id="fs-id1167827958382" alt="This figure shows the quotient of the quantity x minus 1 and the quantity x plus 3, the numerator is negative and the denominator is negative, which is positive. It shows a number line divided into three intervals by its critical points marked at negative 3 and 0. The factors x minus 1 and x plus 3 are marked as negative above the number line for the interval negative infinity to negative 3. The quotient of the quantity x minus 1 and the quantity x plus 3 is marked as positive below the number line for the interval negative infinity to negative 3.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_07_06_008_img_new.jpg"/>
+</media>
+<equation id="fs-id1167835239820" class="unnumbered"><label/><m:math><m:mrow><m:mtext mathvariant="bold">Interval</m:mtext><m:mspace width="0.2em"/><m:mrow><m:mstyle mathvariant="bold"><m:mo>(</m:mo><m:mrow><m:mn>−3</m:mn><m:mo>,</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mstyle></m:mrow></m:mrow></m:math></equation>
+<para id="fs-id1167828401707">The number 0 is in the interval <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−3</m:mn><m:mo>,</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math> Test <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+<media id="fs-id1167835421416" alt="This figure labels the expression, x minus 1, as the “numerator”. It shows that when 0 is substituted into the expression for x, the result is negative 1. It labels the result as “negative”. It also labels the expression, x plus 3, as “the denominator”. It shows that when 0 is substituted into the expression for x, the result is 3. It labels the result “positive”.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_07_06_009_img_new.jpg"/>
+</media>
+<para id="fs-id1167834300208">Above the number line, mark the factor <m:math><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:math> negative and mark <m:math><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow></m:math> positive.</para>
+<para id="fs-id1167834448595">Since a negative divided by a positive is negative, the quotient is marked negative in the interval <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−3</m:mn><m:mo>,</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+<media id="fs-id1167835362793" alt="This figure shows a shows the quotient of the quantity x minus 1 and the quantity x plus 3, the numerator is negative and the denominator is positive, which is negative. It shows a number line divided into three intervals by its critical points marked at negative 3 and 0. The factors x minus 1 and x plus 3 are marked as negative above the number line for the interval negative infinity to negative 3. The quotient of the quantity x minus 1 and the quantity x plus 3 is marked as positive below the number line for the interval negative infinity to negative 3. The factor x minus 1 is marked as negative and the factor x plus 3 is marked as positive above the number line for the interval negative 3 to 1. The quotient of the quantity x minus 1 and the quantity x plus 3 is marked as negative below the number line for the interval negative 3 to 1.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_07_06_010_img_new.jpg"/>
+</media>
+<equation id="fs-id1167835300554" class="unnumbered"><label/><m:math><m:mrow><m:mtext mathvariant="bold">Interval</m:mtext><m:mspace width="0.2em"/><m:mrow><m:mstyle mathvariant="bold"><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>,</m:mo><m:mi>∞</m:mi></m:mrow><m:mo>)</m:mo></m:mstyle></m:mrow></m:mrow></m:math></equation>
+<para id="fs-id1167834489858">The number 2 is in the interval <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>,</m:mo><m:mi>∞</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math> Test <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+<media id="fs-id1167835384330" alt="This figure labels the expression, x minus 1, as the “numerator”. It shows that when 2 is substituted into the expression for x, the result is 1. It labels the result as “positive”. It also labels the expression, x plus 3, as “the denominator”. It shows that when 2 is substituted into the expression for x, the result is 5. It labels the result “positive”.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_07_06_011_img_new.jpg"/>
+</media>
+<para id="fs-id1167832041537">Above the number line, mark the factor <m:math><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:math> positive and mark <m:math><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow></m:math> positive.</para>
+<para id="fs-id1167835326166">Since a positive divided by a positive is positive, mark the quotient positive in the interval <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>,</m:mo><m:mi>∞</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+<media id="fs-id1167835303485" alt="The figure shows that in the quotient of the quantity x minus 1 and the quantity x plus 3, the numerator is negative and the denominator is positive, which is negative. It shows a number line is divided into intervals by critical points at negative 3 and 1. The factors x minus 1 and x plus 3 are marked as negative above the number line for the interval negative infinity to negative 3. The quotient of the quantity x minus 1 and the quantity x plus 3 is marked as positive below the number line for the interval negative infinity to negative 3. The factor x minus 1 is marked as negative and the factor x plus 3 is marked as positive above the number line for the interval negative 3 to 1. The quotient of the quantity x minus 1 and the quantity x plus 3 is marked as negative below the number line for the interval negative 3 to 1. The factors x minus 1 and x plus 3 are marked as positive above the number line for the interval 1 to infinity. The quotient of the quantity x minus 1 and the quantity x plus 3 is marked as positive below the number line for the interval negative 1 to infinity.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_07_06_012_img_new.jpg"/>
+</media>
+<para id="fs-id1167834099272"><emphasis effect="bold">Step 5.</emphasis> Determine the intervals where the inequality is correct. Write the solution in interval notation.</para>
+<para id="fs-id1167834059152">We want the quotient to be greater than or equal to zero, so the numbers in the intervals <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mtext>−</m:mtext><m:mi>∞</m:mi><m:mo>,</m:mo><m:mn>−3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> and <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mi>∞</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math> are solutions.</para>
+<para id="fs-id1167831920853">But what about the critical points?</para>
+<para id="fs-id1167830865437">The critical point <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>−3</m:mn></m:mrow></m:math> makes the denominator 0, so it must be excluded from the solution and we mark it with a parenthesis.</para>
+<para id="fs-id1167834536833">The critical point <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math> makes the whole rational expression 0. The inequality requires that the rational expression be greater than or equal to 0. So, 1 is part of the solution and we will mark it with a bracket.</para>
+<media id="fs-id1167831823765" alt="The number line is divided into intervals by critical points at negative 3 and 1. A closed parenthesis is used at 3 and an open bracket is used at 1. The number is shaded to the left of 3 and to the right of 1. The factors x minus 1 and x plus 3 are marked as negative above the number line for the interval negative infinity to negative 3. The quotient of the quantity x minus 1 and the quantity x plus 3 is marked as positive below the number line for the interval negative infinity to negative 3. The factor x minus 1 is marked as negative and the factor x plus 3 is marked as positive above the number line for the interval negative 3 to 1. The quotient of the quantity x minus 1 and the quantity x plus 3 is marked as negative below the number line for the interval negative 3 to 1. The factors x minus 1 and x plus 3 are marked as positive above the number line for the interval 1 to infinity. The quotient of the quantity x minus 1 and the quantity x plus 3 is marked as positive below the number line for the interval negative 1 to infinity.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_07_06_013_img_new.jpg"/>
+</media>
+<para id="fs-id1167828426637">Recall that when we have a solution made up of more than one interval we use the union symbol, <m:math><m:mrow><m:mo>∪</m:mo><m:mo>,</m:mo></m:mrow></m:math> to connect the two intervals. The solution in interval notation is <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mtext>−</m:mtext><m:mi>∞</m:mi><m:mo>,</m:mo><m:mn>−3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>∪</m:mo><m:mrow><m:mo>[</m:mo><m:mrow><m:mn>1</m:mn><m:mo>,</m:mo><m:mi>∞</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</solution>
+</exercise>
+</example>
+<note id="fs-id1167835342857" class="try">
+<exercise id="fs-id1167831112014">
+<problem id="fs-id1167826997005">
+<para id="fs-id1167835280533">Solve and write the solution in interval notation: <m:math><m:mrow><m:mfrac><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn></m:mrow></m:mfrac><m:mo>≥</m:mo><m:mn>0</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167831847167">
+<para id="fs-id1167835318289"><m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mtext>−</m:mtext><m:mi>∞</m:mi><m:mo>,</m:mo><m:mn>−4</m:mn><m:mo stretchy="false">)</m:mo><m:mo>∪</m:mo><m:mo stretchy="false">[</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mi>∞</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1167835319437" class="try">
+<exercise id="fs-id1167834309629">
+<problem id="fs-id1167834084806">
+<para id="fs-id1167826798819">Solve and write the solution in interval notation: <m:math><m:mrow><m:mfrac><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>4</m:mn></m:mrow></m:mfrac><m:mo>≥</m:mo><m:mn>0</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167826987807">
+<para id="fs-id1167835343175"><m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mtext>−</m:mtext><m:mi>∞</m:mi><m:mo>,</m:mo><m:mn>−2</m:mn><m:mo stretchy="false">]</m:mo><m:mo>∪</m:mo><m:mo stretchy="false">(</m:mo><m:mn>4</m:mn><m:mo>,</m:mo><m:mi>∞</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<para id="fs-id1167835317235">We summarize the steps for easy reference.</para>
+<note id="fs-id1167835233307" class="howto">
+<title>Solve a rational inequality.</title>
+<list id="fs-id1167826995382" list-type="enumerated" number-style="arabic" class="stepwise">
+<item>Write the inequality as one quotient on the left and zero on the right.</item>
+<item>Determine the critical points–the points where the rational expression will be zero or undefined.</item>
+<item>Use the critical points to divide the number line into intervals.</item>
+<item>Test a value in each interval. Above the number line show the sign of each factor of the numerator and denominator in each interval. Below the number line show the sign of the quotient.</item>
+<item>Determine the intervals where the inequality is correct. Write the solution in interval notation.</item>
+</list>
+</note>
+<para id="fs-id1167834294544">The next example requires that we first get the rational inequality into the correct form.</para>
+<example id="fs-id1167835358203">
+<exercise id="fs-id1167830963564">
+<problem id="fs-id1167835233973">
+<para id="fs-id1167835379650">Solve and write the solution in interval notation: <m:math><m:mrow><m:mfrac><m:mrow><m:mn>4</m:mn><m:mi>x</m:mi></m:mrow><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>6</m:mn></m:mrow></m:mfrac><m:mo>&lt;</m:mo><m:mn>1</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167835304190">
+<table id="fs-id1167826804582" class="unnumbered unstyled can-break" summary="Solve the inequality 4 x divided by the quantity x minus 6 is less than 1. Subtract 1 to get zero on the right. The result is the difference between 4 x divided by the quantity x minus 6 and 1 is less than 0. Rewrite 1 as a fraction using the least common denominator. The result is the difference between the quotient of 4 x and the quantity x minus 6 and the quotient of the quantity x minus 6 and x minus 6 is less than 0. Subtract the numerators and place the difference over the common denominator. The result is 4 x minus the quantity x minus 6 all divided by the quantity x minus 6 is less than 0. Simplify the numerator. The result is the quotient of the quantity 3 x plus 6 and the quantity x minus 6 is less than 0. Factor the numerator to show all factors. The result is 3 times the quantity x plus 2 all divided by the quantity x minus 6 is less than 0. Find the critical points. The quotient will be 0 when the numerator is 0. The quotient is undefined when the numerator is 0. That is 3 times the quantity x plus 2 is equal to 0 and x minus 6 is equal to 0. So, 3 is not equal to 0, x is equal to negative 2, and x is equal to 6. Use the critical points, negative 2 and 6, to divide the number line into intervals. The intervals are negative infinity to negative 2, negative 2 to 6, and 6 to infinity. Test a value in each interval using a chart. The chart has four columns and three rows. The first row is a header row and it labels the second column the interval negative infinity to negative 2, the third column the interval negative 2 to 6, and the fourth column the interval 6 to infinity. The first column is a header column and it labels the first row the factor x plus 2 and the second row the factor x minus 6. Test a value in each interval. The factor, x plus 2, is negative when negative 3 is substituted for x in the interval negative infinity to negative 2. The factor, x minus 6, is negative when negative 3 is substituted for x in the interval negative infinity to negative 2. The factor, x plus 2, is positive when 0 is substituted for x in the interval negative 2 to 6. The factor, x minus 6, is negative when 0 is substituted for x in the interval negative 2 to 6. The factor, x plus 2, is positive when 7 is substituted for x in the interval 6 to infinity. The factor, x minus 6, is positive when 0 is substituted for x in the interval 6 to infinity. Above the number line, show the sign of each factor of the rational expression in each interval. Below the number line, show the sign of the quotient. The number line is divided into intervals by critical points at negative 2 and 6. An open parenthesis is used at negative 2 and a closed parenthesis is used at 6. The number line is shaded between negative 2 and 6. The factors x plus 2 and x minus 6 are marked as negative above the number line for the interval negative infinity to negative 2. The quotient of the quantity x plus 2 and the quantity x minus 6 is marked as positive below the number line for the interval negative infinity to negative 2. The factor x plus 2 is marked as positive and the factor x minus 6 is marked as negative above the number line for the interval negative 2 to 6. The quotient of the quantity x plus 2 and the quantity x minus 6 is marked as negative below the number line for the interval negative 2 to 6. The factors x plus 2 and x minus 6 are marked as positive above the number line for the interval 6 to infinity. The quotient of the quantity x plus 2 and the quantity x minus 6 is marked as positive below the number line for the interval 6 to infinity. Determine the intervals where the inequality is correct. Write the solution in interval notation. The solution is the interval negative 2 and 6 with negative 2 and 6 not included."><label/>
+<tgroup cols="3">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<tbody>
+<row valign="top">
+<entry valign="top" align="left"/>
+<entry valign="top" align="right"><m:math><m:mrow><m:mfrac><m:mrow><m:mn>4</m:mn><m:mi>x</m:mi></m:mrow><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>6</m:mn></m:mrow></m:mfrac><m:mo>&lt;</m:mo><m:mn>1</m:mn></m:mrow></m:math></entry>
+<entry/>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Subtract 1 to get zero on the right.</entry>
+<entry valign="top" align="right"><m:math><m:mrow><m:mfrac><m:mrow><m:mn>4</m:mn><m:mi>x</m:mi></m:mrow><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>6</m:mn></m:mrow></m:mfrac><m:mo>−</m:mo><m:mn>1</m:mn><m:mo>&lt;</m:mo><m:mn>0</m:mn></m:mrow></m:math>
+</entry>
+<entry/>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Rewrite 1 as a fraction using the LCD.</entry>
+<entry align="right"><m:math><m:mrow><m:mfrac><m:mrow><m:mn>4</m:mn><m:mi>x</m:mi></m:mrow><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>6</m:mn></m:mrow></m:mfrac><m:mo>−</m:mo><m:mfrac><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>6</m:mn></m:mrow><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>6</m:mn></m:mrow></m:mfrac><m:mo>&lt;</m:mo><m:mn>0</m:mn></m:mrow></m:math></entry>
+<entry/>
+</row>
+<row>
+<entry>Subtract the numerators and place the<newline/>difference over the common denominator.</entry>
+<entry align="right"><m:math><m:mrow><m:mfrac><m:mrow><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>6</m:mn><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>6</m:mn></m:mrow></m:mfrac><m:mo>&lt;</m:mo><m:mn>0</m:mn></m:mrow></m:math>
+</entry>
+<entry/>
+</row>
+<row>
+<entry>Simplify.</entry>
+<entry align="right"><m:math><m:mrow><m:mfrac><m:mrow><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>6</m:mn></m:mrow><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>6</m:mn></m:mrow></m:mfrac><m:mo>&lt;</m:mo><m:mn>0</m:mn></m:mrow></m:math>
+</entry>
+<entry/>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Factor the numerator to show all factors.</entry>
+<entry valign="top" align="right"><m:math><m:mrow><m:mfrac><m:mrow><m:mn>3</m:mn><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>6</m:mn></m:mrow></m:mfrac><m:mo>&lt;</m:mo><m:mn>0</m:mn></m:mrow></m:math>
+</entry>
+<entry/>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Find the critical points.</entry>
+<entry valign="top" align="left"/>
+<entry/>
+</row>
+<row valign="top">
+<entry valign="top" align="left">The quotient will be zero when the numerator is zero.<newline/>The quotient is undefined when the denominator is zero.</entry>
+<entry valign="top" align="center" namest="c2" nameend="c3"><m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>0</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>6</m:mn></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>0</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>x</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mtext>−</m:mtext><m:mn>2</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mi>x</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>6</m:mn></m:mtd></m:mtr></m:mtable></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left" namest="c1" nameend="c3">Use the critical points to divide the number line into intervals.</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="center" namest="c1" nameend="c3"><media id="fs-id1167835532579" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_07_06_003f_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left" namest="c1" nameend="c3">Test a value in each interval.</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="center" namest="c1" nameend="c3"><media id="fs-id1167826804542" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_07_06_003g_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left" namest="c1" nameend="c3">Above the number line show the sign of each factor of the rational expression in each interval.<newline/>Below the number line show the sign of the quotient.</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="center" namest="c1" nameend="c3"><media id="fs-id1167831040708" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_07_06_003h_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left" namest="c1" nameend="c3">Determine the intervals where the inequality is correct. We want the quotient to be negative, so the solution includes the points between −2 and 6. Since the inequality is strictly less than, the endpoints are not included.</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left" namest="c1" nameend="c3">We write the solution in interval notation as (−2, 6).</entry>
+</row>
+</tbody>
+</tgroup>
+</table></solution>
+</exercise>
+</example>
+<note id="fs-id1167834234265" class="try">
+<exercise id="fs-id1167835353129">
+<problem id="fs-id1167832128828">
+<para id="fs-id1167835331737">Solve and write the solution in interval notation: <m:math><m:mrow><m:mfrac><m:mrow><m:mn>3</m:mn><m:mi>x</m:mi></m:mrow><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow></m:mfrac><m:mo>&lt;</m:mo><m:mn>1</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167831826403">
+<para id="fs-id1167834300261"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mo>−</m:mo><m:mfrac><m:mn>3</m:mn><m:mn>2</m:mn></m:mfrac><m:mo>,</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1167834238976" class="try">
+<exercise id="fs-id1167835257383">
+<problem id="fs-id1167835595165">
+<para id="fs-id1167835341449">Solve and write the solution in interval notation: <m:math><m:mrow><m:mfrac><m:mrow><m:mn>3</m:mn><m:mi>x</m:mi></m:mrow><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>4</m:mn></m:mrow></m:mfrac><m:mo>&lt;</m:mo><m:mn>2</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167835269471">
+<para id="fs-id1167835329101"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−8</m:mn><m:mo>,</m:mo><m:mn>4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<para id="fs-id1165927605011">In the next example, the numerator is always positive, so the sign of the rational expression depends on the sign of the denominator.</para>
+<example id="fs-id1167835534361">
+<exercise id="fs-id1167835320224">
+<problem id="fs-id1167835267322">
+<para id="fs-id1167831884237">Solve and write the solution in interval notation: <m:math><m:mrow><m:mfrac><m:mn>5</m:mn><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>15</m:mn></m:mrow></m:mfrac><m:mo>&gt;</m:mo><m:mn>0</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167832153132">
+<para id="fs-id1167834156696"><table id="fs-id1167834162030" class="unnumbered unstyled can-break" summary="The inequality 5 divided by the quantity x squared minus 2 x minus 15 is greater than 0 is already in the correct form. Factor the denominator. The result is 5 divided by the product of the quantity x plus 3 and the quantity x minus 5 is greater than 0. Find the critical points. The quotient is 0 when the numerator is 0. Since the numerator is always 5, the quotient cannot be 0. The quotient will be undefined when the denominator is 0. That is the product of the quantity x plus 3 and the quantity x minus 5 is equal to 0, which is x is equal to negative 3 and x is equal to 5. Use the critical points, negative 3 and 5, to divide the number line into intervals. Test values in each interval. Above the number line, show the sign of each factor of the rational expression in each interval. Below the number line, show the sign of the quotient. The number line is divided into intervals by critical points at negative 3 and 5. A closed parenthesis is used at negative 3 and an open parenthesis is used at 5. The number line is shaded to the left of 3 and to the right of 5. The factors x plus 3 and x minus 5 are marked as negative above the number line for the interval negative infinity to negative 3. The quotient of 4 and the product of the quantity x plus 3 and the quantity x minus 5 is marked as positive below the number line for the interval negative infinity to negative 3. The factor x plus 3 is marked as positive and the factor x minus 5 is marked as negative above the number line for the interval negative 3 to 5. The quotient of 4 and the product of the quantity x plus 3 and the quantity x minus 5 is marked as negative below the number line for the interval negative 3 to 5. The factors x plus 3 and x minus 5 are marked as positive above the number line for the interval 5 to infinity. The quotient of 4 and the product of the quantity x plus 3 and the quantity x minus 5 is marked as positive below the number line for the interval 5 to infinity. Write the solution in interval notation. The solution is the union of the interval negative infinity to negative 3 and the interval 5 to infinity, with 3 and 5 not included">
+<label/>
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<tbody>
+<row valign="top">
+<entry valign="top" align="left">The inequality is in the correct form.</entry>
+<entry valign="top" align="right"><m:math><m:mrow><m:mfrac><m:mn>5</m:mn><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>15</m:mn></m:mrow></m:mfrac><m:mo>&gt;</m:mo><m:mn>0</m:mn></m:mrow></m:math>
+</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Factor the denominator.</entry>
+<entry valign="top" align="right"><m:math><m:mrow><m:mfrac><m:mn>5</m:mn><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>5</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:mfrac><m:mo>&gt;</m:mo><m:mn>0</m:mn></m:mrow></m:math>
+</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left" namest="c1" nameend="c2">Find the critical points.<newline/>The quotient is 0 when the numerator is 0.<newline/>Since the numerator is always 5, the quotient cannot be 0.</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">The quotient will be undefined when the<newline/>denominator is zero.</entry>
+<entry valign="top" align="left"><m:math><m:mtable><m:mtr><m:mtd columnalign="left"><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>5</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>0</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mi>x</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>3</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>5</m:mn></m:mtd></m:mtr></m:mtable>
+
+</m:math>
+
+</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left" namest="c1" nameend="c2">Use the critical points to divide the number line into intervals.</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left"/>
+<entry valign="top" align="center"><media id="fs-id1167834327372" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_07_06_004d_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left" namest="c1" nameend="c2">Test values in each interval.<newline/>Above the number line show the sign of each<newline/>factor of the denominator in each interval.<newline/>Below the number line, show the sign of the quotient.</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Write the solution in interval notation.</entry>
+<entry valign="top" align="center"><m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mtext>−</m:mtext><m:mo>∞</m:mo><m:mo>,</m:mo><m:mo>−</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo><m:mo>∪</m:mo><m:mo stretchy="false">(</m:mo><m:mn>5</m:mn><m:mo>,</m:mo><m:mo>∞</m:mo><m:mo stretchy="false">)</m:mo></m:mrow></m:math>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table></para>
+</solution>
+</exercise>
+</example>
+<note id="fs-id1167828411026" class="try">
+<exercise id="fs-id1167835421722">
+<problem id="fs-id1167835338178">
+<para id="fs-id1167834423187">Solve and write the solution in interval notation: <m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>8</m:mn></m:mrow></m:mfrac><m:mo>&gt;</m:mo><m:mn>0</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167835353084">
+<para id="fs-id1167831197123"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mtext>−</m:mtext><m:mi>∞</m:mi><m:mo>,</m:mo><m:mn>−4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>∪</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mo>,</m:mo><m:mi>∞</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1167835344975" class="try">
+<exercise id="fs-id1167835332644">
+<problem id="fs-id1167835358618">
+<para id="fs-id1167835259002">Solve and write the solution in interval notation: <m:math><m:mrow><m:mfrac><m:mn>3</m:mn><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>12</m:mn></m:mrow></m:mfrac><m:mo>&gt;</m:mo><m:mn>0</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167832056538">
+<para id="fs-id1167834247068"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mtext>−</m:mtext><m:mi>∞</m:mi><m:mo>,</m:mo><m:mn>−4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>∪</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3</m:mn><m:mo>,</m:mo><m:mi>∞</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<para id="fs-id1167835489103">The next example requires some work to get it into the needed form.</para>
+<example id="fs-id1167834193336">
+<exercise id="fs-id1167832128806">
+<problem id="fs-id1167834309742">
+<para id="fs-id1167835370918">Solve and write the solution in interval notation: <m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac><m:mo>−</m:mo><m:mfrac><m:mn>2</m:mn><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>&lt;</m:mo><m:mfrac><m:mn>5</m:mn><m:mrow><m:mn>3</m:mn><m:mi>x</m:mi></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167835434192">
+<para id="fs-id1167831826463"><table id="fs-id1167835205571" class="unnumbered unstyled can-break" summary="Solve the difference between one-third and the quantity 2 divided by x squared is less than the quantity 5 divided by 3 x. Subtract 5 divided by 3 x to get 0 on the right side. The result is one-third minus the quantity 2 divided by x squared minus the quantity 5 divided by 3 x is less than 0. Rewrite the inequality to get each fraction with the least common denominator, 3 x squared. The result is 1 times x squared all divided by 3 times x squared minus 2 times 6 all divided by x squared times 3 minus 5 times x all divided by 3 x times x is less than 0. Simplify. The result is the quantity x squared divided by 3 x squared minus the quantity 6 divided by 3 x squared minus the quantity 5 x divided by 3 x squared is less than 0. Subtract the numerators and place the difference over the common denominator. The result is the quantity x squared minus 5 x minus 6 divided by the quantity 3 x squared is less than 0. Factor the numerator. The result is the product of the quantity x minus 6 and the quantity x plus divided by 3 x squared is less than 0. Find the critical points using 3 x squared is equal to 0, x minus 6 is equal to 0, and x plus 1 is equal to 0. The critical points are x is equal to 0, x is equal to 6, and x is equal to negative 1. Use the critical points to divide the number line into intervals. Above the number line, show the sign of each factor in each interval. Below the number line, show the sign of the quotient. The number line is divided into intervals by critical points at negative 1, 0, and 6. An open parenthesis is used at negative 1, an open and closed parenthesis is used at 0, and a closed parenthesis is used at 6. The number line is shaded between negative 1 and 0 and between 0 and 6. The factors x minus 6 and x plus 1 are marked as negative above the number line for the interval negative infinity to negative 1. The factor x squared is marked as positive above the number line for the interval negative infinity to negative 1. The quotient of the product of the quantity x minus 6 and the quantity x plus 1 all divided by 3 x squared is marked as positive below the number line for the interval negative infinity to negative 1. The factor x minus 6 is marked as negative above the number line for the interval negative 1 to 0. The factors x plus 1 and x squared are marked as positive above the number line for the interval negative 1 and 0. The quotient of the product of the quantity x minus 6 and the quantity x plus 1 all divided by 3 x squared is marked as negative below the number line on the interval negative 1 to 0. The factor x minus 6 is marked as negative above the number line on the interval 0 to 6. The factors x plus 1 and x squared are marked as positive above the number line on the interval 0 to 6. The quotient of the product of the quantity x minus 6 and the quantity x plus 1 all divided by 3 x squared is marked as negative below the number line on the interval 0 to 6. The factors x minus 6, x plus 1 and x squared are marked positive above the number line on the interval 6 to infinity. The quotient of the product of the quantity x minus 6 and the quantity x plus 1 all divided by 3 x squared is marked as positive below the number line on the interval 6 to infinity. Since 0 is excluded, the solution is the two intervals negative 1 to 0 and 0 to 6, or the union of the intervals negative 1 to 0 and 0 to 6.">
+<label/>
+<tgroup cols="3">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<tbody>
+<row valign="top">
+<entry valign="top" align="left"/>
+<entry valign="top" align="right"><m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac><m:mo>−</m:mo><m:mfrac><m:mn>2</m:mn><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>&lt;</m:mo><m:mfrac><m:mn>5</m:mn><m:mrow><m:mn>3</m:mn><m:mi>x</m:mi></m:mrow></m:mfrac></m:mrow></m:math></entry>
+<entry/>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Subtract <m:math><m:mrow><m:mfrac><m:mn>5</m:mn><m:mrow><m:mn>3</m:mn><m:mi>x</m:mi></m:mrow></m:mfrac></m:mrow></m:math> to get zero on the right.</entry>
+<entry valign="top" align="right"><m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac><m:mo>−</m:mo><m:mfrac><m:mn>2</m:mn><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>−</m:mo><m:mfrac><m:mn>5</m:mn><m:mrow><m:mn>3</m:mn><m:mi>x</m:mi></m:mrow></m:mfrac><m:mo>&lt;</m:mo><m:mn>0</m:mn></m:mrow></m:math></entry>
+<entry/>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Rewrite to get each fraction with the LCD <m:math><m:mrow><m:mn>3</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math></entry>
+<entry valign="top" align="right"><m:math><m:mrow><m:mfrac><m:mrow><m:mn>1</m:mn><m:mo>⋅</m:mo><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>3</m:mn><m:mo>⋅</m:mo><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>−</m:mo><m:mfrac><m:mrow><m:mn>2</m:mn><m:mo>⋅</m:mo><m:mn>3</m:mn></m:mrow><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>⋅</m:mo><m:mn>3</m:mn></m:mrow></m:mfrac><m:mo>−</m:mo><m:mfrac><m:mrow><m:mn>5</m:mn><m:mo>⋅</m:mo><m:mi>x</m:mi></m:mrow><m:mrow><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>⋅</m:mo><m:mi>x</m:mi></m:mrow></m:mfrac><m:mo>&lt;</m:mo><m:mn>0</m:mn></m:mrow></m:math>
+</entry>
+<entry/>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Simplify.</entry>
+<entry align="right"><m:math><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>3</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>−</m:mo><m:mfrac><m:mn>6</m:mn><m:mrow><m:mn>3</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>−</m:mo><m:mfrac><m:mrow><m:mn>5</m:mn><m:mi>x</m:mi></m:mrow><m:mrow><m:mn>3</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>&lt;</m:mo><m:mn>0</m:mn></m:mrow></m:math>
+</entry>
+<entry/>
+</row>
+<row>
+<entry valign="top" align="left">Subtract the numerators and place the<newline/>difference over the common denominator.</entry>
+<entry valign="top" align="right"><m:math><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>5</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>6</m:mn></m:mrow><m:mrow><m:mn>3</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>&lt;</m:mo><m:mn>0</m:mn></m:mrow></m:math>
+</entry>
+<entry/>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Factor the numerator.</entry>
+<entry valign="top" align="right"><m:math><m:mrow><m:mfrac><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>6</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:mn>3</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>&lt;</m:mo><m:mn>0</m:mn></m:mrow></m:math>
+</entry>
+<entry/>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Find the critical points.</entry>
+<entry valign="top" align="center" namest="c2" nameend="c3"><m:math><m:mtable><m:mtr/><m:mtr><m:mtd columnalign="right"><m:mn>3</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>0</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>6</m:mn></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>0</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>0</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>x</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>0</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mi>x</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>6</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mi>x</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mtext>−</m:mtext><m:mn>1</m:mn></m:mtd></m:mtr></m:mtable></m:math>
+</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Use the critical points to divide the number<newline/>line into intervals.</entry>
+<entry valign="top" align="left"/>
+</row>
+<row>
+<entry valign="top" align="left"/>
+<entry valign="top" align="left"><media id="fs-id1167835342893" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_07_06_005f_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left" namest="c1" nameend="c2">Above the number line show the sign of each<newline/>factor in each interval.  Below the number line, show the sign of the quotient.</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Since, 0 is excluded, the solution is the two<newline/>intervals, <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−1</m:mn><m:mo>,</m:mo><m:mn>0</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> and <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>6</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></entry>
+<entry valign="top" align="center"><m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>0</m:mn><m:mo stretchy="false">)</m:mo><m:mo>∪</m:mo><m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>6</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></entry>
+</row>
+</tbody>
+</tgroup>
+</table></para>
+</solution>
+</exercise>
+</example>
+<note id="fs-id1167834301158" class="try">
+<exercise id="fs-id1167835299860">
+<problem id="fs-id1167834185458">
+<para id="fs-id1167835306283">Solve and write the solution in interval notation: <m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>4</m:mn><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>&lt;</m:mo><m:mfrac><m:mn>3</m:mn><m:mi>x</m:mi></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167835355496">
+<para id="fs-id1167831239685"><m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>4</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1167835164921" class="try">
+<exercise id="fs-id1167835369147">
+<problem id="fs-id1167834526570">
+<para id="fs-id1167834593562">Solve and write the solution in interval notation: <m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>6</m:mn><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>&lt;</m:mo><m:mfrac><m:mn>3</m:mn><m:mi>x</m:mi></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167831871519">
+<para id="fs-id1167830702763"><m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>6</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+</section>
+<section id="fs-id1167835309086">
+<title>Solve an Inequality with Rational Functions</title>
+<para id="fs-id1167832152764">When working with rational functions, it is sometimes useful to know when the function is greater than or less than a particular value. This leads to a rational inequality.</para>
+<example id="fs-id1167835511373">
+<exercise id="fs-id1167835346376">
+<problem id="fs-id1167835324990">
+<para id="fs-id1167835343984">Given the function <m:math><m:mrow><m:mi>R</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>5</m:mn></m:mrow></m:mfrac><m:mo>,</m:mo></m:mrow></m:math> find the values of <emphasis effect="italics">x</emphasis> that make the function less than or equal to 0.</para>
+</problem>
+<solution id="fs-id1167832195491">
+<para id="fs-id1167834190517">We want the function to be less than or equal to 0.</para>
+<para id="fs-id1167831883860"><table id="fs-id1167835312119" class="unnumbered unstyled" summary="The function R is less than or equal to 0. Substitute the rational expression, the quotient of the quantity x plus 3 and the quantity x minus 5, for the function R. The result is the quotient of the quantity x plus 3 and the quantity x minus 5 is less than or equal to 0, where x is not equal to 5. Find the critical points using x plus 3 is equal to 3 and x minus 5 is equal to 0. The critical points are x is equal to negative 3 and x is equal to 5. Use the critical points to divide the number line into intervals. Test values in each interval. Above the number line show the sign of each factor in each interval. Below the number line, show the sign of the quotient. The number line is divided into intervals by critical points at negative 3 and 5. An open bracket is used at negative 3 and a closed parenthesis is used at 5. The number line is shaded between negative 3 and 5. The factors x plus 3 and x minus 5 are marked as negative above the number line for the interval negative infinity to negative 3. The quotient of the quantity x plus 3 and the quantity x minus 5 is marked as positive below the number line for the interval negative infinity to negative 3. The factor x plus 3 is marked as positive above the number line for the interval negative 3 to 5. The factor x minus 5 is marked as negative above the number line for the interval negative 3 to 5. The quotient of the quantity x plus 3 and the quantity x minus 5 is marked as negative below the number line on the interval negative 3 to 5. The factors x plus 3 and x minus 5 are marked as positive above the number line on the interval 5 to infinity. The quotient of the quantity x plus 3 and the quantity x minus 5 is marked as positive below the number line on the interval 5 to infinity. Write the solution in interval notation. Since 5 is excluded, we do not include it in the interval. The solution is the interval negative 3 to 5, with negative 3 included.">
+<label/>
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<tbody>
+<row valign="top">
+<entry valign="top" align="left"/>
+<entry valign="top" align="center"><m:math><m:mrow><m:mi>R</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>≤</m:mo><m:mn>0</m:mn></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Substitute the rational expression for <m:math><m:mrow><m:mi>R</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></entry>
+<entry valign="top" align="center"><m:math><m:mrow><m:mfrac><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>5</m:mn></m:mrow></m:mfrac><m:mo>≤</m:mo><m:mn>0</m:mn><m:mspace width="3.5em"/><m:mi>x</m:mi><m:mo>≠</m:mo><m:mn>5</m:mn></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Find the critical points.</entry>
+<entry valign="top" align="center"><m:math><m:mrow><m:mtable><m:mtr><m:mtd columnalign="right"><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>0</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>5</m:mn></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>0</m:mn></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="right"><m:mi>x</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>−3</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mi>x</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>5</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left" namest="c1" nameend="c2">Use the critical points to divide the number line into intervals.</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left"/>
+<entry valign="top" align="left"><media id="fs-id1167831891154" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_07_06_006a_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left" namest="c1" nameend="c2">Test values in each interval. Above the<newline/>number line, show the sign of each factor<newline/>in each interval. Below the number line,<newline/>show the sign of the quotient</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Write the solution in interval notation. Since<newline/>5 is excluded we, do not include it in the interval.</entry>
+<entry valign="top" align="center"><m:math><m:mrow><m:mrow><m:mo>[</m:mo><m:mrow><m:mn>−3</m:mn><m:mo>,</m:mo><m:mn>5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+</row>
+</tbody>
+</tgroup>
+</table></para>
+</solution>
+</exercise>
+</example>
+<note id="fs-id1167832054727" class="try">
+<exercise id="fs-id1167831239696">
+<problem id="fs-id1167831117331">
+<para id="fs-id1167835369032">Given the function <m:math><m:mrow><m:mi>R</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn></m:mrow></m:mfrac><m:mo>,</m:mo></m:mrow></m:math> find the values of <emphasis effect="italics">x</emphasis> that make the function less than or equal to 0.</para>
+</problem>
+<solution id="fs-id1167835337641">
+<para id="fs-id1167834584349"><m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>−4</m:mn><m:mo>,</m:mo><m:mn>2</m:mn><m:mo stretchy="false">]</m:mo></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1167834534707" class="try">
+<exercise id="fs-id1167828421075">
+<problem id="fs-id1167834156746">
+<para id="fs-id1167834300223">Given the function <m:math><m:mrow><m:mi>R</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>4</m:mn></m:mrow></m:mfrac><m:mo>,</m:mo></m:mrow></m:math> find the values of <emphasis effect="italics">x</emphasis> that make the function less than or equal to 0.</para>
+</problem>
+<solution id="fs-id1167835369961">
+<para id="fs-id1167835318799"><m:math><m:mrow><m:mo stretchy="false">[</m:mo><m:mn>−1</m:mn><m:mo>,</m:mo><m:mn>4</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<para id="fs-id1167827987888">In economics, the function <m:math><m:mrow><m:mi>C</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math> is used to represent the cost of producing <emphasis effect="italics">x</emphasis> units of a commodity. The average cost per unit can be found by dividing <m:math><m:mrow><m:mi>C</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math> by the number of items <m:math><m:mrow><m:mi>x</m:mi><m:mo>.</m:mo></m:mrow></m:math> Then, the average cost per unit is <m:math><m:mrow><m:mi>c</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>C</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow><m:mi>x</m:mi></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></para>
+<example id="fs-id1167835283342">
+<exercise id="fs-id1167835355662">
+<problem id="fs-id1167835231793">
+<para id="fs-id1167826994288">The function <m:math><m:mrow><m:mi>C</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>10</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3000</m:mn></m:mrow></m:math> represents the cost to produce <m:math><m:mrow><m:mi>x</m:mi><m:mo>,</m:mo></m:mrow></m:math> number of items. Find <span class="token">ⓐ</span> the average cost function, <m:math><m:mrow><m:mi>c</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math> <span class="token">ⓑ</span> how many items should be produced so that the average cost is less than $40.</para>
+</problem>
+<solution id="fs-id1167835267213">
+<para id="fs-id1167835232228"><span class="token">ⓐ</span><newline/>
+<table id="fs-idm352373136" class="unnumbered unstyled" summary="No Summary">
+<label/>
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<tbody>
+<row valign="top">
+<entry valign="middle" align="left"/>
+<entry valign="middle" align="left"><m:math><m:mrow><m:mi>C</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>10</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3000</m:mn></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="middle" align="left">The average cost function is <m:math><m:mrow><m:mi>c</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>C</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow><m:mi>x</m:mi></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></entry>
+<entry valign="middle" align="left"/>
+</row>
+<row valign="top">
+<entry valign="middle" align="left">To find the average cost function, divide the<newline/>cost function by <m:math><m:mrow><m:mi>x</m:mi><m:mo>.</m:mo></m:mrow></m:math></entry>
+<entry valign="middle" align="left"><m:math><m:mrow><m:mtable><m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="left"><m:mi>c</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>C</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow><m:mi>x</m:mi></m:mfrac></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mi>c</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>10</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3000</m:mn></m:mrow><m:mi>x</m:mi></m:mfrac></m:mtd></m:mtr></m:mtable></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="middle" align="left"/>
+<entry valign="middle" align="left">The average cost function is <m:math><m:mrow><m:mi>c</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>10</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3000</m:mn></m:mrow><m:mi>x</m:mi></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></entry>
+</row>
+</tbody>
+</tgroup>
+</table></para>
+<para id="fs-id1167835237425"><span class="token">ⓑ</span><newline/>
+<table id="fs-idm360719776" class="unnumbered unstyled" summary="No Summary">
+<label/>
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<tbody>
+<row valign="top">
+<entry valign="middle" align="left">We want the function <m:math><m:mrow><m:mi>c</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math> to be less than <m:math><m:mrow><m:mn>40</m:mn><m:mo>.</m:mo></m:mrow></m:math></entry>
+<entry valign="middle" align="left"><m:math><m:mrow><m:mspace width="6.4em"/><m:mi>c</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>&lt;</m:mo><m:mn>40</m:mn></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="middle" align="left">Substitute the rational expression for <m:math><m:mrow><m:mi>c</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo></m:mrow></m:math></entry>
+<entry valign="middle" align="left"><m:math><m:mrow><m:mspace width="3.3em"/><m:mfrac><m:mrow><m:mn>10</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3000</m:mn></m:mrow><m:mi>x</m:mi></m:mfrac><m:mo>&lt;</m:mo><m:mn>40</m:mn><m:mspace width="0.5em"/><m:mi>x</m:mi><m:mo>≠</m:mo><m:mn>0</m:mn></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="middle" align="left">Subtract 40 to get 0 on the right.</entry>
+<entry valign="middle" align="left"><m:math><m:mrow><m:mspace width="1.11em"/><m:mfrac><m:mrow><m:mn>10</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3000</m:mn></m:mrow><m:mi>x</m:mi></m:mfrac><m:mo>−</m:mo><m:mn>40</m:mn><m:mo>&lt;</m:mo><m:mn>0</m:mn></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="middle" align="left">Rewrite the left side as one quotient by finding<newline/>the LCD and performing the subtraction.</entry>
+<entry valign="middle" align="left"><m:math><m:mrow><m:mfrac><m:mrow><m:mn>10</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3000</m:mn></m:mrow><m:mi>x</m:mi></m:mfrac><m:mo>−</m:mo><m:mn>40</m:mn><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mi>x</m:mi><m:mi>x</m:mi></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>&lt;</m:mo><m:mn>0</m:mn></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="middle" align="left"/>
+<entry valign="middle" align="left"><m:math><m:mrow><m:mspace width="0.5em"/><m:mfrac><m:mrow><m:mn>10</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3000</m:mn></m:mrow><m:mi>x</m:mi></m:mfrac><m:mo>−</m:mo><m:mfrac><m:mrow><m:mn>40</m:mn><m:mi>x</m:mi></m:mrow><m:mi>x</m:mi></m:mfrac><m:mo>&lt;</m:mo><m:mn>0</m:mn></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="middle" align="left"/>
+<entry valign="middle" align="left"><m:math><m:mrow><m:mspace width="0.6em"/><m:mfrac><m:mrow><m:mn>10</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3000</m:mn><m:mo>−</m:mo><m:mn>40</m:mn><m:mi>x</m:mi></m:mrow><m:mi>x</m:mi></m:mfrac><m:mo>&lt;</m:mo><m:mn>0</m:mn></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="middle" align="left"/>
+<entry valign="middle" align="left"><m:math><m:mrow><m:mspace width="2.55em"/><m:mfrac><m:mrow><m:mn>−30</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3000</m:mn></m:mrow><m:mi>x</m:mi></m:mfrac><m:mo>&lt;</m:mo><m:mn>0</m:mn></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="middle" align="left">Factor the numerator to show all factors.</entry>
+<entry valign="middle" align="left"><m:math><m:mrow><m:mspace width="2.4em"/><m:mfrac><m:mrow><m:mn>−30</m:mn><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>100</m:mn><m:mo stretchy="false">)</m:mo></m:mrow><m:mi>x</m:mi></m:mfrac><m:mo>&lt;</m:mo><m:mn>0</m:mn></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="middle" align="left">Find the critical points.</entry>
+<entry valign="middle" align="left"><m:math><m:mrow><m:mtable><m:mtr><m:mtd columnalign="right"><m:mo>−</m:mo><m:mn>30</m:mn><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>100</m:mn><m:mo stretchy="false">)</m:mo></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>0</m:mn></m:mtd><m:mtd columnalign="left"><m:mspace width="1em"/><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mo>−</m:mo><m:mn>30</m:mn><m:mo>≠</m:mo><m:mn>0</m:mn><m:mspace width="1em"/><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>100</m:mn></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>0</m:mn></m:mtd><m:mtd/></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>x</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>100</m:mn></m:mtd><m:mtd/></m:mtr></m:mtable></m:mrow></m:math></entry>
+</row>
+</tbody>
+</tgroup>
+</table></para>
+<para id="fs-id1167835349647">More than 100 items must be produced to keep the average cost below $40 per item.</para>
+</solution>
+</exercise>
+</example>
+<note id="fs-id1167835321953" class="try">
+<exercise id="fs-id1167827967245">
+<problem id="fs-id1167834534467">
+<para id="fs-id1167835357225">The function <m:math><m:mrow><m:mi>C</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>20</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>6000</m:mn></m:mrow></m:math> represents the cost to produce <m:math><m:mrow><m:mi>x</m:mi><m:mo>,</m:mo></m:mrow></m:math> number of items. Find <span class="token">ⓐ</span> the average cost function, <m:math><m:mrow><m:mi>c</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math> <span class="token">ⓑ</span> how many items should be produced so that the average cost is less than $60?</para>
+</problem>
+<solution id="fs-id1167832076312">
+<para id="fs-id1167831883113"><span class="token">ⓐ</span> <m:math><m:mrow><m:mi>c</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>20</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>6000</m:mn></m:mrow><m:mi>x</m:mi></m:mfrac></m:mrow></m:math><newline/><span class="token">ⓑ</span> More than 150 items must be produced to keep the average cost below $60 per item.</para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1167826807809" class="try">
+<exercise id="fs-id1167834084459">
+<problem id="fs-id1167834473717">
+<para id="fs-id1167835479012">The function <m:math><m:mrow><m:mi>C</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>5</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>900</m:mn></m:mrow></m:math> represents the cost to produce <m:math><m:mrow><m:mi>x</m:mi><m:mo>,</m:mo></m:mrow></m:math> number of items. Find <span class="token">ⓐ</span> the average cost function, <m:math><m:mrow><m:mi>c</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math> <span class="token">ⓑ</span> how many items should be produced so that the average cost is less than $20?</para>
+</problem>
+<solution id="fs-id1167834059188">
+<para id="fs-id1167835419423"><span class="token">ⓐ</span> <m:math><m:mrow><m:mi>c</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>5</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>900</m:mn></m:mrow><m:mi>x</m:mi></m:mfrac></m:mrow></m:math> <span class="token">ⓑ</span> More than 60 items must be produced to keep the average cost below $20 per item.</para>
+</solution>
+</exercise>
+</note>
+</section>
+<section id="fs-id1167826993390" class="key-concepts">
+<title>Key Concepts</title>
+<list id="fs-id1167834189870" list-type="bulleted" bullet-style="bullet">
+<item><emphasis effect="bold">Solve a rational inequality.</emphasis>
+<list id="fs-id1167835338241" list-type="enumerated" number-style="arabic" class="stepwise">
+<item>Write the inequality as one quotient on the left and zero on the right.</item>
+<item>Determine the critical points–the points where the rational expression will be zero or undefined.</item>
+<item>Use the critical points to divide the number line into intervals.</item>
+<item>Test a value in each interval. Above the number line show the sign of each factor of the rational expression in each interval. Below the number line show the sign of the quotient.</item>
+<item>Determine the intervals where the inequality is correct. Write the solution in interval notation.</item>
+</list>
+</item></list>
+</section>
+<section id="fs-id1167835325987" class="section-exercises">
+<title>Section Exercises</title><section id="fs-id1167835531810" class="practice-perfect">
+<title>Practice Makes Perfect</title>
+<para id="fs-id1167832060113"><emphasis effect="bold">Solve Rational Inequalities</emphasis></para>
+<para id="fs-id1167834221970">In the following exercises, solve each rational inequality and write the solution in interval notation.</para>
+<exercise id="fs-id1167835190851">
+<problem id="fs-id1167835329701">
+<para id="fs-id1167834289512"><m:math><m:mrow><m:mfrac><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn></m:mrow></m:mfrac><m:mo>≥</m:mo><m:mn>0</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167835345830">
+<para id="fs-id1167835305033"><m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mtext>−</m:mtext><m:mi>∞</m:mi><m:mo>,</m:mo><m:mn>−4</m:mn><m:mo stretchy="false">)</m:mo><m:mo>∪</m:mo><m:mo stretchy="false">[</m:mo><m:mn>3</m:mn><m:mo>,</m:mo><m:mi>∞</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167835302959">
+<problem id="fs-id1167827958506">
+<para id="fs-id1167830704699"><m:math><m:mrow><m:mfrac><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>6</m:mn></m:mrow><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>5</m:mn></m:mrow></m:mfrac><m:mo>≥</m:mo><m:mn>0</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167834161495">
+<problem id="fs-id1167830702476">
+<para id="fs-id1167830693464"><m:math><m:mrow><m:mfrac><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow></m:mfrac><m:mo>≤</m:mo><m:mn>0</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167831846980">
+<para id="fs-id1167835238679"><m:math><m:mrow><m:mo stretchy="false">[</m:mo><m:mn>−1</m:mn><m:mo>,</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167830700952">
+<problem id="fs-id1167832053265">
+<para id="fs-id1167835362648"><m:math><m:mrow><m:mfrac><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>4</m:mn></m:mrow><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow></m:mfrac><m:mo>≤</m:mo><m:mn>0</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167834058872">
+<problem id="fs-id1167835357903">
+<para id="fs-id1167834473611"><m:math><m:mrow><m:mfrac><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>7</m:mn></m:mrow><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:mfrac><m:mo>&gt;</m:mo><m:mn>0</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167835420364">
+<para id="fs-id1167832134098"><m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mtext>−</m:mtext><m:mi>∞</m:mi><m:mo>,</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:mo>∪</m:mo><m:mo stretchy="false">(</m:mo><m:mn>7</m:mn><m:mo>,</m:mo><m:mi>∞</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167826780686">
+<problem id="fs-id1167834458685">
+<para id="fs-id1167835387103"><m:math><m:mrow><m:mfrac><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>8</m:mn></m:mrow><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow></m:mfrac><m:mo>&gt;</m:mo><m:mn>0</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167834192313">
+<problem id="fs-id1167834464330">
+<para id="fs-id1167831872115"><m:math><m:mrow><m:mfrac><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>6</m:mn></m:mrow><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>5</m:mn></m:mrow></m:mfrac><m:mo>&lt;</m:mo><m:mn>0</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167835172025">
+<para id="fs-id1167835343125"><m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>−5</m:mn><m:mo>,</m:mo><m:mn>6</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167832053800">
+<problem id="fs-id1167834473138">
+<para id="fs-id1167831117326"><m:math><m:mrow><m:mfrac><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>5</m:mn></m:mrow><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow></m:mfrac><m:mo>&lt;</m:mo><m:mn>0</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167827967212">
+<problem id="fs-id1167834111781">
+<para id="fs-id1167835274969"><m:math><m:mrow><m:mfrac><m:mrow><m:mn>3</m:mn><m:mi>x</m:mi></m:mrow><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>5</m:mn></m:mrow></m:mfrac><m:mo>&lt;</m:mo><m:mn>1</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167834151983">
+<para id="fs-id1167835352372"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mo>−</m:mo><m:mfrac><m:mn>5</m:mn><m:mn>2</m:mn></m:mfrac><m:mo>,</m:mo><m:mn>5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167834397407">
+<problem id="fs-id1167835422785">
+<para id="fs-id1167834432058"><m:math><m:mrow><m:mfrac><m:mrow><m:mn>5</m:mn><m:mi>x</m:mi></m:mrow><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow></m:mfrac><m:mo>&lt;</m:mo><m:mn>1</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167826801738">
+<problem id="fs-id1167835309360">
+<para id="fs-id1167835358530"><m:math><m:mrow><m:mfrac><m:mrow><m:mn>6</m:mn><m:mi>x</m:mi></m:mrow><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>6</m:mn></m:mrow></m:mfrac><m:mo>&gt;</m:mo><m:mn>2</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167835257334">
+<para id="fs-id1167834065308"><m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mtext>−</m:mtext><m:mi>∞</m:mi><m:mo>,</m:mo><m:mn>−3</m:mn><m:mo stretchy="false">)</m:mo><m:mo>∪</m:mo><m:mo stretchy="false">(</m:mo><m:mn>6</m:mn><m:mo>,</m:mo><m:mi>∞</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167830961889">
+<problem id="fs-id1167834141728">
+<para id="fs-id1167830961550"><m:math><m:mrow><m:mfrac><m:mrow><m:mn>3</m:mn><m:mi>x</m:mi></m:mrow><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>4</m:mn></m:mrow></m:mfrac><m:mo>&gt;</m:mo><m:mn>2</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167835269015">
+<problem id="fs-id1167834473828">
+<para id="fs-id1167831892858"><m:math><m:mrow><m:mfrac><m:mrow><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>6</m:mn></m:mrow></m:mfrac><m:mo>≤</m:mo><m:mn>1</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167835318143">
+<para id="fs-id1167834184599"><m:math><m:mrow><m:mo stretchy="false">[</m:mo><m:mn>−9</m:mn><m:mo>,</m:mo><m:mn>6</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167834429013">
+<problem id="fs-id1167826997429">
+<para id="fs-id1167831148828"><m:math><m:mrow><m:mfrac><m:mrow><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>4</m:mn></m:mrow></m:mfrac><m:mo>≤</m:mo><m:mn>1</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167827943096">
+<problem id="fs-id1167835609306">
+<para id="fs-id1167835167506"><m:math><m:mrow><m:mfrac><m:mrow><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>4</m:mn></m:mrow></m:mfrac><m:mo>≥</m:mo><m:mn>2</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167835468463">
+<para id="fs-id1167835309545"><m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mtext>−</m:mtext><m:mi>∞</m:mi><m:mo>,</m:mo><m:mn>−6</m:mn><m:mo stretchy="false">]</m:mo><m:mo>∪</m:mo><m:mo stretchy="false">(</m:mo><m:mn>4</m:mn><m:mo>,</m:mo><m:mi>∞</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167831895060">
+<problem id="fs-id1167834501963">
+<para id="fs-id1167834501965"><m:math><m:mrow><m:mfrac><m:mrow><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow></m:mfrac><m:mo>≥</m:mo><m:mn>2</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167835317202">
+<problem id="fs-id1167835317204">
+<para id="fs-id1167835317206"><m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>7</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>12</m:mn></m:mrow></m:mfrac><m:mo>&gt;</m:mo><m:mn>0</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167832043548">
+<para id="fs-id1167832043550"><m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mtext>−</m:mtext><m:mi>∞</m:mi><m:mo>,</m:mo><m:mn>−4</m:mn><m:mo stretchy="false">)</m:mo><m:mo>∪</m:mo><m:mo stretchy="false">(</m:mo><m:mn>−3</m:mn><m:mo>,</m:mo><m:mi>∞</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167834523673">
+<problem id="fs-id1167834523675">
+<para id="fs-id1167834523677"><m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>12</m:mn></m:mrow></m:mfrac><m:mo>&gt;</m:mo><m:mn>0</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167830696702">
+<problem id="fs-id1167830696704">
+<para id="fs-id1167830696707"><m:math><m:mrow><m:mfrac><m:mn>3</m:mn><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>5</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn></m:mrow></m:mfrac><m:mo>&lt;</m:mo><m:mn>0</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167835367356">
+<para id="fs-id1167835367358"><m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>4</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167832042101">
+<problem id="fs-id1167832042103">
+<para id="fs-id1167832042105"><m:math><m:mrow><m:mfrac><m:mn>4</m:mn><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>7</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>12</m:mn></m:mrow></m:mfrac><m:mo>&lt;</m:mo><m:mn>0</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167832042614">
+<problem id="fs-id1167832042616">
+<para id="fs-id1167831833074"><m:math><m:mrow><m:mfrac><m:mn>2</m:mn><m:mrow><m:mn>2</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>15</m:mn></m:mrow></m:mfrac><m:mo>≥</m:mo><m:mn>0</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167831833104">
+<para id="fs-id1167831833106"><m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mtext>−</m:mtext><m:mi>∞</m:mi><m:mo>,</m:mo><m:mn>−3</m:mn><m:mo stretchy="false">)</m:mo><m:mo>∪</m:mo><m:mo stretchy="false">(</m:mo><m:mfrac><m:mn>5</m:mn><m:mn>2</m:mn></m:mfrac><m:mo>,</m:mo><m:mi>∞</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167835509903">
+<problem id="fs-id1167835509905">
+<para id="fs-id1167835509907"><m:math><m:mrow><m:mfrac><m:mn>6</m:mn><m:mrow><m:mn>3</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>5</m:mn></m:mrow></m:mfrac><m:mo>≥</m:mo><m:mn>0</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167830960568">
+<problem id="fs-id1167830960570">
+<para id="fs-id1167830960572"><m:math><m:mrow><m:mfrac><m:mrow><m:mn>−2</m:mn></m:mrow><m:mrow><m:mn>6</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>13</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>6</m:mn></m:mrow></m:mfrac><m:mo>≤</m:mo><m:mn>0</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167830697144">
+<para id="fs-id1167830697146"><m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mtext>−</m:mtext><m:mi>∞</m:mi><m:mo>,</m:mo><m:mfrac><m:mn>2</m:mn><m:mn>3</m:mn></m:mfrac><m:mo stretchy="false">)</m:mo><m:mo>∪</m:mo><m:mo stretchy="false">(</m:mo><m:mfrac><m:mn>3</m:mn><m:mn>2</m:mn></m:mfrac><m:mo>,</m:mo><m:mi>∞</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167834420250">
+<problem id="fs-id1167834420253">
+<para id="fs-id1167834420255"><m:math><m:mrow><m:mfrac><m:mrow><m:mn>−1</m:mn></m:mrow><m:mrow><m:mn>10</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>11</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>6</m:mn></m:mrow></m:mfrac><m:mo>≤</m:mo><m:mn>0</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167835534032">
+<problem id="fs-id1167835534034">
+<para id="fs-id1167835534037"><m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mrow><m:mn>12</m:mn></m:mrow><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>&gt;</m:mo><m:mfrac><m:mn>5</m:mn><m:mi>x</m:mi></m:mfrac></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167831894260">
+<para id="fs-id1167831894262"><m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mtext>−</m:mtext><m:mi>∞</m:mi><m:mo>,</m:mo><m:mn>0</m:mn><m:mo stretchy="false">)</m:mo><m:mo>∪</m:mo><m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>4</m:mn><m:mo stretchy="false">)</m:mo><m:mo>∪</m:mo><m:mo stretchy="false">(</m:mo><m:mn>6</m:mn><m:mo>,</m:mo><m:mi>∞</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167834527613">
+<problem id="fs-id1167834527615">
+<para id="fs-id1167834527617"><m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>&gt;</m:mo><m:mfrac><m:mn>4</m:mn><m:mrow><m:mn>3</m:mn><m:mi>x</m:mi></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167830963228">
+<problem id="fs-id1167834426228">
+<para id="fs-id1167834426231"><m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mo>−</m:mo><m:mfrac><m:mn>4</m:mn><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>≤</m:mo><m:mfrac><m:mn>1</m:mn><m:mi>x</m:mi></m:mfrac></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167834426260">
+<para id="fs-id1167834426263"><m:math><m:mrow><m:mo stretchy="false">[</m:mo><m:mn>−2</m:mn><m:mo>,</m:mo><m:mn>0</m:mn><m:mo stretchy="false">)</m:mo><m:mo>∪</m:mo><m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>4</m:mn><m:mo stretchy="false">]</m:mo></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167835533528">
+<problem id="fs-id1167835533530">
+<para id="fs-id1167835533532"><m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mo>−</m:mo><m:mfrac><m:mn>3</m:mn><m:mrow><m:mn>2</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>≥</m:mo><m:mfrac><m:mn>1</m:mn><m:mi>x</m:mi></m:mfrac></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167831892961">
+<problem id="fs-id1167831892963">
+<para id="fs-id1167831892965"><m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>16</m:mn></m:mrow></m:mfrac><m:mo>&lt;</m:mo><m:mn>0</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167834432280">
+<para id="fs-id1167834432282"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−4</m:mn><m:mo>,</m:mo><m:mn>4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167834432302">
+<problem id="fs-id1167834432304">
+<para id="fs-id1167834432306"><m:math><m:mrow><m:mfrac><m:mn>4</m:mn><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>25</m:mn></m:mrow></m:mfrac><m:mo>&gt;</m:mo><m:mn>0</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167831895237">
+<problem id="fs-id1167831895240">
+<para id="fs-id1167831895242"><m:math><m:mrow><m:mfrac><m:mn>4</m:mn><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow></m:mfrac><m:mo>≥</m:mo><m:mfrac><m:mn>3</m:mn><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167835332716">
+<para id="fs-id1167835332718"><m:math><m:mrow><m:mo stretchy="false">[</m:mo><m:mn>−10</m:mn><m:mo>,</m:mo><m:mn>−1</m:mn><m:mo stretchy="false">)</m:mo><m:mo>∪</m:mo><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mi>∞</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167835332752">
+<problem id="fs-id1167835332754">
+<para id="fs-id1167830885209"><m:math><m:mrow><m:mfrac><m:mn>5</m:mn><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:mfrac><m:mo>≤</m:mo><m:mfrac><m:mn>4</m:mn><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+</exercise>
+<para id="fs-id1167831191351"><emphasis effect="bold">Solve an Inequality with Rational Functions</emphasis></para>
+<para id="fs-id1167831191356">In the following exercises, solve each rational function inequality and write the solution in interval notation.</para>
+<exercise id="fs-id1167831191361">
+<problem id="fs-id1167831191363">
+<para id="fs-id1167831191365">Given the function <m:math><m:mrow><m:mi>R</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>5</m:mn></m:mrow><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow></m:mfrac><m:mo>,</m:mo></m:mrow></m:math> find the values of <m:math><m:mi>x</m:mi></m:math> that make the function less than or equal to 0.</para>
+</problem>
+<solution id="fs-id1167830991631">
+<para id="fs-id1167830991633"><m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>5</m:mn><m:mo stretchy="false">]</m:mo></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167834194935">
+<problem id="fs-id1167834194937">
+<para id="fs-id1167834194939">Given the function <m:math><m:mrow><m:mi>R</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow></m:mfrac><m:mo>,</m:mo></m:mrow></m:math> find the values of <m:math><m:mi>x</m:mi></m:math> that make the function greater than or equal to 0.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167832119260">
+<problem id="fs-id1167832119262">
+<para id="fs-id1167832119264">Given the function <m:math><m:mrow><m:mi>R</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>6</m:mn></m:mrow><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow></m:mfrac></m:mrow></m:math>, find the values of x that make the function less than or equal to 0.</para>
+</problem>
+<solution id="fs-id1167831116246">
+<para id="fs-id1167831116248"><m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>−2</m:mn><m:mo>,</m:mo><m:mn>6</m:mn><m:mo stretchy="false">]</m:mo></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167835299648">
+<problem id="fs-id1167835299650">
+<para id="fs-id1167835299653">Given the function <m:math><m:mrow><m:mi>R</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>4</m:mn></m:mrow></m:mfrac><m:mo>,</m:mo></m:mrow></m:math> find the values of x that make the function less than or equal to 0.</para>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1167834463928" class="writing">
+<title>Writing Exercises</title>
+<exercise id="fs-id1167834463935">
+<problem id="fs-id1167834463937">
+<para id="fs-id1167834463939">Write the steps you would use to explain solving rational inequalities to your little brother.</para>
+</problem>
+<solution id="fs-id1167835529307">
+<para id="fs-id1167835529309">Answers will vary.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167835529315">
+<problem id="fs-id1167835529317">
+<para id="fs-id1167835529319">Create a rational inequality whose solution is <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mtext>−</m:mtext><m:mi>∞</m:mi><m:mo>,</m:mo><m:mn>−2</m:mn></m:mrow><m:mo>]</m:mo></m:mrow><m:mo>∪</m:mo><m:mrow><m:mo>[</m:mo><m:mrow><m:mn>4</m:mn><m:mo>,</m:mo><m:mi>∞</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1167831893326">
+<title>Self Check</title>
+<para id="fs-id1167831893331"><span class="token">ⓐ</span> After completing the exercises, use this checklist to evaluate your mastery of the objectives of this section.</para>
+<media id="fs-id1167831893343" alt="This table has four columns and three rows. The first row is a header and it labels each column, “I can…”, “Confidently,” “With some help,” and “No-I don’t get it!” In row 2, the I can was solve rational inequalities. In row 3, the I can was solve an inequality with rational functions.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_07_06_201_img_new.jpg"/>
+</media>
+<para id="fs-id1167832151391"><span class="token">ⓑ</span> After reviewing this checklist, what will you do to become confident for all objectives?</para>
+</section>
+</section>
+<section id="fs-id1167832151400" class="review-exercises"><title>Chapter Review Exercises</title><section id="fs-id1167832151403"><title><link document="m81392">Simplify, Multiply, and Divide Rational Expressions</link></title><para id="fs-id1167832151411"><emphasis effect="bold">Determine the Values for Which a Rational Expression is Undefined</emphasis></para>
+<para id="fs-id1167832151417">In the following exercises, determine the values for which the rational expression is undefined.</para>
+<exercise id="fs-id1167832151420">
+<problem id="fs-id1167832151422">
+<para id="fs-id1167832151424"><m:math><m:mrow><m:mfrac><m:mrow><m:mn>5</m:mn><m:mi>a</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow><m:mrow><m:mn>3</m:mn><m:mi>a</m:mi><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167834489514">
+<para id="fs-id1167834489516"><m:math><m:mrow><m:mi>a</m:mi><m:mo>≠</m:mo><m:mfrac><m:mn>2</m:mn><m:mn>3</m:mn></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167834489532">
+<problem id="fs-id1167834489535">
+<para id="fs-id1167834489537"><m:math><m:mrow><m:mfrac><m:mrow><m:mi>b</m:mi><m:mo>−</m:mo><m:mn>7</m:mn></m:mrow><m:mrow><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>25</m:mn></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167826780637">
+<problem id="fs-id1167826780639">
+<para id="fs-id1167826780641"><m:math><m:mrow><m:mfrac><m:mrow><m:mn>5</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>8</m:mn><m:mi>y</m:mi></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167826780667">
+<para id="fs-id1167826780669"><m:math><m:mrow><m:mi>y</m:mi><m:mo>≠</m:mo><m:mn>0</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167834473956">
+<problem id="fs-id1167834473958">
+<para id="fs-id1167834473960"><m:math><m:mrow><m:mfrac><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>30</m:mn></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+</exercise>
+<para id="fs-id1167835361743"><emphasis effect="bold">Simplify Rational Expressions</emphasis></para>
+<para id="fs-id1167835361748">In the following exercises, simplify.</para>
+<exercise id="fs-id1167835361752">
+<problem id="fs-id1167835361754">
+<para id="fs-id1167835361756"><m:math><m:mrow><m:mfrac><m:mrow><m:mn>18</m:mn></m:mrow><m:mrow><m:mn>24</m:mn></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167830705625">
+<para id="fs-id1167830705627"><m:math><m:mrow><m:mfrac><m:mn>3</m:mn><m:mn>4</m:mn></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167830705638">
+<problem id="fs-id1167830705641">
+<para id="fs-id1167830705643"><m:math><m:mrow><m:mfrac><m:mrow><m:mn>9</m:mn><m:msup><m:mi>m</m:mi><m:mn>4</m:mn></m:msup></m:mrow><m:mrow><m:mn>18</m:mn><m:mi>m</m:mi><m:msup><m:mi>n</m:mi><m:mn>3</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167831923697">
+<problem id="fs-id1167831923700">
+<para id="fs-id1167831923702"><m:math><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>7</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>12</m:mn></m:mrow><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>8</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>16</m:mn></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167834219693">
+<para id="fs-id1167834219695"><m:math><m:mrow><m:mfrac><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn></m:mrow></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167835390012">
+<problem id="fs-id1167835390014">
+<para id="fs-id1167835390016"><m:math><m:mrow><m:mfrac><m:mrow><m:mn>7</m:mn><m:mi>v</m:mi><m:mo>−</m:mo><m:mn>35</m:mn></m:mrow><m:mrow><m:mn>25</m:mn><m:mo>−</m:mo><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+</exercise>
+<para id="fs-id1167834473291"><emphasis effect="bold">Multiply Rational Expressions</emphasis></para>
+<para id="fs-id1167834473296">In the following exercises, multiply.</para>
+<exercise id="fs-id1167834473299">
+<problem id="fs-id1167834473301">
+<para id="fs-id1167834473304"><m:math><m:mrow><m:mfrac><m:mn>5</m:mn><m:mn>8</m:mn></m:mfrac><m:mo>·</m:mo><m:mfrac><m:mn>4</m:mn><m:mrow><m:mn>15</m:mn></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167835281051">
+<para id="fs-id1167835281053"><m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>6</m:mn></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167835281065">
+<problem id="fs-id1167835281067">
+<para id="fs-id1167835281069"><m:math><m:mrow><m:mfrac><m:mrow><m:mn>3</m:mn><m:mi>x</m:mi><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>8</m:mn><m:msup><m:mi>y</m:mi><m:mn>3</m:mn></m:msup></m:mrow></m:mfrac><m:mo>·</m:mo><m:mfrac><m:mrow><m:mn>16</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>24</m:mn><m:mi>x</m:mi></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167831881468">
+<problem id="fs-id1167831086784">
+<para id="fs-id1167831086786"><m:math><m:mrow><m:mfrac><m:mrow><m:mn>72</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>12</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>8</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>32</m:mn></m:mrow></m:mfrac><m:mo>·</m:mo><m:mfrac><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>10</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>24</m:mn></m:mrow><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>36</m:mn></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167835415767">
+<para id="fs-id1167835415769"><m:math><m:mrow><m:mfrac><m:mrow><m:mn>−3</m:mn><m:mi>x</m:mi></m:mrow><m:mn>2</m:mn></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167835415784">
+<problem id="fs-id1167835415786">
+<para id="fs-id1167835415788"><m:math><m:mrow><m:mfrac><m:mrow><m:mn>2</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow><m:mrow><m:mn>4</m:mn><m:mo>−</m:mo><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>·</m:mo><m:mfrac><m:mrow><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>4</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>4</m:mn></m:mrow><m:mrow><m:mn>2</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>11</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>12</m:mn></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+</exercise>
+<para id="fs-id1167835389850"><emphasis effect="bold">Divide Rational Expressions</emphasis></para>
+<para id="fs-id1167835389856">In the following exercises, divide.</para>
+<exercise id="fs-id1167835389859">
+<problem id="fs-id1167835389861">
+<para id="fs-id1167835389863"><m:math><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>12</m:mn></m:mrow><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>8</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>12</m:mn></m:mrow></m:mfrac><m:mo>÷</m:mo><m:mfrac><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>36</m:mn></m:mrow><m:mrow><m:mn>3</m:mn><m:mi>x</m:mi></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167831995222">
+<para id="fs-id1167831995224"><m:math><m:mrow><m:mfrac><m:mrow><m:mn>3</m:mn><m:mi>x</m:mi></m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>6</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>6</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167835530095">
+<problem id="fs-id1167835530097">
+<para id="fs-id1167835530099"><m:math><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>16</m:mn></m:mrow><m:mn>4</m:mn></m:mfrac><m:mo>÷</m:mo><m:mfrac><m:mrow><m:msup><m:mi>y</m:mi><m:mn>3</m:mn></m:msup><m:mo>−</m:mo><m:mn>64</m:mn></m:mrow><m:mrow><m:mn>2</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>8</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>32</m:mn></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167834517331">
+<problem id="fs-id1167834517333">
+<para id="fs-id1167834517336"><m:math><m:mrow><m:mfrac><m:mrow><m:mn>11</m:mn><m:mo>+</m:mo><m:mi>w</m:mi></m:mrow><m:mrow><m:mi>w</m:mi><m:mo>−</m:mo><m:mn>9</m:mn></m:mrow></m:mfrac><m:mo>÷</m:mo><m:mfrac><m:mrow><m:mn>121</m:mn><m:mo>−</m:mo><m:msup><m:mi>w</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>9</m:mn><m:mo>−</m:mo><m:mi>w</m:mi></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167834282574">
+<para id="fs-id1167834282576"><m:math><m:mrow><m:mo>−</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>11</m:mn><m:mo>−</m:mo><m:mi>w</m:mi></m:mrow></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167832026070">
+<problem id="fs-id1167832026072">
+<para id="fs-id1167832026074"><m:math><m:mrow><m:mfrac><m:mrow><m:mn>3</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>12</m:mn><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>63</m:mn></m:mrow><m:mrow><m:mn>4</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow></m:mfrac><m:mo>÷</m:mo><m:mo stretchy="false">(</m:mo><m:mn>6</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>42</m:mn><m:mi>y</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167834554815">
+<problem id="fs-id1167834554817">
+<para id="fs-id1167834554819"><m:math><m:mrow><m:mfrac><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>64</m:mn></m:mrow><m:mrow><m:mn>3</m:mn><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>26</m:mn><m:mi>c</m:mi><m:mo>+</m:mo><m:mn>16</m:mn></m:mrow></m:mfrac></m:mrow><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>4</m:mn><m:mi>c</m:mi><m:mo>−</m:mo><m:mn>32</m:mn></m:mrow><m:mrow><m:mn>15</m:mn><m:mi>c</m:mi><m:mo>+</m:mo><m:mn>10</m:mn></m:mrow></m:mfrac></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167828235423">
+<para id="fs-id1167830700855"><m:math><m:mrow><m:mfrac><m:mn>5</m:mn><m:mrow><m:mi>c</m:mi><m:mo>+</m:mo><m:mn>4</m:mn></m:mrow></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167830700872">
+<problem id="fs-id1167830700875">
+<para id="fs-id1167830700877"><m:math><m:mrow><m:mfrac><m:mrow><m:mn>8</m:mn><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>16</m:mn><m:mi>a</m:mi></m:mrow><m:mrow><m:mi>a</m:mi><m:mo>−</m:mo><m:mn>4</m:mn></m:mrow></m:mfrac><m:mo>·</m:mo><m:mfrac><m:mrow><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>a</m:mi><m:mo>−</m:mo><m:mn>24</m:mn></m:mrow><m:mrow><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>7</m:mn><m:mi>a</m:mi><m:mo>+</m:mo><m:mn>10</m:mn></m:mrow></m:mfrac><m:mo>÷</m:mo><m:mfrac><m:mrow><m:mn>2</m:mn><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>6</m:mn><m:mi>a</m:mi></m:mrow><m:mrow><m:mi>a</m:mi><m:mo>+</m:mo><m:mn>5</m:mn></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+</exercise>
+<para id="fs-id1167834282615"><emphasis effect="bold">Multiply and Divide Rational Functions</emphasis></para>
+<exercise id="fs-id1167834282621" class="material-set-2">
+<problem id="fs-id1167834282623">
+<para id="fs-id1167834282625">Find <m:math><m:mrow><m:mi>R</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>·</m:mo><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:mrow></m:math> where <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>9</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>9</m:mn><m:mi>x</m:mi></m:mrow><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>4</m:mn></m:mrow></m:mfrac></m:mrow></m:math> and <m:math><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mfrac><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>16</m:mn></m:mrow><m:mrow><m:mn>3</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>12</m:mn><m:mi>x</m:mi></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167834141892">
+<para id="fs-id1167834141894"><m:math><m:mrow><m:mi>R</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>3</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167831911673" class="material-set-2">
+<problem id="fs-id1167831911675">
+<para id="fs-id1167831911677">Find <m:math><m:mrow><m:mi>R</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:mrow></m:mfrac></m:mrow></m:math> where <m:math><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>27</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>21</m:mn></m:mrow></m:mfrac></m:mrow></m:math> and<newline/><m:math><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>9</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>54</m:mn><m:mi>x</m:mi></m:mrow><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>42</m:mn></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+</exercise>
+</section><section id="fs-id1167835609846"><title><link document="m81439">Add and Subtract Rational Expressions</link></title><para id="fs-id1167835609854"><emphasis effect="bold">Add and Subtract Rational Expressions with a Common Denominator</emphasis></para>
+<para id="fs-id1167835609860">In the following exercises, perform the indicated operations.</para>
+<exercise id="fs-id1167835609863">
+<problem id="fs-id1167835609865">
+<para id="fs-id1167835609867"><m:math><m:mrow><m:mfrac><m:mn>7</m:mn><m:mrow><m:mn>15</m:mn></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>8</m:mn><m:mrow><m:mn>15</m:mn></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167834533452">
+<para id="fs-id1167834533454"><m:math><m:mn>1</m:mn></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167834533462">
+<problem id="fs-id1167834533464">
+<para id="fs-id1167834533466"><m:math><m:mrow><m:mfrac><m:mrow><m:mn>4</m:mn><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>a</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:mfrac><m:mo>−</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>2</m:mn><m:mi>a</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167831884309">
+<problem id="fs-id1167831884311">
+<para id="fs-id1167831892787"><m:math><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>10</m:mn><m:mi>y</m:mi></m:mrow><m:mrow><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>5</m:mn></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mrow><m:mn>25</m:mn></m:mrow><m:mrow><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>5</m:mn></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167831892828">
+<para id="fs-id1167831892830"><m:math><m:mrow><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>5</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167835509750">
+<problem id="fs-id1167835509752">
+<para id="fs-id1167835509754"><m:math><m:mrow><m:mfrac><m:mrow><m:mn>7</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>9</m:mn></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mrow><m:mn>21</m:mn><m:mi>x</m:mi></m:mrow><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>9</m:mn></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167831919688">
+<problem id="fs-id1167831919690">
+<para id="fs-id1167831919692"><m:math><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>7</m:mn></m:mrow></m:mfrac><m:mo>−</m:mo><m:mfrac><m:mrow><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>28</m:mn></m:mrow><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>7</m:mn></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167835359033">
+<para id="fs-id1167835359036"><m:math><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167831883771">
+<problem id="fs-id1167831883773">
+<para id="fs-id1167831883775"><m:math><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>11</m:mn></m:mrow></m:mfrac><m:mo>−</m:mo><m:mfrac><m:mrow><m:mn>121</m:mn></m:mrow><m:mrow><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>11</m:mn></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167834111847">
+<problem id="fs-id1167834111849">
+<para id="fs-id1167834111851"><m:math><m:mrow><m:mfrac><m:mrow><m:mn>4</m:mn><m:msup><m:mi>q</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mi>q</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow><m:mrow><m:msup><m:mi>q</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>6</m:mn><m:mi>q</m:mi><m:mo>+</m:mo><m:mn>5</m:mn></m:mrow></m:mfrac><m:mo>−</m:mo><m:mfrac><m:mrow><m:mn>3</m:mn><m:msup><m:mi>q</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mi>q</m:mi><m:mo>−</m:mo><m:mn>6</m:mn></m:mrow><m:mrow><m:msup><m:mi>q</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>6</m:mn><m:mi>q</m:mi><m:mo>+</m:mo><m:mn>5</m:mn></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167832074864">
+<para id="fs-id1167832074866"><m:math><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>q</m:mi><m:mn>2</m:mn></m:msup><m:mo>-</m:mo><m:mn>2</m:mn><m:mi>q</m:mi><m:mo>-</m:mo><m:mn>3</m:mn></m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>q</m:mi><m:mo>+</m:mo><m:mn>5</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mi>q</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167832074888">
+<problem id="fs-id1167832074890">
+<para id="fs-id1167832074892"><m:math><m:mrow><m:mfrac><m:mrow><m:mn>5</m:mn><m:msup><m:mi>t</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>4</m:mn><m:mi>t</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow><m:mrow><m:msup><m:mi>t</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>25</m:mn></m:mrow></m:mfrac><m:mo>−</m:mo><m:mfrac><m:mrow><m:mn>4</m:mn><m:msup><m:mi>t</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>8</m:mn><m:mi>t</m:mi><m:mo>−</m:mo><m:mn>32</m:mn></m:mrow><m:mrow><m:msup><m:mi>t</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>25</m:mn></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+</exercise>
+<para id="fs-id1167831862571"><emphasis effect="bold">Add and Subtract Rational Expressions Whose Denominators Are Opposites</emphasis></para>
+<para id="fs-id1167831862576">In the following exercises, add and subtract.</para>
+<exercise id="fs-id1167834079476">
+<problem id="fs-id1167834079478">
+<para id="fs-id1167834079480"><m:math><m:mrow><m:mfrac><m:mrow><m:mn>18</m:mn><m:mi>w</m:mi></m:mrow><m:mrow><m:mn>6</m:mn><m:mi>w</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mrow><m:mn>3</m:mn><m:mi>w</m:mi><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:mn>6</m:mn><m:mi>w</m:mi></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167834133902">
+<para id="fs-id1167834133904"><m:math><m:mrow><m:mfrac><m:mrow><m:mn>15</m:mn><m:mi>w</m:mi><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow><m:mrow><m:mn>6</m:mn><m:mi>w</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167834133931">
+<problem id="fs-id1167834133933">
+<para id="fs-id1167834133935"><m:math><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>a</m:mi></m:mrow><m:mrow><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>4</m:mn></m:mrow></m:mfrac><m:mo>−</m:mo><m:mfrac><m:mrow><m:mn>3</m:mn><m:mi>a</m:mi><m:mo>+</m:mo><m:mn>8</m:mn></m:mrow><m:mrow><m:mn>4</m:mn><m:mo>−</m:mo><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167835414934">
+<problem id="fs-id1167835414936">
+<para id="fs-id1167835414938"><m:math><m:mrow><m:mfrac><m:mrow><m:mn>2</m:mn><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>b</m:mi><m:mo>−</m:mo><m:mn>15</m:mn></m:mrow><m:mrow><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>49</m:mn></m:mrow></m:mfrac><m:mo>−</m:mo><m:mfrac><m:mrow><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>16</m:mn><m:mi>b</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow><m:mrow><m:mn>49</m:mn><m:mo>−</m:mo><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167826857038">
+<para id="fs-id1167826857040"><m:math><m:mrow><m:mfrac><m:mrow><m:mn>3</m:mn><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>19</m:mn><m:mi>b</m:mi><m:mo>−</m:mo><m:mn>16</m:mn></m:mrow><m:mrow><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>49</m:mn></m:mrow></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167826857064">
+<problem id="fs-id1167826857066">
+<para id="fs-id1167826857068"><m:math><m:mrow><m:mfrac><m:mrow><m:mn>8</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>10</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>7</m:mn></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>5</m:mn></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mrow><m:mn>2</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>7</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow><m:mrow><m:mn>5</m:mn><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>y</m:mi></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+</exercise>
+<para id="fs-id1167834454265"><emphasis effect="bold">Find the Least Common Denominator of Rational Expressions</emphasis></para>
+<para id="fs-id1167834454270">In the following exercises, find the LCD.</para>
+<exercise id="fs-id1167834454273">
+<problem id="fs-id1167834454276">
+<para id="fs-id1167834454278"><m:math><m:mrow><m:mfrac><m:mn>7</m:mn><m:mrow><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>3</m:mn><m:mi>a</m:mi><m:mo>−</m:mo><m:mn>10</m:mn></m:mrow></m:mfrac><m:mo>,</m:mo><m:mfrac><m:mrow><m:mn>3</m:mn><m:mi>a</m:mi></m:mrow><m:mrow><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mi>a</m:mi><m:mo>−</m:mo><m:mn>20</m:mn></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167831920685">
+<para id="fs-id1167831920687"><m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>a</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mi>a</m:mi><m:mo>−</m:mo><m:mn>5</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mi>a</m:mi><m:mo>+</m:mo><m:mn>4</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167835320099">
+<problem id="fs-id1167835320101">
+<para id="fs-id1167835320103"><m:math><m:mrow><m:mfrac><m:mn>6</m:mn><m:mrow><m:msup><m:mi>n</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>4</m:mn></m:mrow></m:mfrac><m:mo>,</m:mo><m:mfrac><m:mrow><m:mn>2</m:mn><m:mi>n</m:mi></m:mrow><m:mrow><m:msup><m:mi>n</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>4</m:mn><m:mi>n</m:mi><m:mo>+</m:mo><m:mn>4</m:mn></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167831822005">
+<problem id="fs-id1167831822007">
+<para id="fs-id1167835622856"><m:math><m:mrow><m:mfrac><m:mn>5</m:mn><m:mrow><m:mn>3</m:mn><m:msup><m:mi>p</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>17</m:mn><m:mi>p</m:mi><m:mo>−</m:mo><m:mn>6</m:mn></m:mrow></m:mfrac><m:mo>,</m:mo><m:mfrac><m:mrow><m:mn>2</m:mn><m:mi>m</m:mi></m:mrow><m:mrow><m:mn>3</m:mn><m:msup><m:mi>p</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>23</m:mn><m:mi>p</m:mi><m:mo>−</m:mo><m:mn>8</m:mn></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167834376197">
+<para id="fs-id1167834376200"><m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mi>p</m:mi><m:mo>−</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mi>p</m:mi><m:mo>+</m:mo><m:mn>6</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mi>p</m:mi><m:mo>+</m:mo><m:mn>8</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para>
+</solution>
+</exercise>
+<para id="fs-id1167834327388"><emphasis effect="bold">Add and Subtract Rational Expressions with Unlike Denominators</emphasis></para>
+<para id="fs-id1167834327394">In the following exercises, perform the indicated operations.</para>
+<exercise id="fs-id1167834327397">
+<problem id="fs-id1167834327399">
+<para id="fs-id1167834327401"><m:math><m:mrow><m:mfrac><m:mn>7</m:mn><m:mrow><m:mn>5</m:mn><m:mi>a</m:mi></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>3</m:mn><m:mrow><m:mn>2</m:mn><m:mi>b</m:mi></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167835301259">
+<problem id="fs-id1167835301261">
+<para id="fs-id1167835301264"><m:math><m:mrow><m:mfrac><m:mn>2</m:mn><m:mrow><m:mi>c</m:mi><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>9</m:mn><m:mrow><m:mi>c</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167834299889">
+<para id="fs-id1167834299891"><m:math><m:mrow><m:mfrac><m:mrow><m:mn>11</m:mn><m:mi>c</m:mi><m:mo>−</m:mo><m:mn>12</m:mn></m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>c</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mi>c</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167826995141">
+<problem id="fs-id1167826995143">
+<para id="fs-id1167826995145"><m:math><m:mrow><m:mfrac><m:mrow><m:mn>3</m:mn><m:mi>x</m:mi></m:mrow><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>9</m:mn></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>5</m:mn><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>6</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>9</m:mn></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167835215385">
+<problem id="fs-id1167835215387">
+<para id="fs-id1167835215389"><m:math><m:mrow><m:mfrac><m:mrow><m:mn>2</m:mn><m:mi>x</m:mi></m:mrow><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>10</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>24</m:mn></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mrow><m:mn>3</m:mn><m:mi>x</m:mi></m:mrow><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>8</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>16</m:mn></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167835417204">
+<para id="fs-id1167835417206"><m:math><m:mrow><m:mfrac><m:mrow><m:mn>5</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>26</m:mn><m:mi>x</m:mi></m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>6</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167826808680">
+<problem id="fs-id1167826808682">
+<para id="fs-id1167826808684"><m:math><m:mrow><m:mfrac><m:mrow><m:mn>5</m:mn><m:mi>q</m:mi></m:mrow><m:mrow><m:msup><m:mi>p</m:mi><m:mn>2</m:mn></m:msup><m:mi>q</m:mi><m:mo>−</m:mo><m:msup><m:mi>p</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mrow><m:mn>4</m:mn><m:mi>q</m:mi></m:mrow><m:mrow><m:msup><m:mi>q</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167835410632">
+<problem id="fs-id1167835410635">
+<para id="fs-id1167830698010"><m:math><m:mrow><m:mfrac><m:mrow><m:mn>3</m:mn><m:mi>y</m:mi></m:mrow><m:mrow><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow></m:mfrac><m:mo>−</m:mo><m:mfrac><m:mrow><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow><m:mrow><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>8</m:mn></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167830698047">
+<para id="fs-id1167830698050"><m:math><m:mrow><m:mfrac><m:mrow><m:mn>2</m:mn><m:mo stretchy="false">(</m:mo><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>10</m:mn><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>8</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167835550842">
+<problem id="fs-id1167835550844">
+<para id="fs-id1167835550846"><m:math><m:mrow><m:mfrac><m:mrow><m:mn>−3</m:mn><m:mi>w</m:mi><m:mo>−</m:mo><m:mn>15</m:mn></m:mrow><m:mrow><m:msup><m:mi>w</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>w</m:mi><m:mo>−</m:mo><m:mn>20</m:mn></m:mrow></m:mfrac><m:mo>−</m:mo><m:mfrac><m:mrow><m:mi>w</m:mi><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow><m:mrow><m:mn>4</m:mn><m:mo>−</m:mo><m:mi>w</m:mi></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167834525788">
+<problem id="fs-id1167834525790">
+<para id="fs-id1167834525792"><m:math><m:mrow><m:mfrac><m:mrow><m:mn>7</m:mn><m:mi>m</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow><m:mrow><m:mi>m</m:mi><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow></m:mfrac><m:mo>−</m:mo><m:mn>5</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167835302571">
+<para id="fs-id1167835302573"><m:math><m:mrow><m:mfrac><m:mrow><m:mn>2</m:mn><m:mi>m</m:mi><m:mo>−</m:mo><m:mn>7</m:mn></m:mrow><m:mrow><m:mi>m</m:mi><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167835302598">
+<problem id="fs-id1167835302600">
+<para id="fs-id1167835320304"><m:math><m:mrow><m:mfrac><m:mi>n</m:mi><m:mrow><m:mi>n</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>2</m:mn><m:mrow><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow></m:mfrac><m:mo>−</m:mo><m:mfrac><m:mrow><m:mi>n</m:mi><m:mo>+</m:mo><m:mn>9</m:mn></m:mrow><m:mrow><m:msup><m:mi>n</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>9</m:mn></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167834535865">
+<problem id="fs-id1167834535867">
+<para id="fs-id1167834535869"><m:math><m:mrow><m:mfrac><m:mrow><m:mn>8</m:mn><m:mi>a</m:mi></m:mrow><m:mrow><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>64</m:mn></m:mrow></m:mfrac><m:mo>−</m:mo><m:mfrac><m:mn>4</m:mn><m:mrow><m:mi>a</m:mi><m:mo>+</m:mo><m:mn>8</m:mn></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167826863901">
+<para id="fs-id1167826863903"><m:math><m:mrow><m:mfrac><m:mn>4</m:mn><m:mrow><m:mi>a</m:mi><m:mo>−</m:mo><m:mn>8</m:mn></m:mrow></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167826863920">
+<problem id="fs-id1167826863923">
+<para id="fs-id1167826863925"><m:math><m:mrow><m:mfrac><m:mn>5</m:mn><m:mrow><m:mn>12</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mi>y</m:mi></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>7</m:mn><m:mrow><m:mn>20</m:mn><m:mi>x</m:mi><m:msup><m:mi>y</m:mi><m:mn>3</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+</exercise>
+<para id="fs-id1167832042426"><emphasis effect="bold">Add and Subtract Rational Functions</emphasis></para>
+<para id="fs-id1167832042431">In the following exercises, find <m:math><m:mrow><m:mi>R</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:mrow></m:math> where <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:mrow></m:math> and <m:math><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:mrow></m:math> are given.</para>
+<exercise id="fs-id1167834397163" class="material-set-2">
+<problem id="fs-id1167834397165">
+<para id="fs-id1167834397167"><m:math><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>2</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>12</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>11</m:mn></m:mrow><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>10</m:mn></m:mrow></m:mfrac><m:mo>,</m:mo></m:mrow></m:math><m:math><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow><m:mrow><m:mn>2</m:mn><m:mo>−</m:mo><m:mi>x</m:mi></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167826779457">
+<para id="fs-id1167826779459"><m:math><m:mrow><m:mi>R</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>8</m:mn></m:mrow><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>5</m:mn></m:mrow></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167830698105" class="material-set-2">
+<problem id="fs-id1167830698107">
+<para id="fs-id1167830698109"><m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>−4</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>31</m:mn></m:mrow><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>30</m:mn></m:mrow></m:mfrac><m:mo>,</m:mo></m:mrow></m:math><m:math><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mfrac><m:mn>5</m:mn><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>6</m:mn></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+</exercise>
+<para id="fs-id1167835533765">In the following exercises, find <m:math><m:mrow><m:mi>R</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>−</m:mo><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:mrow></m:math> where <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:mrow></m:math> and <m:math><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:mrow></m:math> are given.</para>
+<exercise id="fs-id1167827966859" class="material-set-2">
+<problem id="fs-id1167827966861">
+<para id="fs-id1167827966863"><m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>4</m:mn><m:mi>x</m:mi></m:mrow><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>121</m:mn></m:mrow></m:mfrac><m:mo>,</m:mo></m:mrow></m:math><m:math><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mfrac><m:mn>2</m:mn><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>11</m:mn></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167831031167">
+<para id="fs-id1167831031169"><m:math><m:mrow><m:mi>R</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mfrac><m:mn>2</m:mn><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>11</m:mn></m:mrow></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167831031198" class="material-set-2">
+<problem id="fs-id1167831031200">
+<para id="fs-id1167831031202"><m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mfrac><m:mn>7</m:mn><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>6</m:mn></m:mrow></m:mfrac><m:mo>,</m:mo></m:mrow></m:math><m:math><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>14</m:mn><m:mi>x</m:mi></m:mrow><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>36</m:mn></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+</exercise>
+</section><section id="fs-id1167834183710"><title><link document="m81440">Simplify Complex Rational Expressions</link></title><para id="fs-id1167834183718"><emphasis effect="bold">Simplify a Complex Rational Expression by Writing It as Division</emphasis></para>
+<para id="fs-id1167834525808">In the following exercises, simplify.</para>
+<exercise id="fs-id1167834525811">
+<problem id="fs-id1167834525813">
+<para id="fs-id1167834525815"><m:math><m:mrow><m:mfrac><m:mrow><m:mfrac><m:mrow><m:mn>7</m:mn><m:mi>x</m:mi></m:mrow><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow></m:mfrac></m:mrow><m:mrow><m:mfrac><m:mrow><m:mn>14</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>4</m:mn></m:mrow></m:mfrac></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167831825653">
+<para id="fs-id1167831825655"><m:math><m:mrow><m:mfrac><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>x</m:mi></m:mrow></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167831825675">
+<problem id="fs-id1167831825678">
+<para id="fs-id1167831825680"><m:math><m:mrow><m:mfrac><m:mrow><m:mfrac><m:mn>2</m:mn><m:mn>5</m:mn></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>5</m:mn><m:mn>6</m:mn></m:mfrac></m:mrow><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>4</m:mn></m:mfrac></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167831115347">
+<problem id="fs-id1167831115349">
+<para id="fs-id1167831115351"><m:math><m:mrow><m:mfrac><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mfrac><m:mrow><m:mn>3</m:mn><m:mi>x</m:mi></m:mrow><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>5</m:mn></m:mrow></m:mfrac></m:mrow><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>5</m:mn></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>5</m:mn></m:mrow></m:mfrac></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167826864294">
+<para id="fs-id1167826864296"><m:math><m:mrow><m:mfrac><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>5</m:mn><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167826932489">
+<problem id="fs-id1167826932492">
+<para id="fs-id1167826932494"><m:math><m:mrow><m:mfrac><m:mrow><m:mfrac><m:mn>2</m:mn><m:mi>m</m:mi></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mi>m</m:mi><m:mi>n</m:mi></m:mfrac></m:mrow><m:mrow><m:mfrac><m:mi>n</m:mi><m:mi>m</m:mi></m:mfrac><m:mo>−</m:mo><m:mfrac><m:mn>1</m:mn><m:mi>n</m:mi></m:mfrac></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+</exercise>
+<para id="fs-id1167835378244"><emphasis effect="bold">Simplify a Complex Rational Expression by Using the LCD</emphasis></para>
+<para id="fs-id1167835378250">In the following exercises, simplify.</para>
+<exercise id="fs-id1167835378253">
+<problem id="fs-id1167835368010">
+<para id="fs-id1167835368013"><m:math><m:mrow><m:mfrac><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>8</m:mn></m:mfrac></m:mrow><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>4</m:mn></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>12</m:mn></m:mrow></m:mfrac></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167835368048">
+<para id="fs-id1167835368050"><m:math><m:mrow><m:mfrac><m:mrow><m:mn>11</m:mn></m:mrow><m:mn>8</m:mn></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167831881490">
+<problem id="fs-id1167831881493">
+<para id="fs-id1167831881495"><m:math><m:mrow><m:mfrac><m:mrow><m:mfrac><m:mn>3</m:mn><m:mrow><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>−</m:mo><m:mfrac><m:mn>1</m:mn><m:mi>b</m:mi></m:mfrac></m:mrow><m:mrow><m:mfrac><m:mn>1</m:mn><m:mi>a</m:mi></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167835180539">
+<problem id="fs-id1167835180542">
+<para id="fs-id1167835180544"><m:math><m:mrow><m:mfrac><m:mrow><m:mfrac><m:mn>2</m:mn><m:mrow><m:msup><m:mi>z</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>49</m:mn></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mi>z</m:mi><m:mo>+</m:mo><m:mn>7</m:mn></m:mrow></m:mfrac></m:mrow><m:mrow><m:mfrac><m:mn>9</m:mn><m:mrow><m:mi>z</m:mi><m:mo>+</m:mo><m:mn>7</m:mn></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mrow><m:mn>12</m:mn></m:mrow><m:mrow><m:mi>z</m:mi><m:mo>−</m:mo><m:mn>7</m:mn></m:mrow></m:mfrac></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167831116404">
+<para id="fs-id1167831116407"><m:math><m:mrow><m:mfrac><m:mrow><m:mi>z</m:mi><m:mo>−</m:mo><m:mn>5</m:mn></m:mrow><m:mrow><m:mn>21</m:mn><m:mi>z</m:mi><m:mo>+</m:mo><m:mn>21</m:mn></m:mrow></m:mfrac></m:mrow></m:math></para></solution>
+</exercise>
+<exercise id="fs-id1167831116431">
+<problem id="fs-id1167831116433">
+<para id="fs-id1167831116435"><m:math><m:mrow><m:mfrac><m:mrow><m:mfrac><m:mn>3</m:mn><m:mrow><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>4</m:mn><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>32</m:mn></m:mrow></m:mfrac></m:mrow><m:mrow><m:mfrac><m:mn>2</m:mn><m:mrow><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>8</m:mn></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>4</m:mn></m:mrow></m:mfrac></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+</exercise>
+</section><section id="fs-id1167834130696">
+<title><link document="m81393">7.4 Solve Rational Equations</link></title>
+<para id="fs-id1167831887997"><emphasis effect="bold">Solve Rational Equations</emphasis></para>
+<para id="fs-id1167831888003">In the following exercises, solve.</para>
+<exercise id="fs-id1167831888006">
+<problem id="fs-id1167831888008">
+<para id="fs-id1167831888010"><m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>2</m:mn><m:mn>3</m:mn></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mi>x</m:mi></m:mfrac></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167831888036">
+<para id="fs-id1167831888038"><m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>6</m:mn><m:mn>7</m:mn></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167831103003">
+<problem id="fs-id1167831103005">
+<para id="fs-id1167831103007"><m:math><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:mfrac><m:mn>2</m:mn><m:mi>m</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mn>8</m:mn><m:mrow><m:msup><m:mi>m</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167831922363">
+<problem id="fs-id1167831922365">
+<para id="fs-id1167831922367"><m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:mi>b</m:mi><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mi>b</m:mi><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mn>3</m:mn><m:mrow><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>4</m:mn></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167835531491">
+<para id="fs-id1167835531493"><m:math><m:mrow><m:mi>b</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>3</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167835531509">
+<problem id="fs-id1167835531511">
+<para id="fs-id1167835531513"><m:math><m:mrow><m:mfrac><m:mn>3</m:mn><m:mrow><m:mi>q</m:mi><m:mo>+</m:mo><m:mn>8</m:mn></m:mrow></m:mfrac><m:mo>−</m:mo><m:mfrac><m:mn>2</m:mn><m:mrow><m:mi>q</m:mi><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167826940578">
+<problem id="fs-id1167826940580">
+<para id="fs-id1167826940582"><m:math><m:mrow><m:mfrac><m:mrow><m:mi>v</m:mi><m:mo>−</m:mo><m:mn>15</m:mn></m:mrow><m:mrow><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>9</m:mn><m:mi>v</m:mi><m:mo>+</m:mo><m:mn>18</m:mn></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mn>4</m:mn><m:mrow><m:mi>v</m:mi><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>2</m:mn><m:mrow><m:mi>v</m:mi><m:mo>−</m:mo><m:mn>6</m:mn></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167835621206">
+<para id="fs-id1167835621208">no solution </para>
+</solution>
+</exercise>
+<exercise id="fs-id1167835621214">
+<problem id="fs-id1167835621216">
+<para id="fs-id1167835621218"><m:math><m:mrow><m:mfrac><m:mi>z</m:mi><m:mrow><m:mn>12</m:mn></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mrow><m:mi>z</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow><m:mrow><m:mn>3</m:mn><m:mi>z</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mi>z</m:mi></m:mfrac></m:mrow></m:math></para>
+</problem>
+</exercise>
+<para id="fs-id1167835414568"><emphasis effect="bold">Solve Rational Equations that Involve Functions</emphasis></para>
+<exercise id="fs-id1167835414573" class="material-set-2">
+<problem id="fs-id1167834429412">
+<para id="fs-id1167834429414">For rational function, <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>6</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>8</m:mn></m:mrow></m:mfrac><m:mo>,</m:mo></m:mrow></m:math> <span class="token">ⓐ</span> find the domain of the function <span class="token">ⓑ</span> solve <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math> <span class="token">ⓒ</span> find the points on the graph at this function value.</para>
+</problem>
+<solution id="fs-id1167835621277">
+<para id="fs-id1167835621279"><span class="token">ⓐ</span> The domain is all real numbers except <m:math><m:mrow><m:mi>x</m:mi><m:mo>≠</m:mo><m:mn>2</m:mn></m:mrow></m:math> and <m:math><m:mrow><m:mi>x</m:mi><m:mo>≠</m:mo><m:mn>4</m:mn><m:mo>.</m:mo></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>6</m:mn></m:mrow></m:math><newline/><span class="token">ⓒ</span> <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>6</m:mn><m:mo>,</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167832153353" class="material-set-2">
+<problem id="fs-id1167832153356">
+<para id="fs-id1167832153358">For rational function, <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>2</m:mn><m:mo>−</m:mo><m:mi>x</m:mi></m:mrow><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>7</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>10</m:mn></m:mrow></m:mfrac><m:mo>,</m:mo></m:mrow></m:math> <span class="token">ⓐ</span> find the domain of the function <span class="token">ⓑ</span> solve <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>2</m:mn></m:mrow></m:math> <span class="token">ⓒ</span> find the points on the graph at this function value.</para>
+</problem>
+</exercise>
+<para id="fs-id1167834539223"><emphasis effect="bold">Solve a Rational Equation for a Specific Variable</emphasis></para>
+<para id="fs-id1167834539228">In the following exercises, solve for the indicated variable.</para>
+<exercise id="fs-id1167834539232">
+<problem id="fs-id1167834539234">
+<para id="fs-id1167834539236"><m:math><m:mrow><m:mfrac><m:mi>V</m:mi><m:mi>l</m:mi></m:mfrac><m:mo>=</m:mo><m:mi>h</m:mi><m:mi>w</m:mi></m:mrow></m:math> for <m:math><m:mrow><m:mi>l</m:mi><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167830702695">
+<para id="fs-id1167830702697"><m:math><m:mrow><m:mi>l</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>V</m:mi><m:mrow><m:mi>h</m:mi><m:mi>w</m:mi></m:mrow></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167830702716">
+<problem id="fs-id1167830702719">
+<para id="fs-id1167830702721"><m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mi>x</m:mi></m:mfrac><m:mo>−</m:mo><m:mfrac><m:mn>2</m:mn><m:mi>y</m:mi></m:mfrac><m:mo>=</m:mo><m:mn>5</m:mn></m:mrow></m:math> for <m:math><m:mrow><m:mi>y</m:mi><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167834191397">
+<problem id="fs-id1167834191399">
+<para id="fs-id1167834191401"><m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>5</m:mn></m:mrow><m:mrow><m:mi>z</m:mi><m:mo>−</m:mo><m:mn>7</m:mn></m:mrow></m:mfrac></m:mrow></m:math> for <m:math><m:mrow><m:mi>z</m:mi><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167834309683">
+<para id="fs-id1167834309685"><m:math><m:mrow><m:mi>z</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>5</m:mn><m:mo>+</m:mo><m:mn>7</m:mn><m:mi>x</m:mi></m:mrow><m:mi>x</m:mi></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167835353171">
+<problem id="fs-id1167835353173">
+<para id="fs-id1167835353175"><m:math><m:mrow><m:mi>P</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>k</m:mi><m:mi>V</m:mi></m:mfrac></m:mrow></m:math> for <m:math><m:mrow><m:mi>V</m:mi><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1167835353217"><title><link document="m81394">Solve Applications with Rational Equations</link></title><para id="fs-id1167834239074"><emphasis effect="bold">Solve Proportions</emphasis></para>
+<para id="fs-id1167834239080">In the following exercises, solve.</para>
+<exercise id="fs-id1167834239083">
+<problem id="fs-id1167834239085">
+<para id="fs-id1167834239087"><m:math><m:mrow><m:mfrac><m:mi>x</m:mi><m:mn>4</m:mn></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mn>3</m:mn><m:mn>5</m:mn></m:mfrac></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167834239105">
+<para id="fs-id1167834239107"><m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>12</m:mn></m:mrow><m:mn>5</m:mn></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167831909917">
+<problem id="fs-id1167831909920">
+<para id="fs-id1167831909922"><m:math><m:mrow><m:mfrac><m:mn>3</m:mn><m:mi>y</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mn>9</m:mn><m:mn>5</m:mn></m:mfrac></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167831909954">
+<problem id="fs-id1167831909956">
+<para id="fs-id1167831909958"><m:math><m:mrow><m:mfrac><m:mi>s</m:mi><m:mrow><m:mi>s</m:mi><m:mo>+</m:mo><m:mn>20</m:mn></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mn>3</m:mn><m:mn>7</m:mn></m:mfrac></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167830698152">
+<para id="fs-id1167830698154"><m:math><m:mrow><m:mi>s</m:mi><m:mo>=</m:mo><m:mn>15</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167830698162">
+<problem id="fs-id1167830698164">
+<para id="fs-id1167830698167"><m:math><m:mrow><m:mfrac><m:mrow><m:mi>t</m:mi><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow><m:mn>5</m:mn></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>t</m:mi><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow><m:mn>9</m:mn></m:mfrac></m:mrow></m:math></para>
+</problem>
+</exercise>
+<para id="fs-id1167835621389"><emphasis effect="bold">Solve Using Proportions</emphasis></para>
+<para id="fs-id1167835621395">In the following exercises, solve.</para>
+<exercise id="fs-id1167835621398" class="material-set-2">
+<problem id="fs-id1167835621400">
+<para id="fs-id1167835621402">Rachael had a 21-ounce strawberry shake that has 739 calories. How many calories are there in a 32-ounce shake?</para>
+</problem>
+<solution id="fs-id1167835621408">
+<para id="fs-id1167835621410"><m:math><m:mrow><m:mn>1126</m:mn></m:mrow></m:math> calories</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167835621419" class="material-set-2">
+<problem id="fs-id1167835621421">
+<para id="fs-id1167835621424">Leo went to Mexico over Christmas break and changed $525 dollars into Mexican pesos. At that time, the exchange rate had $1 US is equal to 16.25 Mexican pesos. How many Mexican pesos did he get for his trip?</para>
+</problem>
+</exercise>
+<para id="fs-id1167832215360"><emphasis effect="bold">Solve Similar Figure Applications</emphasis></para>
+<para id="fs-id1171790307463">In the following exercises, solve.</para>
+<exercise id="fs-id1167832215366" class="material-set-2">
+<problem id="fs-id1167832215368">
+<para id="fs-id1167832215371"><m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>A</m:mi><m:mi>B</m:mi><m:mi>C</m:mi></m:mrow></m:math> is similar to <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>X</m:mi><m:mi>Y</m:mi><m:mi>Z</m:mi><m:mo>.</m:mo></m:mrow></m:math> The lengths of two sides of each triangle are given in the figure. Find the lengths of the third sides.<newline/>
+<media id="fs-id1167834192033" alt="The first figure is triangle A B C with side A B 8 units long, side B C 7 units long, and side A C b units long. The second figure is triangle X Y Z with side X Y 2 and two-thirds units long, side Y Z x units long, and side X Z 3 units long.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_07_06_202_img_new.jpg"/>
+</media></para>
+</problem>
+<solution id="fs-id1167834192003">
+<para id="fs-id1167834192005"><m:math><m:mrow><m:mi>b</m:mi><m:mo>=</m:mo><m:mn>9</m:mn><m:mo>;</m:mo><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167834192043" class="material-set-2">
+<problem id="fs-id1167826803599">
+<para id="fs-id1167826803602">On a map of Europe, Paris, Rome, and Vienna form a triangle whose sides are shown in the figure below. If the actual distance from Rome to Vienna is 700 miles, find the distance from<newline/><span class="token">ⓐ</span> Paris to Rome<newline/><span class="token">ⓑ</span> Paris to Vienna<newline/>
+<media id="fs-id1167826803633" alt="The figure is a triangle formed by Paris, Vienna, and Rome. The distance between Paris and Vienna is 7.7 centimeters. The distance between Vienna and Rome is 7 centimeters. The distance between Rome and Paris is 8.9 centimeters.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_07_06_203_img_new.jpg"/>
+</media></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167826803645" class="material-set-2">
+<problem id="fs-id1167826803647">
+<para id="fs-id1167826803649">Francesca is 5.75 feet tall. Late one afternoon, her shadow was 8 feet long. At the same time, the shadow of a nearby tree was 32 feet long. Find the height of the tree.</para>
+</problem>
+<solution id="fs-id1167835317998">
+<para id="fs-id1167835318000">23 feet</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167835318006" class="material-set-2">
+<problem id="fs-id1167835318008">
+<para id="fs-id1167835318010">The height of a lighthouse in Pensacola, Florida is 150 feet. Standing next to the statue, 5.5-foot-tall Natasha cast a 1.1-foot shadow. How long would the shadow of the lighthouse be?</para>
+</problem>
+</exercise>
+<para id="fs-id1167835318023"><emphasis effect="bold">Solve Uniform Motion Applications</emphasis></para>
+<para id="fs-id1167835318029">In the following exercises, solve.</para>
+<exercise id="fs-id1167835318032">
+<problem id="fs-id1167835318034">
+<para id="fs-id1167835318036">When making the 5-hour drive home from visiting her parents, Lolo ran into bad weather. She was able to drive 176 miles while the weather was good, but then driving 10 mph slower, went 81 miles when it turned bad. How fast did she drive when the weather was bad?</para>
+</problem>
+<solution id="fs-id1167835318043">
+<para id="fs-id1167835318045"><m:math><m:mrow><m:mn>45</m:mn></m:mrow></m:math> mph</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167835621321">
+<problem id="fs-id1167835621323">
+<para id="fs-id1167835621325">Mark is riding on a plane that can fly 490 miles with a tailwind of 20 mph in the same time that it can fly 350 miles against a tailwind of 20 mph. What is the speed of the plane?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167835621343">
+<problem id="fs-id1167835621345">
+<para id="fs-id1167835621347">Josue can ride his bicycle 8 mph faster than Arjun can ride his bike. It takes Arjun 3 hours longer than Josue to ride 48 miles. How fast can Josue ride his bike?</para>
+</problem>
+<solution id="fs-id1167835621353">
+<para id="fs-id1167835621355"><m:math><m:mrow><m:mn>16</m:mn></m:mrow></m:math> mph</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167835621364">
+<problem id="fs-id1167835621366">
+<para id="fs-id1167835621369">Curtis was training for a triathlon. He ran 8 kilometers and biked 32 kilometers in a total of 3 hours. His running speed was 8 kilometers per hour less than his biking speed. What was his running speed?</para>
+</problem>
+</exercise>
+<para id="fs-id1167831949094"><emphasis effect="bold">Solve Work Applications</emphasis></para>
+<para id="fs-id1167831949099">In the following exercises, solve.</para>
+<exercise id="fs-id1167831949102">
+<problem id="fs-id1167831949104">
+<para id="fs-id1167831949106">Brandy can frame a room in 1 hour, while Jake takes 4 hours. How long could they frame a room working together?</para>
+</problem>
+<solution id="fs-id1167831949112">
+<para id="fs-id1167831949114"><m:math><m:mrow><m:mn>48</m:mn></m:mrow></m:math> minutes</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167831949127">
+<problem id="fs-id1167831949129">
+<para id="fs-id1167831949131">Prem takes 3 hours to mow the lawn while her cousin, Barb, takes 2 hours. How long will it take them working together?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167832116068">
+<problem id="fs-id1167832116071">
+<para id="fs-id1167832116073">Jeffrey can paint a house in 6 days, but if he gets a helper he can do it in 4 days. How long would it take the helper to paint the house alone?</para>
+</problem>
+<solution id="fs-id1167832116078">
+<para id="fs-id1167832116080"><m:math><m:mrow><m:mn>12</m:mn></m:mrow></m:math> days</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167832116090">
+<problem id="fs-id1167832116092">
+<para id="fs-id1167832116094">Marta and Deb work together writing a book that takes them 90 days. If Marta worked alone it would take her 120 days. How long would it take Deb to write the book alone?</para>
+</problem>
+</exercise>
+<para id="fs-id1167830703231"><emphasis effect="bold">Solve Direct Variation Problems</emphasis></para>
+<para id="fs-id1167830703236">In the following exercises, solve.</para>
+<exercise id="fs-id1167830703239">
+<problem id="fs-id1167830703241">
+<para id="fs-id1167830703243">If <m:math><m:mi>y</m:mi></m:math> varies directly as <m:math><m:mi>x</m:mi></m:math> when <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>9</m:mn></m:mrow></m:math> and <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>3</m:mn><m:mo>,</m:mo></m:mrow></m:math> find <m:math><m:mi>x</m:mi></m:math> when <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>21</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167830809300">
+<para id="fs-id1167830809303"><m:math><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>7</m:mn></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167830809310">
+<problem id="fs-id1167830809312">
+<para id="fs-id1167830809314">If <m:math><m:mi>y</m:mi></m:math> varies inversely as <m:math><m:mi>x</m:mi></m:math> when <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>20</m:mn></m:mrow></m:math> and <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mo>,</m:mo></m:mrow></m:math> find <m:math><m:mi>y</m:mi></m:math> when <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>4</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167830697548">
+<problem id="fs-id1167830697550">
+<para id="fs-id1167830697552">Vanessa is traveling to see her fiancé. The distance, <m:math><m:mrow><m:mi>d</m:mi><m:mo>,</m:mo></m:mrow></m:math> varies directly with the speed, <m:math><m:mrow><m:mi>v</m:mi><m:mo>,</m:mo></m:mrow></m:math> she drives. If she travels 258 miles driving 60 mph, how far would she travel going 70 mph?</para>
+</problem>
+<solution id="fs-id1167835414678">
+<para id="fs-id1167835414680"><m:math><m:mrow><m:mn>301</m:mn></m:mrow></m:math> mph</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167835414690">
+<problem id="fs-id1167835414692">
+<para id="fs-id1167835414694">If the cost of a pizza varies directly with its diameter, and if an 8” diameter pizza costs $12, how much would a 6” diameter pizza cost?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167835517931">
+<problem id="fs-id1167835517933">
+<para id="fs-id1167835517935">The distance to stop a car varies directly with the square of its speed. It takes 200 feet to stop a car going 50 mph. How many feet would it take to stop a car going 60 mph?</para>
+</problem>
+<solution id="fs-id1167835517941">
+<para id="fs-id1167835517943"><m:math><m:mrow><m:mn>288</m:mn></m:mrow></m:math> feet</para>
+</solution>
+</exercise>
+<para id="fs-id1167835517952"><emphasis effect="bold">Solve Inverse Variation Problems</emphasis></para>
+<para id="fs-id1167835517958">In the following exercises, solve.</para>
+<exercise id="fs-id1167835517961">
+<problem id="fs-id1167835517963">
+<para id="fs-id1167835517965">If <m:math><m:mi>m</m:mi></m:math> varies inversely with the square of <m:math><m:mrow><m:mi>n</m:mi><m:mo>,</m:mo></m:mrow></m:math> when <m:math><m:mrow><m:mi>m</m:mi><m:mo>=</m:mo><m:mn>4</m:mn></m:mrow></m:math> and <m:math><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>6</m:mn></m:mrow></m:math> find <m:math><m:mi>m</m:mi></m:math> when <m:math><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167831920975">
+<problem id="fs-id1167831920978">
+<para id="fs-id1167831920980">The number of tickets for a music fundraiser varies inversely with the price of the tickets. If Madelyn has just enough money to purchase 12 tickets for $6, how many tickets can Madelyn afford to buy if the price increased to $8?</para>
+</problem>
+<solution id="fs-id1167835377879">
+<para id="fs-id1167835377881"><m:math><m:mrow><m:mn>9</m:mn></m:mrow></m:math> tickets</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167835377890">
+<problem id="fs-id1167835377893">
+<para id="fs-id1167835377895">On a string instrument, the length of a string varies inversely with the frequency of its vibrations. If an 11-inch string on a violin has a frequency of 360 cycles per second, what frequency does a 12-inch string have?</para>
+</problem>
+</exercise>
+</section><section id="fs-id1167835377914"><title><link document="m81441">Solve Rational Inequalities</link></title><para id="fs-id1167834327303"><emphasis effect="bold">Solve Rational Inequalities</emphasis></para>
+<para id="fs-id1167834327308">In the following exercises, solve each rational inequality and write the solution in interval notation.</para>
+<exercise id="fs-id1167834327312">
+<problem id="fs-id1167834327314">
+<para id="fs-id1167834327316"><m:math><m:mrow><m:mfrac><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn></m:mrow></m:mfrac><m:mo>≤</m:mo><m:mn>0</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167834327342">
+<para id="fs-id1167834327344"><m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>−4</m:mn><m:mo>,</m:mo><m:mn>3</m:mn><m:mo stretchy="false">]</m:mo></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167832117897">
+<problem id="fs-id1167832117899">
+<para id="fs-id1167832117901"><m:math><m:mrow><m:mfrac><m:mrow><m:mn>5</m:mn><m:mi>x</m:mi></m:mrow><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow></m:mfrac><m:mo>&gt;</m:mo><m:mn>1</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167826987657">
+<problem id="fs-id1167826987659">
+<para id="fs-id1167826987662"><m:math><m:mrow><m:mfrac><m:mrow><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>4</m:mn></m:mrow></m:mfrac><m:mo>≤</m:mo><m:mn>2</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167826987689">
+<para id="fs-id1167835497978"><m:math><m:mrow><m:mo stretchy="false">[</m:mo><m:mn>−6</m:mn><m:mo>,</m:mo><m:mn>4</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167835497997">
+<problem id="fs-id1167835497999">
+<para id="fs-id1167835498002"><m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>12</m:mn></m:mrow></m:mfrac><m:mo>&lt;</m:mo><m:mn>0</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167834525225">
+<problem id="fs-id1167834525227">
+<para id="fs-id1167834525229"><m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mo>−</m:mo><m:mfrac><m:mn>4</m:mn><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>≥</m:mo><m:mfrac><m:mn>1</m:mn><m:mi>x</m:mi></m:mfrac></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167834525259">
+<para id="fs-id1167834525261"><m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mtext>−</m:mtext><m:mi>∞</m:mi><m:mo>,</m:mo><m:mn>−2</m:mn><m:mo stretchy="false">]</m:mo><m:mo>∪</m:mo><m:mo stretchy="false">[</m:mo><m:mn>4</m:mn><m:mo>,</m:mo><m:mi>∞</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167835414782">
+<problem id="fs-id1167835414784">
+<para id="fs-id1167835414786"><m:math><m:mrow><m:mfrac><m:mn>4</m:mn><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow></m:mfrac><m:mo>&lt;</m:mo><m:mfrac><m:mn>3</m:mn><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+</exercise>
+<para id="fs-id1167832068272"><emphasis effect="bold">Solve an Inequality with Rational Functions</emphasis></para>
+<para id="fs-id1167832068277">In the following exercises, solve each rational function inequality and write the solution in interval notation</para>
+<exercise id="fs-id1167828441724">
+<problem id="fs-id1167828441726">
+<para id="fs-id1167828441729">Given the function, <m:math><m:mrow><m:mi>R</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>5</m:mn></m:mrow><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow></m:mfrac><m:mo>,</m:mo></m:mrow></m:math> find the values of <m:math><m:mi>x</m:mi></m:math> that make the function greater than or equal to 0.</para>
+</problem>
+<solution id="fs-id1167828441772">
+<para id="fs-id1167828441774"><m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mtext>−</m:mtext><m:mi>∞</m:mi><m:mo>,</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo><m:mo>∪</m:mo><m:mo stretchy="false">[</m:mo><m:mn>5</m:mn><m:mo>,</m:mo><m:mi>∞</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167827957228">
+<problem id="fs-id1167827957230">
+<para id="fs-id1167827957232">Given the function, <m:math><m:mrow><m:mi>R</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow></m:mfrac><m:mo>,</m:mo></m:mrow></m:math> find the values of <m:math><m:mi>x</m:mi></m:math> that make the function less than or equal to 0.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167827957618">
+<problem id="fs-id1167827957620">
+<para id="fs-id1167827957622">The function<newline/><m:math><m:mrow><m:mi>C</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>150</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>100,000</m:mn></m:mrow></m:math> represents the cost to produce <m:math><m:mrow><m:mi>x</m:mi><m:mo>,</m:mo></m:mrow></m:math> number of items. Find <span class="token">ⓐ</span> the average cost function, <m:math><m:mrow><m:mi>c</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math> <span class="token">ⓑ</span> how many items should be produced so that the average cost is less than $160.</para>
+</problem>
+<solution id="fs-id1167834463827">
+<para id="fs-id1167834463829"><newline/><span class="token">ⓐ</span> <m:math><m:mrow><m:mi>c</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>150</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>100000</m:mn></m:mrow><m:mi>x</m:mi></m:mfrac></m:mrow></m:math><newline/><span class="token">ⓑ</span> More than 10,000 items must be produced to keep the average cost below <m:math><m:mrow><m:mtext>$</m:mtext><m:mn>160</m:mn></m:mrow></m:math> per item.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167835354781">
+<problem id="fs-id1167835354783">
+<para id="fs-id1167835354785">Tillman is starting his own business by selling tacos at the beach. Accounting for the cost of his food truck and ingredients for the tacos, the function <m:math><m:mrow><m:mi>C</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>6,000</m:mn></m:mrow></m:math> represents the cost for Tillman to produce <m:math><m:mrow><m:mi>x</m:mi><m:mo>,</m:mo></m:mrow></m:math> tacos. Find <span class="token">ⓐ</span> the average cost function, <m:math><m:mrow><m:mi>c</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math> for Tillman’s Tacos <span class="token">ⓑ</span> how many tacos should Tillman produce so that the average cost is less than $4.</para>
+</problem>
+</exercise>
+</section></section><section id="fs-id1167835575399" class="practice-test">
+<title>Practice Test</title>
+<para id="fs-id1167835575406">In the following exercises, simplify.</para>
+<exercise id="fs-id1167835575409">
+<problem id="fs-id1167835575411">
+<para id="fs-id1167835575413"><m:math><m:mrow><m:mfrac><m:mrow><m:mn>4</m:mn><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:mi>b</m:mi></m:mrow><m:mrow><m:mn>12</m:mn><m:mi>a</m:mi><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167835575441">
+<para id="fs-id1167835575443"><m:math><m:mrow><m:mfrac><m:mi>a</m:mi><m:mrow><m:mn>3</m:mn><m:mi>b</m:mi></m:mrow></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167826783185">
+<problem id="fs-id1167826783187">
+<para id="fs-id1167826783189"><m:math><m:mrow><m:mfrac><m:mrow><m:mn>6</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>18</m:mn></m:mrow><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>9</m:mn></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+</exercise>
+<para id="fs-id1167826783235">In the following exercises, perform the indicated operation and simplify.</para>
+<exercise id="fs-id1167831030461">
+<problem id="fs-id1167831030463">
+<para id="fs-id1167831030466"><m:math><m:mrow><m:mfrac><m:mrow><m:mn>4</m:mn><m:mi>x</m:mi></m:mrow><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow></m:mfrac><m:mo>·</m:mo><m:mfrac><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>5</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>6</m:mn></m:mrow><m:mrow><m:mn>12</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167831030514">
+<para id="fs-id1167831030516"><m:math><m:mrow><m:mfrac><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow><m:mrow><m:mn>3</m:mn><m:mi>x</m:mi></m:mrow></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167834402831">
+<problem id="fs-id1167834402834">
+<para id="fs-id1167834402836"><m:math><m:mrow><m:mfrac><m:mrow><m:mn>2</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:mfrac><m:mo>÷</m:mo><m:mfrac><m:mrow><m:msup><m:mi>y</m:mi><m:mn>3</m:mn></m:msup><m:mo>−</m:mo><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>y</m:mi></m:mrow><m:mrow><m:msup><m:mi>y</m:mi><m:mn>3</m:mn></m:msup><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167832215290">
+<problem id="fs-id1167832215292">
+<para id="fs-id1167832215294"><m:math><m:mrow><m:mfrac><m:mrow><m:mn>6</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>20</m:mn></m:mrow><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>81</m:mn></m:mrow></m:mfrac><m:mo>−</m:mo><m:mfrac><m:mrow><m:mn>5</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>11</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>7</m:mn></m:mrow><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>81</m:mn></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167830699035">
+<para id="fs-id1167830923399"><m:math><m:mrow><m:mfrac><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>9</m:mn></m:mrow></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167830923422">
+<problem id="fs-id1167830923424">
+<para id="fs-id1167830923426"><m:math><m:mrow><m:mfrac><m:mrow><m:mn>−3</m:mn><m:mi>a</m:mi></m:mrow><m:mrow><m:mn>3</m:mn><m:mi>a</m:mi><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mrow><m:mn>5</m:mn><m:mi>a</m:mi></m:mrow><m:mrow><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>a</m:mi><m:mo>−</m:mo><m:mn>4</m:mn></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167826849514">
+<problem id="fs-id1167826849517">
+<para id="fs-id1167826849519"><m:math><m:mrow><m:mfrac><m:mrow><m:mn>2</m:mn><m:msup><m:mi>n</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>8</m:mn><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow><m:mrow><m:msup><m:mi>n</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:mfrac><m:mo>−</m:mo><m:mfrac><m:mrow><m:msup><m:mi>n</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>7</m:mn><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:msup><m:mi>n</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167826828378">
+<para id="fs-id1167826828380"><m:math><m:mrow><m:mfrac><m:mrow><m:mn>3</m:mn><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow><m:mrow><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167834562469">
+<problem id="fs-id1167834562471">
+<para id="fs-id1167834562473"><m:math><m:mrow><m:mfrac><m:mrow><m:mn>10</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>16</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>7</m:mn></m:mrow><m:mrow><m:mn>8</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mrow><m:mn>2</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow><m:mrow><m:mn>3</m:mn><m:mo>−</m:mo><m:mn>8</m:mn><m:mi>x</m:mi></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167831822896">
+<problem id="fs-id1167831822899">
+<para id="fs-id1167831822901"><m:math><m:mrow><m:mfrac><m:mrow><m:mfrac><m:mn>1</m:mn><m:mi>m</m:mi></m:mfrac><m:mo>−</m:mo><m:mfrac><m:mn>1</m:mn><m:mi>n</m:mi></m:mfrac></m:mrow><m:mrow><m:mfrac><m:mn>1</m:mn><m:mi>n</m:mi></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mi>m</m:mi></m:mfrac></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167832059767">
+<para id="fs-id1167832059769"><m:math><m:mrow><m:mfrac><m:mrow><m:mi>n</m:mi><m:mo>−</m:mo><m:mi>m</m:mi></m:mrow><m:mrow><m:mi>m</m:mi><m:mo>+</m:mo><m:mi>n</m:mi></m:mrow></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+<para id="fs-id1167832059792">In the following exercises, solve each equation.</para>
+<exercise id="fs-id1167832059795">
+<problem id="fs-id1167832059797">
+<para id="fs-id1167832059799"><m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mi>x</m:mi></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>3</m:mn><m:mn>4</m:mn></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mn>5</m:mn><m:mn>8</m:mn></m:mfrac></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167830705543">
+<problem id="fs-id1167830705545">
+<para id="fs-id1167830705547"><m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:mi>z</m:mi><m:mo>−</m:mo><m:mn>5</m:mn></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mi>z</m:mi><m:mo>+</m:mo><m:mn>5</m:mn></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:msup><m:mi>z</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>25</m:mn></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167835496307">
+<para id="fs-id1167835496309"><m:math><m:mrow><m:mi>z</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167835496325">
+<problem id="fs-id1167835496327">
+<para id="fs-id1167835496329"><m:math><m:mrow><m:mfrac><m:mi>z</m:mi><m:mrow><m:mn>2</m:mn><m:mi>z</m:mi><m:mo>+</m:mo><m:mn>8</m:mn></m:mrow></m:mfrac><m:mo>−</m:mo><m:mfrac><m:mn>3</m:mn><m:mrow><m:mn>4</m:mn><m:mi>z</m:mi><m:mo>−</m:mo><m:mn>8</m:mn></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>3</m:mn><m:msup><m:mi>z</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>16</m:mn><m:mi>z</m:mi><m:mo>−</m:mo><m:mn>16</m:mn></m:mrow><m:mrow><m:mn>8</m:mn><m:msup><m:mi>z</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>16</m:mn><m:mi>z</m:mi><m:mo>−</m:mo><m:mn>64</m:mn></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+</exercise>
+<para id="fs-id1167826819292">In the following exercises, solve each rational inequality and write the solution in interval notation.</para>
+<exercise id="fs-id1167826819296">
+<problem id="fs-id1167826819298">
+<para id="fs-id1167826819300"><m:math><m:mrow><m:mfrac><m:mrow><m:mn>6</m:mn><m:mi>x</m:mi></m:mrow><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>6</m:mn></m:mrow></m:mfrac><m:mo>≤</m:mo><m:mn>2</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167826819323">
+<para id="fs-id1167826819325"><m:math><m:mrow><m:mo stretchy="false">[</m:mo><m:mn>−3</m:mn><m:mo>,</m:mo><m:mn>6</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167830700720">
+<problem id="fs-id1167830700722">
+<para id="fs-id1167830700725"><m:math><m:mrow><m:mfrac><m:mrow><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>6</m:mn></m:mrow></m:mfrac><m:mo>&gt;</m:mo><m:mn>1</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167835531841">
+<problem id="fs-id1167835531843">
+<para id="fs-id1167835531845"><m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mrow><m:mn>12</m:mn></m:mrow><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>≥</m:mo><m:mfrac><m:mn>5</m:mn><m:mi>x</m:mi></m:mfrac></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167835531876">
+<para id="fs-id1167835531878"><m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mtext>−</m:mtext><m:mi>∞</m:mi><m:mo>,</m:mo><m:mn>0</m:mn><m:mo stretchy="false">)</m:mo><m:mo>∪</m:mo><m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>4</m:mn><m:mo stretchy="false">]</m:mo><m:mo>∪</m:mo><m:mo stretchy="false">[</m:mo><m:mn>6</m:mn><m:mo>,</m:mo><m:mi>∞</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para>
+</solution>
+</exercise>
+<para id="fs-id1167834494827">In the following exercises, find <m:math><m:mrow><m:mi>R</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:mrow></m:math> given <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>4</m:mn></m:mrow><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>10</m:mn></m:mrow></m:mfrac></m:mrow></m:math> and <m:math><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>5</m:mn></m:mrow><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>8</m:mn></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></para>
+<exercise id="fs-id1167830961400">
+<problem id="fs-id1167830961402">
+<para id="fs-id1167830961404"><m:math><m:mrow><m:mi>R</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>−</m:mo><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167834346852">
+<problem id="fs-id1167834346854">
+<para id="fs-id1167834346856"><m:math><m:mrow><m:mi>R</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>·</m:mo><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167834346898">
+<para id="fs-id1167834120083"><m:math><m:mrow><m:mi>R</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167834120131">
+<problem id="fs-id1167834120134">
+<para id="fs-id1167834120136"><m:math><m:mrow><m:mi>R</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>÷</m:mo><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167834346478">
+<problem id="fs-id1167834346480">
+<para id="fs-id1167834346483">Given the function,<newline/><m:math><m:mrow><m:mi>R</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mfrac><m:mn>2</m:mn><m:mrow><m:mn>2</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>15</m:mn></m:mrow></m:mfrac><m:mo>,</m:mo></m:mrow></m:math> find the values of <m:math><m:mi>x</m:mi></m:math> that make the function less than or equal to 0.</para>
+</problem>
+<solution id="fs-id1167835414618">
+<para id="fs-id1167835414620"><m:math><m:mrow><m:mo>(</m:mo><m:mn>−3</m:mn><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mfrac><m:mn>5</m:mn><m:mn>2</m:mn></m:mfrac><m:mo>)</m:mo></m:mrow></m:math></para>
+</solution>
+</exercise>
+<para id="fs-id1167835414640">In the following exercises, solve.</para>
+<exercise id="fs-id1167835414643">
+<problem id="fs-id1167835414645">
+<para id="fs-id1167835414647">If <m:math><m:mi>y</m:mi></m:math> varies directly with <m:math><m:mi>x</m:mi></m:math>, and <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>5</m:mn></m:mrow></m:math> when <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>30</m:mn><m:mo>,</m:mo></m:mrow></m:math> find <m:math><m:mi>x</m:mi></m:math> when <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>42</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167834123576">
+<problem id="fs-id1167834123578">
+<para id="fs-id1167834123580">If <m:math><m:mi>y</m:mi></m:math> varies inversely with the square of <m:math><m:mi>x</m:mi></m:math> and <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>3</m:mn></m:mrow></m:math> when <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>9</m:mn><m:mo>,</m:mo></m:mrow></m:math> find <m:math><m:mi>y</m:mi></m:math> when <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>4</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167832212105">
+<para id="fs-id1167832212107"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>81</m:mn></m:mrow><m:mrow><m:mn>16</m:mn></m:mrow></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167834224702">
+<problem id="fs-id1167834224704">
+<para id="fs-id1167834224706">Matheus can ride his bike for 30 miles with the wind in the same amount of time that he can go 21 miles against the wind. If the wind’s speed is 6 mph, what is Matheus’ speed on his bike?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167834224726">
+<problem id="fs-id1167834224728">
+<para id="fs-id1167834224730">Oliver can split a truckload of logs in 8 hours, but working with his dad they can get it done in 3 hours. How long would it take Oliver’s dad working alone to split the logs?</para>
+</problem>
+<solution id="fs-id1167834224737">
+<para id="fs-id1167834224739">Oliver’s dad would take <m:math><m:mrow><m:mn>4</m:mn><m:mfrac><m:mn>4</m:mn><m:mn>5</m:mn></m:mfrac></m:mrow></m:math> hours to split the logs himself.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167834224755">
+<problem id="fs-id1167834224757">
+<para id="fs-id1167830964041">The volume of a gas in a container varies inversely with the pressure on the gas. If a container of nitrogen has a volume of 29.5 liters with 2000 psi, what is the volume if the tank has a 14.7 psi rating? Round to the nearest whole number.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167830964060">
+<problem id="fs-id1167830964062">
+<para id="fs-id1167830964064">The cities of Dayton, Columbus, and Cincinnati form a triangle in southern Ohio. The diagram gives the map distances between these cities in inches.</para>
+<para id="fs-id1167830964069">
+<media id="fs-id1167830964071" alt="The figure is a triangle formed by Cincinnati, Dayton, and Columbus. The distance between Cincinnati and Dayton is 2.4 inches. The distance between Dayton and Columbus is 3.2 inches. The distance between Columbus and Cincinnati is 5.3 inches.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_07_06_204_img_new.jpg"/>
+</media>
+</para>
+<para id="fs-id1167830964083">The actual distance from Dayton to Cincinnati is 48 miles. What is the actual distance between Dayton and Columbus?</para>
+</problem>
+<solution id="fs-id1167830964088">
+<para id="fs-id1167830964090">The distance between Dayton and Columbus is 64 miles.</para>
+</solution>
+</exercise>
+</section>
+</content>
+<glossary>
+<definition id="fs-id1167830964100">
+<term>critical point of a rational inequality</term>
+<meaning id="fs-id1167828420827">The critical point of a rational inequality is a number which makes the rational expression zero or undefined.</meaning>
+</definition>
+<definition id="fs-id1167828420833">
+<term>rational inequality</term>
+<meaning id="fs-id1167828420838">A rational inequality is an inequality that contains a rational expression.</meaning>
+</definition>
+</glossary>
+</document>

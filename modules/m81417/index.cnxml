@@ -1,0 +1,1434 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Sequences</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m81417</md:content-id>
+  <md:title>Sequences</md:title>
+  <md:abstract><para>By the end of this section, you will be able to:</para>
+<list>
+<item>Write the first few terms of a sequence</item>
+<item>Find a formula for the general term (nth term) of a sequence</item>
+<item>Use factorial notation</item>
+<item>Find the partial sum</item>
+<item>Use summation notation to write a sum</item>
+</list></md:abstract>
+  <md:uuid>c3d78cf5-7d1d-437f-81b5-2172ad676053</md:uuid>
+</metadata>
+
+<content>
+<note id="fs-id1167836335254" class="be-prepared">
+<para id="fs-id1167836613299">Before you get started, take this readiness quiz.</para>
+<exercise id="fs-idm229873856">
+<problem id="fs-idm296986480">
+<para id="fs-idm224285664">Evaluate <m:math><m:mrow><m:mn>2</m:mn><m:mi>n</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow></m:math> for the integers 1, 2, 3, and 4.<newline/>
+If you missed this problem, review <link target-id="fs-id1167836530265" document="m81422"/>.</para>
+</problem>
+<solution id="fs-idm244866560">
+<para id="fs-idm241595312">5, 7, 9, 11</para>
+</solution>
+</exercise>
+</note>
+<note id="fs-idm226082208" class="be-prepared">
+<exercise id="fs-idm227611712">
+<problem id="fs-idm246010160">
+<para id="fs-idm232000608">Evaluate <m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mi>n</m:mi></m:msup></m:mrow></m:math> for the integers 1, 2, 3, and 4.<newline/>
+If you missed this problem, review <link target-id="fs-id1167834536158" document="m81423"/>.</para>
+</problem>
+<solution id="fs-idm304650448">
+<para id="fs-idm304082064"><m:math><m:mrow><m:mn>−1</m:mn><m:mo>,</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>−1</m:mn><m:mo>,</m:mo><m:mn>1</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-idm250522672" class="be-prepared">
+<exercise id="fs-idm227524176">
+<problem id="fs-idm240795824">
+<para id="fs-idm212729696">If <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>n</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msup><m:mi>n</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>2</m:mn><m:mo>,</m:mo></m:mrow></m:math> find <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mn>1</m:mn><m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mn>2</m:mn><m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mn>3</m:mn><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math><newline/>
+If you missed this problem, review <link target-id="fs-id1167829859398" document="m81373"/>.</para>
+</problem>
+<solution id="fs-idm243082832">
+<para id="fs-idm312028928">20</para>
+</solution>
+</exercise>
+</note>
+<section id="fs-id1167836362095">
+<title>Write the First Few Terms of a Sequence</title>
+<para id="fs-id1167833025720">Let’s look at the function <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>x</m:mi></m:mrow></m:math> and evaluate it for just the counting numbers.</para>
+<table id="fs-id1167836595941" summary="Table has 2 columns and 8 rows. The first row lists the function f of x equals 2 x. The first column lists values of x 1 through 5 with an ellipsis in the last row. The second column lists values of 2 x with values 2, 4, 6, 8, and 10 with an ellipsis in the last row." class="unnumbered">
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<tbody>
+<row valign="top">
+<entry valign="middle" align="center" namest="c1" nameend="c2"><emphasis effect="bold"><m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>x</m:mi></m:mrow></m:math></emphasis></entry>
+</row>
+<row valign="top">
+<entry valign="middle" align="center"><emphasis effect="bold"><m:math><m:mi>x</m:mi></m:math></emphasis></entry>
+<entry valign="bottom" align="center"><emphasis effect="bold"><m:math><m:mrow><m:mn>2</m:mn><m:mi>x</m:mi></m:mrow></m:math></emphasis></entry>
+</row>
+<row valign="top">
+<entry valign="middle" align="center">1</entry>
+<entry valign="middle" align="center">2</entry>
+</row>
+<row valign="top">
+<entry valign="middle" align="center">2</entry>
+<entry valign="middle" align="center">4</entry>
+</row>
+<row valign="top">
+<entry valign="middle" align="center">3</entry>
+<entry valign="middle" align="center">6</entry>
+</row>
+<row valign="top">
+<entry valign="middle" align="center">4</entry>
+<entry valign="middle" align="center">8</entry>
+</row>
+<row valign="top">
+<entry valign="middle" align="center">5</entry>
+<entry valign="middle" align="center">10</entry>
+</row>
+<row valign="top">
+<entry valign="middle" align="center">…</entry>
+<entry valign="middle" align="center">…</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<para id="fs-id1167836410426">If we list the function values in order as 2, 4, 6, 8, and 10, … we have a sequence. A <term>sequence</term> is a function whose domain is the counting numbers.</para>
+<note id="fs-id1167836352765">
+<title>Sequences</title>
+<para id="fs-id1167832982337">A <emphasis effect="bold">sequence</emphasis> is a function whose domain is the counting numbers.</para>
+</note>
+<para id="fs-id1167829691634">A sequence can also be seen as an ordered list of numbers and each number in the list is a <emphasis effect="italics">term</emphasis>. A sequence may have an infinite number of terms or a finite number of terms. Our sequence has three dots (ellipsis) at the end which indicates the list never ends. If the domain is the set of all counting numbers, then the sequence is an <term>infinite sequence</term>. Its domain is all counting numbers and there is an infinite number of counting numbers.</para>
+<equation id="fs-id1167836507257" class="unnumbered"><label/><m:math><m:mrow><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>4</m:mn><m:mo>,</m:mo><m:mn>6</m:mn><m:mo>,</m:mo><m:mn>8</m:mn><m:mo>,</m:mo><m:mn>10</m:mn><m:mo>,</m:mo><m:mtext>…</m:mtext><m:mo>,</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167836410266">If we limit the domain to a finite number of counting numbers, then the sequence is a <term>finite sequence</term>. If we use only the first four counting numbers, 1, 2, 3, 4 our sequence would be the finite sequence,</para>
+<equation id="fs-id1167836693849" class="unnumbered"><label/><m:math><m:mrow><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>4</m:mn><m:mo>,</m:mo><m:mn>6</m:mn><m:mo>,</m:mo><m:mn>8</m:mn></m:mrow></m:math></equation>
+<para id="fs-id1167833024298">Often when working with sequences we do not want to write out all the terms. We want more compact way to show how each term is defined. When we worked with functions, we wrote <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>x</m:mi></m:mrow></m:math> and we said the expression <m:math><m:mrow><m:mn>2</m:mn><m:mi>x</m:mi></m:mrow></m:math> was the rule that defined values in the range. While a sequence is a function, we do not use the usual function notation. Instead of writing the function as <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>,</m:mo></m:mrow></m:math> we would write it as <m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>n</m:mi><m:mo>.</m:mo></m:mrow></m:math> The <m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mi>n</m:mi></m:msub></m:mrow></m:math> is the <emphasis effect="italics">n</emphasis>th term of the sequence, the term in the <emphasis effect="italics">n</emphasis>th position where <emphasis effect="italics">n</emphasis> is a value in the domain. The formula for writing the <emphasis effect="italics">n</emphasis>th term of the sequence is called the <term>general term</term> or formula of the sequence.</para>
+<note id="fs-id1167836484969">
+<title>General Term of a Sequence</title>
+<para id="fs-id1167836571092">The <emphasis effect="bold">general term</emphasis> of the sequence is found from the formula for writing the <emphasis effect="italics">n</emphasis>th term of the sequence. The <emphasis effect="italics">n</emphasis>th term of the sequence, <emphasis effect="italics">a<sub>n</sub></emphasis>, is the term in the <emphasis effect="italics">n</emphasis>th position where <emphasis effect="italics">n</emphasis> is a value in the domain.</para>
+</note>
+<para id="fs-id1167836367818">When we are given the general term of the sequence, we can find the terms by replacing <emphasis effect="italics">n</emphasis> with the counting numbers in order. For <m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>n</m:mi><m:mo>,</m:mo></m:mrow></m:math></para>
+<table id="fs-id1167836626974" summary="Table has 2 rows and 7 columns. The first row lists values of n from 1 through 5 with the last value as a sub n. The second row lists values of a sub n with mutiples of 2, from 2 through 10 with the last value as 2n. Below the table are values a sub 1, a sub 2, a sub 3, a sub 4, a sub 5, and a sub n followed by the values 2, 4, 6, 8, and 10." class="unnumbered">
+<tgroup cols="7">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<colspec colnum="4" colname="c4"/>
+<colspec colnum="5" colname="c5"/>
+<colspec colnum="6" colname="c6"/>
+<colspec colnum="7" colname="c7"/>
+<tbody>
+<row valign="top">
+<entry valign="top" align="center"><emphasis effect="bold"><m:math><m:mi>n</m:mi></m:math></emphasis></entry>
+<entry valign="middle" align="center">1</entry>
+<entry valign="middle" align="center">2</entry>
+<entry valign="middle" align="center">3</entry>
+<entry valign="middle" align="center">4</entry>
+<entry valign="middle" align="center">5</entry>
+<entry valign="top" align="center"><m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mi>n</m:mi></m:msub></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="center"><emphasis effect="bold"><m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mi>n</m:mi></m:msub></m:mrow></m:math></emphasis></entry>
+<entry valign="middle" align="center"><m:math><m:mtable><m:mtr><m:mtd columnalign="left"><m:mn>2</m:mn><m:mo>·</m:mo><m:mn>1</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="center"><m:mn>2</m:mn></m:mtd></m:mtr></m:mtable></m:math></entry>
+<entry valign="middle" align="center"><m:math><m:mtable><m:mtr><m:mtd columnalign="left"><m:mn>2</m:mn><m:mo>·</m:mo><m:mn>2</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="center"><m:mn>4</m:mn></m:mtd></m:mtr></m:mtable></m:math></entry>
+<entry valign="middle" align="center"><m:math><m:mtable><m:mtr><m:mtd columnalign="left"><m:mn>2</m:mn><m:mo>·</m:mo><m:mn>3</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="center"><m:mn>6</m:mn></m:mtd></m:mtr></m:mtable></m:math></entry>
+<entry valign="middle" align="center"><m:math><m:mtable><m:mtr><m:mtd columnalign="left"><m:mn>2</m:mn><m:mo>·</m:mo><m:mn>4</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="center"><m:mn>8</m:mn></m:mtd></m:mtr></m:mtable></m:math></entry>
+<entry valign="middle" align="center"><m:math><m:mtable><m:mtr><m:mtd columnalign="left"><m:mn>2</m:mn><m:mo>·</m:mo><m:mn>5</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="center"><m:mn>10</m:mn></m:mtd></m:mtr></m:mtable></m:math></entry>
+<entry valign="top" align="center">2<emphasis effect="italics">n</emphasis></entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<equation id="fs-id1167836512648" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub><m:mo>,</m:mo></m:mtd><m:mtd columnalign="right"><m:msub><m:mi>a</m:mi><m:mn>2</m:mn></m:msub><m:mo>,</m:mo></m:mtd><m:mtd columnalign="right"><m:msub><m:mi>a</m:mi><m:mn>3</m:mn></m:msub><m:mo>,</m:mo></m:mtd><m:mtd columnalign="right"><m:msub><m:mi>a</m:mi><m:mn>4</m:mn></m:msub><m:mo>,</m:mo></m:mtd><m:mtd columnalign="left"><m:msub><m:mi>a</m:mi><m:mn>5</m:mn></m:msub><m:mtext>,</m:mtext><m:mspace width="0.2em"/><m:mtext>…</m:mtext><m:mtext>,</m:mtext></m:mtd><m:mtd columnalign="left"><m:msub><m:mi>a</m:mi><m:mi>n</m:mi></m:msub><m:mtext>,</m:mtext><m:mspace width="0.2em"/><m:mtext>…</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mn>2</m:mn><m:mo>,</m:mo></m:mtd><m:mtd columnalign="right"><m:mn>4</m:mn><m:mo>,</m:mo></m:mtd><m:mtd columnalign="right"><m:mn>6</m:mn><m:mo>,</m:mo></m:mtd><m:mtd columnalign="right"><m:mn>8</m:mn><m:mo>,</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>10</m:mn><m:mtext>,</m:mtext><m:mspace width="0.2em"/><m:mtext>…</m:mtext></m:mtd><m:mtd/></m:mtr></m:mtable></m:math></equation>
+<para id="fs-id1167836535441">To find the values of a sequence, we substitute in the counting numbers in order into the general term of the sequence.</para>
+<example id="fs-id1167836424231">
+<exercise id="fs-id1167836408426">
+<problem id="fs-id1167836477802">
+<para id="fs-id1167836547838">Write the first five terms of the sequence whose general term is <m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:mn>4</m:mn><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836415705">
+<para id="fs-id1167836545291">We substitute the values 1, 2, 3, 4, and 5 into the formula, <m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:mn>4</m:mn><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:mo>,</m:mo></m:mrow></m:math> in order.</para>
+<media id="fs-id1167836551928" alt="This figure shows three rows and five columns. The first row reads nth term equals 4 times n minus 3 written five times. The second row reads a sub 1 equals 4 times g times 1 minus 3, a sub 2 equals 4 times g times 2 minus 3, a sub 3 equals 4 times g times 3 minus 3, a sub 4 equals 4 times g times 4 minus 3, a sub 5 equals 4 times g times 5 minus 3. The third row reads, a sub 1 equals 1, a sub 2 equals 5, a sub 3 equals 9, a sub 4 equals 13, a sub 5 equals 17.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_12_01_001_img.jpg"/>
+</media>
+<para id="fs-id1167836362021">The first five terms of the sequence are 1, 5, 9, 13, and 17.</para>
+</solution>
+</exercise>
+</example>
+<note id="fs-id1167836512330" class="try">
+<exercise id="fs-id1167836526397" class="material-set-2">
+<problem id="fs-id1167836327796">
+<para id="fs-id1167836376014">Write the first five terms of the sequence whose general term is <m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:mn>3</m:mn><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>4</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836622808">
+<para id="fs-id1167836523502"><m:math><m:mrow><m:mn>−1</m:mn><m:mo>,</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>5</m:mn><m:mo>,</m:mo><m:mn>8</m:mn><m:mo>,</m:mo><m:mn>11</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1167829598214" class="try">
+<exercise id="fs-id1167836327003" class="material-set-2">
+<problem id="fs-id1167836662447">
+<para id="fs-id1167836309374">Write the first five terms of the sequence whose general term is <m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>5</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836414969">
+<para id="fs-id1167836418956"><m:math><m:mrow><m:mn>−3</m:mn><m:mo>,</m:mo><m:mn>−1</m:mn><m:mo>,</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>5</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<para id="fs-id1167836418844">For some sequences, the variable is an exponent.</para>
+<example id="fs-id1167836410316">
+<exercise id="fs-id1167836356303">
+<problem id="fs-id1167836516667">
+<para id="fs-id1167829694727">Write the first five terms of the sequence whose general term is <m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:msup><m:mn>2</m:mn><m:mi>n</m:mi></m:msup><m:mo>+</m:mo><m:mn>1</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836542257">
+<para id="fs-id1167836311916">We substitute the values 1, 2, 3, 4, and 5 into the formula, <m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:msup><m:mn>2</m:mn><m:mi>n</m:mi></m:msup><m:mo>+</m:mo><m:mn>1</m:mn><m:mo>,</m:mo></m:mrow></m:math> in order.</para>
+<media id="fs-id1167836557890" alt="This figure shows three rows and five columns. The first row reads “nth term equals 2 to the nth power plus 1” written five times. The second row reads, “a sub 1 equals 2 times 1 plus 1, a sub 2 equals 2 to the power of 2 plus 1, a sub 3 equals 2 to the power 3 plus 1, a sub 4 equals 2 to the power of 4 plus 1, a sub 5 equals 2 to the power 5 plus 1”. The last row reads “a sub 1 equals 3, a sub 2 equals 5, a sub 3 equals 9, a sub 4 equals 17, a sub 5 equals 33”.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_12_01_002_img.jpg"/>
+</media>
+<para id="fs-id1167836691944">The first five terms of the sequence are 3, 5, 9, 17, and 33.</para>
+</solution>
+</exercise>
+</example>
+<note id="fs-id1167836700380" class="try">
+<exercise id="fs-id1167836521836" class="material-set-2">
+<problem id="fs-id1167836367277">
+<para id="fs-id1167836327173">Write the first five terms of the sequence whose general term is <m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:msup><m:mn>3</m:mn><m:mi>n</m:mi></m:msup><m:mo>+</m:mo><m:mn>4</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836320223">
+<para id="fs-id1167829740836"><m:math><m:mrow><m:mn>7</m:mn><m:mo>,</m:mo><m:mn>13</m:mn><m:mo>,</m:mo><m:mn>31</m:mn><m:mo>,</m:mo><m:mn>85</m:mn><m:mo>,</m:mo><m:mn>247</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1167836691832" class="try">
+<exercise id="fs-id1167836688426" class="material-set-2">
+<problem id="fs-id1167836510398">
+<para id="fs-id1167829695706">Write the first five terms of the sequence whose general term is <m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:msup><m:mn>2</m:mn><m:mi>n</m:mi></m:msup><m:mo>−</m:mo><m:mn>5</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836362572">
+<para id="fs-id1167836608138"><m:math><m:mrow><m:mn>−3</m:mn><m:mo>,</m:mo><m:mn>−1</m:mn><m:mo>,</m:mo><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>11</m:mn><m:mo>,</m:mo><m:mn>27</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<para id="fs-id1167836287578">It is not uncommon to see the expressions <m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mi>n</m:mi></m:msup></m:mrow></m:math> or <m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mi>n</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:msup></m:mrow></m:math> in the general term for a sequence. If we evaluate each of these expressions for a few values, we see that this expression alternates the sign for the terms.</para>
+<table id="fs-id1167836521976" summary="Table shows 6 columns and 3 rows. The first row lists values of n from 1 to 5. The second row lists values of negative 1 to the power of n as negative 1, 1, negative 1, 1, and negative 1. The third row lists values of negative 1 to the power of n plus 1 as 1 negative 1, 1, negative 1, and 1. Below the table are values a sub 1, a sub 2, a sub 3, a sub 4, a sub 5, and a sub n followed by ellipsis. Below are the values negative 1, 1, negative 1, 1, and negative 1. Below that are the numbers 1 negative 1, 1, negative 1, and 1." class="unnumbered">
+<tgroup cols="6">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<colspec colnum="4" colname="c4"/>
+<colspec colnum="5" colname="c5"/>
+<colspec colnum="6" colname="c6"/>
+<tbody>
+<row valign="top">
+<entry valign="top" align="center"><emphasis effect="bold"><m:math><m:mi>n</m:mi></m:math></emphasis></entry>
+<entry valign="middle" align="center"><emphasis effect="bold">1</emphasis></entry>
+<entry valign="middle" align="center"><emphasis effect="bold">2</emphasis></entry>
+<entry valign="middle" align="center"><emphasis effect="bold">3</emphasis></entry>
+<entry valign="middle" align="center"><emphasis effect="bold">4</emphasis></entry>
+<entry valign="middle" align="center"><emphasis effect="bold">5</emphasis></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="center"><emphasis effect="bold"><m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mi>n</m:mi></m:msup></m:mrow></m:math></emphasis></entry>
+<entry valign="middle" align="center"><m:math><m:mtable><m:mtr><m:mtd columnalign="center"><m:msup><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mn>1</m:mn></m:msup></m:mtd></m:mtr><m:mtr/><m:mtr><m:mtd columnalign="center"><m:mn>−1</m:mn></m:mtd></m:mtr></m:mtable></m:math></entry>
+<entry valign="middle" align="center"><m:math><m:mtable><m:mtr><m:mtd columnalign="center"><m:msup><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mn>2</m:mn></m:msup></m:mtd></m:mtr><m:mtr/><m:mtr><m:mtd columnalign="center"><m:mn>1</m:mn></m:mtd></m:mtr></m:mtable></m:math>
+</entry>
+<entry valign="middle" align="center"><m:math><m:mtable><m:mtr><m:mtd columnalign="center"><m:msup><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mn>3</m:mn></m:msup></m:mtd></m:mtr><m:mtr/><m:mtr><m:mtd columnalign="center"><m:mn>−1</m:mn></m:mtd></m:mtr></m:mtable></m:math>
+</entry>
+<entry valign="middle" align="center"><m:math><m:mtable><m:mtr><m:mtd columnalign="center"><m:msup><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mn>4</m:mn></m:msup></m:mtd></m:mtr><m:mtr/><m:mtr><m:mtd columnalign="center"><m:mn>1</m:mn></m:mtd></m:mtr></m:mtable></m:math>
+</entry>
+<entry valign="middle" align="center"><m:math><m:mtable><m:mtr><m:mtd columnalign="center"><m:msup><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mn>5</m:mn></m:msup></m:mtd></m:mtr><m:mtr/><m:mtr><m:mtd columnalign="center"><m:mn>−1</m:mn></m:mtd></m:mtr></m:mtable></m:math>
+</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="center"><emphasis effect="bold"><m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mi>n</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:msup></m:mrow></m:math>
+</emphasis></entry>
+<entry valign="middle" align="center"><m:math><m:mtable><m:mtr><m:mtd columnalign="center"><m:msup><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mn>1</m:mn><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:msup></m:mtd></m:mtr><m:mtr/><m:mtr><m:mtd columnalign="center"><m:mn>1</m:mn></m:mtd></m:mtr></m:mtable></m:math>
+</entry>
+<entry valign="middle" align="center"><m:math><m:mtable><m:mtr><m:mtd columnalign="center"><m:msup><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mn>2</m:mn><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:msup></m:mtd></m:mtr><m:mtr/><m:mtr><m:mtd columnalign="center"><m:mn>−1</m:mn></m:mtd></m:mtr></m:mtable></m:math>
+</entry>
+<entry valign="middle" align="center"><m:math><m:mtable><m:mtr><m:mtd columnalign="center"><m:msup><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mn>3</m:mn><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:msup></m:mtd></m:mtr><m:mtr/><m:mtr><m:mtd columnalign="center"><m:mn>1</m:mn></m:mtd></m:mtr></m:mtable></m:math>
+</entry>
+<entry valign="middle" align="center"><m:math><m:mtable><m:mtr><m:mtd columnalign="center"><m:msup><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mn>4</m:mn><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:msup></m:mtd></m:mtr><m:mtr/><m:mtr><m:mtd columnalign="center"><m:mn>−1</m:mn></m:mtd></m:mtr></m:mtable></m:math>
+</entry>
+<entry valign="middle" align="center"><m:math><m:mtable><m:mtr><m:mtd columnalign="center"><m:msup><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mn>5</m:mn><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:msup></m:mtd></m:mtr><m:mtr/><m:mtr><m:mtd columnalign="center"><m:mn>1</m:mn></m:mtd></m:mtr></m:mtable></m:math>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<equation id="fs-id1167836550517" class="unnumbered"><label/><m:math><m:mrow><m:mtable><m:mtr><m:mtd columnalign="right"><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub><m:mo>,</m:mo></m:mtd><m:mtd columnalign="right"><m:msub><m:mi>a</m:mi><m:mn>2</m:mn></m:msub><m:mo>,</m:mo></m:mtd><m:mtd columnalign="right"><m:msub><m:mi>a</m:mi><m:mn>3</m:mn></m:msub><m:mo>,</m:mo></m:mtd><m:mtd columnalign="right"><m:msub><m:mi>a</m:mi><m:mn>4</m:mn></m:msub><m:mo>,</m:mo></m:mtd><m:mtd columnalign="right"><m:msub><m:mi>a</m:mi><m:mn>5</m:mn></m:msub><m:mtext>,</m:mtext><m:mspace width="0.2em"/><m:mtext>…</m:mtext><m:mtext>,</m:mtext></m:mtd><m:mtd columnalign="right"><m:msub><m:mi>a</m:mi><m:mi>n</m:mi></m:msub><m:mtext>,</m:mtext><m:mspace width="0.2em"/><m:mtext>…</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mn>−1</m:mn><m:mo>,</m:mo></m:mtd><m:mtd columnalign="right"><m:mn>1</m:mn><m:mo>,</m:mo></m:mtd><m:mtd columnalign="right"><m:mn>−1</m:mn><m:mo>,</m:mo></m:mtd><m:mtd columnalign="right"><m:mn>1</m:mn><m:mo>,</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>−1</m:mn><m:mtext>…</m:mtext></m:mtd><m:mtd/></m:mtr><m:mtr><m:mtd columnalign="right"><m:mn>1</m:mn><m:mo>,</m:mo></m:mtd><m:mtd columnalign="right"><m:mn>−1</m:mn><m:mo>,</m:mo></m:mtd><m:mtd columnalign="right"><m:mn>1</m:mn><m:mo>,</m:mo></m:mtd><m:mtd columnalign="right"><m:mn>−1</m:mn><m:mo>,</m:mo></m:mtd><m:mtd columnalign="left"><m:mspace width="0.6em"/><m:mn>1</m:mn><m:mtext>…</m:mtext></m:mtd><m:mtd/></m:mtr></m:mtable></m:mrow></m:math></equation>
+<para id="fs-id1167833059788">The terms in the next example will alternate signs as a result of the powers of <m:math><m:mrow><m:mn>−1</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+<example id="fs-id1167836340793">
+<exercise id="fs-id1167836540214">
+<problem id="fs-id1167836512624">
+<para id="fs-id1167836534763">Write the first five terms of the sequence whose general term is <m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mi>n</m:mi></m:msup><m:msup><m:mi>n</m:mi><m:mn>3</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167833051065">
+<para id="fs-id1167836707050">We substitute the values 1, 2, 3, 4, and 5 into the formula, <m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mi>n</m:mi></m:msup><m:msup><m:mi>n</m:mi><m:mn>3</m:mn></m:msup><m:mo>,</m:mo></m:mrow></m:math> in order.</para>
+<para id="fs-id1167836622462"><media id="fs-id1167836622463" alt="This figure shows three rows and five columns. The first row reads “nth term equals negative 1 to the nth power times n cubed” written five times. The second row reads a sub 1 equals negative 1 to the power of 1 times g times 1 cubed, a sub 2 equals negative 1 squared time g times 2 cubed, a sub 3 equals negative 1 cubed times g times 23 cubed, a sub 4 equals negative 1 to the power of 4 times g times 4 cubed, a sub 5 equals negative 1 to the power of 5 times g times 5 cubed. The last row reads, “a sub 1 equals negative 1, a sub 2 equals 8, a sub 3 equals negative 27, a sub 4 equals 64, and a sub 5 equals negative 125.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_12_01_003_img.jpg"/></media></para>
+<para id="fs-id1167836627870">The first five terms of the sequence are <m:math><m:mrow><m:mn>−1</m:mn><m:mo>,</m:mo><m:mn>8</m:mn><m:mo>,</m:mo><m:mn>−27</m:mn><m:mo>,</m:mo><m:mn>64</m:mn><m:mo>,</m:mo></m:mrow></m:math> and <m:math><m:mrow><m:mn>−125</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+</solution>
+</exercise>
+</example>
+<note id="fs-id1167836503186" class="try">
+<exercise id="fs-id1167833019254" class="material-set-2">
+<problem id="fs-id1167836597185">
+<para id="fs-id1167829720825">Write the first five terms of the sequence whose general term is <m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mi>n</m:mi></m:msup><m:msup><m:mi>n</m:mi><m:mn>2</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167829720139">
+<para id="fs-id1167836520591"><m:math><m:mrow><m:mn>−1</m:mn><m:mo>,</m:mo><m:mn>4</m:mn><m:mo>,</m:mo><m:mn>−9</m:mn><m:mo>,</m:mo><m:mn>16</m:mn><m:mo>,</m:mo><m:mn>−25</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1167836367160" class="try">
+<exercise id="fs-id1167829627648" class="material-set-2">
+<problem id="fs-id1167836553112">
+<para id="fs-id1167829695390">Write the first five terms of the sequence whose general term is <m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mi>n</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:msup><m:msup><m:mi>n</m:mi><m:mn>3</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836352298">
+<para id="fs-id1167836529276"><m:math><m:mrow><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>−8</m:mn><m:mo>,</m:mo><m:mn>27</m:mn><m:mo>,</m:mo><m:mn>−64</m:mn><m:mo>,</m:mo><m:mn>125</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+</section>
+<section id="fs-id1167836526589">
+<title>Find a Formula for the General Term (<emphasis effect="italics">n</emphasis>th Term) of a Sequence</title>
+<para id="fs-id1167829740541">Sometimes we have a few terms of a sequence and it would be helpful to know the general term or <emphasis effect="italics">n</emphasis>th term. To find the general term, we look for patterns in the terms. Often the patterns involve multiples or powers. We also look for a pattern in the signs of the terms.</para>
+<example id="fs-id1167836330323">
+<exercise id="fs-id1167836688056">
+<problem id="fs-id1167836299692">
+<para id="fs-id1167836700504">Find a general term for the sequence whose first five terms are shown.</para>
+<equation id="fs-id1167836621355" class="unnumbered"><label/><m:math><m:mrow><m:mn>4</m:mn><m:mo>,</m:mo><m:mn>8</m:mn><m:mo>,</m:mo><m:mn>12</m:mn><m:mo>,</m:mo><m:mn>16</m:mn><m:mo>,</m:mo><m:mn>20</m:mn><m:mtext>,</m:mtext><m:mspace width="0.2em"/><m:mo>…</m:mo></m:mrow></m:math></equation>
+</problem>
+<solution id="fs-id1167836392172">
+<table id="fs-id1167836548526" summary="This figure shows five rows. The first row reads, “4”, “8”, “12”, “16”, “20”, and an “ellipsis”. The second row reads “n”, “1”, “2”, “3”, “4”, “5”, and an “ellipsis”. The third row reads “We look for a pattern in terms”, “Terms”, “4”, “8”, “12”, “16”, “20”, and an “ellipsis”. The four row reads, “The numbers are all multiples of 4”, “Pattern”, “4 times g times 1”, “4 times g times 3”, 4 times g times 4”, “4 times g times 5”, and an “ellipsis”, “4 times g times n”. The last row reads “The general term of the sequence is a nth term equals 4 times n”." class="unnumbered unstyled"><label/>
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<tbody>
+<row>
+<entry/>
+<entry align="left">
+<media id="fs-id1167836509695" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_12_01_006a_img.jpg"/></media>
+</entry>
+</row>
+<row>
+<entry/>
+<entry align="left"><media id="fs-id1167836492778" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_12_01_006b_img.jpg"/></media>
+</entry>
+</row>
+<row>
+<entry align="left">We look for a pattern in the terms.</entry>
+<entry align="left"><media id="fs-id1167836700375" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_12_01_006c_img.jpg"/></media>
+</entry>
+</row>
+<row>
+<entry align="left">The numbers are all multiples of 4.</entry>
+<entry align="left"><media id="fs-id1167836330596" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_12_01_006d_img.jpg"/></media>
+</entry>
+</row>
+<row>
+<entry/>
+<entry align="left">The general term of the sequence is <m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:mn>4</m:mn><m:mi>n</m:mi><m:mo>.</m:mo></m:mrow></m:math></entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</solution>
+</exercise>
+</example>
+<note id="fs-id1167829594848" class="try">
+<exercise id="fs-id1167836356048" class="material-set-2">
+<problem id="fs-id1167829691674">
+<para id="fs-id1167829579943">Find a general term for the sequence whose first five terms are shown.</para>
+<para id="fs-id1167836310267"><m:math><m:mrow><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>6</m:mn><m:mo>,</m:mo><m:mn>9</m:mn><m:mo>,</m:mo><m:mn>12</m:mn><m:mo>,</m:mo><m:mn>15</m:mn><m:mo>,</m:mo><m:mtext>…</m:mtext></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836540322">
+<para id="fs-id1167836511209"><m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:mn>3</m:mn><m:mi>n</m:mi></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1167836312781" class="try">
+<exercise id="fs-id1167836688166" class="material-set-2">
+<problem id="fs-id1167833021343">
+<para id="fs-id1167833158233">Find a general term for the sequence whose first five terms are shown.</para>
+<para id="fs-id1167829645005"><m:math><m:mrow><m:mn>5</m:mn><m:mo>,</m:mo><m:mn>10</m:mn><m:mo>,</m:mo><m:mn>15</m:mn><m:mo>,</m:mo><m:mn>20</m:mn><m:mo>,</m:mo><m:mn>25</m:mn><m:mo>,</m:mo><m:mtext>…</m:mtext></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167833060799">
+<para id="fs-id1167829853134"><m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:mn>5</m:mn><m:mi>n</m:mi></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<example id="fs-id1167829628072">
+<exercise id="fs-id1167836538101">
+<problem id="fs-id1167836504080">
+<para id="fs-id1167836520449">Find a general term for the sequence whose first five terms are shown.</para>
+<equation id="fs-id1167836292789" class="unnumbered"><label/><m:math><m:mrow><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>−4</m:mn><m:mo>,</m:mo><m:mn>8</m:mn><m:mo>,</m:mo><m:mn>−16</m:mn><m:mo>,</m:mo><m:mn>32</m:mn><m:mo>,</m:mo><m:mtext>…</m:mtext></m:mrow></m:math></equation>
+</problem>
+<solution id="fs-id1167836310482">
+<table id="fs-id1167829756446" summary="This figure shows six rows. The first row reads, “2”, “negative 4”, “8”, “negative 16”, “32”, and an “ellipsis”. The second row reads “n”, “1”, “2”, “3”, “4”, “5”, “ellipsis”, “n”. The third row reads “We look for a pattern in the terms”, “Terms 2,” “negative 4”, “8”, “negative 16”, “32”, and an “ellipsis”. The fourth row reads “The numbers are powers of 2”, and “Pattern”. The fifth row reads “the signs are alternating with even n negative”, “negative 1 to the power of 1 plus 1 times 2 to the power of 1, negative 1 to the power of 2 plus 1 times 2 to the power of 2, negative 1 to the power of 3 plus 1 times 2 to the power of 3, negative 1 to the power of 4 plus 1 times 2 to the power of 1, negative 1 to the power of 5 plus 1 times 2 to the power of 5, ellipsis, negative 1 to the power of n plus 1 times 2 to then power of n. The last row reads, “The general term of the sequence is a sub n equals negative 1 to the power of n plus 1 times 2 to the power of n." class="unnumbered unstyled"><label/>
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<tbody>
+<row>
+<entry/>
+<entry align="left">
+<media id="fs-id1167833054918" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_12_01_007a_img.jpg"/></media>
+</entry>
+</row>
+<row>
+<entry/>
+<entry align="left"><media id="fs-id1167836432055" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_12_01_007b_img.jpg"/></media>
+</entry>
+</row>
+<row>
+<entry align="left">We look for a pattern in the terms.</entry>
+<entry align="left"><media id="fs-id1167836554839" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_12_01_007c_img.jpg"/></media>
+</entry>
+</row>
+<row>
+<entry align="left">The numbers are powers of 2. The signs are<newline/>alternating, with even <m:math><m:mi>n</m:mi></m:math> negative.</entry>
+<entry align="left"><media id="fs-id1167833369157" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_12_01_007d_img.jpg"/></media>
+</entry>
+</row>
+<row>
+<entry/>
+<entry align="left">The general term of the sequence is <m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mi>n</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:msup><m:msup><m:mn>2</m:mn><m:mi>n</m:mi></m:msup><m:mo>.</m:mo></m:mrow></m:math>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</solution>
+</exercise>
+</example>
+<note id="fs-id1167829790449" class="try">
+<exercise id="fs-id1167829694947" class="material-set-2">
+<problem id="fs-id1167829694949">
+<para id="fs-id1167836558252">Find a general term for the sequence whose first five terms are shown.</para>
+<para id="fs-id1167836558255"><m:math><m:mrow><m:mn>−3</m:mn><m:mo>,</m:mo><m:mn>9</m:mn><m:mo>,</m:mo><m:mn>−27</m:mn><m:mo>,</m:mo><m:mn>81</m:mn><m:mo>,</m:mo><m:mn>−243</m:mn><m:mtext>,</m:mtext><m:mspace width="0.2em"/><m:mtext>…</m:mtext></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836398987">
+<para id="fs-id1167836398989"><m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mi>n</m:mi></m:msup><m:msup><m:mn>3</m:mn><m:mi>n</m:mi></m:msup></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1167836417349" class="try">
+<exercise id="fs-id1167836506804" class="material-set-2">
+<problem id="fs-id1167836506806">
+<para id="fs-id1167836506808">Find a general term for the sequence whose first five terms are shown</para>
+<para id="fs-id1167829809843"><m:math><m:mrow><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>−4</m:mn><m:mo>,</m:mo><m:mn>9</m:mn><m:mo>,</m:mo><m:mn>−16</m:mn><m:mo>,</m:mo><m:mn>25</m:mn><m:mtext>,</m:mtext><m:mspace width="0.2em"/><m:mtext>…</m:mtext></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836536576">
+<para id="fs-id1167829596213"><m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mi>n</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:msup><m:msup><m:mi>n</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<example id="fs-id1167836417304">
+<exercise id="fs-id1167836417306">
+<problem id="fs-id1167836417309">
+<para id="fs-id1167829628377">Find a general term for the sequence whose first five terms are shown.</para>
+<equation id="fs-id1167829628380" class="unnumbered"><label/><m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac><m:mo>,</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>9</m:mn></m:mfrac><m:mo>,</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>27</m:mn></m:mrow></m:mfrac><m:mo>,</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>81</m:mn></m:mrow></m:mfrac><m:mo>,</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>243</m:mn></m:mrow></m:mfrac><m:mo>,</m:mo><m:mtext>…</m:mtext></m:mrow></m:math></equation>
+</problem>
+<solution id="fs-id1167836448361">
+<table id="fs-id1167836635242" summary="This figure shows five rows. The first row reads, “one-third”, “one-ninth”, “one-twenty-seventh”, “1 divided by 81”, “1 divided by 243”, and an ellipsis. The second row reads, “n”, “1”, “2”, “3”, “4”, “5” and an ellipsis, “n”. The third row reads “We look for a pattern in the terms”, “Terms”, “one-third”, “one-ninth”, “one-twenty-seventh”, “1 divided by 81”, “1 divided by 243”, and an ellipsis. The fourth row reads, “The numerators are all at 1”, “Pattern”, “one-third to the power of 1 times 9, one-third to the power of 2 times 9, one-third to the power of 3 times 4 times 9, one-third to the power of 3 times 5 times 9, ellipsis, one-third to the power of n”. The fifth row reads, “The denominators are powers of 3. The general term of the sequence is a sub n equals one-third to the power of n”." class="unnumbered unstyled"><label/>
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<tbody>
+<row>
+<entry/>
+<entry align="left"><media id="fs-id1167829580229" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_12_01_008a_img.jpg"/></media></entry>
+</row>
+<row>
+<entry/>
+<entry align="left"><media id="fs-id1167829716495" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_12_01_008b_img.jpg"/></media>
+</entry>
+</row>
+<row>
+<entry align="left">We look for a pattern in the terms.</entry>
+<entry align="left"><media id="fs-id1167836691952" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_12_01_008c_img.jpg"/></media>
+</entry>
+</row>
+<row>
+<entry align="left">The numerators are all 1.</entry>
+<entry align="left"><media id="fs-id1167836609920" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_12_01_008d_img.jpg"/></media>
+</entry>
+</row>
+<row>
+<entry align="left">The denominators are powers of 3.</entry>
+<entry align="left">The general term of the sequence is <m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:msup><m:mn>3</m:mn><m:mi>n</m:mi></m:msup></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</solution>
+</exercise>
+</example>
+<note id="fs-id1167836318650" class="try">
+<exercise id="fs-id1167836318653" class="material-set-2">
+<problem id="fs-id1167836525725">
+<para id="fs-id1167836525727">Find a general term for the sequence whose first five terms are shown.</para>
+<para id="fs-id1167836525730"><m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mo>,</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>4</m:mn></m:mfrac><m:mo>,</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>8</m:mn></m:mfrac><m:mo>,</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>16</m:mn></m:mrow></m:mfrac><m:mo>,</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>32</m:mn></m:mrow></m:mfrac><m:mo>,</m:mo><m:mtext>…</m:mtext></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836559949">
+<para id="fs-id1167836559951"><m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:msup><m:mn>2</m:mn><m:mi>n</m:mi></m:msup></m:mrow></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1167832989121" class="try">
+<exercise id="fs-id1167836360706" class="material-set-2">
+<problem id="fs-id1167836360708">
+<para id="fs-id1167836360710">Find a general term for the sequence whose first five terms are shown.</para>
+<para id="fs-id1167836375920"><m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>1</m:mn></m:mfrac><m:mo>,</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>4</m:mn></m:mfrac><m:mo>,</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>9</m:mn></m:mfrac><m:mo>,</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>16</m:mn></m:mrow></m:mfrac><m:mo>,</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>25</m:mn></m:mrow></m:mfrac><m:mo>,</m:mo><m:mtext>…</m:mtext></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167833061756">
+<para id="fs-id1167833061758"><m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:msup><m:mi>n</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+</section>
+<section id="fs-id1167836547277">
+<title>Use Factorial Notation</title>
+<para id="fs-id1167836506757">Sequences often have terms that are products of consecutive integers. We indicate these products with a special notation called <emphasis effect="italics">factorial notation</emphasis>. For example,<m:math><m:mrow><m:mn>5</m:mn><m:mo>!</m:mo></m:mrow></m:math>, read 5 factorial, means <m:math><m:mrow><m:mn>5</m:mn><m:mo>·</m:mo><m:mn>4</m:mn><m:mo>·</m:mo><m:mn>3</m:mn><m:mo>·</m:mo><m:mn>2</m:mn><m:mo>·</m:mo><m:mn>1</m:mn><m:mo>.</m:mo></m:mrow></m:math> The exclamation point is not punctuation here; it indicates the <term>factorial notation</term>.</para>
+<note id="fs-id1167836492202">
+<title>Factorial Notation</title>
+<para id="fs-id1167836492208">If <emphasis effect="italics">n</emphasis> is a positive integer, then <m:math><m:mrow><m:mi>n</m:mi><m:mo>!</m:mo></m:mrow></m:math> is</para>
+<equation id="fs-id1167829754626" class="unnumbered"><label/><m:math><m:mrow><m:mi>n</m:mi><m:mo>!</m:mo><m:mo>=</m:mo><m:mi>n</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>…</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167829791300">We define <m:math><m:mrow><m:mn>0</m:mn><m:mo>!</m:mo></m:mrow></m:math> as 1, so <m:math><m:mrow><m:mn>0</m:mn><m:mo>!</m:mo><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+</note>
+<para id="fs-id1167833048324">The values of <m:math><m:mrow><m:mi>n</m:mi><m:mo>!</m:mo></m:mrow></m:math> for the first 5 positive integers are shown.</para>
+<equation id="fs-id1167836552570" class="unnumbered"><label/><m:math><m:mrow><m:mtable><m:mtr><m:mtd columnalign="center"><m:mn>1</m:mn><m:mo>!</m:mo></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:mspace width="2em"/><m:mn>2</m:mn><m:mo>!</m:mo></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:mspace width="2em"/><m:mn>3</m:mn><m:mo>!</m:mo></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:mspace width="2em"/><m:mn>4</m:mn><m:mo>!</m:mo></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:mspace width="2em"/><m:mn>5</m:mn><m:mo>!</m:mo></m:mtd></m:mtr><m:mtr><m:mtd columnalign="center"><m:mn>1</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:mspace width="2em"/><m:mn>2</m:mn><m:mo>⋅</m:mo><m:mn>1</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:mspace width="2em"/><m:mn>3</m:mn><m:mo>⋅</m:mo><m:mn>2</m:mn><m:mo>⋅</m:mo><m:mn>1</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:mspace width="2em"/><m:mn>4</m:mn><m:mo>⋅</m:mo><m:mn>3</m:mn><m:mo>⋅</m:mo><m:mn>2</m:mn><m:mo>⋅</m:mo><m:mn>1</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:mspace width="2em"/><m:mn>5</m:mn><m:mo>⋅</m:mo><m:mn>4</m:mn><m:mo>⋅</m:mo><m:mn>3</m:mn><m:mo>⋅</m:mo><m:mn>2</m:mn><m:mo>⋅</m:mo><m:mn>1</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="center"><m:mn>1</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:mspace width="2em"/><m:mn>2</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:mspace width="2em"/><m:mn>6</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:mspace width="2em"/><m:mn>24</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:mspace width="2em"/><m:mn>120</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:math></equation>
+<example id="fs-id1167836704331">
+<exercise id="fs-id1167836704333">
+<problem id="fs-id1167836704335">
+<para id="fs-id1167829754906">Write the first five terms of the sequence whose general term is <m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mi>n</m:mi><m:mo>!</m:mo></m:mrow></m:mfrac></m:mrow></m:math>.</para>
+</problem>
+<solution id="fs-id1167836611218">
+<para id="fs-id1167829809728">We substitute the values 1, 2, 3, 4, 5 into the formula, <m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mi>n</m:mi><m:mo>!</m:mo></m:mrow></m:mfrac><m:mo>,</m:mo></m:mrow></m:math> in order.</para>
+<para id="fs-id1167836433457"><media id="fs-id1167836433458" alt="This figure shows four rows and five columns. The first row reads, “nth term equals one divided by n factorial” written five times. The second row reads “a sub 1 equals one divided by 1 factorial, a sub 2 equals 1 divided by 2 factorial, a sub 3 equals 1 divided by 3 factorial, a sub 4 equals 1 divided by 4 factorial, a sub 5 equals 1 divided by 5 factorial”. The third row reads “a sub 1 equals 1 divided 1”, “a sub 2 equals 1 divided by 2 times g times 1”, “a sub 3 equals 1 divided by 3 times g times 2 g times 1”, “a sub 4 equals 1 divided 4 times g times 3 times g times 2 times g times 1”, “a sub 5 equals 1 divided by 5 g times 4 times g times 3 times g times 2 times g times 1”, “a sub 1 equals 1, a sub 2 equals one-half”, “a sub 3 equals one-sixth”, “a sub 4 equals 1 divided by 24”, “a sub 5 equals 1 divided by 120”.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_12_01_004_img.jpg"/></media></para>
+<para id="fs-id1167829747222">The first five terms of the sequence are <m:math><m:mrow><m:mn>1</m:mn><m:mo>,</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mo>,</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>6</m:mn></m:mfrac><m:mo>,</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>24</m:mn></m:mrow></m:mfrac><m:mo>,</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>120</m:mn></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></para>
+</solution>
+</exercise>
+</example>
+<note id="fs-id1167836698688" class="try">
+<exercise id="fs-id1167829811091" class="material-set-2">
+<problem id="fs-id1167829811093">
+<para id="fs-id1167829811095">Write the first five terms of the sequence whose general term is <m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:mfrac><m:mn>2</m:mn><m:mrow><m:mi>n</m:mi><m:mo>!</m:mo></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167829755838">
+<para id="fs-id1167829755841"><m:math><m:mrow><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac><m:mo>,</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>12</m:mn></m:mrow></m:mfrac><m:mo>,</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>60</m:mn></m:mrow></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1167833047217" class="try">
+<exercise id="fs-id1167836622285" class="material-set-2">
+<problem id="fs-id1167836622287">
+<para id="fs-id1167836300267">Write the first five terms of the sequence whose general term is <m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:mfrac><m:mn>3</m:mn><m:mrow><m:mi>n</m:mi><m:mo>!</m:mo></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167833023017">
+<para id="fs-id1167829683662"><m:math><m:mrow><m:mn>3</m:mn><m:mo>,</m:mo><m:mfrac><m:mn>3</m:mn><m:mn>2</m:mn></m:mfrac><m:mo>,</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mo>,</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>8</m:mn></m:mfrac><m:mo>,</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>40</m:mn></m:mrow></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<para id="fs-id1165927785098">When there is a fraction with factorials in the numerator and denominator, we line up the factors vertically to make our calculations easier.</para>
+<example id="fs-id1167836548831">
+<exercise id="fs-id1167836548833">
+<problem id="fs-id1167829720760">
+<para id="fs-id1167829720762">Write the first five terms of the sequence whose general term is <m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>n</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>!</m:mo></m:mrow><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>!</m:mo></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167833370051">
+<para id="fs-id1167833370053">We substitute the values 1, 2, 3, 4, 5 into the formula, <m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>n</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>!</m:mo></m:mrow><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>!</m:mo></m:mrow></m:mfrac><m:mo>,</m:mo></m:mrow></m:math> in order.</para>
+<para id="fs-id1167833240162"><media id="fs-id1167833240164" alt="This figure shows five columns and five rows. The first row shows the sequence “nth term equals n plus 1 times factorial divided by n minus 1 times factorial” written five times. The second row is “a sub 1 equals 1 plus 1 times factorial divided by 1 minus 1 times factorial”, “a sub 2 equals 2 plus 1 times factorial divided by 2 minus 1 times factorial”, “a sub 3 equals 3 plus 1 times factorial divided by 3 minus 1 times factorial”, “a sub 4 equals 4 plus 1 times factorial divided by 4 minus 1 times factorial”, “a sub 5 equals 5 plus 1 times factorial divided by 5 minus 1 times factorial”. The third row reads “a sub 1 equals 2 times factorial divided by 0 times factorial”, “a sub 2 equals 3 times factorial divided by 1 times factorial”, “a sub 3 equals 4 times factorial divided by 2 times factorial”, “a sub 3 equals 4 times factorial divided by 2 times factorial”, “a sub 4 equals 5 times factorial divided by 3 times factorial”, “a sub 5 equals 6 times factorial divided by 4 times factorial”. The fourth row reads, “a sub 1 equals 2 times g time 1 divided by 1”, “a sub 2 equals 3 times g times 2 times g times 1 divided by 1”, “a sub 3 equals 4 times g times 3 times g times 2 times g times 1 divided by 2 times g times 1”, “a sub 4 equals 5 times g times 4 times g times 3 times g times 2 times g times 1 divided by 3 g times 2 times g times 1”, and “a sub 5 equals 6 times g times 5 times g times 4 times g times 3 times g times 2 times g times 1 divided by 4 times g times 3 times g times 2 times g times 1”. The fifth row reads “a sub 1 equals 2”, “a sub 2 equals 6”, “a sub 3 equals 12”, “a sub 4 equals 20”, “a sub 5 equals 30”.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_12_01_005_img.jpg"/></media></para>
+<para id="fs-id1167836621846">The first five terms of the sequence are 2, 6, 12, 20, and 30.</para>
+</solution>
+</exercise>
+</example>
+<note id="fs-id1167829789958" class="try">
+<exercise id="fs-id1167833023070" class="material-set-2">
+<problem id="fs-id1167833023072">
+<para id="fs-id1167833023074">Write the first five terms of the sequence whose general term is <m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>!</m:mo></m:mrow><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>n</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>!</m:mo></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836398976">
+<para id="fs-id1167836398978"><m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mo>,</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>6</m:mn></m:mfrac><m:mo>,</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>12</m:mn></m:mrow></m:mfrac><m:mo>,</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>20</m:mn></m:mrow></m:mfrac><m:mo>,</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>30</m:mn></m:mrow></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1167836613306" class="try">
+<exercise id="fs-id1167836613309" class="material-set-2">
+<problem id="fs-id1167836613312">
+<para id="fs-id1167836622307">Write the first five terms of the sequence whose general term is <m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>n</m:mi><m:mo>!</m:mo></m:mrow><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>n</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>!</m:mo></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167833056115">
+<para id="fs-id1167833056118"><m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mo>,</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac><m:mo>,</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>4</m:mn></m:mfrac><m:mo>,</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>5</m:mn></m:mfrac><m:mo>,</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>6</m:mn></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+</section>
+<section id="fs-id1167829719000">
+<title>Find the Partial Sum</title>
+<para id="fs-id1167829596997">Sometimes in applications, rather than just list the terms, it is important for us to add the terms of a sequence. Rather than just connect the terms with plus signs, we can use <term>summation notation</term>.</para>
+<para id="fs-id1167836732726">For example, <m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub><m:mo>+</m:mo><m:msub><m:mi>a</m:mi><m:mn>2</m:mn></m:msub><m:mo>+</m:mo><m:msub><m:mi>a</m:mi><m:mn>3</m:mn></m:msub><m:mo>+</m:mo><m:msub><m:mi>a</m:mi><m:mn>4</m:mn></m:msub><m:mo>+</m:mo><m:msub><m:mi>a</m:mi><m:mn>5</m:mn></m:msub></m:mrow></m:math> can be written as <m:math><m:mrow><m:mstyle displaystyle="true"><m:munderover><m:mo>∑</m:mo><m:mrow><m:mi>i</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow><m:mn>5</m:mn></m:munderover><m:mrow><m:msub><m:mi>a</m:mi><m:mi>i</m:mi></m:msub></m:mrow></m:mstyle><m:mo>.</m:mo></m:mrow></m:math> We read this as “the sum of <emphasis effect="italics">a</emphasis> sub <emphasis effect="italics">i</emphasis> from <emphasis effect="italics">i</emphasis> equals one to five.” The symbol <m:math><m:mrow><m:mstyle displaystyle="true"><m:mo>∑</m:mo> <m:mrow/></m:mstyle></m:mrow></m:math> means to add and the <emphasis effect="italics">i</emphasis> is the index of summation. The 1 tells us where to start (initial value) and the 5 tells us where to end (terminal value).</para>
+<note id="fs-id1167832982280">
+<title>Summation Notation</title>
+<para id="fs-id1167836391189">The sum of the first <emphasis effect="italics">n</emphasis> terms of a sequence whose <emphasis effect="italics">n</emphasis>th term is <m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mi>n</m:mi></m:msub></m:mrow></m:math> is written in summation notation as:</para>
+<equation id="fs-id1167836626906" class="unnumbered"><label/><m:math><m:mrow><m:mstyle displaystyle="true"><m:munderover><m:mo>∑</m:mo><m:mrow><m:mi>i</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow><m:mi>n</m:mi></m:munderover><m:mrow><m:msub><m:mi>a</m:mi><m:mi>i</m:mi></m:msub></m:mrow></m:mstyle><m:mo>=</m:mo><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub><m:mo>+</m:mo><m:msub><m:mi>a</m:mi><m:mn>2</m:mn></m:msub><m:mo>+</m:mo><m:msub><m:mi>a</m:mi><m:mn>3</m:mn></m:msub><m:mo>+</m:mo><m:msub><m:mi>a</m:mi><m:mn>4</m:mn></m:msub><m:mo>+</m:mo><m:msub><m:mi>a</m:mi><m:mn>5</m:mn></m:msub><m:mo>+</m:mo><m:mo>…</m:mo><m:mo>+</m:mo><m:msub><m:mi>a</m:mi><m:mi>n</m:mi></m:msub></m:mrow></m:math></equation>
+<para id="fs-id1167829719007">The <emphasis effect="italics">i</emphasis> is the index of summation and the 1 tells us where to start and the <emphasis effect="italics">n</emphasis> tells us where to end.</para>
+</note>
+<para id="fs-id1167833019032">When we add a finite number of terms, we call the sum a <term>partial sum</term>.</para>
+<example id="fs-id1167833019038">
+<exercise id="fs-id1167836561241">
+<problem id="fs-id1167836561243">
+<para id="fs-id1167836561245">Expand the partial sum and find its value: <m:math><m:mrow><m:mstyle displaystyle="true"><m:munderover><m:mo>∑</m:mo><m:mrow><m:mi>i</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow><m:mn>5</m:mn></m:munderover><m:mrow><m:mn>2</m:mn><m:mi>i</m:mi></m:mrow></m:mstyle><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836684163">
+<para id="fs-id1167836389436">
+<table id="fs-idm199635952" class="unnumbered unstyled" summary="No Summary">
+<label/>
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<tbody>
+<row valign="top">
+<entry valign="middle" align="left"/>
+<entry valign="middle" align="center"><m:math><m:mrow><m:mstyle displaystyle="true"><m:munderover><m:mo>∑</m:mo><m:mrow><m:mi>i</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow><m:mn>5</m:mn></m:munderover><m:mrow><m:mn>2</m:mn><m:mi>i</m:mi></m:mrow></m:mstyle></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="middle" align="left">We substitute the values 1, 2, 3, 4, 5 in order.</entry>
+<entry valign="middle" align="center"><m:math><m:mrow><m:mn>2</m:mn><m:mo>·</m:mo><m:mn>1</m:mn><m:mo>+</m:mo><m:mn>2</m:mn><m:mo>·</m:mo><m:mn>2</m:mn><m:mo>+</m:mo><m:mn>2</m:mn><m:mo>·</m:mo><m:mn>3</m:mn><m:mo>+</m:mo><m:mn>2</m:mn><m:mo>·</m:mo><m:mn>4</m:mn><m:mo>+</m:mo><m:mn>2</m:mn><m:mo>·</m:mo><m:mn>5</m:mn></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="middle" align="left">Simplify.</entry>
+<entry valign="middle" align="center"><m:math><m:mrow><m:mn>2</m:mn><m:mo>+</m:mo><m:mn>4</m:mn><m:mo>+</m:mo><m:mn>6</m:mn><m:mo>+</m:mo><m:mn>8</m:mn><m:mo>+</m:mo><m:mn>10</m:mn></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="middle" align="left">Add.</entry>
+<entry valign="middle" align="center"><m:math><m:mrow><m:mn>30</m:mn></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="middle" align="left"/>
+<entry valign="middle" align="center"><m:math><m:mrow><m:mstyle displaystyle="true"><m:munderover><m:mo>∑</m:mo><m:mrow><m:mi>i</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow><m:mn>5</m:mn></m:munderover><m:mrow><m:mn>2</m:mn><m:mi>i</m:mi></m:mrow></m:mstyle><m:mo>=</m:mo><m:mn>30</m:mn></m:mrow></m:math></entry>
+</row>
+</tbody>
+</tgroup>
+</table></para>
+</solution>
+</exercise>
+</example>
+<note id="fs-id1167829747135" class="try">
+<exercise id="fs-id1167833396844" class="material-set-2">
+<problem id="fs-id1167833396846">
+<para id="fs-id1167833396848">Expand the partial sum and find its value: <m:math><m:mrow><m:mstyle displaystyle="true"><m:munderover><m:mo>∑</m:mo><m:mrow><m:mi>i</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow><m:mn>5</m:mn></m:munderover><m:mrow><m:mn>3</m:mn><m:mi>i</m:mi></m:mrow></m:mstyle><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167829719048">
+<para id="fs-id1167829719050">45</para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1167836415595" class="try">
+<exercise id="fs-id1167836287270" class="material-set-2">
+<problem id="fs-id1167836287272">
+<para id="fs-id1167836287274">Expand the partial sum and find its value: <m:math><m:mrow><m:mstyle displaystyle="true"><m:munderover><m:mo>∑</m:mo><m:mrow><m:mi>i</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow><m:mn>5</m:mn></m:munderover><m:mrow><m:mn>4</m:mn><m:mi>i</m:mi></m:mrow></m:mstyle><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167832984037">
+<para id="fs-id1167832984039">60</para>
+</solution>
+</exercise>
+</note>
+<para id="fs-id1167836450406">The index does not always have to be <emphasis effect="italics">i</emphasis> we can use any letter, but <emphasis effect="italics">i</emphasis> and <emphasis effect="italics">k</emphasis> are commonly used. The index does not have to start with 1 either—it can start and end with any positive integer.</para>
+<example id="fs-id1167829747210">
+<exercise id="fs-id1167829747212">
+<problem id="fs-id1167829747214">
+<para id="fs-id1167829747216">Expand the partial sum and find its value: <m:math><m:mrow><m:mstyle displaystyle="true"><m:munderover><m:mo>∑</m:mo><m:mrow><m:mi>k</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow><m:mn>3</m:mn></m:munderover><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:mi>k</m:mi><m:mo>!</m:mo></m:mrow></m:mfrac></m:mrow></m:mstyle><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167829747192">
+<para id="fs-id1167829747195">
+<table id="fs-idm199581952" class="unnumbered unstyled" summary="No Summary">
+<label/>
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<tbody>
+<row valign="top">
+<entry valign="middle" align="left"/>
+<entry valign="middle" align="center"><m:math><m:mrow><m:mstyle displaystyle="true"><m:munderover><m:mo>∑</m:mo><m:mrow><m:mi>k</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow><m:mn>3</m:mn></m:munderover><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:mi>k</m:mi><m:mo>!</m:mo></m:mrow></m:mfrac></m:mrow></m:mstyle></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="middle" align="left">We substitute the values 0, 1, 2, 3, in order.</entry>
+<entry valign="middle" align="center"><m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>0</m:mn><m:mo>!</m:mo></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>1</m:mn><m:mo>!</m:mo></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>2</m:mn><m:mo>!</m:mo></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>3</m:mn><m:mo>!</m:mo></m:mrow></m:mfrac></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="middle" align="left">Evaluate the factorials.</entry>
+<entry valign="middle" align="center"><m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>1</m:mn></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>1</m:mn></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>6</m:mn></m:mfrac></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="middle" align="left">Simplify.</entry>
+<entry valign="middle" align="center"><m:math><m:mrow><m:mn>1</m:mn><m:mo>+</m:mo><m:mn>1</m:mn><m:mo>+</m:mo><m:mfrac><m:mn>3</m:mn><m:mn>6</m:mn></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>6</m:mn></m:mfrac></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="middle" align="left">Simplify.</entry>
+<entry valign="middle" align="center"><m:math><m:mrow><m:mfrac><m:mn>16</m:mn><m:mn>6</m:mn></m:mfrac></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="middle" align="left">Simplify.</entry>
+<entry valign="middle" align="center"><m:math><m:mrow><m:mfrac><m:mn>8</m:mn><m:mn>3</m:mn></m:mfrac></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="middle" align="left"/>
+<entry valign="middle" align="center"><m:math><m:mrow><m:mstyle displaystyle="true"><m:munderover><m:mo>∑</m:mo><m:mrow><m:mi>k</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow><m:mn>3</m:mn></m:munderover><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:mi>k</m:mi><m:mo>!</m:mo></m:mrow></m:mfrac></m:mrow></m:mstyle><m:mo>=</m:mo><m:mfrac><m:mn>8</m:mn><m:mn>3</m:mn></m:mfrac></m:mrow></m:math></entry>
+</row>
+</tbody>
+</tgroup>
+</table></para>
+</solution>
+</exercise>
+</example>
+<note id="fs-id1167833158242" class="try">
+<exercise id="fs-id1167836610913" class="material-set-2">
+<problem id="fs-id1167836610915">
+<para id="fs-id1167836610917">Expand the partial sum and find its value: <m:math><m:mrow><m:mstyle displaystyle="true"><m:munderover><m:mo>∑</m:mo><m:mrow><m:mi>k</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow><m:mn>3</m:mn></m:munderover><m:mrow><m:mfrac><m:mn>2</m:mn><m:mrow><m:mi>k</m:mi><m:mo>!</m:mo></m:mrow></m:mfrac></m:mrow></m:mstyle><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836534087">
+<para id="fs-id1167836534089"><m:math><m:mrow><m:mfrac><m:mn>16</m:mn><m:mn>3</m:mn></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1167829717879" class="try">
+<exercise id="fs-id1167829717882" class="material-set-2">
+<problem id="fs-id1167836540528">
+<para id="fs-id1167836540530">Expand the partial sum and find its value: <m:math><m:mrow><m:mstyle displaystyle="true"><m:munderover><m:mo>∑</m:mo><m:mrow><m:mi>k</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow><m:mn>3</m:mn></m:munderover><m:mrow><m:mfrac><m:mn>3</m:mn><m:mrow><m:mi>k</m:mi><m:mo>!</m:mo></m:mrow></m:mfrac></m:mrow></m:mstyle><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167829747803">
+<para id="fs-id1167829747805">8</para>
+</solution>
+</exercise>
+</note>
+</section>
+<section id="fs-id1167836294722">
+<title>Use Summation Notation to Write a Sum</title>
+<para id="fs-id1167836294727">In the last two examples, we went from summation notation to writing out the sum. Now we will start with a sum and change it to summation notation. This is very similar to finding the general term of a sequence. We will need to look at the terms and find a pattern. Often the patterns involve multiples or powers.</para>
+
+<example id="fs-id1167836688410">
+<exercise id="fs-id1167836688412">
+<problem id="fs-id1167829720741">
+<para id="fs-id1167829720743">Write the sum using summation notation: <m:math><m:mrow><m:mn>1</m:mn><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>4</m:mn></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>5</m:mn></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167829809741">
+<para id="fs-id1167829809743">
+<table id="fs-idm199515152" class="unnumbered unstyled" summary="No Summary">
+<label/>
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<tbody>
+<row valign="top">
+<entry valign="middle" align="left"/>
+<entry valign="middle" align="center"><m:math><m:mrow><m:mspace width="5.5em"/><m:mn>1</m:mn><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>4</m:mn></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>5</m:mn></m:mfrac></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="middle" align="left"/>
+<entry valign="middle" align="center"><m:math><m:mrow><m:mspace width="1.5em"/><m:mi>n</m:mi><m:mtext>:</m:mtext><m:mspace width="1em"/><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>4</m:mn><m:mo>,</m:mo><m:mn>5</m:mn></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="middle" align="left">We look for a pattern in the terms.</entry>
+<entry valign="middle" align="center">Terms: <m:math><m:mrow><m:mn>1</m:mn><m:mo>,</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mo>,</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac><m:mo>,</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>4</m:mn></m:mfrac><m:mo>,</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>5</m:mn></m:mfrac></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="middle" align="left">The numerators are all one.</entry>
+<entry valign="middle" align="center">Pattern: <m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>1</m:mn></m:mfrac><m:mo>,</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mo>,</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac><m:mo>,</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>4</m:mn></m:mfrac><m:mo>,</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>5</m:mn></m:mfrac><m:mo>,</m:mo><m:mo>…</m:mo><m:mfrac><m:mn>1</m:mn><m:mi>n</m:mi></m:mfrac></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="middle" align="left">The denominators are the counting numbers<newline/>from one to five.</entry>
+<entry valign="middle" align="center">The sum written in summation notation is</entry>
+</row>
+<row valign="top">
+<entry valign="middle" align="left"/>
+<entry valign="middle" align="center"><m:math><m:mrow><m:mn>1</m:mn><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>4</m:mn></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>5</m:mn></m:mfrac><m:mo>=</m:mo><m:mstyle displaystyle="true"><m:munderover><m:mo>∑</m:mo><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow><m:mn>5</m:mn></m:munderover><m:mrow><m:mfrac><m:mn>1</m:mn><m:mi>n</m:mi></m:mfrac></m:mrow></m:mstyle><m:mo>.</m:mo></m:mrow></m:math></entry>
+</row>
+</tbody>
+</tgroup>
+</table></para>
+</solution>
+</exercise>
+</example>
+<note id="fs-id1167829627520" class="try">
+<exercise id="fs-id1167836605384" class="material-set-2">
+<problem id="fs-id1167836605386">
+<para id="fs-id1167836605388">Write the sum using summation notation: <m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>4</m:mn></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>8</m:mn></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>16</m:mn></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>32</m:mn></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167833061159">
+<para id="fs-id1167833061162"><m:math><m:mrow><m:mstyle displaystyle="true"><m:munderover><m:mo>∑</m:mo><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow><m:mn>5</m:mn></m:munderover><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:msup><m:mn>2</m:mn><m:mi>n</m:mi></m:msup></m:mrow></m:mfrac></m:mrow></m:mstyle></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1167836531526" class="try">
+<exercise id="fs-id1167836531529" class="material-set-2">
+<problem id="fs-id1167836531531">
+<para id="fs-id1167833014902">Write the sum using summation notation: <m:math><m:mrow><m:mn>1</m:mn><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>4</m:mn></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>9</m:mn></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>16</m:mn></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>25</m:mn></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167829908624">
+<para id="fs-id1167829908626"><m:math><m:mrow><m:mstyle displaystyle="true"><m:munderover><m:mo>∑</m:mo><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow><m:mn>5</m:mn></m:munderover><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:msup><m:mi>n</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:mstyle></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<para id="fs-id1165923635499">When the terms of a sum have negative coefficients, we must carefully analyze the pattern of the signs.</para>
+<example id="fs-id1167836507518">
+<exercise id="fs-id1167836507520">
+<problem id="fs-id1167836507522">
+<para id="fs-id1167836507524">Write the sum using summation notation: <m:math><m:mrow><m:mn>−1</m:mn><m:mo>+</m:mo><m:mn>8</m:mn><m:mo>−</m:mo><m:mn>27</m:mn><m:mo>+</m:mo><m:mn>64</m:mn><m:mo>−</m:mo><m:mn>125</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836530770">
+<table id="fs-id1167836530772" summary="This figure shows a table with seven columns and six rows.  The first row reads the summation notation as “negative 1 plus 8 minus 27 plus 64 minus 125”.  The second row reads “n”, then “1”, “2”, “3”, “4” and “5”.  The third row reads, “We look for a pattern in the terms”, “Terms”, “-1”, “negative 8”, “negative 27”, “64”, and “negative 125”.  The fourth row reads, “The signs of the terms alternate, and the odd terms are negative”, “Pattern”, “negative 1 times the power of 1 times g times 1, negative 1 squared times g times 8, negative 1 cubed times g times 27, negative 1 to the power of 4 times g times 64, negative 1 to the power of 5 times g times 125.  The fifth row reads, “The numbers are the cubes of the counting numbers from 1 to 5”, “Pattern”, “negative 1 to the power of 1 times g times l cubed, negative 1 to the power of 2, times g times 2 cubed, negative 1 to the power of 3 times g times 3 cubed, negative 1 to the power of 4 times g times 4 cubed, negative 1 to the power of 5 times g times 5 cubed”.  The sixth row reads  “Pattern is negative 1 to the power of n times g times n to the power of 3.  The seventh row is “The sum written as summation notation is negative 1 plus 8 minus 27 plus 64 minus 124 equals the sum of a sub i from i equals 1 to 5 times negative 1 to the power of n times g times n to the power of 3.”" class="unnumbered unstyled"><label/>
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<tbody>
+<row>
+<entry/>
+<entry align="left"><media id="fs-id1167836433359" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_12_01_009a_img.jpg"/></media>
+</entry>
+</row>
+<row valign="top">
+<entry/>
+<entry align="left"><media id="fs-id1167836685110" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_12_01_009b_img.jpg"/></media>
+</entry>
+</row>
+<row>
+<entry align="left">We look for a pattern in the terms.</entry>
+<entry align="left"><media id="fs-id1167836728372" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_12_01_009c_img.jpg"/></media>
+</entry>
+</row>
+<row>
+<entry align="left">The signs of the terms alternate,<newline/>and the odd terms are negative.</entry>
+<entry align="left"><media id="fs-id1167829741797" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_12_01_009d_img.jpg"/></media>
+</entry>
+</row>
+<row>
+<entry align="left">The numbers are the cubes of the<newline/>counting numbers from one to five.</entry>
+<entry align="left"><media id="fs-id1167836444781" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_12_01_009e_img.jpg"/></media>
+</entry>
+</row>
+<row>
+<entry/>
+<entry align="left"><media id="fs-id1167836646292" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_12_01_009f_img.jpg"/></media>
+</entry>
+</row>
+<row>
+<entry/>
+<entry align="left">The sum written in summation notation is</entry>
+</row>
+<row>
+<entry/>
+<entry align="left"><m:math><m:mrow><m:mo>−</m:mo><m:mn>1</m:mn><m:mo>+</m:mo><m:mn>8</m:mn><m:mo>−</m:mo><m:mn>27</m:mn><m:mo>+</m:mo><m:mn>64</m:mn><m:mo>−</m:mo><m:mn>125</m:mn><m:mo>=</m:mo><m:mstyle displaystyle="true"><m:munderover><m:mo>∑</m:mo><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow><m:mn>5</m:mn></m:munderover><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mi>n</m:mi></m:msup><m:mo>⋅</m:mo><m:msup><m:mi>n</m:mi><m:mn>3</m:mn></m:msup></m:mrow></m:mstyle></m:mrow></m:math>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</solution>
+</exercise>
+</example>
+<note id="fs-id1167836542582" class="try">
+<exercise id="fs-id1167836542586" class="material-set-2">
+<problem id="fs-id1167836542588">
+<para id="fs-id1167836492236">Write each sum using summation notation: <m:math><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:mn>4</m:mn><m:mo>+</m:mo><m:mn>9</m:mn><m:mo>−</m:mo><m:mn>16</m:mn><m:mo>+</m:mo><m:mn>25</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836363682">
+<para id="fs-id1167836363219"><m:math><m:mrow><m:mstyle displaystyle="true"><m:munderover><m:mo>∑</m:mo><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow><m:mn>5</m:mn></m:munderover><m:mrow><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>−1</m:mn><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:mi>n</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:msup><m:msup><m:mi>n</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mstyle></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1167829627922" class="try">
+<exercise id="fs-id1167829627926" class="material-set-2">
+<problem id="fs-id1167829627928">
+<para id="fs-id1167829627930">Write each sum using summation notation: <m:math><m:mrow><m:mn>−2</m:mn><m:mo>+</m:mo><m:mn>4</m:mn><m:mo>−</m:mo><m:mn>6</m:mn><m:mo>+</m:mo><m:mn>8</m:mn><m:mo>−</m:mo><m:mn>10</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167833048339">
+<para id="fs-id1167833048341"><m:math><m:mrow><m:mstyle displaystyle="true"><m:munderover><m:mo>∑</m:mo><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow><m:mn>5</m:mn></m:munderover><m:mrow><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>−1</m:mn><m:mo stretchy="false">)</m:mo></m:mrow><m:mi>n</m:mi></m:msup><m:mn>2</m:mn><m:mi>n</m:mi></m:mrow></m:mstyle></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1167829597663" class="media-2">
+<para id="fs-id1167829597666">Access this online resource for additional instruction and practice with sequences.</para>
+<list id="fs-id1167836321416" display="block">
+<item><link url="https://openstax.org/l/37serseqfindpat">Series and Sequences-Finding Patterns</link></item>
+</list>
+</note>
+</section>
+<section id="fs-id1167836363337" class="key-concepts">
+<title>Key Concepts</title>
+<list id="fs-id1167836363344" list-type="bulleted" bullet-style="bullet">
+<item><emphasis effect="bold">Factorial Notation</emphasis><newline/>
+If <emphasis effect="italics">n</emphasis> is a positive integer, then <m:math><m:mrow><m:mi>n</m:mi><m:mo>!</m:mo></m:mrow></m:math> is<newline/>
+<equation id="fs-id1167833017967" class="unnumbered"><label/><m:math><m:mrow><m:mi>n</m:mi><m:mo>!</m:mo><m:mo>=</m:mo><m:mi>n</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>…</m:mo><m:mrow><m:mo>(</m:mo><m:mn>3</m:mn><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mn>2</m:mn><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mn>1</m:mn><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></equation><newline/>
+We define <m:math><m:mrow><m:mn>0</m:mn><m:mo>!</m:mo></m:mrow></m:math> as 1, so <m:math><m:mrow><m:mn>0</m:mn><m:mo>!</m:mo><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math></item>
+<item><emphasis effect="bold">Summation Notation</emphasis><newline/>
+The sum of the first <emphasis effect="italics">n</emphasis> terms of a sequence whose <emphasis effect="italics">n</emphasis>th term <m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mi>n</m:mi></m:msub></m:mrow></m:math> is written in summation notation as:<newline/>
+<equation id="fs-id1167836692030" class="unnumbered"><label/><m:math><m:mrow><m:mstyle displaystyle="true"><m:munderover><m:mo>∑</m:mo><m:mrow><m:mi>i</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow><m:mi>n</m:mi></m:munderover><m:mrow><m:msub><m:mi>a</m:mi><m:mi>i</m:mi></m:msub></m:mrow></m:mstyle><m:mo>=</m:mo><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub><m:mo>+</m:mo><m:msub><m:mi>a</m:mi><m:mn>2</m:mn></m:msub><m:mo>+</m:mo><m:msub><m:mi>a</m:mi><m:mn>3</m:mn></m:msub><m:mo>+</m:mo><m:msub><m:mi>a</m:mi><m:mn>4</m:mn></m:msub><m:mo>+</m:mo><m:msub><m:mi>a</m:mi><m:mn>5</m:mn></m:msub><m:mo>+</m:mo><m:mo>…</m:mo><m:mo>+</m:mo><m:msub><m:mi>a</m:mi><m:mi>n</m:mi></m:msub></m:mrow></m:math></equation><newline/>
+The <emphasis effect="italics">i</emphasis> is the index of summation and the 1 tells us where to start and the <emphasis effect="italics">n</emphasis> tells us where to end.</item>
+</list>
+</section>
+<section id="fs-id1167836692470" class="section-exercises">
+<section id="fs-id1167836692473" class="practice-perfect">
+<title>Practice Makes Perfect</title>
+<para id="fs-id1167836692479"><emphasis effect="bold">Write the First Few Terms of a Sequence</emphasis></para>
+<para id="fs-id1167836542434">In the following exercises, write the first five terms of the sequence whose general term is given.</para>
+<exercise id="fs-id1167836542437" class="material-set-2">
+<problem id="fs-id1167836542439">
+<para id="fs-id1167836732091"><m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>7</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167833047542">
+<para id="fs-id1167833047545"><m:math><m:mrow><m:mn>−5</m:mn><m:mo>,</m:mo><m:mn>−3</m:mn><m:mo>,</m:mo><m:mn>−1</m:mn><m:mo>,</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>3</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167836697712" class="material-set-2">
+<problem id="fs-id1167836697714">
+<para id="fs-id1167836662577"><m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:mn>5</m:mn><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167833030960" class="material-set-2">
+<problem id="fs-id1167833030962">
+<para id="fs-id1167829593872"><m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:mn>3</m:mn><m:mi>n</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167829586574">
+<para id="fs-id1167829586576"><m:math><m:mrow><m:mn>4</m:mn><m:mo>,</m:mo><m:mn>7</m:mn><m:mo>,</m:mo><m:mn>10</m:mn><m:mo>,</m:mo><m:mn>13</m:mn><m:mo>,</m:mo><m:mn>16</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167836433028" class="material-set-2">
+<problem id="fs-id1167836433030">
+<para id="fs-id1167836622408"><m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:mn>4</m:mn><m:mi>n</m:mi><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167836554862" class="material-set-2">
+<problem id="fs-id1167836554864">
+<para id="fs-id1167836621806"><m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:msup><m:mn>2</m:mn><m:mi>n</m:mi></m:msup><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836626353">
+<para id="fs-id1167836626355"><m:math><m:mrow><m:mn>5</m:mn><m:mo>,</m:mo><m:mn>7</m:mn><m:mo>,</m:mo><m:mn>11</m:mn><m:mo>,</m:mo><m:mn>19</m:mn><m:mo>,</m:mo><m:mn>35</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167829747310" class="material-set-2">
+<problem id="fs-id1167836433289">
+<para id="fs-id1167836433291"><m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:msup><m:mn>3</m:mn><m:mi>n</m:mi></m:msup><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167829745911" class="material-set-2">
+<problem id="fs-id1167836663089">
+<para id="fs-id1167836663091"><m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:msup><m:mn>3</m:mn><m:mi>n</m:mi></m:msup><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>n</m:mi></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167833025530">
+<para id="fs-id1167833025532"><m:math><m:mrow><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>5</m:mn><m:mo>,</m:mo><m:mn>21</m:mn><m:mo>,</m:mo><m:mn>73</m:mn><m:mo>,</m:mo><m:mn>233</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167833008151" class="material-set-2">
+<problem id="fs-id1167833008153">
+<para id="fs-id1167833008155"><m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:msup><m:mn>2</m:mn><m:mi>n</m:mi></m:msup><m:mo>−</m:mo><m:mn>3</m:mn><m:mi>n</m:mi></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167836518570" class="material-set-2">
+<problem id="fs-id1167836518572">
+<para id="fs-id1167836518574"><m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:msup><m:mn>2</m:mn><m:mi>n</m:mi></m:msup></m:mrow><m:mrow><m:msup><m:mi>n</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167829745278">
+<para id="fs-id1167829745280"><m:math><m:mrow><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mfrac><m:mn>8</m:mn><m:mn>9</m:mn></m:mfrac><m:mo>,</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mfrac><m:mrow><m:mn>32</m:mn></m:mrow><m:mrow><m:mn>25</m:mn></m:mrow></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167836697736" class="material-set-2">
+<problem id="fs-id1167836697738">
+<para id="fs-id1167836697740"><m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:msup><m:mn>3</m:mn><m:mi>n</m:mi></m:msup></m:mrow><m:mrow><m:msup><m:mi>n</m:mi><m:mn>3</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167836728891" class="material-set-2">
+<problem id="fs-id1167836728893">
+<para id="fs-id1167836728895"><m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>4</m:mn><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow><m:mrow><m:msup><m:mn>2</m:mn><m:mi>n</m:mi></m:msup></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167829747157">
+<para id="fs-id1167829747160"><m:math><m:mrow><m:mn>1</m:mn><m:mo>,</m:mo><m:mfrac><m:mn>3</m:mn><m:mn>2</m:mn></m:mfrac><m:mo>,</m:mo><m:mfrac><m:mn>5</m:mn><m:mn>4</m:mn></m:mfrac><m:mo>,</m:mo><m:mfrac><m:mn>7</m:mn><m:mn>8</m:mn></m:mfrac><m:mo>,</m:mo><m:mfrac><m:mn>9</m:mn><m:mrow><m:mn>16</m:mn></m:mrow></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167836610291" class="material-set-2">
+<problem id="fs-id1167836610293">
+<para id="fs-id1167829788284"><m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>3</m:mn><m:mi>n</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow><m:mrow><m:msup><m:mn>3</m:mn><m:mi>n</m:mi></m:msup></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167836731549" class="material-set-2">
+<problem id="fs-id1167836731552">
+<para id="fs-id1167836731554"><m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mi>n</m:mi></m:msup><m:mo>·</m:mo><m:mn>2</m:mn><m:mi>n</m:mi></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836663177">
+<para id="fs-id1167833018382"><m:math><m:mrow><m:mn>−2</m:mn><m:mo>,</m:mo><m:mn>4</m:mn><m:mo>,</m:mo><m:mn>−6</m:mn><m:mo>,</m:mo><m:mn>8</m:mn><m:mo>,</m:mo><m:mn>−10</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167836409447" class="material-set-2">
+<problem id="fs-id1167836409449">
+<para id="fs-id1167836409451"><m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mi>n</m:mi></m:msup><m:mo>·</m:mo><m:mn>3</m:mn><m:mi>n</m:mi></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167836444704" class="material-set-2">
+<problem id="fs-id1167836444706">
+<para id="fs-id1167836444708"><m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mi>n</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:msup><m:msup><m:mi>n</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836542558">
+<para id="fs-id1167836542560"><m:math><m:mrow><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>−4</m:mn><m:mo>,</m:mo><m:mn>9</m:mn><m:mo>,</m:mo><m:mn>−16</m:mn><m:mo>,</m:mo><m:mn>25</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167833056685" class="material-set-2">
+<problem id="fs-id1167833056687">
+<para id="fs-id1167833056689"><m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mi>n</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:msup><m:msup><m:mi>n</m:mi><m:mn>4</m:mn></m:msup></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167833071792" class="material-set-2">
+<problem id="fs-id1167833071795">
+<para id="fs-id1167836613274"><m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mi>n</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:msup></m:mrow><m:mrow><m:msup><m:mi>n</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836630557">
+<para id="fs-id1167836630559"><m:math><m:mrow><m:mn>1</m:mn><m:mo>,</m:mo><m:mo>−</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>4</m:mn></m:mfrac><m:mo>,</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>9</m:mn></m:mfrac><m:mo>,</m:mo><m:mo>−</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>16</m:mn></m:mrow></m:mfrac><m:mo>,</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>25</m:mn></m:mrow></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167836688954" class="material-set-2">
+<problem id="fs-id1167836688957">
+<para id="fs-id1167829719948"><m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mi>n</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:msup></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>n</m:mi></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+</exercise>
+<para id="fs-id1167833018343"><emphasis effect="bold">Find a Formula for the General Term (<emphasis effect="italics">n</emphasis>th Term) of a Sequence</emphasis></para>
+<para id="fs-id1167836560597">In the following exercises, find a general term for the sequence whose first five terms are shown.</para>
+<exercise id="fs-id1167836560600" class="material-set-2">
+<problem id="fs-id1167829599598">
+<para id="fs-id1167829599600"><m:math><m:mrow><m:mn>8</m:mn><m:mo>,</m:mo><m:mn>16</m:mn><m:mo>,</m:mo><m:mn>24</m:mn><m:mo>,</m:mo><m:mn>32</m:mn><m:mo>,</m:mo><m:mn>40</m:mn><m:mo>,</m:mo><m:mtext>…</m:mtext></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836530056">
+<para id="fs-id1167836530058"><m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:mn>8</m:mn><m:mi>n</m:mi></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167836663456" class="material-set-2">
+<problem id="fs-id1167836663458">
+<para id="fs-id1167836663460"><m:math><m:mrow><m:mn>7</m:mn><m:mo>,</m:mo><m:mn>14</m:mn><m:mo>,</m:mo><m:mn>21</m:mn><m:mo>,</m:mo><m:mn>28</m:mn><m:mo>,</m:mo><m:mn>35</m:mn><m:mo>,</m:mo><m:mtext>…</m:mtext></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167833369184" class="material-set-2">
+<problem id="fs-id1167833369187">
+<para id="fs-id1167833369189"><m:math><m:mrow><m:mn>6</m:mn><m:mo>,</m:mo><m:mn>7</m:mn><m:mo>,</m:mo><m:mn>8</m:mn><m:mo>,</m:mo><m:mn>9</m:mn><m:mo>,</m:mo><m:mn>10</m:mn><m:mo>,</m:mo><m:mtext>…</m:mtext></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167829746838">
+<para id="fs-id1167829746840"><m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:mi>n</m:mi><m:mo>+</m:mo><m:mn>5</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167836433330" class="material-set-2">
+<problem id="fs-id1167836433332">
+<para id="fs-id1167836433335"><m:math><m:mrow><m:mn>−3</m:mn><m:mo>,</m:mo><m:mn>−2</m:mn><m:mo>,</m:mo><m:mn>−1</m:mn><m:mo>,</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mtext>…</m:mtext></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167836612792" class="material-set-2">
+<problem id="fs-id1167836612794">
+<para id="fs-id1167836612796"><m:math><m:mrow><m:msup><m:mi>e</m:mi><m:mn>3</m:mn></m:msup><m:mo>,</m:mo><m:msup><m:mi>e</m:mi><m:mn>4</m:mn></m:msup><m:mo>,</m:mo><m:msup><m:mi>e</m:mi><m:mn>5</m:mn></m:msup><m:mo>,</m:mo><m:msup><m:mi>e</m:mi><m:mn>6</m:mn></m:msup><m:mo>,</m:mo><m:msup><m:mi>e</m:mi><m:mn>7</m:mn></m:msup><m:mo>,</m:mo><m:mtext>…</m:mtext></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836728288">
+<para id="fs-id1167836728290"><m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:msup><m:mi>e</m:mi><m:mrow><m:mi>n</m:mi><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167829811395" class="material-set-2">
+<problem id="fs-id1167829811398">
+<para id="fs-id1167829811400"><m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:msup><m:mi>e</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>,</m:mo><m:mfrac><m:mn>1</m:mn><m:mi>e</m:mi></m:mfrac><m:mo>,</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mi>e</m:mi><m:mo>,</m:mo><m:msup><m:mi>e</m:mi><m:mn>2</m:mn></m:msup><m:mo>,</m:mo><m:mtext>…</m:mtext></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167829742040" class="material-set-2">
+<problem id="fs-id1167836363311">
+<para id="fs-id1167836363313"><m:math><m:mrow><m:mn>−5</m:mn><m:mo>,</m:mo><m:mn>10</m:mn><m:mo>,</m:mo><m:mn>−15</m:mn><m:mo>,</m:mo><m:mn>20</m:mn><m:mo>,</m:mo><m:mn>−25</m:mn><m:mo>,</m:mo><m:mtext>…</m:mtext></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836731605">
+<para id="fs-id1167836731607"><m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>−1</m:mn><m:mo stretchy="false">)</m:mo></m:mrow><m:mi>n</m:mi></m:msup><m:mn>5</m:mn><m:mi>n</m:mi></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167836560420" class="material-set-2">
+<problem id="fs-id1167836560422">
+<para id="fs-id1167836560424"><m:math><m:mrow><m:mn>−6</m:mn><m:mo>,</m:mo><m:mn>11</m:mn><m:mo>,</m:mo><m:mn>−16</m:mn><m:mo>,</m:mo><m:mn>21</m:mn><m:mo>,</m:mo><m:mn>−26</m:mn><m:mo>,</m:mo><m:mtext>…</m:mtext></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167836532531" class="material-set-2">
+<problem id="fs-id1167829752946">
+<para id="fs-id1167829752948"><m:math><m:mrow><m:mn>−1</m:mn><m:mo>,</m:mo><m:mn>8</m:mn><m:mo>,</m:mo><m:mn>−27</m:mn><m:mo>,</m:mo><m:mn>64</m:mn><m:mo>,</m:mo><m:mn>−125</m:mn><m:mo>,</m:mo><m:mtext>…</m:mtext></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167833019697">
+<para id="fs-id1167833019699"><m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>−1</m:mn><m:mo stretchy="false">)</m:mo></m:mrow><m:mi>n</m:mi></m:msup><m:msup><m:mi>n</m:mi><m:mn>3</m:mn></m:msup></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167832945880" class="material-set-2">
+<problem id="fs-id1167832945882">
+<para id="fs-id1167832945885"><m:math><m:mrow><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>−5</m:mn><m:mo>,</m:mo><m:mn>10</m:mn><m:mo>,</m:mo><m:mn>−17</m:mn><m:mo>,</m:mo><m:mn>26</m:mn><m:mo>,</m:mo><m:mtext>…</m:mtext></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167836477546" class="material-set-2">
+<problem id="fs-id1167836477548">
+<para id="fs-id1167836477550"><m:math><m:mrow><m:mn>−2</m:mn><m:mo>,</m:mo><m:mn>4</m:mn><m:mo>,</m:mo><m:mn>−6</m:mn><m:mo>,</m:mo><m:mn>8</m:mn><m:mo>,</m:mo><m:mn>−10</m:mn><m:mo>,</m:mo><m:mtext>…</m:mtext></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836559964">
+<para id="fs-id1167836559966"><m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>−1</m:mn><m:mo stretchy="false">)</m:mo></m:mrow><m:mi>n</m:mi></m:msup><m:mn>2</m:mn><m:mi>n</m:mi></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167829906696" class="material-set-2">
+<problem id="fs-id1167836293168">
+<para id="fs-id1167836293170"><m:math><m:mrow><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>−3</m:mn><m:mo>,</m:mo><m:mn>5</m:mn><m:mo>,</m:mo><m:mn>−7</m:mn><m:mo>,</m:mo><m:mn>9</m:mn><m:mo>,</m:mo><m:mtext>…</m:mtext></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167833380689" class="material-set-2">
+<problem id="fs-id1167833380691">
+<para id="fs-id1167833380693"><m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>4</m:mn></m:mfrac><m:mo>,</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>16</m:mn></m:mrow></m:mfrac><m:mo>,</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>64</m:mn></m:mrow></m:mfrac><m:mo>,</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>256</m:mn></m:mrow></m:mfrac><m:mo>,</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>1,024</m:mn></m:mrow></m:mfrac><m:mo>,</m:mo><m:mtext>…</m:mtext></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836415616">
+<para id="fs-id1167836635475"><m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:msup><m:mn>4</m:mn><m:mi>n</m:mi></m:msup></m:mrow></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167836386988" class="material-set-2">
+<problem id="fs-id1167836386990">
+<para id="fs-id1167836386992"><m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>1</m:mn></m:mfrac><m:mo>,</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>8</m:mn></m:mfrac><m:mo>,</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>27</m:mn></m:mrow></m:mfrac><m:mo>,</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>64</m:mn></m:mrow></m:mfrac><m:mo>,</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>125</m:mn></m:mrow></m:mfrac><m:mo>,</m:mo><m:mtext>…</m:mtext></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167829747828" class="material-set-2">
+<problem id="fs-id1167829747830">
+<para id="fs-id1167829747832"><m:math><m:mrow><m:mo>−</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mo>,</m:mo><m:mo>−</m:mo><m:mfrac><m:mn>2</m:mn><m:mn>3</m:mn></m:mfrac><m:mo>,</m:mo><m:mo>−</m:mo><m:mfrac><m:mn>3</m:mn><m:mn>4</m:mn></m:mfrac><m:mo>,</m:mo><m:mo>−</m:mo><m:mfrac><m:mn>4</m:mn><m:mn>5</m:mn></m:mfrac><m:mo>,</m:mo><m:mo>−</m:mo><m:mfrac><m:mn>5</m:mn><m:mn>6</m:mn></m:mfrac><m:mo>,</m:mo><m:mtext>…</m:mtext></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836728478">
+<para id="fs-id1167836728480"><m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mi>n</m:mi><m:mrow><m:mi>n</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167829753358" class="material-set-2">
+<problem id="fs-id1167829753360">
+<para id="fs-id1167829753362"><m:math><m:mrow><m:mn>−2</m:mn><m:mo>,</m:mo><m:mo>−</m:mo><m:mfrac><m:mn>3</m:mn><m:mn>2</m:mn></m:mfrac><m:mo>,</m:mo><m:mo>−</m:mo><m:mfrac><m:mn>4</m:mn><m:mn>3</m:mn></m:mfrac><m:mo>,</m:mo><m:mo>−</m:mo><m:mfrac><m:mn>5</m:mn><m:mn>4</m:mn></m:mfrac><m:mo>,</m:mo><m:mo>−</m:mo><m:mfrac><m:mn>6</m:mn><m:mn>5</m:mn></m:mfrac><m:mo>,</m:mo><m:mtext>…</m:mtext></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167836684137" class="material-set-2">
+<problem id="fs-id1167836684139">
+<para id="fs-id1167833021620"><m:math><m:mrow><m:mo>−</m:mo><m:mfrac><m:mn>5</m:mn><m:mn>2</m:mn></m:mfrac><m:mo>,</m:mo><m:mo>−</m:mo><m:mfrac><m:mn>5</m:mn><m:mn>4</m:mn></m:mfrac><m:mo>,</m:mo><m:mo>−</m:mo><m:mfrac><m:mn>5</m:mn><m:mn>8</m:mn></m:mfrac><m:mo>,</m:mo><m:mo>−</m:mo><m:mfrac><m:mn>5</m:mn><m:mrow><m:mn>16</m:mn></m:mrow></m:mfrac><m:mo>,</m:mo><m:mo>−</m:mo><m:mfrac><m:mn>5</m:mn><m:mrow><m:mn>32</m:mn></m:mrow></m:mfrac><m:mo>,</m:mo><m:mtext>…</m:mtext></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167829711771">
+<para id="fs-id1167829711773"><m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mn>5</m:mn><m:mrow><m:msup><m:mn>2</m:mn><m:mi>n</m:mi></m:msup></m:mrow></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167829751436" class="material-set-2">
+<problem id="fs-id1167829751438">
+<para id="fs-id1167829751440"><m:math><m:mrow><m:mn>4</m:mn><m:mo>,</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mo>,</m:mo><m:mfrac><m:mn>4</m:mn><m:mrow><m:mn>27</m:mn></m:mrow></m:mfrac><m:mo>,</m:mo><m:mfrac><m:mn>4</m:mn><m:mrow><m:mn>64</m:mn></m:mrow></m:mfrac><m:mo>,</m:mo><m:mfrac><m:mn>4</m:mn><m:mrow><m:mn>125</m:mn></m:mrow></m:mfrac><m:mo>,</m:mo><m:mtext>…</m:mtext></m:mrow></m:math></para>
+</problem>
+</exercise>
+<para id="fs-id1167829720967"><emphasis effect="bold">Use Factorial Notation</emphasis></para>
+<para id="fs-id1167829720972">In the following exercises, using factorial notation, write the first five terms of the sequence whose general term is given.</para>
+<exercise id="fs-id1167829720976" class="material-set-2">
+<problem id="fs-id1167829720978">
+<para id="fs-id1167836398761"><m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:mfrac><m:mn>4</m:mn><m:mrow><m:mi>n</m:mi><m:mo>!</m:mo></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167829906646">
+<para id="fs-id1167829906648"><m:math><m:mrow><m:mn>4</m:mn><m:mo>,</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mfrac><m:mn>2</m:mn><m:mn>3</m:mn></m:mfrac><m:mo>,</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>6</m:mn></m:mfrac><m:mo>,</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>30</m:mn></m:mrow></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167836362732" class="material-set-2">
+<problem id="fs-id1167836362734">
+<para id="fs-id1167836362736"><m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:mfrac><m:mn>5</m:mn><m:mrow><m:mi>n</m:mi><m:mo>!</m:mo></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167829745763" class="material-set-2">
+<problem id="fs-id1167829745765">
+<para id="fs-id1167829745767"><m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:mn>3</m:mn><m:mi>n</m:mi><m:mo>!</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167829753610">
+<para id="fs-id1167829753612"><m:math><m:mrow><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>6</m:mn><m:mo>,</m:mo><m:mn>18</m:mn><m:mo>,</m:mo><m:mn>72</m:mn><m:mo>,</m:mo><m:mn>360</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167833018403" class="material-set-2">
+<problem id="fs-id1167833018406">
+<para id="fs-id1167833018408"><m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>n</m:mi><m:mo>!</m:mo></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167833025452" class="material-set-2">
+<problem id="fs-id1167833025454">
+<para id="fs-id1167833025456"><m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mi>n</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>!</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167829906197">
+<para id="fs-id1167829906199"><m:math><m:mrow><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>24</m:mn><m:mo>,</m:mo><m:mn>720</m:mn><m:mo>,</m:mo><m:mn>40320</m:mn><m:mo>,</m:mo><m:mn>3628800</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167829742666" class="material-set-2">
+<problem id="fs-id1167829742668">
+<para id="fs-id1167829742670"><m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3</m:mn><m:mi>n</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>!</m:mo></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167836289638" class="material-set-2">
+<problem id="fs-id1167836289640">
+<para id="fs-id1167836289642"><m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>!</m:mo></m:mrow><m:mrow><m:mrow><m:mo>(</m:mo><m:mi>n</m:mi><m:mo>)</m:mo></m:mrow><m:mo>!</m:mo></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167833379764">
+<para id="fs-id1167829904857"><m:math><m:mrow><m:mn>1</m:mn><m:mo>,</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mo>,</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac><m:mo>,</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>4</m:mn></m:mfrac><m:mo>,</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>5</m:mn></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167836511165" class="material-set-2">
+<problem id="fs-id1167829850885">
+<para id="fs-id1167829850887"><m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>n</m:mi><m:mo>!</m:mo></m:mrow><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>n</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>!</m:mo></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167829627454" class="material-set-2">
+<problem id="fs-id1167829627456">
+<para id="fs-id1167836699088"><m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>n</m:mi><m:mo>!</m:mo></m:mrow><m:mrow><m:msup><m:mi>n</m:mi><m:mtext>2</m:mtext></m:msup></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836621263">
+<para id="fs-id1167836621266"><m:math><m:mrow><m:mn>1</m:mn><m:mo>,</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mo>,</m:mo><m:mfrac><m:mn>2</m:mn><m:mn>3</m:mn></m:mfrac><m:mo>,</m:mo><m:mfrac><m:mn>3</m:mn><m:mn>2</m:mn></m:mfrac><m:mo>,</m:mo><m:mfrac><m:mrow><m:mn>24</m:mn></m:mrow><m:mn>5</m:mn></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167836398785" class="material-set-2">
+<problem id="fs-id1167836398787">
+<para id="fs-id1167836398789"><m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:msup><m:mi>n</m:mi><m:mtext>2</m:mtext></m:msup></m:mrow><m:mrow><m:mi>n</m:mi><m:mo>!</m:mo></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167829681252" class="material-set-2">
+<problem id="fs-id1167829681254">
+<para id="fs-id1167829681257"><m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>n</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>!</m:mo></m:mrow><m:mrow><m:msup><m:mi>n</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836607396">
+<para id="fs-id1167829936533"><m:math><m:mrow><m:mn>2</m:mn><m:mo>,</m:mo><m:mfrac><m:mn>3</m:mn><m:mn>2</m:mn></m:mfrac><m:mo>,</m:mo><m:mfrac><m:mn>8</m:mn><m:mn>3</m:mn></m:mfrac><m:mo>,</m:mo><m:mfrac><m:mrow><m:mn>15</m:mn></m:mrow><m:mn>2</m:mn></m:mfrac><m:mo>,</m:mo><m:mfrac><m:mrow><m:mn>144</m:mn></m:mrow><m:mn>5</m:mn></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167836662794" class="material-set-2">
+<problem id="fs-id1167836662797">
+<para id="fs-id1167829754708"><m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>n</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>!</m:mo></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>n</m:mi></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+</exercise>
+<para id="fs-id1167836433402"><emphasis effect="bold">Find the Partial Sum</emphasis></para>
+<para id="fs-id1167836433408">In the following exercises, expand the partial sum and find its value.</para>
+<exercise id="fs-id1167836433411" class="material-set-2">
+<problem id="fs-id1167836433413">
+<para id="fs-id1167836433415"><m:math><m:mrow><m:mstyle displaystyle="true"><m:munderover><m:mo>∑</m:mo><m:mrow><m:mi>i</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow><m:mn>5</m:mn></m:munderover><m:mrow><m:msup><m:mi>i</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mstyle></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167829752801">
+<para id="fs-id1167829752803"><m:math><m:mrow><m:mn>1</m:mn><m:mo>+</m:mo><m:mn>4</m:mn><m:mo>+</m:mo><m:mn>9</m:mn><m:mo>+</m:mo><m:mn>16</m:mn><m:mo>+</m:mo><m:mn>25</m:mn><m:mo>=</m:mo><m:mn>55</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167829808424" class="material-set-2">
+<problem id="fs-id1167829808427">
+<para id="fs-id1167829808429"><m:math><m:mrow><m:mstyle displaystyle="true"><m:munderover><m:mo>∑</m:mo><m:mrow><m:mi>i</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow><m:mn>5</m:mn></m:munderover><m:mrow><m:msup><m:mi>i</m:mi><m:mn>3</m:mn></m:msup></m:mrow></m:mstyle></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167829741717" class="material-set-2">
+<problem id="fs-id1167829741719">
+<para id="fs-id1167829741722"><m:math><m:mrow><m:mstyle displaystyle="true"><m:munderover><m:mo>∑</m:mo><m:mrow><m:mi>i</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow><m:mn>6</m:mn></m:munderover><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mi>i</m:mi></m:mrow></m:mstyle><m:mo>+</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836635456">
+<para id="fs-id1167836635459"><m:math><m:mrow><m:mn>5</m:mn><m:mo>+</m:mo><m:mn>7</m:mn><m:mo>+</m:mo><m:mn>9</m:mn><m:mo>+</m:mo><m:mn>11</m:mn><m:mo>+</m:mo><m:mn>13</m:mn><m:mo>+</m:mo><m:mn>15</m:mn><m:mo>=</m:mo><m:mn>60</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167836528185" class="material-set-2">
+<problem id="fs-id1167836528187">
+<para id="fs-id1167836528189"><m:math><m:mrow><m:mstyle displaystyle="true"><m:munderover><m:mo>∑</m:mo><m:mrow><m:mi>i</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow><m:mn>6</m:mn></m:munderover><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mi>i</m:mi></m:mrow></m:mstyle><m:mo>−</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167836548302" class="material-set-2">
+<problem id="fs-id1167836548304">
+<para id="fs-id1167836732280"><m:math><m:mrow><m:mstyle displaystyle="true"><m:munderover><m:mo>∑</m:mo><m:mrow><m:mi>i</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow><m:mn>4</m:mn></m:munderover><m:mrow><m:msup><m:mn>2</m:mn><m:mi>i</m:mi></m:msup></m:mrow></m:mstyle></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167833021801">
+<para id="fs-id1167833021803"><m:math><m:mrow><m:mn>2</m:mn><m:mo>+</m:mo><m:mn>4</m:mn><m:mo>+</m:mo><m:mn>8</m:mn><m:mo>+</m:mo><m:mn>16</m:mn><m:mo>=</m:mo><m:mn>30</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167836510199" class="material-set-2">
+<problem id="fs-id1167836510201">
+<para id="fs-id1167836510204"><m:math><m:mrow><m:mstyle displaystyle="true"><m:munderover><m:mo>∑</m:mo><m:mrow><m:mi>i</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow><m:mn>4</m:mn></m:munderover><m:mrow><m:msup><m:mn>3</m:mn><m:mi>i</m:mi></m:msup></m:mrow></m:mstyle></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167836386938" class="material-set-2">
+<problem id="fs-id1167833381315">
+<para id="fs-id1167833381317"><m:math><m:mrow><m:mstyle displaystyle="true"><m:munderover><m:mo>∑</m:mo><m:mrow><m:mi>k</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow><m:mn>3</m:mn></m:munderover><m:mrow><m:mfrac><m:mn>4</m:mn><m:mrow><m:mi>k</m:mi><m:mo>!</m:mo></m:mrow></m:mfrac></m:mrow></m:mstyle></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167833202871">
+<para id="fs-id1167833202873"><m:math><m:mrow><m:mfrac><m:mn>4</m:mn><m:mn>1</m:mn></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>4</m:mn><m:mn>1</m:mn></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>4</m:mn><m:mn>2</m:mn></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>4</m:mn><m:mn>6</m:mn></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mn>32</m:mn><m:mn>3</m:mn></m:mfrac><m:mo>=</m:mo><m:mn>10</m:mn><m:mfrac><m:mrow><m:mn>2</m:mn></m:mrow><m:mrow><m:mn>3</m:mn></m:mrow></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167836444835" class="material-set-2">
+<problem id="fs-id1167836433208">
+<para id="fs-id1167836433210"><m:math><m:mrow><m:mstyle displaystyle="true"><m:munderover><m:mo>∑</m:mo><m:mrow><m:mi>k</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow><m:mn>4</m:mn></m:munderover><m:mrow><m:mo>−</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mi>k</m:mi><m:mo>!</m:mo></m:mrow></m:mfrac></m:mrow></m:mstyle></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167829905677" class="material-set-2">
+<problem id="fs-id1167829905679">
+<para id="fs-id1167829905681"><m:math><m:mrow><m:mstyle displaystyle="true"><m:munderover><m:mo>∑</m:mo><m:mrow><m:mi>k</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow><m:mn>5</m:mn></m:munderover><m:mrow><m:mi>k</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>k</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:mstyle></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167832994357">
+<para id="fs-id1167832994359"><m:math><m:mrow><m:mn>2</m:mn><m:mo>+</m:mo><m:mn>6</m:mn><m:mo>+</m:mo><m:mn>12</m:mn><m:mo>+</m:mo><m:mn>20</m:mn><m:mo>+</m:mo><m:mn>30</m:mn><m:mo>=</m:mo><m:mn>70</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167833381075" class="material-set-2">
+<problem id="fs-id1167833381078">
+<para id="fs-id1167833381080"><m:math><m:mrow><m:mstyle displaystyle="true"><m:munderover><m:mo>∑</m:mo><m:mrow><m:mi>k</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow><m:mn>5</m:mn></m:munderover><m:mrow><m:mi>k</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mi>k</m:mi><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:mstyle></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167836728850" class="material-set-2">
+<problem id="fs-id1167836728852">
+<para id="fs-id1167836728854"><m:math><m:mrow><m:mstyle displaystyle="true"><m:munderover><m:mo>∑</m:mo><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow><m:mn>5</m:mn></m:munderover><m:mrow><m:mfrac><m:mi>n</m:mi><m:mrow><m:mi>n</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:mfrac></m:mrow></m:mstyle></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836363431">
+<para id="fs-id1167836363433"><m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>2</m:mn><m:mn>3</m:mn></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>3</m:mn><m:mn>4</m:mn></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>4</m:mn><m:mn>5</m:mn></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>5</m:mn><m:mn>6</m:mn></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>71</m:mn></m:mrow><m:mrow><m:mn>20</m:mn></m:mrow></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167829755864" class="material-set-2">
+<problem id="fs-id1167829755867">
+<para id="fs-id1167829755869"><m:math><m:mrow><m:mstyle displaystyle="true"><m:munderover><m:mo>∑</m:mo><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow><m:mn>4</m:mn></m:munderover><m:mrow><m:mfrac><m:mi>n</m:mi><m:mrow><m:mi>n</m:mi><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow></m:mfrac></m:mrow></m:mstyle></m:mrow></m:math></para>
+</problem>
+</exercise>
+<para id="fs-id1167836732252"><emphasis effect="bold">Use Summation Notation to write a Sum</emphasis></para>
+<para id="fs-id1167836732257">In the following exercises, write each sum using summation notation.</para>
+<exercise id="fs-id1167836732260" class="material-set-2">
+<problem id="fs-id1167836732262">
+<para id="fs-id1167836732265"><m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>9</m:mn></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>27</m:mn></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>81</m:mn></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>243</m:mn></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167829627761">
+<para id="fs-id1167829627763"><m:math><m:mrow><m:mstyle displaystyle="true"><m:munderover><m:mo>∑</m:mo><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow><m:mn>5</m:mn></m:munderover><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:msup><m:mn>3</m:mn><m:mi>n</m:mi></m:msup></m:mrow></m:mfrac></m:mrow></m:mstyle></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167833379856" class="material-set-2">
+<problem id="fs-id1167833379858">
+<para id="fs-id1167833379860"><m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>4</m:mn></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>16</m:mn></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>64</m:mn></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>256</m:mn></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167829720089" class="material-set-2">
+<problem id="fs-id1167829720091">
+<para id="fs-id1167829720093"><m:math><m:mrow><m:mn>1</m:mn><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>8</m:mn></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>27</m:mn></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>64</m:mn></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>125</m:mn></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836450380">
+<para id="fs-id1167836450383"><m:math><m:mrow><m:mstyle displaystyle="true"><m:munderover><m:mo>∑</m:mo><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow><m:mn>5</m:mn></m:munderover><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:msup><m:mi>n</m:mi><m:mn>3</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:mstyle></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167836331126" class="material-set-2">
+<problem id="fs-id1167836331128">
+<para id="fs-id1167829693463"><m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>5</m:mn></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>25</m:mn></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>125</m:mn></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>625</m:mn></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167833380085" class="material-set-2">
+<problem id="fs-id1167833380087">
+<para id="fs-id1167833380089"><m:math><m:mrow><m:mn>2</m:mn><m:mo>+</m:mo><m:mn>1</m:mn><m:mo>+</m:mo><m:mfrac><m:mn>2</m:mn><m:mn>3</m:mn></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>2</m:mn><m:mn>5</m:mn></m:mfrac></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167829627310">
+<para id="fs-id1167829627312"><m:math><m:mrow><m:mstyle displaystyle="true"><m:munderover><m:mo>∑</m:mo><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow><m:mn>5</m:mn></m:munderover><m:mrow><m:mfrac><m:mn>2</m:mn><m:mi>n</m:mi></m:mfrac></m:mrow></m:mstyle></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167829811078" class="material-set-2">
+<problem id="fs-id1167829811080">
+<para id="fs-id1167829811082"><m:math><m:mrow><m:mn>3</m:mn><m:mo>+</m:mo><m:mfrac><m:mn>3</m:mn><m:mn>2</m:mn></m:mfrac><m:mo>+</m:mo><m:mn>1</m:mn><m:mo>+</m:mo><m:mfrac><m:mn>3</m:mn><m:mn>4</m:mn></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>3</m:mn><m:mn>5</m:mn></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167836728731" class="material-set-2">
+<problem id="fs-id1167836728733">
+<para id="fs-id1167836728735"><m:math><m:mrow><m:mn>3</m:mn><m:mo>−</m:mo><m:mn>6</m:mn><m:mo>+</m:mo><m:mn>9</m:mn><m:mo>−</m:mo><m:mn>12</m:mn><m:mo>+</m:mo><m:mn>15</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836729430">
+<para id="fs-id1167836729432"><m:math><m:mrow><m:mstyle displaystyle="true"><m:munderover><m:mo>∑</m:mo><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow><m:mn>5</m:mn></m:munderover><m:mrow><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>−1</m:mn><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:mi>n</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:msup><m:mn>3</m:mn><m:mi>n</m:mi></m:mrow></m:mstyle></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167836626890" class="material-set-2">
+<problem id="fs-id1167836626892">
+<para id="fs-id1167836626894"><m:math><m:mrow><m:mn>−5</m:mn><m:mo>+</m:mo><m:mn>10</m:mn><m:mo>−</m:mo><m:mn>15</m:mn><m:mo>+</m:mo><m:mn>20</m:mn><m:mo>−</m:mo><m:mn>25</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167829905564" class="material-set-2">
+<problem id="fs-id1167829905566">
+<para id="fs-id1167829905569"><m:math><m:mrow><m:mn>−2</m:mn><m:mo>+</m:mo><m:mn>4</m:mn><m:mo>−</m:mo><m:mn>6</m:mn><m:mo>+</m:mo><m:mn>8</m:mn><m:mo>−</m:mo><m:mn>10</m:mn><m:mo>+</m:mo><m:mo>…</m:mo><m:mo>+</m:mo><m:mn>20</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167829905835">
+<para id="fs-id1167829905837"><m:math><m:mrow><m:mstyle displaystyle="true"><m:munderover><m:mo>∑</m:mo><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow><m:mrow><m:mn>10</m:mn></m:mrow></m:munderover><m:mrow><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>−1</m:mn><m:mo stretchy="false">)</m:mo></m:mrow><m:mi>n</m:mi></m:msup><m:mn>2</m:mn><m:mi>n</m:mi></m:mrow></m:mstyle></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167836728528" class="material-set-2">
+<problem id="fs-id1167836728530">
+<para id="fs-id1167836728532"><m:math><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:mn>3</m:mn><m:mo>+</m:mo><m:mn>5</m:mn><m:mo>−</m:mo><m:mn>7</m:mn><m:mo>+</m:mo><m:mn>9</m:mn><m:mo>+</m:mo><m:mo>…</m:mo><m:mo>+</m:mo><m:mn>21</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167829790474" class="material-set-2">
+<problem id="fs-id1167829790476">
+<para id="fs-id1167829790478"><m:math><m:mrow><m:mn>14</m:mn><m:mo>+</m:mo><m:mn>16</m:mn><m:mo>+</m:mo><m:mn>18</m:mn><m:mo>+</m:mo><m:mn>20</m:mn><m:mo>+</m:mo><m:mn>22</m:mn><m:mo>+</m:mo><m:mn>24</m:mn><m:mo>+</m:mo><m:mn>26</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836732228">
+<para id="fs-id1167836732231"><m:math><m:mrow><m:mstyle displaystyle="true"><m:munderover><m:mo>∑</m:mo><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow><m:mn>7</m:mn></m:munderover><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mi>n</m:mi><m:mo>+</m:mo><m:mn>12</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:mstyle></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167833379616" class="material-set-2">
+<problem id="fs-id1167833379618">
+<para id="fs-id1167833379620"><m:math><m:mrow><m:mn>9</m:mn><m:mo>+</m:mo><m:mn>11</m:mn><m:mo>+</m:mo><m:mn>13</m:mn><m:mo>+</m:mo><m:mn>15</m:mn><m:mo>+</m:mo><m:mn>17</m:mn><m:mo>+</m:mo><m:mn>19</m:mn><m:mo>+</m:mo><m:mn>21</m:mn></m:mrow></m:math></para>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1167836730456" class="writing">
+<title>Writing Exercises</title>
+<exercise id="fs-id1167836730097" class="material-set-2">
+<problem id="fs-id1167836730099">
+<para id="fs-id1167836730101">In your own words, explain how to write the terms of a sequence when you know the formula. Show an example to illustrate your explanation.</para>
+</problem>
+<solution id="fs-id1167836730107">
+<para id="fs-id1167836730109">Answers will vary.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167836730114" class="material-set-2">
+<problem id="fs-id1167836730116">
+<para id="fs-id1167836730118">Which terms of the sequence are negative when the <emphasis effect="italics">n</emphasis><sup>th</sup> term of the sequence is <m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mi>n</m:mi></m:msup><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>n</m:mi><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>?</m:mo></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167833381108" class="material-set-2">
+<problem id="fs-id1167833381110">
+<para id="fs-id1167833381112">In your own words, explain what is meant by <m:math><m:mrow><m:mi>n</m:mi><m:mo>!</m:mo></m:mrow></m:math> Show some examples to illustrate your explanation.</para>
+</problem>
+<solution id="fs-id1167833381124">
+<para id="fs-id1167833381126">Answers will vary.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167833381132" class="material-set-2">
+<problem id="fs-id1167833381134">
+<para id="fs-id1167829904879">Explain what each part of the notation <m:math><m:mrow><m:mstyle displaystyle="true"><m:munderover><m:mo>∑</m:mo><m:mrow><m:mi>k</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow><m:mrow><m:mn>12</m:mn></m:mrow></m:munderover><m:mrow><m:mn>2</m:mn><m:mi>k</m:mi></m:mrow></m:mstyle></m:mrow></m:math> means.</para>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1167829904916">
+<title>Self Check</title>
+<para id="fs-id1167829809598"><span class="token">ⓐ</span> After completing the exercises, use this checklist to evaluate your mastery of the objectives of this section.</para>
+<media id="fs-id1167829809613" alt="This figure shows a table with four columns and six rows. The first row is the header row and labels each column, “I can”, “Confidently”, “With some help”, and “No I don’t get it!”. The first row in the second column reads, “Write the first few terms of a sequence”, the third row, first column reads, “Find a Formula for the nth Term of a Sequence”, the fourth row first column reads “Use Factorial Notation, the fifth row, first column reads, Find the partial sum”, and the last row, first column reads, “Use Summation Notation to write a Sum”. The remaining three columns and rows are blank.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_12_01_201_img.jpg"/></media>
+<para id="fs-id1167829809621"><span class="token">ⓑ</span> If most of your checks were:</para>
+<para id="fs-id1167829809628">…confidently. Congratulations! You have achieved the objectives in this section. Reflect on the study skills you used so that you can continue to use them. What did you do to become confident of your ability to do these things? Be specific.</para>
+<para id="fs-id1167836513507">…with some help. This must be addressed quickly because topics you do not master become potholes in your road to success. In math, every topic builds upon previous work. It is important to make sure you have a strong foundation before you move on. Whom can you ask for help?Your fellow classmates and instructor are good resources. Is there a place on campus where math tutors are available? Can your study skills be improved?</para>
+<para id="fs-id1167836513518">…no - I don’t get it! This is a warning sign and you must not ignore it. You should get help right away or you will quickly be overwhelmed. See your instructor as soon as you can to discuss your situation. Together you can come up with a plan to get you the help you need.</para>
+</section>
+</section>
+</content>
+<glossary>
+<definition id="fs-id1167836513531"><term>finite sequence</term>
+<meaning id="fs-id1167836513536">A sequence with a domain that is limited to a finite number of counting numbers.</meaning>
+</definition>
+<definition id="fs-id1167836513540"><term>general term of a sequence</term>
+<meaning id="fs-id1167829809632">The general term of the sequence is the formula for writing the <emphasis effect="italics">n</emphasis>th term of the sequence. The <emphasis effect="italics">n</emphasis>th term of the sequence, <m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mi>n</m:mi></m:msub><m:mo>,</m:mo></m:mrow></m:math> is the term in the <emphasis effect="italics">n</emphasis>th position where <emphasis effect="italics">n</emphasis> is a value in the domain.</meaning>
+</definition>
+<definition id="fs-id1167829742733"><term>infinite sequence</term>
+<meaning id="fs-id1167829742738">A sequence whose domain is all counting numbers and there is an infinite number of counting numbers.</meaning>
+</definition>
+<definition id="fs-id1167836731128"><term>partial sum</term>
+<meaning id="fs-id1167836731133">When we add a finite number of terms of a sequence, we call the sum a partial sum.</meaning>
+</definition>
+<definition id="fs-id1167836731137"><term>sequence</term>
+<meaning id="fs-id1167836731141">A sequence is a function whose domain is the counting numbers.</meaning>
+</definition>
+</glossary>
+</document>
