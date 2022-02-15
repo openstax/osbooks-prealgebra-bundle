@@ -4,7 +4,7 @@
 <metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m81420</md:content-id>
   <md:title>Binomial Theorem</md:title>
-  <md:abstract><para>By the end of this section, you will be able to:</para><list>
+  <md:abstract><para id="para-00001">By the end of this section, you will be able to:</para><list id="list-00001">
 <item>Use Pascal’s Triangle to expand a binomial</item>
 <item>Evaluate a binomial coefficient</item>
 <item>Use the Binomial Theorem to expand a binomial</item>
@@ -140,7 +140,7 @@ If you missed this problem, review <link target-id="fs-id1167836392219" document
 <media id="fs-id1167835331679" alt="A plus b to the power of 0 equals 1. The top level of Pascal’s Triangle is 1. A plus b to the power of 1 equals 1 a plus 1 b. The second level of Pascal’s Triangle is 1, 1. A plus b to the power of 2 equals 1 a to the power of 2 plus 2 a b plus 1 b to the power of 2. The third level of Pascal’s Triangle is 1, 2, 1. A plus b to the power of 3 equals 1 a to the power of 3 plus 3 a to the power of 2 b plus 3 a b to the power of 2 plus 1 b to the power of 3. The fourth level of Pascal’s Triangle is 1,3,3,1. A plus b to the power of 4 equals 1 a to the power of 4 plus 4 a to the power of 3 b plus 6 a to the power of 2 b to the power of 2 plus 4 a b to the power of 3 plus 1 b to the power of 4. The fifth level of Pascal’s Triangle is 1, 4, 6, 4, 1. A plus b to the power of 5 equals 1 a to the power of 5 plus 5 a to the power of 4 b plus 10 a to the power of 3 b to the power of 2 plus 10 a to the power of 2 b to the power of 3. The sixth row of the Pascal’s Triangle is 1, 5, 10, 10, 5, 1.">
 <image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_12_04_002_img.jpg"/>
 </media>
-<para id="fs-id1167835254902">The array to the right is called <term>Pascal’s Triangle</term>. Notice each number in the array is the sum of the two closest numbers in the row above. We can find the next row by starting and ending with one and then adding two adjacent numbers.</para>
+<para id="fs-id1167835254902">The array to the right is called <term id="term-00001">Pascal’s Triangle</term>. Notice each number in the array is the sum of the two closest numbers in the row above. We can find the next row by starting and ending with one and then adding two adjacent numbers.</para>
 <media id="fs-id1167834190649" alt="This figure shows Pascal’s Triangle. The first level is 1. The second level is 1, 1. The third level is 1, 2, 1. The fourth level is 1, 3, 3, 1. The fifth level is 1, 4, 6, 4, 1. The sixth level is 1, 5, 10, 10, 5, 1. The seventh level is 1, 6, 15, 20, 15, 6, 1.">
 <image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_12_04_003_img.jpg"/>
 </media>
@@ -290,8 +290,8 @@ If you missed this problem, review <link target-id="fs-id1167836392219" document
 </section>
 <section id="fs-id1167834446378">
 <title>Evaluate a Binomial Coefficient</title>
-<para id="fs-id1167835361505">While Pascal’s Triangle is one method to expand a binomial, we will also look at another method. Before we get to that, we need to introduce some more <term class="no-emphasis">factorial notation</term>. This notation is not only used to expand binomials, but also in the study and use of probability.</para>
-<para id="fs-id1167834196639">To find the coefficients of the terms of expanded binomials, we will need to be able to evaluate the notation <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mi>n</m:mi></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mi>r</m:mi></m:mtd></m:mtr></m:mtable><m:mo>)</m:mo></m:mrow></m:mrow></m:math> which is called a <term class="no-emphasis">binomial coefficient</term>. We read <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mi>n</m:mi></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mi>r</m:mi></m:mtd></m:mtr></m:mtable><m:mo>)</m:mo></m:mrow></m:mrow></m:math> as “<emphasis effect="italics">n</emphasis> choose <emphasis effect="italics">r</emphasis>” or “<emphasis effect="italics">n</emphasis> taken <emphasis effect="italics">r</emphasis> at a time”.</para>
+<para id="fs-id1167835361505">While Pascal’s Triangle is one method to expand a binomial, we will also look at another method. Before we get to that, we need to introduce some more <term class="no-emphasis" id="term-00002">factorial notation</term>. This notation is not only used to expand binomials, but also in the study and use of probability.</para>
+<para id="fs-id1167834196639">To find the coefficients of the terms of expanded binomials, we will need to be able to evaluate the notation <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mi>n</m:mi></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mi>r</m:mi></m:mtd></m:mtr></m:mtable><m:mo>)</m:mo></m:mrow></m:mrow></m:math> which is called a <term class="no-emphasis" id="term-00003">binomial coefficient</term>. We read <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mi>n</m:mi></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mi>r</m:mi></m:mtd></m:mtr></m:mtable><m:mo>)</m:mo></m:mrow></m:mrow></m:math> as “<emphasis effect="italics">n</emphasis> choose <emphasis effect="italics">r</emphasis>” or “<emphasis effect="italics">n</emphasis> taken <emphasis effect="italics">r</emphasis> at a time”.</para>
 <note id="fs-id1167834192529">
 <title>Binomial Coefficient <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mi>n</m:mi></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mi>r</m:mi></m:mtd></m:mtr></m:mtable><m:mo>)</m:mo></m:mrow></m:mrow></m:math></title>
 <para id="fs-id1167835369321">A binomial coefficient <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mi>n</m:mi></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mi>r</m:mi></m:mtd></m:mtr></m:mtable><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo></m:mrow></m:math> where <emphasis effect="italics">r</emphasis> and <emphasis effect="italics">n</emphasis> are integers with <m:math><m:mrow><m:mn>0</m:mn><m:mo>≤</m:mo><m:mi>r</m:mi><m:mo>≤</m:mo><m:mi>n</m:mi><m:mo>,</m:mo></m:mrow></m:math> is defined as</para>
@@ -473,7 +473,7 @@ If you missed this problem, review <link target-id="fs-id1167836392219" document
 </section>
 <section id="fs-id1167835230732">
 <title>Use the Binomial Theorem to Expand a Binomial</title>
-<para id="fs-id1167835230737">We are now ready to use the alternate method of expanding binomials. The <term>Binomial Theorem</term> uses the same pattern for the variables, but uses the binomial coefficient for the coefficient of each term.</para>
+<para id="fs-id1167835230737">We are now ready to use the alternate method of expanding binomials. The <term id="term-00004">Binomial Theorem</term> uses the same pattern for the variables, but uses the binomial coefficient for the coefficient of each term.</para>
 <note id="fs-id1167835323777">
 <title>Binomial Theorem</title>
 <para id="fs-id1167835323782">For any real numbers <emphasis effect="italics">a</emphasis> and <emphasis effect="italics">b</emphasis>, and positive integer <emphasis effect="italics">n</emphasis>,</para>
@@ -521,7 +521,7 @@ If you missed this problem, review <link target-id="fs-id1167836392219" document
 </solution>
 </exercise>
 </note>
-<para id="fs-id1167834183795">Notice that when we expanded <m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>p</m:mi><m:mo>+</m:mo><m:mi>q</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>4</m:mn></m:msup></m:mrow></m:math> in the last example, using the Binomial Theorem, we got the same coefficients we would get from using <term class="no-emphasis">Pascal’s Triangle</term>.</para>
+<para id="fs-id1167834183795">Notice that when we expanded <m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>p</m:mi><m:mo>+</m:mo><m:mi>q</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>4</m:mn></m:msup></m:mrow></m:math> in the last example, using the Binomial Theorem, we got the same coefficients we would get from using <term class="no-emphasis" id="term-00005">Pascal’s Triangle</term>.</para>
 <media id="fs-id1167835241554" alt="The figure above is P plus q to the power of 4 equals 4 choose 0 times p to the power of 4 plus 4 choose 1 times p to the power of 3 q plus 4 choose 2 times p to the power of 2 q to the power of 2 plus 4 choose 3 times p q to the power of 3 plus 4 choose 4 times q to the power of 4. P plus q to the power of 4 equals p to the power of 4 p to the power of 3 q plus 6 p to the power of 2 q to the power of 2 plus 4 p q to the power of 3 plus q to the power of 4. This figure on the right shows Pascal’s Triangle. The first level is 1. The second level is 1, 1. The third level is 1, 2, 1. The fourth level is 1, 3, 3, 1. The fifth level is 1, 4, 6, 4, 1. The sixth level is 1, 5, 10, 10, 5, 1. The seventh level is 1, 6, 15, 20, 15, 6, 1.">
 <image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_12_04_014_img.jpg"/>
 </media>
@@ -611,7 +611,7 @@ If you missed this problem, review <link target-id="fs-id1167836392219" document
 </solution>
 </exercise>
 </note>
-<para id="fs-id1167826803948">The real beauty of the Binomial Theorem is that it gives a formula for any particular term of the expansion without having to compute the whole sum. Let’s look for a pattern in the <term class="no-emphasis">Binomial Theorem</term>.</para>
+<para id="fs-id1167826803948">The real beauty of the Binomial Theorem is that it gives a formula for any particular term of the expansion without having to compute the whole sum. Let’s look for a pattern in the <term class="no-emphasis" id="term-00006">Binomial Theorem</term>.</para>
 <media id="fs-id1167826803959" alt="This figure shows a plus b to the power of n equals n choose 0 times a to the power of n b to the power of 0 plus n choose 1 times a to the power of n minus 1 b to the 1 plus n choose 2 times a to the power of n minus 2 b to the power of 2 plus ellipsis plus n choose r times a to the power of n minus r plus ellipsis plus n choose n times b to the power of n.">
 <image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_12_04_015_img.jpg"/>
 </media>
