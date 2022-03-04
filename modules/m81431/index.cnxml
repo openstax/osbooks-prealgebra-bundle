@@ -52,7 +52,7 @@ If you missed this problem, review <link target-id="fs-id1167834536325" document
 <para id="fs-id1167835421208">In this section we will learn of another method to solve systems of linear equations called Cramer’s rule. Before we can begin to use the rule, we need to learn some new definitions and notation.</para>
 <section id="fs-id1167834517668">
 <title>Evaluate the Determinant of a <m:math><m:mrow><m:mn>2</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mn>2</m:mn></m:mrow></m:math> Matrix</title>
-<para id="fs-id1167835287688">If a matrix has the same number of rows and columns, we call it a <term id="term-00001">square matrix</term>. Each square matrix has a real number associated with it called its <term id="term-00002">determinant</term>. To find the determinant of the square matrix <m:math><m:mrow><m:mrow><m:mo>[</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mi>a</m:mi><m:mspace width="1.5em"/><m:mi>b</m:mi></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mi>c</m:mi><m:mspace width="1.5em"/><m:mi>d</m:mi></m:mtd></m:mtr></m:mtable><m:mo>]</m:mo></m:mrow><m:mo>,</m:mo></m:mrow></m:math> we first write it as <m:math><m:mrow><m:mrow><m:mo>|</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mi>a</m:mi><m:mspace width="1.5em"/><m:mi>b</m:mi></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mi>c</m:mi><m:mspace width="1.5em"/><m:mi>d</m:mi></m:mtd></m:mtr></m:mtable><m:mo>|</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math> To get the real number value of the determinate we subtract the products of the diagonals, as shown.</para>
+<para id="fs-id1167835287688">If a matrix has the same number of rows and columns, we call it a <term id="term-00001">square matrix</term>. Each square matrix has a real number associated with it called its <term id="term-00002">determinant</term>. To find the determinant of the square matrix <m:math><m:mrow><m:mrow><m:mo>[</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mi>a</m:mi><m:mspace width="1.5em"/><m:mi>b</m:mi></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mi>c</m:mi><m:mspace width="1.5em"/><m:mi>d</m:mi></m:mtd></m:mtr></m:mtable><m:mo>]</m:mo></m:mrow><m:mo>,</m:mo></m:mrow></m:math> we first write it as <m:math><m:mrow><m:mrow><m:mo>|</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mi>a</m:mi><m:mspace width="1.5em"/><m:mi>b</m:mi></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mi>c</m:mi><m:mspace width="1.5em"/><m:mi>d</m:mi></m:mtd></m:mtr></m:mtable><m:mo>|</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math> To get the real number value of the determinant we subtract the products of the diagonals, as shown.</para>
 <media id="fs-id1167834079545" alt="A 2 by 2 determinant is show, with its first row being a, b and second one being c, d. These values are written between two vertical lines instead of brackets as in the case of matrices. Two arrows are shown, one from a to d, the other from c to b. This determinant is equal to ad minus bc.">
 <image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_04_06_001_img_new.jpg"/>
 </media>
@@ -64,7 +64,7 @@ If you missed this problem, review <link target-id="fs-id1167834536325" document
 <example id="fs-id1167835193012">
 <exercise id="fs-id1167832058394">
 <problem id="fs-id1167835369363">
-<para id="fs-id1167834432835">Evaluate the determinate of <span class="token">ⓐ</span> <m:math><m:mrow><m:mrow><m:mo>[</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mn>4</m:mn><m:mspace width="1.5em"/><m:mn>−2</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>3</m:mn><m:mspace width="1.5em"/><m:mn>−1</m:mn></m:mtd></m:mtr></m:mtable><m:mo>]</m:mo></m:mrow></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mrow><m:mo>[</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mn>−3</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−4</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>−2</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>0</m:mn></m:mtd></m:mtr></m:mtable><m:mo>]</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+<para id="fs-id1167834432835">Evaluate the determinant of <span class="token">ⓐ</span> <m:math><m:mrow><m:mrow><m:mo>[</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mn>4</m:mn><m:mspace width="1.5em"/><m:mn>−2</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>3</m:mn><m:mspace width="1.5em"/><m:mn>−1</m:mn></m:mtd></m:mtr></m:mtable><m:mo>]</m:mo></m:mrow></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mrow><m:mo>[</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mn>−3</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−4</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>−2</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>0</m:mn></m:mtd></m:mtr></m:mtable><m:mo>]</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
 </problem>
 <solution id="fs-id1167832042643">
 <para id="fs-id1167834191139"><span class="token">ⓐ</span><newline/>
@@ -133,7 +133,7 @@ If you missed this problem, review <link target-id="fs-id1167834536325" document
 <note id="fs-id1167835280362" class="try">
 <exercise id="fs-id1167834536041">
 <problem id="fs-id1167835422303">
-<para id="fs-id1167832057952">Evaluate the determinate of <span class="token">ⓐ</span> <m:math><m:mrow><m:mrow><m:mo>[</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mn>5</m:mn><m:mspace width="1.5em"/><m:mn>−3</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>2</m:mn><m:mspace width="1.5em"/><m:mn>−4</m:mn></m:mtd></m:mtr></m:mtable><m:mo>]</m:mo></m:mrow></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mrow><m:mo>[</m:mo><m:mtable><m:mtr><m:mtd columnalign="right"><m:mn>−4</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−6</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mn>0</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>7</m:mn></m:mtd></m:mtr></m:mtable><m:mo>]</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+<para id="fs-id1167832057952">Evaluate the determinant of <span class="token">ⓐ</span> <m:math><m:mrow><m:mrow><m:mo>[</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mn>5</m:mn><m:mspace width="1.5em"/><m:mn>−3</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>2</m:mn><m:mspace width="1.5em"/><m:mn>−4</m:mn></m:mtd></m:mtr></m:mtable><m:mo>]</m:mo></m:mrow></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mrow><m:mo>[</m:mo><m:mtable><m:mtr><m:mtd columnalign="right"><m:mn>−4</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−6</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mn>0</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>7</m:mn></m:mtd></m:mtr></m:mtable><m:mo>]</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
 </problem>
 <solution id="fs-id1167835208370">
 <para id="fs-id1167831912980"><span class="token">ⓐ</span> <m:math><m:mrow><m:mn>−14</m:mn><m:mo>;</m:mo></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mn>−28</m:mn></m:mrow></m:math></para>
@@ -143,7 +143,7 @@ If you missed this problem, review <link target-id="fs-id1167834536325" document
 <note id="fs-id1167832055377" class="try">
 <exercise id="fs-id1167834373486">
 <problem id="fs-id1167827902584">
-<para id="fs-id1167834357131">Evaluate the determinate of <span class="token">ⓐ</span> <m:math><m:mrow><m:mrow><m:mo>[</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mn>−1</m:mn><m:mspace width="1.5em"/><m:mn>3</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>−2</m:mn><m:mspace width="1.5em"/><m:mn>4</m:mn></m:mtd></m:mtr></m:mtable><m:mo>]</m:mo></m:mrow></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mrow><m:mo>[</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mn>−7</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−3</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>−5</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>0</m:mn></m:mtd></m:mtr></m:mtable><m:mo>]</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+<para id="fs-id1167834357131">Evaluate the determinant of <span class="token">ⓐ</span> <m:math><m:mrow><m:mrow><m:mo>[</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mn>−1</m:mn><m:mspace width="1.5em"/><m:mn>3</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>−2</m:mn><m:mspace width="1.5em"/><m:mn>4</m:mn></m:mtd></m:mtr></m:mtable><m:mo>]</m:mo></m:mrow></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mrow><m:mo>[</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mn>−7</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>−3</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>−5</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mn>0</m:mn></m:mtd></m:mtr></m:mtable><m:mo>]</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
 </problem>
 <solution id="fs-id1167826938221">
 <para id="fs-id1167834423524"><span class="token">ⓐ</span> 2 <span class="token">ⓑ</span> <m:math><m:mrow><m:mn>−15</m:mn></m:mrow></m:math></para>
@@ -741,7 +741,7 @@ If you missed this problem, review <link target-id="fs-id1167834536325" document
 <para id="fs-id1167831824215">Determine whether the points <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>5</m:mn><m:mo>,</m:mo><m:mn>−5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo></m:mrow></m:math> <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>4</m:mn><m:mo>,</m:mo><m:mn>−3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo></m:mrow></m:math> and <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>−1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> are collinear.</para>
 </problem>
 <solution id="fs-id1167832054072">
-<para id="fs-id1167834494991"><table id="fs-id1167834494992" class="unnumbered unstyled" summary="The 3 by 3 determinant has the last column with all ones. Substitute the values into the determinant. We get row 1: 5, minus 5, 1, row 2: 4, minus 3, 1 and row 3: 3, minus 1, 1. Evaluate the determinant by expanding by minors using column 3. Evaluate the determinants. Simplify to get D equal to 0. The value of the determinate is 0, so the points are collinear.">
+<para id="fs-id1167834494991"><table id="fs-id1167834494992" class="unnumbered unstyled" summary="The 3 by 3 determinant has the last column with all ones. Substitute the values into the determinant. We get row 1: 5, minus 5, 1, row 2: 4, minus 3, 1 and row 3: 3, minus 1, 1. Evaluate the determinant by expanding by minors using column 3. Evaluate the determinants. Simplify to get D equal to 0. The value of the determinant is 0, so the points are collinear.">
 <label/>
 <tgroup cols="2">
 <colspec colnum="1" colname="c1"/>
@@ -773,7 +773,7 @@ If you missed this problem, review <link target-id="fs-id1167834536325" document
 </row>
 <row valign="top">
 <entry valign="top" align="left"/>
-<entry valign="top" align="left">The value of the determinate is 0, so the<newline/>points are collinear.</entry>
+<entry valign="top" align="left">The value of the determinant is 0, so the<newline/>points are collinear.</entry>
 </row>
 </tbody>
 </tgroup>
@@ -845,7 +845,7 @@ Notice that to form the determinant <emphasis effect="italics">D</emphasis>, we 
 <section id="fs-id1167832015675" class="practice-perfect">
 <title>Practice Makes Perfect</title>
 <para id="fs-id1167834345575"><emphasis effect="bold">Evaluate the Determinant of a 2 × 2 Matrix</emphasis></para>
-<para id="fs-id1167834190283">In the following exercises, evaluate the determinate of each square matrix.</para>
+<para id="fs-id1167834190283">In the following exercises, evaluate the determinant of each square matrix.</para>
 <exercise id="fs-id1167835381468" class="material-set-2">
 <problem id="fs-id1167834403205">
 <para id="fs-id1167834556820"><m:math><m:mrow><m:mrow><m:mo>[</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mn>6</m:mn><m:mspace width="1.5em"/><m:mn>−2</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>3</m:mn><m:mspace width="1.5em"/><m:mn>−1</m:mn></m:mtd></m:mtr></m:mtable><m:mo>]</m:mo></m:mrow></m:mrow></m:math></para>
