@@ -10,7 +10,7 @@ To view these books online and view contributors, please visit:
 - _Intermediate Algebra 2e_ [online](https://openstax.org/details/books/intermediate-algebra-2e)
 
 ## License
-These books are available under the [Creative Commons Attribution License](./LICENSE) license.
+These books are available under the [Creative Commons Attribution-NonCommercial-ShareAlike License](./LICENSE) license.
 
 ## Support
 If you would like to support the creation of free textbooks for students, your [donations are welcome](https://riceconnect.rice.edu/donation/support-openstax-banner).
