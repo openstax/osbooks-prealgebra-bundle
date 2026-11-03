@@ -1,0 +1,795 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Statistics</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+    <md:title/>
+    <md:content-id>m00006</md:content-id>
+    <md:uuid>0fcc2d4a-e6af-45a4-a9dc-d493f11d49a0</md:uuid>
+  </metadata>
+  <content>
+
+      <section class="learning-objectives" id="sect-00001">
+      <title>Learning Objectives</title>
+      <para id="para-00001">After completing this section, you should be able to:</para>
+      <list list-type="enumerated" number-style="arabic" id="list-00001">
+      <item>Calculate the mode of a dataset.</item>
+      <item>Calculate the median of a dataset.</item>
+      <item>Calculate the mean of a dataset.</item>
+      <item>Contrast measures of central tendency to identify the most representative average.</item>
+      <item>Solve application problems involving mean, median, and mode.</item>
+      </list>
+     </section>
+      <para id="para-00002">What exactly do we mean when we describe something as "average"? Is the height of an average person the height that more people share than any other? What if we line up every person in the world, in order from shortest to tallest, and find the person right in the middle: Is that person’s height the average? Or maybe it’s something more complicated.</para>
+     <para id="para-00050">Imagine a game where you and a friend are trying to guess the typical person’s height. Once the guesses are made, you bring in every person and measure their height. You and your friend figure out how far off each of your guesses were from the actual value, then square that number. The result is the number of points you earn for that person. After we check every height and award points accordingly, the person with the lower score wins (because a lower score means that person’s guess was, overall, closer to the actual values). Could we define the average height to be the number that you should guess to give you the smallest possible score?</para>
+      <para id="para-00003">Each of these three methods of determining the “average” is commonly used. They are all methods of measuring <emphasis effect="italic">centrality </emphasis>(or <emphasis effect="italic">central tendency</emphasis>). Centrality is just a word that describes the middle of a set of data. All give potentially different results, and all are useful for different reasons. In this section, we’ll explore each of these methods of finding the “average.”</para>
+      <section id="sect-00002">
+      <title>The Mode</title>
+      <para id="para-00004">In our discussion of average heights, the first possible definition we offered was the height that more people share than any other. This is the <term id="term-00001">mode</term>, or the value that appears most often. If there are two modes, the data are <term id="term-00003">bimodal</term>.</para>
+      <para id="para-00007">Let’s look at some examples.</para>
+      <example id="exam-00001">
+      <title>Finding the Mode Using a Stem-and-Leaf Plot</title>
+      <exercise id="exer-00001">
+      <problem id="prob-00001">
+      <para id="para-00008">Previously, we looked at a stem-and-leaf plot of the sale prices (in dollars) of a particular collectible trading card:
+      <table frame="none" summary=" " class="unnumbered" id="table-00001">
+       <tgroup cols="2">
+       <colspec colnum="1" colname="c1" colwidth="1*" align="left"/>
+       <colspec colnum="2" colname="c2" colwidth="1*" align="left"/>
+       <tbody>
+       <row>
+       <entry align="left">0</entry>
+       <entry align="left">5 8 9</entry>
+       </row>
+       <row>
+       <entry align="left">1</entry>
+       <entry align="left">0 0 0 3 4 4 5 5 5 5 6 9 9</entry>
+       </row>
+       <row>
+       <entry align="left">2</entry>
+       <entry align="left">0 0 0 0 5 5 9 9</entry>
+       </row>
+       <row>
+       <entry align="left">3</entry>
+       <entry align="left">0 0 0 5 5</entry>
+       </row>
+       <row>
+       <entry align="left">4</entry>
+       <entry align="left">0 0 5</entry>
+       </row>
+       <row>
+       <entry align="left">5</entry>
+       <entry/>
+       </row>
+       <row>
+       <entry align="left">6</entry>
+       <entry align="left">0</entry>
+       </row></tbody>
+       </tgroup>
+       </table>
+     </para>
+      <para id="para-00009">What is the mode price?</para>
+      </problem>
+      <solution id="sol-00001">
+      <para id="para-00010">The mode is the price that appears most often. Both 15 and 20 appear 4 times, more than any other values. So, they are the modes (and we can conclude that this set of data is bimodal).</para>
+      </solution>
+      </exercise>
+      </example>
+      <note class="your-turn" id="note-00002">
+      <exercise id="exer-00002">
+      <problem id="prob-00002">
+      <para id="para-00011"><link class="os-embed" url="#exercise/CM-C08-M3-001"/></para>
+      </problem>
+      </exercise>
+      </note>
+      <para id="para-00014">When we have a complete list of the data or a stem-and-leaf plot, it’s pretty straightforward to find the mode; we just need to find the number that appears most often. If we’re given a frequency distribution instead, the technique is different (but just as straightforward): we’re looking for the number with the highest frequency.</para>
+      <example id="exam-00002">
+      <title>Finding the Mode Using a Frequency Distribution</title>
+      <exercise id="exer-00003">
+      <problem id="prob-00003">
+      <para id="para-00015">Previously, we created a frequency distribution of the number of siblings of conflict resolution class attendees.
+      <table summary=" " class="unnumbered" id="table-00003">
+      <tgroup cols="2">
+      <colspec colnum="1" colname="c1" colwidth="1*" align="center"/>
+      <colspec colnum="2" colname="c2" colwidth="1*" align="center"/>
+      <thead>
+      <row>
+      <entry>Number of Siblings</entry>
+      <entry>Frequency</entry>
+      </row>
+      </thead>
+      <tbody>
+      <row>
+      <entry>0</entry>
+      <entry>5</entry>
+      </row>
+      <row>
+      <entry>1</entry>
+      <entry>13</entry>
+      </row>
+      <row>
+      <entry>2</entry>
+      <entry>6</entry>
+      </row>
+      <row>
+      <entry>3</entry>
+      <entry>3</entry>
+      </row>
+      <row>
+      <entry>4</entry>
+      <entry>2</entry>
+      </row>
+      <row>
+      <entry>5</entry>
+      <entry>1</entry>
+      </row>
+      </tbody>
+      </tgroup>
+      </table>
+      </para>
+      <para id="para-00016">What is the mode of the number of siblings?</para>
+      </problem>
+      <solution id="sol-00003">
+      <para id="para-00017">The mode is the value that appears the most often, which means it has the greatest frequency. Thirteen of the respondents have one sibling, more than any other number. So, the mode is 1.</para>
+      </solution>
+      </exercise>
+      </example>
+      <note class="your-turn" id="note-00003">
+      <exercise id="exer-00004">
+      <problem id="prob-00004">
+      <para id="para-00018"><link class="os-embed" url="#exercise/CM-C08-M3-002"/></para>
+      </problem>
+      </exercise>
+      </note>
+      <para id="para-00021">What happens if there is no number in the data that appears more than once? In that case, by our definition, every data value is a mode. But according to some other definitions, the data would have no mode. In practice, though, it doesn’t really matter; if no data value appears more than once, then the mode is not helpful at all as a measure of centrality.</para>
+      </section>
+      <section id="sect-00003">
+      <title>The Median</title>
+      <para id="para-00022">Let's revisit our example of trying to identify the height of the “average” person. If we lined everyone up in order by height and found the person right in the middle, that person’s height is called the <term id="term-00002">median</term>, or the value that is greater than no more than half and less than no more than half of the values.</para>
+      <para id="para-00024">Let’s look at a really simple example. Consider the following list of numbers: 11, 12, 13, 13, 14. Is the first number on the list, 11, the median? There are no values less than 11 (that’s 0%), and there are four values greater than 11 (that’s 80%). Since more than 50% of the data are greater than 11, the definition is violated; it’s not the median. Here’s a chart with the rest of the data, with red shading to show where the definition is violated:
+      <table summary=" " id="table-00005">
+      <tgroup cols="5">
+      <colspec colnum="1" colname="c1" colwidth="1*"/>
+      <colspec colnum="2" colname="c2" colwidth="1*"/>
+      <colspec colnum="3" colname="c3" colwidth="1*"/>
+      <colspec colnum="4" colname="c4" colwidth="1*"/>
+      <colspec colnum="5" colname="c5" colwidth="1*"/>
+      <thead>
+      <row>
+      <entry>Data Value</entry>
+      <entry>Number of Values Below</entry>
+      <entry>Percentage of Values Below</entry>
+      <entry>Number of Values Above</entry>
+      <entry>Percentage of Values Above</entry>
+      </row>
+      </thead>
+      <tbody>
+      <row>
+      <entry>11</entry>
+      <entry xmlns="http://cnx.rice.edu/cnxml">0</entry>
+      <entry xmlns="http://cnx.rice.edu/cnxml">0%</entry>
+      <entry xmlns="http://cnx.rice.edu/cnxml">4</entry>
+      <entry xmlns="http://cnx.rice.edu/cnxml"><emphasis effect="bold">80%</emphasis></entry>
+      </row>
+      <row xmlns="http://cnx.rice.edu/cnxml">
+      <entry>12</entry>
+      <entry xmlns="http://cnx.rice.edu/cnxml">1</entry>
+      <entry xmlns="http://cnx.rice.edu/cnxml">20%</entry>
+      <entry xmlns="http://cnx.rice.edu/cnxml">3</entry>
+      <entry xmlns="http://cnx.rice.edu/cnxml"><emphasis effect="bold">60%</emphasis></entry>
+      </row>
+      <row xmlns="http://cnx.rice.edu/cnxml">
+      <entry>13</entry>
+      <entry xmlns="http://cnx.rice.edu/cnxml">2</entry>
+      <entry xmlns="http://cnx.rice.edu/cnxml">40%</entry>
+      <entry xmlns="http://cnx.rice.edu/cnxml">1</entry>
+      <entry xmlns="http://cnx.rice.edu/cnxml">20%</entry>
+      </row>
+      <row xmlns="http://cnx.rice.edu/cnxml">
+      <entry>14</entry>
+      <entry xmlns="http://cnx.rice.edu/cnxml">4</entry>
+      <entry xmlns="http://cnx.rice.edu/cnxml"><emphasis effect="bold">80%</emphasis></entry>
+      <entry xmlns="http://cnx.rice.edu/cnxml">0</entry>
+      <entry xmlns="http://cnx.rice.edu/cnxml">0%</entry>
+      </row>
+      </tbody>
+      </tgroup>
+      </table>
+      </para>
+      <para id="para-00025" xmlns="http://cnx.rice.edu/cnxml">Only 13 has no violations, so it’s the median according to the definition. In practice, we find the median just like we described in the average height example: by lining up all the data values in order from smallest to largest and picking the value in the middle. For our easy example (with data values 11, 12, 13, 13, 14), that first 13 is right in the middle; there are two values to the left and two values to the right. If there’s not one value right in the middle, we pick the two closest, then choose the number exactly between them. For example, let’s say we have the data 41, 44, 46, 53. Since there are an even number of data values in our list, we can’t pick the one right in the middle. The two closest to the middle are 44 and 46, so we’ll choose the number halfway between those to be the median: 45. As this example shows, the median (unlike the mode) doesn’t have to be a number in our original set of data.</para>
+      <para id="para-00026">In the examples we’ve looked at so far, it’s been pretty easy to identify which number is right in the middle. If we had a very large dataset, though, it might be harder. Fortunately, we have some formulas to help us with that.</para>
+      <note class="formula" id="note-00005">
+      <para id="para-00027">Suppose we have a set of data with <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mi>n</mi></math> values, ordered from smallest to largest. If <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mi>n</mi></math> is odd, then the median is the data value at position <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mfrac><mrow><mi>n</mi><mo>+</mo><mn>1</mn></mrow><mn>2</mn></mfrac></mrow></math>. If <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mi>n</mi></math> is even, then we find the values at positions <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mfrac><mi>n</mi><mn>2</mn></mfrac></mrow></math> and <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mfrac><mi>n</mi><mn>2</mn></mfrac><mo>+</mo><mn>1</mn></mrow></math>. If those values are named <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mi>a</mi></math> and <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mi>b</mi></math>, then the median is defined to be <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mfrac><mrow><mi>a</mi><mo>+</mo><mi>b</mi></mrow><mn>2</mn></mfrac></mrow></math>.</para>
+      </note>
+      <para id="para-00028" xmlns="http://cnx.rice.edu/cnxml">Let’s put those formulas to work in an example.</para>
+      <example id="exam-00003">
+      <title>Finding the Median Using a Stem-and-Leaf Plot</title>
+      <exercise id="exer-00005">
+      <problem id="prob-00005">
+      <para id="para-00029">Previously, we looked at a stem-and-leaf plot that contained 33 sale prices (in dollars) of a particular collectible trading card:
+      <table frame="none" summary=" " class="unnumbered" id="table-00006">
+       <tgroup cols="2">
+       <colspec colnum="1" colname="c1" colwidth="1*" align="left"/>
+       <colspec colnum="2" colname="c2" colwidth="1*" align="left"/>
+       <tbody>
+       <row>
+       <entry align="left">0</entry>
+       <entry align="left">5 8 9</entry>
+       </row>
+       <row>
+       <entry align="left">1</entry>
+       <entry align="left">0 0 0 3 4 4 5 5 5 5 6 9 9</entry>
+       </row>
+       <row>
+       <entry align="left">2</entry>
+       <entry align="left">0 0 0 0 5 5 9 9</entry>
+       </row>
+       <row>
+       <entry align="left">3</entry>
+       <entry align="left">0 0 0 5 5</entry>
+       </row>
+       <row>
+       <entry align="left">4</entry>
+       <entry align="left">0 0 5</entry>
+       </row>
+       <row>
+       <entry align="left">5</entry>
+       <entry align="left"/>
+       </row>
+       <row>
+       <entry align="left">6</entry>
+       <entry align="left">0</entry>
+       </row>
+       </tbody>
+       </tgroup>
+       </table></para>
+      <para id="para-00030">What is the median price?</para>
+      </problem>
+      <solution id="sol-00005">
+      <para id="para-00031"><emphasis effect="bold">Step 1:</emphasis> Since 33 is odd, the median is the data value at position <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mfrac><mrow><mi>n</mi><mo>+</mo><mn>1</mn></mrow><mn>2</mn></mfrac></mrow></math>, where <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mi>n</mi></math> is the number of values in the dataset. There are 33 total values, so our formula becomes <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mfrac><mrow><mn>33</mn><mo>+</mo><mn>1</mn></mrow><mn>2</mn></mfrac><mo>=</mo><mn>17</mn></mrow></math>. That means we want to look for the 17th number in the dataset.</para>
+      <para id="para-00005" xmlns="http://cnx.rice.edu/cnxml"><emphasis effect="bold">Step 2:</emphasis> We'll want to count from the lowest value to the 17th number. We can use our stem and leaf plot to do this.</para>
+      <table frame="none" summary=" " class="unnumbered" id="table-00007">
+      <tgroup cols="2">
+      <colspec colnum="1" colname="c1" colwidth="1*" align="left"/>
+      <colspec colnum="2" colname="c2" colwidth="1*" align="left"/>
+      <tbody>
+      <row>
+      <entry align="left"/>
+      <entry align="left"><emphasis effect="bold">1 2 3</emphasis></entry>
+      </row>
+      <row xmlns="http://cnx.rice.edu/cnxml">
+      <entry align="left">0</entry>
+      <entry align="left">5 8 9</entry>
+      </row>
+      <row>
+      <entry align="left"/>
+      <entry align="left"><emphasis effect="bold">4 5 6 7 8 9 10 11 12 13 14 15 16</emphasis></entry>
+      </row>
+      <row xmlns="http://cnx.rice.edu/cnxml">
+      <entry align="left">1</entry>
+      <entry align="left">0 0 0 3 4 4 5 5 5 5 6 9 9</entry>
+      </row>
+      <row>
+      <entry align="left"/>
+      <entry align="left"><emphasis effect="bold">17</emphasis></entry>
+      </row>
+      <row xmlns="http://cnx.rice.edu/cnxml">
+      <entry align="left">2</entry>
+      <entry align="left">0 0 0 0 5 5 9 9</entry>
+      </row>
+      <row>
+      <entry align="left">3</entry>
+      <entry align="left">0 0 0 5 5</entry>
+      </row>
+      <row>
+      <entry align="left">4</entry>
+      <entry align="left">0 0 5</entry>
+      </row>
+      <row>
+      <entry align="left">5</entry>
+      <entry align="left"/>
+      </row>
+      <row>
+      <entry align="left">6</entry>
+      <entry align="left">0</entry>
+      </row>
+      </tbody>
+      </tgroup>
+      </table>
+      <para id="para-00032">The seventeenth number is 20, so the median is 20.</para>
+      </solution>
+      </exercise>
+      </example>
+      <note class="your-turn" id="note-00006">
+      <exercise id="exer-00006">
+      <problem id="prob-00006">
+      <para id="para-00033"><link class="os-embed" url="#exercise/CM-C08-M3-003"/></para>
+      </problem>
+      </exercise>
+      </note>
+      <para id="para-00035">Now, let’s tackle an example with an even number of values.</para>
+      <example id="exam-00004">
+      <title>Finding the Median</title>
+      <exercise id="exer-00007">
+      <problem id="prob-00007">
+      <para id="para-00036">Previously, we looked at the number of times different crickets (of differing species, genders, etc.) chirped in a one-minute span. That data is again provided below:
+      <table summary=" " class="unnumbered" id="table-00009">
+      <tgroup cols="6">
+      <colspec colnum="1" colname="c1" colwidth="1*"/>
+      <colspec colnum="2" colname="c2" colwidth="1*"/>
+      <colspec colnum="3" colname="c3" colwidth="1*"/>
+      <colspec colnum="4" colname="c4" colwidth="1*"/>
+      <colspec colnum="5" colname="c5" colwidth="1*"/>
+      <colspec colnum="6" colname="c6" colwidth="1*"/>
+      <tbody>
+      <row>
+      <entry>89</entry>
+      <entry>97</entry>
+      <entry>82</entry>
+      <entry>102</entry>
+      <entry>84</entry>
+      <entry>99</entry>
+      </row>
+      <row>
+      <entry>115</entry>
+      <entry>105</entry>
+      <entry>89</entry>
+      <entry>109</entry>
+      <entry>107</entry>
+      <entry>89</entry>
+      </row>
+      <row>
+      <entry>101</entry>
+      <entry>109</entry>
+      <entry>116</entry>
+      <entry>103</entry>
+      <entry>100</entry>
+      <entry>91</entry>
+      </row>
+      <row>
+      <entry>93</entry>
+      <entry>103</entry>
+      <entry>120</entry>
+      <entry>91</entry>
+      <entry>85</entry>
+      <entry>104</entry>
+      </row>
+      <row>
+      <entry>104</entry>
+      <entry>82</entry>
+      <entry>106</entry>
+      <entry>92</entry>
+      <entry>104</entry>
+      <entry>106</entry>
+      </row>
+      </tbody>
+      </tgroup>
+      </table>
+      </para>
+      <para id="para-00037">Find the median.</para>
+      </problem>
+      <solution id="sol-00007">
+      <para id="para-00038"><emphasis effect="bold">Step 1</emphasis>: In order to find the median, we first need to sort the data so that they’re in order, smallest to largest:
+      <table summary=" " class="unnumbered" id="table-00010">
+      <tgroup cols="6">
+      <colspec colnum="1" colname="c1" colwidth="1*"/>
+      <colspec colnum="2" colname="c2" colwidth="1*"/>
+      <colspec colnum="3" colname="c3" colwidth="1*"/>
+      <colspec colnum="4" colname="c4" colwidth="1*"/>
+      <colspec colnum="5" colname="c5" colwidth="1*"/>
+      <colspec colnum="6" colname="c6" colwidth="1*"/>
+      <tbody>
+      <row>
+      <entry>82</entry>
+      <entry>82</entry>
+      <entry>84</entry>
+      <entry>85</entry>
+      <entry>89</entry>
+      <entry>89</entry>
+      </row>
+      <row>
+      <entry>89</entry>
+      <entry>91</entry>
+      <entry>91</entry>
+      <entry>92</entry>
+      <entry>93</entry>
+      <entry>97</entry>
+      </row>
+      <row>
+      <entry>99</entry>
+      <entry>100</entry>
+      <entry>101</entry>
+      <entry>102</entry>
+      <entry>103</entry>
+      <entry>103</entry>
+      </row>
+      <row>
+      <entry>104</entry>
+      <entry>104</entry>
+      <entry>104</entry>
+      <entry>105</entry>
+      <entry>106</entry>
+      <entry>106</entry>
+      </row>
+      <row>
+      <entry>107</entry>
+      <entry>109</entry>
+      <entry>109</entry>
+      <entry>115</entry>
+      <entry>116</entry>
+      <entry>120</entry>
+      </row>
+      </tbody>
+      </tgroup>
+      </table>
+      </para>
+      <para id="para-00039"><emphasis effect="bold">Step 2</emphasis>: Next, we figure out how many data values we have. Counting them up, we see there are 30, which is even.</para>
+      <para id="para-00040"><emphasis effect="bold">Step 3</emphasis>: Since we have an even number of data values, we need to find the values in positions <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mfrac><mrow><mn>30</mn></mrow><mn>2</mn></mfrac><mo>=</mo><mn>15</mn></mrow></math> and <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mfrac><mrow><mn>30</mn></mrow><mn>2</mn></mfrac><mo>+</mo><mn>1</mn><mo>=</mo><mn>16</mn></mrow></math>. These are 101 and 102.</para>
+      <para id="para-00041" xmlns="http://cnx.rice.edu/cnxml"><emphasis effect="bold">Step 4</emphasis>: We use the formula to compute the median: <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mfrac><mrow><mn>101</mn><mo>+</mo><mn>102</mn></mrow><mn>2</mn></mfrac><mo>=</mo><mn>101.5</mn></mrow></math>.</para>
+      </solution>
+      </exercise>
+      </example>
+      <note class="your-turn" id="note-00007" xmlns="http://cnx.rice.edu/cnxml">
+      <exercise id="exer-00008">
+      <problem id="prob-00008">
+      <para id="para-00042"><link class="os-embed" url="#exercise/CM-C08-M3-004"/></para>
+      </problem>
+      </exercise>
+      </note>
+      <example id="exam-00005">
+      <title>Finding the Median Using a Frequency Distribution</title>
+      <exercise id="exer-00009">
+      <problem id="prob-00009">
+      <para id="para-00045">Previously, we created a frequency distribution of the number of siblings of the people who attended a conflict resolution class. Let's review that data again:
+      <table summary=" " class="unnumbered" id="table-00012">
+      <tgroup cols="2">
+      <colspec colnum="1" colname="c1" colwidth="1*"/>
+      <colspec colnum="2" colname="c2" colwidth="1*"/>
+      <thead>
+      <row>
+      <entry>Number of Siblings</entry>
+      <entry>Frequency</entry>
+      </row>
+      </thead>
+      <tbody>
+      <row>
+      <entry>0</entry>
+      <entry>5</entry>
+      </row>
+      <row>
+      <entry>1</entry>
+      <entry>13</entry>
+      </row>
+      <row>
+      <entry>2</entry>
+      <entry>6</entry>
+      </row>
+      <row>
+      <entry>3</entry>
+      <entry>3</entry>
+      </row>
+      <row>
+      <entry>4</entry>
+      <entry>2</entry>
+      </row>
+      <row>
+      <entry>5</entry>
+      <entry>1</entry>
+      </row>
+      </tbody>
+      </tgroup>
+      </table>
+      </para>
+      <para id="para-00046">What is the median of the number of siblings?</para>
+      </problem>
+      <solution id="sol-00009">
+      <para id="para-00047">There are 30 data values total, so the median is between the 15th and 16th values in the ordered list. There are five 0s and thirteen 1s according to the frequency distribution, so items one through five are all 0s and items six through eighteen are all 1s. Since both items fifteen and sixteen are 1s, the median is 1.</para>
+      </solution>
+      </exercise>
+      </example>
+      <note class="your-turn" id="note-00008">
+      <exercise id="exer-00010">
+      <problem id="prob-00010">
+      <para id="para-00048"><link class="os-embed" url="#exercise/CM-C08-M3-005"/></para>
+      </problem>
+      </exercise>
+      </note>
+      </section>
+      <section id="sect-00004">
+      <title>The Mean</title>
+      <para id="para-00051">Recall our example of ways we could identify the “average” height of an individual. The last method we discussed was also the most complicated. It involved a game where the player guesses a height, then figures out how far off that guess is from every single person’s height. Those differences get squared and added together to get a score. Our next measure of centrality gives the lowest possible score: No other guess would beat it in the game. Given a dataset containing <emphasis effect="italic">n</emphasis> total values, the <term id="term-00004">mean</term> of the dataset is the sum of all the data values, divided by <emphasis effect="italic">n</emphasis>.</para>
+      <para id="para-00053">This is a computation you have likely done before. In many places, including spreadsheet programs like Microsoft Excel and Google Sheets, this number is called the <emphasis effect="italic">average</emphasis>. For statisticians, though, the word <emphasis effect="italic">average</emphasis> has too many possible meanings, so they prefer the one we’ll use: mean.</para>
+      <example id="exam-00006">
+      <title>Finding the Mean</title>
+      <exercise id="exer-00011">
+      <problem id="prob-00011">
+      <para id="para-00054">Compute the mean of the numbers 12, 15, 17, 18, 18, and 19.</para>
+      </problem>
+      <solution id="sol-00011">
+      <para id="para-00055">The mean is the sum of the values, divided by the number of values on the list. So, we get:
+      <equation class="unnumbered" id="eq-00010"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><mrow><mfrac><mrow><mn>12</mn><mo>+</mo><mn>15</mn><mo>+</mo><mn>17</mn><mo>+</mo><mn>18</mn><mo>+</mo><mn>18</mn><mo>+</mo><mn>19</mn></mrow><mn>6</mn></mfrac><mo>=</mo><mfrac><mrow><mn>99</mn></mrow><mn>6</mn></mfrac><mo>=</mo><mn>16.5</mn><mo>.</mo></mrow></math></equation></para>
+      </solution>
+      </exercise>
+      </example>
+      <note class="your-turn" id="note-00010" xmlns="http://cnx.rice.edu/cnxml">
+      <exercise id="exer-00012">
+      <problem id="prob-00012">
+      <para id="para-00056"><link class="os-embed" url="#exercise/CM-C08-M3-006"/></para>
+      </problem>
+      </exercise>
+      </note>
+      <example id="exam-00007">
+      <title>Finding the Mean Using a Frequency Distribution</title>
+      <exercise id="exer-00013">
+      <problem id="prob-00013">
+      <para id="para-00058">Refer again to the frequency distribution of the number of siblings people who attended a conflict resolution class reported:
+      <table summary=" " class="unnumbered" id="table-00014">
+      <tgroup cols="2">
+      <colspec colnum="1" colname="c1" colwidth="1*"/>
+      <colspec colnum="2" colname="c2" colwidth="1*"/>
+      <thead>
+      <row>
+      <entry>Number of Siblings</entry>
+      <entry>Frequency</entry>
+      </row>
+      </thead>
+      <tbody>
+      <row>
+      <entry>0</entry>
+      <entry>5</entry>
+      </row>
+      <row>
+      <entry>1</entry>
+      <entry>13</entry>
+      </row>
+      <row>
+      <entry>2</entry>
+      <entry>6</entry>
+      </row>
+      <row>
+      <entry>3</entry>
+      <entry>3</entry>
+      </row>
+      <row>
+      <entry>4</entry>
+      <entry>2</entry>
+      </row>
+      <row>
+      <entry>5</entry>
+      <entry>1</entry>
+      </row>
+      </tbody>
+      </tgroup>
+      </table>
+      </para>
+      <para id="para-00059">What is the mean of the number of siblings?</para>
+      </problem>
+      <solution id="sol-00013">
+      <para id="para-00060"><emphasis effect="bold">Step 1:</emphasis> We compute the mean by adding up all the data values and then dividing by the number of data values on the list.</para>
+      <para id="para-00006"><emphasis effect="bold">Step 2:</emphasis> Adding up the frequencies, we get <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mn>5</mn><mo>+</mo><mn>13</mn><mo>+</mo><mn>6</mn><mo>+</mo><mn>3</mn><mo>+</mo><mn>2</mn><mo>+</mo><mn>1</mn><mo>=</mo><mn>30</mn></mrow></math> data values in our list.</para>
+      <para id="para-00012" xmlns="http://cnx.rice.edu/cnxml"><emphasis effect="bold">Step 3:</emphasis> Now, to find the sum of all the data values, we could simply reconstruct the raw data and add up all the numbers there. But, there’s an easier way: Remember that repeatedly adding a number to itself is the definition of multiplication. So, for example, since there are six 2s in our data, the sum of all those 2s must be <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mn>6</mn><mo>×</mo><mn>2</mn><mo>=</mo><mn>12</mn></mrow></math>.</para>
+      <para id="para-00013" xmlns="http://cnx.rice.edu/cnxml"><emphasis effect="bold">Step 4:</emphasis> Let’s add a column to our distribution for these products:
+      <table summary=" " class="unnumbered" id="table-00015" xmlns="http://cnx.rice.edu/cnxml">
+      <tgroup cols="3">
+      <colspec colnum="1" colname="c1" colwidth="1*"/>
+      <colspec colnum="2" colname="c2" colwidth="1*"/>
+      <colspec colnum="3" colname="c3" colwidth="1*"/>
+      <thead>
+      <row>
+      <entry>Number of Siblings</entry>
+      <entry>Frequency</entry>
+      <entry>(Number of Siblings) <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mo>×</mo></math> (Frequency)</entry>
+      </row>
+      </thead>
+      <tbody xmlns="http://cnx.rice.edu/cnxml">
+      <row>
+      <entry>0</entry>
+      <entry>5</entry>
+      <entry>0</entry>
+      </row>
+      <row>
+      <entry>1</entry>
+      <entry>13</entry>
+      <entry>13</entry>
+      </row>
+      <row>
+      <entry>2</entry>
+      <entry>6</entry>
+      <entry>12</entry>
+      </row>
+      <row>
+      <entry>3</entry>
+      <entry>3</entry>
+      <entry>9</entry>
+      </row>
+      <row>
+      <entry>4</entry>
+      <entry>2</entry>
+      <entry>8</entry>
+      </row>
+      <row>
+      <entry>5</entry>
+      <entry>1</entry>
+      <entry>5</entry>
+      </row>
+      </tbody>
+      </tgroup>
+      </table>
+      </para>
+      <para id="para-00061"><emphasis effect="bold">Step 5:</emphasis> So, the sum of all our data values is <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mn>0</mn><mo>+</mo><mn>13</mn><mo>+</mo><mn>12</mn><mo>+</mo><mn>9</mn><mo>+</mo><mn>8</mn><mo>+</mo><mn>5</mn><mo>=</mo><mn>47</mn></mrow></math>. The mean is <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mfrac><mrow><mn>47</mn></mrow><mrow><mn>30</mn></mrow></mfrac><mo>≈</mo><mn>1.567</mn></mrow></math>.</para>
+      </solution>
+      </exercise>
+      </example>
+      <note class="your-turn" id="note-00011" xmlns="http://cnx.rice.edu/cnxml">
+      <exercise id="exer-00014">
+      <problem id="prob-00014">
+      <para id="para-00062"><link class="os-embed" url="#exercise/CM-C08-M3-007"/></para>
+      </problem>
+      </exercise>
+      </note>
+      <para id="para-00065" xmlns="http://cnx.rice.edu/cnxml">As the number of data values we are considering grows, the computation for the mean gets more and more complicated. That’s why people generally trust technology to perform that computation.</para>
+      <note class="video" id="note-00012">
+      <para id="para-00066"><link url="https://openstax.org/r/Google-sheet">Compute Measures of Centrality Using Google Sheets</link></para>
+      </note>
+      <para id="para-00067">Note that a recent update to Google Sheets introduced a new function called “MODE.MULT,” which will find every mode (not just the first one on the list).</para>
+      <example id="exam-00008">
+      <title>Using Google Sheets to Compute Measures of Centrality</title>
+      <exercise id="exer-00015">
+      <problem id="prob-00015">
+      <para id="para-00068">The dataset <link url="https://openstax.org/r/Chapter8_Data-Sets">"InState"</link> contains the in-state tuitions of every college and university in the country that reported that data to the Department of Education. Find the mode, median, and mean of those in-state tuition values.</para>
+      </problem>
+      <solution id="sol-00015">
+      <para id="para-00069"><emphasis effect="bold">Step 1:</emphasis> To find the mode, we select an empty cell type “=MODE(”, click on the header of the column to insert a reference to the column into our formula, and then close the parentheses. When we hit the enter key, our formula is replaced with the mode: $13,380.</para>
+      <para id="para-00019"><emphasis effect="bold">Step 2:</emphasis> We can find the median and mean using the same process, except using the functions “MEDIAN” and “AVERAGE” in place of “MODE”. We find that the median is $11,207 and the mean is $15,476.79.</para>
+      </solution>
+      </exercise>
+      </example>
+      <note class="your-turn" id="note-00013">
+      <exercise id="exer-00016">
+      <problem id="prob-00016">
+      <para id="para-00070"><link class="os-embed" url="#exercise/CM-C08-M3-008"/></para>
+      </problem>
+      </exercise>
+      </note>
+      </section>
+      <section id="sect-00005">
+      <title>Which Is Better: Mode, Median, or Mean?</title>
+      <para id="para-00074">If the mode, median, and mean all purport to measure the same thing (centrality), why do we need all three? The answer is complicated, as each measure has its own strengths and weaknesses. The mode is simple to compute, but there may be more than one. Further, if no data value appears more than once, the mode is entirely unhelpful. As for the mean and median, the main difference between these two measures is how each is affected by extreme values.</para>
+      <para id="para-00020">Consider this example: the mean and median of 1, 2, 3, 4, 5 are both 3. But what if the dataset is instead 1, 2, 3, 4, 10? The median is still 3, but the mean is now 4. What this example shows is that the mean is sensitive to extreme values, while the median isn’t. This knowledge can help us decide which of the two is more relevant for a given dataset. If it is important that the really high or really low values are reflected in the measure of centrality, then the mean is the better option. If very high or low values are not important, however, then we should stick with the median.</para>
+      <para id="para-00023">The decision between mean and median only really matters if the data are skewed. If the data are symmetric, then the mean and median are going to be approximately equal, and the distinction between them is irrelevant. If the data are skewed, the mean gets pulled in the direction of the skew (i.e., if the data are right-skewed, then the mean will be bigger than the median; if the data are left-skewed, the opposite relation is true).</para>
+      <example id="exam-00009">
+      <title> Choosing Which Measure of Centrality to Use</title>
+      <exercise id="exer-00017">
+      <problem id="prob-00017">
+      <para id="para-00075">For the following situations, decide which measure(s) of centrality would be best:
+      <list list-type="enumerated" number-style="arabic" id="list-00002">
+      <item>You found a used car that you like, and you want to know if the price is too high or too low. You find a list of sale prices for that make and model, and you see that the distribution of those prices is skewed to the right. Some of the prices at the high end are close to the original sale price of the car, so you guess that those cars might have really low mileage, or have other enhancements added on that increased the value (but which don’t apply to the car you found).</item>
+      <item>You are asked to analyze the responses to a survey. One of the questions asked, “How strongly do you agree with the statement, ‘I believe my elected representatives have my best interests in mind when they vote’?” Responses are a number between 1 and 5, with 1 representing “strongly disagree” and 5 representing “strongly agree.”</item>
+      <item>You are asked to find the “average” household income for a zip code. Those values are skewed right.</item>
+      <item>Thinking back to the situation at the beginning of this section: you want to find “average” height. The data you’ve collected seem to be distributed symmetrically.</item>
+      </list></para>
+      </problem>
+      <solution id="sol-00017">
+      <para id="para-00076"><list list-type="enumerated" number-style="arabic" id="list-00003">
+      <item>In this situation, the high values are not comparable to the value of the car you found and we don’t want them to affect the results. Also, we’re unlikely to find many repeated values, so the mode is probably not useful. Median is best.</item>
+      <item>Here, we want to know what a typical result is. The mean doesn’t really make sense; it involves adding the numbers together, so it would treat two “strongly disagree” and two “strongly agree” responses (those add to <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mn>1</mn><mo>+</mo><mn>1</mn><mo>+</mo><mn>5</mn><mo>+</mo><mn>5</mn><mo>=</mo><mn>12</mn></mrow></math>) as exactly the same as four “neutral” responses (<math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mn>3</mn><mo>+</mo><mn>3</mn><mo>+</mo><mn>3</mn><mo>+</mo><mn>3</mn><mo>=</mo><mn>12</mn></mrow></math>). But those are really different situations; the first shows a strong polarization in the responses, while the second represents strong indifference. The mode is probably the best choice (because the data are actually categorical), but the median would be good too.</item>
+      <item xmlns="http://cnx.rice.edu/cnxml">The mode isn’t going to be useful in this situation because it’s unlikely you will find many households that have exactly the same income. The mean and median will be different because of the skew, so the choice comes down to the extreme values. Remember that the data are skewed right, so high values are prevalent. Because these high values are important for our analysis, we want them to be reflected in the results. Thus, the mean is best. That being said, the median is also useful; it allows us to say something like “50% of the households surveyed make more than” the median.</item>
+      <item>Because we aren’t likely to find many people with exactly the same height, the mode won’t be useful. Since the data are symmetric, the mean and the median will be about the same. So, it doesn’t really matter which of those two we choose.</item>
+      </list></para>
+      </solution>
+      </exercise>
+      </example>
+      <note class="your-turn" id="note-00014">
+      <exercise id="exer-00018">
+      <problem id="prob-00018">
+      <para id="para-00077"><link class="os-embed" url="#exercise/CM-C08-M3-009"/></para>
+      </problem>
+      </exercise>
+      </note>
+      </section>
+      <section id="sect-00006" class="check-understanding">
+      <title>Check Your Understanding</title>
+      <exercise id="exer-00019">
+      <problem id="prob-00019">
+      <para id="para-00079"><link class="os-embed" url="#exercise/CM-C08-M3-010"/></para>
+      </problem>
+      </exercise>
+      <exercise id="exer-00020">
+      <problem id="prob-00020">
+      <para id="para-00083"><link class="os-embed" url="#exercise/CM-C08-M3-011"/></para>
+      </problem>
+      </exercise>
+      <exercise id="exer-00021">
+      <problem id="prob-00021">
+      <para id="para-00085"><link class="os-embed" url="#exercise/CM-C08-M3-012"/></para>
+      </problem>
+      </exercise>
+      <exercise id="exer-00022">
+      <problem id="prob-00022">
+      <para id="para-00087"><link class="os-embed" url="#exercise/CM-C08-M3-013"/></para>
+      </problem>
+      </exercise>
+      <exercise id="exer-00023">
+      <problem id="prob-00023">
+      <para id="para-00095"><link class="os-embed" url="#exercise/CM-C08-M3-014"/></para>
+      </problem>
+      </exercise>
+      <exercise id="exer-00024">
+      <problem id="prob-00024">
+      <para id="para-00100"><link class="os-embed" url="#exercise/CM-C08-M3-015"/></para>
+      </problem>
+      </exercise>
+      </section>
+      <section class="section-exercises" id="sect-00007">
+      <exercise id="exer-00025">
+      <problem id="prob-00025">
+      <para id="para-00103"><link class="os-embed" url="#exercise/CM-C08-M3-016"/></para>
+      </problem>
+      </exercise>
+      <exercise id="exer-00026">
+      <problem id="prob-00026">
+      <para id="para-00034"><link class="os-embed" url="#exercise/CM-C08-M3-021"/></para>
+      </problem>
+      </exercise>
+      <exercise id="exer-00027">
+      <problem id="prob-00027">
+      <para id="para-00043"><link class="os-embed" url="#exercise/CM-C08-M3-022"/></para>
+      </problem>
+      </exercise>
+      <exercise id="exer-00028">
+      <problem id="prob-00028">
+      <para id="para-00044"><link class="os-embed" url="#exercise/CM-C08-M3-023"/></para>
+      </problem>
+      </exercise>
+      <exercise id="exer-00029">
+      <problem id="prob-00029">
+      <para id="para-00049"><link class="os-embed" url="#exercise/CM-C08-M3-024"/></para>
+      </problem>
+      </exercise>
+      <exercise id="exer-00030">
+      <problem id="prob-00030">
+      <para id="para-00114"><link class="os-embed" url="#exercise/CM-C08-M3-017"/></para>
+      </problem>
+      </exercise>
+      <exercise id="exer-00039">
+      <problem id="prob-00039">
+      <para id="para-00133"><link class="os-embed" url="#exercise/CM-C08-M3-018"/></para>
+      </problem>
+      </exercise>
+      <exercise id="exer-00042">
+      <problem id="prob-00042">
+      <para id="para-00140"><link class="os-embed" url="#exercise/CM-C08-M3-019"/></para>
+      </problem>
+      </exercise>
+      <exercise id="exer-00063">
+      <problem id="prob-00063">
+      <para id="para-00183"><link class="os-embed" url="#exercise/CM-C08-M3-020"/></para>
+      </problem>
+      </exercise>
+      </section>
+      <section class="key-terms" id="sect-00021">
+      <title>Key Terms</title>
+      <list id="list-00104">
+      <item>mode</item>
+      <item>bimodal</item>
+      <item>median</item>
+      <item>mean</item>
+      </list>
+      </section>
+      <section class="key-concepts" id="sect-00022">
+      <title>Key Concepts</title>
+      <list id="list-00105">
+      <item>The mode of a dataset is the value that appears the most frequently. The median is a value that is greater than or equal to no more than 50% of the data and less than or equal to no more than 50% of the data. The mean is the sum of all the data values, divided by the number of units in the dataset.</item>
+      <item>The median of a dataset is not affected by outliers, but the mean will be biased toward outliers. This distinction might affect which measure of centrality is used to summarize a dataset.</item>
+      </list>
+      </section>
+      <section class="formula-review" id="sect-00023">
+      <title>Formulas</title>
+      <para id="para-00179">Suppose we have a set of data with <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mi>n</mi></math> values, ordered from smallest to largest. If <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mi>n</mi></math> is odd, then the median is the data value at position <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mfrac><mrow><mi>n</mi><mo>+</mo><mn>1</mn></mrow><mn>2</mn></mfrac></mrow></math>. If <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mi>n</mi></math> is even, then we find the values at positions <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mfrac><mi>n</mi><mn>2</mn></mfrac></mrow></math> and <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mfrac><mi>n</mi><mn>2</mn></mfrac><mo>+</mo><mn>1</mn></mrow></math>. If those values are named <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mi>a</mi></math> and <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mi>b</mi></math>, then the median is defined to be <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mfrac><mrow><mi>a</mi><mo>+</mo><mi>b</mi></mrow><mn>2</mn></mfrac></mrow>
+      </math>.</para>
+      </section>
+      <section class="eoc-videos" id="sect-00024" xmlns="http://cnx.rice.edu/cnxml">
+      <title>Videos</title>
+      <list id="list-00014">
+      <item><link url="https://openstax.org/r/Computing-Measures-of-Centrality">Compute Measures of Centrality Using Google Sheets</link></item>
+      </list>
+      </section>  </content>
+</document>

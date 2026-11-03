@@ -1,0 +1,576 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Mathematics and Measurement</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+    <md:title/>
+    <md:content-id>m00016</md:content-id>
+    <md:uuid>c5ab74af-7a7c-4e9a-92d0-780520b654d3</md:uuid>
+  </metadata>
+  <content>
+<section class="learning-objectives" id="sect-00001">
+  <para id="para-00001">By the end of this section, you will be able to:</para><list id="list-00001">
+<item>Explain the dimensional analysis (factor label) approach to mathematical calculations involving quantities</item>
+<item>Use dimensional analysis to carry out unit conversions for a given property and computations involving two or more properties</item>
+</list>
+</section>
+
+<para id="fs-idm319461744">It is often the case that a quantity of interest may not be easy (or even possible) to measure directly but instead must be calculated from other directly measured properties and appropriate mathematical relationships. For example, consider measuring the average speed of an athlete running sprints. This is typically accomplished by measuring the <emphasis effect="italics">time</emphasis> required for the athlete to run from the starting line to the finish line, and the <emphasis effect="italics">distance</emphasis> between these two lines, and then computing <emphasis effect="italics">speed</emphasis> from the equation that relates these three properties:</para>
+<equation id="fs-idm290867056" class="unnumbered"><m:math><m:mrow><m:mtext>speed</m:mtext><m:mo>=</m:mo><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:mtext>distance</m:mtext></m:mrow><m:mrow><m:mtext>time</m:mtext></m:mrow></m:mfrac></m:mrow></m:math></equation>
+<para id="fs-idm350487392">An Olympic-quality sprinter can run 100 m in approximately 10 s, corresponding to an average speed of</para>
+<equation id="fs-idm257675424" class="unnumbered"><m:math><m:mrow><m:mfrac><m:mrow><m:mtext>100 m</m:mtext></m:mrow><m:mrow><m:mtext>10 s</m:mtext></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mo>=</m:mo><m:mtext>10 m/s</m:mtext></m:mrow></m:math></equation>
+<para id="fs-idm308822992">(For this and the next calculation, assume the trailing zeros are significant digits.) Note that this simple arithmetic involves dividing the numbers of each measured quantity to yield the number of the computed quantity (100/10 = 10) <emphasis effect="italics">and likewise</emphasis> dividing the units of each measured quantity to yield the unit of the computed quantity (m/s = m/s). Now, consider using this same relation to predict the time required for a person running at this speed to travel a distance of 25 m. The same relation among the three properties is used, but in this case, the two quantities provided are a speed (10 m/s) and a distance (25 m). To yield the sought property, time, the equation must be rearranged appropriately:</para>
+<equation id="fs-idm219214640" class="unnumbered"><m:math><m:mrow><m:mtext>time</m:mtext><m:mo>=</m:mo><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:mtext>distance</m:mtext></m:mrow><m:mrow><m:mtext>speed</m:mtext></m:mrow></m:mfrac></m:mrow></m:math></equation>
+<para id="fs-idm24572080">The time can then be computed as:</para>
+<equation id="fs-idp106016944" class="unnumbered"><m:math><m:mrow><m:mfrac><m:mrow><m:mtext>25 m</m:mtext></m:mrow><m:mrow><m:mtext>10 m/s</m:mtext></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mo>=</m:mo><m:mtext>2.5 s</m:mtext></m:mrow></m:math></equation>
+<para id="fs-idm316688784">Again, arithmetic on the numbers (25/10 = 2.5) was accompanied by the same arithmetic on the units (m/(m/s) = s) to yield the number and unit of the result, 2.5 s. Note that, just as for numbers, when a unit is divided by an identical unit (in this case, m/m), the result is “1”—or, as commonly phrased, the units “cancel.”</para>
+<para id="fs-idp44099792">These calculations are examples of a versatile mathematical approach known as <term id="term-00001">dimensional analysis</term> (or the <term id="term-00002">factor-label method</term>). Dimensional analysis is based on this premise: <emphasis effect="italics">the units of quantities must be subjected to the same mathematical operations as their associated numbers</emphasis>. This method can be applied to computations ranging from simple unit conversions to more complex, multi-step calculations involving several different quantities.</para>
+<section id="fs-idm285086480">
+<title>Conversion Factors and Dimensional Analysis</title>
+<para id="fs-idm273312256">A ratio of two equivalent quantities expressed with different measurement units can be used as a <term id="term-00003">unit conversion factor</term>. For example, the lengths of 2.54 cm and 1 in. are equivalent (by definition), and so a unit conversion factor may be derived from the ratio,</para>
+<equation id="fs-idm256748160" class="unnumbered"><m:math><m:mrow><m:mfrac><m:mrow><m:mtext>2.54 cm</m:mtext></m:mrow><m:mrow><m:mtext>1 in.</m:mtext></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mtext>(2.54 cm</m:mtext><m:mo>=</m:mo><m:mtext>1 in.) or 2.54</m:mtext><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:mtext>cm</m:mtext></m:mrow><m:mrow><m:mtext>in.</m:mtext></m:mrow></m:mfrac></m:mrow></m:math></equation>
+<para id="fs-idm205801120">Several other commonly used conversion factors are given in <link target-id="fs-idm222237232"/>.</para>
+<table id="fs-idm222237232" class="top-titled" summary="This table is divided into 3 columns. They are titled length, volume, and mass. The following units are under the length column: 1 meter is equal to 1.0936 yards, 1 inch is equal to 2.54 cm 1 kilometer is equal to 0.62137 miles, 1 mile is equal to 1609.3 meters. The following units are under the volume column: 1 liter is equal to 1.0567 quarts, 1 quart is equal to 0.94635 meters, one cubic foot is equal to 28.317 liters, 1 tablespoon is equal to 14.787 milliliters. The following units are under the mass column: 1 kilogram is equal to 2.2046 pounds, 1 pound is equal to 453.59 grams, 1 avoirdupois ounce is equal to 28.349 grams, 1 troy ounce is equal to 31.103 grams.">
+<tgroup cols="3">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<thead>
+<row>
+<entry namest="c1" nameend="c3" align="center">Common Conversion Factors</entry>
+</row>
+<row valign="top">
+<entry align="left">Length</entry>
+<entry align="left">Volume</entry>
+<entry align="left">Mass</entry>
+</row>
+</thead>
+<tbody>
+<row valign="top">
+<entry align="left">1 m = 1.0936 yd</entry>
+<entry align="left">1 L = 1.0567 qt</entry>
+<entry align="left">1 kg = 2.2046 lb</entry>
+</row>
+<row valign="top">
+<entry align="left">1 in. = 2.54 cm (exact)</entry>
+<entry align="left">1 qt = 0.94635 L</entry>
+<entry align="left">1 lb = 453.59 g<footnote id="foot-00001">Strictly speaking, the ounce and pound are units of weight, <emphasis effect="italics">W</emphasis> (a force equal to the product of mass and gravitational acceleration, <emphasis effect="italics">W</emphasis> = <emphasis effect="italics">mg</emphasis>). The conversion relations in this table are commonly used to equate masses and weight assuming a nominal value for <emphasis effect="italics">g</emphasis> at the surface of the earth. </footnote></entry>
+</row>
+<row valign="top">
+<entry align="left">1 km = 0.62137 mi</entry>
+<entry align="left">1 ft<sup>3</sup> = 28.317 L</entry>
+<entry align="left">1 (avoirdupois) oz = 28.349 g</entry>
+</row>
+<row valign="top">
+<entry align="left">1 mi = 1609.3 m</entry>
+<entry align="left">1 tbsp = 14.787 mL</entry>
+<entry align="left">1 (troy) oz = 31.103 g</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<para id="fs-idm221472400">When a quantity (such as distance in inches) is multiplied by an appropriate unit conversion factor, the quantity is converted to an equivalent value with different units (such as distance in centimeters). For example, a basketball player’s vertical jump of 34 inches can be converted to centimeters by:</para>
+<equation id="fs-idm153590912" class="unnumbered"><m:math><m:mrow><m:mn>34</m:mn><m:mspace width="0.2em"/><m:menclose notation="horizontalstrike"><m:mrow><m:mtext>in.</m:mtext></m:mrow></m:menclose><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:mtext>2.54 cm</m:mtext></m:mrow><m:mrow><m:mn>1</m:mn><m:mspace width="0.2em"/><m:menclose notation="horizontalstrike"><m:mrow><m:mtext>in.</m:mtext></m:mrow></m:menclose></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mo>=</m:mo><m:mtext>86 cm</m:mtext></m:mrow></m:math></equation>
+<para id="fs-idm291646272">Since this simple arithmetic involves <emphasis effect="italics">quantities</emphasis>, the premise of dimensional analysis requires that we multiply both <emphasis effect="italics">numbers and units</emphasis>. The numbers of these two quantities are multiplied to yield the number of the product quantity, 86, whereas the units are multiplied to yield <m:math><m:mrow><m:mfrac><m:mrow><m:mtext>in.</m:mtext><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mtext>cm</m:mtext></m:mrow><m:mrow><m:mtext>in.</m:mtext></m:mrow></m:mfrac></m:mrow></m:math>. Just as for numbers, a ratio of identical units is also numerically equal to one, <m:math><m:mrow><m:mfrac><m:mrow><m:mtext>in.</m:mtext></m:mrow><m:mrow><m:mtext>in.</m:mtext></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mo>=</m:mo><m:mtext>1,</m:mtext></m:mrow></m:math> and the unit product thus simplifies to <emphasis effect="italics">cm</emphasis>. (When identical units divide to yield a factor of 1, they are said to “cancel.”) Dimensional analysis may be used to confirm the proper application of unit conversion factors as demonstrated in the following example.</para>
+<example id="fs-idm150235328">
+<para id="fs-idp22709840">
+<title>Using a Unit Conversion Factor</title>
+The mass of a competition frisbee is 125 g. Convert its mass to ounces using the unit conversion factor derived from the relationship 1 oz = 28.349 g (<link target-id="fs-idm222237232"/>).</para>
+<para id="fs-idm290807904">
+<title>Solution</title>
+Given the conversion factor, the mass in ounces may be derived using an equation similar to the one used for converting length from inches to centimeters.</para>
+<equation id="fs-idm138056288" class="unnumbered"><m:math><m:mrow><m:mi>x</m:mi><m:mspace width="0.2em"/><m:mtext>oz</m:mtext><m:mo>=</m:mo><m:mtext>125 g</m:mtext><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mtext>unit conversion factor</m:mtext></m:mrow></m:math></equation>
+<para id="fs-idm300877280">The unit conversion factor may be represented as:</para>
+<equation id="fs-idm233281680" class="unnumbered"><m:math><m:mrow><m:mfrac><m:mrow><m:mtext>1 oz</m:mtext></m:mrow><m:mrow><m:mtext>28.349 g</m:mtext></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mtext>and</m:mtext><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:mtext>28.349 g</m:mtext></m:mrow><m:mrow><m:mtext>1 oz</m:mtext></m:mrow></m:mfrac></m:mrow></m:math></equation><para id="fs-idm369973600">The correct unit conversion factor is the ratio that cancels the units of grams and leaves ounces.</para>
+<equation id="fs-idm222314304" class="unnumbered"><m:math><m:mtable><m:mtr><m:mtd columnalign="left"><m:mrow><m:mi>x</m:mi><m:mspace width="0.2em"/><m:mtext>oz</m:mtext></m:mrow></m:mtd><m:mtd><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>125</m:mn><m:mspace width="0.2em"/><m:menclose notation="horizontalstrike"><m:mtext>g</m:mtext></m:menclose><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:mtext>1 oz</m:mtext></m:mrow><m:mrow><m:mtext>28.349</m:mtext><m:mspace width="0.2em"/><m:menclose notation="horizontalstrike"><m:mtext>g</m:mtext></m:menclose></m:mrow></m:mfrac></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"/><m:mtd columnalign="left"><m:mrow><m:mo>=</m:mo></m:mrow></m:mtd><m:mtd columnalign="left"><m:mo>(</m:mo><m:mfrac><m:mrow><m:mn>125</m:mn></m:mrow><m:mrow><m:mtext>28.349</m:mtext></m:mrow></m:mfrac><m:mo>)</m:mo><m:mspace width="0.2em"/><m:mtext>oz</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"/><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mtext>4.41 oz (three significant figures)</m:mtext></m:mtd></m:mtr></m:mtable></m:math></equation>
+<para id="fs-idm224226288">
+<title>Check Your Learning</title>
+Convert a volume of 9.345 qt to liters.</para>
+<note id="fs-idm209829536">
+<title>Answer:</title>
+<para id="fs-idm130267872">8.844 L</para>
+</note>
+</example>
+<para id="fs-idm262838208">Beyond simple unit conversions, the factor-label method can be used to solve more complex problems involving computations. Regardless of the details, the basic approach is the same—all the <emphasis effect="italics">factors</emphasis> involved in the calculation must be appropriately oriented to ensure that their <emphasis effect="italics">labels</emphasis> (units) will appropriately cancel and/or combine to yield the desired unit in the result. As your study of chemistry continues, you will encounter many opportunities to apply this approach.</para>
+<example id="fs-idm305814320">
+<para id="fs-idm280005808">
+<title>Computing Quantities from Measurement Results and Known Mathematical Relations</title>
+What is the density of common antifreeze in units of g/mL? A 4.00-qt sample of the antifreeze weighs 9.26 lb.</para>
+<para id="fs-idp14199296">
+<title>Solution</title>
+Since <m:math><m:mrow><m:mtext>density</m:mtext><m:mspace width="0.2em"/><m:mo>=</m:mo><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:mtext>mass</m:mtext></m:mrow><m:mrow><m:mtext>volume</m:mtext></m:mrow></m:mfrac></m:mrow></m:math>, we need to divide the mass in grams by the volume in milliliters. This will require converting the provided volume from quarts to milliliters and converting the provided mass from pounds to grams. The necessary conversion factors are given in <link target-id="fs-idm222237232"/>: 1 lb = 453.59 g; 1 L = 1.0567 qt; 1 L = 1,000 mL. Mass may be converted from pounds to grams as follows:</para>
+<equation id="fs-idm336821696" class="unnumbered"><m:math><m:mrow><m:mtext>9.26</m:mtext><m:mspace width="0.2em"/><m:menclose notation="horizontalstrike"><m:mrow><m:mtext>lb</m:mtext></m:mrow></m:menclose><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:mtext>453.59 g</m:mtext></m:mrow><m:mrow><m:mn>1</m:mn><m:mspace width="0.2em"/><m:menclose notation="horizontalstrike"><m:mrow><m:mtext>lb</m:mtext></m:mrow></m:menclose></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mo>=</m:mo><m:mn>4.20</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup></m:mrow><m:mspace width="0.2em"/><m:mtext>g</m:mtext></m:math></equation>
+<para id="fs-idm244171104">Volume may be converted from quarts to milliliters via two steps:</para><list id="fs-idm287602768" list-type="enumerated" number-style="arabic" class="stepwise">
+<item>
+<emphasis effect="italics">Convert quarts to liters.</emphasis>
+<equation id="fs-idm279137456" class="unnumbered"><m:math><m:mrow><m:mtext>4.00</m:mtext><m:mspace width="0.2em"/><m:menclose notation="horizontalstrike"><m:mrow><m:mtext>qt</m:mtext></m:mrow></m:menclose><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:mtext>1 L</m:mtext></m:mrow><m:mrow><m:mtext>1.0567</m:mtext><m:mspace width="0.2em"/><m:menclose notation="horizontalstrike"><m:mrow><m:mtext>qt</m:mtext></m:mrow></m:menclose></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mo>=</m:mo><m:mtext>3.78 L</m:mtext></m:mrow></m:math></equation></item>
+<item>
+<emphasis effect="italics">Convert liters to milliliters.</emphasis>
+<equation id="fs-idm289883088" class="unnumbered"><m:math><m:mrow><m:mtext>3.78</m:mtext><m:mspace width="0.2em"/><m:menclose notation="horizontalstrike"><m:mtext>L</m:mtext></m:menclose><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:mtext>1000 mL</m:mtext></m:mrow><m:mrow><m:mn>1</m:mn><m:mspace width="0.2em"/><m:menclose notation="horizontalstrike"><m:mtext>L</m:mtext></m:menclose></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mo>=</m:mo><m:mn>3.78</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>mL</m:mtext></m:mrow></m:math></equation></item>
+</list>
+<para id="fs-idm301215296">Then,</para>
+<equation id="fs-idm144640128" class="unnumbered"><m:math><m:mrow><m:mtext>density</m:mtext><m:mo>=</m:mo><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:mtext>4.20</m:mtext><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>g</m:mtext></m:mrow><m:mrow><m:mn>3.78</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>mL</m:mtext></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mo>=</m:mo><m:mtext>1.11 g/mL</m:mtext></m:mrow></m:math></equation><para id="fs-idm292167648">Alternatively, the calculation could be set up in a way that uses three unit conversion factors sequentially as follows:</para>
+<equation id="fs-idm9873904" class="unnumbered"><m:math><m:mrow><m:mfrac><m:mrow><m:mtext>9.26</m:mtext><m:mspace width="0.2em"/><m:menclose notation="horizontalstrike"><m:mrow><m:mtext>lb</m:mtext></m:mrow></m:menclose></m:mrow><m:mrow><m:mtext>4.00</m:mtext><m:mspace width="0.2em"/><m:menclose notation="horizontalstrike"><m:mrow><m:mtext>qt</m:mtext></m:mrow></m:menclose></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:mtext>453.59 g</m:mtext></m:mrow><m:mrow><m:mn>1</m:mn><m:mspace width="0.2em"/><m:menclose notation="horizontalstrike"><m:mrow><m:mtext>lb</m:mtext></m:mrow></m:menclose></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:mtext>1.0567</m:mtext><m:mspace width="0.2em"/><m:menclose notation="horizontalstrike"><m:mrow><m:mtext>qt</m:mtext></m:mrow></m:menclose></m:mrow><m:mrow><m:mn>1</m:mn><m:mspace width="0.2em"/><m:menclose notation="horizontalstrike"><m:mtext>L</m:mtext></m:menclose></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:mn>1</m:mn><m:mspace width="0.2em"/><m:menclose notation="horizontalstrike"><m:mtext>L</m:mtext></m:menclose></m:mrow><m:mrow><m:mtext>1000 mL</m:mtext></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mo>=</m:mo><m:mtext>1.11 g/mL</m:mtext></m:mrow></m:math></equation>
+<para id="fs-idm219351440">
+<title>Check Your Learning</title>
+What is the volume in liters of 1.000 oz, given that 1 L = 1.0567 qt and 1 qt = 32 oz (exactly)?</para>
+<note id="fs-idm207792224">
+<title>Answer:</title>
+<para id="fs-idm292695264">2.957 × 10<sup>−2</sup> L</para>
+</note>
+</example>
+<example id="fs-idm306560960">
+<para id="fs-idm338996800">
+<title>Computing Quantities from Measurement Results and Known Mathematical Relations</title>
+While being driven from Philadelphia to Atlanta, a distance of about 1250 km, a 2014 Lamborghini Aventador Roadster uses 213 L gasoline.</para>
+<para id="fs-idm127359616">(a) What (average) fuel economy, in miles per gallon, did the Roadster get during this trip?</para>
+<para id="fs-idm315428528">(b) If gasoline costs $3.80 per gallon, what was the fuel cost for this trip?</para>
+<para id="fs-idm327742336">
+<title>Solution</title>
+(a) First convert distance from kilometers to miles:</para>
+<equation id="fs-idm60362224" class="unnumbered"><m:math><m:mrow><m:mn>1250</m:mn><m:mspace width="0.2em"/><m:menclose notation="horizontalstrike"><m:mtext>km</m:mtext></m:menclose><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:mtext>0.62137 mi</m:mtext></m:mrow><m:mrow><m:mn>1</m:mn><m:mspace width="0.2em"/><m:menclose notation="horizontalstrike"><m:mtext>km</m:mtext></m:menclose></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mo>=</m:mo><m:mtext>777 mi</m:mtext></m:mrow></m:math></equation>
+<para id="fs-idm142282576">and then convert volume from liters to gallons:</para>
+<equation id="fs-idm214696672" class="unnumbered"><m:math><m:mrow><m:mn>213</m:mn><m:mspace width="0.2em"/><m:menclose notation="horizontalstrike"><m:mtext>L</m:mtext></m:menclose><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:mtext>1.0567</m:mtext><m:mspace width="0.2em"/><m:menclose notation="horizontalstrike"><m:mrow><m:mtext>qt</m:mtext></m:mrow></m:menclose></m:mrow><m:mrow><m:mn>1</m:mn><m:mspace width="0.2em"/><m:menclose notation="horizontalstrike"><m:mtext>L</m:mtext></m:menclose></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:mtext>1 gal</m:mtext></m:mrow><m:mrow><m:mn>4</m:mn><m:mspace width="0.2em"/><m:menclose notation="horizontalstrike"><m:mrow><m:mtext>qt</m:mtext></m:mrow></m:menclose></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mo>=</m:mo><m:mtext>56.3 gal</m:mtext></m:mrow></m:math></equation>
+<para id="fs-idp1583872">Finally,</para>
+<equation id="fs-idm114266320" class="unnumbered">
+<m:math><m:mrow><m:mtext>(average) mileage</m:mtext><m:mo>=</m:mo><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:mtext>777 mi</m:mtext></m:mrow><m:mrow><m:mtext>56.3 gal</m:mtext></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mo>=</m:mo><m:mtext>13.8 miles/gallon</m:mtext><m:mo>=</m:mo><m:mtext>13.8 mpg</m:mtext></m:mrow></m:math></equation>
+<para id="fs-idm311190128">Alternatively, the calculation could be set up in a way that uses all the conversion factors sequentially, as follows:</para>
+<equation id="fs-idm171836160" class="unnumbered"><m:math><m:mrow><m:mfrac><m:mrow><m:mn>1250</m:mn><m:mspace width="0.2em"/><m:menclose notation="horizontalstrike"><m:mrow><m:mtext>km</m:mtext></m:mrow></m:menclose></m:mrow><m:mrow><m:mn>213</m:mn><m:mspace width="0.2em"/><m:menclose notation="horizontalstrike"><m:mtext>L</m:mtext></m:menclose></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:mtext>0.62137 mi</m:mtext></m:mrow><m:mrow><m:mn>1</m:mn><m:mspace width="0.2em"/><m:menclose notation="horizontalstrike"><m:mrow><m:mtext>km</m:mtext></m:mrow></m:menclose></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:mn>1</m:mn><m:mspace width="0.2em"/><m:menclose notation="horizontalstrike"><m:mtext>L</m:mtext></m:menclose></m:mrow><m:mrow><m:mtext>1.0567</m:mtext><m:mspace width="0.2em"/><m:menclose notation="horizontalstrike"><m:mrow><m:mtext>qt</m:mtext></m:mrow></m:menclose></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:mn>4</m:mn><m:mspace width="0.2em"/><m:menclose notation="horizontalstrike"><m:mrow><m:mtext>qt</m:mtext></m:mrow></m:menclose></m:mrow><m:mrow><m:mtext>1 gal</m:mtext></m:mrow></m:mfrac><m:mo>=</m:mo><m:mtext>13.8 mpg</m:mtext></m:mrow></m:math></equation>
+<para id="fs-idm268939440">(b) Using the previously calculated volume in gallons, we find:</para>
+<equation id="fs-idm328491840" class="unnumbered"><m:math><m:mrow><m:mn>56.3</m:mn><m:mspace width="0.2em"/><m:menclose notation="horizontalstrike"><m:mtext>gal</m:mtext></m:menclose><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:mtext>$3.80</m:mtext></m:mrow><m:mrow><m:mn>1</m:mn><m:mspace width="0.2em"/><m:menclose notation="horizontalstrike"><m:mtext>gal</m:mtext></m:menclose></m:mrow></m:mfrac><m:mo>=</m:mo><m:mtext>$214</m:mtext></m:mrow></m:math></equation>
+<para id="fs-idm125734208">
+<title>Check Your Learning</title>
+A Toyota Prius Hybrid uses 59.7 L gasoline to drive from San Francisco to Seattle, a distance of 1300 km (two significant digits).</para>
+<para id="fs-idm247721312">(a) What (average) fuel economy, in miles per gallon, did the Prius get during this trip?</para>
+<para id="fs-idm292238912">(b) If gasoline costs $3.90 per gallon, what was the fuel cost for this trip?</para>
+<note id="fs-idp13830304">
+<title>Answer:</title>
+<para id="fs-idm210440528">(a) 51 mpg; (b) $62</para>
+</note>
+</example>
+</section>
+<section id="fs-idm206910464">
+<title>Conversion of Temperature Units</title>
+<para id="fs-idm262720192">We use the word <term id="term-00004">temperature</term> to refer to the hotness or coldness of a substance. One way we measure a change in temperature is to use the fact that most substances expand when their temperature increases and contract when their temperature decreases. The liquid in a common glass thermometer changes its volume as the temperature changes, and the position of the trapped liquid's surface along a printed scale may be used as a measure of temperature.</para>
+<para id="fs-idm308860096">Temperature scales are defined relative to selected reference temperatures: Two of the most commonly used are the freezing and boiling temperatures of water at a specified atmospheric pressure. On the Celsius scale, 0 °C is defined as the freezing temperature of water and 100 °C as the boiling temperature of water. The space between the two temperatures is divided into 100 equal intervals, which we call degrees. On the <term id="term-00005">Fahrenheit</term> scale, the freezing point of water is defined as 32 °F and the boiling temperature as 212 °F. The space between these two points on a Fahrenheit thermometer is divided into 180 equal parts (degrees).</para>
+<para id="fs-idm288396336">Defining the Celsius and Fahrenheit temperature scales as described in the previous paragraph results in a slightly more complex relationship between temperature values on these two scales than for different units of measure for other properties. Most measurement units for a given property are directly proportional to one another (y = mx). Using familiar length units as one example:</para>
+<equation id="fs-idm6121760" class="unnumbered"><m:math><m:mrow><m:mtext>length in feet</m:mtext><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:mtext>1 ft</m:mtext></m:mrow><m:mrow><m:mtext>12 in.</m:mtext></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mtext>length in inches</m:mtext></m:mrow></m:math></equation>
+<para id="fs-idm161552768">where y = length in feet, x = length in inches, and the proportionality constant, m, is the conversion factor. The Celsius and Fahrenheit temperature scales, however, do not share a common zero point, and so the relationship between these two scales is a linear one rather than a proportional one (y = mx + b). Consequently, converting a temperature from one of these scales into the other requires more than simple multiplication by a conversion factor, m; it also must take into account differences in the scales’ zero points (b).</para>
+<para id="fs-idm292928800">The linear equation relating Celsius and Fahrenheit temperatures is easily derived from the two temperatures used to define each scale. Representing the Celsius temperature as <emphasis effect="italics">x</emphasis> and the Fahrenheit temperature as <emphasis effect="italics">y</emphasis>, the slope, <emphasis effect="italics">m</emphasis>, is computed to be:</para>
+<equation id="fs-idm229969840" class="unnumbered"><m:math><m:mrow><m:mi>m</m:mi><m:mo>=</m:mo><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:mtext>Δ</m:mtext><m:mi>y</m:mi></m:mrow><m:mrow><m:mtext>Δ</m:mtext><m:mi>x</m:mi></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mo>=</m:mo><m:mfrac><m:mrow><m:mtext>212 °F</m:mtext><m:mo>−</m:mo><m:mtext>32 °F</m:mtext><m:mspace width="0.2em"/></m:mrow><m:mrow><m:mtext>100 °C</m:mtext><m:mo>−</m:mo><m:mtext>0 °C</m:mtext></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mo>=</m:mo><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:mtext>180 °F</m:mtext></m:mrow><m:mrow><m:mtext>100 °C</m:mtext></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mo>=</m:mo><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:mtext>9 °F</m:mtext></m:mrow><m:mrow><m:mtext>5 °C</m:mtext></m:mrow></m:mfrac></m:mrow></m:math></equation>
+<para id="fs-idm206340880">The <emphasis effect="italics">y</emphasis>-intercept of the equation, <emphasis effect="italics">b</emphasis>, is then calculated using either of the equivalent temperature pairs, (100 °C, 212 °F) or (0 °C, 32 °F), as:</para>
+<equation id="fs-idm234430272" class="unnumbered"><m:math><m:mrow><m:mi>b</m:mi><m:mo>=</m:mo><m:mi>y</m:mi><m:mo>−</m:mo><m:mi>m</m:mi><m:mi>x</m:mi><m:mo>=</m:mo><m:mtext>32 °F</m:mtext><m:mo>−</m:mo><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:mtext>9 °F</m:mtext></m:mrow><m:mrow><m:mtext>5 °C</m:mtext></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mtext>0 °C</m:mtext><m:mo>=</m:mo><m:mtext>32 °F</m:mtext></m:mrow></m:math></equation>
+<para id="fs-idm218561008">The equation relating the temperature (<emphasis effect="italics">T</emphasis>) scales is then:</para>
+<equation id="fs-idm305465424" class="unnumbered"><m:math><m:mrow><m:msub><m:mi>T</m:mi><m:mrow><m:mtext>°F</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:mtext>9 °F</m:mtext></m:mrow><m:mrow><m:mtext>5 °C</m:mtext></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msub><m:mi>T</m:mi><m:mrow><m:mtext>°C</m:mtext></m:mrow></m:msub></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mtext>32 °F</m:mtext></m:mrow></m:math></equation><para id="fs-idm208304512">An abbreviated form of this equation that omits the measurement units is:</para>
+<equation id="fs-idm226315088" class="unnumbered"><m:math><m:mrow><m:msub><m:mi>T</m:mi><m:mrow><m:mtext>°F</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mspace width="0.2em"/><m:mo>(</m:mo><m:mfrac><m:mn>9</m:mn><m:mrow><m:mn>5</m:mn><m:mspace width="0.2em"/></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msub><m:mi>T</m:mi><m:mrow><m:mtext>°C</m:mtext></m:mrow></m:msub><m:mo>)</m:mo><m:mo>+</m:mo><m:mn>32</m:mn></m:mrow></m:math></equation><para id="fs-idm356038704">Rearrangement of this equation yields the form useful for converting from Fahrenheit to Celsius:</para>
+<equation id="fs-idm138168256" class="unnumbered"><m:math><m:mrow><m:msub><m:mi>T</m:mi><m:mrow><m:mtext>°C</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:mn>5</m:mn><m:mspace width="0.2em"/></m:mrow><m:mrow><m:mn>9</m:mn></m:mrow></m:mfrac><m:mrow><m:mo>(</m:mo><m:mrow><m:msub><m:mi>T</m:mi><m:mrow><m:mtext>°F</m:mtext></m:mrow></m:msub><m:mo>−</m:mo><m:mn>32</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></equation>
+<para id="fs-idm131802496">As mentioned earlier in this chapter, the SI unit of temperature is the kelvin (K). Unlike the Celsius and Fahrenheit scales, the kelvin scale is an absolute temperature scale in which 0 (zero) K corresponds to the lowest temperature that can theoretically be achieved. Since the kelvin temperature scale is absolute, a degree symbol is not included in the unit abbreviation, K. The early 19th-century discovery of the relationship between a gas’s volume and temperature suggested that the volume of a gas would be zero at −273.15 °C. In 1848, British physicist William Thompson, who later adopted the title of Lord Kelvin, proposed an absolute temperature scale based on this concept (further treatment of this topic is provided in this text’s chapter on gases).</para>
+<para id="fs-idm309875456">The freezing temperature of water on this scale is 273.15 K and its boiling temperature is 373.15 K. Notice the numerical difference in these two reference temperatures is 100, the same as for the Celsius scale, and so the linear relation between these two temperature scales will exhibit a slope of <m:math><m:mrow><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mfrac><m:mtext>K</m:mtext><m:mrow><m:mtext>°C</m:mtext></m:mrow></m:mfrac></m:mrow></m:math>. Following the same approach, the equations for converting between the kelvin and Celsius temperature scales are derived to be:</para>
+<equation id="fs-idp289344" class="unnumbered"><m:math><m:mrow><m:msub><m:mi>T</m:mi><m:mtext>K</m:mtext></m:msub><m:mo>=</m:mo><m:msub><m:mi>T</m:mi><m:mrow><m:mtext>°C</m:mtext></m:mrow></m:msub><m:mo>+</m:mo><m:mtext>273.15</m:mtext></m:mrow></m:math></equation>
+<equation id="fs-idm303916848" class="unnumbered"><m:math><m:mrow><m:msub><m:mi>T</m:mi><m:mrow><m:mtext>°C</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:msub><m:mi>T</m:mi><m:mtext>K</m:mtext></m:msub><m:mo>−</m:mo><m:mtext>273.15</m:mtext></m:mrow></m:math></equation>
+<para id="fs-idm288599552">The 273.15 in these equations has been determined experimentally, so it is not exact. <link target-id="CNX_Chem_01_06_TempScales"/> shows the relationship among the three temperature scales.</para>
+<figure id="CNX_Chem_01_06_TempScales">
+<media id="fs-idm249665120" alt="Three thermometers are shown for the Fahrenheit, Celsius, and Kelvin scales. Under the Fahrenheit scale, the boiling point of water is 212 degrees while the freezing point is 32 degrees, with 180 Fahrenheit degrees between them. Under the Celsius scale, the boiling point is 100 degrees while the freezing point is 0 degrees, with 100 Celsius degrees between them. Under the Kelvin scale, the boiling point is 373.15 K while the freezing point is 273.15 K, with 100 kelvins between them. 233.15 K is equal to negative 40 degrees Celsius, which is also equal to negative 40 degrees Fahrenheit.">
+<image mime-type="image/jpeg" src="../../media/CNX_Chem_01_06_TempScales.jpg"/>
+</media>
+<caption>The Fahrenheit, Celsius, and kelvin temperature scales are compared.</caption>
+</figure>
+<para id="fs-idm296725200">Although the kelvin (absolute) temperature scale is the official SI temperature scale, Celsius is commonly used in many scientific contexts and is the scale of choice for nonscience contexts in almost all areas of the world. Very few countries (the U.S. and its territories, the Bahamas, Belize, Cayman Islands, and Palau) still use Fahrenheit for weather, medicine, and cooking.</para>
+<example id="fs-idm75569040">
+<para id="fs-idm290946544">
+<title>Conversion from Celsius</title>
+Normal body temperature has been commonly accepted as 37.0 °C (although it varies depending on time of day and method of measurement, as well as among individuals). What is this temperature on the kelvin scale and on the Fahrenheit scale?</para>
+<para id="fs-idm288550064">
+<title>Solution</title>
+</para>
+<equation id="fs-idm223031696" class="unnumbered"><m:math><m:mrow><m:mtext>K</m:mtext><m:mo>=</m:mo><m:mtext>°C</m:mtext><m:mo>+</m:mo><m:mn>273.15</m:mn><m:mo>=</m:mo><m:mn>37.0</m:mn><m:mo>+</m:mo><m:mn>273.2</m:mn><m:mo>=</m:mo><m:mtext>310.2 K</m:mtext></m:mrow></m:math></equation>
+<equation id="fs-idp114907616" class="unnumbered"><m:math><m:mrow><m:mtext>°F</m:mtext><m:mo>=</m:mo><m:mfrac><m:mn>9</m:mn><m:mn>5</m:mn></m:mfrac><m:mtext>°C</m:mtext><m:mo>+</m:mo><m:mn>32.0</m:mn><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mn>9</m:mn><m:mn>5</m:mn></m:mfrac><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mn>37.0</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mn>32.0</m:mn><m:mo>=</m:mo><m:mn>66.6</m:mn><m:mo>+</m:mo><m:mn>32.0</m:mn><m:mo>=</m:mo><m:mtext>98.6 °F</m:mtext></m:mrow></m:math></equation>
+<para id="fs-idp16310096">
+<title>Check Your Learning</title>
+Convert 80.92 °C to K and °F.</para>
+<note id="fs-idp2744272">
+<title>Answer:</title>
+<para id="fs-idm203762304">354.07 K, 177.66 °F</para>
+</note>
+</example>
+<example id="fs-idm309453552">
+<para id="fs-idm421846336">
+<title>Conversion from Fahrenheit</title>
+Baking a ready-made pizza calls for an oven temperature of 450 °F. If you are in Europe, and your oven thermometer uses the Celsius scale, what is the setting? What is the kelvin temperature?</para>
+<para id="fs-idm36231872">
+<title>Solution</title>
+</para>
+<equation id="fs-idm32912" class="unnumbered"><m:math><m:mrow><m:mtext>°C</m:mtext><m:mo>=</m:mo><m:mspace width="0.2em"/><m:mfrac><m:mn>5</m:mn><m:mn>9</m:mn></m:mfrac><m:mtext>(°F</m:mtext><m:mo>−</m:mo><m:mtext>32)</m:mtext><m:mo>=</m:mo><m:mspace width="0.2em"/><m:mfrac><m:mn>5</m:mn><m:mn>9</m:mn></m:mfrac><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>450</m:mn><m:mo>−</m:mo><m:mn>32</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mspace width="0.2em"/><m:mfrac><m:mn>5</m:mn><m:mn>9</m:mn></m:mfrac><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mn>418</m:mn><m:mo>=</m:mo><m:mtext>232 °C</m:mtext><m:mspace width="0.2em"/><m:mo stretchy="false">⟶</m:mo><m:mspace width="0.2em"/><m:mtext>set oven to 230 °C</m:mtext><m:mspace width="2em"/><m:mrow><m:mo>(</m:mo><m:mrow><m:mtext>two significant figures</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></equation>
+<equation id="fs-idm144212448" class="unnumbered"><m:math><m:mrow><m:mtext>K</m:mtext><m:mo>=</m:mo><m:mtext>°C</m:mtext><m:mo>+</m:mo><m:mn>273.15</m:mn><m:mo>=</m:mo><m:mfrac><m:mn>5</m:mn><m:mn>9</m:mn></m:mfrac><m:mtext>(°F</m:mtext><m:mo>-</m:mo><m:mtext>32)</m:mtext><m:mo>+</m:mo><m:mn>273.15</m:mn><m:mo>=</m:mo><m:mfrac><m:mn>5</m:mn><m:mn>9</m:mn></m:mfrac><m:mo>(</m:mo><m:mn>450</m:mn><m:mo>-</m:mo><m:mn>32</m:mn><m:mo>)</m:mo><m:mo>+</m:mo><m:mn>273.15</m:mn><m:mo>=</m:mo><m:mn>505.4</m:mn><m:mspace width="0.2em"/><m:mtext>K</m:mtext><m:mspace width="0.2em"/><m:mo stretchy="false">⟶</m:mo><m:mn>5.1</m:mn><m:mo>×</m:mo><m:msup><m:mn>10</m:mn><m:mn>2</m:mn></m:msup><m:mtext>K</m:mtext></m:mrow></m:math></equation><para id="fs-idm296519728">
+<title>Check Your Learning</title>
+Convert 50 °F to °C and K. (two significant figures)</para>
+<note id="fs-idm271612080">
+<title>Answer:</title>
+<para id="fs-idm296391568">10 °C, 280 K</para>
+</note>
+</example>
+</section>
+<section id="fs-idm292051392" class="summary">
+<title>Key Concepts and Summary</title>
+<para id="fs-idm126307616">Measurements are made using a variety of units. It is often useful or necessary to convert a measured quantity from one unit into another. These conversions are accomplished using unit conversion factors, which are derived by simple applications of a mathematical approach called the factor-label method or dimensional analysis. This strategy is also employed to calculate sought quantities using measured quantities and appropriate mathematical relations.</para>
+</section>
+<section id="fs-idm299998176" class="key-equations">
+<title>Key Equations</title>
+<table id="key-equations-table" class="unnumbered unstyled" summary="key equations table"><label/>
+<tgroup cols="1"><colspec colnum="1" colname="c1"/>
+<tbody>
+<row><entry><m:math><m:mrow><m:msub><m:mi>T</m:mi><m:mrow><m:mtext>°C</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:mn>5</m:mn></m:mrow><m:mrow><m:mn>9</m:mn></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mo>(</m:mo><m:msub><m:mi>T</m:mi><m:mrow><m:mtext>°F</m:mtext></m:mrow></m:msub><m:mo>−</m:mo><m:mn>32</m:mn></m:mrow><m:mo>)</m:mo></m:math></entry>
+</row>
+<row><entry><m:math><m:mrow><m:msub><m:mi>T</m:mi><m:mrow><m:mtext>°F</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mspace width="0.2em"/><m:mo>(</m:mo><m:mfrac><m:mn>9</m:mn><m:mrow><m:mn>5</m:mn></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msub><m:mi>T</m:mi><m:mrow><m:mtext>°C</m:mtext></m:mrow></m:msub><m:mo>)</m:mo><m:mo>+</m:mo><m:mn>32</m:mn></m:mrow></m:math></entry></row>
+<row><entry><m:math><m:mrow><m:msub><m:mi>T</m:mi><m:mtext>K</m:mtext></m:msub><m:mo>=</m:mo><m:mtext>°C</m:mtext><m:mo>+</m:mo><m:mn>273.15</m:mn></m:mrow></m:math></entry></row>
+<row><entry><m:math><m:mrow><m:msub><m:mi>T</m:mi><m:mrow><m:mtext>°C</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mtext>K</m:mtext><m:mo>−</m:mo><m:mn>273.15</m:mn></m:mrow></m:math></entry></row>
+</tbody></tgroup></table></section>
+
+<section id="fs-idm321708320" class="exercises">
+<title>Chemistry End of Chapter Exercises</title>
+<exercise id="fs-idm287695728">
+<problem id="fs-idm321420560">
+<para id="fs-idm205828912">Write conversion factors (as ratios) for the number of:</para>
+<para id="fs-idm279869696">(a) yards in 1 meter</para>
+<para id="fs-idm84945616">(b) liters in 1 liquid quart</para>
+<para id="fs-idp63976464">(c) pounds in 1 kilogram</para>
+</problem>
+<solution id="fs-idm234124448">
+<para id="fs-idp10346048">(a) <m:math><m:mrow><m:mfrac><m:mrow><m:mtext>1.0936 yd</m:mtext></m:mrow><m:mrow><m:mtext>1 m</m:mtext></m:mrow></m:mfrac></m:mrow></m:math>; (b) <m:math><m:mrow><m:mfrac><m:mrow><m:mtext>0.94635 L</m:mtext></m:mrow><m:mrow><m:mtext>1 qt</m:mtext></m:mrow></m:mfrac></m:mrow></m:math>; (c) <m:math><m:mrow><m:mfrac><m:mrow><m:mtext>2.2046 lb</m:mtext></m:mrow><m:mrow><m:mtext>1 kg</m:mtext></m:mrow></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-idm321326256"><problem id="fs-idm216827152">
+<para id="fs-idm311439712">Write conversion factors (as ratios) for the number of:</para>
+<para id="fs-idm208959712">(a) kilometers in 1 mile</para>
+<para id="fs-idm424194064">(b) liters in 1 cubic foot</para>
+<para id="fs-idm295984656">(c) grams in 1 ounce</para>
+</problem>
+</exercise><exercise id="fs-idp43396912">
+<problem id="fs-idm280102992">
+<para id="fs-idm310365264">The label on a soft drink bottle gives the volume in two units: 2.0 L and 67.6 fl oz. Use this information to derive a conversion factor between the English and metric units. How many significant figures can you justify in your conversion factor?</para>
+</problem>
+<solution id="fs-idm250095808">
+<para id="fs-idm205490112"><m:math><m:mtable><m:mtr><m:mtd><m:mfrac><m:mrow><m:mtext>2.0 L</m:mtext></m:mrow><m:mrow><m:mtext>67.6 fl oz</m:mtext></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mo>=</m:mo><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:mtext>0.030 L</m:mtext></m:mrow><m:mrow><m:mtext>1 fl oz</m:mtext></m:mrow></m:mfrac></m:mtd></m:mtr></m:mtable></m:math><newline/>
+Only two significant figures are justified.</para>
+</solution>
+</exercise>
+<exercise id="fs-idm124621456">
+<problem id="fs-idm29733840">
+<para id="fs-idm29733712">The label on a box of cereal gives the mass of cereal in two units: 978 grams and 34.5 oz. Use this information to find a conversion factor between the English and metric units. How many significant figures can you justify in your conversion factor?</para>
+</problem>
+</exercise>
+<exercise id="fs-idm125803088">
+<problem id="fs-idm292728432">
+<para id="fs-idm292728304">Soccer is played with a round ball having a circumference between 27 and 28 in. and a weight between 14 and 16 oz. What are these specifications in units of centimeters and grams?</para>
+</problem>
+<solution id="fs-idm206939952">
+<para id="fs-idm184575152">68–71 cm; 400–450 g</para>
+</solution>
+</exercise>
+<exercise id="fs-idm128259568">
+<problem id="fs-idm182544144">
+<para id="fs-idm205705360">A woman’s basketball has a circumference between 28.5 and 29.0 inches and a maximum weight of 20 ounces (two significant figures). What are these specifications in units of centimeters and grams?</para>
+</problem>
+</exercise>
+<exercise id="fs-idm203954352">
+<problem id="fs-idm311646784">
+<para id="fs-idm210994400">How many milliliters of a soft drink are contained in a 12.0-oz can?</para>
+</problem>
+<solution id="fs-idm296436336">
+<para id="fs-idm208576112">355 mL</para>
+</solution>
+</exercise>
+<exercise id="fs-idm290820272">
+<problem id="fs-idm183533936">
+<para id="fs-idp25376512">A barrel of oil is exactly 42 gal. How many liters of oil are in a barrel?</para>
+</problem>
+</exercise>
+<exercise id="fs-idp32978240">
+<problem id="fs-idm217725872">
+<para id="fs-idm127485184">The diameter of a red blood cell is about 3 <m:math><m:mo>×</m:mo></m:math> 10<sup>−4</sup> in. What is its diameter in centimeters?</para>
+</problem>
+<solution id="fs-idm321230800">
+<para id="fs-idp32913072">8 <m:math><m:mo>×</m:mo></m:math> 10<sup>−4</sup> cm</para>
+</solution>
+</exercise>
+<exercise id="fs-idp3893440">
+<problem id="fs-idm127879648">
+<para id="fs-idm227698368">The distance between the centers of the two oxygen atoms in an oxygen molecule is 1.21 <m:math><m:mo>×</m:mo></m:math> 10<sup>−8</sup> cm. What is this distance in inches?</para>
+</problem>
+</exercise>
+<exercise id="fs-idm280166528">
+<problem id="fs-idm304364384">
+<para id="fs-idm294701072">Is a 197-lb weight lifter light enough to compete in a class limited to those weighing 90 kg or less?</para>
+</problem>
+<solution id="fs-idm273408704">
+<para id="fs-idm196114640">yes; weight = 89.4 kg</para>
+</solution>
+</exercise>
+<exercise id="fs-idm311405440">
+<problem id="fs-idm198403344">
+<para id="fs-idm335136096">A very good 197-lb weight lifter lifted 192 kg in a move called the clean and jerk. What was the mass of the weight lifted in pounds?</para>
+</problem>
+</exercise>
+<exercise id="fs-idm159954784">
+<problem id="fs-idm127635008">
+<para id="fs-idm289987648">Many medical laboratory tests are run using 5.0 μL blood serum. What is this volume in milliliters?</para>
+</problem>
+<solution id="fs-idm251179088">
+<para id="fs-idm137236672">5.0 <m:math><m:mo>×</m:mo></m:math> 10<sup>−3</sup> mL</para>
+</solution>
+</exercise>
+<exercise id="fs-idm293326720">
+<problem id="fs-idm221815520">
+<para id="fs-idm392857904">If an aspirin tablet contains 325 mg aspirin, how many grams of aspirin does it contain?</para>
+</problem>
+</exercise>
+<exercise id="fs-idm101514016">
+<problem id="fs-idm207700000">
+<para id="fs-idm103945312">Use scientific (exponential) notation to express the following quantities in terms of SI base units:</para><para id="fs-idm287857616">(a) 0.13 g</para>
+<para id="fs-idm210449872">(b) 232 Gg</para>
+<para id="fs-idm275388528">(c) 5.23 pm</para>
+<para id="fs-idm84936752">(d) 86.3 mg</para>
+<para id="fs-idm321706016">(e) 37.6 cm</para>
+<para id="fs-idm223302480">(f) 54 μm</para>
+<para id="fs-idm206685248">(g) 1 Ts</para>
+<para id="fs-idp17980176">(h) 27 ps</para>
+<para id="fs-idm293327696">(i) 0.15 mK</para>
+</problem>
+<solution id="fs-idp31152720">
+<para id="fs-idm211581456">(a) 1.3 <m:math><m:mo>×</m:mo></m:math> 10<sup>−4</sup> kg; (b) 2.32 <m:math><m:mo>×</m:mo></m:math> 10<sup>8</sup> kg; (c) 5.23 <m:math><m:mo>×</m:mo></m:math> 10<sup>−12</sup> m; (d) 8.63 <m:math><m:mo>×</m:mo></m:math> 10<sup>−5</sup> kg; (e) 3.76 <m:math><m:mo>×</m:mo></m:math> 10<sup>−1</sup> m; (f) 5.4 <m:math><m:mo>×</m:mo></m:math> 10<sup>−5</sup> m; (g) 1 <m:math><m:mo>×</m:mo></m:math> 10<sup>12</sup> s; (h) 2.7 <m:math><m:mo>×</m:mo></m:math> 10<sup>−11</sup> s; (i) 1.5 <m:math><m:mo>×</m:mo></m:math> 10<sup>−4</sup> K</para>
+</solution>
+</exercise>
+<exercise id="fs-idm247037968">
+<problem id="fs-idm95029328">
+<para id="fs-idm308818096">Complete the following conversions between SI units.</para>
+<para id="fs-idm215457056">(a) 612 g = ________ mg</para>
+<para id="fs-idp22672320">(b) 8.160 m = ________ cm</para>
+<para id="fs-idp6747456">(c) 3779 μg = ________ g</para>
+<para id="fs-idp6307488">(d) 781 mL = ________ L</para>
+<para id="fs-idm290463344">(e) 4.18 kg = ________ g</para>
+<para id="fs-idm133611712">(f) 27.8 m = ________ km</para>
+<para id="fs-idm321147200">(g) 0.13 mL = ________ L</para>
+<para id="fs-idm215787632">(h) 1738 km = ________ m</para>
+<para id="fs-idm287495504">(i) 1.9 Gg = ________ g</para>
+</problem>
+</exercise>
+<exercise id="fs-idp54026624">
+<problem id="fs-idp26092928">
+<para id="fs-idm195964464">Gasoline is sold by the liter in many countries. How many liters are required to fill a 12.0-gal gas tank?</para>
+</problem>
+<solution id="fs-idp15770272">
+<para id="fs-idm268990752">45.4 L</para>
+</solution>
+</exercise>
+<exercise id="fs-idm242942368">
+<problem id="fs-idm228166912">
+<para id="fs-idm228166784">Milk is sold by the liter in many countries. What is the volume of exactly 1/2 gal of milk in liters?</para>
+</problem>
+</exercise>
+<exercise id="fs-idm186995360">
+<problem id="fs-idm198366992">
+<para id="fs-idm247416224">A long ton is defined as exactly 2240 lb. What is this mass in kilograms?</para>
+</problem>
+<solution id="fs-idm141935600">
+<para id="fs-idp176467360">1.0160 <m:math><m:mo>×</m:mo></m:math> 10<sup>3</sup> kg</para>
+</solution>
+</exercise>
+<exercise id="fs-idm311016240">
+<problem id="fs-idm142857136">
+<para id="fs-idm142857008">Make the conversion indicated in each of the following:</para>
+<para id="fs-idm128192960">(a) the men’s world record long jump, 29 ft 4¼ in., to meters</para>
+<para id="fs-idm204780944">(b) the greatest depth of the ocean, about 6.5 mi, to kilometers</para>
+<para id="fs-idp1437328">(c) the area of the state of Oregon, 96,981 mi<sup>2</sup>, to square kilometers</para>
+<para id="fs-idm124542480">(d) the volume of 1 gill (exactly 4 oz) to milliliters</para>
+<para id="fs-idm210560384">(e) the estimated volume of the oceans, 330,000,000 mi<sup>3</sup>, to cubic kilometers.</para>
+<para id="fs-idm216546816">(f) the mass of a 3525-lb car to kilograms</para>
+<para id="fs-idm155997760">(g) the mass of a 2.3-oz egg to grams</para>
+</problem>
+</exercise>
+<exercise id="fs-idm250694352">
+<problem id="fs-idp10390272">
+<para id="fs-idp10390400">Make the conversion indicated in each of the following:</para>
+<para id="fs-idm367197520">(a) the length of a soccer field, 120 m (three significant figures), to feet</para>
+<para id="fs-idp51878496">(b) the height of Mt. Kilimanjaro, at 19,565 ft, the highest mountain in Africa, to kilometers</para>
+<para id="fs-idm307271088">(c) the area of an 8.5- × 11-inch sheet of paper in cm<sup>2</sup>
+</para><para id="fs-idm127105888">(d) the displacement volume of an automobile engine, 161 in.<sup>3</sup>, to liters</para>
+<para id="fs-idm218455584">(e) the estimated mass of the atmosphere, 5.6 × 10<sup>15</sup> tons, to kilograms</para><para id="fs-idm98022832">(f) the mass of a bushel of rye, 32.0 lb, to kilograms</para>
+<para id="fs-idm162390144">(g) the mass of a 5.00-grain aspirin tablet to milligrams (1 grain = 0.00229 oz)</para>
+</problem>
+<solution id="fs-idm134480048">
+<para id="fs-idm134479920">(a) 394 ft; (b) 5.9634 km; (c) 6.0 <m:math><m:mo>×</m:mo></m:math> 10<sup>2</sup>; (d) 2.64 L; (e) 5.1 <m:math><m:mo>×</m:mo></m:math> 10<sup>18</sup> kg; (f) 14.5 kg; (g) 325 mg</para></solution>
+</exercise>
+<exercise id="fs-idm219388000">
+<problem id="fs-idm143571408">
+<para id="fs-idm142862320">Many chemistry conferences have held a 50-Trillion Angstrom Run (two significant figures). How long is this run in kilometers and in miles? (1 Å = 1 <m:math><m:mo>×</m:mo></m:math> 10<sup>−10</sup> m)</para>
+</problem>
+</exercise>
+<exercise id="fs-idm311640624">
+<problem id="fs-idm142857728">
+<para id="fs-idm142857600">A chemist’s 50-Trillion Angstrom Run (see <link target-id="fs-idm219388000"/>) would be an archeologist’s 10,900 cubit run. How long is one cubit in meters and in feet? (1 Å = 1 <m:math><m:mo>×</m:mo></m:math> 10<sup>−8</sup> cm)</para></problem>
+<solution id="fs-idm124387920">
+<para id="fs-idp194388912">0.46 m; 1.5 ft/cubit</para>
+</solution>
+</exercise>
+<exercise id="fs-idm306975136">
+<problem id="fs-idm262841696">
+<para id="fs-idp31641040">The gas tank of a certain luxury automobile holds 22.3 gallons according to the owner’s manual. If the density of gasoline is 0.8206 g/mL, determine the mass in kilograms and pounds of the fuel in a full tank.</para>
+</problem>
+</exercise>
+<exercise id="fs-idm244153744">
+<problem id="fs-idm178696224">
+<para id="fs-idm178696096">As an instructor is preparing for an experiment, he requires 225 g phosphoric acid. The only container readily available is a 150-mL Erlenmeyer flask. Is it large enough to contain the acid, whose density is 1.83 g/mL?</para>
+</problem>
+<solution id="fs-idp17096768">
+<para id="fs-idm126197920">Yes, the acid’s volume is 123 mL.</para>
+</solution>
+</exercise>
+<exercise id="fs-idm110873792">
+<problem id="fs-idp43401872">
+<para id="fs-idp43402000">To prepare for a laboratory period, a student lab assistant needs 125 g of a compound. A bottle containing 1/4 lb is available. Did the student have enough of the compound?</para>
+</problem>
+</exercise>
+<exercise id="fs-idp15401744">
+<problem id="fs-idp15402000">
+<para id="fs-idm155316144">A chemistry student is 159 cm tall and weighs 45.8 kg. What is her height in inches and weight in pounds?</para>
+</problem>
+<solution id="fs-idm218551552">
+<para id="fs-idm321078368">62.6 in (about 5 ft 3 in.) and 101 lb</para>
+</solution>
+</exercise>
+<exercise id="fs-idm207241008">
+<problem id="fs-idm207240752">
+<para id="fs-idp31182736">In a recent Grand Prix, the winner completed the race with an average speed of 229.8 km/h. What was his speed in miles per hour, meters per second, and feet per second?</para>
+</problem>
+</exercise>
+<exercise id="fs-idm289866560">
+<problem id="fs-idp33103936">
+<para id="fs-idp33104064">Solve these problems about lumber dimensions.</para>
+<para id="fs-idm124373120">(a) To describe to a European how houses are constructed in the US, the dimensions of “two-by-four” lumber must be converted into metric units. The thickness <m:math><m:mo>×</m:mo></m:math> width <m:math><m:mo>×</m:mo></m:math> length dimensions are 1.50 in. <m:math><m:mo>×</m:mo></m:math> 3.50 in. <m:math><m:mo>×</m:mo></m:math> 8.00 ft in the US. What are the dimensions in cm <m:math><m:mo>×</m:mo></m:math> cm <m:math><m:mo>×</m:mo></m:math> m?</para>
+<para id="fs-idm97712544">(b) This lumber can be used as vertical studs, which are typically placed 16.0 in. apart. What is that distance in centimeters?</para>
+</problem>
+<solution id="fs-idm182624400">
+<para id="fs-idm182624144">(a) 3.81 cm <m:math><m:mo>×</m:mo></m:math> 8.89 cm <m:math><m:mo>×</m:mo></m:math> 2.44 m; (b) 40.6 cm</para>
+</solution>
+</exercise>
+<exercise id="fs-idm95632784">
+<problem id="fs-idm262562512">
+<para id="fs-idm262562384">The mercury content of a stream was believed to be above the minimum considered safe—1 part per billion (ppb) by weight. An analysis indicated that the concentration was 0.68 parts per billion. What quantity of mercury in grams was present in 15.0 L of the water, the density of which is 0.998 g/ml? <m:math><m:mrow><m:mtext>(1 ppb Hg</m:mtext><m:mo>=</m:mo><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:mtext>1 ng Hg</m:mtext></m:mrow><m:mrow><m:mtext>1 g water</m:mtext></m:mrow></m:mfrac><m:mtext>)</m:mtext></m:mrow></m:math>
+</para>
+</problem>
+</exercise>
+<exercise id="fs-idm215857872">
+<problem id="fs-idm121593040">
+<para id="fs-idm121592912">Calculate the density of aluminum if 27.6 cm<sup>3</sup> has a mass of 74.6 g.</para>
+</problem>
+<solution id="fs-idm95181696">
+<para id="fs-idm209433984">2.70 g/cm<sup>3</sup>
+</para>
+</solution>
+</exercise>
+<exercise id="fs-idm215482272">
+<problem id="fs-idp63994720">
+<para id="fs-idp63994848">Osmium is one of the densest elements known. What is its density if 2.72 g has a volume of 0.121 cm<sup>3</sup>?</para>
+</problem>
+</exercise>
+<exercise id="fs-idm361862336">
+<problem id="fs-idm62194656">
+<para id="fs-idm62194528">Calculate these masses.</para>
+<para id="fs-idp56604960">(a) What is the mass of 6.00 cm<sup>3</sup> of mercury, density = 13.5939 g/cm<sup>3</sup>?</para>
+<para id="fs-idm84745936">(b) What is the mass of 25.0 mL octane, density = 0.702 g/cm<sup>3</sup>?</para>
+</problem>
+<solution id="fs-idm296537696">
+<para id="fs-idp10159024">(a) 81.6 g; (b) 17.6 g</para>
+</solution>
+</exercise>
+<exercise id="fs-idm305607360">
+<problem id="fs-idm305607104">
+<para id="fs-idp9154400">Calculate these masses.</para>
+<para id="fs-idm277853776">(a) What is the mass of 4.00 cm<sup>3</sup> of sodium, density = 0.97 g/cm<sup>3</sup> ?</para><para id="fs-idm304880">(b) What is the mass of 125 mL gaseous chlorine, density = 3.16 g/L?</para>
+</problem>
+</exercise>
+<exercise id="fs-idm216432832">
+<problem id="fs-idm84747488">
+<para id="fs-idm84747360">Calculate these volumes.</para>
+<para id="fs-idm290040480">(a) What is the volume of 25 g iodine, density = 4.93 g/cm<sup>3</sup>?</para>
+<para id="fs-idm307942992">(b) What is the volume of 3.28 g gaseous hydrogen, density = 0.089 g/L?</para>
+</problem>
+<solution id="fs-idm161549280">
+<para id="fs-idm203289008">(a) 5.1 mL; (b) 37 L</para>
+</solution>
+</exercise>
+<exercise id="fs-idm182387776">
+<problem id="fs-idm182387520">
+<para id="fs-idm26116816">Calculate these volumes.</para>
+<para id="fs-idm26116432">(a) What is the volume of 11.3 g graphite, density = 2.25 g/cm<sup>3</sup>?</para>
+<para id="fs-idm198676560">(b) What is the volume of 39.657 g bromine, density = 2.928 g/cm<sup>3</sup>?</para>
+</problem>
+</exercise>
+<exercise id="fs-idm208263472">
+<problem id="fs-idm127944512">
+<para id="fs-idm127944384">Convert the boiling temperature of gold, 2966 °C, into degrees Fahrenheit and kelvin.</para>
+</problem>
+<solution id="fs-idm24577712">
+<para id="fs-idm24577456">5371 °F, 3239 K</para>
+</solution>
+</exercise>
+<exercise id="fs-idm291580080">
+<problem id="fs-idm291579824">
+<para id="fs-idm291579696">Convert the temperature of scalding water, 54 °C, into degrees Fahrenheit and kelvin.</para>
+</problem>
+</exercise>
+<exercise id="fs-idm126910176">
+<problem id="fs-idm205295776">
+<para id="fs-idm205295648">Convert the temperature of the coldest area in a freezer, −10 °F, to degrees Celsius and kelvin.</para>
+</problem>
+<solution id="fs-idm143339568">
+<para id="fs-idm143339312">−23 °C, 250 K</para>
+</solution>
+</exercise>
+<exercise id="fs-idm294247168">
+<problem id="fs-idm218028224">
+<para id="fs-idm218028096">Convert the temperature of dry ice, −77 °C, into degrees Fahrenheit and kelvin.</para>
+</problem>
+</exercise>
+<exercise id="fs-idm312310640">
+<problem id="fs-idm312310384">
+<para id="fs-idm247413504">Convert the boiling temperature of liquid ammonia, −28.1 °F, into degrees Celsius and kelvin.</para>
+</problem>
+<solution id="fs-idp51877536">
+<para id="fs-idp51877792">−33.4 °C, 239.8 K</para>
+</solution>
+</exercise>
+<exercise id="fs-idm307064960">
+<problem id="fs-idm307064704">
+<para id="fs-idm307064576">The label on a pressurized can of spray disinfectant warns against heating the can above 130 °F. What are the corresponding temperatures on the Celsius and kelvin temperature scales?</para>
+</problem>
+</exercise>
+<exercise id="fs-idm161487744">
+<problem id="fs-idm239024608">
+<para id="fs-idm239024480">The weather in Europe was unusually warm during the summer of 1995. The TV news reported temperatures as high as 45 °C. What was the temperature on the Fahrenheit scale?</para>
+</problem>
+<solution id="fs-idm367617200">
+<para id="fs-idm367616944">113 °F</para>
+</solution>
+</exercise>
+</section>
+   </content>
+<glossary>
+<definition id="fs-idm216300016">
+<term>dimensional analysis</term>
+<meaning id="fs-idp11307184">(also, <emphasis>factor-label method</emphasis>) versatile mathematical strategy for calculations involving quantities that subjects the quantities’ units to the same mathematical operations as their numbers</meaning>
+</definition>
+<definition id="def-00001"><term>factor-label method</term><meaning> (also, <emphasis>dimensional analysis</emphasis>) versatile mathematical strategy for calculations involving quantities that subjects the quantities’ units to the same mathematical operations as their numbers</meaning></definition>
+<definition id="fs-idm207141104">
+<term>Fahrenheit</term>
+<meaning id="fs-idp1441728">unit of temperature; water freezes at 32 °F and boils at 212 °F on this scale</meaning>
+</definition>
+<definition id="fs-idm327357936">
+<term>temperature</term>
+<meaning id="fs-idm327390944">intensive property representing the hotness or coldness of matter</meaning>
+</definition>
+<definition id="fs-idm307214528">
+<term>unit conversion factor</term>
+<meaning id="fs-idm126354208">ratio of equivalent quantities expressed with different units; used to convert from one unit to a different unit</meaning>
+</definition>
+</glossary>
+
+</document>

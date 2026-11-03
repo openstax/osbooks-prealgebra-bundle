@@ -1,0 +1,503 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Measuring Temperature</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+    <md:title/>
+    <md:content-id>m00014</md:content-id>
+    <md:uuid>8ba1df81-e4b3-4192-a15f-6ab7587924bf</md:uuid>
+  </metadata>
+  <content>
+
+      <section class="learning-objectives" id="sect-00001">
+      <title>Learning Objectives</title>
+      <para id="para-00001">After completing this section, you should be able to:</para>
+      <list list-type="enumerated" number-style="arabic" id="list-00001">
+      <item>Convert between Fahrenheit and Celsius.</item>
+      <item>Identify reasonable values for temperature applications.</item>
+      <item>Solve application problems involving temperature.</item>
+      </list>
+      </section>
+      <para id="para-00002">When you touch something and it feels warm or cold, what is that really telling you about that substance? <term id="term-00001">Temperature</term> is a measure of how fast atoms and molecules are moving in a substance, whether that be the air, a stove top, or an ice cube. The faster those atoms and molecules move, the higher the temperature.</para>
+      <para id="para-00003">In the metric system, temperature is measured using the Celsius (°C) scale. Because temperature is a condition of the physical properties of a substance, the Celsius scale was created with 100 degrees separating the point at which water freezes, 0 °C, and the point at which water boils, 100 °C. Scientifically, these are the points at which water molecules change from one state of matter to another—from solid (ice) to liquid (water) to gas (water vapor).</para>
+      <note class="check-point" id="note-00001">
+      <para id="para-00004"><emphasis effect="italic">When reading temperatures, it’s important to look beyond the degree symbol to determine which temperature scale the units express. For example, 13 °C reads “13 degrees Celsius,” indicating that the temperature is expressed using the Celsius scale, while 13 °F reads “13 degrees Fahrenheit,” indicating that the temperature is expressed using the Fahrenheit scale.</emphasis></para>
+      </note>
+      <note class="video" id="note-00002">
+      <para id="para-00005"><link url="https://openstax.org/r/Misconceptions_About_Temperature">Misconceptions About Temperature</link></para>
+      </note>
+      <note class="who-knew" id="note-00003">
+      <title>How Many Temperature Scales Are There?</title>
+      <para id="para-00006">Did you know that in addition to Fahrenheit and Celsius, there is a third temperature scale widely used throughout the world? The Kelvin scale starts at absolute zero, the lowest possible temperature at which there is no heat energy present at all. It is primarily used by scientists to measure very high or very low temperatures when water is not involved.</para>
+      </note>
+      <section id="sect-00002">
+      <title>Converting Between Fahrenheit and Celsius Temperatures</title>
+      <para id="para-00007">Understanding how to convert between Fahrenheit and Celsius temperatures is an essential skill in understanding metric temperatures. You likely know that below 32 °F means freezing temperatures and perhaps that the same holds true for 0 °C. While it may be difficult to recall that water boils at 212 °F, knowing that it boils at 100 °C is a fairly easy thing to remember.</para>
+      <para id="para-00008">But what about all the temperatures in between? What is the temperature in degrees Celsisus on a scorching summer day? What about a cool autumn afternoon? If a recipe instructs you to preheat the oven to 350 °F, what Celsius temperature do you set the oven at?</para>
+      <para id="para-00009">We don’t use Celsius temperatures daily it’s difficult to remember them. Fortunately, we don’t have to. Instead, we can convert temperatures from Fahrenheit to Celsius and from Celsius to Fahrenheit using a simple algebraic expression.</para>
+      <figure id="fig-00002">
+      <media alt="An illustration of a thermometer shows temperature in both Fahrenheit and Celsius." longdesc="The temperature in Fahrenheit and Celsius are as follows. Sun: 9937 and 5503. A hot oven: 450 and 232. Water boils: 212 and 100. A hot desert: 120 and 49. A high fever: 104 and 40. Room temperature: 72 and 22. Water freezes: 32 and 0. Helium boils: negative 452 and negative 269. Absolute zero: negative 459 and negative 273.">
+      <image mime-type="image/png" src="../../media/CS_Figure_09_05_001.png"/>
+      </media>
+      <caption>Common Temperatures </caption>
+      </figure>
+      <note class="formula" id="note-00004">
+      <table class="numbered" summary=" " id="table-00001">
+      <tgroup cols="2">
+      <colspec colnum="1" colname="c1" colwidth="1*"/>
+      <colspec colnum="2" colname="c2" colwidth="1*"/>
+      <thead>
+      <row>
+      <entry>Fahrenheit to Celsius</entry>
+      <entry>Celsius to Fahrenheit</entry>
+      </row>
+      </thead>
+      <tbody>
+      <row>
+      <entry><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mi>C</mi><mo>=</mo><mfrac><mn>5</mn><mn>9</mn></mfrac><mo stretchy="false">(</mo><mi>F</mi><mo>−</mo><mn>32</mn><mo stretchy="false">)</mo></mrow></math></entry>
+      <entry xmlns="http://cnx.rice.edu/cnxml"><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mi>F</mi><mo>=</mo><mfrac><mn>9</mn><mn>5</mn></mfrac><mi>C</mi><mo>+</mo><mn>32</mn></mrow></math></entry>
+      </row>
+      </tbody>
+      </tgroup>
+      <caption xmlns="http://cnx.rice.edu/cnxml">Temperature Conversion Formulas</caption>
+      </table>
+      </note>
+      <example id="exam-00001" xmlns="http://cnx.rice.edu/cnxml">
+      <title>Converting Temperatures from Fahrenheit to Celsius</title>
+      <exercise id="exer-00001">
+      <problem id="prob-00001">
+      <para id="para-00011">A recipe calls for the oven to be set to 392 °F. What is the temperature in Celsius?</para>
+      </problem>
+      <solution id="sol-00001">
+      <para id="para-00012">Use the formula in <link target-id="table-00001"/> to convert from Fahrenheit to Celsius.</para>
+      <para id="para-00125"><equation class="unnumbered" id="eq-00001"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+      <mtable columnspacing="0.3em">
+      <mtr><mtd columnalign="right">
+      <mi>C</mi></mtd><mtd columnalign="center"><mo>=</mo></mtd><mtd columnalign="left"><mfrac><mn>5</mn><mn>9</mn></mfrac><mo stretchy="false">(</mo><mi>F</mi><mo>−</mo><mn>32</mn><mo stretchy="false">)</mo></mtd></mtr>
+      <mtr><mtd columnalign="right"><mi>C</mi></mtd><mtd columnalign="center"><mo>=</mo></mtd><mtd columnalign="left"><mfrac><mn>5</mn><mn>9</mn></mfrac><mo stretchy="false">(</mo><mn>392</mn><mo>−</mo><mn>32</mn><mo stretchy="false">)</mo></mtd></mtr>
+      <mtr><mtd columnalign="right"><mi>C</mi></mtd><mtd columnalign="center"><mo>=</mo></mtd><mtd columnalign="left"><mfrac><mn>5</mn><mn>9</mn></mfrac><mo stretchy="false">(</mo><mn>360</mn><mo stretchy="false">)</mo></mtd></mtr>
+      <mtr><mtd columnalign="right"><mi>C</mi></mtd><mtd columnalign="center"><mo>=</mo></mtd><mtd columnalign="left"><mn>200</mn></mtd></mtr></mtable></math></equation></para>
+      <para id="para-00013" xmlns="http://cnx.rice.edu/cnxml">So, 392 °F is equivalent to 200 °C.</para>
+      </solution>
+      </exercise>
+      </example>
+      <note class="your-turn" id="note-00005">
+      <exercise id="exer-00002">
+      <problem id="prob-00002">
+      <para id="para-00014"><link class="os-embed" url="#exercise/CM-C09-M5-Q001"/></para>
+      </problem>
+      </exercise>
+      </note>
+      <example id="exam-00002">
+      <title>Converting Temperatures from Celsius to Fahrenheit</title>
+      <exercise id="exer-00003">
+      <problem id="prob-00003">
+      <para id="para-00015">On a sunny afternoon in May, the temperature in London was 20 °C. What was the temperature in degrees Fahrenheit?</para>
+      </problem>
+      <solution id="sol-00002">
+      <para id="para-00016">Use the formula in <link target-id="table-00001"/> to convert from Celsius to Fahrenheit.</para>
+      <para id="para-00126"><equation class="unnumbered" id="eq-00002"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+      <mtable columnspacing="0.3em">
+      <mtr><mtd columnalign="right">
+      <mi>F</mi></mtd><mtd columnalign="center"><mo>=</mo></mtd><mtd columnalign="left"><mfrac><mn>9</mn><mn>5</mn></mfrac><mi>C</mi><mo>+</mo><mn>32</mn></mtd></mtr>
+      <mtr><mtd columnalign="right">
+      <mi>F</mi></mtd><mtd columnalign="center"><mo>=</mo></mtd><mtd columnalign="left"><mfrac><mn>9</mn><mn>5</mn></mfrac><mo stretchy="false">(</mo><mn>20</mn><mo stretchy="false">)</mo><mo>+</mo><mn>32</mn></mtd></mtr>
+      <mtr><mtd columnalign="right">
+      <mi>F</mi></mtd><mtd columnalign="center"><mo>=</mo></mtd><mtd columnalign="left"><mn>36</mn><mo>+</mo><mn>32</mn></mtd></mtr>
+      <mtr><mtd columnalign="right">
+      <mi>F</mi></mtd><mtd columnalign="center"><mo>=</mo></mtd><mtd columnalign="left"><mn>68</mn></mtd></mtr></mtable></math></equation></para>
+      <para id="para-00017" xmlns="http://cnx.rice.edu/cnxml">The temperature was 68 °F.</para>
+      </solution>
+      </exercise>
+      </example>
+      <note class="your-turn" id="note-00006">
+      <exercise id="exer-00004">
+      <problem id="prob-00004">
+      <para id="para-00018"><link class="os-embed" url="#exercise/CM-C09-M5-Q002"/></para>
+      </problem>
+      </exercise>
+      </note>
+      <example id="exam-00003">
+      <title>Comparing Temperatures in Celsius and Fahrenheit</title>
+      <exercise id="exer-00005">
+      <problem id="prob-00005">
+      <para id="para-00019">A manufacturer requires a vaccine to be stored in a refrigerator at temperatures between 36 °F and 46 °F. The refrigerator in the local pharmacy cools to 3 °C. Can the vaccine be stored safely in the pharmacy’s refrigerator?</para>
+      </problem>
+      <solution id="sol-00003">
+      <para id="para-00020">Use the formula in <link target-id="table-00001" /> to convert from Celsius to Fahrenheit.</para>
+      <equation class="unnumbered" id="eq-00003"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+      <mtable columnspacing="0.3em">
+      <mtr><mtd columnalign="right">
+      <mi>F</mi></mtd><mtd columnalign="center"><mo>=</mo></mtd><mtd columnalign="left"><mfrac><mn>9</mn><mn>5</mn></mfrac><mi>C</mi><mo>+</mo><mn>32</mn></mtd></mtr>
+      <mtr><mtd columnalign="right">
+      <mi>F</mi></mtd><mtd columnalign="center"><mo>=</mo></mtd><mtd columnalign="left"><mfrac><mn>9</mn><mn>5</mn></mfrac><mo stretchy="false">(</mo><mn>3</mn><mo stretchy="false">)</mo><mo>+</mo><mn>32</mn></mtd></mtr>
+      <mtr><mtd columnalign="right">
+      <mi>F</mi></mtd><mtd columnalign="center"><mo>=</mo></mtd><mtd columnalign="left"><mn>5.4</mn><mo>+</mo><mn>32</mn></mtd></mtr>
+      <mtr><mtd columnalign="right">
+      <mi>F</mi></mtd><mtd columnalign="center"><mo>=</mo></mtd><mtd columnalign="left"><mn>37.4</mn></mtd></mtr></mtable></math></equation>
+      <para id="para-00021" xmlns="http://cnx.rice.edu/cnxml">Then, compare the temperatures.</para>
+      <para id="para-00127"><equation class="unnumbered" id="eq-00004"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><mrow><mn>36</mn><mo rspace="0.28em"/><mmultiscripts><mi mathvariant="normal">F</mi><mprescripts/><none/><mo>°</mo></mmultiscripts><mo>&lt;</mo><mn>37.4</mn><mo rspace="0.28em"/><mmultiscripts><mi mathvariant="normal">F</mi><mprescripts/><none/><mo>°</mo></mmultiscripts><mo>&lt;</mo><mn>46</mn><mo rspace="0.28em"/><mmultiscripts><mi mathvariant="normal">F</mi><mprescripts/><none/><mo>°</mo></mmultiscripts></mrow></math></equation></para>
+      <para id="para-00022" xmlns="http://cnx.rice.edu/cnxml">Yes. 37.4 °F falls within the acceptable range to store the vaccine, so it can be stored safely in the pharmacy’s refrigerator.</para>
+      </solution>
+      </exercise>
+      </example>
+      <note class="your-turn" id="note-00007">
+      <exercise id="exer-00006">
+      <problem id="prob-00006">
+      <para id="para-00023"><link class="os-embed" url="#exercise/CM-C09-M5-Q003"/></para>
+      </problem>
+      </exercise>
+      </note>
+      </section>
+      <section id="sect-00003">
+      <title>Reasonable Values for Temperature</title>
+      <para id="para-00024">While knowing the exact temperature is important in most cases, sometimes an approximation will do. When trying to assess the reasonableness of values for temperature, there is a quicker way to convert temperatures for an approximation using mental math. These simpler formulas are listed in <link target-id="table-00002"/>.</para>
+      <note class="formula" id="note-00016">
+      <para id="para-00077">The formulas used to estimate temperatures from Fahrenheit to Celsius or from Celsius to Fahrenheit are outlined in <link target-id="table-00002" />.</para>
+      <table class="numbered" summary=" " id="table-00002">
+      <tgroup cols="2">
+      <colspec colnum="1" colname="c1" colwidth="1*"/>
+      <colspec colnum="2" colname="c2" colwidth="1*"/>
+      <thead>
+      <row>
+      <entry>Fahrenheit to Celsius</entry>
+      <entry>Celsius to Fahrenheit</entry>
+      </row>
+      </thead>
+      <tbody>
+      <row>
+      <entry><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mi>C</mi><mo>=</mo><mfrac><mrow><mi>F</mi><mo>−</mo><mn>30</mn></mrow><mn>2</mn></mfrac></mrow></math></entry>
+      <entry xmlns="http://cnx.rice.edu/cnxml"><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mi>F</mi><mo>=</mo><mn>2</mn><mi>C</mi><mo>+</mo><mn>30</mn></mrow></math></entry>
+      </row>
+      </tbody>
+      </tgroup>
+      <caption xmlns="http://cnx.rice.edu/cnxml">Estimate Temperature Conversion</caption>
+      </table>
+      </note>
+      <note class="video" id="note-00008" xmlns="http://cnx.rice.edu/cnxml">
+      <para id="para-00025"><link url="https://openstax.org/r/Temperature_Conversion_Trick">Temperature Conversion Trick</link></para>
+      </note>
+      <example id="exam-00004">
+      <title>Using Benchmark Temperatures to Determine Reasonable Values for Temperatures</title>
+      <exercise id="exer-00007">
+      <problem id="prob-00007">
+      <para id="para-00026">Which is the more reasonable value for the temperature of a freezer?</para>
+      <list id="list-00002">
+      <item>5 °C or</item>
+      <item>–5 °C?</item>
+      </list>
+      </problem>
+      <solution id="sol-00004">
+      <para id="para-00027">We know that water freezes at 0 °C. So, the more reasonable value for the temperature of a freezer is −5 °C, which is below 0 °C. At temperature of 5 °C is above freezing.</para>
+      </solution>
+      </exercise>
+      </example>
+      <note class="your-turn" id="note-00009">
+      <exercise id="exer-00008">
+      <problem id="prob-00008">
+      <para id="para-00028"><link class="os-embed" url="#exercise/CM-C09-M5-Q004"/></para>
+      </problem>
+      </exercise>
+      </note>
+      <example id="exam-00005">
+      <title>Using Estimation to Determine Reasonable Values for Temperatures</title>
+      <exercise id="exer-00009">
+      <problem id="prob-00009">
+      <para id="para-00029">The average body temperature is generally accepted as 98.6 °F. What is a reasonable value for the average body temperature in degrees Celsius:</para>
+      <list id="list-00003">
+      <item>98.6 °C,</item>
+      <item>64.3 °C, or</item>
+      <item>34.3 °C?</item>
+      </list>
+      </problem>
+      <solution id="sol-00005">
+      <para id="para-00030">To estimate the average body temperature in degrees Celsius, subtract 30 from the temperature in degrees Fahrenheit, and divide the result by 2.</para>
+      <equation class="unnumbered" id="eq-00005"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><mrow><mfrac><mrow><mo stretchy="false">(</mo><mn>98.6</mn><mo>−</mo><mn>30</mn><mo stretchy="false">)</mo></mrow><mn>2</mn></mfrac><mo>=</mo><mfrac><mrow><mn>68.6</mn></mrow><mn>2</mn></mfrac><mo>=</mo><mn>34.3</mn></mrow></math></equation>
+      <para id="para-00031" xmlns="http://cnx.rice.edu/cnxml">A reasonable value for average body temperature is 34.3 °C.</para>
+      </solution>
+      </exercise>
+      </example>
+      <note class="your-turn" id="note-00010">
+      <exercise id="exer-00010">
+      <problem id="prob-00010">
+      <para id="para-00032"><link class="os-embed" url="#exercise/CM-C09-M5-Q005"/></para>
+      </problem>
+      </exercise>
+      </note>
+      <example id="exam-00006">
+      <title>Using Conversion to Determine Reasonable Values for Temperatures</title>
+      <exercise id="exer-00011">
+      <problem id="prob-00011">
+      <para id="para-00033">Which is a reasonable temperature for storing chocolate:</para>
+      <list id="list-00004">
+      <item>28 °C,</item>
+      <item>18 °C, or</item>
+      <item>2 °C?</item>
+      </list>
+      </problem>
+      <solution id="sol-00006">
+      <para id="para-00034">Use the formula in <link target-id="table-00001" /> to determine the temperature in degrees Fahrenheit.</para>
+      <para id="para-00128"><equation class="unnumbered" id="eq-00006"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+      <mtable columnspacing="0.3em">
+      <mtr><mtd columnalign="right">
+      <mi>F</mi></mtd><mtd columnalign="center"><mo>=</mo></mtd><mtd columnalign="left"><mfrac><mn>9</mn><mn>5</mn></mfrac><mi>C</mi><mo>+</mo><mn>32</mn></mtd></mtr>
+      <mtr><mtd columnalign="right">
+      <mi>F</mi></mtd><mtd columnalign="center"><mo>=</mo></mtd><mtd columnalign="left"><mfrac><mn>9</mn><mn>5</mn></mfrac><mrow><mo>(</mo><mrow><mn>28</mn></mrow><mo>)</mo></mrow><mo>+</mo><mn>32</mn><mo>=</mo><mn>82.4</mn></mtd></mtr>
+      <mtr><mtd columnalign="right">
+      <mi>F</mi></mtd><mtd columnalign="center"><mo>=</mo></mtd><mtd columnalign="left"><mfrac><mn>9</mn><mn>5</mn></mfrac><mrow><mo>(</mo><mrow><mn>18</mn></mrow><mo>)</mo></mrow><mo>+</mo><mn>32</mn><mo>=</mo><mn>64.4</mn></mtd></mtr>
+      <mtr><mtd columnalign="right">
+      <mi>F</mi></mtd><mtd columnalign="center"><mo>=</mo></mtd><mtd columnalign="left"><mfrac><mn>9</mn><mn>5</mn></mfrac><mrow><mo>(</mo><mn>2</mn><mo>)</mo></mrow><mo>+</mo><mn>32</mn><mo>=</mo><mn>35.6</mn></mtd></mtr></mtable></math></equation></para>
+      <para id="para-00035" xmlns="http://cnx.rice.edu/cnxml">A temperature of 82.4 °F would be too hot, causing the chocolate to melt. A temperature of 35.6 °F is very close to freezing, which would affect the look and feel of the chocolate. So, a reasonable temperature for storing chocolate is 18 °C, or 64.4 °F.</para>
+      </solution>
+      </exercise>
+      </example>
+      <note class="your-turn" id="note-00011">
+      <exercise id="exer-00012">
+      <problem id="prob-00012">
+      <para id="para-00036"><link class="os-embed" url="#exercise/CM-C09-M5-Q006"/></para>
+      </problem>
+      </exercise>
+      </note>
+      </section>
+      <section id="sect-00004">
+      <title>Solving Application Problems Involving Temperature</title>
+      <para id="para-00037">Whether traveling abroad or working in a clinical laboratory, knowing how to solve problems involving temperature is an important skill to have. Many food labels express sizes in both ounces and grams. Most rulers and tape measures are two-sided with one side marked in inches and feet and the other in centimeters and meters. And while many thermometers have both Fahrenheit and Celsius scales, it really isn’t practical to pull out a thermometer when cooking a recipe that uses metric units. Let’s review at few instances where knowing how to fluently use the Celsius scale helps solve problems.</para>
+      <example id="exam-00007">
+      <title>Using Subtraction to Solve Temperature Problems</title>
+      <exercise id="exer-00013">
+      <problem id="prob-00013">
+      <para id="para-00038">The temperature in the refrigerator is 4 °C. The temperature in the freezer is 21 °C lower. What is the temperature in the freezer?</para>
+      </problem>
+      <solution id="sol-00007">
+      <para id="para-00039">Use subtraction to find the difference.</para>
+      <equation class="unnumbered" id="eq-00007"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><mrow><mn>4</mn><mo>−</mo><mn>21</mn><mo>=</mo><mo>−</mo><mn>17</mn></mrow></math></equation>
+      <para id="para-00040" xmlns="http://cnx.rice.edu/cnxml">So, the temperature in the freezer is −17 °C.</para>
+      </solution>
+      </exercise>
+      </example>
+      <note class="your-turn" id="note-00012">
+      <exercise id="exer-00014">
+      <problem id="prob-00014">
+      <para id="para-00041"><link class="os-embed" url="#exercise/CM-C09-M5-Q007"/></para>
+      </problem>
+      </exercise>
+      </note>
+      <example id="exam-00008">
+      <title>Using Addition to Solve Temperature Problems</title>
+      <exercise id="exer-00015">
+      <problem id="prob-00015">
+      <para id="para-00042">A scientist was using a liquid that was 35 °C. They needed to heat the liquid to raise the temperature by 6 °C. What was the temperature after the scientist heated it?</para>
+      </problem>
+      <solution id="sol-00008">
+      <para id="para-00043">Use addition to find the new temperature.</para>
+      <equation class="unnumbered" id="eq-00008"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><mrow><mn>35</mn><mo>+</mo><mn>6</mn><mo>=</mo><mn>41</mn></mrow></math></equation>
+      <para id="para-00044" xmlns="http://cnx.rice.edu/cnxml">The temperature of the liquid was 41 °C after the scientist heated it.</para>
+      </solution>
+      </exercise>
+      </example>
+      <note class="your-turn" id="note-00013">
+      <exercise id="exer-00016">
+      <problem id="prob-00016">
+      <para id="para-00045"><link class="os-embed" url="#exercise/CM-C09-M5-Q008"/></para>
+      </problem>
+      </exercise>
+      </note>
+      <example id="exam-00009">
+      <title>Solving Complex Temperature Problems</title>
+      <exercise id="exer-00017">
+      <problem id="prob-00017">
+      <para id="para-00046">The optimum temperature for a chemical compound to develop its unique properties is 392 °F. When the heating process begins, the temperature of the compound is 20 °C. For safety purposes the compound can only be heated 9 °C every 15 minutes. How long until the compound reaches its optimum temperature?</para>
+      </problem>
+      <solution id="sol-00009">
+      <para id="para-00047"><emphasis effect="bold">Step 1:</emphasis> Determine the optimum temperature in degrees Celsius using the formula in <link target-id="table-00001" />.</para>
+      <para id="para-00129"><equation class="unnumbered" id="eq-00009"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+        <mtable columnspacing="0.3em">
+        <mtr><mtd columnalign="right">
+        <mi>C</mi></mtd><mtd columnalign="center"><mo>=</mo></mtd><mtd columnalign="left"><mfrac><mn>5</mn><mn>9</mn></mfrac><mrow><mo>(</mo><mrow><mi>F</mi><mo>−</mo><mn>32</mn></mrow><mo>)</mo></mrow></mtd></mtr>
+        <mtr><mtd columnalign="right">
+        <mi>C</mi></mtd><mtd columnalign="center"><mo>=</mo></mtd><mtd columnalign="left"><mfrac><mn>5</mn><mn>9</mn></mfrac><mo stretchy="false">(</mo><mn>392</mn><mo>−</mo><mn>32</mn><mo stretchy="false">)</mo></mtd></mtr>
+        <mtr><mtd columnalign="right">
+        <mi>C</mi></mtd><mtd columnalign="center"><mo>=</mo></mtd><mtd columnalign="left"><mfrac><mn>5</mn><mn>9</mn></mfrac><mo stretchy="false">(</mo><mn>360</mn><mo stretchy="false">)</mo></mtd></mtr>
+        <mtr><mtd columnalign="right">
+        <mi>C</mi></mtd><mtd columnalign="center"><mo>=</mo></mtd><mtd columnalign="left"><mn>200</mn></mtd></mtr></mtable></math></equation><newline xmlns="http://cnx.rice.edu/cnxml"/></para>
+      <para id="para-00048" xmlns="http://cnx.rice.edu/cnxml"><emphasis effect="bold">Step 2:</emphasis> Subtract the starting temperature.</para>
+      <para id="para-00130"><equation class="unnumbered" id="eq-00010"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><mrow><mn>200</mn><mo rspace="0.28em"/><mmultiscripts><mi>C</mi><mprescripts/><none/><mo>°</mo></mmultiscripts><mo>−</mo><mn>20</mn><mo rspace="0.28em"/><mmultiscripts><mi>C</mi><mprescripts/><none/><mo>°</mo></mmultiscripts><mo>=</mo><mn>180</mn><mo rspace="0.28em"/><mmultiscripts><mi>C</mi><mprescripts/><none/><mo>°</mo></mmultiscripts></mrow></math></equation><newline xmlns="http://cnx.rice.edu/cnxml"/></para>
+      <para id="para-00049" xmlns="http://cnx.rice.edu/cnxml"><emphasis effect="bold">Step 3:</emphasis> Determine the number of 15-minute cycles needed to heat the compound to its optimum temperature.</para>
+      <para id="para-00131"><equation class="unnumbered" id="eq-00011"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><mrow><mn>180</mn><mo>÷</mo><mn>9</mn><mo>=</mo><mn>20</mn></mrow></math></equation><newline xmlns="http://cnx.rice.edu/cnxml"/></para>
+      <para id="para-00050" xmlns="http://cnx.rice.edu/cnxml"><emphasis effect="bold">Step 4:</emphasis> Multiply the number of cycles needed by 15 minutes and convert the product to hours and minutes.</para>
+      <para id="para-00132"><equation class="unnumbered" id="eq-00012"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><mrow><mtable align="center"><mtr><mtd><mrow><mn>15</mn><mo rspace="0.28em">⁢</mo><mi>minutes</mi><mo>×</mo><mn>9</mn><mo>=</mo><mn>135</mn><mo rspace="0.28em">⁢</mo><mi>minutes</mi></mrow></mtd></mtr><mtr><mtd><mrow><mn>135</mn><mo rspace="0.28em">⁢</mo><mi>minutes</mi><mo>=</mo><mn>2</mn><mo rspace="0.28em">⁢</mo><mi>hours</mi><mo rspace="0.28em">⁢</mo><mn>15</mn><mo rspace="0.28em">⁢</mo><mi>minutes</mi></mrow></mtd></mtr></mtable></mrow></math></equation><newline xmlns="http://cnx.rice.edu/cnxml"/></para>
+      <para id="para-00051" xmlns="http://cnx.rice.edu/cnxml">So, it will take 2 hours and 15 minutes for the compound to reach its optimum temperature.</para>
+      </solution>
+      </exercise>
+      </example>
+      <note class="your-turn" id="note-00014">
+      <exercise id="exer-00018">
+      <problem id="prob-00018">
+      <para id="para-00052"><link class="os-embed" url="#exercise/CM-C09-M5-Q009"/></para>
+      </problem>
+      </exercise>
+      </note>
+      <note class="video" id="note-00015">
+      <para id="para-00053"><link url="https://openstax.org/r/Metric_System_in_5_Minutes">Learn the Metric System in 5 Minutes</link></para>
+      </note>
+      </section>
+      <section class="check-understanding" id="sect-00005">
+      <title>Check Your Understanding</title>
+      <exercise id="exer-00019">
+      <problem id="prob-00019">
+      <para id="para-00054"><link class="os-embed" url="#exercise/CM-C09-M5-Q010"/></para>
+      </problem>
+      </exercise>
+      <exercise id="exer-00020">
+      <problem id="prob-00020">
+      <para id="para-00055"><link class="os-embed" url="#exercise/CM-C09-M5-Q011"/></para>
+      </problem>
+      </exercise>
+      <exercise id="exer-00021">
+      <problem id="prob-00021">
+      <para id="para-00056"><link class="os-embed" url="#exercise/CM-C09-M5-Q012"/></para>
+      </problem>
+      </exercise>
+      </section>
+      <section class="section-exercises" id="sect-00006">
+      <exercise id="exer-00022">
+      <problem id="prob-00022">
+      <para id="para-00057"><link class="os-embed" url="#exercise/CM-C09-M5-Q013"/></para>
+      </problem>
+      </exercise>
+      <exercise id="exer-00023">
+      <problem id="prob-00023">
+      <para id="para-00058"><link class="os-embed" url="#exercise/CM-C09-M5-Q014"/></para>
+      </problem>
+      </exercise>
+      <exercise id="exer-00024">
+      <problem id="prob-00024">
+      <para id="para-00059"><link class="os-embed" url="#exercise/CM-C09-M5-Q015"/></para>
+      </problem>
+      </exercise>
+      <exercise id="exer-00025">
+      <problem id="prob-00025">
+      <para id="para-00060"><link class="os-embed" url="#exercise/CM-C09-M5-Q042"/></para>
+      </problem>
+      </exercise>
+      <exercise id="exer-00026">
+      <problem id="prob-00026">
+      <para id="para-00061"><link class="os-embed" url="#exercise/CM-C09-M5-Q043"/></para>
+      </problem>
+      </exercise>
+      <exercise id="exer-00027">
+      <problem id="prob-00027">
+      <para id="para-00062"><link class="os-embed" url="#exercise/CM-C09-M5-Q044"/></para>
+      </problem>
+      </exercise>
+      <exercise id="exer-00028">
+      <problem id="prob-00028">
+      <para id="para-00063"><link class="os-embed" url="#exercise/CM-C09-M5-Q045"/></para>
+      </problem>
+      </exercise>
+      <exercise id="exer-00029">
+      <problem id="prob-00029">
+      <para id="para-00064"><link class="os-embed" url="#exercise/CM-C09-M5-Q046"/></para>
+      </problem>
+      </exercise>
+      <exercise id="exer-00030">
+      <problem id="prob-00030">
+      <para id="para-00065"><link class="os-embed" url="#exercise/CM-C09-M5-Q047"/></para>
+      </problem>
+      </exercise>
+      <exercise id="exer-00031">
+      <problem id="prob-00031">
+      <para id="para-00066"><link class="os-embed" url="#exercise/CM-C09-M5-Q048"/></para>
+      </problem>
+      </exercise>
+      <exercise id="exer-00032">
+      <problem id="prob-00032">
+      <para id="para-00067"><link class="os-embed" url="#exercise/CM-C09-M5-Q049"/></para>
+      </problem>
+      </exercise>
+      <exercise id="exer-00033">
+      <problem id="prob-00033">
+      <para id="para-00068"><link class="os-embed" url="#exercise/CM-C09-M5-Q050"/></para>
+      </problem>
+      </exercise>
+      <exercise id="exer-00034">
+      <problem id="prob-00034">
+      <para id="para-00069"><link class="os-embed" url="#exercise/CM-C09-M5-Q051"/></para>
+      </problem>
+      </exercise>
+      <exercise id="exer-00035">
+      <problem id="prob-00035">
+      <para id="para-00070"><link class="os-embed" url="#exercise/CM-C09-M5-Q052"/></para>
+      </problem>
+      </exercise>
+      <exercise id="exer-00036">
+      <problem id="prob-00036">
+      <para id="para-00071"><link class="os-embed" url="#exercise/CM-C09-M5-Q053"/></para>
+      </problem>
+      </exercise>
+      <exercise id="exer-00037">
+      <problem id="prob-00037">
+      <para id="para-00072"><link class="os-embed" url="#exercise/CM-C09-M5-Q054"/></para>
+      </problem>
+      </exercise>
+      </section>
+      <section class="key-terms" id="sect-00007">
+      <title>Key Terms</title>
+      <list id="list-00005">
+      <item>temperature</item>
+      </list>
+      </section>
+      <section class="key-concepts" id="sect-00008">
+      <title>Key Concepts</title>
+      <list id="list-00006">
+      <item>Temperature is a measure of how fast atoms and molecules are moving in a substance, whether that be the air, a stove top, or an ice cube. The faster those atoms and molecules move, the higher the temperature.</item>
+      <item>In the metric system, temperature is measured using the Celsius (°C) scale.</item>
+      <item>The Celsius scale was created with 100 degrees separating the point at which water freezes, 0 °C, and the point at which water boils, 100 °C. Scientifically, these are the points at which water molecules change from one state of matter to another—from solid (ice) to liquid (water) to gas (water vapor).</item>
+      </list>
+      </section>
+      <section class="eoc-videos" id="sect-00009">
+      <title>Videos</title>
+      <list id="list-00010">
+      <item><link url="https://openstax.org/r/Misconceptions_About_Temperature">Misconceptions About Temperature</link></item>
+      <item><link url="https://openstax.org/r/Temperature_Conversion_Trick">Temperature Conversion Trick</link></item>
+      <item><link url="https://openstax.org/r/Metric_System_in_5_Minutes">Learn the Metric System in 5 Minutes</link></item>
+    </list>
+      </section>
+      <section class="formula-review" id="sect-00010">
+      <title>Formulas</title>
+      <para id="para-00076"> To convert temperature from Fahrenheit to Celsius:</para>
+      <para id="para-00133"><equation class="unnumbered" id="eq-00013"><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mi>C</mi><mo>=</mo><mfrac><mn>5</mn><mn>9</mn></mfrac><mrow><mo>(</mo><mrow><mi>F</mi><mo>−</mo><mn>32</mn></mrow><mo>)</mo></mrow></mrow></math></equation></para>
+      <para id="para-00123" xmlns="http://cnx.rice.edu/cnxml"> To convert temperature from Celsius to Fahrenheit:</para>
+      <para id="para-00134"><equation class="unnumbered" id="eq-00014"><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mi>F</mi><mo>=</mo><mfrac><mn>9</mn><mn>5</mn></mfrac><mi>C</mi><mo>+</mo><mn>32</mn></mrow></math></equation></para>
+      <para id="para-00078" xmlns="http://cnx.rice.edu/cnxml"> To estimate temperature from Fahrenheit to Celsius:
+      <equation class="unnumbered" id="eq-00015"><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mi>C</mi><mo>=</mo><mfrac><mrow><mi>F</mi><mo>−</mo><mn>30</mn></mrow><mn>2</mn></mfrac></mrow></math></equation></para>
+      <para id="para-00124" xmlns="http://cnx.rice.edu/cnxml"> To estimate temperature from Celsius to Fahrenheit:
+      <equation class="unnumbered" id="eq-00016"><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mi>F</mi><mo>=</mo><mn>2</mn><mi>C</mi><mo>+</mo><mn>30</mn></mrow></math></equation></para>
+      </section>
+      <section class="projects" id="sect-00011" xmlns="http://cnx.rice.edu/cnxml">
+      <title>Projects</title>
+      <section id="sect-00012">
+      <title>Cooking</title>
+      <list list-type="enumerated" number-style="arabic" id="list-00007">
+      <item>Take a favorite recipe that uses customary measures and convert the measures and cooking temperature to the metric system.</item>
+      <item>Find a recipe that uses metric measures and convert the measures and cooking temperature to the U.S. Customary System of Measurement, using cups, tablespoons, or teaspoons as required.</item>
+      <item>What did you observe? Was it easier to convert from one system to another? Which system allows for more precise measurements? What kitchen tools would you need in your kitchen if you used the metric system?</item>
+      </list>
+      </section>
+      <section id="sect-00013">
+      <title>Shopping</title>
+      <list list-type="enumerated" number-style="arabic" id="list-00008">
+      <item>Compare the average gas price in California to the average gas price in Puerto Rico.</item>
+      <item>What conversions did you need to make to do the comparison?</item>
+      <item>Do you think that the price of the gasoline is affected by the units in which it is sold?</item>
+      </list>
+      </section>
+      <section id="sect-00014">
+      <title>Sports</title>
+      <list list-type="enumerated" number-style="arabic" id="list-00009">
+      <item>What system of measurement is used for track and field events? Why do you think this system is used?</item>
+      <item>What system of measurement is used for football? Why do you think this system is used?</item>
+      <item>Research various sports records. Which units of measurement is used? What do you think influenced the unit of measure used?</item>
+      </list>
+      </section>
+      </section>
+       </content>
+</document>

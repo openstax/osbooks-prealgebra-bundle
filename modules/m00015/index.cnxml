@@ -1,0 +1,438 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Measurement Uncertainty, Accuracy, and Precision</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+    <md:title/>
+    <md:content-id>m00015</md:content-id>
+    <md:uuid>a17dcdb4-b947-4af9-b86c-5cee0c906402</md:uuid>
+  </metadata>
+  <content>
+   <section class="learning-objectives" id="sect-00001">
+<para id="para-00001">By the end of this section, you will be able to:</para><list id="list-00001">
+<item>Define accuracy and precision</item>
+<item>Distinguish exact and uncertain numbers</item>
+<item>Correctly represent uncertainty in quantities using significant figures</item>
+<item>Apply proper rounding rules to computed quantities</item>
+</list>
+
+   </section>
+
+<para id="fs-idm288863760">Counting is the only type of measurement that is free from uncertainty, provided the number of objects being counted does not change while the counting process is underway. The result of such a counting measurement is an example of an <term id="term-00001">exact number</term>. By counting the eggs in a carton, one can determine <emphasis effect="italics">exactly</emphasis> how many eggs the carton contains. The numbers of defined quantities are also exact. By definition, 1 foot is exactly 12 inches, 1 inch is exactly 2.54 centimeters, and 1 gram is exactly 0.001 kilogram. Quantities derived from measurements other than counting, however, are uncertain to varying extents due to practical limitations of the measurement process used.</para>
+<section id="fs-idm217277536">
+<title>Significant Figures in Measurement</title>
+<para id="fs-idp11446448">The numbers of measured quantities, unlike defined or directly counted quantities, are not exact. To measure the volume of liquid in a graduated cylinder, you should make a reading at the bottom of the meniscus, the lowest point on the curved surface of the liquid.</para>
+<figure id="fs-idm337865984">
+<media id="fs-idm262770592" alt="This diagram shows a 25 milliliter graduated cylinder filled with about 20.8 milliliters of fluid. The diagram zooms in on the meniscus, which is the curved surface of the water that is visible when the graduated cylinder is viewed from the side. You make the reading at the lowest point of the curve of the meniscus.">
+<image mime-type="image/jpeg" src="../../media/CNX_Chem_01_05_Measure.jpg"/>
+</media>
+<caption>To measure the volume of liquid in this graduated cylinder, you must mentally subdivide the distance between the 21 and 22 mL marks into tenths of a milliliter, and then make a reading (estimate) at the bottom of the meniscus.</caption>
+</figure>
+<para id="fs-idm176542448">Refer to the illustration in <link target-id="fs-idm337865984"/>. The bottom of the meniscus in this case clearly lies between the 21 and 22 markings, meaning the liquid volume is <emphasis effect="italics">certainly</emphasis> greater than 21 mL but less than 22 mL. The meniscus appears to be a bit closer to the 22-mL mark than to the 21-mL mark, and so a reasonable estimate of the liquid’s volume would be 21.6 mL. In the number 21.6, then, the digits 2 and 1 are certain, but the 6 is an estimate. Some people might estimate the meniscus position to be equally distant from each of the markings and estimate the tenth-place digit as 5, while others may think it to be even closer to the 22-mL mark and estimate this digit to be 7. Note that it would be pointless to attempt to estimate a digit for the hundredths place, given that the tenths-place digit is uncertain. In general, numerical scales such as the one on this graduated cylinder will permit measurements to one-tenth of the smallest scale division. The scale in this case has 1-mL divisions, and so volumes may be measured to the nearest 0.1 mL.</para>
+<para id="fs-idm254904560">This concept holds true for all measurements, even if you do not actively make an estimate. If you place a quarter on a standard electronic balance, you may obtain a reading of 6.72 g. The digits 6 and 7 are certain, and the 2 indicates that the mass of the quarter is likely between 6.71 and 6.73 grams. The quarter weighs <emphasis effect="italics">about</emphasis> 6.72 grams, with a nominal uncertainty in the measurement of ± 0.01 gram. If the coin is weighed on a more sensitive balance, the mass might be 6.723 g. This means its mass lies between 6.722 and 6.724 grams, an uncertainty of 0.001 gram. Every measurement has some <term id="term-00002">uncertainty</term>, which depends on the device used (and the user’s ability). All of the digits in a measurement, including the uncertain last digit, are called <term id="term-00003">significant figures</term> or <term id="term-00004">significant digits</term>. Note that zero may be a measured value; for example, if you stand on a scale that shows weight to the nearest pound and it shows “120,” then the 1 (hundreds), 2 (tens) and 0 (ones) are all significant (measured) values.</para>
+<para id="fs-idm264880544">A measurement result is properly reported when its significant digits accurately represent the certainty of the measurement process. But what if you were analyzing a reported value and trying to determine what is significant and what is not? Well, for starters, all nonzero digits are significant, and it is only zeros that require some thought. We will use the terms “leading,” “trailing,” and “captive” for the zeros and will consider how to deal with them.</para>
+<media id="fs-idm244068192" class="scaled-down" alt="The left diagram uses the example of 3090. The zero in the hundreds place is labeled “captive” and the zero in the ones place is labeled trailing. The right diagram uses the example 0.008020. The three zeros in the ones, tenths, and hundredths places are labeled “leading.” The zero in the ten-thousandths place is labeled “captive” and the zero in the millionths place is labeled “trailing.”">
+<image mime-type="image/jpeg" src="../../media/CNX_Chem_01_05_SigDigits5_img.jpg"/>
+</media>
+<para id="fs-idp31100592">Starting with the first nonzero digit on the left, count this digit and all remaining digits to the right. This is the number of significant figures in the measurement unless the last digit is a trailing zero lying to the left of the decimal point.</para>
+<media id="fs-idp40720144" alt="The left diagram uses the example of 1267 meters. The number 1 is the first nonzero figure on the left. 1267 has 4 significant figures in total. The right diagram uses the example of 55.0 grams. The number 5 in the tens place is the first nonzero figure on the left. 55.0 has 3 significant figures. Note that the 0 is to the right of the decimal point and therefore is a significant figure.">
+<image mime-type="image/jpeg" src="../../media/CNX_Chem_01_05_SigDigits1_img.jpg"/>
+</media>
+<para id="fs-idm177076640">Captive zeros result from measurement and are therefore always significant. Leading zeros, however, are never significant—they merely tell us where the decimal point is located.</para>
+<media id="fs-idm113793344" alt="The left diagram uses the example of 70.607 milliliters. The number 7 is the first nonzero figure on the left. 70.607 has 5 significant figures in total, as all figures are measured including the 2 zeros. The right diagram uses the example of 0.00832407 milliliters. The number 8 is the first nonzero figure on the left. 0.00832407 has 6 significant figures.">
+<image mime-type="image/jpeg" src="../../media/CNX_Chem_01_05_SigDigits2_img.jpg"/>
+</media>
+<para id="fs-idm262013360">The leading zeros in this example are not significant. We could use exponential notation and express the number as 8.32407 <m:math><m:mo>×</m:mo></m:math> 10<sup>−3</sup>; then the number 8.32407 contains all of the significant figures, and 10<sup>−3</sup> locates the decimal point.</para><para id="fs-idm210460000">The number of significant figures is uncertain in a number that ends with a zero to the left of the decimal point location. The zeros in the measurement 1,300 grams could be significant or they could simply indicate where the decimal point is located. The ambiguity can be resolved with the use of exponential notation: 1.3 <m:math><m:mo>×</m:mo></m:math> 10<sup>3</sup> (two significant figures), 1.30 <m:math><m:mo>×</m:mo></m:math> 10<sup>3</sup> (three significant figures, if the tens place was measured), or 1.300 <m:math><m:mo>×</m:mo></m:math> 10<sup>3</sup> (four significant figures, if the ones place was also measured). In cases where only the decimal-formatted number is available, it is prudent to assume that all trailing zeros are not significant.</para>
+<media id="fs-idp29412624" class="scaled-down" alt="This figure uses the example of 1300 grams. The one and the 3 are significant figures as they are clearly the result of measurement. The 2 zeros could be significant if they were measured or they could be placeholders.">
+<image mime-type="image/jpeg" src="../../media/CNX_Chem_01_05_SigDigits3_img.jpg"/>
+</media>
+<para id="fs-idm173917264">When determining significant figures, be sure to pay attention to reported values and think about the measurement and significant figures in terms of what is reasonable or likely when evaluating whether the value makes sense. For example, the official January 2014 census reported the resident population of the US as 317,297,725. Do you think the US population was correctly determined to the reported nine significant figures, that is, to the exact number of people? People are constantly being born, dying, or moving into or out of the country, and assumptions are made to account for the large number of people who are not actually counted. Because of these uncertainties, it might be more reasonable to expect that we know the population to within perhaps a million or so, in which case the population should be reported as 3.17 <m:math><m:mo>×</m:mo></m:math> 10<sup>8</sup> people.</para>
+</section>
+<section id="fs-idm191691888">
+<title>Significant Figures in Calculations</title>
+<para id="fs-idm277117616">A second important principle of uncertainty is that results calculated from a measurement are at least as uncertain as the measurement itself. Take the uncertainty in measurements into account to avoid misrepresenting the uncertainty in calculated results. One way to do this is to report the result of a calculation with the correct number of significant figures, which is determined by the following three rules for <term id="term-00005">rounding</term> numbers:</para>
+<list id="fs-idm65809616" list-type="enumerated" number-style="arabic">
+<item>When adding or subtracting numbers, round the result to the same number of decimal places as the number with the least number of decimal places (the least certain value in terms of addition and subtraction).</item>
+<item>When multiplying or dividing numbers, round the result to the same number of digits as the number with the least number of significant figures (the least certain value in terms of multiplication and division).</item>
+<item>If the digit to be dropped (the one immediately to the right of the digit to be retained) is less than 5, “round down” and leave the retained digit unchanged; if it is more than 5, “round up” and increase the retained digit by 1. If the dropped digit is 5, and it’s either the last digit in the number or it’s followed only by zeros, round up or down, whichever yields an even value for the retained digit. If any nonzero digits follow the dropped 5, round up. (The last part of this rule may strike you as a bit odd, but it’s based on reliable statistics and is aimed at avoiding any bias when dropping the digit “5,” since it is equally close to both possible values of the retained digit.)</item>
+</list>
+<para id="fs-idm107335696">The following examples illustrate the application of this rule in rounding a few different numbers to three significant figures:</para>
+<list id="fs-idm192081680" list-type="bulleted" bullet-style="bullet"><item>0.028675 rounds “up” to 0.0287 (the dropped digit, 7, is greater than 5)</item>
+<item>18.3384 rounds “down” to 18.3 (the dropped digit, 3, is less than 5)</item>
+<item>6.8752 rounds “up” to 6.88 (the dropped digit is 5, and a nonzero digit follows it)</item>
+<item>92.85 rounds “down” to 92.8 (the dropped digit is 5, and the retained digit is even)</item>
+</list><para id="fs-idm178562592">Let’s work through these rules with a few examples.</para>
+<example id="fs-idp40552528">
+<para id="fs-idm303504976">
+<title>Rounding Numbers</title>
+Round the following to the indicated number of significant figures:</para>
+<para id="fs-idm277227680">(a) 31.57 (to two significant figures)</para>
+<para id="fs-idm113120528">(b) 8.1649 (to three significant figures)</para>
+<para id="fs-idp33608880">(c) 0.051065 (to four significant figures)</para>
+<para id="fs-idm208861552">(d) 0.90275 (to four significant figures)</para>
+<para id="fs-idm125552432">
+<title>Solution</title>
+(a) 31.57 rounds “up” to 32 (the dropped digit is 5, and the retained digit is even)</para>
+<para id="fs-idm180680048">(b) 8.1649 rounds “down” to 8.16 (the dropped digit, 4, is less than 5)</para><para id="fs-idm167789680">(c) 0.051065 rounds “down” to 0.05106 (the dropped digit is 5, and the retained digit is even)</para>
+<para id="fs-idm174540832">(d) 0.90275 rounds “up” to 0.9028 (the dropped digit is 5, and the retained digit is even)</para>
+<para id="fs-idm185983232">
+<title>Check Your Learning</title>
+Round the following to the indicated number of significant figures:</para>
+<para id="fs-idm69923072">(a) 0.424 (to two significant figures)</para>
+<para id="fs-idm65589936">(b) 0.0038661 (to three significant figures)</para>
+<para id="fs-idm107300848">(c) 421.25 (to four significant figures)</para>
+<para id="fs-idm258155488">(d) 28,683.5 (to five significant figures)</para>
+<note id="fs-idm155369456">
+<title>Answer:</title>
+<para id="fs-idm260724048">(a) 0.42; (b) 0.00387; (c) 421.2; (d) 28,684</para>
+</note>
+</example>
+<example id="fs-idp61408240">
+<para id="fs-idm327587104">
+<title>Addition and Subtraction with Significant Figures</title>
+Rule: When adding or subtracting numbers, round the result to the same number of decimal places as the number with the fewest decimal places (i.e., the least certain value in terms of addition and subtraction).</para>
+<para id="fs-idm318611824">(a) Add 1.0023 g and 4.383 g.</para>
+<para id="fs-idm288438480">(b) Subtract 421.23 g from 486 g.</para>
+<para id="fs-idm277651872">
+<title>Solution</title>
+</para>
+<para id="fs-idm21393952">(a) <m:math><m:mtable columnalign="left"><m:mtr><m:mtd><m:mrow/></m:mtd></m:mtr><m:mtr><m:mtd><m:mtable columnalign="left"><m:mtr columnalign="left"><m:mtd columnalign="left"><m:mrow/></m:mtd></m:mtr><m:mtr columnalign="left"><m:mtd columnalign="left"><m:mrow><m:mfrac><m:mrow><m:mtable><m:mtr><m:mtd><m:mrow><m:mspace width="1.4em"/><m:mn>1.0023 g</m:mn></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd><m:mrow><m:mtext>+ 4.383 g</m:mtext></m:mrow></m:mtd></m:mtr></m:mtable></m:mrow><m:mrow><m:mspace width="1.5em"/><m:mn>5.3853 g</m:mn></m:mrow></m:mfrac></m:mrow></m:mtd></m:mtr></m:mtable></m:mtd></m:mtr></m:mtable></m:math></para>
+<para id="fs-idm107330240">Answer is 5.385 g (round to the thousandths place; three decimal places)</para>
+<para id="fs-idm257863024">(b) <m:math><m:mtable columnalign="left"><m:mtr><m:mtd><m:mtable columnalign="left"><m:mtr columnalign="left"><m:mtd columnalign="left"><m:mrow/></m:mtd></m:mtr><m:mtr columnalign="left"><m:mtd columnalign="left"><m:mrow/></m:mtd></m:mtr></m:mtable></m:mtd></m:mtr><m:mtr><m:mtd><m:mfrac><m:mrow><m:mtable columnalign="left"><m:mtr columnalign="left"><m:mtd columnalign="left"><m:mrow><m:mtext>   </m:mtext><m:mspace width="0.8em"/><m:mn>486 g</m:mn></m:mrow></m:mtd></m:mtr><m:mtr columnalign="left"><m:mtd columnalign="left"><m:mrow><m:mo>−</m:mo><m:mn>421.23 g</m:mn></m:mrow></m:mtd></m:mtr></m:mtable></m:mrow><m:mrow><m:mspace width="1.3em"/><m:mn>64.77 g</m:mn></m:mrow></m:mfrac></m:mtd></m:mtr></m:mtable></m:math></para>
+<para id="fs-idp47889280">Answer is 65 g (round to the ones place; no decimal places)</para>
+<media id="fs-idm330284704" class="scaled-down" alt="Figure A shows 1.0023 being added to 4.383 to yield the answer 5.385. 1.0023 goes to the ten thousandths place, but 4.383 goes to the thousandths place, making it the less precise of the two numbers. Therefore the answer, 5.3853, should be rounded to the thousandths, to yield 5.385. Figure B shows 486 grams minus 421.23 grams, which yields the answer 64.77 grams. This answer should be rounded to the ones place, making the answer 65 grams.">
+<image mime-type="image/jpeg" src="../../media/CNX_Chem_01_05_SigDigits4_img.jpg"/>
+</media>
+<para id="fs-idm97432976">
+<title>Check Your Learning</title>
+(a) Add 2.334 mL and 0.31 mL.</para>
+<para id="fs-idm113279504">(b) Subtract 55.8752 m from 56.533 m.</para>
+<note id="fs-idp26956096">
+<title>Answer:</title>
+<para id="fs-idp40053216">(a) 2.64 mL; (b) 0.658 m</para>
+</note>
+</example>
+<example id="fs-idp34148976">
+<para id="fs-idm194335568">
+<title>Multiplication and Division with Significant Figures</title>
+Rule: When multiplying or dividing numbers, round the result to the same number of digits as the number with the fewest significant figures (the least certain value in terms of multiplication and division).</para>
+<para id="fs-idm176907440">(a) Multiply 0.6238 cm by 6.6 cm.</para>
+<para id="fs-idp40092848">(b) Divide 421.23 g by 486 mL.</para>
+<para id="fs-idm318303792">
+<title>Solution</title>
+</para>
+<para id="fs-idp11052048">(a) <m:math><m:mrow><m:mtable columnalign="left"><m:mtr columnalign="left"><m:mtd columnalign="left"><m:mrow><m:mtable columnalign="left"><m:mtr columnalign="left"><m:mtd columnalign="left"><m:mrow><m:mtext>0.6238 cm</m:mtext><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mn>6.6</m:mn><m:mspace width="0.2em"/><m:mtext>cm</m:mtext><m:mo>=</m:mo><m:mn>4.11708</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>cm</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mspace width="0.2em"/><m:mo stretchy="false">⟶</m:mo><m:mspace width="0.2em"/><m:mtext>result is</m:mtext><m:mspace width="0.2em"/><m:mn>4.1</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>cm</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mspace width="0.2em"/><m:mo stretchy="false">(</m:mo><m:mtext>round to two significant figures</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow></m:mtd></m:mtr><m:mtr columnalign="left"><m:mtd columnalign="left"><m:mrow><m:mtext>four significant figures</m:mtext><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mtext>two significant figures</m:mtext><m:mspace width="0.2em"/><m:mo stretchy="false">⟶</m:mo><m:mspace width="0.2em"/><m:mtext>two significant figures answer</m:mtext></m:mrow></m:mtd></m:mtr></m:mtable></m:mrow></m:mtd></m:mtr></m:mtable></m:mrow></m:math></para>
+<para id="fs-idm194468576">(b) <m:math><m:mtable columnalign="left"><m:mtr><m:mtd><m:mfrac><m:mrow><m:mtext>421.23 g</m:mtext></m:mrow><m:mrow><m:mtext>486 mL</m:mtext></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mo>=</m:mo><m:mtext>0.866728... g/mL</m:mtext><m:mspace width="0.2em"/><m:mo stretchy="false">⟶</m:mo><m:mspace width="0.2em"/><m:mtext>result is 0.867 g/mL</m:mtext><m:mspace width="0.2em"/><m:mrow><m:mo>(</m:mo><m:mrow><m:mtext>round to three significant figures</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd><m:mfrac><m:mrow><m:mtext>five significant figures</m:mtext></m:mrow><m:mrow><m:mtext>three significant figures</m:mtext></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mo stretchy="false">⟶</m:mo><m:mspace width="0.2em"/><m:mtext>three significant figures answer</m:mtext></m:mtd></m:mtr></m:mtable></m:math></para>
+<para id="fs-idp45405152">
+<title>Check Your Learning</title>
+(a) Multiply 2.334 cm and 0.320 cm.</para>
+<para id="fs-idm155228848">(b) Divide 55.8752 m by 56.53 s.</para>
+<note id="fs-idm282773952">
+<title>Answer:</title>
+<para id="fs-idm154957312">(a) 0.747 cm<sup>2</sup> (b) 0.9884 m/s</para>
+</note>
+</example>
+<para id="fs-idp31178224">In the midst of all these technicalities, it is important to keep in mind the reason for these rules about significant figures and rounding—to correctly represent the certainty of the values reported and to ensure that a calculated result is not represented as being more certain than the least certain value used in the calculation.</para>
+<example id="fs-idp40680240">
+<para id="fs-idm180409728">
+<title>Calculation with Significant Figures</title>
+One common bathtub is 13.44 dm long, 5.920 dm wide, and 2.54 dm deep. Assume that the tub is rectangular and calculate its approximate volume in liters.</para>
+<para id="fs-idm209075984">
+<title>Solution</title>
+</para>
+<equation id="fs-idm15365184" class="unnumbered"><m:math><m:mtable columnalign="left"><m:mtr><m:mtd columnalign="left"><m:mi>V</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mi>l</m:mi><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mi>w</m:mi><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mi>d</m:mi></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mtext>13.44 dm</m:mtext><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mtext>5.920 dm</m:mtext><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mtext>2.54 dm</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mtext>202.09459</m:mtext><m:mn>...</m:mn><m:mspace width="0.2em"/><m:msup><m:mtext>dm</m:mtext><m:mn>3</m:mn></m:msup><m:mrow><m:mo>(</m:mo><m:mrow><m:mtext>value from calculator</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:msup><m:mtext>202 dm</m:mtext><m:mn>3</m:mn></m:msup><m:mtext>, or 202 L</m:mtext><m:mspace width="0.2em"/><m:mrow><m:mo>(</m:mo><m:mrow><m:mtext>answer rounded to three significant figures</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mtd></m:mtr></m:mtable></m:math></equation><para id="fs-idm219800928">
+<title>Check Your Learning</title>
+What is the density of a liquid with a mass of 31.1415 g and a volume of 30.13 cm<sup>3</sup>?</para>
+<note id="fs-idm178680064">
+<title>Answer:</title>
+<para id="fs-idm178106592">1.034 g/mL</para>
+</note>
+</example>
+<example id="fs-idm148976192">
+<para id="fs-idp29940656">
+<title>Experimental Determination of Density Using Water Displacement</title>
+A piece of rebar is weighed and then submerged in a graduated cylinder partially filled with water, with results as shown.</para>
+<media id="fs-idm332426528" class="scaled-down" alt="This diagram shows the initial volume of water in a graduated cylinder as 13.5 milliliters. A 69.658 gram piece of metal rebar is added to the graduated cylinder, causing the water to reach a final volume of 22.4 milliliters">
+<image mime-type="image/jpeg" src="../../media/CNX_Chem_01_04_CylRebar.jpg"/>
+</media>
+<para id="fs-idm245394240">(a) Use these values to determine the density of this piece of rebar.</para>
+<para id="fs-idm209220496">(b) Rebar is mostly iron. Does your result in (a) support this statement? How?</para>
+<para id="fs-idm325787440">
+<title>Solution</title>The volume of the piece of rebar is equal to the volume of the water displaced:</para>
+<equation id="fs-idm180698816" class="unnumbered"><m:math><m:mrow><m:mtext>volume</m:mtext><m:mo>=</m:mo><m:mtext>22.4 mL</m:mtext><m:mo>−</m:mo><m:mtext>13.5 mL</m:mtext><m:mo>=</m:mo><m:mtext>8.9 mL</m:mtext><m:mo>=</m:mo><m:msup><m:mrow><m:mtext>8.9 cm</m:mtext></m:mrow><m:mn>3</m:mn></m:msup></m:mrow></m:math></equation><para id="fs-idm181276752">(rounded to the nearest 0.1 mL, per the rule for addition and subtraction)</para>
+<para id="fs-idp36085040">The density is the mass-to-volume ratio:</para>
+<equation id="fs-idp135143440" class="unnumbered"><m:math><m:mrow><m:mtext>density</m:mtext><m:mo>=</m:mo><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:mtext>mass</m:mtext></m:mrow><m:mrow><m:mtext>volume</m:mtext></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mo>=</m:mo><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:mtext>69.658 g</m:mtext></m:mrow><m:mrow><m:msup><m:mrow><m:mtext>8.9 cm</m:mtext></m:mrow><m:mn>3</m:mn></m:msup></m:mrow></m:mfrac><m:mo>=</m:mo><m:msup><m:mrow><m:mtext>7.8 g/cm</m:mtext></m:mrow><m:mn>3</m:mn></m:msup></m:mrow></m:math></equation>
+<para id="fs-idm277303296">(rounded to two significant figures, per the rule for multiplication and division)</para>
+<para id="fs-idm243666944">The density of iron is 7.9 g/cm<sup>3</sup>, very close to that of rebar, which lends some support to the fact that rebar is mostly iron.</para>
+<para id="fs-idm259990592">
+<title>Check Your Learning</title>
+An irregularly shaped piece of a shiny yellowish material is weighed and then submerged in a graduated cylinder, with results as shown.</para>
+<media id="fs-idm283007920" class="scaled-down" alt="This diagram shows the initial volume of water in a graduated cylinder as 17.1 milliliters. A 51.842 gram gold colored rock is added to the graduated cylinder, causing the water to reach a final volume of 19.8 milliliters">
+<image mime-type="image/jpeg" src="../../media/CNX_Chem_01_04_CylGold.jpg"/>
+</media>
+<para id="fs-idm272657872">(a) Use these values to determine the density of this material.</para>
+<para id="fs-idm166920160">(b) Do you have any reasonable guesses as to the identity of this material? Explain your reasoning.</para>
+<note id="fs-idm113054800">
+<title>Answer:</title>
+<para id="fs-idm287839728">(a) 19 g/cm<sup>3</sup>; (b) It is likely gold; the right appearance for gold and very close to the density of  gold.</para>
+</note>
+</example>
+</section>
+<section id="fs-idp33954960">
+<title>Accuracy and Precision</title>
+<para id="fs-idp4474304">Scientists typically make repeated measurements of a quantity to ensure the quality of their findings and to evaluate both the <term id="term-00006">precision</term> and the <term id="term-00007">accuracy</term> of their results. Measurements are said to be precise if they yield very similar results when repeated in the same manner. A measurement is considered accurate if it yields a result that is very close to the true or accepted value. Precise values agree with each other; accurate values agree with a true value. These characterizations can be extended to other contexts, such as the results of an archery competition (<link target-id="fs-idm1827280"/>).</para>
+<figure id="fs-idm1827280">
+<media id="fs-idp4898080" alt="Figures A through C each show targets with holes where the arrows hit. The archer in figure A was both accurate and precise as all 3 arrows are clustered in the center of the target. In figure B, the archer is precise but not accurate, as all 3 arrows are clustered together but to the upper right of the center of the target. In Figure C, the archer is neither accurate nor precise as the 3 holes are not close together and are located both to the upper right and right of the target.">
+<image mime-type="image/jpg" src="../../media/CNX_Chem_01_05_Archery.jpg"/>
+</media>
+<caption>(a) These arrows are close to both the bull’s eye and one another, so they are both accurate and precise. (b) These arrows are close to one another but not on target, so they are precise but not accurate. (c) These arrows are neither on target nor close to one another, so they are neither accurate nor precise.</caption>
+</figure>
+<para id="fs-idp174984224">Suppose a quality control chemist at a pharmaceutical company is tasked with checking the accuracy and precision of three different machines that are meant to dispense 10 ounces (296 mL) of cough syrup into storage bottles. She proceeds to use each machine to fill five bottles and then carefully determines the actual volume dispensed, obtaining the results tabulated in <link target-id="fs-idp31780400"/>.</para>
+<table id="fs-idp31780400" class="top-titled" summary="The volume, in milliliters, of cough medicine delivered by dispensers 1, 2 and 3 are shown in a table. The values for dispenser 1 are 283.3, 284.1, 283.9, 284.0, and 284.1. The values for dispenser 2 are 298.3, 294.2, 296.0, 297.8, and 293.9. The values for dispenser 3 are 296.1, 295.9, 296.1, 296.0, and 296.1.">
+<tgroup cols="3">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<thead>
+<row valign="top">
+<entry namest="c1" nameend="c3" align="center">Volume (mL) of Cough Medicine Delivered by 10-oz (296 mL) Dispensers</entry>
+</row>
+<row valign="top">
+<entry align="left">Dispenser #1</entry>
+<entry align="left">Dispenser #2</entry>
+<entry align="left">Dispenser #3</entry>
+</row>
+</thead>
+<tbody>
+<row valign="top">
+<entry align="left">283.3</entry>
+<entry align="left">298.3</entry>
+<entry align="left">296.1</entry>
+</row>
+<row valign="top">
+<entry align="left">284.1</entry>
+<entry align="left">294.2</entry>
+<entry align="left">295.9</entry>
+</row>
+<row valign="top">
+<entry align="left">283.9</entry>
+<entry align="left">296.0</entry>
+<entry align="left">296.1</entry>
+</row>
+<row valign="top">
+<entry align="left">284.0</entry>
+<entry align="left">297.8</entry>
+<entry align="left">296.0</entry>
+</row>
+<row valign="top">
+<entry align="left">284.1</entry>
+<entry align="left">293.9</entry>
+<entry align="left">296.1</entry>
+</row>
+</tbody>
+
+</tgroup>
+</table>
+<para id="fs-idp4939264">Considering these results, she will report that dispenser #1 is precise (values all close to one another, within a few tenths of a milliliter) but not accurate (none of the values are close to the target value of 296 mL, each being more than 10 mL too low). Results for dispenser #2 represent improved accuracy (each volume is less than 3 mL away from 296 mL) but worse precision (volumes vary by more than 4 mL). Finally, she can report that dispenser #3 is working well, dispensing cough syrup both accurately (all volumes within 0.1 mL of the target volume) and precisely (volumes differing from each other by no more than 0.2 mL).</para>
+</section>
+<section id="fs-idp223627024" class="summary">
+<title>Key Concepts and Summary</title>
+<para id="fs-idp108718096">Quantities can be defined or measured. Measured quantities have an associated uncertainty that is represented by the number of significant figures in the quantity’s number. The uncertainty of a calculated quantity depends on the uncertainties in the quantities used in the calculation and is reflected in how the value is rounded. Quantities are characterized with regard to accuracy (closeness to a true or accepted value) and precision (variation among replicate measurement results).</para>
+</section>
+<section id="fs-idp243777760" class="exercises">
+<title>Chemistry End of Chapter Exercises</title>
+<exercise id="fs-idm29064528">
+<problem id="fs-idm48613136">
+<para id="fs-idp4785280">Express each of the following numbers in scientific notation with correct significant figures:</para>
+<para id="fs-idp96669248">(a) 711.0</para>
+<para id="fs-idp27687952">(b) 0.239</para>
+<para id="fs-idp31496192">(c) 90743</para>
+<para id="fs-idm49076928">(d) 134.2</para>
+<para id="fs-idp94731152">(e) 0.05499</para>
+<para id="fs-idp109822816">(f) 10000.0</para>
+<para id="fs-idp90485424">(g) 0.000000738592</para>
+</problem>
+</exercise>
+<exercise id="fs-idp24074624">
+<problem id="fs-idp90864864">
+<para id="fs-idp90495520">Express each of the following numbers in exponential notation with correct significant figures:</para>
+<para id="fs-idp158645376">(a) 704</para>
+<para id="fs-idp31070976">(b) 0.03344</para>
+<para id="fs-idp133945968">(c) 547.9</para>
+<para id="fs-idp16168048">(d) 22086</para>
+<para id="fs-idp3115552">(e) 1000.00</para>
+<para id="fs-idp55691168">(f) 0.0000000651</para>
+<para id="fs-idp19768032">(g) 0.007157</para>
+</problem>
+<solution id="fs-idp74376528">
+<para id="fs-idp28073776">(a) 7.04 <m:math><m:mo>×</m:mo></m:math> 10<sup>2</sup>; (b) 3.344 <m:math><m:mo>×</m:mo></m:math> 10<sup>−2</sup>; (c) 5.479 <m:math><m:mo>×</m:mo></m:math> 10<sup>2</sup>; (d) 2.2086 <m:math><m:mo>×</m:mo></m:math> 10<sup>4</sup>; (e) 1.00000 <m:math><m:mo>×</m:mo></m:math> 10<sup>3</sup>; (f) 6.51 <m:math><m:mo>×</m:mo></m:math> 10<sup>−8</sup>; (g) 7.157 <m:math><m:mo>×</m:mo></m:math> 10<sup>−3</sup></para>
+</solution>
+</exercise>
+<exercise id="fs-idp26053648">
+<problem id="fs-idm33429632">
+<para id="fs-idp336803088">Indicate whether each of the following can be determined exactly or must be measured with some degree of uncertainty:</para>
+<para id="fs-idp14630320">(a) the number of eggs in a basket</para>
+<para id="fs-idp28370912">(b) the mass of a dozen eggs</para>
+<para id="fs-idp223534496">(c) the number of gallons of gasoline necessary to fill an automobile gas tank</para>
+<para id="fs-idp288981408">(d) the number of cm in 2 m</para>
+<para id="fs-idp223527280">(e) the mass of a textbook</para>
+<para id="fs-idp115215296">(f) the time required to drive from San Francisco to Kansas City at an average speed of 53 mi/h</para>
+</problem>
+</exercise>
+<exercise id="fs-idp30473840">
+<problem id="fs-idp255833248">
+<para id="fs-idp13543392">Indicate whether each of the following can be determined exactly or must be measured with some degree of uncertainty:</para>
+<para id="fs-idp192668592">(a) the number of seconds in an hour</para>
+<para id="fs-idp131489888">(b) the number of pages in this book</para>
+<para id="fs-idp29050000">(c) the number of grams in your weight</para>
+<para id="fs-idp40603568">(d) the number of grams in 3 kilograms</para>
+<para id="fs-idp42867296">(e) the volume of water you drink in one day</para>
+<para id="fs-idp5273504">(f) the distance from San Francisco to Kansas City</para>
+</problem>
+<solution id="fs-idp32015744">
+<para id="fs-idp120430064">(a) exact; (b) exact; (c) uncertain; (d) exact; (e) uncertain; (f) uncertain</para>
+</solution>
+</exercise>
+<exercise id="fs-idp191983136">
+<problem id="fs-idp8201520">
+<para id="fs-idp44784160">How many significant figures are contained in each of the following measurements?</para>
+<para id="fs-idp11261600">(a) 38.7 g</para>
+<para id="fs-idp108771792">(b) 2 <m:math><m:mo>×</m:mo></m:math> 10<sup>18</sup> m</para>
+<para id="fs-idp1326800">(c) 3,486,002 kg</para>
+<para id="fs-idp45208768">(d) 9.74150 <m:math><m:mo>×</m:mo></m:math> 10<sup>−4</sup> J</para>
+<para id="fs-idp70796512">(e) 0.0613 cm<sup>3</sup></para>
+<para id="fs-idp11528432">(f) 17.0 kg</para>
+<para id="fs-idp18835104">(g) 0.01400 g/mL</para>
+</problem>
+</exercise>
+<exercise id="fs-idp16088144">
+<problem id="fs-idp36001056">
+<para id="fs-idp288732592">How many significant figures are contained in each of the following measurements?</para>
+<para id="fs-idp191599120">(a) 53 cm</para>
+<para id="fs-idp349577664">(b) 2.05 <m:math><m:mo>×</m:mo></m:math> 10<sup>8</sup> m</para>
+<para id="fs-idp122538384">(c) 86,002 J</para>
+<para id="fs-idm7027952">(d) 9.740 <m:math><m:mo>×</m:mo></m:math> 10<sup>4</sup> m/s</para>
+<para id="fs-idp135014480">(e) 10.0613 m<sup>3</sup>
+</para>
+<para id="fs-idp115902336">(f) 0.17 g/mL</para>
+<para id="fs-idp89571696">(g) 0.88400 s</para>
+</problem>
+<solution id="fs-idp16481200">
+<para id="fs-idm1331360">(a) two; (b) three; (c) five; (d) four; (e) six; (f) two; (g) five</para>
+</solution>
+</exercise>
+<exercise id="fs-idp334498416">
+<problem id="fs-idp18234160">
+<para id="fs-idp10861136">The following quantities were reported on the labels of commercial products. Determine the number of significant figures in each.</para>
+<para id="fs-idp18329968">(a) 0.0055 g active ingredients</para>
+<para id="fs-idp42748272">(b) 12 tablets</para>
+<para id="fs-idp220641424">(c) 3% hydrogen peroxide</para>
+<para id="fs-idm9127744">(d) 5.5 ounces</para>
+<para id="fs-idp30889968">(e) 473 mL</para>
+<para id="fs-idm29427408">(f) 1.75% bismuth</para>
+<para id="fs-idp10568624">(g) 0.001% phosphoric acid</para>
+<para id="fs-idp26918208">(h) 99.80% inert ingredients</para>
+</problem>
+</exercise>
+<exercise id="fs-idp15391168">
+<problem id="fs-idp28803232">
+<para id="fs-idp71208752">Round off each of the following numbers to two significant figures:</para>
+<para id="fs-idp367138576">(a) 0.436</para>
+<para id="fs-idp42876384">(b) 9.000</para>
+<para id="fs-idp319885952">(c) 27.2</para>
+<para id="fs-idp3364208">(d) 135</para>
+<para id="fs-idp180954912">(e) 1.497 <m:math><m:mo>×</m:mo></m:math> 10<sup>−3</sup></para>
+<para id="fs-idm38730144">(f) 0.445</para>
+</problem>
+<solution id="fs-idp334708000">
+<para id="fs-idp133316128">(a) 0.44; (b) 9.0; (c) 27; (d) 140; (e) 1.5 <m:math><m:mo>×</m:mo></m:math> 10<sup>−3</sup>; (f) 0.44</para></solution>
+</exercise>
+<exercise id="fs-idp108082000">
+<problem id="fs-idp131536960">
+<para id="fs-idp133328560">Round off each of the following numbers to two significant figures:</para>
+<para id="fs-idp119500528">(a) 517</para>
+<para id="fs-idp329265168">(b) 86.3</para>
+<para id="fs-idp79802960">(c) 6.382 <m:math><m:mo>×</m:mo></m:math> 10<sup>3</sup></para>
+<para id="fs-idp79596720">(d) 5.0008</para>
+<para id="fs-idp10810592">(e) 22.497</para>
+<para id="fs-idp329422320">(f) 0.885</para>
+</problem>
+</exercise>
+<exercise id="fs-idp358584288">
+<problem id="fs-idp95370032">
+<para id="fs-idp192379952">Perform the following calculations and report each answer with the correct number of significant figures.</para>
+<para id="fs-idp101772784">(a) 628 <m:math><m:mo>×</m:mo></m:math> 342</para>
+<para id="fs-idp64911376">(b) (5.63 <m:math><m:mo>×</m:mo></m:math> 10<sup>2</sup>) <m:math><m:mo>×</m:mo></m:math> (7.4 <m:math><m:mo>×</m:mo></m:math> 10<sup>3</sup>)</para>
+<para id="fs-idp43333760">(c) <m:math><m:mrow><m:mfrac><m:mrow><m:mn>28.0</m:mn></m:mrow><m:mrow><m:mn>13.483</m:mn></m:mrow></m:mfrac></m:mrow></m:math></para>
+<para id="fs-idp33766256">(d) 8119 <m:math><m:mo>×</m:mo></m:math> 0.000023</para>
+<para id="fs-idp2544704">(e) 14.98 + 27,340 + 84.7593</para>
+<para id="fs-idp114767776">(f) 42.7 + 0.259</para>
+</problem>
+<solution id="fs-idp10779280">
+<para id="fs-idp42820064">(a) 2.15 <m:math><m:mo>×</m:mo></m:math> 10<sup>5</sup>; (b) 4.2 <m:math><m:mo>×</m:mo></m:math> 10<sup>6</sup>; (c) 2.08; (d) 0.19; (e) 27,440; (f) 43.0</para>
+</solution>
+</exercise>
+<exercise id="fs-idp356573616">
+<problem id="fs-idp10636032">
+<para id="fs-idp7188816">Perform the following calculations and report each answer with the correct number of significant figures.</para>
+<para id="fs-idm37142896">(a) 62.8 <m:math><m:mo>×</m:mo></m:math> 34</para>
+<para id="fs-idp61690240">(b) 0.147 + 0.0066 + 0.012</para>
+<para id="fs-idp24061616">(c) 38 <m:math><m:mo>×</m:mo></m:math> 95 <m:math><m:mo>×</m:mo></m:math> 1.792</para>
+<para id="fs-idp27126640">(d) 15 – 0.15 – 0.6155</para>
+<para id="fs-idp288811424">(e) <m:math><m:mrow><m:mn>8.78</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:mn>0.0500</m:mn></m:mrow><m:mrow><m:mn>0.478</m:mn></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+<para id="fs-idp67824512">(f) 140 + 7.68 + 0.014</para>
+<para id="fs-idp133759616">(g) 28.7 – 0.0483</para>
+<para id="fs-idp14335968">(h) <m:math><m:mrow><m:mfrac><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>88.5</m:mn><m:mo>−</m:mo><m:mn>87.57</m:mn><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:mn>45.13</m:mn></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-idp30946992">
+<problem id="fs-idp4924640">
+<para id="fs-idp14168896">Consider the results of the archery contest shown in this figure.</para>
+<para id="fs-idp29005776">(a) Which archer is most precise?</para>
+<para id="fs-idp32003568">(b) Which archer is most accurate?</para>
+<para id="fs-idp110085200">(c) Who is both least precise and least accurate?</para>
+<media id="fs-idp94481888" class="scaled-down" alt="4 targets are shown each with 4 holes indicating where the arrows hit the targets. Archer W put all 4 arrows closely around the center of the target. Archer X put all 4 arrows in a tight cluster but far to the lower right of the target. Archer Y put all 4 arrows at different corners of the target. All 4 arrows are very far from the center of the target. Archer Z put 2 arrows close to the target and 2 other arrows far outside of the target.">
+<image mime-type="image/jpeg" src="../../media/CNX_Chem_01_05_Archer2_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-idp175189888">
+<para id="fs-idp27840096">(a) Archer X; (b) Archer W; (c) Archer Y</para>
+</solution>
+</exercise>
+<exercise id="fs-idp33718320">
+<problem id="fs-idp29543472">
+<para id="fs-idp221159488">Classify the following sets of measurements as accurate, precise, both, or neither.</para>
+<para id="fs-idp3093664">(a) Checking for consistency in the weight of chocolate chip cookies: 17.27 g, 13.05 g, 19.46 g, 16.92 g</para>
+<para id="fs-idp29102224">(b) Testing the volume of a batch of 25-mL pipettes: 27.02 mL, 26.99 mL, 26.97 mL, 27.01 mL</para>
+<para id="fs-idp223487632">(c) Determining the purity of gold: 99.9999%, 99.9998%, 99.9998%, 99.9999%</para>
+</problem>
+</exercise>
+</section>
+   </content>
+<glossary>
+<definition id="fs-idp330245120">
+<term>accuracy</term>
+<meaning id="fs-idp158598000">how closely a measurement aligns with a correct value</meaning>
+</definition>
+<definition id="fs-idp17670352">
+<term>exact number</term>
+<meaning id="fs-idp332502464">number derived by counting or by definition</meaning>
+</definition>
+<definition id="fs-idp28800512">
+<term>precision</term>
+<meaning id="fs-idp121044464">how closely a measurement matches the same measurement when repeated</meaning>
+</definition>
+<definition id="fs-idp68905696">
+<term>rounding</term>
+<meaning id="fs-idp21808480">procedure used to ensure that calculated results properly reflect the uncertainty in the measurements used in the calculation</meaning>
+</definition>
+<definition id="def-00001"><term>significant digits</term><meaning> (also, <emphasis>significant figures</emphasis>) all of the measured digits in a determination, including the uncertain last digit </meaning></definition>
+<definition id="fs-idp3346000">
+<term>significant figures</term>
+<meaning id="fs-idp130723504">(also, <emphasis>significant digits</emphasis>) all of the measured digits in a determination, including the uncertain last digit</meaning>
+</definition>
+<definition id="fs-idp96606928">
+<term>uncertainty</term>
+<meaning id="fs-idp190958640">estimate of amount by which measurement differs from true value</meaning>
+</definition>
+</glossary>
+
+</document>
